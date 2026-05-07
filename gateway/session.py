@@ -595,10 +595,16 @@ def build_session_key(
     source: SessionSource,
     group_sessions_per_user: bool = True,
     thread_sessions_per_user: bool = False,
+    profile_name: Optional[str] = None,
 ) -> str:
     """Build a deterministic session key from a message source.
 
     This is the single source of truth for session key construction.
+
+    When *profile_name* is set (e.g. "trader"), the key prefix becomes
+    ``agent:{profile_name}:`` instead of the default ``agent:main:``.
+    This ensures profile-routed sessions are isolated from the default
+    profile's session store.
 
     DM rules:
       - DMs include chat_id when present, so each private conversation is isolated.
@@ -625,13 +631,14 @@ def build_session_key(
         if source.platform == Platform.WHATSAPP:
             dm_chat_id = canonical_whatsapp_identifier(source.chat_id)
 
+        profile = profile_name or "main"
         if dm_chat_id:
             if source.thread_id:
-                return f"agent:main:{platform}:dm:{dm_chat_id}:{source.thread_id}"
-            return f"agent:main:{platform}:dm:{dm_chat_id}"
+                return f"agent:{profile}:{platform}:dm:{dm_chat_id}:{source.thread_id}"
+            return f"agent:{profile}:{platform}:dm:{dm_chat_id}"
         if source.thread_id:
-            return f"agent:main:{platform}:dm:{source.thread_id}"
-        return f"agent:main:{platform}:dm"
+            return f"agent:{profile}:{platform}:dm:{source.thread_id}"
+        return f"agent:{profile}:{platform}:dm"
 
     participant_id = source.user_id_alt or source.user_id
     if participant_id and source.platform == Platform.WHATSAPP:
@@ -639,7 +646,8 @@ def build_session_key(
         # single group member gets two isolated per-user sessions when the
         # bridge reshuffles alias forms.
         participant_id = canonical_whatsapp_identifier(str(participant_id)) or participant_id
-    key_parts = ["agent:main", platform, source.chat_type]
+    profile = profile_name or "main"
+    key_parts = ["agent", profile, platform, source.chat_type]
 
     if source.chat_id:
         key_parts.append(source.chat_id)
@@ -735,12 +743,13 @@ class SessionStore:
                 logger.debug("Could not remove temp file %s: %s", tmp_path, e)
             raise
     
-    def _generate_session_key(self, source: SessionSource) -> str:
+    def _generate_session_key(self, source: SessionSource, profile_name: Optional[str] = None) -> str:
         """Generate a session key from a source."""
         return build_session_key(
             source,
             group_sessions_per_user=getattr(self.config, "group_sessions_per_user", True),
             thread_sessions_per_user=getattr(self.config, "thread_sessions_per_user", False),
+            profile_name=profile_name,
         )
     
     def _is_session_expired(self, entry: SessionEntry) -> bool:
@@ -781,17 +790,17 @@ class SessionStore:
 
         return False
 
-    def _should_reset(self, entry: SessionEntry, source: SessionSource) -> Optional[str]:
+    def _should_reset(self, entry: SessionEntry, source: SessionSource, profile_name: Optional[str] = None) -> Optional[str]:
         """
         Check if a session should be reset based on policy.
-        
+
         Returns the reset reason ("idle" or "daily") if a reset is needed,
         or None if the session is still valid.
-        
+
         Sessions with active background processes are never reset.
         """
         if self._has_active_processes_fn:
-            session_key = self._generate_session_key(source)
+            session_key = self._generate_session_key(source, profile_name=profile_name)
             if self._has_active_processes_fn(session_key):
                 return None
 
@@ -850,7 +859,8 @@ class SessionStore:
     def get_or_create_session(
         self,
         source: SessionSource,
-        force_new: bool = False
+        force_new: bool = False,
+        profile_name: Optional[str] = None,
     ) -> SessionEntry:
         """
         Get an existing session or create a new one.
@@ -858,7 +868,7 @@ class SessionStore:
         Evaluates reset policy to determine if the existing session is stale.
         Creates a session record in SQLite when a new session starts.
         """
-        session_key = self._generate_session_key(source)
+        session_key = self._generate_session_key(source, profile_name=profile_name)
         now = _now()
 
         # SQLite calls are made outside the lock to avoid holding it during I/O.
@@ -891,7 +901,7 @@ class SessionStore:
                     self._save()
                     return entry
                 else:
-                    reset_reason = self._should_reset(entry, source)
+                    reset_reason = self._should_reset(entry, source, profile_name=profile_name)
                 if not reset_reason:
                     entry.updated_at = now
                     self._save()

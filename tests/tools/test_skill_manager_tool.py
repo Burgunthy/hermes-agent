@@ -586,6 +586,25 @@ class TestSkillManageDispatcher:
         assert result["success"] is False
         assert "does not exist" in result["error"]
 
+    def test_delete_via_dispatcher_threads_absorbed_into(self, tmp_path):
+        # Dispatcher must plumb absorbed_into through to _delete_skill so the
+        # validation + message suffix paths are exercised end-to-end.
+        with _skill_dir(tmp_path):
+            skill_manage(action="create", name="umbrella", content=VALID_SKILL_CONTENT)
+            skill_manage(action="create", name="narrow", content=VALID_SKILL_CONTENT)
+            raw = skill_manage(action="delete", name="narrow", absorbed_into="umbrella")
+        result = json.loads(raw)
+        assert result["success"] is True
+        assert "absorbed into 'umbrella'" in result["message"]
+
+    def test_delete_via_dispatcher_rejects_missing_absorbed_target(self, tmp_path):
+        with _skill_dir(tmp_path):
+            skill_manage(action="create", name="narrow", content=VALID_SKILL_CONTENT)
+            raw = skill_manage(action="delete", name="narrow", absorbed_into="ghost")
+        result = json.loads(raw)
+        assert result["success"] is False
+        assert "does not exist" in result["error"]
+
 
 class TestSecurityScanGate:
     """_security_scan_skill is gated by skills.guard_agent_created config flag."""
