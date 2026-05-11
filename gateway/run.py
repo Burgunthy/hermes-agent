@@ -1755,6 +1755,16 @@ class GatewayRunner:
             logger.warning("profile routing: failed to load resources for profile '%s': %s", profile_name, e)
         return None
 
+    def _resolve_profile_context(self, profile_name):
+        if not profile_name:
+            return False, None
+        from hermes_cli.profiles import get_profile_dir
+        profile_dir = get_profile_dir(profile_name)
+        mem_dir = str(profile_dir / "memories")
+        personality = self._load_profile_personality(profile_name)
+        resources = self._load_profile_resources(profile_name)
+        return bool(personality or resources), mem_dir
+
     @staticmethod
     def _apply_profile_overrides(profile_name: str | None, config: "GatewayConfig") -> dict | None:
         """Apply profile-specific model/tool overrides from config."""
@@ -7613,27 +7623,18 @@ class GatewayRunner:
             }
             await self.hooks.emit("agent:start", hook_ctx)
 
-            # Inject routed profile resources
-            _profile_skip_defaults = False
-            _profile_mem_dir = None
-            if profile_name:
-                # TODO: resolve profile_dir once and pass to avoid 3x get_profile_dir calls
-                from hermes_cli.profiles import get_profile_dir as _get_profile_dir
-                _profile_mem_dir = str(_get_profile_dir(profile_name) / 'memories')
-                _profile_personality = self._load_profile_personality(profile_name)
-                _profile_resources = self._load_profile_resources(profile_name)
-                if _profile_personality or _profile_resources:
-                    _profile_skip_defaults = True  # skip_context_files only
-                    _profile_parts = []
-                    if _profile_personality:
-                        _profile_parts.append(_profile_personality)
-                    if _profile_resources:
-                        _profile_parts.append(_profile_resources)
-                    context_prompt = "\n\n".join(_profile_parts) + "\n\n" + context_prompt
-                    logger.info("profile routing: profile=%s skip_defaults=True personality=%d resources=%d",
-                                profile_name, len(_profile_personality or ""),
-                                len([x for x in [_profile_resources] if x]))
-
+            _profile_skip_defaults, _profile_mem_dir = self._resolve_profile_context(profile_name)
+            if profile_name and _profile_skip_defaults:
+                _personality = self._load_profile_personality(profile_name)
+                _resources = self._load_profile_resources(profile_name)
+                _parts = []
+                if _personality:
+                    _parts.append(_personality)
+                if _resources:
+                    _parts.append(_resources)
+                context_prompt = "\n\n".join(_parts) + "\n\n" + context_prompt
+                logger.info("profile routing: profile=%s skip_defaults=True personality=%d resources=%d",
+                            profile_name, len(_personality or ""), 1 if _resources else 0)
             # Run the agent
             agent_result = await self._run_agent(
                 message=message_text,
@@ -10418,18 +10419,8 @@ class GatewayRunner:
             self._service_tier = self._load_service_tier()
             turn_route = self._resolve_turn_agent_config(prompt, model, runtime_kwargs)
 
-            # Profile routing for background task
             _bg_profile = self._profile_name_for_source(source)
-            _bg_skip_defaults = False
-            _bg_mem_dir = None
-            if _bg_profile:
-                from hermes_cli.profiles import get_profile_dir as _get_pd
-                _bg_mem_dir = str(_get_pd(_bg_profile) / 'memories')
-                _bg_personality = self._load_profile_personality(_bg_profile)
-                _bg_resources = self._load_profile_resources(_bg_profile)
-                if _bg_personality or _bg_resources:
-                    _bg_skip_defaults = True
-
+            _bg_skip_defaults, _bg_mem_dir = self._resolve_profile_context(_bg_profile)
             def run_sync():
                 agent = AIAgent(
                     model=turn_route["model"],
