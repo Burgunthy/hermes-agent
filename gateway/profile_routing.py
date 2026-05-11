@@ -106,6 +106,9 @@ def parse_profile_routes(raw: List[Dict]) -> List[ProfileRoute]:
         try:
             route = ProfileRoute.from_dict(entry)
             if route.enabled:
+                if route.thread_id and not route.chat_id:
+                    logger.warning("ProfileRoute '%s': thread_id set without chat_id, "
+                                   "this may match across channels", route.name)
                 routes.append(route)
         except (ValueError, KeyError):
             continue
@@ -119,8 +122,6 @@ def match_profile_route(
     routes: List[ProfileRoute],
 ) -> Optional[ProfileRoute]:
     for route in routes:
-        if not route.enabled:
-            continue
         if route.platform != source.platform:
             continue
         if route.thread_id:

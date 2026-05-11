@@ -1040,8 +1040,6 @@ def _parse_session_key(session_key: str) -> "dict | None":
         }
         if len(parts) > 5 and parts[3] in ("dm", "thread"):
             result["thread_id"] = parts[5]
-        if profile != "main":
-            return result
         return result
     return None
 
@@ -1724,8 +1722,7 @@ class GatewayRunner:
         return None
 
     def _load_profile_resources(self, profile_name: str) -> str | None:
-        """Load SOUL.md, memory, and USER.md from a named profile directory.
-        Auto-creates memories/ directory if missing. Returns combined text or None."""
+        """Load SOUL.md from a named profile directory and ensure resource files exist. MEMORY.md and USER.md are loaded by MemoryStore via profile_memory_dir."""
         try:
             from hermes_cli.profiles import get_profile_dir
             profile_dir = get_profile_dir(profile_name)
@@ -7620,6 +7617,7 @@ class GatewayRunner:
             _profile_skip_defaults = False
             _profile_mem_dir = None
             if profile_name:
+                # TODO: resolve profile_dir once and pass to avoid 3x get_profile_dir calls
                 from hermes_cli.profiles import get_profile_dir as _get_profile_dir
                 _profile_mem_dir = str(_get_profile_dir(profile_name) / 'memories')
                 _profile_personality = self._load_profile_personality(profile_name)
@@ -7648,7 +7646,7 @@ class GatewayRunner:
                 event_message_id=self._reply_anchor_for_event(event),
                 channel_prompt=event.channel_prompt,
                 _profile_skip_defaults=_profile_skip_defaults,
-                    _profile_memory_dir=_profile_mem_dir,
+                _profile_memory_dir=_profile_mem_dir,
             )
 
             # Stop persistent typing indicator now that the agent is done
@@ -10420,6 +10418,18 @@ class GatewayRunner:
             self._service_tier = self._load_service_tier()
             turn_route = self._resolve_turn_agent_config(prompt, model, runtime_kwargs)
 
+            # Profile routing for background task
+            _bg_profile = self._profile_name_for_source(source)
+            _bg_skip_defaults = False
+            _bg_mem_dir = None
+            if _bg_profile:
+                from hermes_cli.profiles import get_profile_dir as _get_pd
+                _bg_mem_dir = str(_get_pd(_bg_profile) / 'memories')
+                _bg_personality = self._load_profile_personality(_bg_profile)
+                _bg_resources = self._load_profile_resources(_bg_profile)
+                if _bg_personality or _bg_resources:
+                    _bg_skip_defaults = True
+
             def run_sync():
                 agent = AIAgent(
                     model=turn_route["model"],
@@ -10448,9 +10458,9 @@ class GatewayRunner:
                     thread_id=source.thread_id,
                     session_db=self._session_db,
                     fallback_model=self._fallback_model,
-                    skip_memory=False,  # profile: memory enabled, uses profile dir
-                    skip_context_files=_profile_skip_defaults,
-                    profile_memory_dir=str(mem_dir) if profile_name else None,
+                    skip_memory=False,
+                    skip_context_files=_bg_skip_defaults,
+                    profile_memory_dir=_bg_mem_dir,
                 )
                 try:
                     return agent.run_conversation(
