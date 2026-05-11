@@ -144,11 +144,15 @@ def profile_list() -> str:
 def route_add(
     name: str,
     platform: str,
-    chat_id: str,
     profile: str,
+    chat_id: Optional[str] = None,
+    guild_id: Optional[str] = None,
     enabled: bool = True,
 ) -> str:
     """Add a profile route to config.yaml and hot-reload."""
+    if not chat_id and not guild_id:
+        return "Error: At least one of 'chat_id' or 'guild_id' required for add_route"
+
     # Verify profile exists
     if not (_PROFILES_DIR / profile / "config.yaml").exists():
         return f"Error: Profile '{profile}' not found. Create it first with action='create_profile'."
@@ -156,7 +160,6 @@ def route_add(
     config = _read_config()
 
     routes = config.get("profile_routes", [])
-    # Check for duplicate name
     for r in routes:
         if r.get("name") == name:
             return f"Error: Route '{name}' already exists. Use action='update_route' to modify it."
@@ -164,17 +167,21 @@ def route_add(
     new_route = {
         "name": name,
         "platform": platform,
-        "chat_id": str(chat_id),
         "profile": profile,
         "enabled": enabled,
     }
+    if chat_id:
+        new_route["chat_id"] = str(chat_id)
+    if guild_id:
+        new_route["guild_id"] = str(guild_id)
     routes.append(new_route)
     config["profile_routes"] = routes
     _write_config(config)
 
     _invalidate_route_cache()
 
-    return f"Route '{name}' added: {platform} channel {chat_id} → profile '{profile}' (hot-reloaded)"
+    target = f"guild {guild_id}" if guild_id and not chat_id else f"channel {chat_id}"
+    return f"Route '{name}' added: {platform} {target} → profile '{profile}' (hot-reloaded)"
 
 
 def route_remove(name: str) -> str:
@@ -205,9 +212,13 @@ def route_list() -> str:
     lines = []
     for r in routes:
         status = "enabled" if r.get("enabled", True) else "disabled"
-        lines.append(
-            f"  {r['name']}: {r['platform']} chat_id={r.get('chat_id', '?')} → profile='{r['profile']}' ({status})"
-        )
+        parts = [f"  {r['name']}: {r['platform']}"]
+        if r.get('guild_id'):
+            parts.append(f"guild={r['guild_id']}")
+        if r.get('chat_id'):
+            parts.append(f"chat_id={r['chat_id']}")
+        parts.append(f"→ profile='{r['profile']}' ({status})")
+        lines.append(" ".join(parts))
     return "Current routes:\n" + "\n".join(lines)
 
 
@@ -219,6 +230,7 @@ def profile_manager(
     provider: Optional[str] = None,
     platform: Optional[str] = None,
     chat_id: Optional[str] = None,
+    guild_id: Optional[str] = None,
     profile: Optional[str] = None,
     enabled: bool = True,
     **kwargs,
@@ -244,9 +256,9 @@ def profile_manager(
         return profile_list()
 
     elif action == "add_route":
-        if not name or not platform or not chat_id or not profile:
-            return "Error: 'name', 'platform', 'chat_id', 'profile' required for add_route"
-        return route_add(name, platform, chat_id, profile, enabled)
+        if not name or not platform or not profile:
+            return "Error: 'name', 'platform', 'profile' required for add_route"
+        return route_add(name, platform, profile, chat_id=chat_id, guild_id=guild_id, enabled=enabled)
 
     elif action == "remove_route":
         if not name:
@@ -271,7 +283,7 @@ Use action='update_profile' to change a profile's personality or model.
 Use action='remove_route' or 'remove_profile' to delete entries.
 
 When a user says "make a profile for this channel" or similar, infer the platform and chat_id
-from the current conversation context (HERMES_SESSION_PLATFORM, HERMES_SESSION_CHAT_ID env vars).""",
+from the current conversation context (HERMES_SESSION_PLATFORM, HERMES_SESSION_CHAT_ID, HERMES_SESSION_GUILD_ID env vars).""",
     "parameters": {
         "type": "object",
         "properties": {
@@ -301,7 +313,11 @@ from the current conversation context (HERMES_SESSION_PLATFORM, HERMES_SESSION_C
             },
             "chat_id": {
                 "type": "string",
-                "description": "Channel/chat ID to route",
+                "description": "Channel/chat ID to route (optional if guild_id provided)",
+            },
+            "guild_id": {
+                "type": "string",
+                "description": "Server/guild ID for server-wide routing (e.g. Discord guild ID)",
             },
             "profile": {
                 "type": "string",
@@ -329,6 +345,7 @@ registry.register(
         provider=args.get("provider"),
         platform=args.get("platform"),
         chat_id=args.get("chat_id"),
+        guild_id=args.get("guild_id"),
         profile=args.get("profile"),
         enabled=args.get("enabled", True),
     ),

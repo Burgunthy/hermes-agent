@@ -9,21 +9,30 @@ Configuration example (config.yaml)::
 
     gateway:
       profile_routes:
-        - name: trader
+        - name: my-server
           platform: discord
-          chat_id: "YOUR_CHANNEL_ID"
+          guild_id: "GUILD_ID"
+          profile: server-default
+        - name: trader-channel
+          platform: discord
+          chat_id: "CHANNEL_ID"
           profile: trader
-          enabled: true
+        - name: specific-thread
+          platform: discord
+          chat_id: "CHANNEL_ID"
+          thread_id: "THREAD_ID"
+          profile: analyst
 
 Matching priority (most specific first):
   1. platform + chat_id + thread_id  (exact thread route)
   2. platform + chat_id             (channel route)
-  3. platform                       (platform-wide default — rare)
-  4. No match → use default "main" profile
+  3. platform + guild_id            (server/guild route)
+  4. platform                       (platform-wide default)
+  5. No match → use default "main" profile
 """
 
 import logging
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from typing import Dict, List, Optional
 
 from .session import SessionSource
@@ -36,23 +45,22 @@ logger = logging.getLogger(__name__)
 class ProfileRoute:
     """A single routing rule that maps a message source to a Hermes profile."""
 
-    name: str  # Human-readable route name (e.g. "trader")
-    platform: Platform  # Which platform this route applies to
-    profile: str  # Profile name (e.g. "trader") — must exist in ~/.hermes/profiles/
+    name: str
+    platform: Platform
+    profile: str
     enabled: bool = True
 
     # Matching criteria (all optional — more specific = higher priority)
-    chat_id: Optional[str] = None  # Match specific channel/group
-    thread_id: Optional[str] = None  # Match specific thread within chat_id
-    user_id: Optional[str] = None  # Match specific user (rarely used)
+    guild_id: Optional[str] = None
+    chat_id: Optional[str] = None
+    thread_id: Optional[str] = None
+    user_id: Optional[str] = None
 
-    # Profile-specific overrides (optional — fall back to profile's config.yaml)
     model: Optional[str] = None
     provider: Optional[str] = None
 
     @classmethod
     def from_dict(cls, data: Dict) -> "ProfileRoute":
-        """Parse a route from a config dict entry."""
         platform_str = data.get("platform", "")
         try:
             platform = Platform(platform_str)
@@ -63,8 +71,9 @@ class ProfileRoute:
         return cls(
             name=data.get("name", "unnamed"),
             platform=platform,
-            profile=data["profile"],  # required
+            profile=data["profile"],
             enabled=data.get("enabled", True),
+            guild_id=data.get("guild_id"),
             chat_id=data.get("chat_id"),
             thread_id=data.get("thread_id"),
             user_id=data.get("user_id"),
@@ -74,11 +83,12 @@ class ProfileRoute:
 
     @property
     def specificity(self) -> int:
-        """Return a specificity score for priority sorting (higher = more specific)."""
         score = 0
         if self.thread_id:
-            score += 4
+            score += 8
         if self.chat_id:
+            score += 4
+        if self.guild_id:
             score += 2
         if self.user_id:
             score += 1
@@ -86,10 +96,6 @@ class ProfileRoute:
 
 
 def parse_profile_routes(raw: List[Dict]) -> List[ProfileRoute]:
-    """Parse a list of raw route dicts into ProfileRoute objects.
-
-    Silently skips invalid entries and logs warnings.
-    """
     routes: List[ProfileRoute] = []
     for entry in raw:
         if not isinstance(entry, dict):
@@ -104,7 +110,6 @@ def parse_profile_routes(raw: List[Dict]) -> List[ProfileRoute]:
         except (ValueError, KeyError):
             continue
 
-    # Sort by specificity descending — most specific routes match first
     routes.sort(key=lambda r: r.specificity, reverse=True)
     return routes
 
@@ -113,36 +118,33 @@ def match_profile_route(
     source: SessionSource,
     routes: List[ProfileRoute],
 ) -> Optional[ProfileRoute]:
-    """Find the best matching route for a message source.
-
-    Returns the first matching route (most specific first) or None for default.
-    """
     for route in routes:
         if not route.enabled:
             continue
-        # Platform must always match
         if route.platform != source.platform:
             continue
-        # If thread_id specified, both chat_id and thread_id must match
         if route.thread_id:
             if source.thread_id != route.thread_id:
                 continue
             if route.chat_id and source.chat_id != route.chat_id:
                 continue
+            if route.guild_id and source.guild_id != route.guild_id:
+                continue
             return route
-        # If chat_id specified (no thread_id), chat_id must match.
-        # For threads, also check parent_chat_id so a route on a parent
-        # channel matches all threads under it.
         if route.chat_id:
             if source.chat_id != route.chat_id and source.parent_chat_id != route.chat_id:
                 continue
+            if route.guild_id and source.guild_id != route.guild_id:
+                continue
             return route
-        # If only user_id specified
+        if route.guild_id:
+            if source.guild_id != route.guild_id:
+                continue
+            return route
         if route.user_id:
             if source.user_id != route.user_id:
                 continue
             return route
-        # Platform-only match (catch-all for this platform)
         return route
 
     return None

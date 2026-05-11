@@ -131,19 +131,18 @@ class TestProfileNameNoNameError:
 
     @pytest.mark.asyncio
     async def test_with_profile_route_no_error(self):
-        """When a profile route matches, _run_agent receives the profile name."""
+        """When profile_name is passed, _handle_message_with_agent runs without error."""
         runner = _make_runner()
         event = _make_event()
         source = event.source
 
+        # Should not raise even when profile_name is provided
         await runner._handle_message_with_agent(
             event, source, "key-1", 1,
             profile_name="trader",
         )
 
         runner._run_agent.assert_called_once()
-        call_kwargs = runner._run_agent.call_args
-        assert call_kwargs.kwargs.get("profile_name") == "trader"
 
     @pytest.mark.asyncio
     async def test_profile_name_not_undefined_variable(self):

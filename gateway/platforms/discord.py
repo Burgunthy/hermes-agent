@@ -3406,6 +3406,8 @@ class DiscordAdapter(BasePlatformAdapter):
             user_name=interaction.user.display_name,
             thread_id=thread_id,
             chat_topic=chat_topic,
+            guild_id=str(interaction.guild_id) if interaction.guild_id else None,
+            parent_chat_id=str(getattr(getattr(interaction, "channel", None), "parent_id", "") or "") or None,
         )
 
         msg_type = MessageType.COMMAND if text.startswith("/") else MessageType.TEXT
@@ -3488,6 +3490,7 @@ class DiscordAdapter(BasePlatformAdapter):
             user_name=interaction.user.display_name,
             thread_id=thread_id,
             chat_topic=chat_topic,
+            guild_id=str(interaction.guild_id) if interaction.guild_id else None,
         )
 
         _parent_channel = self._thread_parent_channel(getattr(interaction, "channel", None))

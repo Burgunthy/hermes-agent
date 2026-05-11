@@ -14,7 +14,7 @@ from gateway.config import Platform
 
 # ── Minimal SessionSource stand-in ──────────────────────────────────
 
-def _make_source(platform="discord", chat_id=None, thread_id=None, user_id=None, chat_type="group", parent_chat_id=None):
+def _make_source(platform="discord", chat_id=None, thread_id=None, user_id=None, chat_type="group", parent_chat_id=None, guild_id=None):
     """Create a fake SessionSource-like object with a real Platform enum."""
     src = MagicMock()
     src.platform = Platform(platform)
@@ -23,6 +23,7 @@ def _make_source(platform="discord", chat_id=None, thread_id=None, user_id=None,
     src.user_id = user_id
     src.chat_type = chat_type
     src.parent_chat_id = parent_chat_id
+    src.guild_id = guild_id
     return src
 
 
@@ -198,5 +199,77 @@ class TestMatchProfileRoute:
             {"name": "other", "platform": "discord", "profile": "other-prof", "chat_id": "100"},
         ])
         source = _make_source(chat_id="200", parent_chat_id="999")
+        match = match_profile_route(source, routes)
+        assert match is None
+
+
+class TestGuildRouting:
+    """Tests for hierarchical guild → channel → thread routing."""
+
+    def test_guild_route_matches_same_guild(self):
+        routes = parse_profile_routes([
+            {"name": "my-server", "platform": "discord", "profile": "server-default", "guild_id": "guild1"},
+        ])
+        source = _make_source(guild_id="guild1")
+        match = match_profile_route(source, routes)
+        assert match is not None
+        assert match.profile == "server-default"
+
+    def test_guild_route_no_match_different_guild(self):
+        routes = parse_profile_routes([
+            {"name": "my-server", "platform": "discord", "profile": "server-default", "guild_id": "guild1"},
+        ])
+        source = _make_source(guild_id="guild2")
+        match = match_profile_route(source, routes)
+        assert match is None
+
+    def test_channel_overrides_guild(self):
+        """A channel-specific route should override a guild-wide route."""
+        routes = parse_profile_routes([
+            {"name": "server", "platform": "discord", "profile": "server-default", "guild_id": "guild1"},
+            {"name": "trader-ch", "platform": "discord", "profile": "trader", "chat_id": "ch1", "guild_id": "guild1"},
+        ])
+        source = _make_source(chat_id="ch1", guild_id="guild1")
+        match = match_profile_route(source, routes)
+        assert match is not None
+        assert match.profile == "trader"
+
+    def test_thread_overrides_channel_and_guild(self):
+        """A thread-specific route should override both channel and guild routes."""
+        routes = parse_profile_routes([
+            {"name": "server", "platform": "discord", "profile": "server-default", "guild_id": "guild1"},
+            {"name": "trader-ch", "platform": "discord", "profile": "trader", "chat_id": "ch1", "guild_id": "guild1"},
+            {"name": "analyst-thread", "platform": "discord", "profile": "analyst", "chat_id": "ch1", "thread_id": "t1", "guild_id": "guild1"},
+        ])
+        source = _make_source(chat_id="ch1", thread_id="t1", guild_id="guild1")
+        match = match_profile_route(source, routes)
+        assert match is not None
+        assert match.profile == "analyst"
+
+    def test_guild_route_with_no_guild_id_on_source(self):
+        """If source has no guild_id, guild routes should not match."""
+        routes = parse_profile_routes([
+            {"name": "my-server", "platform": "discord", "profile": "server-default", "guild_id": "guild1"},
+        ])
+        source = _make_source(guild_id=None)
+        match = match_profile_route(source, routes)
+        assert match is None
+
+    def test_channel_route_without_guild_still_works(self):
+        """Existing channel routes without guild_id should still work."""
+        routes = parse_profile_routes([
+            {"name": "trader-ch", "platform": "discord", "profile": "trader", "chat_id": "ch1"},
+        ])
+        source = _make_source(chat_id="ch1", guild_id="guild1")
+        match = match_profile_route(source, routes)
+        assert match is not None
+        assert match.profile == "trader"
+
+    def test_guild_specific_channel_does_not_match_other_guild(self):
+        """A channel+guild route should not match the same channel in a different guild."""
+        routes = parse_profile_routes([
+            {"name": "trader-ch", "platform": "discord", "profile": "trader", "chat_id": "ch1", "guild_id": "guild1"},
+        ])
+        source = _make_source(chat_id="ch1", guild_id="guild2")
         match = match_profile_route(source, routes)
         assert match is None
