@@ -52,9 +52,24 @@ logger = logging.getLogger(__name__)
 # (HERMES_HOME env var changes) are always respected.  The old module-level
 # constant was cached at import time and could go stale if a profile switch
 # happened after the first import.
-def get_memory_dir() -> Path:
-    """Return the profile-scoped memories directory."""
-    return get_hermes_home() / "memories"
+def get_memory_dir(profile_name: str = "main") -> Path:
+    """Return the profile-scoped memories directory.
+
+    For the default profile ("main"), uses HERMES_HOME/memories (backward compatible).
+    For named profiles, uses HERMES_HOME/profiles/{name}/memories.
+    """
+    home = get_hermes_home()
+    if profile_name and profile_name != "main":
+        return home / "profiles" / profile_name / "memories"
+    return home / "memories"
+
+def get_soul_path(profile_name: str = "main") -> Path:
+    """Return the profile-scoped SOUL.md path."""
+    home = get_hermes_home()
+    if profile_name and profile_name != "main":
+        return home / "profiles" / profile_name / "SOUL.md"
+    return home / "SOUL.md"
+
 
 ENTRY_DELIMITER = "\n§\n"
 
@@ -121,7 +136,8 @@ class MemoryStore:
         Tool responses always reflect this live state.
     """
 
-    def __init__(self, memory_char_limit: int = 2200, user_char_limit: int = 1375):
+    def __init__(self, memory_char_limit: int = 2200, user_char_limit: int = 1375, profile_name: str = "main"):
+        self.profile_name = profile_name
         self.memory_entries: List[str] = []
         self.user_entries: List[str] = []
         self.memory_char_limit = memory_char_limit
@@ -147,7 +163,7 @@ class MemoryStore:
         Scanning is deterministic from disk bytes, so the snapshot remains
         stable for the entire session (prefix-cache invariant holds).
         """
-        mem_dir = get_memory_dir()
+        mem_dir = get_memory_dir(self.profile_name)
         mem_dir.mkdir(parents=True, exist_ok=True)
 
         self.memory_entries = self._read_file(mem_dir / "MEMORY.md")
@@ -242,9 +258,8 @@ class MemoryStore:
                     pass
             fd.close()
 
-    @staticmethod
-    def _path_for(target: str) -> Path:
-        mem_dir = get_memory_dir()
+    def _path_for(self, target: str) -> Path:
+        mem_dir = get_memory_dir(self.profile_name)
         if target == "user":
             return mem_dir / "USER.md"
         return mem_dir / "MEMORY.md"
@@ -269,7 +284,7 @@ class MemoryStore:
 
     def save_to_disk(self, target: str):
         """Persist entries to the appropriate file. Called after every mutation."""
-        get_memory_dir().mkdir(parents=True, exist_ok=True)
+        get_memory_dir(self.profile_name).mkdir(parents=True, exist_ok=True)
         self._write_file(self._path_for(target), self._entries_for(target))
 
     def _entries_for(self, target: str) -> List[str]:
