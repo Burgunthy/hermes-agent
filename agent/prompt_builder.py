@@ -235,11 +235,6 @@ KANBAN_GUIDANCE = (
     "- Do not shell out to `hermes kanban <verb>` for board operations. Use "
     "the `kanban_*` tools — they work across all terminal backends.\n"
     "- Do not complete a task you didn't actually finish. Block it.\n"
-    "- Do not call `clarify` to ask questions. You are running headless — "
-    "there is no live user to answer. The call will time out and the task "
-    "will sit silently in `running` with no signal to the operator. Instead: "
-    "`kanban_comment` the context, then `kanban_block(reason=...)` so the "
-    "task surfaces on the board as needing input.\n"
     "- Do not assign follow-up work to yourself. Assign it to the right "
     "specialist profile.\n"
     "- Do not call `delegate_task` as a board substitute. `delegate_task` is "
@@ -848,27 +843,6 @@ def build_environment_hints() -> str:
 
     if is_wsl():
         hints.append(WSL_ENVIRONMENT_HINT)
-
-    # Embedder-supplied environment description. Lets a host that wraps Hermes
-    # (e.g. a sandbox runner / managed platform) explain the environment the
-    # agent is running in — proxy, credential handling, mount layout — without
-    # forking the identity slot (SOUL.md). Read once at prompt-build time, so
-    # it's part of the stable, cache-safe system prompt. The env var is the
-    # build-time/embedder mechanism (set in a container ENV); config.yaml
-    # ``agent.environment_hint`` is the user-facing surface. Env var wins.
-    extra = (os.getenv("HERMES_ENVIRONMENT_HINT") or "").strip()
-    if not extra:
-        try:
-            from hermes_cli.config import load_config
-
-            extra = str(
-                (load_config().get("agent", {}) or {}).get("environment_hint", "")
-            ).strip()
-        except Exception as e:
-            logger.debug("Could not read agent.environment_hint from config: %s", e)
-    if extra:
-        hints.append(extra)
-
     return "\n\n".join(hints)
 
 
@@ -1352,8 +1326,11 @@ def _truncate_content(content: str, filename: str, max_chars: int = CONTEXT_FILE
     return head + marker + tail
 
 
-def load_soul_md() -> Optional[str]:
-    """Load SOUL.md from HERMES_HOME and return its content, or None.
+def load_soul_md(profile_name: str = "main") -> Optional[str]:
+    """Load SOUL.md from HERMES_HOME (or profile-scoped path) and return its content, or None.
+
+    For named profiles, checks HERMES_HOME/profiles/{name}/SOUL.md first,
+    falling back to HERMES_HOME/SOUL.md for backward compatibility.
 
     Used as the agent identity (slot #1 in the system prompt).  When this
     returns content, ``build_context_files_prompt`` should be called with
@@ -1365,7 +1342,14 @@ def load_soul_md() -> Optional[str]:
     except Exception as e:
         logger.debug("Could not ensure HERMES_HOME before loading SOUL.md: %s", e)
 
-    soul_path = get_hermes_home() / "SOUL.md"
+    # Profile-scoped SOUL.md takes precedence, then global fallback
+    home = get_hermes_home()
+    if profile_name and profile_name != "main":
+        soul_path = home / "profiles" / profile_name / "SOUL.md"
+        if not soul_path.exists():
+            soul_path = home / "SOUL.md"  # fallback to global
+    else:
+        soul_path = home / "SOUL.md"
     if not soul_path.exists():
         return None
     try:

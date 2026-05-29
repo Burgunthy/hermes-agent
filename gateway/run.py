@@ -1807,34 +1807,7 @@ class GatewayRunner:
             ensure_installed(log_failures=False)
         except Exception:
             pass  # Non-fatal — fail-open at scan time if unavailable
-
-        # Startup heads-up (#30882): a gateway in manual approval mode with no
-        # automated risk assessor (tirith disabled AND no auxiliary.approval
-        # model) can only gate dangerous commands / execute_code scripts via
-        # live in-chat approval. With approval routing fixed, those actions now
-        # fail closed (block) rather than silently auto-running — surface that
-        # so operators knowingly enable tirith or configure auxiliary.approval
-        # for unattended gateways.
-        try:
-            from hermes_cli.config import load_config as _load_full_config
-            _appr_cfg = _load_full_config()
-            _appr_mode = str(
-                cfg_get(_appr_cfg, "approvals", "mode", default="manual") or "manual"
-            ).strip().lower()
-            _tirith_on = bool(cfg_get(_appr_cfg, "security", "tirith_enabled", default=True))
-            _aux_approval = cfg_get(_appr_cfg, "auxiliary", "approval", default=None)
-            if _appr_mode == "manual" and not _tirith_on and not _aux_approval:
-                logger.warning(
-                    "Gateway approvals.mode=manual with no automated risk "
-                    "assessor (security.tirith_enabled is false and "
-                    "auxiliary.approval is unset): dangerous commands and "
-                    "execute_code scripts will BLOCK until a human approves "
-                    "them in chat. Enable security.tirith_enabled or configure "
-                    "auxiliary.approval for unattended operation."
-                )
-        except Exception:
-            logger.debug("approvals.mode startup check skipped", exc_info=True)
-
+        
         # Initialize session database for session_search tool support
         self._session_db = None
         try:
@@ -2202,6 +2175,31 @@ class GatewayRunner:
     def exit_code(self) -> Optional[int]:
         return self._exit_code
 
+    def _profile_name_for_source(self, source: SessionSource) -> str:
+        """Determine the profile name for a message source based on config routes.
+
+        Returns "main" (default) when no routes are configured or no match found.
+        """
+        config = getattr(self, "config", None)
+        routes = getattr(config, "profile_routes", None)
+        if not routes:
+            return "main"
+        from gateway.profile_routing import match_profile_route
+        matched = match_profile_route(
+            routes,
+            platform=source.platform.value,
+            guild_id=getattr(source, "guild_id", None),
+            chat_id=source.chat_id,
+            thread_id=source.thread_id,
+            parent_chat_id=getattr(source, "parent_chat_id", None),
+        )
+        if matched:
+            logger.info("Profile route matched: %s -> profile %s (chat_id=%s thread_id=%s parent_chat_id=%s)",
+                        matched.name, matched.profile, source.chat_id,
+                        getattr(source, "thread_id", None), getattr(source, "parent_chat_id", None))
+            return matched.profile
+        return "main"
+
     def _session_key_for_source(self, source: SessionSource) -> str:
         """Resolve the current session key for a source, honoring gateway config when available."""
         if hasattr(self, "session_store") and self.session_store is not None:
@@ -2212,11 +2210,95 @@ class GatewayRunner:
             except Exception:
                 pass
         config = getattr(self, "config", None)
+        profile_name = self._profile_name_for_source(source)
         return build_session_key(
             source,
             group_sessions_per_user=getattr(config, "group_sessions_per_user", True),
             thread_sessions_per_user=getattr(config, "thread_sessions_per_user", False),
+            profile_name=profile_name,
         )
+
+    def _load_profile_overrides(self, profile_name: str) -> dict:
+        """Load model, provider, and disabled_toolsets from a named profile.
+
+        Results are cached for 60 seconds to avoid repeated file I/O.
+        """
+        if not profile_name or profile_name == "main":
+            return {}
+
+        cache = getattr(self, "_profile_override_cache", None)
+        if cache is None:
+            self._profile_override_cache = {}
+            cache = self._profile_override_cache
+        import time as _time
+        now = _time.time()
+        cached = cache.get(profile_name)
+        if cached and (now - cached[0]) < 60:
+            return cached[1]
+
+        try:
+            from hermes_cli.profiles import get_profile_dir
+            profile_dir = get_profile_dir(profile_name)
+            if not profile_dir.is_dir():
+                return {}
+        except Exception:
+            return {}
+
+        overrides = {}
+        config_path = profile_dir / "config.yaml"
+        if config_path.exists():
+            try:
+                import yaml
+                with open(config_path, "r", encoding="utf-8") as cf:
+                    cfg = yaml.safe_load(cf) or {}
+                model_cfg = cfg.get("model", {})
+                if isinstance(model_cfg, dict):
+                    if model_cfg.get("default"):
+                        overrides["model"] = model_cfg["default"]
+                    if model_cfg.get("provider"):
+                        overrides["provider"] = model_cfg["provider"]
+                elif isinstance(model_cfg, str) and model_cfg:
+                    overrides["model"] = model_cfg
+                agent_cfg = cfg.get("agent", {})
+                if agent_cfg.get("disabled_toolsets"):
+                    overrides["disabled_toolsets"] = agent_cfg["disabled_toolsets"]
+            except Exception:
+                pass
+
+        if overrides:
+            logger.info("Profile overrides for %s: model=%s provider=%s",
+                        profile_name, overrides.get("model"), overrides.get("provider"))
+        cache[profile_name] = (now, overrides)
+        return overrides
+
+    def _validate_profile_routes(self) -> None:
+        """Validate profile routes at startup: warn about mismatches."""
+        config = getattr(self, "config", None)
+        routes = getattr(config, "profile_routes", None) or []
+        if not routes:
+            return
+
+        from hermes_cli.config import get_hermes_home
+        from pathlib import Path
+        home = get_hermes_home()
+        profiles_dir = home / "profiles"
+
+        routed_profiles = {r.profile for r in routes}
+        for route in routes:
+            profile_dir = profiles_dir / route.profile
+            if not profile_dir.is_dir():
+                logger.warning(
+                    "Profile route %s -> profile %s but %s does not exist",
+                    route.name, route.profile, profile_dir,
+                )
+
+        if profiles_dir.is_dir():
+            for d in sorted(profiles_dir.iterdir()):
+                if d.is_dir() and d.name not in routed_profiles:
+                    logger.warning(
+                        "Profile %s exists but has no profile_routes entry",
+                        d.name,
+                    )
 
     def _telegram_topic_mode_enabled(self, source: SessionSource) -> bool:
         """Return whether Telegram DM topic mode is active for this chat."""
@@ -4384,7 +4466,10 @@ class GatewayRunner:
             logger.info("Channel directory built: %d target(s)", ch_count)
         except Exception as e:
             logger.warning("Channel directory build failed: %s", e)
-        
+
+        # Validate profile routes consistency
+        self._validate_profile_routes()
+
         # Check if we're restarting after a /update command. If the update is
         # still running, keep watching so we notify once it actually finishes.
         notified = await self._send_update_notification()
@@ -6542,31 +6627,6 @@ class GatewayRunner:
             return YuanbaoAdapter(config)
 
         return None
-
-    def _adapter_enforces_own_access_policy(self, platform: Optional[Platform]) -> bool:
-        """Whether the adapter for *platform* gates access at intake itself.
-
-        Mirrors ``BasePlatformAdapter.enforces_own_access_policy``. Adapters
-        such as WeCom, Weixin, Yuanbao, and QQBot evaluate their documented
-        ``dm_policy`` / ``group_policy`` / ``allow_from`` config before a
-        message is dispatched to the gateway, so a message that reaches
-        ``_is_user_authorized`` has already been authorized by the adapter.
-        Defaults to ``False`` when the adapter is unknown or doesn't expose
-        the flag.
-        """
-        if not platform:
-            return False
-        # Some test helpers build a bare GatewayRunner via object.__new__ and
-        # never set ``adapters``; treat a missing/empty map as "no adapter"
-        # rather than raising (see pitfalls.md #17).
-        adapters = getattr(self, "adapters", None)
-        if not adapters:
-            return False
-        adapter = adapters.get(platform)
-        if adapter is None:
-            return False
-        return bool(getattr(adapter, "enforces_own_access_policy", False))
-
     def _is_user_authorized(self, source: SessionSource) -> bool:
         """
         Check if a user is authorized to use the bot.
@@ -6706,15 +6766,6 @@ class GatewayRunner:
         global_allowlist = os.getenv("GATEWAY_ALLOWED_USERS", "").strip()
 
         if not platform_allowlist and not group_user_allowlist and not group_chat_allowlist and not global_allowlist:
-            # No env allowlists configured. Adapters that own their own
-            # config-driven access policy (dm_policy / group_policy /
-            # allow_from / group_allow_from) already gated this message at
-            # intake — it would not have reached the gateway otherwise — so
-            # honor that decision instead of falling through to the
-            # env-only default-deny below, which would silently break
-            # `dm_policy: open` and config-only allowlists. (#34515)
-            if self._adapter_enforces_own_access_policy(source.platform):
-                return True
             # No allowlists configured -- check global allow-all flag
             return os.getenv("GATEWAY_ALLOW_ALL_USERS", "").lower() in {"true", "1", "yes"}
 
@@ -6821,20 +6872,6 @@ class GatewayRunner:
         if config and hasattr(config, "unauthorized_dm_behavior"):
             if config.unauthorized_dm_behavior != "pair":  # non-default → explicit override
                 return config.unauthorized_dm_behavior
-
-        # Config-driven dm_policy (WeCom / Weixin / Yuanbao / QQBot). An
-        # allowlist or disabled DM policy means the operator restricted access,
-        # so unauthorized DMs should be dropped silently rather than answered
-        # with a pairing code. An explicit pairing policy opts back into codes.
-        if platform and config and hasattr(config, "platforms"):
-            platform_cfg = config.platforms.get(platform)
-            extra = getattr(platform_cfg, "extra", None) if platform_cfg else None
-            if isinstance(extra, dict):
-                dm_policy = str(extra.get("dm_policy") or "").strip().lower()
-                if dm_policy == "pairing":
-                    return "pair"
-                if dm_policy in {"allowlist", "disabled"}:
-                    return "ignore"
 
         # No explicit override.  Fall back to allowlist-aware default:
         # if any allowlist is configured for this platform, silently drop
@@ -16140,6 +16177,12 @@ class GatewayRunner:
         agent_cfg_local = user_config.get("agent") or {}
         disabled_toolsets = agent_cfg_local.get("disabled_toolsets") or None
 
+        # Profile routing: resolve profile name and apply overrides
+        profile_name = self._profile_name_for_source(source)
+        _profile_overrides = self._load_profile_overrides(profile_name) if profile_name != "main" else {}
+        if _profile_overrides.get("disabled_toolsets"):
+            disabled_toolsets = _profile_overrides["disabled_toolsets"]
+
         display_config = user_config.get("display", {})
         if not isinstance(display_config, dict):
             display_config = {}
@@ -16829,6 +16872,13 @@ class GatewayRunner:
                     "tools": [],
                 }
 
+            # Apply profile overrides for model and provider
+            if _profile_overrides.get("model"):
+                model = _profile_overrides["model"]
+            if _profile_overrides.get("provider"):
+                runtime_kwargs = dict(runtime_kwargs)
+                runtime_kwargs["provider"] = _profile_overrides["provider"]
+
             pr = self._provider_routing
             reasoning_config = self._resolve_session_reasoning_config(
                 source=source,
@@ -17005,6 +17055,7 @@ class GatewayRunner:
                     gateway_session_key=session_key,
                     session_db=self._session_db,
                     fallback_model=self._fallback_model,
+                    profile_name=profile_name,
                 )
                 if _cache_lock and _cache is not None:
                     with _cache_lock:

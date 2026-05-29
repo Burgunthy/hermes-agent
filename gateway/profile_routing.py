@@ -1,0 +1,176 @@
+"""Profile-based routing for the gateway.
+
+Allows a single Hermes instance to route specific Discord guilds/channels/threads
+to different profiles — each with their own model, tools, memory, and persona.
+
+Matching priority (most specific first):
+  1. platform + chat_id + thread_id (exact thread)  — specificity 8
+  2. platform + chat_id (channel route)             — specificity 4
+  3. platform + guild_id (guild/server route)       — specificity 2
+  4. No match                                       → default profile
+
+Configuration (config.yaml):
+
+    gateway:
+      profile_routes:
+        - name: server-default
+          platform: discord
+          guild_id: "YOUR_GUILD_ID"
+          profile: server-profile
+
+        - name: special-channel
+          platform: discord
+          guild_id: "YOUR_GUILD_ID"
+          chat_id: "YOUR_CHANNEL_ID"
+          profile: channel-profile
+
+        - name: thread-route
+          platform: discord
+          chat_id: "YOUR_CHANNEL_ID"
+          thread_id: "YOUR_THREAD_ID"
+          profile: thread-profile
+"""
+
+from __future__ import annotations
+
+from dataclasses import dataclass, field
+from typing import Any, Dict, List, Optional
+
+import logging
+
+logger = logging.getLogger(__name__)
+
+
+@dataclass(frozen=True)
+class ProfileRoute:
+    """A single routing rule that maps a platform scope to a profile."""
+
+    name: str
+    platform: str
+    profile: str
+    guild_id: Optional[str] = None
+    chat_id: Optional[str] = None
+    thread_id: Optional[str] = None
+    enabled: bool = True
+
+    @property
+    def specificity(self) -> int:
+        """Higher value = more specific match."""
+        s = 0
+        if self.guild_id:
+            s += 2
+        if self.chat_id:
+            s += 4
+        if self.thread_id:
+            s += 8
+        return s
+
+    def matches(
+        self,
+        platform: str,
+        guild_id: Optional[str] = None,
+        chat_id: Optional[str] = None,
+        thread_id: Optional[str] = None,
+        parent_chat_id: Optional[str] = None,
+    ) -> bool:
+        """Return True if this route matches the given source fields."""
+        if not self.enabled:
+            return False
+        if self.platform != platform:
+            return False
+        if self.thread_id and self.thread_id != thread_id:
+            return False
+        if self.chat_id and self.chat_id != chat_id and self.chat_id != parent_chat_id:
+            return False
+        if self.guild_id and self.guild_id != guild_id:
+            return False
+        return True
+
+
+def parse_profile_routes(raw: Optional[List[Dict[str, Any]]]) -> List[ProfileRoute]:
+    """Parse profile_routes from config.yaml into ProfileRoute objects.
+
+    Returns routes sorted by specificity (most specific first).
+    """
+    if not raw:
+        return []
+    routes: List[ProfileRoute] = []
+    for entry in raw:
+        if not isinstance(entry, dict):
+            continue
+        name = entry.get("name", "")
+        platform = entry.get("platform", "")
+        profile = entry.get("profile", "")
+        if not platform or not profile:
+            logger.warning(
+                "Skipping profile route %s: missing platform or profile",
+                name,
+            )
+            continue
+        routes.append(
+            ProfileRoute(
+                name=name,
+                platform=platform,
+                profile=profile,
+                guild_id=entry.get("guild_id"),
+                chat_id=entry.get("chat_id"),
+                thread_id=entry.get("thread_id"),
+                enabled=entry.get("enabled", True),
+            )
+        )
+    # Sort: most specific first so the first match wins.
+    routes.sort(key=lambda r: r.specificity, reverse=True)
+
+    # Validate: warn about routes pointing to non-existent profiles
+    try:
+        from hermes_cli.profiles import get_profile_dir
+        from pathlib import Path
+        routed_profiles = set()
+        for route in routes:
+            routed_profiles.add(route.profile)
+            try:
+                pdir = get_profile_dir(route.profile)
+                if not pdir.is_dir():
+                    logger.warning(
+                        "Profile route %s -> profile %s but directory %s does not exist",
+                        route.name, route.profile, pdir,
+                    )
+            except Exception:
+                logger.warning(
+                    "Profile route %s -> profile %s but profile directory cannot be resolved",
+                    route.name, route.profile,
+                )
+
+        # Warn about profile directories that have no route
+        try:
+            home = Path(os.environ.get("HERMES_HOME", Path.home() / ".hermes"))
+            profiles_dir = home / "profiles"
+            if profiles_dir.is_dir():
+                for d in sorted(profiles_dir.iterdir()):
+                    if d.is_dir() and d.name not in routed_profiles:
+                        logger.warning(
+                            "Profile %s exists in %s but has no profile_routes entry — it will not be routed to",
+                            d.name, profiles_dir,
+                        )
+        except Exception:
+            pass
+    except Exception:
+        pass
+
+    logger.info("Loaded %d profile routes (most-specific-first)", len(routes))
+    return routes
+
+
+def match_profile_route(
+    routes: List[ProfileRoute],
+    platform: str,
+    guild_id: Optional[str] = None,
+    chat_id: Optional[str] = None,
+    thread_id: Optional[str] = None,
+    parent_chat_id: Optional[str] = None,
+) -> Optional[ProfileRoute]:
+    """Return the best-matching route, or None for no match."""
+    for route in routes:
+        if route.matches(platform, guild_id=guild_id, chat_id=chat_id, thread_id=thread_id, parent_chat_id=parent_chat_id):
+            return route
+    return None
