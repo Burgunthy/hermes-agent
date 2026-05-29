@@ -1352,8 +1352,11 @@ def _truncate_content(content: str, filename: str, max_chars: int = CONTEXT_FILE
     return head + marker + tail
 
 
-def load_soul_md() -> Optional[str]:
-    """Load SOUL.md from HERMES_HOME and return its content, or None.
+def load_soul_md(profile_name: str = "main") -> Optional[str]:
+    """Load SOUL.md from HERMES_HOME (or profile-scoped path) and return its content, or None.
+
+    For named profiles, checks HERMES_HOME/profiles/{name}/SOUL.md first,
+    falling back to HERMES_HOME/SOUL.md for backward compatibility.
 
     Used as the agent identity (slot #1 in the system prompt).  When this
     returns content, ``build_context_files_prompt`` should be called with
@@ -1365,7 +1368,14 @@ def load_soul_md() -> Optional[str]:
     except Exception as e:
         logger.debug("Could not ensure HERMES_HOME before loading SOUL.md: %s", e)
 
-    soul_path = get_hermes_home() / "SOUL.md"
+    # Profile-scoped SOUL.md takes precedence, then global fallback
+    home = get_hermes_home()
+    if profile_name and profile_name != "main":
+        soul_path = home / "profiles" / profile_name / "SOUL.md"
+        if not soul_path.exists():
+            soul_path = home / "SOUL.md"  # fallback to global
+    else:
+        soul_path = home / "SOUL.md"
     if not soul_path.exists():
         return None
     try:

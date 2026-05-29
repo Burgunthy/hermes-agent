@@ -2202,6 +2202,31 @@ class GatewayRunner:
     def exit_code(self) -> Optional[int]:
         return self._exit_code
 
+    def _profile_name_for_source(self, source: SessionSource) -> str:
+        """Determine the profile name for a message source based on config routes.
+
+        Returns "main" (default) when no routes are configured or no match found.
+        """
+        config = getattr(self, "config", None)
+        routes = getattr(config, "profile_routes", None)
+        if not routes:
+            return "main"
+        from gateway.profile_routing import match_profile_route
+        matched = match_profile_route(
+            routes,
+            platform=source.platform.value,
+            guild_id=getattr(source, "guild_id", None),
+            chat_id=source.chat_id,
+            thread_id=source.thread_id,
+            parent_chat_id=getattr(source, "parent_chat_id", None),
+        )
+        if matched:
+            return matched.profile
+        logger.debug("No profile route matched: platform=%s chat_id=%s thread_id=%s parent_chat_id=%s",
+                    source.platform.value, source.chat_id,
+                    getattr(source, "thread_id", None), getattr(source, "parent_chat_id", None))
+        return "main"
+
     def _session_key_for_source(self, source: SessionSource) -> str:
         """Resolve the current session key for a source, honoring gateway config when available."""
         if hasattr(self, "session_store") and self.session_store is not None:
@@ -2212,11 +2237,66 @@ class GatewayRunner:
             except Exception:
                 pass
         config = getattr(self, "config", None)
+        profile_name = self._profile_name_for_source(source)
         return build_session_key(
             source,
             group_sessions_per_user=getattr(config, "group_sessions_per_user", True),
             thread_sessions_per_user=getattr(config, "thread_sessions_per_user", False),
+            profile_name=profile_name,
         )
+
+
+    def _load_profile_overrides(self, profile_name: str) -> dict:
+        """Load model, provider, and disabled_toolsets from a named profile.
+
+        Results are cached for 60 seconds to avoid repeated file I/O.
+        """
+        if not profile_name or profile_name == "main":
+            return {}
+
+        cache = getattr(self, "_profile_override_cache", None)
+        if cache is None:
+            self._profile_override_cache = {}
+            cache = self._profile_override_cache
+        now = time.time()
+        cached = cache.get(profile_name)
+        if cached and (now - cached[0]) < 60:
+            return cached[1]
+
+        try:
+            from hermes_cli.profiles import get_profile_dir
+            profile_dir = get_profile_dir(profile_name)
+            if not profile_dir.is_dir():
+                return {}
+        except Exception:
+            return {}
+
+        overrides = {}
+        config_path = profile_dir / "config.yaml"
+        if config_path.exists():
+            try:
+                import yaml
+                with open(config_path, "r", encoding="utf-8") as cf:
+                    cfg = yaml.safe_load(cf) or {}
+                model_cfg = cfg.get("model", {})
+                if isinstance(model_cfg, dict):
+                    if model_cfg.get("default"):
+                        overrides["model"] = model_cfg["default"]
+                    if model_cfg.get("provider"):
+                        overrides["provider"] = model_cfg["provider"]
+                elif isinstance(model_cfg, str) and model_cfg:
+                    overrides["model"] = model_cfg
+                agent_cfg = cfg.get("agent", {})
+                if agent_cfg.get("disabled_toolsets"):
+                    overrides["disabled_toolsets"] = agent_cfg["disabled_toolsets"]
+            except Exception:
+                pass
+
+        cache[profile_name] = (now, overrides)
+        if overrides:
+            logger.info("Profile overrides for %s: model=%s provider=%s",
+                        profile_name, overrides.get("model"), overrides.get("provider"))
+        return overrides
 
     def _telegram_topic_mode_enabled(self, source: SessionSource) -> bool:
         """Return whether Telegram DM topic mode is active for this chat."""
@@ -16140,6 +16220,12 @@ class GatewayRunner:
         agent_cfg_local = user_config.get("agent") or {}
         disabled_toolsets = agent_cfg_local.get("disabled_toolsets") or None
 
+        # Profile routing: resolve profile name and apply overrides
+        profile_name = self._profile_name_for_source(source)
+        _profile_overrides = self._load_profile_overrides(profile_name) if profile_name != "main" else {}
+        if _profile_overrides.get("disabled_toolsets"):
+            disabled_toolsets = _profile_overrides["disabled_toolsets"]
+
         display_config = user_config.get("display", {})
         if not isinstance(display_config, dict):
             display_config = {}
@@ -16829,6 +16915,13 @@ class GatewayRunner:
                     "tools": [],
                 }
 
+            # Apply profile overrides for model and provider
+            if _profile_overrides.get("model"):
+                model = _profile_overrides["model"]
+            if _profile_overrides.get("provider"):
+                runtime_kwargs = dict(runtime_kwargs)
+                runtime_kwargs["provider"] = _profile_overrides["provider"]
+
             pr = self._provider_routing
             reasoning_config = self._resolve_session_reasoning_config(
                 source=source,
@@ -17005,6 +17098,7 @@ class GatewayRunner:
                     gateway_session_key=session_key,
                     session_db=self._session_db,
                     fallback_model=self._fallback_model,
+                    profile_name=profile_name,
                 )
                 if _cache_lock and _cache is not None:
                     with _cache_lock:

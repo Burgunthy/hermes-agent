@@ -3487,6 +3487,7 @@ class DiscordAdapter(BasePlatformAdapter):
         # For forum threads, inherit the parent forum's topic.
         chat_topic = self._get_effective_topic(interaction.channel, is_thread=is_thread)
 
+        _guild = getattr(interaction, "guild", None)
         source = self.build_source(
             chat_id=str(interaction.channel_id),
             chat_name=chat_name,
@@ -3495,6 +3496,8 @@ class DiscordAdapter(BasePlatformAdapter):
             user_name=interaction.user.display_name,
             thread_id=thread_id,
             chat_topic=chat_topic,
+            guild_id=str(_guild.id) if _guild else None,
+            parent_chat_id=str(interaction.channel.parent_id) if getattr(interaction.channel, "parent_id", None) else None,
         )
 
         msg_type = MessageType.COMMAND if text.startswith("/") else MessageType.TEXT
@@ -3569,6 +3572,7 @@ class DiscordAdapter(BasePlatformAdapter):
         _chan = getattr(interaction, "channel", None)
         chat_topic = self._get_effective_topic(_chan, is_thread=True) if _chan else None
 
+        _guild = getattr(interaction, "guild", None)
         source = self.build_source(
             chat_id=thread_id,
             chat_name=chat_name,
@@ -3577,6 +3581,8 @@ class DiscordAdapter(BasePlatformAdapter):
             user_name=interaction.user.display_name,
             thread_id=thread_id,
             chat_topic=chat_topic,
+            guild_id=str(_guild.id) if _guild else None,
+            parent_chat_id=str(getattr(interaction.channel, "parent_id", None)) if hasattr(interaction.channel, "parent_id") and interaction.channel.parent_id else None,
         )
 
         _parent_channel = self._thread_parent_channel(getattr(interaction, "channel", None))
