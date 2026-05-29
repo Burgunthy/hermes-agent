@@ -601,8 +601,13 @@ def build_session_key(
     source: SessionSource,
     group_sessions_per_user: bool = True,
     thread_sessions_per_user: bool = False,
+    profile_name: str = "main",
 ) -> str:
     """Build a deterministic session key from a message source.
+
+    When *profile_name* is not ``"main"``, the key is scoped as
+    ``agent:{profile_name}:...`` so that profile-routed sessions are
+    fully isolated from the default profile.
 
     This is the single source of truth for session key construction.
 
@@ -633,11 +638,11 @@ def build_session_key(
 
         if dm_chat_id:
             if source.thread_id:
-                return f"agent:main:{platform}:dm:{dm_chat_id}:{source.thread_id}"
-            return f"agent:main:{platform}:dm:{dm_chat_id}"
+                return f"agent:{profile_name}:{platform}:dm:{dm_chat_id}:{source.thread_id}"
+            return f"agent:{profile_name}:{platform}:dm:{dm_chat_id}"
         if source.thread_id:
-            return f"agent:main:{platform}:dm:{source.thread_id}"
-        return f"agent:main:{platform}:dm"
+            return f"agent:{profile_name}:{platform}:dm:{source.thread_id}"
+            return f"agent:{profile_name}:{platform}:dm"
 
     participant_id = source.user_id_alt or source.user_id
     if participant_id and source.platform == Platform.WHATSAPP:
@@ -645,7 +650,7 @@ def build_session_key(
         # single group member gets two isolated per-user sessions when the
         # bridge reshuffles alias forms.
         participant_id = canonical_whatsapp_identifier(str(participant_id)) or participant_id
-    key_parts = ["agent:main", platform, source.chat_type]
+    key_parts = [f"agent:{profile_name}", platform, source.chat_type]
 
     if source.chat_id:
         key_parts.append(source.chat_id)
