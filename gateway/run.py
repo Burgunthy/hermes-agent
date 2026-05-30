@@ -12052,11 +12052,24 @@ class GatewayRunner:
             agent_cfg = user_config.get("agent") or {}
             disabled_toolsets = agent_cfg.get("disabled_toolsets") or None
 
+            # Resolve profile name for background task (same routing as main flow)
+            profile_name = self._profile_name_for_source(source)
+            _profile_overrides = self._load_profile_overrides(profile_name) if profile_name != "main" else {}
+            if _profile_overrides.get("disabled_toolsets"):
+                disabled_toolsets = _profile_overrides["disabled_toolsets"]
+
             pr = self._provider_routing
             max_iterations = int(os.getenv("HERMES_MAX_ITERATIONS", "90"))
             reasoning_config = self._resolve_session_reasoning_config(source=source)
             self._reasoning_config = reasoning_config
             self._service_tier = self._load_service_tier()
+
+            # Apply profile overrides for model and provider (before turn_route resolution)
+            if _profile_overrides.get("model"):
+                model = _profile_overrides["model"]
+            if _profile_overrides.get("provider"):
+                runtime_kwargs = dict(runtime_kwargs)
+                runtime_kwargs["provider"] = _profile_overrides["provider"]
             turn_route = self._resolve_turn_agent_config(prompt, model, runtime_kwargs)
 
             # Enrich the prompt with image descriptions so the background
@@ -12105,6 +12118,7 @@ class GatewayRunner:
                     thread_id=source.thread_id,
                     session_db=self._session_db,
                     fallback_model=self._fallback_model,
+                    profile_name=profile_name,
                 )
                 try:
                     return agent.run_conversation(
