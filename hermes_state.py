@@ -2624,12 +2624,10 @@ class SessionDB:
                     tri_where.append(f"m.role IN ({','.join('?' for _ in role_filter)})")
                     tri_params.extend(role_filter)
                 # Profile filtering for trigram path
-                if profile_name and profile_name not in ("main", "default"):
-                    tri_where.append("(s.profile_name = ?)")
-                    tri_params.append(profile_name)
-                elif profile_name in ("main", "default"):
-                    tri_where.append("(s.profile_name IN (?, ?) OR s.profile_name IS NULL)")
-                    tri_params.extend([profile_name, "main"])
+                if profile_name is not None:
+                    _pf_sql, _pf_params = SessionDB._profile_filter_sql(profile_name)
+                    tri_where.append(_pf_sql)
+                    tri_params.extend(_pf_params)
                 tri_sql = f"""
                     SELECT
                         m.id,
@@ -2686,12 +2684,10 @@ class SessionDB:
                     like_where.append(f"m.role IN ({','.join('?' for _ in role_filter)})")
                     like_params.extend(role_filter)
                 # Profile filtering for LIKE fallback path
-                if profile_name and profile_name not in ("main", "default"):
-                    like_where.append("(s.profile_name = ?)")
-                    like_params.append(profile_name)
-                elif profile_name in ("main", "default"):
-                    like_where.append("(s.profile_name IN (?, ?) OR s.profile_name IS NULL)")
-                    like_params.extend([profile_name, "main"])
+                if profile_name is not None:
+                    _pf_sql, _pf_params = SessionDB._profile_filter_sql(profile_name)
+                    like_where.append(_pf_sql)
+                    like_params.extend(_pf_params)
                 like_sql = f"""
                     SELECT m.id, m.session_id, m.role,
                            substr(m.content,
