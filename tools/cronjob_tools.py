@@ -415,8 +415,6 @@ def _format_job(job: Dict[str, Any]) -> Dict[str, Any]:
         result["profile"] = job["profile"]
     return result
 
-
-
 def cronjob(
     action: str,
     job_id: Optional[str] = None,

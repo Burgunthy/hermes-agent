@@ -745,7 +745,7 @@ _ensure_ssl_certs()
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 # Resolve Hermes home directory (respects HERMES_HOME override)
-from hermes_constants import get_hermes_home
+from hermes_constants import is_standard_profile, get_hermes_home
 from utils import atomic_json_write, atomic_yaml_write, base_url_host_matches, is_truthy_value
 _hermes_home = get_hermes_home()
 
@@ -2290,7 +2290,7 @@ class GatewayRunner:
 
         Results are cached for 60 seconds to avoid repeated file I/O.
         """
-        if not profile_name or profile_name == "main":
+        if is_standard_profile(profile_name):
             return {}
 
         cache = getattr(self, "_profile_override_cache", None)
