@@ -151,18 +151,18 @@ def parse_profile_routes(raw: Optional[List[Dict[str, Any]]]) -> List[ProfileRou
         name = entry.get("name", "")
         platform = entry.get("platform", "")
         profile = entry.get("profile", "")
+        if not platform or not profile:
+            logger.warning(
+                "Skipping profile route %s: missing platform or profile",
+                name,
+            )
+            continue
         # Validate profile name to prevent path traversal
         try:
             from hermes_constants import validate_profile_name as _validate
             profile = _validate(profile)
         except (ValueError, ImportError):
             logger.warning("Skipping profile route %s: invalid profile name %r", name, profile)
-            continue
-        if not platform or not profile:
-            logger.warning(
-                "Skipping profile route %s: missing platform or profile",
-                name,
-            )
             continue
         routes.append(
             ProfileRoute(
