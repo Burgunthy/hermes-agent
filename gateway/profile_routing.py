@@ -124,6 +124,10 @@ class ProfileRoute:
                 if parent_channel and self.chat_id == parent_channel:
                     return True
         
+        # If chat_id was specified but didn't match any level, fail
+        if self.chat_id:
+            return False
+        
         if self.guild_id and self.guild_id != guild_id:
             return False
         return True

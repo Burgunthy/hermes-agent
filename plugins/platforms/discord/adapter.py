@@ -4891,10 +4891,14 @@ class DiscordAdapter(BasePlatformAdapter):
     def _text_batch_key(self, event: MessageEvent) -> str:
         """Session-scoped key for text message batching."""
         from gateway.session import build_session_key
+        # Use profile_name already set on source by gateway (run.py sets it
+        # via _profile_name_for_source before the event reaches batching).
+        profile_name = getattr(event.source, 'profile_name', 'main') or 'main'
         return build_session_key(
             event.source,
             group_sessions_per_user=self.config.extra.get("group_sessions_per_user", True),
             thread_sessions_per_user=self.config.extra.get("thread_sessions_per_user", False),
+            profile_name=profile_name,
         )
 
     def _enqueue_text_event(self, event: MessageEvent) -> None:

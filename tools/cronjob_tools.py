@@ -416,6 +416,27 @@ def _format_job(job: Dict[str, Any]) -> Dict[str, Any]:
     return result
 
 
+def _get_current_profile() -> str:
+    """Detect the current Hermes profile from HERMES_HOME.
+    
+    Returns:
+        Profile name: 'default' for the root profile, or the profile name
+        (e.g. 'ai-expert') when running under a named profile.
+    """
+    try:
+        from hermes_constants import get_hermes_home
+        from pathlib import Path
+        
+        hermes_home = Path(get_hermes_home())
+        # Check if we're in a profile directory: ~/.hermes/profiles/<name>
+        if hermes_home.parent.name == 'profiles':
+            return hermes_home.name
+    except Exception:
+        pass
+    return 'default'  # Default profile
+
+
+
 def cronjob(
     action: str,
     job_id: Optional[str] = None,
@@ -523,7 +544,9 @@ def cronjob(
             )
 
         if normalized == "list":
-            jobs = [_format_job(job) for job in list_jobs(include_disabled=include_disabled)]
+            # Auto-detect current profile for filtering
+            current_profile = _get_current_profile()
+            jobs = [_format_job(job) for job in list_jobs(include_disabled=include_disabled, profile_name=current_profile)]
             return json.dumps({"success": True, "count": len(jobs), "jobs": jobs}, indent=2)
 
         if not job_id:

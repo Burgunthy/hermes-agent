@@ -8507,6 +8507,14 @@ class GatewayRunner:
             except Exception:
                 pass
 
+        # Set profile_name on source for correct session key generation
+        profile_name = self._profile_name_for_source(source)
+        source = dataclasses.replace(source, profile_name=profile_name)
+        try:
+            event.source = source
+        except Exception:
+            logger.debug("Could not update event.source with profile_name=%s", profile_name)
+        
         session_entry = self.session_store.get_or_create_session(source)
         session_key = session_entry.session_key
         self._cache_session_source(session_key, source)
@@ -10229,6 +10237,14 @@ class GatewayRunner:
         The session is preserved so the user can continue the conversation.
         """
         source = event.source
+        # Set profile_name on source for correct session key generation
+        profile_name = self._profile_name_for_source(source)
+        source = dataclasses.replace(source, profile_name=profile_name)
+        try:
+            event.source = source
+        except Exception:
+            logger.debug("Could not update event.source with profile_name=%s", profile_name)
+        
         session_entry = self.session_store.get_or_create_session(source)
         session_key = session_entry.session_key
 
@@ -12223,6 +12239,7 @@ class GatewayRunner:
                     session_db=self._session_db,
                     fallback_model=self._fallback_model,
                     profile_name=profile_name,
+                    load_soul_identity=True,
                 )
                 try:
                     return agent.run_conversation(
@@ -17278,6 +17295,7 @@ class GatewayRunner:
                     session_db=self._session_db,
                     fallback_model=self._fallback_model,
                     profile_name=profile_name,
+                    load_soul_identity=True,
                 )
                 if _cache_lock and _cache is not None:
                     with _cache_lock:

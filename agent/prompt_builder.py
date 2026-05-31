@@ -1039,6 +1039,7 @@ def _skill_should_show(
 def build_skills_system_prompt(
     available_tools: "set[str] | None" = None,
     available_toolsets: "set[str] | None" = None,
+    profile_name: str = "main",
 ) -> str:
     """Build a compact skill index for the system prompt.
 
@@ -1054,8 +1055,10 @@ def build_skills_system_prompt(
     are read-only — they appear in the index but new skills are always created
     in the local dir.  Local skills take precedence when names collide.
     """
-    skills_dir = get_skills_dir()
-    external_dirs = get_all_skills_dirs()[1:]  # skip local (index 0)
+    # Profile-scoped skills: use profile's own skills dir when non-default.
+    all_dirs = get_all_skills_dirs(profile_name=profile_name)
+    skills_dir = all_dirs[0]
+    external_dirs = all_dirs[1:]  # skip local (index 0)
 
     if not skills_dir.exists() and not external_dirs:
         return ""

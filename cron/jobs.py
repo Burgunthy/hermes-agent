@@ -740,11 +740,30 @@ def resolve_job_ref(ref: str) -> Optional[Dict[str, Any]]:
     return _normalize_job_record(name_matches[0])
 
 
-def list_jobs(include_disabled: bool = False) -> List[Dict[str, Any]]:
-    """List all jobs, optionally including disabled ones."""
+def list_jobs(include_disabled: bool = False, profile_name: Optional[str] = None) -> List[Dict[str, Any]]:
+    """List all jobs, optionally including disabled ones.
+    
+    Args:
+        include_disabled: If True, include disabled jobs in the list.
+        profile_name: If set, only return jobs matching this profile.
+                     Jobs with profile=None are treated as default profile jobs
+                     and are only shown when profile_name is None, 'default', or empty.
+    """
     jobs = [_normalize_job_record(j) for j in load_jobs()]
     if not include_disabled:
         jobs = [j for j in jobs if j.get("enabled", True)]
+    
+    # Filter by profile if specified
+    if profile_name:
+        normalized_profile = profile_name.strip().lower()
+        # Normalize profile names: treat 'main' and 'default' the same
+        if normalized_profile in ('default', 'main', ''):
+            # Show jobs with profile=None or 'default' or 'main'
+            jobs = [j for j in jobs if j.get("profile") is None or str(j.get("profile")).strip().lower() in ('default', 'main', '')]
+        else:
+            # Named profile: only show jobs with that exact profile
+            jobs = [j for j in jobs if str(j.get("profile")).strip().lower() == normalized_profile]
+    
     return jobs
 
 

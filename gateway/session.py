@@ -91,7 +91,8 @@ class SessionSource:
     guild_id: Optional[str] = None  # Discord guild / Slack workspace / Matrix server scope
     parent_chat_id: Optional[str] = None  # Parent channel when chat_id refers to a thread
     message_id: Optional[str] = None  # ID of the triggering message (for pin/reply/react)
-    
+    profile_name: str = "main"  # Profile name for profile-scoped session isolation
+
     @property
     def description(self) -> str:
         """Human-readable description of the source."""
@@ -134,6 +135,7 @@ class SessionSource:
             d["parent_chat_id"] = self.parent_chat_id
         if self.message_id:
             d["message_id"] = self.message_id
+        d["profile_name"] = self.profile_name
         return d
 
     @classmethod
@@ -152,6 +154,7 @@ class SessionSource:
             guild_id=data.get("guild_id"),
             parent_chat_id=data.get("parent_chat_id"),
             message_id=data.get("message_id"),
+            profile_name=data.get("profile_name", "main"),
         )
     
 
@@ -752,6 +755,7 @@ class SessionStore:
             source,
             group_sessions_per_user=getattr(self.config, "group_sessions_per_user", True),
             thread_sessions_per_user=getattr(self.config, "thread_sessions_per_user", False),
+            profile_name=getattr(source, "profile_name", "main"),
         )
     
     def _is_session_expired(self, entry: SessionEntry) -> bool:
