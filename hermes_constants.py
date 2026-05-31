@@ -412,22 +412,29 @@ _VALID_PROFILE_RE = re.compile(r'^[a-z0-9][a-z0-9_-]*$')
 
 
 def normalize_profile(name: str | None) -> str:
-    """Canonicalize a profile name.
+    """Canonicalize a profile name.  Never raises.
 
     Returns ``"main"`` for all standard/empty profiles so that downstream
     code only needs to compare against a single value.  Named profiles
     are returned as-is (lowercased, stripped).
-
-    Raises ``ValueError`` if the name contains characters that could enable
-    path traversal (e.g. ``../``) or other injection -- only ``[a-z0-9][a-z0-9_-]*``
-    is accepted.
     """
     if not name or name.strip().lower() in STANDARD_PROFILES:
         return "main"
-    cleaned = name.strip().lower()
-    if not _VALID_PROFILE_RE.match(cleaned):
+    return name.strip().lower()
+
+
+def validate_profile_name(name: str | None) -> str:
+    """Validate and canonicalize.  Raises ValueError for invalid names.
+
+    Use at config parse boundaries.  normalize_profile() is the safe
+    runtime version that never raises.
+    """
+    result = normalize_profile(name)
+    if result == "main":
+        return result
+    if not _VALID_PROFILE_RE.match(result):
         raise ValueError(f"Invalid profile name: {name!r} (must match [a-z0-9][a-z0-9_-]*)")
-    return cleaned
+    return result
 
 
 def is_standard_profile(name: str | None) -> bool:
