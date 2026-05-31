@@ -946,6 +946,7 @@ class SessionStore:
                 "session_id": session_id,
                 "source": source.platform.value,
                 "user_id": source.user_id,
+                "profile_name": getattr(source, "profile_name", None),
             }
 
         # SQLite operations outside the lock
@@ -1172,6 +1173,7 @@ class SessionStore:
                 "session_id": session_id,
                 "source": old_entry.platform.value if old_entry.platform else "unknown",
                 "user_id": old_entry.origin.user_id if old_entry.origin else None,
+                "profile_name": getattr(old_entry.origin, "profile_name", None) if old_entry.origin else None,
             }
 
         if self._db and db_end_session_id:
