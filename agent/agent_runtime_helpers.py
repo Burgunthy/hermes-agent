@@ -1650,6 +1650,32 @@ def invoke_tool(agent, function_name: str, function_args: dict, effective_task_i
             current_session_id=agent.session_id,
             profile_name=getattr(agent, "profile_name", "main"),
         )
+    elif function_name == "cronjob":
+        from tools.cronjob_tools import cronjob as _cronjob
+        return _cronjob(
+            action=function_args.get("action", ""),
+            job_id=function_args.get("job_id"),
+            profile_name=getattr(agent, "profile_name", "main"),
+            prompt=function_args.get("prompt"),
+            schedule=function_args.get("schedule"),
+            name=function_args.get("name"),
+            repeat=function_args.get("repeat"),
+            deliver=function_args.get("deliver"),
+            include_disabled=function_args.get("include_disabled", False),
+            skill=function_args.get("skill"),
+            skills=function_args.get("skills"),
+            model=function_args.get("model"),
+            provider=function_args.get("provider"),
+            base_url=function_args.get("base_url"),
+            reason=function_args.get("reason"),
+            script=function_args.get("script"),
+            context_from=function_args.get("context_from"),
+            enabled_toolsets=function_args.get("enabled_toolsets"),
+            workdir=function_args.get("workdir"),
+            profile=function_args.get("profile"),
+            no_agent=function_args.get("no_agent"),
+            task_id=effective_task_id,
+        )
     elif function_name == "memory":
         target = function_args.get("target", "memory")
         from tools.memory_tool import memory_tool as _memory_tool
