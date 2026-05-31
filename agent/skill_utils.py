@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple
 
-from hermes_constants import get_config_path, get_hermes_home, get_skills_dir, is_termux
+from hermes_constants import get_config_path, get_hermes_home, get_skills_dir, is_standard_profile, is_termux
 
 logger = logging.getLogger(__name__)
 
@@ -332,7 +332,7 @@ def get_all_skills_dirs(profile_name: str = "main") -> List[Path]:
     matching the same isolation pattern as ``get_memory_dir()``.  External
     dirs follow in config order (shared across profiles).
     """
-    if profile_name and profile_name not in ("main", "default"):
+    if not is_standard_profile(profile_name):
         home = get_hermes_home()
         local = home / "profiles" / profile_name / "skills"
     else:

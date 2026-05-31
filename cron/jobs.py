@@ -16,7 +16,7 @@ import re
 import uuid
 from datetime import datetime, timedelta
 from pathlib import Path
-from hermes_constants import get_hermes_home
+from hermes_constants import get_hermes_home, normalize_profile
 from typing import Optional, Dict, List, Any, Union
 
 logger = logging.getLogger(__name__)
@@ -755,14 +755,13 @@ def list_jobs(include_disabled: bool = False, profile_name: Optional[str] = None
     
     # Filter by profile if specified
     if profile_name:
-        normalized_profile = profile_name.strip().lower()
-        # Normalize profile names: treat 'main' and 'default' the same
-        if normalized_profile in ('default', 'main', ''):
-            # Show jobs with profile=None or 'default' or 'main'
-            jobs = [j for j in jobs if j.get("profile") is None or str(j.get("profile")).strip().lower() in ('default', 'main', '')]
+        normalized = normalize_profile(profile_name)
+        if normalized == "main":
+            # Standard profile: show jobs with no profile or standard profile names
+            jobs = [j for j in jobs if j.get("profile") is None or normalize_profile(j.get("profile")) == "main"]
         else:
             # Named profile: only show jobs with that exact profile
-            jobs = [j for j in jobs if str(j.get("profile")).strip().lower() == normalized_profile]
+            jobs = [j for j in jobs if normalize_profile(j.get("profile")) == normalized]
     
     return jobs
 

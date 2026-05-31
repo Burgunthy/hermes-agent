@@ -2235,6 +2235,24 @@ class GatewayRunner:
                     getattr(source, "thread_id", None), getattr(source, "parent_chat_id", None))
         return "main"
 
+
+    def _enrich_source_with_profile(self, source, event=None) -> tuple:
+        """Resolve profile_name and apply it to source (and optionally event).
+
+        Returns (updated_source, profile_name).
+        """
+        profile_name = self._profile_name_for_source(source)
+        source = dataclasses.replace(source, profile_name=profile_name)
+        if event is not None:
+            try:
+                event.source = source
+            except Exception:
+                logger.warning(
+                    "Could not update event.source with profile_name=%s",
+                    profile_name,
+                )
+        return source, profile_name
+
     def _session_key_for_source(self, source: SessionSource) -> str:
         """Resolve the current session key for a source, honoring gateway config when available."""
         config = getattr(self, "config", None)
@@ -8508,12 +8526,7 @@ class GatewayRunner:
                 pass
 
         # Set profile_name on source for correct session key generation
-        profile_name = self._profile_name_for_source(source)
-        source = dataclasses.replace(source, profile_name=profile_name)
-        try:
-            event.source = source
-        except Exception:
-            logger.debug("Could not update event.source with profile_name=%s", profile_name)
+        source, profile_name = self._enrich_source_with_profile(source, event)
         
         session_entry = self.session_store.get_or_create_session(source)
         session_key = session_entry.session_key
@@ -10238,12 +10251,7 @@ class GatewayRunner:
         """
         source = event.source
         # Set profile_name on source for correct session key generation
-        profile_name = self._profile_name_for_source(source)
-        source = dataclasses.replace(source, profile_name=profile_name)
-        try:
-            event.source = source
-        except Exception:
-            logger.debug("Could not update event.source with profile_name=%s", profile_name)
+        source, profile_name = self._enrich_source_with_profile(source, event)
         
         session_entry = self.session_store.get_or_create_session(source)
         session_key = session_entry.session_key

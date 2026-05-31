@@ -418,22 +418,20 @@ def _format_job(job: Dict[str, Any]) -> Dict[str, Any]:
 
 def _get_current_profile() -> str:
     """Detect the current Hermes profile from HERMES_HOME.
-    
-    Returns:
-        Profile name: 'default' for the root profile, or the profile name
-        (e.g. 'ai-expert') when running under a named profile.
+
+    Returns the canonical profile name (via ``normalize_profile``), or
+    ``"main"`` for the root profile.
     """
     try:
-        from hermes_constants import get_hermes_home
+        from hermes_constants import get_hermes_home, normalize_profile
         from pathlib import Path
-        
-        hermes_home = Path(get_hermes_home())
-        # Check if we're in a profile directory: ~/.hermes/profiles/<name>
-        if hermes_home.parent.name == 'profiles':
-            return hermes_home.name
+
+        hermes_home = Path(get_hermes_home()).resolve()
+        if hermes_home.parent.name == "profiles":
+            return normalize_profile(hermes_home.name)
     except Exception:
         pass
-    return 'default'  # Default profile
+    return "main"
 
 
 

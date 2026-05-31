@@ -27,6 +27,7 @@ import json
 import os
 from typing import Any, Dict, List, Optional
 
+from hermes_constants import is_standard_profile as _is_std_profile
 from agent.prompt_builder import (
     DEFAULT_AGENT_IDENTITY,
     GOOGLE_MODEL_OPERATIONAL_GUIDANCE,
@@ -111,7 +112,7 @@ def build_system_prompt_parts(agent: Any, system_message: Optional[str] = None) 
     # Pointer to the hermes-agent skill + docs for user questions about Hermes itself.
     # Only include for the default profile — non-default profiles should not
     # reference "Hermes Agent" in their system prompt to avoid identity confusion.
-    if _agent_profile in ('main', 'default'):
+    if _is_std_profile(_agent_profile):
         stable_parts.append(HERMES_AGENT_HELP_GUIDANCE)
 
     # Universal task-completion / no-fabrication guidance.  Applied to ALL
@@ -252,7 +253,7 @@ def build_system_prompt_parts(agent: Any, system_message: Optional[str] = None) 
     # for the matching tool-side guard.
     # Reuses _agent_profile resolved above (single source of truth).
     active_profile = _agent_profile
-    if active_profile in ("main", "default"):
+    if _is_std_profile(active_profile):
         stable_parts.append(
             "Active Hermes profile: default. Other profiles (if any) live "
             "under ~/.hermes/profiles/<name>/. Each profile has its own "
@@ -300,7 +301,7 @@ def build_system_prompt_parts(agent: Any, system_message: Optional[str] = None) 
         # files (AGENTS.md, .hermes.md etc.) to prevent cross-profile
         # contamination (e.g. ai-expert inheriting second-brain executor role
         # from the default profile's .hermes.md).
-        _skip_cwd_context = _agent_profile and _agent_profile not in ('main', 'default')
+        _skip_cwd_context = not _is_std_profile(_agent_profile)
         if not _skip_cwd_context:
             # Use TERMINAL_CWD for context file discovery when set (gateway
             # mode).  The gateway process runs from the hermes-agent install

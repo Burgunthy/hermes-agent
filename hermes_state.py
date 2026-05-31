@@ -533,6 +533,19 @@ class SessionDB:
             self._warn_fts5_unavailable(exc)
             return False
 
+
+    @staticmethod
+    def _profile_filter_sql(profile_name: str | None) -> tuple[str, list]:
+        """Build a WHERE clause fragment for profile-scoped filtering.
+
+        Returns (sql_fragment, params_list).  Named profiles get an exact
+        match; standard profiles match explicit "main"/"default" rows AND
+        legacy NULL rows (created before the profile_name column existed).
+        """
+        if not profile_name or profile_name in ("main", "default"):
+            return "(s.profile_name IN (?, ?) OR s.profile_name IS NULL)", ["main", "default"]
+        return "(s.profile_name = ?)", [profile_name]
+
     def _execute_write(self, fn: Callable[[sqlite3.Connection], T]) -> T:
         """Execute a write transaction with BEGIN IMMEDIATE and jitter retry.
 
@@ -1566,15 +1579,11 @@ class SessionDB:
             where_clauses.append(f"s.source NOT IN ({placeholders})")
             params.extend(exclude_sources)
 
-        # Profile filtering: match exact profile name OR NULL for backward compatibility
-        # (old sessions without profile_name are treated as belonging to "main"/"default")
-        if profile_name and profile_name not in ("main", "default"):
-            where_clauses.append("(s.profile_name = ?)")
-            params.append(profile_name)
-        elif profile_name in ("main", "default"):
-            # For main/default profiles, include sessions with no profile_name (NULL)
-            where_clauses.append("(s.profile_name IN (?, ?) OR s.profile_name IS NULL)")
-            params.extend([profile_name, "main"])
+        # Profile filtering
+        if profile_name is not None:
+            _pf_sql, _pf_params = SessionDB._profile_filter_sql(profile_name)
+            where_clauses.append(_pf_sql)
+            params.extend(_pf_params)
 
         where_sql = f"WHERE {' AND '.join(where_clauses)}" if where_clauses else ""
         if order_by_last_active:
@@ -2536,15 +2545,11 @@ class SessionDB:
             where_clauses.append(f"m.role IN ({role_placeholders})")
             params.extend(role_filter)
 
-        # Profile filtering: match exact profile name OR NULL for backward compatibility
-        # (old sessions without profile_name are treated as belonging to "main"/"default")
-        if profile_name and profile_name not in ("main", "default"):
-            where_clauses.append("(s.profile_name = ?)")
-            params.append(profile_name)
-        elif profile_name in ("main", "default"):
-            # For main/default profiles, include sessions with no profile_name (NULL)
-            where_clauses.append("(s.profile_name IN (?, ?) OR s.profile_name IS NULL)")
-            params.extend([profile_name, "main"])
+        # Profile filtering
+        if profile_name is not None:
+            _pf_sql, _pf_params = SessionDB._profile_filter_sql(profile_name)
+            where_clauses.append(_pf_sql)
+            params.extend(_pf_params)
 
         where_sql = " AND ".join(where_clauses)
         params.extend([limit, offset])
