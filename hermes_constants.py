@@ -8,6 +8,7 @@ import os
 import sysconfig
 from contextvars import ContextVar, Token
 from pathlib import Path
+import re
 
 
 _profile_fallback_warned: bool = False
@@ -407,16 +408,26 @@ def get_skills_dir() -> Path:
 STANDARD_PROFILES: tuple[str, ...] = ("main", "default")
 
 
+_VALID_PROFILE_RE = re.compile(r'^[a-z0-9][a-z0-9_-]*$')
+
+
 def normalize_profile(name: str | None) -> str:
     """Canonicalize a profile name.
 
     Returns ``"main"`` for all standard/empty profiles so that downstream
     code only needs to compare against a single value.  Named profiles
     are returned as-is (lowercased, stripped).
+
+    Raises ``ValueError`` if the name contains characters that could enable
+    path traversal (e.g. ``../``) or other injection -- only ``[a-z0-9][a-z0-9_-]*``
+    is accepted.
     """
     if not name or name.strip().lower() in STANDARD_PROFILES:
         return "main"
-    return name.strip().lower()
+    cleaned = name.strip().lower()
+    if not _VALID_PROFILE_RE.match(cleaned):
+        raise ValueError(f"Invalid profile name: {name!r} (must match [a-z0-9][a-z0-9_-]*)")
+    return cleaned
 
 
 def is_standard_profile(name: str | None) -> bool:

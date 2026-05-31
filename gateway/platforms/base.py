@@ -4302,7 +4302,8 @@ class BasePlatformAdapter(ABC):
                 )
                 profile_name = self.gateway_runner._profile_name_for_source(_tmp)
             except Exception:
-                pass
+                logger.warning("Profile resolution failed for %s/%s, defaulting to 'main'",
+                               self.platform, chat_id, exc_info=True)
         return SessionSource(
             platform=self.platform,
             chat_id=str(chat_id),

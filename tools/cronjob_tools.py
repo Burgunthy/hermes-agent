@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Union
 
-from hermes_constants import display_hermes_home
+from hermes_constants import display_hermes_home, normalize_profile
 
 logger = logging.getLogger(__name__)
 
@@ -555,6 +555,13 @@ def cronjob(
             )
         # Resolve to canonical ID (supports name-based lookup)
         job_id = job["id"]
+
+        # Cross-profile mutation guard: verify the resolved job belongs
+        # to the caller's profile before allowing any mutations.
+        if profile_name:
+            job_profile = job.get("profile")
+            if job_profile and normalize_profile(job_profile) != normalize_profile(profile_name):
+                return json.dumps({"success": False, "error": f"Job '{job_id}' does not belong to profile '{profile_name}'"})
 
         if normalized == "remove":
             removed = remove_job(job_id)
