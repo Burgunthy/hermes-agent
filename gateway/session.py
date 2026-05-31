@@ -91,7 +91,8 @@ class SessionSource:
     guild_id: Optional[str] = None  # Discord guild / Slack workspace / Matrix server scope
     parent_chat_id: Optional[str] = None  # Parent channel when chat_id refers to a thread
     message_id: Optional[str] = None  # ID of the triggering message (for pin/reply/react)
-    
+    profile_name: str = "main"  # Profile name for profile-scoped session isolation
+
     @property
     def description(self) -> str:
         """Human-readable description of the source."""
@@ -134,6 +135,7 @@ class SessionSource:
             d["parent_chat_id"] = self.parent_chat_id
         if self.message_id:
             d["message_id"] = self.message_id
+        d["profile_name"] = self.profile_name
         return d
 
     @classmethod
@@ -152,6 +154,7 @@ class SessionSource:
             guild_id=data.get("guild_id"),
             parent_chat_id=data.get("parent_chat_id"),
             message_id=data.get("message_id"),
+            profile_name=data.get("profile_name", "main"),
         )
     
 
@@ -601,8 +604,13 @@ def build_session_key(
     source: SessionSource,
     group_sessions_per_user: bool = True,
     thread_sessions_per_user: bool = False,
+    profile_name: str = "main",
 ) -> str:
     """Build a deterministic session key from a message source.
+
+    When *profile_name* is not ``"main"``, the key is scoped as
+    ``agent:{profile_name}:...`` so that profile-routed sessions are
+    fully isolated from the default profile.
 
     This is the single source of truth for session key construction.
 
@@ -633,11 +641,11 @@ def build_session_key(
 
         if dm_chat_id:
             if source.thread_id:
-                return f"agent:main:{platform}:dm:{dm_chat_id}:{source.thread_id}"
-            return f"agent:main:{platform}:dm:{dm_chat_id}"
+                return f"agent:{profile_name}:{platform}:dm:{dm_chat_id}:{source.thread_id}"
+            return f"agent:{profile_name}:{platform}:dm:{dm_chat_id}"
         if source.thread_id:
-            return f"agent:main:{platform}:dm:{source.thread_id}"
-        return f"agent:main:{platform}:dm"
+            return f"agent:{profile_name}:{platform}:dm:{source.thread_id}"
+            return f"agent:{profile_name}:{platform}:dm"
 
     participant_id = source.user_id_alt or source.user_id
     if participant_id and source.platform == Platform.WHATSAPP:
@@ -645,7 +653,7 @@ def build_session_key(
         # single group member gets two isolated per-user sessions when the
         # bridge reshuffles alias forms.
         participant_id = canonical_whatsapp_identifier(str(participant_id)) or participant_id
-    key_parts = ["agent:main", platform, source.chat_type]
+    key_parts = [f"agent:{profile_name}", platform, source.chat_type]
 
     if source.chat_id:
         key_parts.append(source.chat_id)
@@ -747,6 +755,7 @@ class SessionStore:
             source,
             group_sessions_per_user=getattr(self.config, "group_sessions_per_user", True),
             thread_sessions_per_user=getattr(self.config, "thread_sessions_per_user", False),
+            profile_name=getattr(source, "profile_name", "main"),
         )
     
     def _is_session_expired(self, entry: SessionEntry) -> bool:
@@ -937,6 +946,7 @@ class SessionStore:
                 "session_id": session_id,
                 "source": source.platform.value,
                 "user_id": source.user_id,
+                "profile_name": getattr(source, "profile_name", None),
             }
 
         # SQLite operations outside the lock
@@ -1163,6 +1173,7 @@ class SessionStore:
                 "session_id": session_id,
                 "source": old_entry.platform.value if old_entry.platform else "unknown",
                 "user_id": old_entry.origin.user_id if old_entry.origin else None,
+                "profile_name": getattr(old_entry.origin, "profile_name", None) if old_entry.origin else None,
             }
 
         if self._db and db_end_session_id:

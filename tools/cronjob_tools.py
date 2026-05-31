@@ -416,6 +416,25 @@ def _format_job(job: Dict[str, Any]) -> Dict[str, Any]:
     return result
 
 
+def _get_current_profile() -> str:
+    """Detect the current Hermes profile from HERMES_HOME.
+
+    Returns the canonical profile name (via ``normalize_profile``), or
+    ``"main"`` for the root profile.
+    """
+    try:
+        from hermes_constants import get_hermes_home, normalize_profile
+        from pathlib import Path
+
+        hermes_home = Path(get_hermes_home()).resolve()
+        if hermes_home.parent.name == "profiles":
+            return normalize_profile(hermes_home.name)
+    except Exception:
+        pass
+    return "main"
+
+
+
 def cronjob(
     action: str,
     job_id: Optional[str] = None,
@@ -523,7 +542,9 @@ def cronjob(
             )
 
         if normalized == "list":
-            jobs = [_format_job(job) for job in list_jobs(include_disabled=include_disabled)]
+            # Auto-detect current profile for filtering
+            current_profile = _get_current_profile()
+            jobs = [_format_job(job) for job in list_jobs(include_disabled=include_disabled, profile_name=current_profile)]
             return json.dumps({"success": True, "count": len(jobs), "jobs": jobs}, indent=2)
 
         if not job_id:

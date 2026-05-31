@@ -189,6 +189,7 @@ def init_agent(
     gateway_session_key: str = None,
     skip_context_files: bool = False,
     load_soul_identity: bool = False,
+    profile_name: str = "main",
     skip_memory: bool = False,
     session_db=None,
     parent_session_id: str = None,
@@ -278,6 +279,7 @@ def init_agent(
     agent.background_review_callback = None  # Optional sync callback for gateway delivery
     agent.skip_context_files = skip_context_files
     agent.load_soul_identity = load_soul_identity
+    agent.profile_name = profile_name
     agent.pass_session_id = pass_session_id
     agent._credential_pool = credential_pool
     agent.log_prefix_chars = log_prefix_chars
@@ -1078,6 +1080,7 @@ def init_agent(
                 agent._memory_store = MemoryStore(
                     memory_char_limit=mem_config.get("memory_char_limit", 2200),
                     user_char_limit=mem_config.get("user_char_limit", 1375),
+                    profile_name=profile_name,
                 )
                 agent._memory_store.load_from_disk()
         except Exception:
@@ -1134,13 +1137,17 @@ def init_agent(
                     if agent._gateway_session_key:
                         _init_kwargs["gateway_session_key"] = agent._gateway_session_key
                     # Profile identity for per-profile provider scoping
-                    try:
-                        from hermes_cli.profiles import get_active_profile_name
-                        _profile = get_active_profile_name()
-                        _init_kwargs["agent_identity"] = _profile
-                        _init_kwargs["agent_workspace"] = "hermes"
-                    except Exception:
-                        pass
+                    # Use routed profile_name (from profile routing) instead of global active profile
+                    # This ensures hindsight and other providers use profile-scoped memory banks
+                    _profile = getattr(agent, "profile_name", None)
+                    if not _profile:
+                        try:
+                            from hermes_cli.profiles import get_active_profile_name
+                            _profile = get_active_profile_name()
+                        except Exception:
+                            _profile = "default"
+                    _init_kwargs["agent_identity"] = _profile
+                    _init_kwargs["agent_workspace"] = "hermes"
                     agent._memory_manager.initialize_all(**_init_kwargs)
                     _ra().logger.info("Memory provider '%s' activated", _mem_provider_name)
                 else:

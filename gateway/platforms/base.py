@@ -4279,6 +4279,30 @@ class BasePlatformAdapter(ABC):
         # Normalize empty topic to None
         if chat_topic is not None and not chat_topic.strip():
             chat_topic = None
+        # Resolve profile_name from profile routing at source creation
+        # time so the batch key and session key both use the correct profile.
+        profile_name = "main"
+        if self.gateway_runner:
+            try:
+                _tmp = SessionSource(
+                    platform=self.platform,
+                    chat_id=str(chat_id),
+                    chat_name=chat_name,
+                    chat_type=chat_type,
+                    user_id=str(user_id) if user_id else None,
+                    user_name=user_name,
+                    thread_id=str(thread_id) if thread_id else None,
+                    chat_topic=chat_topic.strip() if chat_topic else None,
+                    user_id_alt=user_id_alt,
+                    chat_id_alt=chat_id_alt,
+                    is_bot=is_bot,
+                    guild_id=str(guild_id) if guild_id else None,
+                    parent_chat_id=str(parent_chat_id) if parent_chat_id else None,
+                    message_id=str(message_id) if message_id else None,
+                )
+                profile_name = self.gateway_runner._profile_name_for_source(_tmp)
+            except Exception:
+                pass
         return SessionSource(
             platform=self.platform,
             chat_id=str(chat_id),
@@ -4294,6 +4318,7 @@ class BasePlatformAdapter(ABC):
             guild_id=str(guild_id) if guild_id else None,
             parent_chat_id=str(parent_chat_id) if parent_chat_id else None,
             message_id=str(message_id) if message_id else None,
+            profile_name=profile_name,
         )
     
     @abstractmethod

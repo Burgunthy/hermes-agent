@@ -1648,6 +1648,7 @@ def invoke_tool(agent, function_name: str, function_args: dict, effective_task_i
             sort=function_args.get("sort"),
             db=session_db,
             current_session_id=agent.session_id,
+            profile_name=getattr(agent, "profile_name", "main"),
         )
     elif function_name == "memory":
         target = function_args.get("target", "memory")

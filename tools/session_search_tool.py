@@ -107,12 +107,13 @@ def _shape_message(m: Dict[str, Any], anchor_id: Optional[int] = None) -> Dict[s
     return {k: v for k, v in entry.items() if v is not None or k in ("content",)}
 
 
-def _list_recent_sessions(db, limit: int, current_session_id: str = None) -> str:
+def _list_recent_sessions(db, limit: int, profile_name: str = None, current_session_id: str = None) -> str:
     """Return metadata for the most recent sessions (no LLM calls, no FTS5)."""
     try:
         sessions = db.list_sessions_rich(
             limit=limit + 5,
             exclude_sources=list(_HIDDEN_SESSION_SOURCES),
+            profile_name=profile_name,
             order_by_last_active=True,
         )  # fetch extra so we can skip current
 
@@ -278,8 +279,9 @@ def _discover(
     db,
     query: str,
     role_filter: Optional[List[str]],
-    limit: int,
-    sort: Optional[str],
+    profile_name: str = None,
+    limit: int = 3,
+    sort: Optional[str] = None,
     current_session_id: str = None,
 ) -> str:
     """Discovery shape: FTS5 + anchored window + bookends per hit. Single call."""
@@ -290,6 +292,7 @@ def _discover(
             query=query,
             role_filter=role_list,
             exclude_sources=list(_HIDDEN_SESSION_SOURCES),
+            profile_name=profile_name,
             limit=50,  # widen so dedup-by-lineage can find distinct sessions
             offset=0,
             sort=sort,
@@ -381,6 +384,7 @@ def session_search(
     limit: int = 3,
     db=None,
     current_session_id: str = None,
+    profile_name: str = None,
     # Scroll shape
     session_id: str = None,
     around_message_id: int = None,
@@ -426,7 +430,7 @@ def session_search(
 
     # Browse shape: no query → recent sessions.
     if not query or not isinstance(query, str) or not query.strip():
-        return _list_recent_sessions(db, limit, current_session_id)
+        return _list_recent_sessions(db, limit, profile_name, current_session_id)
 
     # Parse role_filter
     role_list: Optional[List[str]] = None
@@ -444,6 +448,7 @@ def session_search(
         db=db,
         query=query.strip(),
         role_filter=role_list,
+        profile_name=profile_name,
         limit=limit,
         sort=sort_norm,
         current_session_id=current_session_id,
@@ -596,6 +601,7 @@ registry.register(
         sort=args.get("sort"),
         db=kw.get("db"),
         current_session_id=kw.get("current_session_id"),
+        profile_name=kw.get("profile_name"),
     ),
     check_fn=check_session_search_requirements,
     emoji="🔍",

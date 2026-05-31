@@ -239,6 +239,7 @@ CREATE TABLE IF NOT EXISTS sessions (
     model_config TEXT,
     system_prompt TEXT,
     parent_session_id TEXT,
+    profile_name TEXT,
     started_at REAL NOT NULL,
     ended_at REAL,
     end_reason TEXT,
@@ -531,6 +532,19 @@ class SessionDB:
                 raise
             self._warn_fts5_unavailable(exc)
             return False
+
+
+    @staticmethod
+    def _profile_filter_sql(profile_name: str | None) -> tuple[str, list]:
+        """Build a WHERE clause fragment for profile-scoped filtering.
+
+        Returns (sql_fragment, params_list).  Named profiles get an exact
+        match; standard profiles match explicit "main"/"default" rows AND
+        legacy NULL rows (created before the profile_name column existed).
+        """
+        if not profile_name or profile_name in ("main", "default"):
+            return "(s.profile_name IN (?, ?) OR s.profile_name IS NULL)", ["main", "default"]
+        return "(s.profile_name = ?)", [profile_name]
 
     def _execute_write(self, fn: Callable[[sqlite3.Connection], T]) -> T:
         """Execute a write transaction with BEGIN IMMEDIATE and jitter retry.
@@ -890,13 +904,14 @@ class SessionDB:
         system_prompt: str = None,
         user_id: str = None,
         parent_session_id: str = None,
+        profile_name: str = None,
     ) -> None:
         """Shared INSERT OR IGNORE for session rows."""
         def _do(conn):
             conn.execute(
                 """INSERT OR IGNORE INTO sessions (id, source, user_id, model, model_config,
-                   system_prompt, parent_session_id, started_at)
-                   VALUES (?, ?, ?, ?, ?, ?, ?, ?)""",
+                   system_prompt, parent_session_id, profile_name, started_at)
+                   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
                 (
                     session_id,
                     source,
@@ -905,6 +920,7 @@ class SessionDB:
                     json.dumps(model_config) if model_config else None,
                     system_prompt,
                     parent_session_id,
+                    profile_name,
                     time.time(),
                 ),
             )
@@ -1504,6 +1520,7 @@ class SessionDB:
         self,
         source: str = None,
         exclude_sources: List[str] = None,
+        profile_name: str = None,
         limit: int = 20,
         offset: int = 0,
         include_children: bool = False,
@@ -1561,6 +1578,12 @@ class SessionDB:
             placeholders = ",".join("?" for _ in exclude_sources)
             where_clauses.append(f"s.source NOT IN ({placeholders})")
             params.extend(exclude_sources)
+
+        # Profile filtering
+        if profile_name is not None:
+            _pf_sql, _pf_params = SessionDB._profile_filter_sql(profile_name)
+            where_clauses.append(_pf_sql)
+            params.extend(_pf_params)
 
         where_sql = f"WHERE {' AND '.join(where_clauses)}" if where_clauses else ""
         if order_by_last_active:
@@ -2448,6 +2471,7 @@ class SessionDB:
         source_filter: List[str] = None,
         exclude_sources: List[str] = None,
         role_filter: List[str] = None,
+        profile_name: str = None,
         limit: int = 20,
         offset: int = 0,
         sort: str = None,
@@ -2521,6 +2545,12 @@ class SessionDB:
             where_clauses.append(f"m.role IN ({role_placeholders})")
             params.extend(role_filter)
 
+        # Profile filtering
+        if profile_name is not None:
+            _pf_sql, _pf_params = SessionDB._profile_filter_sql(profile_name)
+            where_clauses.append(_pf_sql)
+            params.extend(_pf_params)
+
         where_sql = " AND ".join(where_clauses)
         params.extend([limit, offset])
 
@@ -2593,6 +2623,13 @@ class SessionDB:
                 if role_filter:
                     tri_where.append(f"m.role IN ({','.join('?' for _ in role_filter)})")
                     tri_params.extend(role_filter)
+                # Profile filtering for trigram path
+                if profile_name and profile_name not in ("main", "default"):
+                    tri_where.append("(s.profile_name = ?)")
+                    tri_params.append(profile_name)
+                elif profile_name in ("main", "default"):
+                    tri_where.append("(s.profile_name IN (?, ?) OR s.profile_name IS NULL)")
+                    tri_params.extend([profile_name, "main"])
                 tri_sql = f"""
                     SELECT
                         m.id,
@@ -2648,6 +2685,13 @@ class SessionDB:
                 if role_filter:
                     like_where.append(f"m.role IN ({','.join('?' for _ in role_filter)})")
                     like_params.extend(role_filter)
+                # Profile filtering for LIKE fallback path
+                if profile_name and profile_name not in ("main", "default"):
+                    like_where.append("(s.profile_name = ?)")
+                    like_params.append(profile_name)
+                elif profile_name in ("main", "default"):
+                    like_where.append("(s.profile_name IN (?, ?) OR s.profile_name IS NULL)")
+                    like_params.extend([profile_name, "main"])
                 like_sql = f"""
                     SELECT m.id, m.session_id, m.role,
                            substr(m.content,

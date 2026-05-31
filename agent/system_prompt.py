@@ -27,6 +27,7 @@ import json
 import os
 from typing import Any, Dict, List, Optional
 
+from hermes_constants import is_standard_profile as _is_std_profile
 from agent.prompt_builder import (
     DEFAULT_AGENT_IDENTITY,
     GOOGLE_MODEL_OPERATIONAL_GUIDANCE,
@@ -89,7 +90,7 @@ def build_system_prompt_parts(agent: Any, system_message: Optional[str] = None) 
     # cwd project instructions disabled.
     _soul_loaded = False
     if agent.load_soul_identity or not agent.skip_context_files:
-        _soul_content = _r.load_soul_md()
+        _soul_content = _r.load_soul_md(getattr(agent, 'profile_name', 'main'))
         if _soul_content:
             stable_parts.append(_soul_content)
             _soul_loaded = True
@@ -98,8 +99,21 @@ def build_system_prompt_parts(agent: Any, system_message: Optional[str] = None) 
         # Fallback to hardcoded identity
         stable_parts.append(DEFAULT_AGENT_IDENTITY)
 
+    # Resolve profile name once — single source of truth for all profile-scoped
+    # decisions in this function (help guidance, context files, profile hint).
+    _agent_profile = getattr(agent, 'profile_name', None)
+    if not _agent_profile:
+        try:
+            from agent.file_safety import _resolve_active_profile_name
+            _agent_profile = _resolve_active_profile_name()
+        except Exception:
+            _agent_profile = 'default'
+
     # Pointer to the hermes-agent skill + docs for user questions about Hermes itself.
-    stable_parts.append(HERMES_AGENT_HELP_GUIDANCE)
+    # Only include for the default profile — non-default profiles should not
+    # reference "Hermes Agent" in their system prompt to avoid identity confusion.
+    if _is_std_profile(_agent_profile):
+        stable_parts.append(HERMES_AGENT_HELP_GUIDANCE)
 
     # Universal task-completion / no-fabrication guidance.  Applied to ALL
     # models regardless of tool_use_enforcement gating — the failure modes
@@ -188,6 +202,7 @@ def build_system_prompt_parts(agent: Any, system_message: Optional[str] = None) 
         skills_prompt = _r.build_skills_system_prompt(
             available_tools=agent.valid_tool_names,
             available_toolsets=avail_toolsets,
+            profile_name=_agent_profile,
         )
     else:
         skills_prompt = ""
@@ -235,16 +250,10 @@ def build_system_prompt_parts(agent: Any, system_message: Optional[str] = None) 
     # Active-profile hint — names the Hermes profile the agent is running
     # under so it doesn't conflate ~/.hermes/skills/ (default profile) with
     # ~/.hermes/profiles/<active>/skills/ (this profile's). Deterministic
-    # for the lifetime of the agent — profile name doesn't change
-    # mid-session, so this doesn't break the prompt cache.
-    # See file_safety._resolve_active_profile_name + classify_cross_profile_target
     # for the matching tool-side guard.
-    try:
-        from agent.file_safety import _resolve_active_profile_name
-        active_profile = _resolve_active_profile_name()
-    except Exception:
-        active_profile = "default"
-    if active_profile == "default":
+    # Reuses _agent_profile resolved above (single source of truth).
+    active_profile = _agent_profile
+    if _is_std_profile(active_profile):
         stable_parts.append(
             "Active Hermes profile: default. Other profiles (if any) live "
             "under ~/.hermes/profiles/<name>/. Each profile has its own "
@@ -288,15 +297,21 @@ def build_system_prompt_parts(agent: Any, system_message: Optional[str] = None) 
         context_parts.append(system_message)
 
     if not agent.skip_context_files:
-        # Use TERMINAL_CWD for context file discovery when set (gateway
-        # mode).  The gateway process runs from the hermes-agent install
-        # dir, so os.getcwd() would pick up the repo's AGENTS.md and
-        # other dev files — inflating token usage by ~10k for no benefit.
-        _context_cwd = os.getenv("TERMINAL_CWD") or None
-        context_files_prompt = _r.build_context_files_prompt(
-            cwd=_context_cwd, skip_soul=_soul_loaded)
-        if context_files_prompt:
-            context_parts.append(context_files_prompt)
+        # Non-default profiles get isolated context: skip TERMINAL_CWD context
+        # files (AGENTS.md, .hermes.md etc.) to prevent cross-profile
+        # contamination (e.g. ai-expert inheriting second-brain executor role
+        # from the default profile's .hermes.md).
+        _skip_cwd_context = not _is_std_profile(_agent_profile)
+        if not _skip_cwd_context:
+            # Use TERMINAL_CWD for context file discovery when set (gateway
+            # mode).  The gateway process runs from the hermes-agent install
+            # dir, so os.getcwd() would pick up the repo's AGENTS.md and
+            # other dev files — inflating token usage by ~10k for no benefit.
+            _context_cwd = os.getenv("TERMINAL_CWD") or None
+            context_files_prompt = _r.build_context_files_prompt(
+                cwd=_context_cwd, skip_soul=_soul_loaded)
+            if context_files_prompt:
+                context_parts.append(context_files_prompt)
 
     # ── Volatile tier (changes per session/turn — never cached) ───
     volatile_parts: List[str] = []

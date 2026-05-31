@@ -3487,6 +3487,7 @@ class DiscordAdapter(BasePlatformAdapter):
         # For forum threads, inherit the parent forum's topic.
         chat_topic = self._get_effective_topic(interaction.channel, is_thread=is_thread)
 
+        _guild = getattr(interaction, "guild", None)
         source = self.build_source(
             chat_id=str(interaction.channel_id),
             chat_name=chat_name,
@@ -3495,6 +3496,8 @@ class DiscordAdapter(BasePlatformAdapter):
             user_name=interaction.user.display_name,
             thread_id=thread_id,
             chat_topic=chat_topic,
+            guild_id=str(_guild.id) if _guild else None,
+            parent_chat_id=str(interaction.channel.parent_id) if getattr(interaction.channel, "parent_id", None) else None,
         )
 
         msg_type = MessageType.COMMAND if text.startswith("/") else MessageType.TEXT
@@ -3569,6 +3572,7 @@ class DiscordAdapter(BasePlatformAdapter):
         _chan = getattr(interaction, "channel", None)
         chat_topic = self._get_effective_topic(_chan, is_thread=True) if _chan else None
 
+        _guild = getattr(interaction, "guild", None)
         source = self.build_source(
             chat_id=thread_id,
             chat_name=chat_name,
@@ -3577,6 +3581,8 @@ class DiscordAdapter(BasePlatformAdapter):
             user_name=interaction.user.display_name,
             thread_id=thread_id,
             chat_topic=chat_topic,
+            guild_id=str(_guild.id) if _guild else None,
+            parent_chat_id=str(getattr(interaction.channel, "parent_id", None)) if hasattr(interaction.channel, "parent_id") and interaction.channel.parent_id else None,
         )
 
         _parent_channel = self._thread_parent_channel(getattr(interaction, "channel", None))
@@ -4885,10 +4891,14 @@ class DiscordAdapter(BasePlatformAdapter):
     def _text_batch_key(self, event: MessageEvent) -> str:
         """Session-scoped key for text message batching."""
         from gateway.session import build_session_key
+        # Use profile_name already set on source by gateway (run.py sets it
+        # via _profile_name_for_source before the event reaches batching).
+        profile_name = getattr(event.source, 'profile_name', 'main') or 'main'
         return build_session_key(
             event.source,
             group_sessions_per_user=self.config.extra.get("group_sessions_per_user", True),
             thread_sessions_per_user=self.config.extra.get("thread_sessions_per_user", False),
+            profile_name=profile_name,
         )
 
     def _enqueue_text_event(self, event: MessageEvent) -> None:
