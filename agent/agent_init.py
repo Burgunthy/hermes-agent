@@ -1137,13 +1137,17 @@ def init_agent(
                     if agent._gateway_session_key:
                         _init_kwargs["gateway_session_key"] = agent._gateway_session_key
                     # Profile identity for per-profile provider scoping
-                    try:
-                        from hermes_cli.profiles import get_active_profile_name
-                        _profile = get_active_profile_name()
-                        _init_kwargs["agent_identity"] = _profile
-                        _init_kwargs["agent_workspace"] = "hermes"
-                    except Exception:
-                        pass
+                    # Use routed profile_name (from profile routing) instead of global active profile
+                    # This ensures hindsight and other providers use profile-scoped memory banks
+                    _profile = getattr(agent, "profile_name", None)
+                    if not _profile:
+                        try:
+                            from hermes_cli.profiles import get_active_profile_name
+                            _profile = get_active_profile_name()
+                        except Exception:
+                            _profile = "default"
+                    _init_kwargs["agent_identity"] = _profile
+                    _init_kwargs["agent_workspace"] = "hermes"
                     agent._memory_manager.initialize_all(**_init_kwargs)
                     _ra().logger.info("Memory provider '%s' activated", _mem_provider_name)
                 else:

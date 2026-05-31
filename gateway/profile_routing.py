@@ -1,4 +1,4 @@
-"""Profile-based routing for the gateway.
+"""Profile-based routing for the gateway with hierarchical matching.
 
 Allows a single Hermes instance to route specific Discord guilds/channels/threads
 to different profiles — each with their own model, tools, memory, and persona.
@@ -8,6 +8,11 @@ Matching priority (most specific first):
   2. platform + chat_id (channel route)             — specificity 4
   3. platform + guild_id (guild/server route)       — specificity 2
   4. No match                                       → default profile
+
+Hierarchical matching:
+For Discord forum channels, checks the full parent chain:
+- Forum channel → Forum post → Comment
+- Matches if any level of the hierarchy matches a configured route
 
 Configuration (config.yaml):
 
@@ -34,11 +39,27 @@ Configuration (config.yaml):
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Set
 
 import logging
 
 logger = logging.getLogger(__name__)
+
+
+# Simple cache for forum post → channel mappings
+# In production, this should be persisted to a database
+_forum_post_cache: Dict[str, str] = {}  # post_id → channel_id
+
+
+def register_forum_post(post_id: str, channel_id: str) -> None:
+    """Register a forum post's parent channel for hierarchical matching."""
+    _forum_post_cache[post_id] = channel_id
+    logger.debug("Registered forum post %s → channel %s", post_id, channel_id)
+
+
+def resolve_forum_channel(post_id: str) -> Optional[str]:
+    """Get the parent channel ID for a forum post, if cached."""
+    return _forum_post_cache.get(post_id)
 
 
 @dataclass(frozen=True)
@@ -73,15 +94,36 @@ class ProfileRoute:
         thread_id: Optional[str] = None,
         parent_chat_id: Optional[str] = None,
     ) -> bool:
-        """Return True if this route matches the given source fields."""
+        """Return True if this route matches the given source fields.
+        
+        Supports hierarchical matching for Discord forums:
+        - Direct channel match: chat_id == route.chat_id
+        - Thread in channel: parent_chat_id == route.chat_id
+        - Forum post: parent_chat_id is the forum post, check if post belongs to route's channel
+        - Comment on forum post: parent_chat_id is the forum post, check hierarchy
+        """
         if not self.enabled:
             return False
         if self.platform != platform:
             return False
         if self.thread_id and self.thread_id != thread_id:
             return False
-        if self.chat_id and self.chat_id != chat_id and self.chat_id != parent_chat_id:
-            return False
+        
+        # Hierarchical chat_id matching
+        if self.chat_id:
+            # Direct match
+            if self.chat_id == chat_id:
+                return True
+            # Parent match (thread or direct child)
+            if self.chat_id == parent_chat_id:
+                return True
+            # Forum post hierarchy: check if parent_chat_id is a forum post
+            # that belongs to this channel
+            if parent_chat_id:
+                parent_channel = resolve_forum_channel(parent_chat_id)
+                if parent_channel and self.chat_id == parent_channel:
+                    return True
+        
         if self.guild_id and self.guild_id != guild_id:
             return False
         return True

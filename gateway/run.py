@@ -2222,13 +2222,27 @@ class GatewayRunner:
         )
         if matched:
             return matched.profile
-        logger.debug("No profile route matched: platform=%s chat_id=%s thread_id=%s parent_chat_id=%s",
+        logger.info("No profile route matched: platform=%s chat_id=%s thread_id=%s parent_chat_id=%s",
                     source.platform.value, source.chat_id,
                     getattr(source, "thread_id", None), getattr(source, "parent_chat_id", None))
         return "main"
 
     def _session_key_for_source(self, source: SessionSource) -> str:
         """Resolve the current session key for a source, honoring gateway config when available."""
+        config = getattr(self, "config", None)
+        profile_name = self._profile_name_for_source(source)
+        
+        # Skip session_store when using non-main profile for proper profile-scoped session isolation
+        # The session_store doesn't know about profile routing, so we build the key directly
+        if profile_name != "main":
+            return build_session_key(
+                source,
+                group_sessions_per_user=getattr(config, "group_sessions_per_user", True),
+                thread_sessions_per_user=getattr(config, "thread_sessions_per_user", False),
+                profile_name=profile_name,
+            )
+        
+        # For main profile, use session_store if available (existing behavior)
         if hasattr(self, "session_store") and self.session_store is not None:
             try:
                 session_key = self.session_store._generate_session_key(source)
@@ -2236,8 +2250,7 @@ class GatewayRunner:
                     return session_key
             except Exception:
                 pass
-        config = getattr(self, "config", None)
-        profile_name = self._profile_name_for_source(source)
+        
         return build_session_key(
             source,
             group_sessions_per_user=getattr(config, "group_sessions_per_user", True),
@@ -12052,11 +12065,24 @@ class GatewayRunner:
             agent_cfg = user_config.get("agent") or {}
             disabled_toolsets = agent_cfg.get("disabled_toolsets") or None
 
+            # Resolve profile name for background task (same routing as main flow)
+            profile_name = self._profile_name_for_source(source)
+            _profile_overrides = self._load_profile_overrides(profile_name) if profile_name != "main" else {}
+            if _profile_overrides.get("disabled_toolsets"):
+                disabled_toolsets = _profile_overrides["disabled_toolsets"]
+
             pr = self._provider_routing
             max_iterations = int(os.getenv("HERMES_MAX_ITERATIONS", "90"))
             reasoning_config = self._resolve_session_reasoning_config(source=source)
             self._reasoning_config = reasoning_config
             self._service_tier = self._load_service_tier()
+
+            # Apply profile overrides for model and provider (before turn_route resolution)
+            if _profile_overrides.get("model"):
+                model = _profile_overrides["model"]
+            if _profile_overrides.get("provider"):
+                runtime_kwargs = dict(runtime_kwargs)
+                runtime_kwargs["provider"] = _profile_overrides["provider"]
             turn_route = self._resolve_turn_agent_config(prompt, model, runtime_kwargs)
 
             # Enrich the prompt with image descriptions so the background
@@ -12105,6 +12131,7 @@ class GatewayRunner:
                     thread_id=source.thread_id,
                     session_db=self._session_db,
                     fallback_model=self._fallback_model,
+                    profile_name=profile_name,
                 )
                 try:
                     return agent.run_conversation(
