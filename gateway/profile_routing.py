@@ -38,6 +38,7 @@ Configuration (config.yaml):
 
 from __future__ import annotations
 
+from collections import OrderedDict
 from dataclasses import dataclass
 from typing import Any, Dict, List, Optional, Set
 
@@ -46,15 +47,18 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-# Simple cache for forum post → channel mappings
-# In production, this should be persisted to a database
-_forum_post_cache: Dict[str, str] = {}  # post_id → channel_id
-
+# Bounded LRU cache for forum post to channel mappings.
+# OrderedDict evicts least-recently-used entries when full.
+_MAX_FORUM_CACHE = 10000
+_forum_post_cache: OrderedDict[str, str] = OrderedDict()  # post_id -> channel_id
 
 def register_forum_post(post_id: str, channel_id: str) -> None:
     """Register a forum post's parent channel for hierarchical matching."""
     _forum_post_cache[post_id] = channel_id
-    logger.debug("Registered forum post %s → channel %s", post_id, channel_id)
+    _forum_post_cache.move_to_end(post_id)
+    while len(_forum_post_cache) > _MAX_FORUM_CACHE:
+        _forum_post_cache.popitem(last=False)
+    logger.debug("Registered forum post %s -> channel %s", post_id, channel_id)
 
 
 def resolve_forum_channel(post_id: str) -> Optional[str]:

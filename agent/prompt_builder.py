@@ -11,7 +11,7 @@ import threading
 from collections import OrderedDict
 from pathlib import Path
 
-from hermes_constants import get_hermes_home, get_skills_dir, is_wsl
+from hermes_constants import get_hermes_home, get_skills_dir, is_standard_profile, is_wsl
 from typing import Optional
 
 from agent.skill_utils import (
@@ -1373,7 +1373,7 @@ def load_soul_md(profile_name: str = "main") -> Optional[str]:
 
     # Profile-scoped SOUL.md takes precedence, then global fallback
     home = get_hermes_home()
-    if profile_name and profile_name != "main":
+    if not is_standard_profile(profile_name):
         soul_path = home / "profiles" / profile_name / "SOUL.md"
         if not soul_path.exists():
             soul_path = home / "SOUL.md"  # fallback to global

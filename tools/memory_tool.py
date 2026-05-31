@@ -30,7 +30,7 @@ import tempfile
 import time
 from contextlib import contextmanager
 from pathlib import Path
-from hermes_constants import get_hermes_home
+from hermes_constants import get_hermes_home, is_standard_profile
 from typing import Dict, Any, List, Optional
 
 from utils import atomic_replace
@@ -59,14 +59,14 @@ def get_memory_dir(profile_name: str = "main") -> Path:
     For named profiles, uses HERMES_HOME/profiles/{name}/memories.
     """
     home = get_hermes_home()
-    if profile_name and profile_name != "main":
+    if not is_standard_profile(profile_name):
         return home / "profiles" / profile_name / "memories"
     return home / "memories"
 
 def get_soul_path(profile_name: str = "main") -> Path:
     """Return the profile-scoped SOUL.md path."""
     home = get_hermes_home()
-    if profile_name and profile_name != "main":
+    if not is_standard_profile(profile_name):
         return home / "profiles" / profile_name / "SOUL.md"
     return home / "SOUL.md"
 

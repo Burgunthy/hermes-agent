@@ -1758,6 +1758,7 @@ class GatewayRunner:
         # cannot grow unbounded over a long-running gateway lifetime.
         self._session_sources: "OrderedDict[str, SessionSource]" = OrderedDict()
         self._session_sources_max = 512
+        self._profile_override_cache = {}
 
         # Cache AIAgent instances per session to preserve prompt caching.
         # Without this, a new AIAgent is created per message, rebuilding the
@@ -2256,19 +2257,11 @@ class GatewayRunner:
     def _session_key_for_source(self, source: SessionSource) -> str:
         """Resolve the current session key for a source, honoring gateway config when available."""
         config = getattr(self, "config", None)
-        profile_name = self._profile_name_for_source(source)
-        
-        # Skip session_store when using non-main profile for proper profile-scoped session isolation
-        # The session_store doesn't know about profile routing, so we build the key directly
-        if profile_name != "main":
-            return build_session_key(
-                source,
-                group_sessions_per_user=getattr(config, "group_sessions_per_user", True),
-                thread_sessions_per_user=getattr(config, "thread_sessions_per_user", False),
-                profile_name=profile_name,
-            )
-        
-        # For main profile, use session_store if available (existing behavior)
+        # Read profile_name already set by _enrich_source_with_profile (or build_source)
+        profile_name = getattr(source, "profile_name", "main") or "main"
+
+        # All profiles go through SessionStore now -- it already reads profile_name
+        # from the source via getattr(source, "profile_name", "main") in _generate_session_key
         if hasattr(self, "session_store") and self.session_store is not None:
             try:
                 session_key = self.session_store._generate_session_key(source)
@@ -2276,7 +2269,7 @@ class GatewayRunner:
                     return session_key
             except Exception:
                 pass
-        
+
         return build_session_key(
             source,
             group_sessions_per_user=getattr(config, "group_sessions_per_user", True),
@@ -2293,10 +2286,7 @@ class GatewayRunner:
         if is_standard_profile(profile_name):
             return {}
 
-        cache = getattr(self, "_profile_override_cache", None)
-        if cache is None:
-            self._profile_override_cache = {}
-            cache = self._profile_override_cache
+        cache = self._profile_override_cache
         now = time.time()
         cached = cache.get(profile_name)
         if cached and (now - cached[0]) < 60:
@@ -12182,7 +12172,7 @@ class GatewayRunner:
 
             # Resolve profile name for background task (same routing as main flow)
             profile_name = self._profile_name_for_source(source)
-            _profile_overrides = self._load_profile_overrides(profile_name) if profile_name != "main" else {}
+            _profile_overrides = self._load_profile_overrides(profile_name) if not is_standard_profile(profile_name) else {}
             if _profile_overrides.get("disabled_toolsets"):
                 disabled_toolsets = _profile_overrides["disabled_toolsets"]
 
@@ -16426,7 +16416,7 @@ class GatewayRunner:
 
         # Profile routing: resolve profile name and apply overrides
         profile_name = self._profile_name_for_source(source)
-        _profile_overrides = self._load_profile_overrides(profile_name) if profile_name != "main" else {}
+        _profile_overrides = self._load_profile_overrides(profile_name) if not is_standard_profile(profile_name) else {}
         if _profile_overrides.get("disabled_toolsets"):
             disabled_toolsets = _profile_overrides["disabled_toolsets"]
 
