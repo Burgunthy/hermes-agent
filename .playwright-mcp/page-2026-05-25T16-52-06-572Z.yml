@@ -1,0 +1,181 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ollama" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Ollama" [ref=e5]
+      - generic [ref=e6]:
+        - link "Models" [ref=e7] [cursor=pointer]:
+          - /url: /search
+        - link "Docs" [ref=e8] [cursor=pointer]:
+          - /url: /docs
+        - link "Pricing" [ref=e9] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=e13]:
+        - img [ref=e15]
+        - textbox "Search models" [ref=e17]
+      - generic [ref=e18]:
+        - link "Sign in" [ref=e19] [cursor=pointer]:
+          - /url: /signin
+        - link "Download" [ref=e20] [cursor=pointer]:
+          - /url: /download
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - link "mistral-small3.1" [ref=e27] [cursor=pointer]:
+        - /url: /library/mistral-small3.1
+      - generic [ref=e28]:
+        - paragraph [ref=e30]:
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - generic [ref=e34]: 744.6K
+            - generic [ref=e35]: Downloads
+          - generic "Apr 7, 2025 4:59 PM UTC" [ref=e36]:
+            - img [ref=e37]
+            - generic [ref=e39]: Updated
+            - generic [ref=e40]: 1 year ago
+        - heading "Building upon Mistral Small 3, Mistral Small 3.1 (2503) adds state-of-the-art vision understanding and enhances long context capabilities up to 128k tokens without compromising text performance." [level=2] [ref=e42]
+        - generic [ref=e43]:
+          - generic [ref=e44]: vision
+          - generic [ref=e45]: tools
+          - generic [ref=e46]: 24b
+    - generic [ref=e47]:
+      - generic [ref=e49]:
+        - generic [ref=e51]:
+          - button "CLI" [ref=e52] [cursor=pointer]
+          - button "cURL" [ref=e53] [cursor=pointer]
+          - button "Python" [ref=e54] [cursor=pointer]
+          - button "JavaScript" [ref=e55] [cursor=pointer]
+        - generic [ref=e56]:
+          - button "Copy" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+          - generic [ref=e62]: ollama run mistral-small3.1
+      - generic [ref=e63]:
+        - heading "Applications" [level=2] [ref=e64]
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - img "Claude Code" [ref=e69]
+              - generic [ref=e70]:
+                - generic [ref=e71]: Claude Code
+                - code [ref=e72]: ollama launch claude --model mistral-small3.1
+            - button "Copy" [ref=e73] [cursor=pointer]:
+              - img [ref=e74]
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - img "Codex App" [ref=e78]
+              - generic [ref=e79]:
+                - generic [ref=e80]: Codex App
+                - code [ref=e81]: ollama launch codex-app --model mistral-small3.1
+            - button "Copy" [ref=e82] [cursor=pointer]:
+              - img [ref=e83]
+          - generic [ref=e85]:
+            - generic [ref=e86]:
+              - img "OpenClaw" [ref=e87]
+              - generic [ref=e88]:
+                - generic [ref=e89]: OpenClaw
+                - code [ref=e90]: ollama launch openclaw --model mistral-small3.1
+            - button "Copy" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+          - generic [ref=e94]:
+            - generic [ref=e95]:
+              - img "Hermes Agent" [ref=e96]
+              - generic [ref=e97]:
+                - generic [ref=e98]: Hermes Agent
+                - code [ref=e99]: ollama launch hermes --model mistral-small3.1
+            - button "Copy" [ref=e100] [cursor=pointer]:
+              - img [ref=e101]
+          - generic [ref=e103]:
+            - generic [ref=e104]:
+              - img "Codex" [ref=e105]
+              - generic [ref=e106]:
+                - generic [ref=e107]: Codex
+                - code [ref=e108]: ollama launch codex --model mistral-small3.1
+            - button "Copy" [ref=e109] [cursor=pointer]:
+              - img [ref=e110]
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - img "OpenCode" [ref=e114]
+              - generic [ref=e115]:
+                - generic [ref=e116]: OpenCode
+                - code [ref=e117]: ollama launch opencode --model mistral-small3.1
+            - button "Copy" [ref=e118] [cursor=pointer]:
+              - img [ref=e119]
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - heading "Models" [level=2] [ref=e123]
+          - link "View all →" [ref=e124] [cursor=pointer]:
+            - /url: /library/mistral-small3.1/tags
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - paragraph [ref=e128]: Name
+            - paragraph [ref=e129]: Size / Usage
+            - paragraph [ref=e130]: Context
+            - paragraph [ref=e131]: Input
+          - generic [ref=e132]:
+            - link "mistral-small3.1:latest" [ref=e134] [cursor=pointer]:
+              - /url: /library/mistral-small3.1:latest
+            - paragraph [ref=e135]: 15GB
+            - paragraph [ref=e136]: 128K
+            - paragraph [ref=e137]: Text, Image
+          - generic [ref=e138]:
+            - generic [ref=e139]:
+              - link "mistral-small3.1:24b" [ref=e140] [cursor=pointer]:
+                - /url: /library/mistral-small3.1:24b
+              - generic [ref=e141]: latest
+            - paragraph [ref=e142]: 15GB
+            - paragraph [ref=e143]: 128K
+            - paragraph [ref=e144]: Text, Image
+    - generic [ref=e145]:
+      - heading "Readme" [level=2] [ref=e147]
+      - generic [ref=e149]:
+        - blockquote [ref=e150]:
+          - paragraph [ref=e151]:
+            - text: "Note: this model requires Ollama 0.6.5 or higher."
+            - link "Download Ollama" [ref=e152] [cursor=pointer]:
+              - /url: https://ollama.com/download
+        - paragraph [ref=e153]:
+          - img [ref=e154]
+        - paragraph [ref=e155]:
+          - text: Building on
+          - link "Mistral Small 3" [ref=e156] [cursor=pointer]:
+            - /url: https://ollama.com/library/mistral-small
+          - text: ", this new model comes with improved text performance, multimodal understanding, and an expanded context window of up to 128k tokens. The model outperforms comparable models like Gemma 3 and GPT-4o Mini, while delivering inference speeds of 150 tokens per second."
+        - paragraph [ref=e157]: Mistral Small 3.1 is released under an Apache 2.0 license.
+        - heading "Key features and capabilities" [level=2] [ref=e158]
+        - list [ref=e159]:
+          - listitem [ref=e160]:
+            - paragraph [ref=e161]: "Lightweight: Mistral Small 3.1 can run on a single RTX 4090 or a Mac with 32GB RAM. This makes it a great fit for on-device use cases."
+          - listitem [ref=e162]:
+            - paragraph [ref=e163]: "Fast-response conversational assistance: Ideal for virtual assistants and other applications where quick, accurate responses are essential."
+          - listitem [ref=e164]:
+            - paragraph [ref=e165]: "Low-latency function calling: Capable of rapid function execution within automated or agentic workflows"
+          - listitem [ref=e166]:
+            - paragraph [ref=e167]: "Fine-tuning for specialized domains: Mistral Small 3.1 can be fine-tuned to specialize in specific domains, creating accurate subject matter experts. This is particularly useful in fields like legal advice, medical diagnostics, and technical support."
+          - listitem [ref=e168]:
+            - paragraph [ref=e169]: "Foundation for advanced reasoning: We continue to be impressed by how the community builds on top of open Mistral models. Just in the last few weeks, we have seen several excellent reasoning models built on Mistral Small 3, such as the DeepHermes 24B by Nous Research. To that end, we are releasing both base and instruct checkpoints for Mistral Small 3.1 to enable further downstream customization of the model."
+        - heading "References" [level=2] [ref=e170]
+        - paragraph [ref=e171]:
+          - link "Blog post" [ref=e172] [cursor=pointer]:
+            - /url: https://mistral.ai/news/mistral-small-3-1
+  - contentinfo [ref=e173]:
+    - generic [ref=e175]:
+      - generic [ref=e176]: © 2026 Ollama
+      - generic [ref=e177]:
+        - link "Download" [ref=e178] [cursor=pointer]:
+          - /url: /download
+        - link "Blog" [ref=e179] [cursor=pointer]:
+          - /url: /blog
+        - link "Docs" [ref=e180] [cursor=pointer]:
+          - /url: https://docs.ollama.com
+        - link "GitHub" [ref=e181] [cursor=pointer]:
+          - /url: https://github.com/ollama/ollama
+        - link "Discord" [ref=e182] [cursor=pointer]:
+          - /url: https://discord.com/invite/ollama
+        - link "X (Twitter)" [ref=e183] [cursor=pointer]:
+          - /url: https://twitter.com/ollama
+        - link "Contact" [ref=e184] [cursor=pointer]:
+          - /url: mailto:hello@ollama.com
+        - link "Privacy" [ref=e185] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e186] [cursor=pointer]:
+          - /url: /terms

@@ -1,0 +1,5 @@
+- generic [active] [ref=e1]:
+  - text: The requested URL was rejected. Please consult with your administrator.
+  - text: "Your support ID is: <14811998523056232176>"
+  - link "[Go Back]" [ref=e2] [cursor=pointer]:
+    - /url: javascript:history.back();

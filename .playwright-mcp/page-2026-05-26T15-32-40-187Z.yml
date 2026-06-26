@@ -1,0 +1,171 @@
+- generic [ref=e3]:
+  - generic [ref=e7]:
+    - generic [ref=e8]:
+      - generic [ref=e9]: Don’t miss what’s happening
+      - generic [ref=e10]: People on X are the first to know.
+    - generic [ref=e13]:
+      - link "Log in" [ref=e15] [cursor=pointer]:
+        - /url: /login
+        - generic [ref=e18]: Log in
+      - link "Sign up" [ref=e20] [cursor=pointer]:
+        - /url: /i/flow/signup
+        - generic [ref=e23]: Sign up
+  - button "Skip to home timeline" [ref=e24] [cursor=pointer]
+  - button "Skip to trending" [ref=e26] [cursor=pointer]
+  - banner [ref=e28]:
+    - generic [ref=e31]:
+      - heading "X" [level=1] [ref=e33] [cursor=pointer]:
+        - link "X" [ref=e34]:
+          - /url: /
+          - img [ref=e36]
+      - generic:
+        - navigation "Primary"
+  - main [ref=e39]:
+    - generic [ref=e42]:
+      - generic "Home timeline" [ref=e44]:
+        - generic [ref=e45]:
+          - generic [ref=e51] [cursor=pointer]:
+            - button "Back" [ref=e53]:
+              - img [ref=e55]
+            - generic [ref=e59]:
+              - heading "FrodoBots Verified account" [level=2] [ref=e60]:
+                - generic [ref=e64]:
+                  - generic [ref=e66]: FrodoBots
+                  - img "Verified account" [ref=e69]
+              - generic [ref=e72]: 542 posts
+            - generic [ref=e74]:
+              - button "Profile Summary" [ref=e75]:
+                - img [ref=e77]
+              - button "Search" [ref=e80]:
+                - img [ref=e82]
+          - generic:
+            - generic:
+              - status:
+                - button:
+                  - generic:
+                    - img
+                    - generic: See new posts
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - link [ref=e89] [cursor=pointer]:
+              - /url: /frodobots/header_photo
+            - generic [ref=e95]:
+              - generic [ref=e96]:
+                - link "Opens profile photo" [ref=e104] [cursor=pointer]:
+                  - /url: /frodobots/photo
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic "Opens profile photo":
+                          - img "Opens profile photo"
+                - button "Follow @frodobots" [ref=e110] [cursor=pointer]:
+                  - generic [ref=e113]: Follow
+              - generic [ref=e117]:
+                - generic [ref=e121]:
+                  - text: FrodoBots
+                  - button "Provides details about verified accounts." [ref=e126] [cursor=pointer]:
+                    - img "Verified account" [ref=e127]
+                - generic [ref=e133]: "@frodobots"
+              - generic [ref=e136]:
+                - text: The development lab building robotic adventures on
+                - link "@bitrobotnetwork" [ref=e139] [cursor=pointer]:
+                  - /url: /bitrobotnetwork
+                - text: "Explore our projects:"
+                - link "linktr.ee/frodobots" [ref=e140] [cursor=pointer]:
+                  - /url: https://t.co/FFzVZ5kptX
+              - generic [ref=e142]:
+                - img [ref=e143] [cursor=pointer]
+                - button "Community" [ref=e146]
+                - link "frodobots.ai" [ref=e147] [cursor=pointer]:
+                  - /url: https://t.co/xc3YWaPxEZ
+                  - img [ref=e148]
+                  - text: frodobots.ai
+                - link "Joined February 2022" [ref=e152] [cursor=pointer]:
+                  - /url: /frodobots/about
+                  - img [ref=e153]
+                  - text: Joined February 2022
+                  - img [ref=e156]
+              - generic [ref=e159]:
+                - link "32 Following" [ref=e161] [cursor=pointer]:
+                  - /url: /frodobots/following
+                  - generic [ref=e162]: "32"
+                  - generic [ref=e163]: Following
+                - link "95.9K Followers" [ref=e165] [cursor=pointer]:
+                  - /url: /frodobots/verified_followers
+                  - generic [ref=e166]: 95.9K
+                  - generic [ref=e167]: Followers
+          - navigation "Profile timelines" [ref=e169]:
+            - generic [ref=e170]:
+              - generic:
+                - button "Previous" [disabled]:
+                  - generic:
+                    - img
+              - tablist [ref=e172]:
+                - tab "Posts" [selected] [ref=e173] [cursor=pointer]:
+                  - generic [ref=e176]: Posts
+                - tab "Replies" [ref=e178] [cursor=pointer]:
+                  - generic [ref=e181]: Replies
+                - tab "Media" [ref=e182] [cursor=pointer]:
+                  - generic [ref=e185]: Media
+              - generic:
+                - button "Next" [disabled]:
+                  - generic:
+                    - img
+          - progressbar "Loading posts by @frodobots" [ref=e187]:
+            - img [ref=e189]
+      - generic "Trending" [ref=e196]:
+        - generic [ref=e197]:
+          - region "Sign up" [ref=e199]:
+            - heading "New to X?" [level=2] [ref=e201]:
+              - generic [ref=e202]: New to X?
+            - generic [ref=e203]: Sign up now to get your own personalized timeline!
+            - generic [ref=e204]:
+              - generic [ref=e206]:
+                - button "Google 계정으로 가입하기. 새 탭에서 열림" [ref=e208] [cursor=pointer]:
+                  - generic [ref=e210]:
+                    - img [ref=e212]
+                    - generic [ref=e219]: Google 계정으로 가입하기
+                - iframe
+              - button "Sign up with Apple" [ref=e220] [cursor=pointer]:
+                - generic [ref=e221]:
+                  - img [ref=e222]
+                  - generic [ref=e226]: Sign up with Apple
+              - link "Create account" [ref=e227] [cursor=pointer]:
+                - /url: /i/flow/signup
+                - generic [ref=e230]: Create account
+            - generic [ref=e231]:
+              - text: By signing up, you agree to the
+              - link "Terms of Service" [ref=e232] [cursor=pointer]:
+                - /url: https://x.com/tos
+              - text: and
+              - link "Privacy Policy" [ref=e233] [cursor=pointer]:
+                - /url: https://x.com/privacy
+              - text: ", including"
+              - link "Cookie Use." [ref=e234] [cursor=pointer]:
+                - /url: https://help.x.com/rules-and-policies/twitter-cookies
+          - navigation "Footer" [ref=e236]:
+            - generic [ref=e237]:
+              - link "Terms of Service" [ref=e238] [cursor=pointer]:
+                - /url: https://x.com/tos
+              - generic [ref=e239]: "|"
+            - generic [ref=e240]:
+              - link "Privacy Policy" [ref=e241] [cursor=pointer]:
+                - /url: https://x.com/privacy
+              - generic [ref=e242]: "|"
+            - generic [ref=e243]:
+              - link "Cookie Policy" [ref=e244] [cursor=pointer]:
+                - /url: https://support.x.com/articles/20170514
+              - generic [ref=e245]: "|"
+            - generic [ref=e246]:
+              - link "Accessibility" [ref=e247] [cursor=pointer]:
+                - /url: https://help.x.com/resources/accessibility
+              - generic [ref=e248]: "|"
+            - generic [ref=e249]:
+              - link "Ads info" [ref=e250] [cursor=pointer]:
+                - /url: https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo
+              - generic [ref=e251]: "|"
+            - button "More" [ref=e252] [cursor=pointer]:
+              - generic [ref=e253]:
+                - text: More
+                - img [ref=e254]
+            - generic [ref=e257]: © 2026 X Corp.

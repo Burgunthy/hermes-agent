@@ -1,0 +1,7 @@
+[    2086ms] [ERROR] ERROR s2-client: attempted to use Heap before the global was set @ https://cdn.semanticscholar.org/fb87754bc307902f/js/BrowserEntry.tsx.js:120
+[    2915ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://accounts.google.com/gsi/client:84
+[    3067ms] [ERROR] Not signed in with the identity provider. @ https://www.semanticscholar.org/search?q=kelly+criterion+optimal+position+sizing+cryptocurrency+leverage&sort=relevance:0
+[    3443ms] [ERROR] Failed to load resource: the server responded with a status of 405 (Method Not Allowed) @ https://www.semanticscholar.org/beacon/metrics:0
+[    4514ms] [ERROR] Failed to load resource: the server responded with a status of 405 (Method Not Allowed) @ https://www.semanticscholar.org/beacon/metrics:0
+[    5841ms] [ERROR] Failed to load resource: the server responded with a status of 405 (Method Not Allowed) @ https://www.semanticscholar.org/beacon/metrics:0
+[    9912ms] [ERROR] Failed to load resource: the server responded with a status of 405 (Method Not Allowed) @ https://www.semanticscholar.org/beacon/rico:0

@@ -1,0 +1,373 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fisaac-sim%2FIsaacGymEnvs%2Ffind%2Fmain
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Ftree%2Ffind&source=header-repo&source_repo=isaac-sim%2FIsaacGymEnvs
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]: This repository was archived by the owner on Apr 14, 2026. It is now read-only.
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e67]:
+          - img [ref=e68]
+          - link "isaac-sim" [ref=e71] [cursor=pointer]:
+            - /url: /isaac-sim
+          - generic [ref=e72]: /
+          - strong [ref=e73]:
+            - link "IsaacGymEnvs" [ref=e74] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs
+          - generic [ref=e75]: Public archive
+        - generic [ref=e76]:
+          - list:
+            - listitem [ref=e77]:
+              - link "You must be signed in to change notification settings" [ref=e78] [cursor=pointer]:
+                - /url: /login?return_to=%2Fisaac-sim%2FIsaacGymEnvs
+                - img [ref=e79]
+                - text: Notifications
+            - listitem [ref=e81]:
+              - link "Fork 516" [ref=e82] [cursor=pointer]:
+                - /url: /login?return_to=%2Fisaac-sim%2FIsaacGymEnvs
+                - img [ref=e83]
+                - text: Fork
+                - generic "516" [ref=e85]
+            - listitem [ref=e86]:
+              - link "You must be signed in to star a repository" [ref=e88] [cursor=pointer]:
+                - /url: /login?return_to=%2Fisaac-sim%2FIsaacGymEnvs
+                - img [ref=e89]
+                - text: Star
+                - generic "2934 users starred this repository" [ref=e91]: 2.9k
+      - navigation "Repository" [ref=e92]:
+        - list [ref=e93]:
+          - listitem [ref=e94]:
+            - link "Code" [ref=e95] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs
+              - img [ref=e96]
+              - generic [ref=e98]: Code
+          - listitem [ref=e99]:
+            - link "Issues 145" [ref=e100] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/issues
+              - img [ref=e101]
+              - generic [ref=e104]: Issues
+              - generic "145" [ref=e105]
+          - listitem [ref=e106]:
+            - link "Pull requests 13" [ref=e107] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/pulls
+              - img [ref=e108]
+              - generic [ref=e110]: Pull requests
+              - generic "13" [ref=e111]
+          - listitem [ref=e112]:
+            - link "Actions" [ref=e113] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/actions
+              - img [ref=e114]
+              - generic [ref=e116]: Actions
+          - listitem [ref=e117]:
+            - link "Projects" [ref=e118] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/projects
+              - img [ref=e119]
+              - generic [ref=e121]: Projects
+          - listitem [ref=e122]:
+            - link "Security and quality" [ref=e123] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/security
+              - img [ref=e124]
+              - generic [ref=e126]: Security and quality
+          - listitem [ref=e127]:
+            - link "Insights" [ref=e128] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/pulse
+              - img [ref=e129]
+              - generic [ref=e131]: Insights
+    - generic [ref=e135]:
+      - generic [ref=e136]:
+        - generic [ref=e137]:
+          - link "IsaacGymEnvs" [ref=e139] [cursor=pointer]:
+            - /url: /isaac-sim/IsaacGymEnvs
+          - text: /
+        - combobox "The name of the file to navigate to." [expanded] [active] [ref=e140]
+      - listbox [ref=e142]:
+        - option ".gitattributes" [selected] [ref=e143] [cursor=pointer]:
+          - img [ref=e144]
+          - img [ref=e146]
+          - generic [ref=e148]: .gitattributes
+        - option ".gitignore" [ref=e149] [cursor=pointer]:
+          - img [ref=e150]
+          - img [ref=e152]
+          - generic [ref=e154]: .gitignore
+        - option ".gitlab/issue_templates/Default.md" [ref=e155] [cursor=pointer]:
+          - img [ref=e156]
+          - img [ref=e158]
+          - generic [ref=e160]: .gitlab/issue_templates/Default.md
+        - option ".pre-commit-config.yaml" [ref=e161] [cursor=pointer]:
+          - img [ref=e162]
+          - img [ref=e164]
+          - generic [ref=e166]: .pre-commit-config.yaml
+        - option "LICENSE.txt" [ref=e167] [cursor=pointer]:
+          - img [ref=e168]
+          - img [ref=e170]
+          - generic [ref=e172]: LICENSE.txt
+        - option "README.md" [ref=e173] [cursor=pointer]:
+          - img [ref=e174]
+          - img [ref=e176]
+          - generic [ref=e178]: README.md
+        - option "assets/amp/motions/amp_humanoid_backflip.npy" [ref=e179] [cursor=pointer]:
+          - img [ref=e180]
+          - img [ref=e182]
+          - generic [ref=e184]: assets/amp/motions/amp_humanoid_backflip.npy
+        - option "assets/amp/motions/amp_humanoid_cartwheel.npy" [ref=e185] [cursor=pointer]:
+          - img [ref=e186]
+          - img [ref=e188]
+          - generic [ref=e190]: assets/amp/motions/amp_humanoid_cartwheel.npy
+        - option "assets/amp/motions/amp_humanoid_dance.npy" [ref=e191] [cursor=pointer]:
+          - img [ref=e192]
+          - img [ref=e194]
+          - generic [ref=e196]: assets/amp/motions/amp_humanoid_dance.npy
+        - option "assets/amp/motions/amp_humanoid_hop.npy" [ref=e197] [cursor=pointer]:
+          - img [ref=e198]
+          - img [ref=e200]
+          - generic [ref=e202]: assets/amp/motions/amp_humanoid_hop.npy
+        - option "assets/amp/motions/amp_humanoid_run.npy" [ref=e203] [cursor=pointer]:
+          - img [ref=e204]
+          - img [ref=e206]
+          - generic [ref=e208]: assets/amp/motions/amp_humanoid_run.npy
+        - option "assets/amp/motions/amp_humanoid_walk.npy" [ref=e209] [cursor=pointer]:
+          - img [ref=e210]
+          - img [ref=e212]
+          - generic [ref=e214]: assets/amp/motions/amp_humanoid_walk.npy
+        - option "assets/asset_templates/cube_multicolor.mtl" [ref=e215] [cursor=pointer]:
+          - img [ref=e216]
+          - img [ref=e218]
+          - generic [ref=e220]: assets/asset_templates/cube_multicolor.mtl
+        - option "assets/asset_templates/cube_multicolor_allegro.urdf.template" [ref=e221] [cursor=pointer]:
+          - img [ref=e222]
+          - img [ref=e224]
+          - generic [ref=e226]: assets/asset_templates/cube_multicolor_allegro.urdf.template
+        - option "assets/factory/mesh/factory_franka_table/factory_franka_finger_coll_subdiv_6x.mtl" [ref=e227] [cursor=pointer]:
+          - img [ref=e228]
+          - img [ref=e230]
+          - generic [ref=e232]: assets/factory/mesh/factory_franka_table/factory_franka_finger_coll_subdiv_6x.mtl
+        - option "assets/factory/mesh/factory_franka_table/factory_franka_finger_coll_subdiv_6x.obj" [ref=e233] [cursor=pointer]:
+          - img [ref=e234]
+          - img [ref=e236]
+          - generic [ref=e238]: assets/factory/mesh/factory_franka_table/factory_franka_finger_coll_subdiv_6x.obj
+        - option "assets/factory/mesh/factory_gears/factory_gear_base_loose_space_5e-4_subdiv_4x.mtl" [ref=e239] [cursor=pointer]:
+          - img [ref=e240]
+          - img [ref=e242]
+          - generic [ref=e244]: assets/factory/mesh/factory_gears/factory_gear_base_loose_space_5e-4_subdiv_4x.mtl
+        - option "assets/factory/mesh/factory_gears/factory_gear_base_loose_space_5e-4_subdiv_4x.obj" [ref=e245] [cursor=pointer]:
+          - img [ref=e246]
+          - img [ref=e248]
+          - generic [ref=e250]: assets/factory/mesh/factory_gears/factory_gear_base_loose_space_5e-4_subdiv_4x.obj
+        - option "assets/factory/mesh/factory_gears/factory_gear_base_tight_space_5e-4_subdiv_4x.mtl" [ref=e251] [cursor=pointer]:
+          - img [ref=e252]
+          - img [ref=e254]
+          - generic [ref=e256]: assets/factory/mesh/factory_gears/factory_gear_base_tight_space_5e-4_subdiv_4x.mtl
+        - option "assets/factory/mesh/factory_gears/factory_gear_base_tight_space_5e-4_subdiv_4x.obj" [ref=e257] [cursor=pointer]:
+          - img [ref=e258]
+          - img [ref=e260]
+          - generic [ref=e262]: assets/factory/mesh/factory_gears/factory_gear_base_tight_space_5e-4_subdiv_4x.obj
+        - option "assets/factory/mesh/factory_gears/factory_gear_large_space_5e-4.mtl" [ref=e263] [cursor=pointer]:
+          - img [ref=e264]
+          - img [ref=e266]
+          - generic [ref=e268]: assets/factory/mesh/factory_gears/factory_gear_large_space_5e-4.mtl
+        - option "assets/factory/mesh/factory_gears/factory_gear_large_space_5e-4.obj" [ref=e269] [cursor=pointer]:
+          - img [ref=e270]
+          - img [ref=e272]
+          - generic [ref=e274]: assets/factory/mesh/factory_gears/factory_gear_large_space_5e-4.obj
+        - option "assets/factory/mesh/factory_gears/factory_gear_medium_space_5e-4.mtl" [ref=e275] [cursor=pointer]:
+          - img [ref=e276]
+          - img [ref=e278]
+          - generic [ref=e280]: assets/factory/mesh/factory_gears/factory_gear_medium_space_5e-4.mtl
+        - option "assets/factory/mesh/factory_gears/factory_gear_medium_space_5e-4.obj" [ref=e281] [cursor=pointer]:
+          - img [ref=e282]
+          - img [ref=e284]
+          - generic [ref=e286]: assets/factory/mesh/factory_gears/factory_gear_medium_space_5e-4.obj
+        - option "assets/factory/mesh/factory_gears/factory_gear_small_space_5e-4.mtl" [ref=e287] [cursor=pointer]:
+          - img [ref=e288]
+          - img [ref=e290]
+          - generic [ref=e292]: assets/factory/mesh/factory_gears/factory_gear_small_space_5e-4.mtl
+        - option "assets/factory/mesh/factory_gears/factory_gear_small_space_5e-4.obj" [ref=e293] [cursor=pointer]:
+          - img [ref=e294]
+          - img [ref=e296]
+          - generic [ref=e298]: assets/factory/mesh/factory_gears/factory_gear_small_space_5e-4.obj
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_hole_12mm_subdiv_3x.mtl" [ref=e299] [cursor=pointer]:
+          - img [ref=e300]
+          - img [ref=e302]
+          - generic [ref=e304]: assets/factory/mesh/factory_insertion/factory_rectangular_hole_12mm_subdiv_3x.mtl
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_hole_12mm_subdiv_3x.obj" [ref=e305] [cursor=pointer]:
+          - img [ref=e306]
+          - img [ref=e308]
+          - generic [ref=e310]: assets/factory/mesh/factory_insertion/factory_rectangular_hole_12mm_subdiv_3x.obj
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_hole_16mm_subdiv_3x.mtl" [ref=e311] [cursor=pointer]:
+          - img [ref=e312]
+          - img [ref=e314]
+          - generic [ref=e316]: assets/factory/mesh/factory_insertion/factory_rectangular_hole_16mm_subdiv_3x.mtl
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_hole_16mm_subdiv_3x.obj" [ref=e317] [cursor=pointer]:
+          - img [ref=e318]
+          - img [ref=e320]
+          - generic [ref=e322]: assets/factory/mesh/factory_insertion/factory_rectangular_hole_16mm_subdiv_3x.obj
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_hole_4mm_subdiv_3x.mtl" [ref=e323] [cursor=pointer]:
+          - img [ref=e324]
+          - img [ref=e326]
+          - generic [ref=e328]: assets/factory/mesh/factory_insertion/factory_rectangular_hole_4mm_subdiv_3x.mtl
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_hole_4mm_subdiv_3x.obj" [ref=e329] [cursor=pointer]:
+          - img [ref=e330]
+          - img [ref=e332]
+          - generic [ref=e334]: assets/factory/mesh/factory_insertion/factory_rectangular_hole_4mm_subdiv_3x.obj
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_hole_8mm_subdiv_3x.mtl" [ref=e335] [cursor=pointer]:
+          - img [ref=e336]
+          - img [ref=e338]
+          - generic [ref=e340]: assets/factory/mesh/factory_insertion/factory_rectangular_hole_8mm_subdiv_3x.mtl
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_hole_8mm_subdiv_3x.obj" [ref=e341] [cursor=pointer]:
+          - img [ref=e342]
+          - img [ref=e344]
+          - generic [ref=e346]: assets/factory/mesh/factory_insertion/factory_rectangular_hole_8mm_subdiv_3x.obj
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_peg_12mm_loose_subdiv_3x.mtl" [ref=e347] [cursor=pointer]:
+          - img [ref=e348]
+          - img [ref=e350]
+          - generic [ref=e352]: assets/factory/mesh/factory_insertion/factory_rectangular_peg_12mm_loose_subdiv_3x.mtl
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_peg_12mm_loose_subdiv_3x.obj" [ref=e353] [cursor=pointer]:
+          - img [ref=e354]
+          - img [ref=e356]
+          - generic [ref=e358]: assets/factory/mesh/factory_insertion/factory_rectangular_peg_12mm_loose_subdiv_3x.obj
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_peg_12mm_tight_subdiv_3x.mtl" [ref=e359] [cursor=pointer]:
+          - img [ref=e360]
+          - img [ref=e362]
+          - generic [ref=e364]: assets/factory/mesh/factory_insertion/factory_rectangular_peg_12mm_tight_subdiv_3x.mtl
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_peg_12mm_tight_subdiv_3x.obj" [ref=e365] [cursor=pointer]:
+          - img [ref=e366]
+          - img [ref=e368]
+          - generic [ref=e370]: assets/factory/mesh/factory_insertion/factory_rectangular_peg_12mm_tight_subdiv_3x.obj
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_peg_16mm_loose_subdiv_3x.mtl" [ref=e371] [cursor=pointer]:
+          - img [ref=e372]
+          - img [ref=e374]
+          - generic [ref=e376]: assets/factory/mesh/factory_insertion/factory_rectangular_peg_16mm_loose_subdiv_3x.mtl
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_peg_16mm_loose_subdiv_3x.obj" [ref=e377] [cursor=pointer]:
+          - img [ref=e378]
+          - img [ref=e380]
+          - generic [ref=e382]: assets/factory/mesh/factory_insertion/factory_rectangular_peg_16mm_loose_subdiv_3x.obj
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_peg_16mm_tight_subdiv_3x.mtl" [ref=e383] [cursor=pointer]:
+          - img [ref=e384]
+          - img [ref=e386]
+          - generic [ref=e388]: assets/factory/mesh/factory_insertion/factory_rectangular_peg_16mm_tight_subdiv_3x.mtl
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_peg_16mm_tight_subdiv_3x.obj" [ref=e389] [cursor=pointer]:
+          - img [ref=e390]
+          - img [ref=e392]
+          - generic [ref=e394]: assets/factory/mesh/factory_insertion/factory_rectangular_peg_16mm_tight_subdiv_3x.obj
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_peg_4mm_loose_subdiv_3x.mtl" [ref=e395] [cursor=pointer]:
+          - img [ref=e396]
+          - img [ref=e398]
+          - generic [ref=e400]: assets/factory/mesh/factory_insertion/factory_rectangular_peg_4mm_loose_subdiv_3x.mtl
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_peg_4mm_loose_subdiv_3x.obj" [ref=e401] [cursor=pointer]:
+          - img [ref=e402]
+          - img [ref=e404]
+          - generic [ref=e406]: assets/factory/mesh/factory_insertion/factory_rectangular_peg_4mm_loose_subdiv_3x.obj
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_peg_4mm_tight_subdiv_3x.mtl" [ref=e407] [cursor=pointer]:
+          - img [ref=e408]
+          - img [ref=e410]
+          - generic [ref=e412]: assets/factory/mesh/factory_insertion/factory_rectangular_peg_4mm_tight_subdiv_3x.mtl
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_peg_4mm_tight_subdiv_3x.obj" [ref=e413] [cursor=pointer]:
+          - img [ref=e414]
+          - img [ref=e416]
+          - generic [ref=e418]: assets/factory/mesh/factory_insertion/factory_rectangular_peg_4mm_tight_subdiv_3x.obj
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_peg_8mm_loose_subdiv_3x.mtl" [ref=e419] [cursor=pointer]:
+          - img [ref=e420]
+          - img [ref=e422]
+          - generic [ref=e424]: assets/factory/mesh/factory_insertion/factory_rectangular_peg_8mm_loose_subdiv_3x.mtl
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_peg_8mm_loose_subdiv_3x.obj" [ref=e425] [cursor=pointer]:
+          - img [ref=e426]
+          - img [ref=e428]
+          - generic [ref=e430]: assets/factory/mesh/factory_insertion/factory_rectangular_peg_8mm_loose_subdiv_3x.obj
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_peg_8mm_tight_subdiv_3x.mtl" [ref=e431] [cursor=pointer]:
+          - img [ref=e432]
+          - img [ref=e434]
+          - generic [ref=e436]: assets/factory/mesh/factory_insertion/factory_rectangular_peg_8mm_tight_subdiv_3x.mtl
+        - option "assets/factory/mesh/factory_insertion/factory_rectangular_peg_8mm_tight_subdiv_3x.obj" [ref=e437] [cursor=pointer]:
+          - img [ref=e438]
+          - img [ref=e440]
+          - generic [ref=e442]: assets/factory/mesh/factory_insertion/factory_rectangular_peg_8mm_tight_subdiv_3x.obj
+        - option "assets/factory/mesh/factory_insertion/factory_round_hole_12mm_subdiv_3x.mtl" [ref=e443] [cursor=pointer]:
+          - img [ref=e444]
+          - img [ref=e446]
+          - generic [ref=e448]: assets/factory/mesh/factory_insertion/factory_round_hole_12mm_subdiv_3x.mtl
+        - option "assets/factory/mesh/factory_insertion/factory_round_hole_12mm_subdiv_3x.obj" [ref=e449] [cursor=pointer]:
+          - img [ref=e450]
+          - img [ref=e452]
+          - generic [ref=e454]: assets/factory/mesh/factory_insertion/factory_round_hole_12mm_subdiv_3x.obj
+        - option "assets/factory/mesh/factory_insertion/factory_round_hole_16mm_subdiv_3x.mtl" [ref=e455] [cursor=pointer]:
+          - img [ref=e456]
+          - img [ref=e458]
+          - generic [ref=e460]: assets/factory/mesh/factory_insertion/factory_round_hole_16mm_subdiv_3x.mtl
+  - contentinfo [ref=e461]:
+    - heading "Footer" [level=2] [ref=e462]
+    - generic [ref=e463]:
+      - generic [ref=e464]:
+        - link "GitHub Homepage" [ref=e465] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e466]
+        - generic [ref=e468]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e469]:
+        - heading "Footer navigation" [level=3] [ref=e470]
+        - list "Footer navigation" [ref=e471]:
+          - listitem [ref=e472]:
+            - link "Terms" [ref=e473] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e474]:
+            - link "Privacy" [ref=e475] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e476]:
+            - link "Security" [ref=e477] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e478]:
+            - link "Status" [ref=e479] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e480]:
+            - link "Community" [ref=e481] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e482]:
+            - link "Docs" [ref=e483] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e484]:
+            - link "Contact" [ref=e485] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e486]:
+            - button "Manage cookies" [ref=e488] [cursor=pointer]
+          - listitem [ref=e489]:
+            - button "Do not share my personal information" [ref=e491] [cursor=pointer]

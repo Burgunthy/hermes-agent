@@ -1,0 +1,267 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dwuji%2Breinforcement%2Blearning%26type%3Drepositories
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fsearch&source=header
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e61]:
+    - generic [ref=e64]:
+      - heading "repositories Search Results · wuji reinforcement learning" [level=1] [ref=e65]
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - region "Filter by" [ref=e70]:
+            - heading "Filter by" [level=2] [ref=e71]
+            - list "Filter by" [ref=e76]:
+              - listitem [ref=e77]:
+                - list [ref=e78]:
+                  - listitem [ref=e79]:
+                    - link "Code (...) results" [ref=e80] [cursor=pointer]:
+                      - /url: https://github.com/search?q=wuji+reinforcement+learning&type=code
+                      - generic:
+                        - img
+                      - generic [ref=e81]:
+                        - generic [ref=e82]: Code
+                        - generic:
+                          - generic: ...
+                          - generic: (...)
+                          - generic: results
+                  - listitem [ref=e83]:
+                    - link "Repositories results" [ref=e84] [cursor=pointer]:
+                      - /url: https://github.com/search?q=wuji+reinforcement+learning&type=repositories
+                      - generic:
+                        - img
+                      - generic [ref=e85]:
+                        - generic [ref=e86]: Repositories
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e87]:
+                    - link "Issues results" [ref=e88] [cursor=pointer]:
+                      - /url: https://github.com/search?q=wuji+reinforcement+learning&type=issues
+                      - generic:
+                        - img
+                      - generic [ref=e89]:
+                        - generic [ref=e90]: Issues
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e91]:
+                    - link "Pull requests results" [ref=e92] [cursor=pointer]:
+                      - /url: https://github.com/search?q=wuji+reinforcement+learning&type=pullrequests
+                      - generic:
+                        - img
+                      - generic [ref=e93]:
+                        - generic [ref=e94]: Pull requests
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e95]:
+                    - link "Discussions results" [ref=e96] [cursor=pointer]:
+                      - /url: https://github.com/search?q=wuji+reinforcement+learning&type=discussions
+                      - generic:
+                        - img
+                      - generic [ref=e97]:
+                        - generic [ref=e98]: Discussions
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e99]:
+                    - link "Users results" [ref=e100] [cursor=pointer]:
+                      - /url: https://github.com/search?q=wuji+reinforcement+learning&type=users
+                      - generic:
+                        - img
+                      - generic [ref=e101]:
+                        - generic [ref=e102]: Users
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e103]:
+                    - button "More" [ref=e104] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e106]: More
+              - listitem [ref=e107]:
+                - heading "Advanced" [level=3] [ref=e109]
+                - list "Advanced" [ref=e110]:
+                  - listitem [ref=e111]:
+                    - button "Owner" [ref=e112] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Owner" [ref=e116]
+                  - listitem [ref=e117]:
+                    - button "Size" [ref=e118] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Size" [ref=e122]
+                  - listitem [ref=e123]:
+                    - button "Number of followers" [ref=e124] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of followers" [ref=e128]
+                  - listitem [ref=e129]:
+                    - button "Number of forks" [ref=e130] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of forks" [ref=e134]
+                  - listitem [ref=e135]:
+                    - button "Number of stars" [ref=e136] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of stars" [ref=e140]
+                  - listitem [ref=e141]:
+                    - button "Date created" [ref=e142] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Date created" [ref=e146]
+                  - listitem [ref=e147]:
+                    - button "Date pushed" [ref=e148] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Date pushed" [ref=e152]
+                  - listitem [ref=e153]:
+                    - button "Topic" [ref=e154] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Topic" [ref=e158]
+                  - listitem [ref=e159]:
+                    - button "License" [ref=e160] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "License" [ref=e164]
+                  - listitem [ref=e165]:
+                    - button "Archived" [ref=e166] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Archived" [ref=e170]
+                  - listitem [ref=e171]:
+                    - link "Public" [ref=e172] [cursor=pointer]:
+                      - /url: https://github.com/search?q=wuji+reinforcement+learning+is%3Apublic&type=repositories
+                      - generic:
+                        - img
+                      - generic "Public" [ref=e176]
+                  - listitem [ref=e177]:
+                    - link "Private" [ref=e178] [cursor=pointer]:
+                      - /url: https://github.com/search?q=wuji+reinforcement+learning+is%3Aprivate&type=repositories
+                      - generic:
+                        - img
+                      - generic "Private" [ref=e182]
+              - listitem [ref=e183]
+              - listitem [ref=e184]:
+                - link "Advanced search" [ref=e185] [cursor=pointer]:
+                  - /url: /search/advanced
+                  - generic:
+                    - img
+                  - generic [ref=e187]: Advanced search
+          - slider "Draggable pane splitter" [ref=e189]
+        - generic [ref=e192]:
+          - generic [ref=e193]:
+            - generic [ref=e195]:
+              - generic [ref=e196]:
+                - generic [ref=e197]:
+                  - generic [ref=e198]: 1 result
+                  - generic [ref=e199]: (164 ms)
+                - heading "1 result" [active] [level=2] [ref=e200]
+              - generic [ref=e201]:
+                - 'button "Sort by: Best match" [ref=e203] [cursor=pointer]':
+                  - generic [ref=e205]: "Sort by: Best match"
+                  - generic:
+                    - img
+                - button "Open column options" [ref=e207] [cursor=pointer]:
+                  - img [ref=e208]
+            - generic [ref=e214]:
+              - generic [ref=e215]:
+                - heading "NeteaseFuxiRL/wuji" [level=3] [ref=e216]:
+                  - link "NeteaseFuxiRL/wuji" [ref=e220] [cursor=pointer]:
+                    - /url: /NeteaseFuxiRL/wuji
+                    - generic [ref=e221]:
+                      - text: NeteaseFuxiRL/
+                      - emphasis [ref=e222]: wuji
+                - generic [ref=e224]:
+                  - text: "original source code of the ASE 2019 paper:"
+                  - emphasis [ref=e225]: Wuji
+                  - text: ": Automatic Online Combat Game Testing Using Evolutionary Deep"
+                  - emphasis [ref=e226]: Reinforcement
+                  - emphasis [ref=e227]: Learning
+                - generic [ref=e228]:
+                  - link "python" [ref=e230] [cursor=pointer]:
+                    - /url: /topics/python
+                  - link "reinforcement-learning" [ref=e232] [cursor=pointer]:
+                    - /url: /topics/reinforcement-learning
+                  - link "deep-learning" [ref=e234] [cursor=pointer]:
+                    - /url: /topics/deep-learning
+                  - link "genetic-algorithm" [ref=e236] [cursor=pointer]:
+                    - /url: /topics/genetic-algorithm
+                  - link "distributed-computing" [ref=e238] [cursor=pointer]:
+                    - /url: /topics/distributed-computing
+                - list [ref=e239]:
+                  - listitem [ref=e240]:
+                    - generic "Python language" [ref=e243]: Python
+                  - generic [ref=e244]: ·
+                  - listitem [ref=e245]:
+                    - link "28 stars" [ref=e246] [cursor=pointer]:
+                      - /url: /NeteaseFuxiRL/wuji/stargazers
+                      - img [ref=e247]
+                      - generic [ref=e249]: "28"
+                  - generic [ref=e250]: ·
+                  - listitem [ref=e251]:
+                    - generic [ref=e252]:
+                      - text: Updated
+                      - generic "Jun 8, 2020, 6:21 AM UTC" [ref=e253]: on Jun 8, 2020
+              - link "Star" [ref=e256] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dwuji%2Breinforcement%2Blearning%26type%3Drepositories
+                - generic [ref=e257]:
+                  - generic:
+                    - img
+                  - generic [ref=e258]: Star
+          - generic [ref=e261]:
+            - generic [ref=e262]:
+              - img "Package icon" [ref=e264]
+              - heading "Sponsor open source projects you depend on" [level=2] [ref=e265]
+              - generic [ref=e266]: Contributors are working behind the scenes to make open source better for everyone—give them the help and recognition they deserve.
+              - link "Explore sponsorable projects" [ref=e267] [cursor=pointer]:
+                - /url: https://github.com/sponsors/explore
+                - text: Explore sponsorable projects
+                - img [ref=e268]
+            - generic [ref=e270]:
+              - generic [ref=e271]:
+                - img [ref=e272]
+                - text: ProTip!
+              - generic [ref=e274]:
+                - text: Press the
+                - generic [ref=e275]: /
+                - text: key to activate the search input again and adjust your query.

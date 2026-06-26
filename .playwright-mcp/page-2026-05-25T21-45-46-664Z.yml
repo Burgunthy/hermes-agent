@@ -1,0 +1,693 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fhadr-robotics%2Firos2026
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=hadr-robotics%2Firos2026
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "hadr-robotics" [ref=e70] [cursor=pointer]:
+            - /url: /hadr-robotics
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "iros2026" [ref=e73] [cursor=pointer]:
+              - /url: /hadr-robotics/iros2026
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fhadr-robotics%2Firos2026
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 0" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fhadr-robotics%2Firos2026
+                - img [ref=e82]
+                - text: Fork
+                - generic "0" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fhadr-robotics%2Firos2026
+                - img [ref=e88]
+                - text: Star
+                - generic "0 users starred this repository" [ref=e90]: "0"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /hadr-robotics/iros2026
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues" [ref=e99] [cursor=pointer]:
+              - /url: /hadr-robotics/iros2026/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+          - listitem [ref=e104]:
+            - link "Pull requests" [ref=e105] [cursor=pointer]:
+              - /url: /hadr-robotics/iros2026/pulls
+              - img [ref=e106]
+              - generic [ref=e108]: Pull requests
+          - listitem [ref=e109]:
+            - link "Actions" [ref=e110] [cursor=pointer]:
+              - /url: /hadr-robotics/iros2026/actions
+              - img [ref=e111]
+              - generic [ref=e113]: Actions
+          - listitem [ref=e114]:
+            - link "Projects" [ref=e115] [cursor=pointer]:
+              - /url: /hadr-robotics/iros2026/projects
+              - img [ref=e116]
+              - generic [ref=e118]: Projects
+          - listitem [ref=e119]:
+            - link "Security and quality" [ref=e120] [cursor=pointer]:
+              - /url: /hadr-robotics/iros2026/security
+              - img [ref=e121]
+              - generic [ref=e123]: Security and quality
+          - listitem [ref=e124]:
+            - link "Insights" [ref=e125] [cursor=pointer]:
+              - /url: /hadr-robotics/iros2026/pulse
+              - img [ref=e126]
+              - generic [ref=e128]: Insights
+    - generic [ref=e141]:
+      - heading "hadr-robotics/iros2026" [level=1] [ref=e143]
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - button "main branch" [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]:
+                  - generic [ref=e154]:
+                    - img [ref=e156]
+                    - generic [ref=e159]: main
+                  - generic:
+                    - img
+              - generic [ref=e160]:
+                - link "1 Branch" [ref=e161] [cursor=pointer]:
+                  - /url: /hadr-robotics/iros2026/branches
+                  - generic [ref=e162]:
+                    - generic:
+                      - img
+                    - generic [ref=e164]:
+                      - strong [ref=e165]: "1"
+                      - text: Branch
+                - link "0 Tags" [ref=e166] [cursor=pointer]:
+                  - /url: /hadr-robotics/iros2026/tags
+                  - generic [ref=e167]:
+                    - generic:
+                      - img
+                    - generic [ref=e169]:
+                      - strong [ref=e170]: "0"
+                      - text: Tags
+            - generic [ref=e171]:
+              - generic [ref=e175]:
+                - img [ref=e177]
+                - combobox "Go to file" [ref=e179]
+              - button "Code" [ref=e180] [cursor=pointer]:
+                - generic [ref=e181]:
+                  - generic:
+                    - img
+                  - generic [ref=e182]: Code
+                  - generic:
+                    - img
+          - generic [ref=e183]:
+            - generic [ref=e184]:
+              - heading "Folders and files" [level=2] [ref=e185]
+              - table "Folders and files" [ref=e186]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e187]:
+                  - row "Latest commit mitllnhanson commits by mitllnhanson further updates success Commit a842fbc · Mar 13, 20262 months ago History 5 Commits" [ref=e188]:
+                    - cell "Latest commit mitllnhanson commits by mitllnhanson further updates success Commit a842fbc · Mar 13, 20262 months ago History 5 Commits" [ref=e189]:
+                      - generic [ref=e190]:
+                        - heading "Latest commit" [level=2] [ref=e191]
+                        - generic [ref=e192]:
+                          - generic [ref=e194]:
+                            - link "mitllnhanson" [ref=e195] [cursor=pointer]:
+                              - /url: /mitllnhanson
+                              - img "mitllnhanson" [ref=e196]
+                            - link "commits by mitllnhanson" [ref=e197] [cursor=pointer]:
+                              - /url: /hadr-robotics/iros2026/commits?author=mitllnhanson
+                              - text: mitllnhanson
+                          - generic [ref=e198]:
+                            - link "further updates" [ref=e201] [cursor=pointer]:
+                              - /url: /hadr-robotics/iros2026/commit/a842fbca7a7c8fc7cd8a09a7bb3efa606fb43e7c
+                            - button "success" [ref=e202] [cursor=pointer]:
+                              - img [ref=e203]
+                        - generic [ref=e205]:
+                          - generic [ref=e207]:
+                            - link "Commit a842fbc" [ref=e208] [cursor=pointer]:
+                              - /url: /hadr-robotics/iros2026/commit/a842fbca7a7c8fc7cd8a09a7bb3efa606fb43e7c
+                              - text: a842fbc
+                            - text: ·
+                            - generic "Mar 13, 2026, 4:40 AM GMT+9" [ref=e209]: Mar 13, 20262 months ago
+                          - generic [ref=e210]:
+                            - heading "History" [level=2] [ref=e211]
+                            - link "5 Commits" [ref=e212] [cursor=pointer]:
+                              - /url: /hadr-robotics/iros2026/commits/main/
+                              - generic [ref=e213]:
+                                - generic:
+                                  - img
+                                - generic [ref=e214]: 5 Commits
+                  - row "_includes, (Directory) adds 2026 info Mar 11, 20262 months ago" [ref=e215]:
+                    - cell "_includes, (Directory)" [ref=e216]:
+                      - generic [ref=e217]:
+                        - img [ref=e218]
+                        - link "_includes, (Directory)" [ref=e223] [cursor=pointer]:
+                          - /url: /hadr-robotics/iros2026/tree/main/_includes
+                          - text: _includes
+                    - cell "adds 2026 info" [ref=e224]:
+                      - link "adds 2026 info" [ref=e227] [cursor=pointer]:
+                        - /url: /hadr-robotics/iros2026/commit/bef456074bcf86710e1b4c817ca6846b17fc02a2
+                    - cell "Mar 11, 20262 months ago" [ref=e228]:
+                      - generic [ref=e229]: Mar 11, 20262 months ago
+                  - row "_layouts, (Directory) adds skeleton Mar 11, 20262 months ago" [ref=e230]:
+                    - cell "_layouts, (Directory)" [ref=e231]:
+                      - generic [ref=e232]:
+                        - img [ref=e233]
+                        - link "_layouts, (Directory)" [ref=e238] [cursor=pointer]:
+                          - /url: /hadr-robotics/iros2026/tree/main/_layouts
+                          - text: _layouts
+                    - cell "adds skeleton" [ref=e239]:
+                      - link "adds skeleton" [ref=e242] [cursor=pointer]:
+                        - /url: /hadr-robotics/iros2026/commit/a35524ca5d12a8fcad3c66ed64bdd546194854b6
+                    - cell "Mar 11, 20262 months ago" [ref=e243]:
+                      - generic [ref=e244]: Mar 11, 20262 months ago
+                  - row "_sass, (Directory) adds skeleton Mar 11, 20262 months ago" [ref=e245]:
+                    - cell "_sass, (Directory)" [ref=e246]:
+                      - generic [ref=e247]:
+                        - img [ref=e248]
+                        - link "_sass, (Directory)" [ref=e253] [cursor=pointer]:
+                          - /url: /hadr-robotics/iros2026/tree/main/_sass
+                          - text: _sass
+                    - cell "adds skeleton" [ref=e254]:
+                      - link "adds skeleton" [ref=e257] [cursor=pointer]:
+                        - /url: /hadr-robotics/iros2026/commit/a35524ca5d12a8fcad3c66ed64bdd546194854b6
+                    - cell "Mar 11, 20262 months ago" [ref=e258]:
+                      - generic [ref=e259]: Mar 11, 20262 months ago
+                  - row "css, (Directory) adds skeleton Mar 11, 20262 months ago" [ref=e260]:
+                    - cell "css, (Directory)" [ref=e261]:
+                      - generic [ref=e262]:
+                        - img [ref=e263]
+                        - link "css, (Directory)" [ref=e268] [cursor=pointer]:
+                          - /url: /hadr-robotics/iros2026/tree/main/css
+                          - text: css
+                    - cell "adds skeleton" [ref=e269]:
+                      - link "adds skeleton" [ref=e272] [cursor=pointer]:
+                        - /url: /hadr-robotics/iros2026/commit/a35524ca5d12a8fcad3c66ed64bdd546194854b6
+                    - cell "Mar 11, 20262 months ago" [ref=e273]:
+                      - generic [ref=e274]: Mar 11, 20262 months ago
+                  - row "images, (Directory) further updates Mar 13, 20262 months ago" [ref=e275]:
+                    - cell "images, (Directory)" [ref=e276]:
+                      - generic [ref=e277]:
+                        - img [ref=e278]
+                        - link "images, (Directory)" [ref=e283] [cursor=pointer]:
+                          - /url: /hadr-robotics/iros2026/tree/main/images
+                          - text: images
+                    - cell "further updates" [ref=e284]:
+                      - link "further updates" [ref=e287] [cursor=pointer]:
+                        - /url: /hadr-robotics/iros2026/commit/a842fbca7a7c8fc7cd8a09a7bb3efa606fb43e7c
+                    - cell "Mar 13, 20262 months ago" [ref=e288]:
+                      - generic [ref=e289]: Mar 13, 20262 months ago
+                  - row ".gitignore, (File) adds skeleton Mar 11, 20262 months ago" [ref=e290]:
+                    - cell ".gitignore, (File)" [ref=e291]:
+                      - generic [ref=e292]:
+                        - img [ref=e293]
+                        - link ".gitignore, (File)" [ref=e298] [cursor=pointer]:
+                          - /url: /hadr-robotics/iros2026/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell "adds skeleton" [ref=e299]:
+                      - link "adds skeleton" [ref=e302] [cursor=pointer]:
+                        - /url: /hadr-robotics/iros2026/commit/a35524ca5d12a8fcad3c66ed64bdd546194854b6
+                    - cell "Mar 11, 20262 months ago" [ref=e303]:
+                      - generic [ref=e304]: Mar 11, 20262 months ago
+                  - row "0-schedule.md, (File) adds skeleton Mar 11, 20262 months ago" [ref=e305]:
+                    - cell "0-schedule.md, (File)" [ref=e306]:
+                      - generic [ref=e307]:
+                        - img [ref=e308]
+                        - link "0-schedule.md, (File)" [ref=e313] [cursor=pointer]:
+                          - /url: /hadr-robotics/iros2026/blob/main/0-schedule.md
+                          - text: 0-schedule.md
+                    - cell "adds skeleton" [ref=e314]:
+                      - link "adds skeleton" [ref=e317] [cursor=pointer]:
+                        - /url: /hadr-robotics/iros2026/commit/a35524ca5d12a8fcad3c66ed64bdd546194854b6
+                    - cell "Mar 11, 20262 months ago" [ref=e318]:
+                      - generic [ref=e319]: Mar 11, 20262 months ago
+                  - row "1-speakers.md, (File) further updates Mar 13, 20262 months ago" [ref=e320]:
+                    - cell "1-speakers.md, (File)" [ref=e321]:
+                      - generic [ref=e322]:
+                        - img [ref=e323]
+                        - link "1-speakers.md, (File)" [ref=e328] [cursor=pointer]:
+                          - /url: /hadr-robotics/iros2026/blob/main/1-speakers.md
+                          - text: 1-speakers.md
+                    - cell "further updates" [ref=e329]:
+                      - link "further updates" [ref=e332] [cursor=pointer]:
+                        - /url: /hadr-robotics/iros2026/commit/a842fbca7a7c8fc7cd8a09a7bb3efa606fb43e7c
+                    - cell "Mar 13, 20262 months ago" [ref=e333]:
+                      - generic [ref=e334]: Mar 13, 20262 months ago
+                  - row "2-contributing.md, (File) further updates Mar 13, 20262 months ago" [ref=e335]:
+                    - cell "2-contributing.md, (File)" [ref=e336]:
+                      - generic [ref=e337]:
+                        - img [ref=e338]
+                        - link "2-contributing.md, (File)" [ref=e343] [cursor=pointer]:
+                          - /url: /hadr-robotics/iros2026/blob/main/2-contributing.md
+                          - text: 2-contributing.md
+                    - cell "further updates" [ref=e344]:
+                      - link "further updates" [ref=e347] [cursor=pointer]:
+                        - /url: /hadr-robotics/iros2026/commit/a842fbca7a7c8fc7cd8a09a7bb3efa606fb43e7c
+                    - cell "Mar 13, 20262 months ago" [ref=e348]:
+                      - generic [ref=e349]: Mar 13, 20262 months ago
+                  - row "3-organizers.md, (File) adds 2026 info Mar 11, 20262 months ago" [ref=e350]:
+                    - cell "3-organizers.md, (File)" [ref=e351]:
+                      - generic [ref=e352]:
+                        - img [ref=e353]
+                        - link "3-organizers.md, (File)" [ref=e358] [cursor=pointer]:
+                          - /url: /hadr-robotics/iros2026/blob/main/3-organizers.md
+                          - text: 3-organizers.md
+                    - cell "adds 2026 info" [ref=e359]:
+                      - link "adds 2026 info" [ref=e362] [cursor=pointer]:
+                        - /url: /hadr-robotics/iros2026/commit/bef456074bcf86710e1b4c817ca6846b17fc02a2
+                    - cell "Mar 11, 20262 months ago" [ref=e363]:
+                      - generic [ref=e364]: Mar 11, 20262 months ago
+                  - row "404.html, (File) adds skeleton Mar 11, 20262 months ago" [ref=e365]:
+                    - cell "404.html, (File)" [ref=e366]:
+                      - generic [ref=e367]:
+                        - img [ref=e368]
+                        - link "404.html, (File)" [ref=e373] [cursor=pointer]:
+                          - /url: /hadr-robotics/iros2026/blob/main/404.html
+                          - text: 404.html
+                    - cell "adds skeleton" [ref=e374]:
+                      - link "adds skeleton" [ref=e377] [cursor=pointer]:
+                        - /url: /hadr-robotics/iros2026/commit/a35524ca5d12a8fcad3c66ed64bdd546194854b6
+                    - cell "Mar 11, 20262 months ago" [ref=e378]:
+                      - generic [ref=e379]: Mar 11, 20262 months ago
+                  - row "Gemfile, (File) adds skeleton Mar 11, 20262 months ago" [ref=e380]:
+                    - cell "Gemfile, (File)" [ref=e381]:
+                      - generic [ref=e382]:
+                        - img [ref=e383]
+                        - link "Gemfile, (File)" [ref=e388] [cursor=pointer]:
+                          - /url: /hadr-robotics/iros2026/blob/main/Gemfile
+                          - text: Gemfile
+                    - cell "adds skeleton" [ref=e389]:
+                      - link "adds skeleton" [ref=e392] [cursor=pointer]:
+                        - /url: /hadr-robotics/iros2026/commit/a35524ca5d12a8fcad3c66ed64bdd546194854b6
+                    - cell "Mar 11, 20262 months ago" [ref=e393]:
+                      - generic [ref=e394]: Mar 11, 20262 months ago
+                  - row "Gemfile.lock, (File) adds 2026 info Mar 11, 20262 months ago" [ref=e395]:
+                    - cell "Gemfile.lock, (File)" [ref=e396]:
+                      - generic [ref=e397]:
+                        - img [ref=e398]
+                        - link "Gemfile.lock, (File)" [ref=e403] [cursor=pointer]:
+                          - /url: /hadr-robotics/iros2026/blob/main/Gemfile.lock
+                          - text: Gemfile.lock
+                    - cell "adds 2026 info" [ref=e404]:
+                      - link "adds 2026 info" [ref=e407] [cursor=pointer]:
+                        - /url: /hadr-robotics/iros2026/commit/bef456074bcf86710e1b4c817ca6846b17fc02a2
+                    - cell "Mar 11, 20262 months ago" [ref=e408]:
+                      - generic [ref=e409]: Mar 11, 20262 months ago
+                  - row "LICENSE, (File) Initial commit Mar 10, 20262 months ago" [ref=e410]:
+                    - cell "LICENSE, (File)" [ref=e411]:
+                      - generic [ref=e412]:
+                        - img [ref=e413]
+                        - link "LICENSE, (File)" [ref=e418] [cursor=pointer]:
+                          - /url: /hadr-robotics/iros2026/blob/main/LICENSE
+                          - text: LICENSE
+                    - cell "Initial commit" [ref=e419]:
+                      - link "Initial commit" [ref=e422] [cursor=pointer]:
+                        - /url: /hadr-robotics/iros2026/commit/b6412d01b810efe0d8cfc53fd95d951fb2a39ffd
+                    - cell "Mar 10, 20262 months ago" [ref=e423]:
+                      - generic [ref=e424]: Mar 10, 20262 months ago
+                  - row "README.md, (File) adds skeleton Mar 11, 20262 months ago" [ref=e425]:
+                    - cell "README.md, (File)" [ref=e426]:
+                      - generic [ref=e427]:
+                        - img [ref=e428]
+                        - link "README.md, (File)" [ref=e433] [cursor=pointer]:
+                          - /url: /hadr-robotics/iros2026/blob/main/README.md
+                          - text: README.md
+                    - cell "adds skeleton" [ref=e434]:
+                      - link "adds skeleton" [ref=e437] [cursor=pointer]:
+                        - /url: /hadr-robotics/iros2026/commit/a35524ca5d12a8fcad3c66ed64bdd546194854b6
+                    - cell "Mar 11, 20262 months ago" [ref=e438]:
+                      - generic [ref=e439]: Mar 11, 20262 months ago
+                  - row "_config.yml, (File) adds 2026 info Mar 11, 20262 months ago" [ref=e440]:
+                    - cell "_config.yml, (File)" [ref=e441]:
+                      - generic [ref=e442]:
+                        - img [ref=e443]
+                        - link "_config.yml, (File)" [ref=e448] [cursor=pointer]:
+                          - /url: /hadr-robotics/iros2026/blob/main/_config.yml
+                          - text: _config.yml
+                    - cell "adds 2026 info" [ref=e449]:
+                      - link "adds 2026 info" [ref=e452] [cursor=pointer]:
+                        - /url: /hadr-robotics/iros2026/commit/bef456074bcf86710e1b4c817ca6846b17fc02a2
+                    - cell "Mar 11, 20262 months ago" [ref=e453]:
+                      - generic [ref=e454]: Mar 11, 20262 months ago
+                  - row "favicon.ico, (File) further updates Mar 13, 20262 months ago" [ref=e455]:
+                    - cell "favicon.ico, (File)" [ref=e456]:
+                      - generic [ref=e457]:
+                        - img [ref=e458]
+                        - link "favicon.ico, (File)" [ref=e463] [cursor=pointer]:
+                          - /url: /hadr-robotics/iros2026/blob/main/favicon.ico
+                          - text: favicon.ico
+                    - cell "further updates" [ref=e464]:
+                      - link "further updates" [ref=e467] [cursor=pointer]:
+                        - /url: /hadr-robotics/iros2026/commit/a842fbca7a7c8fc7cd8a09a7bb3efa606fb43e7c
+                    - cell "Mar 13, 20262 months ago" [ref=e468]:
+                      - generic [ref=e469]: Mar 13, 20262 months ago
+                  - row "index.md, (File) adds skeleton for IROS Mar 11, 20262 months ago" [ref=e470]:
+                    - cell "index.md, (File)" [ref=e471]:
+                      - generic [ref=e472]:
+                        - img [ref=e473]
+                        - link "index.md, (File)" [ref=e478] [cursor=pointer]:
+                          - /url: /hadr-robotics/iros2026/blob/main/index.md
+                          - text: index.md
+                    - cell "adds skeleton for IROS" [ref=e479]:
+                      - link "adds skeleton for IROS" [ref=e482] [cursor=pointer]:
+                        - /url: /hadr-robotics/iros2026/commit/87b51535155f933c47e8f5628f06d171142bb66f
+                    - cell "Mar 11, 20262 months ago" [ref=e483]:
+                      - generic [ref=e484]: Mar 11, 20262 months ago
+            - generic [ref=e486]:
+              - generic [ref=e487]:
+                - heading "Repository files navigation" [level=2] [ref=e488]
+                - navigation "Repository files" [ref=e489]:
+                  - list [ref=e490]:
+                    - listitem [ref=e491]:
+                      - link "README" [ref=e492] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e494]
+                        - generic [ref=e496]: README
+                    - listitem [ref=e497]:
+                      - link "MIT license" [ref=e498] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e500]
+                        - generic [ref=e502]: MIT license
+                - button "Outline" [ref=e503] [cursor=pointer]:
+                  - img [ref=e504]
+              - article [ref=e507]:
+                - generic [ref=e508]:
+                  - heading "workshop-template" [level=1] [ref=e509]
+                  - 'link "Permalink: workshop-template" [ref=e510] [cursor=pointer]':
+                    - /url: "#workshop-template"
+                    - img [ref=e511]
+                - paragraph [ref=e513]:
+                  - text: A Jekyll template for a simple workshop website, based on the
+                  - link "Minima theme" [ref=e514] [cursor=pointer]:
+                    - /url: https://github.com/jekyll/minima
+                  - text: ", designed for hosting on"
+                  - link "gh-pages" [ref=e515] [cursor=pointer]:
+                    - /url: https://pages.github.com/
+                  - text: .
+                - paragraph [ref=e516]: Works best for about 5 pages of instructions, plus index, all written in Markdown. The navigation to the main pages is exposed at top and bottom of each page for easy stepping through the lessons.
+                - blockquote [ref=e517]:
+                  - paragraph [ref=e518]:
+                    - text: p.s. this is the minimal template--for a slightly more refined look, try the Bootstrap version
+                    - link "workshop-template-b" [ref=e519] [cursor=pointer]:
+                      - /url: https://github.com/evanwill/workshop-template-b
+                - generic [ref=e520]:
+                  - heading "Why?" [level=2] [ref=e521]
+                  - 'link "Permalink: Why?" [ref=e522] [cursor=pointer]':
+                    - /url: "#why"
+                    - img [ref=e523]
+                - paragraph [ref=e525]: Rather than making slides for a workshop, why not make a website? It's easier to write, access, share, and reuse. GitHub and gh-pages makes this super easy.
+                - paragraph [ref=e526]: It is a better Open Educational Resource since anyone can fork and adapt!
+                - generic [ref=e527]:
+                  - heading "Details" [level=2] [ref=e528]
+                  - 'link "Permalink: Details" [ref=e529] [cursor=pointer]':
+                    - /url: "#details"
+                    - img [ref=e530]
+                - paragraph [ref=e532]:
+                  - text: The
+                  - code [ref=e533]: workshop-template
+                  - link "repository" [ref=e534] [cursor=pointer]:
+                    - /url: https://github.com/evanwill/workshop-template
+                  - text: is a template project--to get started quickly, make a copy and fill in your own content and customizations. The
+                  - link "site" [ref=e535] [cursor=pointer]:
+                    - /url: https://evanwill.github.io/workshop-template/
+                  - text: demonstrates the output on gh-pages, and the content pages serve as examples.
+                - paragraph [ref=e536]: "Overview:"
+                - list [ref=e537]:
+                  - listitem [ref=e538]:
+                    - text: Copy the code to your own repository by clicking the green "Use this template" button (alternatively, import the
+                    - link "repository" [ref=e539] [cursor=pointer]:
+                      - /url: https://github.com/evanwill/workshop-template
+                    - text: on GitHub or manually copy the files into a new repo).
+                  - listitem [ref=e540]: Clone to your local machine, or work on the GitHub web interface to edit files.
+                  - listitem [ref=e541]:
+                    - text: Edit the
+                    - code [ref=e542]: _config.yml
+                    - text: with your info.
+                  - listitem [ref=e543]: Edit the content pages in markdown.
+                  - listitem [ref=e544]: Add images to the "images" folder.
+                  - listitem [ref=e545]: Push to GitHub (or commit on the web interface).
+                  - listitem [ref=e546]: In your repo's settings, activate gh-pages, using main branch.
+                - paragraph [ref=e547]: "When creating content pages:"
+                - list [ref=e548]:
+                  - listitem [ref=e549]:
+                    - text: to include a page in the nav, add
+                    - code [ref=e550]: "nav: true"
+                    - text: to the file's yml front matter.
+                  - listitem [ref=e551]:
+                    - text: the
+                    - code [ref=e552]: "title:"
+                    - text: value will appear in the nav, sorted in the order of filenames. For simplicity use leading numbers in the lesson page filenames to create correct order.
+                  - listitem [ref=e553]:
+                    - text: the default layout does not add
+                    - code [ref=e554]: title
+                    - text: to the page, so it can be a short for the nav. Add a title in the Markdown content.
+                - paragraph [ref=e555]: "Using figure include:"
+                - list [ref=e556]:
+                  - listitem [ref=e557]:
+                    - text: put all images in the
+                    - code [ref=e558]: images
+                    - text: directory.
+                  - listitem [ref=e559]: figures will be centered, and can optionally be given a caption and percentage width.
+                  - listitem [ref=e560]:
+                    - text: in a markdown file where you want the image to appear, use the
+                    - code [ref=e561]: figure.html
+                    - text: include on its own line.
+                  - listitem [ref=e562]:
+                    - text: "pattern:"
+                    - code [ref=e563]: "{% include figure.html file=\"my-cat.jpg\" alt=\"cat\" caption=\"My cat\" width=\"50%\" %}"
+                - paragraph [ref=e564]: "Basic style customization:"
+                - list [ref=e565]:
+                  - listitem [ref=e566]:
+                    - text: the
+                    - code [ref=e567]: main.scss
+                    - text: in the
+                    - code [ref=e568]: css
+                    - text: folder exposes variables that can customize the basic style of website.
+                  - listitem [ref=e569]:
+                    - text: Give a tiny splash of color on the header and footer borders by tweaking the
+                    - code [ref=e570]: $border-color
+                  - listitem [ref=e571]:
+                    - code [ref=e572]: $link-color
+                    - text: colors links
+                - paragraph [ref=e573]: "Using optional google analytics:"
+                - list [ref=e574]:
+                  - listitem [ref=e575]:
+                    - text: add your analytics id to
+                    - code [ref=e576]: _config.yml
+                    - text: in
+                    - code [ref=e577]: "google-analytics-id:"
+                  - listitem [ref=e578]:
+                    - text: if
+                    - code [ref=e579]: "google-analytics-id:"
+                    - text: is blank, the ga code will not added
+                  - listitem [ref=e580]:
+                    - text: analytics code will only be added when using "production" environment. This happens automatically on gh-pages. To build locally, use
+                    - code [ref=e581]: JEKYLL_ENV=production jekyll build
+                - blockquote [ref=e582]:
+                  - paragraph [ref=e583]: Repository does not include a Gemfile because it is a very simple project. Originally built using Ruby 2.3+ and Jekyll 3.4+; most recently used Jekyll 3.8.1.
+                - generic [ref=e584]:
+                  - heading "Demos" [level=2] [ref=e585]
+                  - 'link "Permalink: Demos" [ref=e586] [cursor=pointer]':
+                    - /url: "#demos"
+                    - img [ref=e587]
+                - paragraph [ref=e589]: "My workshop sites using versions of this template:"
+                - list [ref=e590]:
+                  - listitem [ref=e591]:
+                    - link "get-git" [ref=e592] [cursor=pointer]:
+                      - /url: https://evanwill.github.io/get-git/
+                  - listitem [ref=e593]:
+                    - link "hello-arduino" [ref=e594] [cursor=pointer]:
+                      - /url: https://evanwill.github.io/hello-arduino/
+                  - listitem [ref=e595]:
+                    - link "clean-your-data" [ref=e596] [cursor=pointer]:
+                      - /url: https://evanwill.github.io/clean-your-data/
+                  - listitem [ref=e597]:
+                    - link "go-go gh-pages" [ref=e598] [cursor=pointer]:
+                      - /url: https://evanwill.github.io/go-go-ghpages/
+                  - listitem [ref=e599]:
+                    - link "Make @ the MILL" [ref=e600] [cursor=pointer]:
+                      - /url: https://uidaholib.github.io/make-at-the-mill/
+        - generic [ref=e604]:
+          - generic [ref=e607]:
+            - heading "About" [level=2] [ref=e608]
+            - paragraph [ref=e609]: HADR Workshop @ IROS 2026
+            - heading "Resources" [level=3] [ref=e610]
+            - link "Readme" [ref=e612] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e613]
+              - text: Readme
+            - heading "License" [level=3] [ref=e615]
+            - link "MIT license" [ref=e617] [cursor=pointer]:
+              - /url: "#MIT-1-ov-file"
+              - img [ref=e618]
+              - text: MIT license
+            - link "Activity" [ref=e621] [cursor=pointer]:
+              - /url: /hadr-robotics/iros2026/activity
+              - img [ref=e622]
+              - text: Activity
+            - link "Custom properties" [ref=e625] [cursor=pointer]:
+              - /url: /hadr-robotics/iros2026/custom-properties
+              - img [ref=e626]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e628]
+            - link "0 stars" [ref=e630] [cursor=pointer]:
+              - /url: /hadr-robotics/iros2026/stargazers
+              - img [ref=e631]
+              - strong [ref=e633]: "0"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e634]
+            - link "0 watching" [ref=e636] [cursor=pointer]:
+              - /url: /hadr-robotics/iros2026/watchers
+              - img [ref=e637]
+              - strong [ref=e639]: "0"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e640]
+            - link "0 forks" [ref=e642] [cursor=pointer]:
+              - /url: /hadr-robotics/iros2026/forks
+              - img [ref=e643]
+              - strong [ref=e645]: "0"
+              - text: forks
+            - link "Report repository" [ref=e647] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fhadr-robotics%2Firos2026&report=hadr-robotics+%28user%29
+          - generic [ref=e649]:
+            - heading "Releases" [level=2] [ref=e650]:
+              - link "Releases" [ref=e651] [cursor=pointer]:
+                - /url: /hadr-robotics/iros2026/releases
+            - generic [ref=e652]: No releases published
+          - generic [ref=e654]:
+            - heading "Packages" [level=2] [ref=e655]:
+              - link "Packages" [ref=e656] [cursor=pointer]:
+                - /url: /orgs/hadr-robotics/packages?repo_name=iros2026
+            - generic [ref=e657]: No packages published
+          - generic [ref=e659]:
+            - heading "Contributors 1" [level=2] [ref=e660]:
+              - link "Contributors 1" [ref=e661] [cursor=pointer]:
+                - /url: /hadr-robotics/iros2026/graphs/contributors
+                - text: Contributors
+                - generic "1" [ref=e662]
+            - list [ref=e663]:
+              - listitem [ref=e664]:
+                - link "@mitllnhanson" [ref=e665] [cursor=pointer]:
+                  - /url: https://github.com/mitllnhanson
+                  - img "@mitllnhanson" [ref=e666]
+                - link "mitllnhanson Nathaniel Hanson" [ref=e668] [cursor=pointer]:
+                  - /url: https://github.com/mitllnhanson
+                  - strong [ref=e669]: mitllnhanson
+                  - text: Nathaniel Hanson
+          - generic [ref=e671]:
+            - heading "Languages" [level=2] [ref=e672]
+            - list [ref=e678]:
+              - listitem [ref=e679]:
+                - link "SCSS 63.9%" [ref=e680] [cursor=pointer]:
+                  - /url: /hadr-robotics/iros2026/search?l=scss
+                  - img [ref=e681]
+                  - generic [ref=e683]: SCSS
+                  - generic [ref=e684]: 63.9%
+              - listitem [ref=e685]:
+                - link "HTML 29.0%" [ref=e686] [cursor=pointer]:
+                  - /url: /hadr-robotics/iros2026/search?l=html
+                  - img [ref=e687]
+                  - generic [ref=e689]: HTML
+                  - generic [ref=e690]: 29.0%
+              - listitem [ref=e691]:
+                - link "Ruby 7.1%" [ref=e692] [cursor=pointer]:
+                  - /url: /hadr-robotics/iros2026/search?l=ruby
+                  - img [ref=e693]
+                  - generic [ref=e695]: Ruby
+                  - generic [ref=e696]: 7.1%
+  - contentinfo [ref=e698]:
+    - heading "Footer" [level=2] [ref=e699]
+    - generic [ref=e700]:
+      - generic [ref=e701]:
+        - link "GitHub Homepage" [ref=e702] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e703]
+        - generic [ref=e705]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e706]:
+        - heading "Footer navigation" [level=3] [ref=e707]
+        - list "Footer navigation" [ref=e708]:
+          - listitem [ref=e709]:
+            - link "Terms" [ref=e710] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e711]:
+            - link "Privacy" [ref=e712] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e713]:
+            - link "Security" [ref=e714] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e715]:
+            - link "Status" [ref=e716] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e717]:
+            - link "Community" [ref=e718] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e719]:
+            - link "Docs" [ref=e720] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e721]:
+            - link "Contact" [ref=e722] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e723]:
+            - button "Manage cookies" [ref=e725] [cursor=pointer]
+          - listitem [ref=e726]:
+            - button "Do not share my personal information" [ref=e728] [cursor=pointer]

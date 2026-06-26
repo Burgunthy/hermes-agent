@@ -1,0 +1,764 @@
+- generic [active] [ref=e1]:
+  - text:      삭제모드      
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "에펨코리아 - 축구, 인터넷 방송, 게임, 풋볼매니저" [ref=e8] [cursor=pointer]:
+            - /url: /
+            - img "에펨코리아 - 축구, 인터넷 방송, 게임, 풋볼매니저" [ref=e9]
+          - paragraph [ref=e10]: 에펨코리아 - 유머, 축구, 인터넷 방송, 게임, 풋볼매니저 종합 커뮤니티
+        - navigation [ref=e11]:
+          - list [ref=e13]:
+            - listitem [ref=e14]:
+              - link "포텐터짐" [ref=e15] [cursor=pointer]:
+                - /url: /
+                - generic [ref=e16]: 포텐터짐
+            - listitem [ref=e17]:
+              - link "유머/정보" [ref=e18] [cursor=pointer]:
+                - /url: /humor
+                - generic [ref=e19]: 유머/정보
+            - listitem [ref=e20]:
+              - link "스포츠" [ref=e21] [cursor=pointer]:
+                - /url: /football_news
+                - generic [ref=e22]: 스포츠
+            - listitem [ref=e23]:
+              - link "쇼핑/투자" [ref=e24] [cursor=pointer]:
+                - /url: /hotdeal
+                - generic [ref=e25]: 쇼핑/투자
+            - listitem [ref=e26]:
+              - link "일반" [ref=e27] [cursor=pointer]:
+                - /url: /afreecatv
+                - generic [ref=e28]: 일반
+            - listitem [ref=e29]:
+              - link "게임" [ref=e30] [cursor=pointer]:
+                - /url: /lol
+                - generic [ref=e31]: 게임
+            - listitem [ref=e32]:
+              - link "커뮤니티" [ref=e33] [cursor=pointer]:
+                - /url: /fashion
+                - generic [ref=e34]: 커뮤니티
+            - listitem [ref=e35]:
+              - link "갤러리" [ref=e36] [cursor=pointer]:
+                - /url: /food
+                - generic [ref=e37]: 갤러리
+            - listitem [ref=e38]:
+              - link "풋볼매니저" [ref=e39] [cursor=pointer]:
+                - /url: /fm26free
+                - generic [ref=e40]: 풋볼매니저
+            - listitem [ref=e41]:
+              - link "FC" [ref=e42] [cursor=pointer]:
+                - /url: /fifa_online
+                - generic [ref=e43]: FC
+            - listitem [ref=e44]:
+              - link "2군" [ref=e45] [cursor=pointer]:
+                - /url: /newboard
+                - generic [ref=e46]: 2군
+            - listitem [ref=e47]:
+              - link "즐겨찾기" [ref=e48] [cursor=pointer]:
+                - /url: /index.php?act=dispMemberBookmark
+                - generic [ref=e49]: 즐겨찾기
+            - listitem [ref=e50]:
+              - link "전체 게시판" [ref=e51] [cursor=pointer]:
+                - /url: /board
+                - generic [ref=e52]: 전체 게시판
+        - generic [ref=e53]:
+          - link "회원 가입" [ref=e55] [cursor=pointer]:
+            - /url: /index.php?mid=coin&document_srl=7125367168&act=dispMemberSignUpForm
+          - link "비번 찾기" [ref=e57] [cursor=pointer]:
+            - /url: /index.php?mid=coin&document_srl=7125367168&act=dispMemberFindAccount
+          - link "인증 메일 재발송" [ref=e59] [cursor=pointer]:
+            - /url: /index.php?mid=coin&document_srl=7125367168&act=dispMemberResendAuthMail
+          - link "다크OFF" [ref=e61] [cursor=pointer]:
+            - /url: javascript:;
+          - generic [ref=e62]:
+            - textbox "아이디" [ref=e63]
+            - textbox "암호" [ref=e64]
+            - generic [ref=e65]:
+              - checkbox "자동 로그인 창을 닫아도 로그인이 유지됩니다." [ref=e66]
+              - text: 자동 로그인
+            - button "로그인" [ref=e67] [cursor=pointer]
+        - generic [ref=e69]:
+          - textbox "게시판명 & 통합검색" [ref=e70]
+          - button "검색" [ref=e72] [cursor=pointer]
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - text: 
+          - group "2 / 3" [ref=e77]:
+            - link "가상화폐" [ref=e78] [cursor=pointer]:
+              - /url: https://www.fmkorea.com/?mid=coin
+            - text: 
+          - group "3 / 3" [ref=e79]
+          - text:      
+        - text:        
+        - generic [ref=e81] [cursor=pointer]: 
+      - main [ref=e84]:
+        - generic [ref=e85]:
+          - generic [ref=e87]:
+            - link "신청하기" [ref=e88] [cursor=pointer]:
+              - /url: http://saedu.naver.com/adbiz/searchad/intro.nhn
+            - generic [ref=e89]:
+              - link "가비그림취미미술" [ref=e90] [cursor=pointer]:
+                - /url: https://ader.naver.com/v1/c_umOnbWkRBBpojyl51VVFL3wv_3ax43Dn35Afkt-ZMP2QmGQA3EH6OAfwuZaEyiYzED8esfUVRY96vTMWK2fCSnTHw_Y1LZHFZ4FCaV5BXTKkkVLwiqYZUllS-O5ySy2_FcDSRmY03BDoI_kj1QA1K0H-WFvO91kFIpQbjWQb3U_UYPaZm5xFpynFFrKQyj?c=fmkorea.ch3&t=0
+              - link "https://blog.naver.com/nanhhr" [ref=e91] [cursor=pointer]:
+                - /url: https://ader.naver.com/v1/c_umOnbWkRBBpojyl51VVFL3wv_3ax43Dn35Afkt-ZMP2QmGQA3EH6OAfwuZaEyiYzED8esfUVRY96vTMWK2fCSnTHw_Y1LZHFZ4FCaV5BXTKkkVLwiqYZUllS-O5ySy2_FcDSRmY03BDoI_kj1QA1K0H-WFvO91kFIpQbjWQb3U_UYPaZm5xFpynFFrKQyj?c=fmkorea.ch3&t=0
+              - link "초보를 위한 취미미술, 갤러리카페와 화실을 하나로," [ref=e92] [cursor=pointer]:
+                - /url: https://ader.naver.com/v1/c_umOnbWkRBBpojyl51VVFL3wv_3ax43Dn35Afkt-ZMP2QmGQA3EH6OAfwuZaEyiYzED8esfUVRY96vTMWK2fCSnTHw_Y1LZHFZ4FCaV5BXTKkkVLwiqYZUllS-O5ySy2_FcDSRmY03BDoI_kj1QA1K0H-WFvO91kFIpQbjWQb3U_UYPaZm5xFpynFFrKQyj?c=fmkorea.ch3&t=0
+            - generic [ref=e93]:
+              - link "사회적적기업 꿈이있는일터" [ref=e94] [cursor=pointer]:
+                - /url: https://ader.naver.com/v1/c_umOnbWkRBBpojyl51VVFL3wv_3ax43Dn35Afkt-ZO9ZgXBXsqjrMlojH_LzdVHFKjMIyCZS6yXgyUwXTZ2zcquB_evCrqHVYaJFdnKCziE3zOlv4T0e4-zFQKpirqT7VZ-iPNNekb64ioDlogyeMP6kfr2ljwT13v6r5L8_XD1PRfF7Szdk0v7kekfJlIqyOvvrcfdWH3GbRA0QLU2OpKpsiMnrv4dTlHA72hDovE=?c=fmkorea.ch3&t=0
+              - link "https://smartstore.naver.com/kkumteo" [ref=e95] [cursor=pointer]:
+                - /url: https://ader.naver.com/v1/c_umOnbWkRBBpojyl51VVFL3wv_3ax43Dn35Afkt-ZO9ZgXBXsqjrMlojH_LzdVHFKjMIyCZS6yXgyUwXTZ2zcquB_evCrqHVYaJFdnKCziE3zOlv4T0e4-zFQKpirqT7VZ-iPNNekb64ioDlogyeMP6kfr2ljwT13v6r5L8_XD1PRfF7Szdk0v7kekfJlIqyOvvrcfdWH3GbRA0QLU2OpKpsiMnrv4dTlHA72hDovE=?c=fmkorea.ch3&t=0
+              - link "사회적기업,여성기업,공공기관 우선구매,공공기관 전문 꿈이있는 일터 입니다." [ref=e96] [cursor=pointer]:
+                - /url: https://ader.naver.com/v1/c_umOnbWkRBBpojyl51VVFL3wv_3ax43Dn35Afkt-ZO9ZgXBXsqjrMlojH_LzdVHFKjMIyCZS6yXgyUwXTZ2zcquB_evCrqHVYaJFdnKCziE3zOlv4T0e4-zFQKpirqT7VZ-iPNNekb64ioDlogyeMP6kfr2ljwT13v6r5L8_XD1PRfF7Szdk0v7kekfJlIqyOvvrcfdWH3GbRA0QLU2OpKpsiMnrv4dTlHA72hDovE=?c=fmkorea.ch3&t=0
+          - generic [ref=e98]:
+            - heading "가상화폐 즐겨찾기 추가/제거" [level=1] [ref=e99]:
+              - link "가상화폐" [ref=e100] [cursor=pointer]:
+                - /url: /coin
+              - link "즐겨찾기 추가/제거" [ref=e101] [cursor=pointer]:
+                - /url: javascript:;
+            - link "자유" [ref=e104] [cursor=pointer]:
+              - /url: /index.php?mid=coin&category=864191633
+            - link "인기글 목록" [ref=e107] [cursor=pointer]:
+              - /url: /index.php?mid=coin&sort_index=pop&order_type=desc
+          - generic [ref=e108]:
+            - generic [ref=e109]:
+              - generic [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]:
+                    - generic [ref=e113]: 2024.06.10 00:32
+                    - heading "워뇨띠 매매원칙, 매매법 정리" [level=1] [ref=e114]
+                  - generic [ref=e115]:
+                    - link "[레벨:6]코린22" [ref=e117] [cursor=pointer]:
+                      - /url: "#popup_menu_area"
+                      - img "[레벨:6]" [ref=e118]
+                      - text: 코린22
+                    - generic [ref=e119]:
+                      - generic [ref=e120]: 조회 수 20005
+                      - generic [ref=e121]: 추천 수 23
+                      - generic [ref=e122]: 댓글 11
+                - generic [ref=e124]:
+                  - link "" [ref=e125] [cursor=pointer]:
+                    - /url: "#wrap"
+                    - generic [ref=e126]: 
+                  - link "" [ref=e127] [cursor=pointer]:
+                    - /url: "#rd_end_7125367168"
+                    - generic [ref=e128]: 
+                  - link "" [ref=e129] [cursor=pointer]:
+                    - /url: "#7125367168_comment"
+                    - generic [ref=e130]: 
+                  - text:  
+              - generic [ref=e131]:
+                - generic [ref=e132]:
+                  - link "https://www.fmkorea.com/7125367168" [ref=e133] [cursor=pointer]:
+                    - /url: /7125367168
+                  - button "복사" [ref=e135] [cursor=pointer]
+                - article [ref=e136]:
+                  - generic [ref=e137]:
+                    - heading "워뇨띠 매매원칙, 매매법 정리" [level=2] [ref=e138]
+                    - strong [ref=e140]: "워뇨띠: \"일년넘게 하루 차트 10시간씩 보며 기억하고 예측하고 분석하기\" 가 제일 중요하다고 생각합니다."
+                    - generic [ref=e141]:
+                      - strong
+                    - generic [ref=e142]:
+                      - paragraph [ref=e143]: 과거 차트를 분석하여 진입과 익절, 손절을 결정하는 방법은 거래 전략의 핵심 중 하나입니다.
+                      - paragraph [ref=e144]: 거래량과 캔들 패턴을 병행하여 시장을 분석하면 보다 정확한 판단을 내릴 수 있습니다.
+                      - paragraph [ref=e145]: 특히, 짧은 기간 동안 많은 단타를 치는 전략을 사용할 때 이러한 분석은 필수적입니다.
+                      - paragraph [ref=e146]: 이익을 실현하고 자산을 관리하기 위해서는 출금을 통한 수익 실현이 중요하며, 자산 대비 안전한 레버리지를 사용하는 것이 좋습니다.
+                      - paragraph [ref=e147]: 상승장과 하락장을 구분하여 투자 전략을 조정하는 것도 성공적인 거래의 중요한 요소입니다. 예를 들어, 상승장에서는 적극적인 매수 전략을, 하락장에서는 보수적인 매도 전략을 취할 수 있습니다.
+                      - list [ref=e148]:
+                        - listitem [ref=e149]:
+                          - paragraph [ref=e150]: "거래량과 캔들 패턴을 병행하여 분석할 것: 두 가지 요소를 함께 봄으로써 시장의 움직임을 더 잘 이해할 수 있습니다. 최대한 많은 차트를 보고 패턴을 익히는 것이 중요합니다."
+                        - listitem [ref=e151]:
+                          - paragraph [ref=e152]: "시장에 적극적으로 참여해볼 것: 차트를 많이 보고 직접 거래에 참여하는 경험을 쌓아야 합니다."
+                        - listitem [ref=e153]:
+                          - paragraph [ref=e154]: "잃어도 괜찮은 비중으로 매매할 것: 손실을 감당할 수 있는 범위 내에서 거래를 해야 합니다."
+                        - listitem [ref=e155]:
+                          - paragraph [ref=e156]: "항상 복구할 자산을 남겨둘 것: 크게 손실을 보더라도 복구할 수 있는 자산을 남겨두는 것이 중요합니다. 자산이 적더라도 추가 입금을 지양하며, 남은 금액으로 복구하는 방법을 찾아야 합니다."
+                      - paragraph [ref=e157]: 이와 같은 원칙을 따르면, 거래에서의 성공 가능성을 높일 수 있습니다. 특히 단타 매매에서는 신속한 판단과 대응이 필요하기 때문에, 위의 원칙들을 철저히 지키는 것이 중요합니다.
+                    - generic [ref=e159]: ㄹㅇ 워뇨띠 님 거래 방식, 매매법, 마인드는 봐도봐도 볼 때 마다 느끼는 바가 있는 것 같음. 모두 건승하십쇼!
+                    - generic [ref=e161]:
+                      - text: "[출처]"
+                      - link "워뇨띠 매매원칙, 워뇨띠 매매법, 배율 레버리지, 매매일지, 보조지표 총 정리(2024 6월 최종본)" [ref=e162] [cursor=pointer]:
+                        - /url: https://link.fmkorea.org/link.php?url=https%3A%2F%2Fcoinexpert.co.kr%2F%25EC%259B%258C%25EB%2587%25A8%25EB%259D%25A0-%25EB%25A7%25A4%25EB%25A7%25A4%25EC%259B%2590%25EC%25B9%2599-%25EC%259B%258C%25EB%2587%25A8%25EB%259D%25A0-%25EB%25A7%25A4%25EB%25A7%25A4%25EB%25B2%2595-%25EB%25B0%25B0%25EC%259C%25A8-%25EB%25A0%2588%25EB%25B2%2584%25EB%25A6%25AC%25EC%25A7%2580-%25EB%25A7%25A4%25EB%25A7%25A4%2F&lnu=2466561575&mykey=MDAwMTQxMjM1MjkwMTY=
+            - generic [ref=e165]:
+              - generic [ref=e166]:
+                - button "게시판 이력" [ref=e169] [cursor=pointer]
+                - generic [ref=e171]:
+                  - link "포텐" [ref=e172] [cursor=pointer]:
+                    - /url: javascript:;
+                  - generic [ref=e173]: "23"
+                  - link "방출" [ref=e174] [cursor=pointer]:
+                    - /url: javascript:;
+              - generic [ref=e176]:
+                - insertion:
+                  - generic:
+                    - iframe
+                - insertion:
+                  - generic:
+                    - iframe
+              - generic [ref=e177]:
+                - link "목록으로" [ref=e179] [cursor=pointer]:
+                  - /url: "#rd_end_7125367168"
+                - link "< 이전 글" [ref=e181] [cursor=pointer]:
+                  - /url: "#"
+                - link "다음 글 >" [ref=e183] [cursor=pointer]:
+                  - /url: "#"
+              - generic [ref=e184]:
+                - button "공유하기" [ref=e187] [cursor=pointer]
+                - generic [ref=e189]:
+                  - link "" [ref=e190] [cursor=pointer]:
+                    - /url: "#wrap"
+                    - generic [ref=e191]: 
+                  - link "" [ref=e192] [cursor=pointer]:
+                    - /url: "#rd_end_7125367168"
+                    - generic [ref=e193]: 
+                  - link "스크랩" [ref=e194] [cursor=pointer]:
+                    - /url: javascript:;
+                  - text: 
+                  - link "" [ref=e195] [cursor=pointer]:
+                    - /url: javascript:;
+                    - generic [ref=e196]: 
+                  - link "" [ref=e197] [cursor=pointer]:
+                    - /url: "#popup_menu_area"
+                    - generic [ref=e198]: 
+            - generic [ref=e200]:
+              - generic [ref=e201]:
+                - link "댓글 11 개" [ref=e203] [cursor=pointer]:
+                  - /url: "#"
+                - list [ref=e204]:
+                  - listitem [ref=e205]:
+                    - generic [ref=e206]:
+                      - link "[레벨:1]고독한돼지" [ref=e207] [cursor=pointer]:
+                        - /url: "#popup_menu_area"
+                        - img "[레벨:1]" [ref=e208]
+                        - text: 고독한돼지
+                      - text: 2024.06.10 00:34
+                    - generic [ref=e210]: 저도 워뇨띠 매매법로 마진 입문해서 낭낭하게 수익중입니다 개추
+                    - generic [ref=e211]:
+                      - generic [ref=e212]:
+                        - link "" [ref=e213] [cursor=pointer]:
+                          - /url: javascript:;
+                          - emphasis [ref=e214]:
+                            - generic [ref=e215]: 
+                        - link "" [ref=e216] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e217]: 
+                      - link "주소복사" [ref=e218] [cursor=pointer]:
+                        - /url: https://www.fmkorea.com/7125367168/7125375406#comment_7125375406
+                        - generic [ref=e219]: 
+                  - listitem [ref=e220]:
+                    - generic [ref=e221]:
+                      - link "[레벨:6]코린22" [ref=e222] [cursor=pointer]:
+                        - /url: "#popup_menu_area"
+                        - img "[레벨:6]" [ref=e223]
+                        - text: 코린22
+                      - text: 2024.06.10 00:35
+                    - generic [ref=e225]: ㄹㅇ 감동 그자체임 인강이었으면 수백만원은 했을듯
+                    - generic [ref=e226]:
+                      - generic [ref=e227]:
+                        - link "" [ref=e228] [cursor=pointer]:
+                          - /url: javascript:;
+                          - emphasis [ref=e229]:
+                            - generic [ref=e230]: 
+                        - link "" [ref=e231] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e232]: 
+                      - link "주소복사" [ref=e233] [cursor=pointer]:
+                        - /url: https://www.fmkorea.com/7125367168/7125376906#comment_7125376906
+                        - generic [ref=e234]: 
+                  - listitem [ref=e235]:
+                    - generic [ref=e236]:
+                      - link "[레벨:25]라울곤잘레스" [ref=e237] [cursor=pointer]:
+                        - /url: "#popup_menu_area"
+                        - img "[레벨:25]" [ref=e238]
+                        - text: 라울곤잘레스
+                      - text: 2024.06.10 01:23
+                    - generic [ref=e240]: ㅇㄷ
+                    - generic [ref=e241]:
+                      - generic [ref=e242]:
+                        - link "" [ref=e243] [cursor=pointer]:
+                          - /url: javascript:;
+                          - emphasis [ref=e244]:
+                            - generic [ref=e245]: 
+                        - link "" [ref=e246] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e247]: 
+                      - link "주소복사" [ref=e248] [cursor=pointer]:
+                        - /url: https://www.fmkorea.com/7125367168/7125542606#comment_7125542606
+                        - generic [ref=e249]: 
+                  - listitem [ref=e250]:
+                    - generic [ref=e251]:
+                      - link "[레벨:21]epona" [ref=e252] [cursor=pointer]:
+                        - /url: "#popup_menu_area"
+                        - img "[레벨:21]" [ref=e253]
+                        - text: epona
+                      - text: 2024.06.10 01:49
+                    - generic [ref=e255]: 워뇨띠 매매법이 지금같은장에선 안통한다함 대응이 중요한듯
+                    - generic [ref=e256]:
+                      - generic [ref=e257]:
+                        - link "" [ref=e258] [cursor=pointer]:
+                          - /url: javascript:;
+                          - emphasis [ref=e259]:
+                            - generic [ref=e260]: 
+                        - link "" [ref=e261] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e262]: 
+                      - link "주소복사" [ref=e263] [cursor=pointer]:
+                        - /url: https://www.fmkorea.com/7125367168/7125622332#comment_7125622332
+                        - generic [ref=e264]: 
+                  - listitem [ref=e265]:
+                    - generic [ref=e266]:
+                      - link "[레벨:8]나비릉" [ref=e267] [cursor=pointer]:
+                        - /url: "#popup_menu_area"
+                        - img "[레벨:8]" [ref=e268]
+                        - text: 나비릉
+                      - text: 2024.06.10 02:18
+                    - generic [ref=e270]: ㅇㄷ
+                    - generic [ref=e271]:
+                      - generic [ref=e272]:
+                        - link "" [ref=e273] [cursor=pointer]:
+                          - /url: javascript:;
+                          - emphasis [ref=e274]:
+                            - generic [ref=e275]: 
+                        - link "" [ref=e276] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e277]: 
+                      - link "주소복사" [ref=e278] [cursor=pointer]:
+                        - /url: https://www.fmkorea.com/7125367168/7125701114#comment_7125701114
+                        - generic [ref=e279]: 
+                  - listitem [ref=e280]:
+                    - generic [ref=e281]:
+                      - link "[레벨:5]LQTY" [ref=e282] [cursor=pointer]:
+                        - /url: "#popup_menu_area"
+                        - img "[레벨:5]" [ref=e283]
+                        - text: LQTY
+                      - text: 2024.06.10 03:56
+                    - generic [ref=e285]:
+                      - text: 투자로 돈 번 모든 사람들이 하는 말은
+                      - text: 자기만의 기록물 만들어라 임
+                      - text: 늘어나면 늘어날수록 본인의 잔고 또한 늘어날거임
+                    - generic [ref=e286]:
+                      - generic [ref=e287]:
+                        - link "" [ref=e288] [cursor=pointer]:
+                          - /url: javascript:;
+                          - emphasis [ref=e289]:
+                            - generic [ref=e290]: 
+                        - link "" [ref=e291] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e292]: 
+                      - link "주소복사" [ref=e293] [cursor=pointer]:
+                        - /url: https://www.fmkorea.com/7125367168/7125901194#comment_7125901194
+                        - generic [ref=e294]: 
+                  - listitem [ref=e295]:
+                    - generic [ref=e296]:
+                      - link "[레벨:5]슈슈르르" [ref=e297] [cursor=pointer]:
+                        - /url: "#popup_menu_area"
+                        - img "[레벨:5]" [ref=e298]
+                        - text: 슈슈르르
+                      - text: 2024.06.10 07:40
+                    - generic [ref=e300]: ㅇㄷ
+                    - generic [ref=e301]:
+                      - generic [ref=e302]:
+                        - link "" [ref=e303] [cursor=pointer]:
+                          - /url: javascript:;
+                          - emphasis [ref=e304]:
+                            - generic [ref=e305]: 
+                        - link "" [ref=e306] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e307]: 
+                      - link "주소복사" [ref=e308] [cursor=pointer]:
+                        - /url: https://www.fmkorea.com/7125367168/7126102258#comment_7126102258
+                        - generic [ref=e309]: 
+                  - listitem [ref=e310]:
+                    - generic [ref=e311]:
+                      - link "[레벨:6]코린22" [ref=e312] [cursor=pointer]:
+                        - /url: "#popup_menu_area"
+                        - img "[레벨:6]" [ref=e313]
+                        - text: 코린22
+                      - text: 2024.06.10 10:15
+                    - generic [ref=e315]: 추천 많넹
+                    - generic [ref=e316]:
+                      - generic [ref=e317]:
+                        - link "" [ref=e318] [cursor=pointer]:
+                          - /url: javascript:;
+                          - emphasis [ref=e319]:
+                            - generic [ref=e320]: 
+                        - link "" [ref=e321] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e322]: 
+                      - link "주소복사" [ref=e323] [cursor=pointer]:
+                        - /url: https://www.fmkorea.com/7125367168/7126342648#comment_7126342648
+                        - generic [ref=e324]: 
+                  - listitem [ref=e325]:
+                    - generic [ref=e326]:
+                      - link "[레벨:21]신두신두등신두" [ref=e327] [cursor=pointer]:
+                        - /url: "#popup_menu_area"
+                        - img "[레벨:21]" [ref=e328]
+                        - text: 신두신두등신두
+                      - text: 2024.06.10 19:07
+                    - generic [ref=e330]:
+                      - text: 공감가는게, 매매를 많이 하는게 맞는거같음
+                      - text: 매매를 무서워하면 애초에 코인을 하면 안됨
+                    - generic [ref=e331]:
+                      - generic [ref=e332]:
+                        - link " 1" [ref=e333] [cursor=pointer]:
+                          - /url: javascript:;
+                          - emphasis [ref=e334]:
+                            - generic [ref=e335]: 
+                            - text: "1"
+                        - link "" [ref=e336] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e337]: 
+                      - link "주소복사" [ref=e338] [cursor=pointer]:
+                        - /url: https://www.fmkorea.com/7125367168/7127857530#comment_7127857530
+                        - generic [ref=e339]: 
+                  - listitem [ref=e340]:
+                    - generic [ref=e341]:
+                      - link "[레벨:25]무밥이" [ref=e342] [cursor=pointer]:
+                        - /url: "#popup_menu_area"
+                        - img "[레벨:25]" [ref=e343]
+                        - text: 무밥이
+                      - text: 2024.06.10 20:38
+                    - generic [ref=e345]: 워뇨띠 매매법 ㅇㄷ
+                    - generic [ref=e346]:
+                      - generic [ref=e347]:
+                        - link "" [ref=e348] [cursor=pointer]:
+                          - /url: javascript:;
+                          - emphasis [ref=e349]:
+                            - generic [ref=e350]: 
+                        - link "" [ref=e351] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e352]: 
+                      - link "주소복사" [ref=e353] [cursor=pointer]:
+                        - /url: https://www.fmkorea.com/7125367168/7128164951#comment_7128164951
+                        - generic [ref=e354]: 
+                  - listitem [ref=e355]:
+                    - generic [ref=e356]:
+                      - link "[레벨:4]나카모코아들" [ref=e357] [cursor=pointer]:
+                        - /url: "#popup_menu_area"
+                        - img "[레벨:4]" [ref=e358]
+                        - text: 나카모코아들
+                      - text: 2024.06.12 14:24
+                    - generic [ref=e360]: ㅇㄷ
+                    - generic [ref=e361]:
+                      - generic [ref=e362]:
+                        - link "" [ref=e363] [cursor=pointer]:
+                          - /url: javascript:;
+                          - emphasis [ref=e364]:
+                            - generic [ref=e365]: 
+                        - link "" [ref=e366] [cursor=pointer]:
+                          - /url: javascript:;
+                          - generic [ref=e367]: 
+                      - link "주소복사" [ref=e368] [cursor=pointer]:
+                        - /url: https://www.fmkorea.com/7125367168/7134308203#comment_7134308203
+                        - generic [ref=e369]: 
+              - generic [ref=e371]:
+                - strong [ref=e373] [cursor=pointer]: 댓글 쓰기
+                - generic [ref=e375]:
+                  - link "댓글 작성 하시려면 로그인 해주세요. 로그인 하시겠습니까?" [ref=e377] [cursor=pointer]:
+                    - /url: "#"
+                  - button "등록" [disabled] [ref=e378] [cursor=pointer]
+          - separator
+          - generic [ref=e379]:
+            - text: 핫딜
+            - link "[롯데온] 펩시콜라 제로슈거 라임 310ml 24캔 (11,910원) (무료) [46]" [ref=e380] [cursor=pointer]:
+              - /url: /9870848526?x8=1
+          - generic [ref=e381]:
+            - generic [ref=e383]:
+              - heading "가상화폐 즐겨찾기 추가/제거" [level=1] [ref=e384]:
+                - link "가상화폐" [ref=e386] [cursor=pointer]:
+                  - /url: /coin
+                - link "즐겨찾기 추가/제거" [ref=e387] [cursor=pointer]:
+                  - /url: javascript:;
+              - link "공지 보기" [ref=e389] [cursor=pointer]:
+                - /url: /coin
+            - generic [ref=e390]:
+              - generic [ref=e392]:
+                - link "가상화폐" [ref=e393] [cursor=pointer]:
+                  - /url: /coin
+                  - generic [ref=e394]: 가상화폐
+                - link "인기" [ref=e396] [cursor=pointer]:
+                  - /url: /index.php?mid=coin&sort_index=pop&order_type=desc
+                - list [ref=e397]:
+                  - listitem [ref=e398]:
+                    - link "자유" [ref=e399] [cursor=pointer]:
+                      - /url: /index.php?mid=coin&category=864191633
+                  - listitem [ref=e400]:
+                    - link "정보/뉴스" [ref=e401] [cursor=pointer]:
+                      - /url: /index.php?mid=coin&category=865048552
+                  - listitem [ref=e402]:
+                    - link "매매일지" [ref=e403] [cursor=pointer]:
+                      - /url: /index.php?mid=coin&category=3458613724
+                  - listitem [ref=e404]:
+                    - link "차트 분석" [ref=e405] [cursor=pointer]:
+                      - /url: /index.php?mid=coin&category=3482245088
+                  - listitem [ref=e406]:
+                    - link "이벤트" [ref=e407] [cursor=pointer]:
+                      - /url: /index.php?mid=coin&category=880906342
+                  - listitem [ref=e408]:
+                    - link "공지" [ref=e409] [cursor=pointer]:
+                      - /url: /index.php?mid=coin&category=864191806
+              - generic [ref=e410]:
+                - list:
+                  - listitem [ref=e411]:
+                    - link "텍스트 형식" [ref=e412] [cursor=pointer]:
+                      - /url: /index.php?mid=coin&listStyle=list&page=1
+                      - generic [ref=e413]: 텍스트 형식
+                  - listitem [ref=e414]:
+                    - link "이미지 형식" [ref=e415] [cursor=pointer]:
+                      - /url: /index.php?mid=coin&listStyle=webzine&page=1
+                      - generic [ref=e416]: 이미지 형식
+            - table "글 목록" [ref=e417]:
+              - caption: 글 목록
+              - rowgroup [ref=e418]:
+                - row "탭 제목 글쓴이 날짜 조회 추천" [ref=e419]:
+                  - columnheader "탭" [ref=e420]
+                  - columnheader "제목" [ref=e421]
+                  - columnheader "글쓴이" [ref=e422]
+                  - columnheader "날짜" [ref=e423]
+                  - columnheader "조회" [ref=e424]
+                  - columnheader "추천" [ref=e425]:
+                    - link "추천" [ref=e427] [cursor=pointer]:
+                      - /url: /index.php?document_srl=7125367168&mid=coin&sort_index=voted_count&order_type=desc
+              - rowgroup [ref=e428]:
+                - text: 
+                - row "자유 쎄타 이 씨발년아! 5 [레벨:2]퀴즈톡 24.06.10 794 7" [ref=e429]:
+                  - cell "자유" [ref=e430]:
+                    - link "자유" [ref=e432] [cursor=pointer]:
+                      - /url: /index.php?mid=coin&category=864191633
+                  - cell "쎄타 이 씨발년아! 5" [ref=e433]:
+                    - link "쎄타 이 씨발년아!" [ref=e434] [cursor=pointer]:
+                      - /url: /7125390202
+                    - link "5" [ref=e435] [cursor=pointer]:
+                      - /url: /7125390202#7125390202_comment
+                  - cell "[레벨:2]퀴즈톡" [ref=e436]:
+                    - link "[레벨:2]퀴즈톡" [ref=e438] [cursor=pointer]:
+                      - /url: "#popup_menu_area"
+                      - img "[레벨:2]" [ref=e439]
+                      - text: 퀴즈톡
+                  - cell "24.06.10" [ref=e440]
+                  - cell "794" [ref=e441]
+                  - cell "7" [ref=e442]
+                - row "자유 워뇨띠 매매원칙, 매매법 정리 11 [레벨:6]코린22 24.06.10 2만 23" [ref=e443]:
+                  - cell "자유" [ref=e444]:
+                    - link "자유" [ref=e446] [cursor=pointer]:
+                      - /url: /index.php?mid=coin&category=864191633
+                  - cell "워뇨띠 매매원칙, 매매법 정리 11" [ref=e447]:
+                    - link "워뇨띠 매매원칙, 매매법 정리" [ref=e448] [cursor=pointer]:
+                      - /url: /7125367168
+                    - link "11" [ref=e449] [cursor=pointer]:
+                      - /url: /7125367168#7125367168_comment
+                  - cell "[레벨:6]코린22" [ref=e451]:
+                    - link "[레벨:6]코린22" [ref=e453] [cursor=pointer]:
+                      - /url: "#popup_menu_area"
+                      - img "[레벨:6]" [ref=e454]
+                      - text: 코린22
+                  - cell "24.06.10" [ref=e455]
+                  - cell "2만" [ref=e456]
+                  - cell "23" [ref=e457]
+                - row "자유 하이 펀비 모냐... 2  [레벨:29]버텍스고아련 24.06.10 556 4" [ref=e458]:
+                  - cell "자유" [ref=e459]:
+                    - link "자유" [ref=e461] [cursor=pointer]:
+                      - /url: /index.php?mid=coin&category=864191633
+                  - cell "하이 펀비 모냐... 2 " [ref=e462]:
+                    - link "하이 펀비 모냐..." [ref=e463] [cursor=pointer]:
+                      - /url: /7125358977
+                    - link "2" [ref=e464] [cursor=pointer]:
+                      - /url: /7125358977#7125358977_comment
+                    - generic "이미지" [ref=e466]: 
+                  - cell "[레벨:29]버텍스고아련" [ref=e467]:
+                    - link "[레벨:29]버텍스고아련" [ref=e469] [cursor=pointer]:
+                      - /url: "#popup_menu_area"
+                      - img "[레벨:29]" [ref=e470]
+                      - text: 버텍스고아련
+                  - cell "24.06.10" [ref=e471]
+                  - cell "556" [ref=e472]
+                  - cell "4" [ref=e473]
+                - row "자유 서양애들은 화장을 진하게하네 [레벨:22]프리메이슨 24.06.10 647 2" [ref=e474]:
+                  - cell "자유" [ref=e475]:
+                    - link "자유" [ref=e477] [cursor=pointer]:
+                      - /url: /index.php?mid=coin&category=864191633
+                  - cell "서양애들은 화장을 진하게하네" [ref=e478]:
+                    - link "서양애들은 화장을 진하게하네" [ref=e479] [cursor=pointer]:
+                      - /url: /7125356686
+                  - cell "[레벨:22]프리메이슨" [ref=e480]:
+                    - link "[레벨:22]프리메이슨" [ref=e482] [cursor=pointer]:
+                      - /url: "#popup_menu_area"
+                      - img "[레벨:22]" [ref=e483]
+                      - text: 프리메이슨
+                  - cell "24.06.10" [ref=e484]
+                  - cell "647" [ref=e485]
+                  - cell "2" [ref=e486]
+            - generic [ref=e487]:
+              - generic [ref=e488]:
+                - generic:
+                  - generic [ref=e489] [cursor=pointer]:
+                    - button "Search" [ref=e490]
+                    - textbox "검색" [ref=e491]
+                  - combobox [ref=e493]:
+                    - option "제목+내용" [selected]
+                    - option "+요약보기"
+                    - option "제목"
+                    - option "내용"
+                    - option "댓글"
+                    - option "닉네임"
+                - generic [ref=e494]:
+                  - list [ref=e496]:
+                    - listitem [ref=e497]:
+                      - link "1. 니어" [ref=e498] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e499]: "1."
+                        - generic [ref=e500]: 니어
+                    - listitem [ref=e501]:
+                      - link "2. 온도" [ref=e502] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e503]: "2."
+                        - generic [ref=e504]: 온도
+                    - listitem [ref=e505]:
+                      - link "3. 이더" [ref=e506] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e507]: "3."
+                        - generic [ref=e508]: 이더
+                    - listitem [ref=e509]:
+                      - link "4. 월드" [ref=e510] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e511]: "4."
+                        - generic [ref=e512]: 월드
+                    - listitem [ref=e513]:
+                      - link "5. 리플" [ref=e514] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e515]: "5."
+                        - generic [ref=e516]: 리플
+                    - listitem [ref=e517]:
+                      - link "6. 과세 +1" [ref=e518] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e519]: "6."
+                        - generic [ref=e520]: 과세
+                        - generic [ref=e521]: "+1"
+                    - listitem [ref=e522]:
+                      - link "7. 수이 -1" [ref=e523] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e524]: "7."
+                        - generic [ref=e525]: 수이
+                        - generic [ref=e526]: "-1"
+                    - listitem [ref=e527]:
+                      - link "8. 이스포츠" [ref=e528] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e529]: "8."
+                        - generic [ref=e530]: 이스포츠
+                    - listitem [ref=e531]:
+                      - link "9. 솔라나" [ref=e532] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e533]: "9."
+                        - generic [ref=e534]: 솔라나
+                    - listitem [ref=e535]:
+                      - link "10. 비트" [ref=e536] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e537]: "10."
+                        - generic [ref=e538]: 비트
+                    - listitem [ref=e539]:
+                      - link "1. 니어" [ref=e540] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e541]: "1."
+                        - generic [ref=e542]: 니어
+                  - text:  
+              - link "인기글" [ref=e544] [cursor=pointer]:
+                - /url: /index.php?mid=coin&sort_index=pop&order_type=desc
+            - generic [ref=e545]:
+              - generic [ref=e546]: 오래된 문서는 이전/다음 페이지가 생략됩니다.
+              - link "1 페이지로 가기" [ref=e548] [cursor=pointer]:
+                - /url: /coin
+            - generic [ref=e550]:
+              - insertion:
+                - generic:
+                  - iframe
+      - generic [ref=e552]:
+        - iframe [ref=e553]:
+          - iframe [ref=f99e2]:
+            
+        - generic [ref=e554]:
+          - generic [ref=e555]: 단축키
+          - link "설정하기" [ref=e557] [cursor=pointer]:
+            - /url: /index.php?document_srl=7125367168&mid=coin&act=dispMemberBookmark
+          - generic [ref=e558]:
+            - generic [ref=e559]:
+              - generic [ref=e560]: alt+c
+              - text: 댓글 쓰기
+            - link "alt+w 글 쓰기" [ref=e562] [cursor=pointer]:
+              - /url: /index.php?mid=coin&act=dispBoardWrite
+              - generic [ref=e563]: alt+w
+              - text: 글 쓰기
+            - generic [ref=e564]:
+              - generic [ref=e565]: alt+q
+              - text: 댓글 등록
+            - link "e 상단으로" [ref=e567] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=e568]: e
+              - text: 상단으로
+            - link "d 하단으로" [ref=e570] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=e571]: d
+              - text: 하단으로
+            - link "c 댓글로" [ref=e573] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=e574]: c
+              - text: 댓글로
+            - link "s 이전" [ref=e576] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=e577]: s
+              - text: 이전
+            - link "f 다음" [ref=e579] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=e580]: f
+              - text: 다음
+            - link "q 메인" [ref=e582] [cursor=pointer]:
+              - /url: /coin
+              - generic [ref=e583]: q
+              - text: 메인
+            - link "w 인기글" [ref=e585] [cursor=pointer]:
+              - /url: /index.php?mid=coin&sort_index=pop&order_type=desc
+              - generic [ref=e586]: w
+              - text: 인기글
+            - link "1 포텐터짐" [ref=e588] [cursor=pointer]:
+              - /url: /best
+              - generic [ref=e589]: "1"
+              - text: 포텐터짐
+            - link "2 유머" [ref=e591] [cursor=pointer]:
+              - /url: /humor
+              - generic [ref=e592]: "2"
+              - text: 유머
+            - link "3 축구소식" [ref=e594] [cursor=pointer]:
+              - /url: /football_news
+              - generic [ref=e595]: "3"
+              - text: 축구소식
+      - insertion [ref=e598]:
+        - iframe [ref=e600]:
+          
+    - contentinfo [ref=e601]:
+      - generic [ref=e602]:
+        - generic:
+          - list
+        - generic [ref=e603]:
+          - generic [ref=e604]: Copyright © www.fmkorea.com All rights reserved.
+          - generic [ref=e605]: "동시 접속자: 98,306명"
+          - generic [ref=e606]:
+            - text: "에펨코리아 운영팀: help@fmkorea.com |"
+            - link "이용약관" [ref=e607] [cursor=pointer]:
+              - /url: /policy
+            - text: "|"
+            - link "개인정보처리방침" [ref=e608] [cursor=pointer]:
+              - /url: /privacy
+            - text: "|"
+            - link "청소년보호정책 |" [ref=e609] [cursor=pointer]:
+              - /url: /youth_protect
+            - link "문의/신고" [ref=e610] [cursor=pointer]:
+              - /url: /suggest
+            - text: "|"
+            - link "게시글 중단 요청" [ref=e611] [cursor=pointer]:
+              - /url: /delete_request
+  - generic:
+    - paragraph: Sketchbook5, 스케치북5
+    - paragraph: Sketchbook5, 스케치북5
+  - link "Loading..." [ref=e613] [cursor=pointer]:
+    - /url: javascript:;

@@ -1,0 +1,8 @@
+- generic [ref=e2]:
+  - img [ref=e4]
+  - heading "죄송합니다. 유효하지 않은 요청입니다." [level=1] [ref=e9]
+  - paragraph [ref=e10]:
+    - text: 해당 블로그가 없습니다.
+    - text: 블로그 아이디를 확인해 주세요.
+  - link "이전 화면으로" [ref=e12] [cursor=pointer]:
+    - /url: javascript:history.back(-1)

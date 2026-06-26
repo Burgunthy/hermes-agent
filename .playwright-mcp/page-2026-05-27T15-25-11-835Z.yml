@@ -1,0 +1,43 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - generic [ref=e8]: CatchDM
+    - navigation [ref=e9]:
+      - link "Dashboard" [ref=e10] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e11]
+        - text: Dashboard
+      - link "Accounts" [ref=e16] [cursor=pointer]:
+        - /url: /dashboard/accounts
+        - img [ref=e17]
+        - text: Accounts
+      - link "Analytics" [ref=e20] [cursor=pointer]:
+        - /url: /dashboard/analytics
+        - img [ref=e21]
+        - text: Analytics
+      - link "DM Logs" [ref=e23] [cursor=pointer]:
+        - /url: /dashboard/logs
+        - img [ref=e24]
+        - text: DM Logs
+      - link "Settings" [ref=e27] [cursor=pointer]:
+        - /url: /dashboard/settings
+        - img [ref=e28]
+        - text: Settings
+    - paragraph [ref=e32]: CatchDM v1.0
+  - generic [ref=e33]:
+    - banner [ref=e34]:
+      - button "U User" [ref=e35] [cursor=pointer]:
+        - generic [ref=e37]: U
+        - generic [ref=e38]: User
+        - img [ref=e39]
+    - main [ref=e41]:
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - heading "Analytics" [level=1] [ref=e45]
+          - paragraph [ref=e46]: Track your DM performance and engagement metrics
+        - generic [ref=e47]:
+          - combobox [ref=e48] [cursor=pointer]:
+            - generic: Select account
+            - img [ref=e49]
+          - combobox [ref=e51]

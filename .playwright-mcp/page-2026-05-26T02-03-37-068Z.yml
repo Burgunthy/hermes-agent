@@ -1,0 +1,1042 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - link "메뉴 영역으로 바로가기" [ref=e2] [cursor=pointer]:
+      - /url: "#lnb"
+      - generic [ref=e3]: 메뉴 영역으로 바로가기
+    - link "본문 영역으로 바로가기" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+      - generic [ref=e5]: 본문 영역으로 바로가기
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - generic [ref=e11]:
+        - heading "NAVER" [level=1] [ref=e12]:
+          - link "NAVER" [ref=e13] [cursor=pointer]:
+            - /url: https://www.naver.com
+            - generic [ref=e14]: NAVER
+        - search [ref=e15]:
+          - group "검색" [ref=e16]:
+            - combobox "검색어를 입력해 주세요." [ref=e18]:
+              - text: 워뇨띠 타임프레임 6개 매매법
+              - button "자동완성 레이어" [ref=e19] [cursor=pointer]:
+                - generic [ref=e20]: 자동완성 레이어
+            - button "검색" [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]: 검색
+            - button "한글 입력기" [ref=e24] [cursor=pointer]:
+              - generic [ref=e25]: 한글 입력기
+      - generic [ref=e26]:
+        - generic [ref=e28]:
+          - generic [ref=e30]:
+            - tablist [ref=e31]:
+              - tab "블로그" [ref=e32] [cursor=pointer]
+              - tab "카페" [ref=e33] [cursor=pointer]
+              - tab "이미지" [ref=e34] [cursor=pointer]
+              - tab "클립" [ref=e35] [cursor=pointer]
+              - tab "지식iN" [ref=e36] [cursor=pointer]
+              - tab "인플루언서" [ref=e37] [cursor=pointer]
+              - tab "동영상" [ref=e38] [cursor=pointer]
+              - tab "쇼핑" [ref=e39] [cursor=pointer]
+              - tab "뉴스" [ref=e40] [cursor=pointer]
+              - tab "숏텐츠" [ref=e41] [cursor=pointer]
+              - tab "어학사전" [ref=e42] [cursor=pointer]
+              - tab "지도" [ref=e43] [cursor=pointer]
+              - tab "도서" [ref=e44] [cursor=pointer]
+              - tab "지식백과" [ref=e45] [cursor=pointer]
+              - tab "학술정보" [ref=e46] [cursor=pointer]
+            - button "다음" [ref=e47] [cursor=pointer]:
+              - generic [ref=e49]: 다음
+          - button "더보기" [ref=e51] [cursor=pointer]:
+            - generic [ref=e52]: 더보기
+        - list [ref=e54]:
+          - listitem [ref=e55]:
+            - button "공유" [ref=e56] [cursor=pointer]
+    - main [ref=e57]:
+      - generic [ref=e58]:
+        - heading "워뇨띠 타임프레임 6개 매매법 검색 결과" [level=1] [ref=e59]
+        - generic [ref=e60]:
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - generic [ref=e74]:
+                - generic [ref=e75]:
+                  - img [ref=e77]
+                  - heading "AI 브리핑" [level=2] [ref=e80]
+                - generic [ref=e81]: 실험 단계로 정확하지 않을 수 있어요.
+              - button [ref=e82] [cursor=pointer]:
+                - img [ref=e83]
+            - button "Feedback 박스 열기" [ref=e89] [cursor=pointer]:
+              - img [ref=e90]
+          - generic [ref=e129]:
+            - generic [ref=e135]:
+              - generic [ref=e136]:
+                - link "코인피클 www.coinpickle.net›community" [ref=e137] [cursor=pointer]:
+                  - /url: https://www.coinpickle.net/en/community/ko/post/67f87a8470003a7d7360a6b7
+                  - generic [ref=e139]:
+                    - generic [ref=e144]: 코인피클
+                    - generic [ref=e148]: www.coinpickle.net›community
+                - button "옵션 메뉴 열기" [ref=e150] [cursor=pointer]:
+                  - img [ref=e151]
+              - generic [ref=e155]:
+                - link "워뇨띠 매매 정리법 - Community Post" [ref=e157] [cursor=pointer]:
+                  - /url: https://www.coinpickle.net/en/community/ko/post/67f87a8470003a7d7360a6b7
+                  - generic [ref=e158]:
+                    - mark [ref=e159]: 워뇨띠
+                    - mark [ref=e160]: 매매
+                    - text: 정리법 - Community Post
+                - generic [ref=e161]:
+                  - link "2025.04.11.Comments2" [ref=e162] [cursor=pointer]:
+                    - /url: https://www.coinpickle.net/en/community/ko/post/67f87a8470003a7d7360a6b7
+                    - generic [ref=e163]:
+                      - generic [ref=e164]: 2025.04.11.
+                      - text: Comments2
+                  - link "힙멍 · 힙멍 · 2025.04.11 · 저배 비트 위주로 하라는거네 · 0 · Comments · Report GO!chu성훈 · GO!chu성훈 · 2025.04.11 · 멋있는듯 · 0 · Comments · Report" [ref=e165] [cursor=pointer]:
+                    - /url: https://www.coinpickle.net/en/community/ko/post/67f87a8470003a7d7360a6b7
+                    - generic [ref=e166]:
+                      - generic [ref=e171]: 힙멍 · 힙멍 · 2025.04.11 · 저배 비트 위주로 하라는거네 · 0 · Comments · Report
+                      - generic [ref=e176]: GO!chu성훈 · GO!chu성훈 · 2025.04.11 · 멋있는듯 · 0 · Comments · Report
+            - generic [ref=e182]:
+              - generic [ref=e183]:
+                - link "자수성가공부방 www.leeseungju.com›매매법" [ref=e184] [cursor=pointer]:
+                  - /url: https://www.leeseungju.com/coinlab/58?sca=%EB%A7%A4%EB%A7%A4%EB%B2%95
+                  - generic [ref=e186]:
+                    - generic [ref=e191]: 자수성가공부방
+                    - generic [ref=e195]: www.leeseungju.com›매매법
+                - button "옵션 메뉴 열기" [ref=e197] [cursor=pointer]:
+                  - img [ref=e198]
+              - generic [ref=e202]:
+                - link "<mark>워뇨띠</mark> <mark>매매</mark>원칙 및 포지션 전략을 ARABOJA의 이미지" [ref=e203] [cursor=pointer]:
+                  - /url: https://www.leeseungju.com/coinlab/58?sca=%EB%A7%A4%EB%A7%A4%EB%B2%95
+                  - img "<mark>워뇨띠</mark> <mark>매매</mark>원칙 및 포지션 전략을 ARABOJA의 이미지" [ref=e205]
+                - link "워뇨띠 매매원칙 및 포지션 전략을 ARABOJA" [ref=e208] [cursor=pointer]:
+                  - /url: https://www.leeseungju.com/coinlab/58?sca=%EB%A7%A4%EB%A7%A4%EB%B2%95
+                  - generic [ref=e209]:
+                    - mark [ref=e210]: 워뇨띠
+                    - mark [ref=e211]: 매매
+                    - text: 원칙 및 포지션 전략을 ARABOJA
+                - 'link "워뇨띠 매매원칙 및 포지션 전략을 ARABOJA 워뇨띠는 대한민국에서 가장 잘 알려진 암호화폐 트레이더 중 한 명으로, 그의 매매 원칙과 포지션 전략은 많은 트레이더들에게 큰 관심을 끌고 있다. 그의 성공적인 매매 기록은 철저한 원칙과 전략에 기반한 것으로, 이 원칙들이 그의 거래 스타일을 결정짓는 핵심 요소지. 워뇨띠의 매매 원칙 리스크 관리: 워뇨띠의 매매 원칙 중 가장...." [ref=e213] [cursor=pointer]':
+                  - /url: https://www.leeseungju.com/coinlab/58?sca=%EB%A7%A4%EB%A7%A4%EB%B2%95
+                  - generic [ref=e214]:
+                    - mark [ref=e215]: 워뇨띠
+                    - mark [ref=e216]: 매매
+                    - text: 원칙 및 포지션 전략을 ARABOJA
+                    - mark [ref=e217]: 워뇨띠
+                    - text: 는 대한민국에서 가장 잘 알려진 암호화폐 트레이더 중 한 명으로, 그의
+                    - mark [ref=e218]: 매매
+                    - text: 원칙과 포지션 전략은 많은 트레이더들에게 큰 관심을 끌고 있다. 그의 성공적인
+                    - mark [ref=e219]: 매매
+                    - text: 기록은 철저한 원칙과 전략에 기반한 것으로, 이 원칙들이 그의 거래 스타일을 결정짓는 핵심 요소지.
+                    - mark [ref=e220]: 워뇨띠
+                    - text: 의
+                    - mark [ref=e221]: 매매
+                    - text: "원칙 리스크 관리:"
+                    - mark [ref=e222]: 워뇨띠
+                    - text: 의
+                    - mark [ref=e223]: 매매
+                    - text: 원칙 중 가장....
+            - generic [ref=e229]:
+              - generic [ref=e230]:
+                - link "에펨코리아 www.fmkorea.com" [ref=e231] [cursor=pointer]:
+                  - /url: https://www.fmkorea.com/7125367168
+                  - generic [ref=e233]:
+                    - generic [ref=e238]: 에펨코리아
+                    - generic [ref=e242]: www.fmkorea.com
+                - button "옵션 메뉴 열기" [ref=e244] [cursor=pointer]:
+                  - img [ref=e245]
+              - generic [ref=e249]:
+                - link "워뇨띠 매매원칙, 매매법 정리 - 가상화폐" [ref=e251] [cursor=pointer]:
+                  - /url: https://www.fmkorea.com/7125367168
+                  - generic [ref=e252]:
+                    - mark [ref=e253]: 워뇨띠
+                    - mark [ref=e254]: 매매
+                    - text: 원칙,
+                    - mark [ref=e255]: 매매법
+                    - text: 정리 - 가상화폐
+                - 'link "2024.06.10.워뇨띠 매매원칙, 매매법 정리 워뇨띠: \"일년넘게 하루 차트 10시간씩 보며 기억하고 예측하고 분석하기\" 가 제일 중요하다고 생각합니다. 과거 차트를 분석하여 진입과 익절, 손절을 결정하는 방법은 거래 전략의 핵심 중 하나입니다. 거래량과 캔들 패턴을 병행하여 시장을 분석하면 보다 정확한 판단을 내릴 수 있습니다. 특히, 짧은 기간 동안 많은 단타를 치는 전략을..." [ref=e257] [cursor=pointer]':
+                  - /url: https://www.fmkorea.com/7125367168
+                  - generic [ref=e258]:
+                    - generic [ref=e259]: 2024.06.10.
+                    - generic [ref=e260]:
+                      - mark [ref=e261]: 워뇨띠
+                      - mark [ref=e262]: 매매
+                      - text: 원칙,
+                      - mark [ref=e263]: 매매법
+                      - text: 정리
+                      - mark [ref=e264]: 워뇨띠
+                      - text: ": \"일년넘게 하루 차트 10시간씩 보며 기억하고 예측하고 분석하기\" 가 제일 중요하다고 생각합니다. 과거 차트를 분석하여 진입과 익절, 손절을 결정하는 방법은 거래 전략의 핵심 중 하나입니다. 거래량과 캔들 패턴을 병행하여 시장을 분석하면 보다 정확한 판단을 내릴 수 있습니다. 특히, 짧은 기간 동안 많은 단타를 치는 전략을..."
+            - generic [ref=e270]:
+              - generic [ref=e271]:
+                - generic [ref=e272]:
+                  - link "밍고의 셀퍼럴 세상" [ref=e274] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UCKIHbuntsXIZwLjLu0Dvz9Q
+                    - img "밍고의 셀퍼럴 세상" [ref=e277]
+                  - link "밍고의 셀퍼럴 세상" [ref=e280] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UCKIHbuntsXIZwLjLu0Dvz9Q
+                    - generic [ref=e281]: 밍고의 셀퍼럴 세상
+                  - generic [ref=e282]:
+                    - link "YouTube" [ref=e285] [cursor=pointer]:
+                      - /url: https://www.youtube.com
+                      - generic [ref=e286]: YouTube
+                    - generic [ref=e289]: 2025.08.13.
+                - button "옵션 메뉴 열기" [ref=e291] [cursor=pointer]:
+                  - img [ref=e292]
+              - generic [ref=e296]:
+                - generic [ref=e297]:
+                  - link "600만원으로 4000억 번 워뇨띠 매매법 인터뷰 및 복귀 근황" [ref=e298] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=39HW8lXSrnQ
+                    - generic [ref=e299]:
+                      - text: 600만원으로 4000억 번
+                      - mark [ref=e300]: 워뇨띠
+                      - mark [ref=e301]: 매매법
+                      - text: 인터뷰 및 복귀 근황
+                  - 'link "위너즈 #워뇨띠 #창펑자오 #이더리움 #권도형 #루나 #테라코인 #루나코인 #피터틸 #팔란티어 #페이팔 #지코 #커맨더지코 #도지코인 #일론머스크 #전인구 #슈카월드 #슈카 #다빈치제레미 #아프리카 #수트 #노래하는코트 #아프리카코인게이트 #네이버 #업비트 #두나무 #그것이알고싶다 #ezpz #리플 #크리스라슨..." [ref=e302] [cursor=pointer]':
+                    - /url: https://www.youtube.com/watch?v=39HW8lXSrnQ
+                    - generic [ref=e303]:
+                      - text: "위너즈 #"
+                      - mark [ref=e304]: 워뇨띠
+                      - text: "#창펑자오 #이더리움 #권도형 #루나 #테라코인 #루나코인 #피터틸 #팔란티어 #페이팔 #지코 #커맨더지코 #도지코인 #일론머스크 #전인구 #슈카월드 #슈카 #다빈치제레미 #아프리카 #수트 #노래하는코트 #아프리카코인게이트 #네이버 #업비트 #두나무 #그것이알고싶다 #ezpz #리플 #크리스라슨..."
+                - link "600만원으로 4000억 번 워뇨띠 매매법 인터뷰 및 복귀 근황 00:59" [ref=e306] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=39HW8lXSrnQ
+                  - img "600만원으로 4000억 번 워뇨띠 매매법 인터뷰 및 복귀 근황" [ref=e307]
+                  - generic [ref=e308]:
+                    - img [ref=e310]
+                    - generic [ref=e313]: 00:59
+            - generic [ref=e319]:
+              - generic [ref=e320]:
+                - generic [ref=e321]:
+                  - link [ref=e323] [cursor=pointer]:
+                    - /url: https://blog.naver.com/yyy1100
+                  - link "꼬리살랑 마음토닥" [ref=e328] [cursor=pointer]:
+                    - /url: https://blog.naver.com/yyy1100
+                    - generic [ref=e329]: 꼬리살랑 마음토닥
+                  - generic [ref=e332]: 2024.08.14.
+                - button "옵션 메뉴 열기" [ref=e334] [cursor=pointer]:
+                  - img [ref=e335]
+              - generic [ref=e340]:
+                - generic [ref=e341]:
+                  - link "코인계의 전설 워뇨띠, 매매법 및 포지션(+최근 근황)" [ref=e342] [cursor=pointer]:
+                    - /url: https://blog.naver.com/yyy1100/223547954270
+                    - generic [ref=e343]:
+                      - text: 코인계의 전설
+                      - mark [ref=e344]: 워뇨띠
+                      - text: ","
+                      - mark [ref=e345]: 매매법
+                      - text: 및 포지션(+최근 근황)
+                  - link "워뇨띠 매매하는 방법 코인계의 전설 물론 매매법정보를 찾으면 너무나 많은 정보가 많아 어렵습니다. 그래서 실제 댓글로 말한 부분에 동의했던 내용 몇개 정리하여 여러분께 알려드리겠습니다. 먼저 매매에 있어서 중요한 것이 무엇인지 질문에 리스크 관리 및 FOMO 참기를 말한 만큼 리스크를 잘 관리해도 FOMO 참지 못하면 깨진다고 표현했습니다 보통 투자자들이..." [ref=e347] [cursor=pointer]:
+                    - /url: https://blog.naver.com/yyy1100/223547954270
+                    - generic [ref=e348]:
+                      - mark [ref=e349]: 워뇨띠
+                      - mark [ref=e350]: 매매
+                      - text: 하는 방법 코인계의 전설 물론
+                      - mark [ref=e351]: 매매법
+                      - text: 정보를 찾으면 너무나 많은 정보가 많아 어렵습니다. 그래서 실제 댓글로 말한 부분에 동의했던 내용 몇개 정리하여 여러분께 알려드리겠습니다. 먼저
+                      - mark [ref=e352]: 매매
+                      - text: 에 있어서 중요한 것이 무엇인지 질문에 리스크 관리 및 FOMO 참기를 말한 만큼 리스크를 잘 관리해도 FOMO 참지 못하면 깨진다고 표현했습니다 보통 투자자들이...
+                - link "16" [ref=e353] [cursor=pointer]:
+                  - /url: https://blog.naver.com/yyy1100/223547954270
+                  - generic [ref=e355]:
+                    - img [ref=e356]
+                    - generic [ref=e360]: "16"
+          - generic [ref=e361]:
+            - generic [ref=e367]:
+              - generic [ref=e368]:
+                - generic [ref=e369]:
+                  - link [ref=e371] [cursor=pointer]:
+                    - /url: https://blog.naver.com/doosingod
+                  - link "두신의 NFT 블로그 (DEFI, P2E, 코인, 민팅)" [ref=e376] [cursor=pointer]:
+                    - /url: https://blog.naver.com/doosingod
+                    - generic [ref=e377]: 두신의 NFT 블로그 (DEFI, P2E, 코인, 민팅)
+                  - generic [ref=e380]: 2025.09.29.
+                - button "옵션 메뉴 열기" [ref=e382] [cursor=pointer]:
+                  - img [ref=e383]
+              - generic [ref=e388]:
+                - generic [ref=e389]:
+                  - link "워뇨띠 바이낸스 추적매매하는 방법" [ref=e390] [cursor=pointer]:
+                    - /url: https://blog.naver.com/doosingod/224026107079
+                    - generic [ref=e391]:
+                      - mark [ref=e392]: 워뇨띠
+                      - text: 바이낸스 추적
+                      - mark [ref=e393]: 매매
+                      - text: 하는 방법
+                  - link "안녕하세요 20대에 NFT로 경제적 자유를 얻고싶은 두신입니다 오늘은 시그비트에서 워뇨띠 포지션 보는 법 소개하겠습니다 시그비트란? 시그비트는 비트코인 선물... 천재트레이더입니다 워뇨띠 추적매매 하는 방법 워뇨띠 포지션 실시간 추적매매하는 방법은 https://sigbtc.pro/binance-leaderboard-ILLIT 시그비트에 접속하셔서 보면 됩니다 현재 워뇨띠는..." [ref=e395] [cursor=pointer]:
+                    - /url: https://blog.naver.com/doosingod/224026107079
+                    - generic [ref=e396]:
+                      - text: 안녕하세요 20대에 NFT로 경제적 자유를 얻고싶은 두신입니다 오늘은 시그비트에서
+                      - mark [ref=e397]: 워뇨띠
+                      - text: 포지션 보는
+                      - mark [ref=e398]: 법
+                      - text: 소개하겠습니다 시그비트란? 시그비트는 비트코인 선물... 천재트레이더입니다
+                      - mark [ref=e399]: 워뇨띠
+                      - text: 추적
+                      - mark [ref=e400]: 매매
+                      - text: 하는 방법
+                      - mark [ref=e401]: 워뇨띠
+                      - text: 포지션 실시간 추적
+                      - mark [ref=e402]: 매매
+                      - text: 하는 방법은 https://sigbtc.pro/binance-leaderboard-ILLIT 시그비트에 접속하셔서 보면 됩니다 현재
+                      - mark [ref=e403]: 워뇨띠
+                      - text: 는...
+                - generic [ref=e404]:
+                  - link [ref=e405] [cursor=pointer]:
+                    - /url: https://blog.naver.com/doosingod/224026107079
+                    - img [ref=e407]
+                  - link [ref=e409] [cursor=pointer]:
+                    - /url: https://blog.naver.com/doosingod/224026107079
+                    - img [ref=e411]
+                  - link [ref=e413] [cursor=pointer]:
+                    - /url: https://blog.naver.com/doosingod/224026107079
+                    - img [ref=e415]
+                  - link [ref=e417] [cursor=pointer]:
+                    - /url: https://blog.naver.com/doosingod/224026107079
+                    - img [ref=e419]
+                  - link [ref=e421] [cursor=pointer]:
+                    - /url: https://blog.naver.com/doosingod/224026107079
+                    - img [ref=e423]
+                  - generic [ref=e425]: "5"
+            - generic [ref=e431]:
+              - generic [ref=e432]:
+                - generic [ref=e433]:
+                  - link [ref=e435] [cursor=pointer]:
+                    - /url: https://blog.naver.com/xkaliver123
+                  - link "투자왕 뚜이" [ref=e440] [cursor=pointer]:
+                    - /url: https://blog.naver.com/xkaliver123
+                    - generic [ref=e441]: 투자왕 뚜이
+                  - generic [ref=e444]: 2025.12.03.
+                - button "옵션 메뉴 열기" [ref=e446] [cursor=pointer]:
+                  - img [ref=e447]
+              - generic [ref=e452]:
+                - generic [ref=e453]:
+                  - link "워뇨띠 포지션 실시간 보는 방법 및 워뇨띠 매매법 정리" [ref=e454] [cursor=pointer]:
+                    - /url: https://blog.naver.com/xkaliver123/224097388835
+                    - generic [ref=e455]:
+                      - mark [ref=e456]: 워뇨띠
+                      - text: 포지션 실시간 보는 방법 및
+                      - mark [ref=e457]: 워뇨띠
+                      - mark [ref=e458]: 매매법
+                      - text: 정리
+                  - link "이렇게 워뇨띠 포지션을 실시간으로 확인하는 방법과 워뇨띠가 누군지, 그리고 막간을 이용해 그의 매매법도 조금 알아봤는데요. 코인 거래는 이론적인 내용을 이해하는 것보다 잘하는 사람의 매매를 보고 배우는 것이 실력 키우는 데 훨씬 도움됩니다. 오늘 소개한 '워뇨띠 포지션' 사이트 즐찾 해두시고, 매번 분석하면서 공부해보시면 좋은 결과 있지 않을까 싶네요..." [ref=e460] [cursor=pointer]:
+                    - /url: https://blog.naver.com/xkaliver123/224097388835
+                    - generic [ref=e461]:
+                      - text: 이렇게
+                      - mark [ref=e462]: 워뇨띠
+                      - text: 포지션을 실시간으로 확인하는 방법과
+                      - mark [ref=e463]: 워뇨띠
+                      - text: 가 누군지, 그리고 막간을 이용해 그의
+                      - mark [ref=e464]: 매매법
+                      - text: 도 조금 알아봤는데요. 코인 거래는 이론적인 내용을 이해하는 것보다 잘하는 사람의
+                      - mark [ref=e465]: 매매
+                      - text: 를 보고 배우는 것이 실력 키우는 데 훨씬 도움됩니다. 오늘 소개한 '
+                      - mark [ref=e466]: 워뇨띠
+                      - text: 포지션' 사이트 즐찾 해두시고, 매번 분석하면서 공부해보시면 좋은 결과 있지 않을까 싶네요...
+                - link "24" [ref=e467] [cursor=pointer]:
+                  - /url: https://blog.naver.com/xkaliver123/224097388835
+                  - generic [ref=e469]:
+                    - img [ref=e470]
+                    - generic [ref=e474]: "24"
+            - generic [ref=e480]:
+              - generic [ref=e481]:
+                - generic [ref=e482]:
+                  - link [ref=e484] [cursor=pointer]:
+                    - /url: https://blog.naver.com/ccandlerr
+                  - link "캔들러Candler" [ref=e489] [cursor=pointer]:
+                    - /url: https://blog.naver.com/ccandlerr
+                    - generic [ref=e490]: 캔들러Candler
+                  - generic [ref=e493]: 2024.08.19.
+                - button "옵션 메뉴 열기" [ref=e495] [cursor=pointer]:
+                  - img [ref=e496]
+              - generic [ref=e501]:
+                - generic [ref=e502]:
+                  - link "워뇨띠 매매법, 3000억 비트코인 포지션 전략 공개" [ref=e503] [cursor=pointer]:
+                    - /url: https://blog.naver.com/ccandlerr/223553501477
+                    - generic [ref=e504]:
+                      - mark [ref=e505]: 워뇨띠
+                      - mark [ref=e506]: 매매법
+                      - text: ", 3000억 비트코인 포지션 전략 공개"
+                  - link "그러나 이 중심선만으로 매매 전략을 세우기에는 한계가 있습니다. 따라서 거래량과 함께 분석하여, 노이즈를 줄이고 신뢰도를 높이는 것이 워뇨띠 성공 비결 중 하나였습니다. 워뇨띠 포지션 워뇨띠 매매법 Q&A 차트분석 시 몇 분봉, 몇 시간 봉 보는지? 1분봉, 5분봉, 15분봉, 일봉 다른 사람들이 보는 타임 사이클은 다 참고함. 캔들, 거래량 말고 차트 외적인 부분도..." [ref=e508] [cursor=pointer]:
+                    - /url: https://blog.naver.com/ccandlerr/223553501477
+                    - generic [ref=e509]:
+                      - text: 그러나 이 중심선만으로
+                      - mark [ref=e510]: 매매
+                      - text: 전략을 세우기에는 한계가 있습니다. 따라서 거래량과 함께 분석하여, 노이즈를 줄이고 신뢰도를 높이는 것이
+                      - mark [ref=e511]: 워뇨띠
+                      - text: 성공 비결 중 하나였습니다.
+                      - mark [ref=e512]: 워뇨띠
+                      - text: 포지션
+                      - mark [ref=e513]: 워뇨띠
+                      - mark [ref=e514]: 매매법
+                      - text: Q&A 차트분석 시 몇 분봉, 몇 시간 봉 보는지? 1분봉, 5분봉, 15분봉, 일봉 다른 사람들이 보는
+                      - mark [ref=e515]: 타임
+                      - text: 사이클은 다 참고함. 캔들, 거래량 말고 차트 외적인 부분도...
+                - link "9" [ref=e516] [cursor=pointer]:
+                  - /url: https://blog.naver.com/ccandlerr/223553501477
+                  - generic [ref=e518]:
+                    - img [ref=e519]
+                    - generic [ref=e523]: "9"
+            - generic [ref=e529]:
+              - generic [ref=e530]:
+                - generic [ref=e531]:
+                  - link [ref=e533] [cursor=pointer]:
+                    - /url: https://blog.naver.com/mycom019
+                  - link "enough, enough now.." [ref=e538] [cursor=pointer]:
+                    - /url: https://blog.naver.com/mycom019
+                    - generic [ref=e539]: enough, enough now..
+                  - generic [ref=e542]: 2025.12.02.
+                - button "옵션 메뉴 열기" [ref=e544] [cursor=pointer]:
+                  - img [ref=e545]
+              - generic [ref=e550]:
+                - generic [ref=e551]:
+                  - link "600만 원으로 3,000억 신화, '워뇨띠'의 매매법을 훔치다? '워뇨띠포지션' 사이트 리뷰" [ref=e552] [cursor=pointer]:
+                    - /url: https://blog.naver.com/mycom019/224095743861
+                    - generic [ref=e553]:
+                      - text: 600만 원으로 3,000억 신화, '
+                      - mark [ref=e554]: 워뇨띠
+                      - text: "'의"
+                      - mark [ref=e555]: 매매법
+                      - text: 을 훔치다? '
+                      - mark [ref=e556]: 워뇨띠
+                      - text: 포지션' 사이트 리뷰
+                  - link "6) 강제청산, 비트코인 도미넌스, 금가격, 김치 프리미엄 대시보드에 위젯을 추가하여 볼 수도 있고, 왼쪽 메뉴에서 직접 링크를 눌러 볼 수 있습니다. 왼쪽 메뉴를 눌러 보는 것이 좀... 자신의 매매 원칙 붕괴 남의 포지션을 보게 되면, 자신의 분석을 의심하게 될 수 있습니다. \"내 분석은 숏인데, 워뇨띠가 롱이네? 스위칭할까?\" 이렇게 말입니다. 4. 활용 가이드..." [ref=e558] [cursor=pointer]:
+                    - /url: https://blog.naver.com/mycom019/224095743861
+                    - generic [ref=e559]:
+                      - mark [ref=e560]: "6"
+                      - text: ) 강제청산, 비트코인 도미넌스, 금가격, 김치 프리미엄 대시보드에 위젯을 추가하여 볼 수도 있고, 왼쪽 메뉴에서 직접 링크를 눌러 볼 수 있습니다. 왼쪽 메뉴를 눌러 보는 것이 좀... 자신의
+                      - mark [ref=e561]: 매매
+                      - text: 원칙 붕괴 남의 포지션을 보게 되면, 자신의 분석을 의심하게 될 수 있습니다. "내 분석은 숏인데,
+                      - mark [ref=e562]: 워뇨띠
+                      - text: 가 롱이네? 스위칭할까?" 이렇게 말입니다. 4. 활용 가이드...
+                - link "13" [ref=e563] [cursor=pointer]:
+                  - /url: https://blog.naver.com/mycom019/224095743861
+                  - generic [ref=e565]:
+                    - img [ref=e566]
+                    - generic [ref=e570]: "13"
+            - generic [ref=e576]:
+              - generic [ref=e577]:
+                - generic [ref=e578]:
+                  - link [ref=e580] [cursor=pointer]:
+                    - /url: https://blog.naver.com/hj6149
+                  - link "Money_Maverick" [ref=e585] [cursor=pointer]:
+                    - /url: https://blog.naver.com/hj6149
+                    - generic [ref=e586]: Money_Maverick
+                  - generic [ref=e589]: 2025.09.02.
+                - button "옵션 메뉴 열기" [ref=e591] [cursor=pointer]:
+                  - img [ref=e592]
+              - generic [ref=e597]:
+                - generic [ref=e598]:
+                  - link "워뇨띠 매매법 바이낸스 리더보드 보는법" [ref=e599] [cursor=pointer]:
+                    - /url: https://blog.naver.com/hj6149/223990864109
+                    - generic [ref=e600]:
+                      - mark [ref=e601]: 워뇨띠
+                      - mark [ref=e602]: 매매법
+                      - text: 바이낸스 리더보드 보는법
+                  - link "시간 프레임 역시 단일하지 않고, 월봉부터 분 단위 차트까지 모두 고려합니다. 이 과정을 통해 장기 추세와 단기 움직임을 동시에 읽어 내려는 시도라고 볼 수 있습니다. 시장에 주는 메시지 워뇨띠의 매매법은 기술적으로 복잡하지... 바이낸스 리더보드 보는 법 그러면 바이낸스 리더보드를 통해 현재 거래를 잘 하고 있는 트레이더를 파악하는 방법을..." [ref=e604] [cursor=pointer]:
+                    - /url: https://blog.naver.com/hj6149/223990864109
+                    - generic [ref=e605]:
+                      - text: 시간
+                      - mark [ref=e606]: 프레임
+                      - text: 역시 단일하지 않고, 월봉부터 분 단위 차트까지 모두 고려합니다. 이 과정을 통해 장기 추세와 단기 움직임을 동시에 읽어 내려는 시도라고 볼 수 있습니다. 시장에 주는 메시지
+                      - mark [ref=e607]: 워뇨띠
+                      - text: 의
+                      - mark [ref=e608]: 매매법
+                      - text: 은 기술적으로 복잡하지... 바이낸스 리더보드 보는
+                      - mark [ref=e609]: 법
+                      - text: 그러면 바이낸스 리더보드를 통해 현재 거래를 잘 하고 있는 트레이더를 파악하는 방법을...
+                - link "8" [ref=e610] [cursor=pointer]:
+                  - /url: https://blog.naver.com/hj6149/223990864109
+                  - generic [ref=e612]:
+                    - img [ref=e613]
+                    - generic [ref=e617]: "8"
+            - generic [ref=e623]:
+              - generic [ref=e624]:
+                - generic [ref=e625]:
+                  - link [ref=e627] [cursor=pointer]:
+                    - /url: https://blog.naver.com/jyun1533
+                  - link "✅코인하는 퉁퉁이" [ref=e632] [cursor=pointer]:
+                    - /url: https://blog.naver.com/jyun1533
+                    - generic [ref=e633]: ✅코인하는 퉁퉁이
+                  - generic [ref=e636]: 2025.09.21.
+                - button "옵션 메뉴 열기" [ref=e638] [cursor=pointer]:
+                  - img [ref=e639]
+              - generic [ref=e644]:
+                - generic [ref=e645]:
+                  - link "워뇨띠 인증, 매매법과 최신 근황, 거래소 꿀팁까지 총정리!" [ref=e646] [cursor=pointer]:
+                    - /url: https://blog.naver.com/jyun1533/224016602222
+                    - generic [ref=e647]:
+                      - mark [ref=e648]: 워뇨띠
+                      - text: 인증,
+                      - mark [ref=e649]: 매매법
+                      - text: 과 최신 근황, 거래소 꿀팁까지 총정리!
+                  - link "주소 달아둘테니, 즐찾해놓고 매매 따라하는거 추천함! 2. 워뇨띠 매매법 핵심 원칙 많은 이들이 궁금해하는 워뇨띠 매매법을 총정리해 보면, 그 핵심은 바로 기술적 분석에 집중하는... 특히 업비트 스테이킹은 코인 6개만 지원하고, 해외 거래소에 비하면 이율도 낮은 편임. 바이낸스 스테이킹 이율 사진만 봐도 국내 거래소와 얼마나 차이가 나는지 쉽게 비교 가능함..." [ref=e651] [cursor=pointer]:
+                    - /url: https://blog.naver.com/jyun1533/224016602222
+                    - generic [ref=e652]:
+                      - text: 주소 달아둘테니, 즐찾해놓고
+                      - mark [ref=e653]: 매매
+                      - text: 따라하는거 추천함! 2.
+                      - mark [ref=e654]: 워뇨띠
+                      - mark [ref=e655]: 매매법
+                      - text: 핵심 원칙 많은 이들이 궁금해하는
+                      - mark [ref=e656]: 워뇨띠
+                      - mark [ref=e657]: 매매법
+                      - text: 을 총정리해 보면, 그 핵심은 바로 기술적 분석에 집중하는... 특히 업비트 스테이킹은 코인
+                      - mark [ref=e658]: 6개
+                      - text: 만 지원하고, 해외 거래소에 비하면 이율도 낮은 편임. 바이낸스 스테이킹 이율 사진만 봐도 국내 거래소와 얼마나 차이가 나는지 쉽게 비교 가능함...
+                - link "30" [ref=e659] [cursor=pointer]:
+                  - /url: https://blog.naver.com/jyun1533/224016602222
+                  - generic [ref=e661]:
+                    - img [ref=e662]
+                    - generic [ref=e666]: "30"
+            - generic [ref=e672]:
+              - generic [ref=e673]:
+                - generic [ref=e674]:
+                  - link [ref=e676] [cursor=pointer]:
+                    - /url: https://blog.naver.com/codename1007
+                  - link "자산미학의 실전 청약 이야기" [ref=e681] [cursor=pointer]:
+                    - /url: https://blog.naver.com/codename1007
+                    - generic [ref=e682]: 자산미학의 실전 청약 이야기
+                  - generic [ref=e685]: 2025.04.12.
+                - button "옵션 메뉴 열기" [ref=e687] [cursor=pointer]:
+                  - img [ref=e688]
+              - generic [ref=e693]:
+                - generic [ref=e694]:
+                  - link "워뇨띠 매매법 핵심 투자 철학" [ref=e695] [cursor=pointer]:
+                    - /url: https://blog.naver.com/codename1007/223830491751
+                    - generic [ref=e696]:
+                      - mark [ref=e697]: 워뇨띠
+                      - mark [ref=e698]: 매매법
+                      - text: 핵심 투자 철학
+                  - link "꾸준한 차트 분석과 투자 경험으로 나만의 매매기법을 만들어 가는 게 무엇보다도 중요하다고 생각합니다 워뇨띠 매매기법은 매우 단순해 보이지만 행동하기란 매우 힘든 투자... 그만큼 입출금 처리 속도가 빠르며, 적재적소에 맞게 투자하실 수 있습니다 참고로 요즘 암호화폐 중에서도 가장 핫한 파이코인은 전 세계 13개 거래소에서만 상장되어 6개의 기준 화폐로..." [ref=e700] [cursor=pointer]:
+                    - /url: https://blog.naver.com/codename1007/223830491751
+                    - generic [ref=e701]:
+                      - text: 꾸준한 차트 분석과 투자 경험으로 나만의
+                      - mark [ref=e702]: 매매
+                      - text: 기법을 만들어 가는 게 무엇보다도 중요하다고 생각합니다
+                      - mark [ref=e703]: 워뇨띠
+                      - mark [ref=e704]: 매매
+                      - text: 기법은 매우 단순해 보이지만 행동하기란 매우 힘든 투자... 그만큼 입출금 처리 속도가 빠르며, 적재적소에 맞게 투자하실 수 있습니다 참고로 요즘 암호화폐 중에서도 가장 핫한 파이코인은 전 세계 13개 거래소에서만 상장되어
+                      - mark [ref=e705]: 6개
+                      - text: 의 기준 화폐로...
+                - link "10" [ref=e706] [cursor=pointer]:
+                  - /url: https://blog.naver.com/codename1007/223830491751
+                  - generic [ref=e708]:
+                    - img [ref=e709]
+                    - generic [ref=e713]: "10"
+            - generic [ref=e719]:
+              - generic [ref=e720]:
+                - link "디시인사이드 갤러리 gall.dcinside.com›mgallery›chartanalysis" [ref=e721] [cursor=pointer]:
+                  - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=1544187
+                  - generic [ref=e723]:
+                    - generic [ref=e728]: 디시인사이드 갤러리
+                    - generic [ref=e732]: gall.dcinside.com›mgallery›chartanalysis
+                - button "옵션 메뉴 열기" [ref=e734] [cursor=pointer]:
+                  - img [ref=e735]
+              - generic [ref=e739]:
+                - link "개인적으로 워뇨띠 매매방법보다 - 차트 마이너 갤러리" [ref=e741] [cursor=pointer]:
+                  - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=1544187
+                  - generic [ref=e742]:
+                    - text: 개인적으로
+                    - mark [ref=e743]: 워뇨띠
+                    - mark [ref=e744]: 매매
+                    - text: 방법보다 - 차트 마이너 갤러리
+                - link "2022.05.09.플라이트 매매법이 나한텐 더 잘맞는듯난 더 저배, 더 소액, 더 긴 타임프레임으로 하지만..암튼 뭔가 매매하다가 잘 안풀려서 플라이트 매매원칙 들어가보면거기 해결책 다 있더라" [ref=e746] [cursor=pointer]:
+                  - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=1544187
+                  - generic [ref=e747]:
+                    - generic [ref=e748]: 2022.05.09.
+                    - generic [ref=e749]:
+                      - text: 플라이트
+                      - mark [ref=e750]: 매매법
+                      - text: 이 나한텐 더 잘맞는듯난 더 저배, 더 소액, 더 긴
+                      - mark [ref=e751]: 타임프레임
+                      - text: 으로 하지만..암튼 뭔가
+                      - mark [ref=e752]: 매매
+                      - text: 하다가 잘 안풀려서 플라이트
+                      - mark [ref=e753]: 매매
+                      - text: 원칙 들어가보면거기 해결책 다 있더라
+            - generic [ref=e758]:
+              - generic [ref=e759]:
+                - generic [ref=e760]:
+                  - link "CoinNess coinness.com›community" [ref=e761] [cursor=pointer]:
+                    - /url: https://coinness.com/community/lounge/1111778
+                    - generic [ref=e763]:
+                      - generic [ref=e768]: CoinNess
+                      - generic [ref=e772]: coinness.com›community
+                  - button "옵션 메뉴 열기" [ref=e774] [cursor=pointer]:
+                    - img [ref=e775]
+                - generic [ref=e779]:
+                  - link "워뇨띠 100문 100답 다시보자" [ref=e781] [cursor=pointer]:
+                    - /url: https://coinness.com/community/lounge/1111778
+                    - generic [ref=e782]:
+                      - mark [ref=e783]: 워뇨띠
+                      - text: 100문 100답 다시보자
+                  - link "2025.12.18.시드 우상향에 있어서 매매법도 중요하지만 매매법 보다 더 중요한 것이 리스크 관리라고 생각하는데 어떻게... 소액으로 매매하더라도 오래 살아남으면서 직접 산전수전 겪어보는 것이 중요하다고 생각합니다 Q26. 처음에 10만 원만 하루에 벌어도 만족할 때도 있었을 텐데 통이 커지는 법 A. 대부분의 경우 통이 작은 이유는 본인의 실력에 자신이 없는..." [ref=e785] [cursor=pointer]:
+                    - /url: https://coinness.com/community/lounge/1111778
+                    - generic [ref=e786]:
+                      - generic [ref=e787]: 2025.12.18.
+                      - generic [ref=e788]:
+                        - text: 시드 우상향에 있어서
+                        - mark [ref=e789]: 매매법
+                        - text: 도 중요하지만
+                        - mark [ref=e790]: 매매법
+                        - text: 보다 더 중요한 것이 리스크 관리라고 생각하는데 어떻게... 소액으로
+                        - mark [ref=e791]: 매매
+                        - text: 하더라도 오래 살아남으면서 직접 산전수전 겪어보는 것이 중요하다고 생각합니다 Q26. 처음에 10만 원만 하루에 벌어도 만족할 때도 있었을 텐데 통이 커지는
+                        - mark [ref=e792]: 법
+                        - text: A. 대부분의 경우 통이 작은 이유는 본인의 실력에 자신이 없는...
+              - generic [ref=e793]:
+                - generic [ref=e795]:
+                  - link "전설의 트레이더 워뇨띠 100문 100답" [ref=e796] [cursor=pointer]:
+                    - /url: https://coinness.com/community/lounge/229103
+                    - generic [ref=e797]:
+                      - text: 전설의 트레이더
+                      - mark [ref=e798]: 워뇨띠
+                      - text: 100문 100답
+                  - generic [ref=e800]:
+                    - text: 시드 우상향에 있어서
+                    - mark [ref=e801]: 매매법
+                    - text: 도 중요하지만
+                    - mark [ref=e802]: 매매법
+                    - text: 보다 더 중요한 것이 리스크 관리라고 생각하는데 어떻게... 소액으로
+                    - mark [ref=e803]: 매매
+                    - text: 하더라도 오래 살아남으면서 직접 산전수전 겪어보는 것이 중요하다고 생각합니다 Q26. 처음에 10만 원만 하루에 벌어도 만족할 때도 있었을 텐데 통이 커지는
+                    - mark [ref=e804]: 법
+                    - text: A. 대부분의 경우 통이 작은 이유는 본인의 실력에 자신이 없는...
+                - link "관련문서 더보기" [ref=e806] [cursor=pointer]:
+                  - /url: "?page=2&query=%EC%9B%8C%EB%87%A8%EB%9D%A0+%ED%83%80%EC%9E%84%ED%94%84%EB%A0%88%EC%9E%84+6%EA%B0%9C+%EB%A7%A4%EB%A7%A4%EB%B2%95+site%3Acoinness.com&qvt=0&ssc=tab.ur.all"
+                  - generic [ref=e807]: 관련문서 더보기
+                  - img [ref=e808]
+            - generic [ref=e815]:
+              - generic [ref=e816]:
+                - generic [ref=e817]:
+                  - link [ref=e819] [cursor=pointer]:
+                    - /url: https://blog.naver.com/bloglkk
+                  - link "KK 의 세상공부" [ref=e824] [cursor=pointer]:
+                    - /url: https://blog.naver.com/bloglkk
+                    - generic [ref=e825]: KK 의 세상공부
+                  - generic [ref=e828]: 2025.12.07.
+                - button "옵션 메뉴 열기" [ref=e830] [cursor=pointer]:
+                  - img [ref=e831]
+              - generic [ref=e836]:
+                - generic [ref=e837]:
+                  - link "워뇨띠 매매법 근황, 600만원으로 3000억? 비트코인 전설의 Q&A 요약 (ft. 리스크 관리)" [ref=e838] [cursor=pointer]:
+                    - /url: https://blog.naver.com/bloglkk/224101033197
+                    - generic [ref=e839]:
+                      - mark [ref=e840]: 워뇨띠
+                      - mark [ref=e841]: 매매법
+                      - text: 근황, 600만원으로 3000억? 비트코인 전설의 Q&A 요약 (ft. 리스크 관리)
+                  - link "그래서 오늘은 단순히 \"이 사람이 돈을 많이 벌었다\"가 아니라, 그가 직접 밝힌 '실전 매매법'과 '최근 근황'까지 싹 정리해서 제 스터디 노트에 담아보려 합니다. 지금 매매가 잘 안 풀려서 답답하신가요? 오늘 내용 끝까지 보시면, 적어도 멘탈 관리와 방향성 하나는 확실히 잡히실 겁니다. 1. 워뇨띠, 그는 누구인가? (feat. 살아있는 전설) 코인 판에는 수많은 고수가..." [ref=e843] [cursor=pointer]:
+                    - /url: https://blog.naver.com/bloglkk/224101033197
+                    - generic [ref=e844]:
+                      - text: 그래서 오늘은 단순히 "이 사람이 돈을 많이 벌었다"가 아니라, 그가 직접 밝힌 '실전
+                      - mark [ref=e845]: 매매법
+                      - text: "'과 '최근 근황'까지 싹 정리해서 제 스터디 노트에 담아보려 합니다. 지금"
+                      - mark [ref=e846]: 매매
+                      - text: 가 잘 안 풀려서 답답하신가요? 오늘 내용 끝까지 보시면, 적어도 멘탈 관리와 방향성 하나는 확실히 잡히실 겁니다. 1.
+                      - mark [ref=e847]: 워뇨띠
+                      - text: ", 그는 누구인가? (feat. 살아있는 전설) 코인 판에는 수많은 고수가..."
+                - link [ref=e848] [cursor=pointer]:
+                  - /url: https://blog.naver.com/bloglkk/224101033197
+                  - img [ref=e851]
+            - generic [ref=e858]:
+              - generic [ref=e859]:
+                - generic [ref=e860]:
+                  - link [ref=e862] [cursor=pointer]:
+                    - /url: https://blog.naver.com/mcgacrypto
+                  - 'link "MakeChosunGreatAgain :: MAGA" [ref=e867] [cursor=pointer]':
+                    - /url: https://blog.naver.com/mcgacrypto
+                    - generic [ref=e868]: "MakeChosunGreatAgain :: MAGA"
+                  - generic [ref=e871]: 2025.05.06.
+                - button "옵션 메뉴 열기" [ref=e873] [cursor=pointer]:
+                  - img [ref=e874]
+              - generic [ref=e879]:
+                - generic [ref=e880]:
+                  - link "워뇨띠 매매법 전략 분석, 워뇨띠를 아시나요?" [ref=e881] [cursor=pointer]:
+                    - /url: https://blog.naver.com/mcgacrypto/223856728131
+                    - generic [ref=e882]:
+                      - mark [ref=e883]: 워뇨띠
+                      - mark [ref=e884]: 매매법
+                      - text: 전략 분석,
+                      - mark [ref=e885]: 워뇨띠
+                      - text: 를 아시나요?
+                  - link "그런데도 감정 없이 계속 차트를 보고, 기준대로 매매해서 살아남았다. 이게 진짜 실력이다. 정리하자면, 워뇨띠 매매법의 핵심을 정리하면 쓸데없는 지표 다 버리고, 차트 자체를 본다 고점·저점, 매물대 중심으로 '어디서 사서 어디서 팔지' 정한다 레버리지를 손절 도구로 사용하고, 절대 자산을 몰빵하지 않는다 큰 손실이 와도 무너지지 않고 회복할 수 있는 심리..." [ref=e887] [cursor=pointer]:
+                    - /url: https://blog.naver.com/mcgacrypto/223856728131
+                    - generic [ref=e888]:
+                      - text: 그런데도 감정 없이 계속 차트를 보고, 기준대로
+                      - mark [ref=e889]: 매매
+                      - text: 해서 살아남았다. 이게 진짜 실력이다. 정리하자면,
+                      - mark [ref=e890]: 워뇨띠
+                      - mark [ref=e891]: 매매법
+                      - text: 의 핵심을 정리하면 쓸데없는 지표 다 버리고, 차트 자체를 본다 고점·저점, 매물대 중심으로 '어디서 사서 어디서 팔지' 정한다 레버리지를 손절 도구로 사용하고, 절대 자산을 몰빵하지 않는다 큰 손실이 와도 무너지지 않고 회복할 수 있는 심리...
+                - link "10" [ref=e892] [cursor=pointer]:
+                  - /url: https://blog.naver.com/mcgacrypto/223856728131
+                  - generic [ref=e894]:
+                    - img [ref=e895]
+                    - generic [ref=e899]: "10"
+            - generic [ref=e905]:
+              - generic [ref=e906]:
+                - generic [ref=e907]:
+                  - link [ref=e909] [cursor=pointer]:
+                    - /url: https://blog.naver.com/jwapacrypto
+                    - img [ref=e913]
+                  - link "좌크의 코인 생각" [ref=e917] [cursor=pointer]:
+                    - /url: https://blog.naver.com/jwapacrypto
+                    - generic [ref=e918]: 좌크의 코인 생각
+                  - generic [ref=e921]: 2025.07.16.
+                - button "옵션 메뉴 열기" [ref=e923] [cursor=pointer]:
+                  - img [ref=e924]
+              - generic [ref=e929]:
+                - generic [ref=e930]:
+                  - link "워뇨띠 비트맥스 인터뷰 요약 및 워뇨띠 매매법 등등" [ref=e931] [cursor=pointer]:
+                    - /url: https://blog.naver.com/jwapacrypto/223936210418
+                    - generic [ref=e932]:
+                      - mark [ref=e933]: 워뇨띠
+                      - text: 비트맥스 인터뷰 요약 및
+                      - mark [ref=e934]: 워뇨띠
+                      - mark [ref=e935]: 매매법
+                      - text: 등등
+                  - link "안 그래도 다들 워뇨띠 매매법이다 뭐다 해서 궁금해 죽으려고 했는데, 본인 등판이라니. 이건 못 참지.ㅎ 현재... BTC와 ETH는 10배에서 20배까지 떨어질 수 있습니다.\" 이 말 한마디에 그의 매매 철학이 다 녹아있는 것 같습니다. 항상 시장을... 특정 시간봉에 얽매이는 게 아니라, 전체적인 흐름을 읽기 위해 다양한 프레임을 활용하는 거죠. 특히 거래량을 엄청나게..." [ref=e937] [cursor=pointer]:
+                    - /url: https://blog.naver.com/jwapacrypto/223936210418
+                    - generic [ref=e938]:
+                      - text: 안 그래도 다들
+                      - mark [ref=e939]: 워뇨띠
+                      - mark [ref=e940]: 매매법
+                      - text: 이다 뭐다 해서 궁금해 죽으려고 했는데, 본인 등판이라니. 이건 못 참지.ㅎ 현재... BTC와 ETH는 10배에서 20배까지 떨어질 수 있습니다." 이 말 한마디에 그의
+                      - mark [ref=e941]: 매매
+                      - text: 철학이 다 녹아있는 것 같습니다. 항상 시장을... 특정 시간봉에 얽매이는 게 아니라, 전체적인 흐름을 읽기 위해 다양한
+                      - mark [ref=e942]: 프레임
+                      - text: 을 활용하는 거죠. 특히 거래량을 엄청나게...
+                - link "9" [ref=e943] [cursor=pointer]:
+                  - /url: https://blog.naver.com/jwapacrypto/223936210418
+                  - generic [ref=e945]:
+                    - img [ref=e946]
+                    - generic [ref=e950]: "9"
+            - generic [ref=e956]:
+              - generic [ref=e957]:
+                - generic [ref=e958]:
+                  - link [ref=e960] [cursor=pointer]:
+                    - /url: https://blog.naver.com/skflskfl337
+                  - link "경제 코알라의 좌충우돌 코인 성장기" [ref=e965] [cursor=pointer]:
+                    - /url: https://blog.naver.com/skflskfl337
+                    - generic [ref=e966]: 경제 코알라의 좌충우돌 코인 성장기
+                  - generic [ref=e969]: 2025.07.16.
+                - button "옵션 메뉴 열기" [ref=e971] [cursor=pointer]:
+                  - img [ref=e972]
+              - generic [ref=e977]:
+                - generic [ref=e978]:
+                  - link "워뇨띠 근황과 매매법, 바이낸스 리더보드 보는 법" [ref=e979] [cursor=pointer]:
+                    - /url: https://blog.naver.com/skflskfl337/223936198213
+                    - generic [ref=e980]:
+                      - mark [ref=e981]: 워뇨띠
+                      - text: 근황과
+                      - mark [ref=e982]: 매매법
+                      - text: ", 바이낸스 리더보드 보는"
+                      - mark [ref=e983]: 법
+                  - link "바이낸스 리더보드 보는 법 feat 워뇨띠포지션 이렇게 저희는 워뇨띠 근황, 매매법에 관해 어느 정도 알아볼 수 있었습니다. 그렇다면 이번에는 바이낸스 리더보드를 통해 최근에 잘... 아무래도 선물거래 특성상 레버리지가 있다 보니, 현물에 비해 잦은 매매를 하게 되는데요. 게다가 요즘 같은 불장에는 트레이딩을 더욱 많이 할 수밖에 없습니다. 그리고 이때..." [ref=e985] [cursor=pointer]:
+                    - /url: https://blog.naver.com/skflskfl337/223936198213
+                    - generic [ref=e986]:
+                      - text: 바이낸스 리더보드 보는
+                      - mark [ref=e987]: 법
+                      - text: feat
+                      - mark [ref=e988]: 워뇨띠
+                      - text: 포지션 이렇게 저희는
+                      - mark [ref=e989]: 워뇨띠
+                      - text: 근황,
+                      - mark [ref=e990]: 매매법
+                      - text: 에 관해 어느 정도 알아볼 수 있었습니다. 그렇다면 이번에는 바이낸스 리더보드를 통해 최근에 잘... 아무래도 선물거래 특성상 레버리지가 있다 보니, 현물에 비해 잦은
+                      - mark [ref=e991]: 매매
+                      - text: 를 하게 되는데요. 게다가 요즘 같은 불장에는 트레이딩을 더욱 많이 할 수밖에 없습니다. 그리고 이때...
+                - link "19" [ref=e992] [cursor=pointer]:
+                  - /url: https://blog.naver.com/skflskfl337/223936198213
+                  - generic [ref=e994]:
+                    - img [ref=e995]
+                    - generic [ref=e999]: "19"
+            - generic [ref=e1005]:
+              - generic [ref=e1006]:
+                - generic [ref=e1007]:
+                  - link [ref=e1009] [cursor=pointer]:
+                    - /url: https://blog.naver.com/wwrnomalman
+                  - link "전평범의 스마트한 투자 생활" [ref=e1014] [cursor=pointer]:
+                    - /url: https://blog.naver.com/wwrnomalman
+                    - generic [ref=e1015]: 전평범의 스마트한 투자 생활
+                  - generic [ref=e1018]: 2024.09.02.
+                - button "옵션 메뉴 열기" [ref=e1020] [cursor=pointer]:
+                  - img [ref=e1021]
+              - generic [ref=e1026]:
+                - generic [ref=e1027]:
+                  - link "워뇨띠 매매법 및 근황, Q&A 모음집 공유!" [ref=e1028] [cursor=pointer]:
+                    - /url: https://blog.naver.com/wwrnomalman/223570009234
+                    - generic [ref=e1029]:
+                      - mark [ref=e1030]: 워뇨띠
+                      - mark [ref=e1031]: 매매법
+                      - text: 및 근황, Q&A 모음집 공유!
+                  - link "그는 걸그룹 팬이기도 하지만, 그보다 더 유명한 것은 바로 그의 뛰어난 코인 매매 실력입니다. 위에 업비트 시드만 봐도 현물 1천억원, 비트코인 2,000개 보유, 수익률 약 9%가 88억... 할인 $6,200 증정금 이미지 클릭 시 공식 가입 페이지로 연결됩니다! 이렇게 워뇨띠의 근황과 매매법, 그리고 Q&A 자료를 공유해 드렸습니다. 암호화폐 코인 시장에서 수수료는 상당히..." [ref=e1033] [cursor=pointer]:
+                    - /url: https://blog.naver.com/wwrnomalman/223570009234
+                    - generic [ref=e1034]:
+                      - text: 그는 걸그룹 팬이기도 하지만, 그보다 더 유명한 것은 바로 그의 뛰어난 코인
+                      - mark [ref=e1035]: 매매
+                      - text: 실력입니다. 위에 업비트 시드만 봐도 현물 1천억원, 비트코인 2,000개 보유, 수익률 약 9%가 88억... 할인 $
+                      - mark [ref=e1036]: "6"
+                      - text: ",200 증정금 이미지 클릭 시 공식 가입 페이지로 연결됩니다! 이렇게"
+                      - mark [ref=e1037]: 워뇨띠
+                      - text: 의 근황과
+                      - mark [ref=e1038]: 매매법
+                      - text: ", 그리고 Q&A 자료를 공유해 드렸습니다. 암호화폐 코인 시장에서 수수료는 상당히..."
+                - link "17" [ref=e1039] [cursor=pointer]:
+                  - /url: https://blog.naver.com/wwrnomalman/223570009234
+                  - generic [ref=e1041]:
+                    - img [ref=e1042]
+                    - generic [ref=e1046]: "17"
+          - generic [ref=e1049]:
+            - generic [ref=e1051]:
+              - heading "네이버플러스 스토어" [level=2] [ref=e1052]
+              - button "이 정보가 표시된 이유" [ref=e1054] [cursor=pointer]:
+                - generic [ref=e1055]: 이 정보가 표시된 이유
+                - img [ref=e1056]
+            - link "네이버플러스 멤버십 지금 시작하고 최대 5% 적립을 누려요!" [ref=e1061] [cursor=pointer]:
+              - /url: https://nid.naver.com/membership/join?dtm_source=naver_plusshoping&dtm_medium=display&dtm_campaign=point
+              - generic [ref=e1062]: 네이버플러스 멤버십 지금 시작하고 최대 5% 적립을 누려요!
+              - img [ref=e1063]
+            - list [ref=e1066]:
+              - listitem [ref=e1067]:
+                - link "[당일퀵] 푸에블로 빈티지 스트랩 18 19 20 21 22 23 24 mm 10% 할인 29,700원 배송비 무료 오늘출발 17:00까지 주문 시 4.84 (185) 프롬 더 골든 에이지" [ref=e1068] [cursor=pointer]:
+                  - /url: https://smartstore.naver.com/main/products/12937473602
+                - generic [ref=e1069]:
+                  - img "[당일퀵] 푸에블로 빈티지 스트랩 18 19 20 21 22 23 24 mm"
+                - generic [ref=e1071]:
+                  - link "[당일퀵] 푸에블로 빈티지 스트랩 18 19 20 21 22 23 24 mm" [ref=e1072] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/12937473602
+                  - generic [ref=e1075]:
+                    - generic [ref=e1076]:
+                      - generic [ref=e1077]:
+                        - text: 10%
+                        - generic [ref=e1078]: 할인
+                      - text: 29,700원
+                    - generic [ref=e1079]:
+                      - img [ref=e1080]
+                      - generic [ref=e1085]: 배송비
+                      - text: 무료
+                  - generic [ref=e1086]:
+                    - generic [ref=e1087]: 오늘출발
+                    - generic [ref=e1088]: 17:00까지 주문 시
+                  - generic [ref=e1090]:
+                    - img [ref=e1091]
+                    - generic [ref=e1094]: "4.84"
+                    - generic [ref=e1095]: (185)
+                  - link "프롬 더 골든 에이지" [ref=e1097] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Ffromthegoldenage&tr=nsls&nl-ts-pid=jmg%252FOwqVJ5RssB41PZN-302135
+                    - generic [ref=e1098]: 프롬 더 골든 에이지
+                    - img [ref=e1099]
+              - listitem [ref=e1101]:
+                - link "게탈리아 이탈리아 가죽 시계 밴드 토스카나 야채 태닝 풀 그레인 송아지 팜 스트랩, 접이식 장치가 있는 퀵 릴리스 밴드, 18mm 19mm 20mm 21mm 22mm, 남성용 소프 10% 할인 85,770원 배송비 무료 오늘출발 18:00까지 주문 시 교대율글로벌샵" [ref=e1102] [cursor=pointer]:
+                  - /url: https://smartstore.naver.com/main/products/13176286346
+                - generic [ref=e1103]:
+                  - img "게탈리아 이탈리아 가죽 시계 밴드 토스카나 야채 태닝 풀 그레인 송아지 팜 스트랩, 접이식 장치가 있는 퀵 릴리스 밴드, 18mm 19mm 20mm 21mm 22mm, 남성용 소프"
+                - generic [ref=e1105]:
+                  - link "게탈리아 이탈리아 가죽 시계 밴드 토스카나 야채 태닝 풀 그레인 송아지 팜 스트랩, 접이식 장치가 있는 퀵 릴리스 밴드, 18mm 19mm 20mm 21mm 22mm, 남성용 소프" [ref=e1106] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13176286346
+                  - generic [ref=e1109]:
+                    - generic [ref=e1110]:
+                      - generic [ref=e1111]:
+                        - text: 10%
+                        - generic [ref=e1112]: 할인
+                      - text: 85,770원
+                    - generic [ref=e1113]:
+                      - img [ref=e1114]
+                      - generic [ref=e1119]: 배송비
+                      - text: 무료
+                  - generic [ref=e1120]:
+                    - generic [ref=e1121]: 오늘출발
+                    - generic [ref=e1122]: 18:00까지 주문 시
+                  - link "교대율글로벌샵" [ref=e1124] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fyulglobalshop008&tr=nsls&nl-ts-pid=jmg%252FOwqVJ5RssB41PZN-302135
+                    - generic [ref=e1125]: 교대율글로벌샵
+                    - img [ref=e1126]
+              - listitem [ref=e1128]:
+                - link "Timelab (타임랩) 무브먼트 홀더 035 63,000원 배송비 무료 4.83 (6) 타임랩" [ref=e1129] [cursor=pointer]:
+                  - /url: https://smartstore.naver.com/main/products/4842204292
+                - generic [ref=e1130]:
+                  - img "Timelab (타임랩) 무브먼트 홀더 035"
+                - generic [ref=e1132]:
+                  - link "Timelab (타임랩) 무브먼트 홀더 035" [ref=e1133] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/4842204292
+                  - generic [ref=e1136]:
+                    - generic [ref=e1137]: 63,000원
+                    - generic [ref=e1138]:
+                      - img [ref=e1139]
+                      - generic [ref=e1144]: 배송비
+                      - text: 무료
+                  - generic [ref=e1146]:
+                    - img [ref=e1147]
+                    - generic [ref=e1150]: "4.83"
+                    - generic [ref=e1151]: (6)
+                  - link "타임랩" [ref=e1153] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Ftimelab&tr=nsls&nl-ts-pid=jmg%252FOwqVJ5RssB41PZN-302135
+                    - generic [ref=e1154]: 타임랩
+                    - img [ref=e1155]
+              - listitem [ref=e1157]:
+                - link "[BONETTO] 285 오렌지/보네또 이태리 정품 시계줄/Made in ITALY/올워치 밴드/무료배송/사은품 스프링바+스프링바 툴 10% 할인 38,700원 배송비 무료 4.0 (12) 올워치" [ref=e1158] [cursor=pointer]:
+                  - /url: https://smartstore.naver.com/main/products/129001306
+                - generic [ref=e1159]:
+                  - img "[BONETTO] 285 오렌지/보네또 이태리 정품 시계줄/Made in ITALY/올워치 밴드/무료배송/사은품 스프링바+스프링바 툴"
+                - generic [ref=e1161]:
+                  - link "[BONETTO] 285 오렌지/보네또 이태리 정품 시계줄/Made in ITALY/올워치 밴드/무료배송/사은품 스프링바+스프링바 툴" [ref=e1162] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/129001306
+                  - generic [ref=e1165]:
+                    - generic [ref=e1166]:
+                      - generic [ref=e1167]:
+                        - text: 10%
+                        - generic [ref=e1168]: 할인
+                      - text: 38,700원
+                    - generic [ref=e1169]:
+                      - img [ref=e1170]
+                      - generic [ref=e1175]: 배송비
+                      - text: 무료
+                  - generic [ref=e1177]:
+                    - img [ref=e1178]
+                    - generic [ref=e1181]: "4.0"
+                    - generic [ref=e1182]: (12)
+                  - link "올워치" [ref=e1184] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2F24&tr=nsls&nl-ts-pid=jmg%252FOwqVJ5RssB41PZN-302135
+                    - generic [ref=e1185]: 올워치
+                    - img [ref=e1186]
+              - listitem [ref=e1188]:
+                - link "랑에운트죄네 랑에1 퍼페츄얼 캘린더 345.033E 170,000,000원 배송비 무료 빅펀샵" [ref=e1189] [cursor=pointer]:
+                  - /url: https://smartstore.naver.com/main/products/13000773648
+                - generic [ref=e1190]:
+                  - img "랑에운트죄네 랑에1 퍼페츄얼 캘린더 345.033E"
+                - generic [ref=e1192]:
+                  - link "랑에운트죄네 랑에1 퍼페츄얼 캘린더 345.033E" [ref=e1193] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/13000773648
+                  - generic [ref=e1196]:
+                    - generic [ref=e1197]: 170,000,000원
+                    - generic [ref=e1198]:
+                      - img [ref=e1199]
+                      - generic [ref=e1204]: 배송비
+                      - text: 무료
+                  - link "빅펀샵" [ref=e1206] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fbpop&tr=nsls&nl-ts-pid=jmg%252FOwqVJ5RssB41PZN-302135
+                    - generic [ref=e1207]: 빅펀샵
+                    - img [ref=e1208]
+              - listitem [ref=e1210]:
+                - link "Tissot Couturier T035 1853 T035407 T035439 T035614 용 스테인레스 스틸 시계 호환용 밴드 재완성 22mm 65,600원 배송비 무료 오늘출발 17:00까지 주문 시 5.0 (1) local92" [ref=e1211] [cursor=pointer]:
+                  - /url: https://smartstore.naver.com/main/products/7838515111
+                - generic [ref=e1212]:
+                  - img "Tissot Couturier T035 1853 T035407 T035439 T035614 용 스테인레스 스틸 시계 호환용 밴드 재완성 22mm"
+                - generic [ref=e1214]:
+                  - link "Tissot Couturier T035 1853 T035407 T035439 T035614 용 스테인레스 스틸 시계 호환용 밴드 재완성 22mm" [ref=e1215] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/7838515111
+                  - generic [ref=e1218]:
+                    - generic [ref=e1219]: 65,600원
+                    - generic [ref=e1220]:
+                      - img [ref=e1221]
+                      - generic [ref=e1226]: 배송비
+                      - text: 무료
+                  - generic [ref=e1227]:
+                    - generic [ref=e1228]: 오늘출발
+                    - generic [ref=e1229]: 17:00까지 주문 시
+                  - generic [ref=e1231]:
+                    - img [ref=e1232]
+                    - generic [ref=e1235]: "5.0"
+                    - generic [ref=e1236]: (1)
+                  - link "local92" [ref=e1238] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Flocal92&tr=nsls&nl-ts-pid=jmg%252FOwqVJ5RssB41PZN-302135
+                    - generic [ref=e1239]: local92
+                    - img [ref=e1240]
+              - listitem [ref=e1242]:
+                - link "랑에운트죄네 랑에1 타임존 38,000,000원 배송비 무료 빅펀샵" [ref=e1243] [cursor=pointer]:
+                  - /url: https://smartstore.naver.com/main/products/5887175497
+                - generic [ref=e1244]:
+                  - img "랑에운트죄네 랑에1 타임존"
+                - generic [ref=e1246]:
+                  - link "랑에운트죄네 랑에1 타임존" [ref=e1247] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/5887175497
+                  - generic [ref=e1250]:
+                    - generic [ref=e1251]: 38,000,000원
+                    - generic [ref=e1252]:
+                      - img [ref=e1253]
+                      - generic [ref=e1258]: 배송비
+                      - text: 무료
+                  - link "빅펀샵" [ref=e1260] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fbpop&tr=nsls&nl-ts-pid=jmg%252FOwqVJ5RssB41PZN-302135
+                    - generic [ref=e1261]: 빅펀샵
+                    - img [ref=e1262]
+              - listitem [ref=e1264]:
+                - link "발렌티노 루디 빈티지 레트로 아날로그 월드타임 가죽시계 2종 36% 할인 69,900원 배송비 무료 오늘출발 14:00까지 주문 시 5.0 (2) HighEnd" [ref=e1265] [cursor=pointer]:
+                  - /url: https://smartstore.naver.com/main/products/9394650357
+                - generic [ref=e1266]:
+                  - img "발렌티노 루디 빈티지 레트로 아날로그 월드타임 가죽시계 2종"
+                - generic [ref=e1268]:
+                  - link "발렌티노 루디 빈티지 레트로 아날로그 월드타임 가죽시계 2종" [ref=e1269] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/main/products/9394650357
+                  - generic [ref=e1272]:
+                    - generic [ref=e1273]:
+                      - generic [ref=e1274]:
+                        - text: 36%
+                        - generic [ref=e1275]: 할인
+                      - text: 69,900원
+                    - generic [ref=e1276]:
+                      - img [ref=e1277]
+                      - generic [ref=e1282]: 배송비
+                      - text: 무료
+                  - generic [ref=e1283]:
+                    - generic [ref=e1284]: 오늘출발
+                    - generic [ref=e1285]: 14:00까지 주문 시
+                  - generic [ref=e1287]:
+                    - img [ref=e1288]
+                    - generic [ref=e1291]: "5.0"
+                    - generic [ref=e1292]: (2)
+                  - link "HighEnd" [ref=e1294] [cursor=pointer]:
+                    - /url: https://smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fsmartstore.naver.com%2Fhighendshop&tr=nsls&nl-ts-pid=jmg%252FOwqVJ5RssB41PZN-302135
+                    - generic [ref=e1295]: HighEnd
+                    - img [ref=e1296]
+            - generic [ref=e1298]:
+              - text: 네이버는 상품 판매의 당사자가 아닙니다.
+              - link "법적고지 및 안내" [ref=e1299] [cursor=pointer]:
+                - /url: https://shopping.naver.com/help/legal-basis
+            - link "네이버플러스 스토어 더보기" [ref=e1301] [cursor=pointer]:
+              - /url: https://search.shopping.naver.com/ns/search?query=%EC%9B%8C%EB%87%A8%EB%9D%A0%20%ED%83%80%EC%9E%84%ED%94%84%EB%A0%88%EC%9E%84%206%EA%B0%9C%20%EB%A7%A4%EB%A7%A4%EB%B2%95&nl-ts-pid=jmg%2FOwqVJ5RssB41PZN-302135
+              - text: 네이버플러스 스토어 더보기
+              - img [ref=e1302]
+          - generic [ref=e1306]:
+            - button "이전" [disabled] [ref=e1307]:
+              - generic [ref=e1308]: 이전
+            - generic [ref=e1309]:
+              - button "1" [pressed] [ref=e1310] [cursor=pointer]
+              - button "2" [ref=e1311] [cursor=pointer]
+              - button "3" [ref=e1312] [cursor=pointer]
+              - button "4" [ref=e1313] [cursor=pointer]
+              - button "5" [ref=e1314] [cursor=pointer]
+              - button "6" [ref=e1315] [cursor=pointer]
+            - button "다음" [ref=e1316] [cursor=pointer]:
+              - generic [ref=e1317]: 다음
+        - generic [ref=e1321]:
+          - link "좋아하는 건 누구나 남기고 싶으니까 클립 올리면 매주 쌓이는 Npay 포인트" [ref=e1322] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2603-naverclip-001&target=https%3A%2F%2Fclipcreators.naver.com%2Fpromotion%2Ftoday%3Fdtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2603-naverclip-001
+            - generic [ref=e1324]:
+              - strong [ref=e1325]: 좋아하는 건 누구나 남기고 싶으니까
+              - paragraph [ref=e1326]: 클립 올리면 매주 쌓이는 Npay 포인트
+          - link "모두가 찜하고 싶은 스토어의 발견" [ref=e1327] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2512-shopping-024&material=J&target=https%3A%2F%2Fmkt.naver.com%2Fstore_discovery%3Fdtm_detail%3DJ%26dtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2512-shopping-024
+            - generic [ref=e1329]:
+              - strong [ref=e1330]: 모두가 찜하고 싶은
+              - paragraph [ref=e1331]: 스토어의 발견
+          - link "컬리N마트 5O% 첫 구매 혜택 반값 쿠폰 받고 최대 2만원 적립까지" [ref=e1332] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2604-shopping-033&target=https%3A%2F%2Fshopping.naver.com%2Ffesta%2Fonsale%2Ffood%2F69e0ad173cda702a9b5553dc%3Fdtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2604-shopping-033
+            - generic [ref=e1334]:
+              - strong [ref=e1335]: 컬리N마트 5O% 첫 구매 혜택
+              - paragraph [ref=e1336]: 반값 쿠폰 받고 최대 2만원 적립까지
+          - link "네이버가 더 편해지는 순간 웨일 브라우저 알아보기" [ref=e1337] [cursor=pointer]:
+            - /url: https://naver.me/FWTmTscE
+            - generic [ref=e1339]:
+              - strong [ref=e1340]: 네이버가 더 편해지는 순간
+              - paragraph [ref=e1341]: 웨일 브라우저 알아보기
+    - generic [ref=e1342]:
+      - link "맨위로" [ref=e1344] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e1345]: 맨위로
+      - generic [ref=e1347]:
+        - link "전체서비스" [ref=e1349] [cursor=pointer]:
+          - /url: https://www.naver.com/more.html
+        - link "이용약관" [ref=e1351] [cursor=pointer]:
+          - /url: https://policy.naver.com/policy/service.html
+        - link "개인정보처리방침" [ref=e1353] [cursor=pointer]:
+          - /url: https://policy.naver.com/policy/privacy.html
+          - strong [ref=e1354]: 개인정보처리방침
+        - link "검색 고객센터" [ref=e1356] [cursor=pointer]:
+          - /url: https://help.naver.com/alias/search/integration/main.naver
+        - link "© NAVER Corp." [ref=e1358] [cursor=pointer]:
+          - /url: https://www.navercorp.com/

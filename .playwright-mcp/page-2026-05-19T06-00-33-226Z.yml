@@ -1,0 +1,954 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#advanced-post-installation-tasks"
+  - banner [ref=e3]:
+    - navigation "Header" [ref=e4]:
+      - link "Freqtrade" [ref=e5] [cursor=pointer]:
+        - /url: ..
+        - img "logo" [ref=e6]
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - generic [ref=e10]: Freqtrade
+          - generic [ref=e11]:
+            - button "Select version" [ref=e12] [cursor=pointer]: 2026.4stable
+            - list:
+              - listitem [ref=e13]:
+                - link "developlatest" [ref=e14] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/develop/
+              - listitem [ref=e15]:
+                - link "2026.4stable" [ref=e16] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2026.4/
+              - listitem [ref=e17]:
+                - link "2026.3" [ref=e18] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2026.3/
+              - listitem [ref=e19]:
+                - link "2026.2" [ref=e20] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2026.2/
+              - listitem [ref=e21]:
+                - link "2026.1" [ref=e22] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2026.1/
+              - listitem [ref=e23]:
+                - link "2025.12" [ref=e24] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.12/
+              - listitem [ref=e25]:
+                - link "2025.11.2" [ref=e26] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.11.2/
+              - listitem [ref=e27]:
+                - link "2025.11.1" [ref=e28] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.11.1/
+              - listitem [ref=e29]:
+                - link "2025.11" [ref=e30] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.11/
+              - listitem [ref=e31]:
+                - link "2025.10" [ref=e32] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.10/
+              - listitem [ref=e33]:
+                - link "2025.9.1" [ref=e34] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.9.1/
+              - listitem [ref=e35]:
+                - link "2025.9" [ref=e36] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.9/
+              - listitem [ref=e37]:
+                - link "2025.8" [ref=e38] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.8/
+              - listitem [ref=e39]:
+                - link "2025.7" [ref=e40] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.7/
+              - listitem [ref=e41]:
+                - link "2025.6" [ref=e42] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.6/
+              - listitem [ref=e43]:
+                - link "2025.5" [ref=e44] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.5/
+              - listitem [ref=e45]:
+                - link "2025.4" [ref=e46] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.4/
+              - listitem [ref=e47]:
+                - link "2025.3" [ref=e48] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.3/
+              - listitem [ref=e49]:
+                - link "2025.2" [ref=e50] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.2/
+              - listitem [ref=e51]:
+                - link "2025.1" [ref=e52] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.1/
+              - listitem [ref=e53]:
+                - link "2024.12.1" [ref=e54] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.12.1/
+              - listitem [ref=e55]:
+                - link "2024.12" [ref=e56] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.12/
+              - listitem [ref=e57]:
+                - link "2024.11" [ref=e58] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.11/
+              - listitem [ref=e59]:
+                - link "2024.10" [ref=e60] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.10/
+              - listitem [ref=e61]:
+                - link "2024.9" [ref=e62] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.9/
+              - listitem [ref=e63]:
+                - link "2024.8" [ref=e64] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.8/
+              - listitem [ref=e65]:
+                - link "2024.7.1" [ref=e66] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.7.1/
+              - listitem [ref=e67]:
+                - link "2024.7" [ref=e68] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.7/
+              - listitem [ref=e69]:
+                - link "2024.6" [ref=e70] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.6/
+              - listitem [ref=e71]:
+                - link "2024.5" [ref=e72] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.5/
+              - listitem [ref=e73]:
+                - link "2024.4" [ref=e74] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.4/
+              - listitem [ref=e75]:
+                - link "2024.3" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.3/
+              - listitem [ref=e77]:
+                - link "2024.2" [ref=e78] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.2/
+              - listitem [ref=e79]:
+                - link "2024.1" [ref=e80] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.1/
+              - listitem [ref=e81]:
+                - link "2023.12" [ref=e82] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.12/
+              - listitem [ref=e83]:
+                - link "2023.11" [ref=e84] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.11/
+              - listitem [ref=e85]:
+                - link "2023.10" [ref=e86] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.10/
+              - listitem [ref=e87]:
+                - link "2023.9" [ref=e88] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.9/
+              - listitem [ref=e89]:
+                - link "2023.8" [ref=e90] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.8/
+              - listitem [ref=e91]:
+                - link "2023.7" [ref=e92] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.7/
+              - listitem [ref=e93]:
+                - link "2023.6" [ref=e94] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.6/
+              - listitem [ref=e95]:
+                - link "2023.5.1" [ref=e96] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.5.1/
+              - listitem [ref=e97]:
+                - link "2023.5" [ref=e98] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.5/
+              - listitem [ref=e99]:
+                - link "2023.4" [ref=e100] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.4/
+              - listitem [ref=e101]:
+                - link "2023.3" [ref=e102] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.3/
+              - listitem [ref=e103]:
+                - link "2023.2" [ref=e104] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.2/
+              - listitem [ref=e105]:
+                - link "2023.1" [ref=e106] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.1/
+              - listitem [ref=e107]:
+                - link "2022.12" [ref=e108] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.12/
+              - listitem [ref=e109]:
+                - link "2022.11" [ref=e110] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.11/
+              - listitem [ref=e111]:
+                - link "2022.10" [ref=e112] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.10/
+              - listitem [ref=e113]:
+                - link "2022.9.1" [ref=e114] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.9.1/
+              - listitem [ref=e115]:
+                - link "2022.9" [ref=e116] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.9/
+              - listitem [ref=e117]:
+                - link "2022.8" [ref=e118] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.8/
+              - listitem [ref=e119]:
+                - link "2022.7" [ref=e120] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.7/
+              - listitem [ref=e121]:
+                - link "2022.6" [ref=e122] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.6/
+              - listitem [ref=e123]:
+                - link "2022.5.1" [ref=e124] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.5.1/
+              - listitem [ref=e125]:
+                - link "2022.5" [ref=e126] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.5/
+              - listitem [ref=e127]:
+                - link "2022.4.2" [ref=e128] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.4.2/
+              - listitem [ref=e129]:
+                - link "2022.4.1" [ref=e130] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.4.1/
+              - listitem [ref=e131]:
+                - link "2022.3" [ref=e132] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.3/
+              - listitem [ref=e133]:
+                - link "2022.2.2" [ref=e134] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.2.2/
+              - listitem [ref=e135]:
+                - link "2022.2.1" [ref=e136] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.2.1/
+              - listitem [ref=e137]:
+                - link "2022.2" [ref=e138] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.2/
+              - listitem [ref=e139]:
+                - link "2022.1" [ref=e140] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.1/
+              - listitem [ref=e141]:
+                - link "2021.12" [ref=e142] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.12/
+              - listitem [ref=e143]:
+                - link "2021.11" [ref=e144] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.11/
+              - listitem [ref=e145]:
+                - link "2021.10" [ref=e146] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.10/
+              - listitem [ref=e147]:
+                - link "2021.9" [ref=e148] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.9/
+              - listitem [ref=e149]:
+                - link "2021.8" [ref=e150] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.8/
+              - listitem [ref=e151]:
+                - link "2021.7" [ref=e152] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.7/
+              - listitem [ref=e153]:
+                - link "2021.6" [ref=e154] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.6/
+              - listitem [ref=e155]:
+                - link "2021.5" [ref=e156] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.5/
+              - listitem [ref=e157]:
+                - link "2021.4" [ref=e158] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.4/
+              - listitem [ref=e159]:
+                - link "2021.3" [ref=e160] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.3/
+              - listitem [ref=e161]:
+                - link "2021.2" [ref=e162] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.2/
+              - listitem [ref=e163]:
+                - link "2021.1" [ref=e164] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.1/
+              - listitem [ref=e165]:
+                - link "2020.12" [ref=e166] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.12/
+              - listitem [ref=e167]:
+                - link "2020.11" [ref=e168] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.11/
+              - listitem [ref=e169]:
+                - link "2020.10" [ref=e170] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.10/
+              - listitem [ref=e171]:
+                - link "2020.9.1" [ref=e172] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.9.1/
+              - listitem [ref=e173]:
+                - link "2020.9" [ref=e174] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.9/
+              - listitem [ref=e175]:
+                - link "2020.8" [ref=e176] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.8/
+              - listitem [ref=e177]:
+                - link "2020.7" [ref=e178] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.7/
+              - listitem [ref=e179]:
+                - link "2020.6" [ref=e180] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.6/
+              - listitem [ref=e181]:
+                - link "2020.5" [ref=e182] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.5/
+              - listitem [ref=e183]:
+                - link "2020.4" [ref=e184] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.4/
+              - listitem [ref=e185]:
+                - link "2020.3" [ref=e186] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.3/
+              - listitem [ref=e187]:
+                - link "2020.02" [ref=e188] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.02/
+              - listitem [ref=e189]:
+                - link "2020.01" [ref=e190] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.01/
+              - listitem [ref=e191]:
+                - link "2019.11" [ref=e192] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2019.11/
+              - listitem [ref=e193]:
+                - link "2019.10" [ref=e194] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2019.10/
+              - listitem [ref=e195]:
+                - link "2019.9" [ref=e196] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2019.9/
+              - listitem [ref=e197]:
+                - link "2019.8-1" [ref=e198] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2019.8-1/
+              - listitem [ref=e199]:
+                - link "2019.8" [ref=e200] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2019.8/
+              - listitem [ref=e201]:
+                - link "2019.7" [ref=e202] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2019.7/
+              - listitem [ref=e203]:
+                - link "2019.6" [ref=e204] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2019.6/
+        - generic:
+          - generic: Advanced Post-installation Tasks
+      - generic [ref=e205]:
+        - radio "Switch to dark mode"
+        - generic "Switch to dark mode" [ref=e206] [cursor=pointer]:
+          - img [ref=e207]
+        - radio "Switch to light mode"
+      - dialog [ref=e209]:
+        - search [ref=e210]:
+          - generic [ref=e211]:
+            - textbox "Search" [ref=e212]
+            - generic:
+              - img
+            - navigation "Search":
+              - link "Share":
+                - /url: https://www.freqtrade.io/en/stable/advanced-setup/?q=
+                - img
+              - button "Clear":
+                - img
+          - generic [ref=e214]: Initializing search
+      - link "GitHub 2026.4 50.5k 10.5k" [ref=e216] [cursor=pointer]:
+        - /url: https://github.com/freqtrade/freqtrade
+        - img [ref=e218]
+        - generic [ref=e220]:
+          - text: GitHub
+          - list [ref=e221]:
+            - listitem [ref=e222]: "2026.4"
+            - listitem [ref=e223]: 50.5k
+            - listitem [ref=e224]: 10.5k
+  - generic [ref=e225]:
+    - main [ref=e226]:
+      - generic [ref=e227]:
+        - navigation "Navigation" [ref=e231]:
+          - generic [ref=e232]: Freqtrade
+          - list [ref=e233]:
+            - listitem [ref=e234]:
+              - link "Home" [ref=e235] [cursor=pointer]:
+                - /url: ..
+                - generic [ref=e236]: Home
+            - listitem [ref=e237]:
+              - link "Quickstart with Docker" [ref=e238] [cursor=pointer]:
+                - /url: ../docker_quickstart/
+                - generic [ref=e239]: Quickstart with Docker
+            - listitem [ref=e240]:
+              - link "Installation" [ref=e241] [cursor=pointer]:
+                - /url: ../installation/
+                - generic [ref=e242]: Installation
+            - listitem [ref=e243]:
+              - link "Freqtrade Basics" [ref=e244] [cursor=pointer]:
+                - /url: ../bot-basics/
+                - generic [ref=e245]: Freqtrade Basics
+            - listitem [ref=e246]:
+              - link "Configuration" [ref=e247] [cursor=pointer]:
+                - /url: ../configuration/
+                - generic [ref=e248]: Configuration
+            - listitem [ref=e249]:
+              - link "Strategy Quickstart" [ref=e250] [cursor=pointer]:
+                - /url: ../strategy-101/
+                - generic [ref=e251]: Strategy Quickstart
+            - listitem [ref=e252]:
+              - link "Strategy Customization" [ref=e253] [cursor=pointer]:
+                - /url: ../strategy-customization/
+                - generic [ref=e254]: Strategy Customization
+            - listitem [ref=e255]:
+              - link "Strategy Callbacks" [ref=e256] [cursor=pointer]:
+                - /url: ../strategy-callbacks/
+                - generic [ref=e257]: Strategy Callbacks
+            - listitem [ref=e258]:
+              - link "Stoploss" [ref=e259] [cursor=pointer]:
+                - /url: ../stoploss/
+                - generic [ref=e260]: Stoploss
+            - listitem [ref=e261]:
+              - link "Plugins" [ref=e262] [cursor=pointer]:
+                - /url: ../plugins/
+                - generic [ref=e263]: Plugins
+            - listitem [ref=e264]:
+              - link "Start the bot" [ref=e265] [cursor=pointer]:
+                - /url: ../bot-usage/
+                - generic [ref=e266]: Start the bot
+            - listitem [ref=e267]:
+              - generic [ref=e269]: Control the bot
+            - listitem [ref=e271]:
+              - link "Data Downloading" [ref=e272] [cursor=pointer]:
+                - /url: ../data-download/
+                - generic [ref=e273]: Data Downloading
+            - listitem [ref=e274]:
+              - link "Backtesting" [ref=e275] [cursor=pointer]:
+                - /url: ../backtesting/
+                - generic [ref=e276]: Backtesting
+            - listitem [ref=e277]:
+              - link "Hyperopt" [ref=e278] [cursor=pointer]:
+                - /url: ../hyperopt/
+                - generic [ref=e279]: Hyperopt
+            - listitem [ref=e280]:
+              - generic [ref=e282]: FreqAI
+            - listitem [ref=e284]:
+              - link "Short / Leverage" [ref=e285] [cursor=pointer]:
+                - /url: ../leverage/
+                - generic [ref=e286]: Short / Leverage
+            - listitem [ref=e287]:
+              - link "Utility Sub-commands" [ref=e288] [cursor=pointer]:
+                - /url: ../utils/
+                - generic [ref=e289]: Utility Sub-commands
+            - listitem [ref=e290]:
+              - link "Plotting" [ref=e291] [cursor=pointer]:
+                - /url: ../plotting/
+                - generic [ref=e292]: Plotting
+            - listitem [ref=e293]:
+              - link "Exchange-specific Notes" [ref=e294] [cursor=pointer]:
+                - /url: ../exchanges/
+                - generic [ref=e295]: Exchange-specific Notes
+            - listitem [ref=e296]:
+              - generic [ref=e298]: Data Analysis
+            - listitem [ref=e300]:
+              - generic [ref=e302]: Advanced Topics
+              - navigation "Advanced Topics" [ref=e304]:
+                - list [ref=e305]:
+                  - listitem [ref=e306]:
+                    - link "Advanced Post-installation Tasks" [ref=e307] [cursor=pointer]:
+                      - /url: ./
+                      - generic [ref=e308]: Advanced Post-installation Tasks
+                  - listitem [ref=e309]:
+                    - link "Trade Object" [ref=e310] [cursor=pointer]:
+                      - /url: ../trade-object/
+                      - generic [ref=e311]: Trade Object
+                  - listitem [ref=e312]:
+                    - link "Lookahead analysis" [ref=e313] [cursor=pointer]:
+                      - /url: ../lookahead-analysis/
+                      - generic [ref=e314]: Lookahead analysis
+                  - listitem [ref=e315]:
+                    - link "Recursive analysis" [ref=e316] [cursor=pointer]:
+                      - /url: ../recursive-analysis/
+                      - generic [ref=e317]: Recursive analysis
+                  - listitem [ref=e318]:
+                    - link "Advanced Strategy" [ref=e319] [cursor=pointer]:
+                      - /url: ../strategy-advanced/
+                      - generic [ref=e320]: Advanced Strategy
+                  - listitem [ref=e321]:
+                    - link "Advanced Hyperopt" [ref=e322] [cursor=pointer]:
+                      - /url: ../advanced-hyperopt/
+                      - generic [ref=e323]: Advanced Hyperopt
+                  - listitem [ref=e324]:
+                    - link "Orderflow" [ref=e325] [cursor=pointer]:
+                      - /url: ../advanced-orderflow/
+                      - generic [ref=e326]: Orderflow
+                  - listitem [ref=e327]:
+                    - link "Producer/Consumer mode" [ref=e328] [cursor=pointer]:
+                      - /url: ../producer-consumer/
+                      - generic [ref=e329]: Producer/Consumer mode
+                  - listitem [ref=e330]:
+                    - link "SQL Cheat-sheet" [ref=e331] [cursor=pointer]:
+                      - /url: ../sql_cheatsheet/
+                      - generic [ref=e332]: SQL Cheat-sheet
+            - listitem [ref=e333]:
+              - link "FAQ" [ref=e334] [cursor=pointer]:
+                - /url: ../faq/
+                - generic [ref=e335]: FAQ
+            - listitem [ref=e336]:
+              - link "Strategy migration" [ref=e337] [cursor=pointer]:
+                - /url: ../strategy_migration/
+                - generic [ref=e338]: Strategy migration
+            - listitem [ref=e339]:
+              - link "Updating Freqtrade" [ref=e340] [cursor=pointer]:
+                - /url: ../updating/
+                - generic [ref=e341]: Updating Freqtrade
+            - listitem [ref=e342]:
+              - link "Deprecated Features" [ref=e343] [cursor=pointer]:
+                - /url: ../deprecated/
+                - generic [ref=e344]: Deprecated Features
+            - listitem [ref=e345]:
+              - link "Contributors Guide" [ref=e346] [cursor=pointer]:
+                - /url: ../developer/
+                - generic [ref=e347]: Contributors Guide
+        - navigation "Table of contents" [ref=e351]:
+          - generic [ref=e352]: Table of contents
+          - list [ref=e353]:
+            - listitem [ref=e354]:
+              - link "Running multiple instances of Freqtrade" [ref=e355] [cursor=pointer]:
+                - /url: "#running-multiple-instances-of-freqtrade"
+                - generic [ref=e356]: Running multiple instances of Freqtrade
+              - navigation "Running multiple instances of Freqtrade" [ref=e357]:
+                - list [ref=e358]:
+                  - listitem [ref=e359]:
+                    - link "Things to consider" [ref=e360] [cursor=pointer]:
+                      - /url: "#things-to-consider"
+                      - generic [ref=e361]: Things to consider
+                  - listitem [ref=e362]:
+                    - link "Different database files" [ref=e363] [cursor=pointer]:
+                      - /url: "#different-database-files"
+                      - generic [ref=e364]: Different database files
+                  - listitem [ref=e365]:
+                    - link "Multiple instances using docker" [ref=e366] [cursor=pointer]:
+                      - /url: "#multiple-instances-using-docker"
+                      - generic [ref=e367]: Multiple instances using docker
+            - listitem [ref=e368]:
+              - link "Use a different database system" [ref=e369] [cursor=pointer]:
+                - /url: "#use-a-different-database-system"
+                - generic [ref=e370]: Use a different database system
+              - navigation "Use a different database system" [ref=e371]:
+                - list [ref=e372]:
+                  - listitem [ref=e373]:
+                    - link "PostgreSQL" [ref=e374] [cursor=pointer]:
+                      - /url: "#postgresql"
+                      - generic [ref=e375]: PostgreSQL
+                  - listitem [ref=e376]:
+                    - link "MariaDB / MySQL" [ref=e377] [cursor=pointer]:
+                      - /url: "#mariadb-mysql"
+                      - generic [ref=e378]: MariaDB / MySQL
+            - listitem [ref=e379]:
+              - link "Configure the bot running as a systemd service" [ref=e380] [cursor=pointer]:
+                - /url: "#configure-the-bot-running-as-a-systemd-service"
+                - generic [ref=e381]: Configure the bot running as a systemd service
+            - listitem [ref=e382]:
+              - link "Advanced Logging" [ref=e383] [cursor=pointer]:
+                - /url: "#advanced-logging"
+                - generic [ref=e384]: Advanced Logging
+              - navigation "Advanced Logging" [ref=e385]:
+                - list [ref=e386]:
+                  - listitem [ref=e387]:
+                    - link "Logging to syslog" [ref=e388] [cursor=pointer]:
+                      - /url: "#logging-to-syslog"
+                      - generic [ref=e389]: Logging to syslog
+                    - navigation "Logging to syslog" [ref=e390]:
+                      - list [ref=e391]:
+                        - listitem [ref=e392]:
+                          - link "Syslog usage" [ref=e393] [cursor=pointer]:
+                            - /url: "#syslog-usage"
+                            - generic [ref=e394]: Syslog usage
+                        - listitem [ref=e395]:
+                          - link "Syslog addressing" [ref=e396] [cursor=pointer]:
+                            - /url: "#syslog-addressing"
+                            - generic [ref=e397]: Syslog addressing
+                  - listitem [ref=e398]:
+                    - link "Logging to journald" [ref=e399] [cursor=pointer]:
+                      - /url: "#logging-to-journald"
+                      - generic [ref=e400]: Logging to journald
+                  - listitem [ref=e401]:
+                    - link "Log format as JSON" [ref=e402] [cursor=pointer]:
+                      - /url: "#log-format-as-json"
+                      - generic [ref=e403]: Log format as JSON
+        - article [ref=e405]:
+          - link "Edit this page" [ref=e406] [cursor=pointer]:
+            - /url: https://github.com/freqtrade/freqtrade/edit/develop/docs/advanced-setup.md
+            - img [ref=e407]
+          - heading "Advanced Post-installation Tasks ¶" [level=1] [ref=e409]:
+            - text: Advanced Post-installation Tasks
+            - link "¶" [ref=e410] [cursor=pointer]:
+              - /url: "#advanced-post-installation-tasks"
+          - paragraph [ref=e411]: This page explains some advanced tasks and configuration options that can be performed after the bot installation and may be uselful in some environments.
+          - paragraph [ref=e412]: If you do not know what things mentioned here mean, you probably do not need it.
+          - heading "Running multiple instances of Freqtrade ¶" [level=2] [ref=e413]:
+            - text: Running multiple instances of Freqtrade
+            - link "¶" [ref=e414] [cursor=pointer]:
+              - /url: "#running-multiple-instances-of-freqtrade"
+          - paragraph [ref=e415]: This section will show you how to run multiple bots at the same time, on the same machine.
+          - heading "Things to consider ¶" [level=3] [ref=e416]:
+            - text: Things to consider
+            - link "¶" [ref=e417] [cursor=pointer]:
+              - /url: "#things-to-consider"
+          - list [ref=e418]:
+            - listitem [ref=e419]: Use different database files.
+            - listitem [ref=e420]: Use different Telegram bots (requires multiple different configuration files; applies only when Telegram is enabled).
+            - listitem [ref=e421]: Use different ports (applies only when Freqtrade REST API webserver is enabled).
+          - heading "Different database files ¶" [level=3] [ref=e422]:
+            - text: Different database files
+            - link "¶" [ref=e423] [cursor=pointer]:
+              - /url: "#different-database-files"
+          - paragraph [ref=e424]: In order to keep track of your trades, profits, etc., freqtrade is using a SQLite database where it stores various types of information such as the trades you performed in the past and the current position(s) you are holding at any time. This allows you to keep track of your profits, but most importantly, keep track of ongoing activity if the bot process would be restarted or would be terminated unexpectedly.
+          - paragraph [ref=e425]:
+            - text: Freqtrade will, by default, use separate database files for dry-run and live bots (this assumes no database-url is given in either configuration nor via command line argument). For live trading mode, the default database will be
+            - code [ref=e426]: tradesv3.sqlite
+            - text: and for dry-run it will be
+            - code [ref=e427]: tradesv3.dryrun.sqlite
+            - text: .
+          - paragraph [ref=e428]:
+            - text: The optional argument to the trade command used to specify the path of these files is
+            - code [ref=e429]: "--db-url"
+            - text: ", which requires a valid SQLAlchemy url. So when you are starting a bot with only the config and strategy arguments in dry-run mode, the following 2 commands would have the same outcome."
+          - generic [ref=e431]:
+            - navigation [ref=e432]:
+              - button "Copy to clipboard" [ref=e433] [cursor=pointer]
+            - code [ref=e434]: "freqtrade trade -c MyConfig.json -s MyStrategy # is equivalent to freqtrade trade -c MyConfig.json -s MyStrategy --db-url sqlite:///tradesv3.dryrun.sqlite"
+          - paragraph [ref=e435]: It means that if you are running the trade command in two different terminals, for example to test your strategy both for trades in USDT and in another instance for trades in BTC, you will have to run them with different databases.
+          - paragraph [ref=e436]: "If you specify the URL of a database which does not exist, freqtrade will create one with the name you specified. So to test your custom strategy with BTC and USDT stake currencies, you could use the following commands (in 2 separate terminals):"
+          - generic [ref=e438]:
+            - navigation [ref=e439]:
+              - button "Copy to clipboard" [ref=e440] [cursor=pointer]
+            - code [ref=e441]: "# Terminal 1: freqtrade trade -c MyConfigBTC.json -s MyCustomStrategy --db-url sqlite:///user_data/tradesBTC.dryrun.sqlite # Terminal 2: freqtrade trade -c MyConfigUSDT.json -s MyCustomStrategy --db-url sqlite:///user_data/tradesUSDT.dryrun.sqlite"
+          - paragraph [ref=e442]: "Conversely, if you wish to do the same thing in production mode, you will also have to create at least one new database (in addition to the default one) and specify the path to the \"live\" databases, for example:"
+          - generic [ref=e444]:
+            - navigation [ref=e445]:
+              - button "Copy to clipboard" [ref=e446] [cursor=pointer]
+            - code [ref=e447]: "# Terminal 1: freqtrade trade -c MyConfigBTC.json -s MyCustomStrategy --db-url sqlite:///user_data/tradesBTC.live.sqlite # Terminal 2: freqtrade trade -c MyConfigUSDT.json -s MyCustomStrategy --db-url sqlite:///user_data/tradesUSDT.live.sqlite"
+          - paragraph [ref=e448]:
+            - text: For more information regarding usage of the sqlite databases, for example to manually enter or remove trades, please refer to the
+            - link "SQL Cheatsheet" [ref=e449] [cursor=pointer]:
+              - /url: ../sql_cheatsheet/
+            - text: .
+          - heading "Multiple instances using docker ¶" [level=3] [ref=e450]:
+            - text: Multiple instances using docker
+            - link "¶" [ref=e451] [cursor=pointer]:
+              - /url: "#multiple-instances-using-docker"
+          - paragraph [ref=e452]: To run multiple instances of freqtrade using docker you will need to edit the docker-compose.yml file and add all the instances you want as separate services. Remember, you can separate your configuration into multiple files, so it's a good idea to think about making them modular, then if you need to edit something common to all bots, you can do that in a single config file.
+          - generic [ref=e454]:
+            - navigation [ref=e455]:
+              - button "Copy to clipboard" [ref=e456] [cursor=pointer]
+            - code [ref=e457]: "--- version: '3' services: freqtrade1: image: freqtradeorg/freqtrade:stable # image: freqtradeorg/freqtrade:develop # Use plotting image # image: freqtradeorg/freqtrade:develop_plot # Build step - only needed when additional dependencies are needed # build: # context: . # dockerfile: \"./docker/Dockerfile.custom\" restart: always container_name: freqtrade1 volumes: - \"./user_data:/freqtrade/user_data\" # Expose api on port 8080 (localhost only) # Please read the https://www.freqtrade.io/en/stable/rest-api/ documentation # before enabling this. ports: - \"127.0.0.1:8080:8080\" # Default command used when running `docker compose up` command: > trade --logfile /freqtrade/user_data/logs/freqtrade1.log --db-url sqlite:////freqtrade/user_data/tradesv3_freqtrade1.sqlite --config /freqtrade/user_data/config.json --config /freqtrade/user_data/config.freqtrade1.json --strategy SampleStrategy freqtrade2: image: freqtradeorg/freqtrade:stable # image: freqtradeorg/freqtrade:develop # Use plotting image # image: freqtradeorg/freqtrade:develop_plot # Build step - only needed when additional dependencies are needed # build: # context: . # dockerfile: \"./docker/Dockerfile.custom\" restart: always container_name: freqtrade2 volumes: - \"./user_data:/freqtrade/user_data\" # Expose api on port 8080 (localhost only) # Please read the https://www.freqtrade.io/en/stable/rest-api/ documentation # before enabling this. ports: - \"127.0.0.1:8081:8080\" # Default command used when running `docker compose up` command: > trade --logfile /freqtrade/user_data/logs/freqtrade2.log --db-url sqlite:////freqtrade/user_data/tradesv3_freqtrade2.sqlite --config /freqtrade/user_data/config.json --config /freqtrade/user_data/config.freqtrade2.json --strategy SampleStrategy"
+          - paragraph
+          - paragraph [ref=e458]: You can use whatever naming convention you want, freqtrade1 and 2 are arbitrary. Note, that you will need to use different database files, port mappings and telegram configurations for each instance, as mentioned above.
+          - heading "Use a different database system ¶" [level=2] [ref=e459]:
+            - text: Use a different database system
+            - link "¶" [ref=e460] [cursor=pointer]:
+              - /url: "#use-a-different-database-system"
+          - paragraph [ref=e461]:
+            - text: Freqtrade is using SQLAlchemy, which supports multiple different database systems. As such, a multitude of database systems should be supported. Freqtrade does not depend or install any additional database driver. Please refer to the
+            - link "SQLAlchemy docs" [ref=e462] [cursor=pointer]:
+              - /url: https://docs.sqlalchemy.org/en/14/core/engines.html#database-urls
+            - text: on installation instructions for the respective database systems.
+          - paragraph [ref=e463]: "The following systems have been tested and are known to work with freqtrade:"
+          - list [ref=e464]:
+            - listitem [ref=e465]: sqlite (default)
+            - listitem [ref=e466]: PostgreSQL
+            - listitem [ref=e467]: MariaDB
+          - generic [ref=e468]:
+            - paragraph [ref=e469]: Warning
+            - paragraph [ref=e470]: By using one of the below database systems, you acknowledge that you know how to manage such a system. The freqtrade team will not provide any support with setup or maintenance (or backups) of the below database systems.
+          - heading "PostgreSQL ¶" [level=3] [ref=e471]:
+            - text: PostgreSQL
+            - link "¶" [ref=e472] [cursor=pointer]:
+              - /url: "#postgresql"
+          - paragraph [ref=e473]:
+            - text: "Installation:"
+            - code [ref=e474]: pip install "psycopg[binary]"
+          - paragraph [ref=e475]:
+            - text: "Usage:"
+            - code [ref=e476]: ... --db-url postgresql+psycopg://<username>:<password>@localhost:5432/<database>
+          - paragraph [ref=e477]: Freqtrade will automatically create the tables necessary upon startup.
+          - paragraph [ref=e478]: If you're running different instances of Freqtrade, you must either setup one database per Instance or use different users / schemas for your connections.
+          - heading "MariaDB / MySQL ¶" [level=3] [ref=e479]:
+            - text: MariaDB / MySQL
+            - link "¶" [ref=e480] [cursor=pointer]:
+              - /url: "#mariadb-mysql"
+          - paragraph [ref=e481]: Freqtrade supports MariaDB by using SQLAlchemy, which supports multiple different database systems.
+          - paragraph [ref=e482]:
+            - text: "Installation:"
+            - code [ref=e483]: pip install pymysql
+          - paragraph [ref=e484]:
+            - text: "Usage:"
+            - code [ref=e485]: ... --db-url mysql+pymysql://<username>:<password>@localhost:3306/<database>
+          - heading "Configure the bot running as a systemd service ¶" [level=2] [ref=e486]:
+            - text: Configure the bot running as a systemd service
+            - link "¶" [ref=e487] [cursor=pointer]:
+              - /url: "#configure-the-bot-running-as-a-systemd-service"
+          - paragraph [ref=e488]:
+            - text: Copy the
+            - code [ref=e489]: freqtrade.service
+            - text: file to your systemd user directory (usually
+            - code [ref=e490]: ~/.config/systemd/user
+            - text: ) and update
+            - code [ref=e491]: WorkingDirectory
+            - text: and
+            - code [ref=e492]: ExecStart
+            - text: to match your setup.
+          - generic [ref=e493]:
+            - paragraph [ref=e494]: Note
+            - paragraph [ref=e495]:
+              - text: Certain systems (like Raspbian) don't load service unit files from the user directory. In this case, copy
+              - code [ref=e496]: freqtrade.service
+              - text: into
+              - code [ref=e497]: /etc/systemd/user/
+              - text: (requires superuser permissions).
+          - paragraph [ref=e498]: "After that you can start the daemon with:"
+          - generic [ref=e500]:
+            - navigation [ref=e501]:
+              - button "Copy to clipboard" [ref=e502] [cursor=pointer]
+            - code [ref=e503]: systemctl --user start freqtrade
+          - paragraph [ref=e504]:
+            - text: For this to be persistent (run when user is logged out) you'll need to enable
+            - code [ref=e505]: linger
+            - text: for your freqtrade user.
+          - generic [ref=e507]:
+            - navigation [ref=e508]:
+              - button "Copy to clipboard" [ref=e509] [cursor=pointer]
+            - code [ref=e510]: sudo loginctl enable-linger "$USER"
+          - paragraph [ref=e511]:
+            - text: If you run the bot as a service, you can use systemd service manager as a software watchdog monitoring freqtrade bot state and restarting it in the case of failures. If the
+            - code [ref=e512]: internals.sd_notify
+            - text: parameter is set to true in the configuration or the
+            - code [ref=e513]: "--sd-notify"
+            - text: command line option is used, the bot will send keep-alive ping messages to systemd using the sd_notify (systemd notifications) protocol and will also tell systemd its current state (Running, Paused or Stopped) when it changes.
+          - paragraph [ref=e514]:
+            - text: The
+            - code [ref=e515]: freqtrade.service.watchdog
+            - text: file contains an example of the service unit configuration file which uses systemd as the watchdog.
+          - generic [ref=e516]:
+            - paragraph [ref=e517]: Note
+            - paragraph [ref=e518]: The sd_notify communication between the bot and the systemd service manager will not work if the bot runs in a Docker container.
+          - heading "Advanced Logging ¶" [level=2] [ref=e519]:
+            - text: Advanced Logging
+            - link "¶" [ref=e520] [cursor=pointer]:
+              - /url: "#advanced-logging"
+          - paragraph [ref=e521]:
+            - text: Freqtrade uses the default logging module provided by python. Python allows for extensive
+            - link "logging configuration" [ref=e522] [cursor=pointer]:
+              - /url: https://docs.python.org/3/library/logging.config.html#logging.config.dictConfig
+            - text: in this regard - way more than what can be covered here.
+          - paragraph [ref=e523]:
+            - text: Default logging format (coloured terminal output) is set up by default if no
+            - code [ref=e524]: log_config
+            - text: is provided in your freqtrade configuration. Using
+            - code [ref=e525]: "--logfile logfile.log"
+            - text: will enable the RotatingFileHandler.
+          - paragraph [ref=e526]:
+            - text: If you're not content with the log format, or with the default settings provided for the RotatingFileHandler, you can customize logging to your liking by adding the
+            - code [ref=e527]: log_config
+            - text: configuration to your freqtrade configuration file(s).
+          - paragraph [ref=e528]:
+            - text: The default configuration looks roughly like the below, with the file handler being provided but not enabled as the
+            - code [ref=e529]: filename
+            - text: is commented out. Uncomment this line and supply a valid path/filename to enable it.
+          - generic [ref=e531]:
+            - navigation [ref=e532]:
+              - button "Copy to clipboard" [ref=e533] [cursor=pointer]
+            - code [ref=e534]:
+              - text: "{ \"log_config\": { \"version\": 1, \"formatters\": {"
+              - generic [ref=e535]: "\"basic\": {"
+              - generic [ref=e536]: "\"format\": \"%(message)s\""
+              - generic [ref=e537]: "},"
+              - text: "\"standard\": { \"format\": \"%(asctime)s - %(name)s - %(levelname)s - %(message)s\" } }, \"handlers\": {"
+              - generic [ref=e538]: "\"console\": {"
+              - generic [ref=e539]: "\"class\": \"freqtrade.loggers.ft_rich_handler.FtRichHandler\","
+              - generic [ref=e540]: "\"formatter\": \"basic\""
+              - generic [ref=e541]: "},"
+              - text: "\"file\": { \"class\": \"logging.handlers.RotatingFileHandler\", \"formatter\": \"standard\", // \"filename\": \"someRandomLogFile.log\", \"maxBytes\": 10485760, \"backupCount\": 10 } }, \"root\": { \"handlers\": ["
+              - generic [ref=e542]: "\"console\","
+              - text: "// \"file\" ], \"level\": \"INFO\", } } }"
+          - generic [ref=e543]:
+            - paragraph [ref=e544]: highlighted lines
+            - paragraph [ref=e545]: Highlighted lines in the above code-block define the Rich handler and belong together. The formatter "standard" and "file" will belong to the FileHandler.
+          - paragraph [ref=e546]: Each handler must use one of the defined formatters (by name), its class must be available, and must be a valid logging class. To actually use a handler, it must be in the "handlers" section inside the "root" segment. If this section is left out, freqtrade will provide no output (in the non-configured handler, anyway).
+          - generic [ref=e547]:
+            - paragraph [ref=e548]: Explicit log configuration
+            - paragraph [ref=e549]:
+              - text: We recommend to extract the logging configuration from your main freqtrade configuration file, and provide it to your bot via
+              - link "multiple configuration files" [ref=e550] [cursor=pointer]:
+                - /url: ../configuration/#multiple-configuration-files
+              - text: functionality. This will avoid unnecessary code duplication.
+          - separator [ref=e551]
+          - paragraph [ref=e552]:
+            - text: On many Linux systems the bot can be configured to send its log messages to
+            - code [ref=e553]: syslog
+            - text: or
+            - code [ref=e554]: journald
+            - text: system services. Logging to a remote
+            - code [ref=e555]: syslog
+            - text: server is also available on Windows. The special values for the
+            - code [ref=e556]: "--logfile"
+            - text: command line option can be used for this.
+          - heading "Logging to syslog ¶" [level=3] [ref=e557]:
+            - text: Logging to syslog
+            - link "¶" [ref=e558] [cursor=pointer]:
+              - /url: "#logging-to-syslog"
+          - paragraph [ref=e559]:
+            - text: To send Freqtrade log messages to a local or remote
+            - code [ref=e560]: syslog
+            - text: service use the
+            - code [ref=e561]: "\"log_config\""
+            - text: setup option to configure logging.
+          - generic [ref=e563]:
+            - navigation [ref=e564]:
+              - button "Copy to clipboard" [ref=e565] [cursor=pointer]
+            - code [ref=e566]: "{ // ... \"log_config\": { \"version\": 1, \"formatters\": { \"syslog_fmt\": { \"format\": \"%(name)s - %(levelname)s - %(message)s\" } }, \"handlers\": { // Other handlers? \"syslog\": { \"class\": \"logging.handlers.SysLogHandler\", \"formatter\": \"syslog_fmt\", // Use one of the other options above as address instead? \"address\": \"/dev/log\" } }, \"root\": { \"handlers\": [ // other handlers \"syslog\", ] } } }"
+          - paragraph [ref=e567]:
+            - link "Additional log-handlers" [ref=e568] [cursor=pointer]:
+              - /url: "#advanced-logging"
+            - text: may need to be configured to for example also have log output in the console.
+          - heading "Syslog usage ¶" [level=4] [ref=e569]:
+            - text: Syslog usage
+            - link "¶" [ref=e570] [cursor=pointer]:
+              - /url: "#syslog-usage"
+          - paragraph [ref=e571]:
+            - text: Log messages are send to
+            - code [ref=e572]: syslog
+            - text: with the
+            - code [ref=e573]: user
+            - text: "facility. So you can see them with the following commands:"
+          - list [ref=e574]:
+            - listitem [ref=e575]:
+              - code [ref=e576]: tail -f /var/log/user
+              - text: ", or"
+            - listitem [ref=e577]: install a comprehensive graphical viewer (for instance, 'Log File Viewer' for Ubuntu).
+          - paragraph [ref=e578]:
+            - text: On many systems
+            - code [ref=e579]: syslog
+            - text: (
+            - code [ref=e580]: rsyslog
+            - text: ) fetches data from
+            - code [ref=e581]: journald
+            - text: (and vice versa), so both syslog or journald can be used and the messages be viewed with both
+            - code [ref=e582]: journalctl
+            - text: and a syslog viewer utility. You can combine this in any way which suites you better.
+          - paragraph [ref=e583]:
+            - text: For
+            - code [ref=e584]: rsyslog
+            - text: the messages from the bot can be redirected into a separate dedicated log file. To achieve this, add
+          - generic [ref=e586]:
+            - navigation [ref=e587]:
+              - button "Copy to clipboard" [ref=e588] [cursor=pointer]
+            - code [ref=e589]: if $programname startswith "freqtrade" then -/var/log/freqtrade.log
+          - paragraph [ref=e590]:
+            - text: to one of the rsyslog configuration files, for example at the end of the
+            - code [ref=e591]: /etc/rsyslog.d/50-default.conf
+            - text: .
+          - paragraph [ref=e592]:
+            - text: For
+            - code [ref=e593]: syslog
+            - text: (
+            - code [ref=e594]: rsyslog
+            - text: ), the reduction mode can be switched on. This will reduce the number of repeating messages. For instance, multiple bot Heartbeat messages will be reduced to a single message when nothing else happens with the bot. To achieve this, set in
+            - code [ref=e595]: /etc/rsyslog.conf
+            - text: ":"
+          - generic [ref=e597]:
+            - navigation [ref=e598]:
+              - button "Copy to clipboard" [ref=e599] [cursor=pointer]
+            - code [ref=e600]: "# Filter duplicated messages $RepeatedMsgReduction on"
+          - heading "Syslog addressing ¶" [level=4] [ref=e601]:
+            - text: Syslog addressing
+            - link "¶" [ref=e602] [cursor=pointer]:
+              - /url: "#syslog-addressing"
+          - paragraph [ref=e603]:
+            - text: The syslog address can be either a Unix domain socket (socket filename) or a UDP socket specification, consisting of IP address and UDP port, separated by the
+            - code [ref=e604]: ":"
+            - text: character.
+          - paragraph [ref=e605]: "So, the following are the examples of possible addresses:"
+          - list [ref=e606]:
+            - listitem [ref=e607]:
+              - code [ref=e608]: "\"address\": \"/dev/log\""
+              - text: "-- log to syslog (rsyslog) using the"
+              - code [ref=e609]: /dev/log
+              - text: socket, suitable for most systems.
+            - listitem [ref=e610]:
+              - code [ref=e611]: "\"address\": \"/var/run/syslog\""
+              - text: "-- log to syslog (rsyslog) using the"
+              - code [ref=e612]: /var/run/syslog
+              - text: socket. Use this on MacOS.
+            - listitem [ref=e613]:
+              - code [ref=e614]: "\"address\": \"localhost:514\""
+              - text: "-- log to local syslog using UDP socket, if it listens on port 514."
+            - listitem [ref=e615]:
+              - code [ref=e616]: "\"address\": \"<ip>:514\""
+              - text: "-- log to remote syslog at IP address and port 514. This may be used on Windows for remote logging to an external syslog server."
+          - group [ref=e617]:
+            - generic "Deprecated - configure syslog via command line" [ref=e618] [cursor=pointer]
+          - heading "Logging to journald ¶" [level=3] [ref=e619]:
+            - text: Logging to journald
+            - link "¶" [ref=e620] [cursor=pointer]:
+              - /url: "#logging-to-journald"
+          - paragraph [ref=e621]:
+            - text: This needs the
+            - code [ref=e622]: cysystemd
+            - text: python package installed as dependency (
+            - code [ref=e623]: pip install cysystemd
+            - text: ), which is not available on Windows. Hence, the whole journald logging functionality is not available for a bot running on Windows.
+          - paragraph [ref=e624]:
+            - text: To send Freqtrade log messages to
+            - code [ref=e625]: journald
+            - text: system service, add the following configuration snippet to your configuration.
+          - generic [ref=e627]:
+            - navigation [ref=e628]:
+              - button "Copy to clipboard" [ref=e629] [cursor=pointer]
+            - code [ref=e630]: "{ // ... \"log_config\": { \"version\": 1, \"formatters\": { \"journald_fmt\": { \"format\": \"%(name)s - %(levelname)s - %(message)s\" } }, \"handlers\": { // Other handlers? \"journald\": { \"class\": \"cysystemd.journal.JournaldLogHandler\", \"formatter\": \"journald_fmt\", } }, \"root\": { \"handlers\": [ // .. \"journald\", ] } } }"
+          - paragraph [ref=e631]:
+            - link "Additional log-handlers" [ref=e632] [cursor=pointer]:
+              - /url: "#advanced-logging"
+            - text: may need to be configured to for example also have log output in the console.
+          - paragraph [ref=e633]:
+            - text: Log messages are send to
+            - code [ref=e634]: journald
+            - text: with the
+            - code [ref=e635]: user
+            - text: "facility. So you can see them with the following commands:"
+          - list [ref=e636]:
+            - listitem [ref=e637]:
+              - code [ref=e638]: journalctl -f
+              - text: "-- shows Freqtrade log messages sent to"
+              - code [ref=e639]: journald
+              - text: along with other log messages fetched by
+              - code [ref=e640]: journald
+              - text: .
+            - listitem [ref=e641]:
+              - code [ref=e642]: journalctl -f -u freqtrade.service
+              - text: "-- this command can be used when the bot is run as a"
+              - code [ref=e643]: systemd
+              - text: service.
+          - paragraph [ref=e644]:
+            - text: There are many other options in the
+            - code [ref=e645]: journalctl
+            - text: utility to filter the messages, see manual pages for this utility.
+          - paragraph [ref=e646]:
+            - text: On many systems
+            - code [ref=e647]: syslog
+            - text: (
+            - code [ref=e648]: rsyslog
+            - text: ) fetches data from
+            - code [ref=e649]: journald
+            - text: (and vice versa), so both
+            - code [ref=e650]: "--logfile syslog"
+            - text: or
+            - code [ref=e651]: "--logfile journald"
+            - text: can be used and the messages be viewed with both
+            - code [ref=e652]: journalctl
+            - text: and a syslog viewer utility. You can combine this in any way which suites you better.
+          - group [ref=e653]:
+            - generic "Deprecated - configure journald via command line" [ref=e654] [cursor=pointer]
+          - heading "Log format as JSON ¶" [level=3] [ref=e655]:
+            - text: Log format as JSON
+            - link "¶" [ref=e656] [cursor=pointer]:
+              - /url: "#log-format-as-json"
+          - paragraph [ref=e657]:
+            - text: You can also configure the default output stream to use JSON format instead. The "fmt_dict" attribute defines the keys for the json output - as well as the
+            - link "python logging LogRecord attributes" [ref=e658] [cursor=pointer]:
+              - /url: https://docs.python.org/3/library/logging.html#logrecord-attributes
+            - text: .
+          - paragraph [ref=e659]:
+            - text: The below configuration will change the default output to JSON. The same formatter could however also be used in combination with the
+            - code [ref=e660]: RotatingFileHandler
+            - text: . We recommend to keep one format in human readable form.
+          - generic [ref=e662]:
+            - navigation [ref=e663]:
+              - button "Copy to clipboard" [ref=e664] [cursor=pointer]
+            - code [ref=e665]: "{ // ... \"log_config\": { \"version\": 1, \"formatters\": { \"json\": { \"()\": \"freqtrade.loggers.json_formatter.JsonFormatter\", \"fmt_dict\": { \"timestamp\": \"asctime\", \"level\": \"levelname\", \"logger\": \"name\", \"message\": \"message\" } } }, \"handlers\": { // Other handlers? \"jsonStream\": { \"class\": \"logging.StreamHandler\", \"formatter\": \"json\" } }, \"root\": { \"handlers\": [ // .. \"jsonStream\", ] } } }"
+      - button "Back to top":
+        - img
+        - text: Back to top
+    - contentinfo [ref=e666]:
+      - navigation "Footer" [ref=e667]:
+        - 'link "Previous: Backtest analysis" [ref=e668] [cursor=pointer]':
+          - /url: ../advanced-backtesting/
+          - img [ref=e670]
+          - generic [ref=e672]:
+            - text: Previous
+            - generic [ref=e673]: Backtest analysis
+        - 'link "Next: Trade Object" [ref=e674] [cursor=pointer]':
+          - /url: ../trade-object/
+          - generic [ref=e675]:
+            - text: Next
+            - generic [ref=e676]: Trade Object
+          - img [ref=e678]
+      - generic [ref=e682]:
+        - text: Made with
+        - link "Material for MkDocs" [ref=e683] [cursor=pointer]:
+          - /url: https://squidfunk.github.io/mkdocs-material/

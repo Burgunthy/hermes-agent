@@ -1,0 +1,450 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fssssi%2Ffreqtrade_strs
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=ssssi%2Ffreqtrade_strs
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "ssssi" [ref=e70] [cursor=pointer]:
+            - /url: /ssssi
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "freqtrade_strs" [ref=e73] [cursor=pointer]:
+              - /url: /ssssi/freqtrade_strs
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fssssi%2Ffreqtrade_strs
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 169" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fssssi%2Ffreqtrade_strs
+                - img [ref=e82]
+                - text: Fork
+                - generic "169" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fssssi%2Ffreqtrade_strs
+                - img [ref=e88]
+                - text: Star
+                - generic "647 users starred this repository" [ref=e90]: "647"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /ssssi/freqtrade_strs
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 4" [ref=e99] [cursor=pointer]:
+              - /url: /ssssi/freqtrade_strs/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "4" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests" [ref=e106] [cursor=pointer]:
+              - /url: /ssssi/freqtrade_strs/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+          - listitem [ref=e110]:
+            - link "Actions" [ref=e111] [cursor=pointer]:
+              - /url: /ssssi/freqtrade_strs/actions
+              - img [ref=e112]
+              - generic [ref=e114]: Actions
+          - listitem [ref=e115]:
+            - link "Projects" [ref=e116] [cursor=pointer]:
+              - /url: /ssssi/freqtrade_strs/projects
+              - img [ref=e117]
+              - generic [ref=e119]: Projects
+          - listitem [ref=e120]:
+            - link "Security and quality" [ref=e121] [cursor=pointer]:
+              - /url: /ssssi/freqtrade_strs/security
+              - img [ref=e122]
+              - generic [ref=e124]: Security and quality
+          - listitem [ref=e125]:
+            - link "Insights" [ref=e126] [cursor=pointer]:
+              - /url: /ssssi/freqtrade_strs/pulse
+              - img [ref=e127]
+              - generic [ref=e129]: Insights
+    - generic [ref=e142]:
+      - heading "ssssi/freqtrade_strs" [level=1] [ref=e144]
+      - generic [ref=e145]:
+        - generic [ref=e148]:
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - button "main branch" [ref=e152] [cursor=pointer]:
+                - generic [ref=e153]:
+                  - generic [ref=e155]:
+                    - img [ref=e157]
+                    - generic [ref=e160]: main
+                  - generic:
+                    - img
+              - generic [ref=e161]:
+                - link "2 Branches" [ref=e162] [cursor=pointer]:
+                  - /url: /ssssi/freqtrade_strs/branches
+                  - generic [ref=e163]:
+                    - generic:
+                      - img
+                    - generic [ref=e165]:
+                      - strong [ref=e166]: "2"
+                      - text: Branches
+                - link "0 Tags" [ref=e167] [cursor=pointer]:
+                  - /url: /ssssi/freqtrade_strs/tags
+                  - generic [ref=e168]:
+                    - generic:
+                      - img
+                    - generic [ref=e170]:
+                      - strong [ref=e171]: "0"
+                      - text: Tags
+            - generic [ref=e172]:
+              - generic [ref=e176]:
+                - img [ref=e178]
+                - combobox "Go to file" [ref=e180]
+              - button "Code" [ref=e181] [cursor=pointer]:
+                - generic [ref=e182]:
+                  - generic:
+                    - img
+                  - generic [ref=e183]: Code
+                  - generic:
+                    - img
+          - generic [ref=e184]:
+            - generic [ref=e185]:
+              - heading "Folders and files" [level=2] [ref=e186]
+              - table "Folders and files" [ref=e187]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e188]:
+                  - row "Latest commit ssssi commits by ssssi Update README.md Commit 04ece62 · Dec 16, 20255 months ago History 406 Commits" [ref=e189]:
+                    - cell "Latest commit ssssi commits by ssssi Update README.md Commit 04ece62 · Dec 16, 20255 months ago History 406 Commits" [ref=e190]:
+                      - generic [ref=e191]:
+                        - heading "Latest commit" [level=2] [ref=e192]
+                        - generic [ref=e193]:
+                          - generic [ref=e195]:
+                            - link "ssssi" [ref=e196] [cursor=pointer]:
+                              - /url: /ssssi
+                              - img "ssssi" [ref=e197]
+                            - link "commits by ssssi" [ref=e198] [cursor=pointer]:
+                              - /url: /ssssi/freqtrade_strs/commits?author=ssssi
+                              - text: ssssi
+                          - link "Update README.md" [ref=e202] [cursor=pointer]:
+                            - /url: /ssssi/freqtrade_strs/commit/04ece62135464aeba295e78b7c4d10104e1ee302
+                        - generic [ref=e203]:
+                          - generic [ref=e205]:
+                            - link "Commit 04ece62" [ref=e206] [cursor=pointer]:
+                              - /url: /ssssi/freqtrade_strs/commit/04ece62135464aeba295e78b7c4d10104e1ee302
+                              - text: 04ece62
+                            - text: ·
+                            - generic "Dec 16, 2025, 1:05 PM GMT+9" [ref=e207]: Dec 16, 20255 months ago
+                          - generic [ref=e208]:
+                            - heading "History" [level=2] [ref=e209]
+                            - link "406 Commits" [ref=e210] [cursor=pointer]:
+                              - /url: /ssssi/freqtrade_strs/commits/main/
+                              - generic [ref=e211]:
+                                - generic:
+                                  - img
+                                - generic [ref=e212]: 406 Commits
+                  - row "ClucHAnix, (Directory) File organizing Dec 8, 20224 years ago" [ref=e213]:
+                    - cell "ClucHAnix, (Directory)" [ref=e214]:
+                      - generic [ref=e215]:
+                        - img [ref=e216]
+                        - link "ClucHAnix, (Directory)" [ref=e221] [cursor=pointer]:
+                          - /url: /ssssi/freqtrade_strs/tree/main/ClucHAnix
+                          - text: ClucHAnix
+                    - cell "File organizing" [ref=e222]:
+                      - link "File organizing" [ref=e225] [cursor=pointer]:
+                        - /url: /ssssi/freqtrade_strs/commit/b0142ba93b7cc15ab8e528d9cb4a42daa2968b2e
+                    - cell "Dec 8, 20224 years ago" [ref=e226]:
+                      - generic [ref=e227]: Dec 8, 20224 years ago
+                  - row "binance, (Directory) Delete binance/dry_run/config.json Nov 4, 20256 months ago" [ref=e228]:
+                    - cell "binance, (Directory)" [ref=e229]:
+                      - generic [ref=e230]:
+                        - img [ref=e231]
+                        - link "binance, (Directory)" [ref=e236] [cursor=pointer]:
+                          - /url: /ssssi/freqtrade_strs/tree/main/binance
+                          - text: binance
+                    - cell "Delete binance/dry_run/config.json" [ref=e237]:
+                      - link "Delete binance/dry_run/config.json" [ref=e240] [cursor=pointer]:
+                        - /url: /ssssi/freqtrade_strs/commit/a0b57733bc3769cbcb88bce906d2f820a9d1a06f
+                    - cell "Nov 4, 20256 months ago" [ref=e241]:
+                      - generic [ref=e242]: Nov 4, 20256 months ago
+                  - row "README.md, (File) Update README.md Dec 16, 20255 months ago" [ref=e243]:
+                    - cell "README.md, (File)" [ref=e244]:
+                      - generic [ref=e245]:
+                        - img [ref=e246]
+                        - link "README.md, (File)" [ref=e251] [cursor=pointer]:
+                          - /url: /ssssi/freqtrade_strs/blob/main/README.md
+                          - text: README.md
+                    - cell "Update README.md" [ref=e252]:
+                      - link "Update README.md" [ref=e255] [cursor=pointer]:
+                        - /url: /ssssi/freqtrade_strs/commit/04ece62135464aeba295e78b7c4d10104e1ee302
+                    - cell "Dec 16, 20255 months ago" [ref=e256]:
+                      - generic [ref=e257]: Dec 16, 20255 months ago
+            - generic [ref=e259]:
+              - generic [ref=e260]:
+                - heading "Repository files navigation" [level=2] [ref=e261]
+                - navigation "Repository files" [ref=e262]:
+                  - list [ref=e263]:
+                    - listitem [ref=e264]:
+                      - link "README" [ref=e265] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e267]
+                        - generic [ref=e269]: README
+                - button "Outline" [ref=e270] [cursor=pointer]:
+                  - img [ref=e271]
+              - article [ref=e274]:
+                - generic [ref=e275]:
+                  - heading "freqtrade-strs" [level=2] [ref=e276]
+                  - 'link "Permalink: freqtrade-strs" [ref=e277] [cursor=pointer]':
+                    - /url: "#freqtrade-strs"
+                    - img [ref=e278]
+                - generic [ref=e280]:
+                  - heading "Don't try to create a complex strategy. Simple is often the most effective." [level=2] [ref=e281]
+                  - 'link "Permalink: Don''t try to create a complex strategy. Simple is often the most effective." [ref=e282] [cursor=pointer]':
+                    - /url: "#dont-try-to-create-a-complex-strategy-simple-is-often-the-most-effective"
+                    - img [ref=e283]
+                - generic [ref=e285]:
+                  - heading "This strategy is a very simple strategy, you can expand it freely, I believe you can do better." [level=2] [ref=e286]
+                  - 'link "Permalink: This strategy is a very simple strategy, you can expand it freely, I believe you can do better." [ref=e287] [cursor=pointer]':
+                    - /url: "#this-strategy-is-a-very-simple-strategy-you-can-expand-it-freely-i-believe-you-can-do-better"
+                    - img [ref=e288]
+                - separator [ref=e290]
+                - generic [ref=e291]:
+                  - heading "How do i hyper my str(current use is E0V1E.py)." [level=2] [ref=e292]
+                  - 'link "Permalink: How do i hyper my str(current use is E0V1E.py)." [ref=e293] [cursor=pointer]':
+                    - /url: "#how-do-i-hyper-my-strcurrent-use-is-e0v1epy"
+                    - img [ref=e294]
+                - paragraph [ref=e296]: SortinoHyperOptLossDaily for buy signal
+                - paragraph [ref=e297]: SortinoHyperOptLoss for sell signal
+                - generic [ref=e298]:
+                  - heading "current dry run in this folder:binance/dry_run/buy1_and_buynew/E0V1E.py" [level=2] [ref=e299]
+                  - 'link "Permalink: current dry run in this folder:binance/dry_run/buy1_and_buynew/E0V1E.py" [ref=e300] [cursor=pointer]':
+                    - /url: "#current-dry-run-in-this-folderbinancedry_runbuy1_and_buynewe0v1epy"
+                    - img [ref=e301]
+                - generic [ref=e303]:
+                  - heading "Note：which loss function to hyper this strategy is up to you. It's not set in stone" [level=2] [ref=e304]
+                  - 'link "Permalink: Note：which loss function to hyper this strategy is up to you. It''s not set in stone" [ref=e305] [cursor=pointer]':
+                    - /url: "#notewhich-loss-function-to-hyper-this-strategy-is-up-to-you-its-not-set-in-stone"
+                    - img [ref=e306]
+                - paragraph [ref=e308]: "For help:"
+                - paragraph [ref=e309]:
+                  - link "https://www.freqtrade.io/" [ref=e310] [cursor=pointer]:
+                    - /url: https://www.freqtrade.io/
+                - paragraph [ref=e311]: "Freqtrade official discord:"
+                - paragraph [ref=e312]:
+                  - link "https://discord.gg/e8dkbJsKf5" [ref=e313] [cursor=pointer]:
+                    - /url: https://discord.gg/e8dkbJsKf5
+                - paragraph [ref=e314]: "Chinese discord:"
+                - paragraph [ref=e315]:
+                  - link "https://discord.com/invite/f7pdhdsr4d" [ref=e316] [cursor=pointer]:
+                    - /url: https://discord.com/invite/f7pdhdsr4d
+                - paragraph [ref=e317]: Chinese friends can join this channel to discuss together
+                - generic [ref=e318]:
+                  - heading "Spot Copy(现货跟单交易)" [level=2] [ref=e319]
+                  - 'link "Permalink: Spot Copy(现货跟单交易)" [ref=e320] [cursor=pointer]':
+                    - /url: "#spot-copy现货跟单交易"
+                    - img [ref=e321]
+                - paragraph [ref=e323]:
+                  - text: "en:"
+                  - link "https://www.binance.com/en/copy-trading/lead-details/4405826208723354624" [ref=e324] [cursor=pointer]:
+                    - /url: https://www.binance.com/en/copy-trading/lead-details/4405826208723354624
+                - paragraph [ref=e325]:
+                  - text: "cn:"
+                  - link "https://www.binance.com/zh-CN/copy-trading/lead-details/4405826208723354624" [ref=e326] [cursor=pointer]:
+                    - /url: https://www.binance.com/zh-CN/copy-trading/lead-details/4405826208723354624
+                - paragraph [ref=e327]: Spot Copy search:E0V1E(现货跟单搜索:E0V1E)
+                - paragraph [ref=e328]: "Start Time: 2025/02/26"
+                - generic [ref=e329]:
+                  - heading "Donations" [level=2] [ref=e330]
+                  - 'link "Permalink: Donations" [ref=e331] [cursor=pointer]':
+                    - /url: "#donations"
+                    - img [ref=e332]
+                - paragraph [ref=e334]: "If you find this repository useful and want to support me, you can donate to the following addresses:"
+                - list [ref=e335]:
+                  - listitem [ref=e336]:
+                    - text: "TRC20(USDT):"
+                    - code [ref=e337]: TFcnV2Wek5Ar3Vja8en18M3f8rg5A2qZx7
+                  - listitem [ref=e338]:
+                    - text: "BEP20(BNB):"
+                    - code [ref=e339]: "0x6e80a040d45a718f436ac0fdcbb2d28be87a65ec"
+                  - listitem [ref=e340]:
+                    - text: "Bitcoin(BTC):"
+                    - code [ref=e341]: 1PW7RgvWg4s1SQHVUcBg1mtwm8KTFXD5DL
+                - generic [ref=e342]:
+                  - heading "Referral links" [level=2] [ref=e343]
+                  - 'link "Permalink: Referral links" [ref=e344] [cursor=pointer]':
+                    - /url: "#referral-links"
+                    - img [ref=e345]
+                - list [ref=e347]:
+                  - listitem [ref=e348]:
+                    - link "Binance" [ref=e349] [cursor=pointer]:
+                      - /url: https://accounts.maxweb.cab/zh-CN/register?ref=77199030
+                - paragraph [ref=e350]: if you have any question you can contact me in discord:@E0V1E or @evilzzq
+        - generic [ref=e354]:
+          - generic [ref=e357]:
+            - heading "About" [level=2] [ref=e358]
+            - paragraph [ref=e359]: Trading Strategies for Freqtrade
+            - heading "Resources" [level=3] [ref=e360]
+            - link "Readme" [ref=e362] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e363]
+              - text: Readme
+            - link "Activity" [ref=e366] [cursor=pointer]:
+              - /url: /ssssi/freqtrade_strs/activity
+              - img [ref=e367]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e369]
+            - link "647 stars" [ref=e371] [cursor=pointer]:
+              - /url: /ssssi/freqtrade_strs/stargazers
+              - img [ref=e372]
+              - strong [ref=e374]: "647"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e375]
+            - link "47 watching" [ref=e377] [cursor=pointer]:
+              - /url: /ssssi/freqtrade_strs/watchers
+              - img [ref=e378]
+              - strong [ref=e380]: "47"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e381]
+            - link "169 forks" [ref=e383] [cursor=pointer]:
+              - /url: /ssssi/freqtrade_strs/forks
+              - img [ref=e384]
+              - strong [ref=e386]: "169"
+              - text: forks
+            - link "Report repository" [ref=e388] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fssssi%2Ffreqtrade_strs&report=ssssi+%28user%29
+          - generic [ref=e390]:
+            - heading "Releases" [level=2] [ref=e391]:
+              - link "Releases" [ref=e392] [cursor=pointer]:
+                - /url: /ssssi/freqtrade_strs/releases
+            - generic [ref=e393]: No releases published
+          - generic "Loading latest packages" [ref=e396]:
+            - heading "Packages" [level=2] [ref=e397]:
+              - link "Packages" [ref=e398] [cursor=pointer]:
+                - /url: /users/ssssi/packages?repo_name=freqtrade_strs
+          - generic [ref=e409]:
+            - heading "Contributors 3" [level=2] [ref=e410]:
+              - link "Contributors 3" [ref=e411] [cursor=pointer]:
+                - /url: /ssssi/freqtrade_strs/graphs/contributors
+                - text: Contributors
+                - generic "3" [ref=e412]
+            - list [ref=e413]:
+              - listitem [ref=e414]:
+                - link "@ssssi" [ref=e415] [cursor=pointer]:
+                  - /url: https://github.com/ssssi
+                  - img "@ssssi" [ref=e416]
+                - link "ssssi E0V1E" [ref=e418] [cursor=pointer]:
+                  - /url: https://github.com/ssssi
+                  - strong [ref=e419]: ssssi
+                  - text: E0V1E
+              - listitem [ref=e420]:
+                - link "@havefun2068" [ref=e421] [cursor=pointer]:
+                  - /url: https://github.com/havefun2068
+                  - img "@havefun2068" [ref=e422]
+                - link "havefun2068" [ref=e424] [cursor=pointer]:
+                  - /url: https://github.com/havefun2068
+                  - strong [ref=e425]: havefun2068
+              - listitem [ref=e426]:
+                - link "@meesvw" [ref=e427] [cursor=pointer]:
+                  - /url: https://github.com/meesvw
+                  - img "@meesvw" [ref=e428]
+                - link "meesvw mvw" [ref=e430] [cursor=pointer]:
+                  - /url: https://github.com/meesvw
+                  - strong [ref=e431]: meesvw
+                  - text: mvw
+          - generic [ref=e433]:
+            - heading "Languages" [level=2] [ref=e434]
+            - list [ref=e438]:
+              - listitem [ref=e439]:
+                - link "Python 100.0%" [ref=e440] [cursor=pointer]:
+                  - /url: /ssssi/freqtrade_strs/search?l=python
+                  - img [ref=e441]
+                  - generic [ref=e443]: Python
+                  - generic [ref=e444]: 100.0%
+  - contentinfo [ref=e446]:
+    - heading "Footer" [level=2] [ref=e447]
+    - generic [ref=e448]:
+      - generic [ref=e449]:
+        - link "GitHub Homepage" [ref=e450] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e451]
+        - generic [ref=e453]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e454]:
+        - heading "Footer navigation" [level=3] [ref=e455]
+        - list "Footer navigation" [ref=e456]:
+          - listitem [ref=e457]:
+            - link "Terms" [ref=e458] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e459]:
+            - link "Privacy" [ref=e460] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e461]:
+            - link "Security" [ref=e462] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e463]:
+            - link "Status" [ref=e464] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e465]:
+            - link "Community" [ref=e466] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e467]:
+            - link "Docs" [ref=e468] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e469]:
+            - link "Contact" [ref=e470] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e471]:
+            - button "Manage cookies" [ref=e473] [cursor=pointer]
+          - listitem [ref=e474]:
+            - button "Do not share my personal information" [ref=e476] [cursor=pointer]

@@ -1,0 +1,474 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FNeteaseFuxiRL%2FFuxiRL-research-book
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=NeteaseFuxiRL%2FFuxiRL-research-book
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "NeteaseFuxiRL" [ref=e70] [cursor=pointer]:
+            - /url: /NeteaseFuxiRL
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "FuxiRL-research-book" [ref=e73] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/FuxiRL-research-book
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2FNeteaseFuxiRL%2FFuxiRL-research-book
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 1" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2FNeteaseFuxiRL%2FFuxiRL-research-book
+                - img [ref=e82]
+                - text: Fork
+                - generic "1" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FNeteaseFuxiRL%2FFuxiRL-research-book
+                - img [ref=e88]
+                - text: Star
+                - generic "5 users starred this repository" [ref=e90]: "5"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/FuxiRL-research-book
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Pull requests" [ref=e99] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/FuxiRL-research-book/pulls
+              - img [ref=e100]
+              - generic [ref=e102]: Pull requests
+          - listitem [ref=e103]:
+            - link "Actions" [ref=e104] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/FuxiRL-research-book/actions
+              - img [ref=e105]
+              - generic [ref=e107]: Actions
+          - listitem [ref=e108]:
+            - link "Projects" [ref=e109] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/FuxiRL-research-book/projects
+              - img [ref=e110]
+              - generic [ref=e112]: Projects
+          - listitem [ref=e113]:
+            - link "Security and quality" [ref=e114] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/FuxiRL-research-book/security
+              - img [ref=e115]
+              - generic [ref=e117]: Security and quality
+          - listitem [ref=e118]:
+            - link "Insights" [ref=e119] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/FuxiRL-research-book/pulse
+              - img [ref=e120]
+              - generic [ref=e122]: Insights
+    - generic [ref=e135]:
+      - heading "NeteaseFuxiRL/FuxiRL-research-book" [level=1] [ref=e137]
+      - generic [ref=e138]:
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - button "master branch" [ref=e145] [cursor=pointer]:
+                - generic [ref=e146]:
+                  - generic [ref=e148]:
+                    - img [ref=e150]
+                    - generic [ref=e153]: master
+                  - generic:
+                    - img
+              - generic [ref=e154]:
+                - link "1 Branch" [ref=e155] [cursor=pointer]:
+                  - /url: /NeteaseFuxiRL/FuxiRL-research-book/branches
+                  - generic [ref=e156]:
+                    - generic:
+                      - img
+                    - generic [ref=e158]:
+                      - strong [ref=e159]: "1"
+                      - text: Branch
+                - link "0 Tags" [ref=e160] [cursor=pointer]:
+                  - /url: /NeteaseFuxiRL/FuxiRL-research-book/tags
+                  - generic [ref=e161]:
+                    - generic:
+                      - img
+                    - generic [ref=e163]:
+                      - strong [ref=e164]: "0"
+                      - text: Tags
+            - generic [ref=e165]:
+              - generic [ref=e169]:
+                - img [ref=e171]
+                - combobox "Go to file" [ref=e173]
+              - button "Code" [ref=e174] [cursor=pointer]:
+                - generic [ref=e175]:
+                  - generic:
+                    - img
+                  - generic [ref=e176]: Code
+                  - generic:
+                    - img
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - heading "Folders and files" [level=2] [ref=e179]
+              - table "Folders and files" [ref=e180]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e181]:
+                  - row "Latest commit author chenyingfeng1 add new paper list of 2020 Commit 7852e77 · Feb 17, 20206 years ago History 89 Commits" [ref=e182]:
+                    - cell "Latest commit author chenyingfeng1 add new paper list of 2020 Commit 7852e77 · Feb 17, 20206 years ago History 89 Commits" [ref=e183]:
+                      - generic [ref=e184]:
+                        - heading "Latest commit" [level=2] [ref=e185]
+                        - generic [ref=e186]:
+                          - generic [ref=e188]:
+                            - img "author" [ref=e189]
+                            - generic "chenyingfeng1" [ref=e190]
+                          - link "add new paper list of 2020" [ref=e194] [cursor=pointer]:
+                            - /url: /NeteaseFuxiRL/FuxiRL-research-book/commit/7852e7710a83524f2c21b7002088ba9b5b6b60a8
+                        - generic [ref=e195]:
+                          - generic [ref=e197]:
+                            - link "Commit 7852e77" [ref=e198] [cursor=pointer]:
+                              - /url: /NeteaseFuxiRL/FuxiRL-research-book/commit/7852e7710a83524f2c21b7002088ba9b5b6b60a8
+                              - text: "7852e77"
+                            - text: ·
+                            - generic "Feb 17, 2020, 6:24 PM GMT+9" [ref=e199]: Feb 17, 20206 years ago
+                          - generic [ref=e200]:
+                            - heading "History" [level=2] [ref=e201]
+                            - link "89 Commits" [ref=e202] [cursor=pointer]:
+                              - /url: /NeteaseFuxiRL/FuxiRL-research-book/commits/master/
+                              - generic [ref=e203]:
+                                - generic:
+                                  - img
+                                - generic [ref=e204]: 89 Commits
+                  - row ".assets, (Directory) 增加demo-回合制游戏的强化学习算法 Jan 15, 20207 years ago" [ref=e205]:
+                    - cell ".assets, (Directory)" [ref=e206]:
+                      - generic [ref=e207]:
+                        - img [ref=e208]
+                        - link ".assets, (Directory)" [ref=e213] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/FuxiRL-research-book/tree/master/.assets
+                          - text: .assets
+                    - cell "增加demo-回合制游戏的强化学习算法" [ref=e214]:
+                      - link "增加demo-回合制游戏的强化学习算法" [ref=e217] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/FuxiRL-research-book/commit/9a6cf58b322fb1d27c0b88bcd6553a652b10b01a
+                    - cell "Jan 15, 20207 years ago" [ref=e218]:
+                      - generic [ref=e219]: Jan 15, 20207 years ago
+                  - row ".idea, (Directory) curriculum generation3 Jan 14, 20207 years ago" [ref=e220]:
+                    - cell ".idea, (Directory)" [ref=e221]:
+                      - generic [ref=e222]:
+                        - img [ref=e223]
+                        - link ".idea, (Directory)" [ref=e228] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/FuxiRL-research-book/tree/master/.idea
+                          - text: .idea
+                    - cell "curriculum generation3" [ref=e229]:
+                      - link "curriculum generation3" [ref=e232] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/FuxiRL-research-book/commit/da97b375678d1a7c4115f2b70e0cf8e52c77ef70
+                    - cell "Jan 14, 20207 years ago" [ref=e233]:
+                      - generic [ref=e234]: Jan 14, 20207 years ago
+                  - row "blog-post, (Directory) 添加 对手隐藏风格识别 project Jan 3, 20207 years ago" [ref=e235]:
+                    - cell "blog-post, (Directory)" [ref=e236]:
+                      - generic [ref=e237]:
+                        - img [ref=e238]
+                        - link "blog-post, (Directory)" [ref=e243] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/FuxiRL-research-book/tree/master/blog-post
+                          - text: blog-post
+                    - cell "添加 对手隐藏风格识别 project" [ref=e244]:
+                      - link "添加 对手隐藏风格识别 project" [ref=e247] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/FuxiRL-research-book/commit/75d5738a865ce3937f078fa153f6969395581d7d
+                    - cell "Jan 3, 20207 years ago" [ref=e248]:
+                      - generic [ref=e249]: Jan 3, 20207 years ago
+                  - row "open-research, (Directory) add_email Jan 15, 20207 years ago" [ref=e250]:
+                    - cell "open-research, (Directory)" [ref=e251]:
+                      - generic [ref=e252]:
+                        - img [ref=e253]
+                        - link "open-research, (Directory)" [ref=e258] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/FuxiRL-research-book/tree/master/open-research
+                          - text: open-research
+                    - cell "add_email" [ref=e259]:
+                      - link "add_email" [ref=e262] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/FuxiRL-research-book/commit/3d915e7286aa22aa00fb0e7b7e56f3fc23a7ad78
+                    - cell "Jan 15, 20207 years ago" [ref=e263]:
+                      - generic [ref=e264]: Jan 15, 20207 years ago
+                  - row "project, (Directory) curriculum generation2 Jan 14, 20207 years ago" [ref=e265]:
+                    - cell "project, (Directory)" [ref=e266]:
+                      - generic [ref=e267]:
+                        - img [ref=e268]
+                        - link "project, (Directory)" [ref=e273] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/FuxiRL-research-book/tree/master/project
+                          - text: project
+                    - cell "curriculum generation2" [ref=e274]:
+                      - link "curriculum generation2" [ref=e277] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/FuxiRL-research-book/commit/d14423df7132646f5fdb73a031c69e9aaea48d18
+                    - cell "Jan 14, 20207 years ago" [ref=e278]:
+                      - generic [ref=e279]: Jan 14, 20207 years ago
+                  - row "talk, (Directory) Initial commit Jan 3, 20207 years ago" [ref=e280]:
+                    - cell "talk, (Directory)" [ref=e281]:
+                      - generic [ref=e282]:
+                        - img [ref=e283]
+                        - link "talk, (Directory)" [ref=e288] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/FuxiRL-research-book/tree/master/talk
+                          - text: talk
+                    - cell "Initial commit" [ref=e289]:
+                      - link "Initial commit" [ref=e292] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/FuxiRL-research-book/commit/a2a5c18e934f7606f1f3fe776b9f4418a4925372
+                    - cell "Jan 3, 20207 years ago" [ref=e293]:
+                      - generic [ref=e294]: Jan 3, 20207 years ago
+                  - row ".gitignore, (File) init Jan 15, 20207 years ago" [ref=e295]:
+                    - cell ".gitignore, (File)" [ref=e296]:
+                      - generic [ref=e297]:
+                        - img [ref=e298]
+                        - link ".gitignore, (File)" [ref=e303] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/FuxiRL-research-book/blob/master/.gitignore
+                          - text: .gitignore
+                    - cell "init" [ref=e304]:
+                      - link "init" [ref=e307] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/FuxiRL-research-book/commit/ff7c0ab2aa56138835126b58c679cac9b4a87278
+                    - cell "Jan 15, 20207 years ago" [ref=e308]:
+                      - generic [ref=e309]: Jan 15, 20207 years ago
+                  - row "README.md, (File) 修改时间错误 Jan 15, 20207 years ago" [ref=e310]:
+                    - cell "README.md, (File)" [ref=e311]:
+                      - generic [ref=e312]:
+                        - img [ref=e313]
+                        - link "README.md, (File)" [ref=e318] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/FuxiRL-research-book/blob/master/README.md
+                          - text: README.md
+                    - cell "修改时间错误" [ref=e319]:
+                      - link "修改时间错误" [ref=e322] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/FuxiRL-research-book/commit/c24c2e16310fa267ad03254a74c23c53a84c2d3e
+                    - cell "Jan 15, 20207 years ago" [ref=e323]:
+                      - generic [ref=e324]: Jan 15, 20207 years ago
+                  - row "SUMMARY.md, (File) 游戏AI泛化性研究 Jan 15, 20207 years ago" [ref=e325]:
+                    - cell "SUMMARY.md, (File)" [ref=e326]:
+                      - generic [ref=e327]:
+                        - img [ref=e328]
+                        - link "SUMMARY.md, (File)" [ref=e333] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/FuxiRL-research-book/blob/master/SUMMARY.md
+                          - text: SUMMARY.md
+                    - cell "游戏AI泛化性研究" [ref=e334]:
+                      - link "游戏AI泛化性研究" [ref=e337] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/FuxiRL-research-book/commit/ff3123af545e920851275a31654de0cff9a66413
+                    - cell "Jan 15, 20207 years ago" [ref=e338]:
+                      - generic [ref=e339]: Jan 15, 20207 years ago
+                  - row "publication.md, (File) add new paper list of 2020 Feb 17, 20206 years ago" [ref=e340]:
+                    - cell "publication.md, (File)" [ref=e341]:
+                      - generic [ref=e342]:
+                        - img [ref=e343]
+                        - link "publication.md, (File)" [ref=e348] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/FuxiRL-research-book/blob/master/publication.md
+                          - text: publication.md
+                    - cell "add new paper list of 2020" [ref=e349]:
+                      - link "add new paper list of 2020" [ref=e352] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/FuxiRL-research-book/commit/7852e7710a83524f2c21b7002088ba9b5b6b60a8
+                    - cell "Feb 17, 20206 years ago" [ref=e353]:
+                      - generic [ref=e354]: Feb 17, 20206 years ago
+            - generic [ref=e356]:
+              - generic [ref=e357]:
+                - heading "Repository files navigation" [level=2] [ref=e358]
+                - navigation "Repository files" [ref=e359]:
+                  - list [ref=e360]:
+                    - listitem [ref=e361]:
+                      - link "README" [ref=e362] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e364]
+                        - generic [ref=e366]: README
+                - button "Outline" [ref=e367] [cursor=pointer]:
+                  - img [ref=e368]
+              - article [ref=e371]:
+                - generic [ref=e372]:
+                  - heading "Fuxi RL Team" [level=1] [ref=e373]
+                  - 'link "Permalink: Fuxi RL Team" [ref=e374] [cursor=pointer]':
+                    - /url: "#fuxi-rl-team"
+                    - img [ref=e375]
+                - generic [ref=e377]:
+                  - heading "News" [level=2] [ref=e378]
+                  - 'link "Permalink: News" [ref=e379] [cursor=pointer]':
+                    - /url: "#news"
+                    - img [ref=e380]
+                - list [ref=e382]:
+                  - listitem [ref=e383]:
+                    - paragraph [ref=e384]:
+                      - emphasis [ref=e385]:
+                        - strong [ref=e386]: "15 Jan 2020:"
+                      - text: "Our paper \"Mastering Basketball with Deep Reinforcement Learning: An Integrated Curriculum Training Approach\" and \"Efficient Deep Reinforcement Learning through Policy Transfer\" are accepted as extended abstract by AAMAS 2020."
+                  - listitem [ref=e387]:
+                    - paragraph [ref=e388]:
+                      - emphasis [ref=e389]:
+                        - strong [ref=e390]: "20 Dec 2019:"
+                      - text: "Our paper \"Action Relation Network: Considering the Effects of Actions in Multiagent Systems\" is accepted by ICLR 2020."
+                  - listitem [ref=e391]:
+                    - paragraph [ref=e392]:
+                      - emphasis [ref=e393]:
+                        - strong [ref=e394]: "19 Dec 2019:"
+                      - text: Our presentation "Building Intelligent Game Testing System in Netease MMORPG Game" is accepted by
+                      - link "AI Summit GDC 2020" [ref=e395] [cursor=pointer]:
+                        - /url: https://schedule.gdconf.com/session/machine-learning-summit-building-intelligent-game-testing-system-in-netease-mmorpg-game/870815
+                      - text: .
+                  - listitem [ref=e396]:
+                    - paragraph [ref=e397]:
+                      - emphasis [ref=e398]:
+                        - strong [ref=e399]: "11 Nov 2019:"
+                      - text: "Our 2 regular and 1 workshop papers are accepted by AAAI 2020, \"Multi-Agent Game Abstraction via Graph Attention Neural Networks\", \"From Less to More: A Dynamic Agent Number Network for Large-scale Multiagent Curriculum Learning\", \"Generative Adversarial Imitation Learning from Failure Experience\"."
+                  - listitem [ref=e400]:
+                    - paragraph [ref=e401]:
+                      - emphasis [ref=e402]:
+                        - strong [ref=e403]: "9 Nov 2019:"
+                      - text: Our presentation "Applying Reinforcement Learning to Develop Game AI in NetEase Game" is accepted by
+                      - link "GDC 2020 Core" [ref=e404] [cursor=pointer]:
+                        - /url: https://schedule.gdconf.com/session/applying-reinforcement-learning-to-develop-game-ai-in-netease-games/868770
+                - generic [ref=e405]:
+                  - heading "Members" [level=2] [ref=e406]
+                  - 'link "Permalink: Members" [ref=e407] [cursor=pointer]':
+                    - /url: "#members"
+                    - img [ref=e408]
+                - generic [ref=e410]:
+                  - heading "Fuxi Lab" [level=2] [ref=e411]
+                  - 'link "Permalink: Fuxi Lab" [ref=e412] [cursor=pointer]':
+                    - /url: "#fuxi-lab"
+                    - img [ref=e413]
+                - paragraph [ref=e415]: NetEase Fuxi Lab is considered as the professional game AI research division in China. Dr. Harry Shum, an NAE foreign member who is worldly-known for his research on artificial intelligence has joined us as our chief advisor. Fuxi is founded on the principle of bridging artificial intelligence and electronic games through transdisciplinary research. We use cutting-edge technologies to reshape the audiovisual experience of our gamers. In the meantime, the mass data and virtual environment provided by our game platform also enable us to boost the development of AI frontier research.
+                - paragraph [ref=e416]: We focus on researching big data platform, user persona, reinforcement learning, computer vision & graphics, natural language processing, speech synthesis & music generation, and their potentiality in game industry. All of our team members have both professional education background (THU, PKU, ZJU, USTC, WHU, etc.) and strong practice aptitude.
+                - paragraph [ref=e417]:
+                  - link "Visit our website here" [ref=e418] [cursor=pointer]:
+                    - /url: https://fuxi.163.com/en/index.html
+                - generic [ref=e419]:
+                  - heading "联系我们" [level=2] [ref=e420]
+                  - 'link "Permalink: 联系我们" [ref=e421] [cursor=pointer]':
+                    - /url: "#联系我们"
+                    - img [ref=e422]
+                - list [ref=e424]:
+                  - listitem [ref=e425]:
+                    - text: "Email:"
+                    - link "chenyingfeng1@corp.netease.com" [ref=e426] [cursor=pointer]:
+                      - /url: mailto:chenyingfeng1@corp.netease.com
+        - generic [ref=e430]:
+          - generic [ref=e433]:
+            - heading "About" [level=2] [ref=e434]
+            - generic [ref=e435]: No description, website, or topics provided.
+            - heading "Resources" [level=3] [ref=e436]
+            - link "Readme" [ref=e438] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e439]
+              - text: Readme
+            - link "Activity" [ref=e442] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/FuxiRL-research-book/activity
+              - img [ref=e443]
+              - text: Activity
+            - link "Custom properties" [ref=e446] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/FuxiRL-research-book/custom-properties
+              - img [ref=e447]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e449]
+            - link "5 stars" [ref=e451] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/FuxiRL-research-book/stargazers
+              - img [ref=e452]
+              - strong [ref=e454]: "5"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e455]
+            - link "0 watching" [ref=e457] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/FuxiRL-research-book/watchers
+              - img [ref=e458]
+              - strong [ref=e460]: "0"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e461]
+            - link "1 fork" [ref=e463] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/FuxiRL-research-book/forks
+              - img [ref=e464]
+              - strong [ref=e466]: "1"
+              - text: fork
+            - link "Report repository" [ref=e468] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FNeteaseFuxiRL%2FFuxiRL-research-book&report=NeteaseFuxiRL+%28user%29
+          - generic [ref=e470]:
+            - heading "Releases" [level=2] [ref=e471]:
+              - link "Releases" [ref=e472] [cursor=pointer]:
+                - /url: /NeteaseFuxiRL/FuxiRL-research-book/releases
+            - generic [ref=e473]: No releases published
+          - generic [ref=e475]:
+            - heading "Packages" [level=2] [ref=e476]:
+              - link "Packages" [ref=e477] [cursor=pointer]:
+                - /url: /orgs/NeteaseFuxiRL/packages?repo_name=FuxiRL-research-book
+            - generic [ref=e478]: No packages published
+          - generic [ref=e480]:
+            - heading "Contributors" [level=2] [ref=e481]:
+              - link "Contributors" [ref=e482] [cursor=pointer]:
+                - /url: /NeteaseFuxiRL/FuxiRL-research-book/graphs/contributors
+            - generic [ref=e483]: No contributors
+  - contentinfo [ref=e485]:
+    - heading "Footer" [level=2] [ref=e486]
+    - generic [ref=e487]:
+      - generic [ref=e488]:
+        - link "GitHub Homepage" [ref=e489] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e490]
+        - generic [ref=e492]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e493]:
+        - heading "Footer navigation" [level=3] [ref=e494]
+        - list "Footer navigation" [ref=e495]:
+          - listitem [ref=e496]:
+            - link "Terms" [ref=e497] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e498]:
+            - link "Privacy" [ref=e499] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e500]:
+            - link "Security" [ref=e501] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e502]:
+            - link "Status" [ref=e503] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e504]:
+            - link "Community" [ref=e505] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e506]:
+            - link "Docs" [ref=e507] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e508]:
+            - link "Contact" [ref=e509] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e510]:
+            - button "Manage cookies" [ref=e512] [cursor=pointer]
+          - listitem [ref=e513]:
+            - button "Do not share my personal information" [ref=e515] [cursor=pointer]

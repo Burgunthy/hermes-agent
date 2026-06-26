@@ -1,0 +1,967 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fisaac-sim%2FIsaacGymEnvs
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=isaac-sim%2FIsaacGymEnvs
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]: This repository was archived by the owner on Apr 14, 2026. It is now read-only.
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e67]:
+          - img [ref=e68]
+          - link "isaac-sim" [ref=e71] [cursor=pointer]:
+            - /url: /isaac-sim
+          - generic [ref=e72]: /
+          - strong [ref=e73]:
+            - link "IsaacGymEnvs" [ref=e74] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs
+          - generic [ref=e75]: Public archive
+        - generic [ref=e76]:
+          - list:
+            - listitem [ref=e77]:
+              - link "You must be signed in to change notification settings" [ref=e78] [cursor=pointer]:
+                - /url: /login?return_to=%2Fisaac-sim%2FIsaacGymEnvs
+                - img [ref=e79]
+                - text: Notifications
+            - listitem [ref=e81]:
+              - link "Fork 516" [ref=e82] [cursor=pointer]:
+                - /url: /login?return_to=%2Fisaac-sim%2FIsaacGymEnvs
+                - img [ref=e83]
+                - text: Fork
+                - generic "516" [ref=e85]
+            - listitem [ref=e86]:
+              - link "You must be signed in to star a repository" [ref=e88] [cursor=pointer]:
+                - /url: /login?return_to=%2Fisaac-sim%2FIsaacGymEnvs
+                - img [ref=e89]
+                - text: Star
+                - generic "2934 users starred this repository" [ref=e91]: 2.9k
+      - navigation "Repository" [ref=e92]:
+        - list [ref=e93]:
+          - listitem [ref=e94]:
+            - link "Code" [ref=e95] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs
+              - img [ref=e96]
+              - generic [ref=e98]: Code
+          - listitem [ref=e99]:
+            - link "Issues 145" [ref=e100] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/issues
+              - img [ref=e101]
+              - generic [ref=e104]: Issues
+              - generic "145" [ref=e105]
+          - listitem [ref=e106]:
+            - link "Pull requests 13" [ref=e107] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/pulls
+              - img [ref=e108]
+              - generic [ref=e110]: Pull requests
+              - generic "13" [ref=e111]
+          - listitem [ref=e112]:
+            - link "Actions" [ref=e113] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/actions
+              - img [ref=e114]
+              - generic [ref=e116]: Actions
+          - listitem [ref=e117]:
+            - link "Projects" [ref=e118] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/projects
+              - img [ref=e119]
+              - generic [ref=e121]: Projects
+          - listitem [ref=e122]:
+            - link "Security and quality" [ref=e123] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/security
+              - img [ref=e124]
+              - generic [ref=e126]: Security and quality
+          - listitem [ref=e127]:
+            - link "Insights" [ref=e128] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/pulse
+              - img [ref=e129]
+              - generic [ref=e131]: Insights
+    - generic [ref=e144]:
+      - heading "isaac-sim/IsaacGymEnvs" [level=1] [ref=e146]
+      - generic [ref=e147]:
+        - generic [ref=e150]:
+          - generic [ref=e151]:
+            - generic [ref=e152]:
+              - button "main branch" [ref=e154] [cursor=pointer]:
+                - generic [ref=e155]:
+                  - generic [ref=e157]:
+                    - img [ref=e159]
+                    - generic [ref=e162]: main
+                  - generic:
+                    - img
+              - generic [ref=e163]:
+                - link "4 Branches" [ref=e164] [cursor=pointer]:
+                  - /url: /isaac-sim/IsaacGymEnvs/branches
+                  - generic [ref=e165]:
+                    - generic:
+                      - img
+                    - generic [ref=e167]:
+                      - strong [ref=e168]: "4"
+                      - text: Branches
+                - link "5 Tags" [ref=e169] [cursor=pointer]:
+                  - /url: /isaac-sim/IsaacGymEnvs/tags
+                  - generic [ref=e170]:
+                    - generic:
+                      - img
+                    - generic [ref=e172]:
+                      - strong [ref=e173]: "5"
+                      - text: Tags
+            - generic [ref=e174]:
+              - generic [ref=e178]:
+                - img [ref=e180]
+                - combobox "Go to file" [ref=e182]
+              - button "Code" [ref=e183] [cursor=pointer]:
+                - generic [ref=e184]:
+                  - generic:
+                    - img
+                  - generic [ref=e185]: Code
+                  - generic:
+                    - img
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - heading "Folders and files" [level=2] [ref=e188]
+              - table "Folders and files" [ref=e189]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e190]:
+                  - row "Latest commit kellyguo11 commits by kellyguo11 merge release 1.5.1 from dev to main Commit aeed298 · Oct 19, 20233 years ago History 56 Commits" [ref=e191]:
+                    - cell "Latest commit kellyguo11 commits by kellyguo11 merge release 1.5.1 from dev to main Commit aeed298 · Oct 19, 20233 years ago History 56 Commits" [ref=e192]:
+                      - generic [ref=e193]:
+                        - heading "Latest commit" [level=2] [ref=e194]
+                        - generic [ref=e195]:
+                          - generic [ref=e197]:
+                            - link "kellyguo11" [ref=e198] [cursor=pointer]:
+                              - /url: /kellyguo11
+                              - img "kellyguo11" [ref=e199]
+                            - link "commits by kellyguo11" [ref=e200] [cursor=pointer]:
+                              - /url: /isaac-sim/IsaacGymEnvs/commits?author=kellyguo11
+                              - text: kellyguo11
+                          - link "merge release 1.5.1 from dev to main" [ref=e204] [cursor=pointer]:
+                            - /url: /isaac-sim/IsaacGymEnvs/commit/aeed298638a1f7b5421b38f5f3cc2d1079b6d9c3
+                        - generic [ref=e205]:
+                          - generic [ref=e207]:
+                            - link "Commit aeed298" [ref=e208] [cursor=pointer]:
+                              - /url: /isaac-sim/IsaacGymEnvs/commit/aeed298638a1f7b5421b38f5f3cc2d1079b6d9c3
+                              - text: aeed298
+                            - text: ·
+                            - generic "Oct 19, 2023, 1:22 AM GMT+9" [ref=e209]: Oct 19, 20233 years ago
+                          - generic [ref=e210]:
+                            - heading "History" [level=2] [ref=e211]
+                            - link "56 Commits" [ref=e212] [cursor=pointer]:
+                              - /url: /isaac-sim/IsaacGymEnvs/commits/main/
+                              - generic [ref=e213]:
+                                - generic:
+                                  - img
+                                - generic [ref=e214]: 56 Commits
+                  - row ".gitlab/issue_templates, (Directory) Add a merge request template Jul 2, 20224 years ago" [ref=e215]:
+                    - cell ".gitlab/issue_templates, (Directory)" [ref=e216]:
+                      - generic [ref=e217]:
+                        - img [ref=e218]
+                        - link ".gitlab/issue_templates, (Directory)" [ref=e223] [cursor=pointer]:
+                          - /url: /isaac-sim/IsaacGymEnvs/tree/main/.gitlab/issue_templates
+                          - text: .gitlab/issue_templates
+                    - cell "Add a merge request template" [ref=e224]:
+                      - link "Add a merge request template" [ref=e227] [cursor=pointer]:
+                        - /url: /isaac-sim/IsaacGymEnvs/commit/c8850ad4a37d92117f1af960f2a93f9964d0577b
+                    - cell "Jul 2, 20224 years ago" [ref=e228]:
+                      - generic [ref=e229]: Jul 2, 20224 years ago
+                  - row "assets, (Directory) Merge Request for IndustRealSim Sep 20, 20233 years ago" [ref=e230]:
+                    - cell "assets, (Directory)" [ref=e231]:
+                      - generic [ref=e232]:
+                        - img [ref=e233]
+                        - link "assets, (Directory)" [ref=e238] [cursor=pointer]:
+                          - /url: /isaac-sim/IsaacGymEnvs/tree/main/assets
+                          - text: assets
+                    - cell "Merge Request for IndustRealSim" [ref=e239]:
+                      - link "Merge Request for IndustRealSim" [ref=e242] [cursor=pointer]:
+                        - /url: /isaac-sim/IsaacGymEnvs/commit/030a8b150214d56386f88c90a4ce4b3df3b8f527
+                    - cell "Sep 20, 20233 years ago" [ref=e243]:
+                      - generic [ref=e244]: Sep 20, 20233 years ago
+                  - row "docs, (Directory) merge release 1.5.1 from dev to main Oct 19, 20233 years ago" [ref=e245]:
+                    - cell "docs, (Directory)" [ref=e246]:
+                      - generic [ref=e247]:
+                        - img [ref=e248]
+                        - link "docs, (Directory)" [ref=e253] [cursor=pointer]:
+                          - /url: /isaac-sim/IsaacGymEnvs/tree/main/docs
+                          - text: docs
+                    - cell "merge release 1.5.1 from dev to main" [ref=e254]:
+                      - link "merge release 1.5.1 from dev to main" [ref=e257] [cursor=pointer]:
+                        - /url: /isaac-sim/IsaacGymEnvs/commit/aeed298638a1f7b5421b38f5f3cc2d1079b6d9c3
+                    - cell "Oct 19, 20233 years ago" [ref=e258]:
+                      - generic [ref=e259]: Oct 19, 20233 years ago
+                  - row "isaacgymenvs, (Directory) merge release 1.5.1 from dev to main Oct 19, 20233 years ago" [ref=e260]:
+                    - cell "isaacgymenvs, (Directory)" [ref=e261]:
+                      - generic [ref=e262]:
+                        - img [ref=e263]
+                        - link "isaacgymenvs, (Directory)" [ref=e268] [cursor=pointer]:
+                          - /url: /isaac-sim/IsaacGymEnvs/tree/main/isaacgymenvs
+                          - text: isaacgymenvs
+                    - cell "merge release 1.5.1 from dev to main" [ref=e269]:
+                      - link "merge release 1.5.1 from dev to main" [ref=e272] [cursor=pointer]:
+                        - /url: /isaac-sim/IsaacGymEnvs/commit/aeed298638a1f7b5421b38f5f3cc2d1079b6d9c3
+                    - cell "Oct 19, 20233 years ago" [ref=e273]:
+                      - generic [ref=e274]: Oct 19, 20233 years ago
+                  - row ".gitattributes, (File) Feature/add factory envs Jul 2, 20224 years ago" [ref=e275]:
+                    - cell ".gitattributes, (File)" [ref=e276]:
+                      - generic [ref=e277]:
+                        - img [ref=e278]
+                        - link ".gitattributes, (File)" [ref=e283] [cursor=pointer]:
+                          - /url: /isaac-sim/IsaacGymEnvs/blob/main/.gitattributes
+                          - text: .gitattributes
+                    - cell "Feature/add factory envs" [ref=e284]:
+                      - link "Feature/add factory envs" [ref=e287] [cursor=pointer]:
+                        - /url: /isaac-sim/IsaacGymEnvs/commit/ac5a3d03359ec73d4eea2040f345a7182827a865
+                    - cell "Jul 2, 20224 years ago" [ref=e288]:
+                      - generic [ref=e289]: Jul 2, 20224 years ago
+                  - row ".gitignore, (File) Dextreme and ADR release Mar 29, 20233 years ago" [ref=e290]:
+                    - cell ".gitignore, (File)" [ref=e291]:
+                      - generic [ref=e292]:
+                        - img [ref=e293]
+                        - link ".gitignore, (File)" [ref=e298] [cursor=pointer]:
+                          - /url: /isaac-sim/IsaacGymEnvs/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell "Dextreme and ADR release" [ref=e299]:
+                      - link "Dextreme and ADR release" [ref=e302] [cursor=pointer]:
+                        - /url: /isaac-sim/IsaacGymEnvs/commit/7a4c165346ac2dff2d89aa877702d0570db7264a
+                    - cell "Mar 29, 20233 years ago" [ref=e303]:
+                      - generic [ref=e304]: Mar 29, 20233 years ago
+                  - row ".pre-commit-config.yaml, (File) Add pre-commit utilities Jul 2, 20224 years ago" [ref=e305]:
+                    - cell ".pre-commit-config.yaml, (File)" [ref=e306]:
+                      - generic [ref=e307]:
+                        - img [ref=e308]
+                        - link ".pre-commit-config.yaml, (File)" [ref=e313] [cursor=pointer]:
+                          - /url: /isaac-sim/IsaacGymEnvs/blob/main/.pre-commit-config.yaml
+                          - text: .pre-commit-config.yaml
+                    - cell "Add pre-commit utilities" [ref=e314]:
+                      - link "Add pre-commit utilities" [ref=e317] [cursor=pointer]:
+                        - /url: /isaac-sim/IsaacGymEnvs/commit/5b92d5cf6aba7eca982b999b6f8dd76d4c914d4e
+                    - cell "Jul 2, 20224 years ago" [ref=e318]:
+                      - generic [ref=e319]: Jul 2, 20224 years ago
+                  - row "LICENSE.txt, (File) Docs fixed and rlgames test working with both AllegroHandDeXtreme env… Apr 12, 20233 years ago" [ref=e320]:
+                    - cell "LICENSE.txt, (File)" [ref=e321]:
+                      - generic [ref=e322]:
+                        - img [ref=e323]
+                        - link "LICENSE.txt, (File)" [ref=e328] [cursor=pointer]:
+                          - /url: /isaac-sim/IsaacGymEnvs/blob/main/LICENSE.txt
+                          - text: LICENSE.txt
+                    - cell "Docs fixed and rlgames test working with both AllegroHandDeXtreme env…" [ref=e329]:
+                      - link "Docs fixed and rlgames test working with both AllegroHandDeXtreme env…" [ref=e332] [cursor=pointer]:
+                        - /url: /isaac-sim/IsaacGymEnvs/commit/3d2d5ed7ce71401db3063d8c339f4a800ce8709f
+                    - cell "Apr 12, 20233 years ago" [ref=e333]:
+                      - generic [ref=e334]: Apr 12, 20233 years ago
+                  - row "README.md, (File) Merge Request for IndustRealSim Sep 20, 20233 years ago" [ref=e335]:
+                    - cell "README.md, (File)" [ref=e336]:
+                      - generic [ref=e337]:
+                        - img [ref=e338]
+                        - link "README.md, (File)" [ref=e343] [cursor=pointer]:
+                          - /url: /isaac-sim/IsaacGymEnvs/blob/main/README.md
+                          - text: README.md
+                    - cell "Merge Request for IndustRealSim" [ref=e344]:
+                      - link "Merge Request for IndustRealSim" [ref=e347] [cursor=pointer]:
+                        - /url: /isaac-sim/IsaacGymEnvs/commit/030a8b150214d56386f88c90a4ce4b3df3b8f527
+                    - cell "Sep 20, 20233 years ago" [ref=e348]:
+                      - generic [ref=e349]: Sep 20, 20233 years ago
+                  - row "setup.py, (File) merge release 1.5.1 from dev to main Oct 19, 20233 years ago" [ref=e350]:
+                    - cell "setup.py, (File)" [ref=e351]:
+                      - generic [ref=e352]:
+                        - img [ref=e353]
+                        - link "setup.py, (File)" [ref=e358] [cursor=pointer]:
+                          - /url: /isaac-sim/IsaacGymEnvs/blob/main/setup.py
+                          - text: setup.py
+                    - cell "merge release 1.5.1 from dev to main" [ref=e359]:
+                      - link "merge release 1.5.1 from dev to main" [ref=e362] [cursor=pointer]:
+                        - /url: /isaac-sim/IsaacGymEnvs/commit/aeed298638a1f7b5421b38f5f3cc2d1079b6d9c3
+                    - cell "Oct 19, 20233 years ago" [ref=e363]:
+                      - generic [ref=e364]: Oct 19, 20233 years ago
+            - generic [ref=e366]:
+              - generic [ref=e367]:
+                - heading "Repository files navigation" [level=2] [ref=e368]
+                - navigation "Repository files" [ref=e369]:
+                  - list [ref=e370]:
+                    - listitem [ref=e371]:
+                      - link "README" [ref=e372] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e374]
+                        - generic [ref=e376]: README
+                    - listitem [ref=e377]:
+                      - link "License" [ref=e378] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e380]
+                        - generic [ref=e382]: License
+                - button "Outline" [ref=e383] [cursor=pointer]:
+                  - img [ref=e384]
+              - article [ref=e387]:
+                - generic [ref=e388]:
+                  - heading "Isaac Gym Benchmark Environments" [level=1] [ref=e389]
+                  - 'link "Permalink: Isaac Gym Benchmark Environments" [ref=e390] [cursor=pointer]':
+                    - /url: "#isaac-gym-benchmark-environments"
+                    - img [ref=e391]
+                - paragraph [ref=e393]:
+                  - link "Website" [ref=e394] [cursor=pointer]:
+                    - /url: https://developer.nvidia.com/isaac-gym
+                  - text: "|"
+                  - link "Technical Paper" [ref=e395] [cursor=pointer]:
+                    - /url: https://arxiv.org/abs/2108.10470
+                  - text: "|"
+                  - link "Videos" [ref=e396] [cursor=pointer]:
+                    - /url: https://sites.google.com/view/isaacgym-nvidia
+                - generic [ref=e397]:
+                  - heading "About this repository" [level=3] [ref=e398]
+                  - 'link "Permalink: About this repository" [ref=e399] [cursor=pointer]':
+                    - /url: "#about-this-repository"
+                    - img [ref=e400]
+                - paragraph [ref=e402]:
+                  - text: This repository contains example RL environments for the NVIDIA Isaac Gym high performance environments described
+                  - link "in our NeurIPS 2021 Datasets and Benchmarks paper" [ref=e403] [cursor=pointer]:
+                    - /url: https://openreview.net/forum?id=fgFBtYgJQX_
+                - generic [ref=e404]:
+                  - heading "Installation" [level=3] [ref=e405]
+                  - 'link "Permalink: Installation" [ref=e406] [cursor=pointer]':
+                    - /url: "#installation"
+                    - img [ref=e407]
+                - paragraph [ref=e409]:
+                  - text: Download the Isaac Gym Preview 4 release from the
+                  - link "website" [ref=e410] [cursor=pointer]:
+                    - /url: https://developer.nvidia.com/isaac-gym
+                  - text: ", then follow the installation instructions in the documentation. We highly recommend using a conda environment to simplify set up."
+                - paragraph [ref=e411]:
+                  - text: Ensure that Isaac Gym works on your system by running one of the examples from the
+                  - code [ref=e412]: python/examples
+                  - text: directory, like
+                  - code [ref=e413]: joint_monkey.py
+                  - text: . Follow troubleshooting steps described in the Isaac Gym Preview 4 install instructions if you have any trouble running the samples.
+                - paragraph [ref=e414]: "Once Isaac Gym is installed and samples work within your current python environment, install this repo:"
+                - generic [ref=e415]:
+                  - generic [ref=e416]: pip install -e .
+                  - button "Copy code to clipboard" [ref=e418] [cursor=pointer]:
+                    - img [ref=e419]
+                - generic [ref=e422]:
+                  - heading "Creating an environment" [level=3] [ref=e423]
+                  - 'link "Permalink: Creating an environment" [ref=e424] [cursor=pointer]':
+                    - /url: "#creating-an-environment"
+                    - img [ref=e425]
+                - paragraph [ref=e427]:
+                  - text: We offer an easy-to-use API for creating preset vectorized environments. For more info on what a vectorized environment is and its usage, please refer to the Gym library
+                  - link "documentation" [ref=e428] [cursor=pointer]:
+                    - /url: https://www.gymlibrary.dev/content/vectorising/#vectorized-environments
+                  - text: .
+                - generic [ref=e429]:
+                  - generic [ref=e430]: "import isaacgym import isaacgymenvs import torch num_envs = 2000 envs = isaacgymenvs.make( seed=0, task=\"Ant\", num_envs=num_envs, sim_device=\"cuda:0\", rl_device=\"cuda:0\", ) print(\"Observation space is\", envs.observation_space) print(\"Action space is\", envs.action_space) obs = envs.reset() for _ in range(20): random_actions = 2.0 * torch.rand((num_envs,) + envs.action_space.shape, device = 'cuda:0') - 1.0 envs.step(random_actions)"
+                  - button "Copy code to clipboard" [ref=e432] [cursor=pointer]:
+                    - img [ref=e433]
+                - generic [ref=e436]:
+                  - heading "Running the benchmarks" [level=3] [ref=e437]
+                  - 'link "Permalink: Running the benchmarks" [ref=e438] [cursor=pointer]':
+                    - /url: "#running-the-benchmarks"
+                    - img [ref=e439]
+                - paragraph [ref=e441]: "To train your first policy, run this line:"
+                - generic [ref=e442]:
+                  - generic [ref=e443]: python train.py task=Cartpole
+                  - button "Copy code to clipboard" [ref=e445] [cursor=pointer]:
+                    - img [ref=e446]
+                - paragraph [ref=e449]: Cartpole should train to the point that the pole stays upright within a few seconds of starting.
+                - paragraph [ref=e450]: "Here's another example - Ant locomotion:"
+                - generic [ref=e451]:
+                  - generic [ref=e452]: python train.py task=Ant
+                  - button "Copy code to clipboard" [ref=e454] [cursor=pointer]:
+                    - img [ref=e455]
+                - paragraph [ref=e458]:
+                  - text: Note that by default we show a preview window, which will usually slow down training. You can use the
+                  - code [ref=e459]: v
+                  - text: key while running to disable viewer updates and allow training to proceed faster. Hit the
+                  - code [ref=e460]: v
+                  - text: key again to resume viewing after a few seconds of training, once the ants have learned to run a bit better.
+                - paragraph [ref=e461]:
+                  - text: Use the
+                  - code [ref=e462]: esc
+                  - text: key or close the viewer window to stop training early.
+                - paragraph [ref=e463]: "Alternatively, you can train headlessly, as follows:"
+                - generic [ref=e464]:
+                  - generic [ref=e465]: python train.py task=Ant headless=True
+                  - button "Copy code to clipboard" [ref=e467] [cursor=pointer]:
+                    - img [ref=e468]
+                - paragraph [ref=e471]: Ant may take a minute or two to train a policy you can run. When running headlessly, you can stop it early using Control-C in the command line window.
+                - generic [ref=e472]:
+                  - heading "Loading trained models // Checkpoints" [level=3] [ref=e473]
+                  - 'link "Permalink: Loading trained models // Checkpoints" [ref=e474] [cursor=pointer]':
+                    - /url: "#loading-trained-models--checkpoints"
+                    - img [ref=e475]
+                - paragraph [ref=e477]:
+                  - text: Checkpoints are saved in the folder
+                  - code [ref=e478]: runs/EXPERIMENT_NAME/nn
+                  - text: where
+                  - code [ref=e479]: EXPERIMENT_NAME
+                  - text: defaults to the task name, but can also be overridden via the
+                  - code [ref=e480]: experiment
+                  - text: argument.
+                - paragraph [ref=e481]:
+                  - text: To load a trained checkpoint and continue training, use the
+                  - code [ref=e482]: checkpoint
+                  - text: "argument:"
+                - generic [ref=e483]:
+                  - generic [ref=e484]: python train.py task=Ant checkpoint=runs/Ant/nn/Ant.pth
+                  - button "Copy code to clipboard" [ref=e486] [cursor=pointer]:
+                    - img [ref=e487]
+                - paragraph [ref=e490]:
+                  - text: To load a trained checkpoint and only perform inference (no training), pass
+                  - code [ref=e491]: test=True
+                  - text: as an argument, along with the checkpoint name. To avoid rendering overhead, you may also want to run with fewer environments using
+                  - code [ref=e492]: num_envs=64
+                  - text: ":"
+                - generic [ref=e493]:
+                  - generic [ref=e494]: python train.py task=Ant checkpoint=runs/Ant/nn/Ant.pth test=True num_envs=64
+                  - button "Copy code to clipboard" [ref=e496] [cursor=pointer]:
+                    - img [ref=e497]
+                - paragraph [ref=e500]:
+                  - text: Note that If there are special characters such as
+                  - code [ref=e501]: "["
+                  - text: or
+                  - code [ref=e502]: =
+                  - text: in the checkpoint names, you will need to escape them and put quotes around the string. For example,
+                  - code [ref=e503]: checkpoint="./runs/Ant/nn/last_Antep\=501rew\[5981.31\].pth"
+                - generic [ref=e504]:
+                  - heading "Configuration and command line arguments" [level=3] [ref=e505]
+                  - 'link "Permalink: Configuration and command line arguments" [ref=e506] [cursor=pointer]':
+                    - /url: "#configuration-and-command-line-arguments"
+                    - img [ref=e507]
+                - paragraph [ref=e509]:
+                  - text: We use
+                  - link "Hydra" [ref=e510] [cursor=pointer]:
+                    - /url: https://hydra.cc/docs/intro/
+                  - text: to manage the config. Note that this has some differences from previous incarnations in older versions of Isaac Gym.
+                - paragraph [ref=e511]:
+                  - text: Key arguments to the
+                  - code [ref=e512]: train.py
+                  - text: "script are:"
+                - list [ref=e513]:
+                  - listitem [ref=e514]:
+                    - code [ref=e515]: task=TASK
+                    - text: "- selects which task to use. Any of"
+                    - code [ref=e516]: AllegroHand
+                    - text: ","
+                    - code [ref=e517]: AllegroHandDextremeADR
+                    - text: ","
+                    - code [ref=e518]: AllegroHandDextremeManualDR
+                    - text: ","
+                    - code [ref=e519]: AllegroKukaLSTM
+                    - text: ","
+                    - code [ref=e520]: AllegroKukaTwoArmsLSTM
+                    - text: ","
+                    - code [ref=e521]: Ant
+                    - text: ","
+                    - code [ref=e522]: Anymal
+                    - text: ","
+                    - code [ref=e523]: AnymalTerrain
+                    - text: ","
+                    - code [ref=e524]: BallBalance
+                    - text: ","
+                    - code [ref=e525]: Cartpole
+                    - text: ","
+                    - code [ref=e526]: FrankaCabinet
+                    - text: ","
+                    - code [ref=e527]: Humanoid
+                    - text: ","
+                    - code [ref=e528]: Ingenuity
+                    - code [ref=e529]: Quadcopter
+                    - text: ","
+                    - code [ref=e530]: ShadowHand
+                    - text: ","
+                    - code [ref=e531]: ShadowHandOpenAI_FF
+                    - text: ","
+                    - code [ref=e532]: ShadowHandOpenAI_LSTM
+                    - text: ", and"
+                    - code [ref=e533]: Trifinger
+                    - text: (these correspond to the config for each environment in the folder
+                    - code [ref=e534]: isaacgymenvs/config/task
+                    - text: )
+                  - listitem [ref=e535]:
+                    - code [ref=e536]: train=TRAIN
+                    - text: "- selects which training config to use. Will automatically default to the correct config for the environment (ie."
+                    - code [ref=e537]: <TASK>PPO
+                    - text: ).
+                  - listitem [ref=e538]:
+                    - code [ref=e539]: num_envs=NUM_ENVS
+                    - text: "- selects the number of environments to use (overriding the default number of environments set in the task config)."
+                  - listitem [ref=e540]:
+                    - code [ref=e541]: seed=SEED
+                    - text: "- sets a seed value for randomizations, and overrides the default seed set up in the task config"
+                  - listitem [ref=e542]:
+                    - code [ref=e543]: sim_device=SIM_DEVICE_TYPE
+                    - text: "- Device used for physics simulation. Set to"
+                    - code [ref=e544]: cuda:0
+                    - text: (default) to use GPU and to
+                    - code [ref=e545]: cpu
+                    - text: for CPU. Follows PyTorch-like device syntax.
+                  - listitem [ref=e546]:
+                    - code [ref=e547]: rl_device=RL_DEVICE
+                    - text: "- Which device / ID to use for the RL algorithm. Defaults to"
+                    - code [ref=e548]: cuda:0
+                    - text: ", and also follows PyTorch-like device syntax."
+                  - listitem [ref=e549]:
+                    - code [ref=e550]: graphics_device_id=GRAPHICS_DEVICE_ID
+                    - text: "- Which Vulkan graphics device ID to use for rendering. Defaults to 0."
+                    - strong [ref=e551]: Note
+                    - text: "- this may be different from CUDA device ID, and does"
+                    - strong [ref=e552]: not
+                    - text: follow PyTorch-like device syntax.
+                  - listitem [ref=e553]:
+                    - code [ref=e554]: pipeline=PIPELINE
+                    - text: "- Which API pipeline to use. Defaults to"
+                    - code [ref=e555]: gpu
+                    - text: ", can also set to"
+                    - code [ref=e556]: cpu
+                    - text: . When using the
+                    - code [ref=e557]: gpu
+                    - text: pipeline, all data stays on the GPU and everything runs as fast as possible. When using the
+                    - code [ref=e558]: cpu
+                    - text: pipeline, simulation can run on either CPU or GPU, depending on the
+                    - code [ref=e559]: sim_device
+                    - text: setting, but a copy of the data is always made on the CPU at every step.
+                  - listitem [ref=e560]:
+                    - code [ref=e561]: test=TEST
+                    - text: "- If set to"
+                    - code [ref=e562]: "True"
+                    - text: ", only runs inference on the policy and does not do any training."
+                  - listitem [ref=e563]:
+                    - code [ref=e564]: checkpoint=CHECKPOINT_PATH
+                    - text: "- Set to path to the checkpoint to load for training or testing."
+                  - listitem [ref=e565]:
+                    - code [ref=e566]: headless=HEADLESS
+                    - text: "- Whether to run in headless mode."
+                  - listitem [ref=e567]:
+                    - code [ref=e568]: experiment=EXPERIMENT
+                    - text: "- Sets the name of the experiment."
+                  - listitem [ref=e569]:
+                    - code [ref=e570]: max_iterations=MAX_ITERATIONS
+                    - text: "- Sets how many iterations to run for. Reasonable defaults are provided for the provided environments."
+                - paragraph [ref=e571]:
+                  - text: Hydra also allows setting variables inside config files directly as command line arguments. As an example, to set the discount rate for a rl_games training run, you can use
+                  - code [ref=e572]: train.params.config.gamma=0.999
+                  - text: . Similarly, variables in task configs can also be set. For example,
+                  - code [ref=e573]: task.env.enableDebugVis=True
+                  - text: .
+                - generic [ref=e574]:
+                  - heading "Hydra Notes" [level=4] [ref=e575]
+                  - 'link "Permalink: Hydra Notes" [ref=e576] [cursor=pointer]':
+                    - /url: "#hydra-notes"
+                    - img [ref=e577]
+                - paragraph [ref=e579]:
+                  - text: Default values for each of these are found in the
+                  - code [ref=e580]: isaacgymenvs/config/config.yaml
+                  - text: file.
+                - paragraph [ref=e581]:
+                  - text: The way that the
+                  - code [ref=e582]: task
+                  - text: and
+                  - code [ref=e583]: train
+                  - text: portions of the config works are through the use of config groups. You can learn more about how these work
+                  - link "here" [ref=e584] [cursor=pointer]:
+                    - /url: https://hydra.cc/docs/tutorials/structured_config/config_groups/
+                  - text: The actual configs for
+                  - code [ref=e585]: task
+                  - text: are in
+                  - code [ref=e586]: isaacgymenvs/config/task/<TASK>.yaml
+                  - text: and for train in
+                  - code [ref=e587]: isaacgymenvs/config/train/<TASK>PPO.yaml
+                  - text: .
+                - paragraph [ref=e588]:
+                  - text: In some places in the config you will find other variables referenced (for example,
+                  - code [ref=e589]: "num_actors: ${....task.env.numEnvs}"
+                  - text: ). Each
+                  - code [ref=e590]: .
+                  - text: represents going one level up in the config hierarchy. This is documented fully
+                  - link "here" [ref=e591] [cursor=pointer]:
+                    - /url: https://omegaconf.readthedocs.io/en/latest/usage.html#variable-interpolation
+                  - text: .
+                - generic [ref=e592]:
+                  - heading "Tasks" [level=2] [ref=e593]
+                  - 'link "Permalink: Tasks" [ref=e594] [cursor=pointer]':
+                    - /url: "#tasks"
+                    - img [ref=e595]
+                - paragraph [ref=e597]:
+                  - text: Source code for tasks can be found in
+                  - code [ref=e598]: isaacgymenvs/tasks
+                  - text: .
+                - paragraph [ref=e599]:
+                  - text: Each task subclasses the
+                  - code [ref=e600]: VecEnv
+                  - text: base class in
+                  - code [ref=e601]: isaacgymenvs/base/vec_task.py
+                  - text: .
+                - paragraph [ref=e602]:
+                  - text: Refer to
+                  - link "docs/framework.md" [ref=e603] [cursor=pointer]:
+                    - /url: /isaac-sim/IsaacGymEnvs/blob/main/docs/framework.md
+                  - text: for how to create your own tasks.
+                - paragraph [ref=e604]:
+                  - text: Full details on each of the tasks available can be found in the
+                  - link "RL examples documentation" [ref=e605] [cursor=pointer]:
+                    - /url: /isaac-sim/IsaacGymEnvs/blob/main/docs/rl_examples.md
+                  - text: .
+                - generic [ref=e606]:
+                  - heading "Domain Randomization" [level=2] [ref=e607]
+                  - 'link "Permalink: Domain Randomization" [ref=e608] [cursor=pointer]':
+                    - /url: "#domain-randomization"
+                    - img [ref=e609]
+                - paragraph [ref=e611]:
+                  - text: IsaacGymEnvs includes a framework for Domain Randomization to improve Sim-to-Real transfer of trained RL policies. You can read more about it
+                  - link "here" [ref=e612] [cursor=pointer]:
+                    - /url: /isaac-sim/IsaacGymEnvs/blob/main/docs/domain_randomization.md
+                  - text: .
+                - generic [ref=e613]:
+                  - heading "Reproducibility and Determinism" [level=2] [ref=e614]
+                  - 'link "Permalink: Reproducibility and Determinism" [ref=e615] [cursor=pointer]':
+                    - /url: "#reproducibility-and-determinism"
+                    - img [ref=e616]
+                - paragraph [ref=e618]:
+                  - text: If deterministic training of RL policies is important for your work, you may wish to review our
+                  - link "Reproducibility and Determinism Documentation" [ref=e619] [cursor=pointer]:
+                    - /url: /isaac-sim/IsaacGymEnvs/blob/main/docs/reproducibility.md
+                  - text: .
+                - generic [ref=e620]:
+                  - heading "Multi-GPU Training" [level=2] [ref=e621]
+                  - 'link "Permalink: Multi-GPU Training" [ref=e622] [cursor=pointer]':
+                    - /url: "#multi-gpu-training"
+                    - img [ref=e623]
+                - paragraph [ref=e625]:
+                  - text: You can run multi-GPU training using
+                  - code [ref=e626]: torchrun
+                  - text: (i.e.,
+                  - code [ref=e627]: torch.distributed
+                  - text: ) using this repository.
+                - paragraph [ref=e628]:
+                  - text: Here is an example command for how to run in this way -
+                  - code [ref=e629]: torchrun --standalone --nnodes=1 --nproc_per_node=2 train.py multi_gpu=True task=Ant <OTHER_ARGS>
+                - paragraph [ref=e630]:
+                  - text: Where the
+                  - code [ref=e631]: "--nproc_per_node="
+                  - text: flag specifies how many processes to run and note the
+                  - code [ref=e632]: multi_gpu=True
+                  - text: flag must be set on the train script in order for multi-GPU training to run.
+                - generic [ref=e633]:
+                  - heading "Population Based Training" [level=2] [ref=e634]
+                  - 'link "Permalink: Population Based Training" [ref=e635] [cursor=pointer]':
+                    - /url: "#population-based-training"
+                    - img [ref=e636]
+                - paragraph [ref=e638]:
+                  - text: You can run population based training to help find good hyperparameters or to train on very difficult environments which would otherwise be hard to learn anything on without it. See
+                  - link "the readme" [ref=e639] [cursor=pointer]:
+                    - /url: /isaac-sim/IsaacGymEnvs/blob/main/docs/pbt.md
+                  - text: for details.
+                - generic [ref=e640]:
+                  - heading "WandB support" [level=2] [ref=e641]
+                  - 'link "Permalink: WandB support" [ref=e642] [cursor=pointer]':
+                    - /url: "#wandb-support"
+                    - img [ref=e643]
+                - paragraph [ref=e645]:
+                  - text: You can run
+                  - link "WandB" [ref=e646] [cursor=pointer]:
+                    - /url: https://wandb.ai/
+                  - text: with Isaac Gym Envs by setting
+                  - code [ref=e647]: wandb_activate=True
+                  - text: flag from the command line. You can set the group, name, entity, and project for the run by setting the
+                  - code [ref=e648]: wandb_group
+                  - text: ","
+                  - code [ref=e649]: wandb_name
+                  - text: ","
+                  - code [ref=e650]: wandb_entity
+                  - text: and
+                  - code [ref=e651]: wandb_project
+                  - text: set. Make sure you have WandB installed with
+                  - code [ref=e652]: pip install wandb
+                  - text: before activating.
+                - generic [ref=e653]:
+                  - heading "Capture videos" [level=2] [ref=e654]
+                  - 'link "Permalink: Capture videos" [ref=e655] [cursor=pointer]':
+                    - /url: "#capture-videos"
+                    - img [ref=e656]
+                - paragraph [ref=e658]:
+                  - text: We implement the standard
+                  - code [ref=e659]: env.render(mode='rgb_rray')
+                  - code [ref=e660]: gym
+                  - text: API to provide an image of the simulator viewer. Additionally, we can leverage
+                  - code [ref=e661]: gym.wrappers.RecordVideo
+                  - text: to help record videos that shows agent's gameplay. Consider running the following file which should produce a video in the
+                  - code [ref=e662]: videos
+                  - text: folder.
+                - generic [ref=e663]:
+                  - generic [ref=e664]: "import gym import isaacgym import isaacgymenvs import torch num_envs = 64 envs = isaacgymenvs.make( seed=0, task=\"Ant\", num_envs=num_envs, sim_device=\"cuda:0\", rl_device=\"cuda:0\", graphics_device_id=0, headless=False, multi_gpu=False, virtual_screen_capture=True, force_render=False, ) envs.is_vector_env = True envs = gym.wrappers.RecordVideo( envs, \"./videos\", step_trigger=lambda step: step % 10000 == 0, # record the videos every 10000 steps video_length=100 # for each video record up to 100 steps ) envs.reset() print(\"the image of Isaac Gym viewer is an array of shape\", envs.render(mode=\"rgb_array\").shape) for _ in range(100): actions = 2.0 * torch.rand((num_envs,) + envs.action_space.shape, device = 'cuda:0') - 1.0 envs.step(actions)"
+                  - button "Copy code to clipboard" [ref=e666] [cursor=pointer]:
+                    - img [ref=e667]
+                - generic [ref=e670]:
+                  - heading "Capture videos during training" [level=2] [ref=e671]
+                  - 'link "Permalink: Capture videos during training" [ref=e672] [cursor=pointer]':
+                    - /url: "#capture-videos-during-training"
+                    - img [ref=e673]
+                - paragraph [ref=e675]:
+                  - text: You can automatically capture the videos of the agents gameplay by toggling the
+                  - code [ref=e676]: capture_video=True
+                  - text: flag and tune the capture frequency
+                  - code [ref=e677]: capture_video_freq=1500
+                  - text: and video length via
+                  - code [ref=e678]: capture_video_len=100
+                  - text: . You can set
+                  - code [ref=e679]: force_render=False
+                  - text: to disable rendering when the videos are not captured.
+                - generic [ref=e680]:
+                  - code [ref=e682]: python train.py capture_video=True capture_video_freq=1500 capture_video_len=100 force_render=False
+                  - button "Copy code to clipboard" [ref=e684] [cursor=pointer]:
+                    - img [ref=e685]
+                - paragraph [ref=e688]: "You can also automatically upload the videos to Weights and Biases:"
+                - generic [ref=e689]:
+                  - code [ref=e691]: python train.py task=Ant wandb_activate=True wandb_entity=nvidia wandb_project=rl_games capture_video=True force_render=False
+                  - button "Copy code to clipboard" [ref=e693] [cursor=pointer]:
+                    - img [ref=e694]
+                - generic [ref=e697]:
+                  - heading "Pre-commit" [level=2] [ref=e698]
+                  - 'link "Permalink: Pre-commit" [ref=e699] [cursor=pointer]':
+                    - /url: "#pre-commit"
+                    - img [ref=e700]
+                - paragraph [ref=e702]:
+                  - text: We use
+                  - link "pre-commit" [ref=e703] [cursor=pointer]:
+                    - /url: https://pre-commit.com/
+                  - text: to helps us automate short tasks that improve code quality. Before making a commit to the repository, please ensure
+                  - code [ref=e704]: pre-commit run --all-files
+                  - text: runs without error.
+                - generic [ref=e705]:
+                  - heading "Troubleshooting" [level=2] [ref=e706]
+                  - 'link "Permalink: Troubleshooting" [ref=e707] [cursor=pointer]':
+                    - /url: "#troubleshooting"
+                    - img [ref=e708]
+                - paragraph [ref=e710]: Please review the Isaac Gym installation instructions first if you run into any issues.
+                - paragraph [ref=e711]:
+                  - text: You can either submit issues through GitHub or through the
+                  - link "Isaac Gym forum here" [ref=e712] [cursor=pointer]:
+                    - /url: https://forums.developer.nvidia.com/c/agx-autonomous-machines/isaac/isaac-gym/322
+                  - text: .
+                - generic [ref=e713]:
+                  - heading "Citing" [level=2] [ref=e714]
+                  - 'link "Permalink: Citing" [ref=e715] [cursor=pointer]':
+                    - /url: "#citing"
+                    - img [ref=e716]
+                - paragraph [ref=e718]: "Please cite this work as:"
+                - generic [ref=e719]:
+                  - code [ref=e721]: "@misc{makoviychuk2021isaac, title={Isaac Gym: High Performance GPU-Based Physics Simulation For Robot Learning}, author={Viktor Makoviychuk and Lukasz Wawrzyniak and Yunrong Guo and Michelle Lu and Kier Storey and Miles Macklin and David Hoeller and Nikita Rudin and Arthur Allshire and Ankur Handa and Gavriel State}, year={2021}, journal={arXiv preprint arXiv:2108.10470} }"
+                  - button "Copy code to clipboard" [ref=e723] [cursor=pointer]:
+                    - img [ref=e724]
+                - paragraph [ref=e727]:
+                  - strong [ref=e728]: Note
+                  - text: "if you use the DexPBT: Scaling up Dexterous Manipulation for Hand-Arm Systems with Population Based Training work or the code related to Population Based Training, please cite the following paper:"
+                - generic [ref=e729]:
+                  - code [ref=e731]: "@inproceedings{ petrenko2023dexpbt, author = {Aleksei Petrenko, Arthur Allshire, Gavriel State, Ankur Handa, Viktor Makoviychuk}, title = {DexPBT: Scaling up Dexterous Manipulation for Hand-Arm Systems with Population Based Training}, booktitle = {RSS}, year = {2023} }"
+                  - button "Copy code to clipboard" [ref=e733] [cursor=pointer]:
+                    - img [ref=e734]
+                - paragraph [ref=e737]:
+                  - strong [ref=e738]: Note
+                  - text: "if you use the DeXtreme: Transfer of Agile In-hand Manipulation from Simulation to Reality work or the code related to Automatic Domain Randomisation, please cite the following paper:"
+                - generic [ref=e739]:
+                  - code [ref=e741]: "@inproceedings{ handa2023dextreme, author = {Ankur Handa, Arthur Allshire, Viktor Makoviychuk, Aleksei Petrenko, Ritvik Singh, Jingzhou Liu, Denys Makoviichuk, Karl Van Wyk, Alexander Zhurkevich, Balakumar Sundaralingam, Yashraj Narang, Jean-Francois Lafleche, Dieter Fox, Gavriel State}, title = {DeXtreme: Transfer of Agile In-hand Manipulation from Simulation to Reality}, booktitle = {ICRA}, year = {2023} }"
+                  - button "Copy code to clipboard" [ref=e743] [cursor=pointer]:
+                    - img [ref=e744]
+                - paragraph [ref=e747]:
+                  - strong [ref=e748]: Note
+                  - text: "if you use the ANYmal rough terrain environment in your work, please ensure you cite the following work:"
+                - generic [ref=e749]:
+                  - code [ref=e751]: "@misc{rudin2021learning, title={Learning to Walk in Minutes Using Massively Parallel Deep Reinforcement Learning}, author={Nikita Rudin and David Hoeller and Philipp Reist and Marco Hutter}, year={2021}, journal = {arXiv preprint arXiv:2109.11978} }"
+                  - button "Copy code to clipboard" [ref=e753] [cursor=pointer]:
+                    - img [ref=e754]
+                - paragraph [ref=e757]:
+                  - strong [ref=e758]: Note
+                  - text: "if you use the Trifinger environment in your work, please ensure you cite the following work:"
+                - generic [ref=e759]:
+                  - code [ref=e761]: "@misc{isaacgym-trifinger, title = {{Transferring Dexterous Manipulation from GPU Simulation to a Remote Real-World TriFinger}}, author = {Allshire, Arthur and Mittal, Mayank and Lodaya, Varun and Makoviychuk, Viktor and Makoviichuk, Denys and Widmaier, Felix and Wuthrich, Manuel and Bauer, Stefan and Handa, Ankur and Garg, Animesh}, year = {2021}, journal = {arXiv preprint arXiv:2108.09779} }"
+                  - button "Copy code to clipboard" [ref=e763] [cursor=pointer]:
+                    - img [ref=e764]
+                - paragraph [ref=e767]:
+                  - strong [ref=e768]: Note
+                  - text: "if you use the AMP: Adversarial Motion Priors environment in your work, please ensure you cite the following work:"
+                - generic [ref=e769]:
+                  - code [ref=e771]: "@article{ 2021-TOG-AMP, author = {Peng, Xue Bin and Ma, Ze and Abbeel, Pieter and Levine, Sergey and Kanazawa, Angjoo}, title = {AMP: Adversarial Motion Priors for Stylized Physics-Based Character Control}, journal = {ACM Trans. Graph.}, issue_date = {August 2021}, volume = {40}, number = {4}, month = jul, year = {2021}, articleno = {1}, numpages = {15}, url = {http://doi.acm.org/10.1145/3450626.3459670}, doi = {10.1145/3450626.3459670}, publisher = {ACM}, address = {New York, NY, USA}, keywords = {motion control, physics-based character animation, reinforcement learning}, }"
+                  - button "Copy code to clipboard" [ref=e773] [cursor=pointer]:
+                    - img [ref=e774]
+                - paragraph [ref=e777]:
+                  - strong [ref=e778]: Note
+                  - text: "if you use the Factory simulation methods (e.g., SDF collisions, contact reduction) or Factory learning tools (e.g., assets, environments, or controllers) in your work, please cite the following paper:"
+                - generic [ref=e779]:
+                  - code [ref=e781]: "@inproceedings{ narang2022factory, author = {Yashraj Narang and Kier Storey and Iretiayo Akinola and Miles Macklin and Philipp Reist and Lukasz Wawrzyniak and Yunrong Guo and Adam Moravanszky and Gavriel State and Michelle Lu and Ankur Handa and Dieter Fox}, title = {Factory: Fast contact for robotic assembly}, booktitle = {Robotics: Science and Systems}, year = {2022} }"
+                  - button "Copy code to clipboard" [ref=e783] [cursor=pointer]:
+                    - img [ref=e784]
+                - paragraph [ref=e787]:
+                  - strong [ref=e788]: Note
+                  - text: "if you use the IndustReal training environments or algorithms in your work, please cite the following paper:"
+                - generic [ref=e789]:
+                  - code [ref=e791]: "@inproceedings{ tang2023industreal, author = {Bingjie Tang and Michael A Lin and Iretiayo Akinola and Ankur Handa and Gaurav S Sukhatme and Fabio Ramos and Dieter Fox and Yashraj Narang}, title = {IndustReal: Transferring contact-rich assembly tasks from simulation to reality}, booktitle = {Robotics: Science and Systems}, year = {2023} }"
+                  - button "Copy code to clipboard" [ref=e793] [cursor=pointer]:
+                    - img [ref=e794]
+        - generic [ref=e800]:
+          - generic [ref=e803]:
+            - heading "About" [level=2] [ref=e804]
+            - paragraph [ref=e805]: Isaac Gym Reinforcement Learning Environments
+            - heading "Resources" [level=3] [ref=e806]
+            - link "Readme" [ref=e808] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e809]
+              - text: Readme
+            - heading "License" [level=3] [ref=e811]
+            - link "View license" [ref=e813] [cursor=pointer]:
+              - /url: "#License-1-ov-file"
+              - img [ref=e814]
+              - text: View license
+            - link "Activity" [ref=e817] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/activity
+              - img [ref=e818]
+              - text: Activity
+            - link "Custom properties" [ref=e821] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/custom-properties
+              - img [ref=e822]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e824]
+            - link "2.9k stars" [ref=e826] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/stargazers
+              - img [ref=e827]
+              - strong [ref=e829]: 2.9k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e830]
+            - link "39 watching" [ref=e832] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/watchers
+              - img [ref=e833]
+              - strong [ref=e835]: "39"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e836]
+            - link "516 forks" [ref=e838] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/forks
+              - img [ref=e839]
+              - strong [ref=e841]: "516"
+              - text: forks
+            - link "Report repository" [ref=e843] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fisaac-sim%2FIsaacGymEnvs&report=isaac-sim+%28user%29
+          - generic [ref=e845]:
+            - heading "Releases" [level=2] [ref=e846]:
+              - link "Releases" [ref=e847] [cursor=pointer]:
+                - /url: /isaac-sim/IsaacGymEnvs/releases
+            - link "5 tags" [ref=e848] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/tags
+              - img [ref=e849]
+              - text: 5 tags
+          - generic [ref=e852]:
+            - heading "Packages" [level=2] [ref=e853]:
+              - link "Packages" [ref=e854] [cursor=pointer]:
+                - /url: /orgs/isaac-sim/packages?repo_name=IsaacGymEnvs
+            - generic [ref=e855]: No packages published
+          - generic [ref=e857]:
+            - heading "Contributors 5" [level=2] [ref=e858]:
+              - link "Contributors 5" [ref=e859] [cursor=pointer]:
+                - /url: /isaac-sim/IsaacGymEnvs/graphs/contributors
+                - text: Contributors
+                - generic "5" [ref=e860]
+            - list [ref=e861]:
+              - listitem [ref=e862]:
+                - link "@gavrielstate" [ref=e863] [cursor=pointer]:
+                  - /url: https://github.com/gavrielstate
+                  - img "@gavrielstate" [ref=e864]
+              - listitem [ref=e865]:
+                - link "@ViktorM" [ref=e866] [cursor=pointer]:
+                  - /url: https://github.com/ViktorM
+                  - img "@ViktorM" [ref=e867]
+              - listitem [ref=e868]:
+                - link "@kellyguo11" [ref=e869] [cursor=pointer]:
+                  - /url: https://github.com/kellyguo11
+                  - img "@kellyguo11" [ref=e870]
+              - listitem [ref=e871]:
+                - link "@ynarang" [ref=e872] [cursor=pointer]:
+                  - /url: https://github.com/ynarang
+                  - img "@ynarang" [ref=e873]
+              - listitem [ref=e874]:
+                - link "@ArthurAllshire" [ref=e875] [cursor=pointer]:
+                  - /url: https://github.com/ArthurAllshire
+                  - img "@ArthurAllshire" [ref=e876]
+          - generic [ref=e878]:
+            - heading "Languages" [level=2] [ref=e879]
+            - list [ref=e883]:
+              - listitem [ref=e884]:
+                - link "Python 100.0%" [ref=e885] [cursor=pointer]:
+                  - /url: /isaac-sim/IsaacGymEnvs/search?l=python
+                  - img [ref=e886]
+                  - generic [ref=e888]: Python
+                  - generic [ref=e889]: 100.0%
+  - contentinfo [ref=e891]:
+    - heading "Footer" [level=2] [ref=e892]
+    - generic [ref=e893]:
+      - generic [ref=e894]:
+        - link "GitHub Homepage" [ref=e895] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e896]
+        - generic [ref=e898]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e899]:
+        - heading "Footer navigation" [level=3] [ref=e900]
+        - list "Footer navigation" [ref=e901]:
+          - listitem [ref=e902]:
+            - link "Terms" [ref=e903] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e904]:
+            - link "Privacy" [ref=e905] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e906]:
+            - link "Security" [ref=e907] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e908]:
+            - link "Status" [ref=e909] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e910]:
+            - link "Community" [ref=e911] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e912]:
+            - link "Docs" [ref=e913] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e914]:
+            - link "Contact" [ref=e915] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e916]:
+            - button "Manage cookies" [ref=e918] [cursor=pointer]
+          - listitem [ref=e919]:
+            - button "Do not share my personal information" [ref=e921] [cursor=pointer]

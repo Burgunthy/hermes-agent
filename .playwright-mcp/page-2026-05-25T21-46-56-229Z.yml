@@ -1,0 +1,336 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "H Humanoid IKEA Assembly Challenge" [ref=e4] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e5]: H
+        - generic [ref=e6]: Humanoid IKEA Assembly Challenge
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "The challenge" [ref=e9] [cursor=pointer]:
+            - /url: "#what"
+        - listitem [ref=e10]:
+          - link "Rules" [ref=e11] [cursor=pointer]:
+            - /url: "#rules"
+        - listitem [ref=e12]:
+          - link "Resources" [ref=e13] [cursor=pointer]:
+            - /url: "#resources"
+        - listitem [ref=e14]:
+          - link "Organizers" [ref=e15] [cursor=pointer]:
+            - /url: "#team"
+        - listitem [ref=e16]:
+          - link "Partners" [ref=e17] [cursor=pointer]:
+            - /url: "#partners"
+        - listitem [ref=e18]:
+          - link "FAQ" [ref=e19] [cursor=pointer]:
+            - /url: "#faq"
+        - listitem [ref=e20]:
+          - link "Register" [ref=e21] [cursor=pointer]:
+            - /url: https://forms.gle/yK8yU5LC3iVRkY729
+  - generic [ref=e24]:
+    - generic [ref=e25]: IROS 2026 · Pittsburgh · Sept 27 — Oct 1
+    - heading "Can a humanoid assemble a flat‑pack on its own?" [level=1] [ref=e26]:
+      - text: Can a humanoid
+      - text: assemble a
+      - generic [ref=e27]: flat‑pack
+      - text: on its own?
+    - generic [ref=e28]:
+      - link "Join the call for teams →" [ref=e29] [cursor=pointer]:
+        - /url: https://forms.gle/yK8yU5LC3iVRkY729
+      - link "See the rules" [ref=e30] [cursor=pointer]:
+        - /url: "#rules"
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]: Platform
+        - generic [ref=e34]: Unitree G1
+      - generic [ref=e35]:
+        - generic [ref=e36]: Furniture
+        - generic [ref=e37]: IKEA UTTER table
+      - generic [ref=e38]:
+        - generic [ref=e39]: Edition
+        - generic [ref=e40]: Inaugural
+      - generic [ref=e41]:
+        - generic [ref=e42]: Format
+        - generic [ref=e43]: Live at venue
+  - generic [ref=e47]:
+    - generic [ref=e48]: FREE registration
+    - generic [ref=e50]: Live assembly at the venue
+    - generic [ref=e52]: G1 hardware provided on-site
+    - generic [ref=e54]: Sim access months ahead
+  - generic [ref=e56]:
+    - heading "The challenge" [level=2] [ref=e57]
+    - generic [ref=e58]:
+      - article [ref=e59]:
+        - generic [ref=e60]:
+          - heading "IKEA UTTER children's table" [level=3] [ref=e61]
+          - paragraph [ref=e62]: Same parts, every team. Twist-on legs, hand-tight only — the difficulty floor is bimanual coordination and 3D spatial reasoning, not fasteners.
+          - tablist [ref=e63]:
+            - button "Instructions" [ref=e64] [cursor=pointer]
+            - button "Pictures" [ref=e65] [cursor=pointer]
+          - generic [ref=e67]:
+            - img "UTTER assembly instruction sheet 1" [ref=e69]
+            - img "UTTER assembly instruction sheet 2" [ref=e71]
+          - generic [ref=e72]:
+            - text: Official IKEA UTTER ·
+            - link "view on ikea.com →" [ref=e73] [cursor=pointer]:
+              - /url: https://www.ikea.com/us/en/p/utter-childrens-table-indoor-outdoor-white-60357737/
+      - complementary [ref=e74]:
+        - heading "Run specifications" [level=4] [ref=e75]
+        - generic [ref=e76]:
+          - generic [ref=e77]: Furniture
+          - generic [ref=e78]: UTTER children's table
+        - generic [ref=e79]:
+          - generic [ref=e80]: Parts
+          - generic [ref=e81]: 1 top + 4 twist-on legs
+        - generic [ref=e82]:
+          - generic [ref=e83]: Material
+          - generic [ref=e84]: Polypropylene
+        - generic [ref=e85]:
+          - generic [ref=e86]: Tools required
+          - generic [ref=e87]: None (hand-tight)
+        - generic [ref=e88]:
+          - generic [ref=e89]: Surface
+          - generic [ref=e90]: TIPHEDE carpet
+        - generic [ref=e91]:
+          - generic [ref=e92]: Scene
+          - generic [ref=e93]: Live at venue
+        - generic [ref=e94]:
+          - generic [ref=e95]: Robot
+          - generic [ref=e96]: Unitree G1 · 1.32 m
+        - generic [ref=e97]:
+          - generic [ref=e98]: Run mode
+          - generic [ref=e99]: Autonomous
+        - generic [ref=e100]:
+          - generic [ref=e101]: Intervention
+          - generic [ref=e102]: Score penalty
+    - complementary [ref=e103]:
+      - generic [ref=e106]:
+        - heading "Challenge against expert human benchmark" [level=4] [ref=e107]
+        - paragraph [ref=e108]: Every robot run is judged against a human reference run on the same parts, same scene — outcome and time.
+  - generic [ref=e110]:
+    - heading "Challenge Rules" [level=2] [ref=e112]
+    - generic [ref=e113]:
+      - heading "Scoring" [level=3] [ref=e115]
+      - paragraph [ref=e116]: Teams compete on the AI policy driving the G1 — no teleop, no human steering. Each run is judged on outcome and time, against a human reference run on the same parts and scene.
+      - list [ref=e117]:
+        - listitem [ref=e118]: 1 autonomous run
+        - listitem [ref=e119]: Live assembly at the venue
+        - listitem [ref=e120]: Same parts
+      - list [ref=e121]:
+        - listitem [ref=e122]:
+          - img "Parts laid out before assembly" [ref=e124]
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - generic [ref=e127]: "00"
+              - text: Initial state
+            - generic [ref=e128]: Initial
+            - generic [ref=e129]: Parts laid out, ready to begin.
+        - listitem [ref=e130]:
+          - img "Robot identifying parts" [ref=e132]
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - generic [ref=e135]: "01"
+              - text: Checkpoint
+            - generic [ref=e136]: Inventory
+            - generic [ref=e137]: Parts identified and staged.
+        - listitem [ref=e138]:
+          - img "Legs attached to the top" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - generic [ref=e143]: "02"
+              - text: Checkpoint
+            - generic [ref=e144]: Partial
+            - generic [ref=e145]: Legs attached to the top.
+        - listitem [ref=e146]:
+          - img "Table fully assembled" [ref=e148]
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - generic [ref=e151]: "03"
+              - text: Checkpoint
+            - generic [ref=e152]: Final
+            - generic [ref=e153]: Table assembled per IKEA spec.
+    - generic [ref=e154]:
+      - note [ref=e155]:
+        - generic [ref=e156]: ⏱
+        - generic [ref=e157]:
+          - generic [ref=e158]: Time
+          - paragraph [ref=e159]: Wall-clock from start to the last checkpoint reached. Faster successful runs rank higher.
+      - note [ref=e160]:
+        - generic [ref=e161]: "!"
+        - generic [ref=e162]:
+          - generic [ref=e163]: Fail
+          - paragraph [ref=e164]: Damage to parts, the robot, or the scene ends the run.
+      - note [ref=e165]:
+        - generic [ref=e166]: ⚠
+        - generic [ref=e167]:
+          - generic [ref=e168]: Intervention
+          - paragraph [ref=e169]: Human assist reduces the score per touch. The run continues.
+  - generic [ref=e171]:
+    - heading "Resources" [level=2] [ref=e172]
+    - paragraph [ref=e173]: "Three resources released before the event: a real-world dataset, a high-fidelity simulation environment, and remote-lab access for policies that need real-robot validation."
+    - generic [ref=e174]:
+      - article [ref=e175]:
+        - generic [ref=e176]:
+          - img "Episode — table assembly action" [ref=e178]
+          - img "Episode — table flip" [ref=e180]
+          - img "Episode — legs" [ref=e182]
+          - img "Episode — setup" [ref=e184]
+        - generic [ref=e185]:
+          - heading "Datasets" [level=3] [ref=e186]
+          - generic [ref=e187]: 500+ teleoperated G1 episodes
+          - paragraph [ref=e188]: A shared dataset of teleoperated G1 episodes performing the UTTER table assembly task. Use it to bootstrap policies before sim or remote-lab evaluation.
+          - list [ref=e189]:
+            - listitem [ref=e190]: — 500+ episodes
+            - listitem [ref=e191]: — Released ahead of the event
+          - button "Coming soon" [disabled] [ref=e192]
+      - article [ref=e193]:
+        - generic [ref=e196]:
+          - heading "Simulation" [level=3] [ref=e197]
+          - generic [ref=e198]: G1 + UTTER scene · standardized
+          - paragraph [ref=e199]: A high-fidelity simulation environment identical to the venue setup. Train policies, iterate on contact-rich behaviors, and evaluate against the same Inventory · Partial · Final checkpoints used on the floor.
+          - list [ref=e200]:
+            - listitem [ref=e201]: — Unitree G1 model
+            - listitem [ref=e202]: — UTTER parts physics
+            - listitem [ref=e203]: — Scene + lighting matched to venue
+            - listitem [ref=e204]: — Inventory · Partial · Final checkpoints
+      - article [ref=e205]:
+        - generic [ref=e208]:
+          - heading "Real-world eval" [level=3] [ref=e209]
+          - generic [ref=e210]: Remote G1 labs · Singapore + Shenzhen
+          - paragraph [ref=e211]: Teams without on-site G1 hardware submit policy checkpoints to organizer-hosted G1s and receive a real-world score report before the venue. Lowers the hardware barrier without changing the rules.
+          - list [ref=e212]:
+            - listitem [ref=e213]: "— 2 lab locations: Singapore + Shenzhen"
+            - listitem [ref=e214]: — Submission queue with score report
+            - listitem [ref=e215]: — Identical scene mirror
+            - listitem [ref=e216]: — Open in the months ahead of the event
+  - generic [ref=e218]:
+    - heading "Organizers" [level=2] [ref=e219]
+    - generic [ref=e220]:
+      - generic [ref=e221]:
+        - img "Jie Tan" [ref=e223]
+        - generic [ref=e224]:
+          - heading "Jie Tan" [level=4] [ref=e225]
+          - generic [ref=e226]: Google DeepMind
+      - generic [ref=e227]:
+        - img "Yuchen Xiao" [ref=e229]
+        - generic [ref=e230]:
+          - heading "Yuchen Xiao" [level=4] [ref=e231]
+          - generic [ref=e232]: Unitree
+      - generic [ref=e233]:
+        - img "Steve Xie" [ref=e235]
+        - generic [ref=e236]:
+          - heading "Steve Xie" [level=4] [ref=e237]
+          - generic [ref=e238]: Lightwheel
+      - generic [ref=e239]:
+        - img "Michael Cho" [ref=e241]
+        - generic [ref=e242]:
+          - heading "Michael Cho" [level=4] [ref=e243]
+          - generic [ref=e244]: Frodobots
+      - generic [ref=e245]:
+        - img "Yinbei Li" [ref=e247]
+        - generic [ref=e248]:
+          - heading "Yinbei Li" [level=4] [ref=e249]
+          - generic [ref=e250]: SIT
+      - generic [ref=e251]:
+        - img "Santiago Pravisani" [ref=e253]
+        - generic [ref=e254]:
+          - heading "Santiago Pravisani" [level=4] [ref=e255]
+          - generic [ref=e256]: Frodobots
+  - generic [ref=e258]:
+    - heading "Partners" [level=2] [ref=e260]
+    - generic [ref=e261]:
+      - link "Bitrobot" [ref=e262] [cursor=pointer]:
+        - /url: https://bitrobot.ai
+        - img "Bitrobot" [ref=e264]
+      - link "Unitree Robotics" [ref=e265] [cursor=pointer]:
+        - /url: https://www.unitree.com/g1/
+        - img "Unitree Robotics" [ref=e267]
+      - link "Lightwheel" [ref=e268] [cursor=pointer]:
+        - /url: https://www.lightwheel.ai/
+        - img "Lightwheel" [ref=e270]
+      - link "Singapore Institute of Technology" [ref=e271] [cursor=pointer]:
+        - /url: https://www.singaporetech.edu.sg/
+        - img "Singapore Institute of Technology" [ref=e273]
+  - generic [ref=e275]:
+    - heading "FAQ" [level=2] [ref=e276]
+    - generic [ref=e277]:
+      - group [ref=e278]:
+        - generic "Do I need my own G1 to compete?" [ref=e279] [cursor=pointer]:
+          - generic [ref=e280]: Do I need my own G1 to compete?
+      - group [ref=e282]:
+        - generic "Can I use teleoperation?" [ref=e283] [cursor=pointer]:
+          - generic [ref=e284]: Can I use teleoperation?
+      - group [ref=e286]:
+        - generic "Can we use the released dataset for training?" [ref=e287] [cursor=pointer]:
+          - generic [ref=e288]: Can we use the released dataset for training?
+      - group [ref=e290]:
+        - generic "Is the scene revealed before the event?" [ref=e291] [cursor=pointer]:
+          - generic [ref=e292]: Is the scene revealed before the event?
+  - generic [ref=e295]:
+    - heading "Registration" [level=2] [ref=e297]
+    - generic [ref=e298]:
+      - text: IKEA
+      - generic [ref=e299]:
+        - generic [ref=e300]: Registration opens soon
+        - heading "Complete the form and we'll notify you when everything goes live — sim, dataset, remote labs, registration." [level=3] [ref=e301]:
+          - text: Complete the form and we'll notify you when
+          - emphasis [ref=e302]: everything goes live
+          - text: — sim, dataset, remote labs, registration.
+        - paragraph [ref=e303]: Tell us about your team. We'll be in touch with simulation access, the dataset link, and the call-for-teams when it opens.
+        - link "Open the form →" [ref=e304] [cursor=pointer]:
+          - /url: https://forms.gle/yK8yU5LC3iVRkY729
+      - generic [ref=e305]:
+        - generic [ref=e306]:
+          - generic [ref=e307]: Edition
+          - generic [ref=e308]: Inaugural · 2026
+        - generic [ref=e309]:
+          - generic [ref=e310]: Venue
+          - generic [ref=e311]: Pittsburgh, PA
+        - generic [ref=e312]:
+          - generic [ref=e313]: Dates
+          - generic [ref=e314]: Sept 27 — Oct 1
+        - generic [ref=e315]:
+          - generic [ref=e316]: Cost
+          - generic [ref=e317]: Free
+        - generic [ref=e318]:
+          - generic [ref=e319]: Team size
+          - generic [ref=e320]: Up to 6
+  - contentinfo [ref=e321]:
+    - generic [ref=e322]:
+      - generic [ref=e323]:
+        - generic [ref=e324]: H
+        - heading "Humanoid IKEA Assembly Challenge" [level=4] [ref=e325]
+        - paragraph [ref=e326]: IROS 2026 · Pittsburgh · An autonomous-manipulation competition built around real flat-pack furniture.
+      - generic [ref=e327]:
+        - heading "The challenge" [level=5] [ref=e328]
+        - list [ref=e329]:
+          - listitem [ref=e330]:
+            - link "Overview" [ref=e331] [cursor=pointer]:
+              - /url: "#what"
+          - listitem [ref=e332]:
+            - link "Rules" [ref=e333] [cursor=pointer]:
+              - /url: "#rules"
+          - listitem [ref=e334]:
+            - link "Resources" [ref=e335] [cursor=pointer]:
+              - /url: "#resources"
+          - listitem [ref=e336]:
+            - link "Partners" [ref=e337] [cursor=pointer]:
+              - /url: "#partners"
+      - generic [ref=e338]:
+        - heading "Get involved" [level=5] [ref=e339]
+        - list [ref=e340]:
+          - listitem [ref=e341]:
+            - link "Register" [ref=e342] [cursor=pointer]:
+              - /url: "#register"
+          - listitem [ref=e343]:
+            - link "Organizers" [ref=e344] [cursor=pointer]:
+              - /url: "#team"
+          - listitem [ref=e345]:
+            - link "FAQ" [ref=e346] [cursor=pointer]:
+              - /url: "#faq"
+          - listitem [ref=e347]:
+            - link "Contact" [ref=e348] [cursor=pointer]:
+              - /url: mailto:organizers@example.org
+    - generic [ref=e349]:
+      - generic [ref=e350]: © 2026 The Humanoid IKEA Assembly Challenge · IROS 2026
+      - generic [ref=e351]: Pittsburgh · Sept 27 — Oct 1, 2026

@@ -1,0 +1,494 @@
+- generic [ref=e2]:
+  - generic:
+    - generic:
+      - tooltip "This user has previously committed to the freqtrade repository."
+    - generic:
+      - tooltip "This user is a member of the freqtrade organization."
+    - generic:
+      - tooltip "This user has previously committed to the freqtrade repository."
+    - generic:
+      - tooltip "This user is the author of this issue"
+    - generic:
+      - tooltip "This user is a member of the freqtrade organization."
+    - generic:
+      - tooltip "This user is a member of the freqtrade organization."
+    - generic:
+      - tooltip "This user has previously committed to the freqtrade repository."
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Ffreqtrade%2Ffreqtrade%2Fissues%2F4246
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fvoltron%2Fissues_fragments%2Fissue_layout&source=header-repo&source_repo=freqtrade%2Ffreqtrade
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "freqtrade" [ref=e70] [cursor=pointer]:
+            - /url: /freqtrade
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "freqtrade" [ref=e73] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "Sponsor @xmatthias" [ref=e77] [cursor=pointer]:
+                - /url: /sponsors/xmatthias
+                - generic [ref=e79]:
+                  - img [ref=e80]
+                  - text: Sponsor
+            - listitem [ref=e82]:
+              - link "You must be signed in to change notification settings" [ref=e83] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffreqtrade%2Ffreqtrade
+                - img [ref=e84]
+                - text: Notifications
+            - listitem [ref=e86]:
+              - link "Fork 10.5k" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffreqtrade%2Ffreqtrade
+                - img [ref=e88]
+                - text: Fork
+                - generic "10,531" [ref=e90]: 10.5k
+            - listitem [ref=e91]:
+              - link "You must be signed in to star a repository" [ref=e93] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffreqtrade%2Ffreqtrade
+                - img [ref=e94]
+                - text: Star
+                - generic "50510 users starred this repository" [ref=e96]: 50.5k
+      - navigation "Repository" [ref=e97]:
+        - list [ref=e98]:
+          - listitem [ref=e99]:
+            - link "Code" [ref=e100] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade
+              - img [ref=e101]
+              - generic [ref=e103]: Code
+          - listitem [ref=e104]:
+            - link "Issues 24" [ref=e105] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/issues
+              - img [ref=e106]
+              - generic [ref=e109]: Issues
+              - generic "24" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Pull requests 8" [ref=e112] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/pulls
+              - img [ref=e113]
+              - generic [ref=e115]: Pull requests
+              - generic "8" [ref=e116]
+          - listitem [ref=e117]:
+            - link "Actions" [ref=e118] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/actions
+              - img [ref=e119]
+              - generic [ref=e121]: Actions
+          - listitem [ref=e122]:
+            - link "Wiki" [ref=e123] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/wiki
+              - img [ref=e124]
+              - generic [ref=e126]: Wiki
+          - listitem [ref=e127]:
+            - link "Security and quality" [ref=e128] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/security
+              - img [ref=e129]
+              - generic [ref=e131]: Security and quality
+          - listitem [ref=e132]:
+            - link "Insights" [ref=e133] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/pulse
+              - img [ref=e134]
+              - generic [ref=e136]: Insights
+    - generic [ref=e144]:
+      - region "Header" [ref=e146]:
+        - generic [ref=e147]:
+          - 'heading "Swarm of dry-run strategies / proper way to run / possible? #4246" [level=1] [ref=e149]':
+            - generic [ref=e150]:
+              - code [ref=e151]: Swarm
+              - text: of dry-run strategies / proper way to run / possible?
+            - text: "#4246"
+          - generic [ref=e153]:
+            - link "New issue" [ref=e155] [cursor=pointer]:
+              - /url: /login?return_to=https://github.com/freqtrade/freqtrade/issues/4246
+              - generic [ref=e157]: New issue
+            - button "Copy link" [ref=e158] [cursor=pointer]:
+              - img [ref=e159]
+      - generic [ref=e167]:
+        - img "Issue" [ref=e168]
+        - text: Closed
+      - generic [ref=e172]:
+        - generic [ref=e173]:
+          - generic [ref=e175]:
+            - link "@sobeit2020's profile" [ref=e176] [cursor=pointer]:
+              - /url: https://github.com/sobeit2020
+              - img "@sobeit2020" [ref=e177]
+            - generic [ref=e178]:
+              - heading "Description" [level=2] [ref=e179]
+              - generic [ref=e181]:
+                - generic [ref=e183]:
+                  - generic [ref=e184]:
+                    - link "sobeit2020" [ref=e186] [cursor=pointer]:
+                      - /url: https://github.com/sobeit2020
+                    - generic [ref=e187]:
+                      - text: opened
+                      - link "on Jan 21, 2021on Jan 22, 2021" [ref=e188] [cursor=pointer]:
+                        - /url: https://github.com/freqtrade/freqtrade/issues/4246#issue-791545454
+                        - generic "Jan 22, 2021, 7:40 AM GMT+9" [ref=e189]: on Jan 21, 2021on Jan 22, 2021
+                  - generic [ref=e191]:
+                    - generic "This user has previously committed to the freqtrade repository." [ref=e193]: Contributor
+                    - button "Issue body actions" [ref=e195] [cursor=pointer]:
+                      - img [ref=e196]
+                - generic [ref=e198]:
+                  - generic [ref=e200]:
+                    - heading "Describe your environment" [level=2] [ref=e201]
+                    - list [ref=e202]:
+                      - listitem [ref=e203]: "Operating system: Linux"
+                      - listitem [ref=e204]:
+                        - text: "Python Version: 3.8 ("
+                        - code [ref=e205]: python -V
+                        - text: )
+                      - listitem [ref=e206]: "Python Version: 3.8.6"
+                      - listitem [ref=e207]: "CCXT version: 1.39.79"
+                      - listitem [ref=e208]: "Freqtrade Version: freqtrade develop"
+                    - heading "Your question" [level=2] [ref=e209]
+                    - paragraph [ref=e210]:
+                      - text: I have list of pre-sorted, off-the-shelf strategies, and i would like to be able to dry-run them simultaneously.
+                      - text: What would be best approach to do that? Best on one account of Binance, and with multiple telegram bots.
+                    - paragraph [ref=e211]: Would docker-swarm be something alike?
+                  - generic:
+                    - toolbar "Reactions"
+          - generic [ref=e213]:
+            - generic [ref=e214]:
+              - heading "Activity" [level=2] [ref=e215]
+              - generic [ref=e216]:
+                - region "Events" [ref=e217]:
+                  - generic [ref=e224]:
+                    - img [ref=e228]
+                    - generic [ref=e232]:
+                      - link "sobeit2020" [ref=e234] [cursor=pointer]:
+                        - /url: /sobeit2020
+                        - generic [ref=e235]: sobeit2020
+                      - text: added
+                      - link "Question Questions - will be closed after some period of inactivity." [ref=e237] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade/issues?q=state%3Aopen%20label%3A%22Question%22
+                        - generic [ref=e239]: Question
+                        - generic [ref=e240]: Questions - will be closed after some period of inactivity.
+                      - link "on Jan 22, 2021on Jan 22, 2021" [ref=e241] [cursor=pointer]:
+                        - /url: https://github.com/freqtrade/freqtrade/issues/4246#event-4235927317
+                        - generic "Jan 22, 2021, 7:40 AM GMT+9" [ref=e242]: on Jan 22, 2021on Jan 22, 2021
+                  - generic [ref=e246]:
+                    - img [ref=e250]
+                    - generic [ref=e254]:
+                      - link "sobeit2020" [ref=e256] [cursor=pointer]:
+                        - /url: /sobeit2020
+                        - generic [ref=e257]: sobeit2020
+                      - text: changed the title
+                      - deletion [ref=e259]:
+                        - generic [ref=e260]: "[-]"
+                        - text: "Most proper way to run `swarm` of dry-run strategies"
+                        - generic [ref=e261]: "[/-]"
+                      - insertion [ref=e263]:
+                        - generic [ref=e264]: "[+]"
+                        - text: "`Swarm` of dry-run strategies / proper way to run / possible?"
+                        - generic [ref=e265]: "[/+]"
+                      - link "on Jan 22, 2021on Jan 22, 2021" [ref=e266] [cursor=pointer]:
+                        - /url: https://github.com/freqtrade/freqtrade/issues/4246#event-4235931363
+                        - generic "Jan 22, 2021, 7:41 AM GMT+9" [ref=e267]: on Jan 22, 2021on Jan 22, 2021
+                - generic [ref=e268]:
+                  - link "@zn3x's profile" [ref=e269] [cursor=pointer]:
+                    - /url: https://github.com/zn3x
+                    - img "zn3x" [ref=e270]
+                  - generic [ref=e277]:
+                    - generic [ref=e279]:
+                      - heading "zn3x commented on Jan 22, 2021 on Jan 22, 2021" [level=3] [ref=e280]:
+                        - text: zn3x commented
+                        - generic "Jan 22, 2021, 8:24 AM GMT+9" [ref=e281]: on Jan 22, 2021 on Jan 22, 2021
+                      - generic [ref=e282]:
+                        - link "zn3x" [ref=e284] [cursor=pointer]:
+                          - /url: /zn3x
+                        - link "on Jan 22, 2021on Jan 22, 2021" [ref=e287] [cursor=pointer]:
+                          - /url: https://github.com/freqtrade/freqtrade/issues/4246#issuecomment-765005484
+                          - generic "Jan 22, 2021, 8:24 AM GMT+9" [ref=e288]: on Jan 22, 2021on Jan 22, 2021
+                      - generic [ref=e289]:
+                        - button "Last edited by zn3x" [ref=e292] [cursor=pointer]:
+                          - generic [ref=e295]: Last edited by zn3x
+                          - generic:
+                            - img
+                        - generic [ref=e296]:
+                          - generic "This user has previously committed to the freqtrade repository." [ref=e298]: Contributor
+                          - button "Actions for zn3x's comment, 8:24 AM on January 22, 2021" [ref=e300] [cursor=pointer]:
+                            - img [ref=e301]
+                    - generic [ref=e303]:
+                      - paragraph [ref=e306]:
+                        - text: Dry run basically doesn't affect your trading account (it uses api to check open markets, get prices, etc... But it doesn't touch anything related to orders, all is emulated in your machine), so you can run as much dry run instances as you want.
+                        - text: "You can run multiple dry runs instances by creating multiple configs if you want to change pairs or staking currency (warning: always keep dry_run enabled) or keep only one config if you want to try multiple strategies with same config. You should also separate databases"
+                        - text: This question has been answered in a similar way in
+                        - link "#1768" [ref=e307] [cursor=pointer]:
+                          - /url: https://github.com/freqtrade/freqtrade/issues/1768
+                      - toolbar "Reactions"
+                - generic [ref=e308]:
+                  - link "@xmatthias's profile" [ref=e309] [cursor=pointer]:
+                    - /url: https://github.com/xmatthias
+                    - img "xmatthias" [ref=e310]
+                  - generic [ref=e317]:
+                    - generic [ref=e319]:
+                      - heading "xmatthias commented on Jan 22, 2021 on Jan 22, 2021" [level=3] [ref=e320]:
+                        - text: xmatthias commented
+                        - generic "Jan 22, 2021, 3:37 PM GMT+9" [ref=e321]: on Jan 22, 2021 on Jan 22, 2021
+                      - generic [ref=e322]:
+                        - link "xmatthias" [ref=e324] [cursor=pointer]:
+                          - /url: /xmatthias
+                        - link "on Jan 22, 2021on Jan 22, 2021" [ref=e327] [cursor=pointer]:
+                          - /url: https://github.com/freqtrade/freqtrade/issues/4246#issuecomment-765172279
+                          - generic "Jan 22, 2021, 3:37 PM GMT+9" [ref=e328]: on Jan 22, 2021on Jan 22, 2021
+                      - generic [ref=e330]:
+                        - generic "This user is a member of the freqtrade organization." [ref=e332]: Member
+                        - button "Actions for xmatthias's comment, 3:37 PM on January 22, 2021" [ref=e334] [cursor=pointer]:
+                          - img [ref=e335]
+                    - generic [ref=e337]:
+                      - generic [ref=e339]:
+                        - blockquote [ref=e340]:
+                          - paragraph [ref=e341]: so you can run as much dry run instances as you want.
+                        - paragraph [ref=e342]: This is ... not quite true. You'll run into rate-limit problems at a certain point (for dry-run on binance, it can be 3-4 instances per host, usually).
+                        - separator [ref=e343]
+                        - paragraph [ref=e344]: Docker swarm is ... kinda dead ... i've not seen it even mentioned in a long time.
+                        - paragraph [ref=e345]: What i personally do is use docker-compose with multiple services (copy-paste the whole service and change config, strategy, service name and container name), but you can also use multiple directories with one docker-compose file each.
+                      - toolbar "Reactions"
+                - generic [ref=e346]:
+                  - link "@sobeit2020's profile" [ref=e347] [cursor=pointer]:
+                    - /url: https://github.com/sobeit2020
+                    - img "sobeit2020" [ref=e348]
+                  - generic [ref=e355]:
+                    - generic [ref=e357]:
+                      - heading "sobeit2020 commented on Jan 23, 2021 on Jan 23, 2021" [level=3] [ref=e358]:
+                        - text: sobeit2020 commented
+                        - generic "Jan 23, 2021, 7:10 AM GMT+9" [ref=e359]: on Jan 23, 2021 on Jan 23, 2021
+                      - generic [ref=e360]:
+                        - link "sobeit2020" [ref=e362] [cursor=pointer]:
+                          - /url: /sobeit2020
+                        - link "on Jan 23, 2021on Jan 23, 2021" [ref=e365] [cursor=pointer]:
+                          - /url: https://github.com/freqtrade/freqtrade/issues/4246#issuecomment-765712784
+                          - generic "Jan 23, 2021, 7:10 AM GMT+9" [ref=e366]: on Jan 23, 2021on Jan 23, 2021
+                      - generic [ref=e368]:
+                        - generic [ref=e369]:
+                          - generic "This user has previously committed to the freqtrade repository." [ref=e370]: Contributor
+                          - generic "This user is the author of this issue" [ref=e371]: Author
+                        - button "Actions for sobeit2020's comment, 7:10 AM on January 23, 2021" [ref=e373] [cursor=pointer]:
+                          - img [ref=e374]
+                    - generic [ref=e376]:
+                      - generic [ref=e378]:
+                        - paragraph [ref=e379]:
+                          - text: Hmm
+                          - text: "@"
+                        - blockquote [ref=e380]:
+                          - paragraph [ref=e381]:
+                            - text: This question has been answered in a similar way in
+                            - link "#1768" [ref=e382] [cursor=pointer]:
+                              - /url: https://github.com/freqtrade/freqtrade/issues/1768
+                            - text: yes this one i saw
+                        - blockquote [ref=e383]:
+                          - blockquote [ref=e384]:
+                            - paragraph [ref=e385]:
+                              - text: so you can run as much dry run instances as you want.
+                              - text: i try, doing telegram is easy,
+                              - text: but what i got, is that second bot, with new config and new strategy, starts exactly with the place where the first one is - filled orders.
+                        - paragraph [ref=e386]: Is there something that i missed? Is it possible, that on the same Binance account, second bot could start with empty account, and prove what it is?
+                      - toolbar "Reactions"
+                - generic [ref=e387]:
+                  - link "@xmatthias's profile" [ref=e388] [cursor=pointer]:
+                    - /url: https://github.com/xmatthias
+                    - img "xmatthias" [ref=e389]
+                  - generic [ref=e396]:
+                    - generic [ref=e398]:
+                      - heading "xmatthias commented on Jan 23, 2021 on Jan 23, 2021" [level=3] [ref=e399]:
+                        - text: xmatthias commented
+                        - generic "Jan 23, 2021, 5:06 PM GMT+9" [ref=e400]: on Jan 23, 2021 on Jan 23, 2021
+                      - generic [ref=e401]:
+                        - link "xmatthias" [ref=e403] [cursor=pointer]:
+                          - /url: /xmatthias
+                        - link "on Jan 23, 2021on Jan 23, 2021" [ref=e406] [cursor=pointer]:
+                          - /url: https://github.com/freqtrade/freqtrade/issues/4246#issuecomment-765886434
+                          - generic "Jan 23, 2021, 5:06 PM GMT+9" [ref=e407]: on Jan 23, 2021on Jan 23, 2021
+                      - generic [ref=e409]:
+                        - generic "This user is a member of the freqtrade organization." [ref=e411]: Member
+                        - button "Actions for xmatthias's comment, 5:06 PM on January 23, 2021" [ref=e413] [cursor=pointer]:
+                          - img [ref=e414]
+                    - generic [ref=e416]:
+                      - generic [ref=e418]:
+                        - paragraph [ref=e419]: I'm not sure what your question is now ....
+                        - paragraph [ref=e420]:
+                          - text: For running multiple bots, we got a
+                          - link "documentation page" [ref=e421] [cursor=pointer]:
+                            - /url: https://www.freqtrade.io/en/latest/advanced-setup/#running-multiple-instances-of-freqtrade
+                          - text: explaining what to pay attention to.
+                        - paragraph [ref=e422]: If the new instance still sees the old trades, then you didn't switch the database file.
+                      - toolbar "Reactions"
+                - generic [ref=e423]:
+                  - link "@xmatthias's profile" [ref=e424] [cursor=pointer]:
+                    - /url: https://github.com/xmatthias
+                    - img "xmatthias" [ref=e425]
+                  - generic [ref=e432]:
+                    - generic [ref=e434]:
+                      - heading "xmatthias commented on Feb 5, 2021 on Feb 5, 2021" [level=3] [ref=e435]:
+                        - text: xmatthias commented
+                        - generic "Feb 5, 2021, 3:49 AM GMT+9" [ref=e436]: on Feb 5, 2021 on Feb 5, 2021
+                      - generic [ref=e437]:
+                        - link "xmatthias" [ref=e439] [cursor=pointer]:
+                          - /url: /xmatthias
+                        - link "on Feb 5, 2021on Feb 5, 2021" [ref=e442] [cursor=pointer]:
+                          - /url: https://github.com/freqtrade/freqtrade/issues/4246#issuecomment-773527619
+                          - generic "Feb 5, 2021, 3:49 AM GMT+9" [ref=e443]: on Feb 5, 2021on Feb 5, 2021
+                      - generic [ref=e445]:
+                        - generic "This user is a member of the freqtrade organization." [ref=e447]: Member
+                        - button "Actions for xmatthias's comment, 3:49 AM on February 5, 2021" [ref=e449] [cursor=pointer]:
+                          - img [ref=e450]
+                    - generic [ref=e452]:
+                      - generic [ref=e454]:
+                        - paragraph [ref=e455]: I'll assume this as answered by the above.
+                        - paragraph [ref=e456]: Feel free to comment below / reopen if that's not the case.
+                      - toolbar "Reactions"
+                - region "Events" [ref=e457]:
+                  - generic [ref=e464]:
+                    - img [ref=e468]
+                    - generic [ref=e472]:
+                      - link "xmatthias" [ref=e474] [cursor=pointer]:
+                        - /url: /xmatthias
+                        - generic [ref=e475]: xmatthias
+                      - text: closed this as
+                      - link "completed" [ref=e476] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade/issues?q=is%3Aissue%20state%3Aclosed%20archived%3Afalse%20reason%3Acompleted
+                      - link "on Feb 5, 2021on Feb 5, 2021" [ref=e477] [cursor=pointer]:
+                        - /url: https://github.com/freqtrade/freqtrade/issues/4246#event-4292490650
+                        - generic "Feb 5, 2021, 3:49 AM GMT+9" [ref=e478]: on Feb 5, 2021on Feb 5, 2021
+            - generic [ref=e479]:
+              - link "Sign up for free" [ref=e480] [cursor=pointer]:
+                - /url: /signup?return_to=https://github.com/freqtrade/freqtrade/issues/4246
+                - generic [ref=e482]: Sign up for free
+              - generic [ref=e483]:
+                - strong [ref=e484]: to join this conversation on GitHub.
+                - text: Already have an account?
+              - link "Sign in to comment" [ref=e485] [cursor=pointer]:
+                - /url: /login?return_to=https://github.com/freqtrade/freqtrade/issues/4246
+        - generic [ref=e487]:
+          - heading "Metadata" [level=2] [ref=e488]
+          - generic [ref=e490]:
+            - generic [ref=e492]:
+              - generic [ref=e493]:
+                - heading "Assignees" [level=3]
+              - generic [ref=e494]: No one assigned
+            - generic [ref=e495]:
+              - generic [ref=e497]:
+                - heading "Labels" [level=3]
+              - link "Question Questions - will be closed after some period of inactivity." [ref=e500] [cursor=pointer]:
+                - /url: https://github.com/freqtrade/freqtrade/issues?q=state%3Aopen%20label%3A%22Question%22
+                - generic [ref=e502]: Question
+                - generic [ref=e503]: Questions - will be closed after some period of inactivity.
+            - generic [ref=e505]:
+              - generic [ref=e506]:
+                - heading "Type" [level=3]
+              - generic [ref=e507]: No type
+            - generic [ref=e509]:
+              - generic [ref=e510]:
+                - heading "Projects" [level=3]
+              - generic [ref=e511]: No projects
+            - generic [ref=e513]:
+              - generic [ref=e514]:
+                - heading "Milestone" [level=3]
+              - generic [ref=e515]: No milestone
+            - generic [ref=e517]:
+              - generic [ref=e518]:
+                - heading "Relationships" [level=3]
+              - generic [ref=e519]: None yet
+            - generic [ref=e520]:
+              - generic [ref=e522]:
+                - heading "Development" [level=3]
+              - generic [ref=e523]:
+                - generic [ref=e524]: No branches or pull requests
+                - list
+            - generic [ref=e525]:
+              - generic [ref=e527]:
+                - heading "Participants" [level=3]
+              - generic [ref=e530]:
+                - link "@xmatthias" [ref=e531] [cursor=pointer]:
+                  - /url: /xmatthias
+                  - img "@xmatthias" [ref=e532]
+                - link "@zn3x" [ref=e533] [cursor=pointer]:
+                  - /url: /zn3x
+                  - img "@zn3x" [ref=e534]
+                - link "@sobeit2020" [ref=e535] [cursor=pointer]:
+                  - /url: /sobeit2020
+                  - img "@sobeit2020" [ref=e536]
+            - heading "Issue actions" [level=2] [ref=e537]
+            - list
+  - contentinfo [ref=e538]:
+    - heading "Footer" [level=2] [ref=e539]
+    - generic [ref=e540]:
+      - generic [ref=e541]:
+        - link "GitHub Homepage" [ref=e542] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e543]
+        - generic [ref=e545]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e546]:
+        - heading "Footer navigation" [level=3] [ref=e547]
+        - list "Footer navigation" [ref=e548]:
+          - listitem [ref=e549]:
+            - link "Terms" [ref=e550] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e551]:
+            - link "Privacy" [ref=e552] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e553]:
+            - link "Security" [ref=e554] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e555]:
+            - link "Status" [ref=e556] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e557]:
+            - link "Community" [ref=e558] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e559]:
+            - link "Docs" [ref=e560] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e561]:
+            - link "Contact" [ref=e562] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e563]:
+            - button "Manage cookies" [ref=e565] [cursor=pointer]
+          - listitem [ref=e566]:
+            - button "Do not share my personal information" [ref=e568] [cursor=pointer]

@@ -1,0 +1,4 @@
+[    1749ms] [INFO] LegacyDataMixin will be applied to all legacy elements.
+Set `_legacyUndefinedCheck: true` on element class to enable. @ https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.0ogJmpz-zFE.es5.O/am=AAAAABAAIABI/d=1/br=1/rs=AGKMywHpyb0MA5WCoO5pZEk3Ob8N6CGzXg/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk:9787
+[    4265ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://www.youtube.com/@rlwrld.dexterity:0
+[23003169ms] [ERROR] Failed to load resource: the server responded with a status of 502 () @ https://www.youtube.com/youtubei/v1/log_event?alt=json:0

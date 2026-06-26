@@ -1,0 +1,254 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Introducing the Polar Startup Program" [ref=e4] [cursor=pointer]:
+      - /url: /startup-program
+      - generic [ref=e5]:
+        - paragraph [ref=e6]: Introducing the Polar Startup Program
+        - img [ref=e7]
+    - generic [ref=e10]:
+      - link [ref=e11] [cursor=pointer]:
+        - /url: /
+        - button [ref=e13]:
+          - img [ref=e15]
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - button "Features" [ref=e26] [cursor=pointer]
+        - listitem [ref=e27]:
+          - button "Docs" [ref=e28] [cursor=pointer]
+        - listitem [ref=e29]:
+          - link "Blog" [ref=e30] [cursor=pointer]:
+            - /url: /blog
+        - listitem [ref=e31]:
+          - link "Company" [ref=e32] [cursor=pointer]:
+            - /url: /company
+      - generic [ref=e33]:
+        - button "Sign in" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: Sign in
+        - button "Get Started" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]:
+            - generic [ref=e38]: Get Started
+            - img
+  - generic [ref=e40]:
+    - main [ref=e43]:
+      - generic [ref=e45]:
+        - heading "Why Polar is the best way to monetize your software" [level=1] [ref=e48]
+        - generic [ref=e49]:
+          - button "Introduction" [ref=e50] [cursor=pointer]:
+            - img [ref=e51]
+            - generic [ref=e53]: Introduction
+          - button "Merchant of Record" [ref=e54] [cursor=pointer]:
+            - img [ref=e55]
+            - generic [ref=e57]: Merchant of Record
+          - button "Developer Experience" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e61]: Developer Experience
+          - button "Pricing" [ref=e62] [cursor=pointer]:
+            - img [ref=e63]
+            - generic [ref=e65]: Pricing
+          - button "Why switch to Polar?" [ref=e66] [cursor=pointer]:
+            - img [ref=e67]
+            - generic [ref=e69]: Why switch to Polar?
+          - button "Who else is switching?" [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - generic [ref=e73]: Who else is switching?
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - heading "Introduction" [level=2] [ref=e77]
+            - generic [ref=e78]:
+              - paragraph [ref=e79]: Monetizing your software should be easy.
+              - paragraph [ref=e80]: Polar is an open-source billing infrastructure platform designed specifically for developers who want to monetize their software without the complexity of traditional payment systems.
+              - blockquote [ref=e81]:
+                - paragraph [ref=e82]: The speed at which Polar is executing on the financial infrastructure primitives the new world needs is very impressive
+                - generic [ref=e83]: — Guillermo Rauch, CEO & Founder of Vercel
+              - generic [ref=e84]:
+                - link "Compare Polar vs. Stripe" [ref=e85] [cursor=pointer]:
+                  - /url: /resources/comparison/stripe
+                  - text: Compare Polar vs. Stripe
+                  - img [ref=e86]
+                - link "Compare Polar vs. Paddle" [ref=e88] [cursor=pointer]:
+                  - /url: /resources/comparison/paddle
+                  - text: Compare Polar vs. Paddle
+                  - img [ref=e89]
+                - link "Compare Polar vs. Lemon Squeezy" [ref=e91] [cursor=pointer]:
+                  - /url: /resources/comparison/lemon-squeezy
+                  - text: Compare Polar vs. Lemon Squeezy
+                  - img [ref=e92]
+          - generic [ref=e94]:
+            - heading "Merchant of Record" [level=2] [ref=e96]
+            - generic [ref=e97]:
+              - generic [ref=e98]:
+                - heading "Leave billing infrastructure and international tax headaches to us." [level=3] [ref=e99]
+                - paragraph [ref=e100]: We take on the liability of international sales taxes globally for you. So you can focus on growing your business instead of accounting bills.
+              - list [ref=e102]:
+                - listitem [ref=e103]:
+                  - img [ref=e104]
+                  - text: We handle VAT, GST, and sales tax in all jurisdictions
+                - listitem [ref=e106]:
+                  - img [ref=e107]
+                  - text: EU VAT handling - Proper B2B reverse charge and B2C tax collection
+                - listitem [ref=e109]:
+                  - img [ref=e110]
+                  - text: Automatic tax calculation - Real-time tax rates for every transaction
+          - generic [ref=e112]:
+            - heading "Developer Experience" [level=2] [ref=e114]
+            - generic [ref=e115]:
+              - generic [ref=e116]:
+                - heading "Developer Ergonomics" [level=3] [ref=e117]
+                - paragraph [ref=e118]: We design our APIs & SDKs with developer ergonomics in mind. We put the developer experience in the front seat.
+              - generic [ref=e119]:
+                - heading "Developer Tools" [level=3] [ref=e120]
+                - paragraph [ref=e121]: We build developer tools that make it easy to iterate quickly and maintain systems effectively. We're not just building a billing system, we're building a platform that enables you to build your business.
+              - generic [ref=e122]:
+                - heading "Open Source" [level=3] [ref=e123]
+                - paragraph [ref=e124]: Polar is open source, licensed under the Apache 2.0 license. We believe that the best way to build a great developer experience is to build it with the community.
+                - link "Follow the development on GitHub" [ref=e125] [cursor=pointer]:
+                  - /url: https://github.com/polarsource/polar
+                  - text: Follow the development on GitHub
+                  - img [ref=e126]
+          - generic [ref=e128]:
+            - heading "Pricing" [level=2] [ref=e130]
+            - generic [ref=e132]:
+              - generic [ref=e133]:
+                - heading "Transparent pricing" [level=3] [ref=e134]
+                - paragraph [ref=e135]: Start free on Starter (5% + 50¢), or upgrade to Pro, Growth, or Scale for lower fees and prioritized support. No sales process required.
+              - generic [ref=e136]:
+                - heading "No Hidden Fees" [level=3] [ref=e137]
+                - paragraph [ref=e138]: While payouts may incur fees charged by the payout providers (such as Stripe), Polar does not add any extra fees or markup.
+          - generic [ref=e139]:
+            - heading "Why switch to Polar?" [level=2] [ref=e141]
+            - generic [ref=e142]:
+              - generic [ref=e143]:
+                - heading "Integrate with 6 lines of code" [level=3] [ref=e144]
+                - paragraph [ref=e145]: We've gone the extra mile to build ergonomic adapters that plugs right into the most popular frameworks. If that isn't enough, our versatile SDKs allow you to integrate with Polar in any way you want.
+              - generic [ref=e146]:
+                - heading "Secure, robust & reliable payments" [level=3] [ref=e147]
+                - paragraph [ref=e148]: You can rest assured that your customers will be able to pay you securely and reliably. We've built a payment system that works for you, not against you.
+              - generic [ref=e149]:
+                - heading "We're deeply invested in your success" [level=3] [ref=e150]
+                - paragraph [ref=e151]: Polar is built by developers, for developers. We listen to your feedback, and we're always looking for ways to make it easier for you to succeed. We care.
+          - generic [ref=e152]:
+            - heading "Who else is switching?" [level=2] [ref=e154]
+            - generic [ref=e156]:
+              - generic [ref=e157]:
+                - heading "Trusted by leading SaaS companies" [level=3] [ref=e158]
+                - paragraph [ref=e159]: Companies like Tailwind Labs, Midday, Stilla AI & thousands of other SaaS companies have already made the switch to Polar.
+              - generic [ref=e160]:
+                - link [ref=e161] [cursor=pointer]:
+                  - /url: https://tailwindcss.com/
+                  - img [ref=e162]
+                - link [ref=e165] [cursor=pointer]:
+                  - /url: https://midday.ai/
+                  - img [ref=e166]
+                - link [ref=e168] [cursor=pointer]:
+                  - /url: https://stilla.ai/
+                  - img [ref=e169]
+          - generic [ref=e172]:
+            - generic [ref=e173]:
+              - button "01 Do I still pay Stripe fees if I use Polar?" [ref=e174] [cursor=pointer]:
+                - generic [ref=e175]: "01"
+                - heading "Do I still pay Stripe fees if I use Polar?" [level=3] [ref=e177]
+                - img [ref=e179]
+              - paragraph [ref=e182]: Polar's platform fee covers Stripe's processing costs. Stripe's additional fees, like +1.5% for international cards, are passed through at cost. Your platform fee depends on your plan; see the pricing guide for details.
+            - generic [ref=e183]:
+              - button "02 Is Polar built on Stripe? Why not just use Stripe directly?" [ref=e184] [cursor=pointer]:
+                - generic [ref=e185]: "02"
+                - heading "Is Polar built on Stripe? Why not just use Stripe directly?" [level=3] [ref=e187]
+                - img [ref=e189]
+              - paragraph [ref=e192]: We use Stripe rails for processing reliability and coverage. Processing ≠ the business layer. Polar is the MoR + billing + entitlements + unit-economics layer you'd otherwise build or buy on top of Stripe.
+            - generic [ref=e193]:
+              - button "03 How are payouts handled internationally?" [ref=e194] [cursor=pointer]:
+                - generic [ref=e195]: "03"
+                - heading "How are payouts handled internationally?" [level=3] [ref=e197]
+                - img [ref=e199]
+              - paragraph [ref=e202]: All payments are made to Polar as the Merchant of Record. We use Stripe Connect Express to make payouts across more countries than Stripe Payments supports directly.
+            - generic [ref=e203]:
+              - button "04 Do you handle EU VAT reverse charge for B2B?" [ref=e204] [cursor=pointer]:
+                - generic [ref=e205]: "04"
+                - heading "Do you handle EU VAT reverse charge for B2B?" [level=3] [ref=e207]
+                - img [ref=e209]
+              - paragraph [ref=e212]: Yes, EU B2B reverse charge is handled correctly under our MoR model, ensuring compliance with EU tax regulations.
+            - generic [ref=e213]:
+              - button "05 What about lock-in? Can I leave later?" [ref=e214] [cursor=pointer]:
+                - generic [ref=e215]: "05"
+                - heading "What about lock-in? Can I leave later?" [level=3] [ref=e217]
+                - img [ref=e219]
+              - paragraph [ref=e222]: We deliberately architect for continuity (Stripe on the inside) and provide import/export plus migration tooling, so you always retain a pragmatic exit path.
+            - generic [ref=e223]:
+              - button "06 What happens during account reviews or disputes?" [ref=e224] [cursor=pointer]:
+                - generic [ref=e225]: "06"
+                - heading "What happens during account reviews or disputes?" [level=3] [ref=e227]
+                - img [ref=e229]
+              - paragraph [ref=e232]: "We run standard MoR/KYC reviews (typically within a week) and follow card-network norms: disputes cost $15 and gateway fees aren't refunded on refunds."
+          - generic [ref=e234]:
+            - generic [ref=e235]:
+              - heading "Ready to make the switch?" [level=3] [ref=e236]
+              - paragraph [ref=e237]: Join thousands of teams who have already transformed their payment infrastructure with Polar.
+            - button "Get Started" [ref=e238] [cursor=pointer]:
+              - generic [ref=e239]:
+                - generic [ref=e240]: Get Started
+                - img
+    - generic [ref=e244]:
+      - generic [ref=e245]:
+        - button [ref=e248]:
+          - img [ref=e250]
+        - generic [ref=e259]:
+          - link "Join Polar today" [ref=e260] [cursor=pointer]:
+            - /url: /signup
+            - generic [ref=e261]: Join Polar today
+            - img [ref=e262]
+          - generic [ref=e264]: © Polar Software, Inc. 2026
+      - generic [ref=e265]:
+        - heading "Features" [level=3] [ref=e266]
+        - generic [ref=e267]:
+          - link "Usage Billing" [ref=e268] [cursor=pointer]:
+            - /url: /features/usage-billing
+          - link "Subscriptions" [ref=e269] [cursor=pointer]:
+            - /url: /features/subscriptions
+          - link "Seats" [ref=e270] [cursor=pointer]:
+            - /url: /features/seats
+          - link "Credits" [ref=e271] [cursor=pointer]:
+            - /url: /features/credits
+          - link "Trials" [ref=e272] [cursor=pointer]:
+            - /url: /features/trials
+          - link "Discounts" [ref=e273] [cursor=pointer]:
+            - /url: /features/discounts
+          - link "Cost Insights" [ref=e274] [cursor=pointer]:
+            - /url: /features/cost-insights
+          - link "Finance" [ref=e275] [cursor=pointer]:
+            - /url: /features/finance
+          - link "Merchant of Record" [ref=e276] [cursor=pointer]:
+            - /url: /features/merchant-of-record
+      - generic [ref=e277]:
+        - heading "Resources" [level=3] [ref=e278]
+        - generic [ref=e279]:
+          - link "Why Polar" [ref=e280] [cursor=pointer]:
+            - /url: /resources/why
+          - link "Merchant of Record" [ref=e281] [cursor=pointer]:
+            - /url: /resources/merchant-of-record
+          - link "Pricing" [ref=e282] [cursor=pointer]:
+            - /url: /resources/pricing
+          - link "Downloads" [ref=e283] [cursor=pointer]:
+            - /url: /downloads
+      - generic [ref=e284]:
+        - heading "Company" [level=3] [ref=e285]
+        - generic [ref=e286]:
+          - link "About Polar" [ref=e287] [cursor=pointer]:
+            - /url: /company
+          - link "GitHub" [ref=e288] [cursor=pointer]:
+            - /url: https://github.com/polarsource
+          - link "X / Twitter" [ref=e289] [cursor=pointer]:
+            - /url: https://x.com/polar_sh
+          - link "Brand Assets" [ref=e290] [cursor=pointer]:
+            - /url: https://polar.sh/assets/brand/polar_brand.zip
+          - link "Legal" [ref=e291] [cursor=pointer]:
+            - /url: https://polar.sh/legal
+          - button "Cookie Preferences" [ref=e292]
+      - generic [ref=e293]:
+        - heading "Support" [level=3] [ref=e294]
+        - generic [ref=e295]:
+          - link "Docs" [ref=e296] [cursor=pointer]:
+            - /url: https://polar.sh/docs
+          - link "Contact" [ref=e297] [cursor=pointer]:
+            - /url: mailto:support@polar.sh
+          - link "Service Status" [ref=e298] [cursor=pointer]:
+            - /url: https://status.polar.sh

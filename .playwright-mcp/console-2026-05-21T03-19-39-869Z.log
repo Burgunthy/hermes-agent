@@ -1,0 +1,44 @@
+[    1056ms] [INFO] Resource Sentinel initialized... @ https://leather-airbus-24b.notion.site/Vibe-Coding-Club-31e207b41de580d49feacfbe4aef9ce3?pvs=74:0
+[    1640ms] [INFO] 2026-05-21T03:19:41.508Z [info] PageLoader: loserAborted {data: Object} @ https://leather-airbus-24b.notion.site/_assets/experimental/app-e0794d114433668f.js:6
+[    2275ms] [WARNING] Ignoring inability to install OPFS sqlite3_vfs: Cannot install OPFS: Missing SharedArrayBuffer and/or Atomics. The server must emit the COOP/COEP response headers to enable those. See https://sqlite.org/wasm/doc/trunk/persistence.md#coop-coep @ https://leather-airbus-24b.notion.site/_assets/experimental/wasm-sqlite-worker-655fd28567a3deb5.js:0
+[    2529ms] [INFO] 2026-05-21T03:19:42.395Z [info] FeatureFlagTransactionQueue: preferIndexedDB {team: no-team-specified} @ https://leather-airbus-24b.notion.site/_assets/experimental/app-e0794d114433668f.js:6
+[    2620ms] [WARNING]   WARN  [Statsig] Creating multiple Statsig clients with the same SDK key can lead to unexpected behavior. Multi-instance support requires different SDK keys. @ https://leather-airbus-24b.notion.site/_assets/experimental/38994-57e75a3c479e6567.js:0
+[    2703ms] [INFO] 2026-05-21T03:19:42.571Z [info] appHelpers: shouldShowError {data: Object} @ https://leather-airbus-24b.notion.site/_assets/experimental/app-e0794d114433668f.js:6
+[    2720ms] [INFO] 2026-05-21T03:19:42.589Z [info] appHelpers: shouldShowError {data: Object} @ https://leather-airbus-24b.notion.site/_assets/experimental/app-e0794d114433668f.js:6
+[    2773ms] [LOG] %c
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnn                         nnnn
+	nnnnnnn                          nnnn
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnnnnnn                           nnn
+	nnnnnnnn    nnnnnnnn     nnnnnnn   nnn
+	nnnnnnnn      nnnnnnn      nnn     nnn
+	nnnnnnnn      nnnnnnnn     nnn     nnn
+	nnnnnnnn      nnnnnnnnnn   nnn     nnn
+	nnnnnnnn      nnn nnnnnnn  nnn     nnn
+	nnnnnnnn      nnn  nnnnnnnnnnn     nnn
+	nnnnnnnn      nnn   nnnnnnnnnn     nnn
+	nnnnnnnn      nnn     nnnnnnnn     nnn
+	nnnnnnnn      nnn      nnnnnnn     nnn
+	nnnnnnnn    nnnnnnnn    nnnnnn     nnn
+	  nnnnnn                           nnn
+		nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn		We're hiring!
+		  nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn		notion.so/careers
+
+	“yeah, I would probably eat a lemon for one hundred dollars” -- Ivan Zhao (2023-07-14)
+				  font-family: monospace @ https://leather-airbus-24b.notion.site/_assets/experimental/mainApp-46fbf0f2898b24c6.js:61
+[    3396ms] [ERROR] Could not find character in emojiData: 💡 @ https://leather-airbus-24b.notion.site/_assets/experimental/67426-a3b8ea9482cf5219.js:182
+[    3508ms] [ERROR] Could not find character in emojiData: 🙆 @ https://leather-airbus-24b.notion.site/_assets/experimental/67426-a3b8ea9482cf5219.js:182
+[    3596ms] [ERROR] Could not find character in emojiData: 🍇 @ https://leather-airbus-24b.notion.site/_assets/experimental/67426-a3b8ea9482cf5219.js:182
+[    3622ms] [ERROR] Could not find character in emojiData: 📋 @ https://leather-airbus-24b.notion.site/_assets/experimental/67426-a3b8ea9482cf5219.js:182
+[    3911ms] [ERROR] Could not find character in emojiData: 🍇 @ https://leather-airbus-24b.notion.site/_assets/experimental/67426-a3b8ea9482cf5219.js:182
+[    4285ms] [INFO] 2026-05-21T03:19:44.153Z [error] handleRestrictedStateForResponse: callApi {data: Object} @ https://leather-airbus-24b.notion.site/_assets/experimental/app-e0794d114433668f.js:6
+[    4299ms] [INFO] 2026-05-21T03:19:44.167Z [error] handleRestrictedStateForResponse: callApi {data: Object} @ https://leather-airbus-24b.notion.site/_assets/experimental/app-e0794d114433668f.js:6
+[    4307ms] [INFO] 2026-05-21T03:19:44.176Z [error] handleRestrictedStateForResponse: callApi {data: Object} @ https://leather-airbus-24b.notion.site/_assets/experimental/app-e0794d114433668f.js:6
+[    4317ms] [INFO] 2026-05-21T03:19:44.185Z [error] handleRestrictedStateForResponse: callApi {data: Object} @ https://leather-airbus-24b.notion.site/_assets/experimental/app-e0794d114433668f.js:6
+[    5104ms] [WARNING] Amplitude Logger [Warn]: Event not tracked, no destination plugins on the instance @ https://leather-airbus-24b.notion.site/_assets/experimental/transport-support-49d6a98cbf389fa8.js:0
+[    5107ms] [INFO] 2026-05-21T03:19:44.975Z [error] eventTrailApiHelpers: trackFailure {error: Object} @ https://leather-airbus-24b.notion.site/_assets/experimental/app-e0794d114433668f.js:6
+[    5394ms] [INFO] 2026-05-21T03:19:45.262Z [info] sqliteSchemaHelpers: attemptFastForwardMigration {data: Object} @ https://leather-airbus-24b.notion.site/_assets/experimental/app-e0794d114433668f.js:6
+[    6010ms] [INFO] 2026-05-21T03:19:45.879Z [info] sqliteSchemaHelpers: successfulFastForwardMigration {data: Object} @ https://leather-airbus-24b.notion.site/_assets/experimental/app-e0794d114433668f.js:6
+[    9682ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.metadata.io/pixel/config/1127.json:0

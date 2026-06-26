@@ -1,0 +1,676 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hermes Agent Hermes Agent" [ref=e7] [cursor=pointer]:
+          - /url: /docs/
+          - img "Hermes Agent" [ref=e9]
+          - generic [ref=e10]: Hermes Agent
+        - link "Docs" [ref=e11] [cursor=pointer]:
+          - /url: /docs/user-stories
+        - link "Skills" [ref=e12] [cursor=pointer]:
+          - /url: /docs/skills
+      - generic [ref=e13]:
+        - button "English" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+          - text: English
+        - link "Home(opens in new tab)" [ref=e18] [cursor=pointer]:
+          - /url: https://hermes-agent.nousresearch.com
+          - text: Home
+          - img "(opens in new tab)" [ref=e19]
+        - link "GitHub(opens in new tab)" [ref=e21] [cursor=pointer]:
+          - /url: https://github.com/NousResearch/hermes-agent
+          - text: GitHub
+          - img "(opens in new tab)" [ref=e22]
+        - link "Discord(opens in new tab)" [ref=e24] [cursor=pointer]:
+          - /url: https://discord.gg/NousResearch
+          - text: Discord
+          - img "(opens in new tab)" [ref=e25]
+        - button "Switch between dark and light mode (currently system mode)" [disabled] [ref=e28]:
+          - img [ref=e29]
+        - textbox "Search" [ref=e33]
+  - generic [ref=e36]:
+    - complementary [ref=e37]:
+      - generic [ref=e39]:
+        - navigation "Docs sidebar" [ref=e40]:
+          - list [ref=e41]:
+            - listitem [ref=e42]:
+              - link "User Stories & Use Cases" [ref=e43] [cursor=pointer]:
+                - /url: /docs/user-stories
+                - generic "User Stories & Use Cases" [ref=e44]
+            - listitem [ref=e45]:
+              - button "Getting Started" [ref=e47] [cursor=pointer]:
+                - generic "Getting Started" [ref=e48]
+            - listitem [ref=e49]:
+              - button "Using Hermes" [ref=e51] [cursor=pointer]:
+                - generic "Using Hermes" [ref=e52]
+            - listitem [ref=e53]:
+              - button "Features" [expanded] [ref=e55] [cursor=pointer]:
+                - generic "Features" [ref=e56]
+              - list [ref=e57]:
+                - listitem [ref=e58]:
+                  - link "Overview" [ref=e59] [cursor=pointer]:
+                    - /url: /docs/user-guide/features/overview
+                    - generic "Overview" [ref=e60]
+                - listitem [ref=e61]:
+                  - link "Tool Gateway" [ref=e62] [cursor=pointer]:
+                    - /url: /docs/user-guide/features/tool-gateway
+                    - generic "Tool Gateway" [ref=e63]
+                - listitem [ref=e64]:
+                  - button "Core" [expanded] [ref=e66] [cursor=pointer]:
+                    - generic "Core" [ref=e67]
+                  - list [ref=e68]:
+                    - listitem [ref=e69]:
+                      - link "Tools & Toolsets" [ref=e70] [cursor=pointer]:
+                        - /url: /docs/user-guide/features/tools
+                        - generic "Tools & Toolsets" [ref=e71]
+                    - listitem [ref=e72]:
+                      - link "Skills System" [ref=e73] [cursor=pointer]:
+                        - /url: /docs/user-guide/features/skills
+                        - generic "Skills System" [ref=e74]
+                    - listitem [ref=e75]:
+                      - link "LSP — Semantic Diagnostics" [ref=e76] [cursor=pointer]:
+                        - /url: /docs/user-guide/features/lsp
+                        - generic "LSP — Semantic Diagnostics" [ref=e77]
+                    - listitem [ref=e78]:
+                      - link "Curator" [ref=e79] [cursor=pointer]:
+                        - /url: /docs/user-guide/features/curator
+                        - generic "Curator" [ref=e80]
+                    - listitem [ref=e81]:
+                      - link "Persistent Memory" [ref=e82] [cursor=pointer]:
+                        - /url: /docs/user-guide/features/memory
+                        - generic "Persistent Memory" [ref=e83]
+                    - listitem [ref=e84]:
+                      - link "Memory Providers" [ref=e85] [cursor=pointer]:
+                        - /url: /docs/user-guide/features/memory-providers
+                        - generic "Memory Providers" [ref=e86]
+                    - listitem [ref=e87]:
+                      - link "Context Files" [ref=e88] [cursor=pointer]:
+                        - /url: /docs/user-guide/features/context-files
+                        - generic "Context Files" [ref=e89]
+                    - listitem [ref=e90]:
+                      - link "Context References" [ref=e91] [cursor=pointer]:
+                        - /url: /docs/user-guide/features/context-references
+                        - generic "Context References" [ref=e92]
+                    - listitem [ref=e93]:
+                      - link "Personality & SOUL.md" [ref=e94] [cursor=pointer]:
+                        - /url: /docs/user-guide/features/personality
+                        - generic "Personality & SOUL.md" [ref=e95]
+                    - listitem [ref=e96]:
+                      - link "Skins & Themes" [ref=e97] [cursor=pointer]:
+                        - /url: /docs/user-guide/features/skins
+                        - generic "Skins & Themes" [ref=e98]
+                    - listitem [ref=e99]:
+                      - link "Plugins" [ref=e100] [cursor=pointer]:
+                        - /url: /docs/user-guide/features/plugins
+                        - generic "Plugins" [ref=e101]
+                    - listitem [ref=e102]:
+                      - link "Built-in Plugins" [ref=e103] [cursor=pointer]:
+                        - /url: /docs/user-guide/features/built-in-plugins
+                        - generic "Built-in Plugins" [ref=e104]
+                - listitem [ref=e105]:
+                  - button "Automation" [ref=e107] [cursor=pointer]:
+                    - generic "Automation" [ref=e108]
+                - listitem [ref=e109]:
+                  - button "Media & Web" [ref=e111] [cursor=pointer]:
+                    - generic "Media & Web" [ref=e112]
+                - listitem [ref=e113]:
+                  - button "Management" [ref=e115] [cursor=pointer]:
+                    - generic "Management" [ref=e116]
+                - listitem [ref=e117]:
+                  - button "Advanced" [ref=e119] [cursor=pointer]:
+                    - generic "Advanced" [ref=e120]
+                - listitem [ref=e121]:
+                  - button "Skills" [ref=e123] [cursor=pointer]:
+                    - generic "Skills" [ref=e124]
+            - listitem [ref=e125]:
+              - button "Messaging Platforms" [ref=e127] [cursor=pointer]:
+                - generic "Messaging Platforms" [ref=e128]
+            - listitem [ref=e129]:
+              - button "Integrations" [ref=e131] [cursor=pointer]:
+                - generic "Integrations" [ref=e132]
+            - listitem [ref=e133]:
+              - button "Guides & Tutorials" [ref=e135] [cursor=pointer]:
+                - generic "Guides & Tutorials" [ref=e136]
+            - listitem [ref=e137]:
+              - button "Developer Guide" [ref=e139] [cursor=pointer]:
+                - generic "Developer Guide" [ref=e140]
+            - listitem [ref=e141]:
+              - button "Reference" [ref=e143] [cursor=pointer]:
+                - generic "Reference" [ref=e144]
+        - button "Collapse sidebar" [ref=e145] [cursor=pointer]:
+          - img [ref=e146]
+    - main [ref=e150]:
+      - generic [ref=e152]:
+        - generic [ref=e154]:
+          - article [ref=e155]:
+            - navigation "Breadcrumbs" [ref=e156]:
+              - list [ref=e157]:
+                - listitem [ref=e158]:
+                  - link "Home page" [ref=e159] [cursor=pointer]:
+                    - /url: /docs/
+                    - img [ref=e160]
+                - listitem [ref=e162]:
+                  - generic [ref=e163]: Features
+                - listitem [ref=e164]:
+                  - generic [ref=e165]: Core
+                - listitem [ref=e166]:
+                  - generic [ref=e167]: Persistent Memory
+            - generic [ref=e168]:
+              - heading "Persistent Memory" [level=1] [ref=e170]
+              - paragraph [ref=e171]: Hermes Agent has bounded, curated memory that persists across sessions. This lets it remember your preferences, your projects, your environment, and things it has learned.
+              - heading "How It WorksDirect link to How It Works" [level=2] [ref=e172]:
+                - text: How It Works
+                - link "Direct link to How It Works" [ref=e173] [cursor=pointer]:
+                  - /url: "#how-it-works"
+                  - text: "#"
+              - paragraph [ref=e174]: "Two files make up the agent's memory:"
+              - table [ref=e175]:
+                - rowgroup [ref=e176]:
+                  - row "File Purpose Char Limit" [ref=e177]:
+                    - columnheader "File" [ref=e178]
+                    - columnheader "Purpose" [ref=e179]
+                    - columnheader "Char Limit" [ref=e180]
+                - rowgroup [ref=e181]:
+                  - row "MEMORY.md Agent's personal notes — environment facts, conventions, things learned 2,200 chars (~800 tokens)" [ref=e182]:
+                    - cell "MEMORY.md" [ref=e183]:
+                      - strong [ref=e184]: MEMORY.md
+                    - cell "Agent's personal notes — environment facts, conventions, things learned" [ref=e185]
+                    - cell "2,200 chars (~800 tokens)" [ref=e186]
+                  - row "USER.md User profile — your preferences, communication style, expectations 1,375 chars (~500 tokens)" [ref=e187]:
+                    - cell "USER.md" [ref=e188]:
+                      - strong [ref=e189]: USER.md
+                    - cell "User profile — your preferences, communication style, expectations" [ref=e190]
+                    - cell "1,375 chars (~500 tokens)" [ref=e191]
+              - paragraph [ref=e192]:
+                - text: Both are stored in
+                - code [ref=e193]: ~/.hermes/memories/
+                - text: and are injected into the system prompt as a frozen snapshot at session start. The agent manages its own memory via the
+                - code [ref=e194]: memory
+                - text: tool — it can add, replace, or remove entries.
+              - generic [ref=e195]:
+                - generic [ref=e196]:
+                  - img [ref=e198]
+                  - text: info
+                - paragraph [ref=e201]: Character limits keep memory focused. When memory is full, the agent consolidates or replaces entries to make room for new information.
+              - heading "How Memory Appears in the System PromptDirect link to How Memory Appears in the System Prompt" [level=2] [ref=e202]:
+                - text: How Memory Appears in the System Prompt
+                - link "Direct link to How Memory Appears in the System Prompt" [ref=e203] [cursor=pointer]:
+                  - /url: "#how-memory-appears-in-the-system-prompt"
+                  - text: "#"
+              - paragraph [ref=e204]: "At the start of every session, memory entries are loaded from disk and rendered into the system prompt as a frozen block:"
+              - code [ref=e208]:
+                - generic [ref=e209]: ══════════════════════════════════════════════
+                - generic [ref=e210]: MEMORY (your personal notes) [67% — 1,474/2,200 chars]
+                - generic [ref=e211]: ══════════════════════════════════════════════
+                - generic [ref=e212]: User's project is a Rust web service at ~/code/myapi using Axum + SQLx
+                - generic [ref=e213]: §
+                - generic [ref=e214]: This machine runs Ubuntu 22.04, has Docker and Podman installed
+                - generic [ref=e215]: §
+                - generic [ref=e216]: User prefers concise responses, dislikes verbose explanations
+              - paragraph [ref=e217]: "The format includes:"
+              - list [ref=e218]:
+                - listitem [ref=e219]: A header showing which store (MEMORY or USER PROFILE)
+                - listitem [ref=e220]: Usage percentage and character counts so the agent knows capacity
+                - listitem [ref=e221]:
+                  - text: Individual entries separated by
+                  - code [ref=e222]: §
+                  - text: (section sign) delimiters
+                - listitem [ref=e223]: Entries can be multiline
+              - paragraph [ref=e224]:
+                - strong [ref=e225]: "Frozen snapshot pattern:"
+                - text: The system prompt injection is captured once at session start and never changes mid-session. This is intentional — it preserves the LLM's prefix cache for performance. When the agent adds/removes memory entries during a session, the changes are persisted to disk immediately but won't appear in the system prompt until the next session starts. Tool responses always show the live state.
+              - heading "Memory Tool ActionsDirect link to Memory Tool Actions" [level=2] [ref=e226]:
+                - text: Memory Tool Actions
+                - link "Direct link to Memory Tool Actions" [ref=e227] [cursor=pointer]:
+                  - /url: "#memory-tool-actions"
+                  - text: "#"
+              - paragraph [ref=e228]:
+                - text: The agent uses the
+                - code [ref=e229]: memory
+                - text: "tool with these actions:"
+              - list [ref=e230]:
+                - listitem [ref=e231]:
+                  - strong [ref=e232]: add
+                  - text: — Add a new memory entry
+                - listitem [ref=e233]:
+                  - strong [ref=e234]: replace
+                  - text: — Replace an existing entry with updated content (uses substring matching via
+                  - code [ref=e235]: old_text
+                  - text: )
+                - listitem [ref=e236]:
+                  - strong [ref=e237]: remove
+                  - text: — Remove an entry that's no longer relevant (uses substring matching via
+                  - code [ref=e238]: old_text
+                  - text: )
+              - paragraph [ref=e239]:
+                - text: There is no
+                - code [ref=e240]: read
+                - text: action — memory content is automatically injected into the system prompt at session start. The agent sees its memories as part of its conversation context.
+              - heading "Substring MatchingDirect link to Substring Matching" [level=3] [ref=e241]:
+                - text: Substring Matching
+                - link "Direct link to Substring Matching" [ref=e242] [cursor=pointer]:
+                  - /url: "#substring-matching"
+                  - text: "#"
+              - paragraph [ref=e243]:
+                - text: The
+                - code [ref=e244]: replace
+                - text: and
+                - code [ref=e245]: remove
+                - text: actions use short unique substring matching — you don't need the full entry text. The
+                - code [ref=e246]: old_text
+                - text: "parameter just needs to be a unique substring that identifies exactly one entry:"
+              - code [ref=e250]:
+                - generic [ref=e251]: "# If memory contains \"User prefers dark mode in all editors\""
+                - generic [ref=e252]: memory(action="replace", target="memory",
+                - generic [ref=e253]: old_text="dark mode",
+                - generic [ref=e254]: content="User prefers light mode in VS Code, dark mode in terminal")
+              - paragraph [ref=e255]: If the substring matches multiple entries, an error is returned asking for a more specific match.
+              - heading "Two Targets ExplainedDirect link to Two Targets Explained" [level=2] [ref=e256]:
+                - text: Two Targets Explained
+                - link "Direct link to Two Targets Explained" [ref=e257] [cursor=pointer]:
+                  - /url: "#two-targets-explained"
+                  - text: "#"
+              - heading "memory — Agent's Personal NotesDirect link to memory--agents-personal-notes" [level=3] [ref=e258]:
+                - code [ref=e259]: memory
+                - text: — Agent's Personal Notes
+                - link "Direct link to memory--agents-personal-notes" [ref=e260] [cursor=pointer]:
+                  - /url: "#memory--agents-personal-notes"
+                  - text: "#"
+              - paragraph [ref=e261]: "For information the agent needs to remember about the environment, workflows, and lessons learned:"
+              - list [ref=e262]:
+                - listitem [ref=e263]: Environment facts (OS, tools, project structure)
+                - listitem [ref=e264]: Project conventions and configuration
+                - listitem [ref=e265]: Tool quirks and workarounds discovered
+                - listitem [ref=e266]: Completed task diary entries
+                - listitem [ref=e267]: Skills and techniques that worked
+              - heading "user — User ProfileDirect link to user--user-profile" [level=3] [ref=e268]:
+                - code [ref=e269]: user
+                - text: — User Profile
+                - link "Direct link to user--user-profile" [ref=e270] [cursor=pointer]:
+                  - /url: "#user--user-profile"
+                  - text: "#"
+              - paragraph [ref=e271]: "For information about the user's identity, preferences, and communication style:"
+              - list [ref=e272]:
+                - listitem [ref=e273]: Name, role, timezone
+                - listitem [ref=e274]: Communication preferences (concise vs detailed, format preferences)
+                - listitem [ref=e275]: Pet peeves and things to avoid
+                - listitem [ref=e276]: Workflow habits
+                - listitem [ref=e277]: Technical skill level
+              - heading "What to Save vs SkipDirect link to What to Save vs Skip" [level=2] [ref=e278]:
+                - text: What to Save vs Skip
+                - link "Direct link to What to Save vs Skip" [ref=e279] [cursor=pointer]:
+                  - /url: "#what-to-save-vs-skip"
+                  - text: "#"
+              - heading "Save These (Proactively)Direct link to Save These (Proactively)" [level=3] [ref=e280]:
+                - text: Save These (Proactively)
+                - link "Direct link to Save These (Proactively)" [ref=e281] [cursor=pointer]:
+                  - /url: "#save-these-proactively"
+                  - text: "#"
+              - paragraph [ref=e282]: "The agent saves automatically — you don't need to ask. It saves when it learns:"
+              - list [ref=e283]:
+                - listitem [ref=e284]:
+                  - strong [ref=e285]: "User preferences:"
+                  - text: "\"I prefer TypeScript over JavaScript\" → save to"
+                  - code [ref=e286]: user
+                - listitem [ref=e287]:
+                  - strong [ref=e288]: "Environment facts:"
+                  - text: "\"This server runs Debian 12 with PostgreSQL 16\" → save to"
+                  - code [ref=e289]: memory
+                - listitem [ref=e290]:
+                  - strong [ref=e291]: "Corrections:"
+                  - text: "\"Don't use"
+                  - code [ref=e292]: sudo
+                  - text: for Docker commands, user is in docker group" → save to
+                  - code [ref=e293]: memory
+                - listitem [ref=e294]:
+                  - strong [ref=e295]: "Conventions:"
+                  - text: "\"Project uses tabs, 120-char line width, Google-style docstrings\" → save to"
+                  - code [ref=e296]: memory
+                - listitem [ref=e297]:
+                  - strong [ref=e298]: "Completed work:"
+                  - text: "\"Migrated database from MySQL to PostgreSQL on 2026-01-15\" → save to"
+                  - code [ref=e299]: memory
+                - listitem [ref=e300]:
+                  - strong [ref=e301]: "Explicit requests:"
+                  - text: "\"Remember that my API key rotation happens monthly\" → save to"
+                  - code [ref=e302]: memory
+              - heading "Skip TheseDirect link to Skip These" [level=3] [ref=e303]:
+                - text: Skip These
+                - link "Direct link to Skip These" [ref=e304] [cursor=pointer]:
+                  - /url: "#skip-these"
+                  - text: "#"
+              - list [ref=e305]:
+                - listitem [ref=e306]:
+                  - strong [ref=e307]: "Trivial/obvious info:"
+                  - text: "\"User asked about Python\" — too vague to be useful"
+                - listitem [ref=e308]:
+                  - strong [ref=e309]: "Easily re-discovered facts:"
+                  - text: "\"Python 3.12 supports f-string nesting\" — can web search this"
+                - listitem [ref=e310]:
+                  - strong [ref=e311]: "Raw data dumps:"
+                  - text: Large code blocks, log files, data tables — too big for memory
+                - listitem [ref=e312]:
+                  - strong [ref=e313]: "Session-specific ephemera:"
+                  - text: Temporary file paths, one-off debugging context
+                - listitem [ref=e314]:
+                  - strong [ref=e315]: "Information already in context files:"
+                  - text: SOUL.md and AGENTS.md content
+              - heading "Capacity ManagementDirect link to Capacity Management" [level=2] [ref=e316]:
+                - text: Capacity Management
+                - link "Direct link to Capacity Management" [ref=e317] [cursor=pointer]:
+                  - /url: "#capacity-management"
+                  - text: "#"
+              - paragraph [ref=e318]: "Memory has strict character limits to keep system prompts bounded:"
+              - table [ref=e319]:
+                - rowgroup [ref=e320]:
+                  - row "Store Limit Typical entries" [ref=e321]:
+                    - columnheader "Store" [ref=e322]
+                    - columnheader "Limit" [ref=e323]
+                    - columnheader "Typical entries" [ref=e324]
+                - rowgroup [ref=e325]:
+                  - row "memory 2,200 chars 8-15 entries" [ref=e326]:
+                    - cell "memory" [ref=e327]
+                    - cell "2,200 chars" [ref=e328]
+                    - cell "8-15 entries" [ref=e329]
+                  - row "user 1,375 chars 5-10 entries" [ref=e330]:
+                    - cell "user" [ref=e331]
+                    - cell "1,375 chars" [ref=e332]
+                    - cell "5-10 entries" [ref=e333]
+              - heading "What Happens When Memory is FullDirect link to What Happens When Memory is Full" [level=3] [ref=e334]:
+                - text: What Happens When Memory is Full
+                - link "Direct link to What Happens When Memory is Full" [ref=e335] [cursor=pointer]:
+                  - /url: "#what-happens-when-memory-is-full"
+                  - text: "#"
+              - paragraph [ref=e336]: "When you try to add an entry that would exceed the limit, the tool returns an error:"
+              - code [ref=e340]:
+                - generic [ref=e341]: "{"
+                - generic [ref=e342]: "\"success\": false,"
+                - generic [ref=e343]: "\"error\": \"Memory at 2,100/2,200 chars. Adding this entry (250 chars) would exceed the limit. Replace or remove existing entries first.\","
+                - generic [ref=e344]: "\"current_entries\": [\"...\"],"
+                - generic [ref=e345]: "\"usage\": \"2,100/2,200\""
+                - generic [ref=e346]: "}"
+              - paragraph [ref=e347]: "The agent should then:"
+              - list [ref=e348]:
+                - listitem [ref=e349]: Read the current entries (shown in the error response)
+                - listitem [ref=e350]: Identify entries that can be removed or consolidated
+                - listitem [ref=e351]:
+                  - text: Use
+                  - code [ref=e352]: replace
+                  - text: to merge related entries into shorter versions
+                - listitem [ref=e353]:
+                  - text: Then
+                  - code [ref=e354]: add
+                  - text: the new entry
+              - paragraph [ref=e355]:
+                - strong [ref=e356]: "Best practice:"
+                - text: When memory is above 80% capacity (visible in the system prompt header), consolidate entries before adding new ones. For example, merge three separate "project uses X" entries into one comprehensive project description entry.
+              - heading "Practical Examples of Good Memory EntriesDirect link to Practical Examples of Good Memory Entries" [level=3] [ref=e357]:
+                - text: Practical Examples of Good Memory Entries
+                - link "Direct link to Practical Examples of Good Memory Entries" [ref=e358] [cursor=pointer]:
+                  - /url: "#practical-examples-of-good-memory-entries"
+                  - text: "#"
+              - paragraph [ref=e359]:
+                - strong [ref=e360]: "Compact, information-dense entries work best:"
+              - code [ref=e364]:
+                - generic [ref=e365]: "# Good: Packs multiple related facts"
+                - generic [ref=e366]: "User runs macOS 14 Sonoma, uses Homebrew, has Docker Desktop and Podman. Shell: zsh with oh-my-zsh. Editor: VS Code with Vim keybindings."
+                - generic [ref=e367]: "# Good: Specific, actionable convention"
+                - generic [ref=e368]: Project ~/code/api uses Go 1.22, sqlc for DB queries, chi router. Run tests with 'make test'. CI via GitHub Actions.
+                - generic [ref=e369]: "# Good: Lesson learned with context"
+                - generic [ref=e370]: The staging server (10.0.1.50) needs SSH port 2222, not 22. Key is at ~/.ssh/staging_ed25519.
+                - generic [ref=e371]: "# Bad: Too vague"
+                - generic [ref=e372]: User has a project.
+                - generic [ref=e373]: "# Bad: Too verbose"
+                - generic [ref=e374]: On January 5th, 2026, the user asked me to look at their project which is
+                - generic [ref=e375]: located at ~/code/api. I discovered it uses Go version 1.22 and...
+              - heading "Duplicate PreventionDirect link to Duplicate Prevention" [level=2] [ref=e376]:
+                - text: Duplicate Prevention
+                - link "Direct link to Duplicate Prevention" [ref=e377] [cursor=pointer]:
+                  - /url: "#duplicate-prevention"
+                  - text: "#"
+              - paragraph [ref=e378]: The memory system automatically rejects exact duplicate entries. If you try to add content that already exists, it returns success with a "no duplicate added" message.
+              - heading "Security ScanningDirect link to Security Scanning" [level=2] [ref=e379]:
+                - text: Security Scanning
+                - link "Direct link to Security Scanning" [ref=e380] [cursor=pointer]:
+                  - /url: "#security-scanning"
+                  - text: "#"
+              - paragraph [ref=e381]: Memory entries are scanned for injection and exfiltration patterns before being accepted, since they're injected into the system prompt. Content matching threat patterns (prompt injection, credential exfiltration, SSH backdoors) or containing invisible Unicode characters is blocked.
+              - heading "Session SearchDirect link to Session Search" [level=2] [ref=e382]:
+                - text: Session Search
+                - link "Direct link to Session Search" [ref=e383] [cursor=pointer]:
+                  - /url: "#session-search"
+                  - text: "#"
+              - paragraph [ref=e384]:
+                - text: Beyond MEMORY.md and USER.md, the agent can search its past conversations using the
+                - code [ref=e385]: session_search
+                - text: "tool:"
+              - list [ref=e386]:
+                - listitem [ref=e387]:
+                  - text: All CLI and messaging sessions are stored in SQLite (
+                  - code [ref=e388]: ~/.hermes/state.db
+                  - text: ) with FTS5 full-text search
+                - listitem [ref=e389]: Search queries return actual messages from the DB — no LLM summarization, no truncation
+                - listitem [ref=e390]: The agent can find things it discussed weeks ago, even if they're not in its active memory
+                - listitem [ref=e391]: The agent can also scroll forward/backward inside any session it finds
+              - code [ref=e395]:
+                - generic [ref=e396]: "hermes sessions list # Browse past sessions"
+              - paragraph [ref=e397]:
+                - text: See
+                - link "Session Search Tool" [ref=e398] [cursor=pointer]:
+                  - /url: /docs/user-guide/sessions#session-search-tool
+                - text: for the three calling shapes (discovery / scroll / browse) and the response format.
+              - heading "session_search vs memoryDirect link to session_search vs memory" [level=3] [ref=e399]:
+                - text: session_search vs memory
+                - link "Direct link to session_search vs memory" [ref=e400] [cursor=pointer]:
+                  - /url: "#session_search-vs-memory"
+                  - text: "#"
+              - table [ref=e401]:
+                - rowgroup [ref=e402]:
+                  - row "Feature Persistent Memory Session Search" [ref=e403]:
+                    - columnheader "Feature" [ref=e404]
+                    - columnheader "Persistent Memory" [ref=e405]
+                    - columnheader "Session Search" [ref=e406]
+                - rowgroup [ref=e407]:
+                  - row "Capacity ~1,300 tokens total Unlimited (all sessions)" [ref=e408]:
+                    - cell "Capacity" [ref=e409]:
+                      - strong [ref=e410]: Capacity
+                    - cell "~1,300 tokens total" [ref=e411]
+                    - cell "Unlimited (all sessions)" [ref=e412]
+                  - row "Speed Instant (in system prompt) ~20ms FTS5 query, ~1ms scroll" [ref=e413]:
+                    - cell "Speed" [ref=e414]:
+                      - strong [ref=e415]: Speed
+                    - cell "Instant (in system prompt)" [ref=e416]
+                    - cell "~20ms FTS5 query, ~1ms scroll" [ref=e417]
+                  - row "Cost Token cost in every prompt Free — no LLM calls" [ref=e418]:
+                    - cell "Cost" [ref=e419]:
+                      - strong [ref=e420]: Cost
+                    - cell "Token cost in every prompt" [ref=e421]
+                    - cell "Free — no LLM calls" [ref=e422]
+                  - row "Use case Key facts always available Finding specific past conversations" [ref=e423]:
+                    - cell "Use case" [ref=e424]:
+                      - strong [ref=e425]: Use case
+                    - cell "Key facts always available" [ref=e426]
+                    - cell "Finding specific past conversations" [ref=e427]
+                  - row "Management Manually curated by agent Automatic — all sessions stored" [ref=e428]:
+                    - cell "Management" [ref=e429]:
+                      - strong [ref=e430]: Management
+                    - cell "Manually curated by agent" [ref=e431]
+                    - cell "Automatic — all sessions stored" [ref=e432]
+                  - row "Token cost Fixed per session (~1,300 tokens) On-demand (searched when needed)" [ref=e433]:
+                    - cell "Token cost" [ref=e434]:
+                      - strong [ref=e435]: Token cost
+                    - cell "Fixed per session (~1,300 tokens)" [ref=e436]
+                    - cell "On-demand (searched when needed)" [ref=e437]
+              - paragraph [ref=e438]:
+                - strong [ref=e439]: Memory
+                - text: is for critical facts that should always be in context.
+                - strong [ref=e440]: Session search
+                - text: is for "did we discuss X last week?" queries where the agent needs to recall specifics from past conversations.
+              - heading "ConfigurationDirect link to Configuration" [level=2] [ref=e441]:
+                - text: Configuration
+                - link "Direct link to Configuration" [ref=e442] [cursor=pointer]:
+                  - /url: "#configuration"
+                  - text: "#"
+              - code [ref=e446]:
+                - generic [ref=e447]: "# In ~/.hermes/config.yaml"
+                - generic [ref=e448]: "memory:"
+                - generic [ref=e449]: "memory_enabled: true"
+                - generic [ref=e450]: "user_profile_enabled: true"
+                - generic [ref=e451]: "memory_char_limit: 2200 # ~800 tokens"
+                - generic [ref=e452]: "user_char_limit: 1375 # ~500 tokens"
+              - heading "External Memory ProvidersDirect link to External Memory Providers" [level=2] [ref=e453]:
+                - text: External Memory Providers
+                - link "Direct link to External Memory Providers" [ref=e454] [cursor=pointer]:
+                  - /url: "#external-memory-providers"
+                  - text: "#"
+              - paragraph [ref=e455]: For deeper, persistent memory that goes beyond MEMORY.md and USER.md, Hermes ships with 8 external memory provider plugins — including Honcho, OpenViking, Mem0, Hindsight, Holographic, RetainDB, ByteRover, and Supermemory.
+              - paragraph [ref=e456]:
+                - text: External providers run
+                - strong [ref=e457]: alongside
+                - text: built-in memory (never replacing it) and add capabilities like knowledge graphs, semantic search, automatic fact extraction, and cross-session user modeling.
+              - code [ref=e461]:
+                - generic [ref=e462]: "hermes memory setup # pick a provider and configure it"
+                - generic [ref=e463]: "hermes memory status # check what's active"
+              - paragraph [ref=e464]:
+                - text: See the
+                - link "Memory Providers" [ref=e465] [cursor=pointer]:
+                  - /url: /docs/user-guide/features/memory-providers
+                - text: guide for full details on each provider, setup instructions, and comparison.
+            - link "Edit this page" [ref=e469] [cursor=pointer]:
+              - /url: https://github.com/NousResearch/hermes-agent/edit/main/website/docs/user-guide/features/memory.md
+              - img [ref=e470]
+              - text: Edit this page
+          - navigation "Docs pages" [ref=e474]:
+            - link "Previous « Curator" [ref=e475] [cursor=pointer]:
+              - /url: /docs/user-guide/features/curator
+              - generic [ref=e476]: Previous
+              - generic [ref=e477]: « Curator
+            - link "Next Memory Providers »" [ref=e478] [cursor=pointer]:
+              - /url: /docs/user-guide/features/memory-providers
+              - generic [ref=e479]: Next
+              - generic [ref=e480]: Memory Providers »
+        - list [ref=e483]:
+          - listitem [ref=e484]:
+            - link "How It Works" [ref=e485] [cursor=pointer]:
+              - /url: "#how-it-works"
+          - listitem [ref=e486]:
+            - link "How Memory Appears in the System Prompt" [ref=e487] [cursor=pointer]:
+              - /url: "#how-memory-appears-in-the-system-prompt"
+          - listitem [ref=e488]:
+            - link "Memory Tool Actions" [ref=e489] [cursor=pointer]:
+              - /url: "#memory-tool-actions"
+            - list [ref=e490]:
+              - listitem [ref=e491]:
+                - link "Substring Matching" [ref=e492] [cursor=pointer]:
+                  - /url: "#substring-matching"
+          - listitem [ref=e493]:
+            - link "Two Targets Explained" [ref=e494] [cursor=pointer]:
+              - /url: "#two-targets-explained"
+            - list [ref=e495]:
+              - listitem [ref=e496]:
+                - link "memory — Agent's Personal Notes" [ref=e497] [cursor=pointer]:
+                  - /url: "#memory--agents-personal-notes"
+                  - code [ref=e498]: memory
+                  - text: — Agent's Personal Notes
+              - listitem [ref=e499]:
+                - link "user — User Profile" [ref=e500] [cursor=pointer]:
+                  - /url: "#user--user-profile"
+                  - code [ref=e501]: user
+                  - text: — User Profile
+          - listitem [ref=e502]:
+            - link "What to Save vs Skip" [ref=e503] [cursor=pointer]:
+              - /url: "#what-to-save-vs-skip"
+            - list [ref=e504]:
+              - listitem [ref=e505]:
+                - link "Save These (Proactively)" [ref=e506] [cursor=pointer]:
+                  - /url: "#save-these-proactively"
+              - listitem [ref=e507]:
+                - link "Skip These" [ref=e508] [cursor=pointer]:
+                  - /url: "#skip-these"
+          - listitem [ref=e509]:
+            - link "Capacity Management" [ref=e510] [cursor=pointer]:
+              - /url: "#capacity-management"
+            - list [ref=e511]:
+              - listitem [ref=e512]:
+                - link "What Happens When Memory is Full" [ref=e513] [cursor=pointer]:
+                  - /url: "#what-happens-when-memory-is-full"
+              - listitem [ref=e514]:
+                - link "Practical Examples of Good Memory Entries" [ref=e515] [cursor=pointer]:
+                  - /url: "#practical-examples-of-good-memory-entries"
+          - listitem [ref=e516]:
+            - link "Duplicate Prevention" [ref=e517] [cursor=pointer]:
+              - /url: "#duplicate-prevention"
+          - listitem [ref=e518]:
+            - link "Security Scanning" [ref=e519] [cursor=pointer]:
+              - /url: "#security-scanning"
+          - listitem [ref=e520]:
+            - link "Session Search" [ref=e521] [cursor=pointer]:
+              - /url: "#session-search"
+            - list [ref=e522]:
+              - listitem [ref=e523]:
+                - link "session_search vs memory" [ref=e524] [cursor=pointer]:
+                  - /url: "#session_search-vs-memory"
+          - listitem [ref=e525]:
+            - link "Configuration" [ref=e526] [cursor=pointer]:
+              - /url: "#configuration"
+          - listitem [ref=e527]:
+            - link "External Memory Providers" [ref=e528] [cursor=pointer]:
+              - /url: "#external-memory-providers"
+  - contentinfo [ref=e529]:
+    - generic [ref=e530]:
+      - generic [ref=e531]:
+        - generic [ref=e532]:
+          - generic [ref=e533]: Docs
+          - list [ref=e534]:
+            - listitem [ref=e535]:
+              - link "Getting Started" [ref=e536] [cursor=pointer]:
+                - /url: /docs/getting-started/quickstart
+            - listitem [ref=e537]:
+              - link "User Guide" [ref=e538] [cursor=pointer]:
+                - /url: /docs/user-guide/cli
+            - listitem [ref=e539]:
+              - link "Developer Guide" [ref=e540] [cursor=pointer]:
+                - /url: /docs/developer-guide/architecture
+            - listitem [ref=e541]:
+              - link "Reference" [ref=e542] [cursor=pointer]:
+                - /url: /docs/reference/cli-commands
+        - generic [ref=e543]:
+          - generic [ref=e544]: Community
+          - list [ref=e545]:
+            - listitem [ref=e546]:
+              - link "Discord(opens in new tab)" [ref=e547] [cursor=pointer]:
+                - /url: https://discord.gg/NousResearch
+                - text: Discord
+                - img "(opens in new tab)" [ref=e548]
+            - listitem [ref=e550]:
+              - link "GitHub Discussions(opens in new tab)" [ref=e551] [cursor=pointer]:
+                - /url: https://github.com/NousResearch/hermes-agent/discussions
+                - text: GitHub Discussions
+                - img "(opens in new tab)" [ref=e552]
+            - listitem [ref=e554]:
+              - link "Skills Hub(opens in new tab)" [ref=e555] [cursor=pointer]:
+                - /url: https://agentskills.io
+                - text: Skills Hub
+                - img "(opens in new tab)" [ref=e556]
+        - generic [ref=e558]:
+          - generic [ref=e559]: More
+          - list [ref=e560]:
+            - listitem [ref=e561]:
+              - link "GitHub(opens in new tab)" [ref=e562] [cursor=pointer]:
+                - /url: https://github.com/NousResearch/hermes-agent
+                - text: GitHub
+                - img "(opens in new tab)" [ref=e563]
+            - listitem [ref=e565]:
+              - link "Nous Research(opens in new tab)" [ref=e566] [cursor=pointer]:
+                - /url: https://nousresearch.com
+                - text: Nous Research
+                - img "(opens in new tab)" [ref=e567]
+      - generic [ref=e570]:
+        - text: Built by
+        - link "Nous Research" [ref=e571] [cursor=pointer]:
+          - /url: https://nousresearch.com
+        - text: · MIT License · 2026

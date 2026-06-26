@@ -1,0 +1,588 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - link "나무위키" [ref=e6] [cursor=pointer]:
+      - /url: /
+    - generic [ref=e7]:
+      - link "최근 변경" [ref=e8] [cursor=pointer]:
+        - /url: /RecentChanges
+        - img [ref=e9]
+        - generic [ref=e11]: 최근 변경
+      - link "최근 토론" [ref=e12] [cursor=pointer]:
+        - /url: /RecentDiscuss
+        - img [ref=e13]
+        - generic [ref=e15]: 최근 토론
+      - link "특수 기능" [ref=e17] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e18]
+        - generic [ref=e20]: 특수 기능
+        - img [ref=e21]
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - link "아무 문서로 이동" [ref=e25] [cursor=pointer]:
+          - /url: /random
+          - img [ref=e26]
+        - generic [ref=e28]:
+          - searchbox "여기에서 검색" [ref=e30]
+          - link "검색" [ref=e31] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e32]
+          - link "이동" [ref=e34] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e35]
+      - link [ref=e38] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e39]
+  - generic [ref=e42]:
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - heading "워뇨띠" [level=1] [ref=e47]:
+            - link "워뇨띠" [ref=e48] [cursor=pointer]:
+              - /url: /w/%EC%9B%8C%EB%87%A8%EB%9D%A0
+          - generic [ref=e49]:
+            - text: "최근 수정 시각:"
+            - time [ref=e50]: 2026-01-24 14:25:45
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - link "21" [ref=e54] [cursor=pointer]:
+              - /url: /member/star/%EC%9B%8C%EB%87%A8%EB%9D%A0
+              - img [ref=e55]
+              - generic [ref=e58]: "21"
+            - link "편집" [ref=e59] [cursor=pointer]:
+              - /url: /edit/%EC%9B%8C%EB%87%A8%EB%9D%A0
+              - img [ref=e60]
+              - generic [ref=e62]: 편집
+            - link "토론" [ref=e63] [cursor=pointer]:
+              - /url: /discuss/%EC%9B%8C%EB%87%A8%EB%9D%A0
+              - img [ref=e64]
+              - text: 토론
+            - link "역사" [ref=e66] [cursor=pointer]:
+              - /url: /history/%EC%9B%8C%EB%87%A8%EB%9D%A0
+              - img [ref=e67]
+              - text: 역사
+          - button "더 보기" [ref=e71] [cursor=pointer]:
+            - img [ref=e72]
+      - generic [ref=e76]:
+        - generic [ref=e77]:
+          - text: "분류:"
+          - list [ref=e78]:
+            - listitem [ref=e79]:
+              - link "디시인사이드의 고정닉" [ref=e80] [cursor=pointer]:
+                - /url: /w/%EB%B6%84%EB%A5%98:%EB%94%94%EC%8B%9C%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C%EC%9D%98%20%EA%B3%A0%EC%A0%95%EB%8B%89
+            - listitem [ref=e81]:
+              - link "대한민국의 투자자" [ref=e82] [cursor=pointer]:
+                - /url: /w/%EB%B6%84%EB%A5%98:%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98%20%ED%88%AC%EC%9E%90%EC%9E%90
+            - listitem [ref=e83]:
+              - link "대한민국의 인물" [ref=e84] [cursor=pointer]:
+                - /url: /w/%EB%B6%84%EB%A5%98:%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%EC%9D%98%20%EC%9D%B8%EB%AC%BC
+        - generic [ref=e85]:
+          - table [ref=e87]:
+            - rowgroup [ref=e88]:
+              - row "워뇨띠 aoa(비트멕스) ILLIT(바이낸스)" [ref=e89]:
+                - cell "워뇨띠 aoa(비트멕스) ILLIT(바이낸스)" [ref=e90]:
+                  - generic [ref=e91]:
+                    - strong [ref=e92]: 워뇨띠
+                    - text: aoa(비트멕스)
+                    - text: ILLIT(바이낸스)
+              - row "성별 남성" [ref=e93]:
+                - cell "성별" [ref=e94]:
+                  - strong [ref=e96]: 성별
+                - cell "남성" [ref=e97]:
+                  - link "남성" [ref=e99] [cursor=pointer]:
+                    - /url: /w/%EB%82%A8%EC%84%B1
+              - row "출생 1998년~1999년 (추정)" [ref=e100]:
+                - cell "출생" [ref=e101]:
+                  - strong [ref=e103]: 출생
+                - cell "1998년~1999년 (추정)" [ref=e104]:
+                  - generic [ref=e105]:
+                    - link "1998년" [ref=e106] [cursor=pointer]:
+                      - /url: /w/1998%EB%85%84
+                    - text: ~
+                    - link "1999년" [ref=e107] [cursor=pointer]:
+                      - /url: /w/1999%EB%85%84
+                    - text: (추정)
+              - row "국적 대한민국 국기 대한민국" [ref=e108]:
+                - cell "국적" [ref=e109]:
+                  - strong [ref=e111]: 국적
+                - cell "대한민국 국기 대한민국" [ref=e112]:
+                  - link "대한민국 국기 대한민국" [ref=e114] [cursor=pointer]:
+                    - /url: /w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD
+                    - generic [ref=e115]:
+                      - generic [ref=e118]:
+                        - img [ref=e119]
+                        - img "대한민국 국기" [ref=e120]
+                      - text: 대한민국
+              - row "키 182cm" [ref=e121]:
+                - cell "키" [ref=e122]:
+                  - strong [ref=e124]: 키
+                - cell "182cm" [ref=e125]:
+                  - generic [ref=e126]: 182cm
+              - row "링크  디시인사이드 아이콘" [ref=e127]:
+                - cell "링크" [ref=e128]:
+                  - strong [ref=e130]: 링크
+                - cell " 디시인사이드 아이콘" [ref=e131]:
+                  - link " 디시인사이드 아이콘" [ref=e133] [cursor=pointer]:
+                    - /url: https://gallog.dcinside.com/rlawo200
+                    - text: 
+                    - generic [ref=e135]:
+                      - img [ref=e136]
+                      - img "디시인사이드 아이콘" [ref=e137]
+          - group [ref=e146]:
+            - generic "목차" [ref=e147] [cursor=pointer]
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - link "1" [ref=e150] [cursor=pointer]:
+                  - /url: "#s-1"
+                - text: . 개요
+              - generic [ref=e151]:
+                - link "2" [ref=e152] [cursor=pointer]:
+                  - /url: "#s-2"
+                - text: . 행적
+              - generic [ref=e153]:
+                - generic [ref=e154]:
+                  - link "2.1" [ref=e155] [cursor=pointer]:
+                    - /url: "#s-2.1"
+                  - text: . 2017-2021년
+                - generic [ref=e156]:
+                  - link "2.2" [ref=e157] [cursor=pointer]:
+                    - /url: "#s-2.2"
+                  - text: . 2025년
+              - generic [ref=e158]:
+                - link "3" [ref=e159] [cursor=pointer]:
+                  - /url: "#s-3"
+                - text: . 여담
+          - heading " 1. 개요 [편집]" [level=2] [ref=e166] [cursor=pointer]:
+            - text: 
+            - link "1." [ref=e167]:
+              - /url: "#toc"
+            - generic [ref=e168]:
+              - text: 개요
+              - link "[편집]" [ref=e170]:
+                - /url: /edit/%EC%9B%8C%EB%87%A8%EB%9D%A0?section=1
+          - generic [ref=e178]:
+            - link "대한민국" [ref=e179] [cursor=pointer]:
+              - /url: /w/%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD
+            - text: 의
+            - link "암호화폐" [ref=e180] [cursor=pointer]:
+              - /url: /w/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90
+            - text: 투자자.
+            - link "디시인사이드" [ref=e181] [cursor=pointer]:
+              - /url: /w/%EB%94%94%EC%8B%9C%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C
+            - text: 의
+            - link "고정닉" [ref=e182] [cursor=pointer]:
+              - /url: /w/%EA%B3%A0%EC%A0%95%EB%8B%89
+            - text: 이용자이며 주로 차트 갤러리에서 활동하고 있다. 2017년에 600만 원으로 투자를 시작했고, 2024년 기준 약 3,700억 원의 누적 수익을 거둔 것으로 알려졌다.
+            - link "디시인사이드" [ref=e183] [cursor=pointer]:
+              - /url: /w/%EB%94%94%EC%8B%9C%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C
+            - text: 등 온라인 커뮤니티 이용자들 사이에서는 전설적인 개인 투자자로 평가된다.
+            - link "중앙일보" [ref=e184] [cursor=pointer]:
+              - /url: https://www.joongang.co.kr/article/25235173
+            - link "머니투데이" [ref=e185] [cursor=pointer]:
+              - /url: https://news.mt.co.kr/mtview.php?no=2024031308475273970
+            - link "매일경제" [ref=e186] [cursor=pointer]:
+              - /url: https://www.mk.co.kr/news/economy/10963935
+          - heading " 2. 행적 [편집]" [level=2] [ref=e193] [cursor=pointer]:
+            - text: 
+            - link "2." [ref=e194]:
+              - /url: "#toc"
+            - generic [ref=e195]:
+              - text: 행적
+              - link "[편집]" [ref=e197]:
+                - /url: /edit/%EC%9B%8C%EB%87%A8%EB%9D%A0?section=2
+          - heading " 2.1. 2017-2021년 [편집]" [level=3] [ref=e204] [cursor=pointer]:
+            - text: 
+            - link "2.1." [ref=e205]:
+              - /url: "#toc"
+            - generic [ref=e206]:
+              - text: 2017-2021년
+              - link "[편집]" [ref=e208]:
+                - /url: /edit/%EC%9B%8C%EB%87%A8%EB%9D%A0?section=3
+          - generic [ref=e216]:
+            - text: 대한민국에 암호화폐 투자 붐이 처음 일어났던 2017년 12월, 600만 원으로 투자를 시작했다.
+            - text: 2018년 5월 시드 1억 원 돌파.
+            - text: 2019년 1월 시드 10억 원 돌파.
+            - text: 2020년 3월 시드 100억 원 돌파.
+            - link "인증글" [ref=e217] [cursor=pointer]:
+              - /url: https://m.dcinside.com/board/electronicmoney/3128
+            - text: 2021년 8월 시드 1000억 원 돌파.
+            - link "인증글" [ref=e218] [cursor=pointer]:
+              - /url: https://m.dcinside.com/board/dcbest/16793
+            - text: 2022년 초 약 3400억 원으로 커리어 하이를 기록했으나, 2023년 하락장을 직격으로 맞아 약 1300억 원까지 감소했다. 이후 2025년에 들어 상당 부분을 회복한 것으로 알려졌다.
+            - link "#" [ref=e219] [cursor=pointer]:
+              - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=3943303
+          - heading " 2.2. 2025년 [편집]" [level=3] [ref=e226] [cursor=pointer]:
+            - text: 
+            - link "2.2." [ref=e227]:
+              - /url: "#toc"
+            - generic [ref=e228]:
+              - text: 2025년
+              - link "[편집]" [ref=e230]:
+                - /url: /edit/%EC%9B%8C%EB%87%A8%EB%9D%A0?section=4
+          - generic [ref=e238]:
+            - link "2025년" [ref=e239] [cursor=pointer]:
+              - /url: /w/2025%EB%85%84
+            - link "4월 9일" [ref=e240] [cursor=pointer]:
+              - /url: /w/4%EC%9B%94%209%EC%9D%BC
+            - text: ","
+            - link "도널드 트럼프" [ref=e241] [cursor=pointer]:
+              - /url: /w/%EB%8F%84%EB%84%90%EB%93%9C%20%ED%8A%B8%EB%9F%BC%ED%94%84
+            - link "미국 대통령" [ref=e242] [cursor=pointer]:
+              - /url: /w/%EB%AF%B8%EA%B5%AD%20%EB%8C%80%ED%86%B5%EB%A0%B9
+            - text: 의 발언으로 촉발된
+            - link "2025년 세계 주가 대폭락" [ref=e243] [cursor=pointer]:
+              - /url: /w/2025%EB%85%84%20%EC%84%B8%EA%B3%84%20%EC%A3%BC%EA%B0%80%20%EB%8C%80%ED%8F%AD%EB%9D%BD
+            - text: 국면에서
+            - link "이더리움" [ref=e244] [cursor=pointer]:
+              - /url: /w/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80
+            - text: 약 460억 원 규모를 매수했다.
+            - text: 이후 트럼프가
+            - link "중국" [ref=e245] [cursor=pointer]:
+              - /url: /w/%EC%A4%91%EA%B5%AD
+            - text: 을 제외한 75개국에 대한 관세 부과를 90일간 유예한다고 발표하자
+            - text: 암호화폐 시장은 급반등했고,
+            - text: 약 85억 원 수준의 차익을 거둔 것으로 추정된다.
+            - link "평단" [ref=e246] [cursor=pointer]:
+              - /url: https://m.dcinside.com/board/chartanalysis/3525524
+            - link "거의 다 분할익절하고 관망중" [ref=e247] [cursor=pointer]:
+              - /url: https://m.dcinside.com/board/chartanalysis/3526791
+            - link "헤럴드경제" [ref=e248] [cursor=pointer]:
+              - /url: https://biz.heraldcorp.com/article/10462325
+            - text: .
+            - text: 6월 11일 비트멕스와 인터뷰를 진행했다.
+            - link "#" [ref=e249] [cursor=pointer]:
+              - /url: https://economybloc.com/article/87110
+          - heading " 3. 여담 [편집]" [level=2] [ref=e256] [cursor=pointer]:
+            - text: 
+            - link "3." [ref=e257]:
+              - /url: "#toc"
+            - generic [ref=e258]:
+              - text: 여담
+              - link "[편집]" [ref=e260]:
+                - /url: /edit/%EC%9B%8C%EB%87%A8%EB%9D%A0?section=5
+          - list [ref=e268]:
+            - listitem [ref=e269]:
+              - generic [ref=e270]:
+                - text: 주식 갤러리에
+                - strong [ref=e271]: 워뇨띠 1조 달성 사진
+                - text: 이 유포된 적이 있으나, 본인에 따르면 1000억 원 달성 당시의 스크린샷을 제3자가 조작한 것이라고 한다.
+            - listitem [ref=e272]:
+              - generic [ref=e273]:
+                - link "장원영" [ref=e274] [cursor=pointer]:
+                  - /url: /w/%EC%9E%A5%EC%9B%90%EC%98%81
+                - text: 의 별명 ‘워뇨’에서 닉네임을 따온 것에서 알 수 있듯,
+                - link "아이브" [ref=e275] [cursor=pointer]:
+                  - /url: /w/IVE
+                - text: 의 팬이다. 2025년 인터뷰에서는
+                - link "장원영" [ref=e276] [cursor=pointer]:
+                  - /url: /w/%EC%9E%A5%EC%9B%90%EC%98%81
+                - text: ","
+                - link "레이" [ref=e277] [cursor=pointer]:
+                  - /url: /w/%EB%A0%88%EC%9D%B4(IVE)
+                - text: ","
+                - link "설윤" [ref=e278] [cursor=pointer]:
+                  - /url: /w/%EC%84%A4%EC%9C%A4
+                - text: 을 선호한다고 밝혔다.
+            - listitem [ref=e279]:
+              - generic [ref=e280]:
+                - text: 평범한 커뮤니티 이용자가 트레이딩 재능을 발견해 천문학적인 수익을 기록했다는 점에서 일본의 전설적인 개인 투자자
+                - link "BNF" [ref=e281] [cursor=pointer]:
+                  - /url: /w/BNF
+                - text: 와 자주 비교된다.
+            - listitem [ref=e282]:
+              - generic [ref=e283]: 거래소에서 만든 가상 인물이라는 설이 돌기도 한다.
+            - listitem [ref=e284]:
+              - generic [ref=e285]:
+                - text: 명성이 커지며 사칭, 허위 친분 주장, 불법 리딩방 홍보 사례가 다수 발생했고, 워뇨띠는 디시인사이드와 트롤박스 외의 공식적인 소통 창구는 없다고 밝혔다.
+                - link "#" [ref=e286] [cursor=pointer]:
+                  - /url: https://m.dcinside.com/board/chartanalysis/4017741
+            - listitem [ref=e287]:
+              - generic [ref=e288]: 웨돔 방송에서 키 이야기가 나왔을 때, 바이낸스에서 SUSHI 182개 포지션을 잡아 자신의 키가 182cm임을 간접적으로 밝혔다.
+            - listitem [ref=e289]:
+              - generic [ref=e290]:
+                - text: 사용하는
+                - link "오나홀" [ref=e291] [cursor=pointer]:
+                  - /url: /w/%EC%98%A4%EB%82%98%ED%99%80
+                - text: 이 뭐냐는 질문에
+                - link "ㅁㄱㅇㅈㅁ" [ref=e292] [cursor=pointer]:
+                  - /url: /w/%EB%AA%85%EA%B8%B0%EC%9D%98%20%EC%A6%9D%EB%AA%85%20%EC%8B%9C%EB%A6%AC%EC%A6%88
+                - text: 이라고 답했다(...)
+          - table [ref=e296]:
+            - rowgroup [ref=e297]:
+              - row "워뇨띠 워뇨띠 워뇨띠" [ref=e298]:
+                - cell "워뇨띠 워뇨띠" [ref=e299]:
+                  - generic [ref=e300]:
+                    - generic [ref=e301]:
+                      - img [ref=e302]
+                      - img "워뇨띠" [ref=e303]
+                    - generic [ref=e304]:
+                      - img [ref=e305]
+                      - img "워뇨띠" [ref=e306]
+                - cell "워뇨띠" [ref=e307]:
+                  - link "워뇨띠" [ref=e309] [cursor=pointer]:
+                    - /url: "#s-14"
+                    - generic [ref=e310]:
+                      - img [ref=e311]
+                      - img "워뇨띠" [ref=e312]
+              - row "수원교차로부동산 land.ikcr.co.kr 수원교차로 부동산, 살기 좋은 수원의 부동산 정보, 수원원룸 매물정보. 레지던스큐 수원원룸 www.residenceq2.co.kr 풀옵션의 편안함과 호텔식 서비스, 착한 가격! 세류동 넘버원고시텔 수원원룸 수원시재활용센터 쿠팡 www.coupang.com 로켓프레시·골드박스·로켓직구·로켓배송 강력한 힘으로 텃밭, 정원 손질을 간편하게! 수원시재활용센터 쿠팡에서." [ref=e313]:
+                - cell "수원교차로부동산 land.ikcr.co.kr 수원교차로 부동산, 살기 좋은 수원의 부동산 정보, 수원원룸 매물정보." [ref=e314]:
+                  - table [ref=e316]:
+                    - rowgroup [ref=e317]:
+                      - row "수원교차로부동산" [ref=e318]:
+                        - cell "수원교차로부동산" [ref=e319]:
+                          - link "수원교차로부동산" [ref=e321] [cursor=pointer]:
+                            - /url: "#s-1"
+                      - row "land.ikcr.co.kr" [ref=e322]:
+                        - cell "land.ikcr.co.kr" [ref=e323]:
+                          - link "land.ikcr.co.kr" [ref=e325] [cursor=pointer]:
+                            - /url: "#s-10"
+                      - row "수원교차로 부동산, 살기 좋은 수원의 부동산 정보, 수원원룸 매물정보." [ref=e326]:
+                        - cell "수원교차로 부동산, 살기 좋은 수원의 부동산 정보, 수원원룸 매물정보." [ref=e327]:
+                          - link "수원교차로 부동산, 살기 좋은 수원의 부동산 정보, 수원원룸 매물정보." [ref=e329] [cursor=pointer]:
+                            - /url: "#s-20"
+                            - generic [ref=e330]: 수원교차로 부동산, 살기 좋은 수원의 부동산 정보, 수원원룸 매물정보.
+                - cell "레지던스큐 수원원룸 www.residenceq2.co.kr 풀옵션의 편안함과 호텔식 서비스, 착한 가격! 세류동 넘버원고시텔 수원원룸" [ref=e331]:
+                  - table [ref=e333]:
+                    - rowgroup [ref=e334]:
+                      - row "레지던스큐 수원원룸" [ref=e335]:
+                        - cell "레지던스큐 수원원룸" [ref=e336]:
+                          - link "레지던스큐 수원원룸" [ref=e338] [cursor=pointer]:
+                            - /url: "#s-9"
+                      - row "www.residenceq2.co.kr" [ref=e339]:
+                        - cell "www.residenceq2.co.kr" [ref=e340]:
+                          - link "www.residenceq2.co.kr" [ref=e342] [cursor=pointer]:
+                            - /url: "#s-20"
+                      - row "풀옵션의 편안함과 호텔식 서비스, 착한 가격! 세류동 넘버원고시텔 수원원룸" [ref=e343]:
+                        - cell "풀옵션의 편안함과 호텔식 서비스, 착한 가격! 세류동 넘버원고시텔 수원원룸" [ref=e344]:
+                          - link "풀옵션의 편안함과 호텔식 서비스, 착한 가격! 세류동 넘버원고시텔 수원원룸" [ref=e346] [cursor=pointer]:
+                            - /url: "#s-7"
+                            - generic [ref=e347]: 풀옵션의 편안함과 호텔식 서비스, 착한 가격! 세류동 넘버원고시텔 수원원룸
+                - cell "수원시재활용센터 쿠팡 www.coupang.com 로켓프레시·골드박스·로켓직구·로켓배송 강력한 힘으로 텃밭, 정원 손질을 간편하게! 수원시재활용센터 쿠팡에서." [ref=e348]:
+                  - table [ref=e350]:
+                    - rowgroup [ref=e351]:
+                      - row "수원시재활용센터 쿠팡" [ref=e352]:
+                        - cell "수원시재활용센터 쿠팡" [ref=e353]:
+                          - link "수원시재활용센터 쿠팡" [ref=e355] [cursor=pointer]:
+                            - /url: "#s-11"
+                      - row "www.coupang.com" [ref=e356]:
+                        - cell "www.coupang.com" [ref=e357]:
+                          - link "www.coupang.com" [ref=e359] [cursor=pointer]:
+                            - /url: "#s-4"
+                      - row "로켓프레시·골드박스·로켓직구·로켓배송" [ref=e360]:
+                        - cell "로켓프레시·골드박스·로켓직구·로켓배송" [ref=e361]:
+                          - generic [ref=e363]:
+                            - link "로켓프레시" [ref=e364] [cursor=pointer]:
+                              - /url: "#s-8"
+                            - generic [ref=e365]: ·
+                            - link "골드박스" [ref=e366] [cursor=pointer]:
+                              - /url: "#s-19"
+                            - generic [ref=e367]: ·
+                            - link "로켓직구" [ref=e368] [cursor=pointer]:
+                              - /url: "#s-20"
+                            - generic [ref=e369]: ·
+                            - link "로켓배송" [ref=e370] [cursor=pointer]:
+                              - /url: "#s-14"
+                      - row "강력한 힘으로 텃밭, 정원 손질을 간편하게! 수원시재활용센터 쿠팡에서." [ref=e371]:
+                        - cell "강력한 힘으로 텃밭, 정원 손질을 간편하게! 수원시재활용센터 쿠팡에서." [ref=e372]:
+                          - link "강력한 힘으로 텃밭, 정원 손질을 간편하게! 수원시재활용센터 쿠팡에서." [ref=e374] [cursor=pointer]:
+                            - /url: "#s-5"
+                            - generic [ref=e375]: 강력한 힘으로 텃밭, 정원 손질을 간편하게! 수원시재활용센터 쿠팡에서.
+      - paragraph [ref=e377]:
+        - img "크리에이티브 커먼즈 라이선스" [ref=e378]
+        - text: 이 저작물은
+        - link "CC BY-NC-SA 2.0 KR" [ref=e379] [cursor=pointer]:
+          - /url: //creativecommons.org/licenses/by-nc-sa/2.0/kr/
+        - text: 에 따라 이용할 수 있습니다. (단, 라이선스가 명시된 일부 문서 및 삽화 제외)
+        - text: 기여하신 문서의 저작권은 각 기여자에게 있으며, 각 기여자는 기여하신 부분의 저작권을 갖습니다.
+        - text: 나무위키는 백과사전이 아니며 검증되지 않았거나, 편향적이거나, 잘못된 서술이 있을 수 있습니다.
+        - text: 나무위키는 위키위키입니다. 여러분이 직접 문서를 고칠 수 있으며, 다른 사람의 의견을 원할 경우 직접 토론을 발제할 수 있습니다.
+    - generic [ref=e380]:
+      - generic [ref=e382]:
+        - generic [ref=e383]:
+          - img [ref=e385]
+          - img [ref=e388]
+        - list [ref=e391]:
+          - listitem [ref=e392]:
+            - link "서건창" [ref=e393] [cursor=pointer]:
+              - /url: /Go?q=%EC%84%9C%EA%B1%B4%EC%B0%BD
+              - generic [ref=e394]: 서건창
+          - listitem [ref=e395]:
+            - link "노란봉투법" [ref=e396] [cursor=pointer]:
+              - /url: /Go?q=%EB%85%B8%EB%9E%80%EB%B4%89%ED%88%AC%EB%B2%95
+              - generic [ref=e397]: 노란봉투법
+          - listitem [ref=e398]:
+            - link "최승호" [ref=e399] [cursor=pointer]:
+              - /url: /Go?q=%EC%B5%9C%EC%8A%B9%ED%98%B8
+              - generic [ref=e400]: 최승호
+          - listitem [ref=e401]:
+            - link "리치 이기" [ref=e402] [cursor=pointer]:
+              - /url: /Go?q=%EB%A6%AC%EC%B9%98%20%EC%9D%B4%EA%B8%B0
+              - generic [ref=e403]: 리치 이기
+          - listitem [ref=e404]:
+            - link "아스날" [ref=e405] [cursor=pointer]:
+              - /url: /Go?q=%EC%95%84%EC%8A%A4%EB%82%A0
+              - generic [ref=e406]: 아스날
+          - listitem [ref=e407]:
+            - link "유준호" [ref=e408] [cursor=pointer]:
+              - /url: /Go?q=%EC%9C%A0%EC%A4%80%ED%98%B8
+              - generic [ref=e409]: 유준호
+          - listitem [ref=e410]:
+            - link "삼성전자" [ref=e411] [cursor=pointer]:
+              - /url: /Go?q=%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90
+              - generic [ref=e412]: 삼성전자
+          - listitem [ref=e413]:
+            - link "스타벅스" [ref=e414] [cursor=pointer]:
+              - /url: /Go?q=%EC%8A%A4%ED%83%80%EB%B2%85%EC%8A%A4
+              - generic [ref=e415]: 스타벅스
+          - listitem [ref=e416]:
+            - link "lck" [ref=e417] [cursor=pointer]:
+              - /url: /Go?q=lck
+              - generic [ref=e418]: lck
+          - listitem [ref=e419]:
+            - link "21세기 대군부인" [ref=e420] [cursor=pointer]:
+              - /url: /Go?q=21%EC%84%B8%EA%B8%B0%20%EB%8C%80%EA%B5%B0%EB%B6%80%EC%9D%B8
+              - generic [ref=e421]: 21세기 대군부인
+          - listitem [ref=e422]:
+            - link "서건창" [ref=e423] [cursor=pointer]:
+              - /url: /Go?q=%EC%84%9C%EA%B1%B4%EC%B0%BD
+              - generic [ref=e424]: 서건창
+      - generic [ref=e425]:
+        - link [ref=e427] [cursor=pointer]:
+          - /url: /RecentChanges
+          - img [ref=e429]
+          - img [ref=e432]
+          - img [ref=e435]
+        - list [ref=e437]:
+          - listitem [ref=e438]:
+            - link "박민채 10초 전" [ref=e439] [cursor=pointer]:
+              - /url: /w/%EB%B0%95%EB%AF%BC%EC%B1%84
+              - generic [ref=e440]: 박민채
+              - time [ref=e441]: 10초 전
+          - listitem [ref=e442]:
+            - link "마피아42/아이템/엽서 13초 전" [ref=e443] [cursor=pointer]:
+              - /url: /w/%EB%A7%88%ED%94%BC%EC%95%8442/%EC%95%84%EC%9D%B4%ED%85%9C/%EC%97%BD%EC%84%9C
+              - generic [ref=e444]: 마피아42/아이템/엽서
+              - time [ref=e445]: 13초 전
+          - listitem [ref=e446]:
+            - link "정소민 14초 전" [ref=e447] [cursor=pointer]:
+              - /url: /w/%EC%A0%95%EC%86%8C%EB%AF%BC
+              - generic [ref=e448]: 정소민
+              - time [ref=e449]: 14초 전
+          - listitem [ref=e450]:
+            - link "설원의 김독자 20초 전" [ref=e451] [cursor=pointer]:
+              - /url: /w/%EC%84%A4%EC%9B%90%EC%9D%98%20%EA%B9%80%EB%8F%85%EC%9E%90
+              - generic [ref=e452]: 설원의 김독자
+              - time [ref=e453]: 20초 전
+          - listitem [ref=e454]:
+            - link "스카레드 데몬 23초 전" [ref=e455] [cursor=pointer]:
+              - /url: /w/%EC%8A%A4%EC%B9%B4%EB%A0%88%EB%93%9C%20%EB%8D%B0%EB%AA%AC
+              - generic [ref=e456]: 스카레드 데몬
+              - time [ref=e457]: 23초 전
+          - listitem [ref=e458]:
+            - link "선하(인터넷 방송인) 24초 전" [ref=e459] [cursor=pointer]:
+              - /url: /w/%EC%84%A0%ED%95%98(%EC%9D%B8%ED%84%B0%EB%84%B7%20%EB%B0%A9%EC%86%A1%EC%9D%B8)
+              - generic [ref=e460]: 선하(인터넷 방송인)
+              - time [ref=e461]: 24초 전
+          - listitem [ref=e462]:
+            - link "장찬희/선수 경력/2026년 25초 전" [ref=e463] [cursor=pointer]:
+              - /url: /w/%EC%9E%A5%EC%B0%AC%ED%9D%AC/%EC%84%A0%EC%88%98%20%EA%B2%BD%EB%A0%A5/2026%EB%85%84
+              - generic [ref=e464]: 장찬희/선수 경력/2026년
+              - time [ref=e465]: 25초 전
+          - listitem [ref=e466]:
+            - link "아스날 FC/2025-26 시즌/리그 29초 전" [ref=e467] [cursor=pointer]:
+              - /url: /w/%EC%95%84%EC%8A%A4%EB%82%A0%20FC/2025-26%20%EC%8B%9C%EC%A6%8C/%EB%A6%AC%EA%B7%B8
+              - generic [ref=e468]: 아스날 FC/2025-26 시즌/리그
+              - time [ref=e469]: 29초 전
+          - listitem [ref=e470]:
+            - link "토요타 베어블리츠 29초 전" [ref=e471] [cursor=pointer]:
+              - /url: /w/%ED%86%A0%EC%9A%94%ED%83%80%20%EB%B2%A0%EC%96%B4%EB%B8%94%EB%A6%AC%EC%B8%A0
+              - generic [ref=e472]: 토요타 베어블리츠
+              - time [ref=e473]: 29초 전
+          - listitem [ref=e474]:
+            - link "Forsaken(Roblox)/c00lkidd/스킨 목록 30초 전" [ref=e475] [cursor=pointer]:
+              - /url: /w/Forsaken(Roblox)/c00lkidd/%EC%8A%A4%ED%82%A8%20%EB%AA%A9%EB%A1%9D
+              - generic [ref=e476]: Forsaken(Roblox)/c00lkidd/스킨 목록
+              - time [ref=e477]: 30초 전
+      - generic [ref=e482]:
+        - link [ref=e483] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e485]
+          - img [ref=e499]
+        - list [ref=e501]:
+          - listitem [ref=e502]:
+            - link "삼성전자 노사협상 결렬…노조, 21일 총파업 강행 선언(종합)" [ref=e503] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e504]: 삼성전자 노사협상 결렬…노조, 21일 총파업 강행 선언(종합)
+          - listitem [ref=e505]:
+            - link "업스테이지 \"하정우 주식 거래는 계약 따른 절차\"(종합)" [ref=e506] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e507]: 업스테이지 "하정우 주식 거래는 계약 따른 절차"(종합)
+          - listitem [ref=e508]:
+            - link "'뒷담화 논란' 31기 옥순, 영호와 '현커' 시그널 \"더 이상 할 게 없어\" [엑's 이슈]" [ref=e509] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e510]: "'뒷담화 논란' 31기 옥순, 영호와 '현커' 시그널 \"더 이상 할 게 없어\" [엑's 이슈]"
+          - listitem [ref=e511]:
+            - link "5·18 '탱크데이' 공분 확산…외신·스타벅스 본사도 집중조명" [ref=e512] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e513]: 5·18 '탱크데이' 공분 확산…외신·스타벅스 본사도 집중조명
+          - listitem [ref=e514]:
+            - link "李대통령, 이번엔 무신사 비판…\"민주항쟁 모욕, 심각한 문제\"" [ref=e515] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e516]: 李대통령, 이번엔 무신사 비판…"민주항쟁 모욕, 심각한 문제"
+        - link "더 보기" [ref=e517] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e518]: 더 보기
+          - img [ref=e519]
+  - generic [ref=e523]:
+    - generic [ref=e524]:
+      - generic [ref=e525]:
+        - link "나무위키 뷰어 - Play Store" [ref=e526] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=net.umanle.namuwiki
+          - img [ref=e527]
+        - link "나무위키 뷰어 - App Store" [ref=e528] [cursor=pointer]:
+          - /url: https://apps.apple.com/app/id1623510780
+          - img [ref=e529]
+      - generic [ref=e530]:
+        - generic [ref=e531]:
+          - list [ref=e532]:
+            - listitem [ref=e533]: namu.wiki
+            - listitem [ref=e534]:
+              - link "Contáctenos" [ref=e535] [cursor=pointer]:
+                - /url: mailto:support@namu.wiki
+            - listitem [ref=e536]:
+              - link "Términos de uso" [ref=e537] [cursor=pointer]:
+                - /url: /Policy
+          - list [ref=e538]:
+            - listitem [ref=e539]: Operado por umanle S.R.L.
+            - listitem [ref=e540]: Hecho con ❤️ en Asunción, República del Paraguay
+        - list [ref=e541]:
+          - listitem [ref=e542]: Su zona horaria es Asia/Seoul
+          - listitem [ref=e543]: Impulsado por the seed engine
+    - paragraph [ref=e545]:
+      - text: This site is protected by reCAPTCHA and the Google
+      - link "Privacy Policy" [ref=e546] [cursor=pointer]:
+        - /url: https://policies.google.com/privacy
+      - text: and
+      - link "Terms of Service" [ref=e547] [cursor=pointer]:
+        - /url: https://policies.google.com/terms
+      - text: apply. This site is protected by hCaptcha and its
+      - link "Privacy Policy" [ref=e548] [cursor=pointer]:
+        - /url: https://www.hcaptcha.com/privacy
+      - text: and
+      - link "Terms of Service" [ref=e549] [cursor=pointer]:
+        - /url: https://www.hcaptcha.com/terms
+      - text: apply.
+  - generic [ref=e550]:
+    - list [ref=e551]:
+      - listitem [ref=e552]:
+        - link [ref=e553] [cursor=pointer]:
+          - /url: "#toc"
+          - img [ref=e554]
+    - list [ref=e556]:
+      - listitem [ref=e557]:
+        - link [ref=e558] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e559]
+      - listitem [ref=e561]:
+        - link [ref=e562] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e563]

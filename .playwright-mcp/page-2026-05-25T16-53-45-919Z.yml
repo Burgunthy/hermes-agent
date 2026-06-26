@@ -1,0 +1,1051 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ollama" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Ollama" [ref=e5]
+      - generic [ref=e6]:
+        - link "Models" [ref=e7] [cursor=pointer]:
+          - /url: /search
+        - link "Docs" [ref=e8] [cursor=pointer]:
+          - /url: /docs
+        - link "Pricing" [ref=e9] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=e13]:
+        - img [ref=e15]
+        - textbox "Search models" [ref=e17]
+      - generic [ref=e18]:
+        - link "Sign in" [ref=e19] [cursor=pointer]:
+          - /url: /signin
+        - link "Download" [ref=e20] [cursor=pointer]:
+          - /url: /download
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - link "qwen3.5" [ref=e27] [cursor=pointer]:
+        - /url: /library/qwen3.5
+      - generic [ref=e28]:
+        - paragraph [ref=e30]:
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - generic [ref=e34]: 12.5M
+            - generic [ref=e35]: Downloads
+          - generic "May 21, 2026 7:08 PM UTC" [ref=e36]:
+            - img [ref=e37]
+            - generic [ref=e39]: Updated
+            - generic [ref=e40]: 3 days ago
+        - heading "Qwen 3.5 is a family of open-source multimodal models that delivers exceptional utility and performance." [level=2] [ref=e42]
+        - generic [ref=e43]:
+          - generic [ref=e44]: vision
+          - generic [ref=e45]: tools
+          - generic [ref=e46]: thinking
+          - generic [ref=e47]: cloud
+          - generic [ref=e48]: 0.8b
+          - generic [ref=e49]: 2b
+          - generic [ref=e50]: 4b
+          - generic [ref=e51]: 9b
+          - generic [ref=e52]: 27b
+          - generic [ref=e53]: 35b
+          - generic [ref=e54]: 122b
+    - generic [ref=e55]:
+      - generic [ref=e57]:
+        - generic [ref=e59]:
+          - button "CLI" [ref=e60] [cursor=pointer]
+          - button "cURL" [ref=e61] [cursor=pointer]
+          - button "Python" [ref=e62] [cursor=pointer]
+          - button "JavaScript" [ref=e63] [cursor=pointer]
+        - generic [ref=e64]:
+          - button "Copy" [ref=e66] [cursor=pointer]:
+            - img [ref=e67]
+          - generic [ref=e70]: ollama run qwen3.5
+      - generic [ref=e71]:
+        - heading "Applications" [level=2] [ref=e72]
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - img "Claude Code" [ref=e77]
+              - generic [ref=e78]:
+                - generic [ref=e79]: Claude Code
+                - code [ref=e80]: ollama launch claude --model qwen3.5
+            - button "Copy" [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - img "Codex App" [ref=e86]
+              - generic [ref=e87]:
+                - generic [ref=e88]: Codex App
+                - code [ref=e89]: ollama launch codex-app --model qwen3.5
+            - button "Copy" [ref=e90] [cursor=pointer]:
+              - img [ref=e91]
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - img "OpenClaw" [ref=e95]
+              - generic [ref=e96]:
+                - generic [ref=e97]: OpenClaw
+                - code [ref=e98]: ollama launch openclaw --model qwen3.5
+            - button "Copy" [ref=e99] [cursor=pointer]:
+              - img [ref=e100]
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - img "Hermes Agent" [ref=e104]
+              - generic [ref=e105]:
+                - generic [ref=e106]: Hermes Agent
+                - code [ref=e107]: ollama launch hermes --model qwen3.5
+            - button "Copy" [ref=e108] [cursor=pointer]:
+              - img [ref=e109]
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - img "Codex" [ref=e113]
+              - generic [ref=e114]:
+                - generic [ref=e115]: Codex
+                - code [ref=e116]: ollama launch codex --model qwen3.5
+            - button "Copy" [ref=e117] [cursor=pointer]:
+              - img [ref=e118]
+          - generic [ref=e120]:
+            - generic [ref=e121]:
+              - img "OpenCode" [ref=e122]
+              - generic [ref=e123]:
+                - generic [ref=e124]: OpenCode
+                - code [ref=e125]: ollama launch opencode --model qwen3.5
+            - button "Copy" [ref=e126] [cursor=pointer]:
+              - img [ref=e127]
+      - generic [ref=e129]:
+        - generic [ref=e130]:
+          - heading "Models" [level=2] [ref=e131]
+          - link "View all →" [ref=e132] [cursor=pointer]:
+            - /url: /library/qwen3.5/tags
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - paragraph [ref=e136]: Name
+            - paragraph [ref=e137]: Size / Usage
+            - paragraph [ref=e138]: Context
+            - paragraph [ref=e139]: Input
+          - generic [ref=e140]:
+            - link "qwen3.5:latest" [ref=e142] [cursor=pointer]:
+              - /url: /library/qwen3.5:latest
+            - paragraph [ref=e143]: 6.6GB
+            - paragraph [ref=e144]: 256K
+            - paragraph [ref=e145]: Text, Image
+          - generic [ref=e146]:
+            - link "qwen3.5:0.8b" [ref=e148] [cursor=pointer]:
+              - /url: /library/qwen3.5:0.8b
+            - paragraph [ref=e149]: 1.0GB
+            - paragraph [ref=e150]: 256K
+            - paragraph [ref=e151]: Text, Image
+          - generic [ref=e152]:
+            - link "qwen3.5:2b" [ref=e154] [cursor=pointer]:
+              - /url: /library/qwen3.5:2b
+            - paragraph [ref=e155]: 2.7GB
+            - paragraph [ref=e156]: 256K
+            - paragraph [ref=e157]: Text, Image
+          - generic [ref=e158]:
+            - link "qwen3.5:4b" [ref=e160] [cursor=pointer]:
+              - /url: /library/qwen3.5:4b
+            - paragraph [ref=e161]: 3.4GB
+            - paragraph [ref=e162]: 256K
+            - paragraph [ref=e163]: Text, Image
+          - generic [ref=e164]:
+            - generic [ref=e165]:
+              - link "qwen3.5:9b" [ref=e166] [cursor=pointer]:
+                - /url: /library/qwen3.5:9b
+              - generic [ref=e167]: latest
+            - paragraph [ref=e168]: 6.6GB
+            - paragraph [ref=e169]: 256K
+            - paragraph [ref=e170]: Text, Image
+          - generic [ref=e171]:
+            - link "qwen3.5:27b" [ref=e173] [cursor=pointer]:
+              - /url: /library/qwen3.5:27b
+            - paragraph [ref=e174]: 17GB
+            - paragraph [ref=e175]: 256K
+            - paragraph [ref=e176]: Text, Image
+          - generic [ref=e177]:
+            - link "qwen3.5:35b" [ref=e179] [cursor=pointer]:
+              - /url: /library/qwen3.5:35b
+            - paragraph [ref=e180]: 24GB
+            - paragraph [ref=e181]: 256K
+            - paragraph [ref=e182]: Text, Image
+          - generic [ref=e183]:
+            - link "qwen3.5:122b" [ref=e185] [cursor=pointer]:
+              - /url: /library/qwen3.5:122b
+            - paragraph [ref=e186]: 81GB
+            - paragraph [ref=e187]: 256K
+            - paragraph [ref=e188]: Text, Image
+          - generic [ref=e189]:
+            - generic [ref=e190]:
+              - link "qwen3.5:0.8b-mlx" [ref=e191] [cursor=pointer]:
+                - /url: /library/qwen3.5:0.8b-mlx
+              - generic [ref=e192]: MLX
+            - paragraph [ref=e193]: 1.2GB
+            - paragraph [ref=e194]: 256K
+            - paragraph [ref=e195]: Text
+          - generic [ref=e196]:
+            - generic [ref=e197]:
+              - link "qwen3.5:2b-mlx" [ref=e198] [cursor=pointer]:
+                - /url: /library/qwen3.5:2b-mlx
+              - generic [ref=e199]: MLX
+            - paragraph [ref=e200]: 3.1GB
+            - paragraph [ref=e201]: 256K
+            - paragraph [ref=e202]: Text
+          - generic [ref=e203]:
+            - generic [ref=e204]:
+              - link "qwen3.5:4b-mlx" [ref=e205] [cursor=pointer]:
+                - /url: /library/qwen3.5:4b-mlx
+              - generic [ref=e206]: MLX
+            - paragraph [ref=e207]: 4.0GB
+            - paragraph [ref=e208]: 256K
+            - paragraph [ref=e209]: Text
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - link "qwen3.5:9b-mlx" [ref=e212] [cursor=pointer]:
+                - /url: /library/qwen3.5:9b-mlx
+              - generic [ref=e213]: MLX
+            - paragraph [ref=e214]: 8.9GB
+            - paragraph [ref=e215]: 256K
+            - paragraph [ref=e216]: Text
+          - generic [ref=e217]:
+            - generic [ref=e218]:
+              - link "qwen3.5:27b-mlx" [ref=e219] [cursor=pointer]:
+                - /url: /library/qwen3.5:27b-mlx
+              - generic [ref=e220]: MLX
+            - paragraph [ref=e221]: 20GB
+            - paragraph [ref=e222]: 256K
+            - paragraph [ref=e223]: Text
+          - generic [ref=e224]:
+            - generic [ref=e225]:
+              - link "qwen3.5:35b-mlx" [ref=e226] [cursor=pointer]:
+                - /url: /library/qwen3.5:35b-mlx
+              - generic [ref=e227]: MLX
+            - paragraph [ref=e228]: 22GB
+            - paragraph [ref=e229]: 256K
+            - paragraph [ref=e230]: Text
+          - generic [ref=e231]:
+            - link "qwen3.5:cloud" [ref=e233] [cursor=pointer]:
+              - /url: /library/qwen3.5:cloud
+            - paragraph [ref=e234]
+            - paragraph [ref=e239]: 256K
+            - paragraph [ref=e240]: Text, Image
+          - generic [ref=e241]:
+            - link "qwen3.5:397b-cloud" [ref=e243] [cursor=pointer]:
+              - /url: /library/qwen3.5:397b-cloud
+            - paragraph [ref=e244]
+            - paragraph [ref=e249]: 256K
+            - paragraph [ref=e250]: Text, Image
+    - generic [ref=e251]:
+      - heading "Readme" [level=2] [ref=e253]
+      - generic [ref=e255]:
+        - paragraph [ref=e256]:
+          - img [ref=e257]
+        - paragraph [ref=e258]: Over recent months, we have intensified our focus on developing foundation models that deliver exceptional utility and performance. Qwen3.5 represents a significant leap forward, integrating breakthroughs in multimodal learning, architectural efficiency, reinforcement learning scale, and global accessibility to empower developers and enterprises with unprecedented capability and efficiency.
+        - heading "Highlights" [level=2] [ref=e259]
+        - paragraph [ref=e260]: "Qwen3.5 features the following enhancement:"
+        - list [ref=e261]:
+          - listitem [ref=e262]:
+            - paragraph [ref=e263]:
+              - strong [ref=e264]: Unified Vision-Language Foundation
+              - text: ": Early fusion training on multimodal tokens achieves cross-generational parity with Qwen3 and outperforms Qwen3-VL models across reasoning, coding, agents, and visual understanding benchmarks."
+          - listitem [ref=e265]:
+            - paragraph [ref=e266]:
+              - strong [ref=e267]: Efficient Hybrid Architecture
+              - text: ": Gated Delta Networks combined with sparse Mixture-of-Experts deliver high-throughput inference with minimal latency and cost overhead."
+          - listitem [ref=e268]:
+            - paragraph [ref=e269]:
+              - strong [ref=e270]: Scalable RL Generalization
+              - text: ": Reinforcement learning scaled across million-agent environments with progressively complex task distributions for robust real-world adaptability."
+          - listitem [ref=e271]:
+            - paragraph [ref=e272]:
+              - strong [ref=e273]: Global Linguistic Coverage
+              - text: ": Expanded support to 201 languages and dialects, enabling inclusive, worldwide deployment with nuanced cultural and regional understanding."
+          - listitem [ref=e274]:
+            - paragraph [ref=e275]:
+              - strong [ref=e276]: Next-Generation Training Infrastructure
+              - text: ": Near-100% multimodal training efficiency compared to text-only training and asynchronous RL frameworks supporting massive-scale agent scaffolds and environment orchestration."
+        - heading "Benchmarks" [level=2] [ref=e277]
+        - paragraph [ref=e278]:
+          - img "benchmark" [ref=e279]
+        - heading "Language" [level=3] [ref=e280]
+        - generic [ref=e281]:
+          - table [ref=e282]:
+            - rowgroup [ref=e283]:
+              - row "GPT5.2 Claude 4.5 Opus Gemini-3 Pro Qwen3-Max-Thinking K2.5-1T-A32B Qwen3.5-397B-A17B" [ref=e284]:
+                - columnheader [ref=e285]
+                - columnheader "GPT5.2" [ref=e286]
+                - columnheader "Claude 4.5 Opus" [ref=e287]
+                - columnheader "Gemini-3 Pro" [ref=e288]
+                - columnheader "Qwen3-Max-Thinking" [ref=e289]
+                - columnheader "K2.5-1T-A32B" [ref=e290]
+                - columnheader "Qwen3.5-397B-A17B" [ref=e291]
+            - rowgroup [ref=e292]:
+              - row "Knowledge" [ref=e293]:
+                - cell "Knowledge" [ref=e294]
+              - row "MMLU-Pro 87.4 89.5 89.8 85.7 87.1 87.8" [ref=e295]:
+                - cell "MMLU-Pro" [ref=e296]
+                - cell "87.4" [ref=e297]
+                - cell "89.5" [ref=e298]
+                - cell "89.8" [ref=e299]
+                - cell "85.7" [ref=e300]
+                - cell "87.1" [ref=e301]
+                - cell "87.8" [ref=e302]
+              - row "MMLU-Redux 95.0 95.6 95.9 92.8 94.5 94.9" [ref=e303]:
+                - cell "MMLU-Redux" [ref=e304]
+                - cell "95.0" [ref=e305]
+                - cell "95.6" [ref=e306]
+                - cell "95.9" [ref=e307]
+                - cell "92.8" [ref=e308]
+                - cell "94.5" [ref=e309]
+                - cell "94.9" [ref=e310]
+              - row "SuperGPQA 67.9 70.6 74.0 67.3 69.2 70.4" [ref=e311]:
+                - cell "SuperGPQA" [ref=e312]
+                - cell "67.9" [ref=e313]
+                - cell "70.6" [ref=e314]
+                - cell "74.0" [ref=e315]
+                - cell "67.3" [ref=e316]
+                - cell "69.2" [ref=e317]
+                - cell "70.4" [ref=e318]
+              - row "C-Eval 90.5 92.2 93.4 93.7 94.0 93.0" [ref=e319]:
+                - cell "C-Eval" [ref=e320]
+                - cell "90.5" [ref=e321]
+                - cell "92.2" [ref=e322]
+                - cell "93.4" [ref=e323]
+                - cell "93.7" [ref=e324]
+                - cell "94.0" [ref=e325]
+                - cell "93.0" [ref=e326]
+              - row "Instruction Following" [ref=e327]:
+                - cell "Instruction Following" [ref=e328]
+              - row "IFEval 94.8 90.9 93.5 93.4 93.9 92.6" [ref=e329]:
+                - cell "IFEval" [ref=e330]
+                - cell "94.8" [ref=e331]
+                - cell "90.9" [ref=e332]
+                - cell "93.5" [ref=e333]
+                - cell "93.4" [ref=e334]
+                - cell "93.9" [ref=e335]
+                - cell "92.6" [ref=e336]
+              - row "IFBench 75.4 58.0 70.4 70.9 70.2 76.5" [ref=e337]:
+                - cell "IFBench" [ref=e338]
+                - cell "75.4" [ref=e339]
+                - cell "58.0" [ref=e340]
+                - cell "70.4" [ref=e341]
+                - cell "70.9" [ref=e342]
+                - cell "70.2" [ref=e343]
+                - cell "76.5" [ref=e344]
+              - row "MultiChallenge 57.9 54.2 64.2 63.3 62.7 67.6" [ref=e345]:
+                - cell "MultiChallenge" [ref=e346]
+                - cell "57.9" [ref=e347]
+                - cell "54.2" [ref=e348]
+                - cell "64.2" [ref=e349]
+                - cell "63.3" [ref=e350]
+                - cell "62.7" [ref=e351]
+                - cell "67.6" [ref=e352]
+              - row "Long Context" [ref=e353]:
+                - cell "Long Context" [ref=e354]
+              - row "AA-LCR 72.7 74.0 70.7 68.7 70.0 68.7" [ref=e355]:
+                - cell "AA-LCR" [ref=e356]
+                - cell "72.7" [ref=e357]
+                - cell "74.0" [ref=e358]
+                - cell "70.7" [ref=e359]
+                - cell "68.7" [ref=e360]
+                - cell "70.0" [ref=e361]
+                - cell "68.7" [ref=e362]
+              - row "LongBench v2 54.5 64.4 68.2 60.6 61.0 63.2" [ref=e363]:
+                - cell "LongBench v2" [ref=e364]
+                - cell "54.5" [ref=e365]
+                - cell "64.4" [ref=e366]
+                - cell "68.2" [ref=e367]
+                - cell "60.6" [ref=e368]
+                - cell "61.0" [ref=e369]
+                - cell "63.2" [ref=e370]
+              - row "STEM" [ref=e371]:
+                - cell "STEM" [ref=e372]
+              - row "GPQA 92.4 87.0 91.9 87.4 87.6 88.4" [ref=e373]:
+                - cell "GPQA" [ref=e374]
+                - cell "92.4" [ref=e375]
+                - cell "87.0" [ref=e376]
+                - cell "91.9" [ref=e377]
+                - cell "87.4" [ref=e378]
+                - cell "87.6" [ref=e379]
+                - cell "88.4" [ref=e380]
+              - row "HLE 35.5 30.8 37.5 30.2 30.1 28.7" [ref=e381]:
+                - cell "HLE" [ref=e382]
+                - cell "35.5" [ref=e383]
+                - cell "30.8" [ref=e384]
+                - cell "37.5" [ref=e385]
+                - cell "30.2" [ref=e386]
+                - cell "30.1" [ref=e387]
+                - cell "28.7" [ref=e388]
+              - row "HLE-Verified¹ 43.3 38.8 48 37.6 -- 37.6" [ref=e389]:
+                - cell "HLE-Verified¹" [ref=e390]
+                - cell "43.3" [ref=e391]
+                - cell "38.8" [ref=e392]
+                - cell "48" [ref=e393]
+                - cell "37.6" [ref=e394]
+                - cell "--" [ref=e395]
+                - cell "37.6" [ref=e396]
+              - row "Reasoning" [ref=e397]:
+                - cell "Reasoning" [ref=e398]
+              - row "LiveCodeBench v6 87.7 84.8 90.7 85.9 85.0 83.6" [ref=e399]:
+                - cell "LiveCodeBench v6" [ref=e400]
+                - cell "87.7" [ref=e401]
+                - cell "84.8" [ref=e402]
+                - cell "90.7" [ref=e403]
+                - cell "85.9" [ref=e404]
+                - cell "85.0" [ref=e405]
+                - cell "83.6" [ref=e406]
+              - row "HMMT Feb 25 99.4 92.9 97.3 98.0 95.4 94.8" [ref=e407]:
+                - cell "HMMT Feb 25" [ref=e408]
+                - cell "99.4" [ref=e409]
+                - cell "92.9" [ref=e410]
+                - cell "97.3" [ref=e411]
+                - cell "98.0" [ref=e412]
+                - cell "95.4" [ref=e413]
+                - cell "94.8" [ref=e414]
+              - row "HMMT Nov 25 100 93.3 93.3 94.7 91.1 92.7" [ref=e415]:
+                - cell "HMMT Nov 25" [ref=e416]
+                - cell "100" [ref=e417]
+                - cell "93.3" [ref=e418]
+                - cell "93.3" [ref=e419]
+                - cell "94.7" [ref=e420]
+                - cell "91.1" [ref=e421]
+                - cell "92.7" [ref=e422]
+              - row "IMOAnswerBench 86.3 84.0 83.3 83.9 81.8 80.9" [ref=e423]:
+                - cell "IMOAnswerBench" [ref=e424]
+                - cell "86.3" [ref=e425]
+                - cell "84.0" [ref=e426]
+                - cell "83.3" [ref=e427]
+                - cell "83.9" [ref=e428]
+                - cell "81.8" [ref=e429]
+                - cell "80.9" [ref=e430]
+              - row "AIME26 96.7 93.3 90.6 93.3 93.3 91.3" [ref=e431]:
+                - cell "AIME26" [ref=e432]
+                - cell "96.7" [ref=e433]
+                - cell "93.3" [ref=e434]
+                - cell "90.6" [ref=e435]
+                - cell "93.3" [ref=e436]
+                - cell "93.3" [ref=e437]
+                - cell "91.3" [ref=e438]
+              - row "General Agent" [ref=e439]:
+                - cell "General Agent" [ref=e440]
+              - row "BFCL-V4 63.1 77.5 72.5 67.7 68.3 72.9" [ref=e441]:
+                - cell "BFCL-V4" [ref=e442]
+                - cell "63.1" [ref=e443]
+                - cell "77.5" [ref=e444]
+                - cell "72.5" [ref=e445]
+                - cell "67.7" [ref=e446]
+                - cell "68.3" [ref=e447]
+                - cell "72.9" [ref=e448]
+              - row "TAU2-Bench 87.1 91.6 85.4 84.6 77.0 86.7" [ref=e449]:
+                - cell "TAU2-Bench" [ref=e450]
+                - cell "87.1" [ref=e451]
+                - cell "91.6" [ref=e452]
+                - cell "85.4" [ref=e453]
+                - cell "84.6" [ref=e454]
+                - cell "77.0" [ref=e455]
+                - cell "86.7" [ref=e456]
+              - row "VITA-Bench 38.2 56.3 51.6 40.9 41.9 49.7" [ref=e457]:
+                - cell "VITA-Bench" [ref=e458]
+                - cell "38.2" [ref=e459]
+                - cell "56.3" [ref=e460]
+                - cell "51.6" [ref=e461]
+                - cell "40.9" [ref=e462]
+                - cell "41.9" [ref=e463]
+                - cell "49.7" [ref=e464]
+              - row "DeepPlanning 44.6 33.9 23.3 28.7 14.5 34.3" [ref=e465]:
+                - cell "DeepPlanning" [ref=e466]
+                - cell "44.6" [ref=e467]
+                - cell "33.9" [ref=e468]
+                - cell "23.3" [ref=e469]
+                - cell "28.7" [ref=e470]
+                - cell "14.5" [ref=e471]
+                - cell "34.3" [ref=e472]
+              - row "Tool Decathlon 43.8 43.5 36.4 18.8 27.8 38.3" [ref=e473]:
+                - cell "Tool Decathlon" [ref=e474]
+                - cell "43.8" [ref=e475]
+                - cell "43.5" [ref=e476]
+                - cell "36.4" [ref=e477]
+                - cell "18.8" [ref=e478]
+                - cell "27.8" [ref=e479]
+                - cell "38.3" [ref=e480]
+              - row "MCP-Mark 57.5 42.3 53.9 33.5 29.5 46.1" [ref=e481]:
+                - cell "MCP-Mark" [ref=e482]
+                - cell "57.5" [ref=e483]
+                - cell "42.3" [ref=e484]
+                - cell "53.9" [ref=e485]
+                - cell "33.5" [ref=e486]
+                - cell "29.5" [ref=e487]
+                - cell "46.1" [ref=e488]
+              - row "Search Agent³" [ref=e489]:
+                - cell "Search Agent³" [ref=e490]
+              - row "HLE w/ tool 45.5 43.4 45.8 49.8 50.2 48.3" [ref=e491]:
+                - cell "HLE w/ tool" [ref=e492]
+                - cell "45.5" [ref=e493]
+                - cell "43.4" [ref=e494]
+                - cell "45.8" [ref=e495]
+                - cell "49.8" [ref=e496]
+                - cell "50.2" [ref=e497]
+                - cell "48.3" [ref=e498]
+              - row "BrowseComp 65.8 67.8 59.2 53.9 --/74.9 69.0/78.6" [ref=e499]:
+                - cell "BrowseComp" [ref=e500]
+                - cell "65.8" [ref=e501]
+                - cell "67.8" [ref=e502]
+                - cell "59.2" [ref=e503]
+                - cell "53.9" [ref=e504]
+                - cell "--/74.9" [ref=e505]
+                - cell "69.0/78.6" [ref=e506]
+              - row "BrowseComp-zh 76.1 62.4 66.8 60.9 -- 70.3" [ref=e507]:
+                - cell "BrowseComp-zh" [ref=e508]
+                - cell "76.1" [ref=e509]
+                - cell "62.4" [ref=e510]
+                - cell "66.8" [ref=e511]
+                - cell "60.9" [ref=e512]
+                - cell "--" [ref=e513]
+                - cell "70.3" [ref=e514]
+              - row "WideSearch 76.8 76.4 68.0 57.9 72.7 74.0" [ref=e515]:
+                - cell "WideSearch" [ref=e516]
+                - cell "76.8" [ref=e517]
+                - cell "76.4" [ref=e518]
+                - cell "68.0" [ref=e519]
+                - cell "57.9" [ref=e520]
+                - cell "72.7" [ref=e521]
+                - cell "74.0" [ref=e522]
+              - row "Seal-0 45.0 47.7 45.5 46.9 57.4 46.9" [ref=e523]:
+                - cell "Seal-0" [ref=e524]
+                - cell "45.0" [ref=e525]
+                - cell "47.7" [ref=e526]
+                - cell "45.5" [ref=e527]
+                - cell "46.9" [ref=e528]
+                - cell "57.4" [ref=e529]
+                - cell "46.9" [ref=e530]
+              - row "Multilingualism" [ref=e531]:
+                - cell "Multilingualism" [ref=e532]
+              - row "MMMLU 89.5 90.1 90.6 84.4 86.0 88.5" [ref=e533]:
+                - cell "MMMLU" [ref=e534]
+                - cell "89.5" [ref=e535]
+                - cell "90.1" [ref=e536]
+                - cell "90.6" [ref=e537]
+                - cell "84.4" [ref=e538]
+                - cell "86.0" [ref=e539]
+                - cell "88.5" [ref=e540]
+              - row "MMLU-ProX 83.7 85.7 87.7 78.5 82.3 84.7" [ref=e541]:
+                - cell "MMLU-ProX" [ref=e542]
+                - cell "83.7" [ref=e543]
+                - cell "85.7" [ref=e544]
+                - cell "87.7" [ref=e545]
+                - cell "78.5" [ref=e546]
+                - cell "82.3" [ref=e547]
+                - cell "84.7" [ref=e548]
+              - row "NOVA-63 54.6 56.7 56.7 54.2 56.0 59.1" [ref=e549]:
+                - cell "NOVA-63" [ref=e550]
+                - cell "54.6" [ref=e551]
+                - cell "56.7" [ref=e552]
+                - cell "56.7" [ref=e553]
+                - cell "54.2" [ref=e554]
+                - cell "56.0" [ref=e555]
+                - cell "59.1" [ref=e556]
+              - row "INCLUDE 87.5 86.2 90.5 82.3 83.3 85.6" [ref=e557]:
+                - cell "INCLUDE" [ref=e558]
+                - cell "87.5" [ref=e559]
+                - cell "86.2" [ref=e560]
+                - cell "90.5" [ref=e561]
+                - cell "82.3" [ref=e562]
+                - cell "83.3" [ref=e563]
+                - cell "85.6" [ref=e564]
+              - row "Global PIQA 90.9 91.6 93.2 86.0 89.3 89.8" [ref=e565]:
+                - cell "Global PIQA" [ref=e566]
+                - cell "90.9" [ref=e567]
+                - cell "91.6" [ref=e568]
+                - cell "93.2" [ref=e569]
+                - cell "86.0" [ref=e570]
+                - cell "89.3" [ref=e571]
+                - cell "89.8" [ref=e572]
+              - row "PolyMATH 62.5 79.0 81.6 64.7 43.1 73.3" [ref=e573]:
+                - cell "PolyMATH" [ref=e574]
+                - cell "62.5" [ref=e575]
+                - cell "79.0" [ref=e576]
+                - cell "81.6" [ref=e577]
+                - cell "64.7" [ref=e578]
+                - cell "43.1" [ref=e579]
+                - cell "73.3" [ref=e580]
+              - row "WMT24++ 78.8 79.7 80.7 77.6 77.6 78.9" [ref=e581]:
+                - cell "WMT24++" [ref=e582]
+                - cell "78.8" [ref=e583]
+                - cell "79.7" [ref=e584]
+                - cell "80.7" [ref=e585]
+                - cell "77.6" [ref=e586]
+                - cell "77.6" [ref=e587]
+                - cell "78.9" [ref=e588]
+              - row "MAXIFE 88.4 79.2 87.5 84.0 72.8 88.2" [ref=e589]:
+                - cell "MAXIFE" [ref=e590]
+                - cell "88.4" [ref=e591]
+                - cell "79.2" [ref=e592]
+                - cell "87.5" [ref=e593]
+                - cell "84.0" [ref=e594]
+                - cell "72.8" [ref=e595]
+                - cell "88.2" [ref=e596]
+              - row "Coding Agent" [ref=e597]:
+                - cell "Coding Agent" [ref=e598]
+              - row "SWE-bench Verified 80.0 80.9 76.2 75.3 76.8 76.2" [ref=e599]:
+                - cell "SWE-bench Verified" [ref=e600]
+                - cell "80.0" [ref=e601]
+                - cell "80.9" [ref=e602]
+                - cell "76.2" [ref=e603]
+                - cell "75.3" [ref=e604]
+                - cell "76.8" [ref=e605]
+                - cell "76.2" [ref=e606]
+              - row "SWE-bench Multilingual 72.0 77.5 65.0 66.7 73.0 69.3" [ref=e607]:
+                - cell "SWE-bench Multilingual" [ref=e608]
+                - cell "72.0" [ref=e609]
+                - cell "77.5" [ref=e610]
+                - cell "65.0" [ref=e611]
+                - cell "66.7" [ref=e612]
+                - cell "73.0" [ref=e613]
+                - cell "69.3" [ref=e614]
+              - row "SecCodeBench 68.7 68.6 62.4 57.5 61.3 68.3" [ref=e615]:
+                - cell "SecCodeBench" [ref=e616]
+                - cell "68.7" [ref=e617]
+                - cell "68.6" [ref=e618]
+                - cell "62.4" [ref=e619]
+                - cell "57.5" [ref=e620]
+                - cell "61.3" [ref=e621]
+                - cell "68.3" [ref=e622]
+              - row "Terminal Bench 2 54.0 59.3 54.2 22.5 50.8 52.5" [ref=e623]:
+                - cell "Terminal Bench 2" [ref=e624]
+                - cell "54.0" [ref=e625]
+                - cell "59.3" [ref=e626]
+                - cell "54.2" [ref=e627]
+                - cell "22.5" [ref=e628]
+                - cell "50.8" [ref=e629]
+                - cell "52.5" [ref=e630]
+          - paragraph [ref=e631]:
+            - text: "* HLE-Verified: a verified and revised version of Humanity’s Last Exam (HLE), accompanied by a transparent, component-wise verification protocol and a fine-grained error taxonomy. We open-source the dataset at https://huggingface.co/datasets/skylenage/HLE-Verified."
+            - text: "* TAU2-Bench: we follow the official setup except for the airline domain, where all models are evaluated by applying the fixes proposed in the Claude Opus 4.5 system card."
+            - text: "* MCPMark: GitHub MCP server uses v0.30.3 from api.githubcopilot.com; Playwright tool responses are truncated at 32k tokens."
+            - text: "* Search Agent: most search agents built on our model adopt a simple context-folding strategy(256k): once the cumulative Tool Response length reaches a preset threshold, earlier Tool Responses are pruned from the history to keep the context within limits."
+            - text: "* BrowseComp: we tested two strategies, simple context-folding achieved a score of 69.0, while using the same discard-all strategy as DeepSeek-V3.2 and Kimi K2.5 achieved 78.6."
+            - text: "* WideSearch: we use a 256k context window without any context management."
+            - text: "* MMLU-ProX: we report the averaged accuracy on 29 languages."
+            - text: "* WMT24++: a harder subset of WMT24 after difficulty labeling and rebalancing; we report the averaged scores on 55 languages using XCOMET-XXL."
+            - text: "* MAXIFE: we report the accuracy on English + multilingual original prompts (totally 23 settings)."
+            - text: "* Empty cells (--) indicate scores not yet available or not applicable."
+        - heading "Vision Language" [level=3] [ref=e632]
+        - paragraph
+        - generic [ref=e633]:
+          - table [ref=e634]:
+            - rowgroup [ref=e635]:
+              - row "GPT5.2 Claude 4.5 Opus Gemini-3 Pro Qwen3-VL-235B-A22B K2.5-1T-A32B Qwen3.5-397B-A17B" [ref=e636]:
+                - columnheader [ref=e637]
+                - columnheader "GPT5.2" [ref=e638]
+                - columnheader "Claude 4.5 Opus" [ref=e639]
+                - columnheader "Gemini-3 Pro" [ref=e640]
+                - columnheader "Qwen3-VL-235B-A22B" [ref=e641]
+                - columnheader "K2.5-1T-A32B" [ref=e642]
+                - columnheader "Qwen3.5-397B-A17B" [ref=e643]
+            - rowgroup [ref=e644]:
+              - row "STEM and Puzzle" [ref=e645]:
+                - cell "STEM and Puzzle" [ref=e646]
+              - row "MMMU 86.7 80.7 87.2 80.6 84.3 85.0" [ref=e647]:
+                - cell "MMMU" [ref=e648]
+                - cell "86.7" [ref=e649]
+                - cell "80.7" [ref=e650]
+                - cell "87.2" [ref=e651]
+                - cell "80.6" [ref=e652]
+                - cell "84.3" [ref=e653]
+                - cell "85.0" [ref=e654]
+              - row "MMMU-Pro 79.5 70.6 81.0 69.3 78.5 79.0" [ref=e655]:
+                - cell "MMMU-Pro" [ref=e656]
+                - cell "79.5" [ref=e657]
+                - cell "70.6" [ref=e658]
+                - cell "81.0" [ref=e659]
+                - cell "69.3" [ref=e660]
+                - cell "78.5" [ref=e661]
+                - cell "79.0" [ref=e662]
+              - row "MathVision 83.0 74.3 86.6 74.6 84.2 88.6" [ref=e663]:
+                - cell "MathVision" [ref=e664]
+                - cell "83.0" [ref=e665]
+                - cell "74.3" [ref=e666]
+                - cell "86.6" [ref=e667]
+                - cell "74.6" [ref=e668]
+                - cell "84.2" [ref=e669]
+                - cell "88.6" [ref=e670]
+              - row "Mathvista(mini) 83.1 80.0 87.9 85.8 90.1 90.3" [ref=e671]:
+                - cell "Mathvista(mini)" [ref=e672]
+                - cell "83.1" [ref=e673]
+                - cell "80.0" [ref=e674]
+                - cell "87.9" [ref=e675]
+                - cell "85.8" [ref=e676]
+                - cell "90.1" [ref=e677]
+                - cell "90.3" [ref=e678]
+              - row "We-Math 79.0 70.0 86.9 74.8 84.7 87.9" [ref=e679]:
+                - cell "We-Math" [ref=e680]
+                - cell "79.0" [ref=e681]
+                - cell "70.0" [ref=e682]
+                - cell "86.9" [ref=e683]
+                - cell "74.8" [ref=e684]
+                - cell "84.7" [ref=e685]
+                - cell "87.9" [ref=e686]
+              - row "DynaMath 86.8 79.7 85.1 82.8 84.4 86.3" [ref=e687]:
+                - cell "DynaMath" [ref=e688]
+                - cell "86.8" [ref=e689]
+                - cell "79.7" [ref=e690]
+                - cell "85.1" [ref=e691]
+                - cell "82.8" [ref=e692]
+                - cell "84.4" [ref=e693]
+                - cell "86.3" [ref=e694]
+              - row "ZEROBench 9 3 10 4 9 12" [ref=e695]:
+                - cell "ZEROBench" [ref=e696]
+                - cell "9" [ref=e697]
+                - cell "3" [ref=e698]
+                - cell "10" [ref=e699]
+                - cell "4" [ref=e700]
+                - cell "9" [ref=e701]
+                - cell "12" [ref=e702]
+              - row "ZEROBench_sub 33.2 28.4 39.0 28.4 33.5 41.0" [ref=e703]:
+                - cell "ZEROBench_sub" [ref=e704]
+                - cell "33.2" [ref=e705]
+                - cell "28.4" [ref=e706]
+                - cell "39.0" [ref=e707]
+                - cell "28.4" [ref=e708]
+                - cell "33.5" [ref=e709]
+                - cell "41.0" [ref=e710]
+              - row "BabyVision 34.4 14.2 49.7 22.2 36.5 52.3⁄43.3" [ref=e711]:
+                - cell "BabyVision" [ref=e712]
+                - cell "34.4" [ref=e713]
+                - cell "14.2" [ref=e714]
+                - cell "49.7" [ref=e715]
+                - cell "22.2" [ref=e716]
+                - cell "36.5" [ref=e717]
+                - cell "52.3⁄43.3" [ref=e718]:
+                  - text: "52."
+                  - superscript [ref=e719]: "3"
+                  - text: ⁄
+                  - subscript [ref=e720]: "43"
+                  - text: ".3"
+              - row "General VQA" [ref=e721]:
+                - cell "General VQA" [ref=e722]
+              - row "RealWorldQA 83.3 77.0 83.3 81.3 81.0 83.9" [ref=e723]:
+                - cell "RealWorldQA" [ref=e724]
+                - cell "83.3" [ref=e725]
+                - cell "77.0" [ref=e726]
+                - cell "83.3" [ref=e727]
+                - cell "81.3" [ref=e728]
+                - cell "81.0" [ref=e729]
+                - cell "83.9" [ref=e730]
+              - row "MMStar 77.1 73.2 83.1 78.7 80.5 83.8" [ref=e731]:
+                - cell "MMStar" [ref=e732]
+                - cell "77.1" [ref=e733]
+                - cell "73.2" [ref=e734]
+                - cell "83.1" [ref=e735]
+                - cell "78.7" [ref=e736]
+                - cell "80.5" [ref=e737]
+                - cell "83.8" [ref=e738]
+              - row "HallusionBench 65.2 64.1 68.6 66.7 69.8 71.4" [ref=e739]:
+                - cell "HallusionBench" [ref=e740]
+                - cell "65.2" [ref=e741]
+                - cell "64.1" [ref=e742]
+                - cell "68.6" [ref=e743]
+                - cell "66.7" [ref=e744]
+                - cell "69.8" [ref=e745]
+                - cell "71.4" [ref=e746]
+              - row "MMBenchEN-DEV-v1.1 88.2 89.2 93.7 89.7 94.2 93.7" [ref=e747]:
+                - cell "MMBenchEN-DEV-v1.1" [ref=e748]:
+                  - text: MMBench
+                  - subscript [ref=e749]: EN-DEV-v1.1
+                - cell "88.2" [ref=e750]
+                - cell "89.2" [ref=e751]
+                - cell "93.7" [ref=e752]
+                - cell "89.7" [ref=e753]
+                - cell "94.2" [ref=e754]
+                - cell "93.7" [ref=e755]
+              - row "SimpleVQA 55.8 65.7 73.2 61.3 71.2 67.1" [ref=e756]:
+                - cell "SimpleVQA" [ref=e757]
+                - cell "55.8" [ref=e758]
+                - cell "65.7" [ref=e759]
+                - cell "73.2" [ref=e760]
+                - cell "61.3" [ref=e761]
+                - cell "71.2" [ref=e762]
+                - cell "67.1" [ref=e763]
+              - row "Text Recognition and Document Understanding" [ref=e764]:
+                - cell "Text Recognition and Document Understanding" [ref=e765]
+              - row "OmniDocBench1.5 85.7 87.7 88.5 84.5 88.8 90.8" [ref=e766]:
+                - cell "OmniDocBench1.5" [ref=e767]
+                - cell "85.7" [ref=e768]
+                - cell "87.7" [ref=e769]
+                - cell "88.5" [ref=e770]
+                - cell "84.5" [ref=e771]
+                - cell "88.8" [ref=e772]
+                - cell "90.8" [ref=e773]
+              - row "CharXiv(RQ) 82.1 68.5 81.4 66.1 77.5 80.8" [ref=e774]:
+                - cell "CharXiv(RQ)" [ref=e775]
+                - cell "82.1" [ref=e776]
+                - cell "68.5" [ref=e777]
+                - cell "81.4" [ref=e778]
+                - cell "66.1" [ref=e779]
+                - cell "77.5" [ref=e780]
+                - cell "80.8" [ref=e781]
+              - row "MMLongBench-Doc – 61.9 60.5 56.2 58.5 61.5" [ref=e782]:
+                - cell "MMLongBench-Doc" [ref=e783]
+                - cell "–" [ref=e784]
+                - cell "61.9" [ref=e785]
+                - cell "60.5" [ref=e786]
+                - cell "56.2" [ref=e787]
+                - cell "58.5" [ref=e788]
+                - cell "61.5" [ref=e789]
+              - row "CC-OCR 70.3 76.9 79.0 81.5 79.7 82.0" [ref=e790]:
+                - cell "CC-OCR" [ref=e791]
+                - cell "70.3" [ref=e792]
+                - cell "76.9" [ref=e793]
+                - cell "79.0" [ref=e794]
+                - cell "81.5" [ref=e795]
+                - cell "79.7" [ref=e796]
+                - cell "82.0" [ref=e797]
+              - row "AI2D_TEST 92.2 87.7 94.1 89.2 90.8 93.9" [ref=e798]:
+                - cell "AI2D_TEST" [ref=e799]
+                - cell "92.2" [ref=e800]
+                - cell "87.7" [ref=e801]
+                - cell "94.1" [ref=e802]
+                - cell "89.2" [ref=e803]
+                - cell "90.8" [ref=e804]
+                - cell "93.9" [ref=e805]
+              - row "OCRBench 80.7 85.8 90.4 87.5 92.3 93.1" [ref=e806]:
+                - cell "OCRBench" [ref=e807]
+                - cell "80.7" [ref=e808]
+                - cell "85.8" [ref=e809]
+                - cell "90.4" [ref=e810]
+                - cell "87.5" [ref=e811]
+                - cell "92.3" [ref=e812]
+                - cell "93.1" [ref=e813]
+              - row "Spatial Intelligence" [ref=e814]:
+                - cell "Spatial Intelligence" [ref=e815]
+              - row "ERQA 59.8 46.8 70.5 52.5 – 67.5" [ref=e816]:
+                - cell "ERQA" [ref=e817]
+                - cell "59.8" [ref=e818]
+                - cell "46.8" [ref=e819]
+                - cell "70.5" [ref=e820]
+                - cell "52.5" [ref=e821]
+                - cell "–" [ref=e822]
+                - cell "67.5" [ref=e823]
+              - row "CountBench 91.9 90.6 97.3 93.7 94.1 97.2" [ref=e824]:
+                - cell "CountBench" [ref=e825]
+                - cell "91.9" [ref=e826]
+                - cell "90.6" [ref=e827]
+                - cell "97.3" [ref=e828]
+                - cell "93.7" [ref=e829]
+                - cell "94.1" [ref=e830]
+                - cell "97.2" [ref=e831]
+              - row "RefCOCO(avg) – – 84.1 91.1 87.8 92.3" [ref=e832]:
+                - cell "RefCOCO(avg)" [ref=e833]
+                - cell "–" [ref=e834]
+                - cell "–" [ref=e835]
+                - cell "84.1" [ref=e836]
+                - cell "91.1" [ref=e837]
+                - cell "87.8" [ref=e838]
+                - cell "92.3" [ref=e839]
+              - row "ODInW13 – – 46.3 43.2 – 47.0" [ref=e840]:
+                - cell "ODInW13" [ref=e841]
+                - cell "–" [ref=e842]
+                - cell "–" [ref=e843]
+                - cell "46.3" [ref=e844]
+                - cell "43.2" [ref=e845]
+                - cell "–" [ref=e846]
+                - cell "47.0" [ref=e847]
+              - row "EmbSpatialBench 81.3 75.7 61.2 84.3 77.4 84.5" [ref=e848]:
+                - cell "EmbSpatialBench" [ref=e849]
+                - cell "81.3" [ref=e850]
+                - cell "75.7" [ref=e851]
+                - cell "61.2" [ref=e852]
+                - cell "84.3" [ref=e853]
+                - cell "77.4" [ref=e854]
+                - cell "84.5" [ref=e855]
+              - row "RefSpatialBench – – 65.5 69.9 – 73.6" [ref=e856]:
+                - cell "RefSpatialBench" [ref=e857]
+                - cell "–" [ref=e858]
+                - cell "–" [ref=e859]
+                - cell "65.5" [ref=e860]
+                - cell "69.9" [ref=e861]
+                - cell "–" [ref=e862]
+                - cell "73.6" [ref=e863]
+              - row "LingoQA 68.8 78.8 72.8 66.8 68.2 81.6" [ref=e864]:
+                - cell "LingoQA" [ref=e865]
+                - cell "68.8" [ref=e866]
+                - cell "78.8" [ref=e867]
+                - cell "72.8" [ref=e868]
+                - cell "66.8" [ref=e869]
+                - cell "68.2" [ref=e870]
+                - cell "81.6" [ref=e871]
+              - row "V* 75.9 67.0 88.0 85.9 77.0 95.8⁄91.1" [ref=e872]:
+                - cell "V*" [ref=e873]
+                - cell "75.9" [ref=e874]
+                - cell "67.0" [ref=e875]
+                - cell "88.0" [ref=e876]
+                - cell "85.9" [ref=e877]
+                - cell "77.0" [ref=e878]
+                - cell "95.8⁄91.1" [ref=e879]:
+                  - text: "95."
+                  - superscript [ref=e880]: "8"
+                  - text: ⁄
+                  - subscript [ref=e881]: "91"
+                  - text: ".1"
+              - row "Hypersim – – – 11.0 – 12.5" [ref=e882]:
+                - cell "Hypersim" [ref=e883]
+                - cell "–" [ref=e884]
+                - cell "–" [ref=e885]
+                - cell "–" [ref=e886]
+                - cell "11.0" [ref=e887]
+                - cell "–" [ref=e888]
+                - cell "12.5" [ref=e889]
+              - row "SUNRGBD – – – 34.9 – 38.3" [ref=e890]:
+                - cell "SUNRGBD" [ref=e891]
+                - cell "–" [ref=e892]
+                - cell "–" [ref=e893]
+                - cell "–" [ref=e894]
+                - cell "34.9" [ref=e895]
+                - cell "–" [ref=e896]
+                - cell "38.3" [ref=e897]
+              - row "Nuscene – – – 13.9 – 16.0" [ref=e898]:
+                - cell "Nuscene" [ref=e899]
+                - cell "–" [ref=e900]
+                - cell "–" [ref=e901]
+                - cell "–" [ref=e902]
+                - cell "13.9" [ref=e903]
+                - cell "–" [ref=e904]
+                - cell "16.0" [ref=e905]
+              - row "Video Understanding" [ref=e906]:
+                - cell "Video Understanding" [ref=e907]
+              - row "VideoMME(w sub.) 86 77.6 88.4 83.8 87.4 87.5" [ref=e908]:
+                - cell "VideoMME(w sub.)" [ref=e909]:
+                  - text: VideoMME
+                  - subscript [ref=e910]: (w sub.)
+                - cell "86" [ref=e911]
+                - cell "77.6" [ref=e912]
+                - cell "88.4" [ref=e913]
+                - cell "83.8" [ref=e914]
+                - cell "87.4" [ref=e915]
+                - cell "87.5" [ref=e916]
+              - row "VideoMME(w/o sub.) 85.8 81.4 87.7 79.0 83.2 83.7" [ref=e917]:
+                - cell "VideoMME(w/o sub.)" [ref=e918]:
+                  - text: VideoMME
+                  - subscript [ref=e919]: (w/o sub.)
+                - cell "85.8" [ref=e920]
+                - cell "81.4" [ref=e921]
+                - cell "87.7" [ref=e922]
+                - cell "79.0" [ref=e923]
+                - cell "83.2" [ref=e924]
+                - cell "83.7" [ref=e925]
+              - row "VideoMMMU 85.9 84.4 87.6 80.0 86.6 84.7" [ref=e926]:
+                - cell "VideoMMMU" [ref=e927]
+                - cell "85.9" [ref=e928]
+                - cell "84.4" [ref=e929]
+                - cell "87.6" [ref=e930]
+                - cell "80.0" [ref=e931]
+                - cell "86.6" [ref=e932]
+                - cell "84.7" [ref=e933]
+              - row "MLVU (M-Avg) 85.6 81.7 83.0 83.8 85.0 86.7" [ref=e934]:
+                - cell "MLVU (M-Avg)" [ref=e935]
+                - cell "85.6" [ref=e936]
+                - cell "81.7" [ref=e937]
+                - cell "83.0" [ref=e938]
+                - cell "83.8" [ref=e939]
+                - cell "85.0" [ref=e940]
+                - cell "86.7" [ref=e941]
+              - row "MVBench 78.1 67.2 74.1 75.2 73.5 77.6" [ref=e942]:
+                - cell "MVBench" [ref=e943]
+                - cell "78.1" [ref=e944]
+                - cell "67.2" [ref=e945]
+                - cell "74.1" [ref=e946]
+                - cell "75.2" [ref=e947]
+                - cell "73.5" [ref=e948]
+                - cell "77.6" [ref=e949]
+              - row "LVBench 73.7 57.3 76.2 63.6 75.9 75.5" [ref=e950]:
+                - cell "LVBench" [ref=e951]
+                - cell "73.7" [ref=e952]
+                - cell "57.3" [ref=e953]
+                - cell "76.2" [ref=e954]
+                - cell "63.6" [ref=e955]
+                - cell "75.9" [ref=e956]
+                - cell "75.5" [ref=e957]
+              - row "MMVU 80.8 77.3 77.5 71.1 80.4 75.4" [ref=e958]:
+                - cell "MMVU" [ref=e959]
+                - cell "80.8" [ref=e960]
+                - cell "77.3" [ref=e961]
+                - cell "77.5" [ref=e962]
+                - cell "71.1" [ref=e963]
+                - cell "80.4" [ref=e964]
+                - cell "75.4" [ref=e965]
+              - row "Visual Agent" [ref=e966]:
+                - cell "Visual Agent" [ref=e967]
+              - row "ScreenSpot Pro – 45.7 72.7 62.0 – 65.6" [ref=e968]:
+                - cell "ScreenSpot Pro" [ref=e969]
+                - cell "–" [ref=e970]
+                - cell "45.7" [ref=e971]
+                - cell "72.7" [ref=e972]
+                - cell "62.0" [ref=e973]
+                - cell "–" [ref=e974]
+                - cell "65.6" [ref=e975]
+              - row "OSWorld-Verified 38.2 66.3 – 38.1 63.3 62.2" [ref=e976]:
+                - cell "OSWorld-Verified" [ref=e977]
+                - cell "38.2" [ref=e978]
+                - cell "66.3" [ref=e979]
+                - cell "–" [ref=e980]
+                - cell "38.1" [ref=e981]
+                - cell "63.3" [ref=e982]
+                - cell "62.2" [ref=e983]
+              - row "AndroidWorld – – – 63.7 – 66.8" [ref=e984]:
+                - cell "AndroidWorld" [ref=e985]
+                - cell "–" [ref=e986]
+                - cell "–" [ref=e987]
+                - cell "–" [ref=e988]
+                - cell "63.7" [ref=e989]
+                - cell "–" [ref=e990]
+                - cell "66.8" [ref=e991]
+              - row "Medical VQA" [ref=e992]:
+                - cell "Medical VQA" [ref=e993]
+              - row "SLAKE 76.9 76.4 81.3 54.7 81.6 79.9" [ref=e994]:
+                - cell "SLAKE" [ref=e995]
+                - cell "76.9" [ref=e996]
+                - cell "76.4" [ref=e997]
+                - cell "81.3" [ref=e998]
+                - cell "54.7" [ref=e999]
+                - cell "81.6" [ref=e1000]
+                - cell "79.9" [ref=e1001]
+              - row "PMC-VQA 58.9 59.9 62.3 41.2 63.3 64.2" [ref=e1002]:
+                - cell "PMC-VQA" [ref=e1003]
+                - cell "58.9" [ref=e1004]
+                - cell "59.9" [ref=e1005]
+                - cell "62.3" [ref=e1006]
+                - cell "41.2" [ref=e1007]
+                - cell "63.3" [ref=e1008]
+                - cell "64.2" [ref=e1009]
+              - row "MedXpertQA-MM 73.3 63.6 76.0 47.6 65.3 70.0" [ref=e1010]:
+                - cell "MedXpertQA-MM" [ref=e1011]
+                - cell "73.3" [ref=e1012]
+                - cell "63.6" [ref=e1013]
+                - cell "76.0" [ref=e1014]
+                - cell "47.6" [ref=e1015]
+                - cell "65.3" [ref=e1016]
+                - cell "70.0" [ref=e1017]
+          - paragraph
+          - paragraph [ref=e1018]:
+            - text: "* MathVision：our model’s score is evaluated using a fixed prompt, e.g., “Please reason step by step, and put your final answer within \\boxed{}.” For other models, we report the higher score between runs with and without the \\boxed{} formatting."
+            - text: "* BabyVision: our model’s score is reported with CI (Code Interpreter) enabled; without CI, the result is 43.3."
+            - text: "* V*: our model’s score is reported with CI (Code Interpreter) enabled; without CI, the result is 91.1."
+            - text: "* Empty cells (--) indicate scores not yet available or not applicable."
+          - paragraph
+        - paragraph
+  - contentinfo [ref=e1019]:
+    - generic [ref=e1021]:
+      - generic [ref=e1022]: © 2026 Ollama
+      - generic [ref=e1023]:
+        - link "Download" [ref=e1024] [cursor=pointer]:
+          - /url: /download
+        - link "Blog" [ref=e1025] [cursor=pointer]:
+          - /url: /blog
+        - link "Docs" [ref=e1026] [cursor=pointer]:
+          - /url: https://docs.ollama.com
+        - link "GitHub" [ref=e1027] [cursor=pointer]:
+          - /url: https://github.com/ollama/ollama
+        - link "Discord" [ref=e1028] [cursor=pointer]:
+          - /url: https://discord.com/invite/ollama
+        - link "X (Twitter)" [ref=e1029] [cursor=pointer]:
+          - /url: https://twitter.com/ollama
+        - link "Contact" [ref=e1030] [cursor=pointer]:
+          - /url: mailto:hello@ollama.com
+        - link "Privacy" [ref=e1031] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e1032] [cursor=pointer]:
+          - /url: /terms

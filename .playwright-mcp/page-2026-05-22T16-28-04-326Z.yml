@@ -1,0 +1,272 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [ref=e9] [cursor=pointer]
+        - generic [ref=e11]:
+          - link:
+            - /url: /
+            - generic:
+              - generic:
+                - img
+      - search [ref=e13]:
+        - generic [ref=e14]:
+          - combobox [expanded] [ref=e17]
+          - button "Search" [ref=e18] [cursor=pointer]
+  - navigation [ref=e25]
+  - main [ref=e27]:
+    - text: ••
+    - generic [ref=e29]:
+      - generic [ref=e33]:
+        - link "Play all" [ref=e34] [cursor=pointer]:
+          - /url: /watch?v=P3jFI-VpyLg&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&pp=iAQB
+          - generic [ref=e42]: Play all
+        - generic [ref=e43]:
+          - generic [ref=e45]: "[편집본] 바이브 코딩 1인 창업 부트캠프 (AI Product Builder)"
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - generic [ref=e48]:
+                - link "조코딩 JoCoding" [ref=e50] [cursor=pointer]:
+                  - /url: /@jocoding
+                - generic [ref=e51]:
+                  - text: ·
+                  - img "Course" [ref=e56]:
+                    - generic [ref=e57]: Course
+              - generic [ref=e59]:
+                - generic [ref=e60]: 21 videos
+                - generic [ref=e61]: Last updated on Mar 9, 2026
+            - generic [ref=e62]:
+              - generic [ref=e63]:
+                - button "Save course" [ref=e65] [cursor=pointer]
+                - tooltip "tooltip"
+              - generic [ref=e71]:
+                - button "Share" [ref=e73] [cursor=pointer]
+                - tooltip "tooltip"
+          - generic [ref=e79]:
+            - link "Play" [ref=e82] [cursor=pointer]:
+              - /url: /watch?v=P3jFI-VpyLg&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&pp=iAQB
+              - generic [ref=e85]: Play
+            - button "Comments" [ref=e91] [cursor=pointer]:
+              - generic [ref=e94]: Comments
+          - generic [ref=e101]: "이 시대에 가장 필요한 강의, 바이브 코딩 1인 창업 부트캠프 (AI Product Builder) 과정입니다. 기획·개발·마케팅·수익화·데이터 분석·그로스까지. AI 시대의 1인 창업가, 'Product Builder'가 되기 위해 필요한 모든 기술을 A to Z로 전수해 드립니다. 1주차: 기획 → 첫 수익 - 개요 · 웹 개발 기초 · 배포 · API · 광고 수익화 2주차: 유입 → 성장 - 데이터 분석 · 퍼널 · SEO & GEO · 바이럴 구조 · 마케팅 3주차: AI → 결제 - 아이디어 기획 · React · Serverless · AI API 활용 · 바이브 디자인 · 글로벌 결제 구현 4주차: SaaS → 반복 매출 - 데이터베이스 · 회원가입/로그인/소셜로그인 · 구독형 서비스 구현 · 구매 유도 5주차: 확장 → Exit - 실무 운영 · 퍼포먼스 마케팅 · 앱 개발 · 미국 법인 · Stripe · Exit 전략"
+      - tooltip "tooltip"
+    - generic [ref=e109]:
+      - generic [ref=e110]:
+        - generic [ref=e112]: "1"
+        - generic [ref=e114] [cursor=pointer]:
+          - link [ref=e116]:
+            - /url: /watch?v=P3jFI-VpyLg&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=1&pp=iAQB
+          - heading "이 영상이 당신 인생을 바꿉니다. 바이브 코딩 1인 창업 3시간 통합본 3 hours, 14 minutes" [level=3] [ref=e119]:
+            - link "이 영상이 당신 인생을 바꿉니다. 바이브 코딩 1인 창업 3시간 통합본" [ref=e120]:
+              - /url: /watch?v=P3jFI-VpyLg&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=1&pp=iAQB
+        - button "Action menu" [ref=e124] [cursor=pointer]
+      - generic [ref=e126]:
+        - generic [ref=e128]: "2"
+        - generic [ref=e130] [cursor=pointer]:
+          - link [ref=e132]:
+            - /url: /watch?v=XFWdfoRl_ig&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=2&pp=iAQB
+          - heading "대 '딸깍'의 시대, 지금 당장 바이브 코딩으로 1인 창업을 해야 하는 이유 14 minutes, 17 seconds" [level=3] [ref=e135]:
+            - link "대 '딸깍'의 시대, 지금 당장 바이브 코딩으로 1인 창업을 해야 하는 이유" [ref=e136]:
+              - /url: /watch?v=XFWdfoRl_ig&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=2&pp=iAQB
+        - button "Action menu" [ref=e140] [cursor=pointer]
+      - generic [ref=e142]:
+        - generic [ref=e144]: "3"
+        - generic [ref=e146] [cursor=pointer]:
+          - link [ref=e148]:
+            - /url: /watch?v=77ZT6H1Kpa8&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=3&pp=iAQB
+          - heading "코딩이 이렇게 쉬웠나? 바이브 코딩 왕기초로 평생 무제한 무료 웹 서비스 개발하기 24 minutes" [level=3] [ref=e151]:
+            - link "코딩이 이렇게 쉬웠나? 바이브 코딩 왕기초로 평생 무제한 무료 웹 서비스 개발하기" [ref=e152]:
+              - /url: /watch?v=77ZT6H1Kpa8&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=3&pp=iAQB
+        - button "Action menu" [ref=e156] [cursor=pointer]
+      - generic [ref=e158]:
+        - generic [ref=e160]: "4"
+        - generic [ref=e162] [cursor=pointer]:
+          - link [ref=e164]:
+            - /url: /watch?v=wUFtsYHQOpI&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=4&pp=iAQB
+          - heading "바이브 코딩 기초, 수익형 웹 사이트 만들고 돈 벌기 38 minutes" [level=3] [ref=e167]:
+            - link "바이브 코딩 기초, 수익형 웹 사이트 만들고 돈 벌기" [ref=e168]:
+              - /url: /watch?v=wUFtsYHQOpI&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=4&pp=iAQB
+        - button "Action menu" [ref=e172] [cursor=pointer]
+      - generic [ref=e174]:
+        - generic [ref=e176]: "5"
+        - generic [ref=e178] [cursor=pointer]:
+          - link [ref=e180]:
+            - /url: /watch?v=qYx_55ZPVlI&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=5&pp=iAQB0gcJCQYLAYcqIYzv
+          - heading "바이브 코딩으로 글로벌 유니콘 기업 만드는 간단한 방법 24 minutes" [level=3] [ref=e183]:
+            - link "바이브 코딩으로 글로벌 유니콘 기업 만드는 간단한 방법" [ref=e184]:
+              - /url: /watch?v=qYx_55ZPVlI&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=5&pp=iAQB0gcJCQYLAYcqIYzv
+        - button "Action menu" [ref=e188] [cursor=pointer]
+      - generic [ref=e190]:
+        - generic [ref=e192]: "6"
+        - generic [ref=e193] [cursor=pointer]:
+          - generic [ref=e194]:
+            - link [ref=e196]:
+              - /url: /watch?v=na8JigiXfro&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=6&pp=iAQB
+            - heading "(멤버십) 도메인 구입 및 등록, 검색 엔진 최적화(SEO) 및 생성형 AI 검색 최적화 (GEO) 26 minutes" [level=3] [ref=e199]:
+              - link "(멤버십) 도메인 구입 및 등록, 검색 엔진 최적화(SEO) 및 생성형 AI 검색 최적화 (GEO)" [ref=e200]:
+                - /url: /watch?v=na8JigiXfro&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=6&pp=iAQB
+          - img "Members only" [ref=e205]:
+            - generic [ref=e207]: Members only
+        - button "Action menu" [ref=e211] [cursor=pointer]
+      - generic [ref=e213]:
+        - generic [ref=e215]: "7"
+        - generic [ref=e216] [cursor=pointer]:
+          - generic [ref=e217]:
+            - link [ref=e219]:
+              - /url: /watch?v=bQEIN-Tlka0&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=7&pp=iAQB
+            - heading "(멤버십) 바이럴 구조, 공유 기능 구현, 이탈 신호 감지 및 방지, 유저 피드백, 마케팅 전략 등 15 minutes" [level=3] [ref=e222]:
+              - link "(멤버십) 바이럴 구조, 공유 기능 구현, 이탈 신호 감지 및 방지, 유저 피드백, 마케팅 전략 등" [ref=e223]:
+                - /url: /watch?v=bQEIN-Tlka0&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=7&pp=iAQB
+          - img "Members only" [ref=e228]:
+            - generic [ref=e230]: Members only
+        - button "Action menu" [ref=e234] [cursor=pointer]
+      - generic [ref=e236]:
+        - generic [ref=e238]: "8"
+        - generic [ref=e240] [cursor=pointer]:
+          - link [ref=e242]:
+            - /url: /watch?v=aSX497hIJjI&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=8&pp=iAQB
+          - heading "AI시대 생태계 파괴자가 되는 OpenAI API를 활용하여 수익형 서비스 만드는 방법 32 minutes" [level=3] [ref=e245]:
+            - link "AI시대 생태계 파괴자가 되는 OpenAI API를 활용하여 수익형 서비스 만드는 방법" [ref=e246]:
+              - /url: /watch?v=aSX497hIJjI&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=8&pp=iAQB
+        - button "Action menu" [ref=e250] [cursor=pointer]
+      - generic [ref=e252]:
+        - generic [ref=e254]: "9"
+        - generic [ref=e255] [cursor=pointer]:
+          - generic [ref=e256]:
+            - link [ref=e258]:
+              - /url: /watch?v=Gw1rU4pnPEk&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=9&pp=iAQB
+            - heading "(멤버십) 디자이너 없이 딸깍 한방에 끝내는 바이브 디자인 실전 활용 방법 5 minutes" [level=3] [ref=e261]:
+              - link "(멤버십) 디자이너 없이 딸깍 한방에 끝내는 바이브 디자인 실전 활용 방법" [ref=e262]:
+                - /url: /watch?v=Gw1rU4pnPEk&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=9&pp=iAQB
+          - img "Members only" [ref=e267]:
+            - generic [ref=e269]: Members only
+        - button "Action menu" [ref=e273] [cursor=pointer]
+      - generic [ref=e275]:
+        - generic [ref=e277]: "10"
+        - generic [ref=e278] [cursor=pointer]:
+          - generic [ref=e279]:
+            - link [ref=e281]:
+              - /url: /watch?v=bZJgJt1t6eI&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=10&pp=iAQB
+            - heading "(멤버십) Polar로 글로벌 유저에게 실제 결제 받도록 구현하기 22 minutes" [level=3] [ref=e284]:
+              - link "(멤버십) Polar로 글로벌 유저에게 실제 결제 받도록 구현하기" [ref=e285]:
+                - /url: /watch?v=bZJgJt1t6eI&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=10&pp=iAQB
+          - img "Members only" [ref=e290]:
+            - generic [ref=e292]: Members only
+        - button "Action menu" [ref=e296] [cursor=pointer]
+      - generic [ref=e298]:
+        - generic [ref=e300]: "11"
+        - generic [ref=e301] [cursor=pointer]:
+          - generic [ref=e302]:
+            - link [ref=e304]:
+              - /url: /watch?v=2hHj0rcqbaw&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=11&pp=iAQB
+            - heading "(멤버십) 이메일 전송 기능 및 다국어 번역 구현하기 9 minutes, 49 seconds" [level=3] [ref=e307]:
+              - link "(멤버십) 이메일 전송 기능 및 다국어 번역 구현하기" [ref=e308]:
+                - /url: /watch?v=2hHj0rcqbaw&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=11&pp=iAQB
+          - img "Members only" [ref=e313]:
+            - generic [ref=e315]: Members only
+        - button "Action menu" [ref=e319] [cursor=pointer]
+      - generic [ref=e321]:
+        - generic [ref=e323]: "12"
+        - generic [ref=e325] [cursor=pointer]:
+          - link [ref=e327]:
+            - /url: /watch?v=3Fwnla9RfgI&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=12&pp=iAQB
+          - heading "데이터베이스 및 스토리지의 개념과 최고의 가성비로 사용하는 방법 13 minutes, 8 seconds" [level=3] [ref=e330]:
+            - link "데이터베이스 및 스토리지의 개념과 최고의 가성비로 사용하는 방법" [ref=e331]:
+              - /url: /watch?v=3Fwnla9RfgI&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=12&pp=iAQB
+        - button "Action menu" [ref=e335] [cursor=pointer]
+      - generic [ref=e337]:
+        - generic [ref=e339]: "13"
+        - generic [ref=e340] [cursor=pointer]:
+          - generic [ref=e341]:
+            - link [ref=e343]:
+              - /url: /watch?v=RXG3qn1ziIU&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=13&pp=iAQB
+            - heading "(멤버십) 회원가입, 로그인, 소셜로그인, 마이페이지 기능 구현하기 20 minutes" [level=3] [ref=e346]:
+              - link "(멤버십) 회원가입, 로그인, 소셜로그인, 마이페이지 기능 구현하기" [ref=e347]:
+                - /url: /watch?v=RXG3qn1ziIU&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=13&pp=iAQB
+          - img "Members only" [ref=e352]:
+            - generic [ref=e354]: Members only
+        - button "Action menu" [ref=e358] [cursor=pointer]
+      - generic [ref=e360]:
+        - generic [ref=e362]: "14"
+        - generic [ref=e363] [cursor=pointer]:
+          - generic [ref=e364]:
+            - link [ref=e366]:
+              - /url: /watch?v=30BYS9Fc12E&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=14&pp=iAQB
+            - heading "(멤버십) 글로벌 반복 결제 구독형 서비스 구현하기 with Polar 41 minutes" [level=3] [ref=e369]:
+              - link "(멤버십) 글로벌 반복 결제 구독형 서비스 구현하기 with Polar" [ref=e370]:
+                - /url: /watch?v=30BYS9Fc12E&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=14&pp=iAQB
+          - img "Members only" [ref=e375]:
+            - generic [ref=e377]: Members only
+        - button "Action menu" [ref=e381] [cursor=pointer]
+      - generic [ref=e383]:
+        - generic [ref=e385]: "15"
+        - generic [ref=e386] [cursor=pointer]:
+          - generic [ref=e387]:
+            - link [ref=e389]:
+              - /url: /watch?v=zl-ZYKN7fcM&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=15&pp=iAQB
+            - heading "(멤버십) 퍼널 디자인 및 이벤트 분석 세팅하기 5 minutes, 37 seconds" [level=3] [ref=e392]:
+              - link "(멤버십) 퍼널 디자인 및 이벤트 분석 세팅하기" [ref=e393]:
+                - /url: /watch?v=zl-ZYKN7fcM&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=15&pp=iAQB
+          - img "Members only" [ref=e398]:
+            - generic [ref=e400]: Members only
+        - button "Action menu" [ref=e404] [cursor=pointer]
+      - generic [ref=e406]:
+        - generic [ref=e408]: "16"
+        - generic [ref=e409] [cursor=pointer]:
+          - generic [ref=e410]:
+            - link [ref=e412]:
+              - /url: /watch?v=12dvhOYoUTE&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=16&pp=iAQB
+            - heading "(멤버십) 페이지 속도 및 SEO 최적화 및 AI 전문성 강화 9 minutes, 39 seconds" [level=3] [ref=e415]:
+              - link "(멤버십) 페이지 속도 및 SEO 최적화 및 AI 전문성 강화" [ref=e416]:
+                - /url: /watch?v=12dvhOYoUTE&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=16&pp=iAQB
+          - img "Members only" [ref=e421]:
+            - generic [ref=e423]: Members only
+        - button "Action menu" [ref=e427] [cursor=pointer]
+      - generic [ref=e429]:
+        - generic [ref=e431]: "17"
+        - generic [ref=e433] [cursor=pointer]:
+          - link [ref=e435]:
+            - /url: /watch?v=SW8xfdszoSU&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=17&pp=iAQB
+          - heading "데이터분석, PM/PO도 끝났다. AI를 활용한 GA 데이터 분석 및 퍼널 개선 실전 활용 방법 8 minutes, 35 seconds" [level=3] [ref=e438]:
+            - link "데이터분석, PM/PO도 끝났다. AI를 활용한 GA 데이터 분석 및 퍼널 개선 실전 활용 방법" [ref=e439]:
+              - /url: /watch?v=SW8xfdszoSU&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=17&pp=iAQB
+        - button "Action menu" [ref=e443] [cursor=pointer]
+      - generic [ref=e445]:
+        - generic [ref=e447]: "18"
+        - generic [ref=e448] [cursor=pointer]:
+          - generic [ref=e449]:
+            - link [ref=e451]:
+              - /url: /watch?v=uNVGRzonAxM&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=18&pp=iAQB
+            - heading "(멤버십) 퍼포먼스 마케팅의 개념과 실전 마케팅 사례 및 집행 방법 10 minutes, 34 seconds" [level=3] [ref=e454]:
+              - link "(멤버십) 퍼포먼스 마케팅의 개념과 실전 마케팅 사례 및 집행 방법" [ref=e455]:
+                - /url: /watch?v=uNVGRzonAxM&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=18&pp=iAQB
+          - img "Members only" [ref=e460]:
+            - generic [ref=e462]: Members only
+        - button "Action menu" [ref=e466] [cursor=pointer]
+      - generic [ref=e468]:
+        - generic [ref=e470]: "19"
+        - generic [ref=e472] [cursor=pointer]:
+          - link [ref=e474]:
+            - /url: /watch?v=SwlnpG1u4mY&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=19&pp=iAQB
+          - heading "앱 개발 이렇게 쉬웠나? 바이브 코딩으로 풀스택 AI 앱 개발 20분만에 끝내기 20 minutes" [level=3] [ref=e477]:
+            - link "앱 개발 이렇게 쉬웠나? 바이브 코딩으로 풀스택 AI 앱 개발 20분만에 끝내기" [ref=e478]:
+              - /url: /watch?v=SwlnpG1u4mY&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=19&pp=iAQB
+        - button "Action menu" [ref=e482] [cursor=pointer]
+      - generic [ref=e484]:
+        - generic [ref=e486]: "20"
+        - generic [ref=e488] [cursor=pointer]:
+          - link [ref=e490]:
+            - /url: /watch?v=gIuhSRoCYPk&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=20&pp=iAQB
+          - heading "방구석 딸깍으로 미국 법인 설립하고 글로벌 사업 시작하는 방법 총 정리 (ft. Stripe Atlas) 10 minutes, 52 seconds" [level=3] [ref=e493]:
+            - link "방구석 딸깍으로 미국 법인 설립하고 글로벌 사업 시작하는 방법 총 정리 (ft. Stripe Atlas)" [ref=e494]:
+              - /url: /watch?v=gIuhSRoCYPk&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=20&pp=iAQB
+        - button "Action menu" [ref=e498] [cursor=pointer]
+      - generic [ref=e500]:
+        - generic [ref=e502]: "21"
+        - generic [ref=e504] [cursor=pointer]:
+          - link [ref=e506]:
+            - /url: /watch?v=amPH_30P4Go&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=21&pp=iAQB
+          - heading "조 단위 돈을 버는 현실적이고 구체적인 방법과 사례 11 minutes, 51 seconds" [level=3] [ref=e509]:
+            - link "조 단위 돈을 버는 현실적이고 구체적인 방법과 사례" [ref=e510]:
+              - /url: /watch?v=amPH_30P4Go&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&index=21&pp=iAQB
+        - button "Action menu" [ref=e514] [cursor=pointer]

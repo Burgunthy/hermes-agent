@@ -154,7 +154,7 @@ class TestSessionKeyIntegration:
         from gateway.session import build_session_key, SessionSource, Platform
         src = SessionSource(platform=Platform.DISCORD, chat_id="123",
                             chat_type="channel", user_id="456")
-        key = build_session_key(src, profile_name="trader")
+        key = build_session_key(src, profile="trader")
         assert key.startswith("agent:trader:")
         assert key == "agent:trader:discord:channel:123:456"
 
@@ -163,14 +163,14 @@ class TestSessionKeyIntegration:
         src = SessionSource(platform=Platform.DISCORD, chat_id="123",
                             chat_type="channel", user_id="456")
         key_default = build_session_key(src)
-        key_trader = build_session_key(src, profile_name="trader")
+        key_trader = build_session_key(src, profile="trader")
         assert key_default != key_trader
 
     def test_dm_profile_scoped(self):
         from gateway.session import build_session_key, SessionSource, Platform
         src = SessionSource(platform=Platform.DISCORD, chat_id="999",
                             chat_type="dm", user_id="111")
-        key = build_session_key(src, profile_name="bot2")
+        key = build_session_key(src, profile="bot2")
         assert key == "agent:bot2:discord:dm:999"
 
 

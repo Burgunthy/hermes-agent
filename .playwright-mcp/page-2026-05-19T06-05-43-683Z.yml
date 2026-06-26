@@ -1,0 +1,191 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#introduction"
+  - banner [ref=e3]:
+    - navigation "Header" [ref=e4]:
+      - link "NostalgiaForInfinity" [ref=e5] [cursor=pointer]:
+        - /url: .
+        - img [ref=e6]
+      - generic [ref=e9]:
+        - generic [ref=e11]: NostalgiaForInfinity
+        - generic:
+          - generic: Home
+      - generic [ref=e12]:
+        - radio "Switch to light mode"
+        - generic "Switch to light mode" [ref=e13] [cursor=pointer]:
+          - img [ref=e14]
+        - radio "Switch to dark mode"
+        - radio "Switch to system preference"
+      - dialog [ref=e16]:
+        - search [ref=e17]:
+          - generic [ref=e18]:
+            - textbox "Search" [ref=e19]
+            - generic:
+              - img
+            - navigation "Search":
+              - link "Share":
+                - /url: https://iterativv.github.io/NostalgiaForInfinity/?q=
+                - img
+              - button "Clear":
+                - img
+          - generic [ref=e21]: Initializing search
+      - link "GitHub" [ref=e23] [cursor=pointer]:
+        - /url: https://github.com/iterativv/NostalgiaForInfinity
+        - img [ref=e25]
+        - generic [ref=e27]: GitHub
+  - generic [ref=e28]:
+    - main [ref=e29]:
+      - generic [ref=e30]:
+        - navigation "Navigation" [ref=e34]:
+          - generic [ref=e35]: NostalgiaForInfinity
+          - list [ref=e36]:
+            - listitem [ref=e37]:
+              - link "Home" [ref=e38] [cursor=pointer]:
+                - /url: .
+                - generic [ref=e39]: Home
+            - listitem [ref=e40]:
+              - link "Features" [ref=e41] [cursor=pointer]:
+                - /url: features/
+                - generic [ref=e42]: Features
+            - listitem [ref=e43]:
+              - generic [ref=e45]: Installation
+            - listitem [ref=e47]:
+              - link "Backtesting" [ref=e48] [cursor=pointer]:
+                - /url: backtesting/
+                - generic [ref=e49]: Backtesting
+        - navigation "Table of contents" [ref=e53]:
+          - generic [ref=e54]: Table of contents
+          - list [ref=e55]:
+            - listitem [ref=e56]:
+              - link "Introduction" [ref=e57] [cursor=pointer]:
+                - /url: "#introduction"
+                - generic [ref=e58]: Introduction
+            - listitem [ref=e59]:
+              - link "General Recommendations" [ref=e60] [cursor=pointer]:
+                - /url: "#general-recommendations"
+                - generic [ref=e61]: General Recommendations
+            - listitem [ref=e62]:
+              - link "Discord Link" [ref=e63] [cursor=pointer]:
+                - /url: "#discord-link"
+                - generic [ref=e64]: Discord Link
+            - listitem [ref=e65]:
+              - link "Referral Links" [ref=e66] [cursor=pointer]:
+                - /url: "#referral-links"
+                - generic [ref=e67]: Referral Links
+            - listitem [ref=e68]:
+              - link "Donations" [ref=e69] [cursor=pointer]:
+                - /url: "#donations"
+                - generic [ref=e70]: Donations
+        - article [ref=e72]:
+          - link "Edit this page" [ref=e73] [cursor=pointer]:
+            - /url: https://github.com/iterativv/NostalgiaForInfinity/edit/master/docs/index.md
+            - img [ref=e74]
+          - heading "Home" [level=1] [ref=e76]
+          - heading "Introduction" [level=2] [ref=e77]
+          - paragraph [ref=e78]:
+            - text: Trading strategy for the
+            - link "Freqtrade" [ref=e79] [cursor=pointer]:
+              - /url: https://www.freqtrade.io
+            - text: crypto bot. For backtesting results, check out the comments in the individual
+            - link "commit" [ref=e80] [cursor=pointer]:
+              - /url: https://github.com/iterativv/NostalgiaForInfinity/commits/main
+            - text: page.
+          - heading "General Recommendations" [level=2] [ref=e81]
+          - paragraph [ref=e82]: For optimal performance, suggested to use between 6 and 12 open trades, with unlimited stake.
+          - paragraph [ref=e83]: A pairlist with 40 to 80 pairs. Volume pairlist works well.
+          - paragraph [ref=e84]: Prefer stable coin (USDT, USDC etc) pairs, instead of BTC or ETH pairs.
+          - paragraph [ref=e85]:
+            - text: Highly recommended to blacklist leveraged tokens (
+            - emphasis [ref=e86]: BULL,
+            - text: BEAR,
+            - emphasis [ref=e87]: UP,
+            - text: DOWN etc).
+          - paragraph [ref=e88]: Ensure that you don't override any variables in you config.json. Especially the timeframe (must be 5m).
+          - list [ref=e89]:
+            - listitem [ref=e90]:
+              - code [ref=e91]: use_exit_signal
+              - text: must set to true (or not set at all).
+            - listitem [ref=e92]:
+              - code [ref=e93]: exit_profit_only
+              - text: must set to false (or not set at all).
+            - listitem [ref=e94]:
+              - code [ref=e95]: ignore_roi_if_entry_signal
+              - text: must set to true (or not set at all).
+          - heading "Discord Link" [level=2] [ref=e96]
+          - paragraph [ref=e97]: This is where we chat, hangout and contribute as a community (both links is the same server)
+          - list [ref=e98]:
+            - listitem [ref=e99]:
+              - link "Discord Invite 1" [ref=e100] [cursor=pointer]:
+                - /url: https://discord.gg/DeAmv3btxQ
+            - listitem [ref=e101]:
+              - link "Discord Invite 2" [ref=e102] [cursor=pointer]:
+                - /url: https://discord.gg/nzVeNvZsQq
+          - heading "Referral Links" [level=2] [ref=e103]
+          - paragraph [ref=e104]: "If you like to help, you can also use the following links to sign up to various exchanges:"
+          - list [ref=e105]:
+            - listitem [ref=e106]:
+              - 'link "Binance: (20% discount on trading fees)" [ref=e107] [cursor=pointer]':
+                - /url: https://www.binance.com/join?ref=C68K26A9
+            - listitem [ref=e108]:
+              - 'link "Kucoin: (20% lifetime discount on trading fees)" [ref=e109] [cursor=pointer]':
+                - /url: https://www.kucoin.com/r/af/QBSSS5J2
+            - listitem [ref=e110]:
+              - 'link "Gate: (20% lifetime discount on trading fees)" [ref=e111] [cursor=pointer]':
+                - /url: https://www.gate.io/share/nfinfinity
+            - listitem [ref=e112]:
+              - 'link "OKX: (20% discount on trading fees)" [ref=e113] [cursor=pointer]':
+                - /url: https://www.okx.com/join/11749725931
+            - listitem [ref=e114]:
+              - 'link "MEXC: (10% discount on trading fees)" [ref=e115] [cursor=pointer]':
+                - /url: https://promote.mexc.com/b/nfinfinity
+            - listitem [ref=e116]:
+              - 'link "ByBit: (signup bonuses)" [ref=e117] [cursor=pointer]':
+                - /url: https://partner.bybit.com/b/nfi
+            - listitem [ref=e118]:
+              - 'link "Bitget: (lifetime 20% rebate all plus 10% discount on spot fees)" [ref=e119] [cursor=pointer]':
+                - /url: https://bonus.bitget.com/nfinfinity
+            - listitem [ref=e120]:
+              - link "Kraken:" [ref=e121] [cursor=pointer]:
+                - /url: https://proinvite.kraken.com/9f1e/cctimhte
+            - listitem [ref=e122]:
+              - 'link "BitMart: (20% lifetime discount on trading fees)" [ref=e123] [cursor=pointer]':
+                - /url: https://www.bitmart.com/invite/nfinfinity
+            - listitem [ref=e124]:
+              - 'link "HTX: (Welcome Bonus worth 241 USDT upon completion of a deposit and trade)" [ref=e125] [cursor=pointer]':
+                - /url: https://www.htx.com/invite/en-us/1f?invite_code=ubpt2223
+            - listitem [ref=e126]:
+              - 'link "ByBit: (no fees for the first € 10000)" [ref=e127] [cursor=pointer]':
+                - /url: https://bitvavo.com/invite?a=D22103A4BC
+          - heading "Donations" [level=2] [ref=e128]
+          - paragraph [ref=e129]: Absolutely not required. However, will be accepted as a token of appreciation.
+          - list [ref=e130]:
+            - listitem [ref=e131]:
+              - text: "BTC:"
+              - code [ref=e132]: bc1qvflsvddkmxh7eqhc4jyu5z5k6xcw3ay8jl49sk
+            - listitem [ref=e133]:
+              - text: "ETH (ERC20):"
+              - code [ref=e134]: "0x83D3cFb8001BDC5d2211cBeBB8cB3461E5f7Ec91"
+            - listitem [ref=e135]:
+              - text: "BEP20/BSC (USDT, ETH, BNB, ...):"
+              - code [ref=e136]: "0x86A0B21a20b39d16424B7c8003E4A7e12d78ABEe"
+            - listitem [ref=e137]:
+              - paragraph [ref=e138]:
+                - text: "TRC20/TRON (USDT, TRON, ...):"
+                - code [ref=e139]: TTAa9MX6zMLXNgWMhg7tkNormVHWCoq8Xk
+            - listitem [ref=e140]:
+              - paragraph [ref=e141]: "Patreon : https://www.patreon.com/iterativ"
+      - button "Back to top":
+        - img
+        - text: Back to top
+    - contentinfo [ref=e142]:
+      - navigation "Footer" [ref=e143]:
+        - 'link "Next: Features" [ref=e144] [cursor=pointer]':
+          - /url: features/
+          - generic [ref=e145]:
+            - text: Next
+            - generic [ref=e146]: Features
+          - img [ref=e148]
+      - generic [ref=e152]:
+        - text: Made with
+        - link "Material for MkDocs" [ref=e153] [cursor=pointer]:
+          - /url: https://squidfunk.github.io/mkdocs-material/

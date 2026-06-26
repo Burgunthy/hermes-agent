@@ -1,0 +1,30 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - text: SORRY!
+    - generic [ref=e3]:
+      - text: "If you are the owner of this website, please contact your hosting provider:"
+      - link "webmaster@70.32.23.118" [ref=e4] [cursor=pointer]:
+        - /url: mailto:webmaster@70.32.23.118
+    - paragraph [ref=e5]: "It is possible you have reached this page because:"
+  - list [ref=e9]:
+    - listitem [ref=e10]:
+      - img [ref=e12]
+      - generic [ref=e13]: The IP address has changed.
+      - generic [ref=e14]:
+        - text: The IP address for this domain may have changed recently. Check your DNS settings to verify that the domain is set up correctly. It may take 8-24 hours for DNS changes to propagate. It may be possible to restore access to this site by
+        - link "following these instructions" [ref=e15] [cursor=pointer]:
+          - /url: https://go.cpanel.net/cleardnscache
+        - text: for clearing your dns cache.
+    - listitem [ref=e16]:
+      - img [ref=e18]
+      - generic [ref=e19]: There has been a server misconfiguration.
+      - generic [ref=e20]: You must verify that your hosting provider has the correct IP address configured for your Apache settings and DNS records. A restart of Apache may be required for new settings to take effect.
+    - listitem [ref=e21]:
+      - img [ref=e23]
+      - generic [ref=e24]: The site may have moved to a different server.
+      - generic [ref=e25]: The URL for this domain may have changed or the hosting provider may have moved the account to a different server.
+  - contentinfo [ref=e26]:
+    - link "cPanel, L.L.C. Copyright © 2026 cPanel, L.L.C." [ref=e28] [cursor=pointer]:
+      - /url: https://cpanel.net/?utm_source=cpanelwhm&utm_medium=cplogo&utm_content=logolink&utm_campaign=cpanelwhmreferral
+      - img "cPanel, L.L.C." [ref=e29]
+      - generic [ref=e30]: Copyright © 2026 cPanel, L.L.C.

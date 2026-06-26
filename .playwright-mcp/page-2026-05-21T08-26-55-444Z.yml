@@ -1,0 +1,905 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fwuji-technology%2Fwujimjx-playground
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=wuji-technology%2Fwujimjx-playground
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - link "wuji-technology" [ref=e70] [cursor=pointer]:
+              - /url: /wuji-technology
+            - generic [ref=e71]: /
+            - strong [ref=e72]:
+              - link "wujimjx-playground" [ref=e73] [cursor=pointer]:
+                - /url: /wuji-technology/wujimjx-playground
+            - generic [ref=e74]: Public
+          - generic [ref=e75]:
+            - text: forked from
+            - link "google-deepmind/mujoco_playground" [ref=e76] [cursor=pointer]:
+              - /url: /google-deepmind/mujoco_playground
+        - generic [ref=e77]:
+          - list:
+            - listitem [ref=e78]:
+              - link "You must be signed in to change notification settings" [ref=e79] [cursor=pointer]:
+                - /url: /login?return_to=%2Fwuji-technology%2Fwujimjx-playground
+                - img [ref=e80]
+                - text: Notifications
+            - listitem [ref=e82]:
+              - link "Fork 0" [ref=e83] [cursor=pointer]:
+                - /url: /login?return_to=%2Fwuji-technology%2Fwujimjx-playground
+                - img [ref=e84]
+                - text: Fork
+                - generic "0" [ref=e86]
+            - listitem [ref=e87]:
+              - link "You must be signed in to star a repository" [ref=e89] [cursor=pointer]:
+                - /url: /login?return_to=%2Fwuji-technology%2Fwujimjx-playground
+                - img [ref=e90]
+                - text: Star
+                - generic "0 users starred this repository" [ref=e92]: "0"
+      - navigation "Repository" [ref=e93]:
+        - list [ref=e94]:
+          - listitem [ref=e95]:
+            - link "Code" [ref=e96] [cursor=pointer]:
+              - /url: /wuji-technology/wujimjx-playground
+              - img [ref=e97]
+              - generic [ref=e99]: Code
+          - listitem [ref=e100]:
+            - link "Pull requests" [ref=e101] [cursor=pointer]:
+              - /url: /wuji-technology/wujimjx-playground/pulls
+              - img [ref=e102]
+              - generic [ref=e104]: Pull requests
+          - listitem [ref=e105]:
+            - link "Actions" [ref=e106] [cursor=pointer]:
+              - /url: /wuji-technology/wujimjx-playground/actions
+              - img [ref=e107]
+              - generic [ref=e109]: Actions
+          - listitem [ref=e110]:
+            - link "Projects" [ref=e111] [cursor=pointer]:
+              - /url: /wuji-technology/wujimjx-playground/projects
+              - img [ref=e112]
+              - generic [ref=e114]: Projects
+          - listitem [ref=e115]:
+            - link "Security and quality" [ref=e116] [cursor=pointer]:
+              - /url: /wuji-technology/wujimjx-playground/security
+              - img [ref=e117]
+              - generic [ref=e119]: Security and quality
+          - listitem [ref=e120]:
+            - link "Insights" [ref=e121] [cursor=pointer]:
+              - /url: /wuji-technology/wujimjx-playground/pulse
+              - img [ref=e122]
+              - generic [ref=e124]: Insights
+    - generic [ref=e137]:
+      - heading "wuji-technology/wujimjx-playground" [level=1] [ref=e139]
+      - generic [ref=e140]:
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - generic [ref=e145]:
+              - button "main branch" [ref=e147] [cursor=pointer]:
+                - generic [ref=e148]:
+                  - generic [ref=e150]:
+                    - img [ref=e152]
+                    - generic [ref=e155]: main
+                  - generic:
+                    - img
+              - generic [ref=e156]:
+                - link "2 Branches" [ref=e157] [cursor=pointer]:
+                  - /url: /wuji-technology/wujimjx-playground/branches
+                  - generic [ref=e158]:
+                    - generic:
+                      - img
+                    - generic [ref=e160]:
+                      - strong [ref=e161]: "2"
+                      - text: Branches
+                - link "0 Tags" [ref=e162] [cursor=pointer]:
+                  - /url: /wuji-technology/wujimjx-playground/tags
+                  - generic [ref=e163]:
+                    - generic:
+                      - img
+                    - generic [ref=e165]:
+                      - strong [ref=e166]: "0"
+                      - text: Tags
+            - generic [ref=e167]:
+              - generic [ref=e171]:
+                - img [ref=e173]
+                - combobox "Go to file" [ref=e175]
+              - button "Code" [ref=e176] [cursor=pointer]:
+                - generic [ref=e177]:
+                  - generic:
+                    - img
+                  - generic [ref=e178]: Code
+                  - generic:
+                    - img
+          - generic [ref=e180]:
+            - text: This branch is
+            - link "1 commit ahead of" [ref=e181] [cursor=pointer]:
+              - /url: /wuji-technology/wujimjx-playground/compare/google-deepmind%3Amujoco_playground%3Amain...main
+            - text: and
+            - link "60 commits behind" [ref=e182] [cursor=pointer]:
+              - /url: /wuji-technology/wujimjx-playground/compare/main...google-deepmind%3Amujoco_playground%3Amain
+            - generic [ref=e183]: google-deepmind/mujoco_playground:main
+            - text: .
+          - generic [ref=e184]:
+            - generic [ref=e185]:
+              - heading "Folders and files" [level=2] [ref=e186]
+              - table "Folders and files" [ref=e187]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e188]:
+                  - 'row "Latest commit AIRJASON50 kywch thowell btaba dependabot[bot] Show 8 authors Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (#1) Open commit details success Commit abb97b3 · Mar 9, 20262 months ago History 149 Commits" [ref=e189]':
+                    - 'cell "Latest commit AIRJASON50 kywch thowell btaba dependabot[bot] Show 8 authors Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (#1) Open commit details success Commit abb97b3 · Mar 9, 20262 months ago History 149 Commits" [ref=e190]':
+                      - generic [ref=e191]:
+                        - heading "Latest commit" [level=2] [ref=e192]
+                        - generic [ref=e193]:
+                          - generic [ref=e194]:
+                            - generic [ref=e196]:
+                              - img "AIRJASON50" [ref=e197]
+                              - img "kywch" [ref=e198]
+                              - img "thowell" [ref=e199]
+                              - img "btaba" [ref=e200]
+                              - img "dependabot[bot]" [ref=e201]
+                            - button "Show 8 authors" [ref=e202] [cursor=pointer]: 8 people
+                          - generic [ref=e203]:
+                            - generic [ref=e205]:
+                              - 'link "Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (" [ref=e206] [cursor=pointer]':
+                                - /url: /wuji-technology/wujimjx-playground/commit/abb97b3ce45c28361916caf7cb965790484a1668
+                              - link "#1" [ref=e207] [cursor=pointer]:
+                                - /url: https://github.com/wuji-technology/wujimjx-playground/pull/1
+                              - link ")" [ref=e208] [cursor=pointer]:
+                                - /url: /wuji-technology/wujimjx-playground/commit/abb97b3ce45c28361916caf7cb965790484a1668
+                            - button "Open commit details" [ref=e209] [cursor=pointer]:
+                              - img [ref=e210]
+                            - button "success" [ref=e212] [cursor=pointer]:
+                              - img [ref=e213]
+                        - generic [ref=e215]:
+                          - generic [ref=e217]:
+                            - link "Commit abb97b3" [ref=e218] [cursor=pointer]:
+                              - /url: /wuji-technology/wujimjx-playground/commit/abb97b3ce45c28361916caf7cb965790484a1668
+                              - text: abb97b3
+                            - text: ·
+                            - generic "Mar 9, 2026, 3:29 PM GMT+9" [ref=e219]: Mar 9, 20262 months ago
+                          - generic [ref=e220]:
+                            - heading "History" [level=2] [ref=e221]
+                            - link "149 Commits" [ref=e222] [cursor=pointer]:
+                              - /url: /wuji-technology/wujimjx-playground/commits/main/
+                              - generic [ref=e223]:
+                                - generic:
+                                  - img
+                                - generic [ref=e224]: 149 Commits
+                  - 'row ".github/workflows, (Directory) Copybara import of the project: Aug 22, 20259 months ago" [ref=e225]':
+                    - cell ".github/workflows, (Directory)" [ref=e226]:
+                      - generic [ref=e227]:
+                        - img [ref=e228]
+                        - link ".github/workflows, (Directory)" [ref=e233] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/tree/main/.github/workflows
+                          - text: .github/workflows
+                    - cell "Copybara import of the project:" [ref=e234]:
+                      - link "Copybara import of the project:" [ref=e237] [cursor=pointer]:
+                        - /url: /wuji-technology/wujimjx-playground/commit/6d1f7e6a76f9c83633b59494d136b45cdd816b5a
+                    - cell "Aug 22, 20259 months ago" [ref=e238]:
+                      - generic [ref=e239]: Aug 22, 20259 months ago
+                  - row "assets, (Directory) Initial commit of mujoco_playground. Jan 16, 2025last year" [ref=e240]:
+                    - cell "assets, (Directory)" [ref=e241]:
+                      - generic [ref=e242]:
+                        - img [ref=e243]
+                        - link "assets, (Directory)" [ref=e248] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/tree/main/assets
+                          - text: assets
+                    - cell "Initial commit of mujoco_playground." [ref=e249]:
+                      - link "Initial commit of mujoco_playground." [ref=e252] [cursor=pointer]:
+                        - /url: /wuji-technology/wujimjx-playground/commit/046a38fa7e156664406c63f09afde25a996300de
+                    - cell "Jan 16, 2025last year" [ref=e253]:
+                      - generic [ref=e254]: Jan 16, 2025last year
+                  - 'row "learning, (Directory) Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (#1) Mar 9, 20262 months ago" [ref=e255]':
+                    - cell "learning, (Directory)" [ref=e256]:
+                      - generic [ref=e257]:
+                        - img [ref=e258]
+                        - link "learning, (Directory)" [ref=e263] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/tree/main/learning
+                          - text: learning
+                    - 'cell "Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (#1)" [ref=e264]':
+                      - generic [ref=e266]:
+                        - 'link "Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (" [ref=e267] [cursor=pointer]':
+                          - /url: /wuji-technology/wujimjx-playground/commit/abb97b3ce45c28361916caf7cb965790484a1668
+                        - link "#1" [ref=e268] [cursor=pointer]:
+                          - /url: https://github.com/wuji-technology/wujimjx-playground/pull/1
+                        - link ")" [ref=e269] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/commit/abb97b3ce45c28361916caf7cb965790484a1668
+                    - cell "Mar 9, 20262 months ago" [ref=e270]:
+                      - generic [ref=e271]: Mar 9, 20262 months ago
+                  - 'row "mujoco_playground, (Directory) Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (#1) Mar 9, 20262 months ago" [ref=e272]':
+                    - cell "mujoco_playground, (Directory)" [ref=e273]:
+                      - generic [ref=e274]:
+                        - img [ref=e275]
+                        - link "mujoco_playground, (Directory)" [ref=e280] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/tree/main/mujoco_playground
+                          - text: mujoco_playground
+                    - 'cell "Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (#1)" [ref=e281]':
+                      - generic [ref=e283]:
+                        - 'link "Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (" [ref=e284] [cursor=pointer]':
+                          - /url: /wuji-technology/wujimjx-playground/commit/abb97b3ce45c28361916caf7cb965790484a1668
+                        - link "#1" [ref=e285] [cursor=pointer]:
+                          - /url: https://github.com/wuji-technology/wujimjx-playground/pull/1
+                        - link ")" [ref=e286] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/commit/abb97b3ce45c28361916caf7cb965790484a1668
+                    - cell "Mar 9, 20262 months ago" [ref=e287]:
+                      - generic [ref=e288]: Mar 9, 20262 months ago
+                  - 'row ".gitignore, (File) Copybara import of the project: Sep 16, 20258 months ago" [ref=e289]':
+                    - cell ".gitignore, (File)" [ref=e290]:
+                      - generic [ref=e291]:
+                        - img [ref=e292]
+                        - link ".gitignore, (File)" [ref=e297] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell "Copybara import of the project:" [ref=e298]:
+                      - link "Copybara import of the project:" [ref=e301] [cursor=pointer]:
+                        - /url: /wuji-technology/wujimjx-playground/commit/8356c84f3b682f2e5602f131fa4eec831632498c
+                    - cell "Sep 16, 20258 months ago" [ref=e302]:
+                      - generic [ref=e303]: Sep 16, 20258 months ago
+                  - row ".pre-commit-config.yaml, (File) Initial commit of mujoco_playground. Jan 16, 2025last year" [ref=e304]:
+                    - cell ".pre-commit-config.yaml, (File)" [ref=e305]:
+                      - generic [ref=e306]:
+                        - img [ref=e307]
+                        - link ".pre-commit-config.yaml, (File)" [ref=e312] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/blob/main/.pre-commit-config.yaml
+                          - text: .pre-commit-config.yaml
+                    - cell "Initial commit of mujoco_playground." [ref=e313]:
+                      - link "Initial commit of mujoco_playground." [ref=e316] [cursor=pointer]:
+                        - /url: /wuji-technology/wujimjx-playground/commit/046a38fa7e156664406c63f09afde25a996300de
+                    - cell "Jan 16, 2025last year" [ref=e317]:
+                      - generic [ref=e318]: Jan 16, 2025last year
+                  - 'row "CHANGELOG.md, (File) Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (#1) Mar 9, 20262 months ago" [ref=e319]':
+                    - cell "CHANGELOG.md, (File)" [ref=e320]:
+                      - generic [ref=e321]:
+                        - img [ref=e322]
+                        - link "CHANGELOG.md, (File)" [ref=e327] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/blob/main/CHANGELOG.md
+                          - text: CHANGELOG.md
+                    - 'cell "Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (#1)" [ref=e328]':
+                      - generic [ref=e330]:
+                        - 'link "Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (" [ref=e331] [cursor=pointer]':
+                          - /url: /wuji-technology/wujimjx-playground/commit/abb97b3ce45c28361916caf7cb965790484a1668
+                        - link "#1" [ref=e332] [cursor=pointer]:
+                          - /url: https://github.com/wuji-technology/wujimjx-playground/pull/1
+                        - link ")" [ref=e333] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/commit/abb97b3ce45c28361916caf7cb965790484a1668
+                    - cell "Mar 9, 20262 months ago" [ref=e334]:
+                      - generic [ref=e335]: Mar 9, 20262 months ago
+                  - row "CITATION.cff, (File) Add CITATION.cff. Jan 16, 2025last year" [ref=e336]:
+                    - cell "CITATION.cff, (File)" [ref=e337]:
+                      - generic [ref=e338]:
+                        - img [ref=e339]
+                        - link "CITATION.cff, (File)" [ref=e344] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/blob/main/CITATION.cff
+                          - text: CITATION.cff
+                    - cell "Add CITATION.cff." [ref=e345]:
+                      - link "Add CITATION.cff." [ref=e348] [cursor=pointer]:
+                        - /url: /wuji-technology/wujimjx-playground/commit/24cdf0ddc1d1de429707cc8f9d9e7b7f077fb5bd
+                    - cell "Jan 16, 2025last year" [ref=e349]:
+                      - generic [ref=e350]: Jan 16, 2025last year
+                  - 'row "CLAUDE.md, (File) Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (#1) Mar 9, 20262 months ago" [ref=e351]':
+                    - cell "CLAUDE.md, (File)" [ref=e352]:
+                      - generic [ref=e353]:
+                        - img [ref=e354]
+                        - link "CLAUDE.md, (File)" [ref=e359] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/blob/main/CLAUDE.md
+                          - text: CLAUDE.md
+                    - 'cell "Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (#1)" [ref=e360]':
+                      - generic [ref=e362]:
+                        - 'link "Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (" [ref=e363] [cursor=pointer]':
+                          - /url: /wuji-technology/wujimjx-playground/commit/abb97b3ce45c28361916caf7cb965790484a1668
+                        - link "#1" [ref=e364] [cursor=pointer]:
+                          - /url: https://github.com/wuji-technology/wujimjx-playground/pull/1
+                        - link ")" [ref=e365] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/commit/abb97b3ce45c28361916caf7cb965790484a1668
+                    - cell "Mar 9, 20262 months ago" [ref=e366]:
+                      - generic [ref=e367]: Mar 9, 20262 months ago
+                  - row "CONTRIBUTING.md, (File) Improve README and CONTRIBUTING. Jan 22, 2025last year" [ref=e368]:
+                    - cell "CONTRIBUTING.md, (File)" [ref=e369]:
+                      - generic [ref=e370]:
+                        - img [ref=e371]
+                        - link "CONTRIBUTING.md, (File)" [ref=e376] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/blob/main/CONTRIBUTING.md
+                          - text: CONTRIBUTING.md
+                    - cell "Improve README and CONTRIBUTING." [ref=e377]:
+                      - link "Improve README and CONTRIBUTING." [ref=e380] [cursor=pointer]:
+                        - /url: /wuji-technology/wujimjx-playground/commit/2034ac03616b9c0519c7680f4cd1b8f123a31746
+                    - cell "Jan 22, 2025last year" [ref=e381]:
+                      - generic [ref=e382]: Jan 22, 2025last year
+                  - row "LICENSE, (File) Initial commit of mujoco_playground. Jan 16, 2025last year" [ref=e383]:
+                    - cell "LICENSE, (File)" [ref=e384]:
+                      - generic [ref=e385]:
+                        - img [ref=e386]
+                        - link "LICENSE, (File)" [ref=e391] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/blob/main/LICENSE
+                          - text: LICENSE
+                    - cell "Initial commit of mujoco_playground." [ref=e392]:
+                      - link "Initial commit of mujoco_playground." [ref=e395] [cursor=pointer]:
+                        - /url: /wuji-technology/wujimjx-playground/commit/046a38fa7e156664406c63f09afde25a996300de
+                    - cell "Jan 16, 2025last year" [ref=e396]:
+                      - generic [ref=e397]: Jan 16, 2025last year
+                  - 'row "README.md, (File) Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (#1) Mar 9, 20262 months ago" [ref=e398]':
+                    - cell "README.md, (File)" [ref=e399]:
+                      - generic [ref=e400]:
+                        - img [ref=e401]
+                        - link "README.md, (File)" [ref=e406] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/blob/main/README.md
+                          - text: README.md
+                    - 'cell "Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (#1)" [ref=e407]':
+                      - generic [ref=e409]:
+                        - 'link "Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (" [ref=e410] [cursor=pointer]':
+                          - /url: /wuji-technology/wujimjx-playground/commit/abb97b3ce45c28361916caf7cb965790484a1668
+                        - link "#1" [ref=e411] [cursor=pointer]:
+                          - /url: https://github.com/wuji-technology/wujimjx-playground/pull/1
+                        - link ")" [ref=e412] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/commit/abb97b3ce45c28361916caf7cb965790484a1668
+                    - cell "Mar 9, 20262 months ago" [ref=e413]:
+                      - generic [ref=e414]: Mar 9, 20262 months ago
+                  - row "pylintrc, (File) Initial commit of mujoco_playground. Jan 16, 2025last year" [ref=e415]:
+                    - cell "pylintrc, (File)" [ref=e416]:
+                      - generic [ref=e417]:
+                        - img [ref=e418]
+                        - link "pylintrc, (File)" [ref=e423] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/blob/main/pylintrc
+                          - text: pylintrc
+                    - cell "Initial commit of mujoco_playground." [ref=e424]:
+                      - link "Initial commit of mujoco_playground." [ref=e427] [cursor=pointer]:
+                        - /url: /wuji-technology/wujimjx-playground/commit/046a38fa7e156664406c63f09afde25a996300de
+                    - cell "Jan 16, 2025last year" [ref=e428]:
+                      - generic [ref=e429]: Jan 16, 2025last year
+                  - 'row "pyproject.toml, (File) Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (#1) Mar 9, 20262 months ago" [ref=e430]':
+                    - cell "pyproject.toml, (File)" [ref=e431]:
+                      - generic [ref=e432]:
+                        - img [ref=e433]
+                        - link "pyproject.toml, (File)" [ref=e438] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/blob/main/pyproject.toml
+                          - text: pyproject.toml
+                    - 'cell "Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (#1)" [ref=e439]':
+                      - generic [ref=e441]:
+                        - 'link "Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (" [ref=e442] [cursor=pointer]':
+                          - /url: /wuji-technology/wujimjx-playground/commit/abb97b3ce45c28361916caf7cb965790484a1668
+                        - link "#1" [ref=e443] [cursor=pointer]:
+                          - /url: https://github.com/wuji-technology/wujimjx-playground/pull/1
+                        - link ")" [ref=e444] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/commit/abb97b3ce45c28361916caf7cb965790484a1668
+                    - cell "Mar 9, 20262 months ago" [ref=e445]:
+                      - generic [ref=e446]: Mar 9, 20262 months ago
+                  - 'row "uv.lock, (File) Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (#1) Mar 9, 20262 months ago" [ref=e447]':
+                    - cell "uv.lock, (File)" [ref=e448]:
+                      - generic [ref=e449]:
+                        - img [ref=e450]
+                        - link "uv.lock, (File)" [ref=e455] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/blob/main/uv.lock
+                          - text: uv.lock
+                    - 'cell "Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (#1)" [ref=e456]':
+                      - generic [ref=e458]:
+                        - 'link "Rebase wuji-custom: 合并上游更新 + 保留 wrapper 定制 (" [ref=e459] [cursor=pointer]':
+                          - /url: /wuji-technology/wujimjx-playground/commit/abb97b3ce45c28361916caf7cb965790484a1668
+                        - link "#1" [ref=e460] [cursor=pointer]:
+                          - /url: https://github.com/wuji-technology/wujimjx-playground/pull/1
+                        - link ")" [ref=e461] [cursor=pointer]:
+                          - /url: /wuji-technology/wujimjx-playground/commit/abb97b3ce45c28361916caf7cb965790484a1668
+                    - cell "Mar 9, 20262 months ago" [ref=e462]:
+                      - generic [ref=e463]: Mar 9, 20262 months ago
+            - generic [ref=e465]:
+              - generic [ref=e466]:
+                - heading "Repository files navigation" [level=2] [ref=e467]
+                - navigation "Repository files" [ref=e468]:
+                  - list [ref=e469]:
+                    - listitem [ref=e470]:
+                      - link "README" [ref=e471] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e473]
+                        - generic [ref=e475]: README
+                    - listitem [ref=e476]:
+                      - link "Contributing" [ref=e477] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e479]
+                        - generic [ref=e481]: Contributing
+                    - listitem [ref=e482]:
+                      - link "License" [ref=e483] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e485]
+                        - generic [ref=e487]: License
+                - button "Outline" [ref=e488] [cursor=pointer]:
+                  - img [ref=e489]
+              - article [ref=e492]:
+                - generic [ref=e493]:
+                  - heading "MuJoCo Playground" [level=1] [ref=e494]
+                  - 'link "Permalink: MuJoCo Playground" [ref=e495] [cursor=pointer]':
+                    - /url: "#mujoco-playground"
+                    - img [ref=e496]
+                - paragraph [ref=e498]:
+                  - link "Build" [ref=e499] [cursor=pointer]:
+                    - /url: https://github.com/google-deepmind/mujoco_playground/actions
+                    - img "Build" [ref=e500]
+                  - link "PyPI version" [ref=e501] [cursor=pointer]:
+                    - /url: https://pypi.org/project/playground/
+                    - img "PyPI version" [ref=e502]
+                  - link "Banner for playground" [ref=e503] [cursor=pointer]:
+                    - /url: https://github.com/google-deepmind/mujoco_playground/blob/main/assets/banner.png?raw=true
+                    - img "Banner for playground" [ref=e504]
+                - paragraph [ref=e505]:
+                  - text: A comprehensive suite of GPU-accelerated environments for robot learning research and sim-to-real, built with
+                  - link "MuJoCo MJX" [ref=e506] [cursor=pointer]:
+                    - /url: https://github.com/google-deepmind/mujoco/tree/main/mjx
+                  - text: .
+                - paragraph [ref=e507]: "Features include:"
+                - list [ref=e508]:
+                  - listitem [ref=e509]:
+                    - text: Classic control environments from
+                    - code [ref=e510]: dm_control
+                    - text: .
+                  - listitem [ref=e511]: Quadruped and bipedal locomotion environments.
+                  - listitem [ref=e512]: Non-prehensile and dexterous manipulation environments.
+                  - listitem [ref=e513]:
+                    - text: Vision-based support available via
+                    - link "Madrona-MJX" [ref=e514] [cursor=pointer]:
+                      - /url: https://github.com/shacklettbp/madrona_mjx
+                    - text: .
+                - paragraph [ref=e515]:
+                  - text: For more details, check out the project
+                  - link "website" [ref=e516] [cursor=pointer]:
+                    - /url: https://playground.mujoco.org/
+                  - text: .
+                - generic [ref=e517]:
+                  - paragraph [ref=e518]:
+                    - img [ref=e519]
+                    - text: Note
+                  - paragraph [ref=e521]:
+                    - text: We now support training with both the MuJoCo MJX JAX implementation, as well as the
+                    - link "MuJoCo Warp" [ref=e522] [cursor=pointer]:
+                      - /url: https://github.com/google-deepmind/mujoco_warp
+                    - text: implementation at HEAD. See this
+                    - link "discussion post" [ref=e523] [cursor=pointer]:
+                      - /url: https://github.com/google-deepmind/mujoco_playground/discussions/197
+                    - text: for more details.
+                - generic [ref=e524]:
+                  - heading "Installation" [level=2] [ref=e525]
+                  - 'link "Permalink: Installation" [ref=e526] [cursor=pointer]':
+                    - /url: "#installation"
+                    - img [ref=e527]
+                - paragraph [ref=e529]: "You can install MuJoCo Playground directly from PyPI:"
+                - generic [ref=e530]:
+                  - generic [ref=e531]: pip install playground
+                  - button "Copy code to clipboard" [ref=e533] [cursor=pointer]:
+                    - img [ref=e534]
+                - generic [ref=e537]:
+                  - paragraph [ref=e538]:
+                    - img [ref=e539]
+                    - text: Important
+                  - paragraph [ref=e541]:
+                    - text: We recommend users to install
+                    - link "from source" [ref=e542] [cursor=pointer]:
+                      - /url: "#from-source"
+                    - text: to get the latest features and bug fixes from MuJoCo.
+                - generic [ref=e543]:
+                  - heading "From Source" [level=3] [ref=e544]
+                  - 'link "Permalink: From Source" [ref=e545] [cursor=pointer]':
+                    - /url: "#from-source"
+                    - img [ref=e546]
+                - generic [ref=e548]:
+                  - paragraph [ref=e549]:
+                    - img [ref=e550]
+                    - text: Important
+                  - paragraph [ref=e552]: Requires Python 3.10 or later.
+                - list [ref=e553]:
+                  - listitem [ref=e554]:
+                    - code [ref=e555]: git clone git@github.com:google-deepmind/mujoco_playground.git && cd mujoco_playground
+                  - listitem [ref=e556]:
+                    - link "Install uv" [ref=e557] [cursor=pointer]:
+                      - /url: https://docs.astral.sh/uv/getting-started/installation/
+                    - text: ", a faster alternative to"
+                    - code [ref=e558]: pip
+                  - listitem [ref=e559]:
+                    - text: "Create a virtual environment:"
+                    - code [ref=e560]: uv venv --python 3.12
+                  - listitem [ref=e561]:
+                    - text: "Activate it:"
+                    - code [ref=e562]: source .venv/bin/activate
+                  - listitem [ref=e563]:
+                    - text: "Install CUDA 12 jax:"
+                    - code [ref=e564]: uv pip install -U "jax[cuda12]" --index-url https://pypi.org/simple
+                    - list [ref=e565]:
+                      - listitem [ref=e566]:
+                        - text: "Verify GPU backend:"
+                        - code [ref=e567]: python -c "import jax; print(jax.default_backend())"
+                        - text: should print gpu.
+                        - code [ref=e568]: unset LD_LIBRARY_PATH
+                        - text: may need to be run before running this command.
+                  - listitem [ref=e569]:
+                    - text: "Install playground from source:"
+                    - code [ref=e570]: uv --no-config sync --all-extras
+                  - listitem [ref=e571]:
+                    - text: "Verify installation:"
+                    - code [ref=e572]: uv --no-config run python -c "import mujoco_playground; print('Success')"
+                    - list [ref=e573]:
+                      - listitem [ref=e574]:
+                        - strong [ref=e575]: Note
+                        - text: ": Menagerie assets will be downloaded automatically the first time you load a locomotion or manipulation environment. You can trigger this with:"
+                        - code [ref=e576]: uv --no-config run python -c "from mujoco_playground import locomotion; locomotion.load('G1JoystickFlatTerrain')"
+                - generic [ref=e577]:
+                  - heading "Madrona-MJX (optional)" [level=4] [ref=e578]
+                  - 'link "Permalink: Madrona-MJX (optional)" [ref=e579] [cursor=pointer]':
+                    - /url: "#madrona-mjx-optional"
+                    - img [ref=e580]
+                - paragraph [ref=e582]:
+                  - text: For vision-based environments, please refer to the installation instructions in the
+                  - link "Madrona-MJX" [ref=e583] [cursor=pointer]:
+                    - /url: https://github.com/shacklettbp/madrona_mjx?tab=readme-ov-file#installation
+                  - text: repository.
+                - generic [ref=e584]:
+                  - heading "Getting started" [level=2] [ref=e585]
+                  - 'link "Permalink: Getting started" [ref=e586] [cursor=pointer]':
+                    - /url: "#getting-started"
+                    - img [ref=e587]
+                - generic [ref=e589]:
+                  - heading "Running from CLI" [level=3] [ref=e590]
+                  - 'link "Permalink: Running from CLI" [ref=e591] [cursor=pointer]':
+                    - /url: "#running-from-cli"
+                    - img [ref=e592]
+                - paragraph [ref=e594]:
+                  - text: For basic usage, navigate to the repo's directory, install
+                  - link "from source" [ref=e595] [cursor=pointer]:
+                    - /url: "#from-source"
+                  - text: with
+                  - code [ref=e596]: jax[cuda12]
+                  - text: ", and run:"
+                - generic [ref=e597]:
+                  - generic [ref=e598]: train-jax-ppo --env_name CartpoleBalance
+                  - button "Copy code to clipboard" [ref=e600] [cursor=pointer]:
+                    - img [ref=e601]
+                - paragraph [ref=e604]:
+                  - text: To train with
+                  - link "MuJoCo Warp" [ref=e605] [cursor=pointer]:
+                    - /url: https://github.com/google-deepmind/mujoco_warp
+                  - text: ":"
+                - generic [ref=e606]:
+                  - generic [ref=e607]: train-jax-ppo --env_name CartpoleBalance --impl warp
+                  - button "Copy code to clipboard" [ref=e609] [cursor=pointer]:
+                    - img [ref=e610]
+                - paragraph [ref=e613]:
+                  - text: Or with
+                  - code [ref=e614]: uv
+                  - text: ":"
+                - generic [ref=e615]:
+                  - generic [ref=e616]: uv --no-config run train-jax-ppo --env_name CartpoleBalance --impl warp uv --no-config run train-rsl-ppo --env_name CartpoleBalance --impl warp
+                  - button "Copy code to clipboard" [ref=e618] [cursor=pointer]:
+                    - img [ref=e619]
+                - generic [ref=e622]:
+                  - heading "Basic Tutorials" [level=3] [ref=e623]
+                  - 'link "Permalink: Basic Tutorials" [ref=e624] [cursor=pointer]':
+                    - /url: "#basic-tutorials"
+                    - img [ref=e625]
+                - table [ref=e628]:
+                  - rowgroup [ref=e629]:
+                    - row "Colab Description" [ref=e630]:
+                      - columnheader "Colab" [ref=e631]
+                      - columnheader "Description" [ref=e632]
+                  - rowgroup [ref=e633]:
+                    - row "Open In Colab Introduction to the Playground with DM Control Suite" [ref=e634]:
+                      - cell "Open In Colab" [ref=e635]:
+                        - link "Open In Colab" [ref=e636] [cursor=pointer]:
+                          - /url: https://colab.research.google.com/github/google-deepmind/mujoco_playground/blob/main/learning/notebooks/dm_control_suite.ipynb
+                          - img "Open In Colab" [ref=e637]
+                      - cell "Introduction to the Playground with DM Control Suite" [ref=e638]
+                    - row "Open In Colab Locomotion Environments" [ref=e639]:
+                      - cell "Open In Colab" [ref=e640]:
+                        - link "Open In Colab" [ref=e641] [cursor=pointer]:
+                          - /url: https://colab.research.google.com/github/google-deepmind/mujoco_playground/blob/main/learning/notebooks/locomotion.ipynb
+                          - img "Open In Colab" [ref=e642]
+                      - cell "Locomotion Environments" [ref=e643]
+                    - row "Open In Colab Manipulation Environments" [ref=e644]:
+                      - cell "Open In Colab" [ref=e645]:
+                        - link "Open In Colab" [ref=e646] [cursor=pointer]:
+                          - /url: https://colab.research.google.com/github/google-deepmind/mujoco_playground/blob/main/learning/notebooks/manipulation.ipynb
+                          - img "Open In Colab" [ref=e647]
+                      - cell "Manipulation Environments" [ref=e648]
+                - generic [ref=e649]:
+                  - heading "Vision-Based Tutorials (GPU Colab)" [level=3] [ref=e650]
+                  - 'link "Permalink: Vision-Based Tutorials (GPU Colab)" [ref=e651] [cursor=pointer]':
+                    - /url: "#vision-based-tutorials-gpu-colab"
+                    - img [ref=e652]
+                - table [ref=e655]:
+                  - rowgroup [ref=e656]:
+                    - row "Colab Description" [ref=e657]:
+                      - columnheader "Colab" [ref=e658]
+                      - columnheader "Description" [ref=e659]
+                  - rowgroup [ref=e660]:
+                    - row "Open In Colab Training CartPole from Vision (T4 Instance)" [ref=e661]:
+                      - cell "Open In Colab" [ref=e662]:
+                        - link "Open In Colab" [ref=e663] [cursor=pointer]:
+                          - /url: https://colab.research.google.com/github/google-deepmind/mujoco_playground/blob/main/learning/notebooks/training_vision_1_t4.ipynb
+                          - img "Open In Colab" [ref=e664]
+                      - cell "Training CartPole from Vision (T4 Instance)" [ref=e665]
+                - generic [ref=e666]:
+                  - heading "Local Runtime Tutorials" [level=3] [ref=e667]
+                  - 'link "Permalink: Local Runtime Tutorials" [ref=e668] [cursor=pointer]':
+                    - /url: "#local-runtime-tutorials"
+                    - img [ref=e669]
+                - paragraph [ref=e671]:
+                  - emphasis [ref=e672]: Requires local Madrona-MJX installation
+                - table [ref=e674]:
+                  - rowgroup [ref=e675]:
+                    - row "Colab Description" [ref=e676]:
+                      - columnheader "Colab" [ref=e677]
+                      - columnheader "Description" [ref=e678]
+                  - rowgroup [ref=e679]:
+                    - row "Open In Colab Training CartPole from Vision" [ref=e680]:
+                      - cell "Open In Colab" [ref=e681]:
+                        - link "Open In Colab" [ref=e682] [cursor=pointer]:
+                          - /url: https://colab.research.google.com/github/google-deepmind/mujoco_playground/blob/main/learning/notebooks/training_vision_1.ipynb
+                          - img "Open In Colab" [ref=e683]
+                      - cell "Training CartPole from Vision" [ref=e684]
+                    - row "Open In Colab Robotic Manipulation from Vision" [ref=e685]:
+                      - cell "Open In Colab" [ref=e686]:
+                        - link "Open In Colab" [ref=e687] [cursor=pointer]:
+                          - /url: https://colab.research.google.com/github/google-deepmind/mujoco_playground/blob/main/learning/notebooks/training_vision_2.ipynb
+                          - img "Open In Colab" [ref=e688]
+                      - cell "Robotic Manipulation from Vision" [ref=e689]
+                - generic [ref=e690]:
+                  - heading "Training Visualization" [level=3] [ref=e691]
+                  - 'link "Permalink: Training Visualization" [ref=e692] [cursor=pointer]':
+                    - /url: "#training-visualization"
+                    - img [ref=e693]
+                - paragraph [ref=e695]:
+                  - text: To interactively view trajectories throughout training with
+                  - link "rscope" [ref=e696] [cursor=pointer]:
+                    - /url: https://github.com/Andrew-Luo1/rscope/tree/main
+                  - text: ", install it ("
+                  - code [ref=e697]: pip install rscope
+                  - text: ") and run:"
+                - generic [ref=e698]:
+                  - code [ref=e700]: "python learning/train_jax_ppo.py --env_name PandaPickCube --rscope_envs 16 --run_evals=False --deterministic_rscope=True # In a separate terminal python -m rscope"
+                  - button "Copy code to clipboard" [ref=e702] [cursor=pointer]:
+                    - img [ref=e703]
+                - generic [ref=e706]:
+                  - heading "FAQ" [level=2] [ref=e707]
+                  - 'link "Permalink: FAQ" [ref=e708] [cursor=pointer]':
+                    - /url: "#faq"
+                    - img [ref=e709]
+                - generic [ref=e711]:
+                  - heading "How can I contribute?" [level=3] [ref=e712]
+                  - 'link "Permalink: How can I contribute?" [ref=e713] [cursor=pointer]':
+                    - /url: "#how-can-i-contribute"
+                    - img [ref=e714]
+                - paragraph [ref=e716]:
+                  - text: Get started by installing the library and exploring its features! Found a bug? Report it in the issue tracker. Interested in contributing? If you are a developer with robotics experience, we would love your help—check out the
+                  - link "contribution guidelines" [ref=e717] [cursor=pointer]:
+                    - /url: /wuji-technology/wujimjx-playground/blob/main/CONTRIBUTING.md
+                  - text: for more details.
+                - generic [ref=e718]:
+                  - heading "Reproducibility / GPU Precision Issues" [level=3] [ref=e719]
+                  - 'link "Permalink: Reproducibility / GPU Precision Issues" [ref=e720] [cursor=pointer]':
+                    - /url: "#reproducibility--gpu-precision-issues"
+                    - img [ref=e721]
+                - paragraph [ref=e723]:
+                  - text: Users with NVIDIA Ampere architecture GPUs (e.g., RTX 30 and 40 series) may experience reproducibility
+                  - link "issues" [ref=e724] [cursor=pointer]:
+                    - /url: https://github.com/google-deepmind/mujoco_playground/issues/86
+                  - text: in mujoco_playground due to JAX’s default use of TF32 for matrix multiplications. This lower precision can adversely affect RL training stability. To ensure consistent behavior with systems using full float32 precision (as on Turing GPUs), please run
+                  - code [ref=e725]: export JAX_DEFAULT_MATMUL_PRECISION=highest
+                  - text: in your terminal before starting your experiments (or add it to the end of
+                  - code [ref=e726]: ~/.bashrc
+                  - text: ).
+                - paragraph [ref=e727]:
+                  - text: To reproduce results using the same exact learning script as used in the paper, run the brax training script which is available
+                  - link "here" [ref=e728] [cursor=pointer]:
+                    - /url: https://github.com/google/brax/blob/1ed3be220c9fdc9ef17c5cf80b1fa6ddc4fb34fa/brax/training/learner.py#L1
+                  - text: . There are slight differences in results when using the
+                  - code [ref=e729]: learning/train_jax_ppo.py
+                  - text: script, see the issue
+                  - link "here" [ref=e730] [cursor=pointer]:
+                    - /url: https://github.com/google-deepmind/mujoco_playground/issues/171
+                  - text: for more context.
+                - generic [ref=e731]:
+                  - heading "Citation" [level=2] [ref=e732]
+                  - 'link "Permalink: Citation" [ref=e733] [cursor=pointer]':
+                    - /url: "#citation"
+                    - img [ref=e734]
+                - paragraph [ref=e736]: "If you use Playground in your scientific works, please cite it as follows:"
+                - generic [ref=e737]:
+                  - generic [ref=e738]:
+                    - text: "@misc{mujoco_playground_2025, title ="
+                    - generic [ref=e739]: "{MuJoCo Playground: An open-source framework for GPU-accelerated robot learning and sim-to-real transfer.}"
+                    - text: ", author ="
+                    - generic [ref=e740]: "{Zakka, Kevin and Tabanpour, Baruch and Liao, Qiayuan and Haiderbhai, Mustafa and Holt, Samuel and Luo, Jing Yuan and Allshire, Arthur and Frey, Erik and Sreenath, Koushil and Kahrs, Lueder A. and Sferrazza, Carlo and Tassa, Yuval and Abbeel, Pieter}"
+                    - text: ", year ="
+                    - generic [ref=e741]: "{2025}"
+                    - text: ", publisher ="
+                    - generic [ref=e742]: "{GitHub}"
+                    - text: ", url ="
+                    - generic [ref=e743]: "{https://github.com/google-deepmind/mujoco_playground}"
+                    - text: "}"
+                  - button "Copy code to clipboard" [ref=e745] [cursor=pointer]:
+                    - img [ref=e746]
+                - generic [ref=e749]:
+                  - heading "License and Disclaimer" [level=2] [ref=e750]
+                  - 'link "Permalink: License and Disclaimer" [ref=e751] [cursor=pointer]':
+                    - /url: "#license-and-disclaimer"
+                    - img [ref=e752]
+                - paragraph [ref=e754]:
+                  - text: The texture used in the rough terrain for the locomotion environments is from
+                  - link "Polyhaven" [ref=e755] [cursor=pointer]:
+                    - /url: https://polyhaven.com/a/rock_face
+                  - text: and licensed under
+                  - link "CC0" [ref=e756] [cursor=pointer]:
+                    - /url: https://creativecommons.org/public-domain/cc0/
+                  - text: .
+                - paragraph [ref=e757]:
+                  - text: All other content in this repository is licensed under the Apache License, Version 2.0. A copy of this license is provided in the top-level
+                  - link "LICENSE" [ref=e758] [cursor=pointer]:
+                    - /url: /wuji-technology/wujimjx-playground/blob/main/LICENSE
+                  - text: file in this repository. You can also obtain it from
+                  - link "https://www.apache.org/licenses/LICENSE-2.0" [ref=e759] [cursor=pointer]:
+                    - /url: https://www.apache.org/licenses/LICENSE-2.0
+                  - text: .
+                - paragraph [ref=e760]: This is not an officially supported Google product.
+        - generic [ref=e764]:
+          - generic [ref=e767]:
+            - heading "About" [level=2] [ref=e768]
+            - paragraph [ref=e769]: An open-source library for GPU-accelerated robot learning and sim-to-real transfer.
+            - generic [ref=e770]:
+              - img [ref=e771]
+              - link "playground.mujoco.org" [ref=e774] [cursor=pointer]:
+                - /url: https://playground.mujoco.org
+            - heading "Resources" [level=3] [ref=e775]
+            - link "Readme" [ref=e777] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e778]
+              - text: Readme
+            - heading "License" [level=3] [ref=e780]
+            - link "Apache-2.0 license" [ref=e782] [cursor=pointer]:
+              - /url: "#Apache-2.0-1-ov-file"
+              - img [ref=e783]
+              - text: Apache-2.0 license
+            - heading "Contributing" [level=3] [ref=e785]
+            - link "Contributing" [ref=e787] [cursor=pointer]:
+              - /url: "#contributing-ov-file"
+              - img [ref=e788]
+              - text: Contributing
+            - heading "Citation" [level=3] [ref=e790]
+            - button "Cite this repository" [ref=e792] [cursor=pointer]:
+              - generic [ref=e794]:
+                - img [ref=e795]
+                - text: Cite this repository
+            - link "Activity" [ref=e799] [cursor=pointer]:
+              - /url: /wuji-technology/wujimjx-playground/activity
+              - img [ref=e800]
+              - text: Activity
+            - link "Custom properties" [ref=e803] [cursor=pointer]:
+              - /url: /wuji-technology/wujimjx-playground/custom-properties
+              - img [ref=e804]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e806]
+            - link "0 stars" [ref=e808] [cursor=pointer]:
+              - /url: /wuji-technology/wujimjx-playground/stargazers
+              - img [ref=e809]
+              - strong [ref=e811]: "0"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e812]
+            - link "0 watching" [ref=e814] [cursor=pointer]:
+              - /url: /wuji-technology/wujimjx-playground/watchers
+              - img [ref=e815]
+              - strong [ref=e817]: "0"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e818]
+            - link "0 forks" [ref=e820] [cursor=pointer]:
+              - /url: /wuji-technology/wujimjx-playground/forks
+              - img [ref=e821]
+              - strong [ref=e823]: "0"
+              - text: forks
+            - link "Report repository" [ref=e825] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fwuji-technology%2Fwujimjx-playground&report=wuji-technology+%28user%29
+          - generic [ref=e827]:
+            - heading "Releases" [level=2] [ref=e828]:
+              - link "Releases" [ref=e829] [cursor=pointer]:
+                - /url: /wuji-technology/wujimjx-playground/releases
+            - generic [ref=e830]: No releases published
+          - generic [ref=e832]:
+            - heading "Packages" [level=2] [ref=e833]:
+              - link "Packages" [ref=e834] [cursor=pointer]:
+                - /url: /orgs/wuji-technology/packages?repo_name=wujimjx-playground
+            - generic [ref=e835]: No packages published
+          - generic [ref=e837]:
+            - heading "Contributors" [level=2] [ref=e838]:
+              - link "Contributors" [ref=e839] [cursor=pointer]:
+                - /url: /wuji-technology/wujimjx-playground/graphs/contributors
+            - generic [ref=e840]: No contributors
+          - generic [ref=e842]:
+            - heading "Languages" [level=2] [ref=e843]
+            - list [ref=e848]:
+              - listitem [ref=e849]:
+                - generic [ref=e850]:
+                  - img [ref=e851]
+                  - generic [ref=e853]: Jupyter Notebook
+                  - generic [ref=e854]: 81.2%
+              - listitem [ref=e855]:
+                - generic [ref=e856]:
+                  - img [ref=e857]
+                  - generic [ref=e859]: Python
+                  - generic [ref=e860]: 18.8%
+  - contentinfo [ref=e862]:
+    - heading "Footer" [level=2] [ref=e863]
+    - generic [ref=e864]:
+      - generic [ref=e865]:
+        - link "GitHub Homepage" [ref=e866] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e867]
+        - generic [ref=e869]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e870]:
+        - heading "Footer navigation" [level=3] [ref=e871]
+        - list "Footer navigation" [ref=e872]:
+          - listitem [ref=e873]:
+            - link "Terms" [ref=e874] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e875]:
+            - link "Privacy" [ref=e876] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e877]:
+            - link "Security" [ref=e878] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e879]:
+            - link "Status" [ref=e880] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e881]:
+            - link "Community" [ref=e882] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e883]:
+            - link "Docs" [ref=e884] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e885]:
+            - link "Contact" [ref=e886] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e887]:
+            - button "Manage cookies" [ref=e889] [cursor=pointer]
+          - listitem [ref=e890]:
+            - button "Do not share my personal information" [ref=e892] [cursor=pointer]

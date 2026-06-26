@@ -1,0 +1,1046 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#freqtrade-faq"
+  - banner [ref=e3]:
+    - navigation "Header" [ref=e4]:
+      - link "Freqtrade" [ref=e5] [cursor=pointer]:
+        - /url: ..
+        - img "logo" [ref=e6]
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - generic [ref=e10]: Freqtrade
+          - generic [ref=e11]:
+            - button "Select version" [ref=e12] [cursor=pointer]: 2026.4stable
+            - list:
+              - listitem [ref=e13]:
+                - link "developlatest" [ref=e14] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/develop/
+              - listitem [ref=e15]:
+                - link "2026.4stable" [ref=e16] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2026.4/
+              - listitem [ref=e17]:
+                - link "2026.3" [ref=e18] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2026.3/
+              - listitem [ref=e19]:
+                - link "2026.2" [ref=e20] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2026.2/
+              - listitem [ref=e21]:
+                - link "2026.1" [ref=e22] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2026.1/
+              - listitem [ref=e23]:
+                - link "2025.12" [ref=e24] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.12/
+              - listitem [ref=e25]:
+                - link "2025.11.2" [ref=e26] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.11.2/
+              - listitem [ref=e27]:
+                - link "2025.11.1" [ref=e28] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.11.1/
+              - listitem [ref=e29]:
+                - link "2025.11" [ref=e30] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.11/
+              - listitem [ref=e31]:
+                - link "2025.10" [ref=e32] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.10/
+              - listitem [ref=e33]:
+                - link "2025.9.1" [ref=e34] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.9.1/
+              - listitem [ref=e35]:
+                - link "2025.9" [ref=e36] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.9/
+              - listitem [ref=e37]:
+                - link "2025.8" [ref=e38] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.8/
+              - listitem [ref=e39]:
+                - link "2025.7" [ref=e40] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.7/
+              - listitem [ref=e41]:
+                - link "2025.6" [ref=e42] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.6/
+              - listitem [ref=e43]:
+                - link "2025.5" [ref=e44] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.5/
+              - listitem [ref=e45]:
+                - link "2025.4" [ref=e46] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.4/
+              - listitem [ref=e47]:
+                - link "2025.3" [ref=e48] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.3/
+              - listitem [ref=e49]:
+                - link "2025.2" [ref=e50] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.2/
+              - listitem [ref=e51]:
+                - link "2025.1" [ref=e52] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2025.1/
+              - listitem [ref=e53]:
+                - link "2024.12.1" [ref=e54] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.12.1/
+              - listitem [ref=e55]:
+                - link "2024.12" [ref=e56] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.12/
+              - listitem [ref=e57]:
+                - link "2024.11" [ref=e58] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.11/
+              - listitem [ref=e59]:
+                - link "2024.10" [ref=e60] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.10/
+              - listitem [ref=e61]:
+                - link "2024.9" [ref=e62] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.9/
+              - listitem [ref=e63]:
+                - link "2024.8" [ref=e64] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.8/
+              - listitem [ref=e65]:
+                - link "2024.7.1" [ref=e66] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.7.1/
+              - listitem [ref=e67]:
+                - link "2024.7" [ref=e68] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.7/
+              - listitem [ref=e69]:
+                - link "2024.6" [ref=e70] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.6/
+              - listitem [ref=e71]:
+                - link "2024.5" [ref=e72] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.5/
+              - listitem [ref=e73]:
+                - link "2024.4" [ref=e74] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.4/
+              - listitem [ref=e75]:
+                - link "2024.3" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.3/
+              - listitem [ref=e77]:
+                - link "2024.2" [ref=e78] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.2/
+              - listitem [ref=e79]:
+                - link "2024.1" [ref=e80] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2024.1/
+              - listitem [ref=e81]:
+                - link "2023.12" [ref=e82] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.12/
+              - listitem [ref=e83]:
+                - link "2023.11" [ref=e84] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.11/
+              - listitem [ref=e85]:
+                - link "2023.10" [ref=e86] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.10/
+              - listitem [ref=e87]:
+                - link "2023.9" [ref=e88] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.9/
+              - listitem [ref=e89]:
+                - link "2023.8" [ref=e90] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.8/
+              - listitem [ref=e91]:
+                - link "2023.7" [ref=e92] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.7/
+              - listitem [ref=e93]:
+                - link "2023.6" [ref=e94] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.6/
+              - listitem [ref=e95]:
+                - link "2023.5.1" [ref=e96] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.5.1/
+              - listitem [ref=e97]:
+                - link "2023.5" [ref=e98] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.5/
+              - listitem [ref=e99]:
+                - link "2023.4" [ref=e100] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.4/
+              - listitem [ref=e101]:
+                - link "2023.3" [ref=e102] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.3/
+              - listitem [ref=e103]:
+                - link "2023.2" [ref=e104] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.2/
+              - listitem [ref=e105]:
+                - link "2023.1" [ref=e106] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2023.1/
+              - listitem [ref=e107]:
+                - link "2022.12" [ref=e108] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.12/
+              - listitem [ref=e109]:
+                - link "2022.11" [ref=e110] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.11/
+              - listitem [ref=e111]:
+                - link "2022.10" [ref=e112] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.10/
+              - listitem [ref=e113]:
+                - link "2022.9.1" [ref=e114] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.9.1/
+              - listitem [ref=e115]:
+                - link "2022.9" [ref=e116] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.9/
+              - listitem [ref=e117]:
+                - link "2022.8" [ref=e118] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.8/
+              - listitem [ref=e119]:
+                - link "2022.7" [ref=e120] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.7/
+              - listitem [ref=e121]:
+                - link "2022.6" [ref=e122] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.6/
+              - listitem [ref=e123]:
+                - link "2022.5.1" [ref=e124] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.5.1/
+              - listitem [ref=e125]:
+                - link "2022.5" [ref=e126] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.5/
+              - listitem [ref=e127]:
+                - link "2022.4.2" [ref=e128] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.4.2/
+              - listitem [ref=e129]:
+                - link "2022.4.1" [ref=e130] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.4.1/
+              - listitem [ref=e131]:
+                - link "2022.3" [ref=e132] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.3/
+              - listitem [ref=e133]:
+                - link "2022.2.2" [ref=e134] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.2.2/
+              - listitem [ref=e135]:
+                - link "2022.2.1" [ref=e136] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.2.1/
+              - listitem [ref=e137]:
+                - link "2022.2" [ref=e138] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.2/
+              - listitem [ref=e139]:
+                - link "2022.1" [ref=e140] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2022.1/
+              - listitem [ref=e141]:
+                - link "2021.12" [ref=e142] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.12/
+              - listitem [ref=e143]:
+                - link "2021.11" [ref=e144] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.11/
+              - listitem [ref=e145]:
+                - link "2021.10" [ref=e146] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.10/
+              - listitem [ref=e147]:
+                - link "2021.9" [ref=e148] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.9/
+              - listitem [ref=e149]:
+                - link "2021.8" [ref=e150] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.8/
+              - listitem [ref=e151]:
+                - link "2021.7" [ref=e152] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.7/
+              - listitem [ref=e153]:
+                - link "2021.6" [ref=e154] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.6/
+              - listitem [ref=e155]:
+                - link "2021.5" [ref=e156] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.5/
+              - listitem [ref=e157]:
+                - link "2021.4" [ref=e158] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.4/
+              - listitem [ref=e159]:
+                - link "2021.3" [ref=e160] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.3/
+              - listitem [ref=e161]:
+                - link "2021.2" [ref=e162] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.2/
+              - listitem [ref=e163]:
+                - link "2021.1" [ref=e164] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2021.1/
+              - listitem [ref=e165]:
+                - link "2020.12" [ref=e166] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.12/
+              - listitem [ref=e167]:
+                - link "2020.11" [ref=e168] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.11/
+              - listitem [ref=e169]:
+                - link "2020.10" [ref=e170] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.10/
+              - listitem [ref=e171]:
+                - link "2020.9.1" [ref=e172] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.9.1/
+              - listitem [ref=e173]:
+                - link "2020.9" [ref=e174] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.9/
+              - listitem [ref=e175]:
+                - link "2020.8" [ref=e176] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.8/
+              - listitem [ref=e177]:
+                - link "2020.7" [ref=e178] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.7/
+              - listitem [ref=e179]:
+                - link "2020.6" [ref=e180] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.6/
+              - listitem [ref=e181]:
+                - link "2020.5" [ref=e182] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.5/
+              - listitem [ref=e183]:
+                - link "2020.4" [ref=e184] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.4/
+              - listitem [ref=e185]:
+                - link "2020.3" [ref=e186] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.3/
+              - listitem [ref=e187]:
+                - link "2020.02" [ref=e188] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.02/
+              - listitem [ref=e189]:
+                - link "2020.01" [ref=e190] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2020.01/
+              - listitem [ref=e191]:
+                - link "2019.11" [ref=e192] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2019.11/
+              - listitem [ref=e193]:
+                - link "2019.10" [ref=e194] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2019.10/
+              - listitem [ref=e195]:
+                - link "2019.9" [ref=e196] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2019.9/
+              - listitem [ref=e197]:
+                - link "2019.8-1" [ref=e198] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2019.8-1/
+              - listitem [ref=e199]:
+                - link "2019.8" [ref=e200] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2019.8/
+              - listitem [ref=e201]:
+                - link "2019.7" [ref=e202] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2019.7/
+              - listitem [ref=e203]:
+                - link "2019.6" [ref=e204] [cursor=pointer]:
+                  - /url: https://www.freqtrade.io/en/2019.6/
+        - generic:
+          - generic: FAQ
+      - generic [ref=e205]:
+        - radio "Switch to dark mode"
+        - generic "Switch to dark mode" [ref=e206] [cursor=pointer]:
+          - img [ref=e207]
+        - radio "Switch to light mode"
+      - dialog [ref=e209]:
+        - search [ref=e210]:
+          - generic [ref=e211]:
+            - textbox "Search" [ref=e212]
+            - generic:
+              - img
+            - navigation "Search":
+              - link "Share":
+                - /url: https://www.freqtrade.io/en/stable/faq/?q=
+                - img
+              - button "Clear":
+                - img
+          - generic [ref=e214]: Initializing search
+      - link "GitHub 2026.4 50.5k 10.5k" [ref=e216] [cursor=pointer]:
+        - /url: https://github.com/freqtrade/freqtrade
+        - img [ref=e218]
+        - generic [ref=e220]:
+          - text: GitHub
+          - list [ref=e221]:
+            - listitem [ref=e222]: "2026.4"
+            - listitem [ref=e223]: 50.5k
+            - listitem [ref=e224]: 10.5k
+  - generic [ref=e225]:
+    - main [ref=e226]:
+      - generic [ref=e227]:
+        - navigation "Navigation" [ref=e231]:
+          - generic [ref=e232]: Freqtrade
+          - list [ref=e233]:
+            - listitem [ref=e234]:
+              - link "Home" [ref=e235] [cursor=pointer]:
+                - /url: ..
+                - generic [ref=e236]: Home
+            - listitem [ref=e237]:
+              - link "Quickstart with Docker" [ref=e238] [cursor=pointer]:
+                - /url: ../docker_quickstart/
+                - generic [ref=e239]: Quickstart with Docker
+            - listitem [ref=e240]:
+              - link "Installation" [ref=e241] [cursor=pointer]:
+                - /url: ../installation/
+                - generic [ref=e242]: Installation
+            - listitem [ref=e243]:
+              - link "Freqtrade Basics" [ref=e244] [cursor=pointer]:
+                - /url: ../bot-basics/
+                - generic [ref=e245]: Freqtrade Basics
+            - listitem [ref=e246]:
+              - link "Configuration" [ref=e247] [cursor=pointer]:
+                - /url: ../configuration/
+                - generic [ref=e248]: Configuration
+            - listitem [ref=e249]:
+              - link "Strategy Quickstart" [ref=e250] [cursor=pointer]:
+                - /url: ../strategy-101/
+                - generic [ref=e251]: Strategy Quickstart
+            - listitem [ref=e252]:
+              - link "Strategy Customization" [ref=e253] [cursor=pointer]:
+                - /url: ../strategy-customization/
+                - generic [ref=e254]: Strategy Customization
+            - listitem [ref=e255]:
+              - link "Strategy Callbacks" [ref=e256] [cursor=pointer]:
+                - /url: ../strategy-callbacks/
+                - generic [ref=e257]: Strategy Callbacks
+            - listitem [ref=e258]:
+              - link "Stoploss" [ref=e259] [cursor=pointer]:
+                - /url: ../stoploss/
+                - generic [ref=e260]: Stoploss
+            - listitem [ref=e261]:
+              - link "Plugins" [ref=e262] [cursor=pointer]:
+                - /url: ../plugins/
+                - generic [ref=e263]: Plugins
+            - listitem [ref=e264]:
+              - link "Start the bot" [ref=e265] [cursor=pointer]:
+                - /url: ../bot-usage/
+                - generic [ref=e266]: Start the bot
+            - listitem [ref=e267]:
+              - generic [ref=e269]: Control the bot
+            - listitem [ref=e271]:
+              - link "Data Downloading" [ref=e272] [cursor=pointer]:
+                - /url: ../data-download/
+                - generic [ref=e273]: Data Downloading
+            - listitem [ref=e274]:
+              - link "Backtesting" [ref=e275] [cursor=pointer]:
+                - /url: ../backtesting/
+                - generic [ref=e276]: Backtesting
+            - listitem [ref=e277]:
+              - link "Hyperopt" [ref=e278] [cursor=pointer]:
+                - /url: ../hyperopt/
+                - generic [ref=e279]: Hyperopt
+            - listitem [ref=e280]:
+              - generic [ref=e282]: FreqAI
+            - listitem [ref=e284]:
+              - link "Short / Leverage" [ref=e285] [cursor=pointer]:
+                - /url: ../leverage/
+                - generic [ref=e286]: Short / Leverage
+            - listitem [ref=e287]:
+              - link "Utility Sub-commands" [ref=e288] [cursor=pointer]:
+                - /url: ../utils/
+                - generic [ref=e289]: Utility Sub-commands
+            - listitem [ref=e290]:
+              - link "Plotting" [ref=e291] [cursor=pointer]:
+                - /url: ../plotting/
+                - generic [ref=e292]: Plotting
+            - listitem [ref=e293]:
+              - link "Exchange-specific Notes" [ref=e294] [cursor=pointer]:
+                - /url: ../exchanges/
+                - generic [ref=e295]: Exchange-specific Notes
+            - listitem [ref=e296]:
+              - generic [ref=e298]: Data Analysis
+            - listitem [ref=e300]:
+              - generic [ref=e302]: Advanced Topics
+            - listitem [ref=e304]:
+              - link "FAQ" [ref=e305] [cursor=pointer]:
+                - /url: ./
+                - generic [ref=e306]: FAQ
+            - listitem [ref=e307]:
+              - link "Strategy migration" [ref=e308] [cursor=pointer]:
+                - /url: ../strategy_migration/
+                - generic [ref=e309]: Strategy migration
+            - listitem [ref=e310]:
+              - link "Updating Freqtrade" [ref=e311] [cursor=pointer]:
+                - /url: ../updating/
+                - generic [ref=e312]: Updating Freqtrade
+            - listitem [ref=e313]:
+              - link "Deprecated Features" [ref=e314] [cursor=pointer]:
+                - /url: ../deprecated/
+                - generic [ref=e315]: Deprecated Features
+            - listitem [ref=e316]:
+              - link "Contributors Guide" [ref=e317] [cursor=pointer]:
+                - /url: ../developer/
+                - generic [ref=e318]: Contributors Guide
+        - navigation "Table of contents" [ref=e322]:
+          - generic [ref=e323]: Table of contents
+          - list [ref=e324]:
+            - listitem [ref=e325]:
+              - link "Supported Markets" [ref=e326] [cursor=pointer]:
+                - /url: "#supported-markets"
+                - generic [ref=e327]: Supported Markets
+              - navigation "Supported Markets" [ref=e328]:
+                - list [ref=e329]:
+                  - listitem [ref=e330]:
+                    - link "Can my bot open short positions?" [ref=e331] [cursor=pointer]:
+                      - /url: "#can-my-bot-open-short-positions"
+                      - generic [ref=e332]: Can my bot open short positions?
+                  - listitem [ref=e333]:
+                    - link "Can my bot trade options or futures?" [ref=e334] [cursor=pointer]:
+                      - /url: "#can-my-bot-trade-options-or-futures"
+                      - generic [ref=e335]: Can my bot trade options or futures?
+            - listitem [ref=e336]:
+              - link "Beginner Tips & Tricks" [ref=e337] [cursor=pointer]:
+                - /url: "#beginner-tips-tricks"
+                - generic [ref=e338]: Beginner Tips & Tricks
+            - listitem [ref=e339]:
+              - link "Freqtrade common questions" [ref=e340] [cursor=pointer]:
+                - /url: "#freqtrade-common-questions"
+                - generic [ref=e341]: Freqtrade common questions
+              - navigation "Freqtrade common questions" [ref=e342]:
+                - list [ref=e343]:
+                  - listitem [ref=e344]:
+                    - link "Can freqtrade open multiple positions on the same pair in parallel?" [ref=e345] [cursor=pointer]:
+                      - /url: "#can-freqtrade-open-multiple-positions-on-the-same-pair-in-parallel"
+                      - generic [ref=e346]: Can freqtrade open multiple positions on the same pair in parallel?
+                  - listitem [ref=e347]:
+                    - link "Does freqtrade support sandbox accounts?" [ref=e348] [cursor=pointer]:
+                      - /url: "#does-freqtrade-support-sandbox-accounts"
+                      - generic [ref=e349]: Does freqtrade support sandbox accounts?
+                  - listitem [ref=e350]:
+                    - link "The bot does not start" [ref=e351] [cursor=pointer]:
+                      - /url: "#the-bot-does-not-start"
+                      - generic [ref=e352]: The bot does not start
+                  - listitem [ref=e353]:
+                    - link "The bot starts, but in STOPPED mode" [ref=e354] [cursor=pointer]:
+                      - /url: "#the-bot-starts-but-in-stopped-mode"
+                      - generic [ref=e355]: The bot starts, but in STOPPED mode
+                  - listitem [ref=e356]:
+                    - link "I have waited 5 minutes, why hasn't the bot made any trades yet?" [ref=e357] [cursor=pointer]:
+                      - /url: "#i-have-waited-5-minutes-why-hasnt-the-bot-made-any-trades-yet"
+                      - generic [ref=e358]: I have waited 5 minutes, why hasn't the bot made any trades yet?
+                  - listitem [ref=e359]:
+                    - link "I have made 12 trades already, why is my total profit negative?" [ref=e360] [cursor=pointer]:
+                      - /url: "#i-have-made-12-trades-already-why-is-my-total-profit-negative"
+                      - generic [ref=e361]: I have made 12 trades already, why is my total profit negative?
+                  - listitem [ref=e362]:
+                    - link "I’d like to make changes to the config. Can I do that without having to kill the bot?" [ref=e363] [cursor=pointer]:
+                      - /url: "#id-like-to-make-changes-to-the-config-can-i-do-that-without-having-to-kill-the-bot"
+                      - generic [ref=e364]: I’d like to make changes to the config. Can I do that without having to kill the bot?
+                  - listitem [ref=e365]:
+                    - link "Why does my bot not sell everything it bought?" [ref=e366] [cursor=pointer]:
+                      - /url: "#why-does-my-bot-not-sell-everything-it-bought"
+                      - generic [ref=e367]: Why does my bot not sell everything it bought?
+                  - listitem [ref=e368]:
+                    - link "I deposited more funds to the exchange, but my bot doesn't recognize this" [ref=e369] [cursor=pointer]:
+                      - /url: "#i-deposited-more-funds-to-the-exchange-but-my-bot-doesnt-recognize-this"
+                      - generic [ref=e370]: I deposited more funds to the exchange, but my bot doesn't recognize this
+                  - listitem [ref=e371]:
+                    - link "I want to use incomplete candles" [ref=e372] [cursor=pointer]:
+                      - /url: "#i-want-to-use-incomplete-candles"
+                      - generic [ref=e373]: I want to use incomplete candles
+                  - listitem [ref=e374]:
+                    - link "Is there a setting to only Exit the trades being held and not perform any new Entries?" [ref=e375] [cursor=pointer]:
+                      - /url: "#is-there-a-setting-to-only-exit-the-trades-being-held-and-not-perform-any-new-entries"
+                      - generic [ref=e376]: Is there a setting to only Exit the trades being held and not perform any new Entries?
+                  - listitem [ref=e377]:
+                    - link "I sold the bot's capital and now there's errors in the log" [ref=e378] [cursor=pointer]:
+                      - /url: "#i-sold-the-bots-capital-and-now-theres-errors-in-the-log"
+                      - generic [ref=e379]: I sold the bot's capital and now there's errors in the log
+                  - listitem [ref=e380]:
+                    - link "I want to run multiple bots on the same machine" [ref=e381] [cursor=pointer]:
+                      - /url: "#i-want-to-run-multiple-bots-on-the-same-machine"
+                      - generic [ref=e382]: I want to run multiple bots on the same machine
+                  - listitem [ref=e383]:
+                    - link "I'm getting \"Impossible to load Strategy\" when starting the bot" [ref=e384] [cursor=pointer]:
+                      - /url: "#im-getting-impossible-to-load-strategy-when-starting-the-bot"
+                      - generic [ref=e385]: I'm getting "Impossible to load Strategy" when starting the bot
+                  - listitem [ref=e386]:
+                    - link "I'm getting \"Missing data fillup\" messages in the log" [ref=e387] [cursor=pointer]:
+                      - /url: "#im-getting-missing-data-fillup-messages-in-the-log"
+                      - generic [ref=e388]: I'm getting "Missing data fillup" messages in the log
+                  - listitem [ref=e389]:
+                    - link "I'm getting \"Price jump between 2 candles detected\"" [ref=e390] [cursor=pointer]:
+                      - /url: "#im-getting-price-jump-between-2-candles-detected"
+                      - generic [ref=e391]: I'm getting "Price jump between 2 candles detected"
+                  - listitem [ref=e392]:
+                    - link "I want to reset the bot's database" [ref=e393] [cursor=pointer]:
+                      - /url: "#i-want-to-reset-the-bots-database"
+                      - generic [ref=e394]: I want to reset the bot's database
+                  - listitem [ref=e395]:
+                    - link "I'm getting \"Outdated history for pair xxx\" in the log" [ref=e396] [cursor=pointer]:
+                      - /url: "#im-getting-outdated-history-for-pair-xxx-in-the-log"
+                      - generic [ref=e397]: I'm getting "Outdated history for pair xxx" in the log
+                  - listitem [ref=e398]:
+                    - link "I get the message \"Couldn't reuse watch for xxx\" in the log" [ref=e399] [cursor=pointer]:
+                      - /url: "#i-get-the-message-couldnt-reuse-watch-for-xxx-in-the-log"
+                      - generic [ref=e400]: I get the message "Couldn't reuse watch for xxx" in the log
+                  - listitem [ref=e401]:
+                    - link "I'm getting the \"Exchange XXX does not support market orders.\" message and cannot run my strategy" [ref=e402] [cursor=pointer]:
+                      - /url: "#im-getting-the-exchange-xxx-does-not-support-market-orders-message-and-cannot-run-my-strategy"
+                      - generic [ref=e403]: I'm getting the "Exchange XXX does not support market orders." message and cannot run my strategy
+                  - listitem [ref=e404]:
+                    - link "I'm trying to start the bot live, but get an API permission error" [ref=e405] [cursor=pointer]:
+                      - /url: "#im-trying-to-start-the-bot-live-but-get-an-api-permission-error"
+                      - generic [ref=e406]: I'm trying to start the bot live, but get an API permission error
+                  - listitem [ref=e407]:
+                    - link "How do I search the bot logs for something?" [ref=e408] [cursor=pointer]:
+                      - /url: "#how-do-i-search-the-bot-logs-for-something"
+                      - generic [ref=e409]: How do I search the bot logs for something?
+            - listitem [ref=e410]:
+              - link "Hyperopt module" [ref=e411] [cursor=pointer]:
+                - /url: "#hyperopt-module"
+                - generic [ref=e412]: Hyperopt module
+              - navigation "Hyperopt module" [ref=e413]:
+                - list [ref=e414]:
+                  - listitem [ref=e415]:
+                    - link "Why does freqtrade not have GPU support?" [ref=e416] [cursor=pointer]:
+                      - /url: "#why-does-freqtrade-not-have-gpu-support"
+                      - generic [ref=e417]: Why does freqtrade not have GPU support?
+                  - listitem [ref=e418]:
+                    - link "How many epochs do I need to get a good Hyperopt result?" [ref=e419] [cursor=pointer]:
+                      - /url: "#how-many-epochs-do-i-need-to-get-a-good-hyperopt-result"
+                      - generic [ref=e420]: How many epochs do I need to get a good Hyperopt result?
+                  - listitem [ref=e421]:
+                    - link "Why does it take a long time to run hyperopt?" [ref=e422] [cursor=pointer]:
+                      - /url: "#why-does-it-take-a-long-time-to-run-hyperopt"
+                      - generic [ref=e423]: Why does it take a long time to run hyperopt?
+            - listitem [ref=e424]:
+              - link "Official channels" [ref=e425] [cursor=pointer]:
+                - /url: "#official-channels"
+                - generic [ref=e426]: Official channels
+            - listitem [ref=e427]:
+              - link "Support policy" [ref=e428] [cursor=pointer]:
+                - /url: "#support-policy"
+                - generic [ref=e429]: Support policy
+            - listitem [ref=e430]:
+              - link "\"Freqtrade token\"" [ref=e431] [cursor=pointer]:
+                - /url: "#freqtrade-token"
+                - generic [ref=e432]: "\"Freqtrade token\""
+        - article [ref=e434]:
+          - link "Edit this page" [ref=e435] [cursor=pointer]:
+            - /url: https://github.com/freqtrade/freqtrade/edit/develop/docs/faq.md
+            - img [ref=e436]
+          - heading "Freqtrade FAQ ¶" [level=1] [ref=e438]:
+            - text: Freqtrade FAQ
+            - link "¶" [ref=e439] [cursor=pointer]:
+              - /url: "#freqtrade-faq"
+          - heading "Supported Markets ¶" [level=2] [ref=e440]:
+            - text: Supported Markets
+            - link "¶" [ref=e441] [cursor=pointer]:
+              - /url: "#supported-markets"
+          - paragraph [ref=e442]:
+            - text: Freqtrade supports spot trading, as well as futures trading for some selected exchanges. Please refer to the
+            - link "documentation start page" [ref=e443] [cursor=pointer]:
+              - /url: ../#supported-futures-exchanges
+            - text: for an up-to-date list of supported exchanges.
+          - heading "Can my bot open short positions? ¶" [level=3] [ref=e444]:
+            - text: Can my bot open short positions?
+            - link "¶" [ref=e445] [cursor=pointer]:
+              - /url: "#can-my-bot-open-short-positions"
+          - paragraph [ref=e446]:
+            - text: Freqtrade can open short positions in futures markets. This requires the strategy to be made for this - and
+            - code [ref=e447]: "\"trading_mode\": \"futures\""
+            - text: in the configuration. Please make sure to read the
+            - link "relevant documentation page" [ref=e448] [cursor=pointer]:
+              - /url: ../leverage/
+            - text: first.
+          - paragraph [ref=e449]: In spot markets, you can in some cases use leveraged spot tokens, which reflect an inverted pair (eg. BTCUP/USD, BTCDOWN/USD, ETHBULL/USD, ETHBEAR/USD,...) which can be traded with Freqtrade.
+          - heading "Can my bot trade options or futures? ¶" [level=3] [ref=e450]:
+            - text: Can my bot trade options or futures?
+            - link "¶" [ref=e451] [cursor=pointer]:
+              - /url: "#can-my-bot-trade-options-or-futures"
+          - paragraph [ref=e452]:
+            - text: Futures trading is supported for selected exchanges. Please refer to the
+            - link "documentation start page" [ref=e453] [cursor=pointer]:
+              - /url: ../#supported-futures-exchanges
+            - text: for an up-to-date list of supported exchanges.
+          - heading "Beginner Tips & Tricks ¶" [level=2] [ref=e454]:
+            - text: Beginner Tips & Tricks
+            - link "¶" [ref=e455] [cursor=pointer]:
+              - /url: "#beginner-tips-tricks"
+          - list [ref=e456]:
+            - listitem [ref=e457]: When you work with your strategy & hyperopt file you should use a proper code editor like VSCode or PyCharm. A good code editor will provide syntax highlighting as well as line numbers, making it easy to find syntax errors (most likely pointed out by Freqtrade during startup).
+          - heading "Freqtrade common questions ¶" [level=2] [ref=e458]:
+            - text: Freqtrade common questions
+            - link "¶" [ref=e459] [cursor=pointer]:
+              - /url: "#freqtrade-common-questions"
+          - heading "Can freqtrade open multiple positions on the same pair in parallel? ¶" [level=3] [ref=e460]:
+            - text: Can freqtrade open multiple positions on the same pair in parallel?
+            - link "¶" [ref=e461] [cursor=pointer]:
+              - /url: "#can-freqtrade-open-multiple-positions-on-the-same-pair-in-parallel"
+          - paragraph [ref=e462]:
+            - text: No. Freqtrade will only open one position per pair at a time. You can however use the
+            - link "adjust_trade_position() callback" [ref=e463] [cursor=pointer]:
+              - /url: ../strategy-callbacks/#adjust-trade-position
+              - code [ref=e464]: adjust_trade_position()
+              - text: callback
+            - text: to adjust an open position.
+          - paragraph [ref=e465]:
+            - text: Backtesting provides an option for this in
+            - code [ref=e466]: "--eps"
+            - text: "- however this is only there to highlight \"hidden\" signals, and will not work in live."
+          - heading "Does freqtrade support sandbox accounts? ¶" [level=3] [ref=e467]:
+            - text: Does freqtrade support sandbox accounts?
+            - link "¶" [ref=e468] [cursor=pointer]:
+              - /url: "#does-freqtrade-support-sandbox-accounts"
+          - paragraph [ref=e469]: No, but you can use dry-run mode to simulate trading without risking real funds.
+          - paragraph [ref=e470]: Sandbox markets are separate, simulated markets - which are not suitable to test your strategy in a realistic environment. These markets usually have different order books, liquidity and trading behaviour (usually with very few participants) - which makes them unsuitable for realistic tests of your strategy.
+          - heading "The bot does not start ¶" [level=3] [ref=e471]:
+            - text: The bot does not start
+            - link "¶" [ref=e472] [cursor=pointer]:
+              - /url: "#the-bot-does-not-start"
+          - paragraph [ref=e473]:
+            - text: Running the bot with
+            - code [ref=e474]: freqtrade trade --config config.json
+            - text: shows the output
+            - code [ref=e475]: "freqtrade: command not found"
+            - text: .
+          - paragraph [ref=e476]: "This could be caused by the following reasons:"
+          - list [ref=e477]:
+            - listitem [ref=e478]:
+              - text: The virtual environment is not active.
+              - list [ref=e479]:
+                - listitem [ref=e480]:
+                  - text: Run
+                  - code [ref=e481]: source .venv/bin/activate
+                  - text: to activate the virtual environment.
+            - listitem [ref=e482]:
+              - text: The installation did not complete successfully.
+              - list [ref=e483]:
+                - listitem [ref=e484]:
+                  - text: Please check the
+                  - link "Installation documentation" [ref=e485] [cursor=pointer]:
+                    - /url: ../installation/
+                  - text: .
+          - heading "The bot starts, but in STOPPED mode ¶" [level=3] [ref=e486]:
+            - text: The bot starts, but in STOPPED mode
+            - link "¶" [ref=e487] [cursor=pointer]:
+              - /url: "#the-bot-starts-but-in-stopped-mode"
+          - paragraph [ref=e488]:
+            - text: Make sure you set the
+            - code [ref=e489]: initial_state
+            - text: config option to
+            - code [ref=e490]: "\"running\""
+            - text: in your config.json
+          - heading "I have waited 5 minutes, why hasn't the bot made any trades yet? ¶" [level=3] [ref=e491]:
+            - text: I have waited 5 minutes, why hasn't the bot made any trades yet?
+            - link "¶" [ref=e492] [cursor=pointer]:
+              - /url: "#i-have-waited-5-minutes-why-hasnt-the-bot-made-any-trades-yet"
+          - list [ref=e493]:
+            - listitem [ref=e494]: Depending on the entry strategy, the amount of whitelisted coins, the situation of the market etc, it can take up to hours or days to find a good entry position for a trade. Be patient!
+          - list [ref=e495]:
+            - listitem [ref=e496]: Backtesting will tell you roughly how many trades to expect - but that won't guarantee that they'll be distributed evenly across time - so you could have 20 trades on one day, and 0 for the rest of the week.
+          - list [ref=e497]:
+            - listitem [ref=e498]: It may be because of a configuration error. It's best to check the logs, they usually tell you if the bot is simply not getting buy signals (only heartbeat messages), or if there is something wrong (errors / exceptions in the log).
+          - heading "I have made 12 trades already, why is my total profit negative? ¶" [level=3] [ref=e499]:
+            - text: I have made 12 trades already, why is my total profit negative?
+            - link "¶" [ref=e500] [cursor=pointer]:
+              - /url: "#i-have-made-12-trades-already-why-is-my-total-profit-negative"
+          - paragraph [ref=e501]:
+            - text: I understand your disappointment but unfortunately 12 trades is just not enough to say anything. If you run backtesting, you can see that the current algorithm does leave you on the plus side, but that is after thousands of trades and even there, you will be left with losses on specific coins that you have traded tens if not hundreds of times. We of course constantly aim to improve the bot but it will
+            - emphasis [ref=e502]: always
+            - text: be a gamble, which should leave you with modest wins on monthly basis but you can't say much from few trades.
+          - heading "I’d like to make changes to the config. Can I do that without having to kill the bot? ¶" [level=3] [ref=e503]:
+            - text: I’d like to make changes to the config. Can I do that without having to kill the bot?
+            - link "¶" [ref=e504] [cursor=pointer]:
+              - /url: "#id-like-to-make-changes-to-the-config-can-i-do-that-without-having-to-kill-the-bot"
+          - paragraph [ref=e505]:
+            - text: Yes. You can edit your config and use the
+            - code [ref=e506]: /reload_config
+            - text: command to reload the configuration. The bot will stop, reload the configuration and strategy and will restart with the new configuration and strategy.
+          - heading "Why does my bot not sell everything it bought? ¶" [level=3] [ref=e507]:
+            - text: Why does my bot not sell everything it bought?
+            - link "¶" [ref=e508] [cursor=pointer]:
+              - /url: "#why-does-my-bot-not-sell-everything-it-bought"
+          - paragraph [ref=e509]: This is called "coin dust" and can happen on all exchanges. It happens because many exchanges subtract fees from the "receiving currency" - so you buy 100 COIN - but you only get 99.9 COIN. As COIN is trading in full lot sizes (1COIN steps), you cannot sell 0.9 COIN (or 99.9 COIN) - but you need to round down to 99 COIN.
+          - paragraph [ref=e510]: This is not a bot-problem, but will also happen while manual trading.
+          - paragraph [ref=e511]: While freqtrade can handle this (it'll sell 99 COIN), fees are often below the minimum tradable lot-size (you can only trade full COIN, not 0.9 COIN). Leaving the dust (0.9 COIN) on the exchange makes usually sense, as the next time freqtrade buys COIN, it'll eat into the remaining small balance, this time selling everything it bought, and therefore slowly declining the dust balance (although it most likely will never reach exactly 0).
+          - paragraph [ref=e512]: Where possible (e.g. on binance), the use of the exchange's dedicated fee currency will fix this. On binance, it's sufficient to have BNB in your account, and have "Pay fees in BNB" enabled in your profile. Your BNB balance will slowly decline (as it's used to pay fees) - but you'll no longer encounter dust (Freqtrade will include the fees in the profit calculations). Other exchanges don't offer such possibilities, where it's simply something you'll have to accept or move to a different exchange.
+          - heading "I deposited more funds to the exchange, but my bot doesn't recognize this ¶" [level=3] [ref=e513]:
+            - text: I deposited more funds to the exchange, but my bot doesn't recognize this
+            - link "¶" [ref=e514] [cursor=pointer]:
+              - /url: "#i-deposited-more-funds-to-the-exchange-but-my-bot-doesnt-recognize-this"
+          - paragraph [ref=e515]:
+            - text: Freqtrade will update the exchange balance when necessary (Before placing an order). RPC calls (Telegram's
+            - code [ref=e516]: /balance
+            - text: ", API calls to"
+            - code [ref=e517]: /balance
+            - text: ) can trigger an update at max. once per hour.
+          - paragraph [ref=e518]:
+            - text: If
+            - code [ref=e519]: adjust_trade_position
+            - text: is enabled (and the bot has open trades eligible for position adjustments) - then the wallets will be refreshed once per hour. To force an immediate update, you can use
+            - code [ref=e520]: /reload_config
+            - text: "- which will restart the bot."
+          - heading "I want to use incomplete candles ¶" [level=3] [ref=e521]:
+            - text: I want to use incomplete candles
+            - link "¶" [ref=e522] [cursor=pointer]:
+              - /url: "#i-want-to-use-incomplete-candles"
+          - paragraph [ref=e523]: Freqtrade will not provide incomplete candles to strategies. Using incomplete candles will lead to repainting and consequently to strategies with "ghost" buys, which are impossible to both backtest, and verify after they happened.
+          - paragraph [ref=e524]:
+            - text: You can use "current" market data by using the
+            - link "dataprovider" [ref=e525] [cursor=pointer]:
+              - /url: ../strategy-customization/#orderbookpair-maximum
+            - text: "'s orderbook or ticker methods - which however cannot be used during backtesting."
+          - heading "Is there a setting to only Exit the trades being held and not perform any new Entries? ¶" [level=3] [ref=e526]:
+            - text: Is there a setting to only Exit the trades being held and not perform any new Entries?
+            - link "¶" [ref=e527] [cursor=pointer]:
+              - /url: "#is-there-a-setting-to-only-exit-the-trades-being-held-and-not-perform-any-new-entries"
+          - paragraph [ref=e528]:
+            - text: You can use the
+            - code [ref=e529]: /stopentry
+            - text: command in Telegram to prevent future trade entry, followed by
+            - code [ref=e530]: /forceexit all
+            - text: (sell all open trades).
+          - heading "I sold the bot's capital and now there's errors in the log ¶" [level=3] [ref=e531]:
+            - text: I sold the bot's capital and now there's errors in the log
+            - link "¶" [ref=e532] [cursor=pointer]:
+              - /url: "#i-sold-the-bots-capital-and-now-theres-errors-in-the-log"
+          - paragraph [ref=e533]:
+            - text: Freqtrade assumes that the trades it opens are managed only though the bot.
+            - text: If you happen to (accidentally) sell the bot's capital, freqtrade will try to recover by trying to re-find on-exchange orders.
+          - paragraph [ref=e534]: This is a best-effort approach, and will not work in all cases, especially when using order types that are not supported by freqtrade (OCO, iceberg, etc.), or when working with older trades (where the exchange no longer provides full order information). The exact limits will vary between exchanges - with the details usually being documented in the exchange's API documentation.
+          - heading "I want to run multiple bots on the same machine ¶" [level=3] [ref=e535]:
+            - text: I want to run multiple bots on the same machine
+            - link "¶" [ref=e536] [cursor=pointer]:
+              - /url: "#i-want-to-run-multiple-bots-on-the-same-machine"
+          - paragraph [ref=e537]:
+            - text: Please look at the
+            - link "advanced setup documentation Page" [ref=e538] [cursor=pointer]:
+              - /url: ../advanced-setup/#running-multiple-instances-of-freqtrade
+            - text: .
+          - heading "I'm getting \"Impossible to load Strategy\" when starting the bot ¶" [level=3] [ref=e539]:
+            - text: I'm getting "Impossible to load Strategy" when starting the bot
+            - link "¶" [ref=e540] [cursor=pointer]:
+              - /url: "#im-getting-impossible-to-load-strategy-when-starting-the-bot"
+          - paragraph [ref=e541]:
+            - text: This error message is shown when the bot cannot load the strategy. Usually, you can use
+            - code [ref=e542]: freqtrade list-strategies
+            - text: to list all available strategies. The output of this command will also include a status column, showing if the strategy can be loaded.
+          - paragraph [ref=e543]: "Please check the following:"
+          - list [ref=e544]:
+            - listitem [ref=e545]: Are you using the correct strategy name? The strategy name is case-sensitive and must correspond to the Strategy class name (not the filename!).
+            - listitem [ref=e546]:
+              - text: Is the strategy in the
+              - code [ref=e547]: user_data/strategies
+              - text: directory, and has the file-ending
+              - code [ref=e548]: .py
+              - text: "?"
+            - listitem [ref=e549]: Does the bot show other warnings before this error? Maybe you're missing some dependencies for the strategy - which would be highlighted in the log.
+            - listitem [ref=e550]: In case of docker - is the strategy directory mounted correctly (check the volumes part of the docker-compose file)?
+          - heading "I'm getting \"Missing data fillup\" messages in the log ¶" [level=3] [ref=e551]:
+            - text: I'm getting "Missing data fillup" messages in the log
+            - link "¶" [ref=e552] [cursor=pointer]:
+              - /url: "#im-getting-missing-data-fillup-messages-in-the-log"
+          - paragraph [ref=e553]: This message is just a warning that the latest candles had missing candles in them. Depending on the exchange, this can indicate that the pair didn't have a trade for the timeframe you are using - and the exchange does only return candles with volume. On low volume pairs, this is a rather common occurrence.
+          - paragraph [ref=e554]: If this happens for all pairs in the pairlist, this might indicate a recent exchange downtime. Please check your exchange's public channels for details.
+          - paragraph [ref=e555]:
+            - text: Irrespectively of the reason, Freqtrade will fill up these candles with "empty" candles, where open, high, low and close are set to the previous candle close - and volume is empty. In a chart, this will look like a
+            - code [ref=e556]: _
+            - text: "- and is aligned with how exchanges usually represent 0 volume candles."
+          - heading "I'm getting \"Price jump between 2 candles detected\" ¶" [level=3] [ref=e557]:
+            - text: I'm getting "Price jump between 2 candles detected"
+            - link "¶" [ref=e558] [cursor=pointer]:
+              - /url: "#im-getting-price-jump-between-2-candles-detected"
+          - paragraph [ref=e559]:
+            - text: This message is a warning that the candles had a price jump of > 30%. This might be a sign that the pair stopped trading, and some token exchange took place (e.g. COCOS in 2021 - where price jumped from 0.0000154 to 0.01621). This message is often accompanied by
+            - link "\"Missing data fillup\"" [ref=e560] [cursor=pointer]:
+              - /url: "#im-getting-missing-data-fillup-messages-in-the-log"
+            - text: "- as trading on such pairs is often stopped for some time."
+          - heading "I want to reset the bot's database ¶" [level=3] [ref=e561]:
+            - text: I want to reset the bot's database
+            - link "¶" [ref=e562] [cursor=pointer]:
+              - /url: "#i-want-to-reset-the-bots-database"
+          - paragraph [ref=e563]:
+            - text: To reset the bot's database, you can either delete the database (by default
+            - code [ref=e564]: tradesv3.sqlite
+            - text: or
+            - code [ref=e565]: tradesv3.dryrun.sqlite
+            - text: ), or use a different database url via
+            - code [ref=e566]: "--db-url"
+            - text: (e.g.
+            - code [ref=e567]: sqlite:///mynewdatabase.sqlite
+            - text: ).
+          - heading "I'm getting \"Outdated history for pair xxx\" in the log ¶" [level=3] [ref=e568]:
+            - text: I'm getting "Outdated history for pair xxx" in the log
+            - link "¶" [ref=e569] [cursor=pointer]:
+              - /url: "#im-getting-outdated-history-for-pair-xxx-in-the-log"
+          - paragraph [ref=e570]: The bot is trying to tell you that it got an outdated last candle (not the last complete candle). As a consequence, Freqtrade will not enter a trade for this pair - as trading on old information is usually not what is desired.
+          - paragraph [ref=e571]: "This warning can point to one of the below problems:"
+          - list [ref=e572]:
+            - listitem [ref=e573]: Exchange downtime -> Check your exchange status page / blog / twitter feed for details.
+            - listitem [ref=e574]: Wrong system time -> Ensure your system-time is correct.
+            - listitem [ref=e575]: Barely traded pair -> Check the pair on the exchange webpage, look at the timeframe your strategy uses. If the pair does not have any volume in some candles (usually visualized with a "volume 0" bar, and a "_" as candle), this pair did not have any trades in this timeframe. These pairs should ideally be avoided, as they can cause problems with order-filling.
+            - listitem [ref=e576]: API problem -> API returns wrong data (this only here for completeness, and should not happen with supported exchanges).
+          - heading "I get the message \"Couldn't reuse watch for xxx\" in the log ¶" [level=3] [ref=e577]:
+            - text: I get the message "Couldn't reuse watch for xxx" in the log
+            - link "¶" [ref=e578] [cursor=pointer]:
+              - /url: "#i-get-the-message-couldnt-reuse-watch-for-xxx-in-the-log"
+          - paragraph [ref=e579]: This is an informational message that the bot tried to use candles from the websocket, but the exchange didn't provide the right information. This can happen if there was an interruption to the websocket connection - or if the pair didn't have any trades happen in the timeframe you are using.
+          - paragraph [ref=e580]: Freqtrade will handle this gracefully by falling back to the REST api. While this makes the iteration slightly slower (due to the REST Api call) - it will not cause any problems to the bot's operation.
+          - heading "I'm getting the \"Exchange XXX does not support market orders.\" message and cannot run my strategy ¶" [level=3] [ref=e581]:
+            - text: I'm getting the "Exchange XXX does not support market orders." message and cannot run my strategy
+            - link "¶" [ref=e582] [cursor=pointer]:
+              - /url: "#im-getting-the-exchange-xxx-does-not-support-market-orders-message-and-cannot-run-my-strategy"
+          - paragraph [ref=e583]:
+            - text: As the message says, your exchange does not support market orders and you have one of the
+            - link "order types" [ref=e584] [cursor=pointer]:
+              - /url: ../configuration/#understand-order_types
+            - text: set to "market". Your strategy was probably written with other exchanges in mind and sets "market" orders for "stoploss" orders, which is correct and preferable for most of the exchanges supporting market orders (but not for Gate.io).
+          - paragraph [ref=e585]: "To fix this, redefine order types in the strategy to use \"limit\" instead of \"market\":"
+          - generic [ref=e587]:
+            - navigation [ref=e588]:
+              - button "Copy to clipboard" [ref=e589] [cursor=pointer]
+            - code [ref=e590]: "order_types = { ... \"stoploss\": \"limit\", ... }"
+          - paragraph [ref=e591]: The same fix should be applied in the configuration file, if order types are defined in your custom config rather than in the strategy.
+          - heading "I'm trying to start the bot live, but get an API permission error ¶" [level=3] [ref=e592]:
+            - text: I'm trying to start the bot live, but get an API permission error
+            - link "¶" [ref=e593] [cursor=pointer]:
+              - /url: "#im-trying-to-start-the-bot-live-but-get-an-api-permission-error"
+          - paragraph [ref=e594]:
+            - text: Errors like
+            - code [ref=e595]: Invalid API-key, IP, or permissions for action
+            - text: mean exactly what they actually say.
+            - text: Your API key is either invalid (copy/paste error? check for leading/trailing spaces in the config), expired, or the IP you're running the bot from is not enabled in the Exchange's API console.
+            - text: Usually, the permission "Spot Trading" (or the equivalent in the exchange you use) will be necessary.
+            - text: Futures will usually have to be enabled specifically.
+          - heading "How do I search the bot logs for something? ¶" [level=3] [ref=e596]:
+            - text: How do I search the bot logs for something?
+            - link "¶" [ref=e597] [cursor=pointer]:
+              - /url: "#how-do-i-search-the-bot-logs-for-something"
+          - paragraph [ref=e598]:
+            - text: By default, the bot writes its log into stderr stream. This is implemented this way so that you can easily separate the bot's diagnostics messages from Backtesting, Edge and Hyperopt results, output from other various Freqtrade utility sub-commands, as well as from the output of your custom
+            - code [ref=e599]: print()
+            - text: "'s you may have inserted into your strategy. So if you need to search the log messages with the grep utility, you need to redirect stderr to stdout and disregard stdout."
+          - list [ref=e600]:
+            - listitem [ref=e601]:
+              - text: "In unix shells, this normally can be done as simple as:"
+              - generic [ref=e603]:
+                - navigation [ref=e604]:
+                  - button "Copy to clipboard" [ref=e605] [cursor=pointer]
+                - code [ref=e606]: $ freqtrade --some-options 2>&1 >/dev/null | grep 'something'
+              - text: (note,
+              - code [ref=e607]: 2>&1
+              - text: and
+              - code [ref=e608]: ">/dev/null"
+              - text: should be written in this order)
+          - list [ref=e609]:
+            - listitem [ref=e610]:
+              - text: "Bash interpreter also supports so called process substitution syntax, you can grep the log for a string with it as:"
+              - generic [ref=e612]:
+                - navigation [ref=e613]:
+                  - button "Copy to clipboard" [ref=e614] [cursor=pointer]
+                - code [ref=e615]: $ freqtrade --some-options 2> >(grep 'something') >/dev/null
+              - text: or
+              - generic [ref=e617]:
+                - navigation [ref=e618]:
+                  - button "Copy to clipboard" [ref=e619] [cursor=pointer]
+                - code [ref=e620]: $ freqtrade --some-options 2> >(grep -v 'something' 1>&2)
+          - list [ref=e621]:
+            - listitem [ref=e622]:
+              - text: You can also write the copy of Freqtrade log messages to a file with the
+              - code [ref=e623]: "--logfile"
+              - text: "option:"
+              - generic [ref=e625]:
+                - navigation [ref=e626]:
+                  - button "Copy to clipboard" [ref=e627] [cursor=pointer]
+                - code [ref=e628]: $ freqtrade --logfile /path/to/mylogfile.log --some-options
+              - text: "and then grep it as:"
+              - generic [ref=e630]:
+                - navigation [ref=e631]:
+                  - button "Copy to clipboard" [ref=e632] [cursor=pointer]
+                - code [ref=e633]: $ cat /path/to/mylogfile.log | grep 'something'
+              - text: "or even on the fly, as the bot works and the log file grows:"
+              - generic [ref=e635]:
+                - navigation [ref=e636]:
+                  - button "Copy to clipboard" [ref=e637] [cursor=pointer]
+                - code [ref=e638]: $ tail -f /path/to/mylogfile.log | grep 'something'
+              - text: from a separate terminal window.
+          - paragraph [ref=e639]:
+            - text: On Windows, the
+            - code [ref=e640]: "--logfile"
+            - text: option is also supported by Freqtrade and you can use the
+            - code [ref=e641]: findstr
+            - text: "command to search the log for the string of interest:"
+          - generic [ref=e643]:
+            - navigation [ref=e644]:
+              - button "Copy to clipboard" [ref=e645] [cursor=pointer]
+            - code [ref=e646]: "> type \\path\\to\\mylogfile.log | findstr \"something\""
+          - paragraph
+          - heading "Hyperopt module ¶" [level=2] [ref=e647]:
+            - text: Hyperopt module
+            - link "¶" [ref=e648] [cursor=pointer]:
+              - /url: "#hyperopt-module"
+          - heading "Why does freqtrade not have GPU support? ¶" [level=3] [ref=e649]:
+            - text: Why does freqtrade not have GPU support?
+            - link "¶" [ref=e650] [cursor=pointer]:
+              - /url: "#why-does-freqtrade-not-have-gpu-support"
+          - paragraph [ref=e651]: First of all, most indicator libraries don't have GPU support - as such, there would be little benefit for indicator calculations. The GPU improvements would only apply to pandas-native calculations - or ones written by yourself.
+          - paragraph [ref=e652]: GPU's are only good at crunching numbers (floating point operations). For hyperopt, we need both number-crunching (find next parameters) and running python code (running backtesting). As such, GPU's are not too well suited for most parts of hyperopt.
+          - paragraph [ref=e653]: The benefit of using GPU would therefore be pretty slim - and will not justify the complexity introduced by trying to add GPU support.
+          - paragraph [ref=e654]: There is however nothing preventing you from using GPU-enabled indicators within your strategy if you think you must have this - you will however probably be disappointed by the slim gain that will give you (compared to the complexity).
+          - heading "How many epochs do I need to get a good Hyperopt result? ¶" [level=3] [ref=e655]:
+            - text: How many epochs do I need to get a good Hyperopt result?
+            - link "¶" [ref=e656] [cursor=pointer]:
+              - /url: "#how-many-epochs-do-i-need-to-get-a-good-hyperopt-result"
+          - paragraph [ref=e657]:
+            - text: Per default Hyperopt called without the
+            - code [ref=e658]: "-e"
+            - text: /
+            - code [ref=e659]: "--epochs"
+            - text: command line option will only run 100 epochs, means 100 evaluations of your triggers, guards, ... Too few to find a great result (unless if you are very lucky), so you probably have to run it for 10000 or more. But it will take an eternity to compute.
+          - paragraph [ref=e660]: Since hyperopt uses Bayesian search, running for too many epochs may not produce greater results.
+          - paragraph [ref=e661]: It's therefore recommended to run between 500-1000 epochs over and over until you hit at least 10000 epochs in total (or are satisfied with the result). You can best judge by looking at the results - if the bot keeps discovering better strategies, it's best to keep on going.
+          - generic [ref=e663]:
+            - navigation [ref=e664]:
+              - button "Copy to clipboard" [ref=e665] [cursor=pointer]
+            - code [ref=e666]: freqtrade hyperopt --hyperopt-loss SharpeHyperOptLossDaily --strategy SampleStrategy -e 1000
+          - heading "Why does it take a long time to run hyperopt? ¶" [level=3] [ref=e667]:
+            - text: Why does it take a long time to run hyperopt?
+            - link "¶" [ref=e668] [cursor=pointer]:
+              - /url: "#why-does-it-take-a-long-time-to-run-hyperopt"
+          - list [ref=e669]:
+            - listitem [ref=e670]:
+              - text: Discovering a great strategy with Hyperopt takes time. Study
+              - link "www.freqtrade.io" [ref=e671] [cursor=pointer]:
+                - /url: https://www.freqtrade.io
+              - text: ", the Freqtrade Documentation page, join the Freqtrade"
+              - link "discord community" [ref=e672] [cursor=pointer]:
+                - /url: https://discord.gg/p7nuUNVfP7
+              - text: . While you patiently wait for the most advanced, free crypto bot in the world, to hand you a possible golden strategy specially designed just for you.
+          - list [ref=e673]:
+            - listitem [ref=e674]: "If you wonder why it can take from 20 minutes to days to do 1000 epochs here are some answers:"
+          - paragraph [ref=e675]: "This answer was written during the release 0.15.1, when we had:"
+          - list [ref=e676]:
+            - listitem [ref=e677]: 8 triggers
+            - listitem [ref=e678]: "9 guards: let's say we evaluate even 10 values from each"
+            - listitem [ref=e679]: "1 stoploss calculation: let's say we want 10 values from that too to be evaluated"
+          - paragraph [ref=e680]: The following calculation is still very rough and not very precise but it will give the idea. With only these triggers and guards there is already 8*10^9*10 evaluations. A roughly total of 80 billion evaluations. Did you run 100 000 evaluations? Congrats, you've done roughly 1 / 100 000 th of the search space, assuming that the bot never tests the same parameters more than once.
+          - list [ref=e681]:
+            - listitem [ref=e682]: "The time it takes to run 1000 hyperopt epochs depends on things like: The available cpu, hard-disk, ram, timeframe, timerange, indicator settings, indicator count, amount of coins that hyperopt test strategies on and the resulting trade count - which can be 650 trades in a year or 100000 trades depending if the strategy aims for big profits by trading rarely or for many low profit trades."
+          - paragraph [ref=e683]: "Example: 4% profit 650 times vs 0,3% profit a trade 10000 times in a year. If we assume you set the --timerange to 365 days."
+          - paragraph [ref=e684]:
+            - text: "Example:"
+            - code [ref=e685]: freqtrade --config config.json --strategy SampleStrategy --hyperopt SampleHyperopt -e 1000 --timerange 20190601-20200601
+          - heading "Official channels ¶" [level=2] [ref=e686]:
+            - text: Official channels
+            - link "¶" [ref=e687] [cursor=pointer]:
+              - /url: "#official-channels"
+          - paragraph [ref=e688]: "Freqtrade is using exclusively the following official channels:"
+          - list [ref=e689]:
+            - listitem [ref=e690]:
+              - link "Freqtrade discord server" [ref=e691] [cursor=pointer]:
+                - /url: https://discord.gg/p7nuUNVfP7
+            - listitem [ref=e692]:
+              - link "Freqtrade documentation (https://freqtrade.io)" [ref=e693] [cursor=pointer]:
+                - /url: https://freqtrade.io
+            - listitem [ref=e694]:
+              - link "Freqtrade github organization" [ref=e695] [cursor=pointer]:
+                - /url: https://github.com/freqtrade
+          - paragraph [ref=e696]: Nobody affiliated with the freqtrade project will ask you about your exchange keys or anything else exposing your funds to exploitation. Should you be asked to expose your exchange keys or send funds to some random wallet, then please don't follow these instructions.
+          - paragraph [ref=e697]: Failing to follow these guidelines will not be responsibility of freqtrade.
+          - heading "Support policy ¶" [level=2] [ref=e698]:
+            - text: Support policy
+            - link "¶" [ref=e699] [cursor=pointer]:
+              - /url: "#support-policy"
+          - paragraph [ref=e700]:
+            - text: We provide free support for Freqtrade on our
+            - link "Discord server" [ref=e701] [cursor=pointer]:
+              - /url: https://discord.gg/p7nuUNVfP7
+            - text: and via GitHub issues. We only support the most recent release (e.g. 2025.8) and the current development branch (e.g. 2025.9-dev).
+          - paragraph [ref=e702]:
+            - text: If you're on an older version, please follow the
+            - link "upgrade instructions" [ref=e703] [cursor=pointer]:
+              - /url: ../updating/
+            - text: and see if your problem has already been addressed.
+          - heading "\"Freqtrade token\" ¶" [level=2] [ref=e704]:
+            - text: "\"Freqtrade token\""
+            - link "¶" [ref=e705] [cursor=pointer]:
+              - /url: "#freqtrade-token"
+          - paragraph [ref=e706]: Freqtrade does not have a Crypto token offering.
+          - paragraph [ref=e707]: Token offerings you find on the internet referring Freqtrade, FreqAI or freqUI must be considered to be a scam, trying to exploit freqtrade's popularity for their own, nefarious gains.
+      - button "Back to top":
+        - img
+        - text: Back to top
+    - contentinfo [ref=e708]:
+      - navigation "Footer" [ref=e709]:
+        - 'link "Previous: SQL Cheat-sheet" [ref=e710] [cursor=pointer]':
+          - /url: ../sql_cheatsheet/
+          - img [ref=e712]
+          - generic [ref=e714]:
+            - text: Previous
+            - generic [ref=e715]: SQL Cheat-sheet
+        - 'link "Next: Strategy migration" [ref=e716] [cursor=pointer]':
+          - /url: ../strategy_migration/
+          - generic [ref=e717]:
+            - text: Next
+            - generic [ref=e718]: Strategy migration
+          - img [ref=e720]
+      - generic [ref=e724]:
+        - text: Made with
+        - link "Material for MkDocs" [ref=e725] [cursor=pointer]:
+          - /url: https://squidfunk.github.io/mkdocs-material/

@@ -1,0 +1,380 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - link "Skip to content" [ref=e9] [cursor=pointer]:
+        - /url: "#main"
+        - generic [ref=e10]:
+          - text: Skip to content
+          - img [ref=e11]
+      - generic [ref=e13]:
+        - banner [ref=e14]:
+          - generic [ref=e16]:
+            - generic [ref=e17]:
+              - link "🍇 해운-바이브코딩" [ref=e19] [cursor=pointer]:
+                - /url: /34900d8ca04980b5a953c810c426d7d4?pvs=18
+                - generic [ref=e20]:
+                  - img "🍇" [ref=e24]
+                  - generic [ref=e25]: 해운-바이브코딩
+              - img [ref=e27]
+              - button "🏗️ [Web Project] quiz.sh" [disabled] [ref=e29]:
+                - img "🏗️" [ref=e33]
+                - generic [ref=e34]: "[Web Project] quiz.sh"
+            - generic [ref=e35]:
+              - button "Close panel" [ref=e37] [cursor=pointer]:
+                - img [ref=e38]
+              - generic [ref=e41]:
+                - button [ref=e42] [cursor=pointer]:
+                  - img [ref=e43]
+                - button "More actions" [ref=e46] [cursor=pointer]:
+                  - img [ref=e47]
+                - button "Get Notion free" [ref=e49] [cursor=pointer]
+        - main [ref=e50]:
+          - group [disabled] [ref=e53]:
+            - generic [ref=e55]:
+              - generic [ref=e87]:
+                - generic [ref=e92]:
+                  - img "🏗️ Page icon" [ref=e93]
+                  - img "🏗️ Page icon" [ref=e94]
+                - heading "[Web Project] quiz.sh" [level=1] [ref=e99]
+              - generic [ref=e101]:
+                - link "https://quiz-sh.vercel.app/" [disabled] [ref=e108] [cursor=pointer]:
+                  - /url: https://quiz-sh.vercel.app/
+                - link "quiz-sh ghwshin" [disabled] [ref=e111] [cursor=pointer]:
+                  - /url: https://github.com/ghwshin/quiz-sh
+                  - generic [ref=e115]:
+                    - generic [ref=e117]: quiz-sh
+                    - generic [ref=e119]: ghwshin
+                - heading "Overview" [level=3] [ref=e124]
+                - generic [ref=e128]:
+                  - generic [ref=e130]: •
+                  - generic [ref=e133]: 내가 주로 다루는 분야를 퀴즈로 공부하기
+                - generic [ref=e137]:
+                  - generic [ref=e139]: •
+                  - generic [ref=e142]: 모든 문제는 AI로 생성 — Claude가 만들고 Codex가 검증
+                - generic [ref=e146]:
+                  - generic [ref=e148]: •
+                  - generic [ref=e151]: 여러 문제 유형을 지원 — 선다형, 듀오링고식 워드뱅크, 수능 같은 대화형, 실제 터미널처럼 만든 실습
+                - separator [disabled] [ref=e154]
+                - heading "무엇을 만들었나" [level=3] [ref=e159]
+                - generic [ref=e165]: Linux Kernel, Android System, OS 지식을 퀴즈로 체득하기 위한 웹앱입니다. 서버나 DB 없이 완전히 정적으로 동작하고, 진행 상황은 저장됩니다.
+                - note [ref=e167]:
+                  - generic [ref=e168]:
+                    - img "📚 Callout icon" [ref=e174]
+                    - generic [ref=e175]:
+                      - generic [ref=e181]: 카테고리 3개 · 서브카테고리 53개 · 문제 1,280개
+                      - generic [ref=e185]:
+                        - generic [ref=e187]: •
+                        - generic [ref=e190]: Linux Kernel — 18개 서브카테고리
+                      - generic [ref=e194]:
+                        - generic [ref=e196]: •
+                        - generic [ref=e199]: Android System — 17개 서브카테고리
+                      - generic [ref=e203]:
+                        - generic [ref=e205]: •
+                        - generic [ref=e208]: Operating System — 18개 서브카테고리
+                - generic [ref=e214]: 각 서브카테고리는 초급 / 중급 / 고급 3단계로 나뉘고, 진행률·정답률·미해결 문제 리스트가 자동으로 추적됩니다. 기본은 듀오링고식 워드뱅크 모드, 실력이 붙으면 직접 타이핑하는 하드 모드로 바꿀 수 있습니다. 모바일·데스크톱 모두 한 손으로 풀 수 있게 UI를 다듬었습니다.
+                - separator [disabled] [ref=e217]
+                - heading "기술 스택" [level=3] [ref=e222]
+                - generic [ref=e224]:
+                  - generic [ref=e226]:
+                    - heading "프런트엔드" [level=4] [ref=e231]
+                    - generic [ref=e235]:
+                      - generic [ref=e237]: •
+                      - generic [ref=e240]: Next.js 15 (App Router)
+                    - generic [ref=e244]:
+                      - generic [ref=e246]: •
+                      - generic [ref=e249]: React 19
+                    - generic [ref=e253]:
+                      - generic [ref=e255]: •
+                      - generic [ref=e258]: TypeScript 5
+                    - generic [ref=e262]:
+                      - generic [ref=e264]: •
+                      - generic [ref=e267]: Tailwind CSS 4
+                  - generic [ref=e270]:
+                    - heading "테스트" [level=4] [ref=e275]
+                    - generic [ref=e279]:
+                      - generic [ref=e281]: •
+                      - generic [ref=e284]: Vitest — 단위/훅 테스트
+                    - generic [ref=e288]:
+                      - generic [ref=e290]: •
+                      - generic [ref=e293]: React Testing Library — 컴포넌트
+                    - generic [ref=e297]:
+                      - generic [ref=e299]: •
+                      - generic [ref=e302]: Playwright — E2E 31 시나리오
+                  - generic [ref=e305]:
+                    - heading "런타임/배포" [level=4] [ref=e310]
+                    - generic [ref=e314]:
+                      - generic [ref=e316]: •
+                      - generic [ref=e319]:
+                        - text: 정적 export (
+                        - generic [ref=e320]: "output: \"export\""
+                        - text: )
+                    - generic [ref=e324]:
+                      - generic [ref=e326]: •
+                      - generic [ref=e329]:
+                        - text: localStorage +
+                        - generic [ref=e330]: useSyncExternalStore
+                    - generic [ref=e334]:
+                      - generic [ref=e336]: •
+                      - generic [ref=e339]: JSON 데이터 번들
+                    - generic [ref=e343]:
+                      - generic [ref=e345]: •
+                      - generic [ref=e348]: 서버·API 없음
+                - separator [disabled] [ref=e351]
+                - heading "아키텍처" [level=3] [ref=e356]
+                - figure [ref=e360]:
+                  - button "Click diagram to expand in fullscreen" [disabled] [ref=e365]:
+                    - document [ref=e366]:
+                      - generic [ref=e367]:
+                        - paragraph [ref=e375]: 브라우저
+                        - paragraph [ref=e383]: 빌드 타임
+                      - generic [ref=e384]:
+                        - paragraph [ref=e391]:
+                          - text: Pages
+                          - text: (category → subcategory → difficulty → session)
+                        - paragraph [ref=e398]:
+                          - text: Quiz 컴포넌트 5종
+                          - text: (MC · Short · Code · Conversation · Terminal)
+                        - paragraph [ref=e405]:
+                          - text: Hooks
+                          - text: (useQuizProgress · useQuizMode)
+                        - paragraph [ref=e412]:
+                          - text: Terminal Engine
+                          - text: (VFS · Shell Parser · 30+ commands · Goal Checker)
+                        - paragraph [ref=e419]:
+                          - text: localStorage
+                          - text: (진행 상황)
+                        - paragraph [ref=e426]:
+                          - text: data/**/*.json
+                          - text: (1,280 문제)
+                        - paragraph [ref=e433]:
+                          - text: quiz-manifest.json
+                          - text: (인덱스)
+                        - paragraph [ref=e440]: Next.js static export
+                - generic [ref=e445]:
+                  - generic [ref=e447]:
+                    - heading "데이터 레이어" [level=4] [ref=e452]
+                    - generic [ref=e456]:
+                      - generic [ref=e458]: •
+                      - generic [ref=e461]:
+                        - generic [ref=e462]: data/
+                        - text: 아래 53개 JSON이 유일한 진실
+                    - generic [ref=e466]:
+                      - generic [ref=e468]: •
+                      - generic [ref=e471]:
+                        - text: 빌드 전
+                        - generic [ref=e472]: quiz:manifest
+                        - text: 로 인덱스 생성
+                    - generic [ref=e476]:
+                      - generic [ref=e478]: •
+                      - generic [ref=e481]:
+                        - text: 검증 도구 5개 (
+                        - generic [ref=e482]: validate
+                        - text: ","
+                        - generic [ref=e483]: search
+                        - text: ","
+                        - generic [ref=e484]: stats
+                        - text: ","
+                        - generic [ref=e485]: distractors
+                        - text: ","
+                        - generic [ref=e486]: manifest
+                        - text: )
+                  - generic [ref=e489]:
+                    - heading "퀴즈 엔진" [level=4] [ref=e494]
+                    - generic [ref=e498]:
+                      - generic [ref=e500]: •
+                      - generic [ref=e503]: 유형별 컴포넌트 5종
+                    - generic [ref=e507]:
+                      - generic [ref=e509]: •
+                      - generic [ref=e512]:
+                        - text: 공용 유틸
+                        - generic [ref=e513]: checkBlank()
+                        - text: (대소문자·공백 정규화)
+                    - generic [ref=e517]:
+                      - generic [ref=e519]: •
+                      - generic [ref=e522]:
+                        - text: 워드뱅크 칩 생성은
+                        - generic [ref=e523]: blankDistractors
+                        - text: 에서
+                  - generic [ref=e526]:
+                    - heading "터미널 샌드박스" [level=4] [ref=e531]
+                    - generic [ref=e535]:
+                      - generic [ref=e537]: •
+                      - generic [ref=e540]: 브라우저 안 가상 파일시스템
+                    - generic [ref=e544]:
+                      - generic [ref=e546]: •
+                      - generic [ref=e549]:
+                        - text: 파이프·리다이렉트·
+                        - generic [ref=e550]: "&&"
+                        - text: 지원
+                    - generic [ref=e554]:
+                      - generic [ref=e556]: •
+                      - generic [ref=e559]:
+                        - generic [ref=e560]: ls
+                        - text: ","
+                        - generic [ref=e561]: grep
+                        - text: ","
+                        - generic [ref=e562]: insmod
+                        - text: ","
+                        - generic [ref=e563]: adb
+                        - text: 등 30여 개 명령
+                    - generic [ref=e567]:
+                      - generic [ref=e569]: •
+                      - generic [ref=e572]:
+                        - text: 최종 상태를
+                        - generic [ref=e573]: goalChecks
+                        - text: 로 채점
+                - separator [disabled] [ref=e576]
+                - heading "프로젝트만의 특징" [level=3] [ref=e581]
+                - note [ref=e583]:
+                  - generic [ref=e584]:
+                    - img "🎯 Callout icon" [ref=e590]
+                    - generic [ref=e597]: ① 5가지 문제 유형 — 선다형, 빈칸(듀오링고식), 코드 빈칸, 대화형, 터미널 실습까지 한 앱에서.
+                - note [ref=e599]:
+                  - generic [ref=e600]:
+                    - img "💬 Callout icon" [ref=e606]
+                    - generic [ref=e613]: ② 수능 지문 같은 대화형 문제 — 8명의 페르소나(신입·AI·팀장·QA·리뷰어·PM·동료·시니어)가 실제 개발팀처럼 슬랙에서 티격태격합니다. 신입과 AI는 그럴듯하지만 틀린 진단을 내놓고, 플레이어는 그 속에서 진짜 원인을 찾습니다. 시니어는 대화에 끼지 않고 힌트(접이식) 로만 등장합니다.
+                - note [ref=e615]:
+                  - generic [ref=e616]:
+                    - img "🖥️ Callout icon" [ref=e622]
+                    - generic [ref=e629]:
+                      - text: ③ 진짜 같은 터미널 실습 — 브라우저 안에 셸 파서와 가상 FS를 직접 구현했습니다.
+                      - generic [ref=e630]: ls -la | grep foo > out.txt
+                      - text: 같은 파이프라인이 동작하고,
+                      - generic [ref=e631]: insmod
+                      - text: ","
+                      - generic [ref=e632]: rmmod
+                      - text: ","
+                      - generic [ref=e633]: adb
+                      - text: ","
+                      - generic [ref=e634]: fastboot
+                      - text: 같은 시스템 명령까지 흉내냅니다. 채점은 명령어 매칭이 아니라 최종 파일·프로세스·모듈 상태로 합니다.
+                - note [ref=e636]:
+                  - generic [ref=e637]:
+                    - img "🎴 Callout icon" [ref=e643]
+                    - generic [ref=e650]: ④ 듀오링고식 워드뱅크 — 기본 모드에서는 빈칸을 칩 탭으로 채웁니다. 오답 칩은 문제마다 수작업 큐레이션해서 "그럴듯한 함정"이 되도록 만들었습니다. 하드 모드로 바꾸면 칩이 사라지고 직접 타이핑.
+                - note [ref=e652]:
+                  - generic [ref=e653]:
+                    - img "🤝 Callout icon" [ref=e659]
+                    - generic [ref=e666]: ⑤ AI 듀얼 검증 — Claude가 출제하고 Codex(GPT-5)가 검증합니다. 한 모델이 허구(hallucination)를 냈을 때 다른 모델이 잡아내도록, 이 두 개의 합의가 있어야 문제가 머지됩니다.
+                - note [ref=e668]:
+                  - generic [ref=e669]:
+                    - img "🛰️ Callout icon" [ref=e675]
+                    - generic [ref=e682]: ⑥ 서버 제로 — 로그인도, API도, DB도 없습니다. 빌드 결과물은 정적 파일이라 아무 CDN에나 올릴 수 있고, 내 풀이 기록은 내 기기 바깥으로 나가지 않습니다.
+                - figure [ref=e686]
+                - generic [ref=e697]: "[4지 선다형]"
+                - figure [ref=e701]
+                - generic [ref=e712]: "[듀오링고형]"
+                - figure [ref=e716]
+                - generic [ref=e727]: "[대화형 문제]"
+                - figure [ref=e731]
+                - generic [ref=e742]: "[터미널 실습 문제]"
+                - separator [disabled] [ref=e745]
+                - heading "Claude ↔ Codex 문제 생성 워크플로우" [level=3] [ref=e750]
+                - generic [ref=e756]: 두 모델이 출제자와 검토자를 나눠 맡고, 서로 대화하며 품질을 끌어올리는 구조입니다.
+                - figure [ref=e760]:
+                  - generic [ref=e762]:
+                    - generic [ref=e764]: flowchart LR A["① 주제 선정<br/>(서브카테고리 + 난이도)"] --> B["② Claude 출제<br/>문제 · 선택지 · 해설"] B --> C["③ 포맷 검증<br/>quiz:validate"] C --> D["④ Codex 검증<br/>정확성 · 정답 유일성 · 해설"] D -->|피드백| B D -->|통과| E["⑤ E2E 테스트<br/>문제별 Playwright"] E --> F["⑥ 커밋 & 머지"]
+                    - button "Click diagram to expand in fullscreen" [disabled] [ref=e767]:
+                      - document [ref=e768]:
+                        - generic [ref=e769]:
+                          - paragraph [ref=e776]:
+                            - text: ① 주제 선정
+                            - text: (서브카테고리 + 난이도)
+                          - paragraph [ref=e783]:
+                            - text: ② Claude 출제
+                            - text: 문제 · 선택지 · 해설
+                          - paragraph [ref=e790]:
+                            - text: ③ 포맷 검증
+                            - text: quiz:validate
+                          - paragraph [ref=e797]:
+                            - text: ④ Codex 검증
+                            - text: 정확성 · 정답 유일성 · 해설
+                          - paragraph [ref=e804]:
+                            - text: ⑤ E2E 테스트
+                            - text: 문제별 Playwright
+                          - paragraph [ref=e811]: ⑥ 커밋 & 머지
+                        - generic [ref=e817]:
+                          - paragraph [ref=e823]: 피드백
+                          - paragraph [ref=e829]: 통과
+                - heading "단계별 역할" [level=4] [ref=e835]
+                - table [ref=e846]:
+                  - rowgroup [ref=e847]:
+                    - row "단계 주체 하는 일" [disabled] [ref=e848]:
+                      - columnheader "단계" [disabled] [ref=e849]:
+                        - generic [ref=e851]: 단계
+                      - columnheader "주체" [disabled] [ref=e852]:
+                        - generic [ref=e854]: 주체
+                      - columnheader "하는 일" [disabled] [ref=e855]:
+                        - generic [ref=e857]: 하는 일
+                    - 'row "① 사람 서브카테고리와 난이도 분배를 지정합니다. (예: memory-management 중급 2개)" [disabled] [ref=e858]':
+                      - cell "①" [ref=e859]:
+                        - generic [ref=e861]: ①
+                      - cell "사람" [ref=e862]:
+                        - generic [ref=e864]: 사람
+                      - 'cell "서브카테고리와 난이도 분배를 지정합니다. (예: memory-management 중급 2개)" [ref=e865]':
+                        - generic [ref=e867]:
+                          - text: "서브카테고리와 난이도 분배를 지정합니다. (예:"
+                          - generic [ref=e868]: memory-management
+                          - text: 중급 2개)
+                    - row "② Claude QUIZ.md 규칙에 맞춰 문제·선택지·해설·워드뱅크 오답을 생성하고 JSON으로 씁니다." [disabled] [ref=e869]:
+                      - cell "②" [ref=e870]:
+                        - generic [ref=e872]: ②
+                      - cell "Claude" [ref=e873]:
+                        - generic [ref=e875]: Claude
+                      - cell "QUIZ.md 규칙에 맞춰 문제·선택지·해설·워드뱅크 오답을 생성하고 JSON으로 씁니다." [ref=e876]:
+                        - generic [ref=e878]:
+                          - generic [ref=e879]: QUIZ.md
+                          - text: 규칙에 맞춰 문제·선택지·해설·워드뱅크 오답을 생성하고 JSON으로 씁니다.
+                    - row "③ 자동 도구 npm run quiz:validate로 스키마·중복·빈칸 수를 기계적으로 검증합니다." [disabled] [ref=e880]:
+                      - cell "③" [ref=e881]:
+                        - generic [ref=e883]: ③
+                      - cell "자동 도구" [ref=e884]:
+                        - generic [ref=e886]: 자동 도구
+                      - cell "npm run quiz:validate로 스키마·중복·빈칸 수를 기계적으로 검증합니다." [ref=e887]:
+                        - generic [ref=e889]:
+                          - generic [ref=e890]: npm run quiz:validate
+                          - text: 로 스키마·중복·빈칸 수를 기계적으로 검증합니다.
+                    - row "④ Codex (GPT-5) /codex-review 스킬을 통해 기술적 정확성, 정답의 유일성, 해설의 타당성을 블라인드로 다시 읽습니다." [disabled] [ref=e891]:
+                      - cell "④" [ref=e892]:
+                        - generic [ref=e894]: ④
+                      - cell "Codex (GPT-5)" [ref=e895]:
+                        - generic [ref=e897]: Codex (GPT-5)
+                      - cell "/codex-review 스킬을 통해 기술적 정확성, 정답의 유일성, 해설의 타당성을 블라인드로 다시 읽습니다." [ref=e898]:
+                        - generic [ref=e900]:
+                          - generic [ref=e901]: /codex-review
+                          - text: 스킬을 통해 기술적 정확성, 정답의 유일성, 해설의 타당성을 블라인드로 다시 읽습니다.
+                    - row "⑤ Claude ↔ Codex Codex가 지적한 문제를 Claude가 수정하고, 다시 검증 — 합의가 될 때까지 반복." [disabled] [ref=e902]:
+                      - cell "⑤" [ref=e903]:
+                        - generic [ref=e905]: ⑤
+                      - cell "Claude ↔ Codex" [ref=e906]:
+                        - generic [ref=e908]: Claude ↔ Codex
+                      - cell "Codex가 지적한 문제를 Claude가 수정하고, 다시 검증 — 합의가 될 때까지 반복." [ref=e909]:
+                        - generic [ref=e911]: Codex가 지적한 문제를 Claude가 수정하고, 다시 검증 — 합의가 될 때까지 반복.
+                    - row "⑥ 자동 도구 문제별로 Playwright E2E를 돌려 워드뱅크 채점·해설 노출·진행률 저장이 실제로 동작하는지 확인합니다." [disabled] [ref=e912]:
+                      - cell "⑥" [ref=e913]:
+                        - generic [ref=e915]: ⑥
+                      - cell "자동 도구" [ref=e916]:
+                        - generic [ref=e918]: 자동 도구
+                      - cell "문제별로 Playwright E2E를 돌려 워드뱅크 채점·해설 노출·진행률 저장이 실제로 동작하는지 확인합니다." [ref=e919]:
+                        - generic [ref=e921]: 문제별로 Playwright E2E를 돌려 워드뱅크 채점·해설 노출·진행률 저장이 실제로 동작하는지 확인합니다.
+                    - row "⑦ 사람 최종 승인 후 data/**/*.json에 커밋." [disabled] [ref=e922]:
+                      - cell "⑦" [ref=e923]:
+                        - generic [ref=e925]: ⑦
+                      - cell "사람" [ref=e926]:
+                        - generic [ref=e928]: 사람
+                      - cell "최종 승인 후 data/**/*.json에 커밋." [ref=e929]:
+                        - generic [ref=e931]:
+                          - text: 최종 승인 후
+                          - generic [ref=e932]: data/**/*.json
+                          - text: 에 커밋.
+                - note [ref=e934]:
+                  - generic [ref=e935]:
+                    - img "💡 Callout icon" [ref=e941]
+                    - generic [ref=e942]:
+                      - generic [ref=e948]: 왜 두 모델을 같이 쓰나요?
+                      - generic [ref=e954]: 한 모델이 만든 문제를 같은 모델이 검증하면 같은 방향의 편향을 놓칩니다. Claude와 Codex는 학습 데이터와 추론 성향이 달라서, 서로의 사각지대를 대신 짚어줍니다. 덕분에 "그럴듯한데 틀린 해설" 같은 전형적 hallucination이 저장소까지 올라오는 일이 크게 줄었습니다.
+        - region [ref=e956]
+    - status [ref=e957]
+    - alert [ref=e958]
+  - iframe [ref=e959]:
+    

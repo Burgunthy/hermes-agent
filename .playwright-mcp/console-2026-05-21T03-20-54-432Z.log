@@ -1,0 +1,34 @@
+[     304ms] [INFO] Resource Sentinel initialized... @ https://iced-stealer-0bd.notion.site/1-0315-lazy-meerkat-324b59134498804c9240d5b69d3abdd5:0
+[    1245ms] [INFO] 2026-05-21T03:20:55.677Z [info] PageLoader: loserAborted {data: Object} @ https://iced-stealer-0bd.notion.site/_assets/app-de89115667ff9fba.js:6
+[    1576ms] [WARNING] Ignoring inability to install OPFS sqlite3_vfs: Cannot install OPFS: Missing SharedArrayBuffer and/or Atomics. The server must emit the COOP/COEP response headers to enable those. See https://sqlite.org/wasm/doc/trunk/persistence.md#coop-coep @ https://iced-stealer-0bd.notion.site/_assets/wasm-sqlite-worker-b6861135b361cf2b.js:0
+[    1738ms] [INFO] 2026-05-21T03:20:56.169Z [info] FeatureFlagTransactionQueue: preferIndexedDB {team: no-team-specified} @ https://iced-stealer-0bd.notion.site/_assets/app-de89115667ff9fba.js:6
+[    1853ms] [INFO] 2026-05-21T03:20:56.284Z [info] appHelpers: shouldShowError {data: Object} @ https://iced-stealer-0bd.notion.site/_assets/app-de89115667ff9fba.js:6
+[    1863ms] [INFO] 2026-05-21T03:20:56.294Z [info] appHelpers: shouldShowError {data: Object} @ https://iced-stealer-0bd.notion.site/_assets/app-de89115667ff9fba.js:6
+[    1905ms] [LOG] %c
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnn                         nnnn
+	nnnnnnn                          nnnn
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnnnnnn                           nnn
+	nnnnnnnn    nnnnnnnn     nnnnnnn   nnn
+	nnnnnnnn      nnnnnnn      nnn     nnn
+	nnnnnnnn      nnnnnnnn     nnn     nnn
+	nnnnnnnn      nnnnnnnnnn   nnn     nnn
+	nnnnnnnn      nnn nnnnnnn  nnn     nnn
+	nnnnnnnn      nnn  nnnnnnnnnnn     nnn
+	nnnnnnnn      nnn   nnnnnnnnnn     nnn
+	nnnnnnnn      nnn     nnnnnnnn     nnn
+	nnnnnnnn      nnn      nnnnnnn     nnn
+	nnnnnnnn    nnnnnnnn    nnnnnn     nnn
+	  nnnnnn                           nnn
+		nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn		We're hiring!
+		  nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn		notion.so/careers
+
+	“yeah, I would probably eat a lemon for one hundred dollars” -- Ivan Zhao (2023-07-14)
+				  font-family: monospace @ https://iced-stealer-0bd.notion.site/_assets/mainApp-46fbf0f2898b24c6.js:61
+[    3365ms] [INFO] 2026-05-21T03:20:57.796Z [error] handleRestrictedStateForResponse: callApi {data: Object} @ https://iced-stealer-0bd.notion.site/_assets/app-de89115667ff9fba.js:6
+[    3385ms] [INFO] 2026-05-21T03:20:57.816Z [error] handleRestrictedStateForResponse: callApi {data: Object} @ https://iced-stealer-0bd.notion.site/_assets/app-de89115667ff9fba.js:6
+[    4306ms] [WARNING] Amplitude Logger [Warn]: Event not tracked, no destination plugins on the instance @ https://iced-stealer-0bd.notion.site/_assets/transport-support-49d6a98cbf389fa8.js:0
+[    4307ms] [INFO] 2026-05-21T03:20:58.739Z [error] eventTrailApiHelpers: trackFailure {error: Object} @ https://iced-stealer-0bd.notion.site/_assets/app-de89115667ff9fba.js:6
+[    7418ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.metadata.io/pixel/config/1127.json:0

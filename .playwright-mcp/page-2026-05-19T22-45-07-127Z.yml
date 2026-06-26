@@ -1,0 +1,384 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3] [cursor=pointer]: 
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - link "" [ref=e10] [cursor=pointer]:
+          - /url: https://www.facebook.com/ServeTheHome/
+          - generic [ref=e11]: 
+        - link "" [ref=e13] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/servethehome-com/
+          - generic [ref=e14]: 
+        - link "" [ref=e16] [cursor=pointer]:
+          - /url: http://feeds.feedburner.com/servethehome
+          - generic [ref=e17]: 
+        - link "" [ref=e19] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@servethehome
+          - generic [ref=e20]: 
+        - link "" [ref=e22] [cursor=pointer]:
+          - /url: https://twitter.com/servethehome
+          - generic [ref=e23]: 
+        - link "" [ref=e25] [cursor=pointer]:
+          - /url: https://www.youtube.com/ServeTheHomeVideo?sub_confirmation=1
+          - generic [ref=e26]: 
+      - generic [ref=e29]: 
+    - list [ref=e32]:
+      - listitem [ref=e33]:
+        - link "Forums" [ref=e34] [cursor=pointer]:
+          - /url: https://forums.servethehome.com
+      - listitem [ref=e35]:
+        - link "AI" [ref=e36] [cursor=pointer]:
+          - /url: https://www.servethehome.com/category/ai-deep-learning/
+      - listitem [ref=e37]:
+        - link "Server " [ref=e38] [cursor=pointer]:
+          - /url: https://www.servethehome.com/category/server-parts/
+          - text: Server
+          - generic [ref=e39]: 
+        - list:
+          - listitem [ref=e40]:
+            - link "Server Systems" [ref=e41] [cursor=pointer]:
+              - /url: https://www.servethehome.com/category/server-parts/server-systems/
+          - listitem [ref=e42]:
+            - link "Server CPUs" [ref=e43] [cursor=pointer]:
+              - /url: https://www.servethehome.com/category/server-parts/cpus/
+          - listitem [ref=e44]:
+            - link "Accelerators" [ref=e45] [cursor=pointer]:
+              - /url: https://www.servethehome.com/category/server-parts/accelerators/
+          - listitem [ref=e46]:
+            - link "Server Motherboards" [ref=e47] [cursor=pointer]:
+              - /url: https://www.servethehome.com/category/server-parts/motherboards/
+          - listitem [ref=e48]:
+            - link "Server Chassis" [ref=e49] [cursor=pointer]:
+              - /url: https://www.servethehome.com/category/server-parts/server-chassis/
+          - listitem [ref=e50]:
+            - link "Other Components" [ref=e51] [cursor=pointer]:
+              - /url: https://www.servethehome.com/category/server-parts/other-components/
+      - listitem [ref=e52]:
+        - link "5G Edge" [ref=e53] [cursor=pointer]:
+          - /url: https://www.servethehome.com/category/edge/
+      - listitem [ref=e54]:
+        - link "Storage" [ref=e55] [cursor=pointer]:
+          - /url: https://www.servethehome.com/category/storage/
+      - listitem [ref=e56]:
+        - link "Networking" [ref=e57] [cursor=pointer]:
+          - /url: https://www.servethehome.com/category/networking/
+      - listitem [ref=e58]:
+        - link "Workstation " [ref=e59] [cursor=pointer]:
+          - /url: https://www.servethehome.com/category/workstations/
+          - text: Workstation
+          - generic [ref=e60]: 
+        - list:
+          - listitem [ref=e61]:
+            - link "Workstation Processors" [ref=e62] [cursor=pointer]:
+              - /url: https://www.servethehome.com/category/workstations/workstation-processors/
+          - listitem [ref=e63]:
+            - link "Workstation Motherboards" [ref=e64] [cursor=pointer]:
+              - /url: https://www.servethehome.com/category/workstations/workstation-motherboards/
+      - listitem [ref=e65]:
+        - link "Software " [ref=e66] [cursor=pointer]:
+          - /url: https://www.servethehome.com/category/server-software/
+          - text: Software
+          - generic [ref=e67]: 
+        - list:
+          - listitem [ref=e68]:
+            - link "Operating Systems" [ref=e69] [cursor=pointer]:
+              - /url: https://www.servethehome.com/category/server-software/operating-systems/
+          - listitem [ref=e70]:
+            - link "Server Applications" [ref=e71] [cursor=pointer]:
+              - /url: https://www.servethehome.com/category/server-software/server-applications/
+          - listitem [ref=e72]:
+            - link "Virtualization" [ref=e73] [cursor=pointer]:
+              - /url: https://www.servethehome.com/category/server-software/virtualization-other/
+      - listitem [ref=e74]:
+        - link "Guides " [ref=e75] [cursor=pointer]:
+          - /url: https://www.servethehome.com/buyers-guides/
+          - text: Guides
+          - generic [ref=e76]: 
+        - list:
+          - listitem [ref=e77]:
+            - link "Buyer’s Guides" [ref=e78] [cursor=pointer]:
+              - /url: https://www.servethehome.com/category/client-tips-and-tricks/buyers-guides/
+          - listitem [ref=e79]:
+            - link "Tips" [ref=e80] [cursor=pointer]:
+              - /url: https://www.servethehome.com/category/client-tips-and-tricks/
+          - listitem [ref=e81]:
+            - link "Top Hardware Components for TrueNAS / FreeNAS NAS Servers" [ref=e82] [cursor=pointer]:
+              - /url: https://www.servethehome.com/buyers-guides/top-hardware-components-for-truenas-freenas-nas-servers/
+          - listitem [ref=e83]:
+            - link "Top Hardware Components for pfSense Appliances" [ref=e84] [cursor=pointer]:
+              - /url: https://www.servethehome.com/buyers-guides/top-hardware-components-pfsense-appliances/
+          - listitem [ref=e85]:
+            - link "Top Hardware Components for napp-it and Solarish NAS Servers" [ref=e86] [cursor=pointer]:
+              - /url: https://www.servethehome.com/buyers-guides/top-hardware-components-napp-omnios-nas-servers/
+          - listitem [ref=e87]:
+            - link "Top Picks for Windows Server 2016 Essentials Hardware" [ref=e88] [cursor=pointer]:
+              - /url: https://www.servethehome.com/buyers-guides/top-picks-windows-server-2016-essentials-hardware/
+          - listitem [ref=e89]:
+            - link "The DIY WordPress Hosting Server Hardware Guide" [ref=e90] [cursor=pointer]:
+              - /url: https://www.servethehome.com/buyers-guides/the-diy-wordpress-hosting-server-hardware-guide/
+  - generic [ref=e91]:
+    - generic [ref=e93]:
+      - generic [ref=e95]:
+        - generic:
+          - generic [ref=e96]:
+            - link "" [ref=e98] [cursor=pointer]:
+              - /url: https://www.facebook.com/ServeTheHome/
+              - generic [ref=e99]: 
+            - link "" [ref=e101] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/servethehome-com/
+              - generic [ref=e102]: 
+            - link "" [ref=e104] [cursor=pointer]:
+              - /url: http://feeds.feedburner.com/servethehome
+              - generic [ref=e105]: 
+            - link "" [ref=e107] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@servethehome
+              - generic [ref=e108]: 
+            - link "" [ref=e110] [cursor=pointer]:
+              - /url: https://twitter.com/servethehome
+              - generic [ref=e111]: 
+            - link "" [ref=e113] [cursor=pointer]:
+              - /url: https://www.youtube.com/ServeTheHomeVideo?sub_confirmation=1
+              - generic [ref=e114]: 
+          - generic [ref=e115]:
+            - generic [ref=e116]: Wednesday, May 20, 2026
+            - list [ref=e118]:
+              - listitem [ref=e119]:
+                - link "ServeTheHome News" [ref=e120] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/category/news/
+              - listitem [ref=e121]:
+                - link "Storage Reliability " [ref=e122] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/raid-calculator/
+                  - text: Storage Reliability
+                  - generic [ref=e123]: 
+              - listitem [ref=e124]:
+                - link "About " [ref=e125] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/about/
+                  - text: About
+                  - generic [ref=e126]: 
+              - listitem [ref=e127]:
+                - link "AG Substack" [ref=e128] [cursor=pointer]:
+                  - /url: https://axautikgroupllc.substack.com/
+              - listitem [ref=e129]:
+                - link "AG Reports" [ref=e130] [cursor=pointer]:
+                  - /url: https://reports.axautikgroup.com/
+              - listitem [ref=e131]:
+                - link "Subscribe" [ref=e132] [cursor=pointer]:
+                  - /url: https://eepurl.com/dryM09
+              - listitem [ref=e133]:
+                - link "ServeTheHome Forums" [ref=e134] [cursor=pointer]:
+                  - /url: https://forums.servethehome.com
+        - text: 
+      - generic [ref=e136]:
+        - generic [ref=e137]:
+          - link "ServeTheHome Logo ServeTheHome":
+            - /url: https://www.servethehome.com/
+            - img "ServeTheHome Logo" [ref=e138] [cursor=pointer]
+            - generic [ref=e139] [cursor=pointer]: ServeTheHome
+        - generic [ref=e142]:
+          - generic [ref=e143]: Advertisement
+          - insertion
+      - generic [ref=e146]:
+        - navigation [ref=e147]:
+          - text: 
+          - generic:
+            - list:
+              - listitem [ref=e148]:
+                - link "Forums" [ref=e149] [cursor=pointer]:
+                  - /url: https://forums.servethehome.com
+              - listitem [ref=e150]:
+                - link "AI" [ref=e151] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/category/ai-deep-learning/
+              - listitem [ref=e152]:
+                - link "Server " [ref=e153] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/category/server-parts/
+                  - text: Server
+                  - generic [ref=e154]: 
+              - listitem [ref=e155]:
+                - link "5G Edge" [ref=e156] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/category/edge/
+              - listitem [ref=e157]:
+                - link "Storage" [ref=e158] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/category/storage/
+              - listitem [ref=e159]:
+                - link "Networking" [ref=e160] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/category/networking/
+              - listitem [ref=e161]:
+                - link "Workstation " [ref=e162] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/category/workstations/
+                  - text: Workstation
+                  - generic [ref=e163]: 
+              - listitem [ref=e164]:
+                - link "Software " [ref=e165] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/category/server-software/
+                  - text: Software
+                  - generic [ref=e166]: 
+              - listitem [ref=e167]:
+                - link "Guides " [ref=e168] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/buyers-guides/
+                  - text: Guides
+                  - generic [ref=e169]: 
+        - generic [ref=e171]:
+          - button "Search" [ref=e172] [cursor=pointer]:
+            - generic [ref=e173]: 
+          - text: 
+    - main [ref=e174]:
+      - generic [ref=e177]:
+        - generic [ref=e181]:
+          - heading "Ooops... Error 404" [level=3] [ref=e186]
+          - paragraph [ref=e188]: Sorry, but the page you are looking for doesn't exist.
+          - link "Go to the homepage" [ref=e191] [cursor=pointer]:
+            - /url: https://demo.tagdiv.com/newspaper_pro/
+        - generic [ref=e196]:
+          - generic [ref=e197]:
+            - generic [ref=e199]:
+              - generic [ref=e200]:
+                - link "Server CPUs" [ref=e201] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/category/server-parts/cpus/
+                - link "AMD EPYC 8005 is Out with Up to 84 Zen 5 Cores in a 225W TDP Package" [ref=e203] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/amd-epyc-8005-is-out-with-up-to-84-zen-5-cores-in-a-225w-tdp/
+              - generic [ref=e205]:
+                - heading "AMD EPYC 8005 is Out with Up to 84 Zen 5 Cores in a 225W TDP Package" [level=3] [ref=e206]:
+                  - link "AMD EPYC 8005 is Out with Up to 84 Zen 5 Cores in a 225W TDP Package" [ref=e207] [cursor=pointer]:
+                    - /url: https://www.servethehome.com/amd-epyc-8005-is-out-with-up-to-84-zen-5-cores-in-a-225w-tdp/
+                - generic [ref=e209]:
+                  - generic [ref=e210]:
+                    - link "Patrick Kennedy" [ref=e211] [cursor=pointer]:
+                      - /url: https://www.servethehome.com/author/patrick/
+                    - generic [ref=e212]: "-"
+                  - time [ref=e214]: May 19, 2026
+                  - link "0" [ref=e216] [cursor=pointer]:
+                    - /url: https://www.servethehome.com/amd-epyc-8005-is-out-with-up-to-84-zen-5-cores-in-a-225w-tdp/#respond
+            - generic [ref=e218]:
+              - generic [ref=e219]:
+                - link "AI" [ref=e220] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/category/ai-deep-learning/
+                - 'link "Dell Tech World 2026: It’s All About Sovereign and On-Premises AI" [ref=e222] [cursor=pointer]':
+                  - /url: https://www.servethehome.com/dell-tech-world-2026-its-all-about-sovereign-and-on-premises-ai/
+              - generic [ref=e224]:
+                - 'heading "Dell Tech World 2026: It’s All About Sovereign and On-Premises AI" [level=3] [ref=e225]':
+                  - 'link "Dell Tech World 2026: It’s All About Sovereign and On-Premises AI" [ref=e226] [cursor=pointer]':
+                    - /url: https://www.servethehome.com/dell-tech-world-2026-its-all-about-sovereign-and-on-premises-ai/
+                - generic [ref=e228]:
+                  - generic [ref=e229]:
+                    - link "Ryan Smith" [ref=e230] [cursor=pointer]:
+                      - /url: https://www.servethehome.com/author/ryansmith/
+                    - generic [ref=e231]: "-"
+                  - time [ref=e233]: May 18, 2026
+                  - link "0" [ref=e235] [cursor=pointer]:
+                    - /url: https://www.servethehome.com/dell-tech-world-2026-its-all-about-sovereign-and-on-premises-ai/#respond
+            - generic [ref=e237]:
+              - generic [ref=e238]:
+                - link "Mobile" [ref=e239] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/category/mobile/
+                - link "Dell XPS 14 2026 Review Thin and Light Done Right" [ref=e241] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/dell-xps-14-2026-review-thin-and-light-done-right-intel/
+              - generic [ref=e243]:
+                - heading "Dell XPS 14 2026 Review Thin and Light Done Right" [level=3] [ref=e244]:
+                  - link "Dell XPS 14 2026 Review Thin and Light Done Right" [ref=e245] [cursor=pointer]:
+                    - /url: https://www.servethehome.com/dell-xps-14-2026-review-thin-and-light-done-right-intel/
+                - generic [ref=e247]:
+                  - generic [ref=e248]:
+                    - link "Ryan Smith" [ref=e249] [cursor=pointer]:
+                      - /url: https://www.servethehome.com/author/ryansmith/
+                    - generic [ref=e250]: "-"
+                  - time [ref=e252]: May 17, 2026
+                  - link "7" [ref=e254] [cursor=pointer]:
+                    - /url: https://www.servethehome.com/dell-xps-14-2026-review-thin-and-light-done-right-intel/#comments
+            - generic [ref=e256]:
+              - generic [ref=e257]:
+                - link "Networking" [ref=e258] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/category/networking/
+                - link "BZIZU Realtek RTL8127 PCIe 10GbE Network Adapter Review" [ref=e260] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/bzizu-realtek-rtl8127-pcie-10gbe-network-adapter-review/
+              - generic [ref=e262]:
+                - heading "BZIZU Realtek RTL8127 PCIe 10GbE Network Adapter Review" [level=3] [ref=e263]:
+                  - link "BZIZU Realtek RTL8127 PCIe 10GbE Network Adapter Review" [ref=e264] [cursor=pointer]:
+                    - /url: https://www.servethehome.com/bzizu-realtek-rtl8127-pcie-10gbe-network-adapter-review/
+                - generic [ref=e266]:
+                  - generic [ref=e267]:
+                    - link "Rohit Kumar" [ref=e268] [cursor=pointer]:
+                      - /url: https://www.servethehome.com/author/arohitkumar/
+                    - generic [ref=e269]: "-"
+                  - time [ref=e271]: May 16, 2026
+                  - link "9" [ref=e273] [cursor=pointer]:
+                    - /url: https://www.servethehome.com/bzizu-realtek-rtl8127-pcie-10gbe-network-adapter-review/#comments
+            - generic [ref=e275]:
+              - generic [ref=e276]:
+                - link "Mobile" [ref=e277] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/category/mobile/
+                - link "ASUS ZenScreen MB16ACE Review A 15.6in 1080P IPS Option" [ref=e279] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/asus-zenscreen-mb16ace-review-a-15-6in-1080p-ips-option/
+              - generic [ref=e281]:
+                - heading "ASUS ZenScreen MB16ACE Review A 15.6in 1080P IPS Option" [level=3] [ref=e282]:
+                  - link "ASUS ZenScreen MB16ACE Review A 15.6in 1080P IPS Option" [ref=e283] [cursor=pointer]:
+                    - /url: https://www.servethehome.com/asus-zenscreen-mb16ace-review-a-15-6in-1080p-ips-option/
+                - generic [ref=e285]:
+                  - generic [ref=e286]:
+                    - link "Sam Sabinash" [ref=e287] [cursor=pointer]:
+                      - /url: https://www.servethehome.com/author/samsabinash/
+                    - generic [ref=e288]: "-"
+                  - time [ref=e290]: May 15, 2026
+                  - link "4" [ref=e292] [cursor=pointer]:
+                    - /url: https://www.servethehome.com/asus-zenscreen-mb16ace-review-a-15-6in-1080p-ips-option/#comments
+            - generic [ref=e294]:
+              - generic [ref=e295]:
+                - link "Networking" [ref=e296] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/category/networking/
+                - link "Fortinet FortiGate FG-40F Review Leveling-up Firewall Testing" [ref=e298] [cursor=pointer]:
+                  - /url: https://www.servethehome.com/fortinet-fortigate-fg-40f-review-leveling-up-firewall-testing/
+              - generic [ref=e300]:
+                - heading "Fortinet FortiGate FG-40F Review Leveling-up Firewall Testing" [level=3] [ref=e301]:
+                  - link "Fortinet FortiGate FG-40F Review Leveling-up Firewall Testing" [ref=e302] [cursor=pointer]:
+                    - /url: https://www.servethehome.com/fortinet-fortigate-fg-40f-review-leveling-up-firewall-testing/
+                - generic [ref=e304]:
+                  - generic [ref=e305]:
+                    - link "Patrick Kennedy" [ref=e306] [cursor=pointer]:
+                      - /url: https://www.servethehome.com/author/patrick/
+                    - generic [ref=e307]: "-"
+                  - time [ref=e309]: May 14, 2026
+                  - link "19" [ref=e311] [cursor=pointer]:
+                    - /url: https://www.servethehome.com/fortinet-fortigate-fg-40f-review-leveling-up-firewall-testing/#comments
+          - link "Load more" [ref=e313] [cursor=pointer]:
+            - /url: "#"
+            - text: Load more
+            - generic [ref=e314]: 
+    - generic [ref=e315]:
+      - generic [ref=e318]:
+        - complementary [ref=e320]:
+          - link "ServeTheHome Logo" [ref=e321] [cursor=pointer]:
+            - /url: https://www.servethehome.com/
+            - img "ServeTheHome Logo" [ref=e322]
+        - complementary [ref=e324]:
+          - generic [ref=e326]: ABOUT US
+          - text: ServeTheHome is the IT professional's guide to servers, storage, networking, and high-end workstation hardware, plus great open source projects.
+          - link "Advertise on STH" [ref=e328] [cursor=pointer]:
+            - /url: https://www.servethehome.com/advertise/
+          - text: "DISCLAIMERS: We are a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for us to earn fees by linking to Amazon.com and affiliated sites."
+          - text: Please be advised of our data usage for machine learning and AI inference and training purposes which can be found
+          - link "here" [ref=e329] [cursor=pointer]:
+            - /url: https://www.servethehome.com/about/editorial-copyright-policies/
+          - text: along with our other editorial and copyright policies.
+        - complementary [ref=e331]:
+          - generic [ref=e333]: FOLLOW US
+          - link "" [ref=e335] [cursor=pointer]:
+            - /url: https://www.facebook.com/ServeTheHome/
+            - generic [ref=e336]: 
+          - link "" [ref=e338] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/servethehome-com/
+            - generic [ref=e339]: 
+          - link "" [ref=e341] [cursor=pointer]:
+            - /url: http://feeds.feedburner.com/servethehome
+            - generic [ref=e342]: 
+          - link "" [ref=e344] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@servethehome
+            - generic [ref=e345]: 
+          - link "" [ref=e347] [cursor=pointer]:
+            - /url: https://twitter.com/servethehome
+            - generic [ref=e348]: 
+          - link "" [ref=e350] [cursor=pointer]:
+            - /url: https://www.youtube.com/ServeTheHomeVideo?sub_confirmation=1
+            - generic [ref=e351]: 
+      - generic [ref=e356]:
+        - text: © 2009-2026
+        - link "Axautik Group LLC" [ref=e357] [cursor=pointer]:
+          - /url: https://www.axautikgroup.com/

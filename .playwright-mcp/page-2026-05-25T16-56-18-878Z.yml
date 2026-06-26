@@ -1,0 +1,426 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ollama" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Ollama" [ref=e5]
+      - generic [ref=e6]:
+        - link "Models" [ref=e7] [cursor=pointer]:
+          - /url: /search
+        - link "Docs" [ref=e8] [cursor=pointer]:
+          - /url: /docs
+        - link "Pricing" [ref=e9] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=e13]:
+        - img [ref=e15]
+        - textbox "Search models" [ref=e17]
+      - generic [ref=e18]:
+        - link "Sign in" [ref=e19] [cursor=pointer]:
+          - /url: /signin
+        - link "Download" [ref=e20] [cursor=pointer]:
+          - /url: /download
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - link "deepseek-r1" [ref=e27] [cursor=pointer]:
+        - /url: /library/deepseek-r1
+      - generic [ref=e28]:
+        - paragraph [ref=e30]:
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - generic [ref=e34]: 86.2M
+            - generic [ref=e35]: Downloads
+          - generic "Jul 2, 2025 6:09 AM UTC" [ref=e36]:
+            - img [ref=e37]
+            - generic [ref=e39]: Updated
+            - generic [ref=e40]: 10 months ago
+        - heading "DeepSeek-R1 is a family of open reasoning models with performance approaching that of leading models, such as O3 and Gemini 2.5 Pro." [level=2] [ref=e42]
+        - generic [ref=e43]:
+          - generic [ref=e44]: tools
+          - generic [ref=e45]: thinking
+          - generic [ref=e46]: 1.5b
+          - generic [ref=e47]: 7b
+          - generic [ref=e48]: 8b
+          - generic [ref=e49]: 14b
+          - generic [ref=e50]: 32b
+          - generic [ref=e51]: 70b
+          - generic [ref=e52]: 671b
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - paragraph [ref=e57]: Name
+        - paragraph [ref=e58]: Size / Usage
+        - paragraph [ref=e59]: Context
+        - paragraph [ref=e60]: Input
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - link "deepseek-r1:latest" [ref=e65] [cursor=pointer]:
+            - /url: /library/deepseek-r1:latest
+          - paragraph [ref=e66]: 5.2GB
+          - paragraph [ref=e67]: 128K
+          - generic [ref=e68]: Text
+        - generic [ref=e69]:
+          - generic [ref=e70]: 6995872bfe4c
+          - text: · 12 months ago
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - link "deepseek-r1:1.5b" [ref=e75] [cursor=pointer]:
+            - /url: /library/deepseek-r1:1.5b
+          - paragraph [ref=e76]: 1.1GB
+          - paragraph [ref=e77]: 128K
+          - generic [ref=e78]: Text
+        - generic [ref=e79]:
+          - generic [ref=e80]: e0979632db5a
+          - text: · 12 months ago
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - link "deepseek-r1:7b" [ref=e85] [cursor=pointer]:
+            - /url: /library/deepseek-r1:7b
+          - paragraph [ref=e86]: 4.7GB
+          - paragraph [ref=e87]: 128K
+          - generic [ref=e88]: Text
+        - generic [ref=e89]:
+          - generic [ref=e90]: 755ced02ce7b
+          - text: · 12 months ago
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - link "deepseek-r1:8b" [ref=e95] [cursor=pointer]:
+              - /url: /library/deepseek-r1:8b
+            - generic [ref=e96]: latest
+          - paragraph [ref=e97]: 5.2GB
+          - paragraph [ref=e98]: 128K
+          - generic [ref=e99]: Text
+        - generic [ref=e100]:
+          - generic [ref=e101]: 6995872bfe4c
+          - text: · 12 months ago
+      - generic [ref=e103]:
+        - generic [ref=e104]:
+          - link "deepseek-r1:14b" [ref=e106] [cursor=pointer]:
+            - /url: /library/deepseek-r1:14b
+          - paragraph [ref=e107]: 9.0GB
+          - paragraph [ref=e108]: 128K
+          - generic [ref=e109]: Text
+        - generic [ref=e110]:
+          - generic [ref=e111]: c333b7232bdb
+          - text: · 12 months ago
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - link "deepseek-r1:32b" [ref=e116] [cursor=pointer]:
+            - /url: /library/deepseek-r1:32b
+          - paragraph [ref=e117]: 20GB
+          - paragraph [ref=e118]: 128K
+          - generic [ref=e119]: Text
+        - generic [ref=e120]:
+          - generic [ref=e121]: edba8017331d
+          - text: · 12 months ago
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - link "deepseek-r1:70b" [ref=e126] [cursor=pointer]:
+            - /url: /library/deepseek-r1:70b
+          - paragraph [ref=e127]: 43GB
+          - paragraph [ref=e128]: 128K
+          - generic [ref=e129]: Text
+        - generic [ref=e130]:
+          - generic [ref=e131]: d37b54d01a76
+          - text: · 12 months ago
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - link "deepseek-r1:671b" [ref=e136] [cursor=pointer]:
+            - /url: /library/deepseek-r1:671b
+          - paragraph [ref=e137]: 404GB
+          - paragraph [ref=e138]: 160K
+          - generic [ref=e139]: Text
+        - generic [ref=e140]:
+          - generic [ref=e141]: 14a4e575643d
+          - text: · 10 months ago
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - link "deepseek-r1:1.5b-qwen-distill-q4_K_M" [ref=e146] [cursor=pointer]:
+            - /url: /library/deepseek-r1:1.5b-qwen-distill-q4_K_M
+          - paragraph [ref=e147]: 1.1GB
+          - paragraph [ref=e148]: 128K
+          - generic [ref=e149]: Text
+        - generic [ref=e150]:
+          - generic [ref=e151]: e0979632db5a
+          - text: · 12 months ago
+      - generic [ref=e153]:
+        - generic [ref=e154]:
+          - link "deepseek-r1:1.5b-qwen-distill-q8_0" [ref=e156] [cursor=pointer]:
+            - /url: /library/deepseek-r1:1.5b-qwen-distill-q8_0
+          - paragraph [ref=e157]: 1.9GB
+          - paragraph [ref=e158]: 128K
+          - generic [ref=e159]: Text
+        - generic [ref=e160]:
+          - generic [ref=e161]: 21c9dbd320fa
+          - text: · 12 months ago
+      - generic [ref=e163]:
+        - generic [ref=e164]:
+          - link "deepseek-r1:1.5b-qwen-distill-fp16" [ref=e166] [cursor=pointer]:
+            - /url: /library/deepseek-r1:1.5b-qwen-distill-fp16
+          - paragraph [ref=e167]: 3.6GB
+          - paragraph [ref=e168]: 128K
+          - generic [ref=e169]: Text
+        - generic [ref=e170]:
+          - generic [ref=e171]: 80c3a3c97773
+          - text: · 12 months ago
+      - generic [ref=e173]:
+        - generic [ref=e174]:
+          - link "deepseek-r1:7b-qwen-distill-q4_K_M" [ref=e176] [cursor=pointer]:
+            - /url: /library/deepseek-r1:7b-qwen-distill-q4_K_M
+          - paragraph [ref=e177]: 4.7GB
+          - paragraph [ref=e178]: 128K
+          - generic [ref=e179]: Text
+        - generic [ref=e180]:
+          - generic [ref=e181]: 755ced02ce7b
+          - text: · 12 months ago
+      - generic [ref=e183]:
+        - generic [ref=e184]:
+          - link "deepseek-r1:7b-qwen-distill-q8_0" [ref=e186] [cursor=pointer]:
+            - /url: /library/deepseek-r1:7b-qwen-distill-q8_0
+          - paragraph [ref=e187]: 8.1GB
+          - paragraph [ref=e188]: 128K
+          - generic [ref=e189]: Text
+        - generic [ref=e190]:
+          - generic [ref=e191]: 1b1708b22a5f
+          - text: · 12 months ago
+      - generic [ref=e193]:
+        - generic [ref=e194]:
+          - link "deepseek-r1:7b-qwen-distill-fp16" [ref=e196] [cursor=pointer]:
+            - /url: /library/deepseek-r1:7b-qwen-distill-fp16
+          - paragraph [ref=e197]: 15GB
+          - paragraph [ref=e198]: 128K
+          - generic [ref=e199]: Text
+        - generic [ref=e200]:
+          - generic [ref=e201]: e18c08316744
+          - text: · 12 months ago
+      - generic [ref=e203]:
+        - generic [ref=e204]:
+          - link "deepseek-r1:8b-0528-qwen3-q4_K_M" [ref=e206] [cursor=pointer]:
+            - /url: /library/deepseek-r1:8b-0528-qwen3-q4_K_M
+          - paragraph [ref=e207]: 5.2GB
+          - paragraph [ref=e208]: 128K
+          - generic [ref=e209]: Text
+        - generic [ref=e210]:
+          - generic [ref=e211]: 6995872bfe4c
+          - text: · 12 months ago
+      - generic [ref=e213]:
+        - generic [ref=e214]:
+          - link "deepseek-r1:8b-0528-qwen3-q8_0" [ref=e216] [cursor=pointer]:
+            - /url: /library/deepseek-r1:8b-0528-qwen3-q8_0
+          - paragraph [ref=e217]: 8.9GB
+          - paragraph [ref=e218]: 128K
+          - generic [ref=e219]: Text
+        - generic [ref=e220]:
+          - generic [ref=e221]: cade62fd2850
+          - text: · 12 months ago
+      - generic [ref=e223]:
+        - generic [ref=e224]:
+          - link "deepseek-r1:8b-0528-qwen3-fp16" [ref=e226] [cursor=pointer]:
+            - /url: /library/deepseek-r1:8b-0528-qwen3-fp16
+          - paragraph [ref=e227]: 16GB
+          - paragraph [ref=e228]: 128K
+          - generic [ref=e229]: Text
+        - generic [ref=e230]:
+          - generic [ref=e231]: a5f168330005
+          - text: · 12 months ago
+      - generic [ref=e233]:
+        - generic [ref=e234]:
+          - link "deepseek-r1:8b-llama-distill-q4_K_M" [ref=e236] [cursor=pointer]:
+            - /url: /library/deepseek-r1:8b-llama-distill-q4_K_M
+          - paragraph [ref=e237]: 4.9GB
+          - paragraph [ref=e238]: 128K
+          - generic [ref=e239]: Text
+        - generic [ref=e240]:
+          - generic [ref=e241]: 9e54bf95550c
+          - text: · 12 months ago
+      - generic [ref=e243]:
+        - generic [ref=e244]:
+          - link "deepseek-r1:8b-llama-distill-q8_0" [ref=e246] [cursor=pointer]:
+            - /url: /library/deepseek-r1:8b-llama-distill-q8_0
+          - paragraph [ref=e247]: 8.5GB
+          - paragraph [ref=e248]: 128K
+          - generic [ref=e249]: Text
+        - generic [ref=e250]:
+          - generic [ref=e251]: 744d1ee47c3d
+          - text: · 12 months ago
+      - generic [ref=e253]:
+        - generic [ref=e254]:
+          - link "deepseek-r1:8b-llama-distill-fp16" [ref=e256] [cursor=pointer]:
+            - /url: /library/deepseek-r1:8b-llama-distill-fp16
+          - paragraph [ref=e257]: 16GB
+          - paragraph [ref=e258]: 128K
+          - generic [ref=e259]: Text
+        - generic [ref=e260]:
+          - generic [ref=e261]: 859adef8321e
+          - text: · 12 months ago
+      - generic [ref=e263]:
+        - generic [ref=e264]:
+          - link "deepseek-r1:14b-qwen-distill-q4_K_M" [ref=e266] [cursor=pointer]:
+            - /url: /library/deepseek-r1:14b-qwen-distill-q4_K_M
+          - paragraph [ref=e267]: 9.0GB
+          - paragraph [ref=e268]: 128K
+          - generic [ref=e269]: Text
+        - generic [ref=e270]:
+          - generic [ref=e271]: c333b7232bdb
+          - text: · 12 months ago
+      - generic [ref=e273]:
+        - generic [ref=e274]:
+          - link "deepseek-r1:14b-qwen-distill-q8_0" [ref=e276] [cursor=pointer]:
+            - /url: /library/deepseek-r1:14b-qwen-distill-q8_0
+          - paragraph [ref=e277]: 16GB
+          - paragraph [ref=e278]: 128K
+          - generic [ref=e279]: Text
+        - generic [ref=e280]:
+          - generic [ref=e281]: b3c61716272d
+          - text: · 12 months ago
+      - generic [ref=e283]:
+        - generic [ref=e284]:
+          - link "deepseek-r1:14b-qwen-distill-fp16" [ref=e286] [cursor=pointer]:
+            - /url: /library/deepseek-r1:14b-qwen-distill-fp16
+          - paragraph [ref=e287]: 30GB
+          - paragraph [ref=e288]: 128K
+          - generic [ref=e289]: Text
+        - generic [ref=e290]:
+          - generic [ref=e291]: 7c72950ea94e
+          - text: · 12 months ago
+      - generic [ref=e293]:
+        - generic [ref=e294]:
+          - link "deepseek-r1:32b-qwen-distill-q4_K_M" [ref=e296] [cursor=pointer]:
+            - /url: /library/deepseek-r1:32b-qwen-distill-q4_K_M
+          - paragraph [ref=e297]: 20GB
+          - paragraph [ref=e298]: 128K
+          - generic [ref=e299]: Text
+        - generic [ref=e300]:
+          - generic [ref=e301]: edba8017331d
+          - text: · 12 months ago
+      - generic [ref=e303]:
+        - generic [ref=e304]:
+          - link "deepseek-r1:32b-qwen-distill-q8_0" [ref=e306] [cursor=pointer]:
+            - /url: /library/deepseek-r1:32b-qwen-distill-q8_0
+          - paragraph [ref=e307]: 35GB
+          - paragraph [ref=e308]: 128K
+          - generic [ref=e309]: Text
+        - generic [ref=e310]:
+          - generic [ref=e311]: b177522350a4
+          - text: · 12 months ago
+      - generic [ref=e313]:
+        - generic [ref=e314]:
+          - link "deepseek-r1:32b-qwen-distill-fp16" [ref=e316] [cursor=pointer]:
+            - /url: /library/deepseek-r1:32b-qwen-distill-fp16
+          - paragraph [ref=e317]: 66GB
+          - paragraph [ref=e318]: 128K
+          - generic [ref=e319]: Text
+        - generic [ref=e320]:
+          - generic [ref=e321]: 20ed0f80363b
+          - text: · 12 months ago
+      - generic [ref=e323]:
+        - generic [ref=e324]:
+          - link "deepseek-r1:70b-llama-distill-q4_K_M" [ref=e326] [cursor=pointer]:
+            - /url: /library/deepseek-r1:70b-llama-distill-q4_K_M
+          - paragraph [ref=e327]: 43GB
+          - paragraph [ref=e328]: 128K
+          - generic [ref=e329]: Text
+        - generic [ref=e330]:
+          - generic [ref=e331]: d37b54d01a76
+          - text: · 12 months ago
+      - generic [ref=e333]:
+        - generic [ref=e334]:
+          - link "deepseek-r1:70b-llama-distill-q8_0" [ref=e336] [cursor=pointer]:
+            - /url: /library/deepseek-r1:70b-llama-distill-q8_0
+          - paragraph [ref=e337]: 75GB
+          - paragraph [ref=e338]: 128K
+          - generic [ref=e339]: Text
+        - generic [ref=e340]:
+          - generic [ref=e341]: 98d07a28d239
+          - text: · 12 months ago
+      - generic [ref=e343]:
+        - generic [ref=e344]:
+          - link "deepseek-r1:70b-llama-distill-fp16" [ref=e346] [cursor=pointer]:
+            - /url: /library/deepseek-r1:70b-llama-distill-fp16
+          - paragraph [ref=e347]: 141GB
+          - paragraph [ref=e348]: 128K
+          - generic [ref=e349]: Text
+        - generic [ref=e350]:
+          - generic [ref=e351]: 7a7636f7c9fd
+          - text: · 12 months ago
+      - generic [ref=e353]:
+        - generic [ref=e354]:
+          - link "deepseek-r1:671b-0528-q4_K_M" [ref=e356] [cursor=pointer]:
+            - /url: /library/deepseek-r1:671b-0528-q4_K_M
+          - paragraph [ref=e357]: 404GB
+          - paragraph [ref=e358]: 160K
+          - generic [ref=e359]: Text
+        - generic [ref=e360]:
+          - generic [ref=e361]: 14a4e575643d
+          - text: · 11 months ago
+      - generic [ref=e363]:
+        - generic [ref=e364]:
+          - link "deepseek-r1:671b-0528-q8_0" [ref=e366] [cursor=pointer]:
+            - /url: /library/deepseek-r1:671b-0528-q8_0
+          - paragraph [ref=e367]: 713GB
+          - paragraph [ref=e368]: 160K
+          - generic [ref=e369]: Text
+        - generic [ref=e370]:
+          - generic [ref=e371]: c483e7c247e3
+          - text: · 11 months ago
+      - generic [ref=e373]:
+        - generic [ref=e374]:
+          - link "deepseek-r1:671b-0528-fp16" [ref=e376] [cursor=pointer]:
+            - /url: /library/deepseek-r1:671b-0528-fp16
+          - paragraph [ref=e377]: 1.3TB
+          - paragraph [ref=e378]: 160K
+          - generic [ref=e379]: Text
+        - generic [ref=e380]:
+          - generic [ref=e381]: 0eabebef839b
+          - text: · 11 months ago
+      - generic [ref=e383]:
+        - generic [ref=e384]:
+          - link "deepseek-r1:671b-q4_K_M" [ref=e386] [cursor=pointer]:
+            - /url: /library/deepseek-r1:671b-q4_K_M
+          - paragraph [ref=e387]: 404GB
+          - paragraph [ref=e388]: 160K
+          - generic [ref=e389]: Text
+        - generic [ref=e390]:
+          - generic [ref=e391]: 58e944f7074d
+          - text: · 12 months ago
+      - generic [ref=e393]:
+        - generic [ref=e394]:
+          - link "deepseek-r1:671b-q8_0" [ref=e396] [cursor=pointer]:
+            - /url: /library/deepseek-r1:671b-q8_0
+          - paragraph [ref=e397]: 713GB
+          - paragraph [ref=e398]: 160K
+          - generic [ref=e399]: Text
+        - generic [ref=e400]:
+          - generic [ref=e401]: 00fb327206ce
+          - text: · 12 months ago
+      - generic [ref=e403]:
+        - generic [ref=e404]:
+          - link "deepseek-r1:671b-fp16" [ref=e406] [cursor=pointer]:
+            - /url: /library/deepseek-r1:671b-fp16
+          - paragraph [ref=e407]: 1.3TB
+          - paragraph [ref=e408]: 160K
+          - generic [ref=e409]: Text
+        - generic [ref=e410]:
+          - generic [ref=e411]: 3f9ee65b4e69
+          - text: · 12 months ago
+  - contentinfo [ref=e412]:
+    - generic [ref=e414]:
+      - generic [ref=e415]: © 2026 Ollama
+      - generic [ref=e416]:
+        - link "Download" [ref=e417] [cursor=pointer]:
+          - /url: /download
+        - link "Blog" [ref=e418] [cursor=pointer]:
+          - /url: /blog
+        - link "Docs" [ref=e419] [cursor=pointer]:
+          - /url: https://docs.ollama.com
+        - link "GitHub" [ref=e420] [cursor=pointer]:
+          - /url: https://github.com/ollama/ollama
+        - link "Discord" [ref=e421] [cursor=pointer]:
+          - /url: https://discord.com/invite/ollama
+        - link "X (Twitter)" [ref=e422] [cursor=pointer]:
+          - /url: https://twitter.com/ollama
+        - link "Contact" [ref=e423] [cursor=pointer]:
+          - /url: mailto:hello@ollama.com
+        - link "Privacy" [ref=e424] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e425] [cursor=pointer]:
+          - /url: /terms

@@ -1,0 +1,592 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - navigation [ref=e5]:
+      - generic [ref=e7]:
+        - link "Oracle Cloud" [ref=e9] [cursor=pointer]:
+          - /url: /
+          - img "Oracle Cloud" [ref=e10]
+        - button "Main Navigation" [ref=e13] [cursor=pointer]
+        - link "Help Center" [ref=e16] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e19]:
+          - generic [ref=e20]: Search
+          - textbox "Search" [ref=e21]
+          - link "Oracle Cloud Infrastructure Search scoped to this page. Use this button to use site search instead." [ref=e22]:
+            - generic [ref=e23]:
+              - img [ref=e24]
+              - strong [ref=e29]: Oracle Cloud Infrastructure
+              - button "Search scoped to this page. Use this button to use site search instead." [ref=e30] [cursor=pointer]:
+                - img [ref=e31]
+        - generic "Select Language" [ref=e36]:
+          - generic [ref=e37]:
+            - button [ref=e38] [cursor=pointer]
+            - combobox "Select Language" [ref=e39] [cursor=pointer]:
+              - option "Deutsch"
+              - option "English (US)" [selected]
+              - option "Español"
+              - option "Français (Canada)"
+              - option "Français"
+              - option "Italiano"
+              - option "日本語"
+              - option "Português (Brasil)"
+  - generic [ref=e42]:
+    - generic [ref=e43]:
+      - heading "Oracle Cloud Infrastructure Documentation" [level=3] [ref=e44]:
+        - link "Oracle Cloud Infrastructure Documentation" [ref=e45] [cursor=pointer]:
+          - /url: /iaas/Content/home.htm
+      - separator [ref=e46]
+    - link "Try Free Tier" [ref=e49] [cursor=pointer]:
+      - /url: https://www.oracle.com/cloud/free/?source=:ow:o:h:po:OHPPanel1nav0625&intcmp=:ow:o:h:po:OHPPanel1nav0625
+  - generic [ref=e52]:
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - list [ref=e58]:
+          - listitem [ref=e59]:
+            - button "Expand All Expandable Areas" [ref=e60] [cursor=pointer]:
+              - img [ref=e62]
+              - text: Expand All Expandable Areas
+        - navigation "Always Free Resources" [ref=e64]:
+          - list [ref=e65]:
+            - listitem [ref=e66]:
+              - link "Always Free Resources" [ref=e67] [cursor=pointer]:
+                - /url: "#resources"
+            - listitem [ref=e68]:
+              - link "Infrastructure" [ref=e69] [cursor=pointer]:
+                - /url: "#freetier_topic_Always_Free_Resources_Infrastructure"
+            - listitem [ref=e70]:
+              - link "Database" [ref=e71] [cursor=pointer]:
+                - /url: "#freetier_topic_Always_Free_Resources_Oracle_Database"
+            - listitem [ref=e72]:
+              - link "Networking" [ref=e73] [cursor=pointer]:
+                - /url: "#freetier_topic_Always_Free_Resources_Networking"
+            - listitem [ref=e74]:
+              - link "Observability and Management" [ref=e75] [cursor=pointer]:
+                - /url: "#freetier_topic_Always_Free_Resources_Management"
+            - listitem [ref=e76]:
+              - link "Additional Services" [ref=e77] [cursor=pointer]:
+                - /url: "#freetier_topic_Always_Free_Resources_Additional_Services"
+            - listitem [ref=e78]:
+              - link "Service Usage and Limits" [ref=e79] [cursor=pointer]:
+                - /url: "#freetier_topic_Always_Free_Resources_Service_Limits"
+        - generic [ref=e83]:
+          - paragraph [ref=e84]: Was this article helpful?
+          - generic [ref=e85]:
+            - button "Yes" [ref=e86]:
+              - img "Yes" [ref=e87]
+            - button "No" [ref=e89]:
+              - img "No" [ref=e90]
+        - generic [ref=e93]: Updated 2025-08-05
+      - generic [ref=e94]:
+        - link "Skip to main content" [ref=e95] [cursor=pointer]:
+          - /url: "#dcoc-content-body"
+        - article "Always Free Resources" [ref=e98]:
+          - article "Always Free Resources" [ref=e99]:
+            - heading "Always Free Resources" [level=1] [ref=e100]
+            - generic [ref=e101]:
+              - paragraph [ref=e102]: Learn what Always Free resources are available to all Oracle Cloud Infrastructure users.
+              - paragraph [ref=e103]:
+                - text: All Oracle Cloud Infrastructure accounts (whether free or paid) have a set of resources that are free of charge in the
+                - link "home region" [ref=e104] [cursor=pointer]:
+                  - /url: /iaas/Content/Identity/regions/managingregions.htm#Home
+                - text: of the tenancy, for the life of the account. These resources display the
+                - strong [ref=e105]: Always Free-eligible
+                - text: label in the Console (for OCI Ampere A1 Compute shapes, see
+                - link "Compute" [ref=e106] [cursor=pointer]:
+                  - /url: freetier_topic-Always_Free_Resources.htm#compute
+                - text: ).
+              - paragraph [ref=e107]:
+                - text: Using the Always Free resources, you can provision a
+                - link "virtual machine (VM) instance" [ref=e108] [cursor=pointer]:
+                  - /url: /iaas/Content/Compute/home.htm
+                - text: ", an"
+                - link "Oracle Autonomous Database" [ref=e109] [cursor=pointer]:
+                  - /url: https://docs.oracle.com/en/cloud/paas/autonomous-database/dedicated/adbaa/index.html#ADBAA-GUID-B5518C12-0362-4A98-AB35-3CB84AC83F31
+                - text: ", and the networking, load balancing, and storage resources needed to support the applications that you want to build. With these resources, you can do things like run small-scale applications or perform proof-of-concept testing."
+              - paragraph [ref=e110]: The following sections summarize the Oracle Cloud Always Free-eligible resources that you can provision in your tenancy.
+            - article "Infrastructure Copy link to this section" [ref=e111]:
+              - heading "Infrastructure Copy link to this section" [level=2] [ref=e112]:
+                - heading "Infrastructure" [level=2] [ref=e113]
+                - button "Copy link to this section" [ref=e114]: 🔗
+              - article "Certificates Copy link to this section" [ref=e115]:
+                - heading "Certificates Copy link to this section" [level=3] [ref=e116]:
+                  - heading "Certificates" [level=3] [ref=e117]
+                  - button "Copy link to this section" [ref=e118]: 🔗
+                - paragraph [ref=e120]: All tenancies get five certificate authorities (CAs) and 150 certificates included in the Always Free resources.
+              - article "Compute Copy link to this section" [ref=e121]:
+                - heading "Compute Copy link to this section" [level=3] [ref=e122]:
+                  - heading "Compute" [level=3] [ref=e123]
+                  - button "Copy link to this section" [ref=e124]: 🔗
+                - generic [ref=e125]:
+                  - paragraph [ref=e126]:
+                    - text: All tenancies get a set of Always Free resources in the Compute service for creating
+                    - link "compute virtual machine (VM) instances" [ref=e127] [cursor=pointer]:
+                      - /url: /iaas/Content/Compute/home.htm
+                    - text: . You must create the Always Free compute instances in your
+                    - link "home region" [ref=e128] [cursor=pointer]:
+                      - /url: /iaas/Content/GSG/Reference/faq.htm#How
+                    - text: .
+                  - generic [ref=e129]:
+                    - img [ref=e131]
+                    - strong [ref=e134]: Note
+                    - text: If you receive an "out of host capacity" error when trying to create a Compute instance, this indicates a temporary lack of Always Free shapes in your home region. Try creating the instance in a different availability domain, or wait a while, then try to create the instance again. You can also choose to upgrade your account to Pay as You Go or another Paid account type, which gives you access to more types of Compute resources. Remember that Oracle doesn't charge for Always Free resources after you upgrade, and will only charge you for resource usage above the Always Free limits. You can use
+                    - link "compartment quotas" [ref=e135] [cursor=pointer]:
+                      - /url: /iaas/Content/Quotas/Concepts/resourcequotas.htm
+                    - text: to control resource consumption within your account.
+                  - generic [ref=e136]:
+                    - heading "Available Shapes" [level=4] [ref=e137]
+                    - list [ref=e138]:
+                      - listitem [ref=e139]:
+                        - strong [ref=e140]: "Micro instances (AMD processor):"
+                        - text: All tenancies get up to two Always Free VM instances using the VM.Standard.E2.1.Micro
+                        - link "shape" [ref=e141] [cursor=pointer]:
+                          - /url: /iaas/Content/Compute/References/computeshapes.htm
+                        - text: ", which has an AMD processor."
+                      - listitem [ref=e142]:
+                        - strong [ref=e143]: "OCI Ampere A1 Compute instances (Arm processor):"
+                        - text: All tenancies get the first 3,000 OCPU hours and 18,000 GB hours per month for free for VM instances using the VM.Standard.A1.Flex
+                        - link "shape" [ref=e144] [cursor=pointer]:
+                          - /url: /iaas/Content/Compute/References/computeshapes.htm
+                        - text: ", which has an"
+                        - link "Arm processor" [ref=e145] [cursor=pointer]:
+                          - /url: /iaas/Content/Compute/References/arm.htm
+                        - text: . For Always Free tenancies, this is equivalent to 4 OCPUs and 24 GB of memory.
+                    - paragraph [ref=e146]: "In regions with multiple availability domains:"
+                    - list [ref=e147]:
+                      - listitem [ref=e148]: You can create OCI Ampere A1 Compute instances in any availability domain.
+                      - listitem [ref=e149]: Instances using the VM.Standard.E2.1.Micro shape can only be created in one availability domain.
+                  - generic [ref=e150]:
+                    - heading "Number of Compute Instances Available to Your Account" [level=4] [ref=e151]
+                    - paragraph [ref=e152]:
+                      - text: Depending on the size of the boot volume and the number of OCPUs that you allocate to each OCI Ampere A1 Compute instance, you can create up to four compute instances. The minimum
+                      - link "boot volume" [ref=e153] [cursor=pointer]:
+                        - /url: /iaas/Content/Block/Concepts/bootvolumes.htm
+                      - text: size for each instance is 47 GB, regardless of shape. Your account comes with 200 GB of Always Free
+                      - link "block volume" [ref=e154] [cursor=pointer]:
+                        - /url: freetier_topic-Always_Free_Resources.htm#blockvolume
+                      - text: storage which you use to create the boot volumes for your compute instances.
+                    - paragraph [ref=e155]:
+                      - text: For example, using the default boot volume size of 47 GB, you could provision two instances using the VM.Standard.E2.1.Micro shape, and two OCI Ampere A1 Compute instances that each have 2 OCPUs. Or, you could provision four OCI Ampere A1 Compute instances with 1 OCPU each, and zero instances using the VM.Standard.E2.1.Micro shape. Many combinations are possible, depending on how you allocate your block storage and OCI Ampere A1 Compute OCPUs. See
+                      - link "Details of the Always Free compute instances" [ref=e156] [cursor=pointer]:
+                        - /url: freetier_topic-Always_Free_Resources.htm#Details_of_the_Always_Free_Compute_instance__a1_flex
+                      - text: for more information on allocating OCPU and memory resources when creating OCI Ampere A1 Compute instances.
+                  - generic [ref=e157]:
+                    - heading "IP Addresses for Compute Instances" [level=4] [ref=e158]
+                    - paragraph [ref=e159]: You do not have to assign a public IPv4 address to every compute instance in your tenancy. You can create a compute instance in a public subnet without assigning the instance a public IP addresses, and create an instance in a private subnet.
+                  - generic [ref=e160]:
+                    - heading "Idle Compute Instances" [level=4] [ref=e161]
+                    - generic [ref=e162]:
+                      - img [ref=e164]
+                      - strong [ref=e166]: Important
+                      - paragraph [ref=e167]:
+                        - strong [ref=e168]: Reclamation of Idle Compute Instances
+                      - paragraph [ref=e169]: "Idle Always Free compute instances may be reclaimed by Oracle. Oracle will deem virtual machine and bare metal compute instances as idle if, during a 7-day period, the following are true:"
+                      - list [ref=e170]:
+                        - listitem [ref=e171]: CPU utilization for the 95th percentile is less than 20%
+                        - listitem [ref=e172]: Network utilization is less than 20%
+                        - listitem [ref=e173]:
+                          - text: Memory utilization is less than 20%
+                          - emphasis [ref=e174]:
+                            - text: (applies to
+                            - link "A1 shapes" [ref=e175] [cursor=pointer]:
+                              - /url: freetier_topic-Always_Free_Resources.htm#Details_of_the_Always_Free_Compute_instance__a1_flex
+                            - text: only)
+                - button "Details of the Always Free compute instances" [ref=e178] [cursor=pointer]
+              - article "Block Volume Copy link to this section" [ref=e179]:
+                - heading "Block Volume Copy link to this section" [level=3] [ref=e180]:
+                  - heading "Block Volume" [level=3] [ref=e181]
+                  - button "Copy link to this section" [ref=e182]: 🔗
+                - generic [ref=e183]:
+                  - paragraph [ref=e184]:
+                    - text: All tenancies receive a total of 200 GB of
+                    - link "Block Volume" [ref=e185] [cursor=pointer]:
+                      - /url: /iaas/Content/Block/Concepts/overview.htm
+                    - text: storage, and five volume backups included in the Always Free resources. These amounts apply to both boot volumes and block volumes combined. When you provision a compute instance, the instance automatically receives a 50 GB
+                    - link "boot volume" [ref=e186] [cursor=pointer]:
+                      - /url: /iaas/Content/Block/Concepts/bootvolumes.htm
+                    - text: for storage. You can also create and attach block volumes to expand the storage capacity of a compute instance. For more information, see
+                    - link "Creating a Block Volume" [ref=e187] [cursor=pointer]:
+                      - /url: /iaas/Content/Block/Tasks/creatingavolume.htm
+                    - text: and
+                    - link "Attaching a Block Volume to an Instance" [ref=e188] [cursor=pointer]:
+                      - /url: /iaas/Content/Block/Tasks/attachingavolume.htm
+                    - text: .
+                  - generic [ref=e189]:
+                    - img [ref=e191]
+                    - strong [ref=e193]: Important
+                    - list [ref=e194]:
+                      - listitem [ref=e195]:
+                        - text: To create an Always Free block volume, the volume must be created in the
+                        - link "home region" [ref=e196] [cursor=pointer]:
+                          - /url: /iaas/Content/Identity/regions/managingregions.htm#Home
+                        - text: of the tenancy. Volumes created outside of the home region incur regular block volume costs.
+                      - listitem [ref=e197]: For paid or free trial accounts that are eligible for Always Free resources, the same 200 GB of Always Free volume resources and five Always Free volume backup resources are available. When one of your Always Free resources is deleted, some of your Always Free resource capacity becomes available. When you have available Always Free capacity, Block Volume automatically tries to transition an existing paid resource to an Always Free resource. For example, if you have four 50 GB Always Free volumes and one 50 GB paid volume, and you delete one of the Always Free volumes, the service converts the paid volume to an Always Free volume.
+                - button "Details of the Always Free Block Volume resources" [ref=e200] [cursor=pointer]
+              - article "Object and Archive Storage Copy link to this section" [ref=e201]:
+                - heading "Object and Archive Storage Copy link to this section" [level=3] [ref=e202]:
+                  - heading "Object and Archive Storage" [level=3] [ref=e203]
+                  - button "Copy link to this section" [ref=e204]: 🔗
+                - paragraph [ref=e206]:
+                  - text: All tenancies get a total of 20 GB of Always Free
+                  - link "Overview of Object Storage" [ref=e207] [cursor=pointer]:
+                    - /url: /iaas/Content/Object/Concepts/objectstorageoverview.htm
+                  - text: .
+                - button "Details of the Always Free Object Storage resources" [ref=e210] [cursor=pointer]
+              - article "Vault Copy link to this section" [ref=e211]:
+                - heading "Vault Copy link to this section" [level=3] [ref=e212]:
+                  - heading "Vault" [level=3] [ref=e213]
+                  - button "Copy link to this section" [ref=e214]: 🔗
+                - paragraph [ref=e216]:
+                  - text: All master encryption keys protected by software are free. All tenancies get 20 key versions of master encryption keys protected by a hardware security module (HSM) and 150 Always Free
+                  - link "Vault" [ref=e217] [cursor=pointer]:
+                    - /url: /iaas/Content/KeyManagement/Concepts/keyoverview.htm
+                  - text: secrets. You can spread these keys or secrets across any number of vaults in the tenancy, although virtual private vaults are not included in the Always Free resources.
+                - button "Details of the Always Free Vault resources" [ref=e220] [cursor=pointer]
+              - article "Resource Manager Copy link to this section" [ref=e221]:
+                - heading "Resource Manager Copy link to this section" [level=3] [ref=e222]:
+                  - heading "Resource Manager" [level=3] [ref=e223]
+                  - button "Copy link to this section" [ref=e224]: 🔗
+                - paragraph [ref=e226]:
+                  - text: All tenancies get a set of Always Free resources in the
+                  - link "Resource Manager" [ref=e227] [cursor=pointer]:
+                    - /url: /iaas/Content/ResourceManager/home.htm
+                  - text: service that allow you to automate the process of provisioning infrastructure using Terraform. See
+                  - link "Quickly Launch Your Always Free Resources Using Resource Manager" [ref=e228] [cursor=pointer]:
+                    - /url: freetier_topic-Always_Free_Resources_Launching.htm#freetier_topic_Always_Free_Resources_Launching
+                  - text: for instructions on using Resource Manager to create your Always Free resources.
+                - button "Details of the Always Free Resource Manager resources" [ref=e231] [cursor=pointer]
+            - article "Database Copy link to this section" [ref=e232]:
+              - heading "Database Copy link to this section" [level=2] [ref=e233]:
+                - heading "Database" [level=2] [ref=e234]
+                - button "Copy link to this section" [ref=e235]: 🔗
+              - generic [ref=e236]:
+                - paragraph [ref=e237]:
+                  - strong [ref=e238]: "Oracle Autonomous Database:"
+                  - text: All tenancies get two Always Free
+                  - link "Oracle Autonomous Databases" [ref=e239] [cursor=pointer]:
+                    - /url: https://docs.oracle.com/en/cloud/paas/autonomous-database/dedicated/adbaa/index.html#ADBAA-GUID-B5518C12-0362-4A98-AB35-3CB84AC83F31
+                  - text: . You can use these databases for transaction processing, data warehousing, Oracle APEX application development, or JSON-based application development. For current regional availability, see the
+                  - strong [ref=e240]: Always Free Cloud Services
+                  - text: table in
+                  - link "Cloud Regions—Infrastructure and Platform Services" [ref=e241] [cursor=pointer]:
+                    - /url: https://www.oracle.com/cloud/data-regions.html
+                  - text: .
+                - paragraph [ref=e242]:
+                  - strong [ref=e243]: "Oracle NoSQL Database:"
+                  - text: All tenancies get an Oracle NoSQL Database with up to 133 million reads per month, 133 million writes per month, and 3 tables with 25 GB storage per table.
+                  - link "Learn more" [ref=e244] [cursor=pointer]:
+                    - /url: /iaas/nosql-database/index.html
+                  - text: about Oracle NoSQL Database.
+                - paragraph [ref=e245]:
+                  - strong [ref=e246]: "Oracle MySQL HeatWave:"
+                  - text: All tenancies get a standalone MySQL HeatWave DB system with a single node HeatWave cluster in the home region. The Always Free DB system has 50 GB of storage to store data and log files. An extra 50 GB of backup storage is available.
+                  - link "Learn more" [ref=e247] [cursor=pointer]:
+                    - /url: /iaas/mysql-database/home.htm
+                  - text: about Oracle MySQL HeatWave.
+              - button "Details of the Always Free Oracle Autonomous Database instance" [ref=e250] [cursor=pointer]
+            - article "Networking Copy link to this section" [ref=e251]:
+              - heading "Networking Copy link to this section" [level=2] [ref=e252]:
+                - heading "Networking" [level=2] [ref=e253]
+                - button "Copy link to this section" [ref=e254]: 🔗
+              - article "Cluster Placement Groups Copy link to this section" [ref=e255]:
+                - heading "Cluster Placement Groups Copy link to this section" [level=3] [ref=e256]:
+                  - heading "Cluster Placement Groups" [level=3] [ref=e257]
+                  - button "Copy link to this section" [ref=e258]: 🔗
+                - paragraph [ref=e260]: All tenancies get from 10 to 50 Always Free cluster placement groups in a region, depending on the service's pricing model.
+              - article "Load Balancing Copy link to this section" [ref=e261]:
+                - heading "Load Balancing Copy link to this section" [level=3] [ref=e262]:
+                  - heading "Load Balancing" [level=3] [ref=e263]
+                  - button "Copy link to this section" [ref=e264]: 🔗
+                - paragraph [ref=e266]: All Oracle Cloud Infrastructure tenancies created December 15, 2020 or later get one Always Free Flexible Load Balancer with a minimum and maximum bandwidth set to 10 Mbps.
+                - button "Details of the Always Free Load Balancer" [ref=e269] [cursor=pointer]
+              - article "Network Load Balancer Copy link to this section" [ref=e270]:
+                - heading "Network Load Balancer Copy link to this section" [level=3] [ref=e271]:
+                  - heading "Network Load Balancer" [level=3] [ref=e272]
+                  - button "Copy link to this section" [ref=e273]: 🔗
+                - paragraph [ref=e275]: As part of your Always Free resources, you get one Network Load Balancer.
+                - button "Details of the Always Free Network Load Balancer" [ref=e278] [cursor=pointer]
+              - article "Virtual Cloud Networks (VCNs) Copy link to this section" [ref=e279]:
+                - heading "Virtual Cloud Networks (VCNs) Copy link to this section" [level=3] [ref=e280]:
+                  - heading "Virtual Cloud Networks (VCNs)" [level=3] [ref=e281]
+                  - button "Copy link to this section" [ref=e282]: 🔗
+                - generic [ref=e283]:
+                  - paragraph [ref=e284]: Free Tier tenancies (tenancies that are not paid and do not have Free Trial credits) can have up to 2 virtual cloud networks (VCNs). A VCN is a software-defined network that you set up in the Oracle Cloud Infrastructure data centers in a particular region. VCNs include IPv4 and IPv6 support.
+                  - paragraph [ref=e285]:
+                    - text: Tenancies are by default not allowed to send e-mail through outbound TCP port 25 to the internet. If you require the ability to send email from your tenancy,
+                    - link "open a service limits request" [ref=e286] [cursor=pointer]:
+                      - /url: /iaas/Content/General/Concepts/servicelimits.htm#Requesti
+                    - text: to obtain an exemption.
+                  - paragraph [ref=e287]: "See the following topics for details on Networking service resources and service limits:"
+                  - list [ref=e288]:
+                    - listitem [ref=e289]:
+                      - link "Networking" [ref=e290] [cursor=pointer]:
+                        - /url: /iaas/Content/Network/Concepts/landing.htm
+                      - emphasis [ref=e291]: (service overview)
+                    - listitem [ref=e292]:
+                      - link "Overview of VCNs and Subnets" [ref=e293] [cursor=pointer]:
+                        - /url: /iaas/Content/Network/Tasks/managingVCNs_topic-Overview_of_VCNs_and_Subnets.htm
+                    - listitem [ref=e294]:
+                      - link "Networking Limits" [ref=e295] [cursor=pointer]:
+                        - /url: /iaas/Content/General/Concepts/servicelimits.htm#network_limits
+              - article "VCN Flow Logs Copy link to this section" [ref=e296]:
+                - heading "VCN Flow Logs Copy link to this section" [level=3] [ref=e297]:
+                  - heading "VCN Flow Logs" [level=3] [ref=e298]
+                  - button "Copy link to this section" [ref=e299]: 🔗
+                - generic [ref=e300]:
+                  - paragraph [ref=e301]:
+                    - text: To help you audit the traffic in and out of the virtual network interface cards (VNICs) in your VCN, and to troubleshoot your
+                    - link "security lists" [ref=e302] [cursor=pointer]:
+                      - /url: /iaas/Content/Network/Concepts/securitylists.htm
+                    - text: ", you can set up"
+                    - emphasis [ref=e303]: VCN flow logs
+                    - text: . Flow logs record details about traffic that has been accepted or rejected based on the security list rules. Free Tier tenancies (tenancies that are not paid and do not have Free Trial credits) receive up to 10GB per month shared across OCI
+                    - link "Logging service" [ref=e304] [cursor=pointer]:
+                      - /url: /iaas/Content/Logging/Concepts/loggingoverview.htm
+                    - text: .
+                  - paragraph [ref=e305]:
+                    - text: See
+                    - link "VCN Flow Logs" [ref=e306] [cursor=pointer]:
+                      - /url: /iaas/Content/Network/Concepts/vcn-flow-logs.htm
+                    - text: for more information on this feature.
+              - article "Site-to-Site VPN Copy link to this section" [ref=e307]:
+                - heading "Site-to-Site VPN Copy link to this section" [level=3] [ref=e308]:
+                  - heading "Site-to-Site VPN" [level=3] [ref=e309]
+                  - button "Copy link to this section" [ref=e310]: 🔗
+                - paragraph [ref=e312]:
+                  - text: Site-to-Site VPN provides a site-to-site IPSec connection between your on-premises network and your virtual cloud network (VCN). Use up to 50 IPSec connections with your Free Tier account.
+                  - link "Learn more" [ref=e313] [cursor=pointer]:
+                    - /url: /iaas/Content/Network/Tasks/managingIPsec.htm
+                  - text: .
+            - article "Observability and Management Copy link to this section" [ref=e314]:
+              - heading "Observability and Management Copy link to this section" [level=2] [ref=e315]:
+                - heading "Observability and Management" [level=2] [ref=e316]
+                - button "Copy link to this section" [ref=e317]: 🔗
+              - article "Application Performance Monitoring Copy link to this section" [ref=e318]:
+                - heading "Application Performance Monitoring Copy link to this section" [level=3] [ref=e319]:
+                  - heading "Application Performance Monitoring" [level=3] [ref=e320]
+                  - button "Copy link to this section" [ref=e321]: 🔗
+                - paragraph [ref=e323]:
+                  - text: All tenancies get 1000 Application Performance Monitoring tracing events and 10 Synthetic Monitor runs per hour included in the Always Free resources.
+                  - link "Learn more" [ref=e324] [cursor=pointer]:
+                    - /url: /iaas/application-performance-monitoring/index.html
+                  - text: .
+              - article "Connector Hub Copy link to this section" [ref=e325]:
+                - heading "Connector Hub Copy link to this section" [level=3] [ref=e326]:
+                  - heading "Connector Hub" [level=3] [ref=e327]
+                  - button "Copy link to this section" [ref=e328]: 🔗
+                - paragraph [ref=e330]:
+                  - text: All tenancies get 2 Always Free
+                  - strong [ref=e331]:
+                    - text: connectors
+                    - img [ref=e333]
+                  - text: . Connector Hub helps cloud engineers manage and move data between Oracle Cloud Infrastructure (OCI) services and from OCI to third-party services.
+                  - link "Learn more" [ref=e336] [cursor=pointer]:
+                    - /url: /iaas/Content/connector-hub/home.htm
+                  - text: .
+                - button "Details of the Always Free Connector Hub resources" [ref=e339] [cursor=pointer]
+              - article "Console Dashboards Copy link to this section" [ref=e340]:
+                - heading "Console Dashboards Copy link to this section" [level=3] [ref=e341]:
+                  - heading "Console Dashboards" [level=3] [ref=e342]
+                  - button "Copy link to this section" [ref=e343]: 🔗
+                - paragraph [ref=e345]:
+                  - text: All tenancies get 100 dashboards per tenancy included in the Always Free resources.
+                  - link "Learn more" [ref=e346] [cursor=pointer]:
+                    - /url: /iaas/Content/Dashboards/Concepts/dashboardsoverview.htm
+                  - text: .
+              - article "Email Delivery Copy link to this section" [ref=e347]:
+                - heading "Email Delivery Copy link to this section" [level=3] [ref=e348]:
+                  - heading "Email Delivery" [level=3] [ref=e349]
+                  - button "Copy link to this section" [ref=e350]: 🔗
+                - paragraph [ref=e352]:
+                  - text: As part of your Always Free resources, you can send 3000 emails for free per month. Learn more about OCI's
+                  - link "Email Delivery service" [ref=e353] [cursor=pointer]:
+                    - /url: /iaas/Content/Email/home.htm
+                  - text: .
+              - article "Fleet Application Management Copy link to this section" [ref=e354]:
+                - heading "Fleet Application Management Copy link to this section" [level=3] [ref=e355]:
+                  - heading "Fleet Application Management" [level=3] [ref=e356]
+                  - button "Copy link to this section" [ref=e357]: 🔗
+                - paragraph [ref=e359]: All tenancies are entitled to manage the system lifecycle operation of the first 25 resources per month, which include Compute instances and databases, for free as a part of their Always Free resources.
+              - article "Monitoring Copy link to this section" [ref=e360]:
+                - heading "Monitoring Copy link to this section" [level=3] [ref=e361]:
+                  - heading "Monitoring" [level=3] [ref=e362]
+                  - button "Copy link to this section" [ref=e363]: 🔗
+                - paragraph [ref=e365]:
+                  - text: All tenancies get 500 million
+                  - link "Monitoring service" [ref=e366] [cursor=pointer]:
+                    - /url: /iaas/Content/Monitoring/home.htm
+                  - text: ingestion data points, and 1 billion retrieval data points included in the Always Free resources.
+              - article "Notifications Copy link to this section" [ref=e367]:
+                - heading "Notifications Copy link to this section" [level=3] [ref=e368]:
+                  - heading "Notifications" [level=3] [ref=e369]
+                  - button "Copy link to this section" [ref=e370]: 🔗
+                - paragraph [ref=e372]:
+                  - text: As part of your Always Free resources, you can send 1 million https notifications per month, and 1000 email notifications per month.
+                  - link "Learn more" [ref=e373] [cursor=pointer]:
+                    - /url: /iaas/Content/Notification/home.htm
+                  - text: about OCI's Notifications service.
+            - article "Additional Services Copy link to this section" [ref=e374]:
+              - heading "Additional Services Copy link to this section" [level=2] [ref=e375]:
+                - heading "Additional Services" [level=2] [ref=e376]
+                - button "Copy link to this section" [ref=e377]: 🔗
+              - article "Outbound Data Transfer Copy link to this section" [ref=e378]:
+                - heading "Outbound Data Transfer Copy link to this section" [level=3] [ref=e379]:
+                  - heading "Outbound Data Transfer" [level=3] [ref=e380]
+                  - button "Copy link to this section" [ref=e381]: 🔗
+                - paragraph [ref=e383]: As part of your Always Free resources, you get 10 TB per month of outbound data.
+              - article "Logging Copy link to this section" [ref=e384]:
+                - heading "Logging Copy link to this section" [level=3] [ref=e385]:
+                  - heading "Logging" [level=3] [ref=e386]
+                  - button "Copy link to this section" [ref=e387]: 🔗
+                - paragraph [ref=e389]:
+                  - text: Logging provides a highly scalable and fully managed single pane of glass for all the logs in your tenancy.
+                  - link "Learn more" [ref=e390] [cursor=pointer]:
+                    - /url: /iaas/Content/Logging/Concepts/loggingoverview.htm
+                  - text: about the Logging service.
+              - article "Bastion Copy link to this section" [ref=e391]:
+                - heading "Bastion Copy link to this section" [level=3] [ref=e392]:
+                  - heading "Bastion" [level=3] [ref=e393]
+                  - button "Copy link to this section" [ref=e394]: 🔗
+                - paragraph [ref=e396]:
+                  - text: OCI's Bastion service provides restricted and time-limited Secure Shell Protocol (SSH) access to target resources that don't have public endpoints. Bastion is free for both free and paid accounts. See
+                  - link "Bastion" [ref=e397] [cursor=pointer]:
+                    - /url: /iaas/Content/Bastion/Concepts/bastionoverview.htm
+                  - text: for more information.
+            - article "Service Usage and Limits Copy link to this section" [ref=e398]:
+              - heading "Service Usage and Limits Copy link to this section" [level=2] [ref=e399]:
+                - heading "Service Usage and Limits" [level=2] [ref=e400]
+                - button "Copy link to this section" [ref=e401]: 🔗
+              - paragraph [ref=e403]:
+                - text: "You can find your tenancy's limits for Always Free resources in the Console. To check these limits: Open the"
+                - strong [ref=e404]:
+                  - text: navigation menu
+                  - img [ref=e406]
+                - text: and select
+                - strong [ref=e409]: Governance & Administration
+                - text: . Under
+                - strong [ref=e410]: Tenancy Management
+                - text: ", select"
+                - strong [ref=e411]: Limits, Quotas and Usage
+                - text: .
+    - navigation "Oracle Cloud Infrastructure Documentation" [ref=e414]:
+      - list [ref=e415]:
+        - listitem [ref=e416]:
+          - link "Oracle Cloud Infrastructure Cloud Adoption Framework Open" [ref=e417] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/cloud-adoption-framework/home.htm
+            - generic [ref=e418]: Oracle Cloud Infrastructure Cloud Adoption Framework
+            - button "Open" [ref=e419]:
+              - img [ref=e420]
+        - listitem [ref=e422]:
+          - link "Getting Started Open" [ref=e423] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/GSG/Concepts/baremetalintro.htm
+            - generic [ref=e424]: Getting Started
+            - button "Open" [ref=e425]:
+              - img [ref=e426]
+        - listitem [ref=e428]:
+          - link "Oracle Cloud's Free Tier Close" [ref=e429] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/FreeTier/freetier.htm
+            - generic [ref=e430]: Oracle Cloud's Free Tier
+            - button "Close" [ref=e431]:
+              - img [ref=e432]
+          - list [ref=e434]:
+            - listitem [ref=e435]:
+              - link "Always Free Resources" [ref=e436] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm
+                - generic [ref=e437]: Always Free Resources
+              - list
+            - listitem [ref=e438]:
+              - link "Quickly Launch Your Always Free Resources Using Resource Manager" [ref=e439] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources_Launching.htm
+                - generic [ref=e440]: Quickly Launch Your Always Free Resources Using Resource Manager
+            - listitem [ref=e441]:
+              - link "Frequently Asked Questions" [ref=e442] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/FreeTier/faq.htm
+                - generic [ref=e443]: Frequently Asked Questions
+        - listitem [ref=e444]:
+          - link "Oracle Multicloud Open" [ref=e445] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/multicloud/Oraclemulticloud.htm
+            - generic [ref=e446]: Oracle Multicloud
+            - button "Open" [ref=e447]:
+              - img [ref=e448]
+        - listitem [ref=e450]:
+          - link "Oracle Cloud Infrastructure Government Cloud Open" [ref=e451] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/gov-cloud/govlanding.htm
+            - generic [ref=e452]: Oracle Cloud Infrastructure Government Cloud
+            - button "Open" [ref=e453]:
+              - img [ref=e454]
+        - listitem [ref=e456]:
+          - link "Oracle UK Sovereign Cloud Open" [ref=e457] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/uk-sovereign-cloud/home.htm
+            - generic [ref=e458]: Oracle UK Sovereign Cloud
+            - button "Open" [ref=e459]:
+              - img [ref=e460]
+        - listitem [ref=e462]:
+          - link "Oracle EU Sovereign Cloud" [ref=e463] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/sovereign-cloud/eu-sovereign-cloud.htm
+            - generic [ref=e464]: Oracle EU Sovereign Cloud
+        - listitem [ref=e465]:
+          - link "Applications Services Open" [ref=e466] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/applications-manager/applications-services-home.htm
+            - generic [ref=e467]: Applications Services
+            - button "Open" [ref=e468]:
+              - img [ref=e469]
+        - listitem [ref=e471]:
+          - link "Infrastructure Services Open" [ref=e472] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/services.htm
+            - generic [ref=e473]: Infrastructure Services
+            - button "Open" [ref=e474]:
+              - img [ref=e475]
+        - listitem [ref=e477]:
+          - link "Developer Resources Open" [ref=e478] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/devtoolshome.htm
+            - generic [ref=e479]: Developer Resources
+            - button "Open" [ref=e480]:
+              - img [ref=e481]
+        - listitem [ref=e483]:
+          - link "Security Open" [ref=e484] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/Security/Concepts/security.htm
+            - generic [ref=e485]: Security
+            - button "Open" [ref=e486]:
+              - img [ref=e487]
+        - listitem [ref=e489]:
+          - link "Marketplace Open" [ref=e490] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/Marketplace/home.htm
+            - generic [ref=e491]: Marketplace
+            - button "Open" [ref=e492]:
+              - img [ref=e493]
+        - listitem [ref=e495]:
+          - link "More Resources Open" [ref=e496] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/General/Reference/more.htm
+            - generic [ref=e497]: More Resources
+            - button "Open" [ref=e498]:
+              - img [ref=e499]
+        - listitem [ref=e501]:
+          - link "Glossary" [ref=e502] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/libraries/glossary/glossary-intro.htm
+            - generic [ref=e503]: Glossary
+        - listitem [ref=e504]:
+          - link "Oracle Cloud Console" [ref=e505] [cursor=pointer]:
+            - /url: https://cloud.oracle.com/
+            - generic [ref=e506]: Oracle Cloud Console
+  - contentinfo [ref=e507]:
+    - list [ref=e509]:
+      - listitem [ref=e510]:
+        - generic [ref=e511]: Copyright © 2025, Oracle and/or its affiliates.
+      - listitem [ref=e512]:
+        - link "About Oracle" [ref=e513] [cursor=pointer]:
+          - /url: https://www.oracle.com/corporate/index.html
+      - listitem [ref=e514]:
+        - link "Contact Us" [ref=e515] [cursor=pointer]:
+          - /url: https://www.oracle.com/corporate/contact/index.html
+      - listitem [ref=e516]:
+        - link "Legal Notices" [ref=e517] [cursor=pointer]:
+          - /url: /iaas/Content/legalnotices.htm
+      - listitem [ref=e518]:
+        - link "Terms of Use & Privacy" [ref=e519] [cursor=pointer]:
+          - /url: https://www.oracle.com/legal/privacy/
+      - listitem [ref=e520]:
+        - link "Document Conventions" [ref=e521] [cursor=pointer]:
+          - /url: /iaas/Content/General/Reference/docconventions.htm
+      - listitem [ref=e522]:
+        - complementary "Open Cookie Preferences Modal" [ref=e523]:
+          - link "Cookie Preferences, opens a dedicated popup modal window" [ref=e524] [cursor=pointer]: Cookie Preferences
+  - dialog "Your choices regarding the use of cookies on this site" [ref=e527]

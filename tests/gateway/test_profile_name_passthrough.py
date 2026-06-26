@@ -1,20 +1,18 @@
 """
-Tests that profile_name flows correctly through the message handling pipeline.
+Tests that profile routing flows correctly through the message handling pipeline.
 
 Regression test for: NameError: name '_profile_name' is not defined
-The _handle_message_with_agent method receives profile_name as a parameter
-but was incorrectly referencing the parent scope's _profile_name when
-calling _run_agent.
+The _handle_message_with_agent method must not reference undefined parent-scope
+variables when calling _run_agent.
 """
 
-import asyncio
-import time
-from unittest.mock import AsyncMock, MagicMock, patch, PropertyMock
+from unittest.mock import AsyncMock, MagicMock
 
 import pytest
 
 from gateway.config import Platform
-from gateway.profile_routing import ProfileRoute, parse_profile_routes
+from gateway.session import SessionSource
+from gateway.profile_routing import parse_profile_routes
 
 
 def _make_source(
@@ -24,16 +22,18 @@ def _make_source(
     user_id="user1",
     chat_type="group",
     parent_chat_id=None,
+    profile=None,
 ):
-    src = MagicMock()
-    src.platform = Platform(platform)
-    src.chat_id = chat_id
-    src.thread_id = thread_id
-    src.user_id = user_id
-    src.chat_type = chat_type
-    src.parent_chat_id = parent_chat_id
-    src.user_name = "tester"
-    return src
+    return SessionSource(
+        platform=Platform(platform),
+        chat_id=chat_id,
+        chat_type=chat_type,
+        user_id=user_id,
+        thread_id=thread_id,
+        parent_chat_id=parent_chat_id,
+        user_name="tester",
+        profile=profile,
+    )
 
 
 def _make_event(source=None, text="hello", command=None):
@@ -67,7 +67,6 @@ def _make_runner():
     runner.hooks.emit = AsyncMock()
     runner._session_db = None
 
-    # Session store mock
     mock_entry = MagicMock()
     mock_entry.session_id = "sess-1"
     mock_entry.session_key = "agent:main:discord:group:999:user1"
@@ -80,7 +79,6 @@ def _make_runner():
     runner.session_store.get_or_create_session = MagicMock(return_value=mock_entry)
     runner.session_store.load_transcript = MagicMock(return_value=[])
 
-    # _run_agent spy — returns a simple result dict
     runner._run_agent = AsyncMock(return_value={
         "final_response": "test reply",
         "messages": [],
@@ -111,69 +109,58 @@ def _make_runner():
 
 
 class TestProfileNameNoNameError:
-    """_handle_message_with_agent must not raise NameError for _profile_name."""
+    """_handle_message_with_agent must not raise NameError."""
 
     @pytest.mark.asyncio
     async def test_no_profile_route_no_error(self):
-        """When no profile routes match, _run_agent receives profile_name=None."""
+        """Without a profile route, _run_agent is called without raising."""
         runner = _make_runner()
         event = _make_event()
         source = event.source
 
         await runner._handle_message_with_agent(
             event, source, "key-1", 1,
-            profile_name=None,
         )
 
         runner._run_agent.assert_called_once()
-        call_kwargs = runner._run_agent.call_args
-        assert call_kwargs.kwargs.get("profile_name") is None
 
     @pytest.mark.asyncio
     async def test_with_profile_route_no_error(self):
-        """When a profile route matches, _run_agent receives the profile name."""
+        """When source.profile is set, _run_agent still runs without NameError."""
         runner = _make_runner()
-        event = _make_event()
-        source = event.source
+        source = _make_source(profile="trader")
+        event = _make_event(source=source)
 
-        await runner._handle_message_with_agent(
-            event, source, "key-1", 1,
-            profile_name="trader",
-        )
-
-        runner._run_agent.assert_called_once()
-        call_kwargs = runner._run_agent.call_args
-        assert call_kwargs.kwargs.get("profile_name") == "trader"
-
-    @pytest.mark.asyncio
-    async def test_profile_name_not_undefined_variable(self):
-        """The _run_agent call must use the profile_name parameter,
-        not an undefined _profile_name from the parent scope.
-
-        This is the exact regression: _handle_message_with_agent previously
-        referenced _profile_name (a variable from _handle_message's scope)
-        instead of its own profile_name parameter, causing NameError.
-        """
-        runner = _make_runner()
-        event = _make_event()
-        source = event.source
-
-        # This MUST not raise NameError
         try:
             await runner._handle_message_with_agent(
                 event, source, "key-1", 1,
-                profile_name="trader",
+            )
+        except NameError as e:
+            pytest.fail(f"NameError raised: {e}")
+
+        runner._run_agent.assert_called_once()
+
+    @pytest.mark.asyncio
+    async def test_profile_name_not_undefined_variable(self):
+        """Regression: _handle_message_with_agent must not reference undefined _profile_name."""
+        runner = _make_runner()
+        event = _make_event()
+        source = event.source
+
+        try:
+            await runner._handle_message_with_agent(
+                event, source, "key-1", 1,
             )
         except NameError as e:
             pytest.fail(f"NameError raised: {e}")
 
 
 class TestProfileRoutingIntegration:
-    """End-to-end: _profile_name_for_source resolves profile routes."""
+    """_profile_name_for_source resolves profile routes via config.profile_routes."""
 
     def _make_runner_with_routes(self, routes):
         runner = _make_runner()
-        runner._profile_routes_cache = routes
+        runner.config.profile_routes = routes
         return runner
 
     def test_routed_source_returns_profile(self):
@@ -186,7 +173,8 @@ class TestProfileRoutingIntegration:
         result = runner._profile_name_for_source(source)
         assert result == "trader"
 
-    def test_unrouted_source_returns_none(self):
+    def test_unrouted_source_returns_main(self):
+        """Unrouted source returns 'main' (default profile namespace)."""
         routes = parse_profile_routes([
             {"name": "trader", "platform": "discord", "profile": "trader",
              "chat_id": "123"},
@@ -194,14 +182,14 @@ class TestProfileRoutingIntegration:
         runner = self._make_runner_with_routes(routes)
         source = _make_source(chat_id="456")
         result = runner._profile_name_for_source(source)
-        assert result is None
+        assert result == "main"
 
-    def test_no_routes_returns_none(self):
+    def test_no_routes_returns_main(self):
         runner = _make_runner()
-        runner._profile_routes_cache = []
+        runner.config.profile_routes = []
         source = _make_source()
         result = runner._profile_name_for_source(source)
-        assert result is None
+        assert result == "main"
 
     def test_thread_inherits_parent_route(self):
         routes = parse_profile_routes([
@@ -209,7 +197,6 @@ class TestProfileRoutingIntegration:
              "chat_id": "100"},
         ])
         runner = self._make_runner_with_routes(routes)
-        # Thread with parent_chat_id matching the route
         source = _make_source(chat_id="200", thread_id="300", parent_chat_id="100")
         result = runner._profile_name_for_source(source)
         assert result == "trader"
@@ -229,4 +216,4 @@ class TestProfileRoutingIntegration:
 
         assert runner._profile_name_for_source(trader_source) == "trader"
         assert runner._profile_name_for_source(coder_source) == "coder"
-        assert runner._profile_name_for_source(default_source) is None
+        assert runner._profile_name_for_source(default_source) == "main"

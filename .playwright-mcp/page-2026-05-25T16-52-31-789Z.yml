@@ -1,0 +1,236 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ollama" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Ollama" [ref=e5]
+      - generic [ref=e6]:
+        - link "Models" [ref=e7] [cursor=pointer]:
+          - /url: /search
+        - link "Docs" [ref=e8] [cursor=pointer]:
+          - /url: /docs
+        - link "Pricing" [ref=e9] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=e13]:
+        - img [ref=e15]
+        - textbox "Search models" [ref=e17]
+      - generic [ref=e18]:
+        - link "Sign in" [ref=e19] [cursor=pointer]:
+          - /url: /signin
+        - link "Download" [ref=e20] [cursor=pointer]:
+          - /url: /download
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - link "deepseek-r1" [ref=e27] [cursor=pointer]:
+        - /url: /library/deepseek-r1
+      - generic [ref=e28]:
+        - paragraph [ref=e30]:
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - generic [ref=e34]: 86.2M
+            - generic [ref=e35]: Downloads
+          - generic "Jul 2, 2025 6:09 AM UTC" [ref=e36]:
+            - img [ref=e37]
+            - generic [ref=e39]: Updated
+            - generic [ref=e40]: 10 months ago
+        - heading "DeepSeek-R1 is a family of open reasoning models with performance approaching that of leading models, such as O3 and Gemini 2.5 Pro." [level=2] [ref=e42]
+        - generic [ref=e43]:
+          - generic [ref=e44]: tools
+          - generic [ref=e45]: thinking
+          - generic [ref=e46]: 1.5b
+          - generic [ref=e47]: 7b
+          - generic [ref=e48]: 8b
+          - generic [ref=e49]: 14b
+          - generic [ref=e50]: 32b
+          - generic [ref=e51]: 70b
+          - generic [ref=e52]: 671b
+    - generic [ref=e53]:
+      - generic [ref=e55]:
+        - generic [ref=e57]:
+          - button "CLI" [ref=e58] [cursor=pointer]
+          - button "cURL" [ref=e59] [cursor=pointer]
+          - button "Python" [ref=e60] [cursor=pointer]
+          - button "JavaScript" [ref=e61] [cursor=pointer]
+        - generic [ref=e62]:
+          - button "Copy" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+          - generic [ref=e68]: ollama run deepseek-r1
+      - generic [ref=e69]:
+        - heading "Applications" [level=2] [ref=e70]
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - img "Claude Code" [ref=e75]
+              - generic [ref=e76]:
+                - generic [ref=e77]: Claude Code
+                - code [ref=e78]: ollama launch claude --model deepseek-r1
+            - button "Copy" [ref=e79] [cursor=pointer]:
+              - img [ref=e80]
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - img "Codex App" [ref=e84]
+              - generic [ref=e85]:
+                - generic [ref=e86]: Codex App
+                - code [ref=e87]: ollama launch codex-app --model deepseek-r1
+            - button "Copy" [ref=e88] [cursor=pointer]:
+              - img [ref=e89]
+          - generic [ref=e91]:
+            - generic [ref=e92]:
+              - img "OpenClaw" [ref=e93]
+              - generic [ref=e94]:
+                - generic [ref=e95]: OpenClaw
+                - code [ref=e96]: ollama launch openclaw --model deepseek-r1
+            - button "Copy" [ref=e97] [cursor=pointer]:
+              - img [ref=e98]
+          - generic [ref=e100]:
+            - generic [ref=e101]:
+              - img "Hermes Agent" [ref=e102]
+              - generic [ref=e103]:
+                - generic [ref=e104]: Hermes Agent
+                - code [ref=e105]: ollama launch hermes --model deepseek-r1
+            - button "Copy" [ref=e106] [cursor=pointer]:
+              - img [ref=e107]
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - img "Codex" [ref=e111]
+              - generic [ref=e112]:
+                - generic [ref=e113]: Codex
+                - code [ref=e114]: ollama launch codex --model deepseek-r1
+            - button "Copy" [ref=e115] [cursor=pointer]:
+              - img [ref=e116]
+          - generic [ref=e118]:
+            - generic [ref=e119]:
+              - img "OpenCode" [ref=e120]
+              - generic [ref=e121]:
+                - generic [ref=e122]: OpenCode
+                - code [ref=e123]: ollama launch opencode --model deepseek-r1
+            - button "Copy" [ref=e124] [cursor=pointer]:
+              - img [ref=e125]
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - heading "Models" [level=2] [ref=e129]
+          - link "View all →" [ref=e130] [cursor=pointer]:
+            - /url: /library/deepseek-r1/tags
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - paragraph [ref=e134]: Name
+            - paragraph [ref=e135]: Size / Usage
+            - paragraph [ref=e136]: Context
+            - paragraph [ref=e137]: Input
+          - generic [ref=e138]:
+            - link "deepseek-r1:latest" [ref=e140] [cursor=pointer]:
+              - /url: /library/deepseek-r1:latest
+            - paragraph [ref=e141]: 5.2GB
+            - paragraph [ref=e142]: 128K
+            - paragraph [ref=e143]: Text
+          - generic [ref=e144]:
+            - link "deepseek-r1:1.5b" [ref=e146] [cursor=pointer]:
+              - /url: /library/deepseek-r1:1.5b
+            - paragraph [ref=e147]: 1.1GB
+            - paragraph [ref=e148]: 128K
+            - paragraph [ref=e149]: Text
+          - generic [ref=e150]:
+            - link "deepseek-r1:7b" [ref=e152] [cursor=pointer]:
+              - /url: /library/deepseek-r1:7b
+            - paragraph [ref=e153]: 4.7GB
+            - paragraph [ref=e154]: 128K
+            - paragraph [ref=e155]: Text
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - link "deepseek-r1:8b" [ref=e158] [cursor=pointer]:
+                - /url: /library/deepseek-r1:8b
+              - generic [ref=e159]: latest
+            - paragraph [ref=e160]: 5.2GB
+            - paragraph [ref=e161]: 128K
+            - paragraph [ref=e162]: Text
+          - generic [ref=e163]:
+            - link "deepseek-r1:14b" [ref=e165] [cursor=pointer]:
+              - /url: /library/deepseek-r1:14b
+            - paragraph [ref=e166]: 9.0GB
+            - paragraph [ref=e167]: 128K
+            - paragraph [ref=e168]: Text
+          - generic [ref=e169]:
+            - link "deepseek-r1:32b" [ref=e171] [cursor=pointer]:
+              - /url: /library/deepseek-r1:32b
+            - paragraph [ref=e172]: 20GB
+            - paragraph [ref=e173]: 128K
+            - paragraph [ref=e174]: Text
+          - generic [ref=e175]:
+            - link "deepseek-r1:70b" [ref=e177] [cursor=pointer]:
+              - /url: /library/deepseek-r1:70b
+            - paragraph [ref=e178]: 43GB
+            - paragraph [ref=e179]: 128K
+            - paragraph [ref=e180]: Text
+          - generic [ref=e181]:
+            - link "deepseek-r1:671b" [ref=e183] [cursor=pointer]:
+              - /url: /library/deepseek-r1:671b
+            - paragraph [ref=e184]: 404GB
+            - paragraph [ref=e185]: 160K
+            - paragraph [ref=e186]: Text
+    - generic [ref=e187]:
+      - heading "Readme" [level=2] [ref=e189]
+      - generic [ref=e191]:
+        - paragraph [ref=e192]:
+          - img [ref=e193]
+        - paragraph [ref=e194]: DeepSeek-R1 has received a minor version upgrade to DeepSeek-R1-0528 for the 8 billion parameter distilled model and the full 671 billion parameter model. In this update, DeepSeek R1 has significantly improved its reasoning and inference capabilities. The model has demonstrated outstanding performance across various benchmark evaluations, including mathematics, programming, and general logic. Its overall performance is now approaching that of leading models, such as O3 and Gemini 2.5 Pro.
+        - paragraph [ref=e195]:
+          - img "image.png" [ref=e196]
+        - heading "Models" [level=2] [ref=e197]
+        - paragraph [ref=e198]:
+          - strong [ref=e199]: DeepSeek-R1-0528-Qwen3-8B
+        - code [ref=e201]: ollama run deepseek-r1
+        - paragraph [ref=e202]:
+          - strong [ref=e203]: DeepSeek-R1
+        - code [ref=e205]: ollama run deepseek-r1:671b
+        - blockquote [ref=e206]:
+          - paragraph [ref=e207]:
+            - text: "Note: to update the model from an older version, run"
+            - code [ref=e208]: ollama pull deepseek-r1
+        - heading "Distilled models" [level=3] [ref=e209]
+        - paragraph [ref=e210]: DeepSeek team has demonstrated that the reasoning patterns of larger models can be distilled into smaller models, resulting in better performance compared to the reasoning patterns discovered through RL on small models.
+        - paragraph [ref=e211]: Below are the models created via fine-tuning against several dense models widely used in the research community using reasoning data generated by DeepSeek-R1. The evaluation results demonstrate that the distilled smaller dense models perform exceptionally well on benchmarks.
+        - paragraph [ref=e212]:
+          - strong [ref=e213]: DeepSeek-R1-0528-Qwen3-8B
+        - code [ref=e215]: ollama run deepseek-r1:8b
+        - paragraph [ref=e216]:
+          - strong [ref=e217]: DeepSeek-R1-Distill-Qwen-1.5B
+        - code [ref=e219]: ollama run deepseek-r1:1.5b
+        - paragraph [ref=e220]:
+          - strong [ref=e221]: DeepSeek-R1-Distill-Qwen-7B
+        - code [ref=e223]: ollama run deepseek-r1:7b
+        - paragraph [ref=e224]:
+          - strong [ref=e225]: DeepSeek-R1-Distill-Qwen-14B
+        - code [ref=e227]: ollama run deepseek-r1:14b
+        - paragraph [ref=e228]:
+          - strong [ref=e229]: DeepSeek-R1-Distill-Qwen-32B
+        - code [ref=e231]: ollama run deepseek-r1:32b
+        - paragraph [ref=e232]:
+          - strong [ref=e233]: DeepSeek-R1-Distill-Llama-70B
+        - code [ref=e235]: ollama run deepseek-r1:70b
+        - heading "License" [level=3] [ref=e236]
+        - paragraph [ref=e237]: "The model weights are licensed under the MIT License. DeepSeek-R1 series support commercial use, allow for any modifications and derivative works, including, but not limited to, distillation for training other LLMs. Please note that:"
+        - paragraph [ref=e238]: The Qwen distilled models are derived from Qwen-2.5 series, which are originally licensed under Apache 2.0 License, and now finetuned with 800k samples curated with DeepSeek-R1.
+        - paragraph [ref=e239]: The Llama 8B distilled model is derived from Llama3.1-8B-Base and is originally licensed under llama3.1 license.
+        - paragraph [ref=e240]: The Llama 70B distilled model is derived from Llama3.3-70B-Instruct and is originally licensed under llama3.3 license.
+  - contentinfo [ref=e241]:
+    - generic [ref=e243]:
+      - generic [ref=e244]: © 2026 Ollama
+      - generic [ref=e245]:
+        - link "Download" [ref=e246] [cursor=pointer]:
+          - /url: /download
+        - link "Blog" [ref=e247] [cursor=pointer]:
+          - /url: /blog
+        - link "Docs" [ref=e248] [cursor=pointer]:
+          - /url: https://docs.ollama.com
+        - link "GitHub" [ref=e249] [cursor=pointer]:
+          - /url: https://github.com/ollama/ollama
+        - link "Discord" [ref=e250] [cursor=pointer]:
+          - /url: https://discord.com/invite/ollama
+        - link "X (Twitter)" [ref=e251] [cursor=pointer]:
+          - /url: https://twitter.com/ollama
+        - link "Contact" [ref=e252] [cursor=pointer]:
+          - /url: mailto:hello@ollama.com
+        - link "Privacy" [ref=e253] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e254] [cursor=pointer]:
+          - /url: /terms

@@ -1,0 +1,251 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Introducing the Polar Startup Program" [ref=e4] [cursor=pointer]:
+      - /url: /startup-program
+      - generic [ref=e5]:
+        - paragraph [ref=e6]: Introducing the Polar Startup Program
+        - img [ref=e7]
+    - generic [ref=e10]:
+      - link [ref=e11] [cursor=pointer]:
+        - /url: /
+        - button [ref=e13]:
+          - img [ref=e15]
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - button "Features" [ref=e26] [cursor=pointer]
+        - listitem [ref=e27]:
+          - button "Docs" [ref=e28] [cursor=pointer]
+        - listitem [ref=e29]:
+          - link "Blog" [ref=e30] [cursor=pointer]:
+            - /url: /blog
+        - listitem [ref=e31]:
+          - link "Company" [ref=e32] [cursor=pointer]:
+            - /url: /company
+      - generic [ref=e33]:
+        - button "Sign in" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: Sign in
+        - button "Get Started" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]:
+            - generic [ref=e38]: Get Started
+            - img
+  - generic [ref=e40]:
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - heading "Startup Program" [level=1] [ref=e47]
+        - paragraph [ref=e48]: An entire year on our most generous plan. For free.
+      - generic [ref=e54]:
+        - link [ref=e55] [cursor=pointer]:
+          - /url: https://tailwindcss.com
+          - img [ref=e56]
+        - link "Speakeasy Logo" [ref=e59] [cursor=pointer]:
+          - /url: https://speakeasy.com
+          - generic [ref=e60]:
+            - img [ref=e62]
+            - paragraph [ref=e68]: Speakeasy Logo
+            - img [ref=e69]
+        - link [ref=e78] [cursor=pointer]:
+          - /url: https://stilla.ai
+          - img [ref=e79]
+        - link [ref=e81] [cursor=pointer]:
+          - /url: https://midday.ai
+          - img [ref=e82]
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - heading "Polar for Startups" [level=3] [ref=e95]
+            - paragraph [ref=e96]: Handle usage-based billing, global tax compliance and real-time cost analytics in one platform, so you can scale your business without the operational drag.
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - paragraph [ref=e99]: Scale tier
+              - paragraph [ref=e100]: Free
+            - generic [ref=e101]:
+              - paragraph [ref=e102]: Program length
+              - paragraph [ref=e103]: 12 months
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - paragraph [ref=e106]: Scale
+              - paragraph [ref=e107]: For fast growing businesses
+            - generic [ref=e109]:
+              - paragraph [ref=e110]: Free
+              - paragraph [ref=e111]: for 1 year
+            - generic [ref=e112]:
+              - paragraph [ref=e113]: Transaction Fee
+              - paragraph [ref=e114]: 3.40% + $0.30
+            - generic [ref=e115]:
+              - paragraph [ref=e116]: Features
+              - generic [ref=e117]:
+                - img [ref=e118]
+                - paragraph [ref=e120]: Slack Channel
+              - generic [ref=e121]:
+                - img [ref=e122]
+                - paragraph [ref=e124]: Prioritized Ticket support
+          - link "More about our pricing" [ref=e125] [cursor=pointer]:
+            - /url: /resources/pricing
+            - generic [ref=e126]:
+              - paragraph [ref=e127]: More about our pricing
+              - img [ref=e128]
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - generic [ref=e132]: Startup Name
+            - textbox "Startup Name" [ref=e134]:
+              - /placeholder: Acme, Inc
+          - generic [ref=e135]:
+            - generic [ref=e136]: Industry
+            - textbox "Industry" [ref=e138]:
+              - /placeholder: e.g. SaaS, Fintech, Healthcare
+          - generic [ref=e139]:
+            - generic [ref=e140]: Website
+            - textbox "Website" [ref=e142]:
+              - /placeholder: https://yourcompany.com
+          - generic [ref=e143]:
+            - generic [ref=e144]: When were you founded?
+            - textbox "When were you founded?" [ref=e146]
+          - generic [ref=e147]:
+            - generic [ref=e148]: Total Funding Raised
+            - combobox "Total Funding Raised" [ref=e149] [cursor=pointer]:
+              - generic: Select...
+              - img [ref=e150]
+            - combobox [ref=e152]
+          - generic [ref=e153]:
+            - generic [ref=e154]: Partner / Investor
+            - combobox "Partner / Investor" [ref=e155] [cursor=pointer]:
+              - generic: Select...
+              - img [ref=e156]
+            - combobox [ref=e158]
+          - generic [ref=e159]:
+            - generic [ref=e160]: Payment Volume (even if zero)
+            - textbox "Payment Volume (even if zero)" [ref=e162]:
+              - /placeholder: e.g. $0, $10K/mo, $100K/mo
+          - generic [ref=e163]:
+            - generic [ref=e164]: Team Size
+            - combobox "Team Size" [ref=e165] [cursor=pointer]:
+              - generic: Select...
+              - img [ref=e166]
+            - combobox [ref=e168]
+          - generic [ref=e169]:
+            - generic [ref=e170]: Main Location
+            - textbox "Main Location" [ref=e172]:
+              - /placeholder: e.g. San Francisco, CA
+          - generic [ref=e173]:
+            - generic [ref=e174]: "Your Pitch: what are you building? (100 words max)"
+            - 'textbox "Your Pitch: what are you building? (100 words max)" [ref=e175]':
+              - /placeholder: Tell us about your startup in a few sentences...
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - generic [ref=e178]: First Name
+              - textbox "First Name" [ref=e180]:
+                - /placeholder: Jane
+            - generic [ref=e181]:
+              - generic [ref=e182]: Last Name
+              - textbox "Last Name" [ref=e184]:
+                - /placeholder: Doe
+            - generic [ref=e185]:
+              - generic [ref=e186]: Role
+              - textbox "Role" [ref=e188]:
+                - /placeholder: e.g. CEO
+          - generic [ref=e189]:
+            - generic [ref=e190]: Email
+            - textbox "Email" [ref=e192]:
+              - /placeholder: you@company.com
+          - button "Apply Now" [ref=e193] [cursor=pointer]:
+            - generic [ref=e194]: Apply Now
+      - generic [ref=e197]:
+        - heading "Questions and answers" [level=2] [ref=e198]
+        - generic [ref=e200]:
+          - heading "What is the Polar Startup Program?" [level=3] [ref=e202]:
+            - button "What is the Polar Startup Program?" [ref=e203]:
+              - text: What is the Polar Startup Program?
+              - img [ref=e204]
+          - heading "Who is eligible?" [level=3] [ref=e207]:
+            - button "Who is eligible?" [ref=e208]:
+              - text: Who is eligible?
+              - img [ref=e209]
+          - heading "How can I apply?" [level=3] [ref=e212]:
+            - button "How can I apply?" [ref=e213]:
+              - text: How can I apply?
+              - img [ref=e214]
+          - heading "What does the program include?" [level=3] [ref=e217]:
+            - button "What does the program include?" [ref=e218]:
+              - text: What does the program include?
+              - img [ref=e219]
+          - heading "How long does the program last?" [level=3] [ref=e222]:
+            - button "How long does the program last?" [ref=e223]:
+              - text: How long does the program last?
+              - img [ref=e224]
+          - heading "Can I switch plans during the program?" [level=3] [ref=e227]:
+            - button "Can I switch plans during the program?" [ref=e228]:
+              - text: Can I switch plans during the program?
+              - img [ref=e229]
+          - heading "What happens after the year ends?" [level=3] [ref=e232]:
+            - button "What happens after the year ends?" [ref=e233]:
+              - text: What happens after the year ends?
+              - img [ref=e234]
+          - heading "I have more questions." [level=3] [ref=e237]:
+            - button "I have more questions." [ref=e238]:
+              - text: I have more questions.
+              - img [ref=e239]
+    - generic [ref=e244]:
+      - generic [ref=e245]:
+        - button [ref=e248]:
+          - img [ref=e250]
+        - generic [ref=e259]:
+          - link "Join Polar today" [ref=e260] [cursor=pointer]:
+            - /url: /signup
+            - generic [ref=e261]: Join Polar today
+            - img [ref=e262]
+          - generic [ref=e264]: © Polar Software, Inc. 2026
+      - generic [ref=e265]:
+        - heading "Features" [level=3] [ref=e266]
+        - generic [ref=e267]:
+          - link "Usage Billing" [ref=e268] [cursor=pointer]:
+            - /url: /features/usage-billing
+          - link "Subscriptions" [ref=e269] [cursor=pointer]:
+            - /url: /features/subscriptions
+          - link "Seats" [ref=e270] [cursor=pointer]:
+            - /url: /features/seats
+          - link "Credits" [ref=e271] [cursor=pointer]:
+            - /url: /features/credits
+          - link "Trials" [ref=e272] [cursor=pointer]:
+            - /url: /features/trials
+          - link "Discounts" [ref=e273] [cursor=pointer]:
+            - /url: /features/discounts
+          - link "Cost Insights" [ref=e274] [cursor=pointer]:
+            - /url: /features/cost-insights
+          - link "Finance" [ref=e275] [cursor=pointer]:
+            - /url: /features/finance
+          - link "Merchant of Record" [ref=e276] [cursor=pointer]:
+            - /url: /features/merchant-of-record
+      - generic [ref=e277]:
+        - heading "Resources" [level=3] [ref=e278]
+        - generic [ref=e279]:
+          - link "Why Polar" [ref=e280] [cursor=pointer]:
+            - /url: /resources/why
+          - link "Merchant of Record" [ref=e281] [cursor=pointer]:
+            - /url: /resources/merchant-of-record
+          - link "Pricing" [ref=e282] [cursor=pointer]:
+            - /url: /resources/pricing
+          - link "Downloads" [ref=e283] [cursor=pointer]:
+            - /url: /downloads
+      - generic [ref=e284]:
+        - heading "Company" [level=3] [ref=e285]
+        - generic [ref=e286]:
+          - link "About Polar" [ref=e287] [cursor=pointer]:
+            - /url: /company
+          - link "GitHub" [ref=e288] [cursor=pointer]:
+            - /url: https://github.com/polarsource
+          - link "X / Twitter" [ref=e289] [cursor=pointer]:
+            - /url: https://x.com/polar_sh
+          - link "Brand Assets" [ref=e290] [cursor=pointer]:
+            - /url: https://polar.sh/assets/brand/polar_brand.zip
+          - link "Legal" [ref=e291] [cursor=pointer]:
+            - /url: https://polar.sh/legal
+          - button "Cookie Preferences" [ref=e292]
+      - generic [ref=e293]:
+        - heading "Support" [level=3] [ref=e294]
+        - generic [ref=e295]:
+          - link "Docs" [ref=e296] [cursor=pointer]:
+            - /url: https://polar.sh/docs
+          - link "Contact" [ref=e297] [cursor=pointer]:
+            - /url: mailto:support@polar.sh
+          - link "Service Status" [ref=e298] [cursor=pointer]:
+            - /url: https://status.polar.sh

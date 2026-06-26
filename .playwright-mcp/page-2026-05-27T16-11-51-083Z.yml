@@ -1,0 +1,482 @@
+- main [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link [ref=e8] [cursor=pointer]:
+          - /url: https://news.ycombinator.com
+          - img [ref=e9]
+        - link "Search Hacker News" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e11]:
+            - text: Search
+            - text: Hacker News
+      - generic [ref=e12]:
+        - generic:
+          - img
+        - searchbox "Search stories by title, url or author" [ref=e13]: rdlx AI
+        - generic [ref=e14]:
+          - generic: Search by
+          - link "Algolia Logo" [ref=e15] [cursor=pointer]:
+            - /url: https://www.algolia.com/developers/?utm_source=hackernews&utm_medium=referral
+            - img "Algolia Logo" [ref=e16]
+      - link [ref=e18] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e19]
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Search
+          - combobox "Stories" [ref=e26]:
+            - generic [ref=e27] [cursor=pointer]:
+              - text: Stories
+              - img [ref=e28]
+        - generic [ref=e30]:
+          - generic [ref=e31]: by
+          - combobox "Popularity" [ref=e32]:
+            - generic [ref=e33] [cursor=pointer]:
+              - text: Popularity
+              - img [ref=e34]
+        - generic [ref=e36]:
+          - generic [ref=e37]: for
+          - combobox "All time" [ref=e38]:
+            - generic [ref=e39] [cursor=pointer]:
+              - text: All time
+              - img [ref=e40]
+      - generic [ref=e42]:
+        - paragraph [ref=e43]: 15 results (0.015 seconds)
+        - combobox [ref=e45]:
+          - img [ref=e47] [cursor=pointer]
+    - generic [ref=e54]:
+      - article [ref=e55]:
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - 'link "Relational Deep Learning (RDL): Predictive modeling without feature engineering" [ref=e59] [cursor=pointer]':
+              - /url: https://news.ycombinator.com/item?id=42964423
+              - generic [ref=e60]:
+                - text: Relational Deep Learning (
+                - emphasis [ref=e61]: RDL
+                - text: "): Predictive modeling without feature engineering"
+            - link "(https://kumo.ai/research/relational-deep-learning-rdl/)" [ref=e62] [cursor=pointer]:
+              - /url: https://kumo.ai/research/relational-deep-learning-rdl/
+              - text: (https://kumo.
+              - emphasis [ref=e63]: ai
+              - text: /research/relational-deep-learning-
+              - emphasis [ref=e64]: rdl
+              - text: /)
+          - generic [ref=e65]:
+            - link "3 points" [ref=e67] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=42964423
+            - text: "|"
+            - link "gk1" [ref=e69] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=gk1
+            - text: "|"
+            - link "1 year ago" [ref=e71] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=42964423
+            - text: "|"
+            - link "0 comments" [ref=e73] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=42964423
+      - article [ref=e74]:
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - link "Relational Deep Learning lets you train AI models on relational data" [ref=e78] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=43088302
+              - generic [ref=e79]:
+                - text: Relational Deep Learning lets you train
+                - emphasis [ref=e80]: AI
+                - text: models on relational data
+            - link "(https://kumo.ai/research/relational-deep-learning-rdl/)" [ref=e81] [cursor=pointer]:
+              - /url: https://kumo.ai/research/relational-deep-learning-rdl/
+              - text: (https://kumo.
+              - emphasis [ref=e82]: ai
+              - text: /research/relational-deep-learning-
+              - emphasis [ref=e83]: rdl
+              - text: /)
+          - generic [ref=e84]:
+            - link "2 points" [ref=e86] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=43088302
+            - text: "|"
+            - link "gk1" [ref=e88] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=gk1
+            - text: "|"
+            - link "1 year ago" [ref=e90] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=43088302
+            - text: "|"
+            - link "0 comments" [ref=e92] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=43088302
+      - article [ref=e93]:
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - link "AI" [ref=e97] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=7266546
+              - emphasis [ref=e99]: AI
+            - link "(http://blog.samaltman.com/ai)" [ref=e100] [cursor=pointer]:
+              - /url: http://blog.samaltman.com/ai
+              - text: (http://blog.samaltman.com/
+              - emphasis [ref=e101]: ai
+              - text: )
+          - generic [ref=e102]:
+            - link "616 points" [ref=e104] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=7266546
+            - text: "|"
+            - link "rdl" [ref=e106] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=rdl
+              - emphasis [ref=e108]: rdl
+            - text: "|"
+            - link "12 years ago" [ref=e110] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=7266546
+            - text: "|"
+            - link "311 comments" [ref=e112] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=7266546
+      - article [ref=e113]:
+        - generic [ref=e115]:
+          - generic [ref=e116]:
+            - link "Lessons from building a small-scale AI application" [ref=e117] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=42803483
+              - generic [ref=e118]:
+                - text: Lessons from building a small-scale
+                - emphasis [ref=e119]: AI
+                - text: application
+            - link "(https://www.thelis.org/blog/lessons-from-ai)" [ref=e120] [cursor=pointer]:
+              - /url: https://www.thelis.org/blog/lessons-from-ai
+              - text: (https://www.thelis.org/blog/lessons-from-
+              - emphasis [ref=e121]: ai
+              - text: )
+          - generic [ref=e122]:
+            - link "8 points" [ref=e124] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=42803483
+            - text: "|"
+            - link "rdli" [ref=e126] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=rdli
+              - emphasis [ref=e128]: rdli
+            - text: "|"
+            - link "1 year ago" [ref=e130] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=42803483
+            - text: "|"
+            - link "6 comments" [ref=e132] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=42803483
+      - article [ref=e133]:
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - 'link "Show HN: AlphaPerch – Track product execution for companies you follow using AI" [ref=e137] [cursor=pointer]':
+              - /url: https://news.ycombinator.com/item?id=47304400
+              - generic [ref=e138]:
+                - text: "Show HN: AlphaPerch – Track product execution for companies you follow using"
+                - emphasis [ref=e139]: AI
+            - link "(https://alphaperch.com)" [ref=e140] [cursor=pointer]:
+              - /url: https://alphaperch.com
+          - generic [ref=e141]:
+            - link "3 points" [ref=e143] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=47304400
+            - text: "|"
+            - link "sebasnar" [ref=e145] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=sebasnar
+            - text: "|"
+            - link "3 months ago" [ref=e147] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=47304400
+            - text: "|"
+            - link "0 comments" [ref=e149] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=47304400
+            - generic [ref=e151]:
+              - text: I built this because I invest based on product conviction and couldn't find a clean way to track whether companies are actually executing on their roadmaps.
+              - paragraph [ref=e152]:
+                - text: AlphaPerch uses a proprietary pipeline that synthesizes across diverse data sources and leverages
+                - emphasis [ref=e153]: AI
+                - text: to extract and classify product milestones by product line and execution stage (Expected, Announced, In Progress, Shipped, Delayed, Cancelled). Each milestone traces back to its original source so you can verify it yourself.
+              - paragraph [ref=e154]:
+                - text: The platform is built to track any publicly traded company. TSLA, GOOGL, and
+                - emphasis [ref=e155]: RBLX
+                - text: are live because that's where my personal conviction is, but the framework generalizes. There's a coverage request form on the landing page if you want to see a specific company added.
+              - paragraph [ref=e156]: Would love feedback on extraction quality and what's missing. Let me know if you find it useful!
+              - paragraph [ref=e157]: alphaperch.com
+      - article [ref=e158]:
+        - generic [ref=e160]:
+          - generic [ref=e161]:
+            - link "AI Overview by NotebookLM is amazing" [ref=e162] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=41677608
+              - generic [ref=e163]:
+                - emphasis [ref=e164]: AI
+                - text: Overview by NotebookLM is amazing
+            - link "(https://rdx.overdevs.com/comments.html?url=https://old.reddit.com/r/singularity/comments/1fghn18/comment/ln3kvn7/)" [ref=e165] [cursor=pointer]:
+              - /url: https://rdx.overdevs.com/comments.html?url=https://old.reddit.com/r/singularity/comments/1fghn18/comment/ln3kvn7/
+              - text: (https://
+              - emphasis [ref=e166]: rdx
+              - text: .overdevs.com/comments.html?url=https://old.reddit.com/r/singularity/comments/1fghn18/comment/ln3kvn7/)
+          - generic [ref=e167]:
+            - link "3 points" [ref=e169] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=41677608
+            - text: "|"
+            - link "hiddencost" [ref=e171] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=hiddencost
+            - text: "|"
+            - link "2 years ago" [ref=e173] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=41677608
+            - text: "|"
+            - link "0 comments" [ref=e175] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=41677608
+      - article [ref=e176]:
+        - generic [ref=e178]:
+          - generic [ref=e179]:
+            - link "OpenAI discontinues its AI writing detector" [ref=e180] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=36957219
+              - generic [ref=e181]:
+                - text: OpenAI discontinues its
+                - emphasis [ref=e182]: AI
+                - text: writing detector
+            - link "(https://arstechnica.com/information-technology/2023/07/openai-discontinues-its-ai-writing-detector-due-to-low-rate-of-accuracy/)" [ref=e183] [cursor=pointer]:
+              - /url: https://arstechnica.com/information-technology/2023/07/openai-discontinues-its-ai-writing-detector-due-to-low-rate-of-accuracy/
+              - text: (https://arstechnica.com/information-technology/2023/07/openai-discontinues-its-
+              - emphasis [ref=e184]: ai
+              - text: "-writing-detector-due-to-low-rate-of-accuracy/)"
+          - generic [ref=e185]:
+            - link "3 points" [ref=e187] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=36957219
+            - text: "|"
+            - link "rlx-dop" [ref=e189] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=rlx-dop
+              - generic [ref=e190]:
+                - emphasis [ref=e191]: rlx
+                - text: "-dop"
+            - text: "|"
+            - link "3 years ago" [ref=e193] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=36957219
+            - text: "|"
+            - link "0 comments" [ref=e195] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=36957219
+      - article [ref=e196]:
+        - generic [ref=e198]:
+          - generic [ref=e199]:
+            - link "Hugging Face, GitHub and more unite to defend open source in EU AI legislation" [ref=e200] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=36905473
+              - generic [ref=e201]:
+                - text: Hugging Face, GitHub and more unite to defend open source in EU
+                - emphasis [ref=e202]: AI
+                - text: legislation
+            - link "(https://venturebeat.com/ai/hugging-face-github-and-more-unite-to-defend-open-source-in-eu-ai-legislation/)" [ref=e203] [cursor=pointer]:
+              - /url: https://venturebeat.com/ai/hugging-face-github-and-more-unite-to-defend-open-source-in-eu-ai-legislation/
+              - text: (https://venturebeat.com/
+              - emphasis [ref=e204]: ai
+              - text: /hugging-face-github-and-more-unite-to-defend-open-source-in-eu-
+              - emphasis [ref=e205]: ai
+              - text: "-legislation/)"
+          - generic [ref=e206]:
+            - link "2 points" [ref=e208] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=36905473
+            - text: "|"
+            - link "rlx-dop" [ref=e210] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=rlx-dop
+              - generic [ref=e211]:
+                - emphasis [ref=e212]: rlx
+                - text: "-dop"
+            - text: "|"
+            - link "3 years ago" [ref=e214] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=36905473
+            - text: "|"
+            - link "0 comments" [ref=e216] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=36905473
+      - article [ref=e217]:
+        - generic [ref=e219]:
+          - generic [ref=e220]:
+            - link "The Agentic AI Runtime Stack" [ref=e221] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=43797033
+              - generic [ref=e222]:
+                - text: The Agentic
+                - emphasis [ref=e223]: AI
+                - text: Runtime Stack
+            - link "(https://www.wing.vc/content/the-agentic-ai-runtime-stack)" [ref=e224] [cursor=pointer]:
+              - /url: https://www.wing.vc/content/the-agentic-ai-runtime-stack
+              - text: (https://www.wing.vc/content/the-agentic-
+              - emphasis [ref=e225]: ai
+              - text: "-runtime-stack)"
+          - generic [ref=e226]:
+            - link "1 points" [ref=e228] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=43797033
+            - text: "|"
+            - link "rdli" [ref=e230] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=rdli
+              - emphasis [ref=e232]: rdli
+            - text: "|"
+            - link "1 year ago" [ref=e234] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=43797033
+            - text: "|"
+            - link "0 comments" [ref=e236] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=43797033
+      - article [ref=e237]:
+        - generic [ref=e239]:
+          - generic [ref=e240]:
+            - link "AI developer frameworks and the evolving AI infrastructure ecosystem" [ref=e241] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=42870111
+              - generic [ref=e242]:
+                - emphasis [ref=e243]: AI
+                - text: developer frameworks and the evolving
+                - emphasis [ref=e244]: AI
+                - text: infrastructure ecosystem
+            - link "(https://www.thelis.org/blog/ai-dev-ecosystem)" [ref=e245] [cursor=pointer]:
+              - /url: https://www.thelis.org/blog/ai-dev-ecosystem
+              - text: (https://www.thelis.org/blog/
+              - emphasis [ref=e246]: ai
+              - text: "-dev-ecosystem)"
+          - generic [ref=e247]:
+            - link "1 points" [ref=e249] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=42870111
+            - text: "|"
+            - link "rdli" [ref=e251] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=rdli
+              - emphasis [ref=e253]: rdli
+            - text: "|"
+            - link "1 year ago" [ref=e255] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=42870111
+            - text: "|"
+            - link "0 comments" [ref=e257] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=42870111
+      - article [ref=e258]:
+        - generic [ref=e260]:
+          - generic [ref=e261]:
+            - link "26-year-old hacker (Geohot) gets $3mm for self driving car startup" [ref=e262] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=11427110
+            - link "(http://money.cnn.com/2016/04/04/technology/george-hotz-comma-ai-andreessen-horowitz/index.html?sr=twcnni040416george-hotz-comma-ai-andreessen-horowitz0641PMStoryPhoto&linkId=23044870)" [ref=e263] [cursor=pointer]:
+              - /url: http://money.cnn.com/2016/04/04/technology/george-hotz-comma-ai-andreessen-horowitz/index.html?sr=twcnni040416george-hotz-comma-ai-andreessen-horowitz0641PMStoryPhoto&linkId=23044870
+              - text: (http://money.cnn.com/2016/04/04/technology/george-hotz-comma-
+              - emphasis [ref=e264]: ai
+              - text: "-andreessen-horowitz/index.html?sr=twcnni040416george-hotz-comma-"
+              - emphasis [ref=e265]: ai
+              - text: "-andreessen-horowitz0641PMStoryPhoto&linkId=23044870)"
+          - generic [ref=e266]:
+            - link "4 points" [ref=e268] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=11427110
+            - text: "|"
+            - link "rdl" [ref=e270] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=rdl
+              - emphasis [ref=e272]: rdl
+            - text: "|"
+            - link "10 years ago" [ref=e274] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=11427110
+            - text: "|"
+            - link "1 comments" [ref=e276] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=11427110
+      - article [ref=e277]:
+        - generic [ref=e279]:
+          - generic [ref=e280]:
+            - link "Security Flaws in DeepSeek-Generated Code Linked to Political Triggers" [ref=e281] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=46005687
+            - link "(https://www.crowdstrike.com/en-us/blog/crowdstrike-researchers-identify-hidden-vulnerabilities-ai-coded-software/)" [ref=e282] [cursor=pointer]:
+              - /url: https://www.crowdstrike.com/en-us/blog/crowdstrike-researchers-identify-hidden-vulnerabilities-ai-coded-software/
+              - text: (https://www.crowdstrike.com/en-us/blog/crowdstrike-researchers-identify-hidden-vulnerabilities-
+              - emphasis [ref=e283]: ai
+              - text: "-coded-software/)"
+          - generic [ref=e284]:
+            - link "3 points" [ref=e286] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=46005687
+            - text: "|"
+            - link "rdli" [ref=e288] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=rdli
+              - emphasis [ref=e290]: rdli
+            - text: "|"
+            - link "6 months ago" [ref=e292] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=46005687
+            - text: "|"
+            - link "0 comments" [ref=e294] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=46005687
+      - article [ref=e295]:
+        - generic [ref=e297]:
+          - generic [ref=e298]:
+            - link "Outperforming DeepSeekR1-32B with OpenThinker2" [ref=e299] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=43573785
+            - link "(https://www.open-thoughts.ai/blog/thinkagain)" [ref=e300] [cursor=pointer]:
+              - /url: https://www.open-thoughts.ai/blog/thinkagain
+              - text: (https://www.open-thoughts.
+              - emphasis [ref=e301]: ai
+              - text: /blog/thinkagain)
+          - generic [ref=e302]:
+            - link "2 points" [ref=e304] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=43573785
+            - text: "|"
+            - link "rdli" [ref=e306] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=rdli
+              - emphasis [ref=e308]: rdli
+            - text: "|"
+            - link "1 year ago" [ref=e310] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=43573785
+            - text: "|"
+            - link "0 comments" [ref=e312] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=43573785
+      - article [ref=e313]:
+        - generic [ref=e315]:
+          - generic [ref=e316]:
+            - link "Technical Overview of Voice and Music Generators" [ref=e317] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=36811628
+            - link "(https://www.assemblyai.com/blog/recent-developments-in-generative-ai-for-audio/)" [ref=e318] [cursor=pointer]:
+              - /url: https://www.assemblyai.com/blog/recent-developments-in-generative-ai-for-audio/
+              - text: (https://www.assemblyai.com/blog/recent-developments-in-generative-
+              - emphasis [ref=e319]: ai
+              - text: "-for-audio/)"
+          - generic [ref=e320]:
+            - link "2 points" [ref=e322] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=36811628
+            - text: "|"
+            - link "rlx-dop" [ref=e324] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=rlx-dop
+              - generic [ref=e325]:
+                - emphasis [ref=e326]: rlx
+                - text: "-dop"
+            - text: "|"
+            - link "3 years ago" [ref=e328] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=36811628
+            - text: "|"
+            - link "0 comments" [ref=e330] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=36811628
+      - article [ref=e331]:
+        - generic [ref=e333]:
+          - generic [ref=e334]:
+            - link "MLOps Landscape in 2023" [ref=e335] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=36858907
+            - link "(https://neptune.ai/blog/mlops-tools-platforms-landscape)" [ref=e336] [cursor=pointer]:
+              - /url: https://neptune.ai/blog/mlops-tools-platforms-landscape
+              - text: (https://neptune.
+              - emphasis [ref=e337]: ai
+              - text: /blog/mlops-tools-platforms-landscape)
+          - generic [ref=e338]:
+            - link "1 points" [ref=e340] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=36858907
+            - text: "|"
+            - link "rlx-dop" [ref=e342] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=rlx-dop
+              - generic [ref=e343]:
+                - emphasis [ref=e344]: rlx
+                - text: "-dop"
+            - text: "|"
+            - link "3 years ago" [ref=e346] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=36858907
+            - text: "|"
+            - link "0 comments" [ref=e348] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=36858907
+    - list [ref=e349]:
+      - listitem [ref=e350]:
+        - button "1" [ref=e351] [cursor=pointer]
+    - list [ref=e353]:
+      - listitem [ref=e354]:
+        - link "About" [ref=e355] [cursor=pointer]:
+          - /url: /about
+      - listitem [ref=e356]: •
+      - listitem [ref=e357]:
+        - link "Setting" [ref=e358] [cursor=pointer]:
+          - /url: /settings
+      - listitem [ref=e359]: •
+      - listitem [ref=e360]:
+        - link "Help" [ref=e361] [cursor=pointer]:
+          - /url: /help
+      - listitem [ref=e362]: •
+      - listitem [ref=e363]:
+        - link "API Documentation" [ref=e364] [cursor=pointer]:
+          - /url: /api
+      - listitem [ref=e365]: •
+      - listitem [ref=e366]:
+        - link "Hacker News" [ref=e367] [cursor=pointer]:
+          - /url: https://news.ycombinator.com
+      - listitem [ref=e368]: •
+      - listitem [ref=e369]:
+        - link "Fork/Contribute" [ref=e370] [cursor=pointer]:
+          - /url: https://github.com/algolia/hn-search
+      - listitem [ref=e371]: •
+      - listitem [ref=e372]:
+        - link "Cool Apps" [ref=e373] [cursor=pointer]:
+          - /url: /cool_apps

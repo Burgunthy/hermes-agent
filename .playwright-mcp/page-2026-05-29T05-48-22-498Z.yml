@@ -1,0 +1,2307 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fnousresearch%2Fhermes-agent
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=NousResearch%2Fhermes-agent
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "NousResearch" [ref=e70] [cursor=pointer]:
+            - /url: /NousResearch
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "hermes-agent" [ref=e73] [cursor=pointer]:
+              - /url: /NousResearch/hermes-agent
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2FNousResearch%2Fhermes-agent
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 28.9k" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2FNousResearch%2Fhermes-agent
+                - img [ref=e82]
+                - text: Fork
+                - generic "28,854" [ref=e84]: 28.9k
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FNousResearch%2Fhermes-agent
+                - img [ref=e88]
+                - text: Star
+                - generic "171875 users starred this repository" [ref=e90]: 172k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /NousResearch/hermes-agent
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 5k+" [ref=e99] [cursor=pointer]:
+              - /url: /NousResearch/hermes-agent/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "5,000+" [ref=e104]: 5k+
+          - listitem [ref=e105]:
+            - link "Pull requests 5k+" [ref=e106] [cursor=pointer]:
+              - /url: /NousResearch/hermes-agent/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "5,000+" [ref=e110]: 5k+
+          - listitem [ref=e111]:
+            - link "Actions" [ref=e112] [cursor=pointer]:
+              - /url: /NousResearch/hermes-agent/actions
+              - img [ref=e113]
+              - generic [ref=e115]: Actions
+          - listitem [ref=e116]:
+            - link "Projects" [ref=e117] [cursor=pointer]:
+              - /url: /NousResearch/hermes-agent/projects
+              - img [ref=e118]
+              - generic [ref=e120]: Projects
+          - listitem [ref=e121]:
+            - link "Security and quality" [ref=e122] [cursor=pointer]:
+              - /url: /NousResearch/hermes-agent/security
+              - img [ref=e123]
+              - generic [ref=e125]: Security and quality
+          - listitem [ref=e126]:
+            - link "Insights" [ref=e127] [cursor=pointer]:
+              - /url: /NousResearch/hermes-agent/pulse
+              - img [ref=e128]
+              - generic [ref=e130]: Insights
+    - generic [ref=e143]:
+      - heading "NousResearch/hermes-agent" [level=1] [ref=e145]
+      - generic [ref=e146]:
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - generic [ref=e151]:
+              - button "main branch" [ref=e153] [cursor=pointer]:
+                - generic [ref=e154]:
+                  - generic [ref=e156]:
+                    - img [ref=e158]
+                    - generic [ref=e161]: main
+                  - generic:
+                    - img
+              - generic [ref=e162]:
+                - link "1040 Branches" [ref=e163] [cursor=pointer]:
+                  - /url: /NousResearch/hermes-agent/branches
+                  - generic [ref=e164]:
+                    - generic:
+                      - img
+                    - generic [ref=e166]:
+                      - strong [ref=e167]: "1040"
+                      - text: Branches
+                - link "15 Tags" [ref=e168] [cursor=pointer]:
+                  - /url: /NousResearch/hermes-agent/tags
+                  - generic [ref=e169]:
+                    - generic:
+                      - img
+                    - generic [ref=e171]:
+                      - strong [ref=e172]: "15"
+                      - text: Tags
+            - generic [ref=e173]:
+              - generic [ref=e177]:
+                - img [ref=e179]
+                - combobox "Go to file" [ref=e181]
+              - button "Code" [ref=e182] [cursor=pointer]:
+                - generic [ref=e183]:
+                  - generic:
+                    - img
+                  - generic [ref=e184]: Code
+                  - generic:
+                    - img
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - heading "Folders and files" [level=2] [ref=e187]
+              - table "Folders and files" [ref=e188]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e189]:
+                  - 'row "Latest commit wysie commits by wysie fix(browser): rewrite Camofox Docker loopback URLs (#25541) Open commit details pending Commit a0fc3df · May 29, 20264 minutes ago History 9,855 Commits" [ref=e190]':
+                    - 'cell "Latest commit wysie commits by wysie fix(browser): rewrite Camofox Docker loopback URLs (#25541) Open commit details pending Commit a0fc3df · May 29, 20264 minutes ago History 9,855 Commits" [ref=e191]':
+                      - generic [ref=e192]:
+                        - heading "Latest commit" [level=2] [ref=e193]
+                        - generic [ref=e194]:
+                          - generic [ref=e196]:
+                            - link "wysie" [ref=e197] [cursor=pointer]:
+                              - /url: /wysie
+                              - img "wysie" [ref=e198]
+                            - link "commits by wysie" [ref=e199] [cursor=pointer]:
+                              - /url: /NousResearch/hermes-agent/commits?author=wysie
+                              - text: wysie
+                          - generic [ref=e200]:
+                            - generic [ref=e202]:
+                              - 'link "fix(browser): rewrite Camofox Docker loopback URLs (" [ref=e203] [cursor=pointer]':
+                                - /url: /NousResearch/hermes-agent/commit/a0fc3df878e5d99125d3bbcbaeda6a4966e192c1
+                              - link "#25541" [ref=e204] [cursor=pointer]:
+                                - /url: https://github.com/NousResearch/hermes-agent/pull/25541
+                              - link ")" [ref=e205] [cursor=pointer]:
+                                - /url: /NousResearch/hermes-agent/commit/a0fc3df878e5d99125d3bbcbaeda6a4966e192c1
+                            - button "Open commit details" [ref=e206] [cursor=pointer]:
+                              - img [ref=e207]
+                            - button "pending" [ref=e209] [cursor=pointer]:
+                              - img [ref=e210]
+                        - generic [ref=e212]:
+                          - generic [ref=e214]:
+                            - link "Commit a0fc3df" [ref=e215] [cursor=pointer]:
+                              - /url: /NousResearch/hermes-agent/commit/a0fc3df878e5d99125d3bbcbaeda6a4966e192c1
+                              - text: a0fc3df
+                            - text: ·
+                            - generic "May 29, 2026, 2:43 PM GMT+9" [ref=e216]: May 29, 20264 minutes ago
+                          - generic [ref=e217]:
+                            - heading "History" [level=2] [ref=e218]
+                            - link "9,855 Commits" [ref=e219] [cursor=pointer]:
+                              - /url: /NousResearch/hermes-agent/commits/main/
+                              - generic [ref=e220]:
+                                - generic:
+                                  - img
+                                - generic [ref=e221]: 9,855 Commits
+                  - 'row ".github, (Directory) ci(docker): avoid gha cache on arm64 PR builds May 29, 20266 hours ago" [ref=e222]':
+                    - cell ".github, (Directory)" [ref=e223]:
+                      - generic [ref=e224]:
+                        - img [ref=e225]
+                        - link ".github, (Directory)" [ref=e230] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/.github
+                          - text: .github
+                    - 'cell "ci(docker): avoid gha cache on arm64 PR builds" [ref=e231]':
+                      - 'link "ci(docker): avoid gha cache on arm64 PR builds" [ref=e234] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/130396c6581f42f6d4c2e3c8baf89a7320330c68
+                    - cell "May 29, 20266 hours ago" [ref=e235]:
+                      - generic [ref=e236]: May 29, 20266 hours ago
+                  - 'row ".plans, (Directory) Merge PR #724: feat: --yolo flag to bypass all approval prompts Mar 11, 20262 months ago" [ref=e237]':
+                    - cell ".plans, (Directory)" [ref=e238]:
+                      - generic [ref=e239]:
+                        - img [ref=e240]
+                        - link ".plans, (Directory)" [ref=e245] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/.plans
+                          - text: .plans
+                    - 'cell "Merge PR #724: feat: --yolo flag to bypass all approval prompts" [ref=e246]':
+                      - generic [ref=e248]:
+                        - link "Merge PR" [ref=e249] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/586fe5d62d0709df43131f88ecd62b1b6d4b0043
+                        - link "#724" [ref=e250] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/724
+                        - 'link ": feat: --yolo flag to bypass all approval prompts" [ref=e251] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/586fe5d62d0709df43131f88ecd62b1b6d4b0043
+                    - cell "Mar 11, 20262 months ago" [ref=e252]:
+                      - generic [ref=e253]: Mar 11, 20262 months ago
+                  - 'row "acp_adapter, (Directory) fix(acp): only deliver final_response after streaming when transformed May 24, 20265 days ago" [ref=e254]':
+                    - cell "acp_adapter, (Directory)" [ref=e255]:
+                      - generic [ref=e256]:
+                        - img [ref=e257]
+                        - link "acp_adapter, (Directory)" [ref=e262] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/acp_adapter
+                          - text: acp_adapter
+                    - 'cell "fix(acp): only deliver final_response after streaming when transformed" [ref=e263]':
+                      - 'link "fix(acp): only deliver final_response after streaming when transformed" [ref=e266] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/60d20a37c975aaaf2b90f30bda36622ca6af8a61
+                    - cell "May 24, 20265 days ago" [ref=e267]:
+                      - generic [ref=e268]: May 24, 20265 days ago
+                  - 'row "acp_registry, (Directory) chore: release v0.15.1 (2026.5.29) (#34222) May 29, 20264 hours ago" [ref=e269]':
+                    - cell "acp_registry, (Directory)" [ref=e270]:
+                      - generic [ref=e271]:
+                        - img [ref=e272]
+                        - link "acp_registry, (Directory)" [ref=e277] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/acp_registry
+                          - text: acp_registry
+                    - 'cell "chore: release v0.15.1 (2026.5.29) (#34222)" [ref=e278]':
+                      - generic [ref=e280]:
+                        - 'link "chore: release v0.15.1 (2026.5.29) (" [ref=e281] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/e71a2bd11b733f3be7cf99deafde0066c343d462
+                        - link "#34222" [ref=e282] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/34222
+                        - link ")" [ref=e283] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/e71a2bd11b733f3be7cf99deafde0066c343d462
+                    - cell "May 29, 20264 hours ago" [ref=e284]:
+                      - generic [ref=e285]: May 29, 20264 hours ago
+                  - 'row "agent, (Directory) chore: prune unused imports and duplicate import redefinitions May 29, 202622 minutes ago" [ref=e286]':
+                    - cell "agent, (Directory)" [ref=e287]:
+                      - generic [ref=e288]:
+                        - img [ref=e289]
+                        - link "agent, (Directory)" [ref=e294] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/agent
+                          - text: agent
+                    - 'cell "chore: prune unused imports and duplicate import redefinitions" [ref=e295]':
+                      - 'link "chore: prune unused imports and duplicate import redefinitions" [ref=e298] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/66827f8947f08686b31b3952e768772423cefbcf
+                    - cell "May 29, 202622 minutes ago" [ref=e299]:
+                      - generic [ref=e300]: May 29, 202622 minutes ago
+                  - row "assets, (Directory) Update banner image to new version Feb 26, 20263 months ago" [ref=e301]:
+                    - cell "assets, (Directory)" [ref=e302]:
+                      - generic [ref=e303]:
+                        - img [ref=e304]
+                        - link "assets, (Directory)" [ref=e309] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/assets
+                          - text: assets
+                    - cell "Update banner image to new version" [ref=e310]:
+                      - link "Update banner image to new version" [ref=e313] [cursor=pointer]:
+                        - /url: /NousResearch/hermes-agent/commit/3e311a009278895df422e4ce58d53d6c0a46a0f8
+                    - cell "Feb 26, 20263 months ago" [ref=e314]:
+                      - generic [ref=e315]: Feb 26, 20263 months ago
+                  - 'row "cron, (Directory) fix(cron): split scanner into two tiers so skill prose stops false-po… May 26, 20263 days ago" [ref=e316]':
+                    - cell "cron, (Directory)" [ref=e317]:
+                      - generic [ref=e318]:
+                        - img [ref=e319]
+                        - link "cron, (Directory)" [ref=e324] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/cron
+                          - text: cron
+                    - 'cell "fix(cron): split scanner into two tiers so skill prose stops false-po…" [ref=e325]':
+                      - 'link "fix(cron): split scanner into two tiers so skill prose stops false-po…" [ref=e328] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/ccd899318e2290ea9830e7a6f40fabe51a4c2a41
+                    - cell "May 26, 20263 days ago" [ref=e329]:
+                      - generic [ref=e330]: May 26, 20263 days ago
+                  - 'row "datagen-config-examples, (Directory) feat: add WebResearchEnv RL environment for multi-step web research Mar 5, 20262 months ago" [ref=e331]':
+                    - cell "datagen-config-examples, (Directory)" [ref=e332]:
+                      - generic [ref=e333]:
+                        - img [ref=e334]
+                        - link "datagen-config-examples, (Directory)" [ref=e339] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/datagen-config-examples
+                          - text: datagen-config-examples
+                    - 'cell "feat: add WebResearchEnv RL environment for multi-step web research" [ref=e340]':
+                      - 'link "feat: add WebResearchEnv RL environment for multi-step web research" [ref=e343] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/15561ec425a74f26bd2051f562d60ec43f78a050
+                    - cell "Mar 5, 20262 months ago" [ref=e344]:
+                      - generic [ref=e345]: Mar 5, 20262 months ago
+                  - 'row "docker, (Directory) docker: opt in to dashboard --insecure via env var, never derive from… May 29, 20265 hours ago" [ref=e346]':
+                    - cell "docker, (Directory)" [ref=e347]:
+                      - generic [ref=e348]:
+                        - img [ref=e349]
+                        - link "docker, (Directory)" [ref=e354] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/docker
+                          - text: docker
+                    - 'cell "docker: opt in to dashboard --insecure via env var, never derive from…" [ref=e355]':
+                      - 'link "docker: opt in to dashboard --insecure via env var, never derive from…" [ref=e358] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/fb512536209fd6529c8c921ca466249b1a22d46b
+                    - cell "May 29, 20265 hours ago" [ref=e359]:
+                      - generic [ref=e360]: May 29, 20265 hours ago
+                  - 'row "docs, (Directory) docs(security): add network egress isolation guide for Docker deploym… May 29, 20261 hour ago" [ref=e361]':
+                    - cell "docs, (Directory)" [ref=e362]:
+                      - generic [ref=e363]:
+                        - img [ref=e364]
+                        - link "docs, (Directory)" [ref=e369] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/docs
+                          - text: docs
+                    - 'cell "docs(security): add network egress isolation guide for Docker deploym…" [ref=e370]':
+                      - 'link "docs(security): add network egress isolation guide for Docker deploym…" [ref=e373] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/90f0f32eae0e94323377db0b4dd28a54292c6c2a
+                    - cell "May 29, 20261 hour ago" [ref=e374]:
+                      - generic [ref=e375]: May 29, 20261 hour ago
+                  - 'row "gateway, (Directory) chore: prune unused imports and duplicate import redefinitions May 29, 202622 minutes ago" [ref=e376]':
+                    - cell "gateway, (Directory)" [ref=e377]:
+                      - generic [ref=e378]:
+                        - img [ref=e379]
+                        - link "gateway, (Directory)" [ref=e384] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/gateway
+                          - text: gateway
+                    - 'cell "chore: prune unused imports and duplicate import redefinitions" [ref=e385]':
+                      - 'link "chore: prune unused imports and duplicate import redefinitions" [ref=e388] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/66827f8947f08686b31b3952e768772423cefbcf
+                    - cell "May 29, 202622 minutes ago" [ref=e389]:
+                      - generic [ref=e390]: May 29, 202622 minutes ago
+                  - 'row "hermes_cli, (Directory) fix(browser): rewrite Camofox Docker loopback URLs (#25541) May 29, 20264 minutes ago" [ref=e391]':
+                    - cell "hermes_cli, (Directory)" [ref=e392]:
+                      - generic [ref=e393]:
+                        - img [ref=e394]
+                        - link "hermes_cli, (Directory)" [ref=e399] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/hermes_cli
+                          - text: hermes_cli
+                    - 'cell "fix(browser): rewrite Camofox Docker loopback URLs (#25541)" [ref=e400]':
+                      - generic [ref=e402]:
+                        - 'link "fix(browser): rewrite Camofox Docker loopback URLs (" [ref=e403] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/a0fc3df878e5d99125d3bbcbaeda6a4966e192c1
+                        - link "#25541" [ref=e404] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/25541
+                        - link ")" [ref=e405] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/a0fc3df878e5d99125d3bbcbaeda6a4966e192c1
+                    - cell "May 29, 20264 minutes ago" [ref=e406]:
+                      - generic [ref=e407]: May 29, 20264 minutes ago
+                  - 'row "infographic/kanban-db-corruption-defense, (Directory) infographic: kanban.db corruption defense (#30858 + #30862) (#30952) May 23, 2026last week" [ref=e408]':
+                    - cell "infographic/kanban-db-corruption-defense, (Directory)" [ref=e409]:
+                      - generic [ref=e410]:
+                        - img [ref=e411]
+                        - link "infographic/kanban-db-corruption-defense, (Directory)" [ref=e416] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/infographic/kanban-db-corruption-defense
+                          - text: infographic/kanban-db-corruption-defense
+                    - 'cell "infographic: kanban.db corruption defense (#30858 + #30862) (#30952)" [ref=e417]':
+                      - generic [ref=e419]:
+                        - 'link "infographic: kanban.db corruption defense (" [ref=e420] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/cae7537359c0ba8fceedc0a6423a4d9f30972100
+                        - link "#30858" [ref=e421] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/30858
+                        - link "+" [ref=e422] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/cae7537359c0ba8fceedc0a6423a4d9f30972100
+                        - link "#30862" [ref=e423] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/30862
+                        - link ") (" [ref=e424] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/cae7537359c0ba8fceedc0a6423a4d9f30972100
+                        - link "#30952" [ref=e425] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/30952
+                        - link ")" [ref=e426] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/cae7537359c0ba8fceedc0a6423a4d9f30972100
+                    - cell "May 23, 2026last week" [ref=e427]:
+                      - generic [ref=e428]: May 23, 2026last week
+                  - 'row "locales, (Directory) i18n+tests: add list_item_numbered, list_footer_numbered, out_of_rang… May 25, 20264 days ago" [ref=e429]':
+                    - cell "locales, (Directory)" [ref=e430]:
+                      - generic [ref=e431]:
+                        - img [ref=e432]
+                        - link "locales, (Directory)" [ref=e437] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/locales
+                          - text: locales
+                    - 'cell "i18n+tests: add list_item_numbered, list_footer_numbered, out_of_rang…" [ref=e438]':
+                      - 'link "i18n+tests: add list_item_numbered, list_footer_numbered, out_of_rang…" [ref=e441] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/c043c86bd76990dfacb67c3b2a0253149e82f8fd
+                    - cell "May 25, 20264 days ago" [ref=e442]:
+                      - generic [ref=e443]: May 25, 20264 days ago
+                  - 'row "nix, (Directory) fix(nix): update hermes-web npmDepsHash for @nous-research/ui 0.18.2 May 29, 20269 hours ago" [ref=e444]':
+                    - cell "nix, (Directory)" [ref=e445]:
+                      - generic [ref=e446]:
+                        - img [ref=e447]
+                        - link "nix, (Directory)" [ref=e452] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/nix
+                          - text: nix
+                    - 'cell "fix(nix): update hermes-web npmDepsHash for @nous-research/ui 0.18.2" [ref=e453]':
+                      - 'link "fix(nix): update hermes-web npmDepsHash for @nous-research/ui 0.18.2" [ref=e456] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/0acb7f4583cdd9a628483e58e1f71092dc703e84
+                    - cell "May 29, 20269 hours ago" [ref=e457]:
+                      - generic [ref=e458]: May 29, 20269 hours ago
+                  - 'row "optional-mcps, (Directory) feat(mcp): Nous-approved MCP catalog with interactive picker (#30870) May 27, 20262 days ago" [ref=e459]':
+                    - cell "optional-mcps, (Directory)" [ref=e460]:
+                      - generic [ref=e461]:
+                        - img [ref=e462]
+                        - link "optional-mcps, (Directory)" [ref=e467] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/optional-mcps
+                          - text: optional-mcps
+                    - 'cell "feat(mcp): Nous-approved MCP catalog with interactive picker (#30870)" [ref=e468]':
+                      - generic [ref=e470]:
+                        - 'link "feat(mcp): Nous-approved MCP catalog with interactive picker (" [ref=e471] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/8b69ec03af50de892ae0bca1f7e2384a8f6eb5a8
+                        - link "#30870" [ref=e472] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/30870
+                        - link ")" [ref=e473] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/8b69ec03af50de892ae0bca1f7e2384a8f6eb5a8
+                    - cell "May 27, 20262 days ago" [ref=e474]:
+                      - generic [ref=e475]: May 27, 20262 days ago
+                  - 'row "optional-skills, (Directory) chore: prune unused imports and duplicate import redefinitions May 29, 202622 minutes ago" [ref=e476]':
+                    - cell "optional-skills, (Directory)" [ref=e477]:
+                      - generic [ref=e478]:
+                        - img [ref=e479]
+                        - link "optional-skills, (Directory)" [ref=e484] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/optional-skills
+                          - text: optional-skills
+                    - 'cell "chore: prune unused imports and duplicate import redefinitions" [ref=e485]':
+                      - 'link "chore: prune unused imports and duplicate import redefinitions" [ref=e488] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/66827f8947f08686b31b3952e768772423cefbcf
+                    - cell "May 29, 202622 minutes ago" [ref=e489]:
+                      - generic [ref=e490]: May 29, 202622 minutes ago
+                  - 'row "packaging/homebrew, (Directory) chore: prepare Hermes for Homebrew packaging (#4099) Mar 31, 20262 months ago" [ref=e491]':
+                    - cell "packaging/homebrew, (Directory)" [ref=e492]:
+                      - generic [ref=e493]:
+                        - img [ref=e494]
+                        - link "packaging/homebrew, (Directory)" [ref=e499] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/packaging/homebrew
+                          - text: packaging/homebrew
+                    - 'cell "chore: prepare Hermes for Homebrew packaging (#4099)" [ref=e500]':
+                      - generic [ref=e502]:
+                        - 'link "chore: prepare Hermes for Homebrew packaging (" [ref=e503] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/e64b047663a0ff95753a1bf930036e6ccca43bd2
+                        - link "#4099" [ref=e504] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/4099
+                        - link ")" [ref=e505] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/e64b047663a0ff95753a1bf930036e6ccca43bd2
+                    - cell "Mar 31, 20262 months ago" [ref=e506]:
+                      - generic [ref=e507]: Mar 31, 20262 months ago
+                  - 'row "plans, (Directory) fix(gemini): tighten native routing and streaming replay Apr 20, 2026last month" [ref=e508]':
+                    - cell "plans, (Directory)" [ref=e509]:
+                      - generic [ref=e510]:
+                        - img [ref=e511]
+                        - link "plans, (Directory)" [ref=e516] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/plans
+                          - text: plans
+                    - 'cell "fix(gemini): tighten native routing and streaming replay" [ref=e517]':
+                      - 'link "fix(gemini): tighten native routing and streaming replay" [ref=e520] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/d393104bad62700d8e33de003502b3f74854151a
+                    - cell "Apr 20, 2026last month" [ref=e521]:
+                      - generic [ref=e522]: Apr 20, 2026last month
+                  - 'row "plugins, (Directory) chore: prune unused imports and duplicate import redefinitions May 29, 202622 minutes ago" [ref=e523]':
+                    - cell "plugins, (Directory)" [ref=e524]:
+                      - generic [ref=e525]:
+                        - img [ref=e526]
+                        - link "plugins, (Directory)" [ref=e531] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/plugins
+                          - text: plugins
+                    - 'cell "chore: prune unused imports and duplicate import redefinitions" [ref=e532]':
+                      - 'link "chore: prune unused imports and duplicate import redefinitions" [ref=e535] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/66827f8947f08686b31b3952e768772423cefbcf
+                    - cell "May 29, 202622 minutes ago" [ref=e536]:
+                      - generic [ref=e537]: May 29, 202622 minutes ago
+                  - 'row "providers, (Directory) fix(opencode-go): cap mimo-v2.5-pro max_tokens at 131072 May 29, 20262 hours ago" [ref=e538]':
+                    - cell "providers, (Directory)" [ref=e539]:
+                      - generic [ref=e540]:
+                        - img [ref=e541]
+                        - link "providers, (Directory)" [ref=e546] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/providers
+                          - text: providers
+                    - 'cell "fix(opencode-go): cap mimo-v2.5-pro max_tokens at 131072" [ref=e547]':
+                      - 'link "fix(opencode-go): cap mimo-v2.5-pro max_tokens at 131072" [ref=e550] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/8cf6b3da9d157bfced382cf139a9613eff90c006
+                    - cell "May 29, 20262 hours ago" [ref=e551]:
+                      - generic [ref=e552]: May 29, 20262 hours ago
+                  - 'row "scripts, (Directory) chore: prune unused imports and duplicate import redefinitions May 29, 202622 minutes ago" [ref=e553]':
+                    - cell "scripts, (Directory)" [ref=e554]:
+                      - generic [ref=e555]:
+                        - img [ref=e556]
+                        - link "scripts, (Directory)" [ref=e561] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/scripts
+                          - text: scripts
+                    - 'cell "chore: prune unused imports and duplicate import redefinitions" [ref=e562]':
+                      - 'link "chore: prune unused imports and duplicate import redefinitions" [ref=e565] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/66827f8947f08686b31b3952e768772423cefbcf
+                    - cell "May 29, 202622 minutes ago" [ref=e566]:
+                      - generic [ref=e567]: May 29, 202622 minutes ago
+                  - 'row "skills, (Directory) chore: prune unused imports and duplicate import redefinitions May 29, 202622 minutes ago" [ref=e568]':
+                    - cell "skills, (Directory)" [ref=e569]:
+                      - generic [ref=e570]:
+                        - img [ref=e571]
+                        - link "skills, (Directory)" [ref=e576] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/skills
+                          - text: skills
+                    - 'cell "chore: prune unused imports and duplicate import redefinitions" [ref=e577]':
+                      - 'link "chore: prune unused imports and duplicate import redefinitions" [ref=e580] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/66827f8947f08686b31b3952e768772423cefbcf
+                    - cell "May 29, 202622 minutes ago" [ref=e581]:
+                      - generic [ref=e582]: May 29, 202622 minutes ago
+                  - 'row "tests, (Directory) fix(browser): rewrite Camofox Docker loopback URLs (#25541) May 29, 20264 minutes ago" [ref=e583]':
+                    - cell "tests, (Directory)" [ref=e584]:
+                      - generic [ref=e585]:
+                        - img [ref=e586]
+                        - link "tests, (Directory)" [ref=e591] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/tests
+                          - text: tests
+                    - 'cell "fix(browser): rewrite Camofox Docker loopback URLs (#25541)" [ref=e592]':
+                      - generic [ref=e594]:
+                        - 'link "fix(browser): rewrite Camofox Docker loopback URLs (" [ref=e595] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/a0fc3df878e5d99125d3bbcbaeda6a4966e192c1
+                        - link "#25541" [ref=e596] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/25541
+                        - link ")" [ref=e597] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/a0fc3df878e5d99125d3bbcbaeda6a4966e192c1
+                    - cell "May 29, 20264 minutes ago" [ref=e598]:
+                      - generic [ref=e599]: May 29, 20264 minutes ago
+                  - 'row "tools, (Directory) fix(browser): rewrite Camofox Docker loopback URLs (#25541) May 29, 20264 minutes ago" [ref=e600]':
+                    - cell "tools, (Directory)" [ref=e601]:
+                      - generic [ref=e602]:
+                        - img [ref=e603]
+                        - link "tools, (Directory)" [ref=e608] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/tools
+                          - text: tools
+                    - 'cell "fix(browser): rewrite Camofox Docker loopback URLs (#25541)" [ref=e609]':
+                      - generic [ref=e611]:
+                        - 'link "fix(browser): rewrite Camofox Docker loopback URLs (" [ref=e612] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/a0fc3df878e5d99125d3bbcbaeda6a4966e192c1
+                        - link "#25541" [ref=e613] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/25541
+                        - link ")" [ref=e614] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/a0fc3df878e5d99125d3bbcbaeda6a4966e192c1
+                    - cell "May 29, 20264 minutes ago" [ref=e615]:
+                      - generic [ref=e616]: May 29, 20264 minutes ago
+                  - 'row "tui_gateway, (Directory) chore: prune unused imports and duplicate import redefinitions May 29, 202622 minutes ago" [ref=e617]':
+                    - cell "tui_gateway, (Directory)" [ref=e618]:
+                      - generic [ref=e619]:
+                        - img [ref=e620]
+                        - link "tui_gateway, (Directory)" [ref=e625] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/tui_gateway
+                          - text: tui_gateway
+                    - 'cell "chore: prune unused imports and duplicate import redefinitions" [ref=e626]':
+                      - 'link "chore: prune unused imports and duplicate import redefinitions" [ref=e629] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/66827f8947f08686b31b3952e768772423cefbcf
+                    - cell "May 29, 202622 minutes ago" [ref=e630]:
+                      - generic [ref=e631]: May 29, 202622 minutes ago
+                  - 'row "ui-tui, (Directory) feat: add TUI session orchestrator May 27, 20262 days ago" [ref=e632]':
+                    - cell "ui-tui, (Directory)" [ref=e633]:
+                      - generic [ref=e634]:
+                        - img [ref=e635]
+                        - link "ui-tui, (Directory)" [ref=e640] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/ui-tui
+                          - text: ui-tui
+                    - 'cell "feat: add TUI session orchestrator" [ref=e641]':
+                      - 'link "feat: add TUI session orchestrator" [ref=e644] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/0a83247e9fa6fc0d94ebbd05626b666c520c3d43
+                    - cell "May 27, 20262 days ago" [ref=e645]:
+                      - generic [ref=e646]: May 27, 20262 days ago
+                  - 'row "web, (Directory) fix(web): bridge Tailwind --font-sans to --theme-font-sans (#20406) May 29, 20261 hour ago" [ref=e647]':
+                    - cell "web, (Directory)" [ref=e648]:
+                      - generic [ref=e649]:
+                        - img [ref=e650]
+                        - link "web, (Directory)" [ref=e655] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/web
+                          - text: web
+                    - 'cell "fix(web): bridge Tailwind --font-sans to --theme-font-sans (#20406)" [ref=e656]':
+                      - generic [ref=e658]:
+                        - 'link "fix(web): bridge Tailwind --font-sans to --theme-font-sans (" [ref=e659] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/28bb7e0a8e8d9218d593eea6c8b5941d225814a6
+                        - link "#20406" [ref=e660] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/20406
+                        - link ")" [ref=e661] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/28bb7e0a8e8d9218d593eea6c8b5941d225814a6
+                    - cell "May 29, 20261 hour ago" [ref=e662]:
+                      - generic [ref=e663]: May 29, 20261 hour ago
+                  - 'row "website, (Directory) fix(browser): rewrite Camofox Docker loopback URLs (#25541) May 29, 20264 minutes ago" [ref=e664]':
+                    - cell "website, (Directory)" [ref=e665]:
+                      - generic [ref=e666]:
+                        - img [ref=e667]
+                        - link "website, (Directory)" [ref=e672] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/tree/main/website
+                          - text: website
+                    - 'cell "fix(browser): rewrite Camofox Docker loopback URLs (#25541)" [ref=e673]':
+                      - generic [ref=e675]:
+                        - 'link "fix(browser): rewrite Camofox Docker loopback URLs (" [ref=e676] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/a0fc3df878e5d99125d3bbcbaeda6a4966e192c1
+                        - link "#25541" [ref=e677] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/25541
+                        - link ")" [ref=e678] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/a0fc3df878e5d99125d3bbcbaeda6a4966e192c1
+                    - cell "May 29, 20264 minutes ago" [ref=e679]:
+                      - generic [ref=e680]: May 29, 20264 minutes ago
+                  - 'row ".dockerignore, (File) chore: ignore local Hermes runtime files May 20, 2026last week" [ref=e681]':
+                    - cell ".dockerignore, (File)" [ref=e682]:
+                      - generic [ref=e683]:
+                        - img [ref=e684]
+                        - link ".dockerignore, (File)" [ref=e689] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/.dockerignore
+                          - text: .dockerignore
+                    - 'cell "chore: ignore local Hermes runtime files" [ref=e690]':
+                      - 'link "chore: ignore local Hermes runtime files" [ref=e693] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/ec641d497a6b967c13d5224b1d7c200000f0f54c
+                    - cell "May 20, 2026last week" [ref=e694]:
+                      - generic [ref=e695]: May 20, 2026last week
+                  - 'row ".env.example, (File) fix(cron): route Telegram cron deliveries to a dedicated topic via TE… May 19, 2026last week" [ref=e696]':
+                    - cell ".env.example, (File)" [ref=e697]:
+                      - generic [ref=e698]:
+                        - img [ref=e699]
+                        - link ".env.example, (File)" [ref=e704] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/.env.example
+                          - text: .env.example
+                    - 'cell "fix(cron): route Telegram cron deliveries to a dedicated topic via TE…" [ref=e705]':
+                      - 'link "fix(cron): route Telegram cron deliveries to a dedicated topic via TE…" [ref=e708] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/a4fb0a3ac39fb5c3c747d4cd631e47a740fe8fde
+                    - cell "May 19, 2026last week" [ref=e709]:
+                      - generic [ref=e710]: May 19, 2026last week
+                  - 'row ".envrc, (File) nix: add tui lockfile update script Apr 10, 2026last month" [ref=e711]':
+                    - cell ".envrc, (File)" [ref=e712]:
+                      - generic [ref=e713]:
+                        - img [ref=e714]
+                        - link ".envrc, (File)" [ref=e719] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/.envrc
+                          - text: .envrc
+                    - 'cell "nix: add tui lockfile update script" [ref=e720]':
+                      - 'link "nix: add tui lockfile update script" [ref=e723] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/658cd2dd4ccb47c318897d90d7ddc535395f683d
+                    - cell "Apr 10, 2026last month" [ref=e724]:
+                      - generic [ref=e725]: Apr 10, 2026last month
+                  - 'row ".gitattributes, (File) feat: web UI dashboard for managing Hermes Agent (#8756) Apr 13, 2026last month" [ref=e726]':
+                    - cell ".gitattributes, (File)" [ref=e727]:
+                      - generic [ref=e728]:
+                        - img [ref=e729]
+                        - link ".gitattributes, (File)" [ref=e734] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/.gitattributes
+                          - text: .gitattributes
+                    - 'cell "feat: web UI dashboard for managing Hermes Agent (#8756)" [ref=e735]':
+                      - generic [ref=e737]:
+                        - 'link "feat: web UI dashboard for managing Hermes Agent (" [ref=e738] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/e2a9b5369f60ca9f7e15052481cf160d4b19e66b
+                        - link "#8756" [ref=e739] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/8756
+                        - link ")" [ref=e740] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/e2a9b5369f60ca9f7e15052481cf160d4b19e66b
+                    - cell "Apr 13, 2026last month" [ref=e741]:
+                      - generic [ref=e742]: Apr 13, 2026last month
+                  - 'row ".gitignore, (File) perf(skills-page): lazy-fetch the catalog instead of bundling 34MB in… May 28, 202619 hours ago" [ref=e743]':
+                    - cell ".gitignore, (File)" [ref=e744]:
+                      - generic [ref=e745]:
+                        - img [ref=e746]
+                        - link ".gitignore, (File)" [ref=e751] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/.gitignore
+                          - text: .gitignore
+                    - 'cell "perf(skills-page): lazy-fetch the catalog instead of bundling 34MB in…" [ref=e752]':
+                      - 'link "perf(skills-page): lazy-fetch the catalog instead of bundling 34MB in…" [ref=e755] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/a1eaad2fc0bf30e6bf0abec1bcba508d12c37152
+                    - cell "May 28, 202619 hours ago" [ref=e756]:
+                      - generic [ref=e757]: May 28, 202619 hours ago
+                  - 'row ".hadolint.yaml, (File) feat(docker): remove gosu from bundled image; s6-setuidgid handles pr… May 25, 20264 days ago" [ref=e758]':
+                    - cell ".hadolint.yaml, (File)" [ref=e759]:
+                      - generic [ref=e760]:
+                        - img [ref=e761]
+                        - link ".hadolint.yaml, (File)" [ref=e766] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/.hadolint.yaml
+                          - text: .hadolint.yaml
+                    - 'cell "feat(docker): remove gosu from bundled image; s6-setuidgid handles pr…" [ref=e767]':
+                      - 'link "feat(docker): remove gosu from bundled image; s6-setuidgid handles pr…" [ref=e770] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/4b4c36cb61dd21be469195c0775f6fcd9611dbd2
+                    - cell "May 25, 20264 days ago" [ref=e771]:
+                      - generic [ref=e772]: May 25, 20264 days ago
+                  - 'row ".mailmap, (File) chore: add MestreY0d4-Uninter to AUTHOR_MAP and .mailmap Apr 16, 2026last month" [ref=e773]':
+                    - cell ".mailmap, (File)" [ref=e774]:
+                      - generic [ref=e775]:
+                        - img [ref=e776]
+                        - link ".mailmap, (File)" [ref=e781] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/.mailmap
+                          - text: .mailmap
+                    - 'cell "chore: add MestreY0d4-Uninter to AUTHOR_MAP and .mailmap" [ref=e782]':
+                      - 'link "chore: add MestreY0d4-Uninter to AUTHOR_MAP and .mailmap" [ref=e785] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/902f1e6ede20dd618d64aa6dccced966675f8316
+                    - cell "Apr 16, 2026last month" [ref=e786]:
+                      - generic [ref=e787]: Apr 16, 2026last month
+                  - 'row "AGENTS.md, (File) test: use subprocesses for each test file (#29016) May 21, 2026last week" [ref=e788]':
+                    - cell "AGENTS.md, (File)" [ref=e789]:
+                      - generic [ref=e790]:
+                        - img [ref=e791]
+                        - link "AGENTS.md, (File)" [ref=e796] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/AGENTS.md
+                          - text: AGENTS.md
+                    - 'cell "test: use subprocesses for each test file (#29016)" [ref=e797]':
+                      - generic [ref=e799]:
+                        - 'link "test: use subprocesses for each test file (" [ref=e800] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/48be2e0e4dbc4489f418e8d58794790c9c830390
+                        - link "#29016" [ref=e801] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/29016
+                        - link ")" [ref=e802] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/48be2e0e4dbc4489f418e8d58794790c9c830390
+                    - cell "May 21, 2026last week" [ref=e803]:
+                      - generic [ref=e804]: May 21, 2026last week
+                  - 'row "CONTRIBUTING.md, (File) feat(sessions): opt-in per-session JSON snapshot writer May 21, 2026last week" [ref=e805]':
+                    - cell "CONTRIBUTING.md, (File)" [ref=e806]:
+                      - generic [ref=e807]:
+                        - img [ref=e808]
+                        - link "CONTRIBUTING.md, (File)" [ref=e813] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/CONTRIBUTING.md
+                          - text: CONTRIBUTING.md
+                    - 'cell "feat(sessions): opt-in per-session JSON snapshot writer" [ref=e814]':
+                      - 'link "feat(sessions): opt-in per-session JSON snapshot writer" [ref=e817] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/eeb747de25b0e3909bfeda7f2bbd5fadc1e3c790
+                    - cell "May 21, 2026last week" [ref=e818]:
+                      - generic [ref=e819]: May 21, 2026last week
+                  - row "Dockerfile, (File) Add iputils-ping (ping) to Docker image (#32015) May 29, 20262 hours ago" [ref=e820]:
+                    - cell "Dockerfile, (File)" [ref=e821]:
+                      - generic [ref=e822]:
+                        - img [ref=e823]
+                        - link "Dockerfile, (File)" [ref=e828] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/Dockerfile
+                          - text: Dockerfile
+                    - cell "Add iputils-ping (ping) to Docker image (#32015)" [ref=e829]:
+                      - generic [ref=e831]:
+                        - link "Add iputils-ping (ping) to Docker image (" [ref=e832] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/593e4b435ea5bb5ff73ee8972977388911c062ec
+                        - link "#32015" [ref=e833] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/32015
+                        - link ")" [ref=e834] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/593e4b435ea5bb5ff73ee8972977388911c062ec
+                    - cell "May 29, 20262 hours ago" [ref=e835]:
+                      - generic [ref=e836]: May 29, 20262 hours ago
+                  - 'row "LICENSE, (File) fix: restore missing MIT license file Mar 8, 20262 months ago" [ref=e837]':
+                    - cell "LICENSE, (File)" [ref=e838]:
+                      - generic [ref=e839]:
+                        - img [ref=e840]
+                        - link "LICENSE, (File)" [ref=e845] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/LICENSE
+                          - text: LICENSE
+                    - 'cell "fix: restore missing MIT license file" [ref=e846]':
+                      - 'link "fix: restore missing MIT license file" [ref=e849] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/9ba5d399e58fa353d7132b0e2e9533d281ff64d1
+                    - cell "Mar 8, 20262 months ago" [ref=e850]:
+                      - generic [ref=e851]: Mar 8, 20262 months ago
+                  - 'row "MANIFEST.in, (File) chore: prepare Hermes for Homebrew packaging (#4099) Mar 31, 20262 months ago" [ref=e852]':
+                    - cell "MANIFEST.in, (File)" [ref=e853]:
+                      - generic [ref=e854]:
+                        - img [ref=e855]
+                        - link "MANIFEST.in, (File)" [ref=e860] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/MANIFEST.in
+                          - text: MANIFEST.in
+                    - 'cell "chore: prepare Hermes for Homebrew packaging (#4099)" [ref=e861]':
+                      - generic [ref=e863]:
+                        - 'link "chore: prepare Hermes for Homebrew packaging (" [ref=e864] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/e64b047663a0ff95753a1bf930036e6ccca43bd2
+                        - link "#4099" [ref=e865] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/4099
+                        - link ")" [ref=e866] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/e64b047663a0ff95753a1bf930036e6ccca43bd2
+                    - cell "Mar 31, 20262 months ago" [ref=e867]:
+                      - generic [ref=e868]: Mar 31, 20262 months ago
+                  - row "README.md, (File) remove Vercel AI Gateway and Vercel Sandbox (#33067) May 27, 20262 days ago" [ref=e869]:
+                    - cell "README.md, (File)" [ref=e870]:
+                      - generic [ref=e871]:
+                        - img [ref=e872]
+                        - link "README.md, (File)" [ref=e877] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/README.md
+                          - text: README.md
+                    - cell "remove Vercel AI Gateway and Vercel Sandbox (#33067)" [ref=e878]:
+                      - generic [ref=e880]:
+                        - link "remove Vercel AI Gateway and Vercel Sandbox (" [ref=e881] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/febc4cfec0a79b175a430304765473c97e10622f
+                        - link "#33067" [ref=e882] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/33067
+                        - link ")" [ref=e883] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/febc4cfec0a79b175a430304765473c97e10622f
+                    - cell "May 27, 20262 days ago" [ref=e884]:
+                      - generic [ref=e885]: May 27, 20262 days ago
+                  - 'row "README.zh-CN.md, (File) docs(readme): add Nous Portal section between Getting Started and CLI… May 23, 2026last week" [ref=e886]':
+                    - cell "README.zh-CN.md, (File)" [ref=e887]:
+                      - generic [ref=e888]:
+                        - img [ref=e889]
+                        - link "README.zh-CN.md, (File)" [ref=e894] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/README.zh-CN.md
+                          - text: README.zh-CN.md
+                    - 'cell "docs(readme): add Nous Portal section between Getting Started and CLI…" [ref=e895]':
+                      - 'link "docs(readme): add Nous Portal section between Getting Started and CLI…" [ref=e898] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/e97a4c8f379530b556eee9cffb608b2016d87708
+                    - cell "May 23, 2026last week" [ref=e899]:
+                      - generic [ref=e900]: May 23, 2026last week
+                  - 'row "RELEASE_v0.10.0.md, (File) chore: release v0.10.0 (2026.4.16) (#11209) Apr 17, 2026last month" [ref=e901]':
+                    - cell "RELEASE_v0.10.0.md, (File)" [ref=e902]:
+                      - generic [ref=e903]:
+                        - img [ref=e904]
+                        - link "RELEASE_v0.10.0.md, (File)" [ref=e909] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/RELEASE_v0.10.0.md
+                          - text: RELEASE_v0.10.0.md
+                    - 'cell "chore: release v0.10.0 (2026.4.16) (#11209)" [ref=e910]':
+                      - generic [ref=e912]:
+                        - 'link "chore: release v0.10.0 (2026.4.16) (" [ref=e913] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/1dd6b5d5fb94cac59e93388f9aeee6bc365b8f42
+                        - link "#11209" [ref=e914] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/11209
+                        - link ")" [ref=e915] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/1dd6b5d5fb94cac59e93388f9aeee6bc365b8f42
+                    - cell "Apr 17, 2026last month" [ref=e916]:
+                      - generic [ref=e917]: Apr 17, 2026last month
+                  - 'row "RELEASE_v0.11.0.md, (File) chore: release v0.11.0 (2026.4.23) (#14791) Apr 24, 2026last month" [ref=e918]':
+                    - cell "RELEASE_v0.11.0.md, (File)" [ref=e919]:
+                      - generic [ref=e920]:
+                        - img [ref=e921]
+                        - link "RELEASE_v0.11.0.md, (File)" [ref=e926] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/RELEASE_v0.11.0.md
+                          - text: RELEASE_v0.11.0.md
+                    - 'cell "chore: release v0.11.0 (2026.4.23) (#14791)" [ref=e927]':
+                      - generic [ref=e929]:
+                        - 'link "chore: release v0.11.0 (2026.4.23) (" [ref=e930] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/bf196a3fc0fd1f79353369e8732051db275c6276
+                        - link "#14791" [ref=e931] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/14791
+                        - link ")" [ref=e932] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/bf196a3fc0fd1f79353369e8732051db275c6276
+                    - cell "Apr 24, 2026last month" [ref=e933]:
+                      - generic [ref=e934]: Apr 24, 2026last month
+                  - 'row "RELEASE_v0.12.0.md, (File) chore: release v0.12.0 (2026.4.30) (#18057) May 1, 202628 days ago" [ref=e935]':
+                    - cell "RELEASE_v0.12.0.md, (File)" [ref=e936]:
+                      - generic [ref=e937]:
+                        - img [ref=e938]
+                        - link "RELEASE_v0.12.0.md, (File)" [ref=e943] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/RELEASE_v0.12.0.md
+                          - text: RELEASE_v0.12.0.md
+                    - 'cell "chore: release v0.12.0 (2026.4.30) (#18057)" [ref=e944]':
+                      - generic [ref=e946]:
+                        - 'link "chore: release v0.12.0 (2026.4.30) (" [ref=e947] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/73bf3ab1b22314ed9dfecbb59242c03742fe72af
+                        - link "#18057" [ref=e948] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/18057
+                        - link ")" [ref=e949] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/73bf3ab1b22314ed9dfecbb59242c03742fe72af
+                    - cell "May 1, 202628 days ago" [ref=e950]:
+                      - generic [ref=e951]: May 1, 202628 days ago
+                  - 'row "RELEASE_v0.13.0.md, (File) chore: release v0.13.0 (2026.5.7) (#21406) May 8, 20263 weeks ago" [ref=e952]':
+                    - cell "RELEASE_v0.13.0.md, (File)" [ref=e953]:
+                      - generic [ref=e954]:
+                        - img [ref=e955]
+                        - link "RELEASE_v0.13.0.md, (File)" [ref=e960] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/RELEASE_v0.13.0.md
+                          - text: RELEASE_v0.13.0.md
+                    - 'cell "chore: release v0.13.0 (2026.5.7) (#21406)" [ref=e961]':
+                      - generic [ref=e963]:
+                        - 'link "chore: release v0.13.0 (2026.5.7) (" [ref=e964] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/498bfc7bc12a937621b4215312049b1000726df3
+                        - link "#21406" [ref=e965] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/21406
+                        - link ")" [ref=e966] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/498bfc7bc12a937621b4215312049b1000726df3
+                    - cell "May 8, 20263 weeks ago" [ref=e967]:
+                      - generic [ref=e968]: May 8, 20263 weeks ago
+                  - 'row "RELEASE_v0.14.0.md, (File) docs(release): expand v0.14.0 highlights with newcomer-friendly conte… May 17, 20262 weeks ago" [ref=e969]':
+                    - cell "RELEASE_v0.14.0.md, (File)" [ref=e970]:
+                      - generic [ref=e971]:
+                        - img [ref=e972]
+                        - link "RELEASE_v0.14.0.md, (File)" [ref=e977] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/RELEASE_v0.14.0.md
+                          - text: RELEASE_v0.14.0.md
+                    - 'cell "docs(release): expand v0.14.0 highlights with newcomer-friendly conte…" [ref=e978]':
+                      - 'link "docs(release): expand v0.14.0 highlights with newcomer-friendly conte…" [ref=e981] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/8a2b2b9f6f9c419fdef48f542bf4b1991c655810
+                    - cell "May 17, 20262 weeks ago" [ref=e982]:
+                      - generic [ref=e983]: May 17, 20262 weeks ago
+                  - 'row "RELEASE_v0.15.0.md, (File) docs: tweak v0.15.0 release notes (#34037) May 29, 202611 hours ago" [ref=e984]':
+                    - cell "RELEASE_v0.15.0.md, (File)" [ref=e985]:
+                      - generic [ref=e986]:
+                        - img [ref=e987]
+                        - link "RELEASE_v0.15.0.md, (File)" [ref=e992] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/RELEASE_v0.15.0.md
+                          - text: RELEASE_v0.15.0.md
+                    - 'cell "docs: tweak v0.15.0 release notes (#34037)" [ref=e993]':
+                      - generic [ref=e995]:
+                        - 'link "docs: tweak v0.15.0 release notes (" [ref=e996] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/b1d3ead7fbb97003a60a55ac8ddd8fd099484665
+                        - link "#34037" [ref=e997] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/34037
+                        - link ")" [ref=e998] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/b1d3ead7fbb97003a60a55ac8ddd8fd099484665
+                    - cell "May 29, 202611 hours ago" [ref=e999]:
+                      - generic [ref=e1000]: May 29, 202611 hours ago
+                  - 'row "RELEASE_v0.15.1.md, (File) chore: release v0.15.1 (2026.5.29) (#34222) May 29, 20264 hours ago" [ref=e1001]':
+                    - cell "RELEASE_v0.15.1.md, (File)" [ref=e1002]:
+                      - generic [ref=e1003]:
+                        - img [ref=e1004]
+                        - link "RELEASE_v0.15.1.md, (File)" [ref=e1009] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/RELEASE_v0.15.1.md
+                          - text: RELEASE_v0.15.1.md
+                    - 'cell "chore: release v0.15.1 (2026.5.29) (#34222)" [ref=e1010]':
+                      - generic [ref=e1012]:
+                        - 'link "chore: release v0.15.1 (2026.5.29) (" [ref=e1013] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/e71a2bd11b733f3be7cf99deafde0066c343d462
+                        - link "#34222" [ref=e1014] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/34222
+                        - link ")" [ref=e1015] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/e71a2bd11b733f3be7cf99deafde0066c343d462
+                    - cell "May 29, 20264 hours ago" [ref=e1016]:
+                      - generic [ref=e1017]: May 29, 20264 hours ago
+                  - 'row "RELEASE_v0.2.0.md, (File) chore: rebuild changelog with correct time window (Feb 25 12PM PST on… Mar 12, 20262 months ago" [ref=e1018]':
+                    - cell "RELEASE_v0.2.0.md, (File)" [ref=e1019]:
+                      - generic [ref=e1020]:
+                        - img [ref=e1021]
+                        - link "RELEASE_v0.2.0.md, (File)" [ref=e1026] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/RELEASE_v0.2.0.md
+                          - text: RELEASE_v0.2.0.md
+                    - 'cell "chore: rebuild changelog with correct time window (Feb 25 12PM PST on…" [ref=e1027]':
+                      - 'link "chore: rebuild changelog with correct time window (Feb 25 12PM PST on…" [ref=e1030] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/364cb956c100f452530215add550392cb6c2174d
+                    - cell "Mar 12, 20262 months ago" [ref=e1031]:
+                      - generic [ref=e1032]: Mar 12, 20262 months ago
+                  - 'row "RELEASE_v0.3.0.md, (File) chore: release v0.3.0 (v2026.3.17) Mar 17, 20262 months ago" [ref=e1033]':
+                    - cell "RELEASE_v0.3.0.md, (File)" [ref=e1034]:
+                      - generic [ref=e1035]:
+                        - img [ref=e1036]
+                        - link "RELEASE_v0.3.0.md, (File)" [ref=e1041] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/RELEASE_v0.3.0.md
+                          - text: RELEASE_v0.3.0.md
+                    - 'cell "chore: release v0.3.0 (v2026.3.17)" [ref=e1042]':
+                      - 'link "chore: release v0.3.0 (v2026.3.17)" [ref=e1045] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/37862f74fa1e32c2c25699fc91f20310728d6d78
+                    - cell "Mar 17, 20262 months ago" [ref=e1046]:
+                      - generic [ref=e1047]: Mar 17, 20262 months ago
+                  - 'row "RELEASE_v0.4.0.md, (File) docs: revise v0.4.0 changelog — fix feature attribution, reorder sect… Mar 24, 20262 months ago" [ref=e1048]':
+                    - cell "RELEASE_v0.4.0.md, (File)" [ref=e1049]:
+                      - generic [ref=e1050]:
+                        - img [ref=e1051]
+                        - link "RELEASE_v0.4.0.md, (File)" [ref=e1056] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/RELEASE_v0.4.0.md
+                          - text: RELEASE_v0.4.0.md
+                    - 'cell "docs: revise v0.4.0 changelog — fix feature attribution, reorder sect…" [ref=e1057]':
+                      - 'link "docs: revise v0.4.0 changelog — fix feature attribution, reorder sect…" [ref=e1060] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/6e97a3b338eb9c284c7bb4a2eff1a9b69a6f0c9f
+                    - cell "Mar 24, 20262 months ago" [ref=e1061]:
+                      - generic [ref=e1062]: Mar 24, 20262 months ago
+                  - 'row "RELEASE_v0.5.0.md, (File) chore: release v0.5.0 (v2026.3.28) (#3568) Mar 29, 20262 months ago" [ref=e1063]':
+                    - cell "RELEASE_v0.5.0.md, (File)" [ref=e1064]:
+                      - generic [ref=e1065]:
+                        - img [ref=e1066]
+                        - link "RELEASE_v0.5.0.md, (File)" [ref=e1071] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/RELEASE_v0.5.0.md
+                          - text: RELEASE_v0.5.0.md
+                    - 'cell "chore: release v0.5.0 (v2026.3.28) (#3568)" [ref=e1072]':
+                      - generic [ref=e1074]:
+                        - 'link "chore: release v0.5.0 (v2026.3.28) (" [ref=e1075] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/558cc14ad91ec46ae21430cecbef8e7903be57a7
+                        - link "#3568" [ref=e1076] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/3568
+                        - link ")" [ref=e1077] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/558cc14ad91ec46ae21430cecbef8e7903be57a7
+                    - cell "Mar 29, 20262 months ago" [ref=e1078]:
+                      - generic [ref=e1079]: Mar 29, 20262 months ago
+                  - 'row "RELEASE_v0.6.0.md, (File) chore: release v0.6.0 (2026.3.30) (#3985) Mar 31, 20262 months ago" [ref=e1080]':
+                    - cell "RELEASE_v0.6.0.md, (File)" [ref=e1081]:
+                      - generic [ref=e1082]:
+                        - img [ref=e1083]
+                        - link "RELEASE_v0.6.0.md, (File)" [ref=e1088] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/RELEASE_v0.6.0.md
+                          - text: RELEASE_v0.6.0.md
+                    - 'cell "chore: release v0.6.0 (2026.3.30) (#3985)" [ref=e1089]':
+                      - generic [ref=e1091]:
+                        - 'link "chore: release v0.6.0 (2026.3.30) (" [ref=e1092] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/e08778fa1ee377f7128641f8cc03b0de046bd8da
+                        - link "#3985" [ref=e1093] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/3985
+                        - link ")" [ref=e1094] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/e08778fa1ee377f7128641f8cc03b0de046bd8da
+                    - cell "Mar 31, 20262 months ago" [ref=e1095]:
+                      - generic [ref=e1096]: Mar 31, 20262 months ago
+                  - 'row "RELEASE_v0.7.0.md, (File) chore: release v0.7.0 (2026.4.3) (#4812) Apr 4, 2026last month" [ref=e1097]':
+                    - cell "RELEASE_v0.7.0.md, (File)" [ref=e1098]:
+                      - generic [ref=e1099]:
+                        - img [ref=e1100]
+                        - link "RELEASE_v0.7.0.md, (File)" [ref=e1105] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/RELEASE_v0.7.0.md
+                          - text: RELEASE_v0.7.0.md
+                    - 'cell "chore: release v0.7.0 (2026.4.3) (#4812)" [ref=e1106]':
+                      - generic [ref=e1108]:
+                        - 'link "chore: release v0.7.0 (2026.4.3) (" [ref=e1109] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/abf1e98f6253f6984479fe03d1098173a9b065a7
+                        - link "#4812" [ref=e1110] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/4812
+                        - link ")" [ref=e1111] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/abf1e98f6253f6984479fe03d1098173a9b065a7
+                    - cell "Apr 4, 2026last month" [ref=e1112]:
+                      - generic [ref=e1113]: Apr 4, 2026last month
+                  - 'row "RELEASE_v0.8.0.md, (File) docs: update v0.8.0 highlights — notify_on_complete, MiMo v2 Pro, reo… Apr 8, 2026last month" [ref=e1114]':
+                    - cell "RELEASE_v0.8.0.md, (File)" [ref=e1115]:
+                      - generic [ref=e1116]:
+                        - img [ref=e1117]
+                        - link "RELEASE_v0.8.0.md, (File)" [ref=e1122] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/RELEASE_v0.8.0.md
+                          - text: RELEASE_v0.8.0.md
+                    - 'cell "docs: update v0.8.0 highlights — notify_on_complete, MiMo v2 Pro, reo…" [ref=e1123]':
+                      - 'link "docs: update v0.8.0 highlights — notify_on_complete, MiMo v2 Pro, reo…" [ref=e1126] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/ff6a86cb529a372198b4b80d5e022e32a4a3f2cc
+                    - cell "Apr 8, 2026last month" [ref=e1127]:
+                      - generic [ref=e1128]: Apr 8, 2026last month
+                  - 'row "RELEASE_v0.9.0.md, (File) fix: add contributor audit script + fix missed contributors (#9264) Apr 14, 2026last month" [ref=e1129]':
+                    - cell "RELEASE_v0.9.0.md, (File)" [ref=e1130]:
+                      - generic [ref=e1131]:
+                        - img [ref=e1132]
+                        - link "RELEASE_v0.9.0.md, (File)" [ref=e1137] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/RELEASE_v0.9.0.md
+                          - text: RELEASE_v0.9.0.md
+                    - 'cell "fix: add contributor audit script + fix missed contributors (#9264)" [ref=e1138]':
+                      - generic [ref=e1140]:
+                        - 'link "fix: add contributor audit script + fix missed contributors (" [ref=e1141] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/def8b959b814d158c80e66d70f501adc3b6e9384
+                        - link "#9264" [ref=e1142] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/9264
+                        - link ")" [ref=e1143] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/def8b959b814d158c80e66d70f501adc3b6e9384
+                    - cell "Apr 14, 2026last month" [ref=e1144]:
+                      - generic [ref=e1145]: Apr 14, 2026last month
+                  - row "SECURITY.md, (File) changes from feedback May 6, 20263 weeks ago" [ref=e1146]:
+                    - cell "SECURITY.md, (File)" [ref=e1147]:
+                      - generic [ref=e1148]:
+                        - img [ref=e1149]
+                        - link "SECURITY.md, (File)" [ref=e1154] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/SECURITY.md
+                          - text: SECURITY.md
+                    - cell "changes from feedback" [ref=e1155]:
+                      - link "changes from feedback" [ref=e1158] [cursor=pointer]:
+                        - /url: /NousResearch/hermes-agent/commit/0d1cbc2dda28337c4049337b5a90beff766fe6be
+                    - cell "May 6, 20263 weeks ago" [ref=e1159]:
+                      - generic [ref=e1160]: May 6, 20263 weeks ago
+                  - 'row "batch_runner.py, (File) feat(azure-foundry): add Microsoft Entra ID auth May 19, 20262 weeks ago" [ref=e1161]':
+                    - cell "batch_runner.py, (File)" [ref=e1162]:
+                      - generic [ref=e1163]:
+                        - img [ref=e1164]
+                        - link "batch_runner.py, (File)" [ref=e1169] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/batch_runner.py
+                          - text: batch_runner.py
+                    - 'cell "feat(azure-foundry): add Microsoft Entra ID auth" [ref=e1170]':
+                      - 'link "feat(azure-foundry): add Microsoft Entra ID auth" [ref=e1173] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/9df9816dabb63bd7039b358f40501ce3490a5753
+                    - cell "May 19, 20262 weeks ago" [ref=e1174]:
+                      - generic [ref=e1175]: May 19, 20262 weeks ago
+                  - 'row "cli-config.yaml.example, (File) fix(gateway): keep Telegram heartbeat + interim commentary on; edit h… May 27, 20262 days ago" [ref=e1176]':
+                    - cell "cli-config.yaml.example, (File)" [ref=e1177]:
+                      - generic [ref=e1178]:
+                        - img [ref=e1179]
+                        - link "cli-config.yaml.example, (File)" [ref=e1184] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/cli-config.yaml.example
+                          - text: cli-config.yaml.example
+                    - 'cell "fix(gateway): keep Telegram heartbeat + interim commentary on; edit h…" [ref=e1185]':
+                      - 'link "fix(gateway): keep Telegram heartbeat + interim commentary on; edit h…" [ref=e1188] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/0325e18f3426b91d0213cc064cbe7355bf028690
+                    - cell "May 27, 20262 days ago" [ref=e1189]:
+                      - generic [ref=e1190]: May 27, 20262 days ago
+                  - 'row "cli.py, (File) fix(browser): rewrite Camofox Docker loopback URLs (#25541) May 29, 20264 minutes ago" [ref=e1191]':
+                    - cell "cli.py, (File)" [ref=e1192]:
+                      - generic [ref=e1193]:
+                        - img [ref=e1194]
+                        - link "cli.py, (File)" [ref=e1199] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/cli.py
+                          - text: cli.py
+                    - 'cell "fix(browser): rewrite Camofox Docker loopback URLs (#25541)" [ref=e1200]':
+                      - generic [ref=e1202]:
+                        - 'link "fix(browser): rewrite Camofox Docker loopback URLs (" [ref=e1203] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/a0fc3df878e5d99125d3bbcbaeda6a4966e192c1
+                        - link "#25541" [ref=e1204] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/25541
+                        - link ")" [ref=e1205] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/a0fc3df878e5d99125d3bbcbaeda6a4966e192c1
+                    - cell "May 29, 20264 minutes ago" [ref=e1206]:
+                      - generic [ref=e1207]: May 29, 20264 minutes ago
+                  - 'row "constraints-termux.txt, (File) feat: add tested Termux install path and EOF-aware gh auth Apr 10, 2026last month" [ref=e1208]':
+                    - cell "constraints-termux.txt, (File)" [ref=e1209]:
+                      - generic [ref=e1210]:
+                        - img [ref=e1211]
+                        - link "constraints-termux.txt, (File)" [ref=e1216] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/constraints-termux.txt
+                          - text: constraints-termux.txt
+                    - 'cell "feat: add tested Termux install path and EOF-aware gh auth" [ref=e1217]':
+                      - 'link "feat: add tested Termux install path and EOF-aware gh auth" [ref=e1220] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/e79cc8898517cf4b06b0490b828e79a1ee1ede59
+                    - cell "Apr 10, 2026last month" [ref=e1221]:
+                      - generic [ref=e1222]: Apr 10, 2026last month
+                  - 'row "docker-compose.windows.yml, (File) feat(docker): add Windows Docker Desktop compatible compose file May 24, 2026last week" [ref=e1223]':
+                    - cell "docker-compose.windows.yml, (File)" [ref=e1224]:
+                      - generic [ref=e1225]:
+                        - img [ref=e1226]
+                        - link "docker-compose.windows.yml, (File)" [ref=e1231] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/docker-compose.windows.yml
+                          - text: docker-compose.windows.yml
+                    - 'cell "feat(docker): add Windows Docker Desktop compatible compose file" [ref=e1232]':
+                      - 'link "feat(docker): add Windows Docker Desktop compatible compose file" [ref=e1235] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/f8695ed6a7e64f9a62ed73fd559bf6887d69d079
+                    - cell "May 24, 2026last week" [ref=e1236]:
+                      - generic [ref=e1237]: May 24, 2026last week
+                  - 'row "docker-compose.yml, (File) docs(compose): update entrypoint comment for s6-overlay May 25, 20264 days ago" [ref=e1238]':
+                    - cell "docker-compose.yml, (File)" [ref=e1239]:
+                      - generic [ref=e1240]:
+                        - img [ref=e1241]
+                        - link "docker-compose.yml, (File)" [ref=e1246] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/docker-compose.yml
+                          - text: docker-compose.yml
+                    - 'cell "docs(compose): update entrypoint comment for s6-overlay" [ref=e1247]':
+                      - 'link "docs(compose): update entrypoint comment for s6-overlay" [ref=e1250] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/143a189def3201bf8f79a7036b1e5e8c9aff87a8
+                    - cell "May 25, 20264 days ago" [ref=e1251]:
+                      - generic [ref=e1252]: May 25, 20264 days ago
+                  - row "flake.lock, (File) fix nix build Apr 12, 2026last month" [ref=e1253]:
+                    - cell "flake.lock, (File)" [ref=e1254]:
+                      - generic [ref=e1255]:
+                        - img [ref=e1256]
+                        - link "flake.lock, (File)" [ref=e1261] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/flake.lock
+                          - text: flake.lock
+                    - cell "fix nix build" [ref=e1262]:
+                      - link "fix nix build" [ref=e1265] [cursor=pointer]:
+                        - /url: /NousResearch/hermes-agent/commit/5e5e65f6d5b11e4df95c29d47fde198a0405cae1
+                    - cell "Apr 12, 2026last month" [ref=e1266]:
+                      - generic [ref=e1267]: Apr 12, 2026last month
+                  - 'row "flake.nix, (File) feat(nix): declarative plugin installation for NixOS module (#15953) Apr 28, 2026last month" [ref=e1268]':
+                    - cell "flake.nix, (File)" [ref=e1269]:
+                      - generic [ref=e1270]:
+                        - img [ref=e1271]
+                        - link "flake.nix, (File)" [ref=e1276] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/flake.nix
+                          - text: flake.nix
+                    - 'cell "feat(nix): declarative plugin installation for NixOS module (#15953)" [ref=e1277]':
+                      - generic [ref=e1279]:
+                        - 'link "feat(nix): declarative plugin installation for NixOS module (" [ref=e1280] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/ef41d3bd450712759768537ffe709c93ead7700b
+                        - link "#15953" [ref=e1281] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/15953
+                        - link ")" [ref=e1282] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/ef41d3bd450712759768537ffe709c93ead7700b
+                    - cell "Apr 28, 2026last month" [ref=e1283]:
+                      - generic [ref=e1284]: Apr 28, 2026last month
+                  - 'row "hermes, (File) fix: use argparse entrypoint in top-level launcher (#3874) Mar 30, 20262 months ago" [ref=e1285]':
+                    - cell "hermes, (File)" [ref=e1286]:
+                      - generic [ref=e1287]:
+                        - img [ref=e1288]
+                        - link "hermes, (File)" [ref=e1293] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/hermes
+                          - text: hermes
+                    - 'cell "fix: use argparse entrypoint in top-level launcher (#3874)" [ref=e1294]':
+                      - generic [ref=e1296]:
+                        - 'link "fix: use argparse entrypoint in top-level launcher (" [ref=e1297] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/fd29933a6d44fdb1168fed5a50df07aba84c8387
+                        - link "#3874" [ref=e1298] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/3874
+                        - link ")" [ref=e1299] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/fd29933a6d44fdb1168fed5a50df07aba84c8387
+                    - cell "Mar 30, 20262 months ago" [ref=e1300]:
+                      - generic [ref=e1301]: Mar 30, 20262 months ago
+                  - 'row "hermes-already-has-routines.md, (File) docs: automation templates gallery + comparison post (#9821) Apr 15, 2026last month" [ref=e1302]':
+                    - cell "hermes-already-has-routines.md, (File)" [ref=e1303]:
+                      - generic [ref=e1304]:
+                        - img [ref=e1305]
+                        - link "hermes-already-has-routines.md, (File)" [ref=e1310] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/hermes-already-has-routines.md
+                          - text: hermes-already-has-routines.md
+                    - 'cell "docs: automation templates gallery + comparison post (#9821)" [ref=e1311]':
+                      - generic [ref=e1313]:
+                        - 'link "docs: automation templates gallery + comparison post (" [ref=e1314] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/95d11dfd8e6e86e97657598450efe065f33e9cdd
+                        - link "#9821" [ref=e1315] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/9821
+                        - link ")" [ref=e1316] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/95d11dfd8e6e86e97657598450efe065f33e9cdd
+                    - cell "Apr 15, 2026last month" [ref=e1317]:
+                      - generic [ref=e1318]: Apr 15, 2026last month
+                  - 'row "hermes_bootstrap.py, (File) hermes_bootstrap: Windows-only UTF-8 stdio shim for all entry points May 9, 20263 weeks ago" [ref=e1319]':
+                    - cell "hermes_bootstrap.py, (File)" [ref=e1320]:
+                      - generic [ref=e1321]:
+                        - img [ref=e1322]
+                        - link "hermes_bootstrap.py, (File)" [ref=e1327] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/hermes_bootstrap.py
+                          - text: hermes_bootstrap.py
+                    - 'cell "hermes_bootstrap: Windows-only UTF-8 stdio shim for all entry points" [ref=e1328]':
+                      - 'link "hermes_bootstrap: Windows-only UTF-8 stdio shim for all entry points" [ref=e1331] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/d94fb47717eb6e2c343e1615fdabf436f19b350a
+                    - cell "May 9, 20263 weeks ago" [ref=e1332]:
+                      - generic [ref=e1333]: May 9, 20263 weeks ago
+                  - row "hermes_constants.py, (File) remove Vercel AI Gateway and Vercel Sandbox (#33067) May 27, 20262 days ago" [ref=e1334]:
+                    - cell "hermes_constants.py, (File)" [ref=e1335]:
+                      - generic [ref=e1336]:
+                        - img [ref=e1337]
+                        - link "hermes_constants.py, (File)" [ref=e1342] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/hermes_constants.py
+                          - text: hermes_constants.py
+                    - cell "remove Vercel AI Gateway and Vercel Sandbox (#33067)" [ref=e1343]:
+                      - generic [ref=e1345]:
+                        - link "remove Vercel AI Gateway and Vercel Sandbox (" [ref=e1346] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/febc4cfec0a79b175a430304765473c97e10622f
+                        - link "#33067" [ref=e1347] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/33067
+                        - link ")" [ref=e1348] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/febc4cfec0a79b175a430304765473c97e10622f
+                    - cell "May 27, 20262 days ago" [ref=e1349]:
+                      - generic [ref=e1350]: May 27, 20262 days ago
+                  - 'row "hermes_logging.py, (File) fix(logging): recover gateway.log handler from external rotation (#34349 May 29, 202622 minutes ago" [ref=e1351]':
+                    - cell "hermes_logging.py, (File)" [ref=e1352]:
+                      - generic [ref=e1353]:
+                        - img [ref=e1354]
+                        - link "hermes_logging.py, (File)" [ref=e1359] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/hermes_logging.py
+                          - text: hermes_logging.py
+                    - 'cell "fix(logging): recover gateway.log handler from external rotation (#34349" [ref=e1360]':
+                      - generic [ref=e1362]:
+                        - 'link "fix(logging): recover gateway.log handler from external rotation (" [ref=e1363] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/75d2c081c9abd60333694b13f1d753c3a8361f61
+                        - link "#34349" [ref=e1364] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/34349
+                    - cell "May 29, 202622 minutes ago" [ref=e1365]:
+                      - generic [ref=e1366]: May 29, 202622 minutes ago
+                  - 'row "hermes_state.py, (File) fix(compression): prevent session-id fork from concurrent compressions ( May 29, 20261 hour ago" [ref=e1367]':
+                    - cell "hermes_state.py, (File)" [ref=e1368]:
+                      - generic [ref=e1369]:
+                        - img [ref=e1370]
+                        - link "hermes_state.py, (File)" [ref=e1375] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/hermes_state.py
+                          - text: hermes_state.py
+                    - 'cell "fix(compression): prevent session-id fork from concurrent compressions (" [ref=e1376]':
+                      - 'link "fix(compression): prevent session-id fork from concurrent compressions (" [ref=e1379] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/a30480bd2b15ffd942ae3a24f1f993f575c89af2
+                    - cell "May 29, 20261 hour ago" [ref=e1380]:
+                      - generic [ref=e1381]: May 29, 20261 hour ago
+                  - 'row "hermes_time.py, (File) codebase: add encoding=''utf-8'' to all bare open() calls (PLW1514) May 9, 20263 weeks ago" [ref=e1382]':
+                    - cell "hermes_time.py, (File)" [ref=e1383]:
+                      - generic [ref=e1384]:
+                        - img [ref=e1385]
+                        - link "hermes_time.py, (File)" [ref=e1390] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/hermes_time.py
+                          - text: hermes_time.py
+                    - 'cell "codebase: add encoding=''utf-8'' to all bare open() calls (PLW1514)" [ref=e1391]':
+                      - 'link "codebase: add encoding=''utf-8'' to all bare open() calls (PLW1514)" [ref=e1394] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/cbce5e93fcb9a923ab71f45d2a0f0f172dd54967
+                    - cell "May 9, 20263 weeks ago" [ref=e1395]:
+                      - generic [ref=e1396]: May 9, 20263 weeks ago
+                  - 'row "mcp_serve.py, (File) chore: ruff auto-fix PLR6201 — tuple → set in membership tests (#23937) May 12, 20262 weeks ago" [ref=e1397]':
+                    - cell "mcp_serve.py, (File)" [ref=e1398]:
+                      - generic [ref=e1399]:
+                        - img [ref=e1400]
+                        - link "mcp_serve.py, (File)" [ref=e1405] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/mcp_serve.py
+                          - text: mcp_serve.py
+                    - 'cell "chore: ruff auto-fix PLR6201 — tuple → set in membership tests (#23937)" [ref=e1406]':
+                      - generic [ref=e1408]:
+                        - 'link "chore: ruff auto-fix PLR6201 — tuple → set in membership tests (" [ref=e1409] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/2ec8d2b42ffecec2128f1004c0a8451378057d42
+                        - link "#23937" [ref=e1410] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/23937
+                        - link ")" [ref=e1411] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/2ec8d2b42ffecec2128f1004c0a8451378057d42
+                    - cell "May 12, 20262 weeks ago" [ref=e1412]:
+                      - generic [ref=e1413]: May 12, 20262 weeks ago
+                  - 'row "mini_swe_runner.py, (File) chore: prune unused imports and duplicate import redefinitions May 29, 202622 minutes ago" [ref=e1414]':
+                    - cell "mini_swe_runner.py, (File)" [ref=e1415]:
+                      - generic [ref=e1416]:
+                        - img [ref=e1417]
+                        - link "mini_swe_runner.py, (File)" [ref=e1422] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/mini_swe_runner.py
+                          - text: mini_swe_runner.py
+                    - 'cell "chore: prune unused imports and duplicate import redefinitions" [ref=e1423]':
+                      - 'link "chore: prune unused imports and duplicate import redefinitions" [ref=e1426] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/66827f8947f08686b31b3952e768772423cefbcf
+                    - cell "May 29, 202622 minutes ago" [ref=e1427]:
+                      - generic [ref=e1428]: May 29, 202622 minutes ago
+                  - 'row "model_tools.py, (File) fix(kanban): preserve worker tools with restricted toolsets May 19, 2026last week" [ref=e1429]':
+                    - cell "model_tools.py, (File)" [ref=e1430]:
+                      - generic [ref=e1431]:
+                        - img [ref=e1432]
+                        - link "model_tools.py, (File)" [ref=e1437] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/model_tools.py
+                          - text: model_tools.py
+                    - 'cell "fix(kanban): preserve worker tools with restricted toolsets" [ref=e1438]':
+                      - 'link "fix(kanban): preserve worker tools with restricted toolsets" [ref=e1441] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/c30608cfbe72efd51b607b115665145417600883
+                    - cell "May 19, 2026last week" [ref=e1442]:
+                      - generic [ref=e1443]: May 19, 2026last week
+                  - 'row "package-lock.json, (File) fix(update): make Camofox lazy-installed instead of eager (#27055) May 17, 20262 weeks ago" [ref=e1444]':
+                    - cell "package-lock.json, (File)" [ref=e1445]:
+                      - generic [ref=e1446]:
+                        - img [ref=e1447]
+                        - link "package-lock.json, (File)" [ref=e1452] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/package-lock.json
+                          - text: package-lock.json
+                    - 'cell "fix(update): make Camofox lazy-installed instead of eager (#27055)" [ref=e1453]':
+                      - generic [ref=e1455]:
+                        - 'link "fix(update): make Camofox lazy-installed instead of eager (" [ref=e1456] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/05af78c53d553f6dd20012ce18eb0c2c02d346c9
+                        - link "#27055" [ref=e1457] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/27055
+                        - link ")" [ref=e1458] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/05af78c53d553f6dd20012ce18eb0c2c02d346c9
+                    - cell "May 17, 20262 weeks ago" [ref=e1459]:
+                      - generic [ref=e1460]: May 17, 20262 weeks ago
+                  - 'row "package.json, (File) fix(update): make Camofox lazy-installed instead of eager (#27055) May 17, 20262 weeks ago" [ref=e1461]':
+                    - cell "package.json, (File)" [ref=e1462]:
+                      - generic [ref=e1463]:
+                        - img [ref=e1464]
+                        - link "package.json, (File)" [ref=e1469] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/package.json
+                          - text: package.json
+                    - 'cell "fix(update): make Camofox lazy-installed instead of eager (#27055)" [ref=e1470]':
+                      - generic [ref=e1472]:
+                        - 'link "fix(update): make Camofox lazy-installed instead of eager (" [ref=e1473] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/05af78c53d553f6dd20012ce18eb0c2c02d346c9
+                        - link "#27055" [ref=e1474] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/27055
+                        - link ")" [ref=e1475] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/05af78c53d553f6dd20012ce18eb0c2c02d346c9
+                    - cell "May 17, 20262 weeks ago" [ref=e1476]:
+                      - generic [ref=e1477]: May 17, 20262 weeks ago
+                  - 'row "pyproject.toml, (File) chore: release v0.15.1 (2026.5.29) (#34222) May 29, 20264 hours ago" [ref=e1478]':
+                    - cell "pyproject.toml, (File)" [ref=e1479]:
+                      - generic [ref=e1480]:
+                        - img [ref=e1481]
+                        - link "pyproject.toml, (File)" [ref=e1486] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/pyproject.toml
+                          - text: pyproject.toml
+                    - 'cell "chore: release v0.15.1 (2026.5.29) (#34222)" [ref=e1487]':
+                      - generic [ref=e1489]:
+                        - 'link "chore: release v0.15.1 (2026.5.29) (" [ref=e1490] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/e71a2bd11b733f3be7cf99deafde0066c343d462
+                        - link "#34222" [ref=e1491] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/34222
+                        - link ")" [ref=e1492] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/e71a2bd11b733f3be7cf99deafde0066c343d462
+                    - cell "May 29, 20264 hours ago" [ref=e1493]:
+                      - generic [ref=e1494]: May 29, 20264 hours ago
+                  - 'row "run_agent.py, (File) docs(run_agent): clarify why F401 re-exports stay May 29, 202622 minutes ago" [ref=e1495]':
+                    - cell "run_agent.py, (File)" [ref=e1496]:
+                      - generic [ref=e1497]:
+                        - img [ref=e1498]
+                        - link "run_agent.py, (File)" [ref=e1503] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/run_agent.py
+                          - text: run_agent.py
+                    - 'cell "docs(run_agent): clarify why F401 re-exports stay" [ref=e1504]':
+                      - 'link "docs(run_agent): clarify why F401 re-exports stay" [ref=e1507] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/f61fd59b62655f6ee41e372af58e6ef640b85454
+                    - cell "May 29, 202622 minutes ago" [ref=e1508]:
+                      - generic [ref=e1509]: May 29, 202622 minutes ago
+                  - row "setup-hermes.sh, (File) remove Vercel AI Gateway and Vercel Sandbox (#33067) May 27, 20262 days ago" [ref=e1510]:
+                    - cell "setup-hermes.sh, (File)" [ref=e1511]:
+                      - generic [ref=e1512]:
+                        - img [ref=e1513]
+                        - link "setup-hermes.sh, (File)" [ref=e1518] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/setup-hermes.sh
+                          - text: setup-hermes.sh
+                    - cell "remove Vercel AI Gateway and Vercel Sandbox (#33067)" [ref=e1519]:
+                      - generic [ref=e1521]:
+                        - link "remove Vercel AI Gateway and Vercel Sandbox (" [ref=e1522] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/febc4cfec0a79b175a430304765473c97e10622f
+                        - link "#33067" [ref=e1523] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/33067
+                        - link ")" [ref=e1524] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/febc4cfec0a79b175a430304765473c97e10622f
+                    - cell "May 27, 20262 days ago" [ref=e1525]:
+                      - generic [ref=e1526]: May 27, 20262 days ago
+                  - 'row "setup.py, (File) fix(packaging): ship bundled skills in wheel May 19, 2026last week" [ref=e1527]':
+                    - cell "setup.py, (File)" [ref=e1528]:
+                      - generic [ref=e1529]:
+                        - img [ref=e1530]
+                        - link "setup.py, (File)" [ref=e1535] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/setup.py
+                          - text: setup.py
+                    - 'cell "fix(packaging): ship bundled skills in wheel" [ref=e1536]':
+                      - 'link "fix(packaging): ship bundled skills in wheel" [ref=e1539] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/3a7ed7be081011cd63db46f7c66a06e8f2ced203
+                    - cell "May 19, 2026last week" [ref=e1540]:
+                      - generic [ref=e1541]: May 19, 2026last week
+                  - 'row "toolset_distributions.py, (File) chore: fix 154 f-strings, simplify getattr/URL patterns, remove dead … Mar 26, 20262 months ago" [ref=e1542]':
+                    - cell "toolset_distributions.py, (File)" [ref=e1543]:
+                      - generic [ref=e1544]:
+                        - img [ref=e1545]
+                        - link "toolset_distributions.py, (File)" [ref=e1550] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/toolset_distributions.py
+                          - text: toolset_distributions.py
+                    - 'cell "chore: fix 154 f-strings, simplify getattr/URL patterns, remove dead …" [ref=e1551]':
+                      - 'link "chore: fix 154 f-strings, simplify getattr/URL patterns, remove dead …" [ref=e1554] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/cbf195e8066c14ad09e35ce458e888108c5a56f8
+                    - cell "Mar 26, 20262 months ago" [ref=e1555]:
+                      - generic [ref=e1556]: Mar 26, 20262 months ago
+                  - 'row "toolsets.py, (File) fix: expose context engine tools with saved toolsets May 28, 2026yesterday" [ref=e1557]':
+                    - cell "toolsets.py, (File)" [ref=e1558]:
+                      - generic [ref=e1559]:
+                        - img [ref=e1560]
+                        - link "toolsets.py, (File)" [ref=e1565] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/toolsets.py
+                          - text: toolsets.py
+                    - 'cell "fix: expose context engine tools with saved toolsets" [ref=e1566]':
+                      - 'link "fix: expose context engine tools with saved toolsets" [ref=e1569] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/8595281f3ca9c77f957bc5e6dd3ea43874a2b3b9
+                    - cell "May 28, 2026yesterday" [ref=e1570]:
+                      - generic [ref=e1571]: May 28, 2026yesterday
+                  - 'row "trajectory_compressor.py, (File) fix: guard yaml.safe_load, flock unlock, TOCTOU races, and atomic writes May 19, 2026last week" [ref=e1572]':
+                    - cell "trajectory_compressor.py, (File)" [ref=e1573]:
+                      - generic [ref=e1574]:
+                        - img [ref=e1575]
+                        - link "trajectory_compressor.py, (File)" [ref=e1580] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/trajectory_compressor.py
+                          - text: trajectory_compressor.py
+                    - 'cell "fix: guard yaml.safe_load, flock unlock, TOCTOU races, and atomic writes" [ref=e1581]':
+                      - 'link "fix: guard yaml.safe_load, flock unlock, TOCTOU races, and atomic writes" [ref=e1584] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/62573f44cfee8895eec2cb18e7c45b9bff97081a
+                    - cell "May 19, 2026last week" [ref=e1585]:
+                      - generic [ref=e1586]: May 19, 2026last week
+                  - 'row "utils.py, (File) fix(cli): preserve config comments on setting writes May 10, 20263 weeks ago" [ref=e1587]':
+                    - cell "utils.py, (File)" [ref=e1588]:
+                      - generic [ref=e1589]:
+                        - img [ref=e1590]
+                        - link "utils.py, (File)" [ref=e1595] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/utils.py
+                          - text: utils.py
+                    - 'cell "fix(cli): preserve config comments on setting writes" [ref=e1596]':
+                      - 'link "fix(cli): preserve config comments on setting writes" [ref=e1599] [cursor=pointer]':
+                        - /url: /NousResearch/hermes-agent/commit/85383c6363096d052e73b54ed2646673f8676dfe
+                    - cell "May 10, 20263 weeks ago" [ref=e1600]:
+                      - generic [ref=e1601]: May 10, 20263 weeks ago
+                  - 'row "uv.lock, (File) chore: release v0.15.1 (2026.5.29) (#34222) May 29, 20264 hours ago" [ref=e1602]':
+                    - cell "uv.lock, (File)" [ref=e1603]:
+                      - generic [ref=e1604]:
+                        - img [ref=e1605]
+                        - link "uv.lock, (File)" [ref=e1610] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/blob/main/uv.lock
+                          - text: uv.lock
+                    - 'cell "chore: release v0.15.1 (2026.5.29) (#34222)" [ref=e1611]':
+                      - generic [ref=e1613]:
+                        - 'link "chore: release v0.15.1 (2026.5.29) (" [ref=e1614] [cursor=pointer]':
+                          - /url: /NousResearch/hermes-agent/commit/e71a2bd11b733f3be7cf99deafde0066c343d462
+                        - link "#34222" [ref=e1615] [cursor=pointer]:
+                          - /url: https://github.com/NousResearch/hermes-agent/pull/34222
+                        - link ")" [ref=e1616] [cursor=pointer]:
+                          - /url: /NousResearch/hermes-agent/commit/e71a2bd11b733f3be7cf99deafde0066c343d462
+                    - cell "May 29, 20264 hours ago" [ref=e1617]:
+                      - generic [ref=e1618]: May 29, 20264 hours ago
+            - generic [ref=e1620]:
+              - generic [ref=e1621]:
+                - heading "Repository files navigation" [level=2] [ref=e1622]
+                - navigation "Repository files" [ref=e1623]:
+                  - list [ref=e1624]:
+                    - listitem [ref=e1625]:
+                      - link "README" [ref=e1626] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e1628]
+                        - generic [ref=e1630]: README
+                    - listitem [ref=e1631]:
+                      - link "Contributing" [ref=e1632] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e1634]
+                        - generic [ref=e1636]: Contributing
+                    - listitem [ref=e1637]:
+                      - link "MIT license" [ref=e1638] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e1640]
+                        - generic [ref=e1642]: MIT license
+                    - listitem [ref=e1643]:
+                      - link "Security" [ref=e1644] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e1646]
+                        - generic [ref=e1648]: Security
+                - button "Outline" [ref=e1649] [cursor=pointer]:
+                  - img [ref=e1650]
+              - article [ref=e1653]:
+                - paragraph [ref=e1654]:
+                  - link "Hermes Agent" [ref=e1655] [cursor=pointer]:
+                    - /url: /NousResearch/hermes-agent/blob/main/assets/banner.png
+                    - img "Hermes Agent" [ref=e1656]
+                - generic [ref=e1657]:
+                  - heading "Hermes Agent ☤" [level=1] [ref=e1658]
+                  - 'link "Permalink: Hermes Agent ☤" [ref=e1659] [cursor=pointer]':
+                    - /url: "#hermes-agent-"
+                    - img [ref=e1660]
+                - paragraph [ref=e1662]:
+                  - link "Documentation" [ref=e1663] [cursor=pointer]:
+                    - /url: https://hermes-agent.nousresearch.com/docs/
+                    - img "Documentation" [ref=e1664]
+                  - link "Discord" [ref=e1665] [cursor=pointer]:
+                    - /url: https://discord.gg/NousResearch
+                    - img "Discord" [ref=e1666]
+                  - 'link "License: MIT" [ref=e1667] [cursor=pointer]':
+                    - /url: https://github.com/NousResearch/hermes-agent/blob/main/LICENSE
+                    - 'img "License: MIT" [ref=e1668]'
+                  - link "Built by Nous Research" [ref=e1669] [cursor=pointer]:
+                    - /url: https://nousresearch.com
+                    - img "Built by Nous Research" [ref=e1670]
+                  - link "中文" [ref=e1671] [cursor=pointer]:
+                    - /url: /NousResearch/hermes-agent/blob/main/README.zh-CN.md
+                    - img "中文" [ref=e1672]
+                - paragraph [ref=e1673]:
+                  - strong [ref=e1674]:
+                    - text: The self-improving AI agent built by
+                    - link "Nous Research" [ref=e1675] [cursor=pointer]:
+                      - /url: https://nousresearch.com
+                    - text: .
+                  - text: It's the only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of who you are across sessions. Run it on a $5 VPS, a GPU cluster, or serverless infrastructure that costs nearly nothing when idle. It's not tied to your laptop — talk to it from Telegram while it works on a cloud VM.
+                - paragraph [ref=e1676]:
+                  - text: Use any model you want —
+                  - link "Nous Portal" [ref=e1677] [cursor=pointer]:
+                    - /url: https://portal.nousresearch.com
+                  - text: ","
+                  - link "OpenRouter" [ref=e1678] [cursor=pointer]:
+                    - /url: https://openrouter.ai
+                  - text: (200+ models),
+                  - link "NovitaAI" [ref=e1679] [cursor=pointer]:
+                    - /url: https://novita.ai
+                  - text: (AI-native cloud for Model API, Agent Sandbox, and GPU Cloud),
+                  - link "NVIDIA NIM" [ref=e1680] [cursor=pointer]:
+                    - /url: https://build.nvidia.com
+                  - text: (Nemotron),
+                  - link "Xiaomi MiMo" [ref=e1681] [cursor=pointer]:
+                    - /url: https://platform.xiaomimimo.com
+                  - text: ","
+                  - link "z.ai/GLM" [ref=e1682] [cursor=pointer]:
+                    - /url: https://z.ai
+                  - text: ","
+                  - link "Kimi/Moonshot" [ref=e1683] [cursor=pointer]:
+                    - /url: https://platform.moonshot.ai
+                  - text: ","
+                  - link "MiniMax" [ref=e1684] [cursor=pointer]:
+                    - /url: https://www.minimax.io
+                  - text: ","
+                  - link "Hugging Face" [ref=e1685] [cursor=pointer]:
+                    - /url: https://huggingface.co
+                  - text: ", OpenAI, or your own endpoint. Switch with"
+                  - code [ref=e1686]: hermes model
+                  - text: — no code changes, no lock-in.
+                - table [ref=e1688]:
+                  - rowgroup [ref=e1689]:
+                    - row "A real terminal interface Full TUI with multiline editing, slash-command autocomplete, conversation history, interrupt-and-redirect, and streaming tool output." [ref=e1690]:
+                      - cell "A real terminal interface" [ref=e1691]
+                      - cell "Full TUI with multiline editing, slash-command autocomplete, conversation history, interrupt-and-redirect, and streaming tool output." [ref=e1692]
+                    - row "Lives where you do Telegram, Discord, Slack, WhatsApp, Signal, and CLI — all from a single gateway process. Voice memo transcription, cross-platform conversation continuity." [ref=e1693]:
+                      - cell "Lives where you do" [ref=e1694]
+                      - cell "Telegram, Discord, Slack, WhatsApp, Signal, and CLI — all from a single gateway process. Voice memo transcription, cross-platform conversation continuity." [ref=e1695]
+                    - row "A closed learning loop Agent-curated memory with periodic nudges. Autonomous skill creation after complex tasks. Skills self-improve during use. FTS5 session search with LLM summarization for cross-session recall. Honcho dialectic user modeling. Compatible with the agentskills.io open standard." [ref=e1696]:
+                      - cell "A closed learning loop" [ref=e1697]
+                      - cell "Agent-curated memory with periodic nudges. Autonomous skill creation after complex tasks. Skills self-improve during use. FTS5 session search with LLM summarization for cross-session recall. Honcho dialectic user modeling. Compatible with the agentskills.io open standard." [ref=e1698]:
+                        - text: Agent-curated memory with periodic nudges. Autonomous skill creation after complex tasks. Skills self-improve during use. FTS5 session search with LLM summarization for cross-session recall.
+                        - link "Honcho" [ref=e1699] [cursor=pointer]:
+                          - /url: https://github.com/plastic-labs/honcho
+                        - text: dialectic user modeling. Compatible with the
+                        - link "agentskills.io" [ref=e1700] [cursor=pointer]:
+                          - /url: https://agentskills.io
+                        - text: open standard.
+                    - row "Scheduled automations Built-in cron scheduler with delivery to any platform. Daily reports, nightly backups, weekly audits — all in natural language, running unattended." [ref=e1701]:
+                      - cell "Scheduled automations" [ref=e1702]
+                      - cell "Built-in cron scheduler with delivery to any platform. Daily reports, nightly backups, weekly audits — all in natural language, running unattended." [ref=e1703]
+                    - row "Delegates and parallelizes Spawn isolated subagents for parallel workstreams. Write Python scripts that call tools via RPC, collapsing multi-step pipelines into zero-context-cost turns." [ref=e1704]:
+                      - cell "Delegates and parallelizes" [ref=e1705]
+                      - cell "Spawn isolated subagents for parallel workstreams. Write Python scripts that call tools via RPC, collapsing multi-step pipelines into zero-context-cost turns." [ref=e1706]
+                    - row "Runs anywhere, not just your laptop Six terminal backends — local, Docker, SSH, Singularity, Modal, and Daytona. Daytona and Modal offer serverless persistence — your agent's environment hibernates when idle and wakes on demand, costing nearly nothing between sessions. Run it on a $5 VPS or a GPU cluster." [ref=e1707]:
+                      - cell "Runs anywhere, not just your laptop" [ref=e1708]
+                      - cell "Six terminal backends — local, Docker, SSH, Singularity, Modal, and Daytona. Daytona and Modal offer serverless persistence — your agent's environment hibernates when idle and wakes on demand, costing nearly nothing between sessions. Run it on a $5 VPS or a GPU cluster." [ref=e1709]
+                    - row "Research-ready Batch trajectory generation, trajectory compression for training the next generation of tool-calling models." [ref=e1710]:
+                      - cell "Research-ready" [ref=e1711]
+                      - cell "Batch trajectory generation, trajectory compression for training the next generation of tool-calling models." [ref=e1712]
+                - separator [ref=e1713]
+                - generic [ref=e1714]:
+                  - heading "Quick Install" [level=2] [ref=e1715]
+                  - 'link "Permalink: Quick Install" [ref=e1716] [cursor=pointer]':
+                    - /url: "#quick-install"
+                    - img [ref=e1717]
+                - generic [ref=e1719]:
+                  - heading "Linux, macOS, WSL2, Termux" [level=3] [ref=e1720]
+                  - 'link "Permalink: Linux, macOS, WSL2, Termux" [ref=e1721] [cursor=pointer]':
+                    - /url: "#linux-macos-wsl2-termux"
+                    - img [ref=e1722]
+                - generic [ref=e1724]:
+                  - generic [ref=e1725]: curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash
+                  - button "Copy code to clipboard" [ref=e1727] [cursor=pointer]:
+                    - img [ref=e1728]
+                - generic [ref=e1731]:
+                  - heading "Windows (native, PowerShell) — Early Beta" [level=3] [ref=e1732]
+                  - 'link "Permalink: Windows (native, PowerShell) — Early Beta" [ref=e1733] [cursor=pointer]':
+                    - /url: "#windows-native-powershell--early-beta"
+                    - img [ref=e1734]
+                - blockquote [ref=e1736]:
+                  - paragraph [ref=e1737]:
+                    - strong [ref=e1738]: "Heads up:"
+                    - text: Native Windows support is
+                    - strong [ref=e1739]: early beta
+                    - text: . It installs and runs, but hasn't been road-tested as broadly as our Linux/macOS/WSL2 paths. Please
+                    - link "file issues" [ref=e1740] [cursor=pointer]:
+                      - /url: https://github.com/NousResearch/hermes-agent/issues
+                    - text: when you hit rough edges. For the most battle-tested Windows setup today, run the Linux/macOS one-liner above inside
+                    - strong [ref=e1741]: WSL2
+                    - text: .
+                - paragraph [ref=e1742]: "Run this in PowerShell:"
+                - generic [ref=e1743]:
+                  - generic [ref=e1744]: iex (irm https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.ps1)
+                  - button "Copy code to clipboard" [ref=e1746] [cursor=pointer]:
+                    - img [ref=e1747]
+                - paragraph [ref=e1750]:
+                  - text: "The installer handles everything: uv, Python 3.11, Node.js, ripgrep, ffmpeg,"
+                  - strong [ref=e1751]: and a portable Git Bash
+                  - text: (MinGit, unpacked to
+                  - code [ref=e1752]: "%LOCALAPPDATA%\\hermes\\git"
+                  - text: — no admin required, completely isolated from any system Git install). Hermes uses this bundled Git Bash to run shell commands.
+                - paragraph [ref=e1753]: If you already have Git installed, the installer detects it and uses that instead. Otherwise a ~45MB MinGit download is all you need — it won't touch or interfere with any system Git.
+                - blockquote [ref=e1754]:
+                  - paragraph [ref=e1755]:
+                    - strong [ref=e1756]: "Android / Termux:"
+                    - text: The tested manual path is documented in the
+                    - link "Termux guide" [ref=e1757] [cursor=pointer]:
+                      - /url: https://hermes-agent.nousresearch.com/docs/getting-started/termux
+                    - text: . On Termux, Hermes installs a curated
+                    - code [ref=e1758]: .[termux]
+                    - text: extra because the full
+                    - code [ref=e1759]: .[all]
+                    - text: extra currently pulls Android-incompatible voice dependencies.
+                  - paragraph [ref=e1760]:
+                    - strong [ref=e1761]: "Windows:"
+                    - text: Native Windows is supported as an
+                    - strong [ref=e1762]: early beta
+                    - text: — the PowerShell one-liner above installs everything, but expect rough edges and please file issues when you hit them. If you'd rather use WSL2 (our most battle-tested Windows path), the Linux command works there too. Native Windows install lives under
+                    - code [ref=e1763]: "%LOCALAPPDATA%\\hermes"
+                    - text: ; WSL2 installs under
+                    - code [ref=e1764]: ~/.hermes
+                    - text: as on Linux. The only Hermes feature that currently needs WSL2 specifically is the browser-based dashboard chat pane (it uses a POSIX PTY — classic CLI and gateway both run natively).
+                - paragraph [ref=e1765]: "After installation:"
+                - generic [ref=e1766]:
+                  - generic [ref=e1767]:
+                    - text: source ~/.bashrc
+                    - generic [ref=e1768]: "# reload shell (or: source ~/.zshrc)"
+                    - text: hermes
+                    - generic [ref=e1769]: "# start chatting!"
+                  - button "Copy code to clipboard" [ref=e1771] [cursor=pointer]:
+                    - img [ref=e1772]
+                - separator [ref=e1775]
+                - generic [ref=e1776]:
+                  - heading "Getting Started" [level=2] [ref=e1777]
+                  - 'link "Permalink: Getting Started" [ref=e1778] [cursor=pointer]':
+                    - /url: "#getting-started"
+                    - img [ref=e1779]
+                - generic [ref=e1781]:
+                  - generic [ref=e1782]:
+                    - text: hermes
+                    - generic [ref=e1783]: "# Interactive CLI — start a conversation"
+                    - text: hermes model
+                    - generic [ref=e1784]: "# Choose your LLM provider and model"
+                    - text: hermes tools
+                    - generic [ref=e1785]: "# Configure which tools are enabled"
+                    - text: hermes config set
+                    - generic [ref=e1786]: "# Set individual config values"
+                    - text: hermes gateway
+                    - generic [ref=e1787]: "# Start the messaging gateway (Telegram, Discord, etc.)"
+                    - text: hermes setup
+                    - generic [ref=e1788]: "# Run the full setup wizard (configures everything at once)"
+                    - text: hermes claw migrate
+                    - generic [ref=e1789]: "# Migrate from OpenClaw (if coming from OpenClaw)"
+                    - text: hermes update
+                    - generic [ref=e1790]: "# Update to the latest version"
+                    - text: hermes doctor
+                    - generic [ref=e1791]: "# Diagnose any issues"
+                  - button "Copy code to clipboard" [ref=e1793] [cursor=pointer]:
+                    - img [ref=e1794]
+                - paragraph [ref=e1797]:
+                  - text: 📖
+                  - strong [ref=e1798]:
+                    - link "Full documentation →" [ref=e1799] [cursor=pointer]:
+                      - /url: https://hermes-agent.nousresearch.com/docs/
+                - separator [ref=e1800]
+                - generic [ref=e1801]:
+                  - heading "Skip the API-key collection — Nous Portal" [level=2] [ref=e1802]
+                  - 'link "Permalink: Skip the API-key collection — Nous Portal" [ref=e1803] [cursor=pointer]':
+                    - /url: "#skip-the-api-key-collection--nous-portal"
+                    - img [ref=e1804]
+                - paragraph [ref=e1806]:
+                  - text: Hermes works with whatever provider you want — that's not changing. But if you'd rather not collect five separate API keys for the model, web search, image generation, TTS, and a cloud browser,
+                  - strong [ref=e1807]:
+                    - link "Nous Portal" [ref=e1808] [cursor=pointer]:
+                      - /url: https://portal.nousresearch.com
+                  - text: "covers all of them under one subscription:"
+                - list [ref=e1809]:
+                  - listitem [ref=e1810]:
+                    - strong [ref=e1811]: 300+ models
+                    - text: — pick any of them with
+                    - code [ref=e1812]: /model <name>
+                  - listitem [ref=e1813]:
+                    - strong [ref=e1814]: Tool Gateway
+                    - text: — web search (Firecrawl), image generation (FAL), text-to-speech (OpenAI), cloud browser (Browser Use), all routed through your sub. No extra accounts.
+                - paragraph [ref=e1815]: "One command from a fresh install:"
+                - generic [ref=e1816]:
+                  - generic [ref=e1817]: hermes setup --portal
+                  - button "Copy code to clipboard" [ref=e1819] [cursor=pointer]:
+                    - img [ref=e1820]
+                - paragraph [ref=e1823]:
+                  - text: That logs you in via OAuth, sets Nous as your provider, and turns on the Tool Gateway. Check what's wired up any time with
+                  - code [ref=e1824]: hermes portal status
+                  - text: . Full details on the
+                  - link "Tool Gateway docs page" [ref=e1825] [cursor=pointer]:
+                    - /url: https://hermes-agent.nousresearch.com/docs/user-guide/features/tool-gateway
+                  - text: .
+                - paragraph [ref=e1826]: You can still bring your own keys per-tool whenever you want — the gateway is per-backend, not all-or-nothing.
+                - separator [ref=e1827]
+                - generic [ref=e1828]:
+                  - heading "CLI vs Messaging Quick Reference" [level=2] [ref=e1829]
+                  - 'link "Permalink: CLI vs Messaging Quick Reference" [ref=e1830] [cursor=pointer]':
+                    - /url: "#cli-vs-messaging-quick-reference"
+                    - img [ref=e1831]
+                - paragraph [ref=e1833]:
+                  - text: "Hermes has two entry points: start the terminal UI with"
+                  - code [ref=e1834]: hermes
+                  - text: ", or run the gateway and talk to it from Telegram, Discord, Slack, WhatsApp, Signal, or Email. Once you're in a conversation, many slash commands are shared across both interfaces."
+                - table [ref=e1836]:
+                  - rowgroup [ref=e1837]:
+                    - row "Action CLI Messaging platforms" [ref=e1838]:
+                      - columnheader "Action" [ref=e1839]
+                      - columnheader "CLI" [ref=e1840]
+                      - columnheader "Messaging platforms" [ref=e1841]
+                  - rowgroup [ref=e1842]:
+                    - row "Start chatting hermes Run hermes gateway setup + hermes gateway start, then send the bot a message" [ref=e1843]:
+                      - cell "Start chatting" [ref=e1844]
+                      - cell "hermes" [ref=e1845]:
+                        - code [ref=e1846]: hermes
+                      - cell "Run hermes gateway setup + hermes gateway start, then send the bot a message" [ref=e1847]:
+                        - text: Run
+                        - code [ref=e1848]: hermes gateway setup
+                        - text: +
+                        - code [ref=e1849]: hermes gateway start
+                        - text: ", then send the bot a message"
+                    - row "Start fresh conversation /new or /reset /new or /reset" [ref=e1850]:
+                      - cell "Start fresh conversation" [ref=e1851]
+                      - cell "/new or /reset" [ref=e1852]:
+                        - code [ref=e1853]: /new
+                        - text: or
+                        - code [ref=e1854]: /reset
+                      - cell "/new or /reset" [ref=e1855]:
+                        - code [ref=e1856]: /new
+                        - text: or
+                        - code [ref=e1857]: /reset
+                    - row "Change model /model [provider:model] /model [provider:model]" [ref=e1858]:
+                      - cell "Change model" [ref=e1859]
+                      - cell "/model [provider:model]" [ref=e1860]:
+                        - code [ref=e1861]: /model [provider:model]
+                      - cell "/model [provider:model]" [ref=e1862]:
+                        - code [ref=e1863]: /model [provider:model]
+                    - row "Set a personality /personality [name] /personality [name]" [ref=e1864]:
+                      - cell "Set a personality" [ref=e1865]
+                      - cell "/personality [name]" [ref=e1866]:
+                        - code [ref=e1867]: /personality [name]
+                      - cell "/personality [name]" [ref=e1868]:
+                        - code [ref=e1869]: /personality [name]
+                    - row "Retry or undo the last turn /retry, /undo /retry, /undo" [ref=e1870]:
+                      - cell "Retry or undo the last turn" [ref=e1871]
+                      - cell "/retry, /undo" [ref=e1872]:
+                        - code [ref=e1873]: /retry
+                        - text: ","
+                        - code [ref=e1874]: /undo
+                      - cell "/retry, /undo" [ref=e1875]:
+                        - code [ref=e1876]: /retry
+                        - text: ","
+                        - code [ref=e1877]: /undo
+                    - row "Compress context / check usage /compress, /usage, /insights [--days N] /compress, /usage, /insights [days]" [ref=e1878]:
+                      - cell "Compress context / check usage" [ref=e1879]
+                      - cell "/compress, /usage, /insights [--days N]" [ref=e1880]:
+                        - code [ref=e1881]: /compress
+                        - text: ","
+                        - code [ref=e1882]: /usage
+                        - text: ","
+                        - code [ref=e1883]: /insights [--days N]
+                      - cell "/compress, /usage, /insights [days]" [ref=e1884]:
+                        - code [ref=e1885]: /compress
+                        - text: ","
+                        - code [ref=e1886]: /usage
+                        - text: ","
+                        - code [ref=e1887]: /insights [days]
+                    - row "Browse skills /skills or /<skill-name> /<skill-name>" [ref=e1888]:
+                      - cell "Browse skills" [ref=e1889]
+                      - cell "/skills or /<skill-name>" [ref=e1890]:
+                        - code [ref=e1891]: /skills
+                        - text: or
+                        - code [ref=e1892]: /<skill-name>
+                      - cell "/<skill-name>" [ref=e1893]:
+                        - code [ref=e1894]: /<skill-name>
+                    - row "Interrupt current work Ctrl+C or send a new message /stop or send a new message" [ref=e1895]:
+                      - cell "Interrupt current work" [ref=e1896]
+                      - cell "Ctrl+C or send a new message" [ref=e1897]:
+                        - code [ref=e1898]: Ctrl+C
+                        - text: or send a new message
+                      - cell "/stop or send a new message" [ref=e1899]:
+                        - code [ref=e1900]: /stop
+                        - text: or send a new message
+                    - row "Platform-specific status /platforms /status, /sethome" [ref=e1901]:
+                      - cell "Platform-specific status" [ref=e1902]
+                      - cell "/platforms" [ref=e1903]:
+                        - code [ref=e1904]: /platforms
+                      - cell "/status, /sethome" [ref=e1905]:
+                        - code [ref=e1906]: /status
+                        - text: ","
+                        - code [ref=e1907]: /sethome
+                - paragraph [ref=e1908]:
+                  - text: For the full command lists, see the
+                  - link "CLI guide" [ref=e1909] [cursor=pointer]:
+                    - /url: https://hermes-agent.nousresearch.com/docs/user-guide/cli
+                  - text: and the
+                  - link "Messaging Gateway guide" [ref=e1910] [cursor=pointer]:
+                    - /url: https://hermes-agent.nousresearch.com/docs/user-guide/messaging
+                  - text: .
+                - separator [ref=e1911]
+                - generic [ref=e1912]:
+                  - heading "Documentation" [level=2] [ref=e1913]
+                  - 'link "Permalink: Documentation" [ref=e1914] [cursor=pointer]':
+                    - /url: "#documentation"
+                    - img [ref=e1915]
+                - paragraph [ref=e1917]:
+                  - text: All documentation lives at
+                  - strong [ref=e1918]:
+                    - link "hermes-agent.nousresearch.com/docs" [ref=e1919] [cursor=pointer]:
+                      - /url: https://hermes-agent.nousresearch.com/docs/
+                  - text: ":"
+                - table [ref=e1921]:
+                  - rowgroup [ref=e1922]:
+                    - row "Section What's Covered" [ref=e1923]:
+                      - columnheader "Section" [ref=e1924]
+                      - columnheader "What's Covered" [ref=e1925]
+                  - rowgroup [ref=e1926]:
+                    - row "Quickstart Install → setup → first conversation in 2 minutes" [ref=e1927]:
+                      - cell "Quickstart" [ref=e1928]:
+                        - link "Quickstart" [ref=e1929] [cursor=pointer]:
+                          - /url: https://hermes-agent.nousresearch.com/docs/getting-started/quickstart
+                      - cell "Install → setup → first conversation in 2 minutes" [ref=e1930]
+                    - row "CLI Usage Commands, keybindings, personalities, sessions" [ref=e1931]:
+                      - cell "CLI Usage" [ref=e1932]:
+                        - link "CLI Usage" [ref=e1933] [cursor=pointer]:
+                          - /url: https://hermes-agent.nousresearch.com/docs/user-guide/cli
+                      - cell "Commands, keybindings, personalities, sessions" [ref=e1934]
+                    - row "Configuration Config file, providers, models, all options" [ref=e1935]:
+                      - cell "Configuration" [ref=e1936]:
+                        - link "Configuration" [ref=e1937] [cursor=pointer]:
+                          - /url: https://hermes-agent.nousresearch.com/docs/user-guide/configuration
+                      - cell "Config file, providers, models, all options" [ref=e1938]
+                    - row "Messaging Gateway Telegram, Discord, Slack, WhatsApp, Signal, Home Assistant" [ref=e1939]:
+                      - cell "Messaging Gateway" [ref=e1940]:
+                        - link "Messaging Gateway" [ref=e1941] [cursor=pointer]:
+                          - /url: https://hermes-agent.nousresearch.com/docs/user-guide/messaging
+                      - cell "Telegram, Discord, Slack, WhatsApp, Signal, Home Assistant" [ref=e1942]
+                    - row "Security Command approval, DM pairing, container isolation" [ref=e1943]:
+                      - cell "Security" [ref=e1944]:
+                        - link "Security" [ref=e1945] [cursor=pointer]:
+                          - /url: https://hermes-agent.nousresearch.com/docs/user-guide/security
+                      - cell "Command approval, DM pairing, container isolation" [ref=e1946]
+                    - row "Tools & Toolsets 40+ tools, toolset system, terminal backends" [ref=e1947]:
+                      - cell "Tools & Toolsets" [ref=e1948]:
+                        - link "Tools & Toolsets" [ref=e1949] [cursor=pointer]:
+                          - /url: https://hermes-agent.nousresearch.com/docs/user-guide/features/tools
+                      - cell "40+ tools, toolset system, terminal backends" [ref=e1950]
+                    - row "Skills System Procedural memory, Skills Hub, creating skills" [ref=e1951]:
+                      - cell "Skills System" [ref=e1952]:
+                        - link "Skills System" [ref=e1953] [cursor=pointer]:
+                          - /url: https://hermes-agent.nousresearch.com/docs/user-guide/features/skills
+                      - cell "Procedural memory, Skills Hub, creating skills" [ref=e1954]
+                    - row "Memory Persistent memory, user profiles, best practices" [ref=e1955]:
+                      - cell "Memory" [ref=e1956]:
+                        - link "Memory" [ref=e1957] [cursor=pointer]:
+                          - /url: https://hermes-agent.nousresearch.com/docs/user-guide/features/memory
+                      - cell "Persistent memory, user profiles, best practices" [ref=e1958]
+                    - row "MCP Integration Connect any MCP server for extended capabilities" [ref=e1959]:
+                      - cell "MCP Integration" [ref=e1960]:
+                        - link "MCP Integration" [ref=e1961] [cursor=pointer]:
+                          - /url: https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp
+                      - cell "Connect any MCP server for extended capabilities" [ref=e1962]
+                    - row "Cron Scheduling Scheduled tasks with platform delivery" [ref=e1963]:
+                      - cell "Cron Scheduling" [ref=e1964]:
+                        - link "Cron Scheduling" [ref=e1965] [cursor=pointer]:
+                          - /url: https://hermes-agent.nousresearch.com/docs/user-guide/features/cron
+                      - cell "Scheduled tasks with platform delivery" [ref=e1966]
+                    - row "Context Files Project context that shapes every conversation" [ref=e1967]:
+                      - cell "Context Files" [ref=e1968]:
+                        - link "Context Files" [ref=e1969] [cursor=pointer]:
+                          - /url: https://hermes-agent.nousresearch.com/docs/user-guide/features/context-files
+                      - cell "Project context that shapes every conversation" [ref=e1970]
+                    - row "Architecture Project structure, agent loop, key classes" [ref=e1971]:
+                      - cell "Architecture" [ref=e1972]:
+                        - link "Architecture" [ref=e1973] [cursor=pointer]:
+                          - /url: https://hermes-agent.nousresearch.com/docs/developer-guide/architecture
+                      - cell "Project structure, agent loop, key classes" [ref=e1974]
+                    - row "Contributing Development setup, PR process, code style" [ref=e1975]:
+                      - cell "Contributing" [ref=e1976]:
+                        - link "Contributing" [ref=e1977] [cursor=pointer]:
+                          - /url: https://hermes-agent.nousresearch.com/docs/developer-guide/contributing
+                      - cell "Development setup, PR process, code style" [ref=e1978]
+                    - row "CLI Reference All commands and flags" [ref=e1979]:
+                      - cell "CLI Reference" [ref=e1980]:
+                        - link "CLI Reference" [ref=e1981] [cursor=pointer]:
+                          - /url: https://hermes-agent.nousresearch.com/docs/reference/cli-commands
+                      - cell "All commands and flags" [ref=e1982]
+                    - row "Environment Variables Complete env var reference" [ref=e1983]:
+                      - cell "Environment Variables" [ref=e1984]:
+                        - link "Environment Variables" [ref=e1985] [cursor=pointer]:
+                          - /url: https://hermes-agent.nousresearch.com/docs/reference/environment-variables
+                      - cell "Complete env var reference" [ref=e1986]
+                - separator [ref=e1987]
+                - generic [ref=e1988]:
+                  - heading "Migrating from OpenClaw" [level=2] [ref=e1989]
+                  - 'link "Permalink: Migrating from OpenClaw" [ref=e1990] [cursor=pointer]':
+                    - /url: "#migrating-from-openclaw"
+                    - img [ref=e1991]
+                - paragraph [ref=e1993]: If you're coming from OpenClaw, Hermes can automatically import your settings, memories, skills, and API keys.
+                - paragraph [ref=e1994]:
+                  - strong [ref=e1995]: "During first-time setup:"
+                  - text: The setup wizard (
+                  - code [ref=e1996]: hermes setup
+                  - text: ) automatically detects
+                  - code [ref=e1997]: ~/.openclaw
+                  - text: and offers to migrate before configuration begins.
+                - paragraph [ref=e1998]:
+                  - strong [ref=e1999]: "Anytime after install:"
+                - generic [ref=e2000]:
+                  - generic [ref=e2001]:
+                    - text: hermes claw migrate
+                    - generic [ref=e2002]: "# Interactive migration (full preset)"
+                    - text: hermes claw migrate --dry-run
+                    - generic [ref=e2003]: "# Preview what would be migrated"
+                    - text: hermes claw migrate --preset user-data
+                    - generic [ref=e2004]: "# Migrate without secrets"
+                    - text: hermes claw migrate --overwrite
+                    - generic [ref=e2005]: "# Overwrite existing conflicts"
+                  - button "Copy code to clipboard" [ref=e2007] [cursor=pointer]:
+                    - img [ref=e2008]
+                - paragraph [ref=e2011]: "What gets imported:"
+                - list [ref=e2012]:
+                  - listitem [ref=e2013]:
+                    - strong [ref=e2014]: SOUL.md
+                    - text: — persona file
+                  - listitem [ref=e2015]:
+                    - strong [ref=e2016]: Memories
+                    - text: — MEMORY.md and USER.md entries
+                  - listitem [ref=e2017]:
+                    - strong [ref=e2018]: Skills
+                    - text: — user-created skills →
+                    - code [ref=e2019]: ~/.hermes/skills/openclaw-imports/
+                  - listitem [ref=e2020]:
+                    - strong [ref=e2021]: Command allowlist
+                    - text: — approval patterns
+                  - listitem [ref=e2022]:
+                    - strong [ref=e2023]: Messaging settings
+                    - text: — platform configs, allowed users, working directory
+                  - listitem [ref=e2024]:
+                    - strong [ref=e2025]: API keys
+                    - text: — allowlisted secrets (Telegram, OpenRouter, OpenAI, Anthropic, ElevenLabs)
+                  - listitem [ref=e2026]:
+                    - strong [ref=e2027]: TTS assets
+                    - text: — workspace audio files
+                  - listitem [ref=e2028]:
+                    - strong [ref=e2029]: Workspace instructions
+                    - text: — AGENTS.md (with
+                    - code [ref=e2030]: "--workspace-target"
+                    - text: )
+                - paragraph [ref=e2031]:
+                  - text: See
+                  - code [ref=e2032]: hermes claw migrate --help
+                  - text: for all options, or use the
+                  - code [ref=e2033]: openclaw-migration
+                  - text: skill for an interactive agent-guided migration with dry-run previews.
+                - separator [ref=e2034]
+                - generic [ref=e2035]:
+                  - heading "Contributing" [level=2] [ref=e2036]
+                  - 'link "Permalink: Contributing" [ref=e2037] [cursor=pointer]':
+                    - /url: "#contributing"
+                    - img [ref=e2038]
+                - paragraph [ref=e2040]:
+                  - text: We welcome contributions! See the
+                  - link "Contributing Guide" [ref=e2041] [cursor=pointer]:
+                    - /url: https://hermes-agent.nousresearch.com/docs/developer-guide/contributing
+                  - text: for development setup, code style, and PR process.
+                - paragraph [ref=e2042]:
+                  - text: Quick start for contributors — clone and go with
+                  - code [ref=e2043]: setup-hermes.sh
+                  - text: ":"
+                - generic [ref=e2044]:
+                  - generic [ref=e2045]:
+                    - text: git clone https://github.com/NousResearch/hermes-agent.git cd hermes-agent ./setup-hermes.sh
+                    - generic [ref=e2046]: "# installs uv, creates venv, installs .[all], symlinks ~/.local/bin/hermes"
+                    - text: ./hermes
+                    - generic [ref=e2047]: "# auto-detects the venv, no need to `source` first"
+                  - button "Copy code to clipboard" [ref=e2049] [cursor=pointer]:
+                    - img [ref=e2050]
+                - paragraph [ref=e2053]: "Manual path (equivalent to the above):"
+                - generic [ref=e2054]:
+                  - generic [ref=e2055]:
+                    - text: curl -LsSf https://astral.sh/uv/install.sh | sh uv venv .venv --python 3.11 source .venv/bin/activate uv pip install -e
+                    - generic [ref=e2056]: "\".[all,dev]\""
+                    - text: scripts/run_tests.sh
+                  - button "Copy code to clipboard" [ref=e2058] [cursor=pointer]:
+                    - img [ref=e2059]
+                - separator [ref=e2062]
+                - generic [ref=e2063]:
+                  - heading "Community" [level=2] [ref=e2064]
+                  - 'link "Permalink: Community" [ref=e2065] [cursor=pointer]':
+                    - /url: "#community"
+                    - img [ref=e2066]
+                - list [ref=e2068]:
+                  - listitem [ref=e2069]:
+                    - text: 💬
+                    - link "Discord" [ref=e2070] [cursor=pointer]:
+                      - /url: https://discord.gg/NousResearch
+                  - listitem [ref=e2071]:
+                    - text: 📚
+                    - link "Skills Hub" [ref=e2072] [cursor=pointer]:
+                      - /url: https://agentskills.io
+                  - listitem [ref=e2073]:
+                    - text: 🐛
+                    - link "Issues" [ref=e2074] [cursor=pointer]:
+                      - /url: https://github.com/NousResearch/hermes-agent/issues
+                  - listitem [ref=e2075]:
+                    - text: 🔌
+                    - link "computer-use-linux" [ref=e2076] [cursor=pointer]:
+                      - /url: https://github.com/avifenesh/computer-use-linux
+                    - text: — Linux desktop-control MCP server for Hermes and other MCP hosts, with AT-SPI accessibility trees, Wayland/X11 input, screenshots, and compositor window targeting.
+                  - listitem [ref=e2077]:
+                    - text: 🔌
+                    - link "HermesClaw" [ref=e2078] [cursor=pointer]:
+                      - /url: https://github.com/AaronWong1999/hermesclaw
+                    - text: "— Community WeChat bridge: Run Hermes Agent and OpenClaw on the same WeChat account."
+                - separator [ref=e2079]
+                - generic [ref=e2080]:
+                  - heading "License" [level=2] [ref=e2081]
+                  - 'link "Permalink: License" [ref=e2082] [cursor=pointer]':
+                    - /url: "#license"
+                    - img [ref=e2083]
+                - paragraph [ref=e2085]:
+                  - text: MIT — see
+                  - link "LICENSE" [ref=e2086] [cursor=pointer]:
+                    - /url: /NousResearch/hermes-agent/blob/main/LICENSE
+                  - text: .
+                - paragraph [ref=e2087]:
+                  - text: Built by
+                  - link "Nous Research" [ref=e2088] [cursor=pointer]:
+                    - /url: https://nousresearch.com
+                  - text: .
+        - generic [ref=e2092]:
+          - generic [ref=e2095]:
+            - heading "About" [level=2] [ref=e2096]
+            - paragraph [ref=e2097]: The agent that grows with you
+            - generic [ref=e2098]:
+              - img [ref=e2099]
+              - link "hermes-agent.nousresearch.com" [ref=e2102] [cursor=pointer]:
+                - /url: https://hermes-agent.nousresearch.com
+            - heading "Topics" [level=3] [ref=e2103]
+            - generic [ref=e2105]:
+              - link "ai" [ref=e2106] [cursor=pointer]:
+                - /url: /topics/ai
+              - link "openai" [ref=e2107] [cursor=pointer]:
+                - /url: /topics/openai
+              - link "hermes" [ref=e2108] [cursor=pointer]:
+                - /url: /topics/hermes
+              - link "codex" [ref=e2109] [cursor=pointer]:
+                - /url: /topics/codex
+              - link "ai-agents" [ref=e2110] [cursor=pointer]:
+                - /url: /topics/ai-agents
+              - link "claude" [ref=e2111] [cursor=pointer]:
+                - /url: /topics/claude
+              - link "ai-agent" [ref=e2112] [cursor=pointer]:
+                - /url: /topics/ai-agent
+              - link "llm" [ref=e2113] [cursor=pointer]:
+                - /url: /topics/llm
+              - link "chatgpt" [ref=e2114] [cursor=pointer]:
+                - /url: /topics/chatgpt
+              - link "anthropic" [ref=e2115] [cursor=pointer]:
+                - /url: /topics/anthropic
+              - link "claude-code" [ref=e2116] [cursor=pointer]:
+                - /url: /topics/claude-code
+              - link "clawdbot" [ref=e2117] [cursor=pointer]:
+                - /url: /topics/clawdbot
+              - link "moltbot" [ref=e2118] [cursor=pointer]:
+                - /url: /topics/moltbot
+              - link "openclaw" [ref=e2119] [cursor=pointer]:
+                - /url: /topics/openclaw
+              - link "hermes-agent" [ref=e2120] [cursor=pointer]:
+                - /url: /topics/hermes-agent
+              - link "nous-research" [ref=e2121] [cursor=pointer]:
+                - /url: /topics/nous-research
+            - heading "Resources" [level=3] [ref=e2122]
+            - link "Readme" [ref=e2124] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e2125]
+              - text: Readme
+            - heading "License" [level=3] [ref=e2127]
+            - link "MIT license" [ref=e2129] [cursor=pointer]:
+              - /url: "#MIT-1-ov-file"
+              - img [ref=e2130]
+              - text: MIT license
+            - heading "Contributing" [level=3] [ref=e2132]
+            - link "Contributing" [ref=e2134] [cursor=pointer]:
+              - /url: "#contributing-ov-file"
+              - img [ref=e2135]
+              - text: Contributing
+            - heading "Security policy" [level=3] [ref=e2137]
+            - link "Security policy" [ref=e2139] [cursor=pointer]:
+              - /url: "#security-ov-file"
+              - img [ref=e2140]
+              - text: Security policy
+            - link "Activity" [ref=e2143] [cursor=pointer]:
+              - /url: /NousResearch/hermes-agent/activity
+              - img [ref=e2144]
+              - text: Activity
+            - link "Custom properties" [ref=e2147] [cursor=pointer]:
+              - /url: /NousResearch/hermes-agent/custom-properties
+              - img [ref=e2148]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e2150]
+            - link "172k stars" [ref=e2152] [cursor=pointer]:
+              - /url: /NousResearch/hermes-agent/stargazers
+              - img [ref=e2153]
+              - strong [ref=e2155]: 172k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e2156]
+            - link "672 watching" [ref=e2158] [cursor=pointer]:
+              - /url: /NousResearch/hermes-agent/watchers
+              - img [ref=e2159]
+              - strong [ref=e2161]: "672"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e2162]
+            - link "28.9k forks" [ref=e2164] [cursor=pointer]:
+              - /url: /NousResearch/hermes-agent/forks
+              - img [ref=e2165]
+              - strong [ref=e2167]: 28.9k
+              - text: forks
+            - link "Report repository" [ref=e2169] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FNousResearch%2Fhermes-agent&report=NousResearch+%28user%29
+          - generic [ref=e2171]:
+            - heading "Releases 15" [level=2] [ref=e2172]:
+              - link "Releases 15" [ref=e2173] [cursor=pointer]:
+                - /url: /NousResearch/hermes-agent/releases
+                - text: Releases
+                - generic "15" [ref=e2174]
+            - link "Hermes Agent v0.15.1 (2026.5.29) — The Patch Release Latest May 29, 20264 hours ago" [ref=e2175] [cursor=pointer]:
+              - /url: /NousResearch/hermes-agent/releases/tag/v2026.5.29
+              - img [ref=e2176]
+              - generic [ref=e2178]:
+                - generic [ref=e2179]:
+                  - generic [ref=e2180]: Hermes Agent v0.15.1 (2026.5.29) — The Patch Release
+                  - 'generic "Label: Latest" [ref=e2181]': Latest
+                - generic [ref=e2182]: May 29, 20264 hours ago
+            - link "+ 14 releases" [ref=e2184] [cursor=pointer]:
+              - /url: /NousResearch/hermes-agent/releases
+          - generic [ref=e2186]:
+            - heading "Packages" [level=2] [ref=e2187]:
+              - link "Packages" [ref=e2188] [cursor=pointer]:
+                - /url: /orgs/NousResearch/packages?repo_name=hermes-agent
+            - generic [ref=e2189]: No packages published
+          - generic [ref=e2191]:
+            - heading "Contributors 1,249" [level=2] [ref=e2192]:
+              - link "Contributors 1,249" [ref=e2193] [cursor=pointer]:
+                - /url: /NousResearch/hermes-agent/graphs/contributors
+                - text: Contributors
+                - generic "1,249" [ref=e2194]
+            - list [ref=e2195]:
+              - listitem [ref=e2196]:
+                - link "@teknium1" [ref=e2197] [cursor=pointer]:
+                  - /url: https://github.com/teknium1
+                  - img "@teknium1" [ref=e2198]
+              - listitem [ref=e2199]:
+                - link "@OutThisLife" [ref=e2200] [cursor=pointer]:
+                  - /url: https://github.com/OutThisLife
+                  - img "@OutThisLife" [ref=e2201]
+              - listitem [ref=e2202]:
+                - link "@kshitijk4poor" [ref=e2203] [cursor=pointer]:
+                  - /url: https://github.com/kshitijk4poor
+                  - img "@kshitijk4poor" [ref=e2204]
+              - listitem [ref=e2205]:
+                - link "@claude" [ref=e2206] [cursor=pointer]:
+                  - /url: https://github.com/claude
+                  - img "@claude" [ref=e2207]
+              - listitem [ref=e2208]:
+                - link "@0xbyt4" [ref=e2209] [cursor=pointer]:
+                  - /url: https://github.com/0xbyt4
+                  - img "@0xbyt4" [ref=e2210]
+              - listitem [ref=e2211]:
+                - link "@alt-glitch" [ref=e2212] [cursor=pointer]:
+                  - /url: https://github.com/alt-glitch
+                  - img "@alt-glitch" [ref=e2213]
+              - listitem [ref=e2214]:
+                - link "@benbarclay" [ref=e2215] [cursor=pointer]:
+                  - /url: https://github.com/benbarclay
+                  - img "@benbarclay" [ref=e2216]
+              - listitem [ref=e2217]:
+                - link "@helix4u" [ref=e2218] [cursor=pointer]:
+                  - /url: https://github.com/helix4u
+                  - img "@helix4u" [ref=e2219]
+              - listitem [ref=e2220]:
+                - link "@austinpickett" [ref=e2221] [cursor=pointer]:
+                  - /url: https://github.com/austinpickett
+                  - img "@austinpickett" [ref=e2222]
+              - listitem [ref=e2223]:
+                - link "@ethernet8023" [ref=e2224] [cursor=pointer]:
+                  - /url: https://github.com/ethernet8023
+                  - img "@ethernet8023" [ref=e2225]
+              - listitem [ref=e2226]:
+                - link "@erosika" [ref=e2227] [cursor=pointer]:
+                  - /url: https://github.com/erosika
+                  - img "@erosika" [ref=e2228]
+              - listitem [ref=e2229]:
+                - link "@briandevans" [ref=e2230] [cursor=pointer]:
+                  - /url: https://github.com/briandevans
+                  - img "@briandevans" [ref=e2231]
+              - listitem [ref=e2232]:
+                - link "@LeonSGP43" [ref=e2233] [cursor=pointer]:
+                  - /url: https://github.com/LeonSGP43
+                  - img "@LeonSGP43" [ref=e2234]
+              - listitem [ref=e2235]:
+                - link "@ygd58" [ref=e2236] [cursor=pointer]:
+                  - /url: https://github.com/ygd58
+                  - img "@ygd58" [ref=e2237]
+            - link "+ 1,235 contributors" [ref=e2239] [cursor=pointer]:
+              - /url: /NousResearch/hermes-agent/graphs/contributors
+          - generic [ref=e2241]:
+            - heading "Languages" [level=2] [ref=e2242]
+            - list [ref=e2252]:
+              - listitem [ref=e2253]:
+                - link "Python 89.0%" [ref=e2254] [cursor=pointer]:
+                  - /url: /NousResearch/hermes-agent/search?l=python
+                  - img [ref=e2255]
+                  - generic [ref=e2257]: Python
+                  - generic [ref=e2258]: 89.0%
+              - listitem [ref=e2259]:
+                - link "TypeScript 8.2%" [ref=e2260] [cursor=pointer]:
+                  - /url: /NousResearch/hermes-agent/search?l=typescript
+                  - img [ref=e2261]
+                  - generic [ref=e2263]: TypeScript
+                  - generic [ref=e2264]: 8.2%
+              - listitem [ref=e2265]:
+                - link "TeX 1.0%" [ref=e2266] [cursor=pointer]:
+                  - /url: /NousResearch/hermes-agent/search?l=tex
+                  - img [ref=e2267]
+                  - generic [ref=e2269]: TeX
+                  - generic [ref=e2270]: 1.0%
+              - listitem [ref=e2271]:
+                - link "Shell 0.5%" [ref=e2272] [cursor=pointer]:
+                  - /url: /NousResearch/hermes-agent/search?l=shell
+                  - img [ref=e2273]
+                  - generic [ref=e2275]: Shell
+                  - generic [ref=e2276]: 0.5%
+              - listitem [ref=e2277]:
+                - link "BibTeX Style 0.4%" [ref=e2278] [cursor=pointer]:
+                  - /url: /NousResearch/hermes-agent/search?l=bibtex-style
+                  - img [ref=e2279]
+                  - generic [ref=e2281]: BibTeX Style
+                  - generic [ref=e2282]: 0.4%
+              - listitem [ref=e2283]:
+                - link "PowerShell 0.3%" [ref=e2284] [cursor=pointer]:
+                  - /url: /NousResearch/hermes-agent/search?l=powershell
+                  - img [ref=e2285]
+                  - generic [ref=e2287]: PowerShell
+                  - generic [ref=e2288]: 0.3%
+              - listitem [ref=e2289]:
+                - generic [ref=e2290]:
+                  - img [ref=e2291]
+                  - generic [ref=e2293]: Other
+                  - generic [ref=e2294]: 0.6%
+  - contentinfo [ref=e2296]:
+    - heading "Footer" [level=2] [ref=e2297]
+    - generic [ref=e2298]:
+      - generic [ref=e2299]:
+        - link "GitHub Homepage" [ref=e2300] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e2301]
+        - generic [ref=e2303]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e2304]:
+        - heading "Footer navigation" [level=3] [ref=e2305]
+        - list "Footer navigation" [ref=e2306]:
+          - listitem [ref=e2307]:
+            - link "Terms" [ref=e2308] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e2309]:
+            - link "Privacy" [ref=e2310] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e2311]:
+            - link "Security" [ref=e2312] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e2313]:
+            - link "Status" [ref=e2314] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e2315]:
+            - link "Community" [ref=e2316] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e2317]:
+            - link "Docs" [ref=e2318] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e2319]:
+            - link "Contact" [ref=e2320] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e2321]:
+            - button "Manage cookies" [ref=e2323] [cursor=pointer]
+          - listitem [ref=e2324]:
+            - button "Do not share my personal information" [ref=e2326] [cursor=pointer]

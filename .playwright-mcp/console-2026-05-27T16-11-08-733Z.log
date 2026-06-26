@@ -1,0 +1,5 @@
+[     170ms] [WARNING] The resource https://abs.twimg.com/responsive-web/client-web/bundle.UserProfile.9b1bae9a.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://x.com/i/jf/onboarding/web?redirect_after_login=%2Fsearch%3Fq%3Drdlx-1%26f%3Dtop&mode=login:0
+[    1420ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://www.theverge.com/blaize/datalayer:0
+[    2140ms] [LOG] [Parse.ly cleanup] Running deletion... @ https://www.theverge.com/_next/static/chunks/pages/_app-c723e6ebad9ae498.js:425
+[    2238ms] [LOG] [Parse.ly cleanup] Running deletion... @ https://www.theverge.com/_next/static/chunks/pages/_app-c723e6ebad9ae498.js:425
+[    6268ms] [WARNING] The resource https://securepubads.g.doubleclick.net/tag/js/gpt.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.theverge.com/search?q=rdlx-1:0

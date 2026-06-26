@@ -1,0 +1,4 @@
+[    1343ms] [WARNING] [GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202605140101/pubads_impl.js?cb=31098602:18
+[    1346ms] [WARNING] [GPT] Slot.setCollapseEmptyDiv is deprecated, use Slot.setConfig({collapseDiv: ...}) instead.
+https://goo.gle/gpt-message#171 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202605140101/pubads_impl.js?cb=31098602:18

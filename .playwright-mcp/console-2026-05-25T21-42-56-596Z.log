@@ -1,0 +1,6 @@
+[    1891ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ https://iros2026.org/favicon.ico:0
+[    2955ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://ww38.iros2026.org/chronos?dune=eyJhbGciOiJBMTI4S1ciLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0.F_tlO2RUa2m8LaZMiGx1MeFEbKKt9THJvTjd9JBASSVLVZ_AJZY-8Q.41TUPZZjwdrdMYIQSvS2rg.DCc9gKNjpSCi2E6px-SEiIClXhUAkZNS7CvEcMRmaU08y2fPdRXZahXu9MgpyBBmkt-FycGeI-SmxCM9mGokOdzvLriiaLTSniPOJlgPLlBCzLFTyW_yChfEJWzmsvcamp-fGEo5IwQ-TrveryC9XfUePAjEAJ3Sg5r4Irha19CRMrtJV4rlhywB1YrKXAKuTQE0tgimkxd9w2INm5p1rm2HgCCsnnMZDcL0OhHldwNop0lUqkKQCONA3gDpMiWT3IDX4DrmjeLreKTc4Xo2cg.rlD-VMn6K79-EdGbhmQkiw&t=6a14c263&token=af8fe63cd5214ac5a57aed7f8dbc12b6f3750c39:0
+[    2955ms] [ERROR] Error: Network response was not ok: Forbidden
+    at http://ww38.iros2026.org/:378:19 @ http://ww38.iros2026.org/:399
+[    2956ms] [LOG] Failure callback complete. @ http://ww38.iros2026.org/:342
+[    4264ms] [ERROR] Failed to load resource: net::ERR_FAILED @ chrome-extension://invalid/:0

@@ -1,0 +1,99 @@
+- generic [active] [ref=e1]:
+  - link "컨텐츠로 건너뛰기" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner "사이트" [ref=e3]:
+    - paragraph [ref=e6]:
+      - link "크립토 트레이딩" [ref=e7] [cursor=pointer]:
+        - /url: https://rpmbull.com/
+  - navigation "기본" [ref=e8]:
+    - list [ref=e11]:
+      - listitem [ref=e12]:
+        - link "홈으로" [ref=e13] [cursor=pointer]:
+          - /url: https://rpmbull.com/
+      - listitem [ref=e14]:
+        - link "코인 차트분석" [ref=e15] [cursor=pointer]:
+          - /url: https://rpmbull.com/category/bitcoin-alt-coin/
+          - text: 코인 차트분석
+          - img [ref=e17]
+        - list:
+          - listitem:
+            - link "비트코인":
+              - /url: https://rpmbull.com/category/bitcoin/
+          - listitem:
+            - link "알트코인":
+              - /url: https://rpmbull.com/category/altcoin/
+          - listitem:
+            - link "밈코인":
+              - /url: https://rpmbull.com/category/memecoin/
+      - listitem [ref=e19]:
+        - link "보조지표" [ref=e20] [cursor=pointer]:
+          - /url: https://rpmbull.com/category/indicator/
+      - listitem [ref=e21]:
+        - link "실전 매매" [ref=e22] [cursor=pointer]:
+          - /url: https://rpmbull.com/category/practical-trading/
+      - listitem [ref=e23]:
+        - link "자동매매봇 만드는 방법" [ref=e24] [cursor=pointer]:
+          - /url: https://rpmbull.com/category/auto-bot/
+      - listitem [ref=e25]:
+        - link "김프완전정복" [ref=e26] [cursor=pointer]:
+          - /url: https://rpmbull.com/category/kimp/
+      - listitem [ref=e27]:
+        - link "투자인사이트" [ref=e28] [cursor=pointer]:
+          - /url: https://rpmbull.com/category/invest-insight/
+  - generic [ref=e30]:
+    - main [ref=e32]:
+      - generic [ref=e33]:
+        - heading "아차! 해당 페이지를 찾을 수 없습니다." [level=1] [ref=e35]
+        - generic [ref=e36]:
+          - paragraph [ref=e37]: 이 위치에서 아무 것도 발견되지 않은 것 같습니다. 검색을 시도할까요?
+          - generic [ref=e38]:
+            - generic [ref=e39]:
+              - generic [ref=e40]: "검색:"
+              - searchbox "검색:" [ref=e41]
+            - button "검색" [ref=e42] [cursor=pointer]:
+              - img [ref=e44]
+    - generic [ref=e47]:
+      - complementary [ref=e48]:
+        - search [ref=e49]:
+          - strong [ref=e51]: 코인 정보 키워드 검색!
+          - generic [ref=e52]:
+            - searchbox "코인 정보 키워드 검색!" [ref=e53]
+            - button "검색" [ref=e54] [cursor=pointer]
+      - complementary [ref=e55]:
+        - list [ref=e56]:
+          - listitem [ref=e57]:
+            - link "김프완전정복" [ref=e58] [cursor=pointer]:
+              - /url: https://rpmbull.com/category/kimp/
+          - listitem [ref=e59]:
+            - link "보조지표" [ref=e60] [cursor=pointer]:
+              - /url: https://rpmbull.com/category/indicator/
+          - listitem [ref=e61]:
+            - link "실전 매매" [ref=e62] [cursor=pointer]:
+              - /url: https://rpmbull.com/category/practical-trading/
+          - listitem [ref=e63]:
+            - link "자동매매봇 만드는 방법" [ref=e64] [cursor=pointer]:
+              - /url: https://rpmbull.com/category/auto-bot/
+      - complementary [ref=e65]:
+        - generic [ref=e67]:
+          - heading "인기 글" [level=2] [ref=e68]
+          - list [ref=e69]:
+            - listitem [ref=e70]:
+              - link "자동매매봇 한 달 운영 후기 (자동매매봇 만들기 13편)" [ref=e71] [cursor=pointer]:
+                - /url: https://rpmbull.com/autotrading-bot-monthly-review/
+            - listitem [ref=e72]:
+              - link "텔레그램 명령어로 자동매매봇 원격 제어하는 방법 (자동매매봇 만들기 12편)" [ref=e73] [cursor=pointer]:
+                - /url: https://rpmbull.com/vtelegram-remote-control-autotrading-bot/
+            - listitem [ref=e74]:
+              - link "OBV 보조지표로 자동매매봇 세팅방법 (자동매매봇 만들기 11편)" [ref=e75] [cursor=pointer]:
+                - /url: https://rpmbull.com/obv-indicator-autotrading-bot/
+            - listitem [ref=e76]:
+              - link "자동매매봇 24시간 돌리는 방법 (자동매매봇 만들기 10편)" [ref=e77] [cursor=pointer]:
+                - /url: https://rpmbull.com/autotrading-bot-24h-server-guide/
+            - listitem [ref=e78]:
+              - link "API 연결 끊김! 봇이 멈추었(자동매매봇 만들기 9편)" [ref=e79] [cursor=pointer]:
+                - /url: https://rpmbull.com/autotrading-bot-api-disconnect/
+  - contentinfo "사이트" [ref=e81]:
+    - generic [ref=e83]:
+      - text: © 2026 크립토 트레이딩 • 제작됨
+      - link "GeneratePress" [ref=e84] [cursor=pointer]:
+        - /url: https://generatepress.com

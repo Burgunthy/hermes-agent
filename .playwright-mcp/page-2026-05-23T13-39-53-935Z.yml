@@ -1,0 +1,296 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Introducing the Polar Startup Program" [ref=e4] [cursor=pointer]:
+        - /url: /startup-program
+        - generic [ref=e5]:
+          - paragraph [ref=e6]: Introducing the Polar Startup Program
+          - img [ref=e7]
+      - generic [ref=e10]:
+        - link [ref=e11] [cursor=pointer]:
+          - /url: /
+          - button [ref=e13]:
+            - img [ref=e15]
+        - list [ref=e24]:
+          - listitem [ref=e25]:
+            - button "Features" [ref=e26] [cursor=pointer]
+          - listitem [ref=e27]:
+            - button "Docs" [ref=e28] [cursor=pointer]
+          - listitem [ref=e29]:
+            - link "Blog" [ref=e30] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e31]:
+            - link "Company" [ref=e32] [cursor=pointer]:
+              - /url: /company
+        - generic [ref=e33]:
+          - button "Sign in" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]: Sign in
+          - button "Get Started" [ref=e36] [cursor=pointer]:
+            - generic [ref=e37]:
+              - generic [ref=e38]: Get Started
+              - img
+    - generic [ref=e40]:
+      - main [ref=e43]:
+        - generic [ref=e45]:
+          - heading "Polar vs Lemon Squeezy" [level=1] [ref=e48]
+          - generic [ref=e49]:
+            - button "Overview" [ref=e50] [cursor=pointer]:
+              - img [ref=e51]
+              - generic [ref=e53]: Overview
+            - button "Feature Comparison" [ref=e54] [cursor=pointer]:
+              - img [ref=e55]
+              - generic [ref=e57]: Feature Comparison
+            - button "Pricing" [ref=e58] [cursor=pointer]:
+              - img [ref=e59]
+              - generic [ref=e61]: Pricing
+            - button "Developer Experience" [ref=e62] [cursor=pointer]:
+              - img [ref=e63]
+              - generic [ref=e65]: Developer Experience
+            - button "Scalability & Features" [ref=e66] [cursor=pointer]:
+              - img [ref=e67]
+              - generic [ref=e69]: Scalability & Features
+            - button "Why Choose Polar?" [ref=e70] [cursor=pointer]:
+              - img [ref=e71]
+              - generic [ref=e73]: Why Choose Polar?
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - heading "Overview" [level=2] [ref=e77]
+              - generic [ref=e78]:
+                - paragraph [ref=e79]: Comparing modern Merchant of Record solutions for indie developers and SaaS businesses.
+                - paragraph [ref=e80]: Both Polar and Lemon Squeezy are Merchant of Record platforms that handle tax compliance globally. While Lemon Squeezy caters to solo creators and indie hackers, Polar is built for developers who need robust APIs, advanced features, and the ability to scale to enterprise-level requirements.
+            - generic [ref=e81]:
+              - heading "Feature Comparison" [level=2] [ref=e83]
+              - table [ref=e86]:
+                - rowgroup [ref=e87]:
+                  - row "Feature Polar Lemon Squeezy" [ref=e88]:
+                    - columnheader "Feature" [ref=e89]
+                    - columnheader "Polar" [ref=e90]
+                    - columnheader "Lemon Squeezy" [ref=e91]
+                - rowgroup [ref=e92]:
+                  - row "Payment Processing" [ref=e93]:
+                    - cell "Payment Processing" [ref=e94]
+                    - cell [ref=e95]:
+                      - img [ref=e96]
+                    - cell [ref=e98]:
+                      - img [ref=e99]
+                  - row "Subscription Management" [ref=e101]:
+                    - cell "Subscription Management" [ref=e102]
+                    - cell [ref=e103]:
+                      - img [ref=e104]
+                    - cell [ref=e106]:
+                      - img [ref=e107]
+                  - row "Merchant of Record" [ref=e109]:
+                    - cell "Merchant of Record" [ref=e110]
+                    - cell [ref=e111]:
+                      - img [ref=e112]
+                    - cell [ref=e114]:
+                      - img [ref=e115]
+                  - row "Global Tax Compliance" [ref=e117]:
+                    - cell "Global Tax Compliance" [ref=e118]
+                    - cell [ref=e119]:
+                      - img [ref=e120]
+                    - cell [ref=e122]:
+                      - img [ref=e123]
+                  - row "Framework Adapters" [ref=e125]:
+                    - cell "Framework Adapters" [ref=e126]
+                    - cell [ref=e127]:
+                      - img [ref=e128]
+                    - cell [ref=e130]:
+                      - img [ref=e131]
+                  - row "Automated Benefits Engine" [ref=e133]:
+                    - cell "Automated Benefits Engine" [ref=e134]
+                    - cell [ref=e135]:
+                      - img [ref=e136]
+                    - cell [ref=e138]:
+                      - img [ref=e139]
+                  - row "Open Source" [ref=e141]:
+                    - cell "Open Source" [ref=e142]
+                    - cell [ref=e143]:
+                      - img [ref=e144]
+                    - cell [ref=e146]:
+                      - img [ref=e147]
+            - generic [ref=e149]:
+              - heading "Pricing" [level=2] [ref=e151]
+              - generic [ref=e152]:
+                - generic [ref=e153]:
+                  - generic [ref=e154]:
+                    - generic [ref=e155]:
+                      - heading "Polar" [level=3] [ref=e156]
+                      - generic [ref=e157]: 5% + 50¢
+                      - paragraph [ref=e158]: per transaction (Starter plan — paid plans available with lower rates)
+                    - list [ref=e159]:
+                      - listitem [ref=e160]:
+                        - img [ref=e161]
+                        - generic [ref=e163]: Lower rates on paid plans (Pro, Growth, Scale)
+                      - listitem [ref=e164]:
+                        - img [ref=e165]
+                        - generic [ref=e167]: No hidden fees or surprise charges
+                      - listitem [ref=e168]:
+                        - img [ref=e169]
+                        - generic [ref=e171]: All features included at one price
+                  - generic [ref=e172]:
+                    - generic [ref=e173]:
+                      - heading "Lemon Squeezy" [level=3] [ref=e174]
+                      - generic [ref=e175]: 5% + 50¢
+                      - paragraph [ref=e176]: per transaction
+                    - list [ref=e177]:
+                      - listitem [ref=e178]:
+                        - img [ref=e179]
+                        - generic [ref=e181]: Higher base transaction fee
+                      - listitem [ref=e182]:
+                        - img [ref=e183]
+                        - generic [ref=e185]: Additional fees for certain features
+                      - listitem [ref=e186]:
+                        - img [ref=e187]
+                        - generic [ref=e189]: Limited advanced features
+                - paragraph [ref=e190]:
+                  - text: On paid plans, Polar's lower variable rates can save you significantly compared to Lemon Squeezy as your revenue grows. See our
+                  - link "pricing guide" [ref=e191] [cursor=pointer]:
+                    - /url: /resources/pricing
+                  - text: for a full breakdown.
+            - generic [ref=e192]:
+              - heading "Developer Experience" [level=2] [ref=e194]
+              - generic [ref=e196]:
+                - generic [ref=e197]:
+                  - heading "Built for developers who want full control" [level=3] [ref=e198]
+                  - paragraph [ref=e199]: Lemon Squeezy is designed for simplicity, which is great for getting started quickly. However, Polar provides both simplicity AND power with modern developer tooling, comprehensive APIs, and the flexibility to build exactly what you need.
+                - list [ref=e200]:
+                  - listitem [ref=e201]:
+                    - heading "6-line integration" [level=4] [ref=e202]
+                    - paragraph [ref=e203]: Polar provides a 6-line integration with framework adapters, making it easy to get started with minimal code.
+                  - listitem [ref=e204]:
+                    - heading "Framework adapters" [level=4] [ref=e205]
+                    - paragraph [ref=e206]: Polar provides native support for Next.js, BetterAuth, Laravel, and more.
+                  - listitem [ref=e207]:
+                    - heading "Open source" [level=4] [ref=e208]
+                    - paragraph [ref=e209]: Polar is open source, so you can inspect and contribute to the codebase.
+            - generic [ref=e210]:
+              - heading "Scalability & Features" [level=2] [ref=e212]
+              - generic [ref=e213]:
+                - generic [ref=e214]:
+                  - heading "Built to scale with your business" [level=3] [ref=e215]
+                  - paragraph [ref=e216]: While Lemon Squeezy works well for small projects and indie creators, Polar is designed to grow with you from your first sale to enterprise scale, with advanced features and robust infrastructure.
+                - generic [ref=e217]:
+                  - generic [ref=e218]:
+                    - heading "Polar at Scale" [level=4] [ref=e219]
+                    - list [ref=e220]:
+                      - listitem [ref=e221]:
+                        - img [ref=e222]
+                        - text: Advanced subscriptions with usage-based billing and tiers
+                      - listitem [ref=e224]:
+                        - img [ref=e225]
+                        - text: Robust webhooks with real-time events and automatic retries
+                      - listitem [ref=e227]:
+                        - img [ref=e228]
+                        - text: API-first platform to build custom experiences
+                      - listitem [ref=e230]:
+                        - img [ref=e231]
+                        - text: Open source with full transparency and community contributions
+                  - generic [ref=e233]:
+                    - heading "Lemon Squeezy Limitations" [level=4] [ref=e234]
+                    - list [ref=e235]:
+                      - listitem [ref=e236]:
+                        - img [ref=e237]
+                        - text: Basic subscriptions with limited flexibility
+                      - listitem [ref=e239]:
+                        - img [ref=e240]
+                        - text: Simple webhooks with limited event types
+                      - listitem [ref=e242]:
+                        - img [ref=e243]
+                        - text: UI-focused with less programmatic control
+                      - listitem [ref=e245]:
+                        - img [ref=e246]
+                        - text: Closed source with no visibility into platform internals
+            - generic [ref=e248]:
+              - heading "Why Choose Polar?" [level=2] [ref=e250]
+              - generic [ref=e251]:
+                - generic [ref=e252]:
+                  - heading "Start simple, scale to enterprise without switching" [level=3] [ref=e253]
+                  - paragraph [ref=e254]: Lemon Squeezy is great for getting started, but many developers quickly outgrow its limitations. Polar gives you the same simple start but with the power and flexibility to scale without ever needing to migrate to a different platform.
+                - list [ref=e255]:
+                  - listitem [ref=e256]:
+                    - heading "Lower fees as you scale" [level=4] [ref=e257]
+                    - paragraph [ref=e258]: Paid plans (Pro, Growth, Scale) offer lower variable rates with the same MoR benefits.
+                  - listitem [ref=e259]:
+                    - heading "More powerful" [level=4] [ref=e260]
+                    - paragraph [ref=e261]: Advanced features for complex use cases and scale.
+                  - listitem [ref=e262]:
+                    - heading "Developer-first" [level=4] [ref=e263]
+                    - paragraph [ref=e264]: Modern tooling, TypeScript-first, framework adapters.
+                  - listitem [ref=e265]:
+                    - heading "Open source" [level=4] [ref=e266]
+                    - paragraph [ref=e267]: Full transparency and community-driven development.
+            - generic [ref=e269]:
+              - generic [ref=e270]:
+                - heading "Choose a platform that grows with you" [level=3] [ref=e271]
+                - paragraph [ref=e272]: Get the simplicity of Lemon Squeezy with the power and scalability to take your business to the next level.
+              - button "Get Started" [ref=e273] [cursor=pointer]:
+                - generic [ref=e274]:
+                  - generic [ref=e275]: Get Started
+                  - img
+      - generic [ref=e279]:
+        - generic [ref=e280]:
+          - button [ref=e283]:
+            - img [ref=e285]
+          - generic [ref=e294]:
+            - link "Join Polar today" [ref=e295] [cursor=pointer]:
+              - /url: /signup
+              - generic [ref=e296]: Join Polar today
+              - img [ref=e297]
+            - generic [ref=e299]: © Polar Software, Inc. 2026
+        - generic [ref=e300]:
+          - heading "Features" [level=3] [ref=e301]
+          - generic [ref=e302]:
+            - link "Usage Billing" [ref=e303] [cursor=pointer]:
+              - /url: /features/usage-billing
+            - link "Subscriptions" [ref=e304] [cursor=pointer]:
+              - /url: /features/subscriptions
+            - link "Seats" [ref=e305] [cursor=pointer]:
+              - /url: /features/seats
+            - link "Credits" [ref=e306] [cursor=pointer]:
+              - /url: /features/credits
+            - link "Trials" [ref=e307] [cursor=pointer]:
+              - /url: /features/trials
+            - link "Discounts" [ref=e308] [cursor=pointer]:
+              - /url: /features/discounts
+            - link "Cost Insights" [ref=e309] [cursor=pointer]:
+              - /url: /features/cost-insights
+            - link "Finance" [ref=e310] [cursor=pointer]:
+              - /url: /features/finance
+            - link "Merchant of Record" [ref=e311] [cursor=pointer]:
+              - /url: /features/merchant-of-record
+        - generic [ref=e312]:
+          - heading "Resources" [level=3] [ref=e313]
+          - generic [ref=e314]:
+            - link "Why Polar" [ref=e315] [cursor=pointer]:
+              - /url: /resources/why
+            - link "Merchant of Record" [ref=e316] [cursor=pointer]:
+              - /url: /resources/merchant-of-record
+            - link "Pricing" [ref=e317] [cursor=pointer]:
+              - /url: /resources/pricing
+            - link "Downloads" [ref=e318] [cursor=pointer]:
+              - /url: /downloads
+        - generic [ref=e319]:
+          - heading "Company" [level=3] [ref=e320]
+          - generic [ref=e321]:
+            - link "About Polar" [ref=e322] [cursor=pointer]:
+              - /url: /company
+            - link "GitHub" [ref=e323] [cursor=pointer]:
+              - /url: https://github.com/polarsource
+            - link "X / Twitter" [ref=e324] [cursor=pointer]:
+              - /url: https://x.com/polar_sh
+            - link "Brand Assets" [ref=e325] [cursor=pointer]:
+              - /url: https://polar.sh/assets/brand/polar_brand.zip
+            - link "Legal" [ref=e326] [cursor=pointer]:
+              - /url: https://polar.sh/legal
+            - button "Cookie Preferences" [ref=e327]
+        - generic [ref=e328]:
+          - heading "Support" [level=3] [ref=e329]
+          - generic [ref=e330]:
+            - link "Docs" [ref=e331] [cursor=pointer]:
+              - /url: https://polar.sh/docs
+            - link "Contact" [ref=e332] [cursor=pointer]:
+              - /url: mailto:support@polar.sh
+            - link "Service Status" [ref=e333] [cursor=pointer]:
+              - /url: https://status.polar.sh
+  - alert [ref=e334]

@@ -1,0 +1,1495 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e6]:
+        - heading "Navigation Menu" [level=2] [ref=e7]
+        - generic [ref=e8]:
+          - link "Homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+          - generic [ref=e13]:
+            - navigation "Global" [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Platform" [ref=e20] [cursor=pointer]:
+                    - text: Platform
+                    - img [ref=e21]
+                - listitem [ref=e23]:
+                  - button "Solutions" [ref=e25] [cursor=pointer]:
+                    - text: Solutions
+                    - img [ref=e26]
+                - listitem [ref=e28]:
+                  - button "Resources" [ref=e30] [cursor=pointer]:
+                    - text: Resources
+                    - img [ref=e31]
+                - listitem [ref=e33]:
+                  - button "Open Source" [ref=e35] [cursor=pointer]:
+                    - text: Open Source
+                    - img [ref=e36]
+                - listitem [ref=e38]:
+                  - button "Enterprise" [ref=e40] [cursor=pointer]:
+                    - text: Enterprise
+                    - img [ref=e41]
+                - listitem [ref=e43]:
+                  - link "Pricing" [ref=e44] [cursor=pointer]:
+                    - /url: https://github.com/pricing
+                    - generic [ref=e45]: Pricing
+            - generic [ref=e46]:
+              - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+                - img [ref=e51]
+              - link "Sign in" [ref=e54] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fiterativv%2FNostalgiaForInfinity%2Ftree%2Fmain%2Fconfigs
+              - link "Sign up" [ref=e55] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Ffiles%2Fdisambiguate&source=header-repo&source_repo=iterativv%2FNostalgiaForInfinity
+              - button "Appearance settings" [ref=e58] [cursor=pointer]:
+                - img
+    - main [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - link "iterativv" [ref=e70] [cursor=pointer]:
+              - /url: /iterativv
+            - generic [ref=e71]: /
+            - strong [ref=e72]:
+              - link "NostalgiaForInfinity" [ref=e73] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity
+            - generic [ref=e74]: Public
+          - generic [ref=e75]:
+            - list:
+              - listitem [ref=e76]:
+                - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fiterativv%2FNostalgiaForInfinity
+                  - img [ref=e78]
+                  - text: Notifications
+              - listitem [ref=e80]:
+                - link "Fork 721" [ref=e81] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fiterativv%2FNostalgiaForInfinity
+                  - img [ref=e82]
+                  - text: Fork
+                  - generic "721" [ref=e84]
+              - listitem [ref=e85]:
+                - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fiterativv%2FNostalgiaForInfinity
+                  - img [ref=e88]
+                  - text: Star
+                  - generic "3219 users starred this repository" [ref=e90]: 3.2k
+        - navigation "Repository" [ref=e91]:
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Code" [ref=e94] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity
+                - img [ref=e95]
+                - generic [ref=e97]: Code
+            - listitem [ref=e98]:
+              - link "Issues 60" [ref=e99] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity/issues
+                - img [ref=e100]
+                - generic [ref=e103]: Issues
+                - generic "60" [ref=e104]
+            - listitem [ref=e105]:
+              - link "Pull requests 3" [ref=e106] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity/pulls
+                - img [ref=e107]
+                - generic [ref=e109]: Pull requests
+                - generic "3" [ref=e110]
+            - listitem [ref=e111]:
+              - link "Actions" [ref=e112] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity/actions
+                - img [ref=e113]
+                - generic [ref=e115]: Actions
+            - listitem [ref=e116]:
+              - link "Projects" [ref=e117] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity/projects
+                - img [ref=e118]
+                - generic [ref=e120]: Projects
+            - listitem [ref=e121]:
+              - link "Wiki" [ref=e122] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity/wiki
+                - img [ref=e123]
+                - generic [ref=e125]: Wiki
+            - listitem [ref=e126]:
+              - link "Security and quality" [ref=e127] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity/security
+                - img [ref=e128]
+                - generic [ref=e130]: Security and quality
+            - listitem [ref=e131]:
+              - link "Insights" [ref=e132] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity/pulse
+                - img [ref=e133]
+                - generic [ref=e135]: Insights
+      - generic [ref=e143]:
+        - generic [ref=e145]:
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - heading "Collapse file tree" [level=2] [ref=e151]:
+                  - button "Collapse file tree" [expanded] [ref=e152] [cursor=pointer]:
+                    - img [ref=e153]
+                - heading "Files" [level=2] [ref=e156]
+              - generic [ref=e157]:
+                - button "main branch" [ref=e159] [cursor=pointer]:
+                  - generic [ref=e160]:
+                    - generic [ref=e162]:
+                      - img [ref=e164]
+                      - generic [ref=e167]: main
+                    - generic:
+                      - img
+                - button "Search this repository (forward slash)" [ref=e169] [cursor=pointer]:
+                  - img [ref=e170]
+            - generic [ref=e173]:
+              - img [ref=e175]
+              - combobox "Go to file" [ref=e177]
+            - navigation "File Tree Navigation" [ref=e183]:
+              - tree "Files" [ref=e185]:
+                - treeitem ".github" [level=1] [ref=e186]:
+                  - generic [ref=e187] [cursor=pointer]:
+                    - img [ref=e189]
+                    - generic [ref=e191]:
+                      - img [ref=e195]
+                      - generic [ref=e197]: .github
+                - treeitem "configs" [expanded] [level=1] [ref=e198]:
+                  - generic [ref=e199] [cursor=pointer]:
+                    - img [ref=e201]
+                    - generic [ref=e203]:
+                      - img [ref=e207]
+                      - generic [ref=e209]: configs
+                  - group "configs" [ref=e210]:
+                    - treeitem "blacklist-binance.json" [level=2] [ref=e211]:
+                      - generic [ref=e216] [cursor=pointer]:
+                        - img [ref=e219]
+                        - generic [ref=e221]: blacklist-binance.json
+                    - treeitem "blacklist-bitget.json" [level=2] [ref=e222]:
+                      - generic [ref=e227] [cursor=pointer]:
+                        - img [ref=e230]
+                        - generic [ref=e232]: blacklist-bitget.json
+                    - treeitem "blacklist-bitmart.json" [level=2] [ref=e233]:
+                      - generic [ref=e238] [cursor=pointer]:
+                        - img [ref=e241]
+                        - generic [ref=e243]: blacklist-bitmart.json
+                    - treeitem "blacklist-bitvavo.json" [level=2] [ref=e244]:
+                      - generic [ref=e249] [cursor=pointer]:
+                        - img [ref=e252]
+                        - generic [ref=e254]: blacklist-bitvavo.json
+                    - treeitem "blacklist-bybit.json" [level=2] [ref=e255]:
+                      - generic [ref=e260] [cursor=pointer]:
+                        - img [ref=e263]
+                        - generic [ref=e265]: blacklist-bybit.json
+                    - treeitem "blacklist-gateio.json" [level=2] [ref=e266]:
+                      - generic [ref=e271] [cursor=pointer]:
+                        - img [ref=e274]
+                        - generic [ref=e276]: blacklist-gateio.json
+                    - treeitem "blacklist-htx.json" [level=2] [ref=e277]:
+                      - generic [ref=e282] [cursor=pointer]:
+                        - img [ref=e285]
+                        - generic [ref=e287]: blacklist-htx.json
+                    - treeitem "blacklist-hyperliquid.json" [level=2] [ref=e288]:
+                      - generic [ref=e293] [cursor=pointer]:
+                        - img [ref=e296]
+                        - generic [ref=e298]: blacklist-hyperliquid.json
+                    - treeitem "blacklist-kraken.json" [level=2] [ref=e299]:
+                      - generic [ref=e304] [cursor=pointer]:
+                        - img [ref=e307]
+                        - generic [ref=e309]: blacklist-kraken.json
+                    - treeitem "blacklist-kucoin.json" [level=2] [ref=e310]:
+                      - generic [ref=e315] [cursor=pointer]:
+                        - img [ref=e318]
+                        - generic [ref=e320]: blacklist-kucoin.json
+                    - treeitem "blacklist-mexc.json" [level=2] [ref=e321]:
+                      - generic [ref=e326] [cursor=pointer]:
+                        - img [ref=e329]
+                        - generic [ref=e331]: blacklist-mexc.json
+                    - treeitem "blacklist-okx.json" [level=2] [ref=e332]:
+                      - generic [ref=e337] [cursor=pointer]:
+                        - img [ref=e340]
+                        - generic [ref=e342]: blacklist-okx.json
+                    - treeitem "exampleconfig-rebuy.json" [level=2] [ref=e343]:
+                      - generic [ref=e348] [cursor=pointer]:
+                        - img [ref=e351]
+                        - generic [ref=e353]: exampleconfig-rebuy.json
+                    - treeitem "exampleconfig.json" [level=2] [ref=e354]:
+                      - generic [ref=e359] [cursor=pointer]:
+                        - img [ref=e362]
+                        - generic [ref=e364]: exampleconfig.json
+                    - treeitem "exampleconfig_secret.json" [level=2] [ref=e365]:
+                      - generic [ref=e370] [cursor=pointer]:
+                        - img [ref=e373]
+                        - generic [ref=e375]: exampleconfig_secret.json
+                    - treeitem "pairlist-backtest-static-binance-futures-usdt.json" [level=2] [ref=e376]:
+                      - generic [ref=e381] [cursor=pointer]:
+                        - img [ref=e384]
+                        - generic [ref=e386]: pairlist-backtest-static-binance-futures-usdt.json
+                    - treeitem "pairlist-backtest-static-binance-spot-usdt.json" [level=2] [ref=e387]:
+                      - generic [ref=e392] [cursor=pointer]:
+                        - img [ref=e395]
+                        - generic [ref=e397]: pairlist-backtest-static-binance-spot-usdt.json
+                    - treeitem "pairlist-backtest-static-bybit-spot-usdt.json" [level=2] [ref=e398]:
+                      - generic [ref=e403] [cursor=pointer]:
+                        - img [ref=e406]
+                        - generic [ref=e408]: pairlist-backtest-static-bybit-spot-usdt.json
+                    - treeitem "pairlist-backtest-static-gateio-futures-usdt.json" [level=2] [ref=e409]:
+                      - generic [ref=e414] [cursor=pointer]:
+                        - img [ref=e417]
+                        - generic [ref=e419]: pairlist-backtest-static-gateio-futures-usdt.json
+                    - treeitem "pairlist-backtest-static-gateio-spot-usdt.json" [level=2] [ref=e420]:
+                      - generic [ref=e425] [cursor=pointer]:
+                        - img [ref=e428]
+                        - generic [ref=e430]: pairlist-backtest-static-gateio-spot-usdt.json
+                    - treeitem "pairlist-backtest-static-kraken-spot-usdt.json" [level=2] [ref=e431]:
+                      - generic [ref=e436] [cursor=pointer]:
+                        - img [ref=e439]
+                        - generic [ref=e441]: pairlist-backtest-static-kraken-spot-usdt.json
+                    - treeitem "pairlist-backtest-static-kucoin-futures-usdt.json" [level=2] [ref=e442]:
+                      - generic [ref=e447] [cursor=pointer]:
+                        - img [ref=e450]
+                        - generic [ref=e452]: pairlist-backtest-static-kucoin-futures-usdt.json
+                    - treeitem "pairlist-backtest-static-kucoin-spot-usdt.json" [level=2] [ref=e453]:
+                      - generic [ref=e458] [cursor=pointer]:
+                        - img [ref=e461]
+                        - generic [ref=e463]: pairlist-backtest-static-kucoin-spot-usdt.json
+                    - treeitem "pairlist-backtest-static-okx-futures-usdt.json" [level=2] [ref=e464]:
+                      - generic [ref=e469] [cursor=pointer]:
+                        - img [ref=e472]
+                        - generic [ref=e474]: pairlist-backtest-static-okx-futures-usdt.json
+                    - treeitem "pairlist-backtest-static-okx-spot-usdt.json" [level=2] [ref=e475]:
+                      - generic [ref=e480] [cursor=pointer]:
+                        - img [ref=e483]
+                        - generic [ref=e485]: pairlist-backtest-static-okx-spot-usdt.json
+                    - treeitem "pairlist-static-binance-futures-usdt.json" [level=2] [ref=e486]:
+                      - generic [ref=e491] [cursor=pointer]:
+                        - img [ref=e494]
+                        - generic [ref=e496]: pairlist-static-binance-futures-usdt.json
+                    - treeitem "pairlist-static-binance-spot-usdc.json" [level=2] [ref=e497]:
+                      - generic [ref=e502] [cursor=pointer]:
+                        - img [ref=e505]
+                        - generic [ref=e507]: pairlist-static-binance-spot-usdc.json
+                    - treeitem "pairlist-static-binance-spot-usdt.json" [level=2] [ref=e508]:
+                      - generic [ref=e513] [cursor=pointer]:
+                        - img [ref=e516]
+                        - generic [ref=e518]: pairlist-static-binance-spot-usdt.json
+                    - treeitem "pairlist-static-bitget-futures-usdt.json" [level=2] [ref=e519]:
+                      - generic [ref=e524] [cursor=pointer]:
+                        - img [ref=e527]
+                        - generic [ref=e529]: pairlist-static-bitget-futures-usdt.json
+                    - treeitem "pairlist-static-bitget-spot-usdt.json" [level=2] [ref=e530]:
+                      - generic [ref=e535] [cursor=pointer]:
+                        - img [ref=e538]
+                        - generic [ref=e540]: pairlist-static-bitget-spot-usdt.json
+                    - treeitem "pairlist-static-bitmart-spot-usdt.json" [level=2] [ref=e541]:
+                      - generic [ref=e546] [cursor=pointer]:
+                        - img [ref=e549]
+                        - generic [ref=e551]: pairlist-static-bitmart-spot-usdt.json
+                    - treeitem "pairlist-static-bitvavo-spot-eur.json" [level=2] [ref=e552]:
+                      - generic [ref=e557] [cursor=pointer]:
+                        - img [ref=e560]
+                        - generic [ref=e562]: pairlist-static-bitvavo-spot-eur.json
+                    - treeitem "pairlist-static-bybit-futures-usdt.json" [level=2] [ref=e563]:
+                      - generic [ref=e568] [cursor=pointer]:
+                        - img [ref=e571]
+                        - generic [ref=e573]: pairlist-static-bybit-futures-usdt.json
+                    - treeitem "pairlist-static-bybit-spot-usdt.json" [level=2] [ref=e574]:
+                      - generic [ref=e579] [cursor=pointer]:
+                        - img [ref=e582]
+                        - generic [ref=e584]: pairlist-static-bybit-spot-usdt.json
+                    - treeitem "pairlist-static-gateio-futures-usdt.json" [level=2] [ref=e585]:
+                      - generic [ref=e590] [cursor=pointer]:
+                        - img [ref=e593]
+                        - generic [ref=e595]: pairlist-static-gateio-futures-usdt.json
+                    - treeitem "pairlist-static-gateio-spot-usdt.json" [level=2] [ref=e596]:
+                      - generic [ref=e601] [cursor=pointer]:
+                        - img [ref=e604]
+                        - generic [ref=e606]: pairlist-static-gateio-spot-usdt.json
+                    - treeitem "pairlist-static-htx-spot-usdt.json" [level=2] [ref=e607]:
+                      - generic [ref=e612] [cursor=pointer]:
+                        - img [ref=e615]
+                        - generic [ref=e617]: pairlist-static-htx-spot-usdt.json
+                    - treeitem "pairlist-static-hyperliquid-futures-usdc.json" [level=2] [ref=e618]:
+                      - generic [ref=e623] [cursor=pointer]:
+                        - img [ref=e626]
+                        - generic [ref=e628]: pairlist-static-hyperliquid-futures-usdc.json
+                    - treeitem "pairlist-static-kraken-spot-usd.json" [level=2] [ref=e629]:
+                      - generic [ref=e634] [cursor=pointer]:
+                        - img [ref=e637]
+                        - generic [ref=e639]: pairlist-static-kraken-spot-usd.json
+                    - treeitem "pairlist-static-kucoin-spot-usdt.json" [level=2] [ref=e640]:
+                      - generic [ref=e645] [cursor=pointer]:
+                        - img [ref=e648]
+                        - generic [ref=e650]: pairlist-static-kucoin-spot-usdt.json
+                    - treeitem "pairlist-static-mexc-spot-usdt.json" [level=2] [ref=e651]:
+                      - generic [ref=e656] [cursor=pointer]:
+                        - img [ref=e659]
+                        - generic [ref=e661]: pairlist-static-mexc-spot-usdt.json
+                    - treeitem "pairlist-static-okx-futures-usdt.json" [level=2] [ref=e662]:
+                      - generic [ref=e667] [cursor=pointer]:
+                        - img [ref=e670]
+                        - generic [ref=e672]: pairlist-static-okx-futures-usdt.json
+                    - treeitem "pairlist-static-okx-spot-usdc.json" [level=2] [ref=e673]:
+                      - generic [ref=e678] [cursor=pointer]:
+                        - img [ref=e681]
+                        - generic [ref=e683]: pairlist-static-okx-spot-usdc.json
+                    - treeitem "pairlist-static-okx-spot-usdt.json" [level=2] [ref=e684]:
+                      - generic [ref=e689] [cursor=pointer]:
+                        - img [ref=e692]
+                        - generic [ref=e694]: pairlist-static-okx-spot-usdt.json
+                    - treeitem "pairlist-volume-binance-btc.json" [level=2] [ref=e695]:
+                      - generic [ref=e700] [cursor=pointer]:
+                        - img [ref=e703]
+                        - generic [ref=e705]: pairlist-volume-binance-btc.json
+                    - treeitem "pairlist-volume-binance-busd.json" [level=2] [ref=e706]:
+                      - generic [ref=e711] [cursor=pointer]:
+                        - img [ref=e714]
+                        - generic [ref=e716]: pairlist-volume-binance-busd.json
+                    - treeitem "pairlist-volume-binance-usdc.json" [level=2] [ref=e717]:
+                      - generic [ref=e722] [cursor=pointer]:
+                        - img [ref=e725]
+                        - generic [ref=e727]: pairlist-volume-binance-usdc.json
+                    - treeitem "pairlist-volume-binance-usdt.json" [level=2] [ref=e728]:
+                      - generic [ref=e733] [cursor=pointer]:
+                        - img [ref=e736]
+                        - generic [ref=e738]: pairlist-volume-binance-usdt.json
+                    - treeitem "pairlist-volume-bitget-btc.json" [level=2] [ref=e739]:
+                      - generic [ref=e744] [cursor=pointer]:
+                        - img [ref=e747]
+                        - generic [ref=e749]: pairlist-volume-bitget-btc.json
+                    - treeitem "pairlist-volume-bitget-usdt.json" [level=2] [ref=e750]:
+                      - generic [ref=e755] [cursor=pointer]:
+                        - img [ref=e758]
+                        - generic [ref=e760]: pairlist-volume-bitget-usdt.json
+                    - treeitem "pairlist-volume-bitmart-btc.json" [level=2] [ref=e761]:
+                      - generic [ref=e766] [cursor=pointer]:
+                        - img [ref=e769]
+                        - generic [ref=e771]: pairlist-volume-bitmart-btc.json
+                    - treeitem "pairlist-volume-bitmart-usdt.json" [level=2] [ref=e772]:
+                      - generic [ref=e777] [cursor=pointer]:
+                        - img [ref=e780]
+                        - generic [ref=e782]: pairlist-volume-bitmart-usdt.json
+                    - treeitem "pairlist-volume-bitvavo-eur.json" [level=2] [ref=e783]:
+                      - generic [ref=e788] [cursor=pointer]:
+                        - img [ref=e791]
+                        - generic [ref=e793]: pairlist-volume-bitvavo-eur.json
+                    - treeitem "pairlist-volume-bybit-btc.json" [level=2] [ref=e794]:
+                      - generic [ref=e799] [cursor=pointer]:
+                        - img [ref=e802]
+                        - generic [ref=e804]: pairlist-volume-bybit-btc.json
+                    - treeitem "pairlist-volume-bybit-usdt.json" [level=2] [ref=e805]:
+                      - generic [ref=e810] [cursor=pointer]:
+                        - img [ref=e813]
+                        - generic [ref=e815]: pairlist-volume-bybit-usdt.json
+                    - treeitem "pairlist-volume-gateio-btc.json" [level=2] [ref=e816]:
+                      - generic [ref=e821] [cursor=pointer]:
+                        - img [ref=e824]
+                        - generic [ref=e826]: pairlist-volume-gateio-btc.json
+                    - treeitem "pairlist-volume-gateio-usdt.json" [level=2] [ref=e827]:
+                      - generic [ref=e832] [cursor=pointer]:
+                        - img [ref=e835]
+                        - generic [ref=e837]: pairlist-volume-gateio-usdt.json
+                    - treeitem "pairlist-volume-htx-btc.json" [level=2] [ref=e838]:
+                      - generic [ref=e843] [cursor=pointer]:
+                        - img [ref=e846]
+                        - generic [ref=e848]: pairlist-volume-htx-btc.json
+                    - treeitem "pairlist-volume-htx-usdt.json" [level=2] [ref=e849]:
+                      - generic [ref=e854] [cursor=pointer]:
+                        - img [ref=e857]
+                        - generic [ref=e859]: pairlist-volume-htx-usdt.json
+                    - treeitem "pairlist-volume-hyperliquid-usdc.json" [level=2] [ref=e860]:
+                      - generic [ref=e865] [cursor=pointer]:
+                        - img [ref=e868]
+                        - generic [ref=e870]: pairlist-volume-hyperliquid-usdc.json
+                    - treeitem "pairlist-volume-kraken-usd.json" [level=2] [ref=e871]:
+                      - generic [ref=e876] [cursor=pointer]:
+                        - img [ref=e879]
+                        - generic [ref=e881]: pairlist-volume-kraken-usd.json
+                    - treeitem "pairlist-volume-kucoin-btc.json" [level=2] [ref=e882]:
+                      - generic [ref=e887] [cursor=pointer]:
+                        - img [ref=e890]
+                        - generic [ref=e892]: pairlist-volume-kucoin-btc.json
+                    - treeitem "pairlist-volume-kucoin-usdt.json" [level=2] [ref=e893]:
+                      - generic [ref=e898] [cursor=pointer]:
+                        - img [ref=e901]
+                        - generic [ref=e903]: pairlist-volume-kucoin-usdt.json
+                    - treeitem "pairlist-volume-mexc-btc.json" [level=2] [ref=e904]:
+                      - generic [ref=e909] [cursor=pointer]:
+                        - img [ref=e912]
+                        - generic [ref=e914]: pairlist-volume-mexc-btc.json
+                    - treeitem "pairlist-volume-mexc-usdt.json" [level=2] [ref=e915]:
+                      - generic [ref=e920] [cursor=pointer]:
+                        - img [ref=e923]
+                        - generic [ref=e925]: pairlist-volume-mexc-usdt.json
+                    - treeitem "pairlist-volume-okx-btc.json" [level=2] [ref=e926]:
+                      - generic [ref=e931] [cursor=pointer]:
+                        - img [ref=e934]
+                        - generic [ref=e936]: pairlist-volume-okx-btc.json
+                    - treeitem "pairlist-volume-okx-futures.json" [level=2] [ref=e937]:
+                      - generic [ref=e942] [cursor=pointer]:
+                        - img [ref=e945]
+                        - generic [ref=e947]: pairlist-volume-okx-futures.json
+                    - treeitem "pairlist-volume-okx-usdt.json" [level=2] [ref=e948]:
+                      - generic [ref=e953] [cursor=pointer]:
+                        - img [ref=e956]
+                        - generic [ref=e958]: pairlist-volume-okx-usdt.json
+                    - treeitem "proxy-binance.json" [level=2] [ref=e959]:
+                      - generic [ref=e964] [cursor=pointer]:
+                        - img [ref=e967]
+                        - generic [ref=e969]: proxy-binance.json
+                    - treeitem "recommended_config.json" [level=2] [ref=e970]:
+                      - generic [ref=e975] [cursor=pointer]:
+                        - img [ref=e978]
+                        - generic [ref=e980]: recommended_config.json
+                    - treeitem "trading_mode-futures.json" [level=2] [ref=e981]:
+                      - generic [ref=e986] [cursor=pointer]:
+                        - img [ref=e989]
+                        - generic [ref=e991]: trading_mode-futures.json
+                    - treeitem "trading_mode-spot.json" [level=2] [ref=e992]:
+                      - generic [ref=e997] [cursor=pointer]:
+                        - img [ref=e1000]
+                        - generic [ref=e1002]: trading_mode-spot.json
+                - treeitem "docker" [level=1] [ref=e1003]:
+                  - generic [ref=e1004] [cursor=pointer]:
+                    - img [ref=e1006]
+                    - generic [ref=e1008]:
+                      - img [ref=e1012]
+                      - generic [ref=e1014]: docker
+                - treeitem "docs" [level=1] [ref=e1015]:
+                  - generic [ref=e1016] [cursor=pointer]:
+                    - img [ref=e1018]
+                    - generic [ref=e1020]:
+                      - img [ref=e1024]
+                      - generic [ref=e1026]: docs
+                - treeitem "legacy" [level=1] [ref=e1027]:
+                  - generic [ref=e1028] [cursor=pointer]:
+                    - img [ref=e1030]
+                    - generic [ref=e1032]:
+                      - img [ref=e1036]
+                      - generic [ref=e1038]: legacy
+                - treeitem "tests" [level=1] [ref=e1039]:
+                  - generic [ref=e1040] [cursor=pointer]:
+                    - img [ref=e1042]
+                    - generic [ref=e1044]:
+                      - img [ref=e1048]
+                      - generic [ref=e1050]: tests
+                - treeitem "tools" [level=1] [ref=e1051]:
+                  - generic [ref=e1052] [cursor=pointer]:
+                    - img [ref=e1054]
+                    - generic [ref=e1056]:
+                      - img [ref=e1060]
+                      - generic [ref=e1062]: tools
+                - treeitem "user_data" [level=1] [ref=e1063]:
+                  - generic [ref=e1064] [cursor=pointer]:
+                    - img [ref=e1066]
+                    - generic [ref=e1068]:
+                      - img [ref=e1072]
+                      - generic [ref=e1074]: user_data
+                - treeitem ".editorconfig" [level=1] [ref=e1075]:
+                  - generic [ref=e1077] [cursor=pointer]:
+                    - img [ref=e1080]
+                    - generic [ref=e1082]: .editorconfig
+                - treeitem ".gitignore" [level=1] [ref=e1083]:
+                  - generic [ref=e1085] [cursor=pointer]:
+                    - img [ref=e1088]
+                    - generic [ref=e1090]: .gitignore
+                - treeitem ".pre-commit-config.yaml" [level=1] [ref=e1091]:
+                  - generic [ref=e1093] [cursor=pointer]:
+                    - img [ref=e1096]
+                    - generic [ref=e1098]: .pre-commit-config.yaml
+                - treeitem "LICENSE" [level=1] [ref=e1099]:
+                  - generic [ref=e1101] [cursor=pointer]:
+                    - img [ref=e1104]
+                    - generic [ref=e1106]: LICENSE
+                - treeitem "NostalgiaForInfinityX.py" [level=1] [ref=e1107]:
+                  - generic [ref=e1109] [cursor=pointer]:
+                    - img [ref=e1112]
+                    - generic [ref=e1114]: NostalgiaForInfinityX.py
+                - treeitem "NostalgiaForInfinityX2.py" [level=1] [ref=e1115]:
+                  - generic [ref=e1117] [cursor=pointer]:
+                    - img [ref=e1120]
+                    - generic [ref=e1122]: NostalgiaForInfinityX2.py
+                - treeitem "NostalgiaForInfinityX3.py" [level=1] [ref=e1123]:
+                  - generic [ref=e1125] [cursor=pointer]:
+                    - img [ref=e1128]
+                    - generic [ref=e1130]: NostalgiaForInfinityX3.py
+                - treeitem "NostalgiaForInfinityX4.py" [level=1] [ref=e1131]:
+                  - generic [ref=e1133] [cursor=pointer]:
+                    - img [ref=e1136]
+                    - generic [ref=e1138]: NostalgiaForInfinityX4.py
+                - treeitem "NostalgiaForInfinityX5.py" [level=1] [ref=e1139]:
+                  - generic [ref=e1141] [cursor=pointer]:
+                    - img [ref=e1144]
+                    - generic [ref=e1146]: NostalgiaForInfinityX5.py
+                - treeitem "NostalgiaForInfinityX6.py" [level=1] [ref=e1147]:
+                  - generic [ref=e1149] [cursor=pointer]:
+                    - img [ref=e1152]
+                    - generic [ref=e1154]: NostalgiaForInfinityX6.py
+                - treeitem "NostalgiaForInfinityX7.py" [level=1] [ref=e1155]:
+                  - generic [ref=e1157] [cursor=pointer]:
+                    - img [ref=e1160]
+                    - generic [ref=e1162]: NostalgiaForInfinityX7.py
+                - treeitem "README.md" [level=1] [ref=e1163]:
+                  - generic [ref=e1165] [cursor=pointer]:
+                    - img [ref=e1168]
+                    - generic [ref=e1170]: README.md
+                - treeitem "docker-compose.tests.yml" [level=1] [ref=e1171]:
+                  - generic [ref=e1173] [cursor=pointer]:
+                    - img [ref=e1176]
+                    - generic [ref=e1178]: docker-compose.tests.yml
+                - treeitem "docker-compose.yml" [level=1] [ref=e1179]:
+                  - generic [ref=e1181] [cursor=pointer]:
+                    - img [ref=e1184]
+                    - generic [ref=e1186]: docker-compose.yml
+                - treeitem "live-account-example.env" [level=1] [ref=e1187]:
+                  - generic [ref=e1189] [cursor=pointer]:
+                    - img [ref=e1192]
+                    - generic [ref=e1194]: live-account-example.env
+                - treeitem "manual-testing.env" [level=1] [ref=e1195]:
+                  - generic [ref=e1197] [cursor=pointer]:
+                    - img [ref=e1200]
+                    - generic [ref=e1202]: manual-testing.env
+                - treeitem "mkdocs.yml" [level=1] [ref=e1203]:
+                  - generic [ref=e1205] [cursor=pointer]:
+                    - img [ref=e1208]
+                    - generic [ref=e1210]: mkdocs.yml
+                - treeitem "pyproject.toml" [level=1] [ref=e1211]:
+                  - generic [ref=e1213] [cursor=pointer]:
+                    - img [ref=e1216]
+                    - generic [ref=e1218]: pyproject.toml
+                - treeitem "pytest.ini" [level=1] [ref=e1219]:
+                  - generic [ref=e1221] [cursor=pointer]:
+                    - img [ref=e1224]
+                    - generic [ref=e1226]: pytest.ini
+          - slider "Draggable pane splitter" [ref=e1228]
+        - generic [ref=e1231]:
+          - generic [ref=e1235]:
+            - generic [ref=e1237]:
+              - navigation "Breadcrumbs" [ref=e1238]:
+                - heading "Breadcrumbs" [level=2] [ref=e1239]
+                - list [ref=e1240]:
+                  - listitem [ref=e1241]:
+                    - link "NostalgiaForInfinity" [ref=e1242] [cursor=pointer]:
+                      - /url: /iterativv/NostalgiaForInfinity/tree/main
+              - generic [ref=e1243]:
+                - text: /
+                - heading "configs" [level=1] [ref=e1244]
+                - text: /
+              - button "Copy path" [ref=e1245] [cursor=pointer]:
+                - img [ref=e1246]
+            - generic [ref=e1251]:
+              - heading "Directory actions" [level=2] [ref=e1252]
+              - heading "More options" [level=2] [ref=e1253]
+              - button "More options" [ref=e1254] [cursor=pointer]:
+                - img [ref=e1255]
+          - generic [ref=e1257]:
+            - generic [ref=e1259]:
+              - heading "Latest commit" [level=2] [ref=e1260]
+              - generic [ref=e1261]:
+                - generic [ref=e1263]:
+                  - link "iterativv" [ref=e1264] [cursor=pointer]:
+                    - /url: /iterativv
+                    - img "iterativv" [ref=e1265]
+                  - link "commits by iterativv" [ref=e1266] [cursor=pointer]:
+                    - /url: /iterativv/NostalgiaForInfinity/commits?author=iterativv
+                    - text: iterativv
+                - generic [ref=e1267]:
+                  - 'link "Configs: blacklist SYS." [ref=e1270] [cursor=pointer]':
+                    - /url: /iterativv/NostalgiaForInfinity/commit/cec9c493e55ec3e062d7914ace7aa497c9c47f2e
+                  - button "success" [ref=e1271] [cursor=pointer]:
+                    - img [ref=e1272]
+              - generic [ref=e1274]:
+                - generic [ref=e1276]:
+                  - link "Commit cec9c49" [ref=e1277] [cursor=pointer]:
+                    - /url: /iterativv/NostalgiaForInfinity/commit/cec9c493e55ec3e062d7914ace7aa497c9c47f2e
+                    - text: cec9c49
+                  - text: ·
+                  - generic "May 14, 2026, 9:11 PM GMT+9" [ref=e1278]: May 14, 20265 days ago
+                - generic [ref=e1279]:
+                  - heading "History" [level=2] [ref=e1280]
+                  - link "History" [ref=e1281] [cursor=pointer]:
+                    - /url: /iterativv/NostalgiaForInfinity/commits/main/configs
+                    - generic [ref=e1282]:
+                      - generic:
+                        - img
+                      - generic [ref=e1283]: History
+            - generic [ref=e1285]:
+              - heading "Folders and files" [level=2] [ref=e1286]
+              - table "Folders and files" [ref=e1287]:
+                - rowgroup [ref=e1288]:
+                  - row "Name Last commit message Last commit date" [ref=e1289]:
+                    - columnheader "Name" [ref=e1290]
+                    - columnheader "Last commit message" [ref=e1291]:
+                      - generic "Last commit message" [ref=e1292]
+                    - columnheader "Last commit date" [ref=e1293]:
+                      - generic "Last commit date" [ref=e1294]
+                - rowgroup [ref=e1295]:
+                  - row "parent directory Parent directory" [ref=e1296]:
+                    - cell "parent directory Parent directory" [ref=e1297]:
+                      - heading "parent directory" [level=3] [ref=e1298]
+                      - link "Parent directory" [ref=e1299] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/tree/main
+                        - generic [ref=e1300]:
+                          - img [ref=e1301]
+                          - text: ..
+                  - 'row "blacklist-binance.json, (File) Configs: blacklist SYS. May 14, 20265 days ago" [ref=e1303]':
+                    - cell "blacklist-binance.json, (File)" [ref=e1304]:
+                      - generic [ref=e1305]:
+                        - img [ref=e1306]
+                        - link "blacklist-binance.json, (File)" [ref=e1311] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/blacklist-binance.json
+                          - text: blacklist-binance.json
+                    - 'cell "Configs: blacklist SYS." [ref=e1312]':
+                      - 'link "Configs: blacklist SYS." [ref=e1315] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/cec9c493e55ec3e062d7914ace7aa497c9c47f2e
+                    - cell "May 14, 20265 days ago" [ref=e1316]:
+                      - generic [ref=e1317]: May 14, 20265 days ago
+                  - 'row "blacklist-bitget.json, (File) Configs: blacklist SYS. May 14, 20265 days ago" [ref=e1318]':
+                    - cell "blacklist-bitget.json, (File)" [ref=e1319]:
+                      - generic [ref=e1320]:
+                        - img [ref=e1321]
+                        - link "blacklist-bitget.json, (File)" [ref=e1326] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/blacklist-bitget.json
+                          - text: blacklist-bitget.json
+                    - 'cell "Configs: blacklist SYS." [ref=e1327]':
+                      - 'link "Configs: blacklist SYS." [ref=e1330] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/cec9c493e55ec3e062d7914ace7aa497c9c47f2e
+                    - cell "May 14, 20265 days ago" [ref=e1331]:
+                      - generic [ref=e1332]: May 14, 20265 days ago
+                  - 'row "blacklist-bitmart.json, (File) Configs: blacklist SYS. May 14, 20265 days ago" [ref=e1333]':
+                    - cell "blacklist-bitmart.json, (File)" [ref=e1334]:
+                      - generic [ref=e1335]:
+                        - img [ref=e1336]
+                        - link "blacklist-bitmart.json, (File)" [ref=e1341] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/blacklist-bitmart.json
+                          - text: blacklist-bitmart.json
+                    - 'cell "Configs: blacklist SYS." [ref=e1342]':
+                      - 'link "Configs: blacklist SYS." [ref=e1345] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/cec9c493e55ec3e062d7914ace7aa497c9c47f2e
+                    - cell "May 14, 20265 days ago" [ref=e1346]:
+                      - generic [ref=e1347]: May 14, 20265 days ago
+                  - 'row "blacklist-bitvavo.json, (File) Configs: blacklist SYS. May 14, 20265 days ago" [ref=e1348]':
+                    - cell "blacklist-bitvavo.json, (File)" [ref=e1349]:
+                      - generic [ref=e1350]:
+                        - img [ref=e1351]
+                        - link "blacklist-bitvavo.json, (File)" [ref=e1356] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/blacklist-bitvavo.json
+                          - text: blacklist-bitvavo.json
+                    - 'cell "Configs: blacklist SYS." [ref=e1357]':
+                      - 'link "Configs: blacklist SYS." [ref=e1360] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/cec9c493e55ec3e062d7914ace7aa497c9c47f2e
+                    - cell "May 14, 20265 days ago" [ref=e1361]:
+                      - generic [ref=e1362]: May 14, 20265 days ago
+                  - 'row "blacklist-bybit.json, (File) Configs: blacklist SYS. May 14, 20265 days ago" [ref=e1363]':
+                    - cell "blacklist-bybit.json, (File)" [ref=e1364]:
+                      - generic [ref=e1365]:
+                        - img [ref=e1366]
+                        - link "blacklist-bybit.json, (File)" [ref=e1371] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/blacklist-bybit.json
+                          - text: blacklist-bybit.json
+                    - 'cell "Configs: blacklist SYS." [ref=e1372]':
+                      - 'link "Configs: blacklist SYS." [ref=e1375] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/cec9c493e55ec3e062d7914ace7aa497c9c47f2e
+                    - cell "May 14, 20265 days ago" [ref=e1376]:
+                      - generic [ref=e1377]: May 14, 20265 days ago
+                  - 'row "blacklist-gateio.json, (File) Configs: blacklist SYS. May 14, 20265 days ago" [ref=e1378]':
+                    - cell "blacklist-gateio.json, (File)" [ref=e1379]:
+                      - generic [ref=e1380]:
+                        - img [ref=e1381]
+                        - link "blacklist-gateio.json, (File)" [ref=e1386] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/blacklist-gateio.json
+                          - text: blacklist-gateio.json
+                    - 'cell "Configs: blacklist SYS." [ref=e1387]':
+                      - 'link "Configs: blacklist SYS." [ref=e1390] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/cec9c493e55ec3e062d7914ace7aa497c9c47f2e
+                    - cell "May 14, 20265 days ago" [ref=e1391]:
+                      - generic [ref=e1392]: May 14, 20265 days ago
+                  - 'row "blacklist-htx.json, (File) Configs: blacklist SYS. May 14, 20265 days ago" [ref=e1393]':
+                    - cell "blacklist-htx.json, (File)" [ref=e1394]:
+                      - generic [ref=e1395]:
+                        - img [ref=e1396]
+                        - link "blacklist-htx.json, (File)" [ref=e1401] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/blacklist-htx.json
+                          - text: blacklist-htx.json
+                    - 'cell "Configs: blacklist SYS." [ref=e1402]':
+                      - 'link "Configs: blacklist SYS." [ref=e1405] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/cec9c493e55ec3e062d7914ace7aa497c9c47f2e
+                    - cell "May 14, 20265 days ago" [ref=e1406]:
+                      - generic [ref=e1407]: May 14, 20265 days ago
+                  - 'row "blacklist-hyperliquid.json, (File) Configs: blacklist SYS. May 14, 20265 days ago" [ref=e1408]':
+                    - cell "blacklist-hyperliquid.json, (File)" [ref=e1409]:
+                      - generic [ref=e1410]:
+                        - img [ref=e1411]
+                        - link "blacklist-hyperliquid.json, (File)" [ref=e1416] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/blacklist-hyperliquid.json
+                          - text: blacklist-hyperliquid.json
+                    - 'cell "Configs: blacklist SYS." [ref=e1417]':
+                      - 'link "Configs: blacklist SYS." [ref=e1420] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/cec9c493e55ec3e062d7914ace7aa497c9c47f2e
+                    - cell "May 14, 20265 days ago" [ref=e1421]:
+                      - generic [ref=e1422]: May 14, 20265 days ago
+                  - 'row "blacklist-kraken.json, (File) Configs: blacklist SYS. May 14, 20265 days ago" [ref=e1423]':
+                    - cell "blacklist-kraken.json, (File)" [ref=e1424]:
+                      - generic [ref=e1425]:
+                        - img [ref=e1426]
+                        - link "blacklist-kraken.json, (File)" [ref=e1431] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/blacklist-kraken.json
+                          - text: blacklist-kraken.json
+                    - 'cell "Configs: blacklist SYS." [ref=e1432]':
+                      - 'link "Configs: blacklist SYS." [ref=e1435] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/cec9c493e55ec3e062d7914ace7aa497c9c47f2e
+                    - cell "May 14, 20265 days ago" [ref=e1436]:
+                      - generic [ref=e1437]: May 14, 20265 days ago
+                  - 'row "blacklist-kucoin.json, (File) Configs: blacklist SYS. May 14, 20265 days ago" [ref=e1438]':
+                    - cell "blacklist-kucoin.json, (File)" [ref=e1439]:
+                      - generic [ref=e1440]:
+                        - img [ref=e1441]
+                        - link "blacklist-kucoin.json, (File)" [ref=e1446] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/blacklist-kucoin.json
+                          - text: blacklist-kucoin.json
+                    - 'cell "Configs: blacklist SYS." [ref=e1447]':
+                      - 'link "Configs: blacklist SYS." [ref=e1450] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/cec9c493e55ec3e062d7914ace7aa497c9c47f2e
+                    - cell "May 14, 20265 days ago" [ref=e1451]:
+                      - generic [ref=e1452]: May 14, 20265 days ago
+                  - 'row "blacklist-mexc.json, (File) Configs: blacklist SYS. May 14, 20265 days ago" [ref=e1453]':
+                    - cell "blacklist-mexc.json, (File)" [ref=e1454]:
+                      - generic [ref=e1455]:
+                        - img [ref=e1456]
+                        - link "blacklist-mexc.json, (File)" [ref=e1461] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/blacklist-mexc.json
+                          - text: blacklist-mexc.json
+                    - 'cell "Configs: blacklist SYS." [ref=e1462]':
+                      - 'link "Configs: blacklist SYS." [ref=e1465] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/cec9c493e55ec3e062d7914ace7aa497c9c47f2e
+                    - cell "May 14, 20265 days ago" [ref=e1466]:
+                      - generic [ref=e1467]: May 14, 20265 days ago
+                  - 'row "blacklist-okx.json, (File) Configs: blacklist SYS. May 14, 20265 days ago" [ref=e1468]':
+                    - cell "blacklist-okx.json, (File)" [ref=e1469]:
+                      - generic [ref=e1470]:
+                        - img [ref=e1471]
+                        - link "blacklist-okx.json, (File)" [ref=e1476] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/blacklist-okx.json
+                          - text: blacklist-okx.json
+                    - 'cell "Configs: blacklist SYS." [ref=e1477]':
+                      - 'link "Configs: blacklist SYS." [ref=e1480] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/cec9c493e55ec3e062d7914ace7aa497c9c47f2e
+                    - cell "May 14, 20265 days ago" [ref=e1481]:
+                      - generic [ref=e1482]: May 14, 20265 days ago
+                  - 'row "exampleconfig-rebuy.json, (File) Configs: change entry/exit price side to other. Sep 21, 20258 months ago" [ref=e1483]':
+                    - cell "exampleconfig-rebuy.json, (File)" [ref=e1484]:
+                      - generic [ref=e1485]:
+                        - img [ref=e1486]
+                        - link "exampleconfig-rebuy.json, (File)" [ref=e1491] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/exampleconfig-rebuy.json
+                          - text: exampleconfig-rebuy.json
+                    - 'cell "Configs: change entry/exit price side to other." [ref=e1492]':
+                      - 'link "Configs: change entry/exit price side to other." [ref=e1495] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/9b9c285aba2546ab2d16313a2ea444a60d54e596
+                    - cell "Sep 21, 20258 months ago" [ref=e1496]:
+                      - generic [ref=e1497]: Sep 21, 20258 months ago
+                  - 'row "exampleconfig.json, (File) Configs: change entry/exit price side to other. Sep 21, 20258 months ago" [ref=e1498]':
+                    - cell "exampleconfig.json, (File)" [ref=e1499]:
+                      - generic [ref=e1500]:
+                        - img [ref=e1501]
+                        - link "exampleconfig.json, (File)" [ref=e1506] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/exampleconfig.json
+                          - text: exampleconfig.json
+                    - 'cell "Configs: change entry/exit price side to other." [ref=e1507]':
+                      - 'link "Configs: change entry/exit price side to other." [ref=e1510] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/9b9c285aba2546ab2d16313a2ea444a60d54e596
+                    - cell "Sep 21, 20258 months ago" [ref=e1511]:
+                      - generic [ref=e1512]: Sep 21, 20258 months ago
+                  - row "exampleconfig_secret.json, (File) backtest default X7 strategy. Oct 22, 20257 months ago" [ref=e1513]:
+                    - cell "exampleconfig_secret.json, (File)" [ref=e1514]:
+                      - generic [ref=e1515]:
+                        - img [ref=e1516]
+                        - link "exampleconfig_secret.json, (File)" [ref=e1521] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/exampleconfig_secret.json
+                          - text: exampleconfig_secret.json
+                    - cell "backtest default X7 strategy." [ref=e1522]:
+                      - link "backtest default X7 strategy." [ref=e1525] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/73ce26857330f96c49fae36f587c5f2223575fef
+                    - cell "Oct 22, 20257 months ago" [ref=e1526]:
+                      - generic [ref=e1527]: Oct 22, 20257 months ago
+                  - 'row "pairlist-backtest-static-binance-futures-usdt.json, (File) modified: configs/pairlist-backtest-static-binance-futures-usdt.json Mar 5, 2025last year" [ref=e1528]':
+                    - cell "pairlist-backtest-static-binance-futures-usdt.json, (File)" [ref=e1529]:
+                      - generic [ref=e1530]:
+                        - img [ref=e1531]
+                        - link "pairlist-backtest-static-binance-futures-usdt.json, (File)" [ref=e1536] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-backtest-static-binance-futures-usdt.json
+                          - text: pairlist-backtest-static-binance-futures-usdt.json
+                    - 'cell "modified: configs/pairlist-backtest-static-binance-futures-usdt.json" [ref=e1537]':
+                      - 'link "modified: configs/pairlist-backtest-static-binance-futures-usdt.json" [ref=e1540] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/654bfa83986a847e58bd1d56461d1af834d3d593
+                    - cell "Mar 5, 2025last year" [ref=e1541]:
+                      - generic [ref=e1542]: Mar 5, 2025last year
+                  - row "pairlist-backtest-static-binance-spot-usdt.json, (File) deleted delisted pairs from binance spot backtest pairlist Mar 5, 2025last year" [ref=e1543]:
+                    - cell "pairlist-backtest-static-binance-spot-usdt.json, (File)" [ref=e1544]:
+                      - generic [ref=e1545]:
+                        - img [ref=e1546]
+                        - link "pairlist-backtest-static-binance-spot-usdt.json, (File)" [ref=e1551] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-backtest-static-binance-spot-usdt.json
+                          - text: pairlist-backtest-static-binance-spot-usdt.json
+                    - cell "deleted delisted pairs from binance spot backtest pairlist" [ref=e1552]:
+                      - link "deleted delisted pairs from binance spot backtest pairlist" [ref=e1555] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/d77d73e4bd477f5babd33208e37b8459cdc0dfa3
+                    - cell "Mar 5, 2025last year" [ref=e1556]:
+                      - generic [ref=e1557]: Mar 5, 2025last year
+                  - 'row "pairlist-backtest-static-bybit-spot-usdt.json, (File) new file: configs/pairlist-backtest-static-bybit-spot-usdt.json Mar 5, 2025last year" [ref=e1558]':
+                    - cell "pairlist-backtest-static-bybit-spot-usdt.json, (File)" [ref=e1559]:
+                      - generic [ref=e1560]:
+                        - img [ref=e1561]
+                        - link "pairlist-backtest-static-bybit-spot-usdt.json, (File)" [ref=e1566] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-backtest-static-bybit-spot-usdt.json
+                          - text: pairlist-backtest-static-bybit-spot-usdt.json
+                    - 'cell "new file: configs/pairlist-backtest-static-bybit-spot-usdt.json" [ref=e1567]':
+                      - 'link "new file: configs/pairlist-backtest-static-bybit-spot-usdt.json" [ref=e1570] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/cd929fb55480035bd8c374bfd343e84dfe549b58
+                    - cell "Mar 5, 2025last year" [ref=e1571]:
+                      - generic [ref=e1572]: Mar 5, 2025last year
+                  - 'row "pairlist-backtest-static-gateio-futures-usdt.json, (File) modified: configs/pairlist-backtest-static-gateio-futures-usdt.json Sep 22, 20242 years ago" [ref=e1573]':
+                    - cell "pairlist-backtest-static-gateio-futures-usdt.json, (File)" [ref=e1574]:
+                      - generic [ref=e1575]:
+                        - img [ref=e1576]
+                        - link "pairlist-backtest-static-gateio-futures-usdt.json, (File)" [ref=e1581] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-backtest-static-gateio-futures-usdt.json
+                          - text: pairlist-backtest-static-gateio-futures-usdt.json
+                    - 'cell "modified: configs/pairlist-backtest-static-gateio-futures-usdt.json" [ref=e1582]':
+                      - 'link "modified: configs/pairlist-backtest-static-gateio-futures-usdt.json" [ref=e1585] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/ff60771f146142f09bd4b0d954ceb9691dd10509
+                    - cell "Sep 22, 20242 years ago" [ref=e1586]:
+                      - generic [ref=e1587]: Sep 22, 20242 years ago
+                  - row "pairlist-backtest-static-gateio-spot-usdt.json, (File) gateio delisted TOMO/USDT MNY/USDT Nov 26, 20233 years ago" [ref=e1588]:
+                    - cell "pairlist-backtest-static-gateio-spot-usdt.json, (File)" [ref=e1589]:
+                      - generic [ref=e1590]:
+                        - img [ref=e1591]
+                        - link "pairlist-backtest-static-gateio-spot-usdt.json, (File)" [ref=e1596] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-backtest-static-gateio-spot-usdt.json
+                          - text: pairlist-backtest-static-gateio-spot-usdt.json
+                    - cell "gateio delisted TOMO/USDT MNY/USDT" [ref=e1597]:
+                      - link "gateio delisted TOMO/USDT MNY/USDT" [ref=e1600] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/c715ffcfc91e32c2bab8a25582b39b7a65cda529
+                    - cell "Nov 26, 20233 years ago" [ref=e1601]:
+                      - generic [ref=e1602]: Nov 26, 20233 years ago
+                  - row "pairlist-backtest-static-kraken-spot-usdt.json, (File) Update pairlist-backtest-static-kraken-spot-usdt.json Jan 22, 20242 years ago" [ref=e1603]:
+                    - cell "pairlist-backtest-static-kraken-spot-usdt.json, (File)" [ref=e1604]:
+                      - generic [ref=e1605]:
+                        - img [ref=e1606]
+                        - link "pairlist-backtest-static-kraken-spot-usdt.json, (File)" [ref=e1611] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-backtest-static-kraken-spot-usdt.json
+                          - text: pairlist-backtest-static-kraken-spot-usdt.json
+                    - cell "Update pairlist-backtest-static-kraken-spot-usdt.json" [ref=e1612]:
+                      - link "Update pairlist-backtest-static-kraken-spot-usdt.json" [ref=e1615] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/0cf6c21772d5fdd215079899e1499b40b02a25cc
+                    - cell "Jan 22, 20242 years ago" [ref=e1616]:
+                      - generic [ref=e1617]: Jan 22, 20242 years ago
+                  - row "pairlist-backtest-static-kucoin-futures-usdt.json, (File) deleted delisted kucoin pairs Jul 10, 20242 years ago" [ref=e1618]:
+                    - cell "pairlist-backtest-static-kucoin-futures-usdt.json, (File)" [ref=e1619]:
+                      - generic [ref=e1620]:
+                        - img [ref=e1621]
+                        - link "pairlist-backtest-static-kucoin-futures-usdt.json, (File)" [ref=e1626] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-backtest-static-kucoin-futures-usdt.json
+                          - text: pairlist-backtest-static-kucoin-futures-usdt.json
+                    - cell "deleted delisted kucoin pairs" [ref=e1627]:
+                      - link "deleted delisted kucoin pairs" [ref=e1630] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/c5a0e76e9cc85e4c6017f33e95e934912fb40d1e
+                    - cell "Jul 10, 20242 years ago" [ref=e1631]:
+                      - generic [ref=e1632]: Jul 10, 20242 years ago
+                  - row "pairlist-backtest-static-kucoin-spot-usdt.json, (File) deleted delisted kucoin pairs Jul 10, 20242 years ago" [ref=e1633]:
+                    - cell "pairlist-backtest-static-kucoin-spot-usdt.json, (File)" [ref=e1634]:
+                      - generic [ref=e1635]:
+                        - img [ref=e1636]
+                        - link "pairlist-backtest-static-kucoin-spot-usdt.json, (File)" [ref=e1641] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-backtest-static-kucoin-spot-usdt.json
+                          - text: pairlist-backtest-static-kucoin-spot-usdt.json
+                    - cell "deleted delisted kucoin pairs" [ref=e1642]:
+                      - link "deleted delisted kucoin pairs" [ref=e1645] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/c5a0e76e9cc85e4c6017f33e95e934912fb40d1e
+                    - cell "Jul 10, 20242 years ago" [ref=e1646]:
+                      - generic [ref=e1647]: Jul 10, 20242 years ago
+                  - 'row "pairlist-backtest-static-okx-futures-usdt.json, (File) modified: configs/pairlist-backtest-static-okx-futures-usdt.json Sep 22, 20242 years ago" [ref=e1648]':
+                    - cell "pairlist-backtest-static-okx-futures-usdt.json, (File)" [ref=e1649]:
+                      - generic [ref=e1650]:
+                        - img [ref=e1651]
+                        - link "pairlist-backtest-static-okx-futures-usdt.json, (File)" [ref=e1656] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-backtest-static-okx-futures-usdt.json
+                          - text: pairlist-backtest-static-okx-futures-usdt.json
+                    - 'cell "modified: configs/pairlist-backtest-static-okx-futures-usdt.json" [ref=e1657]':
+                      - 'link "modified: configs/pairlist-backtest-static-okx-futures-usdt.json" [ref=e1660] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/2babc9bf34e6de73d2b8c545a0b8fcd5d4fb5cfb
+                    - cell "Sep 22, 20242 years ago" [ref=e1661]:
+                      - generic [ref=e1662]: Sep 22, 20242 years ago
+                  - 'row "pairlist-backtest-static-okx-spot-usdt.json, (File) modified: configs/pairlist-backtest-static-okx-spot-usdt.json Sep 22, 20242 years ago" [ref=e1663]':
+                    - cell "pairlist-backtest-static-okx-spot-usdt.json, (File)" [ref=e1664]:
+                      - generic [ref=e1665]:
+                        - img [ref=e1666]
+                        - link "pairlist-backtest-static-okx-spot-usdt.json, (File)" [ref=e1671] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-backtest-static-okx-spot-usdt.json
+                          - text: pairlist-backtest-static-okx-spot-usdt.json
+                    - 'cell "modified: configs/pairlist-backtest-static-okx-spot-usdt.json" [ref=e1672]':
+                      - 'link "modified: configs/pairlist-backtest-static-okx-spot-usdt.json" [ref=e1675] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/047d0f33df9a94a1e167a60c1c4db8eaa3888b51
+                    - cell "Sep 22, 20242 years ago" [ref=e1676]:
+                      - generic [ref=e1677]: Sep 22, 20242 years ago
+                  - 'row "pairlist-static-binance-futures-usdt.json, (File) Configs: add static pairlists. Feb 10, 20263 months ago" [ref=e1678]':
+                    - cell "pairlist-static-binance-futures-usdt.json, (File)" [ref=e1679]:
+                      - generic [ref=e1680]:
+                        - img [ref=e1681]
+                        - link "pairlist-static-binance-futures-usdt.json, (File)" [ref=e1686] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-static-binance-futures-usdt.json
+                          - text: pairlist-static-binance-futures-usdt.json
+                    - 'cell "Configs: add static pairlists." [ref=e1687]':
+                      - 'link "Configs: add static pairlists." [ref=e1690] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/1dbaded367be467ac67ddfb4034c8cd8897eaab7
+                    - cell "Feb 10, 20263 months ago" [ref=e1691]:
+                      - generic [ref=e1692]: Feb 10, 20263 months ago
+                  - 'row "pairlist-static-binance-spot-usdc.json, (File) Configs: add static pairlists. Feb 10, 20263 months ago" [ref=e1693]':
+                    - cell "pairlist-static-binance-spot-usdc.json, (File)" [ref=e1694]:
+                      - generic [ref=e1695]:
+                        - img [ref=e1696]
+                        - link "pairlist-static-binance-spot-usdc.json, (File)" [ref=e1701] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-static-binance-spot-usdc.json
+                          - text: pairlist-static-binance-spot-usdc.json
+                    - 'cell "Configs: add static pairlists." [ref=e1702]':
+                      - 'link "Configs: add static pairlists." [ref=e1705] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/1dbaded367be467ac67ddfb4034c8cd8897eaab7
+                    - cell "Feb 10, 20263 months ago" [ref=e1706]:
+                      - generic [ref=e1707]: Feb 10, 20263 months ago
+                  - 'row "pairlist-static-binance-spot-usdt.json, (File) Configs: remove delist filter to Binance lists. Nov 11, 20256 months ago" [ref=e1708]':
+                    - cell "pairlist-static-binance-spot-usdt.json, (File)" [ref=e1709]:
+                      - generic [ref=e1710]:
+                        - img [ref=e1711]
+                        - link "pairlist-static-binance-spot-usdt.json, (File)" [ref=e1716] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-static-binance-spot-usdt.json
+                          - text: pairlist-static-binance-spot-usdt.json
+                    - 'cell "Configs: remove delist filter to Binance lists." [ref=e1717]':
+                      - 'link "Configs: remove delist filter to Binance lists." [ref=e1720] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/973899d2298df13ae1f15eb8d19dd35dccd16606
+                    - cell "Nov 11, 20256 months ago" [ref=e1721]:
+                      - generic [ref=e1722]: Nov 11, 20256 months ago
+                  - 'row "pairlist-static-bitget-futures-usdt.json, (File) Configs: add static pairlists. Feb 10, 20263 months ago" [ref=e1723]':
+                    - cell "pairlist-static-bitget-futures-usdt.json, (File)" [ref=e1724]:
+                      - generic [ref=e1725]:
+                        - img [ref=e1726]
+                        - link "pairlist-static-bitget-futures-usdt.json, (File)" [ref=e1731] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-static-bitget-futures-usdt.json
+                          - text: pairlist-static-bitget-futures-usdt.json
+                    - 'cell "Configs: add static pairlists." [ref=e1732]':
+                      - 'link "Configs: add static pairlists." [ref=e1735] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/1dbaded367be467ac67ddfb4034c8cd8897eaab7
+                    - cell "Feb 10, 20263 months ago" [ref=e1736]:
+                      - generic [ref=e1737]: Feb 10, 20263 months ago
+                  - row "pairlist-static-bitget-spot-usdt.json, (File) add BONK, JUP, ONDO, PENGU, SHIB, VIRTUAL, and WLD to static pair whi… Jul 24, 202510 months ago" [ref=e1738]:
+                    - cell "pairlist-static-bitget-spot-usdt.json, (File)" [ref=e1739]:
+                      - generic [ref=e1740]:
+                        - img [ref=e1741]
+                        - link "pairlist-static-bitget-spot-usdt.json, (File)" [ref=e1746] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-static-bitget-spot-usdt.json
+                          - text: pairlist-static-bitget-spot-usdt.json
+                    - cell "add BONK, JUP, ONDO, PENGU, SHIB, VIRTUAL, and WLD to static pair whi…" [ref=e1747]:
+                      - link "add BONK, JUP, ONDO, PENGU, SHIB, VIRTUAL, and WLD to static pair whi…" [ref=e1750] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/c9e1dc09a11b9ee21f1d4944c6be8f1fcc390c8e
+                    - cell "Jul 24, 202510 months ago" [ref=e1751]:
+                      - generic [ref=e1752]: Jul 24, 202510 months ago
+                  - 'row "pairlist-static-bitmart-spot-usdt.json, (File) Configs: add static pairlists. Feb 10, 20263 months ago" [ref=e1753]':
+                    - cell "pairlist-static-bitmart-spot-usdt.json, (File)" [ref=e1754]:
+                      - generic [ref=e1755]:
+                        - img [ref=e1756]
+                        - link "pairlist-static-bitmart-spot-usdt.json, (File)" [ref=e1761] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-static-bitmart-spot-usdt.json
+                          - text: pairlist-static-bitmart-spot-usdt.json
+                    - 'cell "Configs: add static pairlists." [ref=e1762]':
+                      - 'link "Configs: add static pairlists." [ref=e1765] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/1dbaded367be467ac67ddfb4034c8cd8897eaab7
+                    - cell "Feb 10, 20263 months ago" [ref=e1766]:
+                      - generic [ref=e1767]: Feb 10, 20263 months ago
+                  - 'row "pairlist-static-bitvavo-spot-eur.json, (File) Configs: add static pairlists. Feb 10, 20263 months ago" [ref=e1768]':
+                    - cell "pairlist-static-bitvavo-spot-eur.json, (File)" [ref=e1769]:
+                      - generic [ref=e1770]:
+                        - img [ref=e1771]
+                        - link "pairlist-static-bitvavo-spot-eur.json, (File)" [ref=e1776] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-static-bitvavo-spot-eur.json
+                          - text: pairlist-static-bitvavo-spot-eur.json
+                    - 'cell "Configs: add static pairlists." [ref=e1777]':
+                      - 'link "Configs: add static pairlists." [ref=e1780] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/1dbaded367be467ac67ddfb4034c8cd8897eaab7
+                    - cell "Feb 10, 20263 months ago" [ref=e1781]:
+                      - generic [ref=e1782]: Feb 10, 20263 months ago
+                  - 'row "pairlist-static-bybit-futures-usdt.json, (File) Configs: add static pairlists. Feb 10, 20263 months ago" [ref=e1783]':
+                    - cell "pairlist-static-bybit-futures-usdt.json, (File)" [ref=e1784]:
+                      - generic [ref=e1785]:
+                        - img [ref=e1786]
+                        - link "pairlist-static-bybit-futures-usdt.json, (File)" [ref=e1791] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-static-bybit-futures-usdt.json
+                          - text: pairlist-static-bybit-futures-usdt.json
+                    - 'cell "Configs: add static pairlists." [ref=e1792]':
+                      - 'link "Configs: add static pairlists." [ref=e1795] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/1dbaded367be467ac67ddfb4034c8cd8897eaab7
+                    - cell "Feb 10, 20263 months ago" [ref=e1796]:
+                      - generic [ref=e1797]: Feb 10, 20263 months ago
+                  - 'row "pairlist-static-bybit-spot-usdt.json, (File) Configs: add static pairlists. Feb 10, 20263 months ago" [ref=e1798]':
+                    - cell "pairlist-static-bybit-spot-usdt.json, (File)" [ref=e1799]:
+                      - generic [ref=e1800]:
+                        - img [ref=e1801]
+                        - link "pairlist-static-bybit-spot-usdt.json, (File)" [ref=e1806] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-static-bybit-spot-usdt.json
+                          - text: pairlist-static-bybit-spot-usdt.json
+                    - 'cell "Configs: add static pairlists." [ref=e1807]':
+                      - 'link "Configs: add static pairlists." [ref=e1810] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/1dbaded367be467ac67ddfb4034c8cd8897eaab7
+                    - cell "Feb 10, 20263 months ago" [ref=e1811]:
+                      - generic [ref=e1812]: Feb 10, 20263 months ago
+                  - 'row "pairlist-static-gateio-futures-usdt.json, (File) Configs: add static pairlists. Feb 10, 20263 months ago" [ref=e1813]':
+                    - cell "pairlist-static-gateio-futures-usdt.json, (File)" [ref=e1814]:
+                      - generic [ref=e1815]:
+                        - img [ref=e1816]
+                        - link "pairlist-static-gateio-futures-usdt.json, (File)" [ref=e1821] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-static-gateio-futures-usdt.json
+                          - text: pairlist-static-gateio-futures-usdt.json
+                    - 'cell "Configs: add static pairlists." [ref=e1822]':
+                      - 'link "Configs: add static pairlists." [ref=e1825] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/1dbaded367be467ac67ddfb4034c8cd8897eaab7
+                    - cell "Feb 10, 20263 months ago" [ref=e1826]:
+                      - generic [ref=e1827]: Feb 10, 20263 months ago
+                  - row "pairlist-static-gateio-spot-usdt.json, (File) add BONK, JUP, ONDO, PENGU, SHIB, VIRTUAL, and WLD to static pair whi… Jul 24, 202510 months ago" [ref=e1828]:
+                    - cell "pairlist-static-gateio-spot-usdt.json, (File)" [ref=e1829]:
+                      - generic [ref=e1830]:
+                        - img [ref=e1831]
+                        - link "pairlist-static-gateio-spot-usdt.json, (File)" [ref=e1836] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-static-gateio-spot-usdt.json
+                          - text: pairlist-static-gateio-spot-usdt.json
+                    - cell "add BONK, JUP, ONDO, PENGU, SHIB, VIRTUAL, and WLD to static pair whi…" [ref=e1837]:
+                      - link "add BONK, JUP, ONDO, PENGU, SHIB, VIRTUAL, and WLD to static pair whi…" [ref=e1840] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/c9e1dc09a11b9ee21f1d4944c6be8f1fcc390c8e
+                    - cell "Jul 24, 202510 months ago" [ref=e1841]:
+                      - generic [ref=e1842]: Jul 24, 202510 months ago
+                  - 'row "pairlist-static-htx-spot-usdt.json, (File) Configs: add static pairlists. Feb 10, 20263 months ago" [ref=e1843]':
+                    - cell "pairlist-static-htx-spot-usdt.json, (File)" [ref=e1844]:
+                      - generic [ref=e1845]:
+                        - img [ref=e1846]
+                        - link "pairlist-static-htx-spot-usdt.json, (File)" [ref=e1851] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-static-htx-spot-usdt.json
+                          - text: pairlist-static-htx-spot-usdt.json
+                    - 'cell "Configs: add static pairlists." [ref=e1852]':
+                      - 'link "Configs: add static pairlists." [ref=e1855] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/1dbaded367be467ac67ddfb4034c8cd8897eaab7
+                    - cell "Feb 10, 20263 months ago" [ref=e1856]:
+                      - generic [ref=e1857]: Feb 10, 20263 months ago
+                  - 'row "pairlist-static-hyperliquid-futures-usdc.json, (File) Configs: remove spread filter from HL static list. Mar 15, 20262 months ago" [ref=e1858]':
+                    - cell "pairlist-static-hyperliquid-futures-usdc.json, (File)" [ref=e1859]:
+                      - generic [ref=e1860]:
+                        - img [ref=e1861]
+                        - link "pairlist-static-hyperliquid-futures-usdc.json, (File)" [ref=e1866] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-static-hyperliquid-futures-usdc.json
+                          - text: pairlist-static-hyperliquid-futures-usdc.json
+                    - 'cell "Configs: remove spread filter from HL static list." [ref=e1867]':
+                      - 'link "Configs: remove spread filter from HL static list." [ref=e1870] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/be9f8d155df78ad754415ea88a12f3522786cca4
+                    - cell "Mar 15, 20262 months ago" [ref=e1871]:
+                      - generic [ref=e1872]: Mar 15, 20262 months ago
+                  - 'row "pairlist-static-kraken-spot-usd.json, (File) Configs: add static pairlists. Feb 10, 20263 months ago" [ref=e1873]':
+                    - cell "pairlist-static-kraken-spot-usd.json, (File)" [ref=e1874]:
+                      - generic [ref=e1875]:
+                        - img [ref=e1876]
+                        - link "pairlist-static-kraken-spot-usd.json, (File)" [ref=e1881] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-static-kraken-spot-usd.json
+                          - text: pairlist-static-kraken-spot-usd.json
+                    - 'cell "Configs: add static pairlists." [ref=e1882]':
+                      - 'link "Configs: add static pairlists." [ref=e1885] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/1dbaded367be467ac67ddfb4034c8cd8897eaab7
+                    - cell "Feb 10, 20263 months ago" [ref=e1886]:
+                      - generic [ref=e1887]: Feb 10, 20263 months ago
+                  - row "pairlist-static-kucoin-spot-usdt.json, (File) add BONK, JUP, ONDO, PENGU, SHIB, VIRTUAL, and WLD to static pair whi… Jul 24, 202510 months ago" [ref=e1888]:
+                    - cell "pairlist-static-kucoin-spot-usdt.json, (File)" [ref=e1889]:
+                      - generic [ref=e1890]:
+                        - img [ref=e1891]
+                        - link "pairlist-static-kucoin-spot-usdt.json, (File)" [ref=e1896] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-static-kucoin-spot-usdt.json
+                          - text: pairlist-static-kucoin-spot-usdt.json
+                    - cell "add BONK, JUP, ONDO, PENGU, SHIB, VIRTUAL, and WLD to static pair whi…" [ref=e1897]:
+                      - link "add BONK, JUP, ONDO, PENGU, SHIB, VIRTUAL, and WLD to static pair whi…" [ref=e1900] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/c9e1dc09a11b9ee21f1d4944c6be8f1fcc390c8e
+                    - cell "Jul 24, 202510 months ago" [ref=e1901]:
+                      - generic [ref=e1902]: Jul 24, 202510 months ago
+                  - 'row "pairlist-static-mexc-spot-usdt.json, (File) Configs: add static pairlists. Feb 10, 20263 months ago" [ref=e1903]':
+                    - cell "pairlist-static-mexc-spot-usdt.json, (File)" [ref=e1904]:
+                      - generic [ref=e1905]:
+                        - img [ref=e1906]
+                        - link "pairlist-static-mexc-spot-usdt.json, (File)" [ref=e1911] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-static-mexc-spot-usdt.json
+                          - text: pairlist-static-mexc-spot-usdt.json
+                    - 'cell "Configs: add static pairlists." [ref=e1912]':
+                      - 'link "Configs: add static pairlists." [ref=e1915] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/1dbaded367be467ac67ddfb4034c8cd8897eaab7
+                    - cell "Feb 10, 20263 months ago" [ref=e1916]:
+                      - generic [ref=e1917]: Feb 10, 20263 months ago
+                  - 'row "pairlist-static-okx-futures-usdt.json, (File) Configs: update the static lists. Jul 19, 202510 months ago" [ref=e1918]':
+                    - cell "pairlist-static-okx-futures-usdt.json, (File)" [ref=e1919]:
+                      - generic [ref=e1920]:
+                        - img [ref=e1921]
+                        - link "pairlist-static-okx-futures-usdt.json, (File)" [ref=e1926] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-static-okx-futures-usdt.json
+                          - text: pairlist-static-okx-futures-usdt.json
+                    - 'cell "Configs: update the static lists." [ref=e1927]':
+                      - 'link "Configs: update the static lists." [ref=e1930] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/2fb3c14b48b61a8cbd426f69c4e46eeb883d4548
+                    - cell "Jul 19, 202510 months ago" [ref=e1931]:
+                      - generic [ref=e1932]: Jul 19, 202510 months ago
+                  - 'row "pairlist-static-okx-spot-usdc.json, (File) Configs: add static pairlists. Feb 10, 20263 months ago" [ref=e1933]':
+                    - cell "pairlist-static-okx-spot-usdc.json, (File)" [ref=e1934]:
+                      - generic [ref=e1935]:
+                        - img [ref=e1936]
+                        - link "pairlist-static-okx-spot-usdc.json, (File)" [ref=e1941] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-static-okx-spot-usdc.json
+                          - text: pairlist-static-okx-spot-usdc.json
+                    - 'cell "Configs: add static pairlists." [ref=e1942]':
+                      - 'link "Configs: add static pairlists." [ref=e1945] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/1dbaded367be467ac67ddfb4034c8cd8897eaab7
+                    - cell "Feb 10, 20263 months ago" [ref=e1946]:
+                      - generic [ref=e1947]: Feb 10, 20263 months ago
+                  - 'row "pairlist-static-okx-spot-usdt.json, (File) Configs: add static pairlists. Feb 10, 20263 months ago" [ref=e1948]':
+                    - cell "pairlist-static-okx-spot-usdt.json, (File)" [ref=e1949]:
+                      - generic [ref=e1950]:
+                        - img [ref=e1951]
+                        - link "pairlist-static-okx-spot-usdt.json, (File)" [ref=e1956] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-static-okx-spot-usdt.json
+                          - text: pairlist-static-okx-spot-usdt.json
+                    - 'cell "Configs: add static pairlists." [ref=e1957]':
+                      - 'link "Configs: add static pairlists." [ref=e1960] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/1dbaded367be467ac67ddfb4034c8cd8897eaab7
+                    - cell "Feb 10, 20263 months ago" [ref=e1961]:
+                      - generic [ref=e1962]: Feb 10, 20263 months ago
+                  - 'row "pairlist-volume-binance-btc.json, (File) Configs: remove delist filter to Binance lists. Nov 11, 20256 months ago" [ref=e1963]':
+                    - cell "pairlist-volume-binance-btc.json, (File)" [ref=e1964]:
+                      - generic [ref=e1965]:
+                        - img [ref=e1966]
+                        - link "pairlist-volume-binance-btc.json, (File)" [ref=e1971] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-binance-btc.json
+                          - text: pairlist-volume-binance-btc.json
+                    - 'cell "Configs: remove delist filter to Binance lists." [ref=e1972]':
+                      - 'link "Configs: remove delist filter to Binance lists." [ref=e1975] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/973899d2298df13ae1f15eb8d19dd35dccd16606
+                    - cell "Nov 11, 20256 months ago" [ref=e1976]:
+                      - generic [ref=e1977]: Nov 11, 20256 months ago
+                  - 'row "pairlist-volume-binance-busd.json, (File) Configs: remove delist filter to Binance lists. Nov 11, 20256 months ago" [ref=e1978]':
+                    - cell "pairlist-volume-binance-busd.json, (File)" [ref=e1979]:
+                      - generic [ref=e1980]:
+                        - img [ref=e1981]
+                        - link "pairlist-volume-binance-busd.json, (File)" [ref=e1986] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-binance-busd.json
+                          - text: pairlist-volume-binance-busd.json
+                    - 'cell "Configs: remove delist filter to Binance lists." [ref=e1987]':
+                      - 'link "Configs: remove delist filter to Binance lists." [ref=e1990] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/973899d2298df13ae1f15eb8d19dd35dccd16606
+                    - cell "Nov 11, 20256 months ago" [ref=e1991]:
+                      - generic [ref=e1992]: Nov 11, 20256 months ago
+                  - 'row "pairlist-volume-binance-usdc.json, (File) Configs: remove delist filter to Binance lists. Nov 11, 20256 months ago" [ref=e1993]':
+                    - cell "pairlist-volume-binance-usdc.json, (File)" [ref=e1994]:
+                      - generic [ref=e1995]:
+                        - img [ref=e1996]
+                        - link "pairlist-volume-binance-usdc.json, (File)" [ref=e2001] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-binance-usdc.json
+                          - text: pairlist-volume-binance-usdc.json
+                    - 'cell "Configs: remove delist filter to Binance lists." [ref=e2002]':
+                      - 'link "Configs: remove delist filter to Binance lists." [ref=e2005] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/973899d2298df13ae1f15eb8d19dd35dccd16606
+                    - cell "Nov 11, 20256 months ago" [ref=e2006]:
+                      - generic [ref=e2007]: Nov 11, 20256 months ago
+                  - 'row "pairlist-volume-binance-usdt.json, (File) Configs: remove delist filter to Binance lists. Nov 11, 20256 months ago" [ref=e2008]':
+                    - cell "pairlist-volume-binance-usdt.json, (File)" [ref=e2009]:
+                      - generic [ref=e2010]:
+                        - img [ref=e2011]
+                        - link "pairlist-volume-binance-usdt.json, (File)" [ref=e2016] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-binance-usdt.json
+                          - text: pairlist-volume-binance-usdt.json
+                    - 'cell "Configs: remove delist filter to Binance lists." [ref=e2017]':
+                      - 'link "Configs: remove delist filter to Binance lists." [ref=e2020] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/973899d2298df13ae1f15eb8d19dd35dccd16606
+                    - cell "Nov 11, 20256 months ago" [ref=e2021]:
+                      - generic [ref=e2022]: Nov 11, 20256 months ago
+                  - 'row "pairlist-volume-bitget-btc.json, (File) fix(configs): increase max_rate_of_change to 2.00 for stability filters Nov 7, 20256 months ago" [ref=e2023]':
+                    - cell "pairlist-volume-bitget-btc.json, (File)" [ref=e2024]:
+                      - generic [ref=e2025]:
+                        - img [ref=e2026]
+                        - link "pairlist-volume-bitget-btc.json, (File)" [ref=e2031] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-bitget-btc.json
+                          - text: pairlist-volume-bitget-btc.json
+                    - 'cell "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2032]':
+                      - 'link "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2035] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5ef37845829aff7490b790656dc88cfe4a07573d
+                    - cell "Nov 7, 20256 months ago" [ref=e2036]:
+                      - generic [ref=e2037]: Nov 7, 20256 months ago
+                  - 'row "pairlist-volume-bitget-usdt.json, (File) fix(configs): increase max_rate_of_change to 2.00 for stability filters Nov 7, 20256 months ago" [ref=e2038]':
+                    - cell "pairlist-volume-bitget-usdt.json, (File)" [ref=e2039]:
+                      - generic [ref=e2040]:
+                        - img [ref=e2041]
+                        - link "pairlist-volume-bitget-usdt.json, (File)" [ref=e2046] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-bitget-usdt.json
+                          - text: pairlist-volume-bitget-usdt.json
+                    - 'cell "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2047]':
+                      - 'link "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2050] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5ef37845829aff7490b790656dc88cfe4a07573d
+                    - cell "Nov 7, 20256 months ago" [ref=e2051]:
+                      - generic [ref=e2052]: Nov 7, 20256 months ago
+                  - 'row "pairlist-volume-bitmart-btc.json, (File) fix(configs): increase max_rate_of_change to 2.00 for stability filters Nov 7, 20256 months ago" [ref=e2053]':
+                    - cell "pairlist-volume-bitmart-btc.json, (File)" [ref=e2054]:
+                      - generic [ref=e2055]:
+                        - img [ref=e2056]
+                        - link "pairlist-volume-bitmart-btc.json, (File)" [ref=e2061] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-bitmart-btc.json
+                          - text: pairlist-volume-bitmart-btc.json
+                    - 'cell "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2062]':
+                      - 'link "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2065] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5ef37845829aff7490b790656dc88cfe4a07573d
+                    - cell "Nov 7, 20256 months ago" [ref=e2066]:
+                      - generic [ref=e2067]: Nov 7, 20256 months ago
+                  - 'row "pairlist-volume-bitmart-usdt.json, (File) fix(configs): increase max_rate_of_change to 2.00 for stability filters Nov 7, 20256 months ago" [ref=e2068]':
+                    - cell "pairlist-volume-bitmart-usdt.json, (File)" [ref=e2069]:
+                      - generic [ref=e2070]:
+                        - img [ref=e2071]
+                        - link "pairlist-volume-bitmart-usdt.json, (File)" [ref=e2076] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-bitmart-usdt.json
+                          - text: pairlist-volume-bitmart-usdt.json
+                    - 'cell "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2077]':
+                      - 'link "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2080] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5ef37845829aff7490b790656dc88cfe4a07573d
+                    - cell "Nov 7, 20256 months ago" [ref=e2081]:
+                      - generic [ref=e2082]: Nov 7, 20256 months ago
+                  - 'row "pairlist-volume-bitvavo-eur.json, (File) fix(configs): increase max_rate_of_change to 2.00 for stability filters Nov 7, 20256 months ago" [ref=e2083]':
+                    - cell "pairlist-volume-bitvavo-eur.json, (File)" [ref=e2084]:
+                      - generic [ref=e2085]:
+                        - img [ref=e2086]
+                        - link "pairlist-volume-bitvavo-eur.json, (File)" [ref=e2091] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-bitvavo-eur.json
+                          - text: pairlist-volume-bitvavo-eur.json
+                    - 'cell "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2092]':
+                      - 'link "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2095] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5ef37845829aff7490b790656dc88cfe4a07573d
+                    - cell "Nov 7, 20256 months ago" [ref=e2096]:
+                      - generic [ref=e2097]: Nov 7, 20256 months ago
+                  - 'row "pairlist-volume-bybit-btc.json, (File) fix(configs): increase max_rate_of_change to 2.00 for stability filters Nov 7, 20256 months ago" [ref=e2098]':
+                    - cell "pairlist-volume-bybit-btc.json, (File)" [ref=e2099]:
+                      - generic [ref=e2100]:
+                        - img [ref=e2101]
+                        - link "pairlist-volume-bybit-btc.json, (File)" [ref=e2106] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-bybit-btc.json
+                          - text: pairlist-volume-bybit-btc.json
+                    - 'cell "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2107]':
+                      - 'link "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2110] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5ef37845829aff7490b790656dc88cfe4a07573d
+                    - cell "Nov 7, 20256 months ago" [ref=e2111]:
+                      - generic [ref=e2112]: Nov 7, 20256 months ago
+                  - 'row "pairlist-volume-bybit-usdt.json, (File) fix(configs): increase max_rate_of_change to 2.00 for stability filters Nov 7, 20256 months ago" [ref=e2113]':
+                    - cell "pairlist-volume-bybit-usdt.json, (File)" [ref=e2114]:
+                      - generic [ref=e2115]:
+                        - img [ref=e2116]
+                        - link "pairlist-volume-bybit-usdt.json, (File)" [ref=e2121] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-bybit-usdt.json
+                          - text: pairlist-volume-bybit-usdt.json
+                    - 'cell "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2122]':
+                      - 'link "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2125] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5ef37845829aff7490b790656dc88cfe4a07573d
+                    - cell "Nov 7, 20256 months ago" [ref=e2126]:
+                      - generic [ref=e2127]: Nov 7, 20256 months ago
+                  - 'row "pairlist-volume-gateio-btc.json, (File) fix(configs): increase max_rate_of_change to 2.00 for stability filters Nov 7, 20256 months ago" [ref=e2128]':
+                    - cell "pairlist-volume-gateio-btc.json, (File)" [ref=e2129]:
+                      - generic [ref=e2130]:
+                        - img [ref=e2131]
+                        - link "pairlist-volume-gateio-btc.json, (File)" [ref=e2136] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-gateio-btc.json
+                          - text: pairlist-volume-gateio-btc.json
+                    - 'cell "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2137]':
+                      - 'link "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2140] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5ef37845829aff7490b790656dc88cfe4a07573d
+                    - cell "Nov 7, 20256 months ago" [ref=e2141]:
+                      - generic [ref=e2142]: Nov 7, 20256 months ago
+                  - 'row "pairlist-volume-gateio-usdt.json, (File) fix(configs): increase max_rate_of_change to 2.00 for stability filters Nov 7, 20256 months ago" [ref=e2143]':
+                    - cell "pairlist-volume-gateio-usdt.json, (File)" [ref=e2144]:
+                      - generic [ref=e2145]:
+                        - img [ref=e2146]
+                        - link "pairlist-volume-gateio-usdt.json, (File)" [ref=e2151] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-gateio-usdt.json
+                          - text: pairlist-volume-gateio-usdt.json
+                    - 'cell "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2152]':
+                      - 'link "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2155] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5ef37845829aff7490b790656dc88cfe4a07573d
+                    - cell "Nov 7, 20256 months ago" [ref=e2156]:
+                      - generic [ref=e2157]: Nov 7, 20256 months ago
+                  - 'row "pairlist-volume-htx-btc.json, (File) fix(configs): increase max_rate_of_change to 2.00 for stability filters Nov 7, 20256 months ago" [ref=e2158]':
+                    - cell "pairlist-volume-htx-btc.json, (File)" [ref=e2159]:
+                      - generic [ref=e2160]:
+                        - img [ref=e2161]
+                        - link "pairlist-volume-htx-btc.json, (File)" [ref=e2166] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-htx-btc.json
+                          - text: pairlist-volume-htx-btc.json
+                    - 'cell "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2167]':
+                      - 'link "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2170] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5ef37845829aff7490b790656dc88cfe4a07573d
+                    - cell "Nov 7, 20256 months ago" [ref=e2171]:
+                      - generic [ref=e2172]: Nov 7, 20256 months ago
+                  - 'row "pairlist-volume-htx-usdt.json, (File) fix(configs): increase max_rate_of_change to 2.00 for stability filters Nov 7, 20256 months ago" [ref=e2173]':
+                    - cell "pairlist-volume-htx-usdt.json, (File)" [ref=e2174]:
+                      - generic [ref=e2175]:
+                        - img [ref=e2176]
+                        - link "pairlist-volume-htx-usdt.json, (File)" [ref=e2181] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-htx-usdt.json
+                          - text: pairlist-volume-htx-usdt.json
+                    - 'cell "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2182]':
+                      - 'link "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2185] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5ef37845829aff7490b790656dc88cfe4a07573d
+                    - cell "Nov 7, 20256 months ago" [ref=e2186]:
+                      - generic [ref=e2187]: Nov 7, 20256 months ago
+                  - 'row "pairlist-volume-hyperliquid-usdc.json, (File) fix(configs): increase max_rate_of_change to 2.00 for stability filters Nov 7, 20256 months ago" [ref=e2188]':
+                    - cell "pairlist-volume-hyperliquid-usdc.json, (File)" [ref=e2189]:
+                      - generic [ref=e2190]:
+                        - img [ref=e2191]
+                        - link "pairlist-volume-hyperliquid-usdc.json, (File)" [ref=e2196] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-hyperliquid-usdc.json
+                          - text: pairlist-volume-hyperliquid-usdc.json
+                    - 'cell "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2197]':
+                      - 'link "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2200] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5ef37845829aff7490b790656dc88cfe4a07573d
+                    - cell "Nov 7, 20256 months ago" [ref=e2201]:
+                      - generic [ref=e2202]: Nov 7, 20256 months ago
+                  - 'row "pairlist-volume-kraken-usd.json, (File) fix(configs): increase max_rate_of_change to 2.00 for stability filters Nov 7, 20256 months ago" [ref=e2203]':
+                    - cell "pairlist-volume-kraken-usd.json, (File)" [ref=e2204]:
+                      - generic [ref=e2205]:
+                        - img [ref=e2206]
+                        - link "pairlist-volume-kraken-usd.json, (File)" [ref=e2211] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-kraken-usd.json
+                          - text: pairlist-volume-kraken-usd.json
+                    - 'cell "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2212]':
+                      - 'link "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2215] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5ef37845829aff7490b790656dc88cfe4a07573d
+                    - cell "Nov 7, 20256 months ago" [ref=e2216]:
+                      - generic [ref=e2217]: Nov 7, 20256 months ago
+                  - 'row "pairlist-volume-kucoin-btc.json, (File) fix(configs): increase max_rate_of_change to 2.00 for stability filters Nov 7, 20256 months ago" [ref=e2218]':
+                    - cell "pairlist-volume-kucoin-btc.json, (File)" [ref=e2219]:
+                      - generic [ref=e2220]:
+                        - img [ref=e2221]
+                        - link "pairlist-volume-kucoin-btc.json, (File)" [ref=e2226] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-kucoin-btc.json
+                          - text: pairlist-volume-kucoin-btc.json
+                    - 'cell "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2227]':
+                      - 'link "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2230] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5ef37845829aff7490b790656dc88cfe4a07573d
+                    - cell "Nov 7, 20256 months ago" [ref=e2231]:
+                      - generic [ref=e2232]: Nov 7, 20256 months ago
+                  - 'row "pairlist-volume-kucoin-usdt.json, (File) fix(configs): increase max_rate_of_change to 2.00 for stability filters Nov 7, 20256 months ago" [ref=e2233]':
+                    - cell "pairlist-volume-kucoin-usdt.json, (File)" [ref=e2234]:
+                      - generic [ref=e2235]:
+                        - img [ref=e2236]
+                        - link "pairlist-volume-kucoin-usdt.json, (File)" [ref=e2241] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-kucoin-usdt.json
+                          - text: pairlist-volume-kucoin-usdt.json
+                    - 'cell "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2242]':
+                      - 'link "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2245] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5ef37845829aff7490b790656dc88cfe4a07573d
+                    - cell "Nov 7, 20256 months ago" [ref=e2246]:
+                      - generic [ref=e2247]: Nov 7, 20256 months ago
+                  - 'row "pairlist-volume-mexc-btc.json, (File) fix(configs): increase max_rate_of_change to 2.00 for stability filters Nov 7, 20256 months ago" [ref=e2248]':
+                    - cell "pairlist-volume-mexc-btc.json, (File)" [ref=e2249]:
+                      - generic [ref=e2250]:
+                        - img [ref=e2251]
+                        - link "pairlist-volume-mexc-btc.json, (File)" [ref=e2256] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-mexc-btc.json
+                          - text: pairlist-volume-mexc-btc.json
+                    - 'cell "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2257]':
+                      - 'link "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2260] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5ef37845829aff7490b790656dc88cfe4a07573d
+                    - cell "Nov 7, 20256 months ago" [ref=e2261]:
+                      - generic [ref=e2262]: Nov 7, 20256 months ago
+                  - 'row "pairlist-volume-mexc-usdt.json, (File) fix(configs): increase max_rate_of_change to 2.00 for stability filters Nov 7, 20256 months ago" [ref=e2263]':
+                    - cell "pairlist-volume-mexc-usdt.json, (File)" [ref=e2264]:
+                      - generic [ref=e2265]:
+                        - img [ref=e2266]
+                        - link "pairlist-volume-mexc-usdt.json, (File)" [ref=e2271] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-mexc-usdt.json
+                          - text: pairlist-volume-mexc-usdt.json
+                    - 'cell "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2272]':
+                      - 'link "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2275] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5ef37845829aff7490b790656dc88cfe4a07573d
+                    - cell "Nov 7, 20256 months ago" [ref=e2276]:
+                      - generic [ref=e2277]: Nov 7, 20256 months ago
+                  - 'row "pairlist-volume-okx-btc.json, (File) fix(configs): increase max_rate_of_change to 2.00 for stability filters Nov 7, 20256 months ago" [ref=e2278]':
+                    - cell "pairlist-volume-okx-btc.json, (File)" [ref=e2279]:
+                      - generic [ref=e2280]:
+                        - img [ref=e2281]
+                        - link "pairlist-volume-okx-btc.json, (File)" [ref=e2286] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-okx-btc.json
+                          - text: pairlist-volume-okx-btc.json
+                    - 'cell "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2287]':
+                      - 'link "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2290] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5ef37845829aff7490b790656dc88cfe4a07573d
+                    - cell "Nov 7, 20256 months ago" [ref=e2291]:
+                      - generic [ref=e2292]: Nov 7, 20256 months ago
+                  - 'row "pairlist-volume-okx-futures.json, (File) Configs: update the OKX futures volume list. Jan 15, 20264 months ago" [ref=e2293]':
+                    - cell "pairlist-volume-okx-futures.json, (File)" [ref=e2294]:
+                      - generic [ref=e2295]:
+                        - img [ref=e2296]
+                        - link "pairlist-volume-okx-futures.json, (File)" [ref=e2301] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-okx-futures.json
+                          - text: pairlist-volume-okx-futures.json
+                    - 'cell "Configs: update the OKX futures volume list." [ref=e2302]':
+                      - 'link "Configs: update the OKX futures volume list." [ref=e2305] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/1affe272749716625b998f716a555a5e9745afe3
+                    - cell "Jan 15, 20264 months ago" [ref=e2306]:
+                      - generic [ref=e2307]: Jan 15, 20264 months ago
+                  - 'row "pairlist-volume-okx-usdt.json, (File) fix(configs): increase max_rate_of_change to 2.00 for stability filters Nov 7, 20256 months ago" [ref=e2308]':
+                    - cell "pairlist-volume-okx-usdt.json, (File)" [ref=e2309]:
+                      - generic [ref=e2310]:
+                        - img [ref=e2311]
+                        - link "pairlist-volume-okx-usdt.json, (File)" [ref=e2316] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/pairlist-volume-okx-usdt.json
+                          - text: pairlist-volume-okx-usdt.json
+                    - 'cell "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2317]':
+                      - 'link "fix(configs): increase max_rate_of_change to 2.00 for stability filters" [ref=e2320] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5ef37845829aff7490b790656dc88cfe4a07573d
+                    - cell "Nov 7, 20256 months ago" [ref=e2321]:
+                      - generic [ref=e2322]: Nov 7, 20256 months ago
+                  - row "proxy-binance.json, (File) Update proxy-binance.json Jul 21, 202510 months ago" [ref=e2323]:
+                    - cell "proxy-binance.json, (File)" [ref=e2324]:
+                      - generic [ref=e2325]:
+                        - img [ref=e2326]
+                        - link "proxy-binance.json, (File)" [ref=e2331] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/proxy-binance.json
+                          - text: proxy-binance.json
+                    - cell "Update proxy-binance.json" [ref=e2332]:
+                      - link "Update proxy-binance.json" [ref=e2335] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/e081578f81e143b12a65041e9ae7aa250d180a85
+                    - cell "Jul 21, 202510 months ago" [ref=e2336]:
+                      - generic [ref=e2337]: Jul 21, 202510 months ago
+                  - row "recommended_config.json, (File) backtest default X7 strategy. Oct 23, 20257 months ago" [ref=e2338]:
+                    - cell "recommended_config.json, (File)" [ref=e2339]:
+                      - generic [ref=e2340]:
+                        - img [ref=e2341]
+                        - link "recommended_config.json, (File)" [ref=e2346] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/recommended_config.json
+                          - text: recommended_config.json
+                    - cell "backtest default X7 strategy." [ref=e2347]:
+                      - link "backtest default X7 strategy." [ref=e2350] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/bd01647359df5d9283d39794faa14bf8668d3c23
+                    - cell "Oct 23, 20257 months ago" [ref=e2351]:
+                      - generic [ref=e2352]: Oct 23, 20257 months ago
+                  - row "trading_mode-futures.json, (File) futures default connection type updated Nov 13, 20233 years ago" [ref=e2353]:
+                    - cell "trading_mode-futures.json, (File)" [ref=e2354]:
+                      - generic [ref=e2355]:
+                        - img [ref=e2356]
+                        - link "trading_mode-futures.json, (File)" [ref=e2361] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/trading_mode-futures.json
+                          - text: trading_mode-futures.json
+                    - cell "futures default connection type updated" [ref=e2362]:
+                      - link "futures default connection type updated" [ref=e2365] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5f74f5542c9a751d68cb5b46b394803448ecdc72
+                    - cell "Nov 13, 20233 years ago" [ref=e2366]:
+                      - generic [ref=e2367]: Nov 13, 20233 years ago
+                  - row "trading_mode-spot.json, (File) trading_mode config files Aug 7, 20233 years ago" [ref=e2368]:
+                    - cell "trading_mode-spot.json, (File)" [ref=e2369]:
+                      - generic [ref=e2370]:
+                        - img [ref=e2371]
+                        - link "trading_mode-spot.json, (File)" [ref=e2376] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/configs/trading_mode-spot.json
+                          - text: trading_mode-spot.json
+                    - cell "trading_mode config files" [ref=e2377]:
+                      - link "trading_mode config files" [ref=e2380] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/02fbeb0e8ecb640793b1a9c1aa26248e45b61364
+                    - cell "Aug 7, 20233 years ago" [ref=e2381]:
+                      - generic [ref=e2382]: Aug 7, 20233 years ago
+  - alert [ref=e2386]

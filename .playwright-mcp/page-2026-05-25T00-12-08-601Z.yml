@@ -1,0 +1,189 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [active] [ref=e9] [cursor=pointer]
+        - generic [ref=e11]:
+          - link "YouTube Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e16]: KR
+        - button "Skip navigation" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: Skip navigation
+      - generic [ref=e25]:
+        - search [ref=e26]:
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - combobox "Search" [expanded] [ref=e30]: 워뇨띠 트레이딩 전략
+              - button "Clear search query" [ref=e32] [cursor=pointer]
+            - button "Search" [ref=e37] [cursor=pointer]
+        - generic [ref=e40]:
+          - button "Search with your voice" [ref=e42] [cursor=pointer]
+          - tooltip "tooltip"
+  - navigation [ref=e53]
+  - main [ref=e55]:
+    - generic [ref=e56]:
+      - generic [ref=e58]:
+        - tablist [ref=e63]:
+          - tab "All" [selected] [ref=e67] [cursor=pointer]:
+            - generic [ref=e69]: All
+          - tab "Shorts" [ref=e76] [cursor=pointer]:
+            - generic [ref=e78]: Shorts
+          - tab "Unwatched" [ref=e85] [cursor=pointer]:
+            - generic [ref=e87]: Unwatched
+          - tab "Watched" [ref=e94] [cursor=pointer]:
+            - generic [ref=e96]: Watched
+          - tab "Videos" [ref=e103] [cursor=pointer]:
+            - generic [ref=e105]: Videos
+          - tab "Recently uploaded" [ref=e112] [cursor=pointer]:
+            - generic [ref=e114]: Recently uploaded
+          - tab "Live" [ref=e121] [cursor=pointer]:
+            - generic [ref=e123]: Live
+        - generic [ref=e128]:
+          - button "Search filters" [ref=e130] [cursor=pointer]:
+            - generic [ref=e131]: Filters
+          - tooltip "tooltip"
+      - generic [ref=e142]:
+        - generic [ref=e151] [cursor=pointer]:
+          - link [ref=e152]:
+            - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C7LeY1ZMTarmJHdnur7wP7JjCkQr7trrxhgGqtZD5ihWwkB8QASAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHz4d-TQqkCIk40vXSkBj6oAwTIAwqqBLgCT9B25G2JFVGtYixQaoDLg0cOvLisX6Gs1iMGGc9fugwTJ8BV_RC0qFqq-ZOGi8CwsTsdcwIFiJZVnxRlKJP2nJ2DIwaXwPHH0RIhBgODr9kY87okTG_Sc-E979zqzv44Iy1lzuV3h2fm4zUfgEtjYoG-cHwb3458EvcZexYx6y7jlyitu1SkvYAvFOCgw2SrDSwYr5gqFycuDNSp8jr6IffkNQ07F56hynAQSlo9QTMFz423t6yO-d_eedoiGehlZWEakMMK6oeHzXcKDqsbdegAVxsBxz4ur9AHJl9DsfozolIQSRgLLqCcZChbfdYt1zLtgp2qCnSkQK1j1uNfDMlxRdYDY6tkI1m-BivDTofSTTz7aL8A8N9bGWYGatZB3Io9sLXJOjIBiPsBey6BqBVruIoqs3YOiAWht9vMWJIFCAgTeOTEt5IdoAahAYAH85mw8xyQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxApIIC2J4djQ5MlJJcXZrqAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuL2Q1JPTlANgAZoJG2h0dHBzOi8vY2NsLWtvLmtyL3BhZ2UvY2NsM7EJ5m2oBrF-Yx3ICRfICY8ByAnCAZgLAboLPwgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIFugMHdml0cGVyYtALEqIMDCoKCgiV4rECjt-xAtIMAhABmg0BEqoNAktSyA0B0g2BAWh0dHBzOi8vY2NsLWtvLmtyL3BhZ2UvY2NsMz91dG1fc291cmNlPWdvb2dsZSZ1dG1fbWVkaXVtPWNwYyZ1dG1fY2FtcGFpZ249eW91dHViZTI5X2xhbjAzJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzc4MzIwMTY5N7gT____________AbAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXr_629CeCIB26FwYoADAAOAHQGAHwGAHCGQIIAQ&gclid=EAIaIQobChMI-ceQ1JPTlAMVWfeLAR1sjDCiEAEYASAAEgKi1_D_BwE&num=1&cid=CAASqwHkaNndcR01ZQcRYvTMCfEXV78EnXClR6TgOxLfWaryZJaIFh4aGxTx7EGUnWDhqtwaMD_WIUxByA1CqgY0nxDQY4R7X9nC4DNUe6kQJa-cRNyZUC9zZiGqESDWCxjul7vrGh61oANjrMnSUeT_Ou8inJfmha23aFqN8bUXDJsa6vDFQVdPPVDDog1G19zBVMlDn3595Kd64tQf-8_hxQXCCzmiI1ZGV-hFdl0&ad_cpn=%5BCPN%5D&sig=AOD64_0DSJ5alQWuxg4N-1B4psotNHmQhQ&ctype=110&video_id=bxv492RIqvk&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+            - button [ref=e157]
+          - generic [ref=e163]:
+            - generic [ref=e164]:
+              - generic [ref=e165]:
+                - link "만족도 1위, 인지도 1위, 서비스 1위, 컬쳐캐피탈. 역대 이벤트 진행중" [ref=e168]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C7LeY1ZMTarmJHdnur7wP7JjCkQr7trrxhgGqtZD5ihWwkB8QASAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHz4d-TQqkCIk40vXSkBj6oAwTIAwqqBLgCT9B25G2JFVGtYixQaoDLg0cOvLisX6Gs1iMGGc9fugwTJ8BV_RC0qFqq-ZOGi8CwsTsdcwIFiJZVnxRlKJP2nJ2DIwaXwPHH0RIhBgODr9kY87okTG_Sc-E979zqzv44Iy1lzuV3h2fm4zUfgEtjYoG-cHwb3458EvcZexYx6y7jlyitu1SkvYAvFOCgw2SrDSwYr5gqFycuDNSp8jr6IffkNQ07F56hynAQSlo9QTMFz423t6yO-d_eedoiGehlZWEakMMK6oeHzXcKDqsbdegAVxsBxz4ur9AHJl9DsfozolIQSRgLLqCcZChbfdYt1zLtgp2qCnSkQK1j1uNfDMlxRdYDY6tkI1m-BivDTofSTTz7aL8A8N9bGWYGatZB3Io9sLXJOjIBiPsBey6BqBVruIoqs3YOiAWht9vMWJIFCAgTeOTEt5IdoAahAYAH85mw8xyQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxApIIC2J4djQ5MlJJcXZrqAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuL2Q1JPTlANgAZoJG2h0dHBzOi8vY2NsLWtvLmtyL3BhZ2UvY2NsM7EJ5m2oBrF-Yx3ICRfICY8ByAnCAZgLAboLPwgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIFugMHdml0cGVyYtALEqIMDCoKCgiV4rECjt-xAtIMAhABmg0BEqoNAktSyA0B0g2BAWh0dHBzOi8vY2NsLWtvLmtyL3BhZ2UvY2NsMz91dG1fc291cmNlPWdvb2dsZSZ1dG1fbWVkaXVtPWNwYyZ1dG1fY2FtcGFpZ249eW91dHViZTI5X2xhbjAzJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzc4MzIwMTY5N7gT____________AbAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXr_629CeCIB26FwYoADAAOAHQGAHwGAHCGQIIAQ&gclid=EAIaIQobChMI-ceQ1JPTlAMVWfeLAR1sjDCiEAEYASAAEgKi1_D_BwE&num=1&cid=CAASqwHkaNndcR01ZQcRYvTMCfEXV78EnXClR6TgOxLfWaryZJaIFh4aGxTx7EGUnWDhqtwaMD_WIUxByA1CqgY0nxDQY4R7X9nC4DNUe6kQJa-cRNyZUC9zZiGqESDWCxjul7vrGh61oANjrMnSUeT_Ou8inJfmha23aFqN8bUXDJsa6vDFQVdPPVDDog1G19zBVMlDn3595Kd64tQf-8_hxQXCCzmiI1ZGV-hFdl0&ad_cpn=%5BCPN%5D&sig=AOD64_0DSJ5alQWuxg4N-1B4psotNHmQhQ&ctype=110&video_id=bxv492RIqvk&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - link "만족도 1위, 인지도 1위, 서비스 1위, 컬쳐캐피탈. 역대 이벤트 진행중" [ref=e171]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C7LeY1ZMTarmJHdnur7wP7JjCkQr7trrxhgGqtZD5ihWwkB8QASAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHz4d-TQqkCIk40vXSkBj6oAwTIAwqqBLgCT9B25G2JFVGtYixQaoDLg0cOvLisX6Gs1iMGGc9fugwTJ8BV_RC0qFqq-ZOGi8CwsTsdcwIFiJZVnxRlKJP2nJ2DIwaXwPHH0RIhBgODr9kY87okTG_Sc-E979zqzv44Iy1lzuV3h2fm4zUfgEtjYoG-cHwb3458EvcZexYx6y7jlyitu1SkvYAvFOCgw2SrDSwYr5gqFycuDNSp8jr6IffkNQ07F56hynAQSlo9QTMFz423t6yO-d_eedoiGehlZWEakMMK6oeHzXcKDqsbdegAVxsBxz4ur9AHJl9DsfozolIQSRgLLqCcZChbfdYt1zLtgp2qCnSkQK1j1uNfDMlxRdYDY6tkI1m-BivDTofSTTz7aL8A8N9bGWYGatZB3Io9sLXJOjIBiPsBey6BqBVruIoqs3YOiAWht9vMWJIFCAgTeOTEt5IdoAahAYAH85mw8xyQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxApIIC2J4djQ5MlJJcXZrqAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuL2Q1JPTlANgAZoJG2h0dHBzOi8vY2NsLWtvLmtyL3BhZ2UvY2NsM7EJ5m2oBrF-Yx3ICRfICY8ByAnCAZgLAboLPwgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIFugMHdml0cGVyYtALEqIMDCoKCgiV4rECjt-xAtIMAhABmg0BEqoNAktSyA0B0g2BAWh0dHBzOi8vY2NsLWtvLmtyL3BhZ2UvY2NsMz91dG1fc291cmNlPWdvb2dsZSZ1dG1fbWVkaXVtPWNwYyZ1dG1fY2FtcGFpZ249eW91dHViZTI5X2xhbjAzJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzc4MzIwMTY5N7gT____________AbAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXr_629CeCIB26FwYoADAAOAHQGAHwGAHCGQIIAQ&gclid=EAIaIQobChMI-ceQ1JPTlAMVWfeLAR1sjDCiEAEYASAAEgKi1_D_BwE&num=1&cid=CAASqwHkaNndcR01ZQcRYvTMCfEXV78EnXClR6TgOxLfWaryZJaIFh4aGxTx7EGUnWDhqtwaMD_WIUxByA1CqgY0nxDQY4R7X9nC4DNUe6kQJa-cRNyZUC9zZiGqESDWCxjul7vrGh61oANjrMnSUeT_Ou8inJfmha23aFqN8bUXDJsa6vDFQVdPPVDDog1G19zBVMlDn3595Kd64tQf-8_hxQXCCzmiI1ZGV-hFdl0&ad_cpn=%5BCPN%5D&sig=AOD64_0DSJ5alQWuxg4N-1B4psotNHmQhQ&ctype=110&video_id=bxv492RIqvk&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - generic [ref=e172]:
+                  - button "CULTURE_CAPITAL" [ref=e176]
+                  - generic [ref=e180]:
+                    - generic [ref=e181]: Sponsored
+                    - text: ·
+                  - generic [ref=e183]: 컬쳐캐피탈
+              - button "My Ad Center" [ref=e186]
+            - generic [ref=e194]:
+              - link "Watch" [ref=e197]:
+                - /url: /watch?v=bxv492RIqvk
+                - generic [ref=e198]: Watch
+              - link "Visit site" [ref=e204]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C7LeY1ZMTarmJHdnur7wP7JjCkQr7trrxhgGqtZD5ihWwkB8QASAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHz4d-TQqkCIk40vXSkBj6oAwTIAwqqBLgCT9B25G2JFVGtYixQaoDLg0cOvLisX6Gs1iMGGc9fugwTJ8BV_RC0qFqq-ZOGi8CwsTsdcwIFiJZVnxRlKJP2nJ2DIwaXwPHH0RIhBgODr9kY87okTG_Sc-E979zqzv44Iy1lzuV3h2fm4zUfgEtjYoG-cHwb3458EvcZexYx6y7jlyitu1SkvYAvFOCgw2SrDSwYr5gqFycuDNSp8jr6IffkNQ07F56hynAQSlo9QTMFz423t6yO-d_eedoiGehlZWEakMMK6oeHzXcKDqsbdegAVxsBxz4ur9AHJl9DsfozolIQSRgLLqCcZChbfdYt1zLtgp2qCnSkQK1j1uNfDMlxRdYDY6tkI1m-BivDTofSTTz7aL8A8N9bGWYGatZB3Io9sLXJOjIBiPsBey6BqBVruIoqs3YOiAWht9vMWJIFCAgTeOTEt5IdoAahAYAH85mw8xyQBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgH1c4bqAe-2bECqAerxRuoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxApIIC2J4djQ5MlJJcXZrqAgB0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRYuL2Q1JPTlANgAZoJG2h0dHBzOi8vY2NsLWtvLmtyL3BhZ2UvY2NsM7EJ5m2oBrF-Yx3ICRfICY8ByAnCAZgLAboLPwgDEAUYBCAHKAEwHEABSABYfWAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIFugMHdml0cGVyYtALEqIMDCoKCgiV4rECjt-xAtIMAhABmg0BEqoNAktSyA0B0g2BAWh0dHBzOi8vY2NsLWtvLmtyL3BhZ2UvY2NsMz91dG1fc291cmNlPWdvb2dsZSZ1dG1fbWVkaXVtPWNwYyZ1dG1fY2FtcGFpZ249eW91dHViZTI5X2xhbjAzJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzc4MzIwMTY5N7gT____________AbAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXr_629CeCIB26FwYoADAAOAHQGAHwGAHCGQIIAQ&gclid=EAIaIQobChMI-ceQ1JPTlAMVWfeLAR1sjDCiEAEYASAAEgKi1_D_BwE&num=1&cid=CAASqwHkaNndcR01ZQcRYvTMCfEXV78EnXClR6TgOxLfWaryZJaIFh4aGxTx7EGUnWDhqtwaMD_WIUxByA1CqgY0nxDQY4R7X9nC4DNUe6kQJa-cRNyZUC9zZiGqESDWCxjul7vrGh61oANjrMnSUeT_Ou8inJfmha23aFqN8bUXDJsa6vDFQVdPPVDDog1G19zBVMlDn3595Kd64tQf-8_hxQXCCzmiI1ZGV-hFdl0&ad_cpn=%5BCPN%5D&sig=AOD64_0DSJ5alQWuxg4N-1B4psotNHmQhQ&ctype=110&video_id=bxv492RIqvk&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - generic [ref=e205]: Visit site
+        - generic [ref=e210]:
+          - link [ref=e212] [cursor=pointer]:
+            - /url: /watch?v=c0j1AWaBA5s&pp=ygUd7JuM64eo652gIO2KuOugiOydtOuUqSDsoITrnrU%3D
+            - img [ref=e214]
+            - img [ref=e217]:
+              - generic [ref=e218]: 19:51
+            - generic:
+              - generic: Now playing
+              - generic:
+                - img
+          - generic [ref=e219] [cursor=pointer]:
+            - generic [ref=e220]:
+              - heading "[Intermediate][Global Trading Strategy] Wonyotti's 300 Billion Candlestick and Volume Trading Met... 19 minutes" [level=3] [ref=e222]:
+                - link "[Intermediate][Global Trading Strategy] Wonyotti's 300 Billion Candlestick and Volume Trading Met... 19 minutes" [ref=e223]:
+                  - /url: /watch?v=c0j1AWaBA5s&pp=ygUd7JuM64eo652gIO2KuOugiOydtOuUqSDsoITrnrU%3D
+                  - text: "[Intermediate][Global Trading Strategy] Wonyotti's 300 Billion Candlestick and Volume Trading Met..."
+              - generic [ref=e226]:
+                - generic [ref=e227]: 51K views
+                - generic [ref=e228]: •1 year ago
+            - generic [ref=e229]:
+              - link "Go to channel 함투사 아카데미" [ref=e230]:
+                - /url: /@HAMTOOSA
+              - link "함투사 아카데미" [ref=e236]:
+                - /url: /@HAMTOOSA
+            - generic [ref=e237]:
+              - text: "#Bitcoin #TechniquesLecture #ChartLecture #Investment #MetaTrader #Wonyotti Welcome. This lecture delves into two key ..."
+              - tooltip "tooltip"
+        - generic [ref=e239]:
+          - link [ref=e241] [cursor=pointer]:
+            - /url: /@%EC%9C%A0%ED%8A%9C%EB%B8%8C%EC%9B%8C%EB%87%A8%EB%9D%A0
+          - generic [ref=e244]:
+            - link "워뇨띠 @유튜브워뇨띠•59.8K subscribers 실전 투자 대회 1등이 알려주는 \"진짜\" 트레이딩- 모든 관점 공유 및 기타 차트 공부 자료는 거래대상·시점·가액에 대한 추천이나 권유 ..." [ref=e245] [cursor=pointer]:
+              - /url: /@%EC%9C%A0%ED%8A%9C%EB%B8%8C%EC%9B%8C%EB%87%A8%EB%9D%A0
+              - generic [ref=e246]:
+                - generic [ref=e250]: 워뇨띠
+                - generic [ref=e251]: "@유튜브워뇨띠•59.8K subscribers"
+                - generic [ref=e252]: 실전 투자 대회 1등이 알려주는 "진짜" 트레이딩- 모든 관점 공유 및 기타 차트 공부 자료는 거래대상·시점·가액에 대한 추천이나 권유 ...
+            - link "Subscribe" [ref=e257] [cursor=pointer]:
+              - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253D%2525EC%25259B%25258C%2525EB%252587%2525A8%2525EB%25259D%2525A0%252B%2525ED%25258A%2525B8%2525EB%2525A0%252588%2525EC%25259D%2525B4%2525EB%252594%2525A9%252B%2525EC%2525A0%252584%2525EB%25259E%2525B5%26continue_action%3DQUFFLUhqazJzTWR2QUZlcF9FMWV3SDF3RDBOOTcwT2o4UXxBQ3Jtc0tseHktQlMwLUItYkNtSkRNUHJZS1NNV1NreXQyRkVyR2NGTDA3dkZvc0htbnBqbUtHRDVDNUhxSE9jcGN2UVJzMTBYZ2JkNmNJemgyaUhkSE1JVU9CUlBnWXVjV1Y2aVNKTk5tVmZtTDNuZVY3U3lCZjNJTGZzSmgxVEpNVDFId3hhTUFDWm5kNS1ia3hFaGdsWml1NzlJSWQwSkFEemk3WUNQM2owdGs1dFlYdHpSR0ViWG92c1dvVEtQdktnZFB4Sm9ETU4&hl=en
+              - generic [ref=e258]: Subscribe
+        - generic [ref=e266]:
+          - img [ref=e272]
+          - generic [ref=e274] [cursor=pointer]:
+            - generic [ref=e275]:
+              - 'link "SOL: enchant 6월 18일 정식오픈" [ref=e278]':
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CQZfI1ZMTarmJHdnur7wP7JjCkQrQjPuehwGL1M-K6xWwkB8QAiAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGd27CcQqkCIk40vXSkBj6oAwTIAwqqBLICT9B25G2JFVGtYixQaoDLg0cOvLisX6Gs1iMGGc9fugwTJ8BV_RC0qFqq-ZOGi8CwsTsdcwIFiJZVnxRlKJP2nJ2DIwaXwPHH0RIhBgODr9kY87okTG_Sc-E979zqzv44Iy1lzuV3h2fm4zUfgEtjYoG-cHwb3458EvcZexYx6y7jlyitu1SkvYAvFOCgw2SrDSwYr5gqFycuDNSp8jr6IffkNQ07F56hynAQSlo9QTMFz423t6yO-d_eedoiGehlZWEakMMK6oeHzXcKDqsbdegAVxsBxz4ur9AHJl9DsfozolIQSRgLLqCNZa2av9ztHd3gmtcu9ZIpXsRPWR64vKkiyxHGOnkvgr9uDLNJZHShmR8bfL85zqUPGU5F8xik467WREp42AE7fUbD0N0gHvJaiAXYheL8V5IFCAgTeIv6rZsdoAZugAedk4H8HJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFi4vZDUk9OUA2ABmgkiaHR0cHM6Ly9zb2wubmV0bWFyYmxlLmNvbS9wcmVvcmRlcrEJuzyzTlkeqqHICQDICYoCmAsBugs_CAMQBRgEIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awd2aXRwZXJi0AsSogw7KgoKCJXisQKO37ECYhMKEWNvbS5uZXRtYXJibGUuc29sahMKEWNvbS5uZXRtYXJibGUuc29seACIAQDSDAIQAZoNARKqDQJLUsgNAdINhgFodHRwczovL3NvbC5uZXRtYXJibGUuY29tL3ByZW9yZGVyP3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09ZGVtYW5kZ2VuX3BjdHYmdXRtX2NvbnRlbnQ9cHJlJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzYxNTUzNzg4MLgT____________AYgUArAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXLuCKX1QtFum6FwYoADAAOAHQGAHwGAHCGQIIAQ&gclid=EAIaIQobChMI-ceQ1JPTlAMVWfeLAR1sjDCiEAEYAiAAEgLDZPD_BwE&num=2&cid=CAASqwHkaNndcR01ZQcRYvTMCfEXV78EnXClR6TgOxLfWaryZJaIFh4aGxTx7EGUnWDhqtwaMD_WIUxByA1CqgY0nxDQY4R7X9nC4DNUe6kQJa-cRNyZUC9zZiGqESDWCxjul7vrGh61oANjrMnSUeT_Ou8inJfmha23aFqN8bUXDJsa6vDFQVdPPVDDog1G19zBVMlDn3595Kd64tQf-8_hxQXCCzmiI1ZGV-hFdl0&sig=AOD64_24hdblXUNg94q045KXl_DN_76ofw&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - 'link "게임의 모든 권한, 이제 내가 가져간다. 전지적 MMORPG SOL: enchant 6월 18일 정식오픈" [ref=e281]':
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CQZfI1ZMTarmJHdnur7wP7JjCkQrQjPuehwGL1M-K6xWwkB8QAiAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGd27CcQqkCIk40vXSkBj6oAwTIAwqqBLICT9B25G2JFVGtYixQaoDLg0cOvLisX6Gs1iMGGc9fugwTJ8BV_RC0qFqq-ZOGi8CwsTsdcwIFiJZVnxRlKJP2nJ2DIwaXwPHH0RIhBgODr9kY87okTG_Sc-E979zqzv44Iy1lzuV3h2fm4zUfgEtjYoG-cHwb3458EvcZexYx6y7jlyitu1SkvYAvFOCgw2SrDSwYr5gqFycuDNSp8jr6IffkNQ07F56hynAQSlo9QTMFz423t6yO-d_eedoiGehlZWEakMMK6oeHzXcKDqsbdegAVxsBxz4ur9AHJl9DsfozolIQSRgLLqCNZa2av9ztHd3gmtcu9ZIpXsRPWR64vKkiyxHGOnkvgr9uDLNJZHShmR8bfL85zqUPGU5F8xik467WREp42AE7fUbD0N0gHvJaiAXYheL8V5IFCAgTeIv6rZsdoAZugAedk4H8HJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFi4vZDUk9OUA2ABmgkiaHR0cHM6Ly9zb2wubmV0bWFyYmxlLmNvbS9wcmVvcmRlcrEJuzyzTlkeqqHICQDICYoCmAsBugs_CAMQBRgEIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awd2aXRwZXJi0AsSogw7KgoKCJXisQKO37ECYhMKEWNvbS5uZXRtYXJibGUuc29sahMKEWNvbS5uZXRtYXJibGUuc29seACIAQDSDAIQAZoNARKqDQJLUsgNAdINhgFodHRwczovL3NvbC5uZXRtYXJibGUuY29tL3ByZW9yZGVyP3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09ZGVtYW5kZ2VuX3BjdHYmdXRtX2NvbnRlbnQ9cHJlJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzYxNTUzNzg4MLgT____________AYgUArAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXLuCKX1QtFum6FwYoADAAOAHQGAHwGAHCGQIIAQ&gclid=EAIaIQobChMI-ceQ1JPTlAMVWfeLAR1sjDCiEAEYAiAAEgLDZPD_BwE&num=2&cid=CAASqwHkaNndcR01ZQcRYvTMCfEXV78EnXClR6TgOxLfWaryZJaIFh4aGxTx7EGUnWDhqtwaMD_WIUxByA1CqgY0nxDQY4R7X9nC4DNUe6kQJa-cRNyZUC9zZiGqESDWCxjul7vrGh61oANjrMnSUeT_Ou8inJfmha23aFqN8bUXDJsa6vDFQVdPPVDDog1G19zBVMlDn3595Kd64tQf-8_hxQXCCzmiI1ZGV-hFdl0&sig=AOD64_24hdblXUNg94q045KXl_DN_76ofw&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - generic [ref=e282]:
+                - generic [ref=e284]:
+                  - generic [ref=e285]: Sponsored
+                  - text: ·
+                - generic [ref=e287]: SOL:enchant
+            - button "My Ad Center" [ref=e290]
+        - generic [ref=e296]:
+          - generic [ref=e299]:
+            - img [ref=e301]
+            - heading "Shorts" [level=2] [ref=e304]
+          - generic [ref=e306]:
+            - generic [ref=e309]:
+              - link [ref=e310] [cursor=pointer]:
+                - /url: /shorts/xsaaPWKaIF0
+              - generic [ref=e314] [cursor=pointer]:
+                - link "Wonyoti's shockingly honest statement" [ref=e315]:
+                  - /url: /shorts/xsaaPWKaIF0
+                - generic [ref=e316]: 1.1M views
+              - button "More actions" [ref=e318] [cursor=pointer]
+            - generic [ref=e326]:
+              - link [ref=e327] [cursor=pointer]:
+                - /url: /shorts/z-s9GYn7QYE
+              - generic [ref=e331] [cursor=pointer]:
+                - link "워뇨띠가 직접 공개한 매매법" [ref=e332]:
+                  - /url: /shorts/z-s9GYn7QYE
+                - generic [ref=e333]: 123K views
+              - button "More actions" [ref=e335] [cursor=pointer]
+            - generic [ref=e343]:
+              - link [ref=e344] [cursor=pointer]:
+                - /url: /shorts/WObGESzSDeU
+              - generic [ref=e348] [cursor=pointer]:
+                - link "코인 워뇨띠가 3천억을 만들 수 있었던 캔들 매매법" [ref=e349]:
+                  - /url: /shorts/WObGESzSDeU
+                - generic [ref=e350]: 54K views
+              - button "More actions" [ref=e352] [cursor=pointer]
+            - generic [ref=e360]:
+              - link [ref=e361] [cursor=pointer]:
+                - /url: /shorts/HoqCHtJXs3k
+              - generic [ref=e365] [cursor=pointer]:
+                - link "ICT연마로 사파적 차트사고를" [ref=e366]:
+                  - /url: /shorts/HoqCHtJXs3k
+                - generic [ref=e367]: 49K views
+              - button "More actions" [ref=e369] [cursor=pointer]
+            - generic [ref=e377]:
+              - link [ref=e378] [cursor=pointer]:
+                - /url: /shorts/teQefpLDvVI
+              - generic [ref=e382] [cursor=pointer]:
+                - 'link "워뇨띠 캔들, 거래량 보는법 #shorts #비트코인 #선물매매" [ref=e383]':
+                  - /url: /shorts/teQefpLDvVI
+                - generic [ref=e384]: 25K views
+              - button "More actions" [ref=e386] [cursor=pointer]
+        - generic [ref=e393]:
+          - link [ref=e395] [cursor=pointer]:
+            - /url: /watch?v=XEJg7sCz8tw&pp=ygUd7JuM64eo652gIO2KuOugiOydtOuUqSDsoITrnrU%3D
+          - generic [ref=e397] [cursor=pointer]:
+            - generic [ref=e398]:
+              - heading "[비트코인]3000억 부자 킹갓 제너럴 워뇨띠 Q&A FULL 버전 정리본(박제용) 1 hour, 3 minutes" [level=3] [ref=e400]:
+                - link "[비트코인]3000억 부자 킹갓 제너럴 워뇨띠 Q&A FULL 버전 정리본(박제용) 1 hour, 3 minutes" [ref=e401]:
+                  - /url: /watch?v=XEJg7sCz8tw&pp=ygUd7JuM64eo652gIO2KuOugiOydtOuUqSDsoITrnrU%3D
+                  - text: "[비트코인]3000억 부자 킹갓 제너럴 워뇨띠 Q&A FULL 버전 정리본(박제용)"
+              - generic [ref=e404]:
+                - generic [ref=e405]: 123K views
+                - generic [ref=e406]: •4 years ago
+            - generic [ref=e407]:
+              - link "Go to channel 박호구 다이어리" [ref=e408]:
+                - /url: /@hogoo
+              - link "박호구 다이어리" [ref=e413]:
+                - /url: /@hogoo
+            - generic [ref=e414]:
+              - generic [ref=e415]: 워뇨띠가 사용하는 비트코인 선물거래소 -------------------------------------------------------------------- [비트겟bitget]50% 수수료 무기한 할인+ ...
+              - tooltip "tooltip"

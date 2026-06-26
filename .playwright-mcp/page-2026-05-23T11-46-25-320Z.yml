@@ -1,0 +1,1901 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e6]:
+        - heading "Navigation Menu" [level=2] [ref=e7]
+        - generic [ref=e8]:
+          - link "Homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+          - generic [ref=e13]:
+            - navigation "Global" [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Platform" [ref=e20] [cursor=pointer]:
+                    - text: Platform
+                    - img [ref=e21]
+                - listitem [ref=e23]:
+                  - button "Solutions" [ref=e25] [cursor=pointer]:
+                    - text: Solutions
+                    - img [ref=e26]
+                - listitem [ref=e28]:
+                  - button "Resources" [ref=e30] [cursor=pointer]:
+                    - text: Resources
+                    - img [ref=e31]
+                - listitem [ref=e33]:
+                  - button "Open Source" [ref=e35] [cursor=pointer]:
+                    - text: Open Source
+                    - img [ref=e36]
+                - listitem [ref=e38]:
+                  - button "Enterprise" [ref=e40] [cursor=pointer]:
+                    - text: Enterprise
+                    - img [ref=e41]
+                - listitem [ref=e43]:
+                  - link "Pricing" [ref=e44] [cursor=pointer]:
+                    - /url: https://github.com/pricing
+                    - generic [ref=e45]: Pricing
+            - generic [ref=e46]:
+              - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+                - img [ref=e51]
+              - link "Sign in" [ref=e54] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fisaac-sim%2FIsaacGymEnvs%2Ffind%2Fmain
+              - link "Sign up" [ref=e55] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Ftree%2Ffind&source=header-repo&source_repo=isaac-sim%2FIsaacGymEnvs
+              - button "Appearance settings" [ref=e58] [cursor=pointer]:
+                - img
+    - main [ref=e62]:
+      - generic [ref=e63]: This repository was archived by the owner on Apr 14, 2026. It is now read-only.
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - generic [ref=e67]:
+            - img [ref=e68]
+            - link "isaac-sim" [ref=e71] [cursor=pointer]:
+              - /url: /isaac-sim
+            - generic [ref=e72]: /
+            - strong [ref=e73]:
+              - link "IsaacGymEnvs" [ref=e74] [cursor=pointer]:
+                - /url: /isaac-sim/IsaacGymEnvs
+            - generic [ref=e75]: Public archive
+          - generic [ref=e76]:
+            - list:
+              - listitem [ref=e77]:
+                - link "You must be signed in to change notification settings" [ref=e78] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fisaac-sim%2FIsaacGymEnvs
+                  - img [ref=e79]
+                  - text: Notifications
+              - listitem [ref=e81]:
+                - link "Fork 516" [ref=e82] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fisaac-sim%2FIsaacGymEnvs
+                  - img [ref=e83]
+                  - text: Fork
+                  - generic "516" [ref=e85]
+              - listitem [ref=e86]:
+                - link "You must be signed in to star a repository" [ref=e88] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fisaac-sim%2FIsaacGymEnvs
+                  - img [ref=e89]
+                  - text: Star
+                  - generic "2934 users starred this repository" [ref=e91]: 2.9k
+        - navigation "Repository" [ref=e92]:
+          - list [ref=e93]:
+            - listitem [ref=e94]:
+              - link "Code" [ref=e95] [cursor=pointer]:
+                - /url: /isaac-sim/IsaacGymEnvs
+                - img [ref=e96]
+                - generic [ref=e98]: Code
+            - listitem [ref=e99]:
+              - link "Issues 145" [ref=e100] [cursor=pointer]:
+                - /url: /isaac-sim/IsaacGymEnvs/issues
+                - img [ref=e101]
+                - generic [ref=e104]: Issues
+                - generic "145" [ref=e105]
+            - listitem [ref=e106]:
+              - link "Pull requests 13" [ref=e107] [cursor=pointer]:
+                - /url: /isaac-sim/IsaacGymEnvs/pulls
+                - img [ref=e108]
+                - generic [ref=e110]: Pull requests
+                - generic "13" [ref=e111]
+            - listitem [ref=e112]:
+              - link "Actions" [ref=e113] [cursor=pointer]:
+                - /url: /isaac-sim/IsaacGymEnvs/actions
+                - img [ref=e114]
+                - generic [ref=e116]: Actions
+            - listitem [ref=e117]:
+              - link "Projects" [ref=e118] [cursor=pointer]:
+                - /url: /isaac-sim/IsaacGymEnvs/projects
+                - img [ref=e119]
+                - generic [ref=e121]: Projects
+            - listitem [ref=e122]:
+              - link "Security and quality" [ref=e123] [cursor=pointer]:
+                - /url: /isaac-sim/IsaacGymEnvs/security
+                - img [ref=e124]
+                - generic [ref=e126]: Security and quality
+            - listitem [ref=e127]:
+              - link "Insights" [ref=e128] [cursor=pointer]:
+                - /url: /isaac-sim/IsaacGymEnvs/pulse
+                - img [ref=e129]
+                - generic [ref=e131]: Insights
+      - generic [ref=e500]:
+        - generic [ref=e502]:
+          - generic [ref=e505]:
+            - generic [ref=e506]:
+              - generic [ref=e507]:
+                - heading "Collapse file tree" [level=2] [ref=e508]:
+                  - button "Collapse file tree" [expanded] [ref=e509] [cursor=pointer]:
+                    - img [ref=e510]
+                - heading "Files" [level=2] [ref=e513]
+              - generic [ref=e514]:
+                - button "main branch" [ref=e516] [cursor=pointer]:
+                  - generic [ref=e517]:
+                    - generic [ref=e519]:
+                      - img [ref=e521]
+                      - generic [ref=e524]: main
+                    - generic:
+                      - img
+                - button "Search this repository (forward slash)" [ref=e526] [cursor=pointer]:
+                  - img [ref=e527]
+            - generic [ref=e530]:
+              - img [ref=e532]
+              - combobox "Go to file" [ref=e534]
+            - navigation "File Tree Navigation" [ref=e540]:
+              - tree "Files" [ref=e542]:
+                - treeitem ".gitlab" [level=1] [ref=e543]:
+                  - generic [ref=e544] [cursor=pointer]:
+                    - img [ref=e546]
+                    - generic [ref=e548]:
+                      - img [ref=e552]
+                      - generic [ref=e554]: .gitlab
+                - treeitem "assets" [level=1] [ref=e555]:
+                  - generic [ref=e556] [cursor=pointer]:
+                    - img [ref=e558]
+                    - generic [ref=e560]:
+                      - img [ref=e564]
+                      - generic [ref=e566]: assets
+                - treeitem "docs" [level=1] [ref=e567]:
+                  - generic [ref=e568] [cursor=pointer]:
+                    - img [ref=e570]
+                    - generic [ref=e572]:
+                      - img [ref=e576]
+                      - generic [ref=e578]: docs
+                - treeitem "isaacgymenvs" [expanded] [level=1] [ref=e579]:
+                  - generic [ref=e580] [cursor=pointer]:
+                    - img [ref=e582]
+                    - generic [ref=e584]:
+                      - img [ref=e588]
+                      - generic [ref=e590]: isaacgymenvs
+                  - group "isaacgymenvs" [ref=e591]:
+                    - treeitem "cfg" [expanded] [level=2] [ref=e592]:
+                      - generic [ref=e593] [cursor=pointer]:
+                        - img [ref=e598]
+                        - generic [ref=e600]:
+                          - img [ref=e604]
+                          - generic [ref=e606]: cfg
+                      - group "cfg" [ref=e607]:
+                        - treeitem "pbt" [level=3] [ref=e608]:
+                          - generic [ref=e609] [cursor=pointer]:
+                            - img [ref=e615]
+                            - generic [ref=e617]:
+                              - img [ref=e621]
+                              - generic [ref=e623]: pbt
+                        - treeitem "task" [expanded] [level=3] [ref=e624]:
+                          - generic [ref=e625] [cursor=pointer]:
+                            - img [ref=e631]
+                            - generic [ref=e633]:
+                              - img [ref=e637]
+                              - generic [ref=e639]: task
+                          - group "task" [ref=e640]:
+                            - treeitem "env" [level=4] [ref=e641]:
+                              - generic [ref=e642] [cursor=pointer]:
+                                - img [ref=e649]
+                                - generic [ref=e651]:
+                                  - img [ref=e655]
+                                  - generic [ref=e657]: env
+                            - treeitem "AllegroHand.yaml" [level=4] [ref=e658]:
+                              - generic [ref=e665] [cursor=pointer]:
+                                - img [ref=e668]
+                                - generic [ref=e670]: AllegroHand.yaml
+                            - treeitem "AllegroHandDextremeADR.yaml" [level=4] [ref=e671]:
+                              - generic [ref=e678] [cursor=pointer]:
+                                - img [ref=e681]
+                                - generic [ref=e683]: AllegroHandDextremeADR.yaml
+                            - treeitem "AllegroHandDextremeManualDR.yaml" [level=4] [ref=e684]:
+                              - generic [ref=e691] [cursor=pointer]:
+                                - img [ref=e694]
+                                - generic [ref=e696]: AllegroHandDextremeManualDR.yaml
+                            - treeitem "AllegroHandFF.yaml" [level=4] [ref=e697]:
+                              - generic [ref=e704] [cursor=pointer]:
+                                - img [ref=e707]
+                                - generic [ref=e709]: AllegroHandFF.yaml
+                            - treeitem "AllegroHandLSTM.yaml" [level=4] [ref=e710]:
+                              - generic [ref=e717] [cursor=pointer]:
+                                - img [ref=e720]
+                                - generic [ref=e722]: AllegroHandLSTM.yaml
+                            - treeitem "AllegroHandLSTM_Big.yaml" [level=4] [ref=e723]:
+                              - generic [ref=e730] [cursor=pointer]:
+                                - img [ref=e733]
+                                - generic [ref=e735]: AllegroHandLSTM_Big.yaml
+                            - treeitem "AllegroKuka.yaml" [level=4] [ref=e736]:
+                              - generic [ref=e743] [cursor=pointer]:
+                                - img [ref=e746]
+                                - generic [ref=e748]: AllegroKuka.yaml
+                            - treeitem "AllegroKukaLSTM.yaml" [level=4] [ref=e749]:
+                              - generic [ref=e756] [cursor=pointer]:
+                                - img [ref=e759]
+                                - generic [ref=e761]: AllegroKukaLSTM.yaml
+                            - treeitem "AllegroKukaTwoArmsLSTM.yaml" [level=4] [ref=e762]:
+                              - generic [ref=e769] [cursor=pointer]:
+                                - img [ref=e772]
+                                - generic [ref=e774]: AllegroKukaTwoArmsLSTM.yaml
+                            - treeitem "Ant.yaml" [level=4] [ref=e775]:
+                              - generic [ref=e782] [cursor=pointer]:
+                                - img [ref=e785]
+                                - generic [ref=e787]: Ant.yaml
+                            - treeitem "AntSAC.yaml" [level=4] [ref=e788]:
+                              - generic [ref=e795] [cursor=pointer]:
+                                - img [ref=e798]
+                                - generic [ref=e800]: AntSAC.yaml
+                            - treeitem "Anymal.yaml" [level=4] [ref=e801]:
+                              - generic [ref=e808] [cursor=pointer]:
+                                - img [ref=e811]
+                                - generic [ref=e813]: Anymal.yaml
+                            - treeitem "AnymalTerrain.yaml" [level=4] [ref=e814]:
+                              - generic [ref=e821] [cursor=pointer]:
+                                - img [ref=e824]
+                                - generic [ref=e826]: AnymalTerrain.yaml
+                            - treeitem "BallBalance.yaml" [level=4] [ref=e827]:
+                              - generic [ref=e834] [cursor=pointer]:
+                                - img [ref=e837]
+                                - generic [ref=e839]: BallBalance.yaml
+                            - treeitem "Cartpole.yaml" [level=4] [ref=e840]:
+                              - generic [ref=e847] [cursor=pointer]:
+                                - img [ref=e850]
+                                - generic [ref=e852]: Cartpole.yaml
+                            - treeitem "FactoryBase.yaml" [level=4] [ref=e853]:
+                              - generic [ref=e860] [cursor=pointer]:
+                                - img [ref=e863]
+                                - generic [ref=e865]: FactoryBase.yaml
+                            - treeitem "FactoryEnvGears.yaml" [level=4] [ref=e866]:
+                              - generic [ref=e873] [cursor=pointer]:
+                                - img [ref=e876]
+                                - generic [ref=e878]: FactoryEnvGears.yaml
+                            - treeitem "FactoryEnvInsertion.yaml" [level=4] [ref=e879]:
+                              - generic [ref=e886] [cursor=pointer]:
+                                - img [ref=e889]
+                                - generic [ref=e891]: FactoryEnvInsertion.yaml
+                            - treeitem "FactoryEnvNutBolt.yaml" [level=4] [ref=e892]:
+                              - generic [ref=e899] [cursor=pointer]:
+                                - img [ref=e902]
+                                - generic [ref=e904]: FactoryEnvNutBolt.yaml
+                            - treeitem "FactoryTaskGears.yaml" [level=4] [ref=e905]:
+                              - generic [ref=e912] [cursor=pointer]:
+                                - img [ref=e915]
+                                - generic [ref=e917]: FactoryTaskGears.yaml
+                            - treeitem "FactoryTaskInsertion.yaml" [level=4] [ref=e918]:
+                              - generic [ref=e925] [cursor=pointer]:
+                                - img [ref=e928]
+                                - generic [ref=e930]: FactoryTaskInsertion.yaml
+                            - treeitem "FactoryTaskNutBoltPick.yaml" [level=4] [ref=e931]:
+                              - generic [ref=e938] [cursor=pointer]:
+                                - img [ref=e941]
+                                - generic [ref=e943]: FactoryTaskNutBoltPick.yaml
+                            - treeitem "FactoryTaskNutBoltPlace.yaml" [level=4] [ref=e944]:
+                              - generic [ref=e951] [cursor=pointer]:
+                                - img [ref=e954]
+                                - generic [ref=e956]: FactoryTaskNutBoltPlace.yaml
+                            - treeitem "FactoryTaskNutBoltScrew.yaml" [level=4] [ref=e957]:
+                              - generic [ref=e964] [cursor=pointer]:
+                                - img [ref=e967]
+                                - generic [ref=e969]: FactoryTaskNutBoltScrew.yaml
+                            - treeitem "FrankaCabinet.yaml" [level=4] [ref=e970]:
+                              - generic [ref=e977] [cursor=pointer]:
+                                - img [ref=e980]
+                                - generic [ref=e982]: FrankaCabinet.yaml
+                            - treeitem "FrankaCubeStack.yaml" [level=4] [ref=e983]:
+                              - generic [ref=e990] [cursor=pointer]:
+                                - img [ref=e993]
+                                - generic [ref=e995]: FrankaCubeStack.yaml
+                            - treeitem "Humanoid.yaml" [level=4] [ref=e996]:
+                              - generic [ref=e1003] [cursor=pointer]:
+                                - img [ref=e1006]
+                                - generic [ref=e1008]: Humanoid.yaml
+                            - treeitem "HumanoidAMP.yaml" [level=4] [ref=e1009]:
+                              - generic [ref=e1016] [cursor=pointer]:
+                                - img [ref=e1019]
+                                - generic [ref=e1021]: HumanoidAMP.yaml
+                            - treeitem "HumanoidAMPHands.yaml" [level=4] [ref=e1022]:
+                              - generic [ref=e1029] [cursor=pointer]:
+                                - img [ref=e1032]
+                                - generic [ref=e1034]: HumanoidAMPHands.yaml
+                            - treeitem "HumanoidSAC.yaml" [level=4] [ref=e1035]:
+                              - generic [ref=e1042] [cursor=pointer]:
+                                - img [ref=e1045]
+                                - generic [ref=e1047]: HumanoidSAC.yaml
+                            - treeitem "IndustRealBase.yaml" [level=4] [ref=e1048]:
+                              - generic [ref=e1055] [cursor=pointer]:
+                                - img [ref=e1058]
+                                - generic [ref=e1060]: IndustRealBase.yaml
+                            - treeitem "IndustRealEnvGears.yaml" [level=4] [ref=e1061]:
+                              - generic [ref=e1068] [cursor=pointer]:
+                                - img [ref=e1071]
+                                - generic [ref=e1073]: IndustRealEnvGears.yaml
+                            - treeitem "IndustRealEnvPegs.yaml" [level=4] [ref=e1074]:
+                              - generic [ref=e1081] [cursor=pointer]:
+                                - img [ref=e1084]
+                                - generic [ref=e1086]: IndustRealEnvPegs.yaml
+                            - treeitem "IndustRealTaskGearsInsert.yaml" [level=4] [ref=e1087]:
+                              - generic [ref=e1094] [cursor=pointer]:
+                                - img [ref=e1097]
+                                - generic [ref=e1099]: IndustRealTaskGearsInsert.yaml
+                            - treeitem "IndustRealTaskPegsInsert.yaml" [level=4] [ref=e1100]:
+                              - generic [ref=e1107] [cursor=pointer]:
+                                - img [ref=e1110]
+                                - generic [ref=e1112]: IndustRealTaskPegsInsert.yaml
+                            - treeitem "Ingenuity.yaml" [level=4] [ref=e1113]:
+                              - generic [ref=e1120] [cursor=pointer]:
+                                - img [ref=e1123]
+                                - generic [ref=e1125]: Ingenuity.yaml
+                            - treeitem "Quadcopter.yaml" [level=4] [ref=e1126]:
+                              - generic [ref=e1133] [cursor=pointer]:
+                                - img [ref=e1136]
+                                - generic [ref=e1138]: Quadcopter.yaml
+                            - treeitem "ShadowHand.yaml" [level=4] [ref=e1139]:
+                              - generic [ref=e1146] [cursor=pointer]:
+                                - img [ref=e1149]
+                                - generic [ref=e1151]: ShadowHand.yaml
+                            - treeitem "ShadowHandOpenAI_FF.yaml" [level=4] [ref=e1152]:
+                              - generic [ref=e1159] [cursor=pointer]:
+                                - img [ref=e1162]
+                                - generic [ref=e1164]: ShadowHandOpenAI_FF.yaml
+                            - treeitem "ShadowHandOpenAI_LSTM.yaml" [level=4] [ref=e1165]:
+                              - generic [ref=e1172] [cursor=pointer]:
+                                - img [ref=e1175]
+                                - generic [ref=e1177]: ShadowHandOpenAI_LSTM.yaml
+                            - treeitem "ShadowHandTest.yaml" [level=4] [ref=e1178]:
+                              - generic [ref=e1185] [cursor=pointer]:
+                                - img [ref=e1188]
+                                - generic [ref=e1190]: ShadowHandTest.yaml
+                            - treeitem "Trifinger.yaml" [level=4] [ref=e1191]:
+                              - generic [ref=e1198] [cursor=pointer]:
+                                - img [ref=e1201]
+                                - generic [ref=e1203]: Trifinger.yaml
+                        - treeitem "train" [level=3] [ref=e1204]:
+                          - generic [ref=e1205] [cursor=pointer]:
+                            - img [ref=e1211]
+                            - generic [ref=e1213]:
+                              - img [ref=e1217]
+                              - generic [ref=e1219]: train
+                        - treeitem "config.yaml" [level=3] [ref=e1220]:
+                          - generic [ref=e1226] [cursor=pointer]:
+                            - img [ref=e1229]
+                            - generic [ref=e1231]: config.yaml
+                    - treeitem "learning" [level=2] [ref=e1232]:
+                      - generic [ref=e1233] [cursor=pointer]:
+                        - img [ref=e1238]
+                        - generic [ref=e1240]:
+                          - img [ref=e1244]
+                          - generic [ref=e1246]: learning
+                    - treeitem "pbt" [level=2] [ref=e1247]:
+                      - generic [ref=e1248] [cursor=pointer]:
+                        - img [ref=e1253]
+                        - generic [ref=e1255]:
+                          - img [ref=e1259]
+                          - generic [ref=e1261]: pbt
+                    - treeitem "tasks" [level=2] [ref=e1262]:
+                      - generic [ref=e1263] [cursor=pointer]:
+                        - img [ref=e1268]
+                        - generic [ref=e1270]:
+                          - img [ref=e1274]
+                          - generic [ref=e1276]: tasks
+                    - treeitem "utils" [level=2] [ref=e1277]:
+                      - generic [ref=e1278] [cursor=pointer]:
+                        - img [ref=e1283]
+                        - generic [ref=e1285]:
+                          - img [ref=e1289]
+                          - generic [ref=e1291]: utils
+                    - treeitem "__init__.py" [level=2] [ref=e1292]:
+                      - generic [ref=e1297] [cursor=pointer]:
+                        - img [ref=e1300]
+                        - generic [ref=e1302]: __init__.py
+                    - treeitem "train.py" [level=2] [ref=e1303]:
+                      - generic [ref=e1308] [cursor=pointer]:
+                        - img [ref=e1311]
+                        - generic [ref=e1313]: train.py
+                - treeitem ".gitattributes" [level=1] [ref=e1314]:
+                  - generic [ref=e1316] [cursor=pointer]:
+                    - img [ref=e1319]
+                    - generic [ref=e1321]: .gitattributes
+                - treeitem ".gitignore" [level=1] [ref=e1322]:
+                  - generic [ref=e1324] [cursor=pointer]:
+                    - img [ref=e1327]
+                    - generic [ref=e1329]: .gitignore
+                - treeitem ".pre-commit-config.yaml" [level=1] [ref=e1330]:
+                  - generic [ref=e1332] [cursor=pointer]:
+                    - img [ref=e1335]
+                    - generic [ref=e1337]: .pre-commit-config.yaml
+                - treeitem "LICENSE.txt" [level=1] [ref=e1338]:
+                  - generic [ref=e1340] [cursor=pointer]:
+                    - img [ref=e1343]
+                    - generic [ref=e1345]: LICENSE.txt
+                - treeitem "README.md" [level=1] [ref=e1346]:
+                  - generic [ref=e1348] [cursor=pointer]:
+                    - img [ref=e1351]
+                    - generic [ref=e1353]: README.md
+                - treeitem "setup.py" [level=1] [ref=e1354]:
+                  - generic [ref=e1356] [cursor=pointer]:
+                    - img [ref=e1359]
+                    - generic [ref=e1361]: setup.py
+          - slider "Draggable pane splitter" [ref=e1363]
+        - generic [ref=e1366]:
+          - generic [ref=e1370]:
+            - generic [ref=e1372]:
+              - navigation "Breadcrumbs" [ref=e1373]:
+                - heading "Breadcrumbs" [level=2] [ref=e1374]
+                - list [ref=e1375]:
+                  - listitem [ref=e1376]:
+                    - link "IsaacGymEnvs" [ref=e1377] [cursor=pointer]:
+                      - /url: /isaac-sim/IsaacGymEnvs/tree/main
+                  - listitem [ref=e1378]:
+                    - text: /
+                    - link "isaacgymenvs" [ref=e1379] [cursor=pointer]:
+                      - /url: /isaac-sim/IsaacGymEnvs/tree/main/isaacgymenvs
+                  - listitem [ref=e1380]:
+                    - text: /
+                    - link "cfg" [ref=e1381] [cursor=pointer]:
+                      - /url: /isaac-sim/IsaacGymEnvs/tree/main/isaacgymenvs/cfg
+                  - listitem [ref=e1382]:
+                    - text: /
+                    - link "task" [ref=e1383] [cursor=pointer]:
+                      - /url: /isaac-sim/IsaacGymEnvs/tree/main/isaacgymenvs/cfg/task
+              - generic [ref=e1384]:
+                - text: /
+                - heading "AllegroHandDextremeADR.yaml" [level=1] [ref=e1385]
+              - button "Copy path" [ref=e1386] [cursor=pointer]:
+                - img [ref=e1387]
+            - button "More file actions" [ref=e1393] [cursor=pointer]:
+              - img [ref=e1394]
+          - generic [ref=e1396]:
+            - generic [ref=e1398]:
+              - heading "Latest commit" [level=2] [ref=e1399]
+              - generic [ref=e1400]:
+                - generic [ref=e1402]:
+                  - img "author" [ref=e1403]
+                  - generic "Tyler Lum" [ref=e1404]
+                - link "Fix usage of enableCameraSensors" [ref=e1408] [cursor=pointer]:
+                  - /url: /isaac-sim/IsaacGymEnvs/commit/d0b81c188679caa8ac98cd4fe954bd68a924a3b4
+              - generic [ref=e1409]:
+                - generic [ref=e1411]:
+                  - link "Commit d0b81c1" [ref=e1412] [cursor=pointer]:
+                    - /url: /isaac-sim/IsaacGymEnvs/commit/d0b81c188679caa8ac98cd4fe954bd68a924a3b4
+                    - text: d0b81c1
+                  - text: ·
+                  - generic "Jul 11, 2023, 3:38 AM GMT+9" [ref=e1413]: Jul 11, 20233 years ago
+                - generic [ref=e1414]:
+                  - heading "History" [level=2] [ref=e1415]
+                  - link "History" [ref=e1416] [cursor=pointer]:
+                    - /url: /isaac-sim/IsaacGymEnvs/commits/main/isaacgymenvs/cfg/task/AllegroHandDextremeADR.yaml
+                    - generic [ref=e1417]:
+                      - generic:
+                        - img
+                      - generic [ref=e1418]: History
+            - generic [ref=e1420]:
+              - generic [ref=e1422]:
+                - heading "File metadata and controls" [level=2] [ref=e1423]
+                - list "File view" [ref=e1425]:
+                  - listitem [ref=e1426]:
+                    - button "Code" [ref=e1427] [cursor=pointer]:
+                      - generic [ref=e1429]: Code
+                  - listitem [ref=e1430]:
+                    - button "Blame" [ref=e1431] [cursor=pointer]:
+                      - generic [ref=e1433]: Blame
+                - generic [ref=e1434]:
+                  - generic [ref=e1436]:
+                    - link "Raw" [ref=e1438] [cursor=pointer]:
+                      - /url: https://github.com/isaac-sim/IsaacGymEnvs/raw/refs/heads/main/isaacgymenvs/cfg/task/AllegroHandDextremeADR.yaml
+                      - generic [ref=e1440]: Raw
+                    - button "Copy raw file" [ref=e1442] [cursor=pointer]:
+                      - img [ref=e1443]
+                    - button "Download raw file" [ref=e1447] [cursor=pointer]:
+                      - img [ref=e1448]
+                  - button "Open symbols panel" [ref=e1451] [cursor=pointer]:
+                    - img [ref=e1452]
+              - region "AllegroHandDextremeADR.yaml" [ref=e1455]:
+                - generic [ref=e1459]:
+                  - textbox "file content" [ref=e1464]: "# used to create the object name: AllegroHandADR physics_engine: ${..physics_engine} # if given, will override the device setting in gym. env: numEnvs: ${resolve_default:16384,${...num_envs}} envSpacing: 0.75 episodeLength: 320 # Not used, but would be 8 sec if resetTime is not set resetTime: 8 # Max time till reset, in seconds, if a goal wasn't achieved. Will overwrite the episodeLength if is > 0. enableDebugVis: False aggregateMode: 1 clipObservations: 50.0 clipActions: 1.0 discreteActions: False stiffnessScale: 1.0 forceLimitScale: 1.0 useRelativeControl: False dofSpeedScale: 20.0 use_capped_dof_control: False max_dof_radians_per_second: 6.2832 max_effort: 0.5 num_success_hold_steps: 0 actionsMovingAverage: range: [0.15, 0.2] schedule_steps: 1000_000 #schedule_steps: 300_000 schedule_freq: 500 # schedule every 500 steps for stability controlFrequencyInv: 2 #2 # 30 Hz #3 # 20 Hz cubeObsDelayProb: 0.3 maxObjectSkipObs: 2 # Action Delay related actionDelayProbMax: 0.3 actionLatencyMax: 15 actionLatencyScheduledSteps: 2_000_000 startPositionNoise: 0.01 startRotationNoise: 0.0 resetPositionNoise: 0.03 resetPositionNoiseZ: 0.01 resetRotationNoise: 0.0 resetDofPosRandomInterval: 0.2 resetDofVelRandomInterval: 0.0 startObjectPoseDY: -0.15 startObjectPoseDZ: 0.06 # Random forces applied to the object forceScale: 2.0 forceProbRange: [0.001, 0.1] forceDecay: 0.99 forceDecayInterval: 0.08 # Random Adversarial Perturbations random_network_adversary: enable: True # prob: 0.30 weight_sample_freq: 1000 # steps random_cube_observation: enable: True prob: 0.3 # reward -> dictionary distRewardScale: -10.0 rotRewardScale: 1.0 rotEps: 0.1 actionPenaltyScale: -0.001 actionDeltaPenaltyScale: -0.2 #-0.01 reachGoalBonus: 250 fallDistance: 0.24 fallPenalty: 0.0 objectType: \"block\" # can be block, egg or pen observationType: \"no_vel\" #\"full_state\" # can be \"no_vel\", \"full_state\" asymmetric_observations: True successTolerance: 0.1 printNumSuccesses: False maxConsecutiveSuccesses: 50 asset: assetFileName: \"urdf/kuka_allegro_description/allegro_touch_sensor.urdf\" assetFileNameBlock: \"urdf/objects/cube_multicolor_allegro.urdf\" assetFileNameEgg: \"mjcf/open_ai_assets/hand/egg.xml\" assetFileNamePen: \"mjcf/open_ai_assets/hand/pen.xml\" # set to True if you use camera sensors in the environment enableCameraSensors: False task: randomize: True randomization_params: frequency: 720 # Define how many simulation steps between generating new randomizations sim_params: gravity: range: [0, 0.6] operation: \"additive\" distribution: \"gaussian\" actor_params: hand: scale: range: [0.95, 1.05] operation: \"scaling\" distribution: \"uniform\" setup_only: True # Property will only be randomized once before simulation is started. See Domain Randomization Documentation for more info. # schedule: \"linear\" # \"linear\" will scale the current random sample by ``min(current num steps, schedule_steps) / schedule_steps` # schedule_steps: 30000 color: True dof_properties: damping: range: [0.01, 20.0] operation: \"scaling\" distribution: \"loguniform\" stiffness: range: [0.01, 20.0] operation: \"scaling\" distribution: \"loguniform\" # schedule: \"linear\" # \"linear\" will scale the current random sample by `min(current num steps, schedule_steps) / schedule_steps` # schedule_steps: 30000 effort: range: [0.4, 10.0] operation: \"scaling\" distribution: \"uniform\" friction: range: [0.0, 10.0] operation: \"scaling\" distribution: \"uniform\" armature: range: [0.0, 10.0] operation: \"scaling\" distribution: \"uniform\" lower: # range: [0, 0.01] # operation: \"additive\" # distribution: \"gaussian\" range: [-5.0, 5.0] operation: \"additive\" distribution: \"uniform\" upper: # range: [0, 0.01] # operation: \"additive\" # distribution: \"gaussian\" range: [-5.0, 5.0] operation: \"additive\" distribution: \"uniform\" # schedule: \"linear\" # \"linear\" will scale the current random sample by `min(current num steps, schedule_steps) / schedule_steps` # schedule_steps: 30000 rigid_body_properties: mass: # range: [0.5, 2.0] # range: [0.5, 1.5] range: [0.4, 1.6] # change when runtime API is available operation: \"scaling\" distribution: \"uniform\" setup_only: False # Property will only be randomized once before simulation is started. See Domain Randomization Documentation for more info. # schedule: \"linear\" # \"linear\" will scale the current random sample by `min(current num steps, schedule_steps) / schedule_steps` # schedule_steps: 30000 rigid_shape_properties: friction: num_buckets: 250 # range: [0.2, 1.2] #[0.7, 1.3] range: [0.01, 2.0] operation: \"scaling\" distribution: \"uniform\" # schedule: \"linear\" # \"linear\" will scale the current random sample by `min(current num steps, schedule_steps) / schedule_steps` # schedule_steps: 30000 restitution: num_buckets: 100 range: [0.0, 0.5] operation: \"additive\" distribution: \"uniform\" object: scale: range: [0.95, 1.05] operation: \"scaling\" distribution: \"uniform\" setup_only: True # Property will only be randomized once before simulation is started. See Domain Randomization Documentation for more info. # schedule: \"linear\" # \"linear\" will scale the current random sample by ``min(current num steps, schedule_steps) / schedule_steps` # schedule_steps: 30000 rigid_body_properties: mass: # range: [0.5, 1.5] range: [0.3, 1.7] # after fixing the API expand it even more operation: \"scaling\" distribution: \"uniform\" setup_only: False # Property will only be randomized once before simulation is started. See Domain Randomization Documentation for more info. # schedule: \"linear\" # \"linear\" will scale the current random sample by ``min(current num steps, schedule_steps) / schedule_steps` # schedule_steps: 30000 rigid_shape_properties: friction: # num_buckets: 250 # range: [0.2, 1.2] #[0.7, 1.3] # operation: \"scaling\" # distribution: \"uniform\" num_buckets: 250 range: [0.01, 2.0] operation: \"scaling\" distribution: \"uniform\" # distribution: \"loguniform\" # schedule: \"linear\" # \"linear\" will scale the current random sample by `min(current num steps, schedule_steps) / schedule_steps` # schedule_steps: 30000 restitution: num_buckets: 100 range: [0.0, 0.5] operation: \"additive\" distribution: \"uniform\" adr: use_adr: True # set to false to not do update ADR ranges. useful for evaluation or training a base policy update_adr_ranges: True clear_other_queues: False # if set, boundary sampling and performance eval will occur at (bound + delta) instead of at bound. adr_extended_boundary_sample: False worker_adr_boundary_fraction: 0.4 # fraction of workers dedicated to measuring perf of ends of ADR ranges to update the ranges adr_queue_threshold_length: 256 adr_objective_threshold_low: 5 adr_objective_threshold_high: 20 adr_rollout_perf_alpha: 0.99 adr_load_from_checkpoint: false # raw ADR params. more are added by affine transforms code params: ### Hand Properties hand_damping: range_path: actor_params.hand.dof_properties.damping.range init_range: [0.5, 2.0] limits: [0.01, 20.0] delta: 0.01 delta_style: 'additive' # todo: double-check values. Do they multiply? hand_stiffness: range_path: actor_params.hand.dof_properties.stiffness.range init_range: [0.8, 1.2] limits: [0.01, 20.0] delta: 0.01 delta_style: 'additive' hand_joint_friction: range_path: actor_params.hand.dof_properties.friction.range init_range: [0.8, 1.2] limits: [0.0, 10.0] delta: 0.01 delta_style: 'additive' hand_armature: range_path: actor_params.hand.dof_properties.armature.range init_range: [0.8, 1.2] limits: [0.0, 10.0] delta: 0.01 delta_style: 'additive' hand_effort: range_path: actor_params.hand.dof_properties.effort.range init_range: [0.9, 1.1] limits: [0.4, 10.0] delta: 0.01 delta_style: 'additive' hand_lower: range_path: actor_params.hand.dof_properties.lower.range init_range: [0.0, 0.0] limits: [-5.0, 5.0] delta: 0.02 delta_style: 'additive' hand_upper: range_path: actor_params.hand.dof_properties.upper.range init_range: [0.0, 0.0] limits: [-5.0, 5.0] delta: 0.02 delta_style: 'additive' # todo randomize fingertips and hand parameters independently hand_mass: range_path: actor_params.hand.rigid_body_properties.mass.range init_range: [0.8, 1.2] limits: [0.01, 10.0] delta: 0.01 delta_style: 'additive' hand_friction_fingertips: range_path: actor_params.hand.rigid_shape_properties.friction.range #.fingertips init_range: [0.9, 1.1] limits: [0.1, 2.0] delta: 0.01 delta_style: 'additive' hand_restitution: range_path: actor_params.hand.rigid_shape_properties.restitution.range init_range: [0.0, 0.1] limits: [0.0, 1.0] delta: 0.01 delta_style: 'additive' object_mass: range_path: actor_params.object.rigid_body_properties.mass.range init_range: [0.8, 1.2] limits: [0.01, 10.0] delta: 0.01 delta_style: 'additive' object_friction: range_path: actor_params.object.rigid_shape_properties.friction.range init_range: [0.4, 0.8] limits: [0.01, 2.0] delta: 0.01 delta_style: 'additive' object_restitution: range_path: actor_params.object.rigid_shape_properties.restitution.range init_range: [0.0, 0.1] limits: [0.0, 1.0] delta: 0.01 delta_style: 'additive' # Observation Params cube_obs_delay_prob: # chance of adding an additional delay on top of the inverse refresh rate for cube pose init_range: [0.0, 0.05] limits: [0.0, 0.7] delta: 0.01 delta_style: 'additive' cube_pose_refresh_rate: # inverse refresh rate for cube pose (simulates camera) init_range: [1.0, 1.0] limits: [1.0, 6.0] delta: 0.2 delta_style: 'additive' # Action Params action_delay_prob: # per episode the probability that there will be an extra, stochastic, delay on top of the previous delay per step init_range: [0.0, 0.05] limits: [0.0, 0.7] delta: 0.01 delta_style: 'additive' action_latency: # the number of steps per environment that the action will be delayed for init_range: [0.0, 0.0] limits: [0, 60] delta: 0.1 delta_style: 'additive' # Affine Transformation params, to encode a transform of ax + b + c to obs or act # for each of these: # _scaling is the params of coefficient a (sampled once per episode) # _additive is the params of coefficient b (sampled once per episode) # _white is the params of coefficient c (sampled once per step) # ADR does not directly generate the distributions but rather sets stdev of gaussian # noise on each (refer to OAI paper appendix on randomisation.) affine_action_scaling: init_range: [0.0, 0.0] limits: [0.0, 4.0] delta: 0.0 delta_style: 'additive' affine_action_additive: init_range: [0.0, 0.04] limits: [0.0, 4.0] delta: 0.01 delta_style: 'additive' affine_action_white: init_range: [0.0, 0.04] limits: [0.0, 4.0] delta: 0.01 delta_style: 'additive' affine_cube_pose_scaling: init_range: [0.0, 0.0] limits: [0.000, 4.0] delta: 0.0 delta_style: 'additive' affine_cube_pose_additive: init_range: [0.0, 0.04] limits: [0.0, 4.0] delta: 0.01 delta_style: 'additive' affine_cube_pose_white: init_range: [0.0, 0.04] limits: [0.0, 4.0] delta: 0.01 delta_style: 'additive' affine_dof_pos_scaling: init_range: [0.0, 0.0] limits: [0.0, 4.0] delta: 0.0 delta_style: 'additive' affine_dof_pos_additive: init_range: [0.0, 0.04] limits: [0.0, 4.0] delta: 0.01 delta_style: 'additive' affine_dof_pos_white: init_range: [0.0, 0.04] limits: [0.0, 4.0] delta: 0.01 delta_style: 'additive' rna_alpha: init_range: [0.0, 0.0] limits: [0.0, 1.0] delta: 0.01 delta_style: 'additive' sim: dt: 0.01667 # 1/60 substeps: 2 up_axis: \"z\" use_gpu_pipeline: ${eq:${...pipeline},\"gpu\"} gravity: [0.0, 0.0, -9.81] physx: num_threads: ${....num_threads} solver_type: ${....solver_type} use_gpu: ${contains:\"cuda\",${....sim_device}} # set to False to run on CPU num_position_iterations: 8 num_velocity_iterations: 0 max_gpu_contact_pairs: 8388608 # 8*1024*1024 num_subscenes: ${....num_subscenes} contact_offset: 0.002 rest_offset: 0.0 bounce_threshold_velocity: 0.2 max_depenetration_velocity: 1.0 #1000.0 default_buffer_size_multiplier: 20.0 contact_collection: 0 # 0: CC_NEVER (don't collect contact info), 1: CC_LAST_SUBSTEP (collect only contacts on last substep), 2: CC_ALL_SUBSTEPS (broken - do not use!)"
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic [ref=e1465]:
+                          - generic [ref=e1466] [cursor=pointer]: "1"
+                          - generic [ref=e1467] [cursor=pointer]: "2"
+                          - generic [ref=e1468] [cursor=pointer]: "3"
+                          - generic [ref=e1469] [cursor=pointer]: "4"
+                          - generic [ref=e1470] [cursor=pointer]: "5"
+                          - generic [ref=e1471] [cursor=pointer]: "6"
+                          - generic [ref=e1472] [cursor=pointer]: "7"
+                          - generic [ref=e1473] [cursor=pointer]: "8"
+                          - generic [ref=e1474] [cursor=pointer]: "9"
+                          - generic [ref=e1475] [cursor=pointer]: "10"
+                          - generic [ref=e1476] [cursor=pointer]: "11"
+                          - generic [ref=e1477] [cursor=pointer]: "12"
+                          - generic [ref=e1478] [cursor=pointer]: "13"
+                          - generic [ref=e1479] [cursor=pointer]: "14"
+                          - generic [ref=e1480] [cursor=pointer]: "15"
+                          - generic [ref=e1481] [cursor=pointer]: "16"
+                          - generic [ref=e1482] [cursor=pointer]: "17"
+                          - generic [ref=e1483] [cursor=pointer]: "18"
+                          - generic [ref=e1484] [cursor=pointer]: "19"
+                          - generic [ref=e1485] [cursor=pointer]: "20"
+                          - generic [ref=e1486] [cursor=pointer]: "21"
+                          - generic [ref=e1487] [cursor=pointer]: "22"
+                          - generic [ref=e1488] [cursor=pointer]: "23"
+                          - generic [ref=e1489] [cursor=pointer]: "24"
+                          - generic [ref=e1490] [cursor=pointer]: "25"
+                          - generic [ref=e1491] [cursor=pointer]: "26"
+                          - generic [ref=e1492] [cursor=pointer]: "27"
+                          - generic [ref=e1493] [cursor=pointer]: "28"
+                          - generic [ref=e1494] [cursor=pointer]: "29"
+                          - generic [ref=e1495] [cursor=pointer]: "30"
+                          - generic [ref=e1496] [cursor=pointer]: "31"
+                          - generic [ref=e1497] [cursor=pointer]: "32"
+                          - generic [ref=e1498] [cursor=pointer]: "33"
+                          - generic [ref=e1499] [cursor=pointer]: "34"
+                          - generic [ref=e1500] [cursor=pointer]: "35"
+                          - generic [ref=e1501] [cursor=pointer]: "36"
+                          - generic [ref=e1502] [cursor=pointer]: "37"
+                          - generic [ref=e1503] [cursor=pointer]: "38"
+                          - generic [ref=e1504] [cursor=pointer]: "39"
+                          - generic [ref=e1505] [cursor=pointer]: "40"
+                          - generic [ref=e1506] [cursor=pointer]: "41"
+                          - generic [ref=e1507] [cursor=pointer]: "42"
+                          - generic [ref=e1508] [cursor=pointer]: "43"
+                          - generic [ref=e1509] [cursor=pointer]: "44"
+                          - generic [ref=e1510] [cursor=pointer]: "45"
+                          - generic [ref=e1511] [cursor=pointer]: "46"
+                          - generic [ref=e1512] [cursor=pointer]: "47"
+                          - generic [ref=e1513] [cursor=pointer]: "48"
+                          - generic [ref=e1514] [cursor=pointer]: "49"
+                          - generic [ref=e1515] [cursor=pointer]: "50"
+                          - generic [ref=e1516] [cursor=pointer]: "51"
+                          - generic [ref=e1517] [cursor=pointer]: "52"
+                          - generic [ref=e1518] [cursor=pointer]: "53"
+                          - generic [ref=e1519] [cursor=pointer]: "54"
+                          - generic [ref=e1520] [cursor=pointer]: "55"
+                          - generic [ref=e1521] [cursor=pointer]: "56"
+                          - generic [ref=e1522] [cursor=pointer]: "57"
+                          - generic [ref=e1523] [cursor=pointer]: "58"
+                          - generic [ref=e1524] [cursor=pointer]: "59"
+                          - generic [ref=e1525] [cursor=pointer]: "60"
+                          - generic [ref=e1526] [cursor=pointer]: "61"
+                          - generic [ref=e1527] [cursor=pointer]: "62"
+                          - generic [ref=e1528] [cursor=pointer]: "63"
+                          - generic [ref=e1529] [cursor=pointer]: "64"
+                          - generic [ref=e1530] [cursor=pointer]: "65"
+                          - generic [ref=e1531] [cursor=pointer]: "66"
+                          - generic [ref=e1532] [cursor=pointer]: "67"
+                          - generic [ref=e1533] [cursor=pointer]: "68"
+                          - generic [ref=e1534] [cursor=pointer]: "69"
+                          - generic [ref=e1535] [cursor=pointer]: "70"
+                          - generic [ref=e1536] [cursor=pointer]: "71"
+                          - generic [ref=e1537] [cursor=pointer]: "72"
+                          - generic [ref=e1538] [cursor=pointer]: "73"
+                          - generic [ref=e1539] [cursor=pointer]: "74"
+                          - generic [ref=e1540] [cursor=pointer]: "75"
+                          - generic [ref=e1541] [cursor=pointer]: "76"
+                          - generic [ref=e1542] [cursor=pointer]: "77"
+                          - generic [ref=e1543] [cursor=pointer]: "78"
+                          - generic [ref=e1544] [cursor=pointer]: "79"
+                          - generic [ref=e1545] [cursor=pointer]: "80"
+                          - generic [ref=e1546] [cursor=pointer]: "81"
+                          - generic [ref=e1547] [cursor=pointer]: "82"
+                          - generic [ref=e1548] [cursor=pointer]: "83"
+                          - generic [ref=e1549] [cursor=pointer]: "84"
+                          - generic [ref=e1550] [cursor=pointer]: "85"
+                          - generic [ref=e1551] [cursor=pointer]: "86"
+                          - generic [ref=e1552] [cursor=pointer]: "87"
+                          - generic [ref=e1553] [cursor=pointer]: "88"
+                          - generic [ref=e1554] [cursor=pointer]: "89"
+                          - generic [ref=e1555] [cursor=pointer]: "90"
+                          - generic [ref=e1556] [cursor=pointer]: "91"
+                          - generic [ref=e1557] [cursor=pointer]: "92"
+                          - generic [ref=e1558] [cursor=pointer]: "93"
+                          - generic [ref=e1559] [cursor=pointer]: "94"
+                          - generic [ref=e1560] [cursor=pointer]: "95"
+                          - generic [ref=e1561] [cursor=pointer]: "96"
+                          - generic [ref=e1562] [cursor=pointer]: "97"
+                          - generic [ref=e1563] [cursor=pointer]: "98"
+                          - generic [ref=e1564] [cursor=pointer]: "99"
+                          - generic [ref=e1565] [cursor=pointer]: "100"
+                          - generic [ref=e1566] [cursor=pointer]: "101"
+                          - generic [ref=e1567] [cursor=pointer]: "102"
+                          - generic [ref=e1568] [cursor=pointer]: "103"
+                          - generic [ref=e1569] [cursor=pointer]: "104"
+                          - generic [ref=e1570] [cursor=pointer]: "105"
+                          - generic [ref=e1571] [cursor=pointer]: "106"
+                          - generic [ref=e1572] [cursor=pointer]: "107"
+                          - generic [ref=e1573] [cursor=pointer]: "108"
+                          - generic [ref=e1574] [cursor=pointer]: "109"
+                          - generic [ref=e1575] [cursor=pointer]: "110"
+                          - generic [ref=e1576] [cursor=pointer]: "111"
+                          - generic [ref=e1577] [cursor=pointer]: "112"
+                          - generic [ref=e1578] [cursor=pointer]: "113"
+                          - generic [ref=e1579] [cursor=pointer]: "114"
+                          - generic [ref=e1580] [cursor=pointer]: "115"
+                          - generic [ref=e1581] [cursor=pointer]: "116"
+                          - generic [ref=e1582] [cursor=pointer]: "117"
+                          - generic [ref=e1583] [cursor=pointer]: "118"
+                          - generic [ref=e1584] [cursor=pointer]: "119"
+                          - generic [ref=e1585] [cursor=pointer]: "120"
+                          - generic [ref=e1586] [cursor=pointer]: "121"
+                          - generic [ref=e1587] [cursor=pointer]: "122"
+                          - generic [ref=e1588] [cursor=pointer]: "123"
+                          - generic [ref=e1589] [cursor=pointer]: "124"
+                          - generic [ref=e1590] [cursor=pointer]: "125"
+                          - generic [ref=e1591] [cursor=pointer]: "126"
+                          - generic [ref=e1592] [cursor=pointer]: "127"
+                          - generic [ref=e1593] [cursor=pointer]: "128"
+                          - generic [ref=e1594] [cursor=pointer]: "129"
+                          - generic [ref=e1595] [cursor=pointer]: "130"
+                          - generic [ref=e1596] [cursor=pointer]: "131"
+                          - generic [ref=e1597] [cursor=pointer]: "132"
+                          - generic [ref=e1598] [cursor=pointer]: "133"
+                          - generic [ref=e1599] [cursor=pointer]: "134"
+                          - generic [ref=e1600] [cursor=pointer]: "135"
+                          - generic [ref=e1601] [cursor=pointer]: "136"
+                          - generic [ref=e1602] [cursor=pointer]: "370"
+                          - generic [ref=e1603] [cursor=pointer]: "371"
+                          - generic [ref=e1604] [cursor=pointer]: "372"
+                          - generic [ref=e1605] [cursor=pointer]: "373"
+                          - generic [ref=e1606] [cursor=pointer]: "374"
+                          - generic [ref=e1607] [cursor=pointer]: "375"
+                          - generic [ref=e1608] [cursor=pointer]: "376"
+                          - generic [ref=e1609] [cursor=pointer]: "377"
+                          - generic [ref=e1610] [cursor=pointer]: "378"
+                          - generic [ref=e1611] [cursor=pointer]: "379"
+                          - generic [ref=e1612] [cursor=pointer]: "380"
+                          - generic [ref=e1613] [cursor=pointer]: "381"
+                          - generic [ref=e1614] [cursor=pointer]: "382"
+                          - generic [ref=e1615] [cursor=pointer]: "383"
+                          - generic [ref=e1616] [cursor=pointer]: "384"
+                          - generic [ref=e1617] [cursor=pointer]: "385"
+                          - generic [ref=e1618] [cursor=pointer]: "386"
+                          - generic [ref=e1619] [cursor=pointer]: "387"
+                          - generic [ref=e1620] [cursor=pointer]: "388"
+                          - generic [ref=e1621] [cursor=pointer]: "389"
+                          - generic [ref=e1622] [cursor=pointer]: "390"
+                          - generic [ref=e1623] [cursor=pointer]: "391"
+                          - generic [ref=e1624] [cursor=pointer]: "392"
+                          - generic [ref=e1625] [cursor=pointer]: "393"
+                          - generic [ref=e1626] [cursor=pointer]: "394"
+                          - generic [ref=e1627] [cursor=pointer]: "395"
+                          - generic [ref=e1628] [cursor=pointer]: "396"
+                          - generic [ref=e1629] [cursor=pointer]: "397"
+                          - generic [ref=e1630] [cursor=pointer]: "398"
+                          - generic [ref=e1631] [cursor=pointer]: "399"
+                          - generic [ref=e1632] [cursor=pointer]: "400"
+                          - generic [ref=e1633] [cursor=pointer]: "401"
+                          - generic [ref=e1634] [cursor=pointer]: "402"
+                          - generic [ref=e1635] [cursor=pointer]: "403"
+                          - generic [ref=e1636] [cursor=pointer]: "404"
+                          - generic [ref=e1637] [cursor=pointer]: "405"
+                          - generic [ref=e1638] [cursor=pointer]: "406"
+                          - generic [ref=e1639] [cursor=pointer]: "407"
+                          - generic [ref=e1640] [cursor=pointer]: "408"
+                          - generic [ref=e1641] [cursor=pointer]: "409"
+                          - generic [ref=e1642] [cursor=pointer]: "410"
+                          - generic [ref=e1643] [cursor=pointer]: "411"
+                          - generic [ref=e1644] [cursor=pointer]: "412"
+                          - generic [ref=e1645] [cursor=pointer]: "413"
+                          - generic [ref=e1646] [cursor=pointer]: "414"
+                          - generic [ref=e1647] [cursor=pointer]: "415"
+                          - generic [ref=e1648] [cursor=pointer]: "416"
+                          - generic [ref=e1649] [cursor=pointer]: "417"
+                          - generic [ref=e1650] [cursor=pointer]: "418"
+                          - generic [ref=e1651] [cursor=pointer]: "419"
+                          - generic [ref=e1652] [cursor=pointer]: "420"
+                          - generic [ref=e1653] [cursor=pointer]: "421"
+                          - generic [ref=e1654] [cursor=pointer]: "422"
+                          - generic [ref=e1655] [cursor=pointer]: "423"
+                          - generic [ref=e1656] [cursor=pointer]: "424"
+                          - generic [ref=e1657] [cursor=pointer]: "425"
+                          - generic [ref=e1658] [cursor=pointer]: "426"
+                          - generic [ref=e1659] [cursor=pointer]: "427"
+                          - generic [ref=e1660] [cursor=pointer]: "428"
+                          - generic [ref=e1661] [cursor=pointer]: "429"
+                          - generic [ref=e1662] [cursor=pointer]: "430"
+                          - generic [ref=e1663] [cursor=pointer]: "431"
+                          - generic [ref=e1664] [cursor=pointer]: "432"
+                          - generic [ref=e1665] [cursor=pointer]: "433"
+                          - generic [ref=e1666] [cursor=pointer]: "434"
+                          - generic [ref=e1667] [cursor=pointer]: "435"
+                          - generic [ref=e1668] [cursor=pointer]: "436"
+                          - generic [ref=e1669] [cursor=pointer]: "437"
+                          - generic [ref=e1670] [cursor=pointer]: "438"
+                          - generic [ref=e1671] [cursor=pointer]: "439"
+                          - generic [ref=e1672] [cursor=pointer]: "440"
+                          - generic [ref=e1673] [cursor=pointer]: "441"
+                          - generic [ref=e1674] [cursor=pointer]: "442"
+                          - generic [ref=e1675] [cursor=pointer]: "443"
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: used to create the object
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: name
+                                - text: ":"
+                                - generic: AllegroHandADR
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: physics_engine
+                                - text: ":"
+                                - generic: "${..physics_engine}"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: if given, will override the device setting in gym.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: env
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: numEnvs
+                                - text: ":"
+                                - generic: "${resolve_default:16384,${...num_envs}}"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: envSpacing
+                                - text: ":"
+                                - generic: "0.75"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: episodeLength
+                                - text: ":"
+                                - generic: "320"
+                                - generic:
+                                  - generic: "#"
+                                  - text: Not used, but would be 8 sec if resetTime is not set
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: resetTime
+                                - text: ":"
+                                - generic: "8"
+                                - generic:
+                                  - generic: "#"
+                                  - text: Max time till reset, in seconds, if a goal wasn't achieved. Will overwrite the episodeLength if is > 0.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: enableDebugVis
+                                - text: ":"
+                                - generic: "False"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: aggregateMode
+                                - text: ":"
+                                - generic: "1"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: clipObservations
+                                - text: ":"
+                                - generic: "50.0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: clipActions
+                                - text: ":"
+                                - generic: "1.0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: discreteActions
+                                - text: ":"
+                                - generic: "False"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: stiffnessScale
+                                - text: ":"
+                                - generic: "1.0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: forceLimitScale
+                                - text: ":"
+                                - generic: "1.0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: useRelativeControl
+                                - text: ":"
+                                - generic: "False"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: dofSpeedScale
+                                - text: ":"
+                                - generic: "20.0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: use_capped_dof_control
+                                - text: ":"
+                                - generic: "False"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: max_dof_radians_per_second
+                                - text: ":"
+                                - generic: "6.2832"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: max_effort
+                                - text: ":"
+                                - generic: "0.5"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: num_success_hold_steps
+                                - text: ":"
+                                - generic: "0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: actionsMovingAverage
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: range
+                                - text: ":"
+                                - generic: "[0.15, 0.2]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: schedule_steps
+                                - text: ":"
+                                - generic: 1000_000
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: "schedule_steps: 300_000"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: schedule_freq
+                                - text: ":"
+                                - generic: "500"
+                                - generic:
+                                  - generic: "#"
+                                  - text: schedule every 500 steps for stability
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: controlFrequencyInv
+                                - text: ":"
+                                - generic: "2"
+                                - generic:
+                                  - generic: "#"
+                                  - text: "2 # 30 Hz #3 # 20 Hz"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: cubeObsDelayProb
+                                - text: ":"
+                                - generic: "0.3"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: maxObjectSkipObs
+                                - text: ":"
+                                - generic: "2"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: Action Delay related
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: actionDelayProbMax
+                                - text: ":"
+                                - generic: "0.3"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: actionLatencyMax
+                                - text: ":"
+                                - generic: "15"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: actionLatencyScheduledSteps
+                                - text: ":"
+                                - generic: 2_000_000
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: startPositionNoise
+                                - text: ":"
+                                - generic: "0.01"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: startRotationNoise
+                                - text: ":"
+                                - generic: "0.0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: resetPositionNoise
+                                - text: ":"
+                                - generic: "0.03"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: resetPositionNoiseZ
+                                - text: ":"
+                                - generic: "0.01"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: resetRotationNoise
+                                - text: ":"
+                                - generic: "0.0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: resetDofPosRandomInterval
+                                - text: ":"
+                                - generic: "0.2"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: resetDofVelRandomInterval
+                                - text: ":"
+                                - generic: "0.0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: startObjectPoseDY
+                                - text: ":"
+                                - generic: "-0.15"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: startObjectPoseDZ
+                                - text: ":"
+                                - generic: "0.06"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: Random forces applied to the object
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: forceScale
+                                - text: ":"
+                                - generic: "2.0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: forceProbRange
+                                - text: ":"
+                                - generic: "[0.001, 0.1]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: forceDecay
+                                - text: ":"
+                                - generic: "0.99"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: forceDecayInterval
+                                - text: ":"
+                                - generic: "0.08"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: Random Adversarial Perturbations
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: random_network_adversary
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: enable
+                                - text: ":"
+                                - generic: "True"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: "prob: 0.30"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: weight_sample_freq
+                                - text: ":"
+                                - generic: "1000"
+                                - generic:
+                                  - generic: "#"
+                                  - text: steps
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: random_cube_observation
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: enable
+                                - text: ":"
+                                - generic: "True"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: prob
+                                - text: ":"
+                                - generic: "0.3"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: reward -> dictionary
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: distRewardScale
+                                - text: ":"
+                                - generic: "-10.0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: rotRewardScale
+                                - text: ":"
+                                - generic: "1.0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: rotEps
+                                - text: ":"
+                                - generic: "0.1"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: actionPenaltyScale
+                                - text: ":"
+                                - generic: "-0.001"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: actionDeltaPenaltyScale
+                                - text: ":"
+                                - generic: "-0.2"
+                                - generic:
+                                  - generic: "#"
+                                  - text: "-0.01"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: reachGoalBonus
+                                - text: ":"
+                                - generic: "250"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: fallDistance
+                                - text: ":"
+                                - generic: "0.24"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: fallPenalty
+                                - text: ":"
+                                - generic: "0.0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: objectType
+                                - text: ":"
+                                - generic:
+                                  - generic: "\""
+                                  - text: block
+                                  - generic: "\""
+                                - generic:
+                                  - generic: "#"
+                                  - text: can be block, egg or pen
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: observationType
+                                - text: ":"
+                                - generic:
+                                  - generic: "\""
+                                  - text: no_vel
+                                  - generic: "\""
+                                - generic:
+                                  - generic: "#"
+                                  - text: "\"full_state\" # can be \"no_vel\", \"full_state\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: asymmetric_observations
+                                - text: ":"
+                                - generic: "True"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: successTolerance
+                                - text: ":"
+                                - generic: "0.1"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: printNumSuccesses
+                                - text: ":"
+                                - generic: "False"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: maxConsecutiveSuccesses
+                                - text: ":"
+                                - generic: "50"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: asset
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: assetFileName
+                                - text: ":"
+                                - generic:
+                                  - generic: "\""
+                                  - text: urdf/kuka_allegro_description/allegro_touch_sensor.urdf
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: assetFileNameBlock
+                                - text: ":"
+                                - generic:
+                                  - generic: "\""
+                                  - text: urdf/objects/cube_multicolor_allegro.urdf
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: assetFileNameEgg
+                                - text: ":"
+                                - generic:
+                                  - generic: "\""
+                                  - text: mjcf/open_ai_assets/hand/egg.xml
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: assetFileNamePen
+                                - text: ":"
+                                - generic:
+                                  - generic: "\""
+                                  - text: mjcf/open_ai_assets/hand/pen.xml
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: set to True if you use camera sensors in the environment
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: enableCameraSensors
+                                - text: ":"
+                                - generic: "False"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: task
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: randomize
+                                - text: ":"
+                                - generic: "True"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: randomization_params
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: frequency
+                                - text: ":"
+                                - generic: "720"
+                                - generic:
+                                  - generic: "#"
+                                  - text: Define how many simulation steps between generating new randomizations
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: sim_params
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: gravity
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: range
+                                - text: ":"
+                                - generic: "[0, 0.6]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: operation
+                                - text: ":"
+                                - generic:
+                                  - generic: "\""
+                                  - text: additive
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: distribution
+                                - text: ":"
+                                - generic:
+                                  - generic: "\""
+                                  - text: gaussian
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: actor_params
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: hand
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: scale
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: range
+                                - text: ":"
+                                - generic: "[0.95, 1.05]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: operation
+                                - text: ":"
+                                - generic:
+                                  - generic: "\""
+                                  - text: scaling
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: distribution
+                                - text: ":"
+                                - generic:
+                                  - generic: "\""
+                                  - text: uniform
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: setup_only
+                                - text: ":"
+                                - generic: "True"
+                                - generic:
+                                  - generic: "#"
+                                  - text: Property will only be randomized once before simulation is started. See Domain Randomization Documentation for more info.
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: "schedule: \"linear\" # \"linear\" will scale the current random sample by ``min(current num steps, schedule_steps) / schedule_steps`"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: "schedule_steps: 30000"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: color
+                                - text: ":"
+                                - generic: "True"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: dof_properties
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: damping
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: range
+                                - text: ":"
+                                - generic: "[0.01, 20.0]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: operation
+                                - text: ":"
+                                - generic:
+                                  - generic: "\""
+                                  - text: scaling
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: distribution
+                                - text: ":"
+                                - generic:
+                                  - generic: "\""
+                                  - text: loguniform
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: stiffness
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: range
+                                - text: ":"
+                                - generic: "[0.01, 20.0]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: operation
+                                - text: ":"
+                                - generic:
+                                  - generic: "\""
+                                  - text: scaling
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: distribution
+                                - text: ":"
+                                - generic:
+                                  - generic: "\""
+                                  - text: loguniform
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: "schedule: \"linear\" # \"linear\" will scale the current random sample by `min(current num steps, schedule_steps) / schedule_steps`"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic: "#"
+                                  - text: "schedule_steps: 30000"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: effort
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: range
+                                - text: ":"
+                                - generic: "[0.4, 10.0]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: operation
+                                - text: ":"
+                                - generic:
+                                  - generic: "\""
+                                  - text: scaling
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: affine_action_scaling
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: init_range
+                                - text: ":"
+                                - generic: "[0.0, 0.0]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: limits
+                                - text: ":"
+                                - generic: "[0.0, 4.0]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta
+                                - text: ":"
+                                - generic: "0.0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta_style
+                                - text: ":"
+                                - generic:
+                                  - generic: "'"
+                                  - text: additive
+                                  - generic: "'"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: affine_action_additive
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: init_range
+                                - text: ":"
+                                - generic: "[0.0, 0.04]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: limits
+                                - text: ":"
+                                - generic: "[0.0, 4.0]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta
+                                - text: ":"
+                                - generic: "0.01"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta_style
+                                - text: ":"
+                                - generic:
+                                  - generic: "'"
+                                  - text: additive
+                                  - generic: "'"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: affine_action_white
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: init_range
+                                - text: ":"
+                                - generic: "[0.0, 0.04]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: limits
+                                - text: ":"
+                                - generic: "[0.0, 4.0]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta
+                                - text: ":"
+                                - generic: "0.01"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta_style
+                                - text: ":"
+                                - generic:
+                                  - generic: "'"
+                                  - text: additive
+                                  - generic: "'"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: affine_cube_pose_scaling
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: init_range
+                                - text: ":"
+                                - generic: "[0.0, 0.0]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: limits
+                                - text: ":"
+                                - generic: "[0.000, 4.0]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta
+                                - text: ":"
+                                - generic: "0.0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta_style
+                                - text: ":"
+                                - generic:
+                                  - generic: "'"
+                                  - text: additive
+                                  - generic: "'"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: affine_cube_pose_additive
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: init_range
+                                - text: ":"
+                                - generic: "[0.0, 0.04]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: limits
+                                - text: ":"
+                                - generic: "[0.0, 4.0]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta
+                                - text: ":"
+                                - generic: "0.01"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta_style
+                                - text: ":"
+                                - generic:
+                                  - generic: "'"
+                                  - text: additive
+                                  - generic: "'"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: affine_cube_pose_white
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: init_range
+                                - text: ":"
+                                - generic: "[0.0, 0.04]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: limits
+                                - text: ":"
+                                - generic: "[0.0, 4.0]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta
+                                - text: ":"
+                                - generic: "0.01"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta_style
+                                - text: ":"
+                                - generic:
+                                  - generic: "'"
+                                  - text: additive
+                                  - generic: "'"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: affine_dof_pos_scaling
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: init_range
+                                - text: ":"
+                                - generic: "[0.0, 0.0]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: limits
+                                - text: ":"
+                                - generic: "[0.0, 4.0]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta
+                                - text: ":"
+                                - generic: "0.0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta_style
+                                - text: ":"
+                                - generic:
+                                  - generic: "'"
+                                  - text: additive
+                                  - generic: "'"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: affine_dof_pos_additive
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: init_range
+                                - text: ":"
+                                - generic: "[0.0, 0.04]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: limits
+                                - text: ":"
+                                - generic: "[0.0, 4.0]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta
+                                - text: ":"
+                                - generic: "0.01"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta_style
+                                - text: ":"
+                                - generic:
+                                  - generic: "'"
+                                  - text: additive
+                                  - generic: "'"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: affine_dof_pos_white
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: init_range
+                                - text: ":"
+                                - generic: "[0.0, 0.04]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: limits
+                                - text: ":"
+                                - generic: "[0.0, 4.0]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta
+                                - text: ":"
+                                - generic: "0.01"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta_style
+                                - text: ":"
+                                - generic:
+                                  - generic: "'"
+                                  - text: additive
+                                  - generic: "'"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: rna_alpha
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: init_range
+                                - text: ":"
+                                - generic: "[0.0, 0.0]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: limits
+                                - text: ":"
+                                - generic: "[0.0, 1.0]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta
+                                - text: ":"
+                                - generic: "0.01"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: delta_style
+                                - text: ":"
+                                - generic:
+                                  - generic: "'"
+                                  - text: additive
+                                  - generic: "'"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: sim
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: dt
+                                - text: ":"
+                                - generic: "0.01667"
+                                - generic:
+                                  - generic: "#"
+                                  - text: 1/60
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: substeps
+                                - text: ":"
+                                - generic: "2"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: up_axis
+                                - text: ":"
+                                - generic:
+                                  - generic: "\""
+                                  - text: z
+                                  - generic: "\""
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: use_gpu_pipeline
+                                - text: ":"
+                                - generic: "${eq:${...pipeline},\"gpu\"}"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: gravity
+                                - text: ":"
+                                - generic: "[0.0, 0.0, -9.81]"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: physx
+                                - text: ":"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: num_threads
+                                - text: ":"
+                                - generic: "${....num_threads}"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: solver_type
+                                - text: ":"
+                                - generic: "${....solver_type}"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: use_gpu
+                                - text: ":"
+                                - generic: "${contains:\"cuda\",${....sim_device}}"
+                                - generic:
+                                  - generic: "#"
+                                  - text: set to False to run on CPU
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: num_position_iterations
+                                - text: ":"
+                                - generic: "8"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: num_velocity_iterations
+                                - text: ":"
+                                - generic: "0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: max_gpu_contact_pairs
+                                - text: ":"
+                                - generic: "8388608"
+                                - generic:
+                                  - generic: "#"
+                                  - text: 8*1024*1024
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: num_subscenes
+                                - text: ":"
+                                - generic: "${....num_subscenes}"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: contact_offset
+                                - text: ":"
+                                - generic: "0.002"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: rest_offset
+                                - text: ":"
+                                - generic: "0.0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: bounce_threshold_velocity
+                                - text: ":"
+                                - generic: "0.2"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: max_depenetration_velocity
+                                - text: ":"
+                                - generic: "1.0"
+                                - generic:
+                                  - generic: "#"
+                                  - text: "1000.0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: default_buffer_size_multiplier
+                                - text: ":"
+                                - generic: "20.0"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: contact_collection
+                                - text: ":"
+                                - generic: "0"
+                                - generic:
+                                  - generic: "#"
+                                  - text: "0: CC_NEVER (don't collect contact info), 1: CC_LAST_SUBSTEP (collect only contacts on last substep), 2: CC_ALL_SUBSTEPS (broken - do not use!)"
+  - alert [ref=e1679]

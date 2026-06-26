@@ -1,0 +1,350 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Hugging Face's logo Hugging Face" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "Hugging Face's logo" [ref=e8]
+          - generic [ref=e9]: Hugging Face
+        - generic [ref=e10]:
+          - textbox "Search models, datasets, users..." [ref=e11]
+          - img [ref=e12]
+      - navigation "Main" [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Models" [ref=e17] [cursor=pointer]:
+              - /url: /models
+              - img [ref=e18]
+              - text: Models
+          - listitem [ref=e22]:
+            - link "Datasets" [ref=e23] [cursor=pointer]:
+              - /url: /datasets
+              - img [ref=e24]
+              - text: Datasets
+          - listitem [ref=e29]:
+            - link "Spaces" [ref=e30] [cursor=pointer]:
+              - /url: /spaces
+              - img [ref=e31]
+              - text: Spaces
+          - listitem [ref=e35]:
+            - link "Buckets new" [ref=e36] [cursor=pointer]:
+              - /url: /storage
+              - img [ref=e37]
+              - text: Buckets
+              - generic [ref=e41]: new
+          - listitem [ref=e42]:
+            - link "Docs" [ref=e43] [cursor=pointer]:
+              - /url: /docs
+              - img [ref=e44]
+              - text: Docs
+          - listitem [ref=e48]:
+            - link "Pricing" [ref=e49] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e50]:
+            - generic [ref=e51]:
+              - button [ref=e52] [cursor=pointer]:
+                - img [ref=e53]
+              - navigation [ref=e58]:
+                - list [ref=e59]:
+                  - listitem [ref=e60]:
+                    - generic [ref=e61]: Website
+                    - list [ref=e62]:
+                      - listitem [ref=e63]:
+                        - link "Tasks" [ref=e64] [cursor=pointer]:
+                          - /url: /tasks
+                          - img [ref=e65]
+                          - generic: Tasks
+                      - listitem [ref=e68]:
+                        - link "HuggingChat" [ref=e69] [cursor=pointer]:
+                          - /url: /chat
+                          - img [ref=e70]
+                          - generic: HuggingChat
+                      - listitem [ref=e73]:
+                        - link "Collections" [ref=e74] [cursor=pointer]:
+                          - /url: /collections
+                          - img [ref=e75]
+                          - generic: Collections
+                      - listitem [ref=e79]:
+                        - link "Languages" [ref=e80] [cursor=pointer]:
+                          - /url: /languages
+                          - img [ref=e81]
+                          - generic: Languages
+                      - listitem [ref=e83]:
+                        - link "Organizations" [ref=e84] [cursor=pointer]:
+                          - /url: /organizations
+                          - img [ref=e85]
+                          - generic: Organizations
+                  - listitem [ref=e90]:
+                    - generic [ref=e91]: Community
+                    - list [ref=e92]:
+                      - listitem [ref=e93]:
+                        - link "Blog" [ref=e94] [cursor=pointer]:
+                          - /url: /blog
+                          - img [ref=e95]
+                          - generic: Blog
+                      - listitem [ref=e97]:
+                        - link "Posts" [ref=e98] [cursor=pointer]:
+                          - /url: /posts
+                          - img [ref=e99]
+                          - generic: Posts
+                      - listitem [ref=e101]:
+                        - link "Daily Papers" [ref=e102] [cursor=pointer]:
+                          - /url: /papers
+                          - img [ref=e103]
+                          - generic: Daily Papers
+                      - listitem [ref=e106]:
+                        - link "Learn" [ref=e107] [cursor=pointer]:
+                          - /url: /learn
+                          - img [ref=e108]
+                          - generic: Learn
+                      - listitem [ref=e114]:
+                        - link "Discord" [ref=e115] [cursor=pointer]:
+                          - /url: /join/discord
+                          - img [ref=e116]
+                          - generic: Discord
+                      - listitem [ref=e118]:
+                        - link "Forum" [ref=e119] [cursor=pointer]:
+                          - /url: https://discuss.huggingface.co/
+                          - img [ref=e120]
+                          - generic: Forum
+                      - listitem [ref=e122]:
+                        - link "GitHub" [ref=e123] [cursor=pointer]:
+                          - /url: https://github.com/huggingface
+                          - img [ref=e124]
+                          - generic: GitHub
+                  - listitem [ref=e126]:
+                    - generic [ref=e127]: Solutions
+                    - list [ref=e128]:
+                      - listitem [ref=e129]:
+                        - link "Team & Enterprise" [ref=e130] [cursor=pointer]:
+                          - /url: /enterprise
+                          - img [ref=e131]
+                          - generic: Team & Enterprise
+                      - listitem [ref=e133]:
+                        - link "Hugging Face PRO" [ref=e134] [cursor=pointer]:
+                          - /url: /pro
+                          - img [ref=e135]
+                          - generic: Hugging Face PRO
+                      - listitem [ref=e137]:
+                        - link "Enterprise Support" [ref=e138] [cursor=pointer]:
+                          - /url: /support
+                          - img [ref=e139]
+                          - generic: Enterprise Support
+                      - listitem [ref=e142]:
+                        - link "Inference Providers" [ref=e143] [cursor=pointer]:
+                          - /url: /inference/models
+                          - img [ref=e144]
+                          - generic: Inference Providers
+                      - listitem [ref=e147]:
+                        - link "Inference Endpoints" [ref=e148] [cursor=pointer]:
+                          - /url: /inference-endpoints
+                          - img [ref=e149]
+                          - generic: Inference Endpoints
+                      - listitem [ref=e152]:
+                        - link "Storage Buckets" [ref=e153] [cursor=pointer]:
+                          - /url: /storage
+                          - img [ref=e154]
+                          - generic: Storage Buckets
+          - listitem [ref=e158]:
+            - separator [ref=e159]
+          - listitem [ref=e160]:
+            - link "Log In" [ref=e161] [cursor=pointer]:
+              - /url: /login
+          - listitem [ref=e162]:
+            - link "Sign Up" [ref=e163] [cursor=pointer]:
+              - /url: /join
+  - main [ref=e164]:
+    - generic [ref=e166]:
+      - generic [ref=e167]:
+        - link "Spaces" [ref=e168] [cursor=pointer]:
+          - /url: /spaces
+          - img [ref=e169]
+          - heading "Spaces" [level=1] [ref=e175]
+        - generic [ref=e176]: ·
+        - paragraph [ref=e177]: The AI App Directory
+      - generic [ref=e178]:
+        - link "New Space" [ref=e179] [cursor=pointer]:
+          - /url: /new-space
+          - img [ref=e180]
+          - text: New Space
+        - link "Get PRO" [ref=e182] [cursor=pointer]:
+          - /url: /pro
+          - img [ref=e183]
+          - text: Get PRO
+        - link "Learn more" [ref=e185] [cursor=pointer]:
+          - /url: /spaces/launch
+          - img [ref=e186]
+          - text: Learn more
+    - generic [ref=e190]:
+      - generic [ref=e192]:
+        - img [ref=e193]
+        - searchbox "Ask anything you want to do with AI" [ref=e197]
+        - button [ref=e198] [cursor=pointer]:
+          - img [ref=e199]
+        - button "Roll dice" [ref=e201] [cursor=pointer]
+      - generic [ref=e204]:
+        - generic [ref=e205]:
+          - generic [ref=e207] [cursor=pointer]:
+            - img [ref=e208]
+            - generic [ref=e213]:
+              - text: Reachy
+              - generic [ref=e214]: new
+          - generic [ref=e216] [cursor=pointer]:
+            - img [ref=e217]
+            - generic [ref=e220]: Image Generation
+          - generic [ref=e222] [cursor=pointer]:
+            - img [ref=e223]
+            - generic [ref=e226]: Video Generation
+          - generic [ref=e228] [cursor=pointer]:
+            - img [ref=e229]
+            - generic [ref=e232]: Text Generation
+          - generic [ref=e234] [cursor=pointer]:
+            - img [ref=e235]
+            - generic [ref=e240]: Language Translation
+          - generic [ref=e242] [cursor=pointer]:
+            - img [ref=e243]
+            - generic [ref=e246]: Speech Synthesis
+          - generic [ref=e248] [cursor=pointer]:
+            - img [ref=e249]
+            - generic [ref=e253]: 3D Modeling
+          - generic [ref=e255] [cursor=pointer]:
+            - img [ref=e256]
+            - generic [ref=e260]: Object Detection
+          - generic [ref=e262] [cursor=pointer]:
+            - img [ref=e263]
+            - generic [ref=e266]: Text Analysis
+          - generic [ref=e268] [cursor=pointer]:
+            - img [ref=e269]
+            - generic [ref=e272]: Image Editing
+          - generic [ref=e274] [cursor=pointer]:
+            - img [ref=e275]
+            - generic [ref=e279]: Code Generation
+          - generic [ref=e281] [cursor=pointer]:
+            - img [ref=e282]
+            - generic [ref=e286]: Question Answering
+          - generic [ref=e288] [cursor=pointer]:
+            - img [ref=e289]
+            - generic [ref=e292]: Data Visualization
+          - generic [ref=e294] [cursor=pointer]:
+            - img [ref=e295]
+            - generic [ref=e300]: Voice Cloning
+          - generic [ref=e302] [cursor=pointer]:
+            - img [ref=e303]
+            - generic [ref=e307]: Background Removal
+          - generic [ref=e309] [cursor=pointer]:
+            - img [ref=e310]
+            - generic [ref=e314]: Image Upscaling
+          - generic [ref=e316] [cursor=pointer]:
+            - img [ref=e317]
+            - generic [ref=e320]: OCR
+          - generic [ref=e322] [cursor=pointer]:
+            - img [ref=e323]
+            - generic [ref=e327]: Document Analysis
+          - generic [ref=e329] [cursor=pointer]:
+            - img [ref=e330]
+            - generic [ref=e333]: Visual QA
+          - generic [ref=e335] [cursor=pointer]:
+            - img [ref=e336]
+            - generic [ref=e339]: Image Captioning
+          - generic [ref=e341] [cursor=pointer]:
+            - img [ref=e342]
+            - generic [ref=e346]: Chatbots
+          - generic [ref=e348] [cursor=pointer]:
+            - img [ref=e349]
+            - generic [ref=e355]: Sentiment Analysis
+          - generic [ref=e357] [cursor=pointer]:
+            - img [ref=e358]
+            - generic [ref=e361]: Text Summarization
+          - generic [ref=e363] [cursor=pointer]:
+            - img [ref=e364]
+            - generic [ref=e368]: Music Generation
+          - generic [ref=e370] [cursor=pointer]:
+            - img [ref=e371]
+            - generic [ref=e375]: Medical Imaging
+          - generic [ref=e377] [cursor=pointer]:
+            - img [ref=e378]
+            - generic [ref=e381]: Financial Analysis
+          - generic [ref=e383] [cursor=pointer]:
+            - img [ref=e384]
+            - generic [ref=e387]: Game AI
+          - generic [ref=e389] [cursor=pointer]:
+            - img [ref=e390]
+            - generic [ref=e394]: Model Benchmarking
+          - generic [ref=e396] [cursor=pointer]:
+            - img [ref=e397]
+            - generic [ref=e401]: Fine Tuning Tools
+          - generic [ref=e403] [cursor=pointer]:
+            - img [ref=e404]
+            - generic [ref=e407]: Dataset Creation
+          - generic [ref=e409] [cursor=pointer]:
+            - img [ref=e410]
+            - generic [ref=e413]: Pose Estimation
+          - generic [ref=e415] [cursor=pointer]:
+            - img [ref=e416]
+            - generic [ref=e420]: Face Recognition
+          - generic [ref=e422] [cursor=pointer]:
+            - img [ref=e423]
+            - generic [ref=e429]: Anomaly Detection
+          - generic [ref=e431] [cursor=pointer]:
+            - img [ref=e432]
+            - generic [ref=e435]: Recommendation Systems
+          - generic [ref=e437] [cursor=pointer]:
+            - img [ref=e438]
+            - generic [ref=e441]: Character Animation
+          - generic [ref=e443] [cursor=pointer]:
+            - img [ref=e444]
+            - generic [ref=e447]: Style Transfer
+          - generic [ref=e449] [cursor=pointer]:
+            - img [ref=e450]
+            - generic [ref=e453]: Agent Environment
+          - generic [ref=e455] [cursor=pointer]:
+            - img [ref=e456]
+            - generic [ref=e459]: Image
+        - button [ref=e460] [cursor=pointer]:
+          - img [ref=e461]
+      - generic [ref=e463]:
+        - generic [ref=e464]:
+          - button "Clear Search" [ref=e465] [cursor=pointer]:
+            - img [ref=e466]
+            - text: Clear Search
+          - generic [ref=e468]:
+            - generic [ref=e469]:
+              - img [ref=e470]
+              - searchbox "Filter by name" [ref=e472]: rdlx-1
+            - generic [ref=e473]:
+              - button "Filters (0)" [ref=e475] [cursor=pointer]:
+                - img [ref=e476]
+                - generic [ref=e478]: Filters
+                - generic [ref=e479]: (0)
+              - 'button "Sort: Relevance" [ref=e481] [cursor=pointer]':
+                - img [ref=e482]
+                - text: "Sort: Relevance"
+        - generic [ref=e487]:
+          - img [ref=e489]
+          - paragraph [ref=e491]: No result found
+  - contentinfo [ref=e492]:
+    - navigation [ref=e493]:
+      - button "System theme" [ref=e496] [cursor=pointer]:
+        - img [ref=e497]
+        - text: System theme
+      - link "TOS" [ref=e502] [cursor=pointer]:
+        - /url: /terms-of-service
+      - link "Privacy" [ref=e503] [cursor=pointer]:
+        - /url: /privacy
+      - link "About" [ref=e504] [cursor=pointer]:
+        - /url: /huggingface
+      - link "Careers" [ref=e505] [cursor=pointer]:
+        - /url: https://apply.workable.com/huggingface/
+      - link "Hugging Face" [ref=e506] [cursor=pointer]:
+        - /url: /
+        - img [ref=e507]
+      - link "Models" [ref=e521] [cursor=pointer]:
+        - /url: /models
+      - link "Datasets" [ref=e522] [cursor=pointer]:
+        - /url: /datasets
+      - link "Spaces" [ref=e523] [cursor=pointer]:
+        - /url: /spaces
+      - link "Pricing" [ref=e524] [cursor=pointer]:
+        - /url: /pricing
+      - link "Docs" [ref=e525] [cursor=pointer]:
+        - /url: /docs

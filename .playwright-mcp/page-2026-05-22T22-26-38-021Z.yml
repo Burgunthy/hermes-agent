@@ -1,0 +1,5 @@
+- generic [active] [ref=e1]:
+  - heading "Access Denied" [level=1] [ref=e2]
+  - text: You don't have permission to access "http://www.coupang.com/vp/products/7856278856" on this server.
+  - paragraph [ref=e3]: "Reference #18.57e9fbcb.1779488797.bde46b23"
+  - paragraph [ref=e4]: https://errors.edgesuite.net/18.57e9fbcb.1779488797.bde46b23

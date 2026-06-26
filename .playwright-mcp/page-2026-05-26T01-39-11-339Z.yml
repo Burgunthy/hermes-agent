@@ -1,0 +1,153 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - link "메뉴 영역으로 바로가기" [ref=e2] [cursor=pointer]:
+      - /url: "#lnb"
+      - generic [ref=e3]: 메뉴 영역으로 바로가기
+    - link "본문 영역으로 바로가기" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+      - generic [ref=e5]: 본문 영역으로 바로가기
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e11]:
+          - heading "NAVER" [level=1] [ref=e12]:
+            - link "NAVER" [ref=e13] [cursor=pointer]:
+              - /url: https://www.naver.com
+              - generic [ref=e14]: NAVER
+          - search [ref=e15]:
+            - group "검색" [ref=e16]:
+              - combobox "검색어를 입력해 주세요." [ref=e18]:
+                - text: 워뇨띠 트레이딩 방법 보지 시간 지표
+                - button "자동완성 레이어" [ref=e19] [cursor=pointer]:
+                  - generic [ref=e20]: 자동완성 레이어
+              - button "검색" [ref=e21] [cursor=pointer]:
+                - generic [ref=e22]: 검색
+              - button "한글 입력기" [ref=e24] [cursor=pointer]:
+                - generic [ref=e25]: 한글 입력기
+        - generic [ref=e26]:
+          - strong [ref=e27]: 사용자 링크
+          - list [ref=e28]:
+            - listitem [ref=e29]:
+              - link "로그인" [ref=e30] [cursor=pointer]:
+                - /url: https://nid.naver.com/nidlogin.login?url=https%3A%2F%2Fsearch.naver.com%2Fsearch.naver%3Fquery%3D%25EC%259B%258C%25EB%2587%25A8%25EB%259D%25A0%2B%25ED%258A%25B8%25EB%25A0%2588%25EC%259D%25B4%25EB%2594%25A9%2B%25EB%25B0%25A9%25EB%25B2%2595%2B%25EB%25B3%25B4%25EC%25A7%2580%2B%25EC%258B%259C%25EA%25B0%2584%2B%25EC%25A7%2580%25ED%2591%259C
+                - generic [ref=e33]: 로그인
+            - listitem [ref=e34]:
+              - link "서비스 더보기" [ref=e35] [cursor=pointer]:
+                - /url: javascript:;
+                - generic [ref=e36]: 서비스 더보기
+      - generic [ref=e38]:
+        - generic [ref=e40]:
+          - generic [ref=e42]:
+            - tablist [ref=e43]:
+              - tab "블로그" [ref=e44] [cursor=pointer]
+              - tab "카페" [ref=e45] [cursor=pointer]
+              - tab "이미지" [ref=e46] [cursor=pointer]
+              - tab "클립" [ref=e47] [cursor=pointer]
+              - tab "지식iN" [ref=e48] [cursor=pointer]
+              - tab "인플루언서" [ref=e49] [cursor=pointer]
+              - tab "동영상" [ref=e50] [cursor=pointer]
+              - tab "쇼핑" [ref=e51] [cursor=pointer]
+              - tab "뉴스" [ref=e52] [cursor=pointer]
+              - tab "숏텐츠" [ref=e53] [cursor=pointer]
+              - tab "어학사전" [ref=e54] [cursor=pointer]
+              - tab "지도" [ref=e55] [cursor=pointer]
+              - tab "도서" [ref=e56] [cursor=pointer]
+              - tab "지식백과" [ref=e57] [cursor=pointer]
+              - tab "학술정보" [ref=e58] [cursor=pointer]
+            - button "다음" [ref=e59] [cursor=pointer]:
+              - generic [ref=e61]: 다음
+          - button "더보기" [ref=e63] [cursor=pointer]:
+            - generic [ref=e64]: 더보기
+        - list [ref=e66]:
+          - listitem [ref=e67]:
+            - button "공유" [ref=e68] [cursor=pointer]
+    - main [ref=e69]:
+      - generic [ref=e70]:
+        - heading "워뇨띠 트레이딩 방법 보지 시간 지표 검색 결과" [level=1] [ref=e71]
+        - generic [ref=e72]:
+          - paragraph [ref=e77]:
+            - text: 청소년에게 노출하기 부적합한 검색결과를 제외하였습니다. 연령 확인 후 전체결과를 보실 수 있습니다.
+            - link "전체 검색결과 보기" [ref=e79] [cursor=pointer]:
+              - /url: https://nid.naver.com/nidlogin.login?svctype=128&a_version=2&viewtype=2&url=https%3A%2F%2Fnid.naver.com%2Fuser2%2Fhelp%2FrealNameCheck.nhn%3Fa_version%3D2%26type%3D12%26viewCd%3DgreenInternet%26rurl%3Dhttps%253A%252F%252Fnid.naver.com%252Fadultauth%252Fadult_restore.nhn%253Furl%253Dhttps%25253A%25252F%25252Fsearch.naver.com%25252Fsearch.naver%25253Fquery%25253D%252525EC%2525259B%2525258C%252525EB%25252587%252525A8%252525EB%2525259D%252525A0%25252B%252525ED%2525258A%252525B8%252525EB%252525A0%25252588%252525EC%2525259D%252525B4%252525EB%25252594%252525A9%25252B%252525EB%252525B0%252525A9%252525EB%252525B2%25252595%25252B%252525EB%252525B3%252525B4%252525EC%252525A7%25252580%25252B%252525EC%2525258B%2525259C%252525EA%252525B0%25252584%25252B%252525EC%252525A7%25252580%252525ED%25252591%2525259C%252526sm%25253Dtab_adt%26surl%3Dhttps%253A%252F%252Fsearch.naver.com%252Fsearch.naver%253Fquery%253D%2525EC%25259B%25258C%2525EB%252587%2525A8%2525EB%25259D%2525A0%252B%2525ED%25258A%2525B8%2525EB%2525A0%252588%2525EC%25259D%2525B4%2525EB%252594%2525A9%252B%2525EB%2525B0%2525A9%2525EB%2525B2%252595%252B%2525EB%2525B3%2525B4%2525EC%2525A7%252580%252B%2525EC%25258B%25259C%2525EA%2525B0%252584%252B%2525EC%2525A7%252580%2525ED%252591%25259C%2526sm%253Dtab_adt&surl=https%3A%2F%2Fsearch.naver.com%2Fsearch.naver%3Fquery%3D%25EC%259B%258C%25EB%2587%25A8%25EB%259D%25A0%2B%25ED%258A%25B8%25EB%25A0%2588%25EC%259D%25B4%25EB%2594%25A9%2B%25EB%25B0%25A9%25EB%25B2%2595%2B%25EB%25B3%25B4%25EC%25A7%2580%2B%25EC%258B%259C%25EA%25B0%2584%2B%25EC%25A7%2580%25ED%2591%259C%26sm%3Dtab_adt
+          - generic [ref=e81]:
+            - paragraph [ref=e82]:
+              - emphasis [ref=e83]: "'워뇨띠 트레이딩 방법 보지 시간 지표'"
+              - text: 에 대한 검색결과가 없습니다.
+            - list [ref=e84]:
+              - listitem [ref=e85]: 단어의 철자가 정확한지 확인해 주세요. 검색어를 줄이거나, 더 일반적인 검색어로 검색해 보세요.
+              - listitem [ref=e86]: 설정한 검색 조건이 있다면 일부 해제 하거나 변경해 보세요.
+        - generic [ref=e87]:
+          - generic [ref=e90]:
+            - heading "실종아동정보" [level=2] [ref=e93]
+            - generic [ref=e95]:
+              - link:
+                - /url: "?where=nexearch&sm=tab_etc&qvt=0&query=%EC%8B%A4%EC%A2%85%EC%95%84%EB%8F%99%20%EA%B9%80%ED%95%98%EC%9D%80"
+                - img [ref=e97] [cursor=pointer]
+              - generic [ref=e98]:
+                - term [ref=e99]: 이름
+                - definition [ref=e100]:
+                  - link "김하은(여자)" [ref=e101] [cursor=pointer]:
+                    - /url: "?where=nexearch&sm=tab_etc&qvt=0&query=%EC%8B%A4%EC%A2%85%EC%95%84%EB%8F%99%20%EA%B9%80%ED%95%98%EC%9D%80"
+                    - strong [ref=e102]: 김하은
+                    - emphasis [ref=e103]: (여자)
+                - term [ref=e104]: 당시나이
+                - definition [ref=e105]: 6세
+                - term [ref=e106]: 현재나이
+                - definition [ref=e107]: 31세
+                - term [ref=e108]: 발생장소
+                - definition [ref=e109]: 강진군읍 평동리
+              - generic [ref=e110]:
+                - text: 실종상담 제보
+                - emphasis [ref=e112]:
+                  - generic [ref=e113]: 국번없이
+                  - text: "182"
+            - generic [ref=e114]:
+              - text: 2026.05.26 10:30 기준
+              - link "노출안내 이 정보가 표시된 이유" [ref=e115] [cursor=pointer]:
+                - /url: "#"
+                - text: 노출안내
+                - generic [ref=e116]: 이 정보가 표시된 이유
+            - generic [ref=e118]:
+              - emphasis [ref=e119]: 정보제공
+              - link "경찰청" [ref=e120] [cursor=pointer]:
+                - /url: http://www.safe182.go.kr
+              - emphasis [ref=e121]: 협조
+              - link "실종아동전문센터" [ref=e122] [cursor=pointer]:
+                - /url: http://www.ncrc.or.kr/ncrc/cm/cntnts/cntntsView.do?mi=1033&cntntsId=1035
+          - generic [ref=e125]:
+            - link "좋아하는 건 누구나 남기고 싶으니까 클립 올리면 매주 쌓이는 Npay 포인트" [ref=e126] [cursor=pointer]:
+              - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2603-naverclip-001&target=https%3A%2F%2Fclipcreators.naver.com%2Fpromotion%2Ftoday%3Fdtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2603-naverclip-001
+              - generic [ref=e128]:
+                - strong [ref=e129]: 좋아하는 건 누구나 남기고 싶으니까
+                - paragraph [ref=e130]: 클립 올리면 매주 쌓이는 Npay 포인트
+            - link "모두가 찜하고 싶은 스토어의 발견" [ref=e131] [cursor=pointer]:
+              - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2512-shopping-024&material=J&target=https%3A%2F%2Fmkt.naver.com%2Fstore_discovery%3Fdtm_detail%3DJ%26dtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2512-shopping-024
+              - generic [ref=e133]:
+                - strong [ref=e134]: 모두가 찜하고 싶은
+                - paragraph [ref=e135]: 스토어의 발견
+            - link "컬리N마트 5O% 첫 구매 혜택 반값 쿠폰 받고 최대 2만원 적립까지" [ref=e136] [cursor=pointer]:
+              - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2604-shopping-033&target=https%3A%2F%2Fshopping.naver.com%2Ffesta%2Fonsale%2Ffood%2F69e0ad173cda702a9b5553dc%3Fdtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2604-shopping-033
+              - generic [ref=e138]:
+                - strong [ref=e139]: 컬리N마트 5O% 첫 구매 혜택
+                - paragraph [ref=e140]: 반값 쿠폰 받고 최대 2만원 적립까지
+            - link "네이버가 더 편해지는 순간 웨일 브라우저 알아보기" [ref=e141] [cursor=pointer]:
+              - /url: https://naver.me/FWTmTscE
+              - generic [ref=e143]:
+                - strong [ref=e144]: 네이버가 더 편해지는 순간
+                - paragraph [ref=e145]: 웨일 브라우저 알아보기
+    - generic [ref=e146]:
+      - link "맨위로" [ref=e148] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e149]: 맨위로
+      - generic [ref=e151]:
+        - link "전체서비스" [ref=e153] [cursor=pointer]:
+          - /url: https://www.naver.com/more.html
+        - link "이용약관" [ref=e155] [cursor=pointer]:
+          - /url: https://policy.naver.com/policy/service.html
+        - link "개인정보처리방침" [ref=e157] [cursor=pointer]:
+          - /url: https://policy.naver.com/policy/privacy.html
+          - strong [ref=e158]: 개인정보처리방침
+        - link "검색 고객센터" [ref=e160] [cursor=pointer]:
+          - /url: https://help.naver.com/alias/search/integration/main.naver
+        - link "© NAVER Corp." [ref=e162] [cursor=pointer]:
+          - /url: https://www.navercorp.com/

@@ -1,0 +1,245 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ollama" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Ollama" [ref=e5]
+      - generic [ref=e6]:
+        - link "Models" [ref=e7] [cursor=pointer]:
+          - /url: /search
+        - link "Docs" [ref=e8] [cursor=pointer]:
+          - /url: /docs
+        - link "Pricing" [ref=e9] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=e13]:
+        - img [ref=e15]
+        - textbox "Search models" [ref=e17]
+      - generic [ref=e18]:
+        - link "Sign in" [ref=e19] [cursor=pointer]:
+          - /url: /signin
+        - link "Download" [ref=e20] [cursor=pointer]:
+          - /url: /download
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - link "qwen3" [ref=e27] [cursor=pointer]:
+        - /url: /library/qwen3
+      - generic [ref=e28]:
+        - paragraph [ref=e30]:
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - generic [ref=e34]: 29.6M
+            - generic [ref=e35]: Downloads
+          - generic "Oct 10, 2025 8:18 PM UTC" [ref=e36]:
+            - img [ref=e37]
+            - generic [ref=e39]: Updated
+            - generic [ref=e40]: 7 months ago
+        - heading "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models." [level=2] [ref=e42]
+        - generic [ref=e43]:
+          - generic [ref=e44]: tools
+          - generic [ref=e45]: thinking
+          - generic [ref=e46]: 0.6b
+          - generic [ref=e47]: 1.7b
+          - generic [ref=e48]: 4b
+          - generic [ref=e49]: 8b
+          - generic [ref=e50]: 14b
+          - generic [ref=e51]: 30b
+          - generic [ref=e52]: 32b
+          - generic [ref=e53]: 235b
+    - generic [ref=e54]:
+      - generic [ref=e56]:
+        - generic [ref=e58]:
+          - button "CLI" [ref=e59] [cursor=pointer]
+          - button "cURL" [ref=e60] [cursor=pointer]
+          - button "Python" [ref=e61] [cursor=pointer]
+          - button "JavaScript" [ref=e62] [cursor=pointer]
+        - generic [ref=e63]:
+          - button "Copy" [ref=e65] [cursor=pointer]:
+            - img [ref=e66]
+          - generic [ref=e69]: ollama run qwen3
+      - generic [ref=e70]:
+        - heading "Applications" [level=2] [ref=e71]
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - img "Claude Code" [ref=e76]
+              - generic [ref=e77]:
+                - generic [ref=e78]: Claude Code
+                - code [ref=e79]: ollama launch claude --model qwen3
+            - button "Copy" [ref=e80] [cursor=pointer]:
+              - img [ref=e81]
+          - generic [ref=e83]:
+            - generic [ref=e84]:
+              - img "Codex App" [ref=e85]
+              - generic [ref=e86]:
+                - generic [ref=e87]: Codex App
+                - code [ref=e88]: ollama launch codex-app --model qwen3
+            - button "Copy" [ref=e89] [cursor=pointer]:
+              - img [ref=e90]
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - img "OpenClaw" [ref=e94]
+              - generic [ref=e95]:
+                - generic [ref=e96]: OpenClaw
+                - code [ref=e97]: ollama launch openclaw --model qwen3
+            - button "Copy" [ref=e98] [cursor=pointer]:
+              - img [ref=e99]
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - img "Hermes Agent" [ref=e103]
+              - generic [ref=e104]:
+                - generic [ref=e105]: Hermes Agent
+                - code [ref=e106]: ollama launch hermes --model qwen3
+            - button "Copy" [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+          - generic [ref=e110]:
+            - generic [ref=e111]:
+              - img "Codex" [ref=e112]
+              - generic [ref=e113]:
+                - generic [ref=e114]: Codex
+                - code [ref=e115]: ollama launch codex --model qwen3
+            - button "Copy" [ref=e116] [cursor=pointer]:
+              - img [ref=e117]
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - img "OpenCode" [ref=e121]
+              - generic [ref=e122]:
+                - generic [ref=e123]: OpenCode
+                - code [ref=e124]: ollama launch opencode --model qwen3
+            - button "Copy" [ref=e125] [cursor=pointer]:
+              - img [ref=e126]
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - heading "Models" [level=2] [ref=e130]
+          - link "View all →" [ref=e131] [cursor=pointer]:
+            - /url: /library/qwen3/tags
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - paragraph [ref=e135]: Name
+            - paragraph [ref=e136]: Size / Usage
+            - paragraph [ref=e137]: Context
+            - paragraph [ref=e138]: Input
+          - generic [ref=e139]:
+            - link "qwen3:latest" [ref=e141] [cursor=pointer]:
+              - /url: /library/qwen3:latest
+            - paragraph [ref=e142]: 5.2GB
+            - paragraph [ref=e143]: 40K
+            - paragraph [ref=e144]: Text
+          - generic [ref=e145]:
+            - link "qwen3:0.6b" [ref=e147] [cursor=pointer]:
+              - /url: /library/qwen3:0.6b
+            - paragraph [ref=e148]: 523MB
+            - paragraph [ref=e149]: 40K
+            - paragraph [ref=e150]: Text
+          - generic [ref=e151]:
+            - link "qwen3:1.7b" [ref=e153] [cursor=pointer]:
+              - /url: /library/qwen3:1.7b
+            - paragraph [ref=e154]: 1.4GB
+            - paragraph [ref=e155]: 40K
+            - paragraph [ref=e156]: Text
+          - generic [ref=e157]:
+            - link "qwen3:4b" [ref=e159] [cursor=pointer]:
+              - /url: /library/qwen3:4b
+            - paragraph [ref=e160]: 2.5GB
+            - paragraph [ref=e161]: 256K
+            - paragraph [ref=e162]: Text
+          - generic [ref=e163]:
+            - generic [ref=e164]:
+              - link "qwen3:8b" [ref=e165] [cursor=pointer]:
+                - /url: /library/qwen3:8b
+              - generic [ref=e166]: latest
+            - paragraph [ref=e167]: 5.2GB
+            - paragraph [ref=e168]: 40K
+            - paragraph [ref=e169]: Text
+          - generic [ref=e170]:
+            - link "qwen3:14b" [ref=e172] [cursor=pointer]:
+              - /url: /library/qwen3:14b
+            - paragraph [ref=e173]: 9.3GB
+            - paragraph [ref=e174]: 40K
+            - paragraph [ref=e175]: Text
+          - generic [ref=e176]:
+            - link "qwen3:30b" [ref=e178] [cursor=pointer]:
+              - /url: /library/qwen3:30b
+            - paragraph [ref=e179]: 19GB
+            - paragraph [ref=e180]: 256K
+            - paragraph [ref=e181]: Text
+          - generic [ref=e182]:
+            - link "qwen3:32b" [ref=e184] [cursor=pointer]:
+              - /url: /library/qwen3:32b
+            - paragraph [ref=e185]: 20GB
+            - paragraph [ref=e186]: 40K
+            - paragraph [ref=e187]: Text
+          - generic [ref=e188]:
+            - link "qwen3:235b" [ref=e190] [cursor=pointer]:
+              - /url: /library/qwen3:235b
+            - paragraph [ref=e191]: 142GB
+            - paragraph [ref=e192]: 256K
+            - paragraph [ref=e193]: Text
+    - generic [ref=e194]:
+      - heading "Readme" [level=2] [ref=e196]
+      - generic [ref=e198]:
+        - paragraph [ref=e199]:
+          - img "Qwen 3 logo" [ref=e200]
+        - paragraph [ref=e201]:
+          - strong [ref=e202]: Qwen 3
+          - text: "is the latest generation of large language models in Qwen series, with newly updated versions of the 30B and 235B models:"
+        - heading "New 30B model" [level=3] [ref=e203]
+        - code [ref=e205]: ollama run qwen3:30b
+        - paragraph [ref=e206]:
+          - img "Qwen3-30B-A3B-Instruct-2507.jpg" [ref=e207]
+        - heading "New 235B model" [level=3] [ref=e208]
+        - code [ref=e210]: ollama run qwen3:235b
+        - paragraph [ref=e211]:
+          - img "0d7zztq4GB7G2ZYowO-dQ.jpg" [ref=e212]
+        - heading "Overview" [level=3] [ref=e213]
+        - paragraph [ref=e214]:
+          - text: The Qwen 3 family is a comprehensive suite of dense and mixture-of-experts (MoE) models. The flagship model,
+          - strong [ref=e215]: Qwen3-235B-A22B
+          - text: ", achieves competitive results in benchmark evaluations of coding, math, general capabilities, etc., when compared to other top-tier models such as DeepSeek-R1, o1, o3-mini, Grok-3, and Gemini-2.5-Pro. Additionally, the small MoE model,"
+          - strong [ref=e216]: Qwen3-30B-A3B
+          - text: ", outcompetes QwQ-32B with 10 times of activated parameters, and even a tiny model like Qwen3-4B can rival the performance of Qwen2.5-72B-Instruct."
+        - list [ref=e217]:
+          - listitem [ref=e218]:
+            - paragraph [ref=e219]:
+              - strong [ref=e220]: Significantly enhancement in its reasoning capabilities
+              - text: ", surpassing previous QwQ (in thinking mode) and Qwen2.5 instruct models (in non-thinking mode) on mathematics, code generation, and commonsense logical reasoning."
+          - listitem [ref=e221]:
+            - paragraph [ref=e222]:
+              - strong [ref=e223]: Superior human preference alignment
+              - text: ", excelling in creative writing, role-playing, multi-turn dialogues, and instruction following, to deliver a more natural, engaging, and immersive conversational experience."
+          - listitem [ref=e224]:
+            - paragraph [ref=e225]:
+              - strong [ref=e226]: Expertise in agent capabilities
+              - text: ", enabling precise integration with external tools in both thinking and unthinking modes and achieving leading performance among open-source models in complex agent-based tasks."
+          - listitem [ref=e227]:
+            - paragraph [ref=e228]:
+              - strong [ref=e229]: Support of 100+ languages and dialects
+              - text: with strong capabilities for
+              - strong [ref=e230]: multilingual instruction following and translation
+              - text: .
+        - heading "Reference" [level=3] [ref=e231]
+        - list [ref=e232]:
+          - listitem [ref=e233]:
+            - link "Blog" [ref=e234] [cursor=pointer]:
+              - /url: https://qwenlm.github.io/blog/qwen3/
+  - contentinfo [ref=e235]:
+    - generic [ref=e237]:
+      - generic [ref=e238]: © 2026 Ollama
+      - generic [ref=e239]:
+        - link "Download" [ref=e240] [cursor=pointer]:
+          - /url: /download
+        - link "Blog" [ref=e241] [cursor=pointer]:
+          - /url: /blog
+        - link "Docs" [ref=e242] [cursor=pointer]:
+          - /url: https://docs.ollama.com
+        - link "GitHub" [ref=e243] [cursor=pointer]:
+          - /url: https://github.com/ollama/ollama
+        - link "Discord" [ref=e244] [cursor=pointer]:
+          - /url: https://discord.com/invite/ollama
+        - link "X (Twitter)" [ref=e245] [cursor=pointer]:
+          - /url: https://twitter.com/ollama
+        - link "Contact" [ref=e246] [cursor=pointer]:
+          - /url: mailto:hello@ollama.com
+        - link "Privacy" [ref=e247] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e248] [cursor=pointer]:
+          - /url: /terms

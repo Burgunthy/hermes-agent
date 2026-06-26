@@ -1,0 +1,616 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ollama" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Ollama" [ref=e5]
+      - generic [ref=e6]:
+        - link "Models" [ref=e7] [cursor=pointer]:
+          - /url: /search
+        - link "Docs" [ref=e8] [cursor=pointer]:
+          - /url: /docs
+        - link "Pricing" [ref=e9] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=e13]:
+        - img [ref=e15]
+        - textbox "Search models" [ref=e17]
+      - generic [ref=e18]:
+        - link "Sign in" [ref=e19] [cursor=pointer]:
+          - /url: /signin
+        - link "Download" [ref=e20] [cursor=pointer]:
+          - /url: /download
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - link "gemma4" [ref=e27] [cursor=pointer]:
+        - /url: /library/gemma4
+      - generic [ref=e28]:
+        - paragraph [ref=e30]:
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - generic [ref=e34]: 10.4M
+            - generic [ref=e35]: Downloads
+          - generic "May 21, 2026 7:16 PM UTC" [ref=e36]:
+            - img [ref=e37]
+            - generic [ref=e39]: Updated
+            - generic [ref=e40]: 3 days ago
+        - heading "Gemma 4 models are designed to deliver frontier-level performance at each size. They are well-suited for reasoning, agentic workflows, coding, and multimodal understanding." [level=2] [ref=e42]
+        - generic [ref=e43]:
+          - generic [ref=e44]: vision
+          - generic [ref=e45]: tools
+          - generic [ref=e46]: thinking
+          - generic [ref=e47]: audio
+          - generic [ref=e48]: cloud
+          - generic [ref=e49]: e2b
+          - generic [ref=e50]: e4b
+          - generic [ref=e51]: 26b
+          - generic [ref=e52]: 31b
+    - generic [ref=e53]:
+      - generic [ref=e55]:
+        - generic [ref=e57]:
+          - button "CLI" [ref=e58] [cursor=pointer]
+          - button "cURL" [ref=e59] [cursor=pointer]
+          - button "Python" [ref=e60] [cursor=pointer]
+          - button "JavaScript" [ref=e61] [cursor=pointer]
+        - generic [ref=e62]:
+          - button "Copy" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+          - generic [ref=e68]: ollama run gemma4
+      - generic [ref=e69]:
+        - heading "Applications" [level=2] [ref=e70]
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - img "Claude Code" [ref=e75]
+              - generic [ref=e76]:
+                - generic [ref=e77]: Claude Code
+                - code [ref=e78]: ollama launch claude --model gemma4
+            - button "Copy" [ref=e79] [cursor=pointer]:
+              - img [ref=e80]
+          - generic [ref=e82]:
+            - generic [ref=e83]:
+              - img "Codex App" [ref=e84]
+              - generic [ref=e85]:
+                - generic [ref=e86]: Codex App
+                - code [ref=e87]: ollama launch codex-app --model gemma4
+            - button "Copy" [ref=e88] [cursor=pointer]:
+              - img [ref=e89]
+          - generic [ref=e91]:
+            - generic [ref=e92]:
+              - img "OpenClaw" [ref=e93]
+              - generic [ref=e94]:
+                - generic [ref=e95]: OpenClaw
+                - code [ref=e96]: ollama launch openclaw --model gemma4
+            - button "Copy" [ref=e97] [cursor=pointer]:
+              - img [ref=e98]
+          - generic [ref=e100]:
+            - generic [ref=e101]:
+              - img "Hermes Agent" [ref=e102]
+              - generic [ref=e103]:
+                - generic [ref=e104]: Hermes Agent
+                - code [ref=e105]: ollama launch hermes --model gemma4
+            - button "Copy" [ref=e106] [cursor=pointer]:
+              - img [ref=e107]
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - img "Codex" [ref=e111]
+              - generic [ref=e112]:
+                - generic [ref=e113]: Codex
+                - code [ref=e114]: ollama launch codex --model gemma4
+            - button "Copy" [ref=e115] [cursor=pointer]:
+              - img [ref=e116]
+          - generic [ref=e118]:
+            - generic [ref=e119]:
+              - img "OpenCode" [ref=e120]
+              - generic [ref=e121]:
+                - generic [ref=e122]: OpenCode
+                - code [ref=e123]: ollama launch opencode --model gemma4
+            - button "Copy" [ref=e124] [cursor=pointer]:
+              - img [ref=e125]
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - heading "Models" [level=2] [ref=e129]
+          - link "View all →" [ref=e130] [cursor=pointer]:
+            - /url: /library/gemma4/tags
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - paragraph [ref=e134]: Name
+            - paragraph [ref=e135]: Size / Usage
+            - paragraph [ref=e136]: Context
+            - paragraph [ref=e137]: Input
+          - generic [ref=e138]:
+            - link "gemma4:latest" [ref=e140] [cursor=pointer]:
+              - /url: /library/gemma4:latest
+            - paragraph [ref=e141]: 9.6GB
+            - paragraph [ref=e142]: 128K
+            - paragraph [ref=e143]: Text, Image
+          - generic [ref=e144]:
+            - link "gemma4:e2b" [ref=e146] [cursor=pointer]:
+              - /url: /library/gemma4:e2b
+            - paragraph [ref=e147]: 7.2GB
+            - paragraph [ref=e148]: 128K
+            - paragraph [ref=e149]: Text, Image
+          - generic [ref=e150]:
+            - generic [ref=e151]:
+              - link "gemma4:e4b" [ref=e152] [cursor=pointer]:
+                - /url: /library/gemma4:e4b
+              - generic [ref=e153]: latest
+            - paragraph [ref=e154]: 9.6GB
+            - paragraph [ref=e155]: 128K
+            - paragraph [ref=e156]: Text, Image
+          - generic [ref=e157]:
+            - link "gemma4:26b" [ref=e159] [cursor=pointer]:
+              - /url: /library/gemma4:26b
+            - paragraph [ref=e160]: 18GB
+            - paragraph [ref=e161]: 256K
+            - paragraph [ref=e162]: Text, Image
+          - generic [ref=e163]:
+            - link "gemma4:31b" [ref=e165] [cursor=pointer]:
+              - /url: /library/gemma4:31b
+            - paragraph [ref=e166]: 20GB
+            - paragraph [ref=e167]: 256K
+            - paragraph [ref=e168]: Text, Image
+          - generic [ref=e169]:
+            - generic [ref=e170]:
+              - link "gemma4:e2b-mlx" [ref=e171] [cursor=pointer]:
+                - /url: /library/gemma4:e2b-mlx
+              - generic [ref=e172]: MLX
+            - paragraph [ref=e173]: 7.1GB
+            - paragraph [ref=e174]: 128K
+            - paragraph [ref=e175]: Text
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - link "gemma4:e4b-mlx" [ref=e178] [cursor=pointer]:
+                - /url: /library/gemma4:e4b-mlx
+              - generic [ref=e179]: MLX
+            - paragraph [ref=e180]: 9.6GB
+            - paragraph [ref=e181]: 128K
+            - paragraph [ref=e182]: Text
+          - generic [ref=e183]:
+            - generic [ref=e184]:
+              - link "gemma4:26b-mlx" [ref=e185] [cursor=pointer]:
+                - /url: /library/gemma4:26b-mlx
+              - generic [ref=e186]: MLX
+            - paragraph [ref=e187]: 17GB
+            - paragraph [ref=e188]: 256K
+            - paragraph [ref=e189]: Text
+          - generic [ref=e190]:
+            - generic [ref=e191]:
+              - link "gemma4:31b-mlx" [ref=e192] [cursor=pointer]:
+                - /url: /library/gemma4:31b-mlx
+              - generic [ref=e193]: MLX
+            - paragraph [ref=e194]: 20GB
+            - paragraph [ref=e195]: 256K
+            - paragraph [ref=e196]: Text
+          - generic [ref=e197]:
+            - link "gemma4:31b-cloud" [ref=e199] [cursor=pointer]:
+              - /url: /library/gemma4:31b-cloud
+            - paragraph [ref=e200]
+            - paragraph [ref=e205]: 256K
+            - paragraph [ref=e206]: Text, Image
+    - generic [ref=e207]:
+      - heading "Readme" [level=2] [ref=e209]
+      - generic [ref=e211]:
+        - paragraph [ref=e212]:
+          - img "Gemma 4 Ollama logo" [ref=e213]
+          - text: Gemma is a family of open models built by Google DeepMind. Gemma 4 models are multimodal, handling text and image input and generating text output.
+        - paragraph [ref=e214]:
+          - text: Gemma 4 introduces key
+          - strong [ref=e215]: capability and architectural advancements
+          - text: ":"
+        - list [ref=e216]:
+          - listitem [ref=e217]:
+            - paragraph [ref=e218]:
+              - strong [ref=e219]: Reasoning
+              - text: – All models in the family are designed as highly capable reasoners, with configurable thinking modes.
+          - listitem [ref=e220]:
+            - paragraph [ref=e221]:
+              - strong [ref=e222]: Extended Multimodalities
+              - text: – Processes Text, Image with variable aspect ratio and resolution support (all models)
+          - listitem [ref=e223]:
+            - paragraph [ref=e224]:
+              - strong [ref=e225]: Diverse & Efficient Architectures
+              - text: – Offers Dense and Mixture-of-Experts (MoE) variants of different sizes for scalable deployment.
+          - listitem [ref=e226]:
+            - paragraph [ref=e227]:
+              - strong [ref=e228]: Optimized for On-Device
+              - text: – Smaller models are specifically designed for efficient local execution on laptops and mobile devices.
+          - listitem [ref=e229]:
+            - paragraph [ref=e230]:
+              - strong [ref=e231]: Increased Context Window
+              - text: – The small models feature a 128K context window, while the medium models support 256K.
+          - listitem [ref=e232]:
+            - paragraph [ref=e233]:
+              - strong [ref=e234]: Enhanced Coding & Agentic Capabilities
+              - text: – Achieves notable improvements in coding benchmarks alongside native function-calling support, powering highly capable autonomous agents.
+          - listitem [ref=e235]:
+            - paragraph [ref=e236]:
+              - strong [ref=e237]: Native System Prompt Support
+              - text: – Gemma 4 introduces native support for the
+              - code [ref=e238]: system
+              - text: role, enabling more structured and controllable conversations.
+        - heading "Models" [level=3] [ref=e239]
+        - paragraph [ref=e240]:
+          - strong [ref=e241]: Ollama’s cloud
+        - code [ref=e243]: ollama run gemma4:31b-cloud
+        - paragraph [ref=e244]:
+          - strong [ref=e245]: Edge models
+        - paragraph [ref=e246]: The “E” in E2B and E4B stands for “effective” parameters, and are made for edge device deployments.
+        - paragraph [ref=e247]:
+          - strong [ref=e248]: Effective 2B (E2B)
+        - code [ref=e250]: ollama run gemma4:e2b
+        - paragraph [ref=e251]:
+          - strong [ref=e252]: Effective 4B (E4B)
+        - code [ref=e254]: ollama run gemma4:e4b
+        - paragraph [ref=e255]:
+          - strong [ref=e256]: Workstation models
+        - paragraph [ref=e257]: These models are designed for frontier intelligence locally.
+        - paragraph [ref=e258]:
+          - strong [ref=e259]: 26B
+          - text: (Mixture of Experts model with 4B active parameters)
+        - code [ref=e261]: ollama run gemma4:26b
+        - paragraph [ref=e262]:
+          - strong [ref=e263]: 31B
+          - text: (Dense)
+        - code [ref=e265]: ollama run gemma4:31b
+        - heading "Benchmark Results" [level=2] [ref=e266]:
+          - strong [ref=e267]: Benchmark Results
+        - paragraph [ref=e268]: These models were evaluated against a large collection of different datasets and metrics to cover different aspects of text generation. Evaluation results marked in the table are for instruction-tuned models.
+        - table [ref=e269]:
+          - rowgroup [ref=e270]:
+            - row "Gemma 4 31B Gemma 4 26B A4B Gemma 4 E4B Gemma 4 E2B Gemma 3 27B (no think)" [ref=e271]:
+              - columnheader [ref=e272]
+              - columnheader "Gemma 4 31B" [ref=e273]
+              - columnheader "Gemma 4 26B A4B" [ref=e274]
+              - columnheader "Gemma 4 E4B" [ref=e275]
+              - columnheader "Gemma 4 E2B" [ref=e276]
+              - columnheader "Gemma 3 27B (no think)" [ref=e277]
+          - rowgroup [ref=e278]:
+            - row "MMLU Pro 85.2% 82.6% 69.4% 60.0% 67.6%" [ref=e279]:
+              - cell "MMLU Pro" [ref=e280]
+              - cell "85.2%" [ref=e281]
+              - cell "82.6%" [ref=e282]
+              - cell "69.4%" [ref=e283]
+              - cell "60.0%" [ref=e284]
+              - cell "67.6%" [ref=e285]
+            - row "AIME 2026 no tools 89.2% 88.3% 42.5% 37.5% 20.8%" [ref=e286]:
+              - cell "AIME 2026 no tools" [ref=e287]
+              - cell "89.2%" [ref=e288]
+              - cell "88.3%" [ref=e289]
+              - cell "42.5%" [ref=e290]
+              - cell "37.5%" [ref=e291]
+              - cell "20.8%" [ref=e292]
+            - row "LiveCodeBench v6 80.0% 77.1% 52.0% 44.0% 29.1%" [ref=e293]:
+              - cell "LiveCodeBench v6" [ref=e294]
+              - cell "80.0%" [ref=e295]
+              - cell "77.1%" [ref=e296]
+              - cell "52.0%" [ref=e297]
+              - cell "44.0%" [ref=e298]
+              - cell "29.1%" [ref=e299]
+            - row "Codeforces ELO 2150 1718 940 633 110" [ref=e300]:
+              - cell "Codeforces ELO" [ref=e301]
+              - cell "2150" [ref=e302]
+              - cell "1718" [ref=e303]
+              - cell "940" [ref=e304]
+              - cell "633" [ref=e305]
+              - cell "110" [ref=e306]
+            - row "GPQA Diamond 84.3% 82.3% 58.6% 43.4% 42.4%" [ref=e307]:
+              - cell "GPQA Diamond" [ref=e308]
+              - cell "84.3%" [ref=e309]
+              - cell "82.3%" [ref=e310]
+              - cell "58.6%" [ref=e311]
+              - cell "43.4%" [ref=e312]
+              - cell "42.4%" [ref=e313]
+            - row "Tau2 (average over 3) 76.9% 68.2% 42.2% 24.5% 16.2%" [ref=e314]:
+              - cell "Tau2 (average over 3)" [ref=e315]
+              - cell "76.9%" [ref=e316]
+              - cell "68.2%" [ref=e317]
+              - cell "42.2%" [ref=e318]
+              - cell "24.5%" [ref=e319]
+              - cell "16.2%" [ref=e320]
+            - row "HLE no tools 19.5% 8.7% - - -" [ref=e321]:
+              - cell "HLE no tools" [ref=e322]
+              - cell "19.5%" [ref=e323]
+              - cell "8.7%" [ref=e324]
+              - cell "-" [ref=e325]
+              - cell "-" [ref=e326]
+              - cell "-" [ref=e327]
+            - row "HLE with search 26.5% 17.2% - - -" [ref=e328]:
+              - cell "HLE with search" [ref=e329]
+              - cell "26.5%" [ref=e330]
+              - cell "17.2%" [ref=e331]
+              - cell "-" [ref=e332]
+              - cell "-" [ref=e333]
+              - cell "-" [ref=e334]
+            - row "BigBench Extra Hard 74.4% 64.8% 33.1% 21.9% 19.3%" [ref=e335]:
+              - cell "BigBench Extra Hard" [ref=e336]
+              - cell "74.4%" [ref=e337]
+              - cell "64.8%" [ref=e338]
+              - cell "33.1%" [ref=e339]
+              - cell "21.9%" [ref=e340]
+              - cell "19.3%" [ref=e341]
+            - row "MMMLU 88.4% 86.3% 76.6% 67.4% 70.7%" [ref=e342]:
+              - cell "MMMLU" [ref=e343]
+              - cell "88.4%" [ref=e344]
+              - cell "86.3%" [ref=e345]
+              - cell "76.6%" [ref=e346]
+              - cell "67.4%" [ref=e347]
+              - cell "70.7%" [ref=e348]
+            - row "Vision" [ref=e349]:
+              - cell "Vision" [ref=e350]:
+                - strong [ref=e351]: Vision
+              - cell [ref=e352]
+              - cell [ref=e353]
+              - cell [ref=e354]
+              - cell [ref=e355]
+              - cell [ref=e356]
+            - row "MMMU Pro 76.9% 73.8% 52.6% 44.2% 49.7%" [ref=e357]:
+              - cell "MMMU Pro" [ref=e358]
+              - cell "76.9%" [ref=e359]
+              - cell "73.8%" [ref=e360]
+              - cell "52.6%" [ref=e361]
+              - cell "44.2%" [ref=e362]
+              - cell "49.7%" [ref=e363]
+            - row "OmniDocBench 1.5 (average edit distance, lower is better) 0.131 0.149 0.181 0.290 0.365" [ref=e364]:
+              - cell "OmniDocBench 1.5 (average edit distance, lower is better)" [ref=e365]
+              - cell "0.131" [ref=e366]
+              - cell "0.149" [ref=e367]
+              - cell "0.181" [ref=e368]
+              - cell "0.290" [ref=e369]
+              - cell "0.365" [ref=e370]
+            - row "MATH-Vision 85.6% 82.4% 59.5% 52.4% 46.0%" [ref=e371]:
+              - cell "MATH-Vision" [ref=e372]
+              - cell "85.6%" [ref=e373]
+              - cell "82.4%" [ref=e374]
+              - cell "59.5%" [ref=e375]
+              - cell "52.4%" [ref=e376]
+              - cell "46.0%" [ref=e377]
+            - row "MedXPertQA MM 61.3% 58.1% 28.7% 23.5% -" [ref=e378]:
+              - cell "MedXPertQA MM" [ref=e379]
+              - cell "61.3%" [ref=e380]
+              - cell "58.1%" [ref=e381]
+              - cell "28.7%" [ref=e382]
+              - cell "23.5%" [ref=e383]
+              - cell "-" [ref=e384]
+            - row "Audio" [ref=e385]:
+              - cell "Audio" [ref=e386]:
+                - strong [ref=e387]: Audio
+              - cell [ref=e388]
+              - cell [ref=e389]
+              - cell [ref=e390]
+              - cell [ref=e391]
+              - cell [ref=e392]
+            - row "CoVoST - - 35.54 33.47 -" [ref=e393]:
+              - cell "CoVoST" [ref=e394]
+              - cell "-" [ref=e395]
+              - cell "-" [ref=e396]
+              - cell "35.54" [ref=e397]
+              - cell "33.47" [ref=e398]
+              - cell "-" [ref=e399]
+            - row "FLEURS (lower is better) - - 0.08 0.09 -" [ref=e400]:
+              - cell "FLEURS (lower is better)" [ref=e401]
+              - cell "-" [ref=e402]
+              - cell "-" [ref=e403]
+              - cell "0.08" [ref=e404]
+              - cell "0.09" [ref=e405]
+              - cell "-" [ref=e406]
+            - row "Long Context" [ref=e407]:
+              - cell "Long Context" [ref=e408]:
+                - strong [ref=e409]: Long Context
+              - cell [ref=e410]
+              - cell [ref=e411]
+              - cell [ref=e412]
+              - cell [ref=e413]
+              - cell [ref=e414]
+            - row "MRCR v2 8 needle 128k (average) 66.4% 44.1% 25.4% 19.1% 13.5%" [ref=e415]:
+              - cell "MRCR v2 8 needle 128k (average)" [ref=e416]
+              - cell "66.4%" [ref=e417]
+              - cell "44.1%" [ref=e418]
+              - cell "25.4%" [ref=e419]
+              - cell "19.1%" [ref=e420]
+              - cell "13.5%" [ref=e421]
+        - heading "Model information" [level=2] [ref=e422]
+        - table [ref=e423]:
+          - rowgroup [ref=e424]:
+            - row "Property E2B E4B 31B Dense" [ref=e425]:
+              - columnheader "Property" [ref=e426]
+              - columnheader "E2B" [ref=e427]
+              - columnheader "E4B" [ref=e428]
+              - columnheader "31B Dense" [ref=e429]
+          - rowgroup [ref=e430]:
+            - row "Total Parameters 2.3B effective (5.1B with embeddings) 4.5B effective (8B with embeddings) 30.7B" [ref=e431]:
+              - cell "Total Parameters" [ref=e432]:
+                - strong [ref=e433]: Total Parameters
+              - cell "2.3B effective (5.1B with embeddings)" [ref=e434]
+              - cell "4.5B effective (8B with embeddings)" [ref=e435]
+              - cell "30.7B" [ref=e436]
+            - row "Layers 35 42 60" [ref=e437]:
+              - cell "Layers" [ref=e438]:
+                - strong [ref=e439]: Layers
+              - cell "35" [ref=e440]
+              - cell "42" [ref=e441]
+              - cell "60" [ref=e442]
+            - row "Sliding Window 512 tokens 512 tokens 1024 tokens" [ref=e443]:
+              - cell "Sliding Window" [ref=e444]:
+                - strong [ref=e445]: Sliding Window
+              - cell "512 tokens" [ref=e446]
+              - cell "512 tokens" [ref=e447]
+              - cell "1024 tokens" [ref=e448]
+            - row "Context Length 128K tokens 128K tokens 256K tokens" [ref=e449]:
+              - cell "Context Length" [ref=e450]:
+                - strong [ref=e451]: Context Length
+              - cell "128K tokens" [ref=e452]
+              - cell "128K tokens" [ref=e453]
+              - cell "256K tokens" [ref=e454]
+            - row "Vocabulary Size 262K 262K 262K" [ref=e455]:
+              - cell "Vocabulary Size" [ref=e456]:
+                - strong [ref=e457]: Vocabulary Size
+              - cell "262K" [ref=e458]
+              - cell "262K" [ref=e459]
+              - cell "262K" [ref=e460]
+            - row "Supported Modalities Text, Image, Audio Text, Image, Audio Text, Image" [ref=e461]:
+              - cell "Supported Modalities" [ref=e462]:
+                - strong [ref=e463]: Supported Modalities
+              - cell "Text, Image, Audio" [ref=e464]
+              - cell "Text, Image, Audio" [ref=e465]
+              - cell "Text, Image" [ref=e466]
+            - row "Vision Encoder Parameters ~150M ~150M ~550M" [ref=e467]:
+              - cell "Vision Encoder Parameters" [ref=e468]:
+                - strong [ref=e469]: Vision Encoder Parameters
+              - cell "~150M" [ref=e470]:
+                - emphasis [ref=e471]: ~150M
+              - cell "~150M" [ref=e472]:
+                - emphasis [ref=e473]: ~150M
+              - cell "~550M" [ref=e474]:
+                - emphasis [ref=e475]: ~550M
+            - row "Audio Encoder Parameters ~300M ~300M No Audio" [ref=e476]:
+              - cell "Audio Encoder Parameters" [ref=e477]:
+                - strong [ref=e478]: Audio Encoder Parameters
+              - cell "~300M" [ref=e479]:
+                - emphasis [ref=e480]: ~300M
+              - cell "~300M" [ref=e481]:
+                - emphasis [ref=e482]: ~300M
+              - cell "No Audio" [ref=e483]
+        - heading "Mixture-of-Experts (MoE) Model" [level=3] [ref=e484]
+        - table [ref=e485]:
+          - rowgroup [ref=e486]:
+            - row "Property 26B A4B MoE" [ref=e487]:
+              - columnheader "Property" [ref=e488]
+              - columnheader "26B A4B MoE" [ref=e489]
+          - rowgroup [ref=e490]:
+            - row "Total Parameters 25.2B" [ref=e491]:
+              - cell "Total Parameters" [ref=e492]:
+                - strong [ref=e493]: Total Parameters
+              - cell "25.2B" [ref=e494]
+            - row "Active Parameters 3.8B" [ref=e495]:
+              - cell "Active Parameters" [ref=e496]:
+                - strong [ref=e497]: Active Parameters
+              - cell "3.8B" [ref=e498]
+            - row "Layers 30" [ref=e499]:
+              - cell "Layers" [ref=e500]:
+                - strong [ref=e501]: Layers
+              - cell "30" [ref=e502]
+            - row "Sliding Window 1024 tokens" [ref=e503]:
+              - cell "Sliding Window" [ref=e504]:
+                - strong [ref=e505]: Sliding Window
+              - cell "1024 tokens" [ref=e506]
+            - row "Context Length 256K tokens" [ref=e507]:
+              - cell "Context Length" [ref=e508]:
+                - strong [ref=e509]: Context Length
+              - cell "256K tokens" [ref=e510]
+            - row "Vocabulary Size 262K" [ref=e511]:
+              - cell "Vocabulary Size" [ref=e512]:
+                - strong [ref=e513]: Vocabulary Size
+              - cell "262K" [ref=e514]
+            - row "Expert Count 8 active / 128 total and 1 shared" [ref=e515]:
+              - cell "Expert Count" [ref=e516]:
+                - strong [ref=e517]: Expert Count
+              - cell "8 active / 128 total and 1 shared" [ref=e518]
+            - row "Supported Modalities Text, Image" [ref=e519]:
+              - cell "Supported Modalities" [ref=e520]:
+                - strong [ref=e521]: Supported Modalities
+              - cell "Text, Image" [ref=e522]
+            - row "Vision Encoder Parameters ~550M" [ref=e523]:
+              - cell "Vision Encoder Parameters" [ref=e524]:
+                - strong [ref=e525]: Vision Encoder Parameters
+              - cell "~550M" [ref=e526]:
+                - emphasis [ref=e527]: ~550M
+        - heading "Best Practices" [level=2] [ref=e528]:
+          - strong [ref=e529]: Best Practices
+        - paragraph [ref=e530]: "For the best performance, use these configurations and best practices:"
+        - heading "1. Sampling Parameters" [level=3] [ref=e531]
+        - paragraph [ref=e532]: "Use the following standardized sampling configuration across all use cases:"
+        - list [ref=e533]:
+          - listitem [ref=e534]:
+            - code [ref=e535]: temperature=1.0
+          - listitem [ref=e536]:
+            - code [ref=e537]: top_p=0.95
+          - listitem [ref=e538]:
+            - code [ref=e539]: top_k=64
+        - heading "2. Thinking Mode Configuration" [level=3] [ref=e540]
+        - blockquote [ref=e541]:
+          - paragraph [ref=e542]: Note that Ollama already handles the complexities of the chat template for you.
+        - paragraph [ref=e543]:
+          - text: Compared to Gemma 3, the models use standard
+          - code [ref=e544]: system
+          - text: ","
+          - code [ref=e545]: assistant
+          - text: ", and"
+          - code [ref=e546]: user
+          - text: "roles. To properly manage the thinking process, use the following control tokens:"
+        - list [ref=e547]:
+          - listitem [ref=e548]:
+            - strong [ref=e549]: "Trigger Thinking:"
+            - text: Thinking is enabled by including the
+            - code [ref=e550]: <|think|>
+            - text: token at the start of the system prompt. To disable thinking, remove the token.
+          - listitem [ref=e551]:
+            - strong [ref=e552]: "Standard Generation:"
+            - text: "When thinking is enabled, the model will output its internal reasoning followed by the final answer using this structure:"
+            - code [ref=e553]: <|channel>thought\n
+            - strong [ref=e554]: "[Internal reasoning]"
+            - code [ref=e555]: <channel|>
+          - listitem [ref=e556]:
+            - strong [ref=e557]: "Disabled Thinking Behavior:"
+            - text: "For all models except for the E2B and E4B variants, if thinking is disabled, the model will still generate the tags but with an empty thought block:"
+            - code [ref=e558]: <|channel>thought\n<channel|>
+            - strong [ref=e559]: "[Final answer]"
+        - heading "3. Multi-Turn Conversations" [level=3] [ref=e560]
+        - list [ref=e561]:
+          - listitem [ref=e562]:
+            - strong [ref=e563]: No Thinking Content in History
+            - text: ": In multi-turn conversations, the historical model output should only include the final response. Thoughts from previous model turns must"
+            - emphasis [ref=e564]: not be added
+            - text: before the next user turn begins.
+        - heading "4. Modality order" [level=3] [ref=e565]
+        - list [ref=e566]:
+          - listitem [ref=e567]:
+            - text: For optimal performance with multimodal inputs, place image and/or audio content
+            - strong [ref=e568]: before
+            - text: the text in your prompt.
+        - heading "5. Variable Image Resolution" [level=3] [ref=e569]
+        - paragraph [ref=e570]: Aside from variable aspect ratios, Gemma 4 supports variable image resolution through a configurable visual token budget, which controls how many tokens are used to represent an image. A higher token budget preserves more visual detail
+        - paragraph [ref=e571]: at the cost of additional compute, while a lower budget enables faster inference for tasks that don’t require fine-grained understanding.
+        - list [ref=e572]:
+          - listitem [ref=e573]:
+            - text: "The supported token budgets are:"
+            - strong [ref=e574]: "70"
+            - text: ","
+            - strong [ref=e575]: "140"
+            - text: ","
+            - strong [ref=e576]: "280"
+            - text: ","
+            - strong [ref=e577]: "560"
+            - text: ", and"
+            - strong [ref=e578]: "1120"
+            - text: .
+            - list [ref=e579]:
+              - listitem [ref=e580]:
+                - text: Use
+                - emphasis [ref=e581]: lower budgets
+                - text: for classification, captioning, or video understanding, where faster inference and processing many frames outweigh fine-grained detail.
+              - listitem [ref=e582]:
+                - text: Use
+                - emphasis [ref=e583]: higher budgets
+                - text: for tasks like OCR, document parsing, or reading small text.
+  - contentinfo [ref=e584]:
+    - generic [ref=e586]:
+      - generic [ref=e587]: © 2026 Ollama
+      - generic [ref=e588]:
+        - link "Download" [ref=e589] [cursor=pointer]:
+          - /url: /download
+        - link "Blog" [ref=e590] [cursor=pointer]:
+          - /url: /blog
+        - link "Docs" [ref=e591] [cursor=pointer]:
+          - /url: https://docs.ollama.com
+        - link "GitHub" [ref=e592] [cursor=pointer]:
+          - /url: https://github.com/ollama/ollama
+        - link "Discord" [ref=e593] [cursor=pointer]:
+          - /url: https://discord.com/invite/ollama
+        - link "X (Twitter)" [ref=e594] [cursor=pointer]:
+          - /url: https://twitter.com/ollama
+        - link "Contact" [ref=e595] [cursor=pointer]:
+          - /url: mailto:hello@ollama.com
+        - link "Privacy" [ref=e596] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e597] [cursor=pointer]:
+          - /url: /terms

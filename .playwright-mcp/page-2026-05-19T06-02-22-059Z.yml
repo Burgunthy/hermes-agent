@@ -1,0 +1,1557 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fnateemma%2Fstrategies
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=nateemma%2Fstrategies
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "nateemma" [ref=e70] [cursor=pointer]:
+            - /url: /nateemma
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "strategies" [ref=e73] [cursor=pointer]:
+              - /url: /nateemma/strategies
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fnateemma%2Fstrategies
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 114" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fnateemma%2Fstrategies
+                - img [ref=e82]
+                - text: Fork
+                - generic "114" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fnateemma%2Fstrategies
+                - img [ref=e88]
+                - text: Star
+                - generic "422 users starred this repository" [ref=e90]: "422"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /nateemma/strategies
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 29" [ref=e99] [cursor=pointer]:
+              - /url: /nateemma/strategies/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "29" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 1" [ref=e106] [cursor=pointer]:
+              - /url: /nateemma/strategies/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "1" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Actions" [ref=e112] [cursor=pointer]:
+              - /url: /nateemma/strategies/actions
+              - img [ref=e113]
+              - generic [ref=e115]: Actions
+          - listitem [ref=e116]:
+            - link "Projects" [ref=e117] [cursor=pointer]:
+              - /url: /nateemma/strategies/projects
+              - img [ref=e118]
+              - generic [ref=e120]: Projects
+          - listitem [ref=e121]:
+            - link "Security and quality" [ref=e122] [cursor=pointer]:
+              - /url: /nateemma/strategies/security
+              - img [ref=e123]
+              - generic [ref=e125]: Security and quality
+          - listitem [ref=e126]:
+            - link "Insights" [ref=e127] [cursor=pointer]:
+              - /url: /nateemma/strategies/pulse
+              - img [ref=e128]
+              - generic [ref=e130]: Insights
+    - generic [ref=e143]:
+      - heading "nateemma/strategies" [level=1] [ref=e145]
+      - generic [ref=e146]:
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - generic [ref=e151]:
+              - button "master branch" [ref=e153] [cursor=pointer]:
+                - generic [ref=e154]:
+                  - generic [ref=e156]:
+                    - img [ref=e158]
+                    - generic [ref=e161]: master
+                  - generic:
+                    - img
+              - generic [ref=e162]:
+                - link "2 Branches" [ref=e163] [cursor=pointer]:
+                  - /url: /nateemma/strategies/branches
+                  - generic [ref=e164]:
+                    - generic:
+                      - img
+                    - generic [ref=e166]:
+                      - strong [ref=e167]: "2"
+                      - text: Branches
+                - link "0 Tags" [ref=e168] [cursor=pointer]:
+                  - /url: /nateemma/strategies/tags
+                  - generic [ref=e169]:
+                    - generic:
+                      - img
+                    - generic [ref=e171]:
+                      - strong [ref=e172]: "0"
+                      - text: Tags
+            - generic [ref=e173]:
+              - generic [ref=e177]:
+                - img [ref=e179]
+                - combobox "Go to file" [ref=e181]
+              - button "Code" [ref=e182] [cursor=pointer]:
+                - generic [ref=e183]:
+                  - generic:
+                    - img
+                  - generic [ref=e184]: Code
+                  - generic:
+                    - img
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - heading "Folders and files" [level=2] [ref=e187]
+              - table "Folders and files" [ref=e188]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e189]:
+                  - 'row "Latest commit nateemma commits by nateemma fix(GANs): collateral sampling uses running-label deficits, not direc… Open commit details Commit df27d7d · May 17, 20262 days ago History 328 Commits" [ref=e190]':
+                    - 'cell "Latest commit nateemma commits by nateemma fix(GANs): collateral sampling uses running-label deficits, not direc… Open commit details Commit df27d7d · May 17, 20262 days ago History 328 Commits" [ref=e191]':
+                      - generic [ref=e192]:
+                        - heading "Latest commit" [level=2] [ref=e193]
+                        - generic [ref=e194]:
+                          - generic [ref=e196]:
+                            - link "nateemma" [ref=e197] [cursor=pointer]:
+                              - /url: /nateemma
+                              - img "nateemma" [ref=e198]
+                            - link "commits by nateemma" [ref=e199] [cursor=pointer]:
+                              - /url: /nateemma/strategies/commits?author=nateemma
+                              - text: nateemma
+                          - generic [ref=e200]:
+                            - 'link "fix(GANs): collateral sampling uses running-label deficits, not direc…" [ref=e203] [cursor=pointer]':
+                              - /url: /nateemma/strategies/commit/df27d7dbd0ce486249bb956d162190c442ea2513
+                            - button "Open commit details" [ref=e204] [cursor=pointer]:
+                              - img [ref=e205]
+                        - generic [ref=e207]:
+                          - generic [ref=e209]:
+                            - link "Commit df27d7d" [ref=e210] [cursor=pointer]:
+                              - /url: /nateemma/strategies/commit/df27d7dbd0ce486249bb956d162190c442ea2513
+                              - text: df27d7d
+                            - text: ·
+                            - generic "May 17, 2026, 6:49 AM GMT+9" [ref=e211]: May 17, 20262 days ago
+                          - generic [ref=e212]:
+                            - heading "History" [level=2] [ref=e213]
+                            - link "328 Commits" [ref=e214] [cursor=pointer]:
+                              - /url: /nateemma/strategies/commits/master/
+                              - generic [ref=e215]:
+                                - generic:
+                                  - img
+                                - generic [ref=e216]: 328 Commits
+                  - row ".idea, (Directory) updating DWT strats Mar 16, 20224 years ago" [ref=e217]:
+                    - cell ".idea, (Directory)" [ref=e218]:
+                      - generic [ref=e219]:
+                        - img [ref=e220]
+                        - link ".idea, (Directory)" [ref=e225] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/.idea
+                          - text: .idea
+                    - cell "updating DWT strats" [ref=e226]:
+                      - link "updating DWT strats" [ref=e229] [cursor=pointer]:
+                        - /url: /nateemma/strategies/commit/08f7fad8f7ebc97d4c6c2e87b480727c8573afc3
+                    - cell "Mar 16, 20224 years ago" [ref=e230]:
+                      - generic [ref=e231]: Mar 16, 20224 years ago
+                  - 'row "Anomaly, (Directory) refactor(anomaly): migrate NNAnomalyStrategy type hints to Predictors… May 5, 20262 weeks ago" [ref=e232]':
+                    - cell "Anomaly, (Directory)" [ref=e233]:
+                      - generic [ref=e234]:
+                        - img [ref=e235]
+                        - link "Anomaly, (Directory)" [ref=e240] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/Anomaly
+                          - text: Anomaly
+                    - 'cell "refactor(anomaly): migrate NNAnomalyStrategy type hints to Predictors…" [ref=e241]':
+                      - 'link "refactor(anomaly): migrate NNAnomalyStrategy type hints to Predictors…" [ref=e244] [cursor=pointer]':
+                        - /url: /nateemma/strategies/commit/ae728649708c5748b1604e91c229161fa596c6ea
+                    - cell "May 5, 20262 weeks ago" [ref=e245]:
+                      - generic [ref=e246]: May 5, 20262 weeks ago
+                  - row "Debug, (Directory) Added NNPredictor family. Updated GAN code (still not good enough) May 12, 2026last week" [ref=e247]:
+                    - cell "Debug, (Directory)" [ref=e248]:
+                      - generic [ref=e249]:
+                        - img [ref=e250]
+                        - link "Debug, (Directory)" [ref=e255] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/Debug
+                          - text: Debug
+                    - cell "Added NNPredictor family. Updated GAN code (still not good enough)" [ref=e256]:
+                      - link "Added NNPredictor family. Updated GAN code (still not good enough)" [ref=e259] [cursor=pointer]:
+                        - /url: /nateemma/strategies/commit/6a334ca44499aad6f165db87b15b18b6a4d06d61
+                    - cell "May 12, 2026last week" [ref=e260]:
+                      - generic [ref=e261]: May 12, 2026last week
+                  - 'row "Framework, (Directory) baseline: NNNC + MT_DDPM production-ready config (+37% / +69pp above … May 16, 20264 days ago" [ref=e262]':
+                    - cell "Framework, (Directory)" [ref=e263]:
+                      - generic [ref=e264]:
+                        - img [ref=e265]
+                        - link "Framework, (Directory)" [ref=e270] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/Framework
+                          - text: Framework
+                    - 'cell "baseline: NNNC + MT_DDPM production-ready config (+37% / +69pp above …" [ref=e271]':
+                      - 'link "baseline: NNNC + MT_DDPM production-ready config (+37% / +69pp above …" [ref=e274] [cursor=pointer]':
+                        - /url: /nateemma/strategies/commit/0c7333f6c60ad3e2a702b14eae44baf8e29ee398
+                    - cell "May 16, 20264 days ago" [ref=e275]:
+                      - generic [ref=e276]: May 16, 20264 days ago
+                  - 'row "GANs, (Directory) fix(GANs): collateral sampling uses running-label deficits, not direc… May 17, 20262 days ago" [ref=e277]':
+                    - cell "GANs, (Directory)" [ref=e278]:
+                      - generic [ref=e279]:
+                        - img [ref=e280]
+                        - link "GANs, (Directory)" [ref=e285] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/GANs
+                          - text: GANs
+                    - 'cell "fix(GANs): collateral sampling uses running-label deficits, not direc…" [ref=e286]':
+                      - 'link "fix(GANs): collateral sampling uses running-label deficits, not direc…" [ref=e289] [cursor=pointer]':
+                        - /url: /nateemma/strategies/commit/df27d7dbd0ce486249bb956d162190c442ea2513
+                    - cell "May 17, 20262 days ago" [ref=e290]:
+                      - generic [ref=e291]: May 17, 20262 days ago
+                  - row "MLX, (Directory) Updated/added README files Apr 28, 20263 weeks ago" [ref=e292]:
+                    - cell "MLX, (Directory)" [ref=e293]:
+                      - generic [ref=e294]:
+                        - img [ref=e295]
+                        - link "MLX, (Directory)" [ref=e300] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/MLX
+                          - text: MLX
+                    - cell "Updated/added README files" [ref=e301]:
+                      - link "Updated/added README files" [ref=e304] [cursor=pointer]:
+                        - /url: /nateemma/strategies/commit/e6be79c292908710a5edb7e305790b2815c74e27
+                    - cell "Apr 28, 20263 weeks ago" [ref=e305]:
+                      - generic [ref=e306]: Apr 28, 20263 weeks ago
+                  - 'row "NNMT, (Directory) baseline: NNNC + MT_DDPM production-ready config (+37% / +69pp above … May 16, 20264 days ago" [ref=e307]':
+                    - cell "NNMT, (Directory)" [ref=e308]:
+                      - generic [ref=e309]:
+                        - img [ref=e310]
+                        - link "NNMT, (Directory)" [ref=e315] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/NNMT
+                          - text: NNMT
+                    - 'cell "baseline: NNNC + MT_DDPM production-ready config (+37% / +69pp above …" [ref=e316]':
+                      - 'link "baseline: NNNC + MT_DDPM production-ready config (+37% / +69pp above …" [ref=e319] [cursor=pointer]':
+                        - /url: /nateemma/strategies/commit/0c7333f6c60ad3e2a702b14eae44baf8e29ee398
+                    - cell "May 16, 20264 days ago" [ref=e320]:
+                      - generic [ref=e321]: May 16, 20264 days ago
+                  - 'row "NNNC, (Directory) baseline: NNNC + MT_DDPM production-ready config (+37% / +69pp above … May 16, 20264 days ago" [ref=e322]':
+                    - cell "NNNC, (Directory)" [ref=e323]:
+                      - generic [ref=e324]:
+                        - img [ref=e325]
+                        - link "NNNC, (Directory)" [ref=e330] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/NNNC
+                          - text: NNNC
+                    - 'cell "baseline: NNNC + MT_DDPM production-ready config (+37% / +69pp above …" [ref=e331]':
+                      - 'link "baseline: NNNC + MT_DDPM production-ready config (+37% / +69pp above …" [ref=e334] [cursor=pointer]':
+                        - /url: /nateemma/strategies/commit/0c7333f6c60ad3e2a702b14eae44baf8e29ee398
+                    - cell "May 16, 20264 days ago" [ref=e335]:
+                      - generic [ref=e336]: May 16, 20264 days ago
+                  - 'row "NNPredict, (Directory) docs(nnpredict): add NNPredict README + AGENT_GUIDE entries May 12, 2026last week" [ref=e337]':
+                    - cell "NNPredict, (Directory)" [ref=e338]:
+                      - generic [ref=e339]:
+                        - img [ref=e340]
+                        - link "NNPredict, (Directory)" [ref=e345] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/NNPredict
+                          - text: NNPredict
+                    - 'cell "docs(nnpredict): add NNPredict README + AGENT_GUIDE entries" [ref=e346]':
+                      - 'link "docs(nnpredict): add NNPredict README + AGENT_GUIDE entries" [ref=e349] [cursor=pointer]':
+                        - /url: /nateemma/strategies/commit/883c96fb306caefa2dff3c92cc9303ee7b4ce4f2
+                    - cell "May 12, 2026last week" [ref=e350]:
+                      - generic [ref=e351]: May 12, 2026last week
+                  - row "Predictors, (Directory) Added NNPredictor family. Updated GAN code (still not good enough) May 12, 2026last week" [ref=e352]:
+                    - cell "Predictors, (Directory)" [ref=e353]:
+                      - generic [ref=e354]:
+                        - img [ref=e355]
+                        - link "Predictors, (Directory)" [ref=e360] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/Predictors
+                          - text: Predictors
+                    - cell "Added NNPredictor family. Updated GAN code (still not good enough)" [ref=e361]:
+                      - link "Added NNPredictor family. Updated GAN code (still not good enough)" [ref=e364] [cursor=pointer]:
+                        - /url: /nateemma/strategies/commit/6a334ca44499aad6f165db87b15b18b6a4d06d61
+                    - cell "May 12, 2026last week" [ref=e365]:
+                      - generic [ref=e366]: May 12, 2026last week
+                  - row "SimpleStrategies, (Directory) Checkpoint after conslidating srategy frameworks Apr 10, 2026last month" [ref=e367]:
+                    - cell "SimpleStrategies, (Directory)" [ref=e368]:
+                      - generic [ref=e369]:
+                        - img [ref=e370]
+                        - link "SimpleStrategies, (Directory)" [ref=e375] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/SimpleStrategies
+                          - text: SimpleStrategies
+                    - cell "Checkpoint after conslidating srategy frameworks" [ref=e376]:
+                      - link "Checkpoint after conslidating srategy frameworks" [ref=e379] [cursor=pointer]:
+                        - /url: /nateemma/strategies/commit/76a4e4b3527df5300dc500b6486fd6465f7d654f
+                    - cell "Apr 10, 2026last month" [ref=e380]:
+                      - generic [ref=e381]: Apr 10, 2026last month
+                  - 'row "Sklearn, (Directory) refactor(sklearn): migrate SklearnClassifier_* to Predictors.SklearnB… May 5, 20262 weeks ago" [ref=e382]':
+                    - cell "Sklearn, (Directory)" [ref=e383]:
+                      - generic [ref=e384]:
+                        - img [ref=e385]
+                        - link "Sklearn, (Directory)" [ref=e390] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/Sklearn
+                          - text: Sklearn
+                    - 'cell "refactor(sklearn): migrate SklearnClassifier_* to Predictors.SklearnB…" [ref=e391]':
+                      - 'link "refactor(sklearn): migrate SklearnClassifier_* to Predictors.SklearnB…" [ref=e394] [cursor=pointer]':
+                        - /url: /nateemma/strategies/commit/f290370e3503e9896fa507a64e07723890b42361
+                    - cell "May 5, 20262 weeks ago" [ref=e395]:
+                      - generic [ref=e396]: May 5, 20262 weeks ago
+                  - row "TSPredict, (Directory) fix GAN mlx versions, code cleanup May 5, 20262 weeks ago" [ref=e397]:
+                    - cell "TSPredict, (Directory)" [ref=e398]:
+                      - generic [ref=e399]:
+                        - img [ref=e400]
+                        - link "TSPredict, (Directory)" [ref=e405] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/TSPredict
+                          - text: TSPredict
+                    - cell "fix GAN mlx versions, code cleanup" [ref=e406]:
+                      - link "fix GAN mlx versions, code cleanup" [ref=e409] [cursor=pointer]:
+                        - /url: /nateemma/strategies/commit/3a919f7cd245c2a559f0c313303db51e90b5adbf
+                    - cell "May 5, 20262 weeks ago" [ref=e410]:
+                      - generic [ref=e411]: May 5, 20262 weeks ago
+                  - row "config, (Directory) Added NNPredictor family. Updated GAN code (still not good enough) May 12, 2026last week" [ref=e412]:
+                    - cell "config, (Directory)" [ref=e413]:
+                      - generic [ref=e414]:
+                        - img [ref=e415]
+                        - link "config, (Directory)" [ref=e420] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/config
+                          - text: config
+                    - cell "Added NNPredictor family. Updated GAN code (still not good enough)" [ref=e421]:
+                      - link "Added NNPredictor family. Updated GAN code (still not good enough)" [ref=e424] [cursor=pointer]:
+                        - /url: /nateemma/strategies/commit/6a334ca44499aad6f165db87b15b18b6a4d06d61
+                    - cell "May 12, 2026last week" [ref=e425]:
+                      - generic [ref=e426]: May 12, 2026last week
+                  - 'row "docs/superpowers, (Directory) docs(tabddpm): add design spec and implementation plan May 12, 2026last week" [ref=e427]':
+                    - cell "docs/superpowers, (Directory)" [ref=e428]:
+                      - generic [ref=e429]:
+                        - img [ref=e430]
+                        - link "docs/superpowers, (Directory)" [ref=e435] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/docs/superpowers
+                          - text: docs/superpowers
+                    - 'cell "docs(tabddpm): add design spec and implementation plan" [ref=e436]':
+                      - 'link "docs(tabddpm): add design spec and implementation plan" [ref=e439] [cursor=pointer]':
+                        - /url: /nateemma/strategies/commit/6ead213327735a18357ba5d2be5eb1f11f168c87
+                    - cell "May 12, 2026last week" [ref=e440]:
+                      - generic [ref=e441]: May 12, 2026last week
+                  - row "hyperopts, (Directory) Updated/added README files Apr 28, 20263 weeks ago" [ref=e442]:
+                    - cell "hyperopts, (Directory)" [ref=e443]:
+                      - generic [ref=e444]:
+                        - img [ref=e445]
+                        - link "hyperopts, (Directory)" [ref=e450] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/hyperopts
+                          - text: hyperopts
+                    - cell "Updated/added README files" [ref=e451]:
+                      - link "Updated/added README files" [ref=e454] [cursor=pointer]:
+                        - /url: /nateemma/strategies/commit/e6be79c292908710a5edb7e305790b2815c74e27
+                    - cell "Apr 28, 20263 weeks ago" [ref=e455]:
+                      - generic [ref=e456]: Apr 28, 20263 weeks ago
+                  - row "reference, (Directory) Updated/added README files Apr 28, 20263 weeks ago" [ref=e457]:
+                    - cell "reference, (Directory)" [ref=e458]:
+                      - generic [ref=e459]:
+                        - img [ref=e460]
+                        - link "reference, (Directory)" [ref=e465] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/reference
+                          - text: reference
+                    - cell "Updated/added README files" [ref=e466]:
+                      - link "Updated/added README files" [ref=e469] [cursor=pointer]:
+                        - /url: /nateemma/strategies/commit/e6be79c292908710a5edb7e305790b2815c74e27
+                    - cell "Apr 28, 20263 weeks ago" [ref=e470]:
+                      - generic [ref=e471]: Apr 28, 20263 weeks ago
+                  - row "saved_data, (Directory) Add GAN interface, test suites, and new-module READMEs Apr 17, 2026last month" [ref=e472]:
+                    - cell "saved_data, (Directory)" [ref=e473]:
+                      - generic [ref=e474]:
+                        - img [ref=e475]
+                        - link "saved_data, (Directory)" [ref=e480] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/saved_data
+                          - text: saved_data
+                    - cell "Add GAN interface, test suites, and new-module READMEs" [ref=e481]:
+                      - link "Add GAN interface, test suites, and new-module READMEs" [ref=e484] [cursor=pointer]:
+                        - /url: /nateemma/strategies/commit/32b49cd88fc7d9db13d5676c728923e9d3f30ec2
+                    - cell "Apr 17, 2026last month" [ref=e485]:
+                      - generic [ref=e486]: Apr 17, 2026last month
+                  - row "scripts, (Directory) Added NNPredictor family. Updated GAN code (still not good enough) May 12, 2026last week" [ref=e487]:
+                    - cell "scripts, (Directory)" [ref=e488]:
+                      - generic [ref=e489]:
+                        - img [ref=e490]
+                        - link "scripts, (Directory)" [ref=e495] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/scripts
+                          - text: scripts
+                    - cell "Added NNPredictor family. Updated GAN code (still not good enough)" [ref=e496]:
+                      - link "Added NNPredictor family. Updated GAN code (still not good enough)" [ref=e499] [cursor=pointer]:
+                        - /url: /nateemma/strategies/commit/6a334ca44499aad6f165db87b15b18b6a4d06d61
+                    - cell "May 12, 2026last week" [ref=e500]:
+                      - generic [ref=e501]: May 12, 2026last week
+                  - 'row "utils, (Directory) feat(utils): per-instance task_weights_override for both multi-task c… May 17, 20262 days ago" [ref=e502]':
+                    - cell "utils, (Directory)" [ref=e503]:
+                      - generic [ref=e504]:
+                        - img [ref=e505]
+                        - link "utils, (Directory)" [ref=e510] [cursor=pointer]:
+                          - /url: /nateemma/strategies/tree/master/utils
+                          - text: utils
+                    - 'cell "feat(utils): per-instance task_weights_override for both multi-task c…" [ref=e511]':
+                      - 'link "feat(utils): per-instance task_weights_override for both multi-task c…" [ref=e514] [cursor=pointer]':
+                        - /url: /nateemma/strategies/commit/0250518db002da7c20d3e658b0ce9e367501897e
+                    - cell "May 17, 20262 days ago" [ref=e515]:
+                      - generic [ref=e516]: May 17, 20262 days ago
+                  - row ".gitignore, (File) Refactor Create*/NN* classes through GAN interface; .gitignore, README Apr 17, 2026last month" [ref=e517]:
+                    - cell ".gitignore, (File)" [ref=e518]:
+                      - generic [ref=e519]:
+                        - img [ref=e520]
+                        - link ".gitignore, (File)" [ref=e525] [cursor=pointer]:
+                          - /url: /nateemma/strategies/blob/master/.gitignore
+                          - text: .gitignore
+                    - cell "Refactor Create*/NN* classes through GAN interface; .gitignore, README" [ref=e526]:
+                      - link "Refactor Create*/NN* classes through GAN interface; .gitignore, README" [ref=e529] [cursor=pointer]:
+                        - /url: /nateemma/strategies/commit/5c36b7d7b77d016881d499cd63eec50bf75a7bd8
+                    - cell "Apr 17, 2026last month" [ref=e530]:
+                      - generic [ref=e531]: Apr 17, 2026last month
+                  - 'row "AGENT_GUIDE.md, (File) docs(gans): document the TabDDPM GAN type May 12, 2026last week" [ref=e532]':
+                    - cell "AGENT_GUIDE.md, (File)" [ref=e533]:
+                      - generic [ref=e534]:
+                        - img [ref=e535]
+                        - link "AGENT_GUIDE.md, (File)" [ref=e540] [cursor=pointer]:
+                          - /url: /nateemma/strategies/blob/master/AGENT_GUIDE.md
+                          - text: AGENT_GUIDE.md
+                    - 'cell "docs(gans): document the TabDDPM GAN type" [ref=e541]':
+                      - 'link "docs(gans): document the TabDDPM GAN type" [ref=e544] [cursor=pointer]':
+                        - /url: /nateemma/strategies/commit/787bab798bb8b457f04aab8ee41f3d855f396447
+                    - cell "May 12, 2026last week" [ref=e545]:
+                      - generic [ref=e546]: May 12, 2026last week
+                  - row "LICENSE, (File) Checkpoint after conslidating srategy frameworks Apr 10, 2026last month" [ref=e547]:
+                    - cell "LICENSE, (File)" [ref=e548]:
+                      - generic [ref=e549]:
+                        - img [ref=e550]
+                        - link "LICENSE, (File)" [ref=e555] [cursor=pointer]:
+                          - /url: /nateemma/strategies/blob/master/LICENSE
+                          - text: LICENSE
+                    - cell "Checkpoint after conslidating srategy frameworks" [ref=e556]:
+                      - link "Checkpoint after conslidating srategy frameworks" [ref=e559] [cursor=pointer]:
+                        - /url: /nateemma/strategies/commit/76a4e4b3527df5300dc500b6486fd6465f7d654f
+                    - cell "Apr 10, 2026last month" [ref=e560]:
+                      - generic [ref=e561]: Apr 10, 2026last month
+                  - row "README.md, (File) Cleaned up GAN code Apr 29, 20263 weeks ago" [ref=e562]:
+                    - cell "README.md, (File)" [ref=e563]:
+                      - generic [ref=e564]:
+                        - img [ref=e565]
+                        - link "README.md, (File)" [ref=e570] [cursor=pointer]:
+                          - /url: /nateemma/strategies/blob/master/README.md
+                          - text: README.md
+                    - cell "Cleaned up GAN code" [ref=e571]:
+                      - link "Cleaned up GAN code" [ref=e574] [cursor=pointer]:
+                        - /url: /nateemma/strategies/commit/dad5d96ea081cf247f8698bbf88d0f19c9ef01fd
+                    - cell "Apr 29, 20263 weeks ago" [ref=e575]:
+                      - generic [ref=e576]: Apr 29, 20263 weeks ago
+                  - row "README_Anomaly.md, (File) Checkpoint after conslidating srategy frameworks Apr 10, 2026last month" [ref=e577]:
+                    - cell "README_Anomaly.md, (File)" [ref=e578]:
+                      - generic [ref=e579]:
+                        - img [ref=e580]
+                        - link "README_Anomaly.md, (File)" [ref=e585] [cursor=pointer]:
+                          - /url: /nateemma/strategies/blob/master/README_Anomaly.md
+                          - text: README_Anomaly.md
+                    - cell "Checkpoint after conslidating srategy frameworks" [ref=e586]:
+                      - link "Checkpoint after conslidating srategy frameworks" [ref=e589] [cursor=pointer]:
+                        - /url: /nateemma/strategies/commit/76a4e4b3527df5300dc500b6486fd6465f7d654f
+                    - cell "Apr 10, 2026last month" [ref=e590]:
+                      - generic [ref=e591]: Apr 10, 2026last month
+                  - row "README_MACM1.md, (File) snapshot 1/10/26 Feb 11, 20263 months ago" [ref=e592]:
+                    - cell "README_MACM1.md, (File)" [ref=e593]:
+                      - generic [ref=e594]:
+                        - img [ref=e595]
+                        - link "README_MACM1.md, (File)" [ref=e600] [cursor=pointer]:
+                          - /url: /nateemma/strategies/blob/master/README_MACM1.md
+                          - text: README_MACM1.md
+                    - cell "snapshot 1/10/26" [ref=e601]:
+                      - link "snapshot 1/10/26" [ref=e604] [cursor=pointer]:
+                        - /url: /nateemma/strategies/commit/297a756c2e8295cc351a39b191333bc7812caac4
+                    - cell "Feb 11, 20263 months ago" [ref=e605]:
+                      - generic [ref=e606]: Feb 11, 20263 months ago
+                  - row "README_NNTC.md, (File) Checkpoint after conslidating srategy frameworks Apr 10, 2026last month" [ref=e607]:
+                    - cell "README_NNTC.md, (File)" [ref=e608]:
+                      - generic [ref=e609]:
+                        - img [ref=e610]
+                        - link "README_NNTC.md, (File)" [ref=e615] [cursor=pointer]:
+                          - /url: /nateemma/strategies/blob/master/README_NNTC.md
+                          - text: README_NNTC.md
+                    - cell "Checkpoint after conslidating srategy frameworks" [ref=e616]:
+                      - link "Checkpoint after conslidating srategy frameworks" [ref=e619] [cursor=pointer]:
+                        - /url: /nateemma/strategies/commit/76a4e4b3527df5300dc500b6486fd6465f7d654f
+                    - cell "Apr 10, 2026last month" [ref=e620]:
+                      - generic [ref=e621]: Apr 10, 2026last month
+                  - row "README_PCA.md, (File) Checkpoint after conslidating srategy frameworks Apr 10, 2026last month" [ref=e622]:
+                    - cell "README_PCA.md, (File)" [ref=e623]:
+                      - generic [ref=e624]:
+                        - img [ref=e625]
+                        - link "README_PCA.md, (File)" [ref=e630] [cursor=pointer]:
+                          - /url: /nateemma/strategies/blob/master/README_PCA.md
+                          - text: README_PCA.md
+                    - cell "Checkpoint after conslidating srategy frameworks" [ref=e631]:
+                      - link "Checkpoint after conslidating srategy frameworks" [ref=e634] [cursor=pointer]:
+                        - /url: /nateemma/strategies/commit/76a4e4b3527df5300dc500b6486fd6465f7d654f
+                    - cell "Apr 10, 2026last month" [ref=e635]:
+                      - generic [ref=e636]: Apr 10, 2026last month
+                  - row "__init__.py, (File) Using common ROI parameters across all Strategies Jul 25, 20215 years ago" [ref=e637]:
+                    - cell "__init__.py, (File)" [ref=e638]:
+                      - generic [ref=e639]:
+                        - img [ref=e640]
+                        - link "__init__.py, (File)" [ref=e645] [cursor=pointer]:
+                          - /url: /nateemma/strategies/blob/master/__init__.py
+                          - text: __init__.py
+                    - cell "Using common ROI parameters across all Strategies" [ref=e646]:
+                      - link "Using common ROI parameters across all Strategies" [ref=e649] [cursor=pointer]:
+                        - /url: /nateemma/strategies/commit/2d02bed9c46ae5f7bd0a0392a452bf47f471dc2d
+                    - cell "Jul 25, 20215 years ago" [ref=e650]:
+                      - generic [ref=e651]: Jul 25, 20215 years ago
+            - generic [ref=e653]:
+              - generic [ref=e654]:
+                - heading "Repository files navigation" [level=2] [ref=e655]
+                - navigation "Repository files" [ref=e656]:
+                  - list [ref=e657]:
+                    - listitem [ref=e658]:
+                      - link "README" [ref=e659] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e661]
+                        - generic [ref=e663]: README
+                    - listitem [ref=e664]:
+                      - link "GPL-3.0 license" [ref=e665] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e667]
+                        - generic [ref=e669]: GPL-3.0 license
+                - button "Outline" [ref=e670] [cursor=pointer]:
+                  - img [ref=e671]
+              - article [ref=e674]:
+                - generic [ref=e675]:
+                  - heading "Phil's Custom freqtrade Crypto Trading Strategies (Version 2)" [level=1] [ref=e676]
+                  - 'link "Permalink: Phil''s Custom freqtrade Crypto Trading Strategies (Version 2)" [ref=e677] [cursor=pointer]':
+                    - /url: "#phils-custom-freqtrade-crypto-trading-strategies-version-2"
+                    - img [ref=e678]
+                - paragraph [ref=e680]:
+                  - emphasis [ref=e681]:
+                    - strong [ref=e682]: The directory structure and code architecture have completely changed. The older code is available on branch v1, but I will not be maintaining that
+                - paragraph [ref=e683]: Note that, like the rest of the software world, I have been playing with agent-assisted coding, so some of the code might look a little strange. I added a file AGENT_GUIDE.md that should be useful for agents (or humans) looking at the code.
+                - paragraph [ref=e684]:
+                  - text: All strategies share a common framework for entry/exit processing, custom exits, and stop-loss logic. There is also a consistent approach to normalization of data. The base framework lives in the
+                  - emphasis [ref=e685]: Framework
+                  - text: directory.
+                - paragraph [ref=e686]: Many of the strategies use Neural Networks (Machine Learning), which requires training the underlying models on lots of data. Even then, I had to implement Generative Adversarial Network (GAN) models to artificially enhance the data because there are simply not enough buy/sell signals to train the stategy models. Look in the GANs directory for more info.
+                - generic [ref=e687]:
+                  - heading "Quickstart" [level=2] [ref=e688]
+                  - 'link "Permalink: Quickstart" [ref=e689] [cursor=pointer]':
+                    - /url: "#quickstart"
+                    - img [ref=e690]
+                - paragraph [ref=e692]: There are a bunch of scripts available to help, I recommend using them. Note that I use a Mac so I have to use the zsh shell, but I think most of these will run with bash.
+                - paragraph [ref=e693]:
+                  - emphasis [ref=e694]: Download backtest data
+                  - text: "(run daily):"
+                - generic [ref=e695]:
+                  - generic [ref=e696]: zsh user_data/strategies/scripts/download.sh -n 720 binanceus
+                  - button "Copy code to clipboard" [ref=e698] [cursor=pointer]:
+                    - img [ref=e699]
+                - paragraph [ref=e702]:
+                  - emphasis [ref=e703]: Create scalers for normalization
+                  - text: "(only need to do this once for all strategies):"
+                - generic [ref=e704]:
+                  - generic [ref=e705]: zsh user_data/strategies/scripts/test_strat.sh -n 720 -o 30 Framework CreateScalers
+                  - button "Copy code to clipboard" [ref=e707] [cursor=pointer]:
+                    - img [ref=e708]
+                - paragraph [ref=e711]:
+                  - emphasis [ref=e712]: Train model
+                  - text: (if not already trained).
+                - paragraph [ref=e713]: Only need to do this once per strategy, and only if the strategy uses a saved model (which is all of the Neural Network-based strategies). If there is no existing model, the code will automatically train a new one, but you need to use a lot of data for this.
+                - paragraph [ref=e714]: "Note - don't train on the same timeframe that are using for backtesting (use the -o argument)!:"
+                - generic [ref=e715]:
+                  - generic [ref=e716]: zsh user_data/strategies/scripts/test_strat.sh -n 720 -o 30 NNNC NNNCStrategy
+                  - button "Copy code to clipboard" [ref=e718] [cursor=pointer]:
+                    - img [ref=e719]
+                - paragraph [ref=e722]:
+                  - emphasis [ref=e723]: Run backtest
+                  - text: ":"
+                - generic [ref=e724]:
+                  - generic [ref=e725]: zsh user_data/strategies/scripts/test_strat.sh -n 30 NNNC NNNCStrategy
+                  - button "Copy code to clipboard" [ref=e727] [cursor=pointer]:
+                    - img [ref=e728]
+                - paragraph [ref=e731]:
+                  - emphasis [ref=e732]: Plot results
+                  - text: ": This is very useful for assessing a strategy. It produces an html file that you can view in a browser. In the example below, that file would be:"
+                - paragraph [ref=e733]: file:////user_data/plot/freqtrade-plot-SOL_USDT-15m.html
+                - generic [ref=e734]:
+                  - generic [ref=e735]: zsh user_data/strategies/scripts/plot_strat.sh -n 30 NNNC NNNCStrategy SOL/USDT
+                  - button "Copy code to clipboard" [ref=e737] [cursor=pointer]:
+                    - img [ref=e738]
+                - paragraph [ref=e741]:
+                  - emphasis [ref=e742]: Check Lookahead Bias
+                  - text: ":"
+                - generic [ref=e743]:
+                  - generic [ref=e744]: zsh user_data/strategies/scripts/check_bias.sh -n 30 NNNC NNNCStrategy
+                  - button "Copy code to clipboard" [ref=e746] [cursor=pointer]:
+                    - img [ref=e747]
+                - paragraph [ref=e750]: More info below...
+                - generic [ref=e751]:
+                  - heading "Disclaimer" [level=2] [ref=e752]
+                  - 'link "Permalink: Disclaimer" [ref=e753] [cursor=pointer]':
+                    - /url: "#disclaimer"
+                    - img [ref=e754]
+                - paragraph [ref=e756]: These strategies are for educational purposes only.
+                - paragraph [ref=e757]: Do not risk money which you are afraid to lose. USE THE SOFTWARE AT YOUR OWN RISK. THE AUTHORS AND ALL AFFILIATES ASSUME NO RESPONSIBILITY FOR YOUR TRADING RESULTS.
+                - paragraph [ref=e758]: Always start by backtesting, then dry-run for at least a week before going live. A strategy that looks great in backtesting often performs very differently with real, live data — market conditions, slippage, and timing cannot be fully reproduced from historical data.
+                - paragraph [ref=e759]: Do not backtest only in bull markets (e.g., 2020). Include periods of poor performance (e.g., May, Nov, Dec 2021).
+                - generic [ref=e760]:
+                  - heading "Directories" [level=2] [ref=e761]
+                  - 'link "Permalink: Directories" [ref=e762] [cursor=pointer]':
+                    - /url: "#directories"
+                    - img [ref=e763]
+                - generic [ref=e765]:
+                  - code [ref=e767]: tree -d -L 1 . ├── Anomaly ├── archived ├── config ├── Debug ├── Framework ├── GANs ├── hyperopts ├── MLX ├── NNMT ├── NNNC ├── reference ├── saved_data ├── scripts ├── SimpleStrategies ├── Sklearn ├── TSPredict └── utils
+                  - button "Copy code to clipboard" [ref=e769] [cursor=pointer]:
+                    - img [ref=e770]
+                - list [ref=e773]:
+                  - listitem [ref=e774]:
+                    - emphasis [ref=e775]: Anomaly
+                    - text: — anomaly-detection strategies (autoencoder + GANomaly variants)
+                  - listitem [ref=e776]:
+                    - emphasis [ref=e777]: archived
+                    - text: — abandoned strategies kept for reference/cut & paste
+                  - listitem [ref=e778]:
+                    - emphasis [ref=e779]: config
+                    - text: — exchange-specific config files (replaces old per-exchange subdirectories)
+                  - listitem [ref=e780]:
+                    - emphasis [ref=e781]: Debug
+                    - text: — debug/visualisation strategies (all begin with
+                    - code [ref=e782]: Debug
+                    - text: )
+                  - listitem [ref=e783]:
+                    - emphasis [ref=e784]: Framework
+                    - text: — universal base classes (
+                    - code [ref=e785]: BaseStrategy
+                    - text: ","
+                    - code [ref=e786]: BaseNNStrategy
+                    - text: ","
+                    - code [ref=e787]: TrainingSignals
+                    - text: ","
+                    - code [ref=e788]: CreateScalers
+                    - text: )
+                  - listitem [ref=e789]:
+                    - emphasis [ref=e790]: GANs
+                    - text: — GAN implementations + the unified
+                    - code [ref=e791]: GANInterface
+                    - text: /
+                    - code [ref=e792]: GANBackend
+                    - text: system that wraps them. See
+                    - code [ref=e793]: GANs/README.md
+                    - text: for backend details.
+                  - listitem [ref=e794]:
+                    - emphasis [ref=e795]: hyperopts
+                    - text: — custom hyperopt loss functions (copy to
+                    - code [ref=e796]: user_data/hyperopts
+                    - text: to use)
+                  - listitem [ref=e797]:
+                    - emphasis [ref=e798]: MLX
+                    - text: — Apple MLX neural network components (Mamba, etc.) shared across strategy families
+                  - listitem [ref=e799]:
+                    - emphasis [ref=e800]: NNMT
+                    - text: — Neural Network Multi-Task classification strategies
+                  - listitem [ref=e801]:
+                    - emphasis [ref=e802]: NNNC
+                    - text: — Neural Network N-ary (trinary) classification strategies
+                  - listitem [ref=e803]:
+                    - emphasis [ref=e804]: reference
+                    - text: — example strategies from other authors (for learning purposes)
+                  - listitem [ref=e805]:
+                    - emphasis [ref=e806]: saved_data
+                    - text: — saved model files, scalers, and GAN state; keyed by strategy name
+                  - listitem [ref=e807]:
+                    - emphasis [ref=e808]: scripts
+                    - text: — shell scripts for backtesting, hyperopt, dry-run, and live trading
+                  - listitem [ref=e809]:
+                    - emphasis [ref=e810]: SimpleStrategies
+                    - text: — indicator-driven strategies (no ML); each file is a standalone strategy
+                  - listitem [ref=e811]:
+                    - emphasis [ref=e812]: Sklearn
+                    - text: — sklearn-based classifier strategies (RandomForest, XGBoost, etc.) sharing the NN training/augmentation pipeline
+                  - listitem [ref=e813]:
+                    - emphasis [ref=e814]: TSPredict
+                    - text: — time-series prediction strategies using wavelets, FFTs, and DWT
+                  - listitem [ref=e815]:
+                    - emphasis [ref=e816]: utils
+                    - text: — shared utility code (classifiers, data manipulation, indicators, wavelets, etc.)
+                - blockquote [ref=e817]:
+                  - paragraph [ref=e818]:
+                    - emphasis [ref=e819]:
+                      - strong [ref=e820]: Note
+                      - text: ": an older"
+                      - code [ref=e821]: NeuralNets/
+                      - text: directory used to hold a separate git repo with the NN base classes and scaler storage. Its contents have been folded into
+                      - code [ref=e822]: Framework/
+                      - text: (base classes) and
+                      - code [ref=e823]: saved_data/
+                      - text: (scalers). If you see references to
+                      - code [ref=e824]: NeuralNets/
+                      - text: in older docs or branches, treat them as historical.
+                - separator [ref=e825]
+                - paragraph [ref=e826]:
+                  - emphasis [ref=e827]: NOTES
+                  - text: ":"
+                - list [ref=e828]:
+                  - listitem [ref=e829]:
+                    - paragraph [ref=e830]:
+                      - emphasis [ref=e831]:
+                        - strong [ref=e832]: BinanceUS
+                      - text: ": I live in the USA, and most exchanges have blocked API access from here. All strategies should work, but you will need to run hyperopt to get good parameters for your exchange."
+                  - listitem [ref=e833]:
+                    - paragraph [ref=e834]:
+                      - emphasis [ref=e835]:
+                        - strong [ref=e836]: Mac M1
+                      - text: ": My development machine is a Mac M1 laptop. All scripts are written for"
+                      - emphasis [ref=e837]: zsh
+                      - text: (the default macOS shell). See
+                      - link "README_MACM1.md" [ref=e838] [cursor=pointer]:
+                        - /url: /nateemma/strategies/blob/master/README_MACM1.md
+                      - text: for package notes.
+                  - listitem [ref=e839]:
+                    - paragraph [ref=e840]:
+                      - emphasis [ref=e841]:
+                        - strong [ref=e842]: MLX
+                      - text: ": Several strategies use neural network models implemented with Apple's MLX library (similar to PyTorch). Where possible, non-MLX alternatives are provided, but these are harder for me to test consistently."
+                - generic [ref=e843]:
+                  - heading "Strategy Class Hierarchy" [level=2] [ref=e844]
+                  - 'link "Permalink: Strategy Class Hierarchy" [ref=e845] [cursor=pointer]':
+                    - /url: "#strategy-class-hierarchy"
+                    - img [ref=e846]
+                - generic [ref=e848]:
+                  - code [ref=e850]: BaseStrategy (Framework/) ├── BaseNNStrategy (Framework/) │ ├── NNNCStrategy (NNNC/) – N-ary (trinary) classifiers │ ├── NNMTStrategy (NNMT/) – Multi-task classifiers │ ├── NNAnomalyStrategy (Anomaly/) – Anomaly detection │ └── SklearnStrategy (Sklearn/) – sklearn classifiers (RF, XGBoost, …) ├── SimpleStrategy (SimpleStrategies/) └── TSPredict (TSPredict/) – Wavelet/FFT/DWT regression
+                  - button "Copy code to clipboard" [ref=e852] [cursor=pointer]:
+                    - img [ref=e853]
+                - paragraph [ref=e856]:
+                  - code [ref=e857]: BaseStrategy
+                  - text: "provides the universal boilerplate: ROI tables, stop-loss, trailing stops,"
+                  - code [ref=e858]: custom_exit
+                  - text: ", guard conditions, and"
+                  - code [ref=e859]: DataframePopulator
+                  - text: integration.
+                  - code [ref=e860]: bot_start()
+                  - text: (freqtrade's one-time-init hook) handles environment setup, hyperopt-parameter printing, and shared utility instantiation;
+                  - code [ref=e861]: iteration_init()
+                  - text: runs per-iteration scaler reset.
+                - paragraph [ref=e862]:
+                  - code [ref=e863]: BaseNNStrategy
+                  - text: "adds the full ML pipeline on top: classifier construction, training-signal generation, GAN augmentation via"
+                  - code [ref=e864]: enhance_training_data
+                  - text: (a single dispatcher that routes through
+                  - code [ref=e865]: GANs.balance.balance_single_task
+                  - text: /
+                  - code [ref=e866]: balance_multi_task
+                  - text: based on
+                  - code [ref=e867]: gan_type
+                  - text: ), and per-task class-weight computation. Family bases (
+                  - code [ref=e868]: NNNCStrategy
+                  - text: ","
+                  - code [ref=e869]: NNMTStrategy
+                  - text: ", etc.) wire in the family-specific classifier factory and label format."
+                - paragraph [ref=e870]: Subclasses add family-specific logic and need only override a small number of methods.
+                - generic [ref=e871]:
+                  - heading "Intro" [level=2] [ref=e872]
+                  - 'link "Permalink: Intro" [ref=e873] [cursor=pointer]':
+                    - /url: "#intro"
+                    - img [ref=e874]
+                - paragraph [ref=e876]:
+                  - text: This folder contains a variety of custom trading strategies for use with the
+                  - link "freqtrade" [ref=e877] [cursor=pointer]:
+                    - /url: https://www.freqtrade.io/
+                  - text: framework.
+                - paragraph [ref=e878]:
+                  - text: Please read the freqtrade documentation at
+                  - link "https://www.freqtrade.io" [ref=e879] [cursor=pointer]:
+                    - /url: https://www.freqtrade.io
+                  - text: before using this software.
+                - paragraph [ref=e880]: "I currently focus on strategies that revolve around one of several approaches:"
+                - list [ref=e881]:
+                  - listitem [ref=e882]:
+                    - paragraph [ref=e883]:
+                      - strong [ref=e884]: Time-series prediction
+                      - text: — model expected price behaviour and compare to actual. Buy when the model projects a higher price (above a threshold), sell when it projects lower. Variants use Discrete Wavelet Transforms (DWT), FFTs, and Kalman filters. The DWT variants tend to perform best.
+                  - listitem [ref=e885]:
+                    - paragraph [ref=e886]:
+                      - strong [ref=e887]: Neural network classification
+                      - text: — trinary classifiers (sell/hold/buy) based on technical indicators. Base class is
+                      - code [ref=e888]: BaseNNStrategy
+                      - text: (
+                      - code [ref=e889]: Framework/
+                      - text: ); per-family subclasses live in
+                      - code [ref=e890]: NNNC/
+                      - text: (N-ary),
+                      - code [ref=e891]: NNMT/
+                      - text: (multi-task),
+                      - code [ref=e892]: Anomaly/
+                      - text: ", and"
+                      - code [ref=e893]: Sklearn/
+                      - text: . Models are trained over long periods and saved to
+                      - code [ref=e894]: saved_data/<StrategyName>/
+                      - text: .
+                  - listitem [ref=e895]:
+                    - paragraph [ref=e896]:
+                      - strong [ref=e897]: Anomaly detection
+                      - text: — train on historical "normal" (hold) data, then flag anomalous points (unusually high reconstruction error) as buy/sell candidates. Variants use
+                      - code [ref=e898]: NNAnomalyClassifier
+                      - text: (autoencoder) and
+                      - code [ref=e899]: NNGANomalyClassifier
+                      - text: (GANomaly).
+                  - listitem [ref=e900]:
+                    - paragraph [ref=e901]:
+                      - strong [ref=e902]: Simple indicator strategies
+                      - text: — single-indicator or small-combination strategies in
+                      - code [ref=e903]: SimpleStrategies/
+                      - text: . Each file is self-contained. I implemented these mostly to get a baseline for expected performance, but also to be able to visualise (through plots) how the various indicators behave so that I can use them in more complex strategies
+                - generic [ref=e904]:
+                  - heading "Neural Network Strategies" [level=2] [ref=e905]
+                  - 'link "Permalink: Neural Network Strategies" [ref=e906] [cursor=pointer]':
+                    - /url: "#neural-network-strategies"
+                    - img [ref=e907]
+                - generic [ref=e909]:
+                  - heading "Model Management" [level=3] [ref=e910]
+                  - 'link "Permalink: Model Management" [ref=e911] [cursor=pointer]':
+                    - /url: "#model-management"
+                    - img [ref=e912]
+                - paragraph [ref=e914]:
+                  - text: Neural net strategies train a model on first run and save it to
+                  - code [ref=e915]: saved_data/<StrategyName>/
+                  - text: . Subsequent runs load the saved model.
+                - paragraph [ref=e916]:
+                  - text: "To retrain: delete the files in"
+                  - code [ref=e917]: saved_data/<StrategyName>/
+                  - text: .
+                - paragraph [ref=e918]: "When training, use a long timerange (at least 1 year). Use the training config:"
+                - generic [ref=e919]:
+                  - code [ref=e921]: zsh user_data/strategies/scripts/test_strat.sh NNNC NNNC_CGP -c config/config_binanceus_train.json
+                  - button "Copy code to clipboard" [ref=e923] [cursor=pointer]:
+                    - img [ref=e924]
+                - generic [ref=e927]:
+                  - heading "Scalers" [level=3] [ref=e928]
+                  - 'link "Permalink: Scalers" [ref=e929] [cursor=pointer]':
+                    - /url: "#scalers"
+                    - img [ref=e930]
+                - paragraph [ref=e932]: "Before running NN strategies for the first time, create the scalers:"
+                - generic [ref=e933]:
+                  - code [ref=e935]: freqtrade backtesting -c config/config_binanceus.json --strategy-path user_data/strategies/Framework --strategy CreateScalers --timerange=20230101-
+                  - button "Copy code to clipboard" [ref=e937] [cursor=pointer]:
+                    - img [ref=e938]
+                - paragraph [ref=e941]: "or:"
+                - generic [ref=e942]:
+                  - generic [ref=e943]: zsh user_data/strategies/scripts/test_strat.sh -n 720 -o 30 Framework CreateScalers
+                  - button "Copy code to clipboard" [ref=e945] [cursor=pointer]:
+                    - img [ref=e946]
+                - paragraph [ref=e949]:
+                  - text: Scaler files are stored in
+                  - code [ref=e950]: saved_data/
+                  - text: .
+                - paragraph [ref=e951]: It turns out that normalization of data is very, very important for any kind of model-based strategy. The data passed to the models cannot have pair-specific data (like price or volume), and the data must be consistently scaled across pairs. Because of this, I spent a lot of time tweaking which indicators are passed into the models. Also, using several indicators which essentially have the same information confuses the models, so I have trimmed down redundant indicators where possible. If you are interested, look at DebugAnalyseDf to see how I assess the indicators.
+                - paragraph [ref=e952]:
+                  - text: So, do
+                  - emphasis [ref=e953]: not
+                  - text: just blindly throw indicators into the dataframe, it will mess up the models. Also, if you do add anytghing, you will need to update the notrmalization code, regenerate the scalers and retrain the GAN and strategy models.
+                - generic [ref=e954]:
+                  - heading "GAN Data Augmentation" [level=3] [ref=e955]
+                  - 'link "Permalink: GAN Data Augmentation" [ref=e956] [cursor=pointer]':
+                    - /url: "#gan-data-augmentation"
+                    - img [ref=e957]
+                - paragraph [ref=e959]: Neural net strategies suffer from severe class imbalance (many more holds than buys/sells). GANs generate synthetic minority-class samples to improve training.
+                - paragraph [ref=e960]:
+                  - text: GAN models are created by running one of the
+                  - code [ref=e961]: Create*GAN*
+                  - text: strategies in
+                  - code [ref=e962]: GANs/
+                  - text: (e.g.
+                  - code [ref=e963]: CreateWGAN
+                  - text: ","
+                  - code [ref=e964]: CreateMTWGAN
+                  - text: ","
+                  - code [ref=e965]: CreateCtabGanPlus
+                  - text: ") under freqtrade backtesting. All GAN types share a single save layout:"
+                  - code [ref=e966]: saved_data/<StrategyName>/GANs/<gan_type>/
+                  - text: (or
+                  - code [ref=e967]: GANs_PCA/<gan_type>/
+                  - text: for PCA-reduced strategies). The convention lives in
+                  - code [ref=e968]: GANs/paths.py::gan_save_path
+                  - text: — every consumer goes through it.
+                - paragraph [ref=e969]:
+                  - text: Strategies consume a GAN by setting
+                  - code [ref=e970]: gan_type = GANType.X
+                  - text: on the class. The base class then loads the model, validates its persisted metadata against the strategy's current thresholds / training_type / etc., and dispatches class balancing through
+                  - code [ref=e971]: GANs.balance.balance_single_task
+                  - text: (single-task types) or
+                  - code [ref=e972]: balance_multi_task
+                  - text: (multi-task types). Metadata mismatches raise
+                  - code [ref=e973]: GANMetadataMismatchError
+                  - text: with a per-key diff so threshold drift between strategy and saved GAN is surfaced loudly rather than silently masked.
+                - paragraph [ref=e974]:
+                  - text: Internally, every GAN type is wrapped by a
+                  - code [ref=e975]: GANBackend
+                  - text: subclass (in
+                  - code [ref=e976]: GANs/backends/
+                  - text: ) so the
+                  - code [ref=e977]: fit / generate / save / load
+                  - text: lifecycle is uniform across types and across MLX/TF backends. Adding a new variant of an existing type is a one-class change in
+                  - code [ref=e978]: GANs/
+                  - text: ; adding a genuinely new GAN type means a new
+                  - code [ref=e979]: GANBackend
+                  - text: in
+                  - code [ref=e980]: GANs/backends/
+                  - text: . See
+                  - code [ref=e981]: GANs/README.md
+                  - text: for backend details and
+                  - code [ref=e982]: GANs/tests/
+                  - text: for the contract tests.
+                - generic [ref=e983]:
+                  - heading "NNNC Family" [level=3] [ref=e984]
+                  - 'link "Permalink: NNNC Family" [ref=e985] [cursor=pointer]':
+                    - /url: "#nnnc-family"
+                    - img [ref=e986]
+                - paragraph [ref=e988]:
+                  - code [ref=e989]: NNNC/
+                  - text: "contains N-ary (trinary: sell/hold/buy) classifiers. Variants differ by model architecture:"
+                - table [ref=e991]:
+                  - rowgroup [ref=e992]:
+                    - row "Variant Architecture" [ref=e993]:
+                      - columnheader "Variant" [ref=e994]
+                      - columnheader "Architecture" [ref=e995]
+                  - rowgroup [ref=e996]:
+                    - row "NNNC_Strategy Base (MLP)" [ref=e997]:
+                      - cell "NNNC_Strategy" [ref=e998]:
+                        - code [ref=e999]: NNNC_Strategy
+                      - cell "Base (MLP)" [ref=e1000]
+                    - row "NNNC_CGP Base, with CTAB-GAN+ enhancement" [ref=e1001]:
+                      - cell "NNNC_CGP" [ref=e1002]:
+                        - code [ref=e1003]: NNNC_CGP
+                      - cell "Base, with CTAB-GAN+ enhancement" [ref=e1004]
+                    - row "NNNC_CGP_LSTM2 LSTM" [ref=e1005]:
+                      - cell "NNNC_CGP_LSTM2" [ref=e1006]:
+                        - code [ref=e1007]: NNNC_CGP_LSTM2
+                      - cell "LSTM" [ref=e1008]
+                    - row "NNNC_CGP_GRU GRU" [ref=e1009]:
+                      - cell "NNNC_CGP_GRU" [ref=e1010]:
+                        - code [ref=e1011]: NNNC_CGP_GRU
+                      - cell "GRU" [ref=e1012]
+                    - row "NNNC_CGP_CNN 1D CNN" [ref=e1013]:
+                      - cell "NNNC_CGP_CNN" [ref=e1014]:
+                        - code [ref=e1015]: NNNC_CGP_CNN
+                      - cell "1D CNN" [ref=e1016]
+                    - row "NNNC_CGP_Transformer Transformer" [ref=e1017]:
+                      - cell "NNNC_CGP_Transformer" [ref=e1018]:
+                        - code [ref=e1019]: NNNC_CGP_Transformer
+                      - cell "Transformer" [ref=e1020]
+                    - row "NNNC_CGP_Attention Multi-head attention" [ref=e1021]:
+                      - cell "NNNC_CGP_Attention" [ref=e1022]:
+                        - code [ref=e1023]: NNNC_CGP_Attention
+                      - cell "Multi-head attention" [ref=e1024]
+                    - row "NNNC_CGP_TCN Temporal Convolutional" [ref=e1025]:
+                      - cell "NNNC_CGP_TCN" [ref=e1026]:
+                        - code [ref=e1027]: NNNC_CGP_TCN
+                      - cell "Temporal Convolutional" [ref=e1028]
+                    - row "NNNC_CGP_VAE Variational Autoencoder" [ref=e1029]:
+                      - cell "NNNC_CGP_VAE" [ref=e1030]:
+                        - code [ref=e1031]: NNNC_CGP_VAE
+                      - cell "Variational Autoencoder" [ref=e1032]
+                    - row "NNNC_CGP_Wavenet WaveNet" [ref=e1033]:
+                      - cell "NNNC_CGP_Wavenet" [ref=e1034]:
+                        - code [ref=e1035]: NNNC_CGP_Wavenet
+                      - cell "WaveNet" [ref=e1036]
+                    - row "NNNC_CGP_MLX_* Apple MLX variants" [ref=e1037]:
+                      - cell "NNNC_CGP_MLX_*" [ref=e1038]:
+                        - code [ref=e1039]: NNNC_CGP_MLX_*
+                      - cell "Apple MLX variants" [ref=e1040]
+                - generic [ref=e1041]:
+                  - heading "NNMT Family" [level=3] [ref=e1042]
+                  - 'link "Permalink: NNMT Family" [ref=e1043] [cursor=pointer]':
+                    - /url: "#nnmt-family"
+                    - img [ref=e1044]
+                - paragraph [ref=e1046]:
+                  - code [ref=e1047]: NNMT/
+                  - text: uses multi-task classification — the model predicts several variables simultaneously, which reduces overfitting. Variants follow the same naming pattern as NNNC.
+                - generic [ref=e1048]:
+                  - heading "Anomaly Family" [level=3] [ref=e1049]
+                  - 'link "Permalink: Anomaly Family" [ref=e1050] [cursor=pointer]':
+                    - /url: "#anomaly-family"
+                    - img [ref=e1051]
+                - paragraph [ref=e1053]:
+                  - code [ref=e1054]: Anomaly/
+                  - text: trains on "normal" (hold) data and treats high-reconstruction-error points as buy/sell candidates.
+                  - code [ref=e1055]: NNGANomalyStrategy
+                  - text: uses GANomaly for better anomaly generation.
+                - generic [ref=e1056]:
+                  - heading "Reference repositories" [level=2] [ref=e1057]
+                  - 'link "Permalink: Reference repositories" [ref=e1058] [cursor=pointer]':
+                    - /url: "#reference-repositories"
+                    - img [ref=e1059]
+                - paragraph [ref=e1061]: "Strategies I either used or learned from:"
+                - list [ref=e1062]:
+                  - listitem [ref=e1063]:
+                    - link "https://github.com/freqtrade/freqtrade-strategies" [ref=e1064] [cursor=pointer]:
+                      - /url: https://github.com/freqtrade/freqtrade-strategies
+                  - listitem [ref=e1065]:
+                    - link "https://github.com/i1ya/freqtrade-strategies" [ref=e1066] [cursor=pointer]:
+                      - /url: https://github.com/i1ya/freqtrade-strategies
+                  - listitem [ref=e1067]:
+                    - link "https://github.com/ntsd/freqtrade-configs" [ref=e1068] [cursor=pointer]:
+                      - /url: https://github.com/ntsd/freqtrade-configs
+                  - listitem [ref=e1069]:
+                    - link "https://github.com/froggleston/cryptofrog-strategies" [ref=e1070] [cursor=pointer]:
+                      - /url: https://github.com/froggleston/cryptofrog-strategies
+                  - listitem [ref=e1071]:
+                    - link "https://github.com/werkkrew/freqtrade-strategies" [ref=e1072] [cursor=pointer]:
+                      - /url: https://github.com/werkkrew/freqtrade-strategies
+                  - listitem [ref=e1073]:
+                    - link "https://github.com/brookmiles/freqtrade-stuff" [ref=e1074] [cursor=pointer]:
+                      - /url: https://github.com/brookmiles/freqtrade-stuff
+                  - listitem [ref=e1075]:
+                    - link "https://github.com/hansen1015/freqtrade_strategy/blob/main/heikin.py" [ref=e1076] [cursor=pointer]:
+                      - /url: https://github.com/hansen1015/freqtrade_strategy/blob/main/heikin.py
+                  - listitem [ref=e1077]:
+                    - link "https://github.com/Foxel05/freqtrade-stuff" [ref=e1078] [cursor=pointer]:
+                      - /url: https://github.com/Foxel05/freqtrade-stuff
+                - generic [ref=e1079]:
+                  - heading "Setting Up Your Configuration" [level=2] [ref=e1080]
+                  - 'link "Permalink: Setting Up Your Configuration" [ref=e1081] [cursor=pointer]':
+                    - /url: "#setting-up-your-configuration"
+                    - img [ref=e1082]
+                - paragraph [ref=e1084]:
+                  - text: See the
+                  - link "freqtrade docs" [ref=e1085] [cursor=pointer]:
+                    - /url: https://www.freqtrade.io/en/stable/configuration/
+                  - text: for generic instructions.
+                - paragraph [ref=e1086]:
+                  - text: Config files are now kept in the
+                  - code [ref=e1087]: config/
+                  - text: "directory:"
+                - list [ref=e1088]:
+                  - listitem [ref=e1089]:
+                    - code [ref=e1090]: config/config_<directory>.json
+                    - text: — static pairlist config for backtesting/hyperopt
+                  - listitem [ref=e1091]:
+                    - code [ref=e1092]: config/config_<directory>_short.json
+                    - text: — futures/short config
+                  - listitem [ref=e1093]:
+                    - code [ref=e1094]: config/config_<directory>_download.json
+                    - text: — download-only config
+                  - listitem [ref=e1095]:
+                    - code [ref=e1096]: config/config_<directory>_train.json
+                    - text: — long-range training config for NN models
+                - paragraph [ref=e1097]:
+                  - text: Do
+                  - strong [ref=e1098]: not
+                  - text: put API keys or passwords in any of these files. Keep those in a separate config at the project root that is not committed to git.
+                - generic [ref=e1099]:
+                  - heading "Configuration for Short Strategies" [level=3] [ref=e1100]
+                  - 'link "Permalink: Configuration for Short Strategies" [ref=e1101] [cursor=pointer]':
+                    - /url: "#configuration-for-short-strategies"
+                    - img [ref=e1102]
+                - paragraph [ref=e1104]: "Short trading requires futures mode. Add to your config:"
+                - generic [ref=e1105]:
+                  - generic [ref=e1106]:
+                    - text: "\"trading_mode\":"
+                    - generic [ref=e1107]: "\"futures\""
+                    - text: ", \"margin_mode\":"
+                    - generic [ref=e1108]: "\"isolated\""
+                    - text: ","
+                  - button "Copy code to clipboard" [ref=e1110] [cursor=pointer]:
+                    - img [ref=e1111]
+                - paragraph [ref=e1114]: "To list available pairs for futures trading:"
+                - generic [ref=e1115]:
+                  - code [ref=e1117]: freqtrade list-pairs --exchange <directory> --trading-mode futures
+                  - button "Copy code to clipboard" [ref=e1119] [cursor=pointer]:
+                    - img [ref=e1120]
+                - paragraph [ref=e1123]: "Filter to USDT pairs with leverage > 1:"
+                - generic [ref=e1124]:
+                  - code [ref=e1126]: "freqtrade list-pairs --exchange binanceus --trading-mode futures | grep USDT | awk '$16>1 {print \"\\\"\"$4\"\\\",\"}'"
+                  - button "Copy code to clipboard" [ref=e1128] [cursor=pointer]:
+                    - img [ref=e1129]
+                - generic [ref=e1132]:
+                  - heading "Downloading Test Data" [level=2] [ref=e1133]
+                  - 'link "Permalink: Downloading Test Data" [ref=e1134] [cursor=pointer]':
+                    - /url: "#downloading-test-data"
+                    - img [ref=e1135]
+                - paragraph [ref=e1137]: "Most strategies need 5m, 15m, and 1h data. Some also use 1d and BTC/USDT:"
+                - generic [ref=e1138]:
+                  - code [ref=e1140]: freqtrade download-data --timerange=<timerange> -c <config> -t 5m 15m 1h 1d
+                  - button "Copy code to clipboard" [ref=e1142] [cursor=pointer]:
+                    - img [ref=e1143]
+                - paragraph [ref=e1146]: "Or use the script (defaults to last 180 days):"
+                - generic [ref=e1147]:
+                  - code [ref=e1149]: zsh user_data/strategies/scripts/download.sh [<directory>]
+                  - button "Copy code to clipboard" [ref=e1151] [cursor=pointer]:
+                    - img [ref=e1152]
+                - paragraph [ref=e1155]: "For futures/short data:"
+                - generic [ref=e1156]:
+                  - code [ref=e1158]: zsh user_data/strategies/scripts/download.sh --short [<directory>]
+                  - button "Copy code to clipboard" [ref=e1160] [cursor=pointer]:
+                    - img [ref=e1161]
+                - generic [ref=e1164]:
+                  - heading "Generating a Pairlist" [level=2] [ref=e1165]
+                  - 'link "Permalink: Generating a Pairlist" [ref=e1166] [cursor=pointer]':
+                    - /url: "#generating-a-pairlist"
+                    - img [ref=e1167]
+                - paragraph [ref=e1169]: "VolumePairlist does not work for backtesting or hyperopt. Generate a static pairlist with:"
+                - generic [ref=e1170]:
+                  - code [ref=e1172]: freqtrade test-pairlist -c <real_config>
+                  - button "Copy code to clipboard" [ref=e1174] [cursor=pointer]:
+                    - img [ref=e1175]
+                - paragraph [ref=e1178]:
+                  - text: Copy the output into your test config's
+                  - code [ref=e1179]: pair_whitelist
+                  - text: . Change single quotes to double quotes.
+                - generic [ref=e1180]:
+                  - heading "Backtesting" [level=2] [ref=e1181]
+                  - 'link "Permalink: Backtesting" [ref=e1182] [cursor=pointer]':
+                    - /url: "#backtesting"
+                    - img [ref=e1183]
+                - generic [ref=e1185]:
+                  - code [ref=e1187]: freqtrade backtesting -c <config> --strategy-path <path> --strategy <strategy> --timerange=<timerange>
+                  - button "Copy code to clipboard" [ref=e1189] [cursor=pointer]:
+                    - img [ref=e1190]
+                - paragraph [ref=e1193]: "Or:"
+                - generic [ref=e1194]:
+                  - code [ref=e1196]: zsh user_data/strategies/scripts/test_strat.sh <directory> <strategy>
+                  - button "Copy code to clipboard" [ref=e1198] [cursor=pointer]:
+                    - img [ref=e1199]
+                - paragraph [ref=e1202]: "To test a whole group of strategies matching a pattern:"
+                - generic [ref=e1203]:
+                  - code [ref=e1205]: zsh user_data/strategies/scripts/test_group.sh <directory> <pattern>
+                  - button "Copy code to clipboard" [ref=e1207] [cursor=pointer]:
+                    - img [ref=e1208]
+                - paragraph [ref=e1211]:
+                  - text: e.g.,
+                  - code [ref=e1212]: test_group.sh NNNC "NNNC_CGP_MLX*"
+                  - text: — supports shell wildcards.
+                - paragraph [ref=e1213]:
+                  - strong [ref=e1214]: Lookahead bias
+                  - text: ": If you see suspiciously high backtest results (100%+), your strategy is likely using future data. Use rolling operations or TA-lib functions to avoid this. See"
+                  - link "freqtrade docs on common mistakes" [ref=e1215] [cursor=pointer]:
+                    - /url: https://www.freqtrade.io/en/latest/strategy-customization/#common-mistakes-when-developing-strategies
+                  - text: .
+                - paragraph [ref=e1216]:
+                  - strong [ref=e1217]: Bias check
+                  - text: ": Use the"
+                  - code [ref=e1218]: check_bias.sh
+                  - text: "script to run the freqtrade lookahead-bias detector on a strategy:"
+                - generic [ref=e1219]:
+                  - code [ref=e1221]: zsh user_data/strategies/scripts/check_bias.sh <directory> <strategy>
+                  - button "Copy code to clipboard" [ref=e1223] [cursor=pointer]:
+                    - img [ref=e1224]
+                - generic [ref=e1227]:
+                  - heading "Plotting Results" [level=2] [ref=e1228]
+                  - 'link "Permalink: Plotting Results" [ref=e1229] [cursor=pointer]':
+                    - /url: "#plotting-results"
+                    - img [ref=e1230]
+                - generic [ref=e1232]:
+                  - code [ref=e1234]: freqtrade plot-dataframe --strategy-path <path> --strategy <strategy> -p BCH/USD --timerange=<timerange> --indicators1 ema5 ema20 --indicators2 mfi
+                  - button "Copy code to clipboard" [ref=e1236] [cursor=pointer]:
+                    - img [ref=e1237]
+                - paragraph [ref=e1240]: "Or use the script:"
+                - generic [ref=e1241]:
+                  - code [ref=e1243]: zsh user_data/strategies/scripts/plot_strat.sh <directory> <strategy> [<pair>]
+                  - button "Copy code to clipboard" [ref=e1245] [cursor=pointer]:
+                    - img [ref=e1246]
+                - paragraph [ref=e1249]:
+                  - text: Output goes to
+                  - code [ref=e1250]: user_data/plot/
+                  - text: . Open the HTML file in a browser — it's interactive.
+                - generic [ref=e1251]:
+                  - heading "Hyper-Parameter Optimisation" [level=2] [ref=e1252]
+                  - 'link "Permalink: Hyper-Parameter Optimisation" [ref=e1253] [cursor=pointer]':
+                    - /url: "#hyper-parameter-optimisation"
+                    - img [ref=e1254]
+                - generic [ref=e1256]:
+                  - code [ref=e1258]: freqtrade hyperopt -c <config> --strategy-path <path> --strategy <strategy> --spaces <space> --hyperopt-loss <loss> --timerange=<timerange>
+                  - button "Copy code to clipboard" [ref=e1260] [cursor=pointer]:
+                    - img [ref=e1261]
+                - paragraph [ref=e1264]: "Or:"
+                - generic [ref=e1265]:
+                  - code [ref=e1267]: zsh user_data/strategies/scripts/hyp_strat.sh -s "buy sell roi" <directory> <strategy>
+                  - button "Copy code to clipboard" [ref=e1269] [cursor=pointer]:
+                    - img [ref=e1270]
+                - paragraph [ref=e1273]: "To hyperopt a group of strategies:"
+                - generic [ref=e1274]:
+                  - code [ref=e1276]: zsh user_data/strategies/scripts/hyp_group.sh <directory> <pattern>
+                  - button "Copy code to clipboard" [ref=e1278] [cursor=pointer]:
+                    - img [ref=e1279]
+                - paragraph [ref=e1282]:
+                  - strong [ref=e1283]: Optimised parameters
+                  - text: are written to a
+                  - code [ref=e1284]: .json
+                  - text: file matching the strategy (e.g.
+                  - code [ref=e1285]: NNNC_CGP.py
+                  - text: →
+                  - code [ref=e1286]: NNNC_CGP.json
+                  - text: ). These override the Python defaults, so if parameter changes aren't taking effect, check the json file.
+                - generic [ref=e1287]:
+                  - heading "Stoploss" [level=3] [ref=e1288]
+                  - 'link "Permalink: Stoploss" [ref=e1289] [cursor=pointer]':
+                    - /url: "#stoploss"
+                    - img [ref=e1290]
+                - paragraph [ref=e1292]:
+                  - text: I typically do
+                  - emphasis [ref=e1293]: not
+                  - text: optimise for stoploss — I set it manually to 10% (
+                  - code [ref=e1294]: "-0.1"
+                  - text: "). Optimising stoploss tends to give better backtest numbers but worse real-world results: one losing trade with a large stoploss wipes out many winners."
+                - generic [ref=e1295]:
+                  - heading "Hyperopt Loss Functions" [level=2] [ref=e1296]
+                  - 'link "Permalink: Hyperopt Loss Functions" [ref=e1297] [cursor=pointer]':
+                    - /url: "#hyperopt-loss-functions"
+                    - img [ref=e1298]
+                - paragraph [ref=e1300]:
+                  - text: Custom loss functions are in the
+                  - code [ref=e1301]: hyperopts/
+                  - text: directory. Copy them to
+                  - code [ref=e1302]: <freqtrade>/user_data/hyperopts/
+                  - text: to use them.
+                - table [ref=e1304]:
+                  - rowgroup [ref=e1305]:
+                    - row "Loss Function Description" [ref=e1306]:
+                      - columnheader "Loss Function" [ref=e1307]
+                      - columnheader "Description" [ref=e1308]
+                  - rowgroup [ref=e1309]:
+                    - row "ExpectancyHyperOptLoss Optimises primarily on Expectancy (projected profit per trade)" [ref=e1310]:
+                      - cell "ExpectancyHyperOptLoss" [ref=e1311]:
+                        - code [ref=e1312]: ExpectancyHyperOptLoss
+                      - cell "Optimises primarily on Expectancy (projected profit per trade)" [ref=e1313]
+                    - row "OnlyExpectancyHyperOptLoss Optimises purely on Expectancy, ignoring other metrics" [ref=e1314]:
+                      - cell "OnlyExpectancyHyperOptLoss" [ref=e1315]:
+                        - code [ref=e1316]: OnlyExpectancyHyperOptLoss
+                      - cell "Optimises purely on Expectancy, ignoring other metrics" [ref=e1317]
+                    - row "PEDHyperOptLoss Optimises equally on Profit, Expectancy, and Duration" [ref=e1318]:
+                      - cell "PEDHyperOptLoss" [ref=e1319]:
+                        - code [ref=e1320]: PEDHyperOptLoss
+                      - cell "Optimises equally on Profit, Expectancy, and Duration" [ref=e1321]
+                    - row "WeightedProfitHyperOptLoss Optimises primarily on profit, with secondary metrics" [ref=e1322]:
+                      - cell "WeightedProfitHyperOptLoss" [ref=e1323]:
+                        - code [ref=e1324]: WeightedProfitHyperOptLoss
+                      - cell "Optimises primarily on profit, with secondary metrics" [ref=e1325]
+                    - row "QuickProfitHyperOptLoss Like WeightedProfit but prioritises short trade duration" [ref=e1326]:
+                      - cell "QuickProfitHyperOptLoss" [ref=e1327]:
+                        - code [ref=e1328]: QuickProfitHyperOptLoss
+                      - cell "Like WeightedProfit but prioritises short trade duration" [ref=e1329]
+                    - row "WinHyperOptLoss Optimises primarily on Win/Loss ratio" [ref=e1330]:
+                      - cell "WinHyperOptLoss" [ref=e1331]:
+                        - code [ref=e1332]: WinHyperOptLoss
+                      - cell "Optimises primarily on Win/Loss ratio" [ref=e1333]
+                    - row "MarketHyperOptLoss Win/Loss-based loss adjusted for market conditions" [ref=e1334]:
+                      - cell "MarketHyperOptLoss" [ref=e1335]:
+                        - code [ref=e1336]: MarketHyperOptLoss
+                      - cell "Win/Loss-based loss adjusted for market conditions" [ref=e1337]
+                    - row "MedianProfitHyperOptLoss Optimises on median profit per trade (more robust to outliers)" [ref=e1338]:
+                      - cell "MedianProfitHyperOptLoss" [ref=e1339]:
+                        - code [ref=e1340]: MedianProfitHyperOptLoss
+                      - cell "Optimises on median profit per trade (more robust to outliers)" [ref=e1341]
+                - paragraph [ref=e1342]:
+                  - text: All functions require a minimum number of trades and a minimum win/loss ratio. I generally use
+                  - code [ref=e1343]: ExpectancyHyperOptLoss
+                  - text: .
+                - paragraph [ref=e1344]: "Example:"
+                - generic [ref=e1345]:
+                  - code [ref=e1347]: zsh user_data/strategies/scripts/hyp_strat.sh -l ExpectancyHyperOptLoss binanceus NNNC_CGP
+                  - button "Copy code to clipboard" [ref=e1349] [cursor=pointer]:
+                    - img [ref=e1350]
+                - generic [ref=e1353]:
+                  - heading "Scripts Reference" [level=2] [ref=e1354]
+                  - 'link "Permalink: Scripts Reference" [ref=e1355] [cursor=pointer]':
+                    - /url: "#scripts-reference"
+                    - img [ref=e1356]
+                - paragraph [ref=e1358]:
+                  - text: See
+                  - code [ref=e1359]: scripts/README.md
+                  - text: "for the canonical list. The most commonly used scripts are:"
+                - table [ref=e1361]:
+                  - rowgroup [ref=e1362]:
+                    - row "Script Description" [ref=e1363]:
+                      - columnheader "Script" [ref=e1364]
+                      - columnheader "Description" [ref=e1365]
+                  - rowgroup [ref=e1366]:
+                    - row "download.sh Downloads candle data for an exchange (defaults to all exchanges, last 180 days)" [ref=e1367]:
+                      - cell "download.sh" [ref=e1368]:
+                        - code [ref=e1369]: download.sh
+                      - cell "Downloads candle data for an exchange (defaults to all exchanges, last 180 days)" [ref=e1370]
+                    - row "safe_download.sh Like download.sh but skips pairs that already have recent data" [ref=e1371]:
+                      - cell "safe_download.sh" [ref=e1372]:
+                        - code [ref=e1373]: safe_download.sh
+                      - cell "Like download.sh but skips pairs that already have recent data" [ref=e1374]
+                    - row "test_strat.sh Tests an individual strategy for the specified exchange" [ref=e1375]:
+                      - cell "test_strat.sh" [ref=e1376]:
+                        - code [ref=e1377]: test_strat.sh
+                      - cell "Tests an individual strategy for the specified exchange" [ref=e1378]
+                    - row "test_group.sh Tests all strategies matching a glob pattern; summarises results" [ref=e1379]:
+                      - cell "test_group.sh" [ref=e1380]:
+                        - code [ref=e1381]: test_group.sh
+                      - cell "Tests all strategies matching a glob pattern; summarises results" [ref=e1382]
+                    - row "test_monthly.sh Runs test_group.sh over the past 6 months; shows average performance and ranks strategies" [ref=e1383]:
+                      - cell "test_monthly.sh" [ref=e1384]:
+                        - code [ref=e1385]: test_monthly.sh
+                      - cell "Runs test_group.sh over the past 6 months; shows average performance and ranks strategies" [ref=e1386]
+                    - row "hyp_strat.sh Runs hyperopt on an individual strategy" [ref=e1387]:
+                      - cell "hyp_strat.sh" [ref=e1388]:
+                        - code [ref=e1389]: hyp_strat.sh
+                      - cell "Runs hyperopt on an individual strategy" [ref=e1390]
+                    - row "hyp_group.sh Runs hyperopt on a group of strategies matching a pattern" [ref=e1391]:
+                      - cell "hyp_group.sh" [ref=e1392]:
+                        - code [ref=e1393]: hyp_group.sh
+                      - cell "Runs hyperopt on a group of strategies matching a pattern" [ref=e1394]
+                    - row "hyp_leveraged.sh Runs hyperopt for leveraged/futures strategies" [ref=e1395]:
+                      - cell "hyp_leveraged.sh" [ref=e1396]:
+                        - code [ref=e1397]: hyp_leveraged.sh
+                      - cell "Runs hyperopt for leveraged/futures strategies" [ref=e1398]
+                    - row "check_bias.sh Runs the freqtrade lookahead-bias detector on a strategy" [ref=e1399]:
+                      - cell "check_bias.sh" [ref=e1400]:
+                        - code [ref=e1401]: check_bias.sh
+                      - cell "Runs the freqtrade lookahead-bias detector on a strategy" [ref=e1402]
+                    - row "plot_strat.sh Generates an interactive plot for a strategy and pair" [ref=e1403]:
+                      - cell "plot_strat.sh" [ref=e1404]:
+                        - code [ref=e1405]: plot_strat.sh
+                      - cell "Generates an interactive plot for a strategy and pair" [ref=e1406]
+                    - row "dryrun_strat.sh Dry-runs a strategy on the specified exchange" [ref=e1407]:
+                      - cell "dryrun_strat.sh" [ref=e1408]:
+                        - code [ref=e1409]: dryrun_strat.sh
+                      - cell "Dry-runs a strategy on the specified exchange" [ref=e1410]
+                    - row "run_strat.sh Runs a strategy live on the specified exchange" [ref=e1411]:
+                      - cell "run_strat.sh" [ref=e1412]:
+                        - code [ref=e1413]: run_strat.sh
+                      - cell "Runs a strategy live on the specified exchange" [ref=e1414]
+                    - 'row "cleanup.sh Removes old files from user_data subdirectories (default: older than 30 days)" [ref=e1415]':
+                      - cell "cleanup.sh" [ref=e1416]:
+                        - code [ref=e1417]: cleanup.sh
+                      - 'cell "Removes old files from user_data subdirectories (default: older than 30 days)" [ref=e1418]'
+                    - row "install_packages.sh Installs required Python packages for the strategies" [ref=e1419]:
+                      - cell "install_packages.sh" [ref=e1420]:
+                        - code [ref=e1421]: install_packages.sh
+                      - cell "Installs required Python packages for the strategies" [ref=e1422]
+                    - row "update_python.sh Updates Python packages to latest compatible versions" [ref=e1423]:
+                      - cell "update_python.sh" [ref=e1424]:
+                        - code [ref=e1425]: update_python.sh
+                      - cell "Updates Python packages to latest compatible versions" [ref=e1426]
+                - paragraph [ref=e1427]:
+                  - text: All scripts accept
+                  - code [ref=e1428]: "-h"
+                  - text: for help.
+                - generic [ref=e1429]:
+                  - heading "Dry Runs" [level=2] [ref=e1430]
+                  - 'link "Permalink: Dry Runs" [ref=e1431] [cursor=pointer]':
+                    - /url: "#dry-runs"
+                    - img [ref=e1432]
+                - generic [ref=e1434]:
+                  - code [ref=e1436]: freqtrade trade --dry-run --strategy-path <path> --strategy <strategy>
+                  - button "Copy code to clipboard" [ref=e1438] [cursor=pointer]:
+                    - img [ref=e1439]
+                - paragraph [ref=e1442]: "Or:"
+                - generic [ref=e1443]:
+                  - code [ref=e1445]: zsh user_data/strategies/scripts/dryrun_strat.sh -p <port> <directory> <strategy>
+                  - button "Copy code to clipboard" [ref=e1447] [cursor=pointer]:
+                    - img [ref=e1448]
+                - paragraph [ref=e1451]:
+                  - text: The
+                  - code [ref=e1452]: "-p"
+                  - text: flag is needed when running multiple strategies on the same exchange (requires a matching
+                  - code [ref=e1453]: config_<directory>_<port>.json
+                  - text: ).
+                - paragraph [ref=e1454]:
+                  - text: If you have freqUI installed, monitor trades at
+                  - link "http://127.0.0.1:8080/" [ref=e1455] [cursor=pointer]:
+                    - /url: http://127.0.0.1:8080/
+                  - text: .
+                - generic [ref=e1456]:
+                  - heading "Live Trading" [level=2] [ref=e1457]
+                  - 'link "Permalink: Live Trading" [ref=e1458] [cursor=pointer]':
+                    - /url: "#live-trading"
+                    - img [ref=e1459]
+                - paragraph [ref=e1461]:
+                  - strong [ref=e1462]: Never go live without at least a week of dry-run on real data.
+                - generic [ref=e1463]:
+                  - code [ref=e1465]: freqtrade trade --strategy <strategy>
+                  - button "Copy code to clipboard" [ref=e1467] [cursor=pointer]:
+                    - img [ref=e1468]
+                - paragraph [ref=e1471]: "Or:"
+                - generic [ref=e1472]:
+                  - code [ref=e1474]: zsh user_data/strategies/scripts/run_strat.sh -p <port> <directory> <strategy>
+                  - button "Copy code to clipboard" [ref=e1476] [cursor=pointer]:
+                    - img [ref=e1477]
+                - paragraph [ref=e1480]:
+                  - emphasis [ref=e1481]: Your computer must be synced to an NTP time source for live trading.
+        - generic [ref=e1485]:
+          - generic [ref=e1488]:
+            - heading "About" [level=2] [ref=e1489]
+            - paragraph [ref=e1490]: Custom trading strategies using the freqtrade framework
+            - heading "Resources" [level=3] [ref=e1491]
+            - link "Readme" [ref=e1493] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e1494]
+              - text: Readme
+            - heading "License" [level=3] [ref=e1496]
+            - link "GPL-3.0 license" [ref=e1498] [cursor=pointer]:
+              - /url: "#GPL-3.0-1-ov-file"
+              - img [ref=e1499]
+              - text: GPL-3.0 license
+            - link "Activity" [ref=e1502] [cursor=pointer]:
+              - /url: /nateemma/strategies/activity
+              - img [ref=e1503]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e1505]
+            - link "422 stars" [ref=e1507] [cursor=pointer]:
+              - /url: /nateemma/strategies/stargazers
+              - img [ref=e1508]
+              - strong [ref=e1510]: "422"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e1511]
+            - link "35 watching" [ref=e1513] [cursor=pointer]:
+              - /url: /nateemma/strategies/watchers
+              - img [ref=e1514]
+              - strong [ref=e1516]: "35"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e1517]
+            - link "114 forks" [ref=e1519] [cursor=pointer]:
+              - /url: /nateemma/strategies/forks
+              - img [ref=e1520]
+              - strong [ref=e1522]: "114"
+              - text: forks
+            - link "Report repository" [ref=e1524] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fnateemma%2Fstrategies&report=nateemma+%28user%29
+          - generic [ref=e1526]:
+            - heading "Releases" [level=2] [ref=e1527]:
+              - link "Releases" [ref=e1528] [cursor=pointer]:
+                - /url: /nateemma/strategies/releases
+            - generic [ref=e1529]: No releases published
+          - generic [ref=e1531]:
+            - heading "Packages" [level=2] [ref=e1532]:
+              - link "Packages" [ref=e1533] [cursor=pointer]:
+                - /url: /users/nateemma/packages?repo_name=strategies
+            - generic [ref=e1534]: No packages published
+          - generic [ref=e1536]:
+            - heading "Contributors 4" [level=2] [ref=e1537]:
+              - link "Contributors 4" [ref=e1538] [cursor=pointer]:
+                - /url: /nateemma/strategies/graphs/contributors
+                - text: Contributors
+                - generic "4" [ref=e1539]
+            - list [ref=e1540]:
+              - listitem [ref=e1541]:
+                - link "@nateemma" [ref=e1542] [cursor=pointer]:
+                  - /url: https://github.com/nateemma
+                  - img "@nateemma" [ref=e1543]
+                - link "nateemma Nateemma" [ref=e1545] [cursor=pointer]:
+                  - /url: https://github.com/nateemma
+                  - strong [ref=e1546]: nateemma
+                  - text: Nateemma
+              - listitem [ref=e1547]:
+                - link "@claude" [ref=e1548] [cursor=pointer]:
+                  - /url: https://github.com/claude
+                  - img "@claude" [ref=e1549]
+                - link "claude Claude" [ref=e1551] [cursor=pointer]:
+                  - /url: https://github.com/claude
+                  - strong [ref=e1552]: claude
+                  - text: Claude
+              - listitem [ref=e1553]:
+                - link "@tomjrtsmith" [ref=e1554] [cursor=pointer]:
+                  - /url: https://github.com/tomjrtsmith
+                  - img "@tomjrtsmith" [ref=e1555]
+                - link "tomjrtsmith Tom Smith" [ref=e1557] [cursor=pointer]:
+                  - /url: https://github.com/tomjrtsmith
+                  - strong [ref=e1558]: tomjrtsmith
+                  - text: Tom Smith
+              - listitem [ref=e1559]:
+                - link "@abhi1010" [ref=e1560] [cursor=pointer]:
+                  - /url: https://github.com/abhi1010
+                  - img "@abhi1010" [ref=e1561]
+                - link "abhi1010 Abhishek Pandey" [ref=e1563] [cursor=pointer]:
+                  - /url: https://github.com/abhi1010
+                  - strong [ref=e1564]: abhi1010
+                  - text: Abhishek Pandey
+          - generic [ref=e1566]:
+            - heading "Languages" [level=2] [ref=e1567]
+            - list [ref=e1572]:
+              - listitem [ref=e1573]:
+                - link "Python 97.7%" [ref=e1574] [cursor=pointer]:
+                  - /url: /nateemma/strategies/search?l=python
+                  - img [ref=e1575]
+                  - generic [ref=e1577]: Python
+                  - generic [ref=e1578]: 97.7%
+              - listitem [ref=e1579]:
+                - link "Shell 2.3%" [ref=e1580] [cursor=pointer]:
+                  - /url: /nateemma/strategies/search?l=shell
+                  - img [ref=e1581]
+                  - generic [ref=e1583]: Shell
+                  - generic [ref=e1584]: 2.3%
+  - contentinfo [ref=e1586]:
+    - heading "Footer" [level=2] [ref=e1587]
+    - generic [ref=e1588]:
+      - generic [ref=e1589]:
+        - link "GitHub Homepage" [ref=e1590] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e1591]
+        - generic [ref=e1593]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1594]:
+        - heading "Footer navigation" [level=3] [ref=e1595]
+        - list "Footer navigation" [ref=e1596]:
+          - listitem [ref=e1597]:
+            - link "Terms" [ref=e1598] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1599]:
+            - link "Privacy" [ref=e1600] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1601]:
+            - link "Security" [ref=e1602] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1603]:
+            - link "Status" [ref=e1604] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1605]:
+            - link "Community" [ref=e1606] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1607]:
+            - link "Docs" [ref=e1608] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1609]:
+            - link "Contact" [ref=e1610] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1611]:
+            - button "Manage cookies" [ref=e1613] [cursor=pointer]
+          - listitem [ref=e1614]:
+            - button "Do not share my personal information" [ref=e1616] [cursor=pointer]

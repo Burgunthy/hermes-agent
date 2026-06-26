@@ -1,0 +1,392 @@
+- generic [ref=e2]:
+  - generic:
+    - generic:
+      - tooltip "This user is a member of the freqtrade organization."
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Ffreqtrade%2Ffreqtrade%2Fissues%2F10634
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fvoltron%2Fissues_fragments%2Fissue_layout&source=header-repo&source_repo=freqtrade%2Ffreqtrade
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "freqtrade" [ref=e70] [cursor=pointer]:
+            - /url: /freqtrade
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "freqtrade" [ref=e73] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "Sponsor @xmatthias" [ref=e77] [cursor=pointer]:
+                - /url: /sponsors/xmatthias
+                - generic [ref=e79]:
+                  - img [ref=e80]
+                  - text: Sponsor
+            - listitem [ref=e82]:
+              - link "You must be signed in to change notification settings" [ref=e83] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffreqtrade%2Ffreqtrade
+                - img [ref=e84]
+                - text: Notifications
+            - listitem [ref=e86]:
+              - link "Fork 10.5k" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffreqtrade%2Ffreqtrade
+                - img [ref=e88]
+                - text: Fork
+                - generic "10,531" [ref=e90]: 10.5k
+            - listitem [ref=e91]:
+              - link "You must be signed in to star a repository" [ref=e93] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffreqtrade%2Ffreqtrade
+                - img [ref=e94]
+                - text: Star
+                - generic "50510 users starred this repository" [ref=e96]: 50.5k
+      - navigation "Repository" [ref=e97]:
+        - list [ref=e98]:
+          - listitem [ref=e99]:
+            - link "Code" [ref=e100] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade
+              - img [ref=e101]
+              - generic [ref=e103]: Code
+          - listitem [ref=e104]:
+            - link "Issues 24" [ref=e105] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/issues
+              - img [ref=e106]
+              - generic [ref=e109]: Issues
+              - generic "24" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Pull requests 8" [ref=e112] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/pulls
+              - img [ref=e113]
+              - generic [ref=e115]: Pull requests
+              - generic "8" [ref=e116]
+          - listitem [ref=e117]:
+            - link "Actions" [ref=e118] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/actions
+              - img [ref=e119]
+              - generic [ref=e121]: Actions
+          - listitem [ref=e122]:
+            - link "Wiki" [ref=e123] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/wiki
+              - img [ref=e124]
+              - generic [ref=e126]: Wiki
+          - listitem [ref=e127]:
+            - link "Security and quality" [ref=e128] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/security
+              - img [ref=e129]
+              - generic [ref=e131]: Security and quality
+          - listitem [ref=e132]:
+            - link "Insights" [ref=e133] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/pulse
+              - img [ref=e134]
+              - generic [ref=e136]: Insights
+    - generic [ref=e144]:
+      - region "Header" [ref=e146]:
+        - generic [ref=e147]:
+          - 'heading "Can we run multiple bots for different strategies simultaneously? We have a scenario where we need to implement it. Any suggestion is welcome. #10634" [level=1] [ref=e149]'
+          - generic [ref=e151]:
+            - button "New issue" [ref=e153] [cursor=pointer]:
+              - generic [ref=e155]: New issue
+            - button "Copy link" [ref=e156] [cursor=pointer]:
+              - img [ref=e157]
+      - generic [ref=e165]:
+        - img "Issue" [ref=e166]
+        - text: Closed
+      - generic [ref=e170]:
+        - generic [ref=e171]:
+          - generic [ref=e173]:
+            - link "@shubhamraut41's profile" [ref=e174] [cursor=pointer]:
+              - /url: https://github.com/shubhamraut41
+              - img "@shubhamraut41" [ref=e175]
+            - generic [ref=e176]:
+              - heading "Description" [level=2] [ref=e177]
+              - generic [ref=e179]:
+                - generic [ref=e181]:
+                  - generic [ref=e182]:
+                    - link "shubhamraut41" [ref=e184] [cursor=pointer]:
+                      - /url: https://github.com/shubhamraut41
+                    - generic [ref=e185]:
+                      - text: opened
+                      - link "on Sep 9, 2024on Sep 9, 2024" [ref=e186] [cursor=pointer]:
+                        - /url: https://github.com/freqtrade/freqtrade/issues/10634#issue-2513386536
+                        - generic "Sep 9, 2024, 6:09 PM GMT+9" [ref=e187]: on Sep 9, 2024on Sep 9, 2024
+                  - button "Issue body actions" [ref=e191] [cursor=pointer]:
+                    - img [ref=e192]
+                - generic [ref=e194]:
+                  - generic [ref=e196]:
+                    - heading "Describe your environment" [level=2] [ref=e197]
+                    - list [ref=e198]:
+                      - listitem [ref=e199]: "Operating system: ____"
+                      - listitem [ref=e200]:
+                        - text: "Python Version: _____ ("
+                        - code [ref=e201]: python -V
+                        - text: )
+                      - listitem [ref=e202]:
+                        - text: "CCXT version: _____ ("
+                        - code [ref=e203]: pip freeze | grep ccxt
+                        - text: )
+                      - listitem [ref=e204]:
+                        - text: "Freqtrade Version: ____ ("
+                        - code [ref=e205]: freqtrade -V
+                        - text: or
+                        - code [ref=e206]: docker compose run --rm freqtrade -V
+                        - text: for Freqtrade running in docker)
+                    - heading "Your question" [level=2] [ref=e207]
+                    - paragraph [ref=e208]:
+                      - emphasis [ref=e209]:
+                        - text: Ask the question you have not been able to find an answer in the
+                        - link "Documentation" [ref=e210] [cursor=pointer]:
+                          - /url: https://www.freqtrade.io/en/latest/
+                  - generic:
+                    - toolbar "Reactions"
+          - generic [ref=e212]:
+            - generic [ref=e213]:
+              - heading "Activity" [level=2] [ref=e214]
+              - generic [ref=e215]:
+                - region "Events" [ref=e216]:
+                  - generic [ref=e223]:
+                    - img [ref=e227]
+                    - generic [ref=e231]:
+                      - link "shubhamraut41" [ref=e233] [cursor=pointer]:
+                        - /url: /shubhamraut41
+                        - generic [ref=e234]: shubhamraut41
+                      - text: added
+                      - link "Question Questions - will be closed after some period of inactivity." [ref=e236] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade/issues?q=state%3Aopen%20label%3A%22Question%22
+                        - generic [ref=e238]: Question
+                        - generic [ref=e239]: Questions - will be closed after some period of inactivity.
+                      - link "on Sep 9, 2024on Sep 9, 2024" [ref=e240] [cursor=pointer]:
+                        - /url: https://github.com/freqtrade/freqtrade/issues/10634#event-14179854451
+                        - generic "Sep 9, 2024, 6:09 PM GMT+9" [ref=e241]: on Sep 9, 2024on Sep 9, 2024
+                  - generic [ref=e245]:
+                    - img [ref=e249]
+                    - generic [ref=e253]:
+                      - link "shubhamraut41" [ref=e255] [cursor=pointer]:
+                        - /url: /shubhamraut41
+                        - generic [ref=e256]: shubhamraut41
+                      - text: changed the title
+                      - deletion [ref=e258]:
+                        - generic [ref=e259]: "[-]"
+                        - text: Can we run multiple bots for different strategies simultaneously? We have a scenario where we need to implement it.
+                        - generic [ref=e260]: "[/-]"
+                      - insertion [ref=e262]:
+                        - generic [ref=e263]: "[+]"
+                        - text: Can we run multiple bots for different strategies simultaneously? We have a scenario where we need to implement it. Any suggestion is welcome.
+                        - generic [ref=e264]: "[/+]"
+                      - link "on Sep 9, 2024on Sep 9, 2024" [ref=e265] [cursor=pointer]:
+                        - /url: https://github.com/freqtrade/freqtrade/issues/10634#event-14179862266
+                        - generic "Sep 9, 2024, 6:09 PM GMT+9" [ref=e266]: on Sep 9, 2024on Sep 9, 2024
+                - generic [ref=e267]:
+                  - link "@xmatthias's profile" [ref=e268] [cursor=pointer]:
+                    - /url: https://github.com/xmatthias
+                    - img "xmatthias" [ref=e269]
+                  - generic [ref=e276]:
+                    - generic [ref=e278]:
+                      - heading "xmatthias commented on Sep 9, 2024 on Sep 9, 2024" [level=3] [ref=e279]:
+                        - text: xmatthias commented
+                        - generic "Sep 9, 2024, 6:28 PM GMT+9" [ref=e280]: on Sep 9, 2024 on Sep 9, 2024
+                      - generic [ref=e281]:
+                        - link "xmatthias" [ref=e283] [cursor=pointer]:
+                          - /url: /xmatthias
+                        - link "on Sep 9, 2024on Sep 9, 2024" [ref=e286] [cursor=pointer]:
+                          - /url: https://github.com/freqtrade/freqtrade/issues/10634#issuecomment-2337604727
+                          - generic "Sep 9, 2024, 6:28 PM GMT+9" [ref=e287]: on Sep 9, 2024on Sep 9, 2024
+                      - generic [ref=e288]:
+                        - button "Last edited by xmatthias" [ref=e291] [cursor=pointer]:
+                          - generic [ref=e294]: Last edited by xmatthias
+                          - generic:
+                            - img
+                        - generic [ref=e295]:
+                          - generic "This user is a member of the freqtrade organization." [ref=e297]: Member
+                          - button "Actions for xmatthias's comment, 6:28 PM on September 9, 2024" [ref=e299] [cursor=pointer]:
+                            - img [ref=e300]
+                    - generic [ref=e302]:
+                      - generic [ref=e304]:
+                        - paragraph [ref=e305]:
+                          - text: This will be your
+                          - strong [ref=e306]: very last warning.
+                          - text: Another mal-formatted issue (only content in the title) with a missing template, and you'll
+                          - strong [ref=e307]: definitely
+                          - text: be blocked from interacting with this organization.
+                        - paragraph [ref=e308]:
+                          - text: "reference:"
+                          - link "#10587 (comment)" [ref=e309] [cursor=pointer]:
+                            - /url: https://github.com/freqtrade/freqtrade/issues/10587#issuecomment-2310314197
+                        - paragraph [ref=e310]:
+                          - text: As mentioned in that post already - this issue goes (again) into the direction of "i wanna sell freqtrade as a service" - which we interpret as "we wanna scam people".
+                          - text: This is confirmed to some degree considering that you're apparently unable to open an issue the way it's designed as (you wouldn't open an empty word document and put all the content in the filename?!?), unable to fill out an issue template - and even more concerning - unable to
+                          - strong [ref=e311]: search the documentation
+                          - text: .
+                        - paragraph [ref=e312]:
+                          - text: "Let me repeat this one final time:"
+                          - text: Freqtrade is designed for single user use.
+                          - text: We will not support, nor will we answer questions regarding your attempts to provide freqtrade as a service.
+                        - paragraph [ref=e313]: While you're more than welcome to use freqtrade for your personal use - further questions in the direction of multi tenancy (you've been warned before) will not be answered - and will result in your account being banned from interacting with this organization - as we'll consider it spamming at that point.
+                        - separator [ref=e314]
+                        - paragraph [ref=e315]:
+                          - text: Regarding the topic - a simple search in the docs would show you that
+                          - link "it's possible" [ref=e316] [cursor=pointer]:
+                            - /url: https://www.freqtrade.io/en/stable/advanced-setup/#running-multiple-instances-of-freqtrade
+                          - text: .
+                      - toolbar "Reactions"
+                - region "Events" [ref=e317]:
+                  - generic [ref=e324]:
+                    - img [ref=e328]
+                    - generic [ref=e332]:
+                      - link "xmatthias" [ref=e334] [cursor=pointer]:
+                        - /url: /xmatthias
+                        - generic [ref=e335]: xmatthias
+                      - text: closed this as
+                      - link "not planned" [ref=e336] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade/issues?q=is%3Aissue%20state%3Aclosed%20archived%3Afalse%20reason%3Anot-planned
+                      - link "on Sep 9, 2024on Sep 9, 2024" [ref=e337] [cursor=pointer]:
+                        - /url: https://github.com/freqtrade/freqtrade/issues/10634#event-14180132988
+                        - generic "Sep 9, 2024, 6:28 PM GMT+9" [ref=e338]: on Sep 9, 2024on Sep 9, 2024
+                  - generic [ref=e342]:
+                    - img [ref=e346]
+                    - generic [ref=e350]:
+                      - link "xmatthias" [ref=e352] [cursor=pointer]:
+                        - /url: /xmatthias
+                        - generic [ref=e353]: xmatthias
+                      - text: closed this as
+                      - link "completed" [ref=e354] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade/issues?q=is%3Aissue%20state%3Aclosed%20archived%3Afalse%20reason%3Acompleted
+                      - link "on Sep 9, 2024on Sep 9, 2024" [ref=e355] [cursor=pointer]:
+                        - /url: https://github.com/freqtrade/freqtrade/issues/10634#event-14180133979
+                        - generic "Sep 9, 2024, 6:28 PM GMT+9" [ref=e356]: on Sep 9, 2024on Sep 9, 2024
+            - generic [ref=e357]:
+              - link "Sign up for free" [ref=e358] [cursor=pointer]:
+                - /url: /signup?return_to=https://github.com/freqtrade/freqtrade/issues/10634
+                - generic [ref=e360]: Sign up for free
+              - generic [ref=e361]:
+                - strong [ref=e362]: to join this conversation on GitHub.
+                - text: Already have an account?
+              - link "Sign in to comment" [ref=e363] [cursor=pointer]:
+                - /url: /login?return_to=https://github.com/freqtrade/freqtrade/issues/10634
+        - generic [ref=e365]:
+          - heading "Metadata" [level=2] [ref=e366]
+          - generic [ref=e368]:
+            - generic [ref=e370]:
+              - generic [ref=e371]:
+                - heading "Assignees" [level=3]
+              - generic [ref=e372]: No one assigned
+            - generic [ref=e373]:
+              - generic [ref=e375]:
+                - heading "Labels" [level=3]
+              - link "Question Questions - will be closed after some period of inactivity." [ref=e378] [cursor=pointer]:
+                - /url: https://github.com/freqtrade/freqtrade/issues?q=state%3Aopen%20label%3A%22Question%22
+                - generic [ref=e380]: Question
+                - generic [ref=e381]: Questions - will be closed after some period of inactivity.
+            - generic [ref=e383]:
+              - generic [ref=e384]:
+                - heading "Type" [level=3]
+              - generic [ref=e385]: No type
+            - generic [ref=e387]:
+              - generic [ref=e388]:
+                - heading "Projects" [level=3]
+              - generic [ref=e389]: No projects
+            - generic [ref=e391]:
+              - generic [ref=e392]:
+                - heading "Milestone" [level=3]
+              - generic [ref=e393]: No milestone
+            - generic [ref=e395]:
+              - generic [ref=e396]:
+                - heading "Relationships" [level=3]
+              - generic [ref=e397]: None yet
+            - generic [ref=e398]:
+              - generic [ref=e400]:
+                - heading "Development" [level=3]
+              - generic [ref=e401]:
+                - generic [ref=e402]: No branches or pull requests
+                - list
+            - generic [ref=e403]:
+              - generic [ref=e405]:
+                - heading "Participants" [level=3]
+              - generic [ref=e408]:
+                - link "@xmatthias" [ref=e409] [cursor=pointer]:
+                  - /url: /xmatthias
+                  - img "@xmatthias" [ref=e410]
+                - link "@shubhamraut41" [ref=e411] [cursor=pointer]:
+                  - /url: /shubhamraut41
+                  - img "@shubhamraut41" [ref=e412]
+            - heading "Issue actions" [level=2] [ref=e413]
+            - list
+  - contentinfo [ref=e414]:
+    - heading "Footer" [level=2] [ref=e415]
+    - generic [ref=e416]:
+      - generic [ref=e417]:
+        - link "GitHub Homepage" [ref=e418] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e419]
+        - generic [ref=e421]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e422]:
+        - heading "Footer navigation" [level=3] [ref=e423]
+        - list "Footer navigation" [ref=e424]:
+          - listitem [ref=e425]:
+            - link "Terms" [ref=e426] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e427]:
+            - link "Privacy" [ref=e428] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e429]:
+            - link "Security" [ref=e430] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e431]:
+            - link "Status" [ref=e432] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e433]:
+            - link "Community" [ref=e434] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e435]:
+            - link "Docs" [ref=e436] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e437]:
+            - link "Contact" [ref=e438] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e439]:
+            - button "Manage cookies" [ref=e441] [cursor=pointer]
+          - listitem [ref=e442]:
+            - button "Do not share my personal information" [ref=e444] [cursor=pointer]

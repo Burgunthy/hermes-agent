@@ -1,0 +1,858 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Frust-for-robotics%2Firos2026
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=rust-for-robotics%2Firos2026
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "rust-for-robotics" [ref=e70] [cursor=pointer]:
+            - /url: /rust-for-robotics
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "iros2026" [ref=e73] [cursor=pointer]:
+              - /url: /rust-for-robotics/iros2026
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Frust-for-robotics%2Firos2026
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 0" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Frust-for-robotics%2Firos2026
+                - img [ref=e82]
+                - text: Fork
+                - generic "0" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Frust-for-robotics%2Firos2026
+                - img [ref=e88]
+                - text: Star
+                - generic "0 users starred this repository" [ref=e90]: "0"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /rust-for-robotics/iros2026
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues" [ref=e99] [cursor=pointer]:
+              - /url: /rust-for-robotics/iros2026/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+          - listitem [ref=e104]:
+            - link "Pull requests" [ref=e105] [cursor=pointer]:
+              - /url: /rust-for-robotics/iros2026/pulls
+              - img [ref=e106]
+              - generic [ref=e108]: Pull requests
+          - listitem [ref=e109]:
+            - link "Actions" [ref=e110] [cursor=pointer]:
+              - /url: /rust-for-robotics/iros2026/actions
+              - img [ref=e111]
+              - generic [ref=e113]: Actions
+          - listitem [ref=e114]:
+            - link "Projects" [ref=e115] [cursor=pointer]:
+              - /url: /rust-for-robotics/iros2026/projects
+              - img [ref=e116]
+              - generic [ref=e118]: Projects
+          - listitem [ref=e119]:
+            - link "Security and quality" [ref=e120] [cursor=pointer]:
+              - /url: /rust-for-robotics/iros2026/security
+              - img [ref=e121]
+              - generic [ref=e123]: Security and quality
+          - listitem [ref=e124]:
+            - link "Insights" [ref=e125] [cursor=pointer]:
+              - /url: /rust-for-robotics/iros2026/pulse
+              - img [ref=e126]
+              - generic [ref=e128]: Insights
+    - generic [ref=e141]:
+      - heading "rust-for-robotics/iros2026" [level=1] [ref=e143]
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - button "main branch" [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]:
+                  - generic [ref=e154]:
+                    - img [ref=e156]
+                    - generic [ref=e159]: main
+                  - generic:
+                    - img
+              - generic [ref=e160]:
+                - link "1 Branch" [ref=e161] [cursor=pointer]:
+                  - /url: /rust-for-robotics/iros2026/branches
+                  - generic [ref=e162]:
+                    - generic:
+                      - img
+                    - generic [ref=e164]:
+                      - strong [ref=e165]: "1"
+                      - text: Branch
+                - link "0 Tags" [ref=e166] [cursor=pointer]:
+                  - /url: /rust-for-robotics/iros2026/tags
+                  - generic [ref=e167]:
+                    - generic:
+                      - img
+                    - generic [ref=e169]:
+                      - strong [ref=e170]: "0"
+                      - text: Tags
+            - generic [ref=e171]:
+              - generic [ref=e175]:
+                - img [ref=e177]
+                - combobox "Go to file" [ref=e179]
+              - button "Code" [ref=e180] [cursor=pointer]:
+                - generic [ref=e181]:
+                  - generic:
+                    - img
+                  - generic [ref=e182]: Code
+                  - generic:
+                    - img
+          - generic [ref=e183]:
+            - generic [ref=e184]:
+              - heading "Folders and files" [level=2] [ref=e185]
+              - table "Folders and files" [ref=e186]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e187]:
+                  - row "Latest commit contagon commits by contagon Add in openreview link success Commit e0d4ca7 · May 22, 20263 days ago History 24 Commits" [ref=e188]:
+                    - cell "Latest commit contagon commits by contagon Add in openreview link success Commit e0d4ca7 · May 22, 20263 days ago History 24 Commits" [ref=e189]:
+                      - generic [ref=e190]:
+                        - heading "Latest commit" [level=2] [ref=e191]
+                        - generic [ref=e192]:
+                          - generic [ref=e194]:
+                            - link "contagon" [ref=e195] [cursor=pointer]:
+                              - /url: /contagon
+                              - img "contagon" [ref=e196]
+                            - link "commits by contagon" [ref=e197] [cursor=pointer]:
+                              - /url: /rust-for-robotics/iros2026/commits?author=contagon
+                              - text: contagon
+                          - generic [ref=e198]:
+                            - link "Add in openreview link" [ref=e201] [cursor=pointer]:
+                              - /url: /rust-for-robotics/iros2026/commit/e0d4ca7d0c306d8aa209cde1ecd3ee6b6edcb7c2
+                            - button "success" [ref=e202] [cursor=pointer]:
+                              - img [ref=e203]
+                        - generic [ref=e205]:
+                          - generic [ref=e207]:
+                            - link "Commit e0d4ca7" [ref=e208] [cursor=pointer]:
+                              - /url: /rust-for-robotics/iros2026/commit/e0d4ca7d0c306d8aa209cde1ecd3ee6b6edcb7c2
+                              - text: e0d4ca7
+                            - text: ·
+                            - generic "May 22, 2026, 11:11 PM GMT+9" [ref=e209]: May 22, 20263 days ago
+                          - generic [ref=e210]:
+                            - heading "History" [level=2] [ref=e211]
+                            - link "24 Commits" [ref=e212] [cursor=pointer]:
+                              - /url: /rust-for-robotics/iros2026/commits/main/
+                              - generic [ref=e213]:
+                                - generic:
+                                  - img
+                                - generic [ref=e214]: 24 Commits
+                  - row ".github/workflows, (Directory) typo Sep 13, 20258 months ago" [ref=e215]:
+                    - cell ".github/workflows, (Directory)" [ref=e216]:
+                      - generic [ref=e217]:
+                        - img [ref=e218]
+                        - link ".github/workflows, (Directory)" [ref=e223] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/tree/main/.github/workflows
+                          - text: .github/workflows
+                    - cell "typo" [ref=e224]:
+                      - link "typo" [ref=e227] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/447ac3ef3cd5f8081b788ef3ec417668ae12b71e
+                    - cell "Sep 13, 20258 months ago" [ref=e228]:
+                      - generic [ref=e229]: Sep 13, 20258 months ago
+                  - row "_includes, (Directory) Add in schedule abstracts Oct 11, 20257 months ago" [ref=e230]:
+                    - cell "_includes, (Directory)" [ref=e231]:
+                      - generic [ref=e232]:
+                        - img [ref=e233]
+                        - link "_includes, (Directory)" [ref=e238] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/tree/main/_includes
+                          - text: _includes
+                    - cell "Add in schedule abstracts" [ref=e239]:
+                      - link "Add in schedule abstracts" [ref=e242] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/aa90650842a9e2ca2116eac8fbb97ae2feb8e592
+                    - cell "Oct 11, 20257 months ago" [ref=e243]:
+                      - generic [ref=e244]: Oct 11, 20257 months ago
+                  - row "_layouts, (Directory) Add in schedule abstracts Oct 11, 20257 months ago" [ref=e245]:
+                    - cell "_layouts, (Directory)" [ref=e246]:
+                      - generic [ref=e247]:
+                        - img [ref=e248]
+                        - link "_layouts, (Directory)" [ref=e253] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/tree/main/_layouts
+                          - text: _layouts
+                    - cell "Add in schedule abstracts" [ref=e254]:
+                      - link "Add in schedule abstracts" [ref=e257] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/aa90650842a9e2ca2116eac8fbb97ae2feb8e592
+                    - cell "Oct 11, 20257 months ago" [ref=e258]:
+                      - generic [ref=e259]: Oct 11, 20257 months ago
+                  - row "_organizers, (Directory) Add speakers, clean up html, add michael in Sep 29, 20258 months ago" [ref=e260]:
+                    - cell "_organizers, (Directory)" [ref=e261]:
+                      - generic [ref=e262]:
+                        - img [ref=e263]
+                        - link "_organizers, (Directory)" [ref=e268] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/tree/main/_organizers
+                          - text: _organizers
+                    - cell "Add speakers, clean up html, add michael in" [ref=e269]:
+                      - link "Add speakers, clean up html, add michael in" [ref=e272] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/d4426686299d6ee8046911850fc549524294e6c5
+                    - cell "Sep 29, 20258 months ago" [ref=e273]:
+                      - generic [ref=e274]: Sep 29, 20258 months ago
+                  - row "_papers, (Directory) Initial commit Jan 3, 20216 years ago" [ref=e275]:
+                    - cell "_papers, (Directory)" [ref=e276]:
+                      - generic [ref=e277]:
+                        - img [ref=e278]
+                        - link "_papers, (Directory)" [ref=e283] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/tree/main/_papers
+                          - text: _papers
+                    - cell "Initial commit" [ref=e284]:
+                      - link "Initial commit" [ref=e287] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/f370f61702a94b33b68194cb6d8c432f646d9ced
+                    - cell "Jan 3, 20216 years ago" [ref=e288]:
+                      - generic [ref=e289]: Jan 3, 20216 years ago
+                  - row "_sass/minima, (Directory) Initial commit Jan 3, 20216 years ago" [ref=e290]:
+                    - cell "_sass/minima, (Directory)" [ref=e291]:
+                      - generic [ref=e292]:
+                        - img [ref=e293]
+                        - link "_sass/minima, (Directory)" [ref=e298] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/tree/main/_sass/minima
+                          - text: _sass/minima
+                    - cell "Initial commit" [ref=e299]:
+                      - link "Initial commit" [ref=e302] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/f370f61702a94b33b68194cb6d8c432f646d9ced
+                    - cell "Jan 3, 20216 years ago" [ref=e303]:
+                      - generic [ref=e304]: Jan 3, 20216 years ago
+                  - row "_schedule, (Directory) Add Josh's name in Mar 20, 20262 months ago" [ref=e305]:
+                    - cell "_schedule, (Directory)" [ref=e306]:
+                      - generic [ref=e307]:
+                        - img [ref=e308]
+                        - link "_schedule, (Directory)" [ref=e313] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/tree/main/_schedule
+                          - text: _schedule
+                    - cell "Add Josh's name in" [ref=e314]:
+                      - link "Add Josh's name in" [ref=e317] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/e5a3816199e2861e9cc2547f8a600f2403919bbf
+                    - cell "Mar 20, 20262 months ago" [ref=e318]:
+                      - generic [ref=e319]: Mar 20, 20262 months ago
+                  - row "_speakers, (Directory) Add Josh's name in Mar 20, 20262 months ago" [ref=e320]:
+                    - cell "_speakers, (Directory)" [ref=e321]:
+                      - generic [ref=e322]:
+                        - img [ref=e323]
+                        - link "_speakers, (Directory)" [ref=e328] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/tree/main/_speakers
+                          - text: _speakers
+                    - cell "Add Josh's name in" [ref=e329]:
+                      - link "Add Josh's name in" [ref=e332] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/e5a3816199e2861e9cc2547f8a600f2403919bbf
+                    - cell "Mar 20, 20262 months ago" [ref=e333]:
+                      - generic [ref=e334]: Mar 20, 20262 months ago
+                  - row "assets, (Directory) Update with new speakers and schedule Mar 20, 20262 months ago" [ref=e335]:
+                    - cell "assets, (Directory)" [ref=e336]:
+                      - generic [ref=e337]:
+                        - img [ref=e338]
+                        - link "assets, (Directory)" [ref=e343] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/tree/main/assets
+                          - text: assets
+                    - cell "Update with new speakers and schedule" [ref=e344]:
+                      - link "Update with new speakers and schedule" [ref=e347] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/a3fbaac6b5216046a573bc141b4bc521ea46f5e5
+                    - cell "Mar 20, 20262 months ago" [ref=e348]:
+                      - generic [ref=e349]: Mar 20, 20262 months ago
+                  - row ".gitignore, (File) Initial commit Jan 3, 20216 years ago" [ref=e350]:
+                    - cell ".gitignore, (File)" [ref=e351]:
+                      - generic [ref=e352]:
+                        - img [ref=e353]
+                        - link ".gitignore, (File)" [ref=e358] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell "Initial commit" [ref=e359]:
+                      - link "Initial commit" [ref=e362] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/f370f61702a94b33b68194cb6d8c432f646d9ced
+                    - cell "Jan 3, 20216 years ago" [ref=e363]:
+                      - generic [ref=e364]: Jan 3, 20216 years ago
+                  - row ".ruby-version, (File) Get everything building Sep 12, 20258 months ago" [ref=e365]:
+                    - cell ".ruby-version, (File)" [ref=e366]:
+                      - generic [ref=e367]:
+                        - img [ref=e368]
+                        - link ".ruby-version, (File)" [ref=e373] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/blob/main/.ruby-version
+                          - text: .ruby-version
+                    - cell "Get everything building" [ref=e374]:
+                      - link "Get everything building" [ref=e377] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/4970e8b547e8f99ebd369a3cc3b519c84d244908
+                    - cell "Sep 12, 20258 months ago" [ref=e378]:
+                      - generic [ref=e379]: Sep 12, 20258 months ago
+                  - row "404.html, (File) Initial commit Jan 3, 20216 years ago" [ref=e380]:
+                    - cell "404.html, (File)" [ref=e381]:
+                      - generic [ref=e382]:
+                        - img [ref=e383]
+                        - link "404.html, (File)" [ref=e388] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/blob/main/404.html
+                          - text: 404.html
+                    - cell "Initial commit" [ref=e389]:
+                      - link "Initial commit" [ref=e392] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/f370f61702a94b33b68194cb6d8c432f646d9ced
+                    - cell "Jan 3, 20216 years ago" [ref=e393]:
+                      - generic [ref=e394]: Jan 3, 20216 years ago
+                  - row "Gemfile, (File) Get everything building Sep 12, 20258 months ago" [ref=e395]:
+                    - cell "Gemfile, (File)" [ref=e396]:
+                      - generic [ref=e397]:
+                        - img [ref=e398]
+                        - link "Gemfile, (File)" [ref=e403] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/blob/main/Gemfile
+                          - text: Gemfile
+                    - cell "Get everything building" [ref=e404]:
+                      - link "Get everything building" [ref=e407] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/4970e8b547e8f99ebd369a3cc3b519c84d244908
+                    - cell "Sep 12, 20258 months ago" [ref=e408]:
+                      - generic [ref=e409]: Sep 12, 20258 months ago
+                  - row "Gemfile.lock, (File) Get everything building Sep 12, 20258 months ago" [ref=e410]:
+                    - cell "Gemfile.lock, (File)" [ref=e411]:
+                      - generic [ref=e412]:
+                        - img [ref=e413]
+                        - link "Gemfile.lock, (File)" [ref=e418] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/blob/main/Gemfile.lock
+                          - text: Gemfile.lock
+                    - cell "Get everything building" [ref=e419]:
+                      - link "Get everything building" [ref=e422] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/4970e8b547e8f99ebd369a3cc3b519c84d244908
+                    - cell "Sep 12, 20258 months ago" [ref=e423]:
+                      - generic [ref=e424]: Sep 12, 20258 months ago
+                  - row "LICENSE.txt, (File) Initial commit Jan 3, 20216 years ago" [ref=e425]:
+                    - cell "LICENSE.txt, (File)" [ref=e426]:
+                      - generic [ref=e427]:
+                        - img [ref=e428]
+                        - link "LICENSE.txt, (File)" [ref=e433] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/blob/main/LICENSE.txt
+                          - text: LICENSE.txt
+                    - cell "Initial commit" [ref=e434]:
+                      - link "Initial commit" [ref=e437] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/f370f61702a94b33b68194cb6d8c432f646d9ced
+                    - cell "Jan 3, 20216 years ago" [ref=e438]:
+                      - generic [ref=e439]: Jan 3, 20216 years ago
+                  - row "README.md, (File) Initial commit Jan 3, 20216 years ago" [ref=e440]:
+                    - cell "README.md, (File)" [ref=e441]:
+                      - generic [ref=e442]:
+                        - img [ref=e443]
+                        - link "README.md, (File)" [ref=e448] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/blob/main/README.md
+                          - text: README.md
+                    - cell "Initial commit" [ref=e449]:
+                      - link "Initial commit" [ref=e452] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/f370f61702a94b33b68194cb6d8c432f646d9ced
+                    - cell "Jan 3, 20216 years ago" [ref=e453]:
+                      - generic [ref=e454]: Jan 3, 20216 years ago
+                  - row "_config.yml, (File) Switch everything to IROS Mar 13, 20262 months ago" [ref=e455]:
+                    - cell "_config.yml, (File)" [ref=e456]:
+                      - generic [ref=e457]:
+                        - img [ref=e458]
+                        - link "_config.yml, (File)" [ref=e463] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/blob/main/_config.yml
+                          - text: _config.yml
+                    - cell "Switch everything to IROS" [ref=e464]:
+                      - link "Switch everything to IROS" [ref=e467] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/bc3c5c0d1da95de14baf94d499f0dcfcfb6b2424
+                    - cell "Mar 13, 20262 months ago" [ref=e468]:
+                      - generic [ref=e469]: Mar 13, 20262 months ago
+                  - row "callforpapers.md, (File) Add in openreview link May 22, 20263 days ago" [ref=e470]:
+                    - cell "callforpapers.md, (File)" [ref=e471]:
+                      - generic [ref=e472]:
+                        - img [ref=e473]
+                        - link "callforpapers.md, (File)" [ref=e478] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/blob/main/callforpapers.md
+                          - text: callforpapers.md
+                    - cell "Add in openreview link" [ref=e479]:
+                      - link "Add in openreview link" [ref=e482] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/e0d4ca7d0c306d8aa209cde1ecd3ee6b6edcb7c2
+                    - cell "May 22, 20263 days ago" [ref=e483]:
+                      - generic [ref=e484]: May 22, 20263 days ago
+                  - row "contactus.md, (File) Initial commit Jan 3, 20216 years ago" [ref=e485]:
+                    - cell "contactus.md, (File)" [ref=e486]:
+                      - generic [ref=e487]:
+                        - img [ref=e488]
+                        - link "contactus.md, (File)" [ref=e493] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/blob/main/contactus.md
+                          - text: contactus.md
+                    - cell "Initial commit" [ref=e494]:
+                      - link "Initial commit" [ref=e497] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/f370f61702a94b33b68194cb6d8c432f646d9ced
+                    - cell "Jan 3, 20216 years ago" [ref=e498]:
+                      - generic [ref=e499]: Jan 3, 20216 years ago
+                  - row "index.md, (File) Switch everything to IROS Mar 13, 20262 months ago" [ref=e500]:
+                    - cell "index.md, (File)" [ref=e501]:
+                      - generic [ref=e502]:
+                        - img [ref=e503]
+                        - link "index.md, (File)" [ref=e508] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/blob/main/index.md
+                          - text: index.md
+                    - cell "Switch everything to IROS" [ref=e509]:
+                      - link "Switch everything to IROS" [ref=e512] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/bc3c5c0d1da95de14baf94d499f0dcfcfb6b2424
+                    - cell "Mar 13, 20262 months ago" [ref=e513]:
+                      - generic [ref=e514]: Mar 13, 20262 months ago
+                  - row "minima-2.5.0.gem, (File) Add minima gem Jan 3, 20216 years ago" [ref=e515]:
+                    - cell "minima-2.5.0.gem, (File)" [ref=e516]:
+                      - generic [ref=e517]:
+                        - img [ref=e518]
+                        - link "minima-2.5.0.gem, (File)" [ref=e523] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/blob/main/minima-2.5.0.gem
+                          - text: minima-2.5.0.gem
+                    - cell "Add minima gem" [ref=e524]:
+                      - link "Add minima gem" [ref=e527] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/ef97ca35b1c6bbd17133bab24a018f36bf61067a
+                    - cell "Jan 3, 20216 years ago" [ref=e528]:
+                      - generic [ref=e529]: Jan 3, 20216 years ago
+                  - row "organizers.md, (File) Initial commit Jan 3, 20216 years ago" [ref=e530]:
+                    - cell "organizers.md, (File)" [ref=e531]:
+                      - generic [ref=e532]:
+                        - img [ref=e533]
+                        - link "organizers.md, (File)" [ref=e538] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/blob/main/organizers.md
+                          - text: organizers.md
+                    - cell "Initial commit" [ref=e539]:
+                      - link "Initial commit" [ref=e542] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/f370f61702a94b33b68194cb6d8c432f646d9ced
+                    - cell "Jan 3, 20216 years ago" [ref=e543]:
+                      - generic [ref=e544]: Jan 3, 20216 years ago
+                  - row "papers.md, (File) Initial commit Jan 3, 20216 years ago" [ref=e545]:
+                    - cell "papers.md, (File)" [ref=e546]:
+                      - generic [ref=e547]:
+                        - img [ref=e548]
+                        - link "papers.md, (File)" [ref=e553] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/blob/main/papers.md
+                          - text: papers.md
+                    - cell "Initial commit" [ref=e554]:
+                      - link "Initial commit" [ref=e557] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/f370f61702a94b33b68194cb6d8c432f646d9ced
+                    - cell "Jan 3, 20216 years ago" [ref=e558]:
+                      - generic [ref=e559]: Jan 3, 20216 years ago
+                  - row "schedule.md, (File) Finish schedule Sep 13, 20258 months ago" [ref=e560]:
+                    - cell "schedule.md, (File)" [ref=e561]:
+                      - generic [ref=e562]:
+                        - img [ref=e563]
+                        - link "schedule.md, (File)" [ref=e568] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/blob/main/schedule.md
+                          - text: schedule.md
+                    - cell "Finish schedule" [ref=e569]:
+                      - link "Finish schedule" [ref=e572] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/b2abdf3c074967de54ad288deea6b5da9bed2fb2
+                    - cell "Sep 13, 20258 months ago" [ref=e573]:
+                      - generic [ref=e574]: Sep 13, 20258 months ago
+                  - row "sniffle.gemspec, (File) Initial commit Jan 3, 20216 years ago" [ref=e575]:
+                    - cell "sniffle.gemspec, (File)" [ref=e576]:
+                      - generic [ref=e577]:
+                        - img [ref=e578]
+                        - link "sniffle.gemspec, (File)" [ref=e583] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/blob/main/sniffle.gemspec
+                          - text: sniffle.gemspec
+                    - cell "Initial commit" [ref=e584]:
+                      - link "Initial commit" [ref=e587] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/f370f61702a94b33b68194cb6d8c432f646d9ced
+                    - cell "Jan 3, 20216 years ago" [ref=e588]:
+                      - generic [ref=e589]: Jan 3, 20216 years ago
+                  - row "speakers.md, (File) Initial commit Jan 3, 20216 years ago" [ref=e590]:
+                    - cell "speakers.md, (File)" [ref=e591]:
+                      - generic [ref=e592]:
+                        - img [ref=e593]
+                        - link "speakers.md, (File)" [ref=e598] [cursor=pointer]:
+                          - /url: /rust-for-robotics/iros2026/blob/main/speakers.md
+                          - text: speakers.md
+                    - cell "Initial commit" [ref=e599]:
+                      - link "Initial commit" [ref=e602] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/commit/f370f61702a94b33b68194cb6d8c432f646d9ced
+                    - cell "Jan 3, 20216 years ago" [ref=e603]:
+                      - generic [ref=e604]: Jan 3, 20216 years ago
+            - generic [ref=e606]:
+              - generic [ref=e607]:
+                - heading "Repository files navigation" [level=2] [ref=e608]
+                - navigation "Repository files" [ref=e609]:
+                  - list [ref=e610]:
+                    - listitem [ref=e611]:
+                      - link "README" [ref=e612] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e614]
+                        - generic [ref=e616]: README
+                    - listitem [ref=e617]:
+                      - link "License" [ref=e618] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e620]
+                        - generic [ref=e622]: License
+                - button "Outline" [ref=e623] [cursor=pointer]:
+                  - img [ref=e624]
+              - article [ref=e627]:
+                - generic [ref=e628]:
+                  - heading "sniffle-workshop" [level=1] [ref=e629]
+                  - 'link "Permalink: sniffle-workshop" [ref=e630] [cursor=pointer]':
+                    - /url: "#sniffle-workshop"
+                    - img [ref=e631]
+                - paragraph [ref=e633]:
+                  - code [ref=e634]: sniffle
+                  - text: is an easy-to-use
+                  - link "Jekyll" [ref=e635] [cursor=pointer]:
+                    - /url: https://jekyllrb.com/
+                  - text: theme, developed primarily for hosting workshop webpages in the AI / ML communities.
+                  - code [ref=e636]: sniffle
+                  - text: "automates many of the mundane tasks needed for workshop webpages, including:"
+                - list [ref=e637]:
+                  - listitem [ref=e638]:
+                    - text: curating
+                    - strong [ref=e639]: speaker
+                    - text: lists
+                  - listitem [ref=e640]:
+                    - text: curating
+                    - strong [ref=e641]: organizer
+                    - text: lists
+                  - listitem [ref=e642]:
+                    - text: populating
+                    - strong [ref=e643]: schedule
+                    - text: webpages
+                  - listitem [ref=e644]:
+                    - text: managing a list of
+                    - strong [ref=e645]: accepted papers
+                - paragraph [ref=e646]:
+                  - code [ref=e647]: sniffle
+                  - text: came about because of a
+                  - link "lazy grad student" [ref=e648] [cursor=pointer]:
+                    - /url: https://krrish94.github.io
+                  - text: "'s need to avoid the agonizing pain that went into populating the"
+                  - link "DiffCVGP" [ref=e649] [cursor=pointer]:
+                    - /url: https://montrealrobotics.ca/diffcvgp
+                  - text: and
+                  - link "Rethinking ML Papers" [ref=e650] [cursor=pointer]:
+                    - /url: https://rethinkingmlpapers.github.io
+                  - text: workshop webpages.
+                  - code [ref=e651]: sniffle
+                  - text: is based on Jekyll's default (and first)
+                  - code [ref=e652]: minima
+                  - text: theme.
+                - paragraph [ref=e653]:
+                  - strong [ref=e654]:
+                    - text: Here's a
+                    - link "preview webpage" [ref=e655] [cursor=pointer]:
+                      - /url: https://krrish94.github.io/sniffle-workshop
+                    - text: for the theme.
+                - paragraph [ref=e656]: Here's sample screenshots of various pages!
+                - paragraph [ref=e657]:
+                  - link "sniffle-workshop theme preview" [ref=e658] [cursor=pointer]:
+                    - /url: /rust-for-robotics/iros2026/blob/main/assets/img/screenshot-home.png
+                    - img "sniffle-workshop theme preview" [ref=e659]
+                  - link "sniffle-workshop theme preview" [ref=e660] [cursor=pointer]:
+                    - /url: /rust-for-robotics/iros2026/blob/main/assets/img/screenshot-papers.png
+                    - img "sniffle-workshop theme preview" [ref=e661]
+                  - link "sniffle-workshop theme preview" [ref=e662] [cursor=pointer]:
+                    - /url: /rust-for-robotics/iros2026/blob/main/assets/img/screenshot-schedule.png
+                    - img "sniffle-workshop theme preview" [ref=e663]
+                  - link "sniffle-workshop theme preview" [ref=e664] [cursor=pointer]:
+                    - /url: /rust-for-robotics/iros2026/blob/main/assets/img/screenshot-speakers.png
+                    - img "sniffle-workshop theme preview" [ref=e665]
+                - generic [ref=e666]:
+                  - heading "Installing Jekyll" [level=2] [ref=e667]
+                  - 'link "Permalink: Installing Jekyll" [ref=e668] [cursor=pointer]':
+                    - /url: "#installing-jekyll"
+                    - img [ref=e669]
+                - paragraph [ref=e671]:
+                  - text: For more about how to use Jekyll, check out
+                  - link "these installation instructions" [ref=e672] [cursor=pointer]:
+                    - /url: https://jekyllrb.com/docs/installation/
+                  - text: . Why Jekyll? Read this
+                  - link "blog post" [ref=e673] [cursor=pointer]:
+                    - /url: https://karpathy.github.io/2014/07/01/switching-to-jekyll/
+                  - text: "!"
+                - generic [ref=e674]:
+                  - heading "Installation" [level=2] [ref=e675]
+                  - 'link "Permalink: Installation" [ref=e676] [cursor=pointer]':
+                    - /url: "#installation"
+                    - img [ref=e677]
+                - paragraph [ref=e679]:
+                  - text: Assuming you have
+                  - link "Ruby" [ref=e680] [cursor=pointer]:
+                    - /url: https://www.ruby-lang.org/en/downloads/
+                  - text: and
+                  - link "Bundler" [ref=e681] [cursor=pointer]:
+                    - /url: https://bundler.io/
+                  - text: installed on your system (
+                  - emphasis [ref=e682]:
+                    - text: "hint: for ease of managing ruby gems, consider using"
+                    - link "rbenv" [ref=e683] [cursor=pointer]:
+                      - /url: https://github.com/rbenv/rbenv
+                  - text: ), first
+                  - link "fork" [ref=e684] [cursor=pointer]:
+                    - /url: https://guides.github.com/activities/forking/
+                  - text: the theme from
+                  - code [ref=e685]: github.com:krrish94/sniffle-workshop
+                  - text: to
+                  - code [ref=e686]: github.com:<your-username>/<your-repo-name>
+                  - text: "and do the following:"
+                - generic [ref=e687]:
+                  - generic [ref=e688]: $ git clone git@github.com:<your-username>/<your-repo-name>.git $ cd <your-repo-name> $ bundle install $ bundle exec jekyll serve
+                  - button "Copy code to clipboard" [ref=e690] [cursor=pointer]:
+                    - img [ref=e691]
+                - paragraph [ref=e694]: Now, feel free to customize the theme to your liking!
+                - generic [ref=e695]:
+                  - heading "Using the theme" [level=2] [ref=e696]
+                  - 'link "Permalink: Using the theme" [ref=e697] [cursor=pointer]':
+                    - /url: "#using-the-theme"
+                    - img [ref=e698]
+                - paragraph [ref=e700]: "The theme is quite easy to use if you're familiar with Jekyll. The following collections are implemented:"
+                - list [ref=e701]:
+                  - listitem [ref=e702]:
+                    - strong [ref=e703]: Speakers
+                    - text: ": Curate a"
+                    - link "speaker list like this one" [ref=e704] [cursor=pointer]:
+                      - /url: /rust-for-robotics/iros2026/blob/main/speakers
+                    - text: from a set of markdown files, one per speaker. Crops and displays images if available. Adds a short bio. See files in the
+                    - code [ref=e705]: _speakers
+                    - text: directory for examples.
+                  - listitem [ref=e706]:
+                    - strong [ref=e707]: Organizers
+                    - text: ": Curate an organizer list from a set of markdown files, one per organizer. See files in the"
+                    - code [ref=e708]: _organizers
+                    - text: directory for examples.
+                  - listitem [ref=e709]:
+                    - strong [ref=e710]: Schedule
+                    - text: ": Curate a"
+                    - link "schedule like this" [ref=e711] [cursor=pointer]:
+                      - /url: /rust-for-robotics/iros2026/blob/main/schedule
+                    - text: from a set of markdown files, one per event (talk, panel, break, etc.). See files in the
+                    - code [ref=e712]: _schedule
+                    - text: directory for examples. Schedule items are sorted by a
+                    - code [ref=e713]: sequence_id
+                    - text: attribute.
+                  - listitem [ref=e714]:
+                    - strong [ref=e715]: Papers
+                    - text: ": Curate a"
+                    - link "list of papers like this" [ref=e716] [cursor=pointer]:
+                      - /url: /rust-for-robotics/iros2026/blob/main/papers
+                    - text: from a bunch of markdown files, one per paper. See files in the
+                    - code [ref=e717]: _papers
+                    - text: directory for examples. Papers are sorted by a
+                    - code [ref=e718]: sequence_id
+                    - text: attribute if specifed (else they are listed alphabetically).
+                - blockquote [ref=e719]:
+                  - paragraph [ref=e720]:
+                    - strong [ref=e721]: "NOTE:"
+                    - text: The best way to use these is to turn feature on or off by editing the
+                    - code [ref=e722]: collections
+                    - text: attribute in
+                    - code [ref=e723]: _config.yml
+                    - text: .
+                - paragraph [ref=e724]:
+                  - text: If you experience issues or have cool features to add, feel free to
+                  - link "fork this template" [ref=e725] [cursor=pointer]:
+                    - /url: /rust-for-robotics/iros2026/blob/main
+                  - text: .
+                - generic [ref=e726]:
+                  - heading "Adding a speaker" [level=3] [ref=e727]
+                  - 'link "Permalink: Adding a speaker" [ref=e728] [cursor=pointer]':
+                    - /url: "#adding-a-speaker"
+                    - img [ref=e729]
+                - paragraph [ref=e731]:
+                  - text: To add a speaker, simply create a copy of
+                  - code [ref=e732]: _speakers/janedoe.md
+                  - text: ", rename it, and edit the attributes of the speaker. Please read the comments in the markdown file; they describe the function of each attribute."
+                - generic [ref=e733]:
+                  - heading "Adding an organizer" [level=3] [ref=e734]
+                  - 'link "Permalink: Adding an organizer" [ref=e735] [cursor=pointer]':
+                    - /url: "#adding-an-organizer"
+                    - img [ref=e736]
+                - paragraph [ref=e738]:
+                  - text: To add an organizer, simply create a copy of
+                  - code [ref=e739]: _organizers/organizerjanedoe.md
+                  - text: ", rename it, and edit the attributes of the organizer. Please read the comments in the markdown file; they describe the function of each attribute."
+                - generic [ref=e740]:
+                  - heading "Adding an event to your schedule" [level=3] [ref=e741]
+                  - 'link "Permalink: Adding an event to your schedule" [ref=e742] [cursor=pointer]':
+                    - /url: "#adding-an-event-to-your-schedule"
+                    - img [ref=e743]
+                - paragraph [ref=e745]:
+                  - text: To add an event to the workshop schedule, simply create a copy of
+                  - code [ref=e746]: _schedule/talk_00_opening.md
+                  - text: ", rename it, and edit the attributes of the event. Please read the comments in the markdown file; they describe the function of each attribute."
+                - generic [ref=e747]:
+                  - heading "Adding a paper to the workshop's proceedings" [level=3] [ref=e748]
+                  - 'link "Permalink: Adding a paper to the workshop''s proceedings" [ref=e749] [cursor=pointer]':
+                    - /url: "#adding-a-paper-to-the-workshops-proceedings"
+                    - img [ref=e750]
+                - paragraph [ref=e752]:
+                  - text: To add a paper to the workshop's proceedings, simply create a copy of
+                  - code [ref=e753]: _schedule/paper_00.md
+                  - text: ", rename it and edit the attributes of the paper. Please read the comments in the markdown file; they describe the function of each attribute."
+        - generic [ref=e757]:
+          - generic [ref=e760]:
+            - heading "About" [level=2] [ref=e761]
+            - paragraph [ref=e762]: IROS 2026 Workshop Website
+            - generic [ref=e763]:
+              - img [ref=e764]
+              - link "rust-for-robotics.github.io/iros2026/" [ref=e767] [cursor=pointer]:
+                - /url: https://rust-for-robotics.github.io/iros2026/
+            - heading "Resources" [level=3] [ref=e768]
+            - link "Readme" [ref=e770] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e771]
+              - text: Readme
+            - heading "License" [level=3] [ref=e773]
+            - link "View license" [ref=e775] [cursor=pointer]:
+              - /url: "#License-1-ov-file"
+              - img [ref=e776]
+              - text: View license
+            - link "Activity" [ref=e779] [cursor=pointer]:
+              - /url: /rust-for-robotics/iros2026/activity
+              - img [ref=e780]
+              - text: Activity
+            - link "Custom properties" [ref=e783] [cursor=pointer]:
+              - /url: /rust-for-robotics/iros2026/custom-properties
+              - img [ref=e784]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e786]
+            - link "0 stars" [ref=e788] [cursor=pointer]:
+              - /url: /rust-for-robotics/iros2026/stargazers
+              - img [ref=e789]
+              - strong [ref=e791]: "0"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e792]
+            - link "0 watching" [ref=e794] [cursor=pointer]:
+              - /url: /rust-for-robotics/iros2026/watchers
+              - img [ref=e795]
+              - strong [ref=e797]: "0"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e798]
+            - link "0 forks" [ref=e800] [cursor=pointer]:
+              - /url: /rust-for-robotics/iros2026/forks
+              - img [ref=e801]
+              - strong [ref=e803]: "0"
+              - text: forks
+            - link "Report repository" [ref=e805] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Frust-for-robotics%2Firos2026&report=rust-for-robotics+%28user%29
+          - generic [ref=e807]:
+            - heading "Contributors 2" [level=2] [ref=e808]:
+              - link "Contributors 2" [ref=e809] [cursor=pointer]:
+                - /url: /rust-for-robotics/iros2026/graphs/contributors
+                - text: Contributors
+                - generic "2" [ref=e810]
+            - list [ref=e811]:
+              - listitem [ref=e812]:
+                - link "@contagon" [ref=e813] [cursor=pointer]:
+                  - /url: https://github.com/contagon
+                  - img "@contagon" [ref=e814]
+                - link "contagon Easton Potokar" [ref=e816] [cursor=pointer]:
+                  - /url: https://github.com/contagon
+                  - strong [ref=e817]: contagon
+                  - text: Easton Potokar
+              - listitem [ref=e818]:
+                - link "@krrish94" [ref=e819] [cursor=pointer]:
+                  - /url: https://github.com/krrish94
+                  - img "@krrish94" [ref=e820]
+                - link "krrish94 Krishna Murthy" [ref=e822] [cursor=pointer]:
+                  - /url: https://github.com/krrish94
+                  - strong [ref=e823]: krrish94
+                  - text: Krishna Murthy
+          - generic [ref=e825]:
+            - heading "Languages" [level=2] [ref=e826]
+            - list [ref=e833]:
+              - listitem [ref=e834]:
+                - link "SCSS 49.3%" [ref=e835] [cursor=pointer]:
+                  - /url: /rust-for-robotics/iros2026/search?l=scss
+                  - img [ref=e836]
+                  - generic [ref=e838]: SCSS
+                  - generic [ref=e839]: 49.3%
+              - listitem [ref=e840]:
+                - link "HTML 42.6%" [ref=e841] [cursor=pointer]:
+                  - /url: /rust-for-robotics/iros2026/search?l=html
+                  - img [ref=e842]
+                  - generic [ref=e844]: HTML
+                  - generic [ref=e845]: 42.6%
+              - listitem [ref=e846]:
+                - link "CSS 4.3%" [ref=e847] [cursor=pointer]:
+                  - /url: /rust-for-robotics/iros2026/search?l=css
+                  - img [ref=e848]
+                  - generic [ref=e850]: CSS
+                  - generic [ref=e851]: 4.3%
+              - listitem [ref=e852]:
+                - link "Ruby 3.8%" [ref=e853] [cursor=pointer]:
+                  - /url: /rust-for-robotics/iros2026/search?l=ruby
+                  - img [ref=e854]
+                  - generic [ref=e856]: Ruby
+                  - generic [ref=e857]: 3.8%
+  - contentinfo [ref=e859]:
+    - heading "Footer" [level=2] [ref=e860]
+    - generic [ref=e861]:
+      - generic [ref=e862]:
+        - link "GitHub Homepage" [ref=e863] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e864]
+        - generic [ref=e866]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e867]:
+        - heading "Footer navigation" [level=3] [ref=e868]
+        - list "Footer navigation" [ref=e869]:
+          - listitem [ref=e870]:
+            - link "Terms" [ref=e871] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e872]:
+            - link "Privacy" [ref=e873] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e874]:
+            - link "Security" [ref=e875] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e876]:
+            - link "Status" [ref=e877] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e878]:
+            - link "Community" [ref=e879] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e880]:
+            - link "Docs" [ref=e881] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e882]:
+            - link "Contact" [ref=e883] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e884]:
+            - button "Manage cookies" [ref=e886] [cursor=pointer]
+          - listitem [ref=e887]:
+            - button "Do not share my personal information" [ref=e889] [cursor=pointer]

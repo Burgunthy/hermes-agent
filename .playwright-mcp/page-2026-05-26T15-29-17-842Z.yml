@@ -1,0 +1,444 @@
+- generic [ref=e3]:
+  - generic [ref=e27]:
+    - generic [ref=e28]:
+      - paragraph [ref=e30]: core methodology
+      - generic [ref=e31]:
+        - paragraph [ref=e33]: Network Whitepaper
+        - generic [ref=e34]:
+          - paragraph [ref=e36]: march 10, 2025
+          - paragraph [ref=e38]: Michael Cho, Jonathan Victor, Juan Benet
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - paragraph [ref=e44]: Contents
+        - generic [ref=e45]:
+          - 'link "Section 1: Abstract" [ref=e47] [cursor=pointer]':
+            - /url: ./whitepaper#1
+            - paragraph [ref=e50]: "Section 1: Abstract"
+          - 'link "Section 2: introduction" [ref=e52] [cursor=pointer]':
+            - /url: ./whitepaper#2
+            - paragraph [ref=e54]: "Section 2: introduction"
+          - 'link "Section 3: Problem definition" [ref=e56] [cursor=pointer]':
+            - /url: ./whitepaper#3
+            - paragraph [ref=e58]: "Section 3: Problem definition"
+          - 'link "section 4: network design & protocol" [ref=e60] [cursor=pointer]':
+            - /url: ./whitepaper#4
+            - paragraph [ref=e62]: "section 4: network design & protocol"
+          - 'link "Section 5: Economy" [ref=e64] [cursor=pointer]':
+            - /url: ./whitepaper#5
+            - paragraph [ref=e66]: "Section 5: Economy"
+          - 'link "Section 6: Future work" [ref=e68] [cursor=pointer]':
+            - /url: ./whitepaper#6
+            - paragraph [ref=e70]: "Section 6: Future work"
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - paragraph [ref=e75]: 1. Abstract
+          - paragraph [ref=e77]: The BitRobot Network whitepaper proposes a subnet-based architecture designed for distributed robotic work and collaboration. Key components include Verifiable Robotic Work (VRW) for robotic task definition and verification, Equipment Node Tokens (ENT) for equipment ownership and network access, and Subnets as the operational layer for task execution. Subnets are managed by Subnet Owners, who oversee their operation; Subnet Validators, who verify task completion; and Subnet Contributors, who supply equipment and resources. The economic model aims to align incentives across participants and facilitates seamless coordination. This framework enables the aggregation of critical resources, with the aim of driving innovation and progress in the field of Embodied AI.
+        - generic [ref=e79]:
+          - generic [ref=e80]:
+            - paragraph [ref=e82]: 2. Introduction
+            - paragraph [ref=e84]: "The arms race for Artificial General Intelligence (AGI) is in full motion - with companies and governments racing to acquire the data, compute and talent required to create the most performant frontier models. Given the pace of innovation for AI in the digital context (e.g. for text, images, and videos), there are high hopes that a similar step change in growth is around the corner for the world of robotics. This optimism is bolstered by momentum across several critical trends:"
+          - generic [ref=e85]:
+            - paragraph [ref=e87]: Transformers scaling across modalities
+            - paragraph [ref=e89]: The transformer architecture [1] has proven versatile in its ability to scale both in quantity, with large amounts of data and compute, and scope, across a range of modalities (e.g. text, images, and videos) - leading to a single unified model that works across multimodal domains (e.g. VLMs [2]). Robotics data, when thought of as transformer tokens, can fit within this same architecture, and therefore should receive scaling benefits when combined with other modalities (e.g. VLAs [3]).
+          - generic [ref=e90]:
+            - paragraph [ref=e92]: Learning from demonstrations
+            - paragraph [ref=e94]: Human teleoperated demonstrations (e.g. techniques like behavioral cloning, imitation learning, offline reinforcement learning, etc) have begun to show real promise. Tasks that the field has previously struggled with [4, 18] (e.g. clothes folding) are starting to see positive momentum - and if scaled may help solve for generalization of challenging domains (e.g. dexterous manipulation).
+          - generic [ref=e95]:
+            - paragraph [ref=e97]: Advancements in simulation
+            - paragraph [ref=e99]: Simulations have evolved substantially in certain domains (e.g. locomotion), where policies trained in simulations can often transfer zero-shot to real-world embodiments such as quadrupeds [5] and drones [6]. The rise of generative AI, the increasing number of realistic world models [7, 8, 9] and the proliferation of physics engine toolings [10, 11, 12] all point to the potential for using simulations to accelerate progress by building a more robust foundation for models.
+          - generic [ref=e100]:
+            - paragraph [ref=e102]: Learning from videos
+            - paragraph [ref=e104]: Web-scale videos also point towards a rich, largely untapped, reservoir of training data that can help advance Embodied AI. In particular, human videos, especially those filmed with ego-centric views, show promise for humanoids and bimanual robotic arms [13, 14]. Meanwhile, progress is also being made where human videos may be closing the gap with labor-intensive teleoperated robotic data [15].
+          - generic [ref=e105]:
+            - paragraph [ref=e107]: Learning from cross embodiment
+            - paragraph [ref=e109]: Increasing research evidence indicates that there may be significant positive learning transfer when Embodied AI models are trained from a diverse range of robotic embodiments. This suggests that the absolute quantity of data required may be substantially reduced and that the resulting models may be more generalizable if the training datasets come from a wide array of robot types [16, 17].
+          - generic [ref=e110]:
+            - paragraph [ref=e112]: Advancements in robotic hardware
+            - paragraph [ref=e114]: The maturity of adjacent industries (e.g. smartphones, EVs, semiconductor chips) translates to strong supply chains and cheap components for inputs to robotic systems (e.g. actuators, cameras, GPS, IoT sensors). For certain types of robots (e.g. consumer-grade sidewalk robots, robotic arms, quadrupeds, etc), this means affordable hardware that can be distributed at scale at consumer price points. In parallel, there are increased innovations on new hardware designs, ranging from tendon-driven mechanics, pneumatics and hydraulic-based actuations and various new touch/tactile sensors.
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - paragraph [ref=e119]: 3. Problem Definition
+            - paragraph [ref=e121]: Despite the momentum described above, Embodied AI still faces many real-world constraints that make scaling of physical intelligence a significant bottleneck in the pursuit of true AGI.
+          - generic [ref=e122]:
+            - paragraph [ref=e124]: 3.1 Data Challenges
+            - paragraph [ref=e126]: Below we describe the challenges facing the three main types of robotic data (synthetic data, real-world video data, and teleoperation data) needed for improving Embodied AI.
+          - generic [ref=e127]:
+            - paragraph [ref=e129]: Sim-to-real gap
+            - paragraph [ref=e131]: Despite its success in certain subfields, synthetic data has had challenges transferring zero-shot in real world settings for many other robotic tasks (e.g. in-the-wild robotic navigation, robotic manipulation with deformable objects). While simulations can drastically speed up the creation of training scenarios, the challenge is in focusing the search space to the long tail of edge cases that are actually relevant in the real world.
+          - generic [ref=e132]:
+            - paragraph [ref=e134]: Embodiment gap
+            - paragraph [ref=e136]: Real-world video data, while a promising accelerant to Embodied AI research, suffer from the embodiment gap. Video data lacks precise information about physical presence and contextual awareness, making it difficult to build an AI that can replicate the exact responses a human might have. For example, thousands of video hours of Lionel Messi playing football can build a basic foundation, but lacks information about his specific body, data processing, and sensory inputs - making it challenging to exactly replicate his actual decision making and execution on the field.
+          - generic [ref=e137]:
+            - paragraph [ref=e139]: Unconscious-to-conscious gap
+            - generic [ref=e140]:
+              - paragraph [ref=e141]: Unlike other modalities (e.g. text) which are available at scale on the public internet, teleoperation data, collected in real world settings capturing human action inputs as a response to external events, requires costly coordination and investment of both physical hardware and human man-hours to produce. As a result, while a promising data source for Embodied AI models, very few large-scale teleoperation datasets naturally exist [19].
+              - paragraph [ref=e142]: Critically, while many robotics researchers agree that these are the primary data bottlenecks to solving Embodied AI, there is a lack of consensus about which challenge (or combination of challenges) are the most pressing to solve first.
+          - generic [ref=e143]:
+            - paragraph [ref=e145]: 3.2 Resource Challenges
+            - paragraph [ref=e147]: Furthermore, while robotics data remains a significant bottleneck, real-world evaluations and resource asymmetries may prove to be an even larger point of friction to the pace of Embodied AI innovations.
+          - generic [ref=e148]:
+            - paragraph [ref=e150]: Lack of hardware for real-world evaluations
+            - paragraph [ref=e152]: For Embodied AI, the only way to evaluate a new model is to observe how the model fares in real world settings. Witnessing failure cases (e.g. a self-driving car driving into a lamp post) is critical in understanding the limits to what a model can do - and as the model improves, the rate of failure is only observable with large-scale fleets of robots. As a result, the ability for researchers to evaluate their own models is rate limited, without access to large amounts of robots to which to deploy their models.
+          - generic [ref=e153]:
+            - paragraph [ref=e155]: Resource distribution asymmetry
+            - generic [ref=e156]:
+              - paragraph [ref=e157]: While a few large corporate labs are able to make substantial progress (given they have access to dataset flywheels, evaluation platforms, and compute, storage and bandwidth) - large pools of researchers (in academia or early-stage startups) and hardware providers are unable to iterate at the same pace. This points to a worrying trend of significant concentration of scientific progress in just a handful of entities.
+              - paragraph [ref=e158]: Below is an illustration of the asymmetry of access to various resources amongst the various entities.
+          - paragraph [ref=e163]: "Fig 1: Rough mapping of resource access for key players in the Embodied AI landscape."
+        - generic [ref=e165]:
+          - paragraph [ref=e167]: "4. The BitRobot Network: Design and Protocol"
+          - generic [ref=e168]:
+            - paragraph [ref=e170]: 4.1 Overview of the BitRobot Network
+            - paragraph [ref=e172]: In response to the challenges listed above, we present the BitRobot Network, a modular network of robotic subnets, each generating valuable resources, to accelerate Embodied AI and robotics innovation.
+          - generic [ref=e177]:
+            - paragraph [ref=e178]: In the BitRobot Network, subnets can be formed to solve for resource gaps on the path to Embodied AI. This can range from aggregating hardware (e.g. fleets of robots for massively parallelized evaluation of new AI models) or human labor (e.g. teleoperators to control various robots) to more sophisticated coordination among multiple resources (e.g. researchers testing latest models on real world robot fleets while training on GPUs provided by compute providers). By decentralizing resource aggregation, BitRobot can leapfrog the resources that any individual corporate lab might amass on its own - and democratize access across the full Embodied AI community.
+            - paragraph [ref=e179]: The subnet structure allows for permissionless resource formation and experimentation - while aligning all participants around a shared economy and outcome.
+          - generic [ref=e180]:
+            - paragraph [ref=e182]: 4.2 Key Components of the BitRobot Network
+            - paragraph [ref=e184]: "The BitRobot Network is built around the following components:"
+          - generic [ref=e185]:
+            - paragraph [ref=e187]: Verifiable Robotic Work (VRW)
+            - paragraph [ref=e189]: The Verifiable Robotic Work (VRW) is a quantifiable and verifiable measure of any robotic work that is deemed useful to help advance Embodied AI. This may include work done collecting data in the real world (e.g. the total distance driven by sidewalk robots, the difficulty scores of these sidewalk robot drives, etc) or in simulation (e.g. the number of scenarios generated for robotic arms that are tasked to fold clothes, the quality scores of such generated scenes, etc). VRW may also include the work done in creating Embodied AI models and evaluating them in either real-world settings or simulation environments. Finally, different types of Subnet Contributors may have different VRW even within the same Subnet (e.g. teleoperator based on duration of operating robots, robot keepers based on robot online hours, etc).
+          - generic [ref=e190]:
+            - paragraph [ref=e192]: Embodied Node Token (ENT)
+            - paragraph [ref=e194]: The Embodied Node Token (ENT) is a unique identifier within the system, designed to serve as the digital twin of a physical robot. Represented as an NFT, the ENT ensures a unique identity for each robot in the BitRobot Network. Each ENT requires collateral to receive on-chain payments, which can be used to enforce accountability and incentivize compliance within the system. The ENT also functions as the conduit for payments for robot owners.
+          - generic [ref=e195]:
+            - paragraph [ref=e197]: Subnets
+            - paragraph [ref=e199]: "A BitRobot Subnet represents clusters of resources creating value for the BitRobot Network. Subnets can range in scope: from hardware acquisition, to creation of novel datasets, to creation of new AI models, to competitions. Subnets can work on a diverse range of tasks (defined by each Subnet’s Verifiable Robotic Work) and embodiments, resulting in a wide variety of outputs, ranging from real-world datasets, synthetic datasets, to new AI models, physical hardware fleet, etc. Within Subnets there are several roles: Subnet Owners, Subnet Validators, and Subnet contributors - though many participants may play multiple roles and work across multiple subnets. Subnets can earn income via direct payments (e.g. stablecoins for renting out a fleet of robots), by network emissions, or both."
+          - generic [ref=e200]:
+            - paragraph [ref=e202]: Subnet Owners
+            - paragraph [ref=e204]: Subnet Owners represent the creators of a subnet. Subnet owners must define the VRW for their subnet, the type of subnet outputs (e.g. dataset, AI models, cryptographic proofs), subnet validation, and the percent of subnet rewards to be distributed to the various participants in the Subnet. Subnet Owners can be individuals, groups of people, or protocols.
+          - generic [ref=e205]:
+            - paragraph [ref=e207]: Subnet Validators
+            - paragraph [ref=e209]: Subnet Validators evaluate the output of Subnet Contributors against the defined VRW for the subnet. Internal to the subnet, the scores assigned by Subnet Validators determine how incoming subnet rewards are split among Subnet Contributors. Subnets can have as few or as many validators as the Subnet Owners determine, and Subnet Validators may be Subnet Owners themselves.
+          - generic [ref=e210]:
+            - paragraph [ref=e212]: Subnet Contributors
+            - paragraph [ref=e214]: Subnet Contributors provide the necessary inputs for a subnet to create a useful output. Each subnet may have multiple types of contributors - ranging from researchers, to teleoperators, to robot manufacturers, and many more. Given each Subnet may be focused on a different outcome, it is expected that each subnet will have a different set of contributor types based on the requirements for their tasks.
+          - paragraph [ref=e220]: 4.3 Life cycles of Subnets and Contributors
+          - generic [ref=e221]:
+            - paragraph [ref=e223]: 4.3.1 Subnets
+            - generic [ref=e224]:
+              - paragraph [ref=e225]: "Subnets are instantiated by their owners, and are required to define several parameters including: reward splits, VRW definitions, and validation conditions. Subnets can be constructed to aggregate resources (e.g. humanoid robot pools for hire), to create novel datasets (e.g. urban navigation data), or to simply evaluate models."
+              - paragraph [ref=e226]: Subnets can also be defined to be private or public - private subnets are not eligible for emissions, while public subnets are eligible. Private subnets are consumers of the frameworks and resources of the BitRobot Network, while public subnets may both be consumers and contributors (see Section 4.4 for more details). Public subnets will receive their share of rewards based on the delegation-weighted voting mechanism at every voting epoch. Funds received by subnets are split to reward Subnet Owners, Validators and Contributors based on each subnet’s predefined allocation rules.
+          - paragraph [ref=e231]: "Fig 4: Flowchart showing the major milestones from creation to the ongoing running of a public subnet"
+          - generic [ref=e232]:
+            - paragraph [ref=e234]: 4.3.2 ENTs and Contributors
+            - paragraph [ref=e236]: Once subnets are spun up, contributors can join subnets to participate in the defined forms of verifiable work. For human contributors, this can be as simple as taking on tasks available from the various subnets (e.g. teleoperating a robot) using a wallet as an identifier. For robot contributors, they first need to be registered with an ENT NFT. Robot owners (who own ENT NFTs) will be able to participate in multiple relevant subnets while maximizing the utilization rate of each physical robot.
+          - paragraph [ref=e241]: "Fig 5: Flowchart showing the major milestones for adding a robotic resource to a subnet"
+          - generic [ref=e242]:
+            - paragraph [ref=e244]: 4.4 IP Assignment and Ownership
+            - generic [ref=e245]:
+              - paragraph [ref=e246]: Datasets and Models produced by public subnets (emission-receiving) in the BitRobot Network are by default open-sourced for non-commercial use.
+              - paragraph [ref=e247]: Any datasets or models produced by private subnets (non-emissions receiving) do not fall under this regime.
+          - generic [ref=e248]:
+            - paragraph [ref=e250]: 4.5 Governance
+            - generic [ref=e251]:
+              - paragraph [ref=e252]: Datasets and Models produced by public subnets (emission-receiving) in the BitRobot Network are by default open-sourced for non-commercial use.
+              - paragraph [ref=e253]: Any datasets or models produced by private subnets (non-emissions receiving) do not fall under this regime.
+          - generic [ref=e257]:
+            - paragraph [ref=e259]: BitRobot Foundation
+            - generic [ref=e260]:
+              - paragraph [ref=e261]: The BitRobot Foundation’s mission is to advance Embodied AI research by facilitating the growth of the BitRobot Network.
+              - paragraph [ref=e262]: To achieve this mission, the BitRobot Foundation will help grow and support infrastructure development work (e.g. tracking of work done by individual ENTs, networking support for subnets working on teleoperation, data pipeline support for subnets working on datasets generation, etc), providing administrative support for the Senate and evangelizing work (e.g. hackathons, grant administrations, etc), and supporting grants to develop the supporting ecosystem.
+              - paragraph [ref=e263]: The BitRobot Foundation will also take on more Embodied AI research and engineering work over time in order to fully maximize the research and economic impacts arising from the commercial use of its IPs (datasets or AI models).
+          - generic [ref=e264]:
+            - paragraph [ref=e266]: BitRobot Senate
+            - generic [ref=e267]:
+              - paragraph [ref=e268]: The BitRobot Senate is composed of nominated representatives of the broader cryptocurrency and Embodied AI research communities - aimed at ensuring resources flow towards the subnets creating the highest value. The BitRobot Senate governs economic weights associated with network measurements (see Section 5.1 below) which are used to evaluate the value of the outputs generated by the subnets.
+              - paragraph [ref=e269]: At regular intervals (called “Voting Epochs”), the BitRobot Senate will vote on the inclusion of new robotic subnets for emissions. At the same time, the BitRobot Senators will also individually vote on the weights proposals for network distributions assigned to each robotic subnet based on the performance and value contribution from the individual subnet to the overall network.
+          - generic [ref=e270]:
+            - paragraph [ref=e272]: Gandalf AI
+            - paragraph [ref=e274]: The BitRobot Foundation will develop and operate “Gandalf AI”, an ongoing effort to create a fully open-sourced AI agent model that provides weights proposals for network measurements and distributions for each robotic subnet, serving as a counter balance to the economic influence wielded by the Senate.
+          - generic [ref=e275]:
+            - paragraph [ref=e277]: Network Participants
+            - paragraph [ref=e279]: BitRobot Network participants can directly influence the impact of decisions made by Senators and Gandalf AI via delegation of their voting power. In this way, the participants can provide a check on any individual senator by allocating more decision making power with other senators or in an extreme case - entirely allocating decision making power to Gandalf AI.
+        - generic [ref=e281]:
+          - generic [ref=e282]:
+            - paragraph [ref=e284]: 5. BitRobot Economy
+            - paragraph [ref=e286]: The BitRobot Economy is composed of a diverse set of participants from all stages of the value creation pipeline (early research, fundamental development, productionisation). The structure of the BitRobot economy aims to support all of these participants by balancing the flows of the economy across the different types of contribution to the value chain.
+          - generic [ref=e287]:
+            - paragraph [ref=e289]: 5.1 Economic Flows to Subnets
+            - paragraph [ref=e291]: The BitRobot Senate and Gandalf AI will use a Measurement-Evaluation-Rewards (MER) loop to determine how emissions should be allocated between subnets. As described in the next section, BitRobot Network participants can increase (or decrease) the relative power of the BitRobot Senate or Gandalf AI’s votes via delegation.
+          - generic [ref=e292]:
+            - paragraph [ref=e294]: Measurements
+            - paragraph [ref=e296]: Defined via protocol governance, these are the metrics (and its relevant calculation) that subnets will be evaluated against. For example, a measurement may apply to a specific subnet (e.g. “Qualified Miles” for Subnet 1) or a more generic measurement that could be relevant to multiple subnets (e.g. number of rented humanoid robots). Members of the Senate and Gandalf AI will individually assign weights to each measurement, indicating their opinion of the relative importance of each metric against the rest.
+          - generic [ref=e297]:
+            - paragraph [ref=e299]: Evaluation
+            - paragraph [ref=e301]: Members of the Senate and Gandalf AI will individually evaluate subnets against each of the relevant metrics to create a distribution list per Member based on their own assessment.
+          - generic [ref=e302]:
+            - paragraph [ref=e304]: Reward
+            - generic [ref=e306]:
+              - paragraph [ref=e307]: Each Senator and Gandalf AI’s distribution lists are weighted by their delegations, summed, and normalized to produce the distribution for that epoch of emissions to each subnet.
+              - paragraph [ref=e308]: Specifically,
+              - paragraph [ref=e309]: "Dj : Weighted delegations to Gandalf AI or Senator"
+              - paragraph [ref=e310]
+              - paragraph [ref=e311]: "Nl : New emissions in Voting Epoch l"
+              - paragraph [ref=e312]
+              - paragraph [ref=e313]: "Eij : Evaluation weight % of Measurement i, submitted by Senator j"
+              - paragraph [ref=e314]
+              - paragraph [ref=e315]: "Mik : Measurement i, achieved by the relevant Subnet k Therefore, the amount of rewards distributed to Subnet k during epoch l, will be:"
+          - paragraph [ref=e320]: Emissions flowing to each subnet are then distributed between Owners, Contributors, and Validators against the Verifiable Robotic Work rules defined by each subnet.
+          - generic [ref=e321]:
+            - paragraph [ref=e323]: 5.2 Economic Consumption
+            - paragraph [ref=e325]: There are several areas where the BitRobot Network requires forms of economic consumption. Some of these areas are described below, but we envision more use cases to be defined by the community as the BitRobot Network matures.
+          - heading "Fee Payments" [level=3] [ref=e328]
+          - generic [ref=e329]:
+            - paragraph [ref=e331]: Subnet Registration Fees
+            - paragraph [ref=e333]: These are fees paid per epoch by Subnet Owners to maintain an active subnet. Subnet Registration Fees create an economic cost for joining the BitRobot economy to prevent spam.
+          - generic [ref=e334]:
+            - paragraph [ref=e336]: ENT Registration Fees
+            - paragraph [ref=e338]: These fees are paid per epoch by owners of Robots upon registering new robots into the BitRobot economy.
+          - generic [ref=e339]:
+            - paragraph [ref=e341]: Resource Allocation Fees
+            - paragraph [ref=e343]: These fees are calculated as a small percentage of the revenue paid to Subnet Owners when third parties rent resources via subnets in the BitRobot ecosystem.
+          - generic [ref=e344]:
+            - paragraph [ref=e346]: Licensing Fees
+            - paragraph [ref=e348]: These are fees paid by third parties to commercially license the data or assets stewarded by the BitRobot Foundation.
+          - generic [ref=e349]:
+            - paragraph [ref=e351]: Penalties
+            - paragraph [ref=e353]: These are fees paid by any participant when violating conditions of the BitRobot Network or relevant subnets.
+          - generic [ref=e354]:
+            - heading "Collateral" [level=3] [ref=e356]
+            - paragraph [ref=e358]: Different components of the BitRobot Network (e.g. ENTs) may require economic collateral to be attached to ensure accountability and enable penalties for malicious actors that might attempt to abuse the BitRobot Network.
+          - generic [ref=e359]:
+            - heading "Delegating" [level=3] [ref=e361]
+            - paragraph [ref=e363]: BitRobot Network participants may delegate voting power to the BitRobot Senate or Gandalf AI, increasing the weight of the delegatee’s votes in determining how BitRobot Network emissions are steered to subnets.
+          - generic [ref=e364]:
+            - paragraph [ref=e366]: 5.3 Economic Loops
+            - paragraph [ref=e368]: "There are two primary economic loops in the BitRobot Ecosystem:"
+          - generic [ref=e373]:
+            - paragraph [ref=e374]: In the first economic loop, the network rewards are used to acquire useful robotic resources. This can be seen as assembling markets of resources (which may include any useful resource from compute to physical robots to teleoperator man-hours, etc) that can be consumed by any third-party. Thus network utilization incurs a fee, to balance the emissions and utilization.
+            - paragraph [ref=e375]:
+              - emphasis [ref=e376]: "Example:"
+              - text: An AI lab hires a fleet of sidewalk robots to evaluate their latest model. The AI lab will pay a resource allocation fee to the network, with the remaining funds being allocated to the hardware owners (via the subnet’s definition of Verifiable Robotic Work) whose robots are used in the evaluation of the model.
+            - paragraph [ref=e377]
+            - paragraph [ref=e378]: In the second economic loop, the network rewards are used to both acquire a useful robotic resource, and create a useful output (e.g. dataset or AI model). When that output is licensed, the fees are used to support the BitRobot ecosystem.
+            - paragraph [ref=e379]
+            - paragraph [ref=e380]:
+              - emphasis [ref=e381]: "Example:"
+              - text: An AI lab wants to commercially license the robotic arm dataset created by the BitRobot Network. The license fees are used to support the BitRobot ecosystem.
+        - generic [ref=e383]:
+          - generic [ref=e384]:
+            - paragraph [ref=e386]: 6. Future Work
+            - paragraph [ref=e388]: "We have presented the BitRobot Network as a powerful framework for creating clusters of resources to accelerate Embodied AI. Below are areas BitRobot Network participants may consider for ongoing improvement:"
+          - generic [ref=e389]:
+            - paragraph [ref=e391]: Augmenting Verifiable Robotic Work With Cryptographic Proofs
+            - paragraph [ref=e393]: At launch, the BitRobot Network will focus on Verifiable Robotic Work - a looser constraint (public inputs, public outputs, public transformations) that allows the BitRobot Network to address a wider swath of data collection, processing, and transformation - than what might be economically feasible given the state of zero knowledge protocols today. As the cost curves drop, we envision incorporating cryptographic guarantees to strengthen the economic loops in the ecosystem.
+          - generic [ref=e394]:
+            - paragraph [ref=e396]: Markets and Services on top of Network Resources
+            - paragraph [ref=e398]: We envision more sophisticated interactions being built by BitRobot Network participants on top of the primitives inside of the BitRobot economy. As the BitRobot Network stabilises the capital flows moving through the economy, we envision markets and services to form to improve the capital efficiency for providers on the BitRobot Network.
+          - generic [ref=e399]:
+            - paragraph [ref=e401]: Markets and Services on top of Network Resources
+            - paragraph [ref=e403]: BitRobot is maximally useful when it becomes the global hub for talent, manufacturer, service providers, research labs, and AI companies to coordinate their resources against tasks that accelerate Embodied AI. A critical focus will be expanding the scope of participants to accelerate the flywheel of growth in the ecosystem.
+          - generic [ref=e404]:
+            - paragraph [ref=e406]: AI Agent Controlled Resources
+            - paragraph [ref=e408]: A key feature of designing the BitRobot Network to be protocol first is in enabling AI Agents to control physical resources. We expect enabling composability between the BitRobot Network and AI agents to be a continuing focus as the BitRobot Network scales and AI agents mature.
+          - generic [ref=e409]:
+            - paragraph [ref=e411]: Evolving Governance
+            - paragraph [ref=e413]: At launch, we expect the BitRobot Foundation and the Senate to play important roles in helping bootstrap the BitRobot Network and helping steer the flywheel for growth for the BitRobot Network. As the BitRobot Network matures, we expect more responsibilities to transition directly between BitRobot Network participants and Gandalf AI.
+        - generic [ref=e416]:
+          - paragraph [ref=e418]: References
+          - list [ref=e420]:
+            - listitem [ref=e421]:
+              - paragraph [ref=e422]:
+                - text: Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin. 2017. Attention is all you need.
+                - link "https://arxiv.org/abs/1706.03762" [ref=e423] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/1706.03762
+            - listitem [ref=e424]:
+              - paragraph [ref=e425]:
+                - text: "Akash Ghosh, Arkadeep Acharya, Sriparna Saha, Vinija Jain, Aman Chadha. 2024. Exploring the Frontier of Vision-Language Models: A Survey of Current Methodologies and Future Directions"
+                - link "https://arxiv.org/abs/2404.07214" [ref=e426] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2404.07214
+            - listitem [ref=e427]:
+              - paragraph [ref=e428]:
+                - text: Yueen Ma, Zixing Song, Yuzheng Zhuang, Jianye Hao, Irwin King. 2024. A Survey on Vision-Language-Action Models for Embodied AI
+                - link "https://arxiv.org/abs/2405.14093" [ref=e429] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2405.14093
+            - listitem [ref=e430]:
+              - paragraph [ref=e431]:
+                - text: "Julen Urain, Ajay Mandlekar, Yilun Du, Mahi Shafiullah, Danfei Xu, Katerina Fragkiadaki, Georgia Chalvatzaki, Jan Peters. 2024. Deep Generative Models in Robotics: A Survey on Learning from Multimodal Demonstrations"
+                - link "https://arxiv.org/abs/2408.04380" [ref=e432] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2408.04380
+            - listitem [ref=e433]:
+              - paragraph [ref=e434]:
+                - text: "Yecheng Jason Ma, William Liang, Hung-Ju Wang, Sam Wang, Yuke Zhu, Linxi Fan, Osbert Bastani, Dinesh Jayaraman. 2024. DrEureka: Language Model Guided Sim-To-Real Transfer"
+                - link "https://arxiv.org/abs/2406.01967" [ref=e435] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2406.01967
+            - listitem [ref=e436]:
+              - paragraph [ref=e437]:
+                - text: Jiaxu Xing, Ismail Geles, Yunlong Song, Elie Aljalbout, Davide Scaramuzza. 2024. Multi-Task Reinforcement Learning for Quadrotors
+                - link "https://arxiv.org/abs/2412.12442" [ref=e438] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2412.12442
+            - listitem [ref=e439]:
+              - paragraph [ref=e440]: "Anthony Hu, Lloyd Russell, Hudson Yeo, Zak Murez, George Fedoseev, Alex Kendall, Jamie Shotton, Gianluca Corrado. 2023. GAIA-1: A Generative World Model for Autonomous Driving https://arxiv.org/abs/2309.17080"
+            - listitem [ref=e441]:
+              - paragraph [ref=e442]:
+                - text: World Labs. 2024. Generating worlds.
+                - link "https://www.worldlabs.ai/blog" [ref=e443] [cursor=pointer]:
+                  - /url: https://www.worldlabs.ai/blog
+            - listitem [ref=e444]:
+              - paragraph [ref=e445]:
+                - text: Nvidia. 2025. Nvidia Cosmos.
+                - link "https://www.nvidia.com/en-us/glossary/world-models" [ref=e446] [cursor=pointer]:
+                  - /url: https://www.nvidia.com/en-us/glossary/world-models
+            - listitem [ref=e447]:
+              - paragraph [ref=e448]:
+                - text: "Stone Tao, Fanbo Xiang, Arth Shukla, Yuzhe Qin, Xander Hinrichsen, Xiaodi Yuan, Chen Bao, Xinsong Lin, Yulin Liu, Tse-kai Chan, Yuan Gao, Xuanlin Li, Tongzhou Mu, Nan Xiao, Arnav Gurha, Zhiao Huang, Roberto Calandra, Rui Chen, Shan Luo, Hao Su. 2024. ManiSkill3: GPU Parallelized Robotics Simulation and Rendering for Generalizable Embodied AI"
+                - link "https://arxiv.org/abs/2410.00425" [ref=e449] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2410.00425
+            - listitem [ref=e450]:
+              - paragraph [ref=e451]:
+                - text: "Zhou Xian, Yiling Qiao, Zhenjia Xu, Tsun-Hsuan Wang, Zhehuan Chen, Juntian Zheng, Ziyan Xiong, Yian Wang, Mingrui Zhang, Pingchuan Ma, Yufei Wang, Zhiyang Dou, Byungchul Kim, Yunsheng Tian, Yipu Chen, Xiaowen Qiu, Chunru Lin, Tairan He, Zilin Si, Yunchu Zhang, Zhanlue Yang, Tiantian Liu, Tianyu Li, Kashu Yamazaki, Hongxin Zhang, Huy Ha, Yu Zhang, Michael Liu, Shaokun Zheng, Zipeng Fu, Qi Wu, Yiran Geng, Feng Chen, Milky, Yuanming Hu, Guanya Shi, Lingjie Liu, Taku Komura, Zackory Erickson, David Held, Minchen Li, Linxi \"Jim\" Fan, Yuke Zhu, Wojciech Matusik, Dan Gutfreund, Shuran Song, Daniela Rus, Ming Lin, Bo Zhu, Katerina Fragkiadaki, Chuang Gan. 2024. Genesis: A Generative and Universal Physics Engine for Robotics and Beyond"
+                - link "https://genesis-embodied-ai.github.io/" [ref=e452] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2304.08488
+            - listitem [ref=e453]:
+              - paragraph [ref=e454]: Kevin Zakka, Baruch Tabanpour, Qiayuan Liao, Mustafa Haiderbhai, Samuel Holt, Jing Yuan Luo, Arthur Allshire, Erik Frey, Koushil Sreenath, Lueder A. Kahrs, Carmelo Sferrazza, Yuval Tassa, Pieter Abbeel. 2025. MuJoCo Playground https://playground.mujoco.org/assets/playground_technical_report.pdf
+            - listitem [ref=e455]:
+              - paragraph [ref=e456]:
+                - text: Shikhar Bahl, Russell Mendonca, Lili Chen, Unnat Jain, Deepak Pathak. 2023. Affordances from Human Videos as a Versatile Representation for Robotics
+                - link "https://arxiv.org/abs/2304.08488" [ref=e457] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2304.08488
+            - listitem [ref=e458]:
+              - paragraph [ref=e459]:
+                - text: "Ruijie Zheng, Yongyuan Liang, Shuaiyi Huang, Jianfeng Gao, Hal Daumé III, Andrey Kolobov, Furong Huang, Jianwei Yang. 2024. TraceVLA: Visual Trace Prompting Enhances Spatial-Temporal Awareness for Generalist Robotic Policies"
+                - link "https://arxiv.org/abs/2412.10345" [ref=e460] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2412.10345
+            - listitem [ref=e461]:
+              - paragraph [ref=e462]:
+                - text: "Juntao Ren, Priya Sundaresan, Dorsa Sadigh, Sanjiban Choudhury, Jeannette Bohg. 2025. Motion Tracks: A Unified Representation for Human-Robot Transfer in Few-Shot Imitation Learning."
+                - link "https://arxiv.org/abs/2501.06994" [ref=e463] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2501.06994
+            - listitem [ref=e464]:
+              - paragraph [ref=e465]:
+                - text: "Open-X Embodiment authors. 2024. Open X-Embodiment: Robotic Learning Datasets and RT-X Models."
+                - link "https://arxiv.org/abs/2310.08864" [ref=e466] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2310.08864
+            - listitem [ref=e467]:
+              - paragraph [ref=e468]: "Lawrence Yunliang Chen, Kush Hari, Karthik Dharmarajan, Chenfeng Xu, Quan Vuong, Ken Goldberg. 2024. Mirage: Cross-Embodiment Zero-Shot Policy Transfer with Cross-Painting https://arxiv.org/abs/2402.19249"
+            - listitem [ref=e469]:
+              - paragraph [ref=e470]:
+                - text: "Kevin Black, Noah Brown, Danny Driess, Adnan Esmail, Michael Equi, Chelsea Finn, Niccolo Fusai, Lachy Groom, Karol Hausman, Brian Ichter, Szymon Jakubczak, Tim Jones, Liyiming Ke, Sergey Levine, Adrian Li-Bell, Mohith Mothukuri, Suraj Nair, Karl Pertsch, Lucy Xiaoyang Shi, James Tanner, Quan Vuong, Anna Walling, Haohuan Wang, Ury Zhilinsky. 2024. π0: A Vision-Language-Action Flow Model for General Robot Control"
+                - link "https://www.physicalintelligence.company/download/pi0.pdf" [ref=e471] [cursor=pointer]:
+                  - /url: https://www.physicalintelligence.company/download/pi0.pdf
+            - listitem [ref=e472]:
+              - paragraph [ref=e473]:
+                - text: "Kevin Black. 2024. From Octo to π0: How to train your generalist robot policy."
+                - link "https://www.youtube.com/live/ELUMFpJCUS0?si=3hKJD8C9qpFQokHd&t=16864" [ref=e474] [cursor=pointer]:
+                  - /url: https://www.youtube.com/live/ELUMFpJCUS0?si=3hKJD8C9qpFQokHd&t=16864
+  - generic [ref=e480]:
+    - generic [ref=e481]:
+      - generic [ref=e482]:
+        - link "start coordinating Early access to subnet launches, challenges, and network updates. Connect with researchers and operators. join now" [ref=e483] [cursor=pointer]:
+          - /url: https://discord.com/invite/bitrobot
+          - paragraph [ref=e485]: start coordinating
+          - generic [ref=e486]:
+            - generic [ref=e487]:
+              - paragraph [ref=e488]
+              - paragraph [ref=e489]
+              - paragraph [ref=e490]: Early access to subnet launches, challenges, and network updates. Connect with researchers and operators.
+            - paragraph [ref=e493]: join now
+        - generic [ref=e496]:
+          - paragraph [ref=e498]: Newsletter
+          - generic [ref=e499]:
+            - textbox [ref=e502]:
+              - /placeholder: Enter your email
+            - button "Get on the list →" [ref=e504] [cursor=pointer]:
+              - paragraph [ref=e506]: Get on the list →
+      - generic [ref=e507]:
+        - generic [ref=e511]:
+          - generic [ref=e513]:
+            - paragraph [ref=e515]: connect
+            - generic [ref=e516]:
+              - paragraph [ref=e518]:
+                - link "X" [ref=e519] [cursor=pointer]:
+                  - /url: https://x.com/BitRobotNetwork
+              - paragraph [ref=e521]:
+                - link "Discord" [ref=e522] [cursor=pointer]:
+                  - /url: https://discord.com/invite/bitrobot
+          - generic [ref=e523]:
+            - paragraph [ref=e525]: learn
+            - generic [ref=e526]:
+              - paragraph [ref=e528]:
+                - link "Home" [ref=e529] [cursor=pointer]:
+                  - /url: ./
+              - paragraph [ref=e531]:
+                - link "Network" [ref=e532] [cursor=pointer]:
+                  - /url: ./network
+              - paragraph [ref=e534]:
+                - link "Origin" [ref=e535] [cursor=pointer]:
+                  - /url: ./origin
+              - paragraph [ref=e537]:
+                - link "Updates" [ref=e538] [cursor=pointer]:
+                  - /url: ./updates
+              - paragraph [ref=e540]:
+                - link "Whitepaper" [ref=e541] [cursor=pointer]:
+                  - /url: ./whitepaper
+          - generic [ref=e542]:
+            - paragraph [ref=e544]: engage
+            - generic [ref=e545]:
+              - paragraph [ref=e547]:
+                - link "Grand Challenges" [ref=e548] [cursor=pointer]:
+                  - /url: ./grand-challenges
+              - paragraph [ref=e550]:
+                - link "Launch a Subnet" [ref=e551] [cursor=pointer]:
+                  - /url: https://form.typeform.com/to/kv7iWjKw
+              - paragraph [ref=e553]:
+                - link "Contribute Compute" [ref=e554] [cursor=pointer]:
+                  - /url: https://form.typeform.com/to/Ac3Mqu6p
+              - paragraph [ref=e556]:
+                - link "License Outputs" [ref=e557] [cursor=pointer]:
+                  - /url: https://form.typeform.com/to/mbR9ZfG2
+          - generic [ref=e559]:
+            - paragraph [ref=e561]: contact
+            - generic [ref=e562]:
+              - paragraph [ref=e564]:
+                - link "Media Inquiries" [ref=e565] [cursor=pointer]:
+                  - /url: mailto:contact@bitrobot.ai
+              - paragraph [ref=e567]:
+                - link "Brand Assets" [ref=e568] [cursor=pointer]:
+                  - /url: ./brand
+              - paragraph [ref=e570]:
+                - link "Careers" [ref=e571] [cursor=pointer]:
+                  - /url: https://jobs.solana.com/companies/bitrobot-foundation
+        - generic [ref=e572]:
+          - img [ref=e575]
+          - img [ref=e579]
+          - paragraph [ref=e583]: THE WORLD’S OPEN ROBOTICS LAB
+    - generic [ref=e584]:
+      - generic [ref=e585]:
+        - paragraph [ref=e587]:
+          - link "terms of service" [ref=e588] [cursor=pointer]:
+            - /url: ./updates/terms
+        - paragraph [ref=e590]:
+          - link "privacy policy" [ref=e591] [cursor=pointer]:
+            - /url: ./updates/privacy
+      - paragraph [ref=e594]: ©2026 bitrobot network
+  - generic [ref=e598]:
+    - link [ref=e599] [cursor=pointer]:
+      - /url: ./
+      - img [ref=e602]
+    - generic [ref=e605]:
+      - generic [ref=e606]:
+        - paragraph [ref=e608]:
+          - link "Network" [ref=e609] [cursor=pointer]:
+            - /url: ./network
+        - paragraph [ref=e611]:
+          - link "Grand Challenges" [ref=e612] [cursor=pointer]:
+            - /url: ./grand-challenges
+        - paragraph [ref=e614]:
+          - link "updates" [ref=e615] [cursor=pointer]:
+            - /url: ./updates
+        - paragraph [ref=e617]:
+          - link "Whitepaper" [ref=e618] [cursor=pointer]:
+            - /url: ./whitepaper
+        - paragraph [ref=e620]:
+          - link "origin" [ref=e621] [cursor=pointer]:
+            - /url: ./origin
+      - generic [ref=e623]:
+        - link [ref=e624] [cursor=pointer]:
+          - /url: https://x.com/BitRobotNetwork
+        - link [ref=e626] [cursor=pointer]:
+          - /url: https://discord.com/invite/bitrobot
+    - link "Join the Network" [ref=e629] [cursor=pointer]:
+      - /url: ./get-involved
+      - paragraph [ref=e631]: Join the Network

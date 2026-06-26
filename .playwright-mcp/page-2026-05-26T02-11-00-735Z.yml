@@ -1,0 +1,517 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - complementary [ref=e5]:
+          - heading "상단 네비" [level=3] [ref=e6]
+          - generic [ref=e7]:
+            - list [ref=e8]:
+              - listitem [ref=e9]:
+                - link "즐겨찾기" [ref=e10] [cursor=pointer]:
+                  - /url: javascript:;
+                - text: /
+              - listitem [ref=e11]:
+                - link "새글" [ref=e12] [cursor=pointer]:
+                  - /url: https://www.leeseungju.com/bbs/new.php
+                - text: /
+              - listitem [ref=e13]:
+                - link "문의하기" [ref=e14] [cursor=pointer]:
+                  - /url: https://www.leeseungju.com/kakaochatting
+            - list [ref=e15]:
+              - listitem [ref=e16]:
+                - link "로그인" [ref=e17] [cursor=pointer]:
+                  - /url: https://www.leeseungju.com/bbs/login.php?url=%2Fcoinlab
+                - text: /
+              - listitem [ref=e18]:
+                - link "회원가입" [ref=e19] [cursor=pointer]:
+                  - /url: https://www.leeseungju.com/bbs/register.php
+                - text: /
+              - listitem [ref=e20]:
+                - link "정보찾기" [ref=e21] [cursor=pointer]:
+                  - /url: https://www.leeseungju.com/bbs/password_lost.php
+        - banner [ref=e22]:
+          - generic [ref=e24]:
+            - link "자수성가공부방" [ref=e27] [cursor=pointer]:
+              - /url: https://www.leeseungju.com
+              - img "자수성가공부방" [ref=e28]
+            - generic [ref=e30]:
+              - textbox "검색" [ref=e35]
+              - generic [ref=e37]:
+                - heading "인기검색어" [level=3]
+                - generic [ref=e38]:
+                  - list [ref=e39]:
+                    - listitem [ref=e40]:
+                      - link "집에서 할 수 있는 부업" [ref=e41] [cursor=pointer]:
+                        - /url: https://www.leeseungju.com/j_note/124
+                    - listitem [ref=e42]:
+                      - link "무료교육" [ref=e43] [cursor=pointer]:
+                        - /url: https://www.leeseungju.com/j_note/124
+                    - listitem [ref=e44]:
+                      - link "재택 창업아이템" [ref=e45] [cursor=pointer]:
+                        - /url: https://www.leeseungju.com/j_note/124
+                  - text:  
+        - generic [ref=e47]:
+          - text:  
+          - navigation [ref=e48]:
+            - heading "메인 메뉴" [level=3] [ref=e49]
+            - generic [ref=e51]:
+              - list [ref=e53]:
+                - listitem [ref=e54]:
+                  - link "필독공지" [ref=e55] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/j_note/124
+                - listitem [ref=e56]:
+                  - link "이소장 프로필" [ref=e57] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/link/profile
+                - listitem [ref=e58]:
+                  - link "자공방 교육 후기" [ref=e59] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/review
+                - listitem [ref=e60]:
+                  - link "카톡 문의" [ref=e61] [cursor=pointer]:
+                    - /url: http://www.leeseungju.com/link/pluschannelchat.php
+                - listitem [ref=e62]:
+                  - link "자공방 유튜브" [ref=e63] [cursor=pointer]:
+                    - /url: https://www.youtube.com/@%EC%9E%90%EC%88%98%EC%84%B1%EA%B0%80%EA%B3%B5%EB%B6%80%EB%B0%A9
+                - listitem [ref=e64]:
+                  - link "상담 신청하기" [ref=e65] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/j_note/124
+              - link "전체메뉴" [ref=e67] [cursor=pointer]:
+                - /url: javascript:;
+                - generic [ref=e68]: 
+              - link "마이메뉴" [ref=e70] [cursor=pointer]:
+                - /url: javascript:;
+                - generic [ref=e71]: 
+          - navigation:
+            - heading "전체 메뉴" [level=3] [ref=e72]
+            - text: 
+      - generic [ref=e75]:
+        - strong [ref=e77]: 코인투자연구소
+        - navigation "breadcrumb" [ref=e79]:
+          - list [ref=e80]:
+            - listitem [ref=e81]:
+              - link "코인투자연구소" [ref=e82] [cursor=pointer]:
+                - /url: "#"
+    - generic [ref=e85]:
+      - generic [ref=e86]:
+        - paragraph [ref=e87]:
+          - generic [ref=e88]: "[공지]"
+        - paragraph [ref=e89]:
+          - link "▣[무료배포] 실전 코인 트레이딩 대회 초대장" [ref=e90] [cursor=pointer]:
+            - /url: https://leeseungju.com/s/coinleague
+        - paragraph [ref=e91]
+        - generic [ref=e92]:
+          - text: 
+          - navigation [ref=e93]:
+            - heading "코인투자연구소 분류 목록" [level=3] [ref=e94]
+            - generic [ref=e96]:
+              - list [ref=e98]:
+                - listitem [ref=e99]:
+                  - link "전체" [ref=e100] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab
+                - listitem [ref=e101]:
+                  - link "코인게시판" [ref=e102] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab?sca=%EC%BD%94%EC%9D%B8%EA%B2%8C%EC%8B%9C%ED%8C%90
+                - listitem [ref=e103]:
+                  - link "손익인증" [ref=e104] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab?sca=%EC%86%90%EC%9D%B5%EC%9D%B8%EC%A6%9D
+                - listitem [ref=e105]:
+                  - link "선물마진게시판" [ref=e106] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab?sca=%EC%84%A0%EB%AC%BC%EB%A7%88%EC%A7%84%EA%B2%8C%EC%8B%9C%ED%8C%90
+                - listitem [ref=e107]:
+                  - link "매매법" [ref=e108] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab?sca=%EB%A7%A4%EB%A7%A4%EB%B2%95
+                - listitem [ref=e109]:
+                  - link "차트분석" [ref=e110] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab?sca=%EC%B0%A8%ED%8A%B8%EB%B6%84%EC%84%9D
+                - listitem [ref=e111]:
+                  - link "매매일지" [ref=e112] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab?sca=%EB%A7%A4%EB%A7%A4%EC%9D%BC%EC%A7%80
+                - listitem [ref=e113]:
+                  - link "NFT게시판" [ref=e114] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab?sca=NFT%EA%B2%8C%EC%8B%9C%ED%8C%90
+              - generic: 
+              - generic: 
+            - separator [ref=e115]
+          - generic [ref=e116]:
+            - generic [ref=e118]:
+              - generic [ref=e119]: Total 21 / 1 Page
+              - group [ref=e120]:
+                - button "게시판 검색" [ref=e121] [cursor=pointer]:
+                  - generic [ref=e122]: 
+                  - generic [ref=e123]: 게시판 검색
+                - link [ref=e124] [cursor=pointer]:
+                  - /url: https://www.leeseungju.com/bbs/login.php
+                  - img [ref=e125]
+                - group [ref=e126]:
+                  - button "게시물 정렬" [ref=e127] [cursor=pointer]:
+                    - generic [ref=e128]: 
+                    - generic [ref=e129]: 게시물 정렬
+            - generic [ref=e130]:
+              - generic [ref=e132]:
+                - generic [ref=e133]: 번호
+                - generic [ref=e134]: 제목
+                - generic [ref=e135]: 이름
+                - link "날짜" [ref=e137] [cursor=pointer]:
+                  - /url: /bbs/board.php?bo_table=coinlab&sop=and&sst=wr_datetime&sod=desc&sfl=&stx=&sca=&page=1
+              - list [ref=e138]:
+                - listitem [ref=e139]:
+                  - generic [ref=e140]:
+                    - generic [ref=e141]: 번호
+                    - text: "21"
+                  - link "코인게시판 [매매법 Q&A 분석] 디시에 올라온 워뇨띠 매매원칙 qna 2021 버전" [ref=e145] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab/75
+                    - text: 코인게시판
+                    - text: "[매매법 Q&A 분석] 디시에 올라온 워뇨띠 매매원칙 qna 2021 버전"
+                  - generic [ref=e148]:
+                    - generic [ref=e149]: 등록자
+                    - text: 코인천황
+                  - generic [ref=e150]:
+                    - generic [ref=e151]: 등록일
+                    - text: 2024.09.15
+                - listitem [ref=e152]:
+                  - generic [ref=e153]:
+                    - generic [ref=e154]: 번호
+                    - text: "20"
+                  - link "코인게시판 플라이트 매매법 - 날아보자" [ref=e158] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab/69
+                    - text: 코인게시판
+                    - text: 플라이트 매매법 - 날아보자
+                  - generic [ref=e161]:
+                    - generic [ref=e162]: 등록자
+                    - text: 코인천황
+                  - generic [ref=e163]:
+                    - generic [ref=e164]: 등록일
+                    - text: 2024.09.04
+                - listitem [ref=e165]:
+                  - generic [ref=e166]:
+                    - generic [ref=e167]: 번호
+                    - text: "19"
+                  - link "매매법 bnf매매법) 일본 BNF 매매방법 ARABOKKA?" [ref=e171] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab/68
+                    - text: 매매법
+                    - text: bnf매매법) 일본 BNF 매매방법 ARABOKKA?
+                  - generic [ref=e174]:
+                    - generic [ref=e175]: 등록자
+                    - text: 코인천황
+                  - generic [ref=e176]:
+                    - generic [ref=e177]: 등록일
+                    - text: 2024.09.04
+                - listitem [ref=e178]:
+                  - generic [ref=e179]:
+                    - generic [ref=e180]: 번호
+                    - text: "18"
+                  - link "코인게시판 비트코인 매매방법 이렇게나 많다니" [ref=e184] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab/67
+                    - text: 코인게시판
+                    - text: 비트코인 매매방법 이렇게나 많다니
+                  - generic [ref=e187]:
+                    - generic [ref=e188]: 등록자
+                    - text: 코인천황
+                  - generic [ref=e189]:
+                    - generic [ref=e190]: 등록일
+                    - text: 2024.09.04
+                - listitem [ref=e191]:
+                  - generic [ref=e192]:
+                    - generic [ref=e193]: 번호
+                    - text: "17"
+                  - link "코인게시판 코인 선물 양방매매 방법 ARABOJA" [ref=e197] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab/66
+                    - text: 코인게시판
+                    - text: 코인 선물 양방매매 방법 ARABOJA
+                  - generic [ref=e200]:
+                    - generic [ref=e201]: 등록자
+                    - text: 코인천황
+                  - generic [ref=e202]:
+                    - generic [ref=e203]: 등록일
+                    - text: 2024.09.04
+                - listitem [ref=e204]:
+                  - generic [ref=e205]:
+                    - generic [ref=e206]: 번호
+                    - text: "16"
+                  - link "코인게시판 세상에서 제일 미련한 생각" [ref=e210] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab/65
+                    - text: 코인게시판
+                    - text: 세상에서 제일 미련한 생각
+                  - generic [ref=e213]:
+                    - generic [ref=e214]: 등록자
+                    - text: 코인천황
+                  - generic [ref=e215]:
+                    - generic [ref=e216]: 등록일
+                    - text: 2024.09.04
+                - listitem [ref=e217]:
+                  - generic [ref=e218]:
+                    - generic [ref=e219]: 번호
+                    - text: "15"
+                  - link "코인게시판 워뇨띠 주작 디시 글을 보며, 그 나이에 재산 많은 것이 가상인물?" [ref=e223] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab/64
+                    - text: 코인게시판
+                    - text: 워뇨띠 주작 디시 글을 보며, 그 나이에 재산 많은 것이 가상인물?
+                  - generic [ref=e226]:
+                    - generic [ref=e227]: 등록자
+                    - text: 코인천황
+                  - generic [ref=e228]:
+                    - generic [ref=e229]: 등록일
+                    - text: 2024.09.04
+                - listitem [ref=e230]:
+                  - generic [ref=e231]:
+                    - generic [ref=e232]: 번호
+                    - text: "14"
+                  - link "코인게시판 워뇨띠 나무위키 정보 및 근황" [ref=e236] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab/59
+                    - text: 코인게시판
+                    - text: 워뇨띠 나무위키 정보 및 근황
+                  - generic [ref=e239]:
+                    - generic [ref=e240]: 등록자
+                    - text: 코인천황
+                  - generic [ref=e241]:
+                    - generic [ref=e242]: 등록일
+                    - text: 2024.09.01
+                - listitem [ref=e243]:
+                  - generic [ref=e244]:
+                    - generic [ref=e245]: 번호
+                    - text: "13"
+                  - link "매매법 워뇨띠 매매원칙 및 포지션 전략을 ARABOJA" [ref=e249] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab/58
+                    - text: 매매법
+                    - text: 워뇨띠 매매원칙 및 포지션 전략을 ARABOJA
+                  - generic [ref=e252]:
+                    - generic [ref=e253]: 등록자
+                    - text: 코인천황
+                  - generic [ref=e254]:
+                    - generic [ref=e255]: 등록일
+                    - text: 2024.09.01
+                - listitem [ref=e256]:
+                  - generic [ref=e257]:
+                    - generic [ref=e258]: 번호
+                    - text: "12"
+                  - link "코인게시판 워뇨띠 3천억 청산에 대한 의견" [ref=e262] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab/57
+                    - text: 코인게시판
+                    - text: 워뇨띠 3천억 청산에 대한 의견
+                  - generic [ref=e265]:
+                    - generic [ref=e266]: 등록자
+                    - text: 코인천황
+                  - generic [ref=e267]:
+                    - generic [ref=e268]: 등록일
+                    - text: 2024.09.01
+                - listitem [ref=e269]:
+                  - generic [ref=e270]:
+                    - generic [ref=e271]: 번호
+                    - text: "11"
+                  - link "코인게시판 워뇨띠 리더보드 사라짐 이유?(2023~2024년까지 실시간 근황)" [ref=e275] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab/56
+                    - text: 코인게시판
+                    - text: 워뇨띠 리더보드 사라짐 이유?(2023~2024년까지 실시간 근황)
+                  - generic [ref=e278]:
+                    - generic [ref=e279]: 등록자
+                    - text: 코인천황
+                  - generic [ref=e280]:
+                    - generic [ref=e281]: 등록일
+                    - text: 2024.09.01
+                - listitem [ref=e282]:
+                  - generic [ref=e283]:
+                    - generic [ref=e284]: 번호
+                    - text: "10"
+                  - link "코인게시판 워뇨띠 디시 최신 근황" [ref=e288] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab/55
+                    - text: 코인게시판
+                    - text: 워뇨띠 디시 최신 근황
+                  - generic [ref=e291]:
+                    - generic [ref=e292]: 등록자
+                    - text: 코인천황
+                  - generic [ref=e293]:
+                    - generic [ref=e294]: 등록일
+                    - text: 2024.09.01
+                - listitem [ref=e295]:
+                  - generic [ref=e296]:
+                    - generic [ref=e297]: 번호
+                    - text: "9"
+                  - link "코인게시판 워뇨띠 매매법의 핵심 ARABOJA" [ref=e301] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab/54
+                    - text: 코인게시판
+                    - text: 워뇨띠 매매법의 핵심 ARABOJA
+                  - generic [ref=e304]:
+                    - generic [ref=e305]: 등록자
+                    - text: 코인천황
+                  - generic [ref=e306]:
+                    - generic [ref=e307]: 등록일
+                    - text: 2024.09.01
+                - listitem [ref=e308]:
+                  - generic [ref=e309]:
+                    - generic [ref=e310]: 번호
+                    - text: "8"
+                  - link "공지 코인투자연구소 사칭에 유의해주세요" [ref=e314] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab/51
+                    - text: 공지
+                    - text: 코인투자연구소 사칭에 유의해주세요
+                  - generic [ref=e317]:
+                    - generic [ref=e318]: 등록자
+                    - text: 코인천황
+                  - generic [ref=e319]:
+                    - generic [ref=e320]: 등록일
+                    - text: 2024.08.31
+                - listitem [ref=e321]:
+                  - generic [ref=e322]:
+                    - generic [ref=e323]: 번호
+                    - text: "7"
+                  - link "매매법 워뇨띠 매매법 + 댓글 피드백 정리" [ref=e327] [cursor=pointer]:
+                    - /url: https://www.leeseungju.com/coinlab/37
+                    - text: 매매법
+                    - text: 워뇨띠 매매법 + 댓글 피드백 정리
+                  - generic [ref=e330]:
+                    - generic [ref=e331]: 등록자
+                    - text: 코인천황
+                  - generic [ref=e332]:
+                    - generic [ref=e333]: 등록일
+                    - text: 2024.05.18
+            - list [ref=e335]:
+              - listitem [ref=e336]:
+                - generic:
+                  - generic: 
+              - listitem [ref=e337]:
+                - generic:
+                  - generic: 
+              - listitem [ref=e338]:
+                - generic [ref=e339]:
+                  - text: "1"
+                  - generic [ref=e340]: (current)
+              - listitem [ref=e341]:
+                - link "2" [ref=e342] [cursor=pointer]:
+                  - /url: https://www.leeseungju.com/coinlab?page=2
+              - listitem [ref=e343]:
+                - generic:
+                  - generic: 
+              - listitem [ref=e344]:
+                - link "" [ref=e345] [cursor=pointer]:
+                  - /url: https://www.leeseungju.com/coinlab?page=2
+                  - generic [ref=e346]: 
+      - generic [ref=e347]:
+        - heading "+ 필독공지" [level=3] [ref=e348]:
+          - link "+ 필독공지" [ref=e349] [cursor=pointer]:
+            - /url: https://www.leeseungju.com/notice
+            - generic [ref=e350]: +
+            - text: 필독공지
+        - separator [ref=e351]
+        - list [ref=e353]:
+          - listitem [ref=e354]:
+            - generic [ref=e355]:
+              - generic [ref=e356]:
+                - generic [ref=e357]: 등록일
+                - text: "09.24"
+              - generic [ref=e358]:
+                - link "[무료공개] 재택 창업설명회┃부업 추천" [ref=e359] [cursor=pointer]:
+                  - /url: https://www.leeseungju.com/notice/184
+                - generic [ref=e361]:
+                  - text: +
+                  - generic [ref=e362]: 댓글
+                  - text: "9"
+          - listitem [ref=e363]:
+            - generic [ref=e364]:
+              - generic [ref=e365]:
+                - generic [ref=e366]: 등록일
+                - text: "09.23"
+              - generic [ref=e367]:
+                - link "▶자수성가 부자가 되는 방법▶클릭" [ref=e368] [cursor=pointer]:
+                  - /url: https://www.leeseungju.com/notice/45
+                - generic [ref=e370]:
+                  - text: +
+                  - generic [ref=e371]: 댓글
+                  - text: "142"
+        - link [ref=e373] [cursor=pointer]:
+          - /url: https://leeseungju.com/l/startforms.php
+          - img [ref=e374]
+        - generic [ref=e376]:
+          - link "광고":
+            - /url: http://www.leeseungju.com/link/pluschannelchat.php
+            - generic [ref=e377] [cursor=pointer]: 광고
+          - link [ref=e379] [cursor=pointer]:
+            - /url: https://www.leeseungju.com/l/48briefing.php
+            - img [ref=e380]
+    - contentinfo [ref=e381]:
+      - navigation [ref=e382]:
+        - generic [ref=e383]:
+          - heading "하단 네비" [level=3] [ref=e384]
+          - list [ref=e385]:
+            - listitem [ref=e386]:
+              - link "이용약관" [ref=e387] [cursor=pointer]:
+                - /url: https://www.leeseungju.com/content/provision
+              - text: /
+            - listitem [ref=e388]:
+              - link "개인정보처리방침" [ref=e389] [cursor=pointer]:
+                - /url: https://www.leeseungju.com/content/privacy
+              - text: /
+            - listitem [ref=e390]:
+              - link "이메일 무단수집거부" [ref=e391] [cursor=pointer]:
+                - /url: https://www.leeseungju.com/content/noemail
+              - text: /
+            - listitem [ref=e392]:
+              - link "책임의 한계와 법적고지" [ref=e393] [cursor=pointer]:
+                - /url: https://www.leeseungju.com/content/disclaimer
+          - list [ref=e394]:
+            - listitem [ref=e395]:
+              - link "이용안내" [ref=e396] [cursor=pointer]:
+                - /url: /content/notice
+              - text: /
+            - listitem [ref=e397]:
+              - link "문의하기" [ref=e398] [cursor=pointer]:
+                - /url: https://www.leeseungju.com/community
+      - generic [ref=e400]:
+        - heading "카피라이트" [level=3] [ref=e401]
+        - generic [ref=e402]:
+          - strong [ref=e403]:
+            - text: 자수성가공부방
+            - generic [ref=e404]: 
+          - text: All rights reserved.
+  - complementary [ref=e405]:
+    - heading "닫기 자수성가공부방" [level=3] [ref=e407]:
+      - text: 
+      - link "닫기" [ref=e408] [cursor=pointer]:
+        - /url: javascript:;
+        - generic [ref=e409]: 
+        - generic [ref=e410]: 닫기
+      - link "자수성가공부방" [ref=e411] [cursor=pointer]:
+        - /url: https://www.leeseungju.com
+    - generic [ref=e412]:
+      - text: 
+      - list [ref=e414]:
+        - listitem [ref=e415]:
+          - link "필독공지" [ref=e416] [cursor=pointer]:
+            - /url: https://www.leeseungju.com/j_note/124
+        - listitem [ref=e417]:
+          - link "이소장 프로필" [ref=e418] [cursor=pointer]:
+            - /url: https://www.leeseungju.com/link/profile
+        - listitem [ref=e419]:
+          - link "자공방 교육 후기" [ref=e420] [cursor=pointer]:
+            - /url: https://www.leeseungju.com/review
+        - listitem [ref=e421]:
+          - link "카톡 문의" [ref=e422] [cursor=pointer]:
+            - /url: http://www.leeseungju.com/link/pluschannelchat.php
+        - listitem [ref=e423]:
+          - link "자공방 유튜브" [ref=e424] [cursor=pointer]:
+            - /url: https://www.youtube.com/@%EC%9E%90%EC%88%98%EC%84%B1%EA%B0%80%EA%B3%B5%EB%B6%80%EB%B0%A9
+        - listitem [ref=e425]:
+          - link "상담 신청하기" [ref=e426] [cursor=pointer]:
+            - /url: https://www.leeseungju.com/j_note/124
+      - list [ref=e428]:
+        - listitem [ref=e429]:
+          - link "새글" [ref=e430] [cursor=pointer]:
+            - /url: https://www.leeseungju.com/j_note
+            - generic [ref=e431]: 
+            - generic [ref=e432]: 새글
+        - listitem [ref=e433]:
+          - link "신입 가이드" [ref=e434] [cursor=pointer]:
+            - /url: https://www.leeseungju.com/notice/45
+            - generic [ref=e435]: 
+            - generic [ref=e436]: 신입 가이드
+        - listitem [ref=e437]:
+          - link "1:1 문의" [ref=e438] [cursor=pointer]:
+            - /url: https://www.leeseungju.com/kakaochatting
+            - generic [ref=e439]: 
+            - generic [ref=e440]: 1:1 문의
+      - list [ref=e442]:
+        - listitem [ref=e443]:
+          - generic [ref=e444]: 오늘 방문자
+          - generic [ref=e445]: 97 명
+        - listitem [ref=e446]:
+          - generic [ref=e447]: 어제 방문자
+          - generic [ref=e448]: 158 명
+  - generic:  

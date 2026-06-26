@@ -1,0 +1,283 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to main content" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - link "Cornell University" [ref=e7] [cursor=pointer]:
+        - /url: https://www.cornell.edu/
+        - img "Cornell University" [ref=e8]
+      - link "Learn about arXiv becoming an independent nonprofit." [ref=e10] [cursor=pointer]:
+        - /url: https://tech.cornell.edu/arxiv/
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - text: We gratefully acknowledge support from the Simons Foundation,
+          - link "member institutions" [ref=e13] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/ourmembers.html
+          - text: ", and all contributors."
+        - link "Donate" [ref=e14] [cursor=pointer]:
+          - /url: https://info.arxiv.org/about/donate.html
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - link "arxiv logo" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img "arxiv logo" [ref=e18]
+        - generic [ref=e19]: ">"
+        - link "cs" [ref=e20] [cursor=pointer]:
+          - /url: /list/cs/recent
+        - generic [ref=e21]: ">"
+        - text: arXiv:2204.09937
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - textbox "Search term or terms" [ref=e26]:
+            - /placeholder: Search...
+          - paragraph [ref=e27]:
+            - link "Help" [ref=e28] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+            - text: "|"
+            - link "Advanced Search" [ref=e29] [cursor=pointer]:
+              - /url: https://arxiv.org/search/advanced
+        - combobox "Field to search" [ref=e31]:
+          - option "All fields" [selected]
+          - option "Title"
+          - option "Author"
+          - option "Abstract"
+          - option "Comments"
+          - option "Journal reference"
+          - option "ACM classification"
+          - option "MSC classification"
+          - option "Report number"
+          - option "arXiv identifier"
+          - option "DOI"
+          - option "ORCID"
+          - option "arXiv author ID"
+          - option "Help pages"
+          - option "Full text"
+        - button "Search" [ref=e32] [cursor=pointer]
+  - main [ref=e33]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - heading "Computer Science > Cryptography and Security" [level=1] [ref=e38]
+        - generic [ref=e40]:
+          - generic [ref=e41]: "[Submitted on 21 Apr 2022]"
+          - 'heading "SPIKE: Secure and Private Investigation of the Kidney Exchange problem" [level=1] [ref=e42]'
+          - generic [ref=e43]:
+            - link "Timm Birka" [ref=e44] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Birka,+T
+            - text: ","
+            - link "Kay Hamacher" [ref=e45] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Hamacher,+K
+            - text: ","
+            - link "Tobias Kussel" [ref=e46] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Kussel,+T
+            - text: ","
+            - link "Helen Möllering" [ref=e47] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=M%C3%B6llering,+H
+            - text: ","
+            - link "Thomas Schneider" [ref=e48] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Schneider,+T
+          - blockquote [ref=e49]:
+            - text: "Background: The kidney exchange problem (KEP) addresses the matching of patients in need for a replacement organ with compatible living donors. Ideally many medical institutions should participate in a matching program to increase the chance for successful matches. However, to fulfill legal requirements current systems use complicated policy-based data protection mechanisms that effectively exclude smaller medical facilities to participate. Employing secure multi-party computation (MPC) techniques provides a technical way to satisfy data protection requirements for highly sensitive personal health information while simultaneously reducing the regulatory burdens."
+            - text: "Results: We have designed, implemented, and benchmarked SPIKE, a secure MPC-based privacy-preserving KEP which computes a solution by finding matching donor-recipient pairs in a graph structure. SPIKE matches 40 pairs in cycles of length 2 in less than 4 minutes and outperforms the previous state-of-the-art protocol by a factor of 400x in runtime while providing medically more robust solutions."
+            - text: "Conclusions: We show how to solve the KEP in a robust and privacy-preserving manner achieving practical performance. The usage of MPC techniques fulfills many data protection requirements on a technical level, allowing smaller health care providers to directly participate in a kidney exchange with reduced legal processes."
+          - table "Additional metadata" [ref=e51]:
+            - rowgroup [ref=e52]:
+              - 'row "Comments: 26 pages, 6 figures" [ref=e53]':
+                - cell "Comments:" [ref=e54]
+                - cell "26 pages, 6 figures" [ref=e55]
+              - 'row "Subjects: Cryptography and Security (cs.CR); Quantitative Methods (q-bio.QM)" [ref=e56]':
+                - cell "Subjects:" [ref=e57]
+                - cell "Cryptography and Security (cs.CR); Quantitative Methods (q-bio.QM)" [ref=e58]
+              - 'row "Cite as: arXiv:2204.09937 [cs.CR]" [ref=e59]':
+                - cell "Cite as:" [ref=e60]
+                - cell "arXiv:2204.09937 [cs.CR]" [ref=e61]:
+                  - generic [ref=e62]:
+                    - link "arXiv:2204.09937" [ref=e63] [cursor=pointer]:
+                      - /url: https://arxiv.org/abs/2204.09937
+                    - text: "[cs.CR]"
+              - row "(or arXiv:2204.09937v1 [cs.CR] for this version)" [ref=e64]:
+                - cell [ref=e65]
+                - cell "(or arXiv:2204.09937v1 [cs.CR] for this version)" [ref=e66]:
+                  - text: (or
+                  - generic [ref=e67]:
+                    - link "arXiv:2204.09937v1" [ref=e68] [cursor=pointer]:
+                      - /url: https://arxiv.org/abs/2204.09937v1
+                    - text: "[cs.CR]"
+                  - text: for this version)
+              - row "https://doi.org/10.48550/arXiv.2204.09937 Focus to learn more" [ref=e69]:
+                - cell [ref=e70]
+                - cell "https://doi.org/10.48550/arXiv.2204.09937 Focus to learn more" [ref=e71]:
+                  - link "https://doi.org/10.48550/arXiv.2204.09937" [ref=e72] [cursor=pointer]:
+                    - /url: https://doi.org/10.48550/arXiv.2204.09937
+                  - button "Focus to learn more" [ref=e74]:
+                    - generic [ref=e76]: Focus to learn more
+        - generic [ref=e77]:
+          - heading "Submission history" [level=2] [ref=e78]
+          - text: "From: Helen Möllering ["
+          - link "view email" [ref=e79] [cursor=pointer]:
+            - /url: /show-email/70e6da04/2204.09937
+          - text: "]"
+          - strong [ref=e80]: "[v1]"
+          - text: Thu, 21 Apr 2022 07:51:33 UTC (517 KB)
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - heading "Access Paper:" [level=2] [ref=e83]
+          - list [ref=e84]:
+            - listitem [ref=e85]:
+              - link "View PDF" [ref=e86] [cursor=pointer]:
+                - /url: /pdf/2204.09937
+            - listitem [ref=e87]:
+              - link "TeX Source" [ref=e88] [cursor=pointer]:
+                - /url: /src/2204.09937
+          - link "view license" [ref=e90] [cursor=pointer]:
+            - /url: http://creativecommons.org/licenses/by/4.0/
+            - generic [ref=e91]: view license
+        - generic [ref=e92]:
+          - heading "Current browse context:" [level=3] [ref=e93]
+          - generic [ref=e94]: cs.CR
+          - generic [ref=e95]:
+            - link "< prev" [ref=e97] [cursor=pointer]:
+              - /url: /prevnext?id=2204.09937&function=prev&context=cs.CR
+            - text: "|"
+            - link "next >" [ref=e99] [cursor=pointer]:
+              - /url: /prevnext?id=2204.09937&function=next&context=cs.CR
+          - generic [ref=e100]:
+            - link "new" [ref=e101] [cursor=pointer]:
+              - /url: /list/cs.CR/new
+            - text: "|"
+            - link "recent" [ref=e102] [cursor=pointer]:
+              - /url: /list/cs.CR/recent
+            - text: "|"
+            - link "2022-04" [ref=e103] [cursor=pointer]:
+              - /url: /list/cs.CR/2022-04
+          - generic [ref=e104]:
+            - text: "Change to browse by:"
+            - generic [ref=e105]:
+              - link "cs" [ref=e106] [cursor=pointer]:
+                - /url: /abs/2204.09937?context=cs
+              - link "q-bio" [ref=e107] [cursor=pointer]:
+                - /url: /abs/2204.09937?context=q-bio
+              - link "q-bio.QM" [ref=e108] [cursor=pointer]:
+                - /url: /abs/2204.09937?context=q-bio.QM
+        - generic [ref=e109]:
+          - heading "References & Citations" [level=3] [ref=e110]
+          - list [ref=e111]:
+            - listitem [ref=e112]:
+              - link "NASA ADS" [ref=e113] [cursor=pointer]:
+                - /url: https://ui.adsabs.harvard.edu/abs/arXiv:2204.09937
+            - listitem [ref=e114]:
+              - link "Google Scholar" [ref=e115] [cursor=pointer]:
+                - /url: https://scholar.google.com/scholar_lookup?arxiv_id=2204.09937
+            - listitem [ref=e116]:
+              - link "Semantic Scholar" [ref=e117] [cursor=pointer]:
+                - /url: https://api.semanticscholar.org/arXiv:2204.09937
+        - button "export BibTeX citation" [ref=e119]
+        - generic [ref=e120]:
+          - heading "Bookmark" [level=3] [ref=e122]
+          - link "BibSonomy" [ref=e123] [cursor=pointer]:
+            - /url: "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2204.09937&description=SPIKE: Secure and Private Investigation of the Kidney Exchange problem"
+            - img "BibSonomy" [ref=e124]
+          - link "Reddit" [ref=e125] [cursor=pointer]:
+            - /url: "https://reddit.com/submit?url=https://arxiv.org/abs/2204.09937&title=SPIKE: Secure and Private Investigation of the Kidney Exchange problem"
+            - img "Reddit" [ref=e126]
+      - tablist "arXivLabs tools" [ref=e128]:
+        - radio "Bibliographic Tools" [checked] [ref=e129]
+        - tab "Bibliographic Tools" [selected] [ref=e130] [cursor=pointer]
+        - tabpanel "Bibliographic Tools" [ref=e131]:
+          - heading "Bibliographic and Citation Tools" [level=1] [ref=e132]
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - generic [ref=e136]:
+                - checkbox "Bibliographic Explorer Toggle"
+                - generic [ref=e138]: Bibliographic Explorer Toggle
+              - generic [ref=e139]:
+                - text: Bibliographic Explorer
+                - emphasis [ref=e140]:
+                  - text: (
+                  - link "What is the Explorer?" [ref=e141] [cursor=pointer]:
+                    - /url: https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer
+                  - text: )
+            - generic [ref=e142]:
+              - generic [ref=e144]:
+                - checkbox "Connected Papers"
+                - generic [ref=e146]: Connected Papers Toggle
+              - generic [ref=e147]:
+                - text: Connected Papers
+                - emphasis [ref=e148]:
+                  - text: (
+                  - link "What is Connected Papers?" [ref=e149] [cursor=pointer]:
+                    - /url: https://www.connectedpapers.com/about
+                  - text: )
+            - generic [ref=e150]:
+              - generic [ref=e152]:
+                - checkbox "Litmaps"
+                - generic [ref=e154]: Litmaps Toggle
+              - generic [ref=e155]:
+                - text: Litmaps
+                - emphasis [ref=e156]:
+                  - text: (
+                  - link "What is Litmaps?" [ref=e157] [cursor=pointer]:
+                    - /url: https://www.litmaps.co/
+                  - text: )
+            - generic [ref=e158]:
+              - generic [ref=e160]:
+                - checkbox "scite Smart Citations"
+                - generic [ref=e162]: scite.ai Toggle
+              - generic [ref=e163]:
+                - text: scite Smart Citations
+                - emphasis [ref=e164]:
+                  - text: (
+                  - link "What are Smart Citations?" [ref=e165] [cursor=pointer]:
+                    - /url: https://www.scite.ai/
+                  - text: )
+        - radio "Code, Data, Media" [ref=e169]
+        - tab "Code, Data, Media" [ref=e170] [cursor=pointer]
+        - radio "Demos" [ref=e171]
+        - tab "Demos" [ref=e172] [cursor=pointer]
+        - radio "Related Papers" [ref=e173]
+        - tab "Related Papers" [ref=e174] [cursor=pointer]
+        - radio "About arXivLabs" [ref=e175]
+        - tab "About arXivLabs" [ref=e176] [cursor=pointer]
+      - generic [ref=e177]:
+        - link "Which authors of this paper are endorsers?" [ref=e178] [cursor=pointer]:
+          - /url: /auth/show-endorsers/2204.09937
+        - text: "|"
+        - link "Disable MathJax" [ref=e179] [cursor=pointer]:
+          - /url: javascript:setMathjaxCookie()
+        - text: (
+        - link "What is MathJax?" [ref=e180] [cursor=pointer]:
+          - /url: https://info.arxiv.org/help/mathjax.html
+        - text: )
+  - contentinfo [ref=e181]:
+    - navigation "Secondary" [ref=e182]:
+      - generic [ref=e184]:
+        - list [ref=e186]:
+          - listitem [ref=e187]:
+            - link "About" [ref=e188] [cursor=pointer]:
+              - /url: https://info.arxiv.org/about
+          - listitem [ref=e189]:
+            - link "Help" [ref=e190] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+        - list [ref=e192]:
+          - listitem [ref=e193]:
+            - link "Contact" [ref=e195] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/contact.html
+          - listitem [ref=e196]:
+            - link "Subscribe" [ref=e198] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/subscribe
+      - generic [ref=e200]:
+        - list [ref=e202]:
+          - listitem [ref=e203]:
+            - link "Copyright" [ref=e204] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/license/index.html
+          - listitem [ref=e205]:
+            - link "Privacy Policy" [ref=e206] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/policies/privacy_policy.html
+        - list [ref=e208]:
+          - listitem [ref=e209]:
+            - link "Web Accessibility Assistance" [ref=e210] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/web_accessibility.html
+          - listitem [ref=e211]:
+            - paragraph [ref=e212]:
+              - link "arXiv Operational Status" [ref=e213] [cursor=pointer]:
+                - /url: https://status.arxiv.org
+                - text: arXiv Operational Status

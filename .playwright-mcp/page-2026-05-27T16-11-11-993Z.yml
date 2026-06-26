@@ -1,0 +1,158 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "Skip to main content" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+      - generic [ref=e5]: Skip to main content
+    - generic [ref=e10]:
+      - link "The homepage The Verge" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e13]: The homepage
+        - img "The Verge" [ref=e14]
+      - generic [ref=e17]:
+        - link "Subscribe" [ref=e18] [cursor=pointer]:
+          - /url: /subscribe?itm_campaign=desktop-top-navigation-subscribe&itm_medium=site&itm_source=desktop-top-navigation
+        - link "Sign In" [ref=e19] [cursor=pointer]:
+          - /url: /auth/login?returnPath=%2Fsearch
+          - img [ref=e20]
+          - generic [ref=e22]: Sign In
+      - navigation "Top Navigation" [ref=e23]:
+        - list [ref=e24]:
+          - generic [ref=e25]:
+            - link "The Verge" [ref=e26] [cursor=pointer]:
+              - /url: /
+              - img "The Verge" [ref=e27]
+            - text: /
+          - listitem [ref=e29]:
+            - link "Tech" [ref=e30] [cursor=pointer]:
+              - /url: https://www.theverge.com/tech
+              - generic [ref=e31]: Tech
+            - text: /
+          - listitem [ref=e32]:
+            - link "Reviews" [ref=e33] [cursor=pointer]:
+              - /url: https://www.theverge.com/reviews
+              - generic [ref=e34]: Reviews
+            - text: /
+          - listitem [ref=e35]:
+            - link "Science" [ref=e36] [cursor=pointer]:
+              - /url: https://www.theverge.com/science
+              - generic [ref=e37]: Science
+            - text: /
+          - listitem [ref=e38]:
+            - link "Entertainment" [ref=e39] [cursor=pointer]:
+              - /url: https://www.theverge.com/entertainment
+              - generic [ref=e40]: Entertainment
+            - text: /
+          - listitem [ref=e41]:
+            - link "AI" [ref=e42] [cursor=pointer]:
+              - /url: https://www.theverge.com/ai-artificial-intelligence
+              - generic [ref=e43]: AI
+            - text: /
+          - listitem [ref=e44]:
+            - link "Policy" [ref=e45] [cursor=pointer]:
+              - /url: https://www.theverge.com/policy
+              - generic [ref=e46]: Policy
+            - text: /
+          - listitem [ref=e47]:
+            - button "Open Notifications" [ref=e50] [cursor=pointer]:
+              - img "Notifications" [ref=e52]
+          - listitem [ref=e54]:
+            - button "Hamburger Navigation Button" [ref=e55] [cursor=pointer]:
+              - img "Hamburger Navigation Button" [ref=e57]
+    - main [ref=e61]:
+      - form "Search Form" [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e65]: Search
+          - generic [ref=e66]:
+            - textbox "Search" [ref=e67]: rdlx-1
+            - button "Submit Search" [ref=e69] [cursor=pointer]:
+              - img [ref=e70]
+      - heading "No results found for rdlx-1" [level=2] [ref=e78]
+    - contentinfo [ref=e82]:
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - link "The Verge" [ref=e86] [cursor=pointer]:
+            - /url: /
+            - img "The Verge" [ref=e87]
+          - list [ref=e90]:
+            - listitem [ref=e91]:
+              - link "Facebook" [ref=e92] [cursor=pointer]:
+                - /url: https://www.facebook.com/verge
+                - img "Facebook" [ref=e93]
+            - listitem [ref=e95]:
+              - link "Threads" [ref=e96] [cursor=pointer]:
+                - /url: https://www.threads.net/@verge
+                - img "Threads" [ref=e97]
+            - listitem [ref=e99]:
+              - link "Instagram" [ref=e100] [cursor=pointer]:
+                - /url: https://www.instagram.com/verge
+                - img "Instagram" [ref=e101]
+            - listitem [ref=e103]:
+              - link "Youtube" [ref=e104] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/theverge
+                - img "Youtube" [ref=e105]
+            - listitem [ref=e107]:
+              - link "RSS" [ref=e108] [cursor=pointer]:
+                - /url: https://www.theverge.com/rss/index.xml
+                - img "RSS" [ref=e109]
+        - generic [ref=e111]:
+          - list [ref=e112]:
+            - listitem [ref=e113]:
+              - link "Contact" [ref=e114] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e115]:
+              - link "Tip Us" [ref=e116] [cursor=pointer]:
+                - /url: /c/tech/22579076/how-to-tip-the-verge-email-signal-and-more
+            - listitem [ref=e117]:
+              - link "Community Guidelines" [ref=e118] [cursor=pointer]:
+                - /url: /community-guidelines
+            - listitem [ref=e119]:
+              - link "Archives" [ref=e120] [cursor=pointer]:
+                - /url: /archives/full
+            - listitem [ref=e121]:
+              - link "About" [ref=e122] [cursor=pointer]:
+                - /url: /about-the-verge
+            - listitem [ref=e123]:
+              - link "Ethics Statement" [ref=e124] [cursor=pointer]:
+                - /url: /ethics-statement
+            - listitem [ref=e125]:
+              - link "How We Rate and Review Products" [ref=e126] [cursor=pointer]:
+                - /url: /pages/how-we-rate
+          - list [ref=e127]:
+            - listitem [ref=e128]:
+              - button "Manage Privacy Settings" [ref=e129] [cursor=pointer]
+            - listitem [ref=e130]:
+              - link "Terms of Use" [ref=e131] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/terms-of-use
+            - listitem [ref=e132]:
+              - link "Privacy Notice" [ref=e133] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/privacy-notice
+            - listitem [ref=e134]:
+              - link "Cookie Policy" [ref=e135] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/cookie-policy
+            - listitem [ref=e136]:
+              - link "Licensing FAQ" [ref=e137] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/pages/licensing
+            - listitem [ref=e138]:
+              - link "Accessibility" [ref=e139] [cursor=pointer]:
+                - /url: https://www.voxmedia.com/legal/accessibility
+            - listitem [ref=e140]:
+              - link "Platform Status" [ref=e141] [cursor=pointer]:
+                - /url: https://status.voxmedia.com
+        - paragraph [ref=e142]:
+          - text: © 2026
+          - link "Vox Media" [ref=e143] [cursor=pointer]:
+            - /url: https://www.voxmedia.com
+          - text: ", LLC. All Rights Reserved"
+  - alert [ref=e144]
+  - dialog "Privacy Notice" [ref=e146]:
+    - generic [ref=e148]:
+      - generic [ref=e150]:
+        - heading "Privacy Notice" [level=2] [ref=e151]
+        - generic [ref=e152]:
+          - text: We use cookies and personal data to enhance your experience and fund the production of content on our site. If you would like to customize the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts, you may click Manage Privacy Settings at any time. If you approve of our use of cookies and the collection of your data for the purposes described, you may click 'Accept.'
+          - link "More information about your privacy, opens in a new tab" [ref=e153] [cursor=pointer]:
+            - /url: https://www.voxmedia.com/legal/privacy-notice
+            - text: Privacy Policy
+      - generic [ref=e155]:
+        - button "Manage Privacy Settings, Opens the preference center dialog" [ref=e156] [cursor=pointer]: Manage Privacy Settings
+        - button "Accept" [ref=e157] [cursor=pointer]

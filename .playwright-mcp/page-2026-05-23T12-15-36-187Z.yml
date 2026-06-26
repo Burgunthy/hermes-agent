@@ -1,0 +1,731 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fleggedrobotics%2Frsl_rl
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=leggedrobotics%2Frsl_rl
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "leggedrobotics" [ref=e70] [cursor=pointer]:
+            - /url: /leggedrobotics
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "rsl_rl" [ref=e73] [cursor=pointer]:
+              - /url: /leggedrobotics/rsl_rl
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fleggedrobotics%2Frsl_rl
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 606" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fleggedrobotics%2Frsl_rl
+                - img [ref=e82]
+                - text: Fork
+                - generic "606" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fleggedrobotics%2Frsl_rl
+                - img [ref=e88]
+                - text: Star
+                - generic "2615 users starred this repository" [ref=e90]: 2.6k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /leggedrobotics/rsl_rl
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 5" [ref=e99] [cursor=pointer]:
+              - /url: /leggedrobotics/rsl_rl/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "5" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 5" [ref=e106] [cursor=pointer]:
+              - /url: /leggedrobotics/rsl_rl/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "5" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Actions" [ref=e112] [cursor=pointer]:
+              - /url: /leggedrobotics/rsl_rl/actions
+              - img [ref=e113]
+              - generic [ref=e115]: Actions
+          - listitem [ref=e116]:
+            - link "Security and quality" [ref=e117] [cursor=pointer]:
+              - /url: /leggedrobotics/rsl_rl/security
+              - img [ref=e118]
+              - generic [ref=e120]: Security and quality
+          - listitem [ref=e121]:
+            - link "Insights" [ref=e122] [cursor=pointer]:
+              - /url: /leggedrobotics/rsl_rl/pulse
+              - img [ref=e123]
+              - generic [ref=e125]: Insights
+    - generic [ref=e138]:
+      - heading "leggedrobotics/rsl_rl" [level=1] [ref=e140]
+      - generic [ref=e141]:
+        - generic [ref=e144]:
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - button "main branch" [ref=e148] [cursor=pointer]:
+                - generic [ref=e149]:
+                  - generic [ref=e151]:
+                    - img [ref=e153]
+                    - generic [ref=e156]: main
+                  - generic:
+                    - img
+              - generic [ref=e157]:
+                - link "1 Branch" [ref=e158] [cursor=pointer]:
+                  - /url: /leggedrobotics/rsl_rl/branches
+                  - generic [ref=e159]:
+                    - generic:
+                      - img
+                    - generic [ref=e161]:
+                      - strong [ref=e162]: "1"
+                      - text: Branch
+                - link "29 Tags" [ref=e163] [cursor=pointer]:
+                  - /url: /leggedrobotics/rsl_rl/tags
+                  - generic [ref=e164]:
+                    - generic:
+                      - img
+                    - generic [ref=e166]:
+                      - strong [ref=e167]: "29"
+                      - text: Tags
+            - generic [ref=e168]:
+              - generic [ref=e172]:
+                - img [ref=e174]
+                - combobox "Go to file" [ref=e176]
+              - button "Code" [ref=e177] [cursor=pointer]:
+                - generic [ref=e178]:
+                  - generic:
+                    - img
+                  - generic [ref=e179]: Code
+                  - generic:
+                    - img
+          - generic [ref=e180]:
+            - generic [ref=e181]:
+              - heading "Folders and files" [level=2] [ref=e182]
+              - table "Folders and files" [ref=e183]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e184]:
+                  - row "Latest commit ClemensSchwarke commits by ClemensSchwarke add numpy to mock imports for building the docs success Commit c82737d · May 19, 20264 days ago History 135 Commits" [ref=e185]:
+                    - cell "Latest commit ClemensSchwarke commits by ClemensSchwarke add numpy to mock imports for building the docs success Commit c82737d · May 19, 20264 days ago History 135 Commits" [ref=e186]:
+                      - generic [ref=e187]:
+                        - heading "Latest commit" [level=2] [ref=e188]
+                        - generic [ref=e189]:
+                          - generic [ref=e191]:
+                            - link "ClemensSchwarke" [ref=e192] [cursor=pointer]:
+                              - /url: /ClemensSchwarke
+                              - img "ClemensSchwarke" [ref=e193]
+                            - link "commits by ClemensSchwarke" [ref=e194] [cursor=pointer]:
+                              - /url: /leggedrobotics/rsl_rl/commits?author=ClemensSchwarke
+                              - text: ClemensSchwarke
+                          - generic [ref=e195]:
+                            - link "add numpy to mock imports for building the docs" [ref=e198] [cursor=pointer]:
+                              - /url: /leggedrobotics/rsl_rl/commit/c82737d7b0af6444509a2b7f845e3350b75549ba
+                            - button "success" [ref=e199] [cursor=pointer]:
+                              - img [ref=e200]
+                        - generic [ref=e202]:
+                          - generic [ref=e204]:
+                            - link "Commit c82737d" [ref=e205] [cursor=pointer]:
+                              - /url: /leggedrobotics/rsl_rl/commit/c82737d7b0af6444509a2b7f845e3350b75549ba
+                              - text: c82737d
+                            - text: ·
+                            - generic "May 19, 2026, 5:46 PM GMT+9" [ref=e206]: May 19, 20264 days ago
+                          - generic [ref=e207]:
+                            - heading "History" [level=2] [ref=e208]
+                            - link "135 Commits" [ref=e209] [cursor=pointer]:
+                              - /url: /leggedrobotics/rsl_rl/commits/main/
+                              - generic [ref=e210]:
+                                - generic:
+                                  - img
+                                - generic [ref=e211]: 135 Commits
+                  - row ".github, (Directory) Adds tests to the library (#184) Feb 28, 20263 months ago" [ref=e212]:
+                    - cell ".github, (Directory)" [ref=e213]:
+                      - generic [ref=e214]:
+                        - img [ref=e215]
+                        - link ".github, (Directory)" [ref=e220] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/tree/main/.github
+                          - text: .github
+                    - cell "Adds tests to the library (#184)" [ref=e221]:
+                      - generic [ref=e223]:
+                        - link "Adds tests to the library (" [ref=e224] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/1e851f490ce5d2e2f0d570c2c54f5c9c6634d92d
+                        - link "#184" [ref=e225] [cursor=pointer]:
+                          - /url: https://github.com/leggedrobotics/rsl_rl/pull/184
+                        - link ")" [ref=e226] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/1e851f490ce5d2e2f0d570c2c54f5c9c6634d92d
+                    - cell "Feb 28, 20263 months ago" [ref=e227]:
+                      - generic [ref=e228]: Feb 28, 20263 months ago
+                  - row "docs, (Directory) add numpy to mock imports for building the docs May 19, 20264 days ago" [ref=e229]:
+                    - cell "docs, (Directory)" [ref=e230]:
+                      - generic [ref=e231]:
+                        - img [ref=e232]
+                        - link "docs, (Directory)" [ref=e237] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/tree/main/docs
+                          - text: docs
+                    - cell "add numpy to mock imports for building the docs" [ref=e238]:
+                      - link "add numpy to mock imports for building the docs" [ref=e241] [cursor=pointer]:
+                        - /url: /leggedrobotics/rsl_rl/commit/c82737d7b0af6444509a2b7f845e3350b75549ba
+                    - cell "May 19, 20264 days ago" [ref=e242]:
+                      - generic [ref=e243]: May 19, 20264 days ago
+                  - row "licenses/dependencies, (Directory) Adds a small documentation (#183) Feb 28, 20263 months ago" [ref=e244]:
+                    - cell "licenses/dependencies, (Directory)" [ref=e245]:
+                      - generic [ref=e246]:
+                        - img [ref=e247]
+                        - link "licenses/dependencies, (Directory)" [ref=e252] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/tree/main/licenses/dependencies
+                          - text: licenses/dependencies
+                    - cell "Adds a small documentation (#183)" [ref=e253]:
+                      - generic [ref=e255]:
+                        - link "Adds a small documentation (" [ref=e256] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/4997c644d08577f094ed587df2461307622139d7
+                        - link "#183" [ref=e257] [cursor=pointer]:
+                          - /url: https://github.com/leggedrobotics/rsl_rl/pull/183
+                        - link ")" [ref=e258] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/4997c644d08577f094ed587df2461307622139d7
+                    - cell "Feb 28, 20263 months ago" [ref=e259]:
+                      - generic [ref=e260]: Feb 28, 20263 months ago
+                  - row "rsl_rl, (Directory) Adds a Beta distribution (#202) May 7, 20262 weeks ago" [ref=e261]:
+                    - cell "rsl_rl, (Directory)" [ref=e262]:
+                      - generic [ref=e263]:
+                        - img [ref=e264]
+                        - link "rsl_rl, (Directory)" [ref=e269] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/tree/main/rsl_rl
+                          - text: rsl_rl
+                    - cell "Adds a Beta distribution (#202)" [ref=e270]:
+                      - generic [ref=e272]:
+                        - link "Adds a Beta distribution (" [ref=e273] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/2f470df55de4860b3b5767ddafcbc1e960f98927
+                        - link "#202" [ref=e274] [cursor=pointer]:
+                          - /url: https://github.com/leggedrobotics/rsl_rl/pull/202
+                        - link ")" [ref=e275] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/2f470df55de4860b3b5767ddafcbc1e960f98927
+                    - cell "May 7, 20262 weeks ago" [ref=e276]:
+                      - generic [ref=e277]: May 7, 20262 weeks ago
+                  - row "tests, (Directory) Adds a Beta distribution (#202) May 7, 20262 weeks ago" [ref=e278]:
+                    - cell "tests, (Directory)" [ref=e279]:
+                      - generic [ref=e280]:
+                        - img [ref=e281]
+                        - link "tests, (Directory)" [ref=e286] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/tree/main/tests
+                          - text: tests
+                    - cell "Adds a Beta distribution (#202)" [ref=e287]:
+                      - generic [ref=e289]:
+                        - link "Adds a Beta distribution (" [ref=e290] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/2f470df55de4860b3b5767ddafcbc1e960f98927
+                        - link "#202" [ref=e291] [cursor=pointer]:
+                          - /url: https://github.com/leggedrobotics/rsl_rl/pull/202
+                        - link ")" [ref=e292] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/2f470df55de4860b3b5767ddafcbc1e960f98927
+                    - cell "May 7, 20262 weeks ago" [ref=e293]:
+                      - generic [ref=e294]: May 7, 20262 weeks ago
+                  - row ".gitignore, (File) Adds a small documentation (#183) Feb 28, 20263 months ago" [ref=e295]:
+                    - cell ".gitignore, (File)" [ref=e296]:
+                      - generic [ref=e297]:
+                        - img [ref=e298]
+                        - link ".gitignore, (File)" [ref=e303] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell "Adds a small documentation (#183)" [ref=e304]:
+                      - generic [ref=e306]:
+                        - link "Adds a small documentation (" [ref=e307] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/4997c644d08577f094ed587df2461307622139d7
+                        - link "#183" [ref=e308] [cursor=pointer]:
+                          - /url: https://github.com/leggedrobotics/rsl_rl/pull/183
+                        - link ")" [ref=e309] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/4997c644d08577f094ed587df2461307622139d7
+                    - cell "Feb 28, 20263 months ago" [ref=e310]:
+                      - generic [ref=e311]: Feb 28, 20263 months ago
+                  - row ".pre-commit-config.yaml, (File) Formatting fixes (#120) Oct 24, 20257 months ago" [ref=e312]:
+                    - cell ".pre-commit-config.yaml, (File)" [ref=e313]:
+                      - generic [ref=e314]:
+                        - img [ref=e315]
+                        - link ".pre-commit-config.yaml, (File)" [ref=e320] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/blob/main/.pre-commit-config.yaml
+                          - text: .pre-commit-config.yaml
+                    - cell "Formatting fixes (#120)" [ref=e321]:
+                      - generic [ref=e323]:
+                        - link "Formatting fixes (" [ref=e324] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/875b1dab385413d9889a7561fb60682dce46c1ab
+                        - link "#120" [ref=e325] [cursor=pointer]:
+                          - /url: https://github.com/leggedrobotics/rsl_rl/pull/120
+                        - link ")" [ref=e326] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/875b1dab385413d9889a7561fb60682dce46c1ab
+                    - cell "Oct 24, 20257 months ago" [ref=e327]:
+                      - generic [ref=e328]: Oct 24, 20257 months ago
+                  - row "CITATION.cff, (File) Bump version to 5.3.0 May 7, 20262 weeks ago" [ref=e329]:
+                    - cell "CITATION.cff, (File)" [ref=e330]:
+                      - generic [ref=e331]:
+                        - img [ref=e332]
+                        - link "CITATION.cff, (File)" [ref=e337] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/blob/main/CITATION.cff
+                          - text: CITATION.cff
+                    - cell "Bump version to 5.3.0" [ref=e338]:
+                      - link "Bump version to 5.3.0" [ref=e341] [cursor=pointer]:
+                        - /url: /leggedrobotics/rsl_rl/commit/f58fda2fb26b9281ecab7fac76e1c98f63e29e50
+                    - cell "May 7, 20262 weeks ago" [ref=e342]:
+                      - generic [ref=e343]: May 7, 20262 weeks ago
+                  - row "CONTRIBUTING.md, (File) Adds a small documentation (#183) Feb 28, 20263 months ago" [ref=e344]:
+                    - cell "CONTRIBUTING.md, (File)" [ref=e345]:
+                      - generic [ref=e346]:
+                        - img [ref=e347]
+                        - link "CONTRIBUTING.md, (File)" [ref=e352] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/blob/main/CONTRIBUTING.md
+                          - text: CONTRIBUTING.md
+                    - cell "Adds a small documentation (#183)" [ref=e353]:
+                      - generic [ref=e355]:
+                        - link "Adds a small documentation (" [ref=e356] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/4997c644d08577f094ed587df2461307622139d7
+                        - link "#183" [ref=e357] [cursor=pointer]:
+                          - /url: https://github.com/leggedrobotics/rsl_rl/pull/183
+                        - link ")" [ref=e358] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/4997c644d08577f094ed587df2461307622139d7
+                    - cell "Feb 28, 20263 months ago" [ref=e359]:
+                      - generic [ref=e360]: Feb 28, 20263 months ago
+                  - row "CONTRIBUTORS.md, (File) Add clip and constant std functionalities to Gaussian Distribution (#201 Apr 23, 2026last month" [ref=e361]:
+                    - cell "CONTRIBUTORS.md, (File)" [ref=e362]:
+                      - generic [ref=e363]:
+                        - img [ref=e364]
+                        - link "CONTRIBUTORS.md, (File)" [ref=e369] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/blob/main/CONTRIBUTORS.md
+                          - text: CONTRIBUTORS.md
+                    - cell "Add clip and constant std functionalities to Gaussian Distribution (#201" [ref=e370]:
+                      - generic [ref=e372]:
+                        - link "Add clip and constant std functionalities to Gaussian Distribution (" [ref=e373] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/806857765d4bdb20d682aba6b06e4b202f3ae4fa
+                        - link "#201" [ref=e374] [cursor=pointer]:
+                          - /url: https://github.com/leggedrobotics/rsl_rl/pull/201
+                    - cell "Apr 23, 2026last month" [ref=e375]:
+                      - generic [ref=e376]: Apr 23, 2026last month
+                  - row "LICENSE, (File) update license header Jan 12, 20264 months ago" [ref=e377]:
+                    - cell "LICENSE, (File)" [ref=e378]:
+                      - generic [ref=e379]:
+                        - img [ref=e380]
+                        - link "LICENSE, (File)" [ref=e385] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/blob/main/LICENSE
+                          - text: LICENSE
+                    - cell "update license header" [ref=e386]:
+                      - link "update license header" [ref=e389] [cursor=pointer]:
+                        - /url: /leggedrobotics/rsl_rl/commit/6de1389d4a737b881b4c6c500adff57e9053f755
+                    - cell "Jan 12, 20264 months ago" [ref=e390]:
+                      - generic [ref=e391]: Jan 12, 20264 months ago
+                  - row "README.md, (File) Adds a small documentation (#183) Feb 28, 20263 months ago" [ref=e392]:
+                    - cell "README.md, (File)" [ref=e393]:
+                      - generic [ref=e394]:
+                        - img [ref=e395]
+                        - link "README.md, (File)" [ref=e400] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/blob/main/README.md
+                          - text: README.md
+                    - cell "Adds a small documentation (#183)" [ref=e401]:
+                      - generic [ref=e403]:
+                        - link "Adds a small documentation (" [ref=e404] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/4997c644d08577f094ed587df2461307622139d7
+                        - link "#183" [ref=e405] [cursor=pointer]:
+                          - /url: https://github.com/leggedrobotics/rsl_rl/pull/183
+                        - link ")" [ref=e406] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/4997c644d08577f094ed587df2461307622139d7
+                    - cell "Feb 28, 20263 months ago" [ref=e407]:
+                      - generic [ref=e408]: Feb 28, 20263 months ago
+                  - row "pyproject.toml, (File) Bump version to 5.3.0 May 7, 20262 weeks ago" [ref=e409]:
+                    - cell "pyproject.toml, (File)" [ref=e410]:
+                      - generic [ref=e411]:
+                        - img [ref=e412]
+                        - link "pyproject.toml, (File)" [ref=e417] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/blob/main/pyproject.toml
+                          - text: pyproject.toml
+                    - cell "Bump version to 5.3.0" [ref=e418]:
+                      - link "Bump version to 5.3.0" [ref=e421] [cursor=pointer]:
+                        - /url: /leggedrobotics/rsl_rl/commit/f58fda2fb26b9281ecab7fac76e1c98f63e29e50
+                    - cell "May 7, 20262 weeks ago" [ref=e422]:
+                      - generic [ref=e423]: May 7, 20262 weeks ago
+                  - row "ruff.toml, (File) Adds a small documentation (#183) Feb 28, 20263 months ago" [ref=e424]:
+                    - cell "ruff.toml, (File)" [ref=e425]:
+                      - generic [ref=e426]:
+                        - img [ref=e427]
+                        - link "ruff.toml, (File)" [ref=e432] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/blob/main/ruff.toml
+                          - text: ruff.toml
+                    - cell "Adds a small documentation (#183)" [ref=e433]:
+                      - generic [ref=e435]:
+                        - link "Adds a small documentation (" [ref=e436] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/4997c644d08577f094ed587df2461307622139d7
+                        - link "#183" [ref=e437] [cursor=pointer]:
+                          - /url: https://github.com/leggedrobotics/rsl_rl/pull/183
+                        - link ")" [ref=e438] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/4997c644d08577f094ed587df2461307622139d7
+                    - cell "Feb 28, 20263 months ago" [ref=e439]:
+                      - generic [ref=e440]: Feb 28, 20263 months ago
+                  - row "setup.py, (File) Adds a small documentation (#183) Feb 28, 20263 months ago" [ref=e441]:
+                    - cell "setup.py, (File)" [ref=e442]:
+                      - generic [ref=e443]:
+                        - img [ref=e444]
+                        - link "setup.py, (File)" [ref=e449] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/blob/main/setup.py
+                          - text: setup.py
+                    - cell "Adds a small documentation (#183)" [ref=e450]:
+                      - generic [ref=e452]:
+                        - link "Adds a small documentation (" [ref=e453] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/4997c644d08577f094ed587df2461307622139d7
+                        - link "#183" [ref=e454] [cursor=pointer]:
+                          - /url: https://github.com/leggedrobotics/rsl_rl/pull/183
+                        - link ")" [ref=e455] [cursor=pointer]:
+                          - /url: /leggedrobotics/rsl_rl/commit/4997c644d08577f094ed587df2461307622139d7
+                    - cell "Feb 28, 20263 months ago" [ref=e456]:
+                      - generic [ref=e457]: Feb 28, 20263 months ago
+            - generic [ref=e459]:
+              - generic [ref=e460]:
+                - heading "Repository files navigation" [level=2] [ref=e461]
+                - navigation "Repository files" [ref=e462]:
+                  - list [ref=e463]:
+                    - listitem [ref=e464]:
+                      - link "README" [ref=e465] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e467]
+                        - generic [ref=e469]: README
+                    - listitem [ref=e470]:
+                      - link "Contributing" [ref=e471] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e473]
+                        - generic [ref=e475]: Contributing
+                    - listitem [ref=e476]:
+                      - link "License" [ref=e477] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e479]
+                        - generic [ref=e481]: License
+                - button "Outline" [ref=e482] [cursor=pointer]:
+                  - img [ref=e483]
+              - article [ref=e486]:
+                - generic [ref=e487]:
+                  - heading "RSL-RL" [level=1] [ref=e488]
+                  - 'link "Permalink: RSL-RL" [ref=e489] [cursor=pointer]':
+                    - /url: "#rsl-rl"
+                    - img [ref=e490]
+                - paragraph [ref=e492]:
+                  - strong [ref=e493]: RSL-RL
+                  - text: is a GPU-accelerated, lightweight learning library for robotics research. Its compact design allows researchers to prototype and test new ideas without the overhead of modifying large, complex libraries. RSL-RL can also be used out-of-the-box by installing it via
+                  - link "PyPI" [ref=e494] [cursor=pointer]:
+                    - /url: https://pypi.org/project/rsl-rl-lib/
+                  - text: ", supports multi-GPU training, and features common algorithms for robot learning."
+                - generic [ref=e495]:
+                  - heading "Key Features" [level=2] [ref=e496]
+                  - 'link "Permalink: Key Features" [ref=e497] [cursor=pointer]':
+                    - /url: "#key-features"
+                    - img [ref=e498]
+                - list [ref=e500]:
+                  - listitem [ref=e501]:
+                    - strong [ref=e502]: Minimal, readable codebase
+                    - text: with clear extension points for rapid prototyping.
+                  - listitem [ref=e503]:
+                    - strong [ref=e504]: Robotics-first methods
+                    - text: including PPO and Student-Teacher Distillation.
+                  - listitem [ref=e505]:
+                    - strong [ref=e506]: High-throughput training
+                    - text: with native Multi-GPU support.
+                  - listitem [ref=e507]:
+                    - strong [ref=e508]: Proven performance
+                    - text: in numerous research publications.
+                - generic [ref=e509]:
+                  - heading "Learning Environments" [level=2] [ref=e510]
+                  - 'link "Permalink: Learning Environments" [ref=e511] [cursor=pointer]':
+                    - /url: "#learning-environments"
+                    - img [ref=e512]
+                - paragraph [ref=e514]: "RSL-RL is currently used by the following robot learning libraries:"
+                - list [ref=e515]:
+                  - listitem [ref=e516]:
+                    - link "Isaac Lab" [ref=e517] [cursor=pointer]:
+                      - /url: https://github.com/isaac-sim/IsaacLab
+                    - text: (built on top of NVIDIA Isaac Sim)
+                  - listitem [ref=e518]:
+                    - link "Legged Gym" [ref=e519] [cursor=pointer]:
+                      - /url: https://github.com/leggedrobotics/legged_gym
+                    - text: (built on top of NVIDIA Isaac Gym)
+                  - listitem [ref=e520]:
+                    - link "mjlab" [ref=e521] [cursor=pointer]:
+                      - /url: https://github.com/mujocolab/mjlab
+                    - text: (built on top of MuJoCo Warp)
+                  - listitem [ref=e522]:
+                    - link "MuJoCo Playground" [ref=e523] [cursor=pointer]:
+                      - /url: https://github.com/google-deepmind/mujoco_playground
+                    - text: (built on top of MuJoCo MJX and Warp)
+                - generic [ref=e524]:
+                  - heading "Installation" [level=2] [ref=e525]
+                  - 'link "Permalink: Installation" [ref=e526] [cursor=pointer]':
+                    - /url: "#installation"
+                    - img [ref=e527]
+                - paragraph [ref=e529]:
+                  - text: Before installing RSL-RL, ensure that Python
+                  - code [ref=e530]: 3.9+
+                  - text: is available. It is recommended to install the library in a virtual environment (e.g. using
+                  - code [ref=e531]: venv
+                  - text: or
+                  - code [ref=e532]: conda
+                  - text: ), which is often already created by the used environment library (e.g. Isaac Lab). If so, make sure to activate it before installing RSL-RL.
+                - generic [ref=e533]:
+                  - heading "Installing RSL-RL as a dependency" [level=3] [ref=e534]
+                  - 'link "Permalink: Installing RSL-RL as a dependency" [ref=e535] [cursor=pointer]':
+                    - /url: "#installing-rsl-rl-as-a-dependency"
+                    - img [ref=e536]
+                - generic [ref=e538]:
+                  - generic [ref=e539]: pip install rsl-rl-lib
+                  - button "Copy code to clipboard" [ref=e541] [cursor=pointer]:
+                    - img [ref=e542]
+                - generic [ref=e545]:
+                  - heading "Installing RSL-RL for development" [level=3] [ref=e546]
+                  - 'link "Permalink: Installing RSL-RL for development" [ref=e547] [cursor=pointer]':
+                    - /url: "#installing-rsl-rl-for-development"
+                    - img [ref=e548]
+                - generic [ref=e550]:
+                  - generic [ref=e551]: git clone https://github.com/leggedrobotics/rsl_rl cd rsl_rl pip install -e .
+                  - button "Copy code to clipboard" [ref=e553] [cursor=pointer]:
+                    - img [ref=e554]
+                - generic [ref=e557]:
+                  - heading "Citation" [level=2] [ref=e558]
+                  - 'link "Permalink: Citation" [ref=e559] [cursor=pointer]':
+                    - /url: "#citation"
+                    - img [ref=e560]
+                - paragraph [ref=e562]:
+                  - text: If you use RSL-RL in your research, please cite the
+                  - link "paper" [ref=e563] [cursor=pointer]:
+                    - /url: https://arxiv.org/abs/2509.10771
+                  - text: ":"
+                - generic [ref=e564]:
+                  - code [ref=e566]: "@article{schwarke2025rslrl, title={RSL-RL: A Learning Library for Robotics Research}, author={Schwarke, Clemens and Mittal, Mayank and Rudin, Nikita and Hoeller, David and Hutter, Marco}, journal={arXiv preprint arXiv:2509.10771}, year={2025} }"
+                  - button "Copy code to clipboard" [ref=e568] [cursor=pointer]:
+                    - img [ref=e569]
+        - generic [ref=e575]:
+          - generic [ref=e578]:
+            - heading "About" [level=2] [ref=e579]
+            - paragraph [ref=e580]: A fast and simple implementation of learning algorithms for robotics.
+            - generic [ref=e581]:
+              - img [ref=e582]
+              - link "leggedrobotics.github.io/rsl_rl/" [ref=e585] [cursor=pointer]:
+                - /url: https://leggedrobotics.github.io/rsl_rl/
+            - heading "Resources" [level=3] [ref=e586]
+            - link "Readme" [ref=e588] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e589]
+              - text: Readme
+            - heading "License" [level=3] [ref=e591]
+            - link "View license" [ref=e593] [cursor=pointer]:
+              - /url: "#License-1-ov-file"
+              - img [ref=e594]
+              - text: View license
+            - heading "Contributing" [level=3] [ref=e596]
+            - link "Contributing" [ref=e598] [cursor=pointer]:
+              - /url: "#contributing-ov-file"
+              - img [ref=e599]
+              - text: Contributing
+            - heading "Citation" [level=3] [ref=e601]
+            - button "Cite this repository" [ref=e603] [cursor=pointer]:
+              - generic [ref=e605]:
+                - img [ref=e606]
+                - text: Cite this repository
+            - link "Activity" [ref=e610] [cursor=pointer]:
+              - /url: /leggedrobotics/rsl_rl/activity
+              - img [ref=e611]
+              - text: Activity
+            - link "Custom properties" [ref=e614] [cursor=pointer]:
+              - /url: /leggedrobotics/rsl_rl/custom-properties
+              - img [ref=e615]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e617]
+            - link "2.6k stars" [ref=e619] [cursor=pointer]:
+              - /url: /leggedrobotics/rsl_rl/stargazers
+              - img [ref=e620]
+              - strong [ref=e622]: 2.6k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e623]
+            - link "37 watching" [ref=e625] [cursor=pointer]:
+              - /url: /leggedrobotics/rsl_rl/watchers
+              - img [ref=e626]
+              - strong [ref=e628]: "37"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e629]
+            - link "606 forks" [ref=e631] [cursor=pointer]:
+              - /url: /leggedrobotics/rsl_rl/forks
+              - img [ref=e632]
+              - strong [ref=e634]: "606"
+              - text: forks
+            - link "Report repository" [ref=e636] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fleggedrobotics%2Frsl_rl&report=leggedrobotics+%28user%29
+          - generic [ref=e638]:
+            - heading "Releases 28" [level=2] [ref=e639]:
+              - link "Releases 28" [ref=e640] [cursor=pointer]:
+                - /url: /leggedrobotics/rsl_rl/releases
+                - text: Releases
+                - generic "28" [ref=e641]
+            - link "v5.3.0 Latest May 7, 20262 weeks ago" [ref=e642] [cursor=pointer]:
+              - /url: /leggedrobotics/rsl_rl/releases/tag/v5.3.0
+              - img [ref=e643]
+              - generic [ref=e645]:
+                - generic [ref=e646]:
+                  - generic [ref=e647]: v5.3.0
+                  - 'generic "Label: Latest" [ref=e648]': Latest
+                - generic [ref=e649]: May 7, 20262 weeks ago
+            - link "+ 27 releases" [ref=e651] [cursor=pointer]:
+              - /url: /leggedrobotics/rsl_rl/releases
+          - generic [ref=e653]:
+            - heading "Contributors 32" [level=2] [ref=e654]:
+              - link "Contributors 32" [ref=e655] [cursor=pointer]:
+                - /url: /leggedrobotics/rsl_rl/graphs/contributors
+                - text: Contributors
+                - generic "32" [ref=e656]
+            - list [ref=e657]:
+              - listitem [ref=e658]:
+                - link "@ClemensSchwarke" [ref=e659] [cursor=pointer]:
+                  - /url: https://github.com/ClemensSchwarke
+                  - img "@ClemensSchwarke" [ref=e660]
+              - listitem [ref=e661]:
+                - link "@Mayankm96" [ref=e662] [cursor=pointer]:
+                  - /url: https://github.com/Mayankm96
+                  - img "@Mayankm96" [ref=e663]
+              - listitem [ref=e664]:
+                - link "@kevinzakka" [ref=e665] [cursor=pointer]:
+                  - /url: https://github.com/kevinzakka
+                  - img "@kevinzakka" [ref=e666]
+              - listitem [ref=e667]:
+                - link "@nikitardn" [ref=e668] [cursor=pointer]:
+                  - /url: https://github.com/nikitardn
+                  - img "@nikitardn" [ref=e669]
+              - listitem [ref=e670]:
+                - link "@zeeshanalipanhwar" [ref=e671] [cursor=pointer]:
+                  - /url: https://github.com/zeeshanalipanhwar
+                  - img "@zeeshanalipanhwar" [ref=e672]
+              - listitem [ref=e673]:
+                - link "@bikcrum" [ref=e674] [cursor=pointer]:
+                  - /url: https://github.com/bikcrum
+                  - img "@bikcrum" [ref=e675]
+              - listitem [ref=e676]:
+                - link "@jashshah999" [ref=e677] [cursor=pointer]:
+                  - /url: https://github.com/jashshah999
+                  - img "@jashshah999" [ref=e678]
+              - listitem [ref=e679]:
+                - link "@pascal-roth" [ref=e680] [cursor=pointer]:
+                  - /url: https://github.com/pascal-roth
+                  - img "@pascal-roth" [ref=e681]
+              - listitem [ref=e682]:
+                - link "@larsrpe" [ref=e683] [cursor=pointer]:
+                  - /url: https://github.com/larsrpe
+                  - img "@larsrpe" [ref=e684]
+              - listitem [ref=e685]:
+                - link "@iakinola23" [ref=e686] [cursor=pointer]:
+                  - /url: https://github.com/iakinola23
+                  - img "@iakinola23" [ref=e687]
+              - listitem [ref=e688]:
+                - link "@PeterMitrano" [ref=e689] [cursor=pointer]:
+                  - /url: https://github.com/PeterMitrano
+                  - img "@PeterMitrano" [ref=e690]
+              - listitem [ref=e691]:
+                - link "@sheim" [ref=e692] [cursor=pointer]:
+                  - /url: https://github.com/sheim
+                  - img "@sheim" [ref=e693]
+              - listitem [ref=e694]:
+                - link "@kellyguo11" [ref=e695] [cursor=pointer]:
+                  - /url: https://github.com/kellyguo11
+                  - img "@kellyguo11" [ref=e696]
+              - listitem [ref=e697]:
+                - link "@Kukanani" [ref=e698] [cursor=pointer]:
+                  - /url: https://github.com/Kukanani
+                  - img "@Kukanani" [ref=e699]
+            - link "+ 18 contributors" [ref=e701] [cursor=pointer]:
+              - /url: /leggedrobotics/rsl_rl/graphs/contributors
+          - generic [ref=e703]:
+            - heading "Languages" [level=2] [ref=e704]
+            - list [ref=e708]:
+              - listitem [ref=e709]:
+                - link "Python 100.0%" [ref=e710] [cursor=pointer]:
+                  - /url: /leggedrobotics/rsl_rl/search?l=python
+                  - img [ref=e711]
+                  - generic [ref=e713]: Python
+                  - generic [ref=e714]: 100.0%
+  - contentinfo [ref=e716]:
+    - heading "Footer" [level=2] [ref=e717]
+    - generic [ref=e718]:
+      - generic [ref=e719]:
+        - link "GitHub Homepage" [ref=e720] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e721]
+        - generic [ref=e723]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e724]:
+        - heading "Footer navigation" [level=3] [ref=e725]
+        - list "Footer navigation" [ref=e726]:
+          - listitem [ref=e727]:
+            - link "Terms" [ref=e728] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e729]:
+            - link "Privacy" [ref=e730] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e731]:
+            - link "Security" [ref=e732] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e733]:
+            - link "Status" [ref=e734] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e735]:
+            - link "Community" [ref=e736] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e737]:
+            - link "Docs" [ref=e738] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e739]:
+            - link "Contact" [ref=e740] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e741]:
+            - button "Manage cookies" [ref=e743] [cursor=pointer]
+          - listitem [ref=e744]:
+            - button "Do not share my personal information" [ref=e746] [cursor=pointer]

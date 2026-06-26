@@ -1,0 +1,48 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - link "Skip to content" [ref=e9] [cursor=pointer]:
+        - /url: "#main"
+        - generic [ref=e10]:
+          - text: Skip to content
+          - img [ref=e11]
+      - generic [ref=e13]:
+        - banner [ref=e14]:
+          - generic [ref=e16]:
+            - button "🍇 해운-바이브코딩" [disabled] [ref=e18]:
+              - img "🍇" [ref=e22]
+              - generic [ref=e23]: 해운-바이브코딩
+            - generic [ref=e24]:
+              - button "Close panel" [ref=e26] [cursor=pointer]:
+                - img [ref=e27]
+              - generic [ref=e30]:
+                - button [ref=e31] [cursor=pointer]:
+                  - img [ref=e32]
+                - button "More actions" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Get Notion free" [ref=e38] [cursor=pointer]
+        - main [ref=e39]:
+          - group [disabled] [ref=e42]:
+            - generic [ref=e44]:
+              - generic [ref=e47]:
+                - generic [ref=e52]:
+                  - img "🍇 Page icon" [ref=e53]
+                  - img "🍇 Page icon" [ref=e54]
+                - heading "해운-바이브코딩" [level=1] [ref=e59]
+              - generic [ref=e61]:
+                - link "🏗️ [Web Project] quiz.sh" [disabled] [ref=e65] [cursor=pointer]:
+                  - /url: /Web-Project-quiz-sh-32c00d8ca04980bea871daf43297ced3?pvs=25
+                  - generic [ref=e68]:
+                    - img "🏗️" [ref=e73]
+                    - generic [ref=e75]: "[Web Project] quiz.sh"
+                - link "Claude와 Codex 같이 쓰기" [disabled] [ref=e79] [cursor=pointer]:
+                  - /url: /Claude-Codex-34900d8ca0498005bc87d8de6539a670?pvs=25
+                  - generic [ref=e82]:
+                    - img [ref=e85]:
+                      - img [ref=e86]
+                    - generic [ref=e90]: Claude와 Codex 같이 쓰기
+        - region [ref=e98]
+    - status [ref=e99]
+    - alert [ref=e100]
+  - iframe [ref=e101]:
+    

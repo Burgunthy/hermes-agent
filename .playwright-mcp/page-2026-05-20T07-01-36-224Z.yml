@@ -1,0 +1,562 @@
+- generic [active] [ref=e1]:
+  - link "컨텐츠로 건너뛰기" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "ECONOMY BLOC" [ref=e8] [cursor=pointer]:
+        - /url: https://economybloc.com/
+        - img "ECONOMY BLOC" [ref=e9]
+      - navigation "Menu" [ref=e12]:
+        - list [ref=e13]:
+          - listitem [ref=e14]:
+            - link "디지털자산" [ref=e15] [cursor=pointer]:
+              - /url: https://economybloc.com/article/category/digital-asset/
+          - listitem [ref=e16]:
+            - link "글로벌마켓" [ref=e17] [cursor=pointer]:
+              - /url: https://economybloc.com/article/category/global-market/
+          - listitem [ref=e18]:
+            - link "리서치" [ref=e19] [cursor=pointer]:
+              - /url: https://economybloc.com/article/category/research/
+          - listitem [ref=e20]:
+            - link "가이드" [ref=e21] [cursor=pointer]:
+              - /url: https://economybloc.com/article/category/guide/
+          - listitem [ref=e22]:
+            - link "마켓데이터" [ref=e23] [cursor=pointer]:
+              - /url: https://economybloc.com/article/category/market/
+      - generic [ref=e24]:
+        - search [ref=e26]:
+          - generic [ref=e28]:
+            - generic [ref=e29]: Search
+            - generic [ref=e30]:
+              - img [ref=e32]
+              - generic [ref=e34]: Search
+            - searchbox "Search" [ref=e35]
+        - button "다크모드 전환" [ref=e37] [cursor=pointer]
+  - generic [ref=e42]:
+    - main [ref=e43]:
+      - list [ref=e45]:
+        - listitem [ref=e46]:
+          - img [ref=e48]
+          - link "전문가의견·전망" [ref=e51] [cursor=pointer]:
+            - /url: https://economybloc.com/article/category/digital-asset/analyst-opinions/
+      - heading "전설의 코인 트레이더 ‘워뇨띠’ 근황과 성공비결·트레이딩 원칙 – 비트멕스 인터뷰" [level=1] [ref=e53]
+      - generic [ref=e54]:
+        - generic "이코노미블록 작성자" [ref=e55]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - img [ref=e59]
+              - time [ref=e62]: 2025.06.11
+            - listitem [ref=e63]:
+              - img [ref=e65]
+              - time [ref=e68]: 19:41
+            - listitem [ref=e69]:
+              - img [ref=e71]
+              - generic [ref=e73]: 이코노미블록
+        - generic [ref=e74]:
+          - img [ref=e78]
+          - img [ref=e83] [cursor=pointer]
+      - generic [ref=e85]:
+        - figure "비트멕스" [ref=e87]:
+          - img "비트멕스" [ref=e88]
+          - generic [ref=e89]: 비트멕스
+        - paragraph [ref=e90]:
+          - emphasis [ref=e91]:
+            - text: 600만원→4000억…천재 트레이더 워뇨띠
+            - text: “하락장보다 무서운 건 FOMO”
+            - text: “내 성공 비결은 시장에 대한 끊임없는 의심”
+          - emphasis [ref=e92]:
+            - text: “포지션과 사랑에 빠지지 마라”
+            - text: “원칙은 리스크 관리”
+        - paragraph [ref=e93]: 디지털자산 파생상품 거래소 비트멕스가 자사의 블로그를 통해 코인 시장의 정상급 트레이더들의 통찰력을 공유하는 ‘고래 트레이더 인터뷰’ 시리즈를 시작했다.
+        - generic:
+          - insertion:
+            - generic:
+              - iframe
+        - paragraph [ref=e94]: 비트멕스는 첫 번째 주자로 국내 코인 커뮤니티의 전설적인 트레이더로 유명한 ‘워뇨띠(AOA)’를 인터뷰하며, 11일 그의 근황을 알렸다.
+        - paragraph [ref=e95]: 워뇨띠는 600만원 가량의 소액으로 코인 투자를 시작해 2024년까지 약 3억달러(약 4080억원) 이상의 수익을 올린 것으로 알려졌으며, 비트멕스 선물 탑트레이더 순위를 통해 수익 내역을 입증한 것으로 잘 알려진 인물이다.
+        - paragraph [ref=e96]: 천재 트레이더’, ‘전설’로 불리는 그의 투자 여정과 전략, 그리고 디지털자산 시장을 대하는 마음가짐에 대한 인터뷰전문을 일문일답 형식으로 정리했다.
+        - heading "워뇨띠(AOA)와 비트벡스의 일문일답" [level=2] [ref=e97]
+        - paragraph [ref=e98]:
+          - strong [ref=e99]: Q. 자기소개를 부탁합니다.
+          - text: A. 안녕하세요, 디시인사이드와 트롤박스에서 활동하는 AOA입니다.
+        - paragraph [ref=e100]:
+          - strong [ref=e101]: Q. 실생활에서 알아보는 사람이 있나요, 아니면 대부분의 주변 사람들에게 익명으로 남아있나요?
+          - text: A. 실생활에서는 거의 말하지 않아서 아주 가까운 사람들만 알고 있습니다.
+        - paragraph [ref=e102]:
+          - strong [ref=e103]: Q. 가장 좋아하는 K팝 그룹이나 멤버는?
+          - text: A. 아이브의 장원영과 레이, 그리고 엔믹스의 설윤을 좋아합니다.
+        - paragraph [ref=e104]:
+          - strong [ref=e105]: Q. 최근 복귀 전까지 조용했는데, 지난 몇 년간 어떻게 지냈나요?
+          - text: A. 2021년까지는 온라인 활동 위주로 살았고, 그 이후로는 현실 세계의 삶을 즐기는 데 집중하고 있습니다.
+        - paragraph [ref=e106]:
+          - strong [ref=e107]: Q. 요즘 관심사는 무엇인가요?
+          - text: A. 연애나 자기계발처럼 인생을 즐기는 데 집중하고 있어요.
+        - paragraph [ref=e108]:
+          - strong [ref=e109]: Q. 어떻게 처음 디지털자산 트레이딩에 입문하게 됐고, 비트멕스에 끌린 이유는 무엇인가요?
+          - text: A. 2017년 12월, 주변 사람들이 모두 디지털자산에 뛰어들던 첫 상승장 때 입문했습니다. 2018년 3월 하락장이 시작되면서 수익을 낼 방법을 찾다가 당시 유일한 선물 거래소였던 비트멕스를 알게 됐습니다.
+        - paragraph [ref=e110]:
+          - strong [ref=e111]: Q. 600만원으로 시작해 지금의 위치에 오른 것은 정말 대단합니다. 이러한 성과를 달성하는 데 어떤 마음가짐이 도움이 됐나요?
+          - text: A. 핵심은 시장을 계속 의심하는 것이었습니다. 디지털자산은 이미 변동성이 크고, BTC와 ETH도 10분의 1, 20분의 1 토막이 날 수 있습니다. 의심 없이 맹목적으로 존버했다면 지금의 저는 없었을 겁니다. 저는 끊임없이 디지털자산 시장에 대해 의문을 가졌습니다. 첫 번째 원칙은 특정 포지션과 사랑에 빠지지 않는 것입니다. 절대 올인하지 않습니다. 항상 제 자본의 최대 30% 이상을 잃지 않도록 리스크를 관리합니다.
+        - paragraph [ref=e112]:
+          - strong [ref=e113]: Q. 성공적인 거래 후나 중요한 목표를 달성했을 때 어떻게 자축하나요?
+          - text: A. 수익을 내고 있을 때는 시장에 집중하느라 축하할 시간이 없습니다. 일단 트레이딩에 집중하고, 시장이 안정되면 제가 좋아하는 음식을 먹거나 소소한 파티를 엽니다.
+        - generic:
+          - insertion:
+            - generic:
+              - iframe
+        - paragraph [ref=e114]:
+          - strong [ref=e115]: Q. 가장 비싸게 산 것은 무엇인가요? 그리고 후회하는 소비가 있다면?
+          - text: A. 비트코인입니다. 서비스나 제품의 경우, 최고급 라인을 구매하면 결국 후회하게 되더군요. 고가 제품은 가성비가 현저히 떨어지기 때문에 피하려고 합니다.
+        - paragraph [ref=e116]:
+          - strong [ref=e117]: Q. 트레이딩 성공 후 가장 많이 변한 점은 무엇인가요?
+          - text: A. 금전적으로 숨통이 트인 것이 가장 컸습니다. 종종 큰돈을 번다고 해서 행복의 상한선이 올라가는 것은 아니라고 생각합니다. 오히려 행복의 하한선을 만들어주는 것이죠. 트레이딩을 하면서 더 이상 돈 걱정을 하지 않아도 된다는 점에 감사합니다. 물론 힘든 시기도 있었습니다. 한동안 월 10~20%의 수익률을 유지하다가 2018년 말 비트코인이 3,000달러대로 폭락하면서 어려워던 적도 있습니다. 그 시기를 견뎌내고 수익을 낼 수 있게 된 후에야 안도감을 느꼈습니다. 제가 하던 일을 계속할 수 있겠다는 자신감이 생겼죠.
+        - paragraph [ref=e118]:
+          - strong [ref=e119]: Q. 트레이딩에서 가장 큰 실수는 무엇이었고, 무엇을 배웠나요?
+          - text: A. 사실 저는 비트코인과 이더리움 외의 코인에서는 승률이 꽤 낮습니다. 이걸 알면서도 탐욕에 눈이 멀어 큰 손실을 봤던 때가 있었다는 점이 아쉽습니다. 같은 실수를 계속 반복하는 느낌이었어요.
+        - paragraph [ref=e120]:
+          - strong [ref=e121]: Q. 당신의 성공에 대해 친구나 가족은 어떻게 생각하나요? 그들이 당신이 하는 일을 이해하나요?
+          - text: A. 사람들이 저를 어떻게 생각하는지는 제 태도에 달려있다고 봅니다. 자랑하지 않으려고 무척 노력합니다. 자랑하거나 과시하는 것은 사람들에게 저를 얕볼 이유만 더 줄 뿐이라서, 말 한마디를 조심하거나 그런 행동을 피하려고 최선을 다합니다. 제가 지금의 자리에 오르기까지 쉽지 않았다고 직접 말하기보다, 꾸준한 행동과 결과로 존중을 얻고자 합니다. 물론 저도 사람인지라 때때로 과시하고 싶은 욕구가 생기는데, 그래서 온라인 커뮤니티를 이용하게 됐습니다.
+        - paragraph [ref=e122]:
+          - strong [ref=e123]: Q. 디지털자산 커뮤니티에서 자신에 대해 들어본 가장 황당한 소문은 무엇인가요?
+          - text: A. 셀 수 없이 많습니다. 우선, 저는 디시인사이드와 트롤박스 외에는 아무 곳에도 글을 올리지 않습니다. 그리고 저는 어떤 거래소와도 일하지 않습니다. 특히 순자산이나 삼성전자 주식 매입 같은 자극적인 제목의 글들과 함께 저와 아무 관련 없는 게시물들이 사실처럼 퍼져나갔습니다. 이를 통해 디지털자산 분야의 많은 기사가 항상 사실에 기반하지는 않는다는 걸 깨달았습니다.
+        - paragraph [ref=e124]:
+          - strong [ref=e125]: Q. 일반적인 거래 과정에 대해 설명해줄 수 있나요?
+          - text: A. 저레버리지 차트 기반 매매로 시작합니다. 하지만 2021년부터는 디지털자산 시장이 전통 시장으로 편입되면서 주식 시장과의 상관관계가 높아져 제 분석의 정확도에 영향을 미쳤습니다. 그래서 국제 뉴스도 함께 참고하려고 합니다.
+        - paragraph [ref=e126]:
+          - strong [ref=e127]: Q. 기술적 분석에 크게 의존한다고(9:1 비율) 언급했는데, 이를 우선시하는 이유는 무엇인가요?
+          - text: A. 뉴스보다 기술적 지표를 선호하는 이유는, 호재, 악재와 같은 중요한 정보를 개인 투자자가 먼저 접하기 어렵다는 생각 때문입니다. 더욱이 시장이 흔들릴 때는 중립적이거나 긍정적인 뉴스가 하락 추세를 막지 못합니다. 마찬가지로, 시장에 충분한 매수 압력이 있을 때는 악재가 종종 무시됩니다. 그래서 저는 기술적 분석에 집중합니다.
+        - paragraph [ref=e128]:
+          - strong [ref=e129]: Q. 큰 포트폴리오를 관리하데 있어 압박감은 어떻게 다루나요?
+          - text: A. 제 포트폴리오를 실제 화폐 가치로 생각하지 않습니다. 운용 자산(AUM) 대비 비율로 생각하려고 합니다. 포트폴리오가 1억 달러 이상일 때 1,000만 달러 포지션을 가졌을 때보다, 3만 달러 포트폴리오에서 1만 달러 포지션을 가졌을 때 더 불안감을 느낄 겁니다.
+        - insertion [ref=e131]
+        - paragraph [ref=e133]:
+          - strong [ref=e134]: Q. 가장 좋아하는 거래소는 어디인가요?
+          - text: A. 솔직히, 비트멕스는 제 트레이딩 스타일에 잘 맞아서 가장 좋아하는 거래소입니다.
+        - paragraph [ref=e135]:
+          - strong [ref=e136]: Q. 고레버리지와 저레버리지 사용은 언제 결정하나요?
+          - text: A. 전체 포트폴리오 관점에서 볼 때, 저는 최대 1.5배에서 2배의 레버리지를 사용합니다.
+        - paragraph [ref=e137]:
+          - text: Q. 과거 비트멕스가 겪었던 규제 문제들을 고려할 때, 여전히 트레이더들에게 안전한 플랫폼이라고 생각하나요?
+          - text: A. 거래소에 문제가 생기면 개인 투자자가 내부 사정을 알기 어렵습니다. FTX의 경우도 마찬가지였습니다. 거래소를 맹목적으로 신뢰하기보다는 항상 잠재적인 문제 발생 가능성을 염두에 둡니다. 그래서 자산을 최대한 분산시키고 한 바구니에 모든 달걀(자산)을 담지 않으려고 합니다.
+        - paragraph [ref=e138]:
+          - strong [ref=e139]: Q. 2025년 비트코인과 전반적인 디지털자산 시장에 대한 전망은 어떤가요?
+          - text: A. 저는 주로 단기적인 시간 프레임을 분석하기 때문에 자신 있게 답하기 어렵습니다. 잘 모르겠습니다.
+        - paragraph [ref=e140]:
+          - strong [ref=e141]: Q. 기관의 참여가 디지털자산 트레이딩의 역학을 근본적으로 바꾸었다고 생각하나요?
+          - text: A. 물론입니다. 디지털자산 시장이 전통 시장의 이슈를 더 많이 따라가는 것 같습니다. 과거 고립된 시장처럼 느껴졌다면, 요즘은 미국 주식 시장처럼 느껴집니다.
+        - paragraph [ref=e142]:
+          - strong [ref=e143]: Q. 이번에 추천할 만한 알트코인이 있나요?
+          - text: A. 원화(KRW)요.
+        - paragraph [ref=e144]:
+          - strong [ref=e145]: Q. 글로벌 거시 경제 이벤트를 주시하나요? 어떤 것들을 보나요?
+          - text: A. 주로 금리 결정 같은 미국 뉴스를 봅니다.
+        - paragraph [ref=e146]:
+          - strong [ref=e147]: Q. 많은 트레이더들이 당신을 존경합니다. 오늘날 디지털자산 트레이딩에 입문하는 초보자들에게 어떤 조언을 해주고 싶나요?
+          - text: A. 트레이딩은 10명 중 2명이 벌면 8명은 잃는 게임입니다. 이 점을 명심하세요. 트레이딩은 대부분의 사람에게 맞지 않습니다. 그러니 잃어도 감당할 수 없는 금액은 투자하지 마세요.
+        - paragraph [ref=e148]:
+          - strong [ref=e149]: Q. 트레이딩 성공은 기술과 운 중 무엇이 더 중요하다고 생각하나요?
+          - text: A. 트레이딩은 운도 분명히 작용 하지만, 기술과 훨씬 더 관련있습니다. 자신만의 트레이딩 시스템이 없는 사람도 운 좋게 돈을 벌 수 있지만, 더 쉽게 돈을 잃을 수 있습니다. 비트멕스 트롤박스에서 그런 경우를 수없이 봤습니다. 여러분이 습득해야 할 기술은 진입 시점을 맞추는 것이 아니라 리스크 관리입니다.
+        - paragraph [ref=e150]:
+          - strong [ref=e151]: Q. 자신만의 트레이딩 원칙이 있나요?
+          - text: A. 원칙은 중요합니다. 올바른 진입 타이밍을 잡기 위해서는 시장 상황에 따라 다양한 접근 방식이 필요하지만, 변하지 않는건 리스크 관리 입니다.
+        - paragraph [ref=e152]:
+          - strong [ref=e153]: Q. 좌우명이나 모토가 있나요?
+          - text: A. 특별히는 없습니다. 하지만 트레이딩을 할 때 항상 포모(FOMO, 놓칠까봐 두려움)에 휘둘리지 않으려고 노력합니다. 저는 공포보다 포모가 더 무섭습니다.
+        - paragraph [ref=e154]:
+          - strong [ref=e155]: Q. 이미 경제적 성공을 거두었음에도 계속 트레이딩을 하는 동기는 무엇인가요?
+          - text: A. 저에게(트레이딩은) 마치 랭킹을 하나씩 올리는 과정처럼 느껴집니다. 자아실현에도 도움이 됩니다.
+        - paragraph [ref=e156]:
+          - strong [ref=e157]: Q. 만약 트레이딩이 아니였다면, 어떤 다른 직업에 흥미를 가졌을 것 같나요?
+          - text: A. 상상하기 어렵네요.
+        - paragraph [ref=e158]:
+          - strong [ref=e159]: Q. 트레이딩을 넘어선 장기적인 목표나 비전이 있나요?
+          - text: A. 행복한 가정을 꾸리는 것이 제 장기적인 목표입니다.
+        - paragraph [ref=e160]:
+          - strong [ref=e161]: Q. 사람들에게 어떻게 기억되고 싶나요?
+          - text: A. 유혹을 물리칠 수 있었던 현명했던 사람으로 기억되고 싶습니다.
+        - paragraph [ref=e162]:
+          - strong [ref=e163]: Q. 요거트 뚜껑을 핥아먹는 편인가요?
+          - text: A. 네.
+        - list [ref=e164]:
+          - listitem [ref=e165]:
+            - link "비트멕스 블로그 인터뷰 원문" [ref=e166] [cursor=pointer]:
+              - /url: https://blog.bitmex.com/whale-trader-talks-aoa/
+      - generic [ref=e167]:
+        - img [ref=e171]
+        - group "공유" [ref=e174]:
+          - button "X 공유" [ref=e175] [cursor=pointer]:
+            - img "X" [ref=e176]
+          - button "텔레그램 공유" [ref=e177] [cursor=pointer]:
+            - img "Telegram" [ref=e178]
+          - button "네이버 블로그 공유" [ref=e179] [cursor=pointer]:
+            - img "네이버블로그" [ref=e180]
+          - button "카카오톡 공유" [ref=e181] [cursor=pointer]:
+            - img "카카오톡" [ref=e182]
+        - img [ref=e186] [cursor=pointer]
+      - paragraph [ref=e189]: ✉ eb@economybloc.com
+      - paragraph [ref=e194]: 본 내용은 참고용으로 특정 종목에 대한 투자 권유가 아닙니다.
+      - link "#워뇨띠" [ref=e201] [cursor=pointer]:
+        - /url: https://economybloc.com/article/tag/%ec%9b%8c%eb%87%a8%eb%9d%a0/
+      - insertion [ref=e209]
+      - generic [ref=e215]:
+        - heading "관련뉴스" [level=2] [ref=e217]
+        - generic [ref=e218]:
+          - list [ref=e219]:
+            - generic [ref=e220]:
+              - group "1 / 3" [ref=e221]:
+                - generic [ref=e222]:
+                  - link "워뇨띠" [ref=e224] [cursor=pointer]:
+                    - /url: https://economybloc.com/article/106171/
+                    - img "워뇨띠" [ref=e225]
+                  - heading "워뇨띠 “300억원 미실현손실”" [level=2] [ref=e227]:
+                    - link "워뇨띠 “300억원 미실현손실”" [ref=e228] [cursor=pointer]:
+                      - /url: https://economybloc.com/article/106171/
+              - group "2 / 3" [ref=e233]:
+                - generic [ref=e234]:
+                  - link "워뇨띠" [ref=e236] [cursor=pointer]:
+                    - /url: https://economybloc.com/article/100280/
+                    - img "워뇨띠" [ref=e237]
+                  - heading "비트멕스, 17일 국내 유명 고래 트레이더 ‘워뇨띠’와 실시간 AMA 개최" [level=2] [ref=e239]:
+                    - link "비트멕스, 17일 국내 유명 고래 트레이더 ‘워뇨띠’와 실시간 AMA 개최" [ref=e240] [cursor=pointer]:
+                      - /url: https://economybloc.com/article/100280/
+              - group "3 / 3" [ref=e245]:
+                - generic [ref=e246]:
+                  - link "고래" [ref=e248] [cursor=pointer]:
+                    - /url: https://economybloc.com/article/96139/
+                    - img "고래" [ref=e249]
+                  - heading "코인 트레이더 워뇨띠 “비트코인 공매도 중…$11만 오면 천천히 매수”" [level=2] [ref=e251]:
+                    - link "코인 트레이더 워뇨띠 “비트코인 공매도 중…$11만 오면 천천히 매수”" [ref=e252] [cursor=pointer]:
+                      - /url: https://economybloc.com/article/96139/
+          - button "이전 슬라이드" [disabled] [ref=e257] [cursor=pointer]:
+            - img [ref=e258]
+          - button "다음 슬라이드" [disabled] [ref=e260] [cursor=pointer]:
+            - img [ref=e261]
+      - generic [ref=e266]:
+        - generic [ref=e267]:
+          - heading "최신뉴스>" [level=2] [ref=e269]:
+            - link "최신뉴스>" [ref=e270] [cursor=pointer]:
+              - /url: https://economybloc.com/article/category/digital-asset/
+          - heading ">>>" [level=3] [ref=e272]:
+            - link ">>>" [ref=e273] [cursor=pointer]:
+              - /url: https://economybloc.com/article/category/digital-asset/
+        - generic [ref=e274]:
+          - list [ref=e275]:
+            - generic [ref=e276]:
+              - group "1 / 10" [ref=e277]:
+                - generic [ref=e278]:
+                  - link "비트코인 현물 ETF" [ref=e280] [cursor=pointer]:
+                    - /url: https://economybloc.com/article/111898/
+                    - img "비트코인 현물 ETF" [ref=e281]
+                  - heading "미국 비트코인 현물 ETF, 4965억원 순유출" [level=2] [ref=e283]:
+                    - link "미국 비트코인 현물 ETF, 4965억원 순유출" [ref=e284] [cursor=pointer]:
+                      - /url: https://economybloc.com/article/111898/
+              - group "2 / 10" [ref=e289]:
+                - generic [ref=e290]:
+                  - link "이더리움 ETF" [ref=e292] [cursor=pointer]:
+                    - /url: https://economybloc.com/article/111899/
+                    - img "이더리움 ETF" [ref=e293]
+                  - heading "미국 이더리움 현물 ETF, 934억원 순유출" [level=2] [ref=e295]:
+                    - link "미국 이더리움 현물 ETF, 934억원 순유출" [ref=e296] [cursor=pointer]:
+                      - /url: https://economybloc.com/article/111899/
+              - group "3 / 10" [ref=e301]:
+                - generic [ref=e302]:
+                  - link "트루스소셜 / 트럼프미디어" [ref=e304] [cursor=pointer]:
+                    - /url: https://economybloc.com/article/111896/
+                    - img "트루스소셜 / 트럼프미디어" [ref=e305]
+                  - heading "‘트루스소셜’ 비트코인 ETF 신청 철회…“현물 ETF 경쟁 과열 영향”" [level=2] [ref=e307]:
+                    - link "‘트루스소셜’ 비트코인 ETF 신청 철회…“현물 ETF 경쟁 과열 영향”" [ref=e308] [cursor=pointer]:
+                      - /url: https://economybloc.com/article/111896/
+              - group "4 / 10" [ref=e313]:
+                - generic [ref=e314]:
+                  - link "트럼프" [ref=e316] [cursor=pointer]:
+                    - /url: https://economybloc.com/article/111895/
+                    - img "트럼프" [ref=e317]
+                  - heading "트럼프, 연준에 가상자산 업계 은행 결제계좌 접근 검토 지시" [level=2] [ref=e319]:
+                    - link "트럼프, 연준에 가상자산 업계 은행 결제계좌 접근 검토 지시" [ref=e320] [cursor=pointer]:
+                      - /url: https://economybloc.com/article/111895/
+              - group "5 / 10" [ref=e325]:
+                - generic [ref=e326]:
+                  - link "엘리자베스 워런" [ref=e328] [cursor=pointer]:
+                    - /url: https://economybloc.com/article/111892/
+                    - img "엘리자베스 워런" [ref=e329]
+                  - heading "美상원의원, 금융당국에 리플·써클·코인베이스 등 신탁은행 승인 비판" [level=2] [ref=e331]:
+                    - link "美상원의원, 금융당국에 리플·써클·코인베이스 등 신탁은행 승인 비판" [ref=e332] [cursor=pointer]:
+                      - /url: https://economybloc.com/article/111892/
+              - group "6 / 10" [ref=e337]:
+                - generic [ref=e338]:
+                  - link "로빈후드" [ref=e340] [cursor=pointer]:
+                    - /url: https://economybloc.com/article/111891/
+                    - img "로빈후드" [ref=e341]
+                  - heading "로빈후드, 알고랜드(ALGO)·베니스토큰(VVV) 코인 상장" [level=2] [ref=e343]:
+                    - link "로빈후드, 알고랜드(ALGO)·베니스토큰(VVV) 코인 상장" [ref=e344] [cursor=pointer]:
+                      - /url: https://economybloc.com/article/111891/
+              - group "7 / 10" [ref=e349]:
+                - generic [ref=e350]:
+                  - link "코인베이스" [ref=e352] [cursor=pointer]:
+                    - /url: https://economybloc.com/article/111889/
+                    - img "코인베이스" [ref=e353]
+                  - heading "코인베이스, 메타다오(META)·디라이브(DRV) 상장 로드맵 추가" [level=2] [ref=e355]:
+                    - link "코인베이스, 메타다오(META)·디라이브(DRV) 상장 로드맵 추가" [ref=e356] [cursor=pointer]:
+                      - /url: https://economybloc.com/article/111889/
+              - group "8 / 10" [ref=e361]:
+                - generic [ref=e362]:
+                  - link "모나드(Monad)" [ref=e364] [cursor=pointer]:
+                    - /url: https://economybloc.com/article/111884/
+                    - img "모나드(Monad)" [ref=e365]
+                  - heading "모나드 “네트워크 정상 운영”…에코 프로토콜 eBTC 유출 조사 진행" [level=2] [ref=e367]:
+                    - link "모나드 “네트워크 정상 운영”…에코 프로토콜 eBTC 유출 조사 진행" [ref=e368] [cursor=pointer]:
+                      - /url: https://economybloc.com/article/111884/
+              - group "9 / 10" [ref=e373]:
+                - generic [ref=e374]:
+                  - link "이더리움" [ref=e376] [cursor=pointer]:
+                    - /url: https://economybloc.com/article/111883/
+                    - img "이더리움" [ref=e377]
+                  - heading "이더리움 스테이킹 비중 31%…ETH 부진 속 유통 물량 감소" [level=2] [ref=e379]:
+                    - link "이더리움 스테이킹 비중 31%…ETH 부진 속 유통 물량 감소" [ref=e380] [cursor=pointer]:
+                      - /url: https://economybloc.com/article/111883/
+              - group "10 / 10" [ref=e385]:
+                - generic [ref=e386]:
+                  - link "비트코인 반감기" [ref=e388] [cursor=pointer]:
+                    - /url: https://economybloc.com/article/111882/
+                    - img "비트코인 반감기" [ref=e389]
+                  - heading "비트코인, 다음 반감기까지 10만 블록 아래로…2028년 4월 전망" [level=2] [ref=e391]:
+                    - link "비트코인, 다음 반감기까지 10만 블록 아래로…2028년 4월 전망" [ref=e392] [cursor=pointer]:
+                      - /url: https://economybloc.com/article/111882/
+          - button "이전 슬라이드" [disabled] [ref=e397] [cursor=pointer]:
+            - img [ref=e398]
+          - button "다음 슬라이드" [ref=e400] [cursor=pointer]:
+            - img [ref=e401]
+          - generic [ref=e403]:
+            - button "슬라이드로 이동 1" [ref=e404] [cursor=pointer]
+            - button "슬라이드로 이동 2" [ref=e405] [cursor=pointer]
+            - button "슬라이드로 이동 3" [ref=e406] [cursor=pointer]
+            - button "슬라이드로 이동 4" [ref=e407] [cursor=pointer]
+            - button "슬라이드로 이동 5" [ref=e408] [cursor=pointer]
+            - button "슬라이드로 이동 6" [ref=e409] [cursor=pointer]
+            - button "슬라이드로 이동 7" [ref=e410] [cursor=pointer]
+      - insertion [ref=e412]
+    - generic [ref=e414]:
+      - generic [ref=e419]:
+        - heading "다가오는 일정>" [level=2] [ref=e421]:
+          - link "다가오는 일정>" [ref=e422] [cursor=pointer]:
+            - /url: https://economybloc.com/article/category/digital-asset/calendar/
+        - generic [ref=e425]:
+          - article [ref=e426]:
+            - heading "美SEC, 토큰화 주식 허용 추진…외신 “빠르면 이번주 공개 전망”" [level=2] [ref=e432]:
+              - link "美SEC, 토큰화 주식 허용 추진…외신 “빠르면 이번주 공개 전망”" [ref=e433] [cursor=pointer]:
+                - /url: https://economybloc.com/article/111852/
+          - article [ref=e434]:
+            - heading "주간 코인 언락 일정, PYTH·ZRO·KAITO" [level=2] [ref=e440]:
+              - link "주간 코인 언락 일정, PYTH·ZRO·KAITO" [ref=e441] [cursor=pointer]:
+                - /url: https://economybloc.com/article/111842/
+          - article [ref=e442]:
+            - heading "주간 경제 주요일정, FOMC의사록·엔비디아 실적 발표" [level=2] [ref=e448]:
+              - link "주간 경제 주요일정, FOMC의사록·엔비디아 실적 발표" [ref=e449] [cursor=pointer]:
+                - /url: https://economybloc.com/article/111829/
+        - article [ref=e453]:
+          - heading "5월 코인 · 경제 주요일정" [level=2] [ref=e459]:
+            - link "5월 코인 · 경제 주요일정" [ref=e460] [cursor=pointer]:
+              - /url: https://economybloc.com/article/111426/
+      - generic [ref=e465]:
+        - heading "인기뉴스" [level=2] [ref=e467]
+        - generic [ref=e470]:
+          - article [ref=e471]:
+            - generic [ref=e476]:
+              - heading "비트코인, 다음 반감기까지 10만 블록 아래로…2028년 4월 전망" [level=2] [ref=e478]:
+                - link "비트코인, 다음 반감기까지 10만 블록 아래로…2028년 4월 전망" [ref=e479] [cursor=pointer]:
+                  - /url: https://economybloc.com/article/111882/
+              - generic [ref=e481]: 1일 전
+          - article [ref=e482]:
+            - generic [ref=e487]:
+              - heading "美상원의원, 금융당국에 리플·써클·코인베이스 등 신탁은행 승인 비판" [level=2] [ref=e489]:
+                - link "美상원의원, 금융당국에 리플·써클·코인베이스 등 신탁은행 승인 비판" [ref=e490] [cursor=pointer]:
+                  - /url: https://economybloc.com/article/111892/
+              - generic [ref=e492]: 8시간 전
+          - article [ref=e493]:
+            - generic [ref=e498]:
+              - heading "에코 프로토콜 “모나드 브리지 해킹 조사 중”…eBTC 1000개 무단 발행" [level=2] [ref=e500]:
+                - link "에코 프로토콜 “모나드 브리지 해킹 조사 중”…eBTC 1000개 무단 발행" [ref=e501] [cursor=pointer]:
+                  - /url: https://economybloc.com/article/111871/
+              - generic [ref=e503]: 1일 전
+          - article [ref=e504]:
+            - generic [ref=e509]:
+              - heading "로빈후드, 알고랜드(ALGO)·베니스토큰(VVV) 코인 상장" [level=2] [ref=e511]:
+                - link "로빈후드, 알고랜드(ALGO)·베니스토큰(VVV) 코인 상장" [ref=e512] [cursor=pointer]:
+                  - /url: https://economybloc.com/article/111891/
+              - generic [ref=e514]: 8시간 전
+          - article [ref=e515]:
+            - heading "빗썸, 폴라리스 쉐어(POLA) 코인 거래유의종목 지정" [level=2] [ref=e522]:
+              - link "빗썸, 폴라리스 쉐어(POLA) 코인 거래유의종목 지정" [ref=e523] [cursor=pointer]:
+                - /url: https://economybloc.com/article/111866/
+      - generic [ref=e529]:
+        - heading "디지털자산 헤드라인>" [level=2] [ref=e531]:
+          - link "디지털자산 헤드라인>" [ref=e532] [cursor=pointer]:
+            - /url: https://economybloc.com/article/category/digital-asset/eb-pick/
+        - generic [ref=e535]:
+          - article [ref=e536]:
+            - generic [ref=e539]:
+              - generic [ref=e540]:
+                - heading "미국 비트코인 현물 ETF, 4965억원 순유출" [level=2] [ref=e542]:
+                  - link "미국 비트코인 현물 ETF, 4965억원 순유출" [ref=e543] [cursor=pointer]:
+                    - /url: https://economybloc.com/article/111898/
+                - generic [ref=e544]:
+                  - list [ref=e546]:
+                    - listitem [ref=e547]:
+                      - time [ref=e549]: 05-20
+                    - listitem [ref=e550]:
+                      - time [ref=e552]: 12:09
+                  - list [ref=e554]:
+                    - listitem [ref=e555]:
+                      - generic [ref=e557]:
+                        - link "#BTC" [ref=e558] [cursor=pointer]:
+                          - /url: https://economybloc.com/article/tag/btc/
+                        - text: ","
+                        - link "#시황" [ref=e559] [cursor=pointer]:
+                          - /url: https://economybloc.com/article/tag/%ec%8b%9c%ed%99%a9/
+              - link "비트코인 현물 ETF" [ref=e562] [cursor=pointer]:
+                - /url: https://economybloc.com/article/111898/
+                - img "비트코인 현물 ETF" [ref=e563]
+          - article [ref=e564]:
+            - generic [ref=e567]:
+              - generic [ref=e568]:
+                - heading "뉴욕증시 하락…美국채금리·유가 상승 우려 이어져" [level=2] [ref=e570]:
+                  - link "뉴욕증시 하락…美국채금리·유가 상승 우려 이어져" [ref=e571] [cursor=pointer]:
+                    - /url: https://economybloc.com/article/111887/
+                - generic [ref=e572]:
+                  - list [ref=e574]:
+                    - listitem [ref=e575]:
+                      - time [ref=e577]: 05-20
+                    - listitem [ref=e578]:
+                      - time [ref=e580]: 07:16
+                  - list [ref=e582]:
+                    - listitem [ref=e583]:
+                      - generic [ref=e585]:
+                        - link "#매크로" [ref=e586] [cursor=pointer]:
+                          - /url: https://economybloc.com/article/tag/%eb%a7%a4%ed%81%ac%eb%a1%9c/
+                        - text: ","
+                        - link "#증시" [ref=e587] [cursor=pointer]:
+                          - /url: https://economybloc.com/article/tag/%ec%a6%9d%ec%8b%9c/
+              - link [ref=e590] [cursor=pointer]:
+                - /url: https://economybloc.com/article/111887/
+          - article [ref=e591]:
+            - generic [ref=e594]:
+              - generic [ref=e595]:
+                - heading "미국 비트코인 현물 ETF, 9729억원 순유출…올해 3번째로 큰 규모" [level=2] [ref=e597]:
+                  - link "미국 비트코인 현물 ETF, 9729억원 순유출…올해 3번째로 큰 규모" [ref=e598] [cursor=pointer]:
+                    - /url: https://economybloc.com/article/111865/
+                - generic [ref=e599]:
+                  - list [ref=e601]:
+                    - listitem [ref=e602]:
+                      - time [ref=e604]: 05-19
+                    - listitem [ref=e605]:
+                      - time [ref=e607]: 11:27
+                  - list [ref=e609]:
+                    - listitem [ref=e610]:
+                      - generic [ref=e612]:
+                        - link "#BTC" [ref=e613] [cursor=pointer]:
+                          - /url: https://economybloc.com/article/tag/btc/
+                        - text: ","
+                        - link "#시황" [ref=e614] [cursor=pointer]:
+                          - /url: https://economybloc.com/article/tag/%ec%8b%9c%ed%99%a9/
+              - link "비트코인 현물 ETF" [ref=e617] [cursor=pointer]:
+                - /url: https://economybloc.com/article/111865/
+                - img "비트코인 현물 ETF" [ref=e618]
+          - article [ref=e619]:
+            - generic [ref=e622]:
+              - generic [ref=e623]:
+                - heading "美백악관, 비트코인 전략 준비금 발표 임박" [level=2] [ref=e625]:
+                  - link "美백악관, 비트코인 전략 준비금 발표 임박" [ref=e626] [cursor=pointer]:
+                    - /url: https://economybloc.com/article/111859/
+                - generic [ref=e627]:
+                  - list [ref=e629]:
+                    - listitem [ref=e630]:
+                      - time [ref=e632]: 05-19
+                    - listitem [ref=e633]:
+                      - time [ref=e635]: 08:56
+                  - list [ref=e637]:
+                    - listitem [ref=e638]:
+                      - generic [ref=e640]:
+                        - link "#BTC" [ref=e641] [cursor=pointer]:
+                          - /url: https://economybloc.com/article/tag/btc/
+                        - text: ","
+                        - link "#미국" [ref=e642] [cursor=pointer]:
+                          - /url: https://economybloc.com/article/tag/%eb%af%b8%ea%b5%ad/
+                        - text: ","
+                        - link "#정책" [ref=e643] [cursor=pointer]:
+                          - /url: https://economybloc.com/article/tag/%ec%a0%95%ec%b1%85/
+              - link "미국 비트코인" [ref=e646] [cursor=pointer]:
+                - /url: https://economybloc.com/article/111859/
+                - img "미국 비트코인" [ref=e647]
+      - generic [ref=e651]:
+        - paragraph [ref=e653]:
+          - strong [ref=e654]: Follow ECONOMYBLOC
+        - list [ref=e656]:
+          - listitem [ref=e657]:
+            - link "이코노미블록 엑스 바로가기" [ref=e658] [cursor=pointer]:
+              - /url: https://x.com/bloceconomy
+              - img [ref=e660]
+              - generic [ref=e662]: 이코노미블록 엑스 바로가기
+          - listitem [ref=e663]:
+            - link "이코노미블록 스레드 바로가기" [ref=e664] [cursor=pointer]:
+              - /url: https://www.threads.net/@bloceconomy
+              - img [ref=e666]
+              - generic [ref=e668]: 이코노미블록 스레드 바로가기
+          - listitem [ref=e669]:
+            - link "이코노미블록 카카오톡 오픈채팅 바로가기" [ref=e670] [cursor=pointer]:
+              - /url: https://open.kakao.com/o/gZgOOj4e
+              - img [ref=e672]
+              - generic [ref=e676]: 이코노미블록 카카오톡 오픈채팅 바로가기
+          - listitem [ref=e677]:
+            - link "이코노미블록 텔레그램 바로가기" [ref=e678] [cursor=pointer]:
+              - /url: https://t.me/economybloc
+              - img [ref=e680]
+              - generic [ref=e683]: 이코노미블록 텔레그램 바로가기
+        - link [ref=e685] [cursor=pointer]:
+          - /url: https://open.kakao.com/o/gZgOOj4e
+        - link [ref=e687] [cursor=pointer]:
+          - /url: https://t.me/economybloc
+  - contentinfo [ref=e689]:
+    - generic [ref=e691]:
+      - generic [ref=e692]:
+        - link "이코노미블록 로고" [ref=e694] [cursor=pointer]:
+          - /url: https://economybloc.com
+          - img "이코노미블록 로고" [ref=e695]
+        - paragraph [ref=e697]:
+          - link "채널소개" [ref=e699] [cursor=pointer]:
+            - /url: https://economybloc.com/about
+          - text: "|"
+          - link "개인정보처리방침" [ref=e701] [cursor=pointer]:
+            - /url: https://economybloc.com/privacy/
+          - generic [ref=e702]:
+            - text: "|"
+            - link "문의하기" [ref=e703] [cursor=pointer]:
+              - /url: https://economybloc.com/contact/
+      - generic [ref=e704]:
+        - paragraph [ref=e706]:
+          - img "이코노미블록" [ref=e707]
+          - text: 이코노미블록에서 디지털자산 · 코인 시장 주요소식을 확인하세요. 이코노미블록 X·스레드·블로그·카카오톡·텔레그램 구독·팔로우 바로가기 🔽
+        - list [ref=e709]:
+          - listitem [ref=e710]:
+            - link "이코노미블록 엑스 바로가기" [ref=e711] [cursor=pointer]:
+              - /url: https://x.com/bloceconomy
+              - img [ref=e713]
+              - generic [ref=e715]: 이코노미블록 엑스 바로가기
+          - listitem [ref=e716]:
+            - link "이코노미블록 스레드 바로가기" [ref=e717] [cursor=pointer]:
+              - /url: https://www.threads.net/@bloceconomy
+              - img [ref=e719]
+              - generic [ref=e721]: 이코노미블록 스레드 바로가기
+          - listitem [ref=e722]:
+            - link "이코노미블록 카카오톡 오픈채팅 바로가기" [ref=e723] [cursor=pointer]:
+              - /url: https://open.kakao.com/o/gZgOOj4e
+              - img [ref=e725]
+              - generic [ref=e729]: 이코노미블록 카카오톡 오픈채팅 바로가기
+          - listitem [ref=e730]:
+            - link "이코노미블록 텔레그램 바로가기" [ref=e731] [cursor=pointer]:
+              - /url: https://t.me/economybloc
+              - img [ref=e733]
+              - generic [ref=e736]: 이코노미블록 텔레그램 바로가기
+      - paragraph [ref=e739]:
+        - generic [ref=e740]: "✉ Email : eb@economybloc.com"
+        - text: Copyright © 이코노미블록. ALL rights reserved.
+  - generic [ref=e741]: desktop

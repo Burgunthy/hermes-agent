@@ -1,0 +1,206 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "DuckDuckGo home" [ref=e7] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e9]: DuckDuckGo
+          - generic [ref=e15]:
+            - combobox "Search privately" [ref=e17]: 워뇨띠 wonyotty 코인 트레이딩 전략 프랙탈 매칭
+            - button "search" [ref=e19] [cursor=pointer]:
+              - img [ref=e20]
+        - generic [ref=e22]:
+          - link "Protection. Privacy. Peace of mind." [ref=e24] [cursor=pointer]:
+            - /url: /compare-privacy
+          - button "Open menu" [ref=e25] [cursor=pointer]:
+            - generic [ref=e26]: Open menu
+            - img [ref=e27]
+      - navigation [ref=e33]:
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - link "All" [ref=e36] [cursor=pointer]:
+              - /url: /?q=%EC%9B%8C%EB%87%A8%EB%9D%A0+wonyotty+%EC%BD%94%EC%9D%B8+%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9+%EC%A0%84%EB%9E%B5+%ED%94%84%EB%9E%99%ED%83%88+%EB%A7%A4%EC%B9%AD&ia=web
+              - img [ref=e37]
+              - text: All
+          - listitem [ref=e39]:
+            - link "Images" [ref=e40] [cursor=pointer]:
+              - /url: /?q=%EC%9B%8C%EB%87%A8%EB%9D%A0+wonyotty+%EC%BD%94%EC%9D%B8+%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9+%EC%A0%84%EB%9E%B5+%ED%94%84%EB%9E%99%ED%83%88+%EB%A7%A4%EC%B9%AD&ia=images&iax=images
+          - listitem [ref=e41]:
+            - link "Videos" [ref=e42] [cursor=pointer]:
+              - /url: /?q=%EC%9B%8C%EB%87%A8%EB%9D%A0+wonyotty+%EC%BD%94%EC%9D%B8+%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9+%EC%A0%84%EB%9E%B5+%ED%94%84%EB%9E%99%ED%83%88+%EB%A7%A4%EC%B9%AD&ia=videos&iax=videos
+          - listitem [ref=e43]:
+            - link "News" [ref=e44] [cursor=pointer]:
+              - /url: /?q=%EC%9B%8C%EB%87%A8%EB%9D%A0+wonyotty+%EC%BD%94%EC%9D%B8+%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9+%EC%A0%84%EB%9E%B5+%ED%94%84%EB%9E%99%ED%83%88+%EB%A7%A4%EC%B9%AD&ia=news&iar=news
+          - listitem [ref=e45]:
+            - link "Maps" [ref=e46] [cursor=pointer]:
+              - /url: /?q=%EC%9B%8C%EB%87%A8%EB%9D%A0+wonyotty+%EC%BD%94%EC%9D%B8+%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9+%EC%A0%84%EB%9E%B5+%ED%94%84%EB%9E%99%ED%83%88+%EB%A7%A4%EC%B9%AD&iaxm=maps
+        - list [ref=e47]:
+          - listitem [ref=e48]:
+            - link "Duck.ai" [ref=e50] [cursor=pointer]:
+              - /url: /?q=%EC%9B%8C%EB%87%A8%EB%9D%A0+wonyotty+%EC%BD%94%EC%9D%B8+%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9+%EC%A0%84%EB%9E%B5+%ED%94%84%EB%9E%99%ED%83%88+%EB%A7%A4%EC%B9%AD&ia=chat
+              - img [ref=e51]
+              - text: Duck.ai
+          - listitem [ref=e54]:
+            - button "Search Settings ✀" [ref=e56] [cursor=pointer]:
+              - img [ref=e57]
+              - generic [ref=e59]: Search Settings
+              - generic [ref=e62]: ✀
+    - navigation [ref=e69]:
+      - generic [ref=e72] [cursor=pointer]:
+        - generic [ref=e80]: Protected
+        - img [ref=e81]: ▼
+      - generic [ref=e85] [cursor=pointer]:
+        - generic [ref=e88]:
+          - switch "✓" [ref=e89]: ✓
+          - generic [ref=e91]: Korea
+        - img [ref=e92]: ▼
+      - generic [ref=e96] [cursor=pointer]:
+        - generic [ref=e97]: "Safe search: moderate"
+        - img [ref=e98]: ▼
+      - generic [ref=e102] [cursor=pointer]:
+        - generic [ref=e103]: Any time
+        - img [ref=e104]: ▼
+    - list [ref=e107]:
+      - button "Close menu" [ref=e108] [cursor=pointer]:
+        - generic [ref=e109]: Close menu
+        - img [ref=e110]
+      - list [ref=e112]:
+        - listitem [ref=e113]: Search
+        - listitem [ref=e114]:
+          - link "Homepage" [ref=e115] [cursor=pointer]:
+            - /url: https://start.duckduckgo.com/
+        - listitem [ref=e116]:
+          - link "Themes" [ref=e117] [cursor=pointer]:
+            - /url: /settings#appearance
+        - listitem [ref=e118]:
+          - link "Settings" [ref=e119] [cursor=pointer]:
+            - /url: /settings
+      - list [ref=e120]:
+        - listitem [ref=e121]: Share Feedback
+        - listitem [ref=e122]:
+          - generic [ref=e125]:
+            - button "Positive feedback" [ref=e126] [cursor=pointer]:
+              - img [ref=e127]
+            - button "Negative feedback" [ref=e130] [cursor=pointer]:
+              - img [ref=e131]
+      - list [ref=e134]:
+        - listitem [ref=e135]: Downloads
+        - listitem [ref=e136]:
+          - link "iOS Browser" [ref=e137] [cursor=pointer]:
+            - /url: https://apps.apple.com/app/duckduckgo-private-browser/id663592361?platform=iphone&pt=866401&mt=8&ct=serp-atb-serp
+        - listitem [ref=e138]:
+          - link "Android Browser" [ref=e139] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&referrer=utm_campaign%3Dserp-atb-serp%26origin%3Dfunnel_playstore_searchresults
+        - listitem [ref=e140]:
+          - link "Mac Browser" [ref=e141] [cursor=pointer]:
+            - /url: /mac?origin=funnel_browser_searchresults
+        - listitem [ref=e142]:
+          - link "Windows Browser" [ref=e143] [cursor=pointer]:
+            - /url: /windows?origin=funnel_browser_searchresults
+        - listitem [ref=e144]: Browser Extensions
+      - list [ref=e145]:
+        - listitem [ref=e146]: More From DuckDuckGo
+        - listitem
+        - listitem [ref=e147]:
+          - link "Duck.ai" [ref=e148] [cursor=pointer]:
+            - /url: https://duck.ai
+        - listitem [ref=e149]:
+          - link "Email Protection" [ref=e150] [cursor=pointer]:
+            - /url: /email
+        - listitem [ref=e151]:
+          - link "Newsletter" [ref=e152] [cursor=pointer]:
+            - /url: /newsletter
+        - listitem [ref=e153]:
+          - link "Blog" [ref=e154] [cursor=pointer]:
+            - /url: /blog
+        - listitem [ref=e155]:
+          - link "Podcast" [ref=e156] [cursor=pointer]:
+            - /url: https://insideduckduckgo.substack.com/?showWelcome=true
+        - listitem [ref=e157]:
+          - link "Collaborations" [ref=e158] [cursor=pointer]:
+            - /url: /collaborations
+      - list [ref=e159]:
+        - listitem [ref=e160]: Learn More
+        - listitem [ref=e161]:
+          - link "What’s New" [ref=e162] [cursor=pointer]:
+            - /url: /updates
+        - listitem [ref=e163]:
+          - link "Compare Privacy" [ref=e164] [cursor=pointer]:
+            - /url: /compare-privacy
+        - listitem [ref=e165]:
+          - link "About Our Browser" [ref=e166] [cursor=pointer]:
+            - /url: /app
+        - listitem [ref=e167]:
+          - link "About DuckDuckGo" [ref=e168] [cursor=pointer]:
+            - /url: /about
+      - list [ref=e169]:
+        - listitem [ref=e170]: Other Resources
+        - listitem [ref=e171]:
+          - link "Help" [ref=e172] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages
+        - listitem [ref=e173]:
+          - link "Community" [ref=e174] [cursor=pointer]:
+            - /url: https://www.reddit.com/r/duckduckgo/
+        - listitem [ref=e175]:
+          - link "Careers" [ref=e176] [cursor=pointer]:
+            - /url: /careers
+        - listitem [ref=e177]:
+          - link "Privacy Policy" [ref=e178] [cursor=pointer]:
+            - /url: /privacy
+        - listitem [ref=e179]:
+          - link "Terms of Service" [ref=e180] [cursor=pointer]:
+            - /url: /terms
+        - listitem [ref=e181]:
+          - link "Press Kit" [ref=e182] [cursor=pointer]:
+            - /url: /press
+        - listitem [ref=e183]:
+          - link "Advertise on Search" [ref=e184] [cursor=pointer]:
+            - /url: /duckduckgo-help-pages/company/advertise-on-duckduckgo-search
+  - generic [ref=e188]:
+    - generic [ref=e190]:
+      - img [ref=e191]
+      - generic [ref=e201]:
+        - heading "Introducing DuckDuckGo Collaborations" [level=3] [ref=e202]
+        - paragraph [ref=e203]: Expertly crafted products for people who give a duck about privacy.
+      - link "See More" [ref=e204] [cursor=pointer]:
+        - /url: https://duckduckgo.com/collaborations
+    - generic [ref=e206]:
+      - generic [ref=e207]:
+        - heading "Learn More" [level=3] [ref=e208]
+        - list [ref=e209]:
+          - listitem [ref=e210]:
+            - link "What's New" [ref=e211] [cursor=pointer]:
+              - /url: https://duckduckgo.com/updates
+          - listitem [ref=e212]:
+            - link "About Browser" [ref=e213] [cursor=pointer]:
+              - /url: https://duckduckgo.com/app
+          - listitem [ref=e214]:
+            - link "Compare Privacy" [ref=e215] [cursor=pointer]:
+              - /url: https://duckduckgo.com/compare-privacy
+          - listitem [ref=e216]:
+            - link "Help Pages" [ref=e217] [cursor=pointer]:
+              - /url: https://duckduckgo.com/duckduckgo-help-pages/
+      - generic [ref=e218]:
+        - heading "Get More" [level=3] [ref=e219]
+        - list [ref=e220]:
+          - listitem [ref=e221]:
+            - link "Email Protection" [ref=e222] [cursor=pointer]:
+              - /url: https://duckduckgo.com/email
+          - listitem [ref=e223]:
+            - generic [ref=e224]:
+              - link "Podcast" [ref=e226] [cursor=pointer]:
+                - /url: https://insideduckduckgo.substack.com/?showWelcome=true
+              - generic [ref=e227]:
+                - text: "&"
+                - link "Newsletter" [ref=e228] [cursor=pointer]:
+                  - /url: https://duckduckgo.com/newsletter
+          - listitem [ref=e229]:
+            - link "Collaborations" [ref=e230] [cursor=pointer]:
+              - /url: https://duckduckgo.com/collaborations
+  - generic [ref=e233]:
+    - generic [ref=e234]: Unfortunately, bots use DuckDuckGo too.
+    - generic [ref=e235]: Please complete the following challenge to confirm this search was made by a human.
+    - generic [ref=e236]: "Select all squares containing a duck:"
+    - button "Submit" [ref=e258] [cursor=pointer]
+  - button "Share Feedback" [ref=e262] [cursor=pointer]

@@ -1,0 +1,243 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-container"
+    - banner [ref=e4]:
+      - link "logo" [ref=e6] [cursor=pointer]:
+        - /url: https://cornell.edu/
+        - img "logo" [ref=e7]
+      - paragraph [ref=e9]:
+        - generic [ref=e10]:
+          - text: We gratefully acknowledge support from
+          - text: the Simons Foundation,
+          - link "member institutions" [ref=e11] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/ourmembers.html
+          - text: ", and all contributors."
+          - link "Donate" [ref=e12] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/donate.html
+    - generic [ref=e13]:
+      - link "arxiv-logo" [ref=e16] [cursor=pointer]:
+        - /url: https://arxiv.org/
+        - img "logo" [ref=e17]
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - textbox "Search term or terms" [ref=e22]:
+            - /placeholder: Search...
+          - paragraph [ref=e23]:
+            - link "Help" [ref=e24] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+            - text: "|"
+            - link "Advanced Search" [ref=e25] [cursor=pointer]:
+              - /url: https://arxiv.org/search/advanced
+        - combobox "Field to search" [ref=e28] [cursor=pointer]:
+          - option "All fields" [selected]
+          - option "Title"
+          - option "Author"
+          - option "Abstract"
+          - option "Comments"
+          - option "Journal reference"
+          - option "ACM classification"
+          - option "MSC classification"
+          - option "Report number"
+          - option "arXiv identifier"
+          - option "DOI"
+          - option "ORCID"
+          - option "arXiv author ID"
+          - option "Help pages"
+          - option "Full text"
+        - button "Search" [ref=e29] [cursor=pointer]
+    - navigation "User menu" [ref=e31]:
+      - link "Login" [ref=e32] [cursor=pointer]:
+        - /url: https://arxiv.org/login
+  - main [ref=e33]:
+    - generic [ref=e34]:
+      - 'heading "Showing 1–2 of 2 results for all: teacher student RL dexterous hand in hand manipulation" [level=1] [ref=e36]'
+      - link "Search v0.5.6 released 2020-02-24" [ref=e39] [cursor=pointer]:
+        - /url: https://github.com/arXiv/arxiv-search/releases
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic: Search term or terms
+            - textbox "Search term or terms" [ref=e44]:
+              - /placeholder: Search term...
+              - text: teacher student RL dexterous hand in hand manipulation
+          - combobox "Field" [ref=e46] [cursor=pointer]:
+            - option "All fields" [selected]
+            - option "Title"
+            - option "Author(s)"
+            - option "Abstract"
+            - option "Comments"
+            - option "Journal reference"
+            - option "ACM classification"
+            - option "MSC classification"
+            - option "Report number"
+            - option "arXiv identifier"
+            - option "DOI"
+            - option "ORCID"
+            - option "License (URI)"
+            - option "arXiv author ID"
+            - option "Help pages"
+            - option "Full text"
+          - button "Search" [ref=e48] [cursor=pointer]
+        - generic [ref=e50]:
+          - generic [ref=e51] [cursor=pointer]:
+            - radio "Show abstracts Show abstracts" [checked] [ref=e52]
+            - text: Show abstracts
+          - generic [ref=e53] [cursor=pointer]:
+            - radio "Hide abstracts Hide abstracts" [ref=e54]
+            - text: Hide abstracts
+        - link "Advanced Search" [ref=e57] [cursor=pointer]:
+          - /url: /search/advanced?terms-0-term=teacher+student+RL+dexterous+hand+in+hand+manipulation&terms-0-field=all&size=50&order=-announced_date_first
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - combobox "results per page" [ref=e64] [cursor=pointer]:
+            - option "25"
+            - option "50" [selected]
+            - option "100"
+            - option "200"
+          - text: results per page.
+        - generic [ref=e65]:
+          - text: Sort results by
+          - combobox "Sort results by" [ref=e67] [cursor=pointer]:
+            - option "Announcement date (newest first)" [selected]
+            - option "Announcement date (oldest first)"
+            - option "Submission date (newest first)"
+            - option "Submission date (oldest first)"
+            - option "Relevance"
+        - button "Go" [ref=e69] [cursor=pointer]
+      - list [ref=e70]:
+        - listitem [ref=e71]:
+          - generic [ref=e72]:
+            - paragraph [ref=e73]:
+              - link "arXiv:2511.15200" [ref=e74] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2511.15200
+              - generic [ref=e75]:
+                - text: "["
+                - link "pdf" [ref=e76] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2511.15200
+                - text: ","
+                - link "ps" [ref=e77] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2511.15200
+                - text: ","
+                - link "other" [ref=e78] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2511.15200
+                - text: "]"
+            - generic [ref=e80]: cs.RO
+          - paragraph [ref=e81]: "VIRAL: Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation"
+          - paragraph [ref=e82]:
+            - text: "Authors:"
+            - link "Tairan He" [ref=e83] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=He%2C+T
+            - text: ","
+            - link "Zi Wang" [ref=e84] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+Z
+            - text: ","
+            - link "Haoru Xue" [ref=e85] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Xue%2C+H
+            - text: ","
+            - link "Qingwei Ben" [ref=e86] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ben%2C+Q
+            - text: ","
+            - link "Zhengyi Luo" [ref=e87] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Luo%2C+Z
+            - text: ","
+            - link "Wenli Xiao" [ref=e88] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Xiao%2C+W
+            - text: ","
+            - link "Ye Yuan" [ref=e89] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yuan%2C+Y
+            - text: ","
+            - link "Xingye Da" [ref=e90] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Da%2C+X
+            - text: ","
+            - link "Fernando Castañeda" [ref=e91] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Casta%C3%B1eda%2C+F
+            - text: ","
+            - link "Shankar Sastry" [ref=e92] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Sastry%2C+S
+            - text: ","
+            - link "Changliu Liu" [ref=e93] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liu%2C+C
+            - text: ","
+            - link "Guanya Shi" [ref=e94] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Shi%2C+G
+            - text: ","
+            - link "Linxi Fan" [ref=e95] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Fan%2C+L
+            - text: ","
+            - link "Yuke Zhu" [ref=e96] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhu%2C+Y
+          - paragraph [ref=e97]:
+            - text: "Abstract:"
+            - generic [ref=e98]: A key barrier to the real-world deployment of humanoid robots is the lack of autonomous loco-manipulation skills. We introduce VIRAL, a visual sim-to-real framework that learns humanoid loco-… ▽ More
+          - paragraph [ref=e99]: Submitted 27 November, 2025; v1 submitted 19 November, 2025; originally announced November 2025.
+          - paragraph [ref=e100]: "Comments: Project website: https://viral-humanoid.github.io/"
+        - listitem [ref=e101]:
+          - generic [ref=e102]:
+            - paragraph [ref=e103]:
+              - link "arXiv:2410.07403" [ref=e104] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2410.07403
+              - generic [ref=e105]:
+                - text: "["
+                - link "pdf" [ref=e106] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2410.07403
+                - text: ","
+                - link "other" [ref=e107] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2410.07403
+                - text: "]"
+            - generic [ref=e109]: cs.RO
+          - paragraph [ref=e110]: On the Feasibility of A Mixed-Method Approach for Solving Long Horizon Task-Oriented Dexterous Manipulation
+          - paragraph [ref=e111]:
+            - text: "Authors:"
+            - link "Shaunak A. Mehta" [ref=e112] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Mehta%2C+S+A
+            - text: ","
+            - link "Rana Soltani Zarrin" [ref=e113] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zarrin%2C+R+S
+          - paragraph [ref=e114]:
+            - text: "Abstract:"
+            - generic [ref=e115]: In-hand… ▽ More
+          - paragraph [ref=e116]: Submitted 9 October, 2024; originally announced October 2024.
+  - contentinfo [ref=e117]:
+    - navigation "Secondary" [ref=e118]:
+      - generic [ref=e120]:
+        - list [ref=e122]:
+          - listitem [ref=e123]:
+            - link "About" [ref=e124] [cursor=pointer]:
+              - /url: https://info.arxiv.org/about
+          - listitem [ref=e125]:
+            - link "Help" [ref=e126] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+        - list [ref=e128]:
+          - listitem [ref=e129]:
+            - link "Contact" [ref=e131] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/contact.html
+          - listitem [ref=e132]:
+            - link "Subscribe" [ref=e134] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/subscribe
+      - generic [ref=e136]:
+        - list [ref=e138]:
+          - listitem [ref=e139]:
+            - link "Copyright" [ref=e140] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/license/index.html
+          - listitem [ref=e141]:
+            - link "Privacy Policy" [ref=e142] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/policies/privacy_policy.html
+        - list [ref=e144]:
+          - listitem [ref=e145]:
+            - link "Web Accessibility Assistance" [ref=e146] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/web_accessibility.html
+          - listitem [ref=e147]:
+            - paragraph [ref=e148]:
+              - link "arXiv Operational Status" [ref=e149] [cursor=pointer]:
+                - /url: https://status.arxiv.org
+                - text: arXiv Operational Status
+              - text: Get status notifications via
+              - link "email" [ref=e151] [cursor=pointer]:
+                - /url: https://subscribe.sorryapp.com/24846f03/email/new
+                - text: email
+              - text: or
+              - link "slack" [ref=e153] [cursor=pointer]:
+                - /url: https://subscribe.sorryapp.com/24846f03/slack/new
+                - text: slack

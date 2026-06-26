@@ -1,0 +1,18 @@
+- generic [active] [ref=e1]:
+  - generic "YouTube Video Player" [ref=e5]:
+    - button "Play" [ref=e9] [cursor=pointer]:
+      - img
+  - banner [ref=e33]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - button "Guide" [ref=e38] [cursor=pointer]
+        - generic [ref=e40]:
+          - link:
+            - /url: /
+            - generic:
+              - generic:
+                - img
+      - search [ref=e42]:
+        - generic [ref=e43]:
+          - combobox [expanded] [ref=e46]
+          - button "Search" [ref=e47] [cursor=pointer]

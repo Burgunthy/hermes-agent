@@ -1,0 +1,137 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - navigation "Main Navigation" [ref=e3]:
+    - banner "Site header" [ref=e4]:
+      - navigation "Main navigation" [ref=e5]:
+        - link "Tom's Hardware Tom's Hardware" [ref=e7] [cursor=pointer]:
+          - /url: https://www.tomshardware.com
+          - img "Tom's Hardware" [ref=e9]
+          - generic [ref=e10]: Tom's Hardware
+        - button "US Edition flag of US" [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: US Edition
+          - img "flag of US" [ref=e14]
+          - img [ref=e15]
+        - generic [ref=e17]:
+          - link "Visit us on facebook" [ref=e18] [cursor=pointer]:
+            - /url: https://www.facebook.com/tomshardware
+            - img [ref=e19]
+          - link "Visit us on twitter" [ref=e22] [cursor=pointer]:
+            - /url: https://twitter.com/tomshardware
+            - img [ref=e23]:
+              - img [ref=e27]
+          - link "Visit us on instagram" [ref=e29] [cursor=pointer]:
+            - /url: https://www.instagram.com/toms.hardware
+            - img [ref=e30]
+          - link "Visit us on youtube" [ref=e33] [cursor=pointer]:
+            - /url: https://www.youtube.com/tomshardware
+            - img [ref=e34]
+          - link "Visit us on flipboard" [ref=e37] [cursor=pointer]:
+            - /url: https://flipboard.com/@TomsHardware
+            - img [ref=e38]
+          - link "RSS" [ref=e42] [cursor=pointer]:
+            - /url: https://www.tomshardware.com/feeds.xml
+        - button "Subscribe" [ref=e44] [cursor=pointer]:
+          - text: Subscribe
+          - img [ref=e45]
+        - generic [ref=e47] [cursor=pointer]:
+          - generic [ref=e48]: Sign in
+          - img [ref=e50]
+        - button "Search" [ref=e52] [cursor=pointer]:
+          - generic [ref=e53]: Search
+          - img [ref=e55]
+    - navigation [ref=e57]:
+      - generic [ref=e59]:
+        - list [ref=e60]:
+          - listitem [ref=e61]:
+            - link [ref=e62] [cursor=pointer]:
+              - /url: https://www.tomshardware.com
+              - img [ref=e63]
+          - listitem [ref=e66]:
+            - link "Best Picks" [ref=e67] [cursor=pointer]:
+              - /url: https://www.tomshardware.com/best-picks
+          - listitem [ref=e68]:
+            - link "CPUs" [ref=e69] [cursor=pointer]:
+              - /url: https://www.tomshardware.com/pc-components/cpus
+          - listitem [ref=e70]:
+            - link "GPUs" [ref=e71] [cursor=pointer]:
+              - /url: https://www.tomshardware.com/pc-components/gpus
+          - listitem [ref=e72]:
+            - link "PC Components" [ref=e73] [cursor=pointer]:
+              - /url: https://www.tomshardware.com/pc-components
+          - listitem [ref=e74]:
+            - link "News" [ref=e75] [cursor=pointer]:
+              - /url: https://www.tomshardware.com/news
+          - listitem [ref=e76]:
+            - link "Laptops" [ref=e77] [cursor=pointer]:
+              - /url: https://www.tomshardware.com/laptops
+          - listitem [ref=e78]:
+            - link "Desktops" [ref=e79] [cursor=pointer]:
+              - /url: https://www.tomshardware.com/desktops
+          - listitem [ref=e80]:
+            - link "Software & AI" [ref=e81] [cursor=pointer]:
+              - /url: https://www.tomshardware.com/software
+          - listitem [ref=e82]:
+            - link "Coupons" [ref=e83] [cursor=pointer]:
+              - /url: /coupons
+        - generic [ref=e84]:
+          - link "Premium" [ref=e85] [cursor=pointer]:
+            - /url: https://www.tomshardware.com/premium
+          - link "Forums" [ref=e86] [cursor=pointer]:
+            - /url: https://forums.tomshardware.com/
+  - main [ref=e87]:
+    - article "article" [ref=e89]:
+      - heading "Sorry! Page not found." [level=1] [ref=e91]
+      - generic [ref=e93]:
+        - paragraph [ref=e94]: The page you're looking for has either been moved or removed from the site.
+        - paragraph [ref=e95]:
+          - text: Please try searching our site or
+          - link "start again on our homepage" [ref=e96] [cursor=pointer]:
+            - /url: https://www.tomshardware.com
+          - text: .
+      - generic [ref=e97]:
+        - searchbox "Type to search..." [ref=e98]
+        - button [ref=e99] [cursor=pointer]:
+          - img [ref=e101]
+  - region "Main footer"
+  - contentinfo "footer content" [ref=e103]:
+    - generic [ref=e104]:
+      - paragraph [ref=e105]:
+        - text: Tom's Hardware is part of Future US Inc, an international media group and leading digital publisher.
+        - link "Visit our corporate site" [ref=e106] [cursor=pointer]:
+          - /url: https://futureplc.com/
+        - text: .
+      - link "Add as a preferred source on Google Add as a preferred source on Google" [ref=e107] [cursor=pointer]:
+        - /url: https://google.com/preferences/source?q=tomshardware.com
+        - img "Add as a preferred source on Google" [ref=e109]
+        - generic [ref=e110]: Add as a preferred source on Google
+      - navigation "Footer Navigation" [ref=e111]:
+        - list [ref=e112]:
+          - listitem [ref=e113]:
+            - link "Terms and conditions" [ref=e114] [cursor=pointer]:
+              - /url: https://futureplc.com/terms-conditions/
+          - listitem [ref=e115]:
+            - link "Contact Future's experts" [ref=e116] [cursor=pointer]:
+              - /url: https://futureplc.com/contact/
+          - listitem [ref=e117]:
+            - link "Privacy policy" [ref=e118] [cursor=pointer]:
+              - /url: https://futureplc.com/privacy-policy/
+          - listitem [ref=e119]:
+            - link "Cookies policy" [ref=e120] [cursor=pointer]:
+              - /url: https://futureplc.com/cookies-policy/
+          - listitem [ref=e121]:
+            - link "Accessibility Statement" [ref=e122] [cursor=pointer]:
+              - /url: https://futureplc.com/accessibility-statement/
+          - listitem [ref=e123]:
+            - link "Advertise with us" [ref=e124] [cursor=pointer]:
+              - /url: https://go.future-advertising.com/Toms-Hardware-Media-Kit.html
+          - listitem [ref=e125]:
+            - link "About us" [ref=e126] [cursor=pointer]:
+              - /url: https://www.tomshardware.com/reviews/about-us,4260.html#section-contact-info
+          - listitem [ref=e127]:
+            - link "Coupons" [ref=e128] [cursor=pointer]:
+              - /url: https://www.tomshardware.com/coupons
+          - listitem [ref=e129]:
+            - link "Careers" [ref=e130] [cursor=pointer]:
+              - /url: https://futureplc.com/careers/
+      - paragraph [ref=e131]: © Future US, Inc. Full 7th Floor, 130 West 42nd Street, New York, NY 10036.

@@ -1,0 +1,266 @@
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - navigation [ref=e5]:
+      - generic [ref=e7]:
+        - link "Oracle Cloud" [ref=e9] [cursor=pointer]:
+          - /url: /
+          - img "Oracle Cloud" [ref=e10]
+        - button "Main Navigation" [ref=e13] [cursor=pointer]
+        - link "Help Center" [ref=e16] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e19]:
+          - generic [ref=e20]: Search
+          - textbox "Search" [ref=e21]
+          - link "Oracle Cloud Infrastructure Search scoped to this page. Use this button to use site search instead." [ref=e22]:
+            - generic [ref=e23]:
+              - img [ref=e24]
+              - strong [ref=e29]: Oracle Cloud Infrastructure
+              - button "Search scoped to this page. Use this button to use site search instead." [ref=e30] [cursor=pointer]:
+                - img [ref=e31]
+        - generic "Select Language" [ref=e36]:
+          - generic [ref=e37]:
+            - button [ref=e38] [cursor=pointer]
+            - combobox "Select Language" [ref=e39] [cursor=pointer]:
+              - option "Deutsch"
+              - option "English (US)" [selected]
+              - option "Español"
+              - option "Français (Canada)"
+              - option "Français"
+              - option "Italiano"
+              - option "日本語"
+              - option "Português (Brasil)"
+  - generic [ref=e44]:
+    - generic [ref=e45]:
+      - heading "Oracle Cloud Infrastructure Documentation" [level=3] [ref=e46]:
+        - link "Oracle Cloud Infrastructure Documentation" [ref=e47] [cursor=pointer]:
+          - /url: /iaas/Content/home.htm
+      - separator [ref=e48]
+    - link "Try Free Tier" [ref=e51] [cursor=pointer]:
+      - /url: https://www.oracle.com/cloud/free/?source=:ow:o:h:po:OHPPanel1nav0625&intcmp=:ow:o:h:po:OHPPanel1nav0625
+  - generic [ref=e54]:
+    - generic [ref=e56]:
+      - generic [ref=e58]:
+        - navigation "Oracle Cloud Infrastructure Free Tier" [ref=e59]:
+          - list [ref=e60]:
+            - listitem [ref=e61]:
+              - link "Oracle Cloud Infrastructure Free Tier" [ref=e62] [cursor=pointer]:
+                - /url: "#Oracle_Cloud_Infrastructure_Free_Tier"
+            - listitem [ref=e63]:
+              - link "Free Trial" [ref=e64] [cursor=pointer]:
+                - /url: "#freetrial"
+            - listitem [ref=e65]:
+              - link "Getting Started" [ref=e66] [cursor=pointer]:
+                - /url: "#freetrial__get-started"
+            - listitem [ref=e67]:
+              - link "When Your Trial Period Ends" [ref=e68] [cursor=pointer]:
+                - /url: "#freetrial__when-trial-ends"
+            - listitem [ref=e69]:
+              - link "Upgrading to a Paid Account" [ref=e70] [cursor=pointer]:
+                - /url: "#freetrial__upgrading_to_paid_account"
+        - generic [ref=e74]:
+          - paragraph [ref=e75]: Was this article helpful?
+          - generic [ref=e76]:
+            - button "Yes" [ref=e77]:
+              - img "Yes" [ref=e78]
+            - button "No" [ref=e80]:
+              - img "No" [ref=e81]
+        - generic [ref=e84]: Updated 2025-10-17
+      - generic [ref=e85]:
+        - link "Skip to main content" [ref=e86] [cursor=pointer]:
+          - /url: "#dcoc-content-body"
+        - article "Oracle Cloud Infrastructure Free Tier" [ref=e89]:
+          - article "Oracle Cloud Infrastructure Free Tier" [ref=e90]:
+            - heading "Oracle Cloud Infrastructure Free Tier" [level=1] [ref=e91]
+            - generic [ref=e92]:
+              - paragraph [ref=e93]: Learn about Oracle Cloud Infrastructure's Free Tier.
+              - paragraph [ref=e94]: Oracle Cloud Infrastructure's Free Tier includes a free time-limited promotional trial that allows you to explore a wide range of Oracle Cloud Infrastructure products, and a set of Always Free offers that never expire.
+              - paragraph [ref=e95]: The Free Tier and Always Free resources are not available in US Government Cloud regions.
+            - article "Free Trial Copy link to this section" [ref=e96]:
+              - heading "Free Trial Copy link to this section" [level=2] [ref=e97]:
+                - heading "Free Trial" [level=2] [ref=e98]
+                - button "Copy link to this section" [ref=e99]: 🔗
+              - generic [ref=e100]:
+                - paragraph [ref=e101]: The Free Trial provides you with $300 of cloud credits that are valid for up to 30 days. You can spend these credits on any eligible Oracle Cloud Infrastructure service.
+                - generic [ref=e102]:
+                  - heading "Getting Started" [level=3] [ref=e103]
+                  - paragraph [ref=e104]:
+                    - text: For more information, and to see a complete list of services available to you during the trial, visit the
+                    - link "Free Trial website" [ref=e105] [cursor=pointer]:
+                      - /url: https://www.oracle.com/cloud/free/
+                    - text: .
+                  - paragraph [ref=e106]:
+                    - link "Start for Free" [ref=e107] [cursor=pointer]:
+                      - /url: https://signup.cloud.oracle.com/
+                  - generic [ref=e108]:
+                    - img [ref=e110]
+                    - strong [ref=e113]: Note
+                    - text: During sign-up, choose the home region carefully. You can provision Always Free Autonomous AI Databases and compute instances only in the home region.
+                  - paragraph [ref=e114]: For security purposes, most users need a mobile phone number and a credit card to create an account. Your credit card will not be charged unless you upgrade your account.
+                - generic [ref=e115]:
+                  - heading "When Your Trial Period Ends" [level=3] [ref=e116]
+                  - paragraph [ref=e117]:
+                    - text: After your trial ends, your account remains active. There is no interruption to the availability of the
+                    - link "Always Free Resources" [ref=e118] [cursor=pointer]:
+                      - /url: /iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm
+                    - text: you have provisioned. You can delete and provision Always Free resources as needed.
+                  - generic [ref=e119]:
+                    - img [ref=e121]
+                    - strong [ref=e124]: Note
+                    - text: If you have more OCI Ampere A1 Compute instances provisioned than are available for an Always Free tenancy, all existing OCI Ampere A1 Compute instances are disabled and then deleted after 30 days, unless you upgrade to a paid account. To continue using your existing Arm-based instances as an Always Free user, before your trial ends, ensure that you have no more than 4 OCPUs and 24 GB of memory in total across all the OCI Ampere A1 Compute instances in your tenancy.
+                  - paragraph [ref=e125]: Paid resources that were provisioned with your credits during your free trial are reclaimed by Oracle unless you upgrade your account.
+                  - paragraph [ref=e126]:
+                    - text: Pay As You Go accounts are available with no commitment. You can also contact an
+                    - link "Oracle sales representative" [ref=e127] [cursor=pointer]:
+                      - /url: https://www.oracle.com/corporate/contact/global.html
+                    - text: in your location to learn about monthly and annual flex accounts that offer discounted pricing. For more information, see
+                    - link "Oracle Cloud Infrastructure Pricing" [ref=e128] [cursor=pointer]:
+                      - /url: https://www.oracle.com/cloud/pricing.html
+                    - text: .
+                - generic [ref=e129]:
+                  - heading "Upgrading to a Paid Account Copy link to this section" [level=3] [ref=e130]:
+                    - heading "Upgrading to a Paid Account" [level=3] [ref=e131]
+                    - button "Copy link to this section" [ref=e132]: 🔗
+                  - paragraph [ref=e133]:
+                    - text: You can upgrade to a paid account at any time through the Oracle Cloud Infrastructure Console. To do so, click the
+                    - strong [ref=e134]: Upgrade
+                    - text: link in the banner at the top of the Console web page. If you don't see an
+                    - strong [ref=e135]: Upgrade
+                    - text: link on the page you're viewing, you can click the
+                    - strong [ref=e136]: Oracle Cloud
+                    - text: logo at the top of the Console and then look for the Upgrade link in the sidebar on the right side of the Console home page. You will continue to have access to all of your cloud resources after upgrading your account.
+                  - paragraph [ref=e137]:
+                    - text: Also see
+                    - link "Account Upgrade Overview" [ref=e138] [cursor=pointer]:
+                      - /url: /iaas/Content/Billing/Tasks/changingpaymentmethod.htm#Upgrade
+                    - text: for more information on upgrading and associated credit card authorizations for the Free Trial and upgrades.
+                - generic [ref=e139]:
+                  - heading "Deleting a Free Tier Tenancy and Cloud Account" [level=3] [ref=e140]
+                  - paragraph [ref=e141]:
+                    - text: If you need to delete your account, see
+                    - link "Deleting a Free Tier Tenancy and Cloud Account" [ref=e142] [cursor=pointer]:
+                      - /url: /iaas/Content/General/Tasks/deleting_tenancy_freetier.htm
+                    - text: .
+    - navigation "Oracle Cloud Infrastructure Documentation" [ref=e145]:
+      - list [ref=e146]:
+        - listitem [ref=e147]:
+          - link "Oracle Cloud Infrastructure Cloud Adoption Framework Open" [ref=e148] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/cloud-adoption-framework/home.htm
+            - generic [ref=e149]: Oracle Cloud Infrastructure Cloud Adoption Framework
+            - button "Open" [ref=e150]:
+              - img [ref=e151]
+        - listitem [ref=e153]:
+          - link "Getting Started Open" [ref=e154] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/GSG/Concepts/baremetalintro.htm
+            - generic [ref=e155]: Getting Started
+            - button "Open" [ref=e156]:
+              - img [ref=e157]
+        - listitem [ref=e159]:
+          - link "Oracle Cloud's Free Tier Close" [ref=e160] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/FreeTier/freetier.htm
+            - generic [ref=e161]: Oracle Cloud's Free Tier
+            - button "Close" [ref=e162]:
+              - img [ref=e163]
+          - list [ref=e165]:
+            - listitem [ref=e166]:
+              - link "Always Free Resources" [ref=e167] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm
+                - generic [ref=e168]: Always Free Resources
+            - listitem [ref=e169]:
+              - link "Quickly Launch Your Always Free Resources Using Resource Manager" [ref=e170] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources_Launching.htm
+                - generic [ref=e171]: Quickly Launch Your Always Free Resources Using Resource Manager
+            - listitem [ref=e172]:
+              - link "Frequently Asked Questions" [ref=e173] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/FreeTier/faq.htm
+                - generic [ref=e174]: Frequently Asked Questions
+        - listitem [ref=e175]:
+          - link "Oracle Multicloud Open" [ref=e176] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/multicloud/Oraclemulticloud.htm
+            - generic [ref=e177]: Oracle Multicloud
+            - button "Open" [ref=e178]:
+              - img [ref=e179]
+        - listitem [ref=e181]:
+          - link "Oracle Cloud Infrastructure Government Cloud Open" [ref=e182] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/gov-cloud/govlanding.htm
+            - generic [ref=e183]: Oracle Cloud Infrastructure Government Cloud
+            - button "Open" [ref=e184]:
+              - img [ref=e185]
+        - listitem [ref=e187]:
+          - link "Oracle UK Sovereign Cloud Open" [ref=e188] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/uk-sovereign-cloud/home.htm
+            - generic [ref=e189]: Oracle UK Sovereign Cloud
+            - button "Open" [ref=e190]:
+              - img [ref=e191]
+        - listitem [ref=e193]:
+          - link "Oracle EU Sovereign Cloud" [ref=e194] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/sovereign-cloud/eu-sovereign-cloud.htm
+            - generic [ref=e195]: Oracle EU Sovereign Cloud
+        - listitem [ref=e196]:
+          - link "Applications Services Open" [ref=e197] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/applications-manager/applications-services-home.htm
+            - generic [ref=e198]: Applications Services
+            - button "Open" [ref=e199]:
+              - img [ref=e200]
+        - listitem [ref=e202]:
+          - link "Infrastructure Services Open" [ref=e203] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/services.htm
+            - generic [ref=e204]: Infrastructure Services
+            - button "Open" [ref=e205]:
+              - img [ref=e206]
+        - listitem [ref=e208]:
+          - link "Developer Resources Open" [ref=e209] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/devtoolshome.htm
+            - generic [ref=e210]: Developer Resources
+            - button "Open" [ref=e211]:
+              - img [ref=e212]
+        - listitem [ref=e214]:
+          - link "Security Open" [ref=e215] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/Security/Concepts/security.htm
+            - generic [ref=e216]: Security
+            - button "Open" [ref=e217]:
+              - img [ref=e218]
+        - listitem [ref=e220]:
+          - link "Marketplace Open" [ref=e221] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/Marketplace/home.htm
+            - generic [ref=e222]: Marketplace
+            - button "Open" [ref=e223]:
+              - img [ref=e224]
+        - listitem [ref=e226]:
+          - link "More Resources Open" [ref=e227] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/General/Reference/more.htm
+            - generic [ref=e228]: More Resources
+            - button "Open" [ref=e229]:
+              - img [ref=e230]
+        - listitem [ref=e232]:
+          - link "Glossary" [ref=e233] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/libraries/glossary/glossary-intro.htm
+            - generic [ref=e234]: Glossary
+        - listitem [ref=e235]:
+          - link "Oracle Cloud Console" [ref=e236] [cursor=pointer]:
+            - /url: https://cloud.oracle.com/
+            - generic [ref=e237]: Oracle Cloud Console
+  - contentinfo [ref=e238]:
+    - list [ref=e240]:
+      - listitem [ref=e241]:
+        - generic [ref=e242]: Copyright © 2026, Oracle and/or its affiliates.
+      - listitem [ref=e243]:
+        - link "About Oracle" [ref=e244] [cursor=pointer]:
+          - /url: https://www.oracle.com/corporate/index.html
+      - listitem [ref=e245]:
+        - link "Contact Us" [ref=e246] [cursor=pointer]:
+          - /url: https://www.oracle.com/corporate/contact/index.html
+      - listitem [ref=e247]:
+        - link "Legal Notices" [ref=e248] [cursor=pointer]:
+          - /url: /iaas/Content/legalnotices.htm
+      - listitem [ref=e249]:
+        - link "Terms of Use & Privacy" [ref=e250] [cursor=pointer]:
+          - /url: https://www.oracle.com/legal/privacy/
+      - listitem [ref=e251]:
+        - link "Document Conventions" [ref=e252] [cursor=pointer]:
+          - /url: /iaas/Content/General/Reference/docconventions.htm
+      - listitem [ref=e253]:
+        - complementary "Open Cookie Preferences Modal" [ref=e254]:
+          - link "Cookie Preferences, opens a dedicated popup modal window" [ref=e255] [cursor=pointer]: Cookie Preferences
+  - generic [ref=e257]:
+    - dialog "Your choices regarding the use of cookies on this site":
+      - img "Loading ..." [ref=e259]

@@ -1,0 +1,170 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [active] [ref=e9] [cursor=pointer]
+        - generic [ref=e11]:
+          - link "YouTube Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e16]: KR
+        - button "Skip navigation" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: Skip navigation
+      - generic [ref=e25]:
+        - search [ref=e26]:
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - combobox "Search" [expanded] [ref=e30]: 워뇨띠 트레이딩 전략 보지
+              - button "Clear search query" [ref=e32] [cursor=pointer]
+            - button "Search" [ref=e37] [cursor=pointer]
+        - generic [ref=e40]:
+          - button "Search with your voice" [ref=e42] [cursor=pointer]
+          - tooltip "tooltip"
+  - navigation [ref=e53]
+  - main [ref=e55]:
+    - generic [ref=e56]:
+      - generic [ref=e58]:
+        - tablist [ref=e63]:
+          - tab "All" [selected] [ref=e67] [cursor=pointer]:
+            - generic [ref=e69]: All
+          - tab "Shorts" [ref=e76] [cursor=pointer]:
+            - generic [ref=e78]: Shorts
+          - tab "Unwatched" [ref=e85] [cursor=pointer]:
+            - generic [ref=e87]: Unwatched
+          - tab "Watched" [ref=e94] [cursor=pointer]:
+            - generic [ref=e96]: Watched
+          - tab "Videos" [ref=e103] [cursor=pointer]:
+            - generic [ref=e105]: Videos
+          - tab "Recently uploaded" [ref=e112] [cursor=pointer]:
+            - generic [ref=e114]: Recently uploaded
+          - tab "Live" [ref=e121] [cursor=pointer]:
+            - generic [ref=e123]: Live
+        - generic [ref=e128]:
+          - button "Search filters" [ref=e130] [cursor=pointer]:
+            - generic [ref=e131]: Filters
+          - tooltip "tooltip"
+      - generic [ref=e142]:
+        - generic [ref=e144]:
+          - link [ref=e146] [cursor=pointer]:
+            - /url: /@%EC%9C%A0%ED%8A%9C%EB%B8%8C%EC%9B%8C%EB%87%A8%EB%9D%A0
+          - generic [ref=e149]:
+            - link "워뇨띠 @유튜브워뇨띠•59.9K subscribers 실전 투자 대회 1등이 알려주는 \"진짜\" 트레이딩- 모든 관점 공유 및 기타 차트 공부 자료는 거래대상·시점·가액에 대한 추천이나 권유 ..." [ref=e150] [cursor=pointer]:
+              - /url: /@%EC%9C%A0%ED%8A%9C%EB%B8%8C%EC%9B%8C%EB%87%A8%EB%9D%A0
+              - generic [ref=e151]:
+                - generic [ref=e155]: 워뇨띠
+                - generic [ref=e156]: "@유튜브워뇨띠•59.9K subscribers"
+                - generic [ref=e157]: 실전 투자 대회 1등이 알려주는 "진짜" 트레이딩- 모든 관점 공유 및 기타 차트 공부 자료는 거래대상·시점·가액에 대한 추천이나 권유 ...
+            - link "Subscribe" [ref=e162] [cursor=pointer]:
+              - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253D%2525EC%25259B%25258C%2525EB%252587%2525A8%2525EB%25259D%2525A0%252B%2525ED%25258A%2525B8%2525EB%2525A0%252588%2525EC%25259D%2525B4%2525EB%252594%2525A9%252B%2525EC%2525A0%252584%2525EB%25259E%2525B5%252B%2525EB%2525B3%2525B4%2525EC%2525A7%252580%26continue_action%3DQUFFLUhqa2EzVlZSTmtQNEdfSGFrWUJUNFRqT3p3azMwd3xBQ3Jtc0trSHNydlNDOS02SFpXbmRyLTdvMkUtcDg5THpsYTh6NnNuaGhmNzZYek5DNVV2MDNYODdCc3gtZzRBYURIX3E4bjZhTWp3TVVSWXNtSXpqSGZINC1zdGlmczJJT0o2c1VVeE5PaVAwb0hmQ0FyVGRGYjY1VW9lV0ZXTTVaQnNLUUZEOGJZcG45dFdwa3VFTDJqcE11a2tsM21lcGtyazlCQkZneFl4REZLNTFDVl9fTHZLX2xxSC1DRVVVYWRGYlBGbl9JcV8&hl=en
+              - generic [ref=e163]: Subscribe
+        - generic [ref=e168]:
+          - link [ref=e170] [cursor=pointer]:
+            - /url: /@Wonyotti_analysis
+          - generic [ref=e173]:
+            - link "Bitcoin Drill Instructor @Wonyotti_analysis•3.94K subscribers This channel provides live position updates, position analysis, and explanations for Wonyoti, a famous Korean Bitcoin trader ..." [ref=e174] [cursor=pointer]:
+              - /url: /@Wonyotti_analysis
+              - generic [ref=e175]:
+                - generic [ref=e179]: Bitcoin Drill Instructor
+                - generic [ref=e180]: "@Wonyotti_analysis•3.94K subscribers"
+                - generic [ref=e181]: This channel provides live position updates, position analysis, and explanations for Wonyoti, a famous Korean Bitcoin trader ...
+            - link "Subscribe" [ref=e186] [cursor=pointer]:
+              - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253D%2525EC%25259B%25258C%2525EB%252587%2525A8%2525EB%25259D%2525A0%252B%2525ED%25258A%2525B8%2525EB%2525A0%252588%2525EC%25259D%2525B4%2525EB%252594%2525A9%252B%2525EC%2525A0%252584%2525EB%25259E%2525B5%252B%2525EB%2525B3%2525B4%2525EC%2525A7%252580%26continue_action%3DQUFFLUhqa19xa3czRTdqQ3EwTjRmYmJWMmtOUTUwaGpXd3xBQ3Jtc0trZWhkS2F0b2ROWjVGdmFOM0Zqbi1wMUx1cDM5MmMtdGlrZ1ZKNTdVSnJCYWpHd2RPN2hXczdabWMtRHl3NFhUVTc1RzFuMUlyOHRiNzEzSjZzcDVEV00wTFo1Y3ZuNndIRlpwWkgydXBRNWxiX1Jsd3lBSEI0Z0tGYVRJeHlscWg0OS1xdXlRN3V0eWoyVzNCWmpjYTdycnBUcmlrLUlkSVYwMC1DZVBUTmpVTmlNYjFpUzRvWng0ampUVUNPRTljLUl5eS0&hl=en
+              - generic [ref=e187]: Subscribe
+        - generic [ref=e192]:
+          - link [ref=e194] [cursor=pointer]:
+            - /url: /watch?v=XEJg7sCz8tw&pp=ygUk7JuM64eo652gIO2KuOugiOydtOuUqSDsoITrnrUg67O07KeA
+            - img [ref=e196]
+            - img [ref=e199]:
+              - generic [ref=e200]: 1:03:07
+            - generic:
+              - generic: Now playing
+              - generic:
+                - img
+          - generic [ref=e201] [cursor=pointer]:
+            - generic [ref=e202]:
+              - heading "[비트코인]3000억 부자 킹갓 제너럴 워뇨띠 Q&A FULL 버전 정리본(박제용) 1 hour, 3 minutes" [level=3] [ref=e204]:
+                - link "[비트코인]3000억 부자 킹갓 제너럴 워뇨띠 Q&A FULL 버전 정리본(박제용) 1 hour, 3 minutes" [ref=e205]:
+                  - /url: /watch?v=XEJg7sCz8tw&pp=ygUk7JuM64eo652gIO2KuOugiOydtOuUqSDsoITrnrUg67O07KeA
+                  - text: "[비트코인]3000억 부자 킹갓 제너럴 워뇨띠 Q&A FULL 버전 정리본(박제용)"
+              - generic [ref=e208]:
+                - generic [ref=e209]: 123K views
+                - generic [ref=e210]: •4 years ago
+            - generic [ref=e211]:
+              - link "Go to channel 박호구 다이어리" [ref=e212]:
+                - /url: /@hogoo
+              - link "박호구 다이어리" [ref=e218]:
+                - /url: /@hogoo
+            - generic [ref=e219]:
+              - generic [ref=e220]: 워뇨띠가 사용하는 비트코인 선물거래소 -------------------------------------------------------------------- [비트겟bitget]50% 수수료 무기한 할인+ ...
+              - tooltip "tooltip"
+        - generic [ref=e222]:
+          - link [ref=e224] [cursor=pointer]:
+            - /url: /watch?v=GrYADnTm4Pc&pp=ygUk7JuM64eo652gIO2KuOugiOydtOuUqSDsoITrnrUg67O07KeA
+            - img [ref=e226]
+            - img [ref=e229]:
+              - generic [ref=e230]: 6:12
+            - generic:
+              - generic: Now playing
+              - generic:
+                - img
+          - generic [ref=e231] [cursor=pointer]:
+            - generic [ref=e232]:
+              - heading "'자칭' 워뇨띠 매매법이라는 영상. 실제 데이터로 '실체' 공개하겠습니다. 6 minutes, 12 seconds" [level=3] [ref=e234]:
+                - link "'자칭' 워뇨띠 매매법이라는 영상. 실제 데이터로 '실체' 공개하겠습니다. 6 minutes, 12 seconds" [ref=e235]:
+                  - /url: /watch?v=GrYADnTm4Pc&pp=ygUk7JuM64eo652gIO2KuOugiOydtOuUqSDsoITrnrUg67O07KeA
+                  - text: "'자칭' 워뇨띠 매매법이라는 영상. 실제 데이터로 '실체' 공개하겠습니다."
+              - generic [ref=e238]:
+                - generic [ref=e239]: 12K views
+                - generic [ref=e240]: •2 years ago
+            - generic [ref=e241]:
+              - link "Go to channel 코인 콜로세움" [ref=e242]:
+                - /url: /@coincolosseum
+              - link "코인 콜로세움" [ref=e248]:
+                - /url: /@coincolosseum
+            - generic [ref=e249]:
+              - text: 저희 팀은 금전적인 요구는 절대 하지 않습니다** 1. 저희는 보조지표를 선공개하고 틈틈이 소통도 하는 채팅방이 있습니다. 자유롭게 ...
+              - tooltip "tooltip"
+        - generic [ref=e251]:
+          - link [ref=e253] [cursor=pointer]:
+            - /url: /watch?v=sxcTT1MlZMI&pp=ygUk7JuM64eo652gIO2KuOugiOydtOuUqSDsoITrnrUg67O07KeA
+          - generic [ref=e255] [cursor=pointer]:
+            - generic [ref=e256]:
+              - heading "600만원 → 3000억을 만든 전설의 트레이더 워뇨띠 매매법 (실시간 포지션 보는 법) 14 minutes, 56 seconds" [level=3] [ref=e258]:
+                - link "600만원 → 3000억을 만든 전설의 트레이더 워뇨띠 매매법 (실시간 포지션 보는 법) 14 minutes, 56 seconds" [ref=e259]:
+                  - /url: /watch?v=sxcTT1MlZMI&pp=ygUk7JuM64eo652gIO2KuOugiOydtOuUqSDsoITrnrUg67O07KeA
+                  - text: 600만원 → 3000억을 만든 전설의 트레이더 워뇨띠 매매법 (실시간 포지션 보는 법)
+              - generic [ref=e262]:
+                - generic [ref=e263]: 1.9K views
+                - generic [ref=e264]: •4 months ago
+            - generic [ref=e265]:
+              - link "Go to channel 코덕후" [ref=e266]:
+                - /url: /@%EC%BD%94%EB%8D%95%ED%9B%84
+              - link "코덕후" [ref=e272]:
+                - /url: /@%EC%BD%94%EB%8D%95%ED%9B%84
+            - generic [ref=e273]:
+              - generic [ref=e274]: 600만원 → 3000억 워뇨띠 매매법 핵심 Q&A (실시간 포지션 보는 법) 오늘 영상에서는 워뇨띠 매매법 중 200가지의 Q&A를 압축해서 ...
+              - tooltip "tooltip"
+            - generic [ref=e277]:
+              - generic [ref=e278]:
+                - generic [ref=e282]: 9 chapters
+                - button "오프닝 | 핵심3가지 | 트레이딩 비법 | 승률 중심 | 실시간 워뇨띠 포지션 확인하는 법 | 리스크 관리 | 멘탈 관리 | 차트분석 | 핵심 총 정리" [ref=e283]
+              - button "More" [ref=e288]
+        - generic [ref=e295]:
+          - link [ref=e297] [cursor=pointer]:
+            - /url: /watch?v=53fkSvKfzhE&pp=ygUk7JuM64eo652gIO2KuOugiOydtOuUqSDsoITrnrUg67O07KeA
+          - generic [ref=e299] [cursor=pointer]:
+            - generic [ref=e300]:
+              - heading "600만원 → 3000억 , 코인선물의 전설 워뇨띠 트레이딩 방법 및 꿀통 공개 3 minutes, 44 seconds" [level=3] [ref=e302]:
+                - link "600만원 → 3000억 , 코인선물의 전설 워뇨띠 트레이딩 방법 및 꿀통 공개 3 minutes, 44 seconds" [ref=e303]:
+                  - /url: /watch?v=53fkSvKfzhE&pp=ygUk7JuM64eo652gIO2KuOugiOydtOuUqSDsoITrnrUg67O07KeA
+                  - text: 600만원 → 3000억 , 코인선물의 전설 워뇨띠 트레이딩 방법 및 꿀통 공개
+              - generic [ref=e306]:
+                - generic [ref=e307]: 162 views
+                - generic [ref=e308]: •2 years ago
+            - generic [ref=e309]:
+              - link "Go to channel 모두를 위한 트레이딩 전략 연구소" [ref=e310]:
+                - /url: /@bestrading0
+              - link "모두를 위한 트레이딩 전략 연구소" [ref=e315]:
+                - /url: /@bestrading0
+            - generic [ref=e316]:
+              - generic [ref=e317]: 오늘 영상은 워뇨띠의 트레이딩 전략을 연구해보았습니다. 프렉탈 및 거래량의 중요성을 다시한번 느끼는 트레이딩 전략이었습니다.
+              - tooltip "tooltip"

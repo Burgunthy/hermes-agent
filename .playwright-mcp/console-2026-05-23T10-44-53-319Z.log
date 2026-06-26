@@ -1,0 +1,3 @@
+[     466ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://scholar.google.com/scholar?q=teacher+student+dexterous+manipulation+without+tactile+sim+to+real+2024:0
+[     486ms] ReferenceError: solveSimpleChallenge is not defined
+    at onload (https://scholar.google.com/scholar?q=teacher+student+dexterous+manipulation+without+tactile+sim+to+real+2024:4:316)

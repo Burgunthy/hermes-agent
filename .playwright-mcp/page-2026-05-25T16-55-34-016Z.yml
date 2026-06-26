@@ -1,0 +1,549 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ollama" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Ollama" [ref=e5]
+      - generic [ref=e6]:
+        - link "Models" [ref=e7] [cursor=pointer]:
+          - /url: /search
+        - link "Docs" [ref=e8] [cursor=pointer]:
+          - /url: /docs
+        - link "Pricing" [ref=e9] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=e13]:
+        - img [ref=e15]
+        - textbox "Search models" [ref=e17]
+      - generic [ref=e18]:
+        - link "Sign in" [ref=e19] [cursor=pointer]:
+          - /url: /signin
+        - link "Download" [ref=e20] [cursor=pointer]:
+          - /url: /download
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - link "granite4.1" [ref=e27] [cursor=pointer]:
+        - /url: /library/granite4.1
+      - generic [ref=e28]:
+        - paragraph [ref=e30]:
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - generic [ref=e34]: 104.1K
+            - generic [ref=e35]: Downloads
+          - generic "May 19, 2026 9:58 PM UTC" [ref=e36]:
+            - img [ref=e37]
+            - generic [ref=e39]: Updated
+            - generic [ref=e40]: 5 days ago
+        - heading "IBM Granite Models are a family of enterprise-ready, open foundation models that support multilingual capabilities, coding, retrieval-augmented generation (RAG), tool use, and structured JSON output. Released under Apache 2.0 license." [level=2] [ref=e42]
+        - generic [ref=e43]:
+          - generic [ref=e44]: tools
+          - generic [ref=e45]: 3b
+          - generic [ref=e46]: 8b
+          - generic [ref=e47]: 30b
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - paragraph [ref=e52]: Name
+        - paragraph [ref=e53]: Size / Usage
+        - paragraph [ref=e54]: Context
+        - paragraph [ref=e55]: Input
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - link "granite4.1:3b" [ref=e60] [cursor=pointer]:
+            - /url: /library/granite4.1:3b
+          - paragraph [ref=e61]: 2.1GB
+          - paragraph [ref=e62]: 128K
+          - generic [ref=e63]: Text
+        - generic [ref=e64]:
+          - generic [ref=e65]: 6fd349357287
+          - text: · 3 weeks ago
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - link "granite4.1:8b" [ref=e70] [cursor=pointer]:
+            - /url: /library/granite4.1:8b
+          - paragraph [ref=e71]: 5.3GB
+          - paragraph [ref=e72]: 128K
+          - generic [ref=e73]: Text
+        - generic [ref=e74]:
+          - generic [ref=e75]: 444af1c4b2fe
+          - text: · 3 weeks ago
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - link "granite4.1:30b" [ref=e80] [cursor=pointer]:
+            - /url: /library/granite4.1:30b
+          - paragraph [ref=e81]: 17GB
+          - paragraph [ref=e82]: 128K
+          - generic [ref=e83]: Text
+        - generic [ref=e84]:
+          - generic [ref=e85]: 3f3e5df8a021
+          - text: · 3 weeks ago
+      - generic [ref=e87]:
+        - generic [ref=e88]:
+          - link "granite4.1:3b-q2_K" [ref=e90] [cursor=pointer]:
+            - /url: /library/granite4.1:3b-q2_K
+          - paragraph [ref=e91]: 1.4GB
+          - paragraph [ref=e92]: 128K
+          - generic [ref=e93]: Text
+        - generic [ref=e94]:
+          - generic [ref=e95]: 41d7e7e6dc59
+          - text: · 3 weeks ago
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - link "granite4.1:3b-q3_K_S" [ref=e100] [cursor=pointer]:
+            - /url: /library/granite4.1:3b-q3_K_S
+          - paragraph [ref=e101]: 1.6GB
+          - paragraph [ref=e102]: 128K
+          - generic [ref=e103]: Text
+        - generic [ref=e104]:
+          - generic [ref=e105]: 1daefd678dc8
+          - text: · 3 weeks ago
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - link "granite4.1:3b-q3_K_M" [ref=e110] [cursor=pointer]:
+            - /url: /library/granite4.1:3b-q3_K_M
+          - paragraph [ref=e111]: 1.7GB
+          - paragraph [ref=e112]: 128K
+          - generic [ref=e113]: Text
+        - generic [ref=e114]:
+          - generic [ref=e115]: bd72b20cd67b
+          - text: · 3 weeks ago
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - link "granite4.1:3b-q3_K_L" [ref=e120] [cursor=pointer]:
+            - /url: /library/granite4.1:3b-q3_K_L
+          - paragraph [ref=e121]: 1.9GB
+          - paragraph [ref=e122]: 128K
+          - generic [ref=e123]: Text
+        - generic [ref=e124]:
+          - generic [ref=e125]: eb446378f84c
+          - text: · 3 weeks ago
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - link "granite4.1:3b-q4_0" [ref=e130] [cursor=pointer]:
+            - /url: /library/granite4.1:3b-q4_0
+          - paragraph [ref=e131]: 2.0GB
+          - paragraph [ref=e132]: 128K
+          - generic [ref=e133]: Text
+        - generic [ref=e134]:
+          - generic [ref=e135]: 010f4b63e5f7
+          - text: · 3 weeks ago
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - link "granite4.1:3b-q4_1" [ref=e140] [cursor=pointer]:
+            - /url: /library/granite4.1:3b-q4_1
+          - paragraph [ref=e141]: 2.2GB
+          - paragraph [ref=e142]: 128K
+          - generic [ref=e143]: Text
+        - generic [ref=e144]:
+          - generic [ref=e145]: 53377988686e
+          - text: · 3 weeks ago
+      - generic [ref=e147]:
+        - generic [ref=e148]:
+          - link "granite4.1:3b-q4_K_S" [ref=e150] [cursor=pointer]:
+            - /url: /library/granite4.1:3b-q4_K_S
+          - paragraph [ref=e151]: 2.0GB
+          - paragraph [ref=e152]: 128K
+          - generic [ref=e153]: Text
+        - generic [ref=e154]:
+          - generic [ref=e155]: aaf53db81651
+          - text: · 3 weeks ago
+      - generic [ref=e157]:
+        - generic [ref=e158]:
+          - link "granite4.1:3b-q4_K_M" [ref=e160] [cursor=pointer]:
+            - /url: /library/granite4.1:3b-q4_K_M
+          - paragraph [ref=e161]: 2.1GB
+          - paragraph [ref=e162]: 128K
+          - generic [ref=e163]: Text
+        - generic [ref=e164]:
+          - generic [ref=e165]: 6fd349357287
+          - text: · 3 weeks ago
+      - generic [ref=e167]:
+        - generic [ref=e168]:
+          - link "granite4.1:3b-q5_0" [ref=e170] [cursor=pointer]:
+            - /url: /library/granite4.1:3b-q5_0
+          - paragraph [ref=e171]: 2.4GB
+          - paragraph [ref=e172]: 128K
+          - generic [ref=e173]: Text
+        - generic [ref=e174]:
+          - generic [ref=e175]: 655215522aaa
+          - text: · 3 weeks ago
+      - generic [ref=e177]:
+        - generic [ref=e178]:
+          - link "granite4.1:3b-q5_1" [ref=e180] [cursor=pointer]:
+            - /url: /library/granite4.1:3b-q5_1
+          - paragraph [ref=e181]: 2.6GB
+          - paragraph [ref=e182]: 128K
+          - generic [ref=e183]: Text
+        - generic [ref=e184]:
+          - generic [ref=e185]: 7d0a195533f7
+          - text: · 3 weeks ago
+      - generic [ref=e187]:
+        - generic [ref=e188]:
+          - link "granite4.1:3b-q5_K_S" [ref=e190] [cursor=pointer]:
+            - /url: /library/granite4.1:3b-q5_K_S
+          - paragraph [ref=e191]: 2.4GB
+          - paragraph [ref=e192]: 128K
+          - generic [ref=e193]: Text
+        - generic [ref=e194]:
+          - generic [ref=e195]: d671c6877cde
+          - text: · 3 weeks ago
+      - generic [ref=e197]:
+        - generic [ref=e198]:
+          - link "granite4.1:3b-q5_K_M" [ref=e200] [cursor=pointer]:
+            - /url: /library/granite4.1:3b-q5_K_M
+          - paragraph [ref=e201]: 2.4GB
+          - paragraph [ref=e202]: 128K
+          - generic [ref=e203]: Text
+        - generic [ref=e204]:
+          - generic [ref=e205]: 5f9ff57bab32
+          - text: · 3 weeks ago
+      - generic [ref=e207]:
+        - generic [ref=e208]:
+          - link "granite4.1:3b-q6_K" [ref=e210] [cursor=pointer]:
+            - /url: /library/granite4.1:3b-q6_K
+          - paragraph [ref=e211]: 2.8GB
+          - paragraph [ref=e212]: 128K
+          - generic [ref=e213]: Text
+        - generic [ref=e214]:
+          - generic [ref=e215]: 3c142316f4cf
+          - text: · 3 weeks ago
+      - generic [ref=e217]:
+        - generic [ref=e218]:
+          - link "granite4.1:3b-q8_0" [ref=e220] [cursor=pointer]:
+            - /url: /library/granite4.1:3b-q8_0
+          - paragraph [ref=e221]: 3.6GB
+          - paragraph [ref=e222]: 128K
+          - generic [ref=e223]: Text
+        - generic [ref=e224]:
+          - generic [ref=e225]: f087f8b0712f
+          - text: · 3 weeks ago
+      - generic [ref=e227]:
+        - generic [ref=e228]:
+          - link "granite4.1:3b-bf16" [ref=e230] [cursor=pointer]:
+            - /url: /library/granite4.1:3b-bf16
+          - paragraph [ref=e231]: 6.8GB
+          - paragraph [ref=e232]: 128K
+          - generic [ref=e233]: Text
+        - generic [ref=e234]:
+          - generic [ref=e235]: 517250fafa06
+          - text: · 5 days ago
+      - generic [ref=e237]:
+        - generic [ref=e238]:
+          - link "granite4.1:8b-q2_K" [ref=e240] [cursor=pointer]:
+            - /url: /library/granite4.1:8b-q2_K
+          - paragraph [ref=e241]: 3.4GB
+          - paragraph [ref=e242]: 128K
+          - generic [ref=e243]: Text
+        - generic [ref=e244]:
+          - generic [ref=e245]: ccf96f3f0780
+          - text: · 3 weeks ago
+      - generic [ref=e247]:
+        - generic [ref=e248]:
+          - link "granite4.1:8b-q3_K_S" [ref=e250] [cursor=pointer]:
+            - /url: /library/granite4.1:8b-q3_K_S
+          - paragraph [ref=e251]: 3.9GB
+          - paragraph [ref=e252]: 128K
+          - generic [ref=e253]: Text
+        - generic [ref=e254]:
+          - generic [ref=e255]: a6cf031b28f0
+          - text: · 3 weeks ago
+      - generic [ref=e257]:
+        - generic [ref=e258]:
+          - link "granite4.1:8b-q3_K_M" [ref=e260] [cursor=pointer]:
+            - /url: /library/granite4.1:8b-q3_K_M
+          - paragraph [ref=e261]: 4.3GB
+          - paragraph [ref=e262]: 128K
+          - generic [ref=e263]: Text
+        - generic [ref=e264]:
+          - generic [ref=e265]: 11ec0ebc2697
+          - text: · 3 weeks ago
+      - generic [ref=e267]:
+        - generic [ref=e268]:
+          - link "granite4.1:8b-q3_K_L" [ref=e270] [cursor=pointer]:
+            - /url: /library/granite4.1:8b-q3_K_L
+          - paragraph [ref=e271]: 4.7GB
+          - paragraph [ref=e272]: 128K
+          - generic [ref=e273]: Text
+        - generic [ref=e274]:
+          - generic [ref=e275]: d780c2e519e8
+          - text: · 3 weeks ago
+      - generic [ref=e277]:
+        - generic [ref=e278]:
+          - link "granite4.1:8b-q4_0" [ref=e280] [cursor=pointer]:
+            - /url: /library/granite4.1:8b-q4_0
+          - paragraph [ref=e281]: 5.1GB
+          - paragraph [ref=e282]: 128K
+          - generic [ref=e283]: Text
+        - generic [ref=e284]:
+          - generic [ref=e285]: d1ca2294e93a
+          - text: · 3 weeks ago
+      - generic [ref=e287]:
+        - generic [ref=e288]:
+          - link "granite4.1:8b-q4_1" [ref=e290] [cursor=pointer]:
+            - /url: /library/granite4.1:8b-q4_1
+          - paragraph [ref=e291]: 5.6GB
+          - paragraph [ref=e292]: 128K
+          - generic [ref=e293]: Text
+        - generic [ref=e294]:
+          - generic [ref=e295]: d2eb1c61fdae
+          - text: · 3 weeks ago
+      - generic [ref=e297]:
+        - generic [ref=e298]:
+          - link "granite4.1:8b-q4_K_S" [ref=e300] [cursor=pointer]:
+            - /url: /library/granite4.1:8b-q4_K_S
+          - paragraph [ref=e301]: 5.1GB
+          - paragraph [ref=e302]: 128K
+          - generic [ref=e303]: Text
+        - generic [ref=e304]:
+          - generic [ref=e305]: f7082ba9a6e7
+          - text: · 3 weeks ago
+      - generic [ref=e307]:
+        - generic [ref=e308]:
+          - link "granite4.1:8b-q4_K_M" [ref=e310] [cursor=pointer]:
+            - /url: /library/granite4.1:8b-q4_K_M
+          - paragraph [ref=e311]: 5.3GB
+          - paragraph [ref=e312]: 128K
+          - generic [ref=e313]: Text
+        - generic [ref=e314]:
+          - generic [ref=e315]: 444af1c4b2fe
+          - text: · 3 weeks ago
+      - generic [ref=e317]:
+        - generic [ref=e318]:
+          - link "granite4.1:8b-q5_0" [ref=e320] [cursor=pointer]:
+            - /url: /library/granite4.1:8b-q5_0
+          - paragraph [ref=e321]: 6.1GB
+          - paragraph [ref=e322]: 128K
+          - generic [ref=e323]: Text
+        - generic [ref=e324]:
+          - generic [ref=e325]: 4ac8c864384e
+          - text: · 3 weeks ago
+      - generic [ref=e327]:
+        - generic [ref=e328]:
+          - link "granite4.1:8b-q5_1" [ref=e330] [cursor=pointer]:
+            - /url: /library/granite4.1:8b-q5_1
+          - paragraph [ref=e331]: 6.6GB
+          - paragraph [ref=e332]: 128K
+          - generic [ref=e333]: Text
+        - generic [ref=e334]:
+          - generic [ref=e335]: 88e9f3963ec8
+          - text: · 3 weeks ago
+      - generic [ref=e337]:
+        - generic [ref=e338]:
+          - link "granite4.1:8b-q5_K_S" [ref=e340] [cursor=pointer]:
+            - /url: /library/granite4.1:8b-q5_K_S
+          - paragraph [ref=e341]: 6.1GB
+          - paragraph [ref=e342]: 128K
+          - generic [ref=e343]: Text
+        - generic [ref=e344]:
+          - generic [ref=e345]: 3f290aa8867b
+          - text: · 3 weeks ago
+      - generic [ref=e347]:
+        - generic [ref=e348]:
+          - link "granite4.1:8b-q5_K_M" [ref=e350] [cursor=pointer]:
+            - /url: /library/granite4.1:8b-q5_K_M
+          - paragraph [ref=e351]: 6.3GB
+          - paragraph [ref=e352]: 128K
+          - generic [ref=e353]: Text
+        - generic [ref=e354]:
+          - generic [ref=e355]: a15a247eea85
+          - text: · 3 weeks ago
+      - generic [ref=e357]:
+        - generic [ref=e358]:
+          - link "granite4.1:8b-q6_K" [ref=e360] [cursor=pointer]:
+            - /url: /library/granite4.1:8b-q6_K
+          - paragraph [ref=e361]: 7.2GB
+          - paragraph [ref=e362]: 128K
+          - generic [ref=e363]: Text
+        - generic [ref=e364]:
+          - generic [ref=e365]: cc47b04956a8
+          - text: · 3 weeks ago
+      - generic [ref=e367]:
+        - generic [ref=e368]:
+          - link "granite4.1:8b-q8_0" [ref=e370] [cursor=pointer]:
+            - /url: /library/granite4.1:8b-q8_0
+          - paragraph [ref=e371]: 9.3GB
+          - paragraph [ref=e372]: 128K
+          - generic [ref=e373]: Text
+        - generic [ref=e374]:
+          - generic [ref=e375]: ee48dfe31954
+          - text: · 3 weeks ago
+      - generic [ref=e377]:
+        - generic [ref=e378]:
+          - link "granite4.1:8b-bf16" [ref=e380] [cursor=pointer]:
+            - /url: /library/granite4.1:8b-bf16
+          - paragraph [ref=e381]: 18GB
+          - paragraph [ref=e382]: 128K
+          - generic [ref=e383]: Text
+        - generic [ref=e384]:
+          - generic [ref=e385]: ff2ca5247c31
+          - text: · 5 days ago
+      - generic [ref=e387]:
+        - generic [ref=e388]:
+          - link "granite4.1:30b-q2_K" [ref=e390] [cursor=pointer]:
+            - /url: /library/granite4.1:30b-q2_K
+          - paragraph [ref=e391]: 11GB
+          - paragraph [ref=e392]: 128K
+          - generic [ref=e393]: Text
+        - generic [ref=e394]:
+          - generic [ref=e395]: ae1d684487df
+          - text: · 3 weeks ago
+      - generic [ref=e397]:
+        - generic [ref=e398]:
+          - link "granite4.1:30b-q3_K_S" [ref=e400] [cursor=pointer]:
+            - /url: /library/granite4.1:30b-q3_K_S
+          - paragraph [ref=e401]: 13GB
+          - paragraph [ref=e402]: 128K
+          - generic [ref=e403]: Text
+        - generic [ref=e404]:
+          - generic [ref=e405]: a5eeaa67e5fd
+          - text: · 3 weeks ago
+      - generic [ref=e407]:
+        - generic [ref=e408]:
+          - link "granite4.1:30b-q3_K_M" [ref=e410] [cursor=pointer]:
+            - /url: /library/granite4.1:30b-q3_K_M
+          - paragraph [ref=e411]: 14GB
+          - paragraph [ref=e412]: 128K
+          - generic [ref=e413]: Text
+        - generic [ref=e414]:
+          - generic [ref=e415]: "234006e86874"
+          - text: · 3 weeks ago
+      - generic [ref=e417]:
+        - generic [ref=e418]:
+          - link "granite4.1:30b-q3_K_L" [ref=e420] [cursor=pointer]:
+            - /url: /library/granite4.1:30b-q3_K_L
+          - paragraph [ref=e421]: 15GB
+          - paragraph [ref=e422]: 128K
+          - generic [ref=e423]: Text
+        - generic [ref=e424]:
+          - generic [ref=e425]: 7c55609a16c7
+          - text: · 3 weeks ago
+      - generic [ref=e427]:
+        - generic [ref=e428]:
+          - link "granite4.1:30b-q4_0" [ref=e430] [cursor=pointer]:
+            - /url: /library/granite4.1:30b-q4_0
+          - paragraph [ref=e431]: 16GB
+          - paragraph [ref=e432]: 128K
+          - generic [ref=e433]: Text
+        - generic [ref=e434]:
+          - generic [ref=e435]: 402200215ef1
+          - text: · 3 weeks ago
+      - generic [ref=e437]:
+        - generic [ref=e438]:
+          - link "granite4.1:30b-q4_1" [ref=e440] [cursor=pointer]:
+            - /url: /library/granite4.1:30b-q4_1
+          - paragraph [ref=e441]: 18GB
+          - paragraph [ref=e442]: 128K
+          - generic [ref=e443]: Text
+        - generic [ref=e444]:
+          - generic [ref=e445]: 8f3b74ec031d
+          - text: · 3 weeks ago
+      - generic [ref=e447]:
+        - generic [ref=e448]:
+          - link "granite4.1:30b-q4_K_S" [ref=e450] [cursor=pointer]:
+            - /url: /library/granite4.1:30b-q4_K_S
+          - paragraph [ref=e451]: 16GB
+          - paragraph [ref=e452]: 128K
+          - generic [ref=e453]: Text
+        - generic [ref=e454]:
+          - generic [ref=e455]: 1cab6c5d975d
+          - text: · 3 weeks ago
+      - generic [ref=e457]:
+        - generic [ref=e458]:
+          - link "granite4.1:30b-q4_K_M" [ref=e460] [cursor=pointer]:
+            - /url: /library/granite4.1:30b-q4_K_M
+          - paragraph [ref=e461]: 17GB
+          - paragraph [ref=e462]: 128K
+          - generic [ref=e463]: Text
+        - generic [ref=e464]:
+          - generic [ref=e465]: 3f3e5df8a021
+          - text: · 3 weeks ago
+      - generic [ref=e467]:
+        - generic [ref=e468]:
+          - link "granite4.1:30b-q5_0" [ref=e470] [cursor=pointer]:
+            - /url: /library/granite4.1:30b-q5_0
+          - paragraph [ref=e471]: 20GB
+          - paragraph [ref=e472]: 128K
+          - generic [ref=e473]: Text
+        - generic [ref=e474]:
+          - generic [ref=e475]: 9b8dca9cb9cb
+          - text: · 3 weeks ago
+      - generic [ref=e477]:
+        - generic [ref=e478]:
+          - link "granite4.1:30b-q5_1" [ref=e480] [cursor=pointer]:
+            - /url: /library/granite4.1:30b-q5_1
+          - paragraph [ref=e481]: 22GB
+          - paragraph [ref=e482]: 128K
+          - generic [ref=e483]: Text
+        - generic [ref=e484]:
+          - generic [ref=e485]: 23203614f0e9
+          - text: · 3 weeks ago
+      - generic [ref=e487]:
+        - generic [ref=e488]:
+          - link "granite4.1:30b-q5_K_S" [ref=e490] [cursor=pointer]:
+            - /url: /library/granite4.1:30b-q5_K_S
+          - paragraph [ref=e491]: 20GB
+          - paragraph [ref=e492]: 128K
+          - generic [ref=e493]: Text
+        - generic [ref=e494]:
+          - generic [ref=e495]: f1fba10b6ca9
+          - text: · 3 weeks ago
+      - generic [ref=e497]:
+        - generic [ref=e498]:
+          - link "granite4.1:30b-q5_K_M" [ref=e500] [cursor=pointer]:
+            - /url: /library/granite4.1:30b-q5_K_M
+          - paragraph [ref=e501]: 20GB
+          - paragraph [ref=e502]: 128K
+          - generic [ref=e503]: Text
+        - generic [ref=e504]:
+          - generic [ref=e505]: 454ddb5316f7
+          - text: · 3 weeks ago
+      - generic [ref=e507]:
+        - generic [ref=e508]:
+          - link "granite4.1:30b-q6_K" [ref=e510] [cursor=pointer]:
+            - /url: /library/granite4.1:30b-q6_K
+          - paragraph [ref=e511]: 24GB
+          - paragraph [ref=e512]: 128K
+          - generic [ref=e513]: Text
+        - generic [ref=e514]:
+          - generic [ref=e515]: d7711d853ce4
+          - text: · 3 weeks ago
+      - generic [ref=e517]:
+        - generic [ref=e518]:
+          - link "granite4.1:30b-q8_0" [ref=e520] [cursor=pointer]:
+            - /url: /library/granite4.1:30b-q8_0
+          - paragraph [ref=e521]: 31GB
+          - paragraph [ref=e522]: 128K
+          - generic [ref=e523]: Text
+        - generic [ref=e524]:
+          - generic [ref=e525]: 0f7a2b54edab
+          - text: · 3 weeks ago
+      - generic [ref=e527]:
+        - generic [ref=e528]:
+          - link "granite4.1:30b-bf16" [ref=e530] [cursor=pointer]:
+            - /url: /library/granite4.1:30b-bf16
+          - paragraph [ref=e531]: 58GB
+          - paragraph [ref=e532]: 128K
+          - generic [ref=e533]: Text
+        - generic [ref=e534]:
+          - generic [ref=e535]: e2e7d6de1890
+          - text: · 3 weeks ago
+  - contentinfo [ref=e536]:
+    - generic [ref=e538]:
+      - generic [ref=e539]: © 2026 Ollama
+      - generic [ref=e540]:
+        - link "Download" [ref=e541] [cursor=pointer]:
+          - /url: /download
+        - link "Blog" [ref=e542] [cursor=pointer]:
+          - /url: /blog
+        - link "Docs" [ref=e543] [cursor=pointer]:
+          - /url: https://docs.ollama.com
+        - link "GitHub" [ref=e544] [cursor=pointer]:
+          - /url: https://github.com/ollama/ollama
+        - link "Discord" [ref=e545] [cursor=pointer]:
+          - /url: https://discord.com/invite/ollama
+        - link "X (Twitter)" [ref=e546] [cursor=pointer]:
+          - /url: https://twitter.com/ollama
+        - link "Contact" [ref=e547] [cursor=pointer]:
+          - /url: mailto:hello@ollama.com
+        - link "Privacy" [ref=e548] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e549] [cursor=pointer]:
+          - /url: /terms

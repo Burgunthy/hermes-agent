@@ -1,0 +1,524 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e6]:
+        - heading "Navigation Menu" [level=2] [ref=e7]
+        - generic [ref=e8]:
+          - link "Homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+          - generic [ref=e13]:
+            - navigation "Global" [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Platform" [ref=e20] [cursor=pointer]:
+                    - text: Platform
+                    - img [ref=e21]
+                - listitem [ref=e23]:
+                  - button "Solutions" [ref=e25] [cursor=pointer]:
+                    - text: Solutions
+                    - img [ref=e26]
+                - listitem [ref=e28]:
+                  - button "Resources" [ref=e30] [cursor=pointer]:
+                    - text: Resources
+                    - img [ref=e31]
+                - listitem [ref=e33]:
+                  - button "Open Source" [ref=e35] [cursor=pointer]:
+                    - text: Open Source
+                    - img [ref=e36]
+                - listitem [ref=e38]:
+                  - button "Enterprise" [ref=e40] [cursor=pointer]:
+                    - text: Enterprise
+                    - img [ref=e41]
+                - listitem [ref=e43]:
+                  - link "Pricing" [ref=e44] [cursor=pointer]:
+                    - /url: https://github.com/pricing
+                    - generic [ref=e45]: Pricing
+            - generic [ref=e46]:
+              - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+                - img [ref=e51]
+              - link "Sign in" [ref=e54] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fiterativv%2FNostalgiaForInfinity%2Fblob%2Fmain%2FREADME.md
+              - link "Sign up" [ref=e55] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&source=header-repo&source_repo=iterativv%2FNostalgiaForInfinity
+              - button "Appearance settings" [ref=e58] [cursor=pointer]:
+                - img
+    - main [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - link "iterativv" [ref=e70] [cursor=pointer]:
+              - /url: /iterativv
+            - generic [ref=e71]: /
+            - strong [ref=e72]:
+              - link "NostalgiaForInfinity" [ref=e73] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity
+            - generic [ref=e74]: Public
+          - generic [ref=e75]:
+            - list:
+              - listitem [ref=e76]:
+                - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fiterativv%2FNostalgiaForInfinity
+                  - img [ref=e78]
+                  - text: Notifications
+              - listitem [ref=e80]:
+                - link "Fork 721" [ref=e81] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fiterativv%2FNostalgiaForInfinity
+                  - img [ref=e82]
+                  - text: Fork
+                  - generic "721" [ref=e84]
+              - listitem [ref=e85]:
+                - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fiterativv%2FNostalgiaForInfinity
+                  - img [ref=e88]
+                  - text: Star
+                  - generic "3219 users starred this repository" [ref=e90]: 3.2k
+        - navigation "Repository" [ref=e91]:
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Code" [ref=e94] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity
+                - img [ref=e95]
+                - generic [ref=e97]: Code
+            - listitem [ref=e98]:
+              - link "Issues 60" [ref=e99] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity/issues
+                - img [ref=e100]
+                - generic [ref=e103]: Issues
+                - generic "60" [ref=e104]
+            - listitem [ref=e105]:
+              - link "Pull requests 3" [ref=e106] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity/pulls
+                - img [ref=e107]
+                - generic [ref=e109]: Pull requests
+                - generic "3" [ref=e110]
+            - listitem [ref=e111]:
+              - link "Actions" [ref=e112] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity/actions
+                - img [ref=e113]
+                - generic [ref=e115]: Actions
+            - listitem [ref=e116]:
+              - link "Projects" [ref=e117] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity/projects
+                - img [ref=e118]
+                - generic [ref=e120]: Projects
+            - listitem [ref=e121]:
+              - link "Wiki" [ref=e122] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity/wiki
+                - img [ref=e123]
+                - generic [ref=e125]: Wiki
+            - listitem [ref=e126]:
+              - link "Security and quality" [ref=e127] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity/security
+                - img [ref=e128]
+                - generic [ref=e130]: Security and quality
+            - listitem [ref=e131]:
+              - link "Insights" [ref=e132] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity/pulse
+                - img [ref=e133]
+                - generic [ref=e135]: Insights
+      - generic [ref=e143]:
+        - generic [ref=e145]:
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - heading "Collapse file tree" [level=2] [ref=e151]:
+                  - button "Collapse file tree" [expanded] [ref=e152] [cursor=pointer]:
+                    - img [ref=e153]
+                - heading "Files" [level=2] [ref=e156]
+              - generic [ref=e157]:
+                - button "main branch" [ref=e159] [cursor=pointer]:
+                  - generic [ref=e160]:
+                    - generic [ref=e162]:
+                      - img [ref=e164]
+                      - generic [ref=e167]: main
+                    - generic:
+                      - img
+                - button "Search this repository (forward slash)" [ref=e169] [cursor=pointer]:
+                  - img [ref=e170]
+            - generic [ref=e173]:
+              - img [ref=e175]
+              - combobox "Go to file" [ref=e177]
+            - navigation "File Tree Navigation" [ref=e183]:
+              - tree "Files" [ref=e185]:
+                - treeitem ".github" [level=1] [ref=e186]:
+                  - generic [ref=e187] [cursor=pointer]:
+                    - img [ref=e189]
+                    - generic [ref=e191]:
+                      - img [ref=e195]
+                      - generic [ref=e197]: .github
+                - treeitem "configs" [level=1] [ref=e198]:
+                  - generic [ref=e199] [cursor=pointer]:
+                    - img [ref=e201]
+                    - generic [ref=e203]:
+                      - img [ref=e207]
+                      - generic [ref=e209]: configs
+                - treeitem "docker" [level=1] [ref=e210]:
+                  - generic [ref=e211] [cursor=pointer]:
+                    - img [ref=e213]
+                    - generic [ref=e215]:
+                      - img [ref=e219]
+                      - generic [ref=e221]: docker
+                - treeitem "docs" [level=1] [ref=e222]:
+                  - generic [ref=e223] [cursor=pointer]:
+                    - img [ref=e225]
+                    - generic [ref=e227]:
+                      - img [ref=e231]
+                      - generic [ref=e233]: docs
+                - treeitem "legacy" [level=1] [ref=e234]:
+                  - generic [ref=e235] [cursor=pointer]:
+                    - img [ref=e237]
+                    - generic [ref=e239]:
+                      - img [ref=e243]
+                      - generic [ref=e245]: legacy
+                - treeitem "tests" [level=1] [ref=e246]:
+                  - generic [ref=e247] [cursor=pointer]:
+                    - img [ref=e249]
+                    - generic [ref=e251]:
+                      - img [ref=e255]
+                      - generic [ref=e257]: tests
+                - treeitem "tools" [level=1] [ref=e258]:
+                  - generic [ref=e259] [cursor=pointer]:
+                    - img [ref=e261]
+                    - generic [ref=e263]:
+                      - img [ref=e267]
+                      - generic [ref=e269]: tools
+                - treeitem "user_data" [level=1] [ref=e270]:
+                  - generic [ref=e271] [cursor=pointer]:
+                    - img [ref=e273]
+                    - generic [ref=e275]:
+                      - img [ref=e279]
+                      - generic [ref=e281]: user_data
+                - treeitem ".editorconfig" [level=1] [ref=e282]:
+                  - generic [ref=e284] [cursor=pointer]:
+                    - img [ref=e287]
+                    - generic [ref=e289]: .editorconfig
+                - treeitem ".gitignore" [level=1] [ref=e290]:
+                  - generic [ref=e292] [cursor=pointer]:
+                    - img [ref=e295]
+                    - generic [ref=e297]: .gitignore
+                - treeitem ".pre-commit-config.yaml" [level=1] [ref=e298]:
+                  - generic [ref=e300] [cursor=pointer]:
+                    - img [ref=e303]
+                    - generic [ref=e305]: .pre-commit-config.yaml
+                - treeitem "LICENSE" [level=1] [ref=e306]:
+                  - generic [ref=e308] [cursor=pointer]:
+                    - img [ref=e311]
+                    - generic [ref=e313]: LICENSE
+                - treeitem "NostalgiaForInfinityX.py" [level=1] [ref=e314]:
+                  - generic [ref=e316] [cursor=pointer]:
+                    - img [ref=e319]
+                    - generic [ref=e321]: NostalgiaForInfinityX.py
+                - treeitem "NostalgiaForInfinityX2.py" [level=1] [ref=e322]:
+                  - generic [ref=e324] [cursor=pointer]:
+                    - img [ref=e327]
+                    - generic [ref=e329]: NostalgiaForInfinityX2.py
+                - treeitem "NostalgiaForInfinityX3.py" [level=1] [ref=e330]:
+                  - generic [ref=e332] [cursor=pointer]:
+                    - img [ref=e335]
+                    - generic [ref=e337]: NostalgiaForInfinityX3.py
+                - treeitem "NostalgiaForInfinityX4.py" [level=1] [ref=e338]:
+                  - generic [ref=e340] [cursor=pointer]:
+                    - img [ref=e343]
+                    - generic [ref=e345]: NostalgiaForInfinityX4.py
+                - treeitem "NostalgiaForInfinityX5.py" [level=1] [ref=e346]:
+                  - generic [ref=e348] [cursor=pointer]:
+                    - img [ref=e351]
+                    - generic [ref=e353]: NostalgiaForInfinityX5.py
+                - treeitem "NostalgiaForInfinityX6.py" [level=1] [ref=e354]:
+                  - generic [ref=e356] [cursor=pointer]:
+                    - img [ref=e359]
+                    - generic [ref=e361]: NostalgiaForInfinityX6.py
+                - treeitem "NostalgiaForInfinityX7.py" [level=1] [ref=e362]:
+                  - generic [ref=e364] [cursor=pointer]:
+                    - img [ref=e367]
+                    - generic [ref=e369]: NostalgiaForInfinityX7.py
+                - treeitem "README.md" [level=1] [ref=e370]:
+                  - generic [ref=e372] [cursor=pointer]:
+                    - img [ref=e375]
+                    - generic [ref=e377]: README.md
+                - treeitem "docker-compose.tests.yml" [level=1] [ref=e378]:
+                  - generic [ref=e380] [cursor=pointer]:
+                    - img [ref=e383]
+                    - generic [ref=e385]: docker-compose.tests.yml
+                - treeitem "docker-compose.yml" [level=1] [ref=e386]:
+                  - generic [ref=e388] [cursor=pointer]:
+                    - img [ref=e391]
+                    - generic [ref=e393]: docker-compose.yml
+                - treeitem "live-account-example.env" [level=1] [ref=e394]:
+                  - generic [ref=e396] [cursor=pointer]:
+                    - img [ref=e399]
+                    - generic [ref=e401]: live-account-example.env
+                - treeitem "manual-testing.env" [level=1] [ref=e402]:
+                  - generic [ref=e404] [cursor=pointer]:
+                    - img [ref=e407]
+                    - generic [ref=e409]: manual-testing.env
+                - treeitem "mkdocs.yml" [level=1] [ref=e410]:
+                  - generic [ref=e412] [cursor=pointer]:
+                    - img [ref=e415]
+                    - generic [ref=e417]: mkdocs.yml
+                - treeitem "pyproject.toml" [level=1] [ref=e418]:
+                  - generic [ref=e420] [cursor=pointer]:
+                    - img [ref=e423]
+                    - generic [ref=e425]: pyproject.toml
+                - treeitem "pytest.ini" [level=1] [ref=e426]:
+                  - generic [ref=e428] [cursor=pointer]:
+                    - img [ref=e431]
+                    - generic [ref=e433]: pytest.ini
+          - slider "Draggable pane splitter" [ref=e435]
+        - generic [ref=e438]:
+          - generic [ref=e442]:
+            - generic [ref=e444]:
+              - navigation "Breadcrumbs" [ref=e445]:
+                - heading "Breadcrumbs" [level=2] [ref=e446]
+                - list [ref=e447]:
+                  - listitem [ref=e448]:
+                    - link "NostalgiaForInfinity" [ref=e449] [cursor=pointer]:
+                      - /url: /iterativv/NostalgiaForInfinity/tree/main
+              - generic [ref=e450]:
+                - text: /
+                - heading "README.md" [level=1] [ref=e451]
+              - button "Copy path" [ref=e452] [cursor=pointer]:
+                - img [ref=e453]
+            - button "More file actions" [ref=e459] [cursor=pointer]:
+              - img [ref=e460]
+          - generic [ref=e462]:
+            - generic [ref=e464]:
+              - heading "Latest commit" [level=2] [ref=e465]
+              - generic [ref=e466]:
+                - generic [ref=e468]:
+                  - link "iterativv" [ref=e469] [cursor=pointer]:
+                    - /url: /iterativv
+                    - img "iterativv" [ref=e470]
+                  - link "commits by iterativv" [ref=e471] [cursor=pointer]:
+                    - /url: /iterativv/NostalgiaForInfinity/commits?author=iterativv
+                    - text: iterativv
+                - link "Update the links." [ref=e475] [cursor=pointer]:
+                  - /url: /iterativv/NostalgiaForInfinity/commit/e67e7478fd99a39c7041cddd2ac910b8a46a391c
+              - generic [ref=e476]:
+                - generic [ref=e478]:
+                  - link "Commit e67e747" [ref=e479] [cursor=pointer]:
+                    - /url: /iterativv/NostalgiaForInfinity/commit/e67e7478fd99a39c7041cddd2ac910b8a46a391c
+                    - text: e67e747
+                  - text: ·
+                  - generic "May 13, 2026, 5:37 PM GMT+9" [ref=e480]: May 13, 2026last week
+                - generic [ref=e481]:
+                  - heading "History" [level=2] [ref=e482]
+                  - link "History" [ref=e483] [cursor=pointer]:
+                    - /url: /iterativv/NostalgiaForInfinity/commits/main/README.md
+                    - generic [ref=e484]:
+                      - generic:
+                        - img
+                      - generic [ref=e485]: History
+            - generic [ref=e487]:
+              - generic [ref=e489]:
+                - heading "File metadata and controls" [level=2] [ref=e490]
+                - list "File view" [ref=e492]:
+                  - listitem [ref=e493]:
+                    - button "Preview" [ref=e494] [cursor=pointer]:
+                      - generic [ref=e496]: Preview
+                  - listitem [ref=e497]:
+                    - button "Code" [ref=e498] [cursor=pointer]:
+                      - generic [ref=e500]: Code
+                  - listitem [ref=e501]:
+                    - button "Blame" [ref=e502] [cursor=pointer]:
+                      - generic [ref=e504]: Blame
+                - generic [ref=e505]:
+                  - generic [ref=e507]:
+                    - link "Raw" [ref=e509] [cursor=pointer]:
+                      - /url: https://github.com/iterativv/NostalgiaForInfinity/raw/refs/heads/main/README.md
+                      - generic [ref=e511]: Raw
+                    - button "Copy raw file" [ref=e513] [cursor=pointer]:
+                      - img [ref=e514]
+                    - button "Download raw file" [ref=e518] [cursor=pointer]:
+                      - img [ref=e519]
+                  - button "Outline" [ref=e522] [cursor=pointer]:
+                    - img [ref=e523]
+              - region "README.md" [ref=e526]:
+                - article [ref=e528]:
+                  - generic [ref=e529]:
+                    - heading "NostalgiaForInfinity" [level=1] [ref=e530]
+                    - 'link "Permalink: NostalgiaForInfinity" [ref=e531] [cursor=pointer]':
+                      - /url: "#nostalgiaforinfinity"
+                      - img [ref=e532]
+                  - paragraph [ref=e534]:
+                    - link "GitHub Pages" [ref=e535] [cursor=pointer]:
+                      - /url: https://iterativv.github.io/NostalgiaForInfinity/
+                      - img "GitHub Pages" [ref=e536]
+                  - generic [ref=e537]:
+                    - heading "📖 Documentation" [level=2] [ref=e538]
+                    - 'link "Permalink: 📖 Documentation" [ref=e539] [cursor=pointer]':
+                      - /url: "#-documentation"
+                      - img [ref=e540]
+                  - paragraph [ref=e542]:
+                    - text: "Full documentation is available online at:"
+                    - text: 👉
+                    - link "https://iterativv.github.io/NostalgiaForInfinity/" [ref=e543] [cursor=pointer]:
+                      - /url: https://iterativv.github.io/NostalgiaForInfinity/
+                  - generic [ref=e544]:
+                    - heading "Introduction" [level=2] [ref=e545]
+                    - 'link "Permalink: Introduction" [ref=e546] [cursor=pointer]':
+                      - /url: "#introduction"
+                      - img [ref=e547]
+                  - paragraph [ref=e549]:
+                    - text: Trading strategy for the
+                    - link "Freqtrade" [ref=e550] [cursor=pointer]:
+                      - /url: https://www.freqtrade.io
+                    - text: crypto bot. For backtesting results, check out the comments in the individual
+                    - link "commit" [ref=e551] [cursor=pointer]:
+                      - /url: https://github.com/iterativv/NostalgiaForInfinity/commits/main
+                    - text: page.
+                  - generic [ref=e552]:
+                    - heading "General Recommendations" [level=2] [ref=e553]
+                    - 'link "Permalink: General Recommendations" [ref=e554] [cursor=pointer]':
+                      - /url: "#general-recommendations"
+                      - img [ref=e555]
+                  - paragraph [ref=e557]: For optimal performance, suggested to use between 6 and 12 open trades, with unlimited stake.
+                  - paragraph [ref=e558]: A pairlist with 40 to 80 pairs. Volume pairlist works well.
+                  - paragraph [ref=e559]: Prefer stable coin (USDT, USDC etc) pairs, instead of BTC or ETH pairs.
+                  - paragraph [ref=e560]: Highly recommended to blacklist leveraged tokens (*BULL, *BEAR, *UP, *DOWN etc).
+                  - paragraph [ref=e561]: Ensure that you don't override any variables in you config.json. Especially the timeframe (must be 5m).
+                  - list [ref=e562]:
+                    - listitem [ref=e563]:
+                      - code [ref=e564]: use_exit_signal
+                      - text: must set to true (or not set at all).
+                    - listitem [ref=e565]:
+                      - code [ref=e566]: exit_profit_only
+                      - text: must set to false (or not set at all).
+                    - listitem [ref=e567]:
+                      - code [ref=e568]: ignore_roi_if_entry_signal
+                      - text: must set to true (or not set at all).
+                  - generic [ref=e569]:
+                    - heading "Automatic Updates (Docker)" [level=2] [ref=e570]
+                    - 'link "Permalink: Automatic Updates (Docker)" [ref=e571] [cursor=pointer]':
+                      - /url: "#automatic-updates-docker"
+                      - img [ref=e572]
+                  - paragraph [ref=e574]:
+                    - text: The repository includes an
+                    - code [ref=e575]: nfi-updater
+                    - text: sidecar service for Docker Compose users that keeps the strategy, blacklist, and pairlist automatically up to date without manual intervention.
+                  - paragraph [ref=e576]:
+                    - strong [ref=e577]: "What it does:"
+                  - list [ref=e578]:
+                    - listitem [ref=e579]: "Checks the strategy file, blacklist, and pairlist against the latest version on GitHub on a configurable schedule (default: every day at 10:00 AM in your timezone)"
+                    - listitem [ref=e580]: Watches the blacklist file via HTTP ETag every 60 seconds and applies critical updates immediately
+                    - listitem [ref=e581]: Automatically restarts the freqtrade container only when a file actually changed
+                  - paragraph [ref=e582]:
+                    - strong [ref=e583]: "How to enable it:"
+                  - paragraph [ref=e584]:
+                    - text: The
+                    - code [ref=e585]: nfi-updater
+                    - text: service is already defined in
+                    - code [ref=e586]: docker-compose.yml
+                    - text: ". It starts alongside freqtrade automatically when you run:"
+                  - generic [ref=e587]:
+                    - generic [ref=e588]: docker compose up -d --build
+                    - button "Copy code to clipboard" [ref=e590] [cursor=pointer]:
+                      - img [ref=e591]
+                  - paragraph [ref=e594]:
+                    - strong [ref=e595]:
+                      - text: Configuration (add to your
+                      - code [ref=e596]: .env
+                      - text: "):"
+                  - generic [ref=e597]:
+                    - generic [ref=e598]:
+                      - generic [ref=e599]: "# Timezone for the cron schedule"
+                      - text: TZ=Europe/London
+                      - generic [ref=e600]: "# How often to check for updates (cron syntax, default: daily at 10:00 AM)"
+                      - text: NFI_UPDATE_CRON=0 10 * * *
+                      - generic [ref=e601]: "# Docker Compose project name — must match what 'docker compose ls' shows"
+                      - generic [ref=e602]: "# Docker uses the lowercase folder name by default"
+                      - text: COMPOSE_PROJECT_NAME=nostalgiaforinfinity
+                    - button "Copy code to clipboard" [ref=e604] [cursor=pointer]:
+                      - img [ref=e605]
+                  - paragraph [ref=e608]:
+                    - strong [ref=e609]: "View updater logs:"
+                  - generic [ref=e610]:
+                    - generic [ref=e611]: docker compose logs -f nfi-updater
+                    - button "Copy code to clipboard" [ref=e613] [cursor=pointer]:
+                      - img [ref=e614]
+                  - generic [ref=e617]:
+                    - heading "Discord Link" [level=2] [ref=e618]
+                    - 'link "Permalink: Discord Link" [ref=e619] [cursor=pointer]':
+                      - /url: "#discord-link"
+                      - img [ref=e620]
+                  - paragraph [ref=e622]: This is where we chat, hangout and contribute as a community (both links is the same server)
+                  - list [ref=e623]:
+                    - listitem [ref=e624]:
+                      - link "Discord Invite 1" [ref=e625] [cursor=pointer]:
+                        - /url: https://discord.gg/DeAmv3btxQ
+                    - listitem [ref=e626]:
+                      - link "Discord Invite 2" [ref=e627] [cursor=pointer]:
+                        - /url: https://discord.gg/nzVeNvZsQq
+                  - generic [ref=e628]:
+                    - heading "Referral Links" [level=2] [ref=e629]
+                    - 'link "Permalink: Referral Links" [ref=e630] [cursor=pointer]':
+                      - /url: "#referral-links"
+                      - img [ref=e631]
+                  - paragraph [ref=e633]: "If you like to help, you can also use the following links to sign up to various exchanges:"
+                  - list [ref=e634]:
+                    - listitem [ref=e635]:
+                      - 'link "Binance: (20% discount on trading fees)" [ref=e636] [cursor=pointer]':
+                        - /url: https://www.binance.com/join?ref=C68K26A9
+                    - listitem [ref=e637]:
+                      - 'link "Kucoin: (20% lifetime discount on trading fees)" [ref=e638] [cursor=pointer]':
+                        - /url: https://www.kucoin.com/r/af/QBSSS5J2
+                    - listitem [ref=e639]:
+                      - 'link "Gate: (20% lifetime discount on trading fees)" [ref=e640] [cursor=pointer]':
+                        - /url: https://www.gate.io/share/nfinfinity
+                    - listitem [ref=e641]:
+                      - 'link "OKX: (20% discount on trading fees)" [ref=e642] [cursor=pointer]':
+                        - /url: https://www.okx.com/join/11749725931
+                    - listitem [ref=e643]:
+                      - 'link "MEXC: (10% discount on trading fees)" [ref=e644] [cursor=pointer]':
+                        - /url: https://promote.mexc.com/b/nfinfinity
+                    - listitem [ref=e645]:
+                      - 'link "ByBit: (signup bonuses)" [ref=e646] [cursor=pointer]':
+                        - /url: https://partner.bybit.com/b/nfi
+                    - listitem [ref=e647]:
+                      - 'link "Bitget: (lifetime 20% rebate all plus 10% discount on spot fees)" [ref=e648] [cursor=pointer]':
+                        - /url: https://bonus.bitget.com/nfinfinity
+                    - listitem [ref=e649]:
+                      - link "Kraken:" [ref=e650] [cursor=pointer]:
+                        - /url: https://proinvite.kraken.com/9f1e/cctimhte
+                    - listitem [ref=e651]:
+                      - 'link "BitMart: (20% lifetime discount on trading fees)" [ref=e652] [cursor=pointer]':
+                        - /url: https://www.bitmart.com/invite/nfinfinity
+                    - listitem [ref=e653]:
+                      - 'link "HTX: (Welcome Bonus worth 241 USDT upon completion of a deposit and trade)" [ref=e654] [cursor=pointer]':
+                        - /url: https://www.htx.com/invite/en-us/1f?invite_code=ubpt2223
+                    - listitem [ref=e655]:
+                      - 'link "ByBit: (no fees for the first € 10000)" [ref=e656] [cursor=pointer]':
+                        - /url: https://bitvavo.com/invite?a=D22103A4BC
+                  - generic [ref=e657]:
+                    - heading "Donations" [level=2] [ref=e658]
+                    - 'link "Permalink: Donations" [ref=e659] [cursor=pointer]':
+                      - /url: "#donations"
+                      - img [ref=e660]
+                  - paragraph [ref=e662]: Absolutely not required. However, will be accepted as a token of appreciation.
+                  - list [ref=e663]:
+                    - listitem [ref=e664]:
+                      - paragraph [ref=e665]:
+                        - text: "BTC:"
+                        - code [ref=e666]: bc1qvflsvddkmxh7eqhc4jyu5z5k6xcw3ay8jl49sk
+                    - listitem [ref=e667]:
+                      - paragraph [ref=e668]:
+                        - text: "ETH (ERC20):"
+                        - code [ref=e669]: "0x83D3cFb8001BDC5d2211cBeBB8cB3461E5f7Ec91"
+                    - listitem [ref=e670]:
+                      - paragraph [ref=e671]:
+                        - text: "BEP20/BSC (USDT, ETH, BNB, ...):"
+                        - code [ref=e672]: "0x86A0B21a20b39d16424B7c8003E4A7e12d78ABEe"
+                    - listitem [ref=e673]:
+                      - paragraph [ref=e674]:
+                        - text: "TRC20/TRON (USDT, TRON, ...):"
+                        - code [ref=e675]: TTAa9MX6zMLXNgWMhg7tkNormVHWCoq8Xk
+                    - listitem [ref=e676]:
+                      - paragraph [ref=e677]:
+                        - text: "Patreon :"
+                        - link "https://www.patreon.com/iterativ" [ref=e678] [cursor=pointer]:
+                          - /url: https://www.patreon.com/iterativ
+  - alert [ref=e682]

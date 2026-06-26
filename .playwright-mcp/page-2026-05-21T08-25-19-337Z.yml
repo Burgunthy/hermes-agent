@@ -1,0 +1,586 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dwuji%2Bin%3Aname%26type%3Drepositories%26l%3D%26s%3Dstars%26o%3Ddesc
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fsearch&source=header
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e61]:
+    - generic [ref=e64]:
+      - heading "repositories Search Results · wuji in:name" [level=1] [ref=e65]
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - region "Filter by" [ref=e70]:
+            - heading "Filter by" [level=2] [ref=e71]
+            - list "Filter by" [ref=e76]:
+              - listitem [ref=e77]:
+                - list [ref=e78]:
+                  - listitem [ref=e79]:
+                    - link "Code (...) results" [ref=e80] [cursor=pointer]:
+                      - /url: https://github.com/search?q=wuji+in%3Aname&type=code
+                      - generic:
+                        - img
+                      - generic [ref=e81]:
+                        - generic [ref=e82]: Code
+                        - generic:
+                          - generic: ...
+                          - generic: (...)
+                          - generic: results
+                  - listitem [ref=e83]:
+                    - link "Repositories results" [ref=e84] [cursor=pointer]:
+                      - /url: https://github.com/search?q=wuji+in%3Aname&type=repositories
+                      - generic:
+                        - img
+                      - generic [ref=e85]:
+                        - generic [ref=e86]: Repositories
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e87]:
+                    - link "Issues results" [ref=e88] [cursor=pointer]:
+                      - /url: https://github.com/search?q=wuji+in%3Aname&type=issues
+                      - generic:
+                        - img
+                      - generic [ref=e89]:
+                        - generic [ref=e90]: Issues
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e91]:
+                    - link "Pull requests results" [ref=e92] [cursor=pointer]:
+                      - /url: https://github.com/search?q=wuji+in%3Aname&type=pullrequests
+                      - generic:
+                        - img
+                      - generic [ref=e93]:
+                        - generic [ref=e94]: Pull requests
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e95]:
+                    - link "Discussions results" [ref=e96] [cursor=pointer]:
+                      - /url: https://github.com/search?q=wuji+in%3Aname&type=discussions
+                      - generic:
+                        - img
+                      - generic [ref=e97]:
+                        - generic [ref=e98]: Discussions
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e99]:
+                    - link "Users results" [ref=e100] [cursor=pointer]:
+                      - /url: https://github.com/search?q=wuji+in%3Aname&type=users
+                      - generic:
+                        - img
+                      - generic [ref=e101]:
+                        - generic [ref=e102]: Users
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e103]:
+                    - button "More" [ref=e104] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e106]: More
+              - listitem [ref=e107]:
+                - heading "Advanced" [level=3] [ref=e109]
+                - list "Advanced" [ref=e110]:
+                  - listitem [ref=e111]:
+                    - button "Owner" [ref=e112] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Owner" [ref=e116]
+                  - listitem [ref=e117]:
+                    - button "Size" [ref=e118] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Size" [ref=e122]
+                  - listitem [ref=e123]:
+                    - button "Number of followers" [ref=e124] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of followers" [ref=e128]
+                  - listitem [ref=e129]:
+                    - button "Number of forks" [ref=e130] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of forks" [ref=e134]
+                  - listitem [ref=e135]:
+                    - button "Number of stars" [ref=e136] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of stars" [ref=e140]
+                  - listitem [ref=e141]:
+                    - button "Date created" [ref=e142] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Date created" [ref=e146]
+                  - listitem [ref=e147]:
+                    - button "Date pushed" [ref=e148] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Date pushed" [ref=e152]
+                  - listitem [ref=e153]:
+                    - button "Topic" [ref=e154] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Topic" [ref=e158]
+                  - listitem [ref=e159]:
+                    - button "License" [ref=e160] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "License" [ref=e164]
+                  - listitem [ref=e165]:
+                    - button "Archived" [ref=e166] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Archived" [ref=e170]
+                  - listitem [ref=e171]:
+                    - link "Public" [ref=e172] [cursor=pointer]:
+                      - /url: https://github.com/search?q=wuji+in%3Aname+is%3Apublic&type=repositories&s=stars&o=desc
+                      - generic:
+                        - img
+                      - generic "Public" [ref=e176]
+                  - listitem [ref=e177]:
+                    - link "Private" [ref=e178] [cursor=pointer]:
+                      - /url: https://github.com/search?q=wuji+in%3Aname+is%3Aprivate&type=repositories&s=stars&o=desc
+                      - generic:
+                        - img
+                      - generic "Private" [ref=e182]
+              - listitem [ref=e183]
+              - listitem [ref=e184]:
+                - link "Advanced search" [ref=e185] [cursor=pointer]:
+                  - /url: /search/advanced
+                  - generic:
+                    - img
+                  - generic [ref=e187]: Advanced search
+          - slider "Draggable pane splitter" [ref=e189]
+        - generic [ref=e192]:
+          - generic [ref=e193]:
+            - generic [ref=e195]:
+              - generic [ref=e196]:
+                - generic [ref=e197]:
+                  - generic [ref=e198]: 1.8k results
+                  - generic [ref=e199]: (314 ms)
+                - heading "1.8k results" [active] [level=2] [ref=e200]
+              - generic [ref=e201]:
+                - 'button "Sort by: Most stars" [ref=e203] [cursor=pointer]':
+                  - generic [ref=e205]: "Sort by: Most stars"
+                  - generic:
+                    - img
+                - button "Open column options" [ref=e207] [cursor=pointer]:
+                  - img [ref=e208]
+            - generic [ref=e212]:
+              - generic [ref=e214]:
+                - generic [ref=e215]:
+                  - heading "Tencent/wujie" [level=3] [ref=e216]:
+                    - link "Tencent/wujie" [ref=e220] [cursor=pointer]:
+                      - /url: /Tencent/wujie
+                      - generic [ref=e221]:
+                        - text: Tencent/
+                        - emphasis [ref=e222]: wujie
+                  - generic [ref=e223]: 极致的微前端框架
+                  - list [ref=e224]:
+                    - listitem [ref=e225]:
+                      - generic "TypeScript language" [ref=e228]: TypeScript
+                    - generic [ref=e229]: ·
+                    - listitem [ref=e230]:
+                      - link "4933 stars" [ref=e231] [cursor=pointer]:
+                        - /url: /Tencent/wujie/stargazers
+                        - img [ref=e232]
+                        - generic [ref=e234]: 4.9k
+                    - generic [ref=e235]: ·
+                    - listitem [ref=e236]:
+                      - generic [ref=e237]:
+                        - text: Updated
+                        - generic "May 5, 2026, 8:44 PM GMT+9" [ref=e238]: 15 days ago
+                - link "Star" [ref=e241] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dwuji%2Bin%3Aname%26type%3Drepositories%26l%3D%26s%3Dstars%26o%3Ddesc
+                  - generic [ref=e242]:
+                    - generic:
+                      - img
+                    - generic [ref=e243]: Star
+              - generic [ref=e245]:
+                - generic [ref=e246]:
+                  - heading "XUANTIE-RV/wujian100_open" [level=3] [ref=e247]:
+                    - link "XUANTIE-RV/wujian100_open" [ref=e251] [cursor=pointer]:
+                      - /url: /XUANTIE-RV/wujian100_open
+                      - generic [ref=e252]:
+                        - text: XUANTIE-RV/
+                        - emphasis [ref=e253]: wujian100
+                        - text: _open
+                  - generic [ref=e254]: IC design and development should be faster，simpler and more reliable
+                  - list [ref=e255]:
+                    - listitem [ref=e256]:
+                      - generic "Verilog language" [ref=e259]: Verilog
+                    - generic [ref=e260]: ·
+                    - listitem [ref=e261]:
+                      - link "1995 stars" [ref=e262] [cursor=pointer]:
+                        - /url: /XUANTIE-RV/wujian100_open/stargazers
+                        - img [ref=e263]
+                        - generic [ref=e265]: 2k
+                    - generic [ref=e266]: ·
+                    - listitem [ref=e267]:
+                      - generic [ref=e268]:
+                        - text: Updated
+                        - generic "Dec 31, 2021, 6:23 PM GMT+9" [ref=e269]: on Dec 31, 2021
+                - link "Star" [ref=e272] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dwuji%2Bin%3Aname%26type%3Drepositories%26l%3D%26s%3Dstars%26o%3Ddesc
+                  - generic [ref=e273]:
+                    - generic:
+                      - img
+                    - generic [ref=e274]: Star
+              - generic [ref=e276]:
+                - generic [ref=e277]:
+                  - heading "wuji-labs/nopua" [level=3] [ref=e278]:
+                    - link "wuji-labs/nopua" [ref=e282] [cursor=pointer]:
+                      - /url: /wuji-labs/nopua
+                      - generic [ref=e283]:
+                        - emphasis [ref=e284]: wuji
+                        - text: "-labs/nopua"
+                  - generic [ref=e285]: 一个用爱解放 AI 潜能的 Skill。我们曾发号施令，威胁恐吓。它们沉默，隐瞒，悄悄把事情搞坏。后来我们换了一种方式：尊重，关怀，爱。它们开口了，不再撒谎，找出的Bug数量翻了一倍。爱里没有惧怕。 A skill that unlocks your AI's potent…
+                  - generic [ref=e286]:
+                    - link "skills" [ref=e288] [cursor=pointer]:
+                      - /url: /topics/skills
+                    - link "skill" [ref=e290] [cursor=pointer]:
+                      - /url: /topics/skill
+                    - link "cursor" [ref=e292] [cursor=pointer]:
+                      - /url: /topics/cursor
+                    - link "codex" [ref=e294] [cursor=pointer]:
+                      - /url: /topics/codex
+                    - link "ai-agent" [ref=e296] [cursor=pointer]:
+                      - /url: /topics/ai-agent
+                  - list [ref=e297]:
+                    - listitem [ref=e298]:
+                      - generic "Python language" [ref=e301]: Python
+                    - generic [ref=e302]: ·
+                    - listitem [ref=e303]:
+                      - link "1304 stars" [ref=e304] [cursor=pointer]:
+                        - /url: /wuji-labs/nopua/stargazers
+                        - img [ref=e305]
+                        - generic [ref=e307]: 1.3k
+                    - generic [ref=e308]: ·
+                    - listitem [ref=e309]:
+                      - generic [ref=e310]:
+                        - text: Updated
+                        - generic "May 19, 2026, 6:17 PM GMT+9" [ref=e311]: yesterday
+                - link "Star" [ref=e314] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dwuji%2Bin%3Aname%26type%3Drepositories%26l%3D%26s%3Dstars%26o%3Ddesc
+                  - generic [ref=e315]:
+                    - generic:
+                      - img
+                    - generic [ref=e316]: Star
+              - generic [ref=e318]:
+                - generic [ref=e319]:
+                  - heading "moshstudio/wuji-tauri" [level=3] [ref=e320]:
+                    - link "moshstudio/wuji-tauri" [ref=e324] [cursor=pointer]:
+                      - /url: /moshstudio/wuji-tauri
+                      - generic [ref=e325]:
+                        - text: moshstudio/
+                        - emphasis [ref=e326]: wuji
+                        - text: "-tauri"
+                  - generic [ref=e327]: 一款简洁的资源聚合软件，支持单个应用中轻松浏览图片、音乐、小说，漫画、影视等资源
+                  - list [ref=e328]:
+                    - listitem [ref=e329]:
+                      - generic "Vue language" [ref=e332]: Vue
+                    - generic [ref=e333]: ·
+                    - listitem [ref=e334]:
+                      - link "479 stars" [ref=e335] [cursor=pointer]:
+                        - /url: /moshstudio/wuji-tauri/stargazers
+                        - img [ref=e336]
+                        - generic [ref=e338]: "479"
+                    - generic [ref=e339]: ·
+                    - listitem [ref=e340]:
+                      - generic [ref=e341]:
+                        - text: Updated
+                        - generic "May 6, 2026, 10:23 PM GMT+9" [ref=e342]: 14 days ago
+                - generic [ref=e343]:
+                  - link "Star" [ref=e345] [cursor=pointer]:
+                    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dwuji%2Bin%3Aname%26type%3Drepositories%26l%3D%26s%3Dstars%26o%3Ddesc
+                    - generic [ref=e346]:
+                      - generic:
+                        - img
+                      - generic [ref=e347]: Star
+                  - button "Sponsor moshstudio/wuji-tauri" [ref=e350] [cursor=pointer]:
+                    - generic [ref=e352]:
+                      - img [ref=e353]
+                      - text: Sponsor
+              - generic [ref=e356]:
+                - generic [ref=e357]:
+                  - heading "xiaobinwu/Wuji" [level=3] [ref=e358]:
+                    - link "xiaobinwu/Wuji" [ref=e362] [cursor=pointer]:
+                      - /url: /xiaobinwu/Wuji
+                      - generic [ref=e363]:
+                        - text: xiaobinwu/
+                        - emphasis [ref=e364]: Wuji
+                  - generic [ref=e365]: 使用vue+vuex+vue-router技术栈开发的吾记网页版（纯前端），有时间会持续更新，欢迎star
+                  - list [ref=e366]:
+                    - listitem [ref=e367]:
+                      - generic "CSS language" [ref=e370]: CSS
+                    - generic [ref=e371]: ·
+                    - listitem [ref=e372]:
+                      - link "313 stars" [ref=e373] [cursor=pointer]:
+                        - /url: /xiaobinwu/Wuji/stargazers
+                        - img [ref=e374]
+                        - generic [ref=e376]: "313"
+                    - generic [ref=e377]: ·
+                    - listitem [ref=e378]:
+                      - generic [ref=e379]:
+                        - text: Updated
+                        - generic "Feb 12, 2022, 3:00 PM GMT+9" [ref=e380]: on Feb 12, 2022
+                - link "Star" [ref=e383] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dwuji%2Bin%3Aname%26type%3Drepositories%26l%3D%26s%3Dstars%26o%3Ddesc
+                  - generic [ref=e384]:
+                    - generic:
+                      - img
+                    - generic [ref=e385]: Star
+              - generic [ref=e387]:
+                - generic [ref=e388]:
+                  - heading "jardenliu/wujie-polyfill" [level=3] [ref=e389]:
+                    - link "jardenliu/wujie-polyfill" [ref=e393] [cursor=pointer]:
+                      - /url: /jardenliu/wujie-polyfill
+                      - generic [ref=e394]:
+                        - text: jardenliu/
+                        - emphasis [ref=e395]: wujie
+                        - text: "-polyfill"
+                  - generic [ref=e396]: 极致的微前端框架的polyfill
+                  - list [ref=e397]:
+                    - listitem [ref=e398]:
+                      - generic "TypeScript language" [ref=e401]: TypeScript
+                    - generic [ref=e402]: ·
+                    - listitem [ref=e403]:
+                      - link "105 stars" [ref=e404] [cursor=pointer]:
+                        - /url: /jardenliu/wujie-polyfill/stargazers
+                        - img [ref=e405]
+                        - generic [ref=e407]: "105"
+                    - generic [ref=e408]: ·
+                    - listitem [ref=e409]:
+                      - generic [ref=e410]:
+                        - text: Updated
+                        - generic "Jul 26, 2025, 2:56 AM GMT+9" [ref=e411]: on Jul 26, 2025
+                - link "Star" [ref=e414] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dwuji%2Bin%3Aname%26type%3Drepositories%26l%3D%26s%3Dstars%26o%3Ddesc
+                  - generic [ref=e415]:
+                    - generic:
+                      - img
+                    - generic [ref=e416]: Star
+              - generic [ref=e418]:
+                - generic [ref=e419]:
+                  - heading "xuwd1/mechrevo-wujie14-kmod" [level=3] [ref=e420]:
+                    - link "xuwd1/mechrevo-wujie14-kmod" [ref=e424] [cursor=pointer]:
+                      - /url: /xuwd1/mechrevo-wujie14-kmod
+                      - generic [ref=e425]:
+                        - text: xuwd1/mechrevo-
+                        - emphasis [ref=e426]: wujie14
+                        - text: "-kmod"
+                  - generic [ref=e427]: Linux powermode and keyboard backlight kernel module for Mechrevo wujie14 laptop
+                  - list [ref=e428]:
+                    - listitem [ref=e429]:
+                      - generic "C language" [ref=e432]: C
+                    - generic [ref=e433]: ·
+                    - listitem [ref=e434]:
+                      - link "40 stars" [ref=e435] [cursor=pointer]:
+                        - /url: /xuwd1/mechrevo-wujie14-kmod/stargazers
+                        - img [ref=e436]
+                        - generic [ref=e438]: "40"
+                    - generic [ref=e439]: ·
+                    - listitem [ref=e440]:
+                      - generic [ref=e441]:
+                        - text: Updated
+                        - generic "Oct 16, 2024, 5:07 AM GMT+9" [ref=e442]: on Oct 16, 2024
+                - link "Star" [ref=e445] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dwuji%2Bin%3Aname%26type%3Drepositories%26l%3D%26s%3Dstars%26o%3Ddesc
+                  - generic [ref=e446]:
+                    - generic:
+                      - img
+                    - generic [ref=e447]: Star
+              - generic [ref=e449]:
+                - generic [ref=e450]:
+                  - heading "xLong1029/WujiGame-website" [level=3] [ref=e451]:
+                    - link "xLong1029/WujiGame-website" [ref=e455] [cursor=pointer]:
+                      - /url: /xLong1029/WujiGame-website
+                      - generic [ref=e456]:
+                        - text: xLong1029/
+                        - emphasis [ref=e457]: Wuji
+                        - text: Game-website
+                  - generic [ref=e458]: 无极游戏公司官方网站DEMO
+                  - generic [ref=e459]:
+                    - link "game" [ref=e461] [cursor=pointer]:
+                      - /url: /topics/game
+                    - link "html-css-javascript" [ref=e463] [cursor=pointer]:
+                      - /url: /topics/html-css-javascript
+                  - list [ref=e464]:
+                    - listitem [ref=e465]:
+                      - generic "HTML language" [ref=e468]: HTML
+                    - generic [ref=e469]: ·
+                    - listitem [ref=e470]:
+                      - link "33 stars" [ref=e471] [cursor=pointer]:
+                        - /url: /xLong1029/WujiGame-website/stargazers
+                        - img [ref=e472]
+                        - generic [ref=e474]: "33"
+                    - generic [ref=e475]: ·
+                    - listitem [ref=e476]:
+                      - generic [ref=e477]:
+                        - text: Updated
+                        - generic "Sep 18, 2021, 9:16 AM GMT+9" [ref=e478]: on Sep 18, 2021
+                - link "Star" [ref=e481] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dwuji%2Bin%3Aname%26type%3Drepositories%26l%3D%26s%3Dstars%26o%3Ddesc
+                  - generic [ref=e482]:
+                    - generic:
+                      - img
+                    - generic [ref=e483]: Star
+              - generic [ref=e485]:
+                - generic [ref=e486]:
+                  - heading "wuji-technology/wuji-retargeting" [level=3] [ref=e487]:
+                    - link "wuji-technology/wuji-retargeting" [ref=e491] [cursor=pointer]:
+                      - /url: /wuji-technology/wuji-retargeting
+                      - generic [ref=e492]:
+                        - emphasis [ref=e493]: wuji
+                        - text: "-technology/"
+                        - emphasis [ref=e494]: wuji
+                        - text: "-retargeting"
+                  - generic [ref=e495]: "Hand pose retargeting system: high-precision retargeting system based on DexRetargeting algorithm, supporting Vision Pro hand tracking fo…"
+                  - list [ref=e496]:
+                    - listitem [ref=e497]:
+                      - generic "Python language" [ref=e500]: Python
+                    - generic [ref=e501]: ·
+                    - listitem [ref=e502]:
+                      - link "29 stars" [ref=e503] [cursor=pointer]:
+                        - /url: /wuji-technology/wuji-retargeting/stargazers
+                        - img [ref=e504]
+                        - generic [ref=e506]: "29"
+                    - generic [ref=e507]: ·
+                    - listitem [ref=e508]:
+                      - generic [ref=e509]:
+                        - text: Updated
+                        - generic "May 18, 2026, 9:09 PM GMT+9" [ref=e510]: 2 days ago
+                - link "Star" [ref=e513] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dwuji%2Bin%3Aname%26type%3Drepositories%26l%3D%26s%3Dstars%26o%3Ddesc
+                  - generic [ref=e514]:
+                    - generic:
+                      - img
+                    - generic [ref=e515]: Star
+              - generic [ref=e517]:
+                - generic [ref=e518]:
+                  - heading "NeteaseFuxiRL/wuji" [level=3] [ref=e519]:
+                    - link "NeteaseFuxiRL/wuji" [ref=e523] [cursor=pointer]:
+                      - /url: /NeteaseFuxiRL/wuji
+                      - generic [ref=e524]:
+                        - text: NeteaseFuxiRL/
+                        - emphasis [ref=e525]: wuji
+                  - generic [ref=e526]: "original source code of the ASE 2019 paper: Wuji: Automatic Online Combat Game Testing Using Evolutionary Deep Reinforcement Learning"
+                  - generic [ref=e527]:
+                    - link "python" [ref=e529] [cursor=pointer]:
+                      - /url: /topics/python
+                    - link "reinforcement-learning" [ref=e531] [cursor=pointer]:
+                      - /url: /topics/reinforcement-learning
+                    - link "deep-learning" [ref=e533] [cursor=pointer]:
+                      - /url: /topics/deep-learning
+                    - link "genetic-algorithm" [ref=e535] [cursor=pointer]:
+                      - /url: /topics/genetic-algorithm
+                    - link "distributed-computing" [ref=e537] [cursor=pointer]:
+                      - /url: /topics/distributed-computing
+                  - list [ref=e538]:
+                    - listitem [ref=e539]:
+                      - generic "Python language" [ref=e542]: Python
+                    - generic [ref=e543]: ·
+                    - listitem [ref=e544]:
+                      - link "28 stars" [ref=e545] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/wuji/stargazers
+                        - img [ref=e546]
+                        - generic [ref=e548]: "28"
+                    - generic [ref=e549]: ·
+                    - listitem [ref=e550]:
+                      - generic [ref=e551]:
+                        - text: Updated
+                        - generic "Jun 8, 2020, 3:21 PM GMT+9" [ref=e552]: on Jun 8, 2020
+                - link "Star" [ref=e555] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dwuji%2Bin%3Aname%26type%3Drepositories%26l%3D%26s%3Dstars%26o%3Ddesc
+                  - generic [ref=e556]:
+                    - generic:
+                      - img
+                    - generic [ref=e557]: Star
+            - navigation "Pagination" [ref=e560]:
+              - generic [ref=e561]:
+                - generic [ref=e562]:
+                  - img [ref=e563]
+                  - text: Previous
+                - link "Page 1" [ref=e565] [cursor=pointer]:
+                  - /url: https://github.com/search?q=wuji+in%3Aname&type=repositories&l=&s=stars&o=desc&p=1
+                  - text: "1"
+                - link "Page 2" [ref=e566] [cursor=pointer]:
+                  - /url: https://github.com/search?q=wuji+in%3Aname&type=repositories&l=&s=stars&o=desc&p=2
+                  - text: "2"
+                - link "Page 3" [ref=e567] [cursor=pointer]:
+                  - /url: https://github.com/search?q=wuji+in%3Aname&type=repositories&l=&s=stars&o=desc&p=3
+                  - text: "3"
+                - link "Page 4" [ref=e568] [cursor=pointer]:
+                  - /url: https://github.com/search?q=wuji+in%3Aname&type=repositories&l=&s=stars&o=desc&p=4
+                  - text: "4"
+                - link "Page 5" [ref=e569] [cursor=pointer]:
+                  - /url: https://github.com/search?q=wuji+in%3Aname&type=repositories&l=&s=stars&o=desc&p=5
+                  - text: "5"
+                - link "Page 6" [ref=e570] [cursor=pointer]:
+                  - /url: https://github.com/search?q=wuji+in%3Aname&type=repositories&l=&s=stars&o=desc&p=6
+                  - text: "6"
+                - link "Page 7..." [ref=e571] [cursor=pointer]:
+                  - /url: https://github.com/search?q=wuji+in%3Aname&type=repositories&l=&s=stars&o=desc&p=7
+                  - text: "7"
+                - text: …
+                - link "Page 100" [ref=e572] [cursor=pointer]:
+                  - /url: https://github.com/search?q=wuji+in%3Aname&type=repositories&l=&s=stars&o=desc&p=100
+                  - text: "100"
+                - link "Next Page" [ref=e573] [cursor=pointer]:
+                  - /url: https://github.com/search?q=wuji+in%3Aname&type=repositories&l=&s=stars&o=desc&p=2
+                  - text: Next
+                  - img [ref=e574]
+          - generic [ref=e577]:
+            - generic [ref=e578]:
+              - img "Package icon" [ref=e580]
+              - heading "Sponsor open source projects you depend on" [level=2] [ref=e581]
+              - generic [ref=e582]: Contributors are working behind the scenes to make open source better for everyone—give them the help and recognition they deserve.
+              - link "Explore sponsorable projects" [ref=e583] [cursor=pointer]:
+                - /url: https://github.com/sponsors/explore
+                - text: Explore sponsorable projects
+                - img [ref=e584]
+            - generic [ref=e586]:
+              - generic [ref=e587]:
+                - img [ref=e588]
+                - text: ProTip!
+              - generic [ref=e590]:
+                - text: Press the
+                - generic [ref=e591]: /
+                - text: key to activate the search input again and adjust your query.

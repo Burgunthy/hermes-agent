@@ -1,0 +1,47 @@
+[     437ms] [INFO] Resource Sentinel initialized... @ https://abrasive-detective-fdd.notion.site/4-SaaS-1-31-1e2e55bd0f1b8071a9dce1ff62b66be6:0
+[     990ms] [INFO] 2026-05-22T16:32:06.545Z [info] PageLoader: loserAborted {data: Object} @ https://abrasive-detective-fdd.notion.site/_assets/app-0f3eac19c48c4fa5.js:6
+[    1692ms] [WARNING] Ignoring inability to install OPFS sqlite3_vfs: Cannot install OPFS: Missing SharedArrayBuffer and/or Atomics. The server must emit the COOP/COEP response headers to enable those. See https://sqlite.org/wasm/doc/trunk/persistence.md#coop-coep @ https://abrasive-detective-fdd.notion.site/_assets/wasm-sqlite-worker-b6861135b361cf2b.js:0
+[    1764ms] [INFO] 2026-05-22T16:32:07.319Z [info] FeatureFlagTransactionQueue: preferIndexedDB {team: no-team-specified} @ https://abrasive-detective-fdd.notion.site/_assets/app-0f3eac19c48c4fa5.js:6
+[    1781ms] [WARNING]   WARN  [Statsig] Creating multiple Statsig clients with the same SDK key can lead to unexpected behavior. Multi-instance support requires different SDK keys. @ https://abrasive-detective-fdd.notion.site/_assets/38994-57e75a3c479e6567.js:0
+[    1937ms] [INFO] 2026-05-22T16:32:07.492Z [info] appHelpers: shouldShowError {data: Object} @ https://abrasive-detective-fdd.notion.site/_assets/app-0f3eac19c48c4fa5.js:6
+[    1956ms] [INFO] 2026-05-22T16:32:07.511Z [info] appHelpers: shouldShowError {data: Object} @ https://abrasive-detective-fdd.notion.site/_assets/app-0f3eac19c48c4fa5.js:6
+[    2007ms] [LOG] %c
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnn                         nnnn
+	nnnnnnn                          nnnn
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnnnnnn                           nnn
+	nnnnnnnn    nnnnnnnn     nnnnnnn   nnn
+	nnnnnnnn      nnnnnnn      nnn     nnn
+	nnnnnnnn      nnnnnnnn     nnn     nnn
+	nnnnnnnn      nnnnnnnnnn   nnn     nnn
+	nnnnnnnn      nnn nnnnnnn  nnn     nnn
+	nnnnnnnn      nnn  nnnnnnnnnnn     nnn
+	nnnnnnnn      nnn   nnnnnnnnnn     nnn
+	nnnnnnnn      nnn     nnnnnnnn     nnn
+	nnnnnnnn      nnn      nnnnnnn     nnn
+	nnnnnnnn    nnnnnnnn    nnnnnn     nnn
+	  nnnnnn                           nnn
+		nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn		We're hiring!
+		  nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn		notion.so/careers
+
+	“yeah, I would probably eat a lemon for one hundred dollars” -- Ivan Zhao (2023-07-14)
+				  font-family: monospace @ https://abrasive-detective-fdd.notion.site/_assets/mainApp-10c82ee16e8801be.js:61
+[    2701ms] [INFO] 2026-05-22T16:32:08.256Z [info] syncRecordValuesBatched: recordPointerMissingSpaceId {actor: Object, data: Object} @ https://abrasive-detective-fdd.notion.site/_assets/app-0f3eac19c48c4fa5.js:6
+[    2768ms] [INFO] 2026-05-22T16:32:08.323Z [error] handleRestrictedStateForResponse: callApi {data: Object} @ https://abrasive-detective-fdd.notion.site/_assets/app-0f3eac19c48c4fa5.js:6
+[    2936ms] [INFO] 2026-05-22T16:32:08.491Z [info] appHelpers: shouldShowError {data: Object} @ https://abrasive-detective-fdd.notion.site/_assets/app-0f3eac19c48c4fa5.js:6
+[    3031ms] [INFO] 2026-05-22T16:32:08.586Z [info] pageError: pageError {data: Object} @ https://abrasive-detective-fdd.notion.site/_assets/app-0f3eac19c48c4fa5.js:6
+[    3034ms] [INFO] 2026-05-22T16:32:08.589Z [info] appHelpers: shouldShowError {data: Object} @ https://abrasive-detective-fdd.notion.site/_assets/app-0f3eac19c48c4fa5.js:6
+[    3468ms] [WARNING] Amplitude Logger [Warn]: Event not tracked, no destination plugins on the instance @ https://abrasive-detective-fdd.notion.site/_assets/transport-support-49d6a98cbf389fa8.js:0
+[    3475ms] [INFO] 2026-05-22T16:32:09.029Z [error] eventTrailApiHelpers: trackFailure {error: Object} @ https://abrasive-detective-fdd.notion.site/_assets/app-0f3eac19c48c4fa5.js:6
+[    3506ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://abrasive-detective-fdd.notion.site/api/v3/recordPageExit:0
+[    5320ms] [INFO] 2026-05-22T16:32:10.876Z [info] sqliteSchemaHelpers: attemptFastForwardMigration {data: Object} @ https://abrasive-detective-fdd.notion.site/_assets/app-0f3eac19c48c4fa5.js:6
+[    5593ms] [ERROR] HttpRequestError: Received HTTP 401
+    at d (https://abrasive-detective-fdd.notion.site/_assets/ClientFramework-0c58da5707d13c80.js:7:32748)
+    at async m (https://abrasive-detective-fdd.notion.site/_assets/ClientFramework-0c58da5707d13c80.js:7:34613)
+    at async r (https://abrasive-detective-fdd.notion.site/_assets/app-0f3eac19c48c4fa5.js:1:159)
+    at async l (https://abrasive-detective-fdd.notion.site/_assets/67426-6a9afe1aacb5eabd.js:1:5730) @ https://abrasive-detective-fdd.notion.site/_assets/handleHttpFailure-852e9b5617753094.js:0
+[    5594ms] [INFO] 2026-05-22T16:32:11.149Z [error] api: httpTrigger401 {data: Object} @ https://abrasive-detective-fdd.notion.site/_assets/app-0f3eac19c48c4fa5.js:6
+[    6485ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.metadata.io/pixel/config/1127.json:0
+[    6654ms] [INFO] 2026-05-22T16:32:12.209Z [info] sqliteSchemaHelpers: successfulFastForwardMigration {data: Object} @ https://abrasive-detective-fdd.notion.site/_assets/76406-6b42df3763f56eeb.js:472

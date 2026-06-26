@@ -1,0 +1,489 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e8]:
+        - paragraph [ref=e10]: solving real problems today
+        - generic [ref=e11]:
+          - paragraph [ref=e14]:
+            - text: The world’s
+            - text: open robotics lab
+          - generic [ref=e15]:
+            - paragraph [ref=e17]: Where researchers, hardware operators, and compute providers come together to advance embodied AI.
+            - generic [ref=e18]:
+              - link "Join the Network" [ref=e20] [cursor=pointer]:
+                - /url: ./get-involved
+                - paragraph [ref=e22]: Join the Network
+              - link "learn more" [ref=e24] [cursor=pointer]:
+                - /url: ./network
+                - paragraph [ref=e26]: learn more
+      - iframe [ref=e30]:
+        
+    - generic [ref=e31]:
+      - paragraph [ref=e35]: builders & researchers from
+      - group [ref=e37]:
+        - listitem [ref=e38]:
+          - generic [ref=e39]:
+            - img [ref=e49]
+            - img [ref=e54]
+            - img [ref=e59]
+            - img [ref=e85]
+            - img [ref=e99]
+            - img [ref=e107]
+        - listitem [ref=e109]:
+          - generic [ref=e110]:
+            - img [ref=e120]
+            - img [ref=e125]
+            - img [ref=e130]
+            - img [ref=e156]
+            - img [ref=e170]
+            - img [ref=e178]
+    - generic [ref=e181]:
+      - generic [ref=e187]:
+        - generic [ref=e188]:
+          - paragraph [ref=e190]: bitrobot laboratory
+          - paragraph [ref=e192]: robotics research
+        - paragraph [ref=e198]: network online
+      - generic [ref=e199]:
+        - paragraph [ref=e201]: mission statement
+        - generic [ref=e202]:
+          - generic [ref=e203]:
+            - paragraph [ref=e206]:
+              - generic [ref=e207]:
+                - generic [ref=e208]: C
+                - generic [ref=e209]: r
+                - generic [ref=e210]: o
+                - generic [ref=e211]: w
+                - generic [ref=e212]: d
+                - generic [ref=e213]: s
+                - generic [ref=e214]: o
+                - generic [ref=e215]: u
+                - generic [ref=e216]: r
+                - generic [ref=e217]: c
+                - generic [ref=e218]: i
+                - generic [ref=e219]: "n"
+                - generic [ref=e220]: g
+              - generic [ref=e221]:
+                - generic [ref=e222]: t
+                - generic [ref=e223]: h
+                - generic [ref=e224]: e
+              - generic [ref=e225]:
+                - generic [ref=e226]:
+                  - generic [ref=e227]: f
+                  - generic [ref=e228]: u
+                  - generic [ref=e229]: t
+                  - generic [ref=e230]: u
+                  - generic [ref=e231]: r
+                  - generic [ref=e232]: e
+                - generic [ref=e233]:
+                  - generic [ref=e234]: o
+                  - generic [ref=e235]: f
+                - generic [ref=e236]:
+                  - generic [ref=e237]: r
+                  - generic [ref=e238]: o
+                  - generic [ref=e239]: b
+                  - generic [ref=e240]: o
+                  - generic [ref=e241]: t
+                  - generic [ref=e242]: i
+                  - generic [ref=e243]: c
+                  - generic [ref=e244]: s
+              - generic [ref=e246]: .
+            - paragraph [ref=e248]: BitRobot coordinates global resources and contributors to accelerate robotics R&D — unlocking the scale, diversity, and real-world experience needed for embodied AI breakthroughs.
+          - generic [ref=e249]:
+            - link "Join the network" [ref=e252] [cursor=pointer]:
+              - /url: ./get-involved
+              - paragraph [ref=e254]: Join the network
+            - link "how it works" [ref=e257] [cursor=pointer]:
+              - /url: ./network
+              - paragraph [ref=e259]: how it works
+      - generic [ref=e261]:
+        - generic [ref=e262]:
+          - paragraph [ref=e264]: open robotics
+          - paragraph [ref=e266]: for human betterment
+        - generic [ref=e267]:
+          - paragraph [ref=e269]: est. 2025
+          - paragraph [ref=e271]: growing daily
+  - generic [ref=e276]:
+    - generic [ref=e301]:
+      - generic [ref=e302]:
+        - paragraph [ref=e304]:
+          - text: Powering the embodied AI
+          - text: models that will define robotics.
+        - paragraph [ref=e307]: Each subnet runs focused missions with real robots in real environments. All data and models feed the broader BitRobot network.
+      - paragraph [ref=e314]: "Active missions: 7"
+    - generic [ref=e315]:
+      - 'link "SN/01 ET Fugi Remotely operate real rover robots to catch alien fugitives in urban environments Robotic embodiment: Rovers output type: Teleop dataset" [ref=e318] [cursor=pointer]':
+        - /url: ./subnets/sn-01
+        - generic [ref=e321]:
+          - generic [ref=e322]:
+            - paragraph [ref=e328]: SN/01
+            - generic [ref=e329]:
+              - heading "ET Fugi" [level=4] [ref=e331]
+              - paragraph [ref=e333]: Remotely operate real rover robots to catch alien fugitives in urban environments
+          - generic [ref=e334]:
+            - generic [ref=e335]:
+              - paragraph [ref=e337]: "Robotic embodiment:"
+              - paragraph [ref=e339]: Rovers
+            - generic [ref=e340]:
+              - paragraph [ref=e342]: "output type:"
+              - paragraph [ref=e344]: Teleop dataset
+      - 'link "SN/02 Earth Rovers Grand Challenge Autonomous urban navigation models benchmarked against humans Robotic embodiment: Sidewalk Robot output type: AI Models" [ref=e347] [cursor=pointer]':
+        - /url: ./grand-challenges/earth-rovers
+        - generic [ref=e350]:
+          - generic [ref=e351]:
+            - paragraph [ref=e357]: SN/02
+            - generic [ref=e358]:
+              - heading "Earth Rovers Grand Challenge" [level=4] [ref=e360]
+              - paragraph [ref=e362]: Autonomous urban navigation models benchmarked against humans
+          - generic [ref=e363]:
+            - generic [ref=e364]:
+              - paragraph [ref=e366]: "Robotic embodiment:"
+              - paragraph [ref=e368]: Sidewalk Robot
+            - generic [ref=e369]:
+              - paragraph [ref=e371]: "output type:"
+              - paragraph [ref=e373]: AI Models
+      - 'link "ag/01 Earth Rovers Agent Kit Your personal playground for AI Agents & Embodied Intelligence Robotic embodiment: Sidewalk Robot output type: agents" [ref=e376] [cursor=pointer]':
+        - /url: ./miniplusagentkit
+        - generic [ref=e379]:
+          - generic [ref=e380]:
+            - paragraph [ref=e386]: ag/01
+            - generic [ref=e387]:
+              - heading "Earth Rovers Agent Kit" [level=4] [ref=e389]
+              - paragraph [ref=e391]: Your personal playground for AI Agents & Embodied Intelligence
+          - generic [ref=e392]:
+            - generic [ref=e393]:
+              - paragraph [ref=e395]: "Robotic embodiment:"
+              - paragraph [ref=e397]: Sidewalk Robot
+            - generic [ref=e398]:
+              - paragraph [ref=e400]: "output type:"
+              - paragraph [ref=e402]: agents
+      - 'link "two yellow-red-blue papers SN/03 Robotic Origami Grand Challenge AI models benchmarked against human experts from Nippon Origami Association Robotic embodiment: Robotic Hand output type: AI Models" [ref=e405] [cursor=pointer]':
+        - /url: ./grand-challenges/robotic-origami
+        - img "two yellow-red-blue papers" [ref=e408]
+        - generic [ref=e409]:
+          - generic [ref=e410]:
+            - paragraph [ref=e416]: SN/03
+            - generic [ref=e417]:
+              - heading "Robotic Origami Grand Challenge" [level=4] [ref=e419]
+              - paragraph [ref=e421]: AI models benchmarked against human experts from Nippon Origami Association
+          - generic [ref=e422]:
+            - generic [ref=e423]:
+              - paragraph [ref=e425]: "Robotic embodiment:"
+              - paragraph [ref=e427]: Robotic Hand
+            - generic [ref=e428]:
+              - paragraph [ref=e430]: "output type:"
+              - paragraph [ref=e432]: AI Models
+      - 'link "two hands reaching for a flying object in the sky SN/04 Robotic IKEA Assembly AI models benchmarked against human furniture assembly Robotic embodiment: Mobile Manipulator output type: AI Models" [ref=e435] [cursor=pointer]':
+        - /url: ./grand-challenges/ikea-grand-challenge
+        - img "two hands reaching for a flying object in the sky" [ref=e438]
+        - generic [ref=e439]:
+          - generic [ref=e440]:
+            - paragraph [ref=e446]: SN/04
+            - generic [ref=e447]:
+              - heading "Robotic IKEA Assembly" [level=4] [ref=e449]
+              - paragraph [ref=e451]: AI models benchmarked against human furniture assembly
+          - generic [ref=e452]:
+            - generic [ref=e453]:
+              - paragraph [ref=e455]: "Robotic embodiment:"
+              - paragraph [ref=e457]: Mobile Manipulator
+            - generic [ref=e458]:
+              - paragraph [ref=e460]: "output type:"
+              - paragraph [ref=e462]: AI Models
+      - 'link "a cell phone sitting on top of a window sill SN/05 Seesaw by Virtuals Real-world egocentric video collection through mobile phone task recording Robotic embodiment: iPhone output type: video dataset" [ref=e465] [cursor=pointer]':
+        - /url: ./subnets/sn-05
+        - img "a cell phone sitting on top of a window sill" [ref=e468]
+        - generic [ref=e469]:
+          - generic [ref=e470]:
+            - paragraph [ref=e476]: SN/05
+            - generic [ref=e477]:
+              - heading "Seesaw by Virtuals" [level=4] [ref=e479]
+              - paragraph [ref=e481]: Real-world egocentric video collection through mobile phone task recording
+          - generic [ref=e482]:
+            - generic [ref=e483]:
+              - paragraph [ref=e485]: "Robotic embodiment:"
+              - paragraph [ref=e487]: iPhone
+            - generic [ref=e488]:
+              - paragraph [ref=e490]: "output type:"
+              - paragraph [ref=e492]: video dataset
+      - 'link "A 3D printer is manufacturing orange plastic parts. SN/06 TeleArms: RoboPlayground Control simulated robotic arms to complete virtual tasks Robotic embodiment: simulation platform output type: Teleop-in-Sim Dataset" [ref=e495] [cursor=pointer]':
+        - /url: ./subnets/sn-06
+        - img "A 3D printer is manufacturing orange plastic parts." [ref=e498]
+        - generic [ref=e499]:
+          - generic [ref=e500]:
+            - paragraph [ref=e506]: SN/06
+            - generic [ref=e507]:
+              - 'heading "TeleArms: RoboPlayground" [level=4] [ref=e509]'
+              - paragraph [ref=e511]: Control simulated robotic arms to complete virtual tasks
+          - generic [ref=e512]:
+            - generic [ref=e513]:
+              - paragraph [ref=e515]: "Robotic embodiment:"
+              - paragraph [ref=e517]: simulation platform
+            - generic [ref=e518]:
+              - paragraph [ref=e520]: "output type:"
+              - paragraph [ref=e522]: Teleop-in-Sim Dataset
+    - generic [ref=e523]:
+      - paragraph [ref=e526]: subnet performance
+      - group [ref=e528]:
+        - listitem [ref=e529]:
+          - generic [ref=e530]:
+            - paragraph [ref=e533]: et fugi
+            - paragraph [ref=e535]: Largest sidewalk dataset on huggingface
+        - listitem [ref=e536]:
+          - generic [ref=e537]:
+            - paragraph [ref=e540]: telearms
+            - paragraph [ref=e542]: 1.4k+ teleop-in-sim hours collected
+        - listitem [ref=e543]:
+          - generic [ref=e544]:
+            - paragraph [ref=e547]: seesaw
+            - paragraph [ref=e549]: 4.5m+ Million tasks completed
+        - listitem [ref=e550]:
+          - generic [ref=e551]:
+            - paragraph [ref=e554]: telearms
+            - paragraph [ref=e556]: 50k+ teleoperation missions completed
+  - generic [ref=e558]:
+    - paragraph [ref=e560]: "program: grand challenges"
+    - generic [ref=e561]:
+      - paragraph [ref=e563]:
+        - text: $5 million pledged to meet robotics’
+        - text: toughest challenges
+      - generic [ref=e564]:
+        - paragraph [ref=e567]: The BitRobot Foundation is funding bold, measurable challenges to move embodied AI out of closed labs and into the real world.
+        - link "Explore challenges" [ref=e570] [cursor=pointer]:
+          - /url: ./grand-challenges
+          - paragraph [ref=e572]: Explore challenges
+    - generic [ref=e573]:
+      - iframe [ref=e577]
+      - generic [ref=e578]:
+        - generic [ref=e579]:
+          - paragraph [ref=e581]: "Prizes available: $5 million"
+          - paragraph [ref=e583]: "Active Challenges: 3"
+        - generic [ref=e584]:
+          - paragraph [ref=e586]: "current phase: accepting entries"
+          - paragraph [ref=e588]: "winners: tba"
+          - paragraph [ref=e590]: "entrants: confidential"
+  - generic [ref=e591]:
+    - generic [ref=e592]:
+      - paragraph [ref=e594]: keep up with us
+      - paragraph [ref=e596]: From the Lab
+      - generic [ref=e597]:
+        - link "Latest Dispatches" [ref=e600] [cursor=pointer]:
+          - /url: ./updates
+          - paragraph [ref=e602]: Latest Dispatches
+        - generic [ref=e603]:
+          - paragraph [ref=e605]: "Last update: feb 2, 2025"
+          - paragraph [ref=e607]: "Total updates: 12"
+    - generic [ref=e608]:
+      - link "featured Updates BitRobot 2025 Recap Building and Validating an Open Robotics Network Jan 7, 2026" [ref=e610] [cursor=pointer]:
+        - /url: ./updates/2025-network-recap
+        - generic [ref=e614]:
+          - paragraph [ref=e619]: featured
+          - paragraph [ref=e624]: Updates
+        - generic [ref=e625]:
+          - generic [ref=e626]:
+            - heading "BitRobot 2025 Recap" [level=3] [ref=e628]
+            - paragraph [ref=e630]: Building and Validating an Open Robotics Network
+          - paragraph [ref=e632]:
+            - time [ref=e633]: Jan 7, 2026
+      - generic [ref=e634]:
+        - link "black and white industrial machine Announcements BitRobot Ambassador Program Join our mission to build the world's open robotics lab Feb 6, 2026" [ref=e635] [cursor=pointer]:
+          - /url: ./updates/bitrobot-ambassador-program
+          - generic [ref=e637]:
+            - img "black and white industrial machine" [ref=e639]
+            - paragraph [ref=e645]: Announcements
+          - generic [ref=e646]:
+            - generic [ref=e647]:
+              - heading "BitRobot Ambassador Program" [level=4] [ref=e649]
+              - paragraph [ref=e651]: Join our mission to build the world's open robotics lab
+            - paragraph [ref=e653]:
+              - time [ref=e654]: Feb 6, 2026
+        - 'link "black and white industrial machine Announcements Launching SN05: SeeSaw by Virtuals On SN05 (Subnet 5), record real life tasks to teach robots how to see and act Oct 22, 2025" [ref=e655] [cursor=pointer]':
+          - /url: ./updates/introducing-sn-05-seesaw-by-virtuals
+          - generic [ref=e657]:
+            - img "black and white industrial machine" [ref=e659]
+            - paragraph [ref=e665]: Announcements
+          - generic [ref=e666]:
+            - generic [ref=e667]:
+              - 'heading "Launching SN05: SeeSaw by Virtuals" [level=4] [ref=e669]'
+              - paragraph [ref=e671]: On SN05 (Subnet 5), record real life tasks to teach robots how to see and act
+            - paragraph [ref=e673]:
+              - time [ref=e674]: Oct 22, 2025
+  - generic [ref=e675]:
+    - generic [ref=e676]:
+      - paragraph [ref=e679]:
+        - text: Powered by the collective.
+        - text: Built for the future.
+      - paragraph [ref=e681]: BitRobot brings robots and people together — live at events, training in the real world, advancing embodied AI faster than any single team ever could.
+    - iframe [ref=e685]
+  - generic [ref=e686]:
+    - generic [ref=e687]:
+      - paragraph [ref=e689]:
+        - text: BitRobot
+        - text: in the News
+      - paragraph [ref=e692]:
+        - text: Latest public
+        - text: network stories
+    - group [ref=e694]:
+      - listitem [ref=e695]:
+        - generic [ref=e696]:
+          - generic [ref=e697]:
+            - heading "Humanoid Hub" [level=4] [ref=e699]
+            - paragraph [ref=e701]: Founder Michael Cho's journey, a near-death plane crash that reshaped his outlook, his passion for robotics, and data collection via real-world games.
+          - link "Watch Interview" [ref=e704] [cursor=pointer]:
+            - /url: https://www.youtube.com/watch?v=UC6Npdf-OAY
+            - paragraph [ref=e706]: Watch Interview
+      - listitem [ref=e707]:
+        - generic [ref=e708]:
+          - generic [ref=e709]:
+            - heading "Conference on Robot Learning" [level=4] [ref=e711]
+            - paragraph [ref=e713]: Keynote address on crypto's role in accelerating embodied AI research.
+          - link "Watch talk" [ref=e716] [cursor=pointer]:
+            - /url: https://x.com/BitRobotNetwork/status/1975190588514517003
+            - paragraph [ref=e718]: Watch talk
+      - listitem [ref=e719]:
+        - generic [ref=e720]:
+          - generic [ref=e721]:
+            - heading "Robotics & Automation News" [level=4] [ref=e723]
+            - paragraph [ref=e725]: BitRobot Foundation launches $5 million competition to ‘spark robotics breakthroughs’
+          - link "REad story" [ref=e728] [cursor=pointer]:
+            - /url: https://roboticsandautomationnews.com/2025/09/29/bitrobot-foundation-launches-5-million-fund-to-spark-robotics-breakthroughs/94998/
+            - paragraph [ref=e730]: REad story
+      - listitem [ref=e731]:
+        - generic [ref=e732]:
+          - generic [ref=e733]:
+            - heading "11AM with Seed Club" [level=4] [ref=e735]
+            - paragraph [ref=e737]: Create the data assets so people can train the policies, then make it possible to use those data assets to create more capable robots.
+          - link "watch interview" [ref=e740] [cursor=pointer]:
+            - /url: https://x.com/11AMdotclub/status/2004598330580763071?s=20
+            - paragraph [ref=e742]: watch interview
+      - listitem [ref=e743]:
+        - generic [ref=e744]:
+          - generic [ref=e745]:
+            - heading "Blockworks" [level=4] [ref=e747]
+            - paragraph [ref=e749]: Frodobots raises $6M for Solana-based robotics network
+          - link "REad story" [ref=e752] [cursor=pointer]:
+            - /url: https://blockworks.co/news/robotics-startup-fundraise-ai-network
+            - paragraph [ref=e754]: REad story
+      - listitem [ref=e755]:
+        - generic [ref=e756]:
+          - generic [ref=e757]:
+            - heading "Coindesk" [level=4] [ref=e759]
+            - paragraph [ref=e761]: The data bottleneck in embodied AI, crypto's role in unlocking it, and where robotics fits in our lives
+          - link "watch interview" [ref=e764] [cursor=pointer]:
+            - /url: https://x.com/BitRobotNetwork/status/2034308594280403262
+            - paragraph [ref=e766]: watch interview
+  - generic [ref=e769]:
+    - link [ref=e770] [cursor=pointer]:
+      - /url: ./
+      - img [ref=e773]
+    - generic [ref=e776]:
+      - generic [ref=e777]:
+        - paragraph [ref=e779]:
+          - link "Network" [ref=e780] [cursor=pointer]:
+            - /url: ./network
+        - paragraph [ref=e782]:
+          - link "Grand Challenges" [ref=e783] [cursor=pointer]:
+            - /url: ./grand-challenges
+        - paragraph [ref=e785]:
+          - link "updates" [ref=e786] [cursor=pointer]:
+            - /url: ./updates
+        - paragraph [ref=e788]:
+          - link "Whitepaper" [ref=e789] [cursor=pointer]:
+            - /url: ./whitepaper
+        - paragraph [ref=e791]:
+          - link "origin" [ref=e792] [cursor=pointer]:
+            - /url: ./origin
+      - generic [ref=e794]:
+        - link [ref=e795] [cursor=pointer]:
+          - /url: https://x.com/BitRobotNetwork
+        - link [ref=e797] [cursor=pointer]:
+          - /url: https://discord.com/invite/bitrobot
+    - link "Join the Network" [ref=e800] [cursor=pointer]:
+      - /url: ./get-involved
+      - paragraph [ref=e802]: Join the Network
+  - generic [ref=e807]:
+    - generic [ref=e808]:
+      - generic [ref=e809]:
+        - link "start coordinating Early access to subnet launches, challenges, and network updates. Connect with researchers and operators. join now" [ref=e810] [cursor=pointer]:
+          - /url: https://discord.com/invite/bitrobot
+          - paragraph [ref=e812]: start coordinating
+          - generic [ref=e813]:
+            - generic [ref=e814]:
+              - paragraph [ref=e815]
+              - paragraph [ref=e816]
+              - paragraph [ref=e817]: Early access to subnet launches, challenges, and network updates. Connect with researchers and operators.
+            - paragraph [ref=e820]: join now
+        - generic [ref=e823]:
+          - paragraph [ref=e825]: Newsletter
+          - generic [ref=e826]:
+            - textbox [ref=e829]:
+              - /placeholder: Enter your email
+            - button "Get on the list →" [ref=e831] [cursor=pointer]:
+              - paragraph [ref=e833]: Get on the list →
+      - generic [ref=e834]:
+        - generic [ref=e838]:
+          - generic [ref=e840]:
+            - paragraph [ref=e842]: connect
+            - generic [ref=e843]:
+              - paragraph [ref=e845]:
+                - link "X" [ref=e846] [cursor=pointer]:
+                  - /url: https://x.com/BitRobotNetwork
+              - paragraph [ref=e848]:
+                - link "Discord" [ref=e849] [cursor=pointer]:
+                  - /url: https://discord.com/invite/bitrobot
+          - generic [ref=e850]:
+            - paragraph [ref=e852]: learn
+            - generic [ref=e853]:
+              - paragraph [ref=e855]:
+                - link "Home" [ref=e856] [cursor=pointer]:
+                  - /url: ./
+              - paragraph [ref=e858]:
+                - link "Network" [ref=e859] [cursor=pointer]:
+                  - /url: ./network
+              - paragraph [ref=e861]:
+                - link "Origin" [ref=e862] [cursor=pointer]:
+                  - /url: ./origin
+              - paragraph [ref=e864]:
+                - link "Updates" [ref=e865] [cursor=pointer]:
+                  - /url: ./updates
+              - paragraph [ref=e867]:
+                - link "Whitepaper" [ref=e868] [cursor=pointer]:
+                  - /url: ./whitepaper
+          - generic [ref=e869]:
+            - paragraph [ref=e871]: engage
+            - generic [ref=e872]:
+              - paragraph [ref=e874]:
+                - link "Grand Challenges" [ref=e875] [cursor=pointer]:
+                  - /url: ./grand-challenges
+              - paragraph [ref=e877]:
+                - link "Launch a Subnet" [ref=e878] [cursor=pointer]:
+                  - /url: https://form.typeform.com/to/kv7iWjKw
+              - paragraph [ref=e880]:
+                - link "Contribute Compute" [ref=e881] [cursor=pointer]:
+                  - /url: https://form.typeform.com/to/Ac3Mqu6p
+              - paragraph [ref=e883]:
+                - link "License Outputs" [ref=e884] [cursor=pointer]:
+                  - /url: https://form.typeform.com/to/mbR9ZfG2
+          - generic [ref=e886]:
+            - paragraph [ref=e888]: contact
+            - generic [ref=e889]:
+              - paragraph [ref=e891]:
+                - link "Media Inquiries" [ref=e892] [cursor=pointer]:
+                  - /url: mailto:contact@bitrobot.ai
+              - paragraph [ref=e894]:
+                - link "Brand Assets" [ref=e895] [cursor=pointer]:
+                  - /url: ./brand
+              - paragraph [ref=e897]:
+                - link "Careers" [ref=e898] [cursor=pointer]:
+                  - /url: https://jobs.solana.com/companies/bitrobot-foundation
+        - generic [ref=e899]:
+          - img [ref=e902]
+          - img [ref=e906]
+          - paragraph [ref=e910]: THE WORLD’S OPEN ROBOTICS LAB
+    - generic [ref=e911]:
+      - generic [ref=e912]:
+        - paragraph [ref=e914]:
+          - link "terms of service" [ref=e915] [cursor=pointer]:
+            - /url: ./updates/terms
+        - paragraph [ref=e917]:
+          - link "privacy policy" [ref=e918] [cursor=pointer]:
+            - /url: ./updates/privacy
+      - paragraph [ref=e921]: ©2026 bitrobot network

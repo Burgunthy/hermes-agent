@@ -1,0 +1,78 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - link [ref=e8] [cursor=pointer]:
+            - /url: https://news.ycombinator.com
+            - img [ref=e9]
+          - link "Search Hacker News" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e11]:
+              - text: Search
+              - text: Hacker News
+        - generic [ref=e12]:
+          - generic:
+            - img
+          - searchbox "Search stories by title, url or author" [ref=e13]: RealWorld AI model
+          - generic [ref=e14]:
+            - generic: Search by
+            - link "Algolia Logo" [ref=e15] [cursor=pointer]:
+              - /url: https://www.algolia.com/developers/?utm_source=hackernews&utm_medium=referral
+              - img "Algolia Logo" [ref=e16]
+        - link [ref=e18] [cursor=pointer]:
+          - /url: /settings
+          - img [ref=e19]
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - generic [ref=e25]: Search
+            - combobox "Stories" [ref=e26]:
+              - generic [ref=e27] [cursor=pointer]:
+                - text: Stories
+                - img [ref=e28]
+          - generic [ref=e30]:
+            - generic [ref=e31]: by
+            - combobox "Popularity" [ref=e32]:
+              - generic [ref=e33] [cursor=pointer]:
+                - text: Popularity
+                - img [ref=e34]
+          - generic [ref=e36]:
+            - generic [ref=e37]: for
+            - combobox "All time" [ref=e38]:
+              - generic [ref=e39] [cursor=pointer]:
+                - text: All time
+                - img [ref=e40]
+        - generic [ref=e42]:
+          - paragraph [ref=e43]: 0 results (0 seconds)
+          - combobox [ref=e45]:
+            - img [ref=e47] [cursor=pointer]
+      - list [ref=e55]:
+        - listitem [ref=e56]:
+          - link "About" [ref=e57] [cursor=pointer]:
+            - /url: /about
+        - listitem [ref=e58]: •
+        - listitem [ref=e59]:
+          - link "Setting" [ref=e60] [cursor=pointer]:
+            - /url: /settings
+        - listitem [ref=e61]: •
+        - listitem [ref=e62]:
+          - link "Help" [ref=e63] [cursor=pointer]:
+            - /url: /help
+        - listitem [ref=e64]: •
+        - listitem [ref=e65]:
+          - link "API Documentation" [ref=e66] [cursor=pointer]:
+            - /url: /api
+        - listitem [ref=e67]: •
+        - listitem [ref=e68]:
+          - link "Hacker News" [ref=e69] [cursor=pointer]:
+            - /url: https://news.ycombinator.com
+        - listitem [ref=e70]: •
+        - listitem [ref=e71]:
+          - link "Fork/Contribute" [ref=e72] [cursor=pointer]:
+            - /url: https://github.com/algolia/hn-search
+        - listitem [ref=e73]: •
+        - listitem [ref=e74]:
+          - link "Cool Apps" [ref=e75] [cursor=pointer]:
+            - /url: /cool_apps
+  - status [ref=e76]

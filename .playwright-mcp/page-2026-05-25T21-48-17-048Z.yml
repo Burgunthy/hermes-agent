@@ -1,0 +1,281 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3D%2522IROS%2B2026%2522%2Bcompetition%26type%3Drepositories
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fsearch&source=header
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e61]:
+    - generic [ref=e64]:
+      - heading "repositories Search Results · \"IROS 2026\" competition" [level=1] [ref=e65]
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - region "Filter by" [ref=e70]:
+            - heading "Filter by" [level=2] [ref=e71]
+            - list "Filter by" [ref=e76]:
+              - listitem [ref=e77]:
+                - list [ref=e78]:
+                  - listitem [ref=e79]:
+                    - link "Code (...) results" [ref=e80] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+competition&type=code
+                      - generic:
+                        - img
+                      - generic [ref=e81]:
+                        - generic [ref=e82]: Code
+                        - generic:
+                          - generic: ...
+                          - generic: (...)
+                          - generic: results
+                  - listitem [ref=e83]:
+                    - link "Repositories results" [ref=e84] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+competition&type=repositories
+                      - generic:
+                        - img
+                      - generic [ref=e85]:
+                        - generic [ref=e86]: Repositories
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e87]:
+                    - link "Issues results" [ref=e88] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+competition&type=issues
+                      - generic:
+                        - img
+                      - generic [ref=e89]:
+                        - generic [ref=e90]: Issues
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e91]:
+                    - link "Pull requests results" [ref=e92] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+competition&type=pullrequests
+                      - generic:
+                        - img
+                      - generic [ref=e93]:
+                        - generic [ref=e94]: Pull requests
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e95]:
+                    - link "Discussions results" [ref=e96] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+competition&type=discussions
+                      - generic:
+                        - img
+                      - generic [ref=e97]:
+                        - generic [ref=e98]: Discussions
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e99]:
+                    - link "Users results" [ref=e100] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+competition&type=users
+                      - generic:
+                        - img
+                      - generic [ref=e101]:
+                        - generic [ref=e102]: Users
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e103]:
+                    - button "More" [ref=e104] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e106]: More
+              - listitem [ref=e107]:
+                - heading "Advanced" [level=3] [ref=e109]
+                - list "Advanced" [ref=e110]:
+                  - listitem [ref=e111]:
+                    - button "Owner" [ref=e112] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Owner" [ref=e116]
+                  - listitem [ref=e117]:
+                    - button "Size" [ref=e118] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Size" [ref=e122]
+                  - listitem [ref=e123]:
+                    - button "Number of followers" [ref=e124] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of followers" [ref=e128]
+                  - listitem [ref=e129]:
+                    - button "Number of forks" [ref=e130] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of forks" [ref=e134]
+                  - listitem [ref=e135]:
+                    - button "Number of stars" [ref=e136] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of stars" [ref=e140]
+                  - listitem [ref=e141]:
+                    - button "Date created" [ref=e142] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Date created" [ref=e146]
+                  - listitem [ref=e147]:
+                    - button "Date pushed" [ref=e148] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Date pushed" [ref=e152]
+                  - listitem [ref=e153]:
+                    - button "Topic" [ref=e154] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Topic" [ref=e158]
+                  - listitem [ref=e159]:
+                    - button "License" [ref=e160] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "License" [ref=e164]
+                  - listitem [ref=e165]:
+                    - button "Archived" [ref=e166] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Archived" [ref=e170]
+                  - listitem [ref=e171]:
+                    - link "Public" [ref=e172] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+competition+is%3Apublic&type=repositories
+                      - generic:
+                        - img
+                      - generic "Public" [ref=e176]
+                  - listitem [ref=e177]:
+                    - link "Private" [ref=e178] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+competition+is%3Aprivate&type=repositories
+                      - generic:
+                        - img
+                      - generic "Private" [ref=e182]
+              - listitem [ref=e183]
+              - listitem [ref=e184]:
+                - link "Advanced search" [ref=e185] [cursor=pointer]:
+                  - /url: /search/advanced
+                  - generic:
+                    - img
+                  - generic [ref=e187]: Advanced search
+          - slider "Draggable pane splitter" [ref=e189]
+        - generic [ref=e192]:
+          - generic [ref=e193]:
+            - generic [ref=e195]:
+              - generic [ref=e196]:
+                - generic [ref=e197]:
+                  - generic [ref=e198]: 2 results
+                  - generic [ref=e199]: (154 ms)
+                - heading "2 results" [active] [level=2] [ref=e200]
+              - generic [ref=e201]:
+                - 'button "Sort by: Best match" [ref=e203] [cursor=pointer]':
+                  - generic [ref=e205]: "Sort by: Best match"
+                  - generic:
+                    - img
+                - button "Open column options" [ref=e207] [cursor=pointer]:
+                  - img [ref=e208]
+            - generic [ref=e212]:
+              - generic [ref=e214]:
+                - generic [ref=e215]:
+                  - heading "robotic-origami-challenge/robotic-origami-challenge.github.io" [level=3] [ref=e216]:
+                    - link "robotic-origami-challenge/robotic-origami-challenge.github.io" [ref=e220] [cursor=pointer]:
+                      - /url: /robotic-origami-challenge/robotic-origami-challenge.github.io
+                  - generic [ref=e222]:
+                    - emphasis [ref=e223]: IROS
+                    - emphasis [ref=e224]: "2026"
+                    - text: Robotic Origami Challenge — official
+                    - emphasis [ref=e225]: competition
+                    - text: site
+                  - list [ref=e226]:
+                    - listitem [ref=e227]:
+                      - generic "HTML language" [ref=e230]: HTML
+                    - generic [ref=e231]: ·
+                    - listitem [ref=e232]:
+                      - link "0 stars" [ref=e233] [cursor=pointer]:
+                        - /url: /robotic-origami-challenge/robotic-origami-challenge.github.io/stargazers
+                        - img [ref=e234]
+                        - generic [ref=e236]: "0"
+                    - generic [ref=e237]: ·
+                    - listitem [ref=e238]:
+                      - generic [ref=e239]:
+                        - text: Updated
+                        - generic "May 19, 2026, 1:29 PM UTC" [ref=e240]: 6 days ago
+                - link "Star" [ref=e243] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3D%2522IROS%2B2026%2522%2Bcompetition%26type%3Drepositories
+                  - generic [ref=e244]:
+                    - generic:
+                      - img
+                    - generic [ref=e245]: Star
+              - generic [ref=e247]:
+                - generic [ref=e248]:
+                  - heading "MEDCVR/Forceps-Manipulation-Challenge" [level=3] [ref=e249]:
+                    - link "MEDCVR/Forceps-Manipulation-Challenge" [ref=e253] [cursor=pointer]:
+                      - /url: /MEDCVR/Forceps-Manipulation-Challenge
+                  - generic [ref=e255]:
+                    - emphasis [ref=e256]: IROS
+                    - emphasis [ref=e257]: "2026"
+                    - emphasis [ref=e258]: Competition
+                    - text: ": Forceps-based Fine Manipulation Challenge"
+                  - list [ref=e259]:
+                    - listitem [ref=e260]:
+                      - link "0 stars" [ref=e261] [cursor=pointer]:
+                        - /url: /MEDCVR/Forceps-Manipulation-Challenge/stargazers
+                        - img [ref=e262]
+                        - generic [ref=e264]: "0"
+                    - generic [ref=e265]: ·
+                    - listitem [ref=e266]:
+                      - generic [ref=e267]:
+                        - text: Updated
+                        - generic "May 15, 2026, 2:11 AM UTC" [ref=e268]: 10 days ago
+                - link "Star" [ref=e271] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3D%2522IROS%2B2026%2522%2Bcompetition%26type%3Drepositories
+                  - generic [ref=e272]:
+                    - generic:
+                      - img
+                    - generic [ref=e273]: Star
+          - generic [ref=e276]:
+            - generic [ref=e277]:
+              - img "Package icon" [ref=e279]
+              - heading "Sponsor open source projects you depend on" [level=2] [ref=e280]
+              - generic [ref=e281]: Contributors are working behind the scenes to make open source better for everyone—give them the help and recognition they deserve.
+              - link "Explore sponsorable projects" [ref=e282] [cursor=pointer]:
+                - /url: https://github.com/sponsors/explore
+                - text: Explore sponsorable projects
+                - img [ref=e283]
+            - generic [ref=e285]:
+              - generic [ref=e286]:
+                - img [ref=e287]
+                - text: ProTip!
+              - generic [ref=e289]:
+                - text: Press the
+                - generic [ref=e290]: /
+                - text: key to activate the search input again and adjust your query.

@@ -1,0 +1,4 @@
+[     437ms] [ERROR] Access to manifest at 'https://static.arxiv.org/static/base/1.0.0a5/images/icons/site.webmanifest' from origin 'https://arxiv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://arxiv.org/search/?query=DeXtreme+dexterous+manipulation&searchtype=all:45
+[     438ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://static.arxiv.org/static/base/1.0.0a5/images/icons/site.webmanifest:0
+[     551ms] [ERROR] Access to manifest at 'https://static.arxiv.org/static/base/1.0.0a5/images/icons/site.webmanifest' from origin 'https://arxiv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://arxiv.org/search/?query=DeXtreme+dexterous+manipulation&searchtype=all:0
+[     551ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://static.arxiv.org/static/base/1.0.0a5/images/icons/site.webmanifest:0

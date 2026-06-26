@@ -1,0 +1,763 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - link "메뉴 영역으로 바로가기" [ref=e2] [cursor=pointer]:
+      - /url: "#lnb"
+      - generic [ref=e3]: 메뉴 영역으로 바로가기
+    - link "본문 영역으로 바로가기" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+      - generic [ref=e5]: 본문 영역으로 바로가기
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - generic [ref=e11]:
+        - heading "NAVER" [level=1] [ref=e12]:
+          - link "NAVER" [ref=e13] [cursor=pointer]:
+            - /url: https://www.naver.com
+            - generic [ref=e14]: NAVER
+        - search [ref=e15]:
+          - group "검색" [ref=e16]:
+            - combobox "검색어를 입력해 주세요." [ref=e18]:
+              - text: 워뇨띠 매매 비트코인
+              - button "자동완성 레이어" [ref=e19] [cursor=pointer]:
+                - generic [ref=e20]: 자동완성 레이어
+            - button "검색" [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]: 검색
+            - button "한글 입력기" [ref=e24] [cursor=pointer]:
+              - generic [ref=e25]: 한글 입력기
+      - generic [ref=e26]:
+        - generic [ref=e28]:
+          - generic [ref=e30]:
+            - tablist [ref=e31]:
+              - tab "블로그" [ref=e32] [cursor=pointer]
+              - tab "카페" [ref=e33] [cursor=pointer]
+              - tab "이미지" [ref=e34] [cursor=pointer]
+              - tab "클립" [ref=e35] [cursor=pointer]
+              - tab "지식iN" [ref=e36] [cursor=pointer]
+              - tab "인플루언서" [ref=e37] [cursor=pointer]
+              - tab "동영상" [ref=e38] [cursor=pointer]
+              - tab "쇼핑" [ref=e39] [cursor=pointer]
+              - tab "뉴스" [ref=e40] [cursor=pointer]
+              - tab "숏텐츠" [ref=e41] [cursor=pointer]
+              - tab "어학사전" [ref=e42] [cursor=pointer]
+              - tab "지도" [ref=e43] [cursor=pointer]
+              - tab "도서" [ref=e44] [cursor=pointer]
+              - tab "지식백과" [ref=e45] [cursor=pointer]
+              - tab "학술정보" [ref=e46] [cursor=pointer]
+            - button "다음" [ref=e47] [cursor=pointer]:
+              - generic [ref=e49]: 다음
+          - button "더보기" [ref=e51] [cursor=pointer]:
+            - generic [ref=e52]: 더보기
+        - list [ref=e54]:
+          - listitem [ref=e55]:
+            - button "공유" [ref=e56] [cursor=pointer]
+    - main [ref=e57]:
+      - generic [ref=e58]:
+        - heading "워뇨띠 매매 비트코인 검색 결과" [level=1] [ref=e59]
+        - generic [ref=e60]:
+          - generic [ref=e61]:
+            - generic [ref=e67]:
+              - generic [ref=e68]:
+                - link "코인의 바이블 coinbibleinvest.com›blog" [ref=e69] [cursor=pointer]:
+                  - /url: https://coinbibleinvest.com/blog/?bmode=view&idx=16138892
+                  - generic [ref=e71]:
+                    - generic [ref=e76]: 코인의 바이블
+                    - generic [ref=e80]: coinbibleinvest.com›blog
+                - button "옵션 메뉴 열기" [ref=e82] [cursor=pointer]:
+                  - img [ref=e83]
+              - generic [ref=e87]:
+                - 'link "<mark>워뇨띠 매매</mark>법 및 근황 &quot;600만원 -&gt; 3000억&quot; 만드는 방법 : <mark>비트코인</mark> 칼럼의 이미지" [ref=e88] [cursor=pointer]':
+                  - /url: https://coinbibleinvest.com/blog/?bmode=view&idx=16138892
+                  - 'img "<mark>워뇨띠 매매</mark>법 및 근황 &quot;600만원 -&gt; 3000억&quot; 만드는 방법 : <mark>비트코인</mark> 칼럼의 이미지" [ref=e90]'
+                - 'link "워뇨띠 매매법 및 근황 \"600만원 -> 3000억\" 만드는 방법 : 비트코인 칼럼" [ref=e93] [cursor=pointer]':
+                  - /url: https://coinbibleinvest.com/blog/?bmode=view&idx=16138892
+                  - generic [ref=e94]:
+                    - mark [ref=e95]: 워뇨띠 매매
+                    - text: "법 및 근황 \"600만원 -> 3000억\" 만드는 방법 :"
+                    - mark [ref=e96]: 비트코인
+                    - text: 칼럼
+                - link "2023.08.25.워뇨띠님은 국내 가상화폐 코인 투자자들 사이에서, 워뇨띠라는 존재는 고수 단계를 넘어 가히 신의 영역이라고 불립니다.많은 사람들이 한 번쯤 들어보았을 것입니다. 이 분은 비트맥스 리더보드에 \"aoa\" 라는 닉네임으로 활동하며, 검색 시 수익금과 수익률 등을 확인할 수 있습니다.알려진 정보에 따르면 21년에 이미 600만원 시작, 3000억을 달성하였다..." [ref=e98] [cursor=pointer]:
+                  - /url: https://coinbibleinvest.com/blog/?bmode=view&idx=16138892
+                  - generic [ref=e99]:
+                    - generic [ref=e100]: 2023.08.25.
+                    - generic [ref=e101]:
+                      - mark [ref=e102]: 워뇨띠
+                      - text: 님은 국내 가상화폐
+                      - mark [ref=e103]: 코인
+                      - text: 투자자들 사이에서,
+                      - mark [ref=e104]: 워뇨띠
+                      - text: 라는 존재는 고수 단계를 넘어 가히 신의 영역이라고 불립니다.많은 사람들이 한 번쯤 들어보았을 것입니다. 이 분은
+                      - mark [ref=e105]: 비트
+                      - text: 맥스 리더보드에 "aoa" 라는 닉네임으로 활동하며, 검색 시 수익금과 수익률 등을 확인할 수 있습니다.알려진 정보에 따르면 21년에 이미 600만원 시작, 3000억을 달성하였다...
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113]:
+                  - link [ref=e115] [cursor=pointer]:
+                    - /url: https://in.naver.com/healthandmoney
+                  - link "자꾸남" [ref=e120] [cursor=pointer]:
+                    - /url: https://in.naver.com/healthandmoney
+                    - generic [ref=e121]: 자꾸남
+                  - generic [ref=e124]: 2026.02.06.
+                - button "옵션 메뉴 열기" [ref=e126] [cursor=pointer]:
+                  - img [ref=e127]
+              - generic [ref=e132]:
+                - generic [ref=e133]:
+                  - link "워뇨띠 코인 200억 손실 인증, 재산과 포지션은? (ft. 매매원칙)" [ref=e134] [cursor=pointer]:
+                    - /url: https://blog.naver.com/healthtalkmentaltalk/224173865042
+                    - generic [ref=e135]:
+                      - mark [ref=e136]: 워뇨띠
+                      - mark [ref=e137]: 코인
+                      - text: 200억 손실 인증, 재산과 포지션은? (ft.
+                      - mark [ref=e138]: 매매
+                      - text: 원칙)
+                  - link "이렇게 코인만 혼자 오래 때려맞는걸 내가 본적이 있나? 싶다 특히 코인의 대장주라고도 볼 수 있는 비트코인은 비교적 안전자산이며, 변동성도 이더리움이나 기타 알트코인에 비해... 없다 코인의 신 워뇨띠 매매 원칙은? 워뇨띠가 이전에 매매원칙에 대해 인터뷰한 내용의 기사가 있다. 매매원칙에 대해 추가로 더 궁금하다면 아래의 기사 내용을 한번 정독해보는..." [ref=e140] [cursor=pointer]:
+                    - /url: https://blog.naver.com/healthtalkmentaltalk/224173865042
+                    - generic [ref=e141]:
+                      - text: 이렇게
+                      - mark [ref=e142]: 코인
+                      - text: 만 혼자 오래 때려맞는걸 내가 본적이 있나? 싶다 특히
+                      - mark [ref=e143]: 코인
+                      - text: 의 대장주라고도 볼 수 있는
+                      - mark [ref=e144]: 비트코인
+                      - text: 은 비교적 안전자산이며, 변동성도 이더리움이나 기타 알트
+                      - mark [ref=e145]: 코인
+                      - text: 에 비해... 없다
+                      - mark [ref=e146]: 코인
+                      - text: 의 신
+                      - mark [ref=e147]: 워뇨띠 매매
+                      - text: 원칙은?
+                      - mark [ref=e148]: 워뇨띠
+                      - text: 가 이전에
+                      - mark [ref=e149]: 매매
+                      - text: 원칙에 대해 인터뷰한 내용의 기사가 있다.
+                      - mark [ref=e150]: 매매
+                      - text: 원칙에 대해 추가로 더 궁금하다면 아래의 기사 내용을 한번 정독해보는...
+                - link "10" [ref=e151] [cursor=pointer]:
+                  - /url: https://blog.naver.com/healthtalkmentaltalk/224173865042
+                  - generic [ref=e153]:
+                    - img [ref=e154]
+                    - generic [ref=e158]: "10"
+            - generic [ref=e164]:
+              - generic [ref=e165]:
+                - link "quantpro.co.kr›워뇨띠-코인-매매법-투자전략-qna-정리-1000억-찍은-20대-투자" [ref=e166] [cursor=pointer]:
+                  - /url: https://quantpro.co.kr/%EC%9B%8C%EB%87%A8%EB%9D%A0-%EC%BD%94%EC%9D%B8-%EB%A7%A4%EB%A7%A4%EB%B2%95-%ED%88%AC%EC%9E%90%EC%A0%84%EB%9E%B5-qna-%EC%A0%95%EB%A6%AC-1000%EC%96%B5-%EC%B0%8D%EC%9D%80-20%EB%8C%80-%ED%88%AC%EC%9E%90/
+                  - generic [ref=e174]: quantpro.co.kr›워뇨띠-코인-매매법-투자전략-qna-정리-1000억-찍은-20대-투자
+                - button "옵션 메뉴 열기" [ref=e176] [cursor=pointer]:
+                  - img [ref=e177]
+              - generic [ref=e181]:
+                - link "<mark>워뇨띠</mark> <mark>코인</mark> <mark>매매</mark>법 투자전략 QnA 정리, 3000억 번 20대 투자자 - bull의 이미지" [ref=e182] [cursor=pointer]:
+                  - /url: https://quantpro.co.kr/%EC%9B%8C%EB%87%A8%EB%9D%A0-%EC%BD%94%EC%9D%B8-%EB%A7%A4%EB%A7%A4%EB%B2%95-%ED%88%AC%EC%9E%90%EC%A0%84%EB%9E%B5-qna-%EC%A0%95%EB%A6%AC-1000%EC%96%B5-%EC%B0%8D%EC%9D%80-20%EB%8C%80-%ED%88%AC%EC%9E%90/
+                  - img "<mark>워뇨띠</mark> <mark>코인</mark> <mark>매매</mark>법 투자전략 QnA 정리, 3000억 번 20대 투자자 - bull의 이미지" [ref=e184]
+                - link "워뇨띠 코인 매매법 투자전략 QnA 정리, 3000억 번 20대 투자자 - bull" [ref=e187] [cursor=pointer]:
+                  - /url: https://quantpro.co.kr/%EC%9B%8C%EB%87%A8%EB%9D%A0-%EC%BD%94%EC%9D%B8-%EB%A7%A4%EB%A7%A4%EB%B2%95-%ED%88%AC%EC%9E%90%EC%A0%84%EB%9E%B5-qna-%EC%A0%95%EB%A6%AC-1000%EC%96%B5-%EC%B0%8D%EC%9D%80-20%EB%8C%80-%ED%88%AC%EC%9E%90/
+                  - generic [ref=e188]:
+                    - mark [ref=e189]: 워뇨띠
+                    - mark [ref=e190]: 코인
+                    - mark [ref=e191]: 매매
+                    - text: 법 투자전략 QnA 정리, 3000억 번 20대 투자자 - bull
+                - link "2023.11.06.Q. 몇 분할로 진입하시나요? 비중을 어떻게 분할하시나요? 비트코인만 매매하시나요? A. 한 번에 가능한한 진입하는 것을 선호합니다. 자산 규모가 커져 분할할 필요성이 줄었고, 비트코인 7, 이더리움 2, 알트코인 1의 비율로 매매합니다." [ref=e193] [cursor=pointer]:
+                  - /url: https://quantpro.co.kr/%EC%9B%8C%EB%87%A8%EB%9D%A0-%EC%BD%94%EC%9D%B8-%EB%A7%A4%EB%A7%A4%EB%B2%95-%ED%88%AC%EC%9E%90%EC%A0%84%EB%9E%B5-qna-%EC%A0%95%EB%A6%AC-1000%EC%96%B5-%EC%B0%8D%EC%9D%80-20%EB%8C%80-%ED%88%AC%EC%9E%90/
+                  - generic [ref=e194]:
+                    - generic [ref=e195]: 2023.11.06.
+                    - generic [ref=e196]:
+                      - text: Q. 몇 분할로 진입하시나요? 비중을 어떻게 분할하시나요?
+                      - mark [ref=e197]: 비트코인
+                      - text: 만
+                      - mark [ref=e198]: 매매
+                      - text: 하시나요? A. 한 번에 가능한한 진입하는 것을 선호합니다. 자산 규모가 커져 분할할 필요성이 줄었고,
+                      - mark [ref=e199]: 비트코인
+                      - text: 7, 이더리움 2, 알트
+                      - mark [ref=e200]: 코인
+                      - text: 1의 비율로
+                      - mark [ref=e201]: 매매
+                      - text: 합니다.
+            - generic [ref=e207]:
+              - generic [ref=e208]:
+                - link "이코노미블록 economybloc.com›article" [ref=e209] [cursor=pointer]:
+                  - /url: https://economybloc.com/article/96139/
+                  - generic [ref=e211]:
+                    - generic [ref=e216]: 이코노미블록
+                    - generic [ref=e220]: economybloc.com›article
+                - button "옵션 메뉴 열기" [ref=e222] [cursor=pointer]:
+                  - img [ref=e223]
+              - generic [ref=e227]:
+                - link "<mark>코인</mark> 트레이더 <mark>워뇨띠</mark> “<mark>비트코인</mark> 공매도 중...$11만 오면 천천히 매수”의 이미지" [ref=e228] [cursor=pointer]:
+                  - /url: https://economybloc.com/article/96139/
+                  - img "<mark>코인</mark> 트레이더 <mark>워뇨띠</mark> “<mark>비트코인</mark> 공매도 중...$11만 오면 천천히 매수”의 이미지" [ref=e230]
+                - link "코인 트레이더 워뇨띠 “비트코인 공매도 중...$11만 오면 천천히 매수”" [ref=e233] [cursor=pointer]:
+                  - /url: https://economybloc.com/article/96139/
+                  - generic [ref=e234]:
+                    - mark [ref=e235]: 코인
+                    - text: 트레이더
+                    - mark [ref=e236]: 워뇨띠
+                    - text: “
+                    - mark [ref=e237]: 비트코인
+                    - text: 공매도 중...$11만 오면 천천히 매수”
+                - link "2025.08.19.워뇨띠 Q&A – 디시인사이드 차트갤러리 워뇨띠 주요 발언 상승장이나 하락장 초입에서 편승 매매는 잘 하지 않고, 너무 싸졌을 때 매수하고 너무 비싸졌을 때 매도한다. 비트코인 12만달러까지 오르는 동안 대부분의 숏은 청산당하며, 고점에서 숏한 소수만 주목받는다. 시가총액 수십조 미만 알트는 거래하지 않고, ‘운전’이 의심되는 종목은 비정상이라 더더욱..." [ref=e239] [cursor=pointer]:
+                  - /url: https://economybloc.com/article/96139/
+                  - generic [ref=e240]:
+                    - generic [ref=e241]: 2025.08.19.
+                    - generic [ref=e242]:
+                      - mark [ref=e243]: 워뇨띠
+                      - text: Q&A – 디시인사이드 차트갤러리
+                      - mark [ref=e244]: 워뇨띠
+                      - text: 주요 발언 상승장이나 하락장 초입에서 편승
+                      - mark [ref=e245]: 매매
+                      - text: 는 잘 하지 않고, 너무 싸졌을 때 매수하고 너무 비싸졌을 때 매도한다.
+                      - mark [ref=e246]: 비트코인
+                      - text: 12만달러까지 오르는 동안 대부분의 숏은 청산당하며, 고점에서 숏한 소수만 주목받는다. 시가총액 수십조 미만 알트는
+                      - mark [ref=e247]: 거래
+                      - text: 하지 않고, ‘운전’이 의심되는 종목은 비정상이라 더더욱...
+            - generic [ref=e253]:
+              - generic [ref=e254]:
+                - generic [ref=e255]:
+                  - link "코인드림_자산 인사이트" [ref=e257] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UCKcaQ9Dvp2cdx7Fo8qMU28g
+                    - img "코인드림_자산 인사이트" [ref=e260]
+                  - link "코인드림_자산 인사이트" [ref=e263] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UCKcaQ9Dvp2cdx7Fo8qMU28g
+                    - generic [ref=e264]: 코인드림_자산 인사이트
+                  - generic [ref=e265]:
+                    - link "YouTube" [ref=e268] [cursor=pointer]:
+                      - /url: https://www.youtube.com
+                      - generic [ref=e269]: YouTube
+                    - generic [ref=e272]: 2025.08.20.
+                - button "옵션 메뉴 열기" [ref=e274] [cursor=pointer]:
+                  - img [ref=e275]
+              - generic [ref=e279]:
+                - generic [ref=e280]:
+                  - link "워뇨띠가 기다리는 비트코인 매매타점" [ref=e281] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=yH1P9f71rgg
+                    - generic [ref=e282]:
+                      - mark [ref=e283]: 워뇨띠
+                      - text: 가 기다리는
+                      - mark [ref=e284]: 비트코인
+                      - mark [ref=e285]: 매매
+                      - text: 타점
+                  - 'link "#비트코인 #워뇨띠 #이더리움" [ref=e286] [cursor=pointer]':
+                    - /url: https://www.youtube.com/watch?v=yH1P9f71rgg
+                    - generic [ref=e287]:
+                      - text: "#"
+                      - mark [ref=e288]: 비트코인
+                      - text: "#"
+                      - mark [ref=e289]: 워뇨띠
+                      - text: "#이더리움"
+                - link "워뇨띠가 기다리는 비트코인 매매타점 00:51" [ref=e291] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=yH1P9f71rgg
+                  - img "워뇨띠가 기다리는 비트코인 매매타점" [ref=e292]
+                  - generic [ref=e293]:
+                    - img [ref=e295]
+                    - generic [ref=e298]: 00:51
+          - generic [ref=e299]:
+            - generic [ref=e305]:
+              - generic [ref=e306]:
+                - generic [ref=e307]:
+                  - link [ref=e309] [cursor=pointer]:
+                    - /url: https://blog.naver.com/junto-club
+                  - link "나혼자번다" [ref=e314] [cursor=pointer]:
+                    - /url: https://blog.naver.com/junto-club
+                    - generic [ref=e315]: 나혼자번다
+                  - generic [ref=e318]: 2026.03.09.
+                - button "옵션 메뉴 열기" [ref=e320] [cursor=pointer]:
+                  - img [ref=e321]
+              - generic [ref=e326]:
+                - generic [ref=e327]:
+                  - link "유명한 투자자 \"워뇨띠\"의 리스크 관리에 대한 인사이트 공유" [ref=e328] [cursor=pointer]:
+                    - /url: https://blog.naver.com/junto-club/224209952685
+                    - generic [ref=e329]:
+                      - text: 유명한 투자자 "
+                      - mark [ref=e330]: 워뇨띠
+                      - text: "\"의 리스크 관리에 대한 인사이트 공유"
+                  - 'link "자산 배분 리스크 관리가 더 중요 • 다들 이럴 때일수록 포지션보다 자산 배분을 먼저 생각했으면 함 #워뇨띠 #리스크관리 #자산배분 #투자마인드 #코인투자 #비트코인투자 #트레이딩전략 #투자전략 #포지션관리 #매매전략 #변동성장세 #투자심리 #트레이더마인드 #코인리스크관리 #비트코인트레이딩 #암호화폐투자 #투자교육 #시장변동성 #장기투자전략 #트레이딩팁" [ref=e332] [cursor=pointer]':
+                    - /url: https://blog.naver.com/junto-club/224209952685
+                    - generic [ref=e333]:
+                      - text: "자산 배분 리스크 관리가 더 중요 • 다들 이럴 때일수록 포지션보다 자산 배분을 먼저 생각했으면 함 #"
+                      - mark [ref=e334]: 워뇨띠
+                      - text: "#리스크관리 #자산배분 #투자마인드 #"
+                      - mark [ref=e335]: 코인
+                      - text: "투자 #"
+                      - mark [ref=e336]: 비트코인
+                      - text: "투자 #트레이딩전략 #투자전략 #포지션관리 #"
+                      - mark [ref=e337]: 매매
+                      - text: "전략 #변동성장세 #투자심리 #트레이더마인드 #"
+                      - mark [ref=e338]: 코인
+                      - text: "리스크관리 #"
+                      - mark [ref=e339]: 비트코인
+                      - text: "트레이딩 #암호화폐투자 #투자교육 #시장변동성 #장기투자전략 #트레이딩팁"
+                - generic [ref=e340]:
+                  - link [ref=e341] [cursor=pointer]:
+                    - /url: https://blog.naver.com/junto-club/224209952685
+                    - img [ref=e343]
+                  - link [ref=e345] [cursor=pointer]:
+                    - /url: https://blog.naver.com/junto-club/224209952685
+                    - img [ref=e347]
+                  - link [ref=e349] [cursor=pointer]:
+                    - /url: https://blog.naver.com/junto-club/224209952685
+                    - img [ref=e351]
+                  - link [ref=e353] [cursor=pointer]:
+                    - /url: https://blog.naver.com/junto-club/224209952685
+                    - img [ref=e355]
+                  - link [ref=e357] [cursor=pointer]:
+                    - /url: https://blog.naver.com/junto-club/224209952685
+                    - img [ref=e359]
+                  - generic [ref=e361]: "7"
+            - generic [ref=e367]:
+              - generic [ref=e368]:
+                - generic [ref=e369]:
+                  - link [ref=e371] [cursor=pointer]:
+                    - /url: https://cafe.naver.com/1djr58
+                  - generic [ref=e374]:
+                    - link "비트코인 커뮤니티 [가투법] No.1 카페 - 정보/차트/공부/분석" [ref=e376] [cursor=pointer]:
+                      - /url: https://cafe.naver.com/1djr58
+                      - generic [ref=e377]: 비트코인 커뮤니티 [가투법] No.1 카페 - 정보/차트/공부/분석
+                    - img [ref=e378]
+                  - generic [ref=e383]: 2025.11.14.
+                - button "옵션 메뉴 열기" [ref=e385] [cursor=pointer]:
+                  - img [ref=e386]
+              - generic [ref=e391]:
+                - generic [ref=e392]:
+                  - link "워뇨띠 40% 손실 중.. 상승할 수 있을까" [ref=e393] [cursor=pointer]:
+                    - /url: https://cafe.naver.com/1djr58/1184252?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6IjFkanI1OCIsImFydGljbGVJZCI6MTE4NDI1MiwiaXNzdWVkQXQiOjE3NzkyNDE2ODMzNzV9.4HXWy2GNSbFBQWOe8TukShYwSPHK-j6D2TPTOFRVLRc
+                    - generic [ref=e394]:
+                      - mark [ref=e395]: 워뇨띠
+                      - text: 40% 손실 중.. 상승할 수 있을까
+                  - link "이번이 블랙스완이 될 지, 아니면 워뇨띠의 생각대로 갈 지. 계속해서 지켜봐야겠습니다. 이곳은 가투법 [자유 게시판] 매매 공유, 차트 분석 → 실시간 타점공유 게시판 코인 아무말 대잔치 → 실시간 인간지표 게시판 거시경제, 투자 인사이트 → 코인경제 포럼 게시판 이 외 모든 잡담은 이 곳 자유 게시판에서! 비트코인 이더리움 리플 도지코인 버추얼프로토콜..." [ref=e397] [cursor=pointer]:
+                    - /url: https://cafe.naver.com/1djr58/1184252?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6IjFkanI1OCIsImFydGljbGVJZCI6MTE4NDI1MiwiaXNzdWVkQXQiOjE3NzkyNDE2ODMzNzV9.4HXWy2GNSbFBQWOe8TukShYwSPHK-j6D2TPTOFRVLRc
+                    - generic [ref=e398]:
+                      - text: 이번이 블랙스완이 될 지, 아니면
+                      - mark [ref=e399]: 워뇨띠
+                      - text: 의 생각대로 갈 지. 계속해서 지켜봐야겠습니다. 이곳은 가투법 [자유 게시판]
+                      - mark [ref=e400]: 매매
+                      - text: 공유, 차트 분석 → 실시간 타점공유 게시판
+                      - mark [ref=e401]: 코인
+                      - text: 아무말 대잔치 → 실시간 인간지표 게시판 거시경제, 투자 인사이트 →
+                      - mark [ref=e402]: 코인
+                      - text: 경제 포럼 게시판 이 외 모든 잡담은 이 곳 자유 게시판에서!
+                      - mark [ref=e403]: 비트코인
+                      - text: 이더리움 리플 도지
+                      - mark [ref=e404]: 코인
+                      - text: 버추얼프로토콜...
+                - link "7" [ref=e405] [cursor=pointer]:
+                  - /url: https://cafe.naver.com/1djr58/1184252?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6IjFkanI1OCIsImFydGljbGVJZCI6MTE4NDI1MiwiaXNzdWVkQXQiOjE3NzkyNDE2ODMzNzV9.4HXWy2GNSbFBQWOe8TukShYwSPHK-j6D2TPTOFRVLRc
+                  - generic [ref=e407]:
+                    - img [ref=e408]
+                    - generic [ref=e412]: "7"
+              - generic [ref=e415]:
+                - link "워뇨띠 비트코인 100개 롱 포지션 진입" [ref=e416] [cursor=pointer]:
+                  - /url: https://cafe.naver.com/1djr58/1199745?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6IjFkanI1OCIsImFydGljbGVJZCI6MTE5OTc0NSwiaXNzdWVkQXQiOjE3NzkyNDE2ODMzNzV9.uQ7wzxpdJfvNeYw_G40V5Y-fDKhnLLcVsySlFGiW5A4
+                  - generic [ref=e417]:
+                    - mark [ref=e418]: 워뇨띠
+                    - mark [ref=e419]: 비트코인
+                    - text: 100개 롱 포지션 진입
+                - link "워뇨띠가 직접인정한 사람" [ref=e420] [cursor=pointer]:
+                  - /url: https://cafe.naver.com/1djr58/1131873?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6IjFkanI1OCIsImFydGljbGVJZCI6MTEzMTg3MywiaXNzdWVkQXQiOjE3NzkyNDE2ODMzNzV9.e6Pffixo5Pez1h_lnBPXaVDx76iIEfRBEv78N3DMqAM
+                  - generic [ref=e421]:
+                    - mark [ref=e422]: 워뇨띠
+                    - text: 가 직접인정한 사람
+            - generic [ref=e428]:
+              - generic [ref=e429]:
+                - generic [ref=e430]:
+                  - link [ref=e432] [cursor=pointer]:
+                    - /url: https://blog.naver.com/i-growth
+                  - link "긍정의 돈 이야기" [ref=e437] [cursor=pointer]:
+                    - /url: https://blog.naver.com/i-growth
+                    - generic [ref=e438]: 긍정의 돈 이야기
+                  - generic [ref=e441]: 2026.03.14.
+                - button "옵션 메뉴 열기" [ref=e443] [cursor=pointer]:
+                  - img [ref=e444]
+              - generic [ref=e449]:
+                - generic [ref=e450]:
+                  - link "워뇨띠매매법 비트코인 선물거래 핵심정리 600만원에서 수천억" [ref=e451] [cursor=pointer]:
+                    - /url: https://blog.naver.com/i-growth/224216483884
+                    - generic [ref=e452]:
+                      - mark [ref=e453]: 워뇨띠매매
+                      - text: 법
+                      - mark [ref=e454]: 비트코인
+                      - text: 선물
+                      - mark [ref=e455]: 거래
+                      - text: 핵심정리 600만원에서 수천억
+                  - 'link "워뇨띠 매매법 핵심 정리 (600만원 → 수천억): 실제 근거로 보는 트레이딩 전략 국내 코인 커뮤니티에서 자주 언급되는 트레이더 ‘워뇨띠’는 약 600만원의 초기 자금으로 시작해... 더 분석이 필요하다. 나이도 어린데 어떻게 통제했지. 대단대단. #워뇨띠 #비트코인선물 #수천억 #트레이더 #트레이딩 #선물투자 #비트코인선물거래 #비트코인" [ref=e457] [cursor=pointer]':
+                    - /url: https://blog.naver.com/i-growth/224216483884
+                    - generic [ref=e458]:
+                      - mark [ref=e459]: 워뇨띠 매매
+                      - text: "법 핵심 정리 (600만원 → 수천억): 실제 근거로 보는 트레이딩 전략 국내"
+                      - mark [ref=e460]: 코인
+                      - text: 커뮤니티에서 자주 언급되는 트레이더 ‘
+                      - mark [ref=e461]: 워뇨띠
+                      - text: "’는 약 600만원의 초기 자금으로 시작해... 더 분석이 필요하다. 나이도 어린데 어떻게 통제했지. 대단대단. #"
+                      - mark [ref=e462]: 워뇨띠
+                      - text: "#"
+                      - mark [ref=e463]: 비트코인
+                      - text: "선물 #수천억 #트레이더 #트레이딩 #선물투자 #"
+                      - mark [ref=e464]: 비트코인
+                      - text: 선물
+                      - mark [ref=e465]: 거래
+                      - text: "#"
+                      - mark [ref=e466]: 비트코인
+                - link "2" [ref=e467] [cursor=pointer]:
+                  - /url: https://blog.naver.com/i-growth/224216483884
+                  - generic [ref=e469]:
+                    - img [ref=e470]
+                    - generic [ref=e474]: "2"
+            - generic [ref=e480]:
+              - generic [ref=e481]:
+                - generic [ref=e482]:
+                  - link [ref=e484] [cursor=pointer]:
+                    - /url: https://in.naver.com/keheehee2
+                  - link "예슨김교수" [ref=e489] [cursor=pointer]:
+                    - /url: https://in.naver.com/keheehee2
+                    - generic [ref=e490]: 예슨김교수
+                  - generic [ref=e493]: 2025.12.01.
+                - button "옵션 메뉴 열기" [ref=e495] [cursor=pointer]:
+                  - img [ref=e496]
+              - generic [ref=e501]:
+                - generic [ref=e502]:
+                  - link "업비트 400억 대 해킹당할 때, 압구정아파트 100채 벌었다는 워뇨띠는 900억대 매수했다" [ref=e503] [cursor=pointer]:
+                    - /url: https://blog.naver.com/keheehee2/224093839034
+                    - generic [ref=e504]:
+                      - text: 업
+                      - mark [ref=e505]: 비트
+                      - text: 400억 대 해킹당할 때, 압구정아파트 100채 벌었다는
+                      - mark [ref=e506]: 워뇨띠
+                      - text: 는 900억대 매수했다
+                  - link "업비트 445억 규모 해킹에…네이버 4%대 하락(종합) 뉴시스 국내 최대 가상화폐 거래소인 두나무의 업비트가 400억원이 넘는... 다만 워뇨띠의 비트멕스 아이디로 알려진 aoa가 수익률 최상위권에 올라와 있는 것은 사실이다 출처 \"압구정 아파트 100채 값 벌었다\"…한국 코인계 전설 '워뇨띠'의 귀환 머니투데이 함께 읽으면 좋은 워뇨띠 근황 및 매매법 총정리" [ref=e508] [cursor=pointer]:
+                    - /url: https://blog.naver.com/keheehee2/224093839034
+                    - generic [ref=e509]:
+                      - text: 업
+                      - mark [ref=e510]: 비트
+                      - text: 445억 규모 해킹에…네이버 4%대 하락(종합) 뉴시스 국내 최대 가상화폐
+                      - mark [ref=e511]: 거래
+                      - text: 소인 두나무의 업
+                      - mark [ref=e512]: 비트
+                      - text: 가 400억원이 넘는... 다만
+                      - mark [ref=e513]: 워뇨띠
+                      - text: 의
+                      - mark [ref=e514]: 비트
+                      - text: 멕스 아이디로 알려진 aoa가 수익률 최상위권에 올라와 있는 것은 사실이다 출처 "압구정 아파트 100채 값 벌었다"…한국
+                      - mark [ref=e515]: 코인
+                      - text: 계 전설 '
+                      - mark [ref=e516]: 워뇨띠
+                      - text: "'의 귀환 머니투데이 함께 읽으면 좋은"
+                      - mark [ref=e517]: 워뇨띠
+                      - text: 근황 및
+                      - mark [ref=e518]: 매매
+                      - text: 법 총정리
+                - link "6" [ref=e519] [cursor=pointer]:
+                  - /url: https://blog.naver.com/keheehee2/224093839034
+                  - generic [ref=e521]:
+                    - img [ref=e522]
+                    - generic [ref=e526]: "6"
+            - generic [ref=e532]:
+              - generic [ref=e533]:
+                - link "CoinNess coinness.com›community" [ref=e534] [cursor=pointer]:
+                  - /url: https://coinness.com/community/lounge/229103
+                  - generic [ref=e536]:
+                    - generic [ref=e541]: CoinNess
+                    - generic [ref=e545]: coinness.com›community
+                - button "옵션 메뉴 열기" [ref=e547] [cursor=pointer]:
+                  - img [ref=e548]
+              - generic [ref=e552]:
+                - link "전설의 트레이더 워뇨띠 100문 100답" [ref=e554] [cursor=pointer]:
+                  - /url: https://coinness.com/community/lounge/229103
+                  - generic [ref=e555]:
+                    - text: 전설의 트레이더
+                    - mark [ref=e556]: 워뇨띠
+                    - text: 100문 100답
+                - link "2024.06.03.웬만하면 비트코인과 커플링 할 때 시총이 큰 것 위주로 매매합니다. 이평에 닿는 기준만으로 매매하지 않습니다 Q12. 차트 분석을 하실 때 캔들과 거래량만을 보신다고 하셨는데 사실 초보로서 납득하기 어려운 부분입니다. 같은 그림을 보는데 어떤 점을 유의하며 파악해야 하는지 꿀팀 하나만 알려주신다면? A. 과거 경험에 미루어보아 현재 패턴상 어느 방향으로..." [ref=e558] [cursor=pointer]:
+                  - /url: https://coinness.com/community/lounge/229103
+                  - generic [ref=e559]:
+                    - generic [ref=e560]: 2024.06.03.
+                    - generic [ref=e561]:
+                      - text: 웬만하면
+                      - mark [ref=e562]: 비트코인
+                      - text: 과 커플링 할 때 시총이 큰 것 위주로
+                      - mark [ref=e563]: 매매
+                      - text: 합니다. 이평에 닿는 기준만으로
+                      - mark [ref=e564]: 매매
+                      - text: 하지 않습니다 Q12. 차트 분석을 하실 때 캔들과
+                      - mark [ref=e565]: 거래
+                      - text: 량만을 보신다고 하셨는데 사실 초보로서 납득하기 어려운 부분입니다. 같은 그림을 보는데 어떤 점을 유의하며 파악해야 하는지 꿀팀 하나만 알려주신다면? A. 과거 경험에 미루어보아 현재 패턴상 어느 방향으로...
+            - generic [ref=e571]:
+              - generic [ref=e572]:
+                - link "네이버 블로그 blog.naver.com›lemon7047" [ref=e573] [cursor=pointer]:
+                  - /url: https://blog.naver.com/lemon7047/223352638999
+                  - generic [ref=e575]:
+                    - generic [ref=e580]: 네이버 블로그
+                    - generic [ref=e584]: blog.naver.com›lemon7047
+                - button "옵션 메뉴 열기" [ref=e586] [cursor=pointer]:
+                  - img [ref=e587]
+              - generic [ref=e591]:
+                - link "3000억 트레이더 <mark>워뇨띠 매매</mark>법 QnA 총정리, <mark>비트코인</mark> 선물<mark>거래</mark> 및 마진<mark>거래</mark> 하는 방법의 이미지" [ref=e592] [cursor=pointer]:
+                  - /url: https://blog.naver.com/lemon7047/223352638999
+                  - img "3000억 트레이더 <mark>워뇨띠 매매</mark>법 QnA 총정리, <mark>비트코인</mark> 선물<mark>거래</mark> 및 마진<mark>거래</mark> 하는 방법의 이미지" [ref=e594]
+                - link "3000억 트레이더 워뇨띠 매매법 QnA 총정리, 비트코인 선물거래 및 마진거래 하는 방법" [ref=e597] [cursor=pointer]:
+                  - /url: https://blog.naver.com/lemon7047/223352638999
+                  - generic [ref=e598]:
+                    - text: 3000억 트레이더
+                    - mark [ref=e599]: 워뇨띠 매매
+                    - text: 법 QnA 총정리,
+                    - mark [ref=e600]: 비트코인
+                    - text: 선물
+                    - mark [ref=e601]: 거래
+                    - text: 및 마진
+                    - mark [ref=e602]: 거래
+                    - text: 하는 방법
+                - link "2024.02.13.워뇨띠 매매법 QnA 총정리 3. 비트코인 선물거래 및 마진거래 안녕하세요. 네이버 경제 인플루언서 에이준트 입니다. 오늘은 국내 암호화폐 투자자들 사이에서 신이라 불리는 워뇨띠라는 트레이더에 대해 알아보도록 하겠습니다. ① 3000억 트레이더, 워뇨띠 소개 국내 암호화폐 투자자들이라면 한 번쯤 워뇨띠라는 트레이더에 대해 들어보셨을거라 생각합니다. 특히나..." [ref=e604] [cursor=pointer]:
+                  - /url: https://blog.naver.com/lemon7047/223352638999
+                  - generic [ref=e605]:
+                    - generic [ref=e606]: 2024.02.13.
+                    - generic [ref=e607]:
+                      - mark [ref=e608]: 워뇨띠 매매
+                      - text: 법 QnA 총정리 3.
+                      - mark [ref=e609]: 비트코인
+                      - text: 선물
+                      - mark [ref=e610]: 거래
+                      - text: 및 마진
+                      - mark [ref=e611]: 거래
+                      - text: 안녕하세요. 네이버 경제 인플루언서 에이준트 입니다. 오늘은 국내 암호화폐 투자자들 사이에서 신이라 불리는
+                      - mark [ref=e612]: 워뇨띠
+                      - text: 라는 트레이더에 대해 알아보도록 하겠습니다. ① 3000억 트레이더,
+                      - mark [ref=e613]: 워뇨띠
+                      - text: 소개 국내 암호화폐 투자자들이라면 한 번쯤
+                      - mark [ref=e614]: 워뇨띠
+                      - text: 라는 트레이더에 대해 들어보셨을거라 생각합니다. 특히나...
+            - generic [ref=e620]:
+              - generic [ref=e621]:
+                - link "토큰포스트 www.tokenpost.kr›forum" [ref=e622] [cursor=pointer]:
+                  - /url: https://www.tokenpost.kr/forum/free/293464
+                  - generic [ref=e624]:
+                    - generic [ref=e629]: 토큰포스트
+                    - generic [ref=e633]: www.tokenpost.kr›forum
+                - button "옵션 메뉴 열기" [ref=e635] [cursor=pointer]:
+                  - img [ref=e636]
+              - generic [ref=e640]:
+                - link "펌) <mark>워뇨띠</mark> 투자 수익 인증 <mark>매매</mark>법, <mark>매매</mark>기법 공개 (1-20)의 이미지" [ref=e641] [cursor=pointer]:
+                  - /url: https://www.tokenpost.kr/forum/free/293464
+                  - img "펌) <mark>워뇨띠</mark> 투자 수익 인증 <mark>매매</mark>법, <mark>매매</mark>기법 공개 (1-20)의 이미지" [ref=e643]
+                - link "펌) 워뇨띠 투자 수익 인증 매매법, 매매기법 공개 (1-20)" [ref=e646] [cursor=pointer]:
+                  - /url: https://www.tokenpost.kr/forum/free/293464
+                  - generic [ref=e647]:
+                    - text: 펌)
+                    - mark [ref=e648]: 워뇨띠
+                    - text: 투자 수익 인증
+                    - mark [ref=e649]: 매매
+                    - text: 법,
+                    - mark [ref=e650]: 매매
+                    - text: 기법 공개 (1-20)
+                - link "2023.12.13.주로 비트코인과 커플링 될 때의 시총이 큰 알트코인 위주로 매매합니다. 이평만을 기준으로 매매하지는 않습니다. Q12. 차트 분석을 하실 때 캔들과 거래량만을 보신다고 하셨는데, 어떻게 그렇게 분석하실 수 있나요? A. 오랫동안 차트를 분석하여 과거의 경험을 통해 현재 패턴에서 어떤 결론을 도출할 수 있는지를 가늠하게 됩니다. 만약 반년 동안 꾸준히 분석해도..." [ref=e652] [cursor=pointer]:
+                  - /url: https://www.tokenpost.kr/forum/free/293464
+                  - generic [ref=e653]:
+                    - generic [ref=e654]: 2023.12.13.
+                    - generic [ref=e655]:
+                      - text: 주로
+                      - mark [ref=e656]: 비트코인
+                      - text: 과 커플링 될 때의 시총이 큰 알트
+                      - mark [ref=e657]: 코인
+                      - text: 위주로
+                      - mark [ref=e658]: 매매
+                      - text: 합니다. 이평만을 기준으로
+                      - mark [ref=e659]: 매매
+                      - text: 하지는 않습니다. Q12. 차트 분석을 하실 때 캔들과
+                      - mark [ref=e660]: 거래
+                      - text: 량만을 보신다고 하셨는데, 어떻게 그렇게 분석하실 수 있나요? A. 오랫동안 차트를 분석하여 과거의 경험을 통해 현재 패턴에서 어떤 결론을 도출할 수 있는지를 가늠하게 됩니다. 만약 반년 동안 꾸준히 분석해도...
+            - generic [ref=e666]:
+              - generic [ref=e667]:
+                - link "DonkeyPress donkeypress.com›nyotti" [ref=e668] [cursor=pointer]:
+                  - /url: https://donkeypress.com/nyotti/
+                  - generic [ref=e670]:
+                    - generic [ref=e675]: DonkeyPress
+                    - generic [ref=e679]: donkeypress.com›nyotti
+                - button "옵션 메뉴 열기" [ref=e681] [cursor=pointer]:
+                  - img [ref=e682]
+              - generic [ref=e686]:
+                - link "<mark>워뇨띠</mark> 근황 및 <mark>매매</mark>법 정리 (2025ver)의 이미지" [ref=e687] [cursor=pointer]:
+                  - /url: https://donkeypress.com/nyotti/
+                  - img "<mark>워뇨띠</mark> 근황 및 <mark>매매</mark>법 정리 (2025ver)의 이미지" [ref=e689]
+                - link "워뇨띠 근황 및 매매법 정리 (2025ver)" [ref=e692] [cursor=pointer]:
+                  - /url: https://donkeypress.com/nyotti/
+                  - generic [ref=e693]:
+                    - mark [ref=e694]: 워뇨띠
+                    - text: 근황 및
+                    - mark [ref=e695]: 매매
+                    - text: 법 정리 (2025ver)
+                - link "2024.02.17.워뇨띠 근황 및 매매법을 정리하여 알려드립니다. 전설적인 비트코인 트레이더 워뇨띠에 대해 살펴보고 워뇨띠 근황을 알아보겠습니다. 또한 그가 남겼던 Q&A를 정리하여 2024년 버전의 새로운 워뇨띠 매매법을 만들어 보았습니다. 본문을 꼼꼼히 읽고 명확한 분석을 통해 나만의 투자 전략을 세우시길 바랍니다." [ref=e697] [cursor=pointer]:
+                  - /url: https://donkeypress.com/nyotti/
+                  - generic [ref=e698]:
+                    - generic [ref=e699]: 2024.02.17.
+                    - generic [ref=e700]:
+                      - mark [ref=e701]: 워뇨띠
+                      - text: 근황 및
+                      - mark [ref=e702]: 매매
+                      - text: 법을 정리하여 알려드립니다. 전설적인
+                      - mark [ref=e703]: 비트코인
+                      - text: 트레이더
+                      - mark [ref=e704]: 워뇨띠
+                      - text: 에 대해 살펴보고
+                      - mark [ref=e705]: 워뇨띠
+                      - text: 근황을 알아보겠습니다. 또한 그가 남겼던 Q&A를 정리하여 2024년 버전의 새로운
+                      - mark [ref=e706]: 워뇨띠 매매
+                      - text: 법을 만들어 보았습니다. 본문을 꼼꼼히 읽고 명확한 분석을 통해 나만의 투자 전략을 세우시길 바랍니다.
+            - generic [ref=e712]:
+              - generic [ref=e713]:
+                - link "iwashin.co.kr›비트코인-레전드-워뇨띠의-효과적인-매매법은" [ref=e714] [cursor=pointer]:
+                  - /url: https://iwashin.co.kr/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EB%A0%88%EC%A0%84%EB%93%9C-%EC%9B%8C%EB%87%A8%EB%9D%A0%EC%9D%98-%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8-%EB%A7%A4%EB%A7%A4%EB%B2%95%EC%9D%80/
+                  - generic [ref=e722]: iwashin.co.kr›비트코인-레전드-워뇨띠의-효과적인-매매법은
+                - button "옵션 메뉴 열기" [ref=e724] [cursor=pointer]:
+                  - img [ref=e725]
+              - generic [ref=e729]:
+                - link "<mark>비트코인</mark> 레전드 <mark>워뇨띠</mark>의 효과적인 <mark>매매</mark>법은? - 와신상담의 이미지" [ref=e730] [cursor=pointer]:
+                  - /url: https://iwashin.co.kr/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EB%A0%88%EC%A0%84%EB%93%9C-%EC%9B%8C%EB%87%A8%EB%9D%A0%EC%9D%98-%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8-%EB%A7%A4%EB%A7%A4%EB%B2%95%EC%9D%80/
+                  - img "<mark>비트코인</mark> 레전드 <mark>워뇨띠</mark>의 효과적인 <mark>매매</mark>법은? - 와신상담의 이미지" [ref=e732]
+                - link "비트코인 레전드 워뇨띠의 효과적인 매매법은? - 와신상담" [ref=e735] [cursor=pointer]:
+                  - /url: https://iwashin.co.kr/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EB%A0%88%EC%A0%84%EB%93%9C-%EC%9B%8C%EB%87%A8%EB%9D%A0%EC%9D%98-%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8-%EB%A7%A4%EB%A7%A4%EB%B2%95%EC%9D%80/
+                  - generic [ref=e736]:
+                    - mark [ref=e737]: 비트코인
+                    - text: 레전드
+                    - mark [ref=e738]: 워뇨띠
+                    - text: 의 효과적인
+                    - mark [ref=e739]: 매매
+                    - text: 법은? - 와신상담
+                - link "2024.09.16.비트코인의 레전드 워뇨띠의 매매법에 대해 알아보겠습니다. 그는 600만원이라는 작은 투자금으로 시작해 2500억 원이라는 엄청난 수익을 올린 트레이더입니다. 그의 전략과 노하우는 많은 트레이더들에게 영감을 주고 있으며, 비트코인 투자 여정을 시작하려는 사람들에게 중요한 지침이 될 것입니다." [ref=e741] [cursor=pointer]:
+                  - /url: https://iwashin.co.kr/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EB%A0%88%EC%A0%84%EB%93%9C-%EC%9B%8C%EB%87%A8%EB%9D%A0%EC%9D%98-%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8-%EB%A7%A4%EB%A7%A4%EB%B2%95%EC%9D%80/
+                  - generic [ref=e742]:
+                    - generic [ref=e743]: 2024.09.16.
+                    - generic [ref=e744]:
+                      - mark [ref=e745]: 비트코인
+                      - text: 의 레전드
+                      - mark [ref=e746]: 워뇨띠
+                      - text: 의
+                      - mark [ref=e747]: 매매
+                      - text: 법에 대해 알아보겠습니다. 그는 600만원이라는 작은 투자금으로 시작해 2500억 원이라는 엄청난 수익을 올린 트레이더입니다. 그의 전략과 노하우는 많은 트레이더들에게 영감을 주고 있으며,
+                      - mark [ref=e748]: 비트코인
+                      - text: 투자 여정을 시작하려는 사람들에게 중요한 지침이 될 것입니다.
+            - generic [ref=e754]:
+              - generic [ref=e755]:
+                - link "머니투데이 www.mt.co.kr›stock" [ref=e756] [cursor=pointer]:
+                  - /url: https://www.mt.co.kr/stock/2024/03/13/2024031308475273970
+                  - generic [ref=e758]:
+                    - generic [ref=e763]: 머니투데이
+                    - generic [ref=e767]: www.mt.co.kr›stock
+                - button "옵션 메뉴 열기" [ref=e769] [cursor=pointer]:
+                  - img [ref=e770]
+              - generic [ref=e774]:
+                - link "&quot;압구정 아파트 100채 값 벌었다&quot;…한국 <mark>코인</mark>계 전설 '<mark>워뇨띠</mark>'의 귀환의 이미지" [ref=e775] [cursor=pointer]:
+                  - /url: https://www.mt.co.kr/stock/2024/03/13/2024031308475273970
+                  - img "&quot;압구정 아파트 100채 값 벌었다&quot;…한국 <mark>코인</mark>계 전설 '<mark>워뇨띠</mark>'의 귀환의 이미지" [ref=e777]
+                - link "\"압구정 아파트 100채 값 벌었다\"…한국 코인계 전설 '워뇨띠'의 귀환" [ref=e780] [cursor=pointer]:
+                  - /url: https://www.mt.co.kr/stock/2024/03/13/2024031308475273970
+                  - generic [ref=e781]:
+                    - text: "\"압구정 아파트 100채 값 벌었다\"…한국"
+                    - mark [ref=e782]: 코인
+                    - text: 계 전설 '
+                    - mark [ref=e783]: 워뇨띠
+                    - text: "'의 귀환"
+                - link "2024.03.13.가상자산(암호화폐) 선물시장의 전설적 존재로 회자되는 한국 국적의 '은둔 고수'가 가상자산 선물 매매로 3700억원 가까운 평가 이익을 거두고 있는 것으로 13일 파악됐다. 비트코인 하나가 원화마켓에서 1억원을 기록한 것을 감안하면 3년 전 워뇨띠가 가상자산 선물 투자로 거둔 것으로 알려진 수익보다 1000억원 넘는 규모로 자산이 불어난 것으로 추정된다." [ref=e785] [cursor=pointer]:
+                  - /url: https://www.mt.co.kr/stock/2024/03/13/2024031308475273970
+                  - generic [ref=e786]:
+                    - generic [ref=e787]: 2024.03.13.
+                    - generic [ref=e788]:
+                      - text: 가상자산(암호화폐) 선물시장의 전설적 존재로 회자되는 한국 국적의 '은둔 고수'가 가상자산 선물
+                      - mark [ref=e789]: 매매
+                      - text: 로 3700억원 가까운 평가 이익을 거두고 있는 것으로 13일 파악됐다.
+                      - mark [ref=e790]: 비트코인
+                      - text: 하나가 원화마켓에서 1억원을 기록한 것을 감안하면 3년 전
+                      - mark [ref=e791]: 워뇨띠
+                      - text: 가 가상자산 선물 투자로 거둔 것으로 알려진 수익보다 1000억원 넘는 규모로 자산이 불어난 것으로 추정된다.
+            - link "검색결과 더보기" [ref=e793] [cursor=pointer]:
+              - /url: "?nso=&page=2&query=%EC%9B%8C%EB%87%A8%EB%9D%A0+%EB%A7%A4%EB%A7%A4+%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8&sm=tab_pge&ssc=tab.ur.all&start=1"
+              - generic [ref=e794]: 검색결과
+              - generic [ref=e795]: 더보기
+          - generic [ref=e800]:
+            - generic [ref=e802]:
+              - heading "이미지" [level=2] [ref=e804]
+              - button "이미지 신고하기" [ref=e807] [cursor=pointer]:
+                - generic [ref=e808]: 이미지 신고하기
+            - generic [ref=e810]:
+              - generic:
+                - button "비트코인 마진거래 + 자동매매부터 FX마진거래 비교 분석하기":
+                  - img "비트코인 마진거래 + 자동매매부터 FX마진거래 비교 분석하기"
+              - generic:
+                - button "mexc 거래소 가입방법 총정리":
+                  - img "mexc 거래소 가입방법 총정리"
+              - generic:
+                - button "암호화폐 거래소의 현황과 장단점 분석, 미래 전망":
+                  - img "암호화폐 거래소의 현황과 장단점 분석, 미래 전망"
+              - generic:
+                - button "[2022.11.01]매억남_비트코인 분석방송":
+                  - img "[2022.11.01]매억남_비트코인 분석방송"
+              - generic:
+                - button "비트코인 갤러리 레전설 워뇨띠 투자 매매법":
+                  - img "비트코인 갤러리 레전설 워뇨띠 투자 매매법"
+              - generic:
+                - button "비트코인 매매 40% 수익 달성! (Feat.가스코인)":
+                  - img "비트코인 매매 40% 수익 달성! (Feat.가스코인)"
+              - generic:
+                - button "워뇨띠 매매법 근황, 600만원으로 3000억? 비트코인 전설의 Q&A 요약 (ft. 리스크 관리)":
+                  - img "워뇨띠 매매법 근황, 600만원으로 3000억? 비트코인 전설의 Q&A 요약 (ft. 리스크 관리)"
+              - generic:
+                - button "워뇨띠 비트코인 실시간 포지션 확인 방법 및 매매법 핵심 정리":
+                  - img "워뇨띠 비트코인 실시간 포지션 확인 방법 및 매매법 핵심 정리"
+              - generic:
+                - button "비트코인 선물/마진거래소 바이낸스와 바이비트 추천 (feat. 워뇨띠 매매법)":
+                  - img "비트코인 선물/마진거래소 바이낸스와 바이비트 추천 (feat. 워뇨띠 매매법)"
+              - generic:
+                - 'button "워뇨띠 매매법 공유 : 가상화폐 비트코인 레전드전설"':
+                  - 'img "워뇨띠 매매법 공유 : 가상화폐 비트코인 레전드전설"'
+            - link "이미지 더보기" [ref=e812] [cursor=pointer]:
+              - /url: "?nso=so%3Ar%2Cp%3Aall&query=%EC%9B%8C%EB%87%A8%EB%9D%A0+%EB%A7%A4%EB%A7%A4+%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8&sm=tab_nmr&ssc=tab.image.all&where=image"
+              - generic [ref=e815]:
+                - generic [ref=e817]:
+                  - generic [ref=e818]: 이미지
+                  - generic [ref=e819]: 더보기
+                - img [ref=e821]
+          - generic [ref=e824]:
+            - button "이전" [disabled] [ref=e825]:
+              - generic [ref=e826]: 이전
+            - generic [ref=e827]:
+              - button "1" [pressed] [ref=e828] [cursor=pointer]
+              - button "2" [ref=e829] [cursor=pointer]
+              - button "3" [ref=e830] [cursor=pointer]
+              - button "4" [ref=e831] [cursor=pointer]
+              - button "5" [ref=e832] [cursor=pointer]
+              - button "6" [ref=e833] [cursor=pointer]
+              - button "7" [ref=e834] [cursor=pointer]
+              - button "8" [ref=e835] [cursor=pointer]
+              - button "9" [ref=e836] [cursor=pointer]
+              - button "10" [ref=e837] [cursor=pointer]
+            - button "다음" [ref=e838] [cursor=pointer]:
+              - generic [ref=e839]: 다음
+        - generic [ref=e843]:
+          - link "좋아하는 건 누구나 남기고 싶으니까 클립 올리면 매주 쌓이는 Npay 포인트" [ref=e844] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2603-naverclip-001&target=https%3A%2F%2Fclipcreators.naver.com%2Fpromotion%2Ftoday%3Fdtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2603-naverclip-001
+            - generic [ref=e846]:
+              - strong [ref=e847]: 좋아하는 건 누구나 남기고 싶으니까
+              - paragraph [ref=e848]: 클립 올리면 매주 쌓이는 Npay 포인트
+          - link "모두가 찜하고 싶은 스토어의 발견" [ref=e849] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2512-shopping-024&material=J&target=https%3A%2F%2Fmkt.naver.com%2Fstore_discovery%3Fdtm_detail%3DJ%26dtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2512-shopping-024
+            - generic [ref=e851]:
+              - strong [ref=e852]: 모두가 찜하고 싶은
+              - paragraph [ref=e853]: 스토어의 발견
+          - link "컬리N마트 5O% 첫 구매 혜택 반값 쿠폰 받고 최대 2만원 적립까지" [ref=e854] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2604-shopping-033&target=https%3A%2F%2Fshopping.naver.com%2Ffesta%2Fonsale%2Ffood%2F69e0ad173cda702a9b5553dc%3Fdtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2604-shopping-033
+            - generic [ref=e856]:
+              - strong [ref=e857]: 컬리N마트 5O% 첫 구매 혜택
+              - paragraph [ref=e858]: 반값 쿠폰 받고 최대 2만원 적립까지
+          - link "네이버가 더 편해지는 순간 웨일 브라우저 알아보기" [ref=e859] [cursor=pointer]:
+            - /url: https://naver.me/FWTmTscE
+            - generic [ref=e861]:
+              - strong [ref=e862]: 네이버가 더 편해지는 순간
+              - paragraph [ref=e863]: 웨일 브라우저 알아보기
+    - generic [ref=e864]:
+      - link "맨위로" [ref=e866] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e867]: 맨위로
+      - generic [ref=e869]:
+        - link "전체서비스" [ref=e871] [cursor=pointer]:
+          - /url: https://www.naver.com/more.html
+        - link "이용약관" [ref=e873] [cursor=pointer]:
+          - /url: https://policy.naver.com/policy/service.html
+        - link "개인정보처리방침" [ref=e875] [cursor=pointer]:
+          - /url: https://policy.naver.com/policy/privacy.html
+          - strong [ref=e876]: 개인정보처리방침
+        - link "검색 고객센터" [ref=e878] [cursor=pointer]:
+          - /url: https://help.naver.com/alias/search/integration/main.naver
+        - link "© NAVER Corp." [ref=e880] [cursor=pointer]:
+          - /url: https://www.navercorp.com/

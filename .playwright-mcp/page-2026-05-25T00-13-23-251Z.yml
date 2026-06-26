@@ -1,0 +1,691 @@
+- generic [ref=e65]:
+  - generic [ref=e88]:
+    - banner [ref=e67]:
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - button "Guide" [ref=e72] [cursor=pointer]:
+            - generic [ref=e90]:
+              - img
+          - generic [ref=e74]:
+            - link "YouTube Home" [ref=e91] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e96]:
+                - img
+            - generic [ref=e97]: KR
+          - button "Skip navigation" [ref=e101] [cursor=pointer]:
+            - generic [ref=e102]: Skip navigation
+        - generic [ref=e75]:
+          - search [ref=e76]:
+            - generic [ref=e77]:
+              - combobox "Search" [expanded] [ref=e106]
+              - button "Search" [ref=e81] [cursor=pointer]:
+                - generic [ref=e108]:
+                  - img
+          - generic [ref=e110]:
+            - button "Search with your voice" [ref=e112] [cursor=pointer]:
+              - generic [ref=e116]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e120]:
+          - button "Settings" [ref=e125] [cursor=pointer]:
+            - generic [ref=e128]:
+              - img
+          - link "Sign in" [ref=e131] [cursor=pointer]:
+            - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253Dc0j1AWaBA5s&hl=en&ec=65620
+            - generic [ref=e135]:
+              - img
+            - generic [ref=e136]: Sign in
+    - main [ref=e141]:
+      - generic [ref=e142]:
+        - generic [ref=e144]:
+          - complementary [ref=e151]:
+            - generic "YouTube Video Player" [ref=e5]:
+              - generic [ref=e11]:
+                - generic:
+                  - generic [ref=e1214] [cursor=pointer]:
+                    - img [ref=e1215]
+                    - generic [ref=e1217]:
+                      - generic "초자연 어반 오픈월드 RPG" [ref=e1218]
+                      - generic "nte.perfectworld.com" [ref=e1219]
+                    - link "이환 This link opens in new tab" [ref=e1220]:
+                      - generic [ref=e1221]: 이환
+                  - generic [ref=e1222]:
+                    - generic "Sponsored" [ref=e1224]
+                    - button "My Ad Center" [ref=e1226] [cursor=pointer]:
+                      - generic [ref=e1227]:
+                        - img
+                    - link "nte.perfectworld.com This link opens in new tab" [ref=e1228]:
+                      - generic [ref=e1229] [cursor=pointer]: nte.perfectworld.com
+                  - button "Skip" [ref=e1230] [cursor=pointer]:
+                    - generic [ref=e1231]: Skip
+                    - generic [ref=e1232]:
+                      - img
+              - generic [ref=e15]:
+                - slider "Seek slider" [disabled] [ref=e17]
+                - generic [ref=e26]:
+                  - generic [ref=e27]:
+                    - button "Pause (k)" [ref=e28] [cursor=pointer]:
+                      - img
+                    - generic [ref=e29]:
+                      - button "Mute (m)" [ref=e31] [cursor=pointer]:
+                        - img
+                      - slider "Volume"
+                    - button "0 Minutes 2 Seconds of 6 Minutes 19 Seconds" [ref=e1235] [cursor=pointer]: 0:02 / 6:19
+                  - generic [ref=e36]:
+                    - generic [ref=e37]:
+                      - button "Autoplay is on" [ref=e178] [cursor=pointer]
+                      - button "Subtitles/closed captions unavailable" [ref=e38] [cursor=pointer]:
+                        - generic [ref=e39]:
+                          - img
+                      - button "Settings" [ref=e40] [cursor=pointer]:
+                        - img
+                    - generic [ref=e41]:
+                      - button "Theater mode (t)" [ref=e42] [cursor=pointer]:
+                        - img
+                      - button "Full screen (f)" [ref=e43] [cursor=pointer]:
+                        - img
+          - generic [ref=e181]:
+            - generic [ref=e182]:
+              - generic [ref=e184]:
+                - generic [ref=e185]:
+                  - heading "[중급][글로벌 트레이딩 전략] 워뇨띠가 3천억 번 캔들과 거래량 매매법[쉬움 주의!]" [level=1] [ref=e186]
+                  - img "Auto-dubbed" [ref=e191]:
+                    - generic [ref=e194]:
+                      - img
+                    - generic [ref=e195]: Auto-dubbed
+                - generic [ref=e196]:
+                  - generic [ref=e197]:
+                    - generic [ref=e198]:
+                      - link [ref=e199] [cursor=pointer]:
+                        - /url: /@HAMTOOSA
+                      - generic [ref=e201]:
+                        - generic "함투사 아카데미" [ref=e205]:
+                          - link "함투사 아카데미" [ref=e206] [cursor=pointer]:
+                            - /url: /@HAMTOOSA
+                        - generic "99.1 thousand subscribers" [ref=e207]: 99.1K subscribers
+                      - button "Join this channel" [ref=e214] [cursor=pointer]:
+                        - generic [ref=e215]: Join
+                    - generic [ref=e222]:
+                      - button "Subscribe to 함투사 아카데미." [ref=e224] [cursor=pointer]:
+                        - generic [ref=e225]: Subscribe
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                        - generic:
+                          - img
+                  - generic [ref=e232]:
+                    - generic [ref=e233]:
+                      - generic [ref=e237]:
+                        - button "like this video along with 1,288 other people" [ref=e241] [cursor=pointer]:
+                          - generic [ref=e245]:
+                            - img
+                          - generic [ref=e246]: 1.2K
+                        - button "Dislike this video" [ref=e253] [cursor=pointer]:
+                          - generic [ref=e257]:
+                            - img
+                      - button "Share" [ref=e263] [cursor=pointer]:
+                        - generic [ref=e267]:
+                          - img
+                        - generic [ref=e268]: Share
+                    - button "Save to playlist" [ref=e275] [cursor=pointer]:
+                      - generic [ref=e279]:
+                        - img
+                      - generic [ref=e280]: Save
+                    - button "More actions" [ref=e285] [cursor=pointer]:
+                      - generic [ref=e289]:
+                        - img
+                - generic [ref=e295]:
+                  - generic [ref=e298]:
+                    - text: 51,946 views Jul 17, 2024
+                    - link "#워뇨띠" [ref=e299] [cursor=pointer]:
+                      - /url: /hashtag/%EC%9B%8C%EB%87%A8%EB%9D%A0
+                    - link "#투자" [ref=e300] [cursor=pointer]:
+                      - /url: /hashtag/%ED%88%AC%EC%9E%90
+                    - link "#비트코인" [ref=e301] [cursor=pointer]:
+                      - /url: /hashtag/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8
+                  - generic [ref=e302]:
+                    - generic [ref=e1238]:
+                      - link "#비트코인" [ref=e1240] [cursor=pointer]:
+                        - /url: /hashtag/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8
+                      - link "#기법강의" [ref=e1242] [cursor=pointer]:
+                        - /url: /hashtag/%EA%B8%B0%EB%B2%95%EA%B0%95%EC%9D%98
+                      - link "#차트강의" [ref=e1244] [cursor=pointer]:
+                        - /url: /hashtag/%EC%B0%A8%ED%8A%B8%EA%B0%95%EC%9D%98
+                      - link "#투자" [ref=e1246] [cursor=pointer]:
+                        - /url: /hashtag/%ED%88%AC%EC%9E%90
+                      - link "#메타트레이더" [ref=e1248] [cursor=pointer]:
+                        - /url: /hashtag/%EB%A9%94%ED%83%80%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8D%94
+                      - link "#워뇨띠" [ref=e1250] [cursor=pointer]:
+                        - /url: /hashtag/%EC%9B%8C%EB%87%A8%EB%9D%A0
+                      - text: 반갑습니다. 이번 시간에는 캔들과 거래량으로 3천억을 번 워뇨띠도 참고했다는 대표적인 캔들과 거래량 패턴인 거증몸감과 거감몸증 2가지 패턴에 대해서 자세히 파헤쳐 보는 강의를 준비했습니다. 많은 시청 바랍니다~ 함께 성장하는 함투사 아카데미 ▼▼함투사 아카데미 네이버 카페▼▼
+                      - link "https://cafe.naver.com/somniumfx?view..." [ref=e1252] [cursor=pointer]:
+                        - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbXNiaml1TGh0WUNkMGt2dHRlczVGcF9RNHhId3xBQ3Jtc0ttSGVFTWdyWUNZNFZFVmkyRWdmYXNINktQeEdVWndWTEk2c0V1cnRJb1VyYzlmX2N6QTNQcTdqYmxqN0lmeU5JcU1MM0F5enJjQWtrSXZLWXNDV3RXdERvV0tFU3RaLUp0LUJEU0M3c1FHWl9CSUFHUQ&q=https%3A%2F%2Fcafe.naver.com%2Fsomniumfx%3FviewType%3Dpc&v=c0j1AWaBA5s
+                      - text: "●무료 이벤트 진행중● 1 해외증권사 메타5 크레딧 및 원격지원 2 해외증권사 메타5 전자이북 제공 3 해외증권사 메타5 무료지표 제공 4 정규교육과정 전자이북 미리보기 5 나스닥 시가배팅 체험권 👉신청링크 :"
+                      - link "https://bit.ly/HAMEVENT" [ref=e1254] [cursor=pointer]:
+                        - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbUh1bmNpRldzMW9yLTItMGMwSGFTWEpxcFZtQXxBQ3Jtc0trcFZiTVpGNFRNNGVSaEZkc2gyZ2NYenRvQnBKeWZSVW5URGxFNl9YVTRHUDZpVnFJWFZENktQNW45eWpGQ0xMUXVCc1ZlTmxCdmllbVpZWHMyU1U0NHpsdUJHS2N0LUc4bm5pbXFuRXhTc0tTQm1XMA&q=https%3A%2F%2Fbit.ly%2FHAMEVENT&v=c0j1AWaBA5s
+                      - text: ▼▼함투사 고객센터▼▼ ☎ 02-553-0010
+                      - link "https://bit.ly/htscs1130" [ref=e1256] [cursor=pointer]:
+                        - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa0lwakZOS1MxYWVzR2VmTVI4a3VpUk5KYTdmUXxBQ3Jtc0tuaFdsdDkzeTR6N1V2SUFtQ0xsN0V4b055c3NkMFFfSC01akFwdkc4TFo2X01keHdzV05IMklMMk1UeG1CYnhZY0VuYzAzWUpYcHNFdVYtcmZsSXl1azFHMlBsUm8tNGpGOEtBLTRoQkJtQjhncUxWbw&q=https%3A%2F%2Fbit.ly%2Fhtscs1130&v=c0j1AWaBA5s
+                      - text: ▼▼비즈니스 문의▼▼ hamtoosa_academy@naver.com
+                    - generic [ref=e1259]:
+                      - generic [ref=e1260]:
+                        - generic [ref=e1261]: How this was made
+                        - generic [ref=e1262]: Auto-dubbed
+                        - generic [ref=e1264]:
+                          - text: Audio tracks for some languages were automatically generated.
+                          - link "Learn more" [ref=e1266] [cursor=pointer]:
+                            - /url: //support.google.com/youtube/answer/15569972?hl=en
+                      - generic [ref=e1267]:
+                        - generic [ref=e1269]: Transcript
+                        - paragraph [ref=e1271]: Follow along using the transcript.
+                        - button "Show transcript" [ref=e1276] [cursor=pointer]:
+                          - generic [ref=e1277]: Show transcript
+                      - generic [ref=e1281]:
+                        - link "함투사 아카데미 99.1K subscribers" [ref=e1282] [cursor=pointer]:
+                          - /url: /@HAMTOOSA
+                          - generic [ref=e1283]:
+                            - heading "함투사 아카데미" [level=3] [ref=e1284]
+                            - generic [ref=e1285]: 99.1K subscribers
+                        - generic [ref=e1288]:
+                          - link "Videos" [ref=e1291] [cursor=pointer]:
+                            - /url: /channel/UC-Wp9CbUyBIhaxdHpXK1AJQ/videos
+                            - generic [ref=e1295]:
+                              - img
+                            - generic [ref=e1296]: Videos
+                          - link "About" [ref=e1302] [cursor=pointer]:
+                            - /url: /channel/UC-Wp9CbUyBIhaxdHpXK1AJQ/about
+                            - generic [ref=e1306]:
+                              - img
+                            - generic [ref=e1307]: About
+                    - button "Show less" [ref=e1311] [cursor=pointer]
+              - text: •
+            - heading "Comments" [level=2] [ref=e326]:
+              - generic [ref=e327]: Comments
+        - generic [ref=e401]:
+          - generic [ref=e1316] [cursor=pointer]:
+            - generic "Sponsored - 초자연 어반 오픈월드 RPG nte.perfectworld.com" [ref=e1318]:
+              - button "이환" [ref=e1322]
+              - generic [ref=e1325]:
+                - generic [ref=e1326]: 초자연 어반 오픈월드 RPG
+                - generic [ref=e1327]:
+                  - generic [ref=e1329]:
+                    - generic [ref=e1330]: Sponsored
+                    - text: ·
+                  - generic [ref=e1332]: nte.perfectworld.com
+            - link "이환" [ref=e1334]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C609fCJQTarieKoOR0-kP6-WP6Qe_ioWjhwGE2PubwRWwkB8QAiAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAH4iMfZKKgDBKoE9wNP0M0tXKITkEH-nFg_GUh98laiYXGnbI3tuxV7sJnoagpgnzwfTJW8bK5SGqObtG-k4TJB5_5UEoNrCvglGmyS2agTVZkkoTJFf5IAwz6ySIvMu9Ai_QNV2PVJuGibtr70PeyXtBp91DxYb_hFFmg1CYqRO3W7a1bHsJrUNwGby9xAQYOnV4C2FItNjjFniLhjCAUUhQLUAQluBgNwkk2Jcm6qOdEpEeriMt-DpbDGP-SpZXhrRSPBv3fP-BQeQD0038LnbIIobHKTQ2Dy6tBNZjYXLakidxAIbRxIhK3jIH7dSJz83O6XcQnJvwmHSaXvQInl5plaVjgob_UYVPAIxo6XkLkGIJ9c-L2aJ981JwXe2fd-92avujExtAAqWNpsgCELrbhnEsxFCEzqPHkBAexMCIFfn-4ROb7VRYIsL1DL130U6jGsgFrh3GR72BuCtgSVgPrOEFFMtGb2o1TMx-4z-PAPvFggOujpdf35iBWjG9sJZyyk-rNJOiuv_dgxmRkh9kS97IDdnk_2WePEp_OgaRg_azIwKG2hoE3YOEpKACe-VxM3P-ju5KaGdeRGuzXFcOXFoust-ti1imLstWS9hz4dJ5ZNw1-d8K28m38ip-JO4-9iVk8OuSSiyscGv53VV_n_I7O0HwLCDwJOhDYYX4c3bogFwJGo9ligBlSAB5-UvtMYkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAf9B6gHvtmxAqgHq8UbqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKSCAt5amZVeTlfUmhjNKgIAdIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWNCyxuyT05QDYAHyCB9jYS15dC1ob3N0LXB1Yi0xMDc0ODQzMTM2ODg3OTQ0mgkgaHR0cHM6Ly9udGUucGVyZmVjdHdvcmxkLmNvbS9rci-xCRzWfgNW7CsgyAkYyAmPAcgJwgGYCwGhC9QMLGE9gIwFugtJCAEQARgGIAEoATAQQAFIAWAAaABwAogBAJgBAqIBEgoAGAAgAFgBYABwAagCAdgCAqgBAdgBAYACAYgCFLoDCXZpdHBlemFhYdALE6IMDCoKCgiV4rECjt-xAtIMAhABmg0BE6oNAktSyA0B0g1IaHR0cHM6Ly9udGUucGVyZmVjdHdvcmxkLmNvbS9rci8_Z2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzODcwNDQxNjY0uBP___________8BiBQBsBQBwBXJgIBA0BUB2BUBkBYBmBYBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAakXUg4yfF2_trS6FwYoADAAOAHQGAHwGAGyGQE3whkCCAE&gclid=EAIaIQobChMIuMLG7JPTlAMVg8g0Bx3r8iN9EAEYAiAAEgJ-1fD_BwE&num=2&cid=CAASqwHkaBSHh7IBcmso764--CY_ZSOSvrXffP2E2yzow1EqoLpPMcp3_ng8XLhsNLT2YUS12rFWRQrrK89lMbaqyb3k8NEgxhW1YV44GkdrknNUlKqc4Raqyeg_6IrpecT2x2jmX77yLtwSBtNwvufoUz5GdySEko6hpyc5PCCRTSJK-4j3zbb6Pv3fNhbSwz9JjfNEPcu2zlq1BXF-x8DUISTo5-ngZKfNwkE0_zA&ad_cpn=%5BAD_CPN%5D&sig=AOD64_2PZLnWaleZh0U9MceD0UYsxRY1UA&client=ca-pub-6219811747049371&label=video_click_to_advertiser_site&ctype=110&ms=%5BCLICK_MS%5D&adclksrc=%5BCLICK_SOURCE%5D
+              - generic [ref=e1335]: 이환
+            - button "My Ad Center" [ref=e1341]:
+              - generic [ref=e1345]:
+                - img
+          - generic [ref=e446]:
+            - generic [ref=e448] [cursor=pointer]:
+              - link [ref=e449]:
+                - /url: /watch?v=P3jFI-VpyLg&t=27s
+                - generic [ref=e458]: 3:14:01
+              - generic [ref=e460]:
+                - generic [ref=e461]:
+                  - heading "이 영상이 당신 인생을 바꿉니다. 바이브 코딩 1인 창업 3시간 통합본 3 hours, 14 minutes" [level=3] [ref=e462]:
+                    - link "이 영상이 당신 인생을 바꿉니다. 바이브 코딩 1인 창업 3시간 통합본 3 hours, 14 minutes" [ref=e463]:
+                      - /url: /watch?v=P3jFI-VpyLg&t=27s
+                      - text: 이 영상이 당신 인생을 바꿉니다. 바이브 코딩 1인 창업 3시간 통합본
+                  - generic [ref=e465]:
+                    - group [ref=e466]:
+                      - generic [ref=e467]:
+                        - text: 조코딩 JoCoding
+                        - img [ref=e470]:
+                          - generic [ref=e472]:
+                            - img
+                    - group [ref=e473]:
+                      - generic [ref=e474]: 322K views
+                      - generic [ref=e475]: •
+                      - generic [ref=e476]: 3 months ago
+                - button "More actions" [ref=e479]:
+                  - generic [ref=e483]:
+                    - img
+            - generic [ref=e488] [cursor=pointer]:
+              - link [ref=e489]:
+                - /url: /watch?v=czKe4FqiiyY
+                - generic [ref=e496]: 1:21:04
+              - generic [ref=e498]:
+                - generic [ref=e499]:
+                  - heading "How T1 Defied All Odds | T1 Rose Together 1 hour, 21 minutes" [level=3] [ref=e500]:
+                    - link "How T1 Defied All Odds | T1 Rose Together 1 hour, 21 minutes" [ref=e501]:
+                      - /url: /watch?v=czKe4FqiiyY
+                      - text: How T1 Defied All Odds | T1 Rose Together
+                  - generic [ref=e503]:
+                    - group [ref=e504]:
+                      - generic [ref=e505]:
+                        - text: T1
+                        - img [ref=e508]:
+                          - generic [ref=e510]:
+                            - img
+                    - group [ref=e511]:
+                      - generic [ref=e512]: 2.7M views
+                      - generic [ref=e513]: •
+                      - generic [ref=e514]: 1 year ago
+                - button "More actions" [ref=e517]:
+                  - generic [ref=e521]:
+                    - img
+            - generic [ref=e526] [cursor=pointer]:
+              - link [ref=e527]:
+                - /url: /watch?v=Qrpln889-rk&pp=0gcJCQYLAYcqIYzv
+                - generic [ref=e534]: 24:10
+              - generic [ref=e536]:
+                - generic [ref=e537]:
+                  - heading "커버드콜부터 월배당 ETF까지! 배당투자 A to Z💰ㅣ타이머 / 14F 24 minutes" [level=3] [ref=e538]:
+                    - link "커버드콜부터 월배당 ETF까지! 배당투자 A to Z💰ㅣ타이머 / 14F 24 minutes" [ref=e539]:
+                      - /url: /watch?v=Qrpln889-rk&pp=0gcJCQYLAYcqIYzv
+                      - text: 커버드콜부터 월배당 ETF까지! 배당투자 A to Z💰ㅣ타이머 / 14F
+                  - generic [ref=e541]:
+                    - group [ref=e542]:
+                      - generic [ref=e543]: 14F 일사에프
+                    - group [ref=e544]:
+                      - generic [ref=e545]: 640K views
+                      - generic [ref=e546]: •
+                      - generic [ref=e547]: 9 months ago
+                - button "More actions" [ref=e550]:
+                  - generic [ref=e554]:
+                    - img
+            - generic [ref=e559] [cursor=pointer]:
+              - link [ref=e560]:
+                - /url: /watch?v=1L40_6tgAjQ
+                - generic [ref=e567]: 48:30
+              - generic [ref=e569]:
+                - generic [ref=e570]:
+                  - 'heading "[최초공개] 양자역학, 한 편으로 이해할 수 있는 다큐! 세계는 확률인가, 법칙인가… 아인슈타인 vs 보어 - 양자 전쟁 I 사이언스 워 : 거인의 전쟁I KBS 260307 방송 48 minutes" [level=3] [ref=e571]':
+                    - 'link "[최초공개] 양자역학, 한 편으로 이해할 수 있는 다큐! 세계는 확률인가, 법칙인가… 아인슈타인 vs 보어 - 양자 전쟁 I 사이언스 워 : 거인의 전쟁I KBS 260307 방송 48 minutes" [ref=e572]':
+                      - /url: /watch?v=1L40_6tgAjQ
+                      - text: "[최초공개] 양자역학, 한 편으로 이해할 수 있는 다큐! 세계는 확률인가, 법칙인가… 아인슈타인 vs 보어 - 양자 전쟁 I 사이언스 워 : 거인의 전쟁I KBS 260307 방송"
+                  - generic [ref=e574]:
+                    - group [ref=e575]:
+                      - generic [ref=e576]:
+                        - text: KBS 다큐
+                        - img [ref=e579]:
+                          - generic [ref=e581]:
+                            - img
+                    - group [ref=e582]:
+                      - generic [ref=e583]: 277K views
+                      - generic [ref=e584]: •
+                      - generic [ref=e585]: 2 months ago
+                - button "More actions" [ref=e588]:
+                  - generic [ref=e592]:
+                    - img
+            - generic [ref=e597] [cursor=pointer]:
+              - link [ref=e598]:
+                - /url: /watch?v=7ZbR7N6Vcdo
+                - generic [ref=e605]: 18:05
+              - generic [ref=e607]:
+                - generic [ref=e608]:
+                  - heading "[UFC] 최두호 vs 다니엘 산토스 18 minutes" [level=3] [ref=e609]:
+                    - link "[UFC] 최두호 vs 다니엘 산토스 18 minutes" [ref=e610]:
+                      - /url: /watch?v=7ZbR7N6Vcdo
+                      - text: "[UFC] 최두호 vs 다니엘 산토스"
+                  - generic [ref=e612]:
+                    - group [ref=e613]:
+                      - generic [ref=e614]:
+                        - text: tvN SPORTS
+                        - img [ref=e617]:
+                          - generic [ref=e619]:
+                            - img
+                    - group [ref=e620]:
+                      - generic [ref=e621]: 3.4M views
+                      - generic [ref=e622]: •
+                      - generic [ref=e623]: 7 days ago
+                - button "More actions" [ref=e626]:
+                  - generic [ref=e630]:
+                    - img
+            - generic [ref=e635] [cursor=pointer]:
+              - link [ref=e636]:
+                - /url: /watch?v=euNulR92fgg&pp=ugUEEgJrbw%3D%3D
+                - generic [ref=e643]: 36:37
+              - generic [ref=e645]:
+                - generic [ref=e646]:
+                  - heading "\"60일 휴전·호르무즈 개방\"‥핵 간극 여전 - [LIVE] MBC 뉴스투데이 2026년 05월 25일 36 minutes" [level=3] [ref=e647]:
+                    - link "\"60일 휴전·호르무즈 개방\"‥핵 간극 여전 - [LIVE] MBC 뉴스투데이 2026년 05월 25일 36 minutes" [ref=e648]:
+                      - /url: /watch?v=euNulR92fgg&pp=ugUEEgJrbw%3D%3D
+                      - text: "\"60일 휴전·호르무즈 개방\"‥핵 간극 여전 - [LIVE] MBC 뉴스투데이 2026년 05월 25일"
+                  - generic [ref=e650]:
+                    - group [ref=e651]:
+                      - generic [ref=e652]: MBCNEWS
+                    - group [ref=e653]:
+                      - generic [ref=e654]: 43K views
+                      - generic [ref=e655]: •
+                      - generic [ref=e656]: Streamed 1 hour ago
+                    - group [ref=e657]:
+                      - generic [ref=e661]: New
+                - button "More actions" [ref=e664]:
+                  - generic [ref=e668]:
+                    - img
+            - generic [ref=e673] [cursor=pointer]:
+              - link [ref=e674]:
+                - /url: /watch?v=75NgowZO-F8&pp=0gcJCQYLAYcqIYzv
+                - generic [ref=e681]: 35:05
+              - generic [ref=e683]:
+                - generic [ref=e684]:
+                  - heading "혼돈의 비트코인 시장. 앞으로 '이렇게' 하세요 (오태민 교수) 35 minutes" [level=3] [ref=e685]:
+                    - link "혼돈의 비트코인 시장. 앞으로 '이렇게' 하세요 (오태민 교수) 35 minutes" [ref=e686]:
+                      - /url: /watch?v=75NgowZO-F8&pp=0gcJCQYLAYcqIYzv
+                      - text: 혼돈의 비트코인 시장. 앞으로 '이렇게' 하세요 (오태민 교수)
+                  - generic [ref=e688]:
+                    - group [ref=e689]:
+                      - generic [ref=e690]:
+                        - text: 머니인사이드
+                        - img [ref=e693]:
+                          - generic [ref=e695]:
+                            - img
+                    - group [ref=e696]:
+                      - generic [ref=e697]: 838K views
+                      - generic [ref=e698]: •
+                      - generic [ref=e699]: 1 year ago
+                - button "More actions" [ref=e702]:
+                  - generic [ref=e706]:
+                    - img
+            - generic [ref=e711] [cursor=pointer]:
+              - link [ref=e712]:
+                - /url: /watch?v=qLe3ZnT5_HY
+                - generic [ref=e719]: 31:25
+              - generic [ref=e721]:
+                - generic [ref=e722]:
+                  - heading "현무-5에 중국과 일본에 이어 미국까지 경악한 이유 (샤를세환) | 작전본부 31 minutes" [level=3] [ref=e723]:
+                    - link "현무-5에 중국과 일본에 이어 미국까지 경악한 이유 (샤를세환) | 작전본부 31 minutes" [ref=e724]:
+                      - /url: /watch?v=qLe3ZnT5_HY
+                      - text: 현무-5에 중국과 일본에 이어 미국까지 경악한 이유 (샤를세환) | 작전본부
+                  - generic [ref=e726]:
+                    - group [ref=e727]:
+                      - generic [ref=e728]:
+                        - text: 연합뉴스경제TV
+                        - img [ref=e731]:
+                          - generic [ref=e733]:
+                            - img
+                    - group [ref=e734]:
+                      - generic [ref=e735]: 3.1M views
+                      - generic [ref=e736]: •
+                      - generic [ref=e737]: 1 year ago
+                - button "More actions" [ref=e740]:
+                  - generic [ref=e744]:
+                    - img
+            - generic [ref=e749] [cursor=pointer]:
+              - link [ref=e750]:
+                - /url: /watch?v=bvAOzteo3Uk
+                - generic [ref=e757]: 18:37
+              - generic [ref=e759]:
+                - generic [ref=e760]:
+                  - heading "[비트코인] 모르면 평생 후회하는 비트코인 쌩기초 개념 총정리 (홍진경,짱쉬움) 18 minutes" [level=3] [ref=e761]:
+                    - link "[비트코인] 모르면 평생 후회하는 비트코인 쌩기초 개념 총정리 (홍진경,짱쉬움) 18 minutes" [ref=e762]:
+                      - /url: /watch?v=bvAOzteo3Uk
+                      - text: "[비트코인] 모르면 평생 후회하는 비트코인 쌩기초 개념 총정리 (홍진경,짱쉬움)"
+                  - generic [ref=e764]:
+                    - group [ref=e765]:
+                      - generic [ref=e766]: 공부왕찐천재 홍진경
+                    - group [ref=e767]:
+                      - generic [ref=e768]: 4.5M views
+                      - generic [ref=e769]: •
+                      - generic [ref=e770]: 2 years ago
+                - button "More actions" [ref=e773]:
+                  - generic [ref=e777]:
+                    - img
+            - generic [ref=e782] [cursor=pointer]:
+              - link [ref=e783]:
+                - /url: /watch?v=CHCq0vh6Frg
+                - generic [ref=e790]: 3:42:02
+              - generic [ref=e792]:
+                - generic [ref=e793]:
+                  - heading "토익스피킹 독학용 파트별 핵심 강의 🐰 노베이스 3시간 반 벼락치기 3 hours, 42 minutes" [level=3] [ref=e794]:
+                    - link "토익스피킹 독학용 파트별 핵심 강의 🐰 노베이스 3시간 반 벼락치기 3 hours, 42 minutes" [ref=e795]:
+                      - /url: /watch?v=CHCq0vh6Frg
+                      - text: 토익스피킹 독학용 파트별 핵심 강의 🐰 노베이스 3시간 반 벼락치기
+                  - generic [ref=e797]:
+                    - group [ref=e798]:
+                      - generic [ref=e799]: 시계토끼제니쌤
+                    - group [ref=e800]:
+                      - generic [ref=e801]: 719K views
+                      - generic [ref=e802]: •
+                      - generic [ref=e803]: 11 months ago
+                - button "More actions" [ref=e806]:
+                  - generic [ref=e810]:
+                    - img
+            - generic [ref=e815] [cursor=pointer]:
+              - link [ref=e816]:
+                - /url: /watch?v=H2OLJY0iqNU
+                - generic [ref=e823]: 27:51
+              - generic [ref=e825]:
+                - generic [ref=e826]:
+                  - heading "[지식뉴스] \"이제 전 세계 돈의 흐름이 이제 바뀐다\"...트럼프가 6개월 간 감춘 진짜 시나리오 (ft.오건영 단장) / 교양이를 부탁해 / 비디오머그 27 minutes" [level=3] [ref=e827]:
+                    - link "[지식뉴스] \"이제 전 세계 돈의 흐름이 이제 바뀐다\"...트럼프가 6개월 간 감춘 진짜 시나리오 (ft.오건영 단장) / 교양이를 부탁해 / 비디오머그 27 minutes" [ref=e828]:
+                      - /url: /watch?v=H2OLJY0iqNU
+                      - text: "[지식뉴스] \"이제 전 세계 돈의 흐름이 이제 바뀐다\"...트럼프가 6개월 간 감춘 진짜 시나리오 (ft.오건영 단장) / 교양이를 부탁해 / 비디오머그"
+                  - generic [ref=e830]:
+                    - group [ref=e831]:
+                      - generic [ref=e832]:
+                        - text: 비디오머그 - VIDEOMUG
+                        - img [ref=e835]:
+                          - generic [ref=e837]:
+                            - img
+                    - group [ref=e838]:
+                      - generic [ref=e839]: 2.2M views
+                      - generic [ref=e840]: •
+                      - generic [ref=e841]: 10 months ago
+                - button "More actions" [ref=e844]:
+                  - generic [ref=e848]:
+                    - img
+            - generic [ref=e853] [cursor=pointer]:
+              - link [ref=e854]:
+                - /url: /watch?v=Mpk4LNZ_P4c&pp=ugUEEgJrbw%3D%3D
+                - generic [ref=e861]: 37:09
+              - generic [ref=e863]:
+                - generic [ref=e864]:
+                  - heading "‘나는 왜 AI를 써도 좋은 보고서가 안 나올까?’ (김덕중 Firb AI연구소장) 37 minutes" [level=3] [ref=e865]:
+                    - link "‘나는 왜 AI를 써도 좋은 보고서가 안 나올까?’ (김덕중 Firb AI연구소장) 37 minutes" [ref=e866]:
+                      - /url: /watch?v=Mpk4LNZ_P4c&pp=ugUEEgJrbw%3D%3D
+                      - text: ‘나는 왜 AI를 써도 좋은 보고서가 안 나올까?’ (김덕중 Firb AI연구소장)
+                  - generic [ref=e868]:
+                    - group [ref=e869]:
+                      - generic [ref=e870]:
+                        - text: 티타임즈TV
+                        - img [ref=e873]:
+                          - generic [ref=e875]:
+                            - img
+                    - group [ref=e876]:
+                      - generic [ref=e877]: 387K views
+                      - generic [ref=e878]: •
+                      - generic [ref=e879]: 1 year ago
+                - button "More actions" [ref=e882]:
+                  - generic [ref=e886]:
+                    - img
+            - generic [ref=e891] [cursor=pointer]:
+              - link [ref=e892]:
+                - /url: /watch?v=nnPJB_0WIWg&pp=ugUEEgJrbw%3D%3D
+                - generic [ref=e899]: 39:55
+              - generic [ref=e901]:
+                - generic [ref=e902]:
+                  - heading "최근 관측된 우주가 이론과 달라 심각한 고민에 빠진 천문학계 (흔들리는 빅뱅이론..) | 과학을 보다 EP.95 39 minutes" [level=3] [ref=e903]:
+                    - link "최근 관측된 우주가 이론과 달라 심각한 고민에 빠진 천문학계 (흔들리는 빅뱅이론..) | 과학을 보다 EP.95 39 minutes" [ref=e904]:
+                      - /url: /watch?v=nnPJB_0WIWg&pp=ugUEEgJrbw%3D%3D
+                      - text: 최근 관측된 우주가 이론과 달라 심각한 고민에 빠진 천문학계 (흔들리는 빅뱅이론..) | 과학을 보다 EP.95
+                  - generic [ref=e906]:
+                    - group [ref=e907]:
+                      - generic [ref=e908]:
+                        - text: 보다 BODA
+                        - img [ref=e911]:
+                          - generic [ref=e913]:
+                            - img
+                    - group [ref=e914]:
+                      - generic [ref=e915]: 2.2M views
+                      - generic [ref=e916]: •
+                      - generic [ref=e917]: 1 year ago
+                - button "More actions" [ref=e920]:
+                  - generic [ref=e924]:
+                    - img
+            - generic [ref=e929] [cursor=pointer]:
+              - link [ref=e930]:
+                - /url: /watch?v=cJR7JyloFcI&pp=ugUEEgJrbw%3D%3D
+                - generic [ref=e937]: 24:00
+              - generic [ref=e939]:
+                - generic [ref=e940]:
+                  - heading "'양자컴퓨터' 이게 진짜 가능하다니! 양자컴퓨터 완벽 정리 | KBS 20250302 방송 24 minutes" [level=3] [ref=e941]:
+                    - link "'양자컴퓨터' 이게 진짜 가능하다니! 양자컴퓨터 완벽 정리 | KBS 20250302 방송 24 minutes" [ref=e942]:
+                      - /url: /watch?v=cJR7JyloFcI&pp=ugUEEgJrbw%3D%3D
+                      - text: "'양자컴퓨터' 이게 진짜 가능하다니! 양자컴퓨터 완벽 정리 | KBS 20250302 방송"
+                  - generic [ref=e944]:
+                    - group [ref=e945]:
+                      - generic [ref=e946]:
+                        - text: KBS 다큐
+                        - img [ref=e949]:
+                          - generic [ref=e951]:
+                            - img
+                    - group [ref=e952]:
+                      - generic [ref=e953]: 261K views
+                      - generic [ref=e954]: •
+                      - generic [ref=e955]: 5 months ago
+                - button "More actions" [ref=e958]:
+                  - generic [ref=e962]:
+                    - img
+            - generic [ref=e967] [cursor=pointer]:
+              - link [ref=e968]:
+                - /url: /watch?v=y72FK-sM0hk
+                - generic [ref=e974]:
+                  - generic [ref=e977]:
+                    - img
+                  - generic [ref=e978]: LIVE
+              - generic [ref=e980]:
+                - generic [ref=e981]:
+                  - heading "Vintage Evening Radio Jazz – 1930s 1940s Smooth Swing & Vinyl Background Music" [level=3] [ref=e982]:
+                    - link "Vintage Evening Radio Jazz – 1930s 1940s Smooth Swing & Vinyl Background Music" [ref=e983]:
+                      - /url: /watch?v=y72FK-sM0hk
+                  - generic [ref=e985]:
+                    - group [ref=e986]:
+                      - generic [ref=e987]: Frontline Vinyls
+                    - group [ref=e988]:
+                      - generic [ref=e989]: 1.5K watching
+                - button "More actions" [ref=e992]:
+                  - generic [ref=e996]:
+                    - img
+            - generic [ref=e1001] [cursor=pointer]:
+              - link [ref=e1002]:
+                - /url: /watch?v=CYPdexhk5Kg
+                - generic [ref=e1009]: 46:33
+              - generic [ref=e1011]:
+                - generic [ref=e1012]:
+                  - heading "AI 한 달 만에 또 말도 안 되는 발전 속도 벌써 현실이 됐습니다 / 김은석 작가 풀버전 46 minutes" [level=3] [ref=e1013]:
+                    - link "AI 한 달 만에 또 말도 안 되는 발전 속도 벌써 현실이 됐습니다 / 김은석 작가 풀버전 46 minutes" [ref=e1014]:
+                      - /url: /watch?v=CYPdexhk5Kg
+                      - text: AI 한 달 만에 또 말도 안 되는 발전 속도 벌써 현실이 됐습니다 / 김은석 작가 풀버전
+                  - generic [ref=e1016]:
+                    - group [ref=e1017]:
+                      - generic [ref=e1018]: 와이스트릿 - 지식과 자산의 복리효과
+                    - group [ref=e1019]:
+                      - generic [ref=e1020]: 18K views
+                      - generic [ref=e1021]: •
+                      - generic [ref=e1022]: 1 day ago
+                    - group [ref=e1023]:
+                      - generic [ref=e1027]: New
+                - button "More actions" [ref=e1030]:
+                  - generic [ref=e1034]:
+                    - img
+            - generic [ref=e1039] [cursor=pointer]:
+              - link [ref=e1040]:
+                - /url: /watch?v=h_YH2FSgZfE&pp=ugUEEgJrbw%3D%3D
+                - generic [ref=e1047]: 32:40
+              - generic [ref=e1049]:
+                - generic [ref=e1050]:
+                  - heading "봉하 간 李 \"반칙·특권 걷어내는 개혁 추진\" - [LIVE] MBC 뉴스데스크 2026년 05월 23일 32 minutes" [level=3] [ref=e1051]:
+                    - link "봉하 간 李 \"반칙·특권 걷어내는 개혁 추진\" - [LIVE] MBC 뉴스데스크 2026년 05월 23일 32 minutes" [ref=e1052]:
+                      - /url: /watch?v=h_YH2FSgZfE&pp=ugUEEgJrbw%3D%3D
+                      - text: 봉하 간 李 "반칙·특권 걷어내는 개혁 추진" - [LIVE] MBC 뉴스데스크 2026년 05월 23일
+                  - generic [ref=e1054]:
+                    - group [ref=e1055]:
+                      - generic [ref=e1056]: MBCNEWS
+                    - group [ref=e1057]:
+                      - generic [ref=e1058]: 274K views
+                      - generic [ref=e1059]: •
+                      - generic [ref=e1060]: Streamed 1 day ago
+                    - group [ref=e1061]:
+                      - generic [ref=e1065]: New
+                - button "More actions" [ref=e1068]:
+                  - generic [ref=e1072]:
+                    - img
+            - generic [ref=e1077] [cursor=pointer]:
+              - link [ref=e1078]:
+                - /url: /watch?v=hcalZ_sRtRY&pp=ugUHEgVlbi1VU9IHCQkGCwGHKiGM7w%3D%3D
+                - generic [ref=e1085]: 16:57
+              - generic [ref=e1087]:
+                - generic [ref=e1088]:
+                  - 'heading "Options Trading for Beginners: Total Guide with Examples! 16 minutes" [level=3] [ref=e1089]':
+                    - 'link "Options Trading for Beginners: Total Guide with Examples! 16 minutes" [ref=e1090]':
+                      - /url: /watch?v=hcalZ_sRtRY&pp=ugUHEgVlbi1VU9IHCQkGCwGHKiGM7w%3D%3D
+                      - text: "Options Trading for Beginners: Total Guide with Examples!"
+                  - generic [ref=e1092]:
+                    - group [ref=e1093]:
+                      - generic [ref=e1094]:
+                        - text: BWB - Business With Brian
+                        - img [ref=e1097]:
+                          - generic [ref=e1099]:
+                            - img
+                    - group [ref=e1100]:
+                      - generic [ref=e1101]: 800K views
+                      - generic [ref=e1102]: •
+                      - generic [ref=e1103]: 1 year ago
+                - button "More actions" [ref=e1106]:
+                  - generic [ref=e1110]:
+                    - img
+            - generic [ref=e1115] [cursor=pointer]:
+              - link [ref=e1116]:
+                - /url: /watch?v=45BACPG6jPQ&pp=ugUEEgJrbw%3D%3D
+                - generic [ref=e1123]: 1:31:12
+              - generic [ref=e1125]:
+                - generic [ref=e1126]:
+                  - heading "진짜 아무것도 몰라도 알아두면 돈 버는 공부｜이진우와 경제 마스터 1편｜나의 두 번째 교과서｜알고e즘 1 hour, 31 minutes" [level=3] [ref=e1127]:
+                    - link "진짜 아무것도 몰라도 알아두면 돈 버는 공부｜이진우와 경제 마스터 1편｜나의 두 번째 교과서｜알고e즘 1 hour, 31 minutes" [ref=e1128]:
+                      - /url: /watch?v=45BACPG6jPQ&pp=ugUEEgJrbw%3D%3D
+                      - text: 진짜 아무것도 몰라도 알아두면 돈 버는 공부｜이진우와 경제 마스터 1편｜나의 두 번째 교과서｜알고e즘
+                  - generic [ref=e1130]:
+                    - group [ref=e1131]:
+                      - generic [ref=e1132]:
+                        - text: EBSCulture (EBS 교양)
+                        - img [ref=e1135]:
+                          - generic [ref=e1137]:
+                            - img
+                    - group [ref=e1138]:
+                      - generic [ref=e1139]: 1.2M views
+                      - generic [ref=e1140]: •
+                      - generic [ref=e1141]: 9 months ago
+                - button "More actions" [ref=e1144]:
+                  - generic [ref=e1148]:
+                    - img
+            - generic [ref=e1153] [cursor=pointer]:
+              - link [ref=e1154]:
+                - /url: /watch?v=bp_05sMh3xw&pp=ugUEEgJrbw%3D%3D
+                - generic [ref=e1161]: 47:49
+              - generic [ref=e1163]:
+                - generic [ref=e1164]:
+                  - heading "제임스 웹이 포착한 135억 년 전 은하 ㄷㄷ 현대 우주론이 뒤집힌 이유(feat. 황호성 교수) [취미는 과학/ 85화 확장판] 47 minutes" [level=3] [ref=e1165]:
+                    - link "제임스 웹이 포착한 135억 년 전 은하 ㄷㄷ 현대 우주론이 뒤집힌 이유(feat. 황호성 교수) [취미는 과학/ 85화 확장판] 47 minutes" [ref=e1166]:
+                      - /url: /watch?v=bp_05sMh3xw&pp=ugUEEgJrbw%3D%3D
+                      - text: 제임스 웹이 포착한 135억 년 전 은하 ㄷㄷ 현대 우주론이 뒤집힌 이유(feat. 황호성 교수) [취미는 과학/ 85화 확장판]
+                  - generic [ref=e1168]:
+                    - group [ref=e1169]:
+                      - generic [ref=e1170]: EBS 컬렉션 - 사이언스
+                    - group [ref=e1171]:
+                      - generic [ref=e1172]: 234K views
+                      - generic [ref=e1173]: •
+                      - generic [ref=e1174]: 1 day ago
+                    - group [ref=e1175]:
+                      - generic [ref=e1179]: New
+                - button "More actions" [ref=e1182]:
+                  - generic [ref=e1186]:
+                    - img
+  - dialog [ref=e1349]:
+    - generic [ref=e1351]:
+      - generic [ref=e1353]:
+        - heading "YouTube Premium" [level=2] [ref=e1354]
+        - generic [ref=e1355]: Get YouTube without the ads
+        - generic [ref=e1356]: Terms apply. Cancel anytime
+      - generic [ref=e1358]:
+        - button "No thanks" [ref=e1361] [cursor=pointer]:
+          - generic [ref=e1362]: No thanks
+        - link "1 month free" [ref=e1368] [cursor=pointer]:
+          - /url: /premium?ybp=Eg9GRXdoYXRfdG9fd2F0Y2gqEmRtZWEtYWNxLWMtZWdzb0tSZDoaCAYYASoUChJkbWVhLWFjcS1jLWVnc29LUmQ%253D
+          - generic [ref=e1369]: 1 month free
+  - generic [ref=e1373]: YouTube Premium. Shift + Enter for more information.

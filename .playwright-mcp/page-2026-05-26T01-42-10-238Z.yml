@@ -1,0 +1,111 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [active] [ref=e9] [cursor=pointer]
+        - generic [ref=e11]:
+          - link:
+            - /url: /
+            - generic:
+              - generic:
+                - img
+      - search [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - combobox [expanded] [ref=e17]: 에임하이 MJ 코인 트레이딩 전략
+            - button [ref=e19] [cursor=pointer]
+          - button "Search" [ref=e24] [cursor=pointer]
+  - navigation [ref=e31]
+  - main [ref=e33]:
+    - generic [ref=e34]:
+      - generic [ref=e36]:
+        - generic [ref=e39]:
+          - tablist [ref=e41]:
+            - tab "All" [selected] [ref=e45] [cursor=pointer]:
+              - generic [ref=e47]: All
+            - tab "Shorts" [ref=e54] [cursor=pointer]:
+              - generic [ref=e56]: Shorts
+            - tab "Unwatched" [ref=e63] [cursor=pointer]:
+              - generic [ref=e65]: Unwatched
+            - tab "Watched" [ref=e72] [cursor=pointer]:
+              - generic [ref=e74]: Watched
+            - tab "Videos" [ref=e81] [cursor=pointer]:
+              - generic [ref=e83]: Videos
+            - tab "Recently uploaded" [ref=e90] [cursor=pointer]:
+              - generic [ref=e92]: Recently uploaded
+            - tab "Live" [ref=e99] [cursor=pointer]:
+              - generic [ref=e101]: Live
+          - button "Next" [ref=e109] [cursor=pointer]
+        - generic [ref=e116]:
+          - button "Search filters" [ref=e118] [cursor=pointer]:
+            - generic [ref=e119]: Filters
+          - tooltip "tooltip"
+      - generic [ref=e130]:
+        - generic [ref=e135]:
+          - img [ref=e141]
+          - generic [ref=e143] [cursor=pointer]:
+            - generic [ref=e144]:
+              - link "XM 거래 지원금 $100 지급" [ref=e147]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cfexbb_oUapzRNJDCrfcPhLLCqAW418v5hgGYjMb_4xWwkB8QASAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGdsO6hA6kCgLhafqKFsz6oAwTIAwqqBL0CT9CTex6tXsM2E_6oufQ5QjPvKctCYd8mkN3gdjEFvNsI-2c9ioy4U6zPJXPVgweSujO6O81Q6kNqApmroecJZPSdXQOCbvECDL4s1OGaDuhz5DXQzj3_8_wm3O41VUexlBM3QJtu1lO88L93tbzwhIwEdHT0eMa2ZUxFrGuvJMSFcWsuEE2FKh4-QFTvg3xzsqqHS0qy2l79bA-rpsn7_FDNZvsrsxS6FKQPuhykRUC5uplGDlde4ArjjpA7Hhz9TUuPkd0xeW3yKc_SRIg3PRPb5CGV6uxKOw_D6mtGeCJeyR5IJc4XNhP7NBscsxq6_AKcCIABh-vzazFVviw6H1F9H7BOBHvIls86eZ-P04ZFUPIjo_CLq83euQkX6FBU1_l0Rwu5ppDYlb6LbOJBMXIuZ8_XQ_txQ0DCqZSIBa6DwrRUkgUHCBN4ha_UbKAGboAHrOu1bJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFigsvXS6dWUA2ABmgkraHR0cHM6Ly93d3cueG0uY29tL2xhbmRpbmcvZGVwb3NpdC1ib251cy9rcrEJWym_A_TNWxrICQDICYoCmAsBugtBCAMQBRgEIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awl2aXRwZXphYWHQCxKiDDMqCgoIleKxAo7fsQJiDwoNY29tLnhtLldlYkFwcGoPCg1jb20ueG0ud2ViYXBweACIAQDSDAIQAZoNARKqDQJLUsgNAdINXmh0dHBzOi8vd3d3LnhtLmNvbS9sYW5kaW5nL2RlcG9zaXQtYm9udXMva3I_Z2lkPTI2MTQ4OSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjI2NTg3MTE5ODK4E____________wGIFASwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF86WFEVFVq8vuhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMI3MT10unVlAMVEGHrCB0EmRBVEAEYASAAEgJ1u_D_BwE&num=1&cid=CAASqwHkaFEOM6pN7BnUJDNBLhAi63NBaIECvslHiZYwxzae6R3eVuj1XNCaY0xFEDTDyOF0ESZCFA68_n_o8zlvRHizrrW4LZcTIZqJ_EpyANu-OJ7oT8fF9OCqVSM1KRle_zJEM0s3qpvJwKusY7rcwoqHpc13x0VYLGg0weP6lPGdW_P_mwBsqV9AWpbg6fSEXXiU7q2EHu0Ds1peAqy9B8yOOBJOHgMC9_YXI8k&sig=AOD64_1mIujyAWKsTQyHDuOzSHqLhGvtJA&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - link "규제를 받고 공식 라이선스를 갖춘 XM 거래소에서 빠른 거래 체결을 경험하세요." [ref=e150]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Cfexbb_oUapzRNJDCrfcPhLLCqAW418v5hgGYjMb_4xWwkB8QASAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGdsO6hA6kCgLhafqKFsz6oAwTIAwqqBL0CT9CTex6tXsM2E_6oufQ5QjPvKctCYd8mkN3gdjEFvNsI-2c9ioy4U6zPJXPVgweSujO6O81Q6kNqApmroecJZPSdXQOCbvECDL4s1OGaDuhz5DXQzj3_8_wm3O41VUexlBM3QJtu1lO88L93tbzwhIwEdHT0eMa2ZUxFrGuvJMSFcWsuEE2FKh4-QFTvg3xzsqqHS0qy2l79bA-rpsn7_FDNZvsrsxS6FKQPuhykRUC5uplGDlde4ArjjpA7Hhz9TUuPkd0xeW3yKc_SRIg3PRPb5CGV6uxKOw_D6mtGeCJeyR5IJc4XNhP7NBscsxq6_AKcCIABh-vzazFVviw6H1F9H7BOBHvIls86eZ-P04ZFUPIjo_CLq83euQkX6FBU1_l0Rwu5ppDYlb6LbOJBMXIuZ8_XQ_txQ0DCqZSIBa6DwrRUkgUHCBN4ha_UbKAGboAHrOu1bJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFigsvXS6dWUA2ABmgkraHR0cHM6Ly93d3cueG0uY29tL2xhbmRpbmcvZGVwb3NpdC1ib251cy9rcrEJWym_A_TNWxrICQDICYoCmAsBugtBCAMQBRgEIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awl2aXRwZXphYWHQCxKiDDMqCgoIleKxAo7fsQJiDwoNY29tLnhtLldlYkFwcGoPCg1jb20ueG0ud2ViYXBweACIAQDSDAIQAZoNARKqDQJLUsgNAdINXmh0dHBzOi8vd3d3LnhtLmNvbS9sYW5kaW5nL2RlcG9zaXQtYm9udXMva3I_Z2lkPTI2MTQ4OSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjI2NTg3MTE5ODK4E____________wGIFASwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF86WFEVFVq8vuhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMI3MT10unVlAMVEGHrCB0EmRBVEAEYASAAEgJ1u_D_BwE&num=1&cid=CAASqwHkaFEOM6pN7BnUJDNBLhAi63NBaIECvslHiZYwxzae6R3eVuj1XNCaY0xFEDTDyOF0ESZCFA68_n_o8zlvRHizrrW4LZcTIZqJ_EpyANu-OJ7oT8fF9OCqVSM1KRle_zJEM0s3qpvJwKusY7rcwoqHpc13x0VYLGg0weP6lPGdW_P_mwBsqV9AWpbg6fSEXXiU7q2EHu0Ds1peAqy9B8yOOBJOHgMC9_YXI8k&sig=AOD64_1mIujyAWKsTQyHDuOzSHqLhGvtJA&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - generic [ref=e151]:
+                - generic [ref=e153]:
+                  - generic [ref=e154]: Sponsored
+                  - text: ·
+                - generic [ref=e156]: XM
+            - button "My Ad Center" [ref=e159]
+        - generic [ref=e166]:
+          - link [ref=e168] [cursor=pointer]:
+            - /url: /watch?v=oxE_rR8j3N4&pp=ygUq7JeQ7J6E7ZWY7J20IE1KIOy9lOyduCDtirjroIjsnbTrlKkg7KCE6561
+          - generic [ref=e170] [cursor=pointer]:
+            - generic [ref=e171]:
+              - heading "비트코인 100$ 챌린지 하루 만에 시드 11배, 수익률 1,013% 달성 5 minutes, 38 seconds" [level=3] [ref=e173]:
+                - link "비트코인 100$ 챌린지 하루 만에 시드 11배, 수익률 1,013% 달성 5 minutes, 38 seconds" [ref=e174]:
+                  - /url: /watch?v=oxE_rR8j3N4&pp=ygUq7JeQ7J6E7ZWY7J20IE1KIOy9lOyduCDtirjroIjsnbTrlKkg7KCE6561
+                  - text: 비트코인 100$ 챌린지 하루 만에 시드 11배, 수익률 1,013% 달성
+              - generic [ref=e177]:
+                - generic [ref=e178]: 5.2K views
+                - generic [ref=e179]: •11 months ago
+            - generic [ref=e180]:
+              - link "Go to channel MJ의 라스트댄스" [ref=e181]:
+                - /url: /@MJ-lastdance
+              - link "MJ의 라스트댄스" [ref=e186]:
+                - /url: /@MJ-lastdance
+            - generic [ref=e187]:
+              - generic [ref=e188]: 텔레그램 채널 안내 [1] 관점 공유방 → https://t.me/lastdance12 [2] MJ 트레이딩 마스터 클래스 (강의 및 타점 공유) 무료 입장 방법 ...
+              - tooltip "tooltip"
+        - generic [ref=e190]:
+          - link [ref=e192] [cursor=pointer]:
+            - /url: /watch?v=y-yKFATK0wk&pp=ygUq7JeQ7J6E7ZWY7J20IE1KIOy9lOyduCDtirjroIjsnbTrlKkg7KCE6561
+          - generic [ref=e194] [cursor=pointer]:
+            - generic [ref=e195]:
+              - heading "코인 선물 기초 강의 – 삼각수렴(4일 만에 시드 10배, 수익률 928% 달성!) 12 minutes, 47 seconds" [level=3] [ref=e197]:
+                - link "코인 선물 기초 강의 – 삼각수렴(4일 만에 시드 10배, 수익률 928% 달성!) 12 minutes, 47 seconds" [ref=e198]:
+                  - /url: /watch?v=y-yKFATK0wk&pp=ygUq7JeQ7J6E7ZWY7J20IE1KIOy9lOyduCDtirjroIjsnbTrlKkg7KCE6561
+                  - text: 코인 선물 기초 강의 – 삼각수렴(4일 만에 시드 10배, 수익률 928% 달성!)
+              - generic [ref=e201]:
+                - generic [ref=e202]: 26K views
+                - generic [ref=e203]: •2 years ago
+            - generic [ref=e204]:
+              - link "Go to channel MJ의 라스트댄스" [ref=e205]:
+                - /url: /@MJ-lastdance
+              - link "MJ의 라스트댄스" [ref=e210]:
+                - /url: /@MJ-lastdance
+            - generic [ref=e211]:
+              - generic [ref=e212]: 텔레그램 채널 안내 [1] 관점 공유방 → https://t.me/lastdance12 [2] MJ 트레이딩 마스터 클래스 (강의 및 타점 공유) 무료 입장 방법 ...
+              - tooltip "tooltip"
+        - generic [ref=e217]:
+          - img [ref=e223]
+          - generic [ref=e225] [cursor=pointer]:
+            - generic [ref=e226]:
+              - link "광고하고 무료 크레딧 받으세요" [ref=e229]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CjF1Cb_oUapzRNJDCrfcPhLLCqAXv0MWIhwG817bVzxVkEAIgAGCbs-mEuCmCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABhIyZvAKoAwTIAwqqBMkCT9BIt0uNXlE2O_56wdITUQH4K9Fgb_0Dg_O7S2Mjlsg67GUnqIKae6r2FGHslgaDojflDp92wFBYFZuxgd0MHeLPey2VTfMeIbkj3_jVJaZy9yLU9D3F8Owy2v9tWBiXjiMGTrQk3wyh4a17oLDM0PhMK2nlasqjaVlFqFHvVcSbcW0sE0-BNh8gXlTxAU3OxNKHEkTz1kX9eh_noIj1STxYEMMr6hr7GL8PrAzoQwG3-oYMD0dB4RWojsopCR7ncVKlhdotNvhYVbTcLPsmSGrevJdsi4rsrXeS4z_wLYMLqAYradtPQDO5i16X21GgohwriRoCv-Y_qTuRdOE1KSWU51bNJTkRjslAprPzd7FvQt2HccuBkl0aNeiXlUeqD3TfGiM3Wkr5KbWpYPr_ghISnjXoYfVpudi83ENHpPSRyvKh6nc28b6IBczR14pYkgUICBN4jpa1-AGgBqQBgAfq3YTYAZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFigsvXS6dWUA2ABmgkvaHR0cHM6Ly9nZXRzdGFydGVkLnRpa3Rvay5jb20va3ItYm9vc3QtYnVzaW5lc3OxCUkbSIjEbiamyAkAmAsBugtBCAMQBRgWIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awl2aXRwZXphYWHQCxKiDC0qCgoIleKxAo7fsQJqGgoYY29tLnNzLmFuZHJvaWQudWdjLnRyaWxseACIAQDSDAIQAZoNARKqDQJLUsgNAdIN2wFodHRwczovL2dldHN0YXJ0ZWQudGlrdG9rLmNvbS9rci1ib29zdC1idXNpbmVzcz9sYW5nPWtvJmF0dHJfc291cmNlPWdvb2dsZSZhdHRyX21lZGl1bT1wbWF4LWFkJmF0dHJfY2FtcGFpZ25faWQ9MjM2NDAwODgwNzkmZnVubmVsPXByb3NwZWN0aW5nJnRhcmdldGluZz1hbGwmY3JlYXRpdmU9TG93VGllcjIwMF9MTCZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM2NDQ3Mjc1MDCwDviblfQYuBP___________8BsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBuhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMI3MT10unVlAMVEGHrCB0EmRBVEAEYAiAAEgLm0fD_BwE&num=2&cid=CAASqwHkaFEOM6pN7BnUJDNBLhAi63NBaIECvslHiZYwxzae6R3eVuj1XNCaY0xFEDTDyOF0ESZCFA68_n_o8zlvRHizrrW4LZcTIZqJ_EpyANu-OJ7oT8fF9OCqVSM1KRle_zJEM0s3qpvJwKusY7rcwoqHpc13x0VYLGg0weP6lPGdW_P_mwBsqV9AWpbg6fSEXXiU7q2EHu0Ds1peAqy9B8yOOBJOHgMC9_YXI8k&sig=AOD64_1oAwtkhgqZLgZPGC3wyQm9szhkPg&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - link "가입하고 사용해서 틱톡 무료 광고 크레딧을 받으세요. 기간 한정입니다." [ref=e232]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CjF1Cb_oUapzRNJDCrfcPhLLCqAXv0MWIhwG817bVzxVkEAIgAGCbs-mEuCmCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABhIyZvAKoAwTIAwqqBMkCT9BIt0uNXlE2O_56wdITUQH4K9Fgb_0Dg_O7S2Mjlsg67GUnqIKae6r2FGHslgaDojflDp92wFBYFZuxgd0MHeLPey2VTfMeIbkj3_jVJaZy9yLU9D3F8Owy2v9tWBiXjiMGTrQk3wyh4a17oLDM0PhMK2nlasqjaVlFqFHvVcSbcW0sE0-BNh8gXlTxAU3OxNKHEkTz1kX9eh_noIj1STxYEMMr6hr7GL8PrAzoQwG3-oYMD0dB4RWojsopCR7ncVKlhdotNvhYVbTcLPsmSGrevJdsi4rsrXeS4z_wLYMLqAYradtPQDO5i16X21GgohwriRoCv-Y_qTuRdOE1KSWU51bNJTkRjslAprPzd7FvQt2HccuBkl0aNeiXlUeqD3TfGiM3Wkr5KbWpYPr_ghISnjXoYfVpudi83ENHpPSRyvKh6nc28b6IBczR14pYkgUICBN4jpa1-AGgBqQBgAfq3YTYAZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFigsvXS6dWUA2ABmgkvaHR0cHM6Ly9nZXRzdGFydGVkLnRpa3Rvay5jb20va3ItYm9vc3QtYnVzaW5lc3OxCUkbSIjEbiamyAkAmAsBugtBCAMQBRgWIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awl2aXRwZXphYWHQCxKiDC0qCgoIleKxAo7fsQJqGgoYY29tLnNzLmFuZHJvaWQudWdjLnRyaWxseACIAQDSDAIQAZoNARKqDQJLUsgNAdIN2wFodHRwczovL2dldHN0YXJ0ZWQudGlrdG9rLmNvbS9rci1ib29zdC1idXNpbmVzcz9sYW5nPWtvJmF0dHJfc291cmNlPWdvb2dsZSZhdHRyX21lZGl1bT1wbWF4LWFkJmF0dHJfY2FtcGFpZ25faWQ9MjM2NDAwODgwNzkmZnVubmVsPXByb3NwZWN0aW5nJnRhcmdldGluZz1hbGwmY3JlYXRpdmU9TG93VGllcjIwMF9MTCZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM2NDQ3Mjc1MDCwDviblfQYuBP___________8BsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBuhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMI3MT10unVlAMVEGHrCB0EmRBVEAEYAiAAEgLm0fD_BwE&num=2&cid=CAASqwHkaFEOM6pN7BnUJDNBLhAi63NBaIECvslHiZYwxzae6R3eVuj1XNCaY0xFEDTDyOF0ESZCFA68_n_o8zlvRHizrrW4LZcTIZqJ_EpyANu-OJ7oT8fF9OCqVSM1KRle_zJEM0s3qpvJwKusY7rcwoqHpc13x0VYLGg0weP6lPGdW_P_mwBsqV9AWpbg6fSEXXiU7q2EHu0Ds1peAqy9B8yOOBJOHgMC9_YXI8k&sig=AOD64_1oAwtkhgqZLgZPGC3wyQm9szhkPg&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - generic [ref=e233]:
+                - generic [ref=e235]:
+                  - generic [ref=e236]: Sponsored
+                  - text: ·
+                - generic [ref=e238]: TikTok
+            - button "My Ad Center" [ref=e241]

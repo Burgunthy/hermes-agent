@@ -1,0 +1,73 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - generic [ref=e8]: CatchDM
+    - navigation [ref=e9]:
+      - link "Dashboard" [ref=e10] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e11]
+        - text: Dashboard
+      - link "Accounts" [ref=e16] [cursor=pointer]:
+        - /url: /dashboard/accounts
+        - img [ref=e17]
+        - text: Accounts
+      - link "Analytics" [ref=e20] [cursor=pointer]:
+        - /url: /dashboard/analytics
+        - img [ref=e21]
+        - text: Analytics
+      - link "Settings" [ref=e23] [cursor=pointer]:
+        - /url: /dashboard/settings
+        - img [ref=e24]
+        - text: Settings
+    - paragraph [ref=e28]: CatchDM v1.0
+  - generic [ref=e29]:
+    - banner [ref=e30]:
+      - button "U User" [ref=e31] [cursor=pointer]:
+        - generic [ref=e33]: U
+        - generic [ref=e34]: User
+        - img [ref=e35]
+    - main [ref=e37]:
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - button [ref=e42] [cursor=pointer]:
+                - img [ref=e43]
+              - generic [ref=e45]:
+                - heading "Posts" [level=1] [ref=e46]
+                - paragraph [ref=e47]: Manage comment-to-DM automation for this account
+            - generic [ref=e48]:
+              - button "Sync Media" [ref=e49] [cursor=pointer]:
+                - img [ref=e50]
+                - text: Sync Media
+              - button "Add Post" [ref=e55] [cursor=pointer]:
+                - img [ref=e56]
+                - text: Add Post
+          - generic [ref=e57]:
+            - tablist [ref=e58]:
+              - tab "Posts" [selected] [ref=e59] [cursor=pointer]:
+                - img [ref=e60]
+                - text: Posts
+              - tab "Quick Setup" [ref=e63] [cursor=pointer]:
+                - img [ref=e64]
+                - text: Quick Setup
+              - tab "Templates" [ref=e66] [cursor=pointer]:
+                - img [ref=e67]
+                - text: Templates
+            - tabpanel "Posts" [ref=e71]
+        - generic [ref=e79]:
+          - generic [ref=e80]:
+            - heading "Live Preview" [level=2] [ref=e81]
+            - generic [ref=e82]: DM Preview
+          - generic [ref=e85]:
+            - generic [ref=e87]:
+              - img [ref=e88]
+              - generic [ref=e90]: Instagram
+            - generic [ref=e91]:
+              - paragraph [ref=e94]: DM sent! 💗
+              - generic [ref=e96]:
+                - paragraph [ref=e97]: Check follow 🙌🏻
+                - button "Check follow 🙴" [ref=e98] [cursor=pointer]
+              - generic [ref=e99]: Today
+          - paragraph [ref=e102]: This preview updates in real-time as you configure automation.

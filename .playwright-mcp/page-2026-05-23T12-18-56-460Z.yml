@@ -1,0 +1,674 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fdanijar%2Fdreamerv3
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=danijar%2Fdreamerv3
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "danijar" [ref=e70] [cursor=pointer]:
+            - /url: /danijar
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "dreamerv3" [ref=e73] [cursor=pointer]:
+              - /url: /danijar/dreamerv3
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fdanijar%2Fdreamerv3
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 540" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fdanijar%2Fdreamerv3
+                - img [ref=e82]
+                - text: Fork
+                - generic "540" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fdanijar%2Fdreamerv3
+                - img [ref=e88]
+                - text: Star
+                - generic "3263 users starred this repository" [ref=e90]: 3.3k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /danijar/dreamerv3
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 37" [ref=e99] [cursor=pointer]:
+              - /url: /danijar/dreamerv3/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "37" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 13" [ref=e106] [cursor=pointer]:
+              - /url: /danijar/dreamerv3/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "13" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Actions" [ref=e112] [cursor=pointer]:
+              - /url: /danijar/dreamerv3/actions
+              - img [ref=e113]
+              - generic [ref=e115]: Actions
+          - listitem [ref=e116]:
+            - link "Projects" [ref=e117] [cursor=pointer]:
+              - /url: /danijar/dreamerv3/projects
+              - img [ref=e118]
+              - generic [ref=e120]: Projects
+          - listitem [ref=e121]:
+            - link "Security and quality" [ref=e122] [cursor=pointer]:
+              - /url: /danijar/dreamerv3/security
+              - img [ref=e123]
+              - generic [ref=e125]: Security and quality
+          - listitem [ref=e126]:
+            - link "Insights" [ref=e127] [cursor=pointer]:
+              - /url: /danijar/dreamerv3/pulse
+              - img [ref=e128]
+              - generic [ref=e130]: Insights
+    - generic [ref=e143]:
+      - heading "danijar/dreamerv3" [level=1] [ref=e145]
+      - generic [ref=e146]:
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - generic [ref=e151]:
+              - button "main branch" [ref=e153] [cursor=pointer]:
+                - generic [ref=e154]:
+                  - generic [ref=e156]:
+                    - img [ref=e158]
+                    - generic [ref=e161]: main
+                  - generic:
+                    - img
+              - generic [ref=e162]:
+                - link "1 Branch" [ref=e163] [cursor=pointer]:
+                  - /url: /danijar/dreamerv3/branches
+                  - generic [ref=e164]:
+                    - generic:
+                      - img
+                    - generic [ref=e166]:
+                      - strong [ref=e167]: "1"
+                      - text: Branch
+                - link "0 Tags" [ref=e168] [cursor=pointer]:
+                  - /url: /danijar/dreamerv3/tags
+                  - generic [ref=e169]:
+                    - generic:
+                      - img
+                    - generic [ref=e171]:
+                      - strong [ref=e172]: "0"
+                      - text: Tags
+            - generic [ref=e173]:
+              - generic [ref=e177]:
+                - img [ref=e179]
+                - combobox "Go to file" [ref=e181]
+              - button "Code" [ref=e182] [cursor=pointer]:
+                - generic [ref=e183]:
+                  - generic:
+                    - img
+                  - generic [ref=e184]: Code
+                  - generic:
+                    - img
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - heading "Folders and files" [level=2] [ref=e187]
+              - table "Folders and files" [ref=e188]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e189]:
+                  - row "Latest commit danijar commits by danijar Update paper reference Commit b65cf81 · Sep 24, 20258 months ago History 30 Commits" [ref=e190]:
+                    - cell "Latest commit danijar commits by danijar Update paper reference Commit b65cf81 · Sep 24, 20258 months ago History 30 Commits" [ref=e191]:
+                      - generic [ref=e192]:
+                        - heading "Latest commit" [level=2] [ref=e193]
+                        - generic [ref=e194]:
+                          - generic [ref=e196]:
+                            - link "danijar" [ref=e197] [cursor=pointer]:
+                              - /url: /danijar
+                              - img "danijar" [ref=e198]
+                            - link "commits by danijar" [ref=e199] [cursor=pointer]:
+                              - /url: /danijar/dreamerv3/commits?author=danijar
+                              - text: danijar
+                          - link "Update paper reference" [ref=e203] [cursor=pointer]:
+                            - /url: /danijar/dreamerv3/commit/b65cf81a6fb13625af8722127459283f899a35d9
+                        - generic [ref=e204]:
+                          - generic [ref=e206]:
+                            - link "Commit b65cf81" [ref=e207] [cursor=pointer]:
+                              - /url: /danijar/dreamerv3/commit/b65cf81a6fb13625af8722127459283f899a35d9
+                              - text: b65cf81
+                            - text: ·
+                            - generic "Sep 24, 2025, 3:25 AM GMT+9" [ref=e208]: Sep 24, 20258 months ago
+                          - generic [ref=e209]:
+                            - heading "History" [level=2] [ref=e210]
+                            - link "30 Commits" [ref=e211] [cursor=pointer]:
+                              - /url: /danijar/dreamerv3/commits/main/
+                              - generic [ref=e212]:
+                                - generic:
+                                  - img
+                                - generic [ref=e213]: 30 Commits
+                  - row "dreamerv3, (Directory) Update Dockerfile Feb 23, 2025last year" [ref=e214]:
+                    - cell "dreamerv3, (Directory)" [ref=e215]:
+                      - generic [ref=e216]:
+                        - img [ref=e217]
+                        - link "dreamerv3, (Directory)" [ref=e222] [cursor=pointer]:
+                          - /url: /danijar/dreamerv3/tree/main/dreamerv3
+                          - text: dreamerv3
+                    - cell "Update Dockerfile" [ref=e223]:
+                      - link "Update Dockerfile" [ref=e226] [cursor=pointer]:
+                        - /url: /danijar/dreamerv3/commit/cd026ac0d0be2d22efd1dd29e5c0beed7befc41d
+                    - cell "Feb 23, 2025last year" [ref=e227]:
+                      - generic [ref=e228]: Feb 23, 2025last year
+                  - row "embodied, (Directory) Fix parallel driver argument Feb 23, 2025last year" [ref=e229]:
+                    - cell "embodied, (Directory)" [ref=e230]:
+                      - generic [ref=e231]:
+                        - img [ref=e232]
+                        - link "embodied, (Directory)" [ref=e237] [cursor=pointer]:
+                          - /url: /danijar/dreamerv3/tree/main/embodied
+                          - text: embodied
+                    - cell "Fix parallel driver argument" [ref=e238]:
+                      - link "Fix parallel driver argument" [ref=e241] [cursor=pointer]:
+                        - /url: /danijar/dreamerv3/commit/bfcdfc183d2c1543a3bf3cdda6edb7fae29b6a01
+                    - cell "Feb 23, 2025last year" [ref=e242]:
+                      - generic [ref=e243]: Feb 23, 2025last year
+                  - row "scores, (Directory) Update agent and infrastructure Apr 27, 20242 years ago" [ref=e244]:
+                    - cell "scores, (Directory)" [ref=e245]:
+                      - generic [ref=e246]:
+                        - img [ref=e247]
+                        - link "scores, (Directory)" [ref=e252] [cursor=pointer]:
+                          - /url: /danijar/dreamerv3/tree/main/scores
+                          - text: scores
+                    - cell "Update agent and infrastructure" [ref=e253]:
+                      - link "Update agent and infrastructure" [ref=e256] [cursor=pointer]:
+                        - /url: /danijar/dreamerv3/commit/2411f7d136832378c0291c587cdbf2fca6506873
+                    - cell "Apr 27, 20242 years ago" [ref=e257]:
+                      - generic [ref=e258]: Apr 27, 20242 years ago
+                  - row ".dockerignore, (File) Update agent and infrastructure Apr 27, 20242 years ago" [ref=e259]:
+                    - cell ".dockerignore, (File)" [ref=e260]:
+                      - generic [ref=e261]:
+                        - img [ref=e262]
+                        - link ".dockerignore, (File)" [ref=e267] [cursor=pointer]:
+                          - /url: /danijar/dreamerv3/blob/main/.dockerignore
+                          - text: .dockerignore
+                    - cell "Update agent and infrastructure" [ref=e268]:
+                      - link "Update agent and infrastructure" [ref=e271] [cursor=pointer]:
+                        - /url: /danijar/dreamerv3/commit/2411f7d136832378c0291c587cdbf2fca6506873
+                    - cell "Apr 27, 20242 years ago" [ref=e272]:
+                      - generic [ref=e273]: Apr 27, 20242 years ago
+                  - row ".gitignore, (File) Initial commit Feb 17, 20233 years ago" [ref=e274]:
+                    - cell ".gitignore, (File)" [ref=e275]:
+                      - generic [ref=e276]:
+                        - img [ref=e277]
+                        - link ".gitignore, (File)" [ref=e282] [cursor=pointer]:
+                          - /url: /danijar/dreamerv3/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell "Initial commit" [ref=e283]:
+                      - link "Initial commit" [ref=e286] [cursor=pointer]:
+                        - /url: /danijar/dreamerv3/commit/ec526b92a5a834eeec8253dd4255bc0d8c3d2eb9
+                    - cell "Feb 17, 20233 years ago" [ref=e287]:
+                      - generic [ref=e288]: Feb 17, 20233 years ago
+                  - row "Dockerfile, (File) Update Dockerfile Feb 23, 2025last year" [ref=e289]:
+                    - cell "Dockerfile, (File)" [ref=e290]:
+                      - generic [ref=e291]:
+                        - img [ref=e292]
+                        - link "Dockerfile, (File)" [ref=e297] [cursor=pointer]:
+                          - /url: /danijar/dreamerv3/blob/main/Dockerfile
+                          - text: Dockerfile
+                    - cell "Update Dockerfile" [ref=e298]:
+                      - link "Update Dockerfile" [ref=e301] [cursor=pointer]:
+                        - /url: /danijar/dreamerv3/commit/cd026ac0d0be2d22efd1dd29e5c0beed7befc41d
+                    - cell "Feb 23, 2025last year" [ref=e302]:
+                      - generic [ref=e303]: Feb 23, 2025last year
+                  - row "LICENSE, (File) Update Dec 8, 20242 years ago" [ref=e304]:
+                    - cell "LICENSE, (File)" [ref=e305]:
+                      - generic [ref=e306]:
+                        - img [ref=e307]
+                        - link "LICENSE, (File)" [ref=e312] [cursor=pointer]:
+                          - /url: /danijar/dreamerv3/blob/main/LICENSE
+                          - text: LICENSE
+                    - cell "Update" [ref=e313]:
+                      - link "Update" [ref=e316] [cursor=pointer]:
+                        - /url: /danijar/dreamerv3/commit/f8817c4040cebada9bb9712554b0234c70c291d5
+                    - cell "Dec 8, 20242 years ago" [ref=e317]:
+                      - generic [ref=e318]: Dec 8, 20242 years ago
+                  - row "README.md, (File) Update paper reference Sep 24, 20258 months ago" [ref=e319]:
+                    - cell "README.md, (File)" [ref=e320]:
+                      - generic [ref=e321]:
+                        - img [ref=e322]
+                        - link "README.md, (File)" [ref=e327] [cursor=pointer]:
+                          - /url: /danijar/dreamerv3/blob/main/README.md
+                          - text: README.md
+                    - cell "Update paper reference" [ref=e328]:
+                      - link "Update paper reference" [ref=e331] [cursor=pointer]:
+                        - /url: /danijar/dreamerv3/commit/b65cf81a6fb13625af8722127459283f899a35d9
+                    - cell "Sep 24, 20258 months ago" [ref=e332]:
+                      - generic [ref=e333]: Sep 24, 20258 months ago
+                  - row "baselines.yaml, (File) Update Dec 8, 20242 years ago" [ref=e334]:
+                    - cell "baselines.yaml, (File)" [ref=e335]:
+                      - generic [ref=e336]:
+                        - img [ref=e337]
+                        - link "baselines.yaml, (File)" [ref=e342] [cursor=pointer]:
+                          - /url: /danijar/dreamerv3/blob/main/baselines.yaml
+                          - text: baselines.yaml
+                    - cell "Update" [ref=e343]:
+                      - link "Update" [ref=e346] [cursor=pointer]:
+                        - /url: /danijar/dreamerv3/commit/f8817c4040cebada9bb9712554b0234c70c291d5
+                    - cell "Dec 8, 20242 years ago" [ref=e347]:
+                      - generic [ref=e348]: Dec 8, 20242 years ago
+                  - row "entrypoint.sh, (File) Update Dec 8, 20242 years ago" [ref=e349]:
+                    - cell "entrypoint.sh, (File)" [ref=e350]:
+                      - generic [ref=e351]:
+                        - img [ref=e352]
+                        - link "entrypoint.sh, (File)" [ref=e357] [cursor=pointer]:
+                          - /url: /danijar/dreamerv3/blob/main/entrypoint.sh
+                          - text: entrypoint.sh
+                    - cell "Update" [ref=e358]:
+                      - link "Update" [ref=e361] [cursor=pointer]:
+                        - /url: /danijar/dreamerv3/commit/f8817c4040cebada9bb9712554b0234c70c291d5
+                    - cell "Dec 8, 20242 years ago" [ref=e362]:
+                      - generic [ref=e363]: Dec 8, 20242 years ago
+                  - row "plot.py, (File) Update Dec 8, 20242 years ago" [ref=e364]:
+                    - cell "plot.py, (File)" [ref=e365]:
+                      - generic [ref=e366]:
+                        - img [ref=e367]
+                        - link "plot.py, (File)" [ref=e372] [cursor=pointer]:
+                          - /url: /danijar/dreamerv3/blob/main/plot.py
+                          - text: plot.py
+                    - cell "Update" [ref=e373]:
+                      - link "Update" [ref=e376] [cursor=pointer]:
+                        - /url: /danijar/dreamerv3/commit/f8817c4040cebada9bb9712554b0234c70c291d5
+                    - cell "Dec 8, 20242 years ago" [ref=e377]:
+                      - generic [ref=e378]: Dec 8, 20242 years ago
+                  - row "requirements.txt, (File) Pin Atari version Feb 14, 2025last year" [ref=e379]:
+                    - cell "requirements.txt, (File)" [ref=e380]:
+                      - generic [ref=e381]:
+                        - img [ref=e382]
+                        - link "requirements.txt, (File)" [ref=e387] [cursor=pointer]:
+                          - /url: /danijar/dreamerv3/blob/main/requirements.txt
+                          - text: requirements.txt
+                    - cell "Pin Atari version" [ref=e388]:
+                      - link "Pin Atari version" [ref=e391] [cursor=pointer]:
+                        - /url: /danijar/dreamerv3/commit/7949c3c8792415d1901c37a4767c05aca35c4cd8
+                    - cell "Feb 14, 2025last year" [ref=e392]:
+                      - generic [ref=e393]: Feb 14, 2025last year
+                  - row "setup.py, (File) Update Dec 8, 20242 years ago" [ref=e394]:
+                    - cell "setup.py, (File)" [ref=e395]:
+                      - generic [ref=e396]:
+                        - img [ref=e397]
+                        - link "setup.py, (File)" [ref=e402] [cursor=pointer]:
+                          - /url: /danijar/dreamerv3/blob/main/setup.py
+                          - text: setup.py
+                    - cell "Update" [ref=e403]:
+                      - link "Update" [ref=e406] [cursor=pointer]:
+                        - /url: /danijar/dreamerv3/commit/f8817c4040cebada9bb9712554b0234c70c291d5
+                    - cell "Dec 8, 20242 years ago" [ref=e407]:
+                      - generic [ref=e408]: Dec 8, 20242 years ago
+            - generic [ref=e410]:
+              - generic [ref=e411]:
+                - heading "Repository files navigation" [level=2] [ref=e412]
+                - navigation "Repository files" [ref=e413]:
+                  - list [ref=e414]:
+                    - listitem [ref=e415]:
+                      - link "README" [ref=e416] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e418]
+                        - generic [ref=e420]: README
+                    - listitem [ref=e421]:
+                      - link "MIT license" [ref=e422] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e424]
+                        - generic [ref=e426]: MIT license
+                - button "Outline" [ref=e427] [cursor=pointer]:
+                  - img [ref=e428]
+              - article [ref=e431]:
+                - generic [ref=e432]:
+                  - heading "Mastering Diverse Domains through World Models" [level=1] [ref=e433]
+                  - 'link "Permalink: Mastering Diverse Domains through World Models" [ref=e434] [cursor=pointer]':
+                    - /url: "#mastering-diverse-domains-through-world-models"
+                    - img [ref=e435]
+                - paragraph [ref=e437]:
+                  - text: A reimplementation of
+                  - link "DreamerV3" [ref=e438] [cursor=pointer]:
+                    - /url: https://arxiv.org/pdf/2301.04104
+                  - text: ", a scalable and general reinforcement learning algorithm that masters a wide range of applications with fixed hyperparameters."
+                - paragraph [ref=e439]:
+                  - link "DreamerV3 Tasks" [ref=e441] [cursor=pointer]:
+                    - /url: https://user-images.githubusercontent.com/2111293/217647148-cbc522e2-61ad-4553-8e14-1ecdc8d9438b.gif
+                    - img "DreamerV3 Tasks" [ref=e442]
+                - paragraph [ref=e443]: "If you find this code useful, please reference in your paper:"
+                - generic [ref=e444]:
+                  - code [ref=e446]: "@article{hafner2025dreamerv3, title={Mastering diverse control tasks through world models}, author={Hafner, Danijar and Pasukonis, Jurgis and Ba, Jimmy and Lillicrap, Timothy}, journal={Nature}, pages={1--7}, year={2025}, publisher={Nature Publishing Group} }"
+                  - button "Copy code to clipboard" [ref=e448] [cursor=pointer]:
+                    - img [ref=e449]
+                - paragraph [ref=e452]: "To learn more:"
+                - list [ref=e453]:
+                  - listitem [ref=e454]:
+                    - link "Research paper" [ref=e455] [cursor=pointer]:
+                      - /url: https://arxiv.org/pdf/2301.04104
+                  - listitem [ref=e456]:
+                    - link "Project website" [ref=e457] [cursor=pointer]:
+                      - /url: https://danijar.com/dreamerv3
+                  - listitem [ref=e458]:
+                    - link "Twitter summary" [ref=e459] [cursor=pointer]:
+                      - /url: https://twitter.com/danijarh/status/1613161946223677441
+                - generic [ref=e460]:
+                  - heading "DreamerV3" [level=2] [ref=e461]
+                  - 'link "Permalink: DreamerV3" [ref=e462] [cursor=pointer]':
+                    - /url: "#dreamerv3"
+                    - img [ref=e463]
+                - paragraph [ref=e465]: DreamerV3 learns a world model from experiences and uses it to train an actor critic policy from imagined trajectories. The world model encodes sensory inputs into categorical representations and predicts future representations and rewards given actions.
+                - paragraph [ref=e466]:
+                  - link "DreamerV3 Method Diagram" [ref=e467] [cursor=pointer]:
+                    - /url: https://user-images.githubusercontent.com/2111293/217355673-4abc0ce5-1a4b-4366-a08d-64754289d659.png
+                    - img "DreamerV3 Method Diagram" [ref=e468]
+                - paragraph [ref=e469]: DreamerV3 masters a wide range of domains with a fixed set of hyperparameters, outperforming specialized methods. Removing the need for tuning reduces the amount of expert knowledge and computational resources needed to apply reinforcement learning.
+                - paragraph [ref=e470]:
+                  - link "DreamerV3 Benchmark Scores" [ref=e471] [cursor=pointer]:
+                    - /url: https://private-user-images.githubusercontent.com/2111293/324081413-0fe8f1cf-6970-41ea-9efc-e2e2477e7861.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzk1MzkwMzUsIm5iZiI6MTc3OTUzODczNSwicGF0aCI6Ii8yMTExMjkzLzMyNDA4MTQxMy0wZmU4ZjFjZi02OTcwLTQxZWEtOWVmYy1lMmUyNDc3ZTc4NjEucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI2MDUyMyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNjA1MjNUMTIxODU1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MjRjZTQ3MmYyNTMzOTBmZjUxNzhjMGUzNTVkMTQwZmQ3MTVmY2ExN2U2OGYwMzY3MDhhZGRlYjJkZGU5N2FiMiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmcmVzcG9uc2UtY29udGVudC10eXBlPWltYWdlJTJGcG5nIn0.0ZfC5l92W3wodYjbv3eslGRSlbtP-L5NFdo4mYbu48o
+                    - img "DreamerV3 Benchmark Scores" [ref=e472]
+                - paragraph [ref=e473]: Due to its robustness, DreamerV3 shows favorable scaling properties. Notably, using larger models consistently increases not only its final performance but also its data-efficiency. Increasing the number of gradient steps further increases data efficiency.
+                - paragraph [ref=e474]:
+                  - link "DreamerV3 Scaling Behavior" [ref=e475] [cursor=pointer]:
+                    - /url: https://user-images.githubusercontent.com/2111293/217356063-0cf06b17-89f0-4d5f-85a9-b583438c98dd.png
+                    - img "DreamerV3 Scaling Behavior" [ref=e476]
+                - generic [ref=e477]:
+                  - heading "Instructions" [level=1] [ref=e478]
+                  - 'link "Permalink: Instructions" [ref=e479] [cursor=pointer]':
+                    - /url: "#instructions"
+                    - img [ref=e480]
+                - paragraph [ref=e482]: The code has been tested on Linux and Mac and requires Python 3.11+.
+                - generic [ref=e483]:
+                  - heading "Docker" [level=2] [ref=e484]
+                  - 'link "Permalink: Docker" [ref=e485] [cursor=pointer]':
+                    - /url: "#docker"
+                    - img [ref=e486]
+                - paragraph [ref=e488]:
+                  - text: You can either use the provided
+                  - code [ref=e489]: Dockerfile
+                  - text: that contains instructions or follow the manual instructions below.
+                - generic [ref=e490]:
+                  - heading "Manual" [level=2] [ref=e491]
+                  - 'link "Permalink: Manual" [ref=e492] [cursor=pointer]':
+                    - /url: "#manual"
+                    - img [ref=e493]
+                - paragraph [ref=e495]:
+                  - text: Install
+                  - link "JAX" [ref=e496] [cursor=pointer]:
+                    - /url: https://github.com/google/jax#pip-installation-gpu-cuda
+                  - text: "and then the other dependencies:"
+                - generic [ref=e497]:
+                  - generic [ref=e498]: pip install -U -r requirements.txt
+                  - button "Copy code to clipboard" [ref=e500] [cursor=pointer]:
+                    - img [ref=e501]
+                - paragraph [ref=e504]: "Training script:"
+                - generic [ref=e505]:
+                  - generic [ref=e506]: "python dreamerv3/main.py \\ --logdir ~/logdir/dreamer/{timestamp} \\ --configs crafter \\ --run.train_ratio 32"
+                  - button "Copy code to clipboard" [ref=e508] [cursor=pointer]:
+                    - img [ref=e509]
+                - paragraph [ref=e512]:
+                  - text: To reproduce results, train on the desired task using the corresponding config, such as
+                  - code [ref=e513]: "--configs atari --task atari_pong"
+                  - text: .
+                - paragraph [ref=e514]: "View results:"
+                - generic [ref=e515]:
+                  - generic [ref=e516]: pip install -U scope python -m scope.viewer --basedir ~/logdir --port 8000
+                  - button "Copy code to clipboard" [ref=e518] [cursor=pointer]:
+                    - img [ref=e519]
+                - paragraph [ref=e522]: Scalar metrics are also writting as JSONL files.
+                - generic [ref=e523]:
+                  - heading "Tips" [level=1] [ref=e524]
+                  - 'link "Permalink: Tips" [ref=e525] [cursor=pointer]':
+                    - /url: "#tips"
+                    - img [ref=e526]
+                - list [ref=e528]:
+                  - listitem [ref=e529]:
+                    - text: All config options are listed in
+                    - code [ref=e530]: dreamerv3/configs.yaml
+                    - text: and you can override them as flags from the command line.
+                  - listitem [ref=e531]:
+                    - text: The
+                    - code [ref=e532]: debug
+                    - text: config block reduces the network size, batch size, duration between logs, and so on for fast debugging (but does not learn a good model).
+                  - listitem [ref=e533]:
+                    - text: By default, the code tries to run on GPU. You can switch to CPU or TPU using the
+                    - code [ref=e534]: "--jax.platform cpu"
+                    - text: flag.
+                  - listitem [ref=e535]:
+                    - text: You can use multiple config blocks that will override defaults in the order they are specified, for example
+                    - code [ref=e536]: "--configs crafter size50m"
+                    - text: .
+                  - listitem [ref=e537]: By default, metrics are printed to the terminal, appended to a JSON lines file, and written as Scope summaries. Other outputs like WandB and TensorBoard can be enabled in the training script.
+                  - listitem [ref=e538]:
+                    - text: If you get a
+                    - code [ref=e539]: Too many leaves for PyTreeDef
+                    - text: error, it means you're reloading a checkpoint that is not compatible with the current config. This often happens when reusing an old logdir by accident.
+                  - listitem [ref=e540]:
+                    - text: If you are getting CUDA errors, scroll up because the cause is often just an error that happened earlier, such as out of memory or incompatible JAX and CUDA versions. Try
+                    - code [ref=e541]: "--batch_size 1"
+                    - text: to rule out an out of memory error.
+                  - listitem [ref=e542]:
+                    - text: Many environments are included, some of which require installing additional packages. See the
+                    - code [ref=e543]: Dockerfile
+                    - text: for reference.
+                  - listitem [ref=e544]:
+                    - text: To continue stopped training runs, simply run the same command line again and make sure that the
+                    - code [ref=e545]: "--logdir"
+                    - text: points to the same directory.
+                - generic [ref=e546]:
+                  - heading "Disclaimer" [level=1] [ref=e547]
+                  - 'link "Permalink: Disclaimer" [ref=e548] [cursor=pointer]':
+                    - /url: "#disclaimer"
+                    - img [ref=e549]
+                - paragraph [ref=e551]: This repository contains a reimplementation of DreamerV3 based on the open source DreamerV2 code base. It is unrelated to Google or DeepMind. The implementation has been tested to reproduce the official results on a range of environments.
+        - generic [ref=e555]:
+          - generic [ref=e558]:
+            - heading "About" [level=2] [ref=e559]
+            - paragraph [ref=e560]: Mastering Diverse Domains through World Models
+            - generic [ref=e561]:
+              - img [ref=e562]
+              - link "danijar.com/dreamerv3" [ref=e565] [cursor=pointer]:
+                - /url: https://danijar.com/dreamerv3
+            - heading "Topics" [level=3] [ref=e566]
+            - generic [ref=e568]:
+              - link "minecraft" [ref=e569] [cursor=pointer]:
+                - /url: /topics/minecraft
+              - link "reinforcement-learning" [ref=e570] [cursor=pointer]:
+                - /url: /topics/reinforcement-learning
+              - link "artificial-intelligence" [ref=e571] [cursor=pointer]:
+                - /url: /topics/artificial-intelligence
+              - link "general" [ref=e572] [cursor=pointer]:
+                - /url: /topics/general
+              - link "jax" [ref=e573] [cursor=pointer]:
+                - /url: /topics/jax
+              - link "world-models" [ref=e574] [cursor=pointer]:
+                - /url: /topics/world-models
+            - heading "Resources" [level=3] [ref=e575]
+            - link "Readme" [ref=e577] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e578]
+              - text: Readme
+            - heading "License" [level=3] [ref=e580]
+            - link "MIT license" [ref=e582] [cursor=pointer]:
+              - /url: "#MIT-1-ov-file"
+              - img [ref=e583]
+              - text: MIT license
+            - link "Activity" [ref=e586] [cursor=pointer]:
+              - /url: /danijar/dreamerv3/activity
+              - img [ref=e587]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e589]
+            - link "3.3k stars" [ref=e591] [cursor=pointer]:
+              - /url: /danijar/dreamerv3/stargazers
+              - img [ref=e592]
+              - strong [ref=e594]: 3.3k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e595]
+            - link "34 watching" [ref=e597] [cursor=pointer]:
+              - /url: /danijar/dreamerv3/watchers
+              - img [ref=e598]
+              - strong [ref=e600]: "34"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e601]
+            - link "540 forks" [ref=e603] [cursor=pointer]:
+              - /url: /danijar/dreamerv3/forks
+              - img [ref=e604]
+              - strong [ref=e606]: "540"
+              - text: forks
+            - link "Report repository" [ref=e608] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fdanijar%2Fdreamerv3&report=danijar+%28user%29
+          - generic [ref=e610]:
+            - heading "Releases" [level=2] [ref=e611]:
+              - link "Releases" [ref=e612] [cursor=pointer]:
+                - /url: /danijar/dreamerv3/releases
+            - generic [ref=e613]: No releases published
+          - generic [ref=e615]:
+            - heading "Packages" [level=2] [ref=e616]:
+              - link "Packages" [ref=e617] [cursor=pointer]:
+                - /url: /users/danijar/packages?repo_name=dreamerv3
+            - generic [ref=e618]: No packages published
+          - generic [ref=e620]:
+            - heading "Contributors 10" [level=2] [ref=e621]:
+              - link "Contributors 10" [ref=e622] [cursor=pointer]:
+                - /url: /danijar/dreamerv3/graphs/contributors
+                - text: Contributors
+                - generic "10" [ref=e623]
+            - list [ref=e624]:
+              - listitem [ref=e625]:
+                - link "@danijar" [ref=e626] [cursor=pointer]:
+                  - /url: https://github.com/danijar
+                  - img "@danijar" [ref=e627]
+              - listitem [ref=e628]:
+                - link "@artemZholus" [ref=e629] [cursor=pointer]:
+                  - /url: https://github.com/artemZholus
+                  - img "@artemZholus" [ref=e630]
+              - listitem [ref=e631]:
+                - link "@signalprime" [ref=e632] [cursor=pointer]:
+                  - /url: https://github.com/signalprime
+                  - img "@signalprime" [ref=e633]
+              - listitem [ref=e634]:
+                - link "@eltociear" [ref=e635] [cursor=pointer]:
+                  - /url: https://github.com/eltociear
+                  - img "@eltociear" [ref=e636]
+              - listitem [ref=e637]:
+                - link "@IsaacSST" [ref=e638] [cursor=pointer]:
+                  - /url: https://github.com/IsaacSST
+                  - img "@IsaacSST" [ref=e639]
+              - listitem [ref=e640]:
+                - link "@hibikaze-git" [ref=e641] [cursor=pointer]:
+                  - /url: https://github.com/hibikaze-git
+                  - img "@hibikaze-git" [ref=e642]
+              - listitem [ref=e643]:
+                - link "@vint-1" [ref=e644] [cursor=pointer]:
+                  - /url: https://github.com/vint-1
+                  - img "@vint-1" [ref=e645]
+              - listitem [ref=e646]:
+                - link "@anatlavitzkovitz" [ref=e647] [cursor=pointer]:
+                  - /url: https://github.com/anatlavitzkovitz
+                  - img "@anatlavitzkovitz" [ref=e648]
+              - listitem [ref=e649]:
+                - link "@arrowkrai" [ref=e650] [cursor=pointer]:
+                  - /url: https://github.com/arrowkrai
+                  - img "@arrowkrai" [ref=e651]
+              - listitem [ref=e652]:
+                - link "@crocodile13" [ref=e653] [cursor=pointer]:
+                  - /url: https://github.com/crocodile13
+                  - img "@crocodile13" [ref=e654]
+          - generic [ref=e656]:
+            - heading "Languages" [level=2] [ref=e657]
+            - list [ref=e662]:
+              - listitem [ref=e663]:
+                - link "Python 99.2%" [ref=e664] [cursor=pointer]:
+                  - /url: /danijar/dreamerv3/search?l=python
+                  - img [ref=e665]
+                  - generic [ref=e667]: Python
+                  - generic [ref=e668]: 99.2%
+              - listitem [ref=e669]:
+                - generic [ref=e670]:
+                  - img [ref=e671]
+                  - generic [ref=e673]: Other
+                  - generic [ref=e674]: 0.8%
+  - contentinfo [ref=e676]:
+    - heading "Footer" [level=2] [ref=e677]
+    - generic [ref=e678]:
+      - generic [ref=e679]:
+        - link "GitHub Homepage" [ref=e680] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e681]
+        - generic [ref=e683]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e684]:
+        - heading "Footer navigation" [level=3] [ref=e685]
+        - list "Footer navigation" [ref=e686]:
+          - listitem [ref=e687]:
+            - link "Terms" [ref=e688] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e689]:
+            - link "Privacy" [ref=e690] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e691]:
+            - link "Security" [ref=e692] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e693]:
+            - link "Status" [ref=e694] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e695]:
+            - link "Community" [ref=e696] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e697]:
+            - link "Docs" [ref=e698] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e699]:
+            - link "Contact" [ref=e700] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e701]:
+            - button "Manage cookies" [ref=e703] [cursor=pointer]
+          - listitem [ref=e704]:
+            - button "Do not share my personal information" [ref=e706] [cursor=pointer]

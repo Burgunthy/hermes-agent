@@ -1,0 +1,344 @@
+- generic [active] [ref=e1]:
+  - text: 1| 2| 3| 4| 5| 6| 7| 8| 9| 184| 185| 186| 187|
+  - navigation [ref=e2]:
+    - text: 188|
+    - generic [ref=e3]:
+      - text: 189|
+      - link "CatchDM" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - text: CatchDM
+      - text: 190|
+      - generic [ref=e5]:
+        - text: 191|
+        - link "Features" [ref=e6] [cursor=pointer]:
+          - /url: "#features"
+        - text: 192|
+        - link "How it works" [ref=e7] [cursor=pointer]:
+          - /url: "#how"
+        - text: 193|
+        - link "Pricing" [ref=e8] [cursor=pointer]:
+          - /url: "#pricing"
+        - text: 194|
+        - link "Get started" [ref=e9] [cursor=pointer]:
+          - /url: "#"
+        - text: 195|
+      - text: 196|
+    - text: 197|
+  - text: 198| 199| 200|
+  - generic [ref=e10]:
+    - text: 201|
+    - generic [ref=e11]:
+      - text: 202|
+      - generic [ref=e12]:
+        - text: 203|
+        - generic [ref=e13]:
+          - text: 204|
+          - generic [ref=e14]: Instagram automation
+          - text: 205|
+          - heading "Comments become conversions" [level=1] [ref=e15]:
+            - text: Comments become
+            - emphasis [ref=e16]: conversions
+          - text: 206|
+          - paragraph [ref=e17]: Someone comments on your post. CatchDM sends them a product link via DM — instantly. You never lift a finger.
+          - text: 207|
+          - generic [ref=e18]:
+            - text: 208|
+            - link "Start free →" [ref=e19] [cursor=pointer]:
+              - /url: "#"
+            - text: 209|
+            - link "See how" [ref=e20] [cursor=pointer]:
+              - /url: "#how"
+            - text: 210|
+          - text: 211|
+        - text: 212|
+        - generic [ref=e21]:
+          - text: 213|
+          - generic [ref=e22]:
+            - text: 214|
+            - generic [ref=e23]:
+              - text: 215|
+              - generic [ref=e24]:
+                - text: 216|
+                - generic [ref=e25]: S
+                - text: 217|
+                - generic [ref=e26]: sarah.beauty
+                - text: 218|
+              - text: 219|
+              - generic [ref=e27]:
+                - text: 220|
+                - generic [ref=e28]: Love this! LINK please 😍
+                - text: 221|
+                - generic [ref=e29]: ✓ Sent auto-reply
+                - text: 222|
+                - generic [ref=e30]: Here's your link 💗
+                - text: 223|
+                - generic [ref=e31]: catchdm.link/rose-214
+                - text: 224|
+                - text: 225|
+                - generic [ref=e32]: Ordered!! 🛍️
+                - text: 226|
+              - text: 227|
+            - text: 228|
+          - text: 229|
+        - text: 230|
+      - text: 231|
+    - text: 232|
+  - text: 233| 234| 235|
+  - generic [ref=e33]:
+    - text: 236|
+    - paragraph [ref=e34]: Works with
+    - text: 237|
+    - generic [ref=e35]: 238| Instagram Reels 239| Posts 240| Carousels 241| Stories 242|
+    - text: 243|
+  - text: 244| 245| 246|
+  - generic [ref=e36]:
+    - text: 247|
+    - generic [ref=e37]:
+      - text: 248|
+      - generic [ref=e38]:
+        - text: 249|
+        - generic [ref=e39]:
+          - text: 250|
+          - generic [ref=e40]: Social proof
+          - text: 251|
+          - heading "Join 10,000+ creators already automating" [level=2] [ref=e41]
+          - text: 252|
+          - paragraph [ref=e42]: From side-hustle influencers to full-time content creators, CatchDM handles DMs so you can focus on creating.
+          - text: 253|
+        - text: 254|
+        - generic [ref=e43]:
+          - text: 255|
+          - generic [ref=e44]:
+            - text: 256|
+            - generic [ref=e45]: 50K+
+            - text: 257| DMs delivered this month 258|
+          - text: 259|
+        - text: 260|
+      - text: 261|
+    - text: 262|
+  - text: 263| 264| 265|
+  - generic [ref=e46]:
+    - text: 266|
+    - generic [ref=e47]:
+      - text: 267|
+      - generic [ref=e48]:
+        - text: 268|
+        - generic [ref=e49]:
+          - text: 269|
+          - generic [ref=e50]: Features
+          - text: 270|
+          - heading "Every tool you need to never miss a lead" [level=2] [ref=e51]
+          - text: 271|
+          - paragraph [ref=e52]: Set it up in 2 minutes. CatchDM watches your comments 24/7, verifies followers, and sends DMs while you sleep.
+          - text: 272|
+          - link "Start free →" [ref=e53] [cursor=pointer]:
+            - /url: "#"
+          - text: 273|
+        - text: 274|
+        - generic [ref=e54]:
+          - text: 275|
+          - generic [ref=e55]:
+            - text: 276|
+            - generic [ref=e56]: 💬
+            - text: 277|
+            - heading "Auto DM" [level=4] [ref=e57]
+            - text: 278|
+            - paragraph [ref=e58]: Keyword triggers an instant personalized DM with your product link.
+            - text: 279|
+          - text: 280|
+          - generic [ref=e59]:
+            - text: 281|
+            - generic [ref=e60]: ✓
+            - text: 282|
+            - heading "Follow Gate" [level=4] [ref=e61]
+            - text: 283|
+            - paragraph [ref=e62]: Only followers get DMs. Grow your audience on autopilot.
+            - text: 284|
+          - text: 285|
+          - generic [ref=e63]:
+            - text: 286|
+            - generic [ref=e64]: 📊
+            - text: 287|
+            - heading "Real-time Stats" [level=4] [ref=e65]
+            - text: 288|
+            - paragraph [ref=e66]: Track delivery, clicks, and conversions live.
+            - text: 289|
+          - text: 290|
+          - generic [ref=e67]:
+            - text: 291|
+            - generic [ref=e68]: 🔑
+            - text: 292|
+            - heading "Smart Keywords" [level=4] [ref=e69]
+            - text: 293|
+            - paragraph [ref=e70]: Custom triggers per post. LINK, PRICE, anything.
+            - text: 294|
+          - text: 295|
+        - text: 296|
+      - text: 297|
+    - text: 298|
+  - text: 299| 300| 301|
+  - generic [ref=e71]:
+    - text: 302|
+    - generic [ref=e72]:
+      - text: 303|
+      - generic [ref=e73]:
+        - text: 304|
+        - generic [ref=e74]: How it works
+        - text: 305|
+        - heading "Three steps. Zero effort." [level=2] [ref=e75]
+        - text: 306|
+      - text: 307|
+      - generic [ref=e76]:
+        - text: 308|
+        - generic [ref=e77]:
+          - text: 309|
+          - generic [ref=e78]: "1"
+          - text: 310|
+          - heading "Follower comments" [level=3] [ref=e79]
+          - text: 311|
+          - paragraph [ref=e80]: Someone comments with your trigger keyword on any post or reel.
+          - text: 312|
+        - text: 313|
+        - generic [ref=e81]:
+          - text: 314|
+          - generic [ref=e82]: "2"
+          - text: 315|
+          - heading "CatchDM verifies" [level=3] [ref=e83]
+          - text: 316|
+          - paragraph [ref=e84]: We check if they follow you and match your targeting rules.
+          - text: 317|
+        - text: 318|
+        - generic [ref=e85]:
+          - text: 319|
+          - generic [ref=e86]: "3"
+          - text: 320|
+          - heading "DM delivered" [level=3] [ref=e87]
+          - text: 321|
+          - paragraph [ref=e88]: Your product link lands in their inbox instantly.
+          - text: 322|
+        - text: 323|
+      - text: 324|
+    - text: 325|
+  - text: 326| 327| 328|
+  - generic [ref=e89]:
+    - text: 329|
+    - generic [ref=e90]:
+      - text: 330|
+      - generic [ref=e91]:
+        - text: 331|
+        - generic [ref=e92]:
+          - text: 332|
+          - generic [ref=e93]: Pricing
+          - text: 333|
+          - heading "Start free. Scale when ready." [level=2] [ref=e94]
+          - text: 334|
+        - text: 335|
+        - generic [ref=e95]:
+          - text: 336| 337|
+          - generic [ref=e96]:
+            - text: 338|
+            - generic [ref=e97]: Feature
+            - text: 339|
+            - generic [ref=e98]: Starter — Free
+            - text: 340|
+            - generic [ref=e99]: Pro — $29/mo
+            - text: 341|
+          - text: 342| 343|
+          - generic [ref=e100]:
+            - text: 344|
+            - generic [ref=e101]: Accounts
+            - text: 345|
+            - generic [ref=e102]: "1"
+            - text: 346|
+            - generic [ref=e103]: "3"
+            - text: 347|
+          - text: 348|
+          - generic [ref=e104]:
+            - text: 349|
+            - generic [ref=e105]: DMs / month
+            - text: 350|
+            - generic [ref=e106]: "100"
+            - text: 351|
+            - generic [ref=e107]: 2,000
+            - text: 352|
+          - text: 353|
+          - generic [ref=e108]:
+            - text: 354|
+            - generic [ref=e109]: Keywords
+            - text: 355|
+            - generic [ref=e110]: "1"
+            - text: 356|
+            - generic [ref=e111]: Unlimited
+            - text: 357|
+          - text: 358|
+          - generic [ref=e112]:
+            - text: 359|
+            - generic [ref=e113]: Analytics
+            - text: 360|
+            - generic [ref=e114]: Basic
+            - text: 361|
+            - generic [ref=e115]: Full dashboard
+            - text: 362|
+          - text: 363|
+          - generic [ref=e116]:
+            - text: 364|
+            - generic [ref=e117]: Support
+            - text: 365|
+            - generic [ref=e118]: Community
+            - text: 366|
+            - generic [ref=e119]: Priority
+            - text: 367|
+          - text: 368|
+          - generic [ref=e120]:
+            - text: 369|
+            - text: 370|
+            - link "Get started" [ref=e122] [cursor=pointer]:
+              - /url: "#"
+            - text: 371|
+            - link "Start trial" [ref=e124] [cursor=pointer]:
+              - /url: "#"
+            - text: 372|
+          - text: 373|
+        - text: 374|
+      - text: 375|
+    - text: 376|
+  - text: 377| 378| 379|
+  - generic [ref=e125]:
+    - text: 380|
+    - generic [ref=e126]:
+      - text: 381|
+      - generic [ref=e127]:
+        - text: 382|
+        - heading "Stop missing leads." [level=2] [ref=e128]
+        - text: 383|
+        - paragraph [ref=e129]: Free for your first 100 DMs. No credit card needed.
+        - text: 384|
+        - link "Get started free →" [ref=e130] [cursor=pointer]:
+          - /url: "#"
+        - text: 385|
+      - text: 386|
+    - text: 387|
+  - text: 388| 389|
+  - contentinfo [ref=e131]:
+    - text: 390|
+    - generic [ref=e132]:
+      - text: 391|
+      - generic [ref=e133]:
+        - text: 392|
+        - generic [ref=e134]: © 2026 CatchDM
+        - text: 393|
+        - generic [ref=e135]:
+          - text: 394|
+          - link "Privacy" [ref=e136] [cursor=pointer]:
+            - /url: "#"
+          - text: 395|
+          - link "Terms" [ref=e137] [cursor=pointer]:
+            - /url: "#"
+          - text: 396|
+          - link "Support" [ref=e138] [cursor=pointer]:
+            - /url: "#"
+          - text: 397|
+        - text: 398|
+      - text: 399|
+    - text: 400|
+  - text: 401| 402| 406| 407| 408|

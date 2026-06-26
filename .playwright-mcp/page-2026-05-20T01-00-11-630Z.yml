@@ -1,0 +1,1992 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - link "통합검색 바로가기" [ref=e2] [cursor=pointer]:
+      - /url: "#search_wrap"
+      - generic [ref=e3]: 통합검색 바로가기
+    - link "본문영역 바로가기" [ref=e4] [cursor=pointer]:
+      - /url: "#container"
+      - generic [ref=e5]: 본문영역 바로가기
+    - link "페이지 하단 게시물 리스트 바로가기" [ref=e6] [cursor=pointer]:
+      - /url: "#bottom_listwrap"
+      - generic [ref=e7]: 페이지 하단 게시물 리스트 바로가기
+    - link "페이지 하단 로그인영역 바로가기" [ref=e8] [cursor=pointer]:
+      - /url: "#login"
+      - generic [ref=e9]: 페이지 하단 로그인영역 바로가기
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - generic [ref=e12]:
+        - heading "디시인사이드 갤러리" [level=1] [ref=e13]:
+          - link "디시인사이드" [ref=e14] [cursor=pointer]:
+            - /url: https://www.dcinside.com/
+            - img "디시인사이드" [ref=e15]
+          - link "갤러리" [ref=e16] [cursor=pointer]:
+            - /url: https://gall.dcinside.com/m
+            - img "갤러리" [ref=e17]
+        - search [ref=e19]:
+          - group "통합검색" [ref=e20]:
+            - generic [ref=e21]:
+              - textbox "검색어 입력" [ref=e23]:
+                - /placeholder: 갤러리 & 통합검색
+              - button [ref=e24] [cursor=pointer]
+        - generic [ref=e25]:
+          - list [ref=e26]:
+            - listitem [ref=e27]:
+              - link "갤러리" [ref=e28] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/
+            - listitem [ref=e29]:
+              - text: "|"
+              - link "미니갤" [ref=e30] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/n
+            - listitem [ref=e31]:
+              - text: "|"
+              - link "인물갤" [ref=e32] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/p
+            - listitem [ref=e33]:
+              - text: "|"
+              - link "갤로그" [ref=e34] [cursor=pointer]:
+                - /url: https://gallog.dcinside.com
+            - listitem [ref=e35]:
+              - text: "|"
+              - link "디시게임" [ref=e36] [cursor=pointer]:
+                - /url: //h5.dcinside.com/game/main
+            - listitem [ref=e37]:
+              - text: "|"
+              - link "이벤트" [ref=e38] [cursor=pointer]:
+                - /url: https://event.dcinside.com
+            - listitem [ref=e39]:
+              - text: "|"
+              - link "디시콘" [ref=e40] [cursor=pointer]:
+                - /url: https://mall.dcinside.com/?from=A08
+            - listitem [ref=e41]:
+              - link "로그인" [ref=e42] [cursor=pointer]:
+                - /url: https://sign.dcinside.com/login?s_url=https%3A%2F%2Fgall.dcinside.com%2Fmgallery%2Fboard%2Fview%2F%3Fid%3Dchartanalysis%26no%3D908514&s_key=328
+          - link "야간모드" [ref=e44] [cursor=pointer]:
+            - /url: javascript:;
+            - emphasis [ref=e45]
+            - text: 야간모드
+    - navigation [ref=e47]:
+      - list [ref=e48]:
+        - listitem [ref=e49]:
+          - link "갤러리" [ref=e50] [cursor=pointer]:
+            - /url: https://gall.dcinside.com
+        - listitem [ref=e52]:
+          - link "마이너갤" [ref=e53] [cursor=pointer]:
+            - /url: //gall.dcinside.com/m
+        - listitem [ref=e54]:
+          - link "미니갤" [ref=e55] [cursor=pointer]:
+            - /url: //gall.dcinside.com/n
+        - listitem [ref=e56]:
+          - link "인물갤" [ref=e57] [cursor=pointer]:
+            - /url: //gall.dcinside.com/p
+        - listitem [ref=e58]:
+          - link "갤로그" [ref=e59] [cursor=pointer]:
+            - /url: https://gallog.dcinside.com
+        - listitem [ref=e60]:
+          - link "BJ방송" [ref=e61] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e62]:
+          - button [ref=e63] [cursor=pointer]
+      - generic [ref=e64]:
+        - link "어제 1,044,945개 게시글 등록" [ref=e66] [cursor=pointer]:
+          - /url: https://gall.dcinside.com/board/lists/?id=dclottery
+          - text: 어제
+          - emphasis [ref=e67]: 1,044,945개
+          - text: 게시글 등록
+        - link "어제 2,784,397개 댓글 등록" [ref=e69] [cursor=pointer]:
+          - /url: https://gall.dcinside.com/board/lists/?id=dclottery
+          - text: 어제
+          - emphasis [ref=e70]: 2,784,397개
+          - text: 댓글 등록
+        - generic [ref=e71]:
+          - text: 총 갤러리 수
+          - emphasis [ref=e72]: 94,832개
+        - link "디시 로터리 응모" [ref=e74] [cursor=pointer]:
+          - /url: https://gall.dcinside.com/board/lists/?id=dclottery
+    - generic [ref=e76]:
+      - heading "최근 방문" [level=3] [ref=e77]
+      - button [ref=e78] [cursor=pointer]:
+        - emphasis [ref=e79]
+      - button [ref=e80] [cursor=pointer]:
+        - emphasis [ref=e81]
+      - list [ref=e83]:
+        - listitem [ref=e84]:
+          - link "차트" [ref=e85] [cursor=pointer]:
+            - /url: https://gall.dcinside.com/mgallery/board/lists?id=chartanalysis
+          - emphasis [ref=e86]: ⓜ
+          - button [ref=e87] [cursor=pointer]:
+            - emphasis [ref=e88]
+      - button [ref=e89] [cursor=pointer]:
+        - emphasis [ref=e90]
+      - button "전체" [ref=e91] [cursor=pointer]
+    - generic [ref=e92]:
+      - main [ref=e93]:
+        - generic [ref=e94]:
+          - generic [ref=e96]:
+            - heading "차트 갤러리" [level=2] [ref=e98]:
+              - link "차트 갤러리" [ref=e99] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/mgallery/board/lists/?id=chartanalysis
+                - text: 차트 갤러리
+            - generic [ref=e101]:
+              - generic [ref=e102]:
+                - button "설정" [ref=e103] [cursor=pointer]
+                - emphasis [ref=e105]
+              - button "|연관 갤러리(1/29)" [ref=e106] [cursor=pointer]:
+                - text: "|연관 갤러리(1/29)"
+                - emphasis [ref=e107]
+              - button "|갤주소 복사" [ref=e108] [cursor=pointer]
+              - button "|이용안내" [ref=e109] [cursor=pointer]
+              - button "|" [ref=e110] [cursor=pointer]:
+                - text: "|"
+                - emphasis [ref=e111]
+          - article [ref=e112]
+          - article [ref=e114]:
+            - generic [ref=e115]:
+              - generic [ref=e117]:
+                - heading "[💬] 워뇨띠 매매법 [ 최종 ]" [level=3] [ref=e118]: "[💬] 워뇨띠 매매법 [ 최종 ]"
+                - generic:
+                  - generic [ref=e120] [cursor=pointer]:
+                    - generic "Sbdbdbbdhd" [ref=e121]:
+                      - emphasis [ref=e122]: Sbdbdbbdhd
+                    - img "갤로그로 이동합니다." [ref=e124]
+                    - text: 2021.09.26 18:42:58
+                  - generic [ref=e125] [cursor=pointer]:
+                    - button "스크랩" [ref=e127]
+                    - text: 조회 107488 추천 22
+                    - link "댓글 13" [ref=e129]:
+                      - /url: "#focus_cmt"
+              - generic [ref=e130]:
+                - generic [ref=e133]:
+                  - paragraph [ref=e134]:
+                    - img "?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTAzMTVfNTgg%2FMDAxNjE1NzkwMDIyMjQ2.0tsmxzcA1_hA1Ilq0oPRBgtewVLt15oyFMGTkW_DmdYg.BFaPoVfzVhdc-KB9hQH4vuh5h9QjxiWmuJaoJc7CPYIg.PNG.able636%2Fimage.png&type=sc960_832" [ref=e135]
+                  - paragraph [ref=e136]
+                  - paragraph [ref=e137]: "[A]"
+                  - paragraph [ref=e138]
+                  - paragraph [ref=e139]: 1. 거래량은 장기추세인지 단기추세인지 알아볼 수 있는 지표다.
+                  - paragraph [ref=e140]: 예를 들어, 장대양봉이 나왔고 거래량이 크다면 계속 올라갈 수 있다는 뜻이고.
+                  - paragraph [ref=e141]: 고점이라고 생각되는 지점에서 얇고 거래량이 큰 캔들 혹은
+                  - paragraph [ref=e142]: 장대음봉+거래량 큼 이면 추세전환일 수 있다. 는 지표로 씀.
+                  - paragraph [ref=e143]
+                  - paragraph [ref=e144]: 2. 워뇨띠의 가장 큰 비법은 "역사는 되풀이된다"는 철학이다.
+                  - paragraph [ref=e145]: 1년 전에 나왔던 모양이 6개월 전에 나왔었고
+                  - paragraph [ref=e146]: 3개월 전에도 나왔었고 2개월 전에도 나왔었다.
+                  - paragraph [ref=e147]: 근데 오늘 대조해보니 그 모양이 또 다시 나오고있다.
+                  - paragraph [ref=e148]: 남은 모양도 1년 전 그 모양과 똑같이 나올 확률은?
+                  - paragraph [ref=e149]: 높다. 매우 높다.
+                  - paragraph [ref=e150]: 이것은 제시 리버모어도 얘기했던 건데
+                  - paragraph [ref=e151]: 인간의 심리는 과거 현재 미래 똑같기 때문에 자본시장의 흐름도 되풀이된다. 라는 논리다.
+                  - paragraph [ref=e152]
+                  - paragraph [ref=e153]: 3. 2번에 근거하여 그가 수익을 확실히내고 손절을 확실히 할 수있는 이유는 과거 차트 모양을 참고하기 때문이다.
+                  - paragraph [ref=e154]: 현재 흐름과 완전히 똑같은 과거 캔들패턴 모양을 찾았다.
+                  - paragraph [ref=e155]: 근데 갑자기 완전히 다른 모양이 나왔다면? 손절.
+                  - paragraph [ref=e156]: 똑같은 모양이 나오고있다면? 홀딩.
+                  - paragraph [ref=e157]: 그리고 그 과거 모양과 비슷한 모양이 끝날 때쯤에 익절한다.
+                  - paragraph [ref=e158]: 이것이 그의 매매방식이다.
+                  - paragraph [ref=e159]
+                  - paragraph [ref=e160]: 4. 자금관리가 매우 중요하다.
+                  - paragraph [ref=e161]: 5분의 1을 격리 10~15배로 쳤다고 한다.
+                  - paragraph [ref=e162]: 매매에 적용한 결과 손실이 줄고 수익이 비교도 안되게 늘어났다.
+                  - paragraph [ref=e163]: 절대 레버리지는 전체 자산의 4배를 넘어가서는 안된다.
+                  - paragraph [ref=e164]: 이것이 가장 기본이다.
+                  - paragraph [ref=e165]
+                  - paragraph [ref=e166]: 5. 본인 의견 매매 결과
+                  - paragraph [ref=e167]: 닮은 꼴은 현재와 가까운 과거인 차트일수록 더욱 더 잘맞았다.
+                  - paragraph [ref=e168]: 최근 비트코인 프랙탈은 올릴 때 주로 컵앤핸들 차트를 쓸 때가 많았으며 위아래 5번 반복하다가 마지막 6번째에 방향 나오는 모양이 주를 이루고 있다.
+                  - paragraph [ref=e169]: 하지만 가까운 과거vs모양의 닮은 정도의 퀄리티를 따져본다면
+                  - paragraph [ref=e170]: 아무리 먼 과거여도 모양의 닮은 정도의 퀄리티가 좋은 것을 더욱 더 주의깊게 참고해야한다.
+                  - paragraph [ref=e171]
+                  - paragraph [ref=e172]: 익절은 과거 내가 알고 있는 그 모양이 끝나면.
+                  - paragraph [ref=e173]: 손절은 과거 내가 알고 있는 그 모양과 완전히 달라지면.
+                  - generic [ref=e175]: "# 워뇨띠 피드백"
+                  - generic [ref=e177]:
+                    - generic [ref=e178]: 1. "거래량은 장기추세인지 단기추세인지 알아볼 수 있는 지표다." 라는 내가 한 말이 맞지만,
+                    - generic [ref=e179]: 뒤에 써져있는 부가 설명은 내가 한 말이 아니고, 간결하게 정리되는 부분이 아님.
+                    - generic [ref=e180]: 거래량 패턴은 다양해서 긴 시간을 들여 확인해 봐야 함. 이와 별개로, 예전처럼 한 거래소가 압도적인 거래량을 가지고 있지 않아
+                    - generic [ref=e181]: 차트 하나의 거래량만으로 판단하기에 너무 어려워져서 본인은 요즘 자주 안 씀
+                    - generic [ref=e183]: 2. 항상 맞는 것은 아니지만, 과거 차트를 대조해보며 참고를 많이 하긴 함.
+                    - generic [ref=e185]: 3. 어느 정도 맞는 듯? 근데 갑자기 다른 모양이 나오는 것이 일시적인 교란일 수도 있어서 주의 깊게 봐야 함
+                    - generic [ref=e187]: 4. ㄹㅇ
+                    - generic [ref=e189]: 5. 컵 앤 핸들은 나도 잘 모르겠지만 내용은 대부분 맞음.
+                  - generic [ref=e191]:
+                    - generic [ref=e192]: 6. 거래량에 관해 추가 설명을 하면, 2018년경에 내가 보던 차트는 현물 비트파이넥스, 선물 비트맥스,
+                    - generic [ref=e193]: 여기서 바이낸스의 영향력이 커질 즈음에 현물 바이낸스, 선물 비트맥스 차트를 봤고,
+                    - generic [ref=e194]: 각각 현물과 선물에서 압도적인 거래량이었기에 신뢰성도 높았습니다.
+                    - generic [ref=e195]: 그러나 요즘은 현물시장이나 선물시장이나 압도적인 거래량을 가진 거래소라고 할만한 곳이 없다고 생각합니다.
+                    - generic [ref=e196]: 바이낸스가 그나마 많다고는 하지만, 예전 현물에서의 비트파이넥스 - 바이낸스나, 선물에서의 비트맥스만큼의 지분에는 크게 떨어지기에
+                    - generic [ref=e197]: 한 가지 차트만으로는 판단이 어려워 거래량 분석은 현재 자주 쓰지 않는 편입니다.
+                  - generic [ref=e201]: "[B]"
+                  - generic [ref=e203]:
+                    - generic [ref=e204]: 1. 안전이 최고다.
+                    - generic [ref=e205]: 워뇨띠급 자산쯤 되면 스윙을 치지 왜 계속 데이트레이딩을 하는지 좀 의아했다.
+                    - generic [ref=e206]: 좀 해보니까 이해한 게, 코인은 회전률이 빠르고
+                    - generic [ref=e207]: 어차피 레버리지 쓰니까 손익보단 높은 확률이 더 중요해서
+                    - generic [ref=e208]: 먹을 확률이 더 큰 것에 중점을 두는 듯.
+                    - generic [ref=e210]: 2. 그렇기에 시간마다 사고 판다.
+                    - generic [ref=e211]: 예를 들어, 4시간 봉상 홀딩해볼만한 자리지만
+                    - generic [ref=e212]: 본절을 치게 될 수도 있다고 치자.
+                    - generic [ref=e213]: 여기서 홀딩파 vs 익절파가 나뉜다.
+                    - generic [ref=e214]: 그리고 프랙탈에도 더 이상 없고 현재 내 경험과 생각에 근거한 홀딩이다.
+                    - generic [ref=e215]: 워뇨띠는 그냥 익절한다. 아는 모양 끝났고 홀딩해봤자 멘탈만 흔들릴 게 뻔하기 때문이다.
+                    - generic [ref=e217]: 요약하자면, 짧게 익절하더라도 확실하기만하다면 OK라는 것이다.
+                    - generic [ref=e218]: 모험은 진입 한 후 10분 정도만 한다.
+                    - generic [ref=e219]: 코인특성상도 그렇고 길게 홀딩하고 싶어하진 않는 듯.
+                  - generic [ref=e221]: "# 워뇨띠 피드백"
+                  - generic [ref=e223]:
+                    - generic [ref=e224]: 1. 맞음. 그러나 요즘은 시드가 커져서 잘 적용하지 못하는 중
+                    - generic [ref=e226]: 2. 맞음. 그러나 역시 시드가 커져서 반강제로 길게 운용해야 하기에,
+                    - generic [ref=e227]: 요즘에는 그런 경우 절반만 익절하는 편. 1%씩 손해 보고 들어가는 것 또한 시드가 너무 커져서 하는 행위고,
+                    - generic [ref=e228]: 물량을 쉽게쉽게 잡을 수 있는 상황에서는 되도록이면 일찍 들어간다는 마인드보다는 최대한 좋은 평단을 잡는 마인드로 들어가는 편
+                    - generic [ref=e230]: "#. 주변 여론이나 커뮤니티 여론은 객관적이지 않고, 확증편향에 빠지기 쉽다고 생각해서 되도록이면"
+                    - generic [ref=e231]: 참고하지 않으려 하는 편이고, 차트로 환희와 공포를 판단합니다.
+                  - generic [ref=e235]: "[c] 정리"
+                  - generic [ref=e237]:
+                    - generic [ref=e238]: 1. 진입은 그동안에 익숙한 패턴을 바탕으로 합니다.
+                    - generic [ref=e239]: = 프랙탈인데.
+                    - generic [ref=e240]: 처음엔 프랙탈이 진리인 줄 알았지만 매매해보다보니 느낀 게,
+                    - generic [ref=e241]: 여기가 이 프랙탈 나올 자리가 맞나? 느끼는 게 더 중요하다고 느꼈다.
+                    - generic [ref=e244]: "2. 그래서 뇨띠가 과거차트 3 : 현재차트 7 의 비율로 중요하다고 생각합니다.라고 했었던 것 같음."
+                    - generic [ref=e245]: 현재의 차트를 통해서 느껴지는 저점, 고점의 느낌이 더 중요하다는 것.
+                    - generic [ref=e247]: 3. 단타 많이 쳐보면서 감을 익혔습니다.
+                    - generic [ref=e248]: 차트에서 느껴지는 저점, 고점을 느끼는 느낌은 단타를 치면서 시장흐름을 읽는 방법을 익힘으로써 얻어지는 거임.
+                    - generic [ref=e249]: 개인적으로 이와 관련된 최고의 방법이 뭐라고 생각하냐면, 아무리 주의산만한 사람이라도 교차 고배친 상태로 물려있으면 차트에 대한 집중력이 하버드 의대 수석급으로 높아짐. 따라서 고배 교차로 물려있어보면 됨.은 전재산 날리는 짓이니까 하지마시고,
+                    - generic [ref=e250]: 그러니까 내 말은 적어도 전재산이 레버리지로 물려있을 때의 집중력으로 차트를 오랫동안 보고있으면 차트 다음 방향을 어느정도 예측할 수 있을 뿐만 아니라, 어디가 타점인지 느낄 수 있게 됨. 하지만 이것은 오직 감각이므로 1번의 프랙탈이 중요한 거라고 생각함.
+                    - generic [ref=e252]: 프랙탈에 대한 부가적인 설명으로,
+                    - generic [ref=e253]: 쌍바닥, 쌍고 이런 것도 프랙탈임.
+                    - generic [ref=e254]: 근데 쌍바닥이 나올 자리인지 아닌지를 느낄 수 있는 감각이 중요한 거 ㅇㅇ.. 그리고 그 이후의 대처도 그냥 감각임.
+                    - generic [ref=e255]: 쌍바닥의 바닥구간에서 롱을 쳤고 어느정도 오르는데 오르는 힘이 약하다 이러면 바로 약익절 나가야하는데 이걸 알 수 있는 건
+                    - generic [ref=e256]: 지표도 아니고 그냥 단순히 과거의 경험에 근거한 감각임 ㅇㅇ..(캔들+거래량도 참고하면서 주의깊게 봐야함.) 나중에 보면 뭐 쌍바닥 실패형 이런 걸로 정의 가능하겠지만 그건 차트가 다 그려지고 난 뒤라서 의미없음.
+                    - generic [ref=e258]: 4. 거래량은 현재 추세가 지속될 수 있는 힘을 의미한다. 거래량은 추세의 힘의 기준이다.
+                    - generic [ref=e259]: 나중에 내 글에 댓글을 달았었음. 이거 옛날보단 신뢰가 떨어졌다고.
+                    - generic [ref=e260]: 하지만 어쨌든 지금도 엄청 중요한 건 맞음. 매매를 하는데 거래량을 안보기는 힘듬.
+                    - generic [ref=e262]: "거래량이 크다: 캔들에 대한 신뢰성이 높다"
+                    - generic [ref=e263]: "거래량이 작다: 캔들에 대한 신뢰성이 낮다"
+                    - generic [ref=e265]: 이거는 어느 시장을 가도 적용될 수밖에 없는 팩트이기 때문에.
+                    - generic [ref=e267]: 5. 풀 시드 기준 3~4배로 단타쳤었다.
+                    - generic [ref=e268]: 정확히 한 말은 시드 20%의 10배로 단타쳤다고 하는데, 이거 고정이라고 생각하면 안됨.
+                    - generic [ref=e269]: 아마 유동적인 부분일 것이고, 자신을 따라하는 사람들을 위해서 일부러 낮게 불렀을 가능성도 있음.
+                    - generic [ref=e270]: 어쨌든 풀시드 3~4배가 되게 하고 하루에 30번정도 단타를 쳤었다는데,
+                    - generic [ref=e271]: 이건 내가 말한 차트심리 파악적인 부분이 뛰어나고, 멘탈이 강해서 매매 중간에 집중력이 흐트러지지않을 수 있다면 가능한 영역이라고 생각함.
+                    - generic [ref=e272]: 내 기준 풀 시드 기준 3~4배 레버리지가 워뇨띠가 말한 것 중에 가장 중요한 것이라고 생각함.
+                    - generic [ref=e273]: 지키자마자 가장 효과가 크고, 가장 내 계좌를 안전하게 만들어 준 항목이었음.
+                    - generic [ref=e275]: 6. 출금은 수익날 때 마다 30%씩 한다.
+                    - generic [ref=e276]: 출금은 진리. 출금해본 사람은 알텐데 출금했을 때의 그 쾌감. 캬~
+                    - generic [ref=e277]: 출금 꼭 하자.
+                  - generic [ref=e279]:
+                    - text: 출처
+                    - link "https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=809348&t=cv&page=1" [ref=e280] [cursor=pointer]:
+                      - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=809348&t=cv&page=1
+                  - generic [ref=e288]: "[워뇨띠 댓글 모음] 스압주의"
+                  - generic [ref=e290]:
+                    - generic [ref=e291]: 거래량만 보거나 캔들만 보기보다는 꼭 병행해서 보는 것, 최대한 많이 보고 패턴을 익혀 두는 것을 추천합니다.
+                    - generic [ref=e293]: 어느 분야나 그렇듯이, 이 분야도 참여자들의 평균을 훨씬 뛰어넘는 시간을 들여야 한다고 생각함.
+                    - generic [ref=e294]: 공부 방법은 시장에 최대한 많이 참여해 보고, 살아남으면서 고인물화 되는 것이 제일 보편적으로 통할 듯
+                    - generic [ref=e296]: 컨트롤이 안될듯한 지점에서는 바로 손절하고 빠져나옵니다.
+                    - generic [ref=e297]: 잡알트 9시 펌핑은 관심 안 가지려고 하는 편입니다.
+                    - generic [ref=e299]: 캔들과 거래량을 1분봉으로만 본다는 말은 왜 퍼진건지 모르겠지만,
+                    - generic [ref=e300]: 나는 3분봉, 30분봉, 3시간봉, 3일봉을 제외한 모든 봉을 참고한다고 줄곧 말해왔음. 평소에는 매매하기 편하게 1분봉을 켜둘 뿐
+                    - generic [ref=e302]: 2018년 초중반에는 따로 손절 기준이라기 보다는, 전체 시드 1/5 정도를 10배 격리로 했습니다.
+                    - generic [ref=e303]: 따라서 청산이 많이 발생했으며, 청산이 곧 손절 기준이었습니다.
+                    - generic [ref=e304]: 익절 기준은 오래돼서 어떻게 했는지 가물가물합니다.
+                    - generic [ref=e306]: rsi 기반으로 매매했다가 크게 데인 사람을 너무 많이 봐서 추천하긴 힘들지만,
+                    - generic [ref=e307]: 수개월에 걸쳐 매매를 많이 해보고, 적절한 승률과 손익비가 나온다면 그 어떤 방법이라도 좋다고 생각합니다.
+                    - generic [ref=e309]: 둘 다 비트코인 특유의 패턴이 있다고 생각합니다. 모든 종목에 통하는 캔들 패턴은 아직 찾지 못했습니다.
+                    - generic [ref=e311]: 굳이 예상해 보자면 반년 뒤 가격은 지금보다 낮을 것 같습니다
+                    - generic [ref=e313]: 음... 익절은, 대부분 분석 이후에 하는 것 같습니다.
+                    - generic [ref=e314]: 손절은, 분석도 물론 하지만 심리적으로 위축되는 느낌이 들 때 하는 경우가 더 많습니다
+                    - generic [ref=e316]: 리스크 관리 + FOMO 참기 같습니다. 아무리 리스크 관리를 평소에 잘해도 FOMO에 휩쓸리면 바로 깨지게 되더군요
+                    - generic [ref=e318]: 수익 나는 족족 전체 수익의 20%정도 출금함
+                    - generic [ref=e320]: 교과서적이라기 보다는 익숙한 패턴 (ex. 이런 모양에선 내려가던데..) 기반으로 했고,
+                    - generic [ref=e321]: 거래량은 현재 움직임이 단기적인지 장기적인지 판단하는 데에 도움을 줍니다
+                    - generic [ref=e323]: 당장 떠오르는 걸로는, 작년 3월 폭락때 30시간 연속으로 해봤습니다.
+                    - generic [ref=e325]: 2018년 초중반에는 따로 손절 기준이라기 보다는, 전체 시드 1/5 정도를 10배 격리로 했습니다.
+                    - generic [ref=e326]: 따라서 청산이 많이 발생했으며, 청산이 곧 손절 기준이었습니다.
+                    - generic [ref=e328]: 600만원에서 3000만원 까지는 비트 알트 안 가리고 현물 단타를 주로 했으며,
+                    - generic [ref=e329]: 그 이후에는 선물로 옮겨 전체 시드 1/5 정도를 10배 격리로 했습니다. 종목은 90% 이상 비트만 했습니다.
+                    - generic [ref=e331]: 네. 거래량이 신뢰할 만한 수준에 이르기 전에는 매매 안 합니다
+                    - generic [ref=e333]: 매매에 있어서 진입가 뿐만이 아니라 보유기간, 익절타점, 분할횟수, 손실 시 대응 등 중요한 게 너무 많은데
+                    - generic [ref=e335]: 진입가만 보고 무작정 따라타는 건 진짜 하지 말았으면 합니다
+                    - generic [ref=e337]: 결국 예상한 방향대로 갈 것이라는 근거가 있다면 버틸 만합니다.
+                    - generic [ref=e338]: 결국 틀려서 손실이 크게 났을 때는 매일 하던 자산 계산을 미루는 등, 큰 손실을 봤다는 현실을 직시하기까지 시간적 여유를 둡니다.
+                    - generic [ref=e339]: 그동안 꾸준히 벌어왔으니 앞으로도 시간만 있으면 복구할 수 있을 거라고 생각하면서 진정하는 시간도 갖습니다.
+                    - generic [ref=e341]: 비트를 제외한 다른 코인들은 전체 자산의 50% 이상 탑승하는 것을 꺼려 하는 식으로 하고 있습니다.
+                    - generic [ref=e342]: 알트는 그 변동성 자체가 레버리지이기 때문입니다. 변동성에 따른 비중 조정이 제일 중요하다 할 수 있겠습니다.
+                    - generic [ref=e344]: 가장 하기 쉬운 것으로는 전체 자산의 1/5 만으로 격리 - 중배율 진입을 추천합니다. 또는, 알트에 손을 대지 않고 비트 현물만 하는 것
+                    - generic [ref=e346]: 체감상 선물은 10분, 현물은 1시간 정도 걸리는 것 같습니다.
+                    - generic [ref=e347]: 두 번째 질문의 경우에는 상황이 급박하지 않다면 포지션 규모를 조정하고, 급박하다면 모두 정리하는 식으로 하고 있습니다.
+                    - generic [ref=e349]: 호가창 매매해 본 적 있는데, 정확도가 들쑥날쑥해서 믿을 수 없는 듯
+                    - generic [ref=e351]: 제 경험상으로는 시간봉 패턴을 분봉에 대입한다던가, 시간봉 패턴을 일봉에 대입했을 때 좋은 결과를 얻지 못했습니다.
+                    - generic [ref=e352]: 비트 차트는 과거 차트 내에서만 보는 편입니다.
+                    - generic [ref=e354]: 결국 예상한 방향대로 갈 것이라는 근거가 있다면 그 자체로 버팀목이 되고, 아니라면 빠르게 손절하는 편입니다.
+                    - generic [ref=e356]: 2주 이상 장투하는 경우는 거의 없습니다
+                    - generic [ref=e358]: 캔들과 거래량 위주로 보고, 이평선은 기본 설정 그대로 두는 편입니다.
+                    - generic [ref=e360]: 오히려 보조지표에 너무 빠지면 매매에 방해가 될 수 있습니다.
+                    - generic [ref=e361]: 처음에는 차트를 오래 보고, 소액으로라도 시장 참여를 최대한 많이 하는 식으로 경험을 쌓는 것을 추천합니다
+                    - generic [ref=e363]: 가끔 시나리오 짜긴 하는데, 일봉 단위에서의 성공 확률은 그렇게 높지 않은 듯. 그날 움직임만 보는 편
+                    - generic [ref=e365]: 캔들과 거래량을 봅니다. 진입 근거는 그동안의 패턴을 바탕으로 합니다.
+                    - generic [ref=e367]: 시드가 적을 때는 스캘핑 위주로 했습니다. 매매를 익히는 방법은 차트를 최대한 많이 보고
+                    - generic [ref=e368]: 적은 시드로라도 시장에 참여를 최대한 많이 해보는 것을 추천합니다
+                    - generic [ref=e370]: 그림 깨졌다 싶으면 1%물렸어도 바로바로 손절하고, 그 이외에는 멘탈 감당안될거같을때가지 들고있는 편인데
+                    - generic [ref=e371]: 보통 5~6%물리면 멘탈감당이 안되기 시작하니 그정도가 손절선 같슴
+                    - generic [ref=e373]: 5월19일 오후5시봉까지 딱 잘라서 보면 보기 힘들었던 거래량 터지는 양봉이
+                    - generic [ref=e374]: 박스권 상단부근을 터치하면서도 꽉 채워서 마감한거 보고 상방이탈같아서 진입했슴다
+                    - generic [ref=e376]: 제가 말했던걸 정확하게 말하시는걸 보아 여기든 타 사이트든 제 글을 자주 읽으시는 분이군요
+                    - generic [ref=e377]: 사실 트레이딩을 하면서 그렇게 많은 기법을 쓰는게 아니라 기존에 말한 것 외에 숨겨놓은 비장의 무기 같은건 더 없습니다.
+                    - generic [ref=e378]: 항상 말해왔던 "일년넘게 하루 차트 10시간씩 보며 기억하고 예측하고 분석하기" 가 제일 중요하다고 생각합니다.
+                    - generic [ref=e380]: 시드 30%이상 청산 20번, 50%이상 청산 1번
+                    - generic [ref=e382]: 상승장, 하락장 구분법 - "탑승"하고 싶다는 생각이 들 때 = 상승장, - "줍고 싶다" 라는 생각이 들 때 = 하락장
+                    - generic [ref=e384]: 2년 전에는 10시간 정도였는데, 건강에 너무 안 좋은 것 같아서 최근 3~4시간 정도로 줄임. 물론 차트는 항상 보는 중
+                  - generic [ref=e386]: 출처 - 현재 열람 불가
+                  - generic [ref=e389]:
+                    - generic [ref=e390]:
+                      - paragraph [ref=e391]:
+                        - generic [ref=e393]:
+                          - img "0490f719b78261f720b8dfb336ef203e59ab4e49d344ea761d" [ref=e394]
+                          - emphasis [ref=e396]
+                          - button [ref=e397] [cursor=pointer]
+                          - paragraph [ref=e400] [cursor=pointer]:
+                            - text: 마우스 커서를 올리면
+                            - text: 이미지 순서를 ON/OFF 할 수 있습니다.
+                      - paragraph [ref=e401]
+                    - paragraph [ref=e402]: 지금까지 워뇨띠 형아 어록 모음이었습니다.
+                    - paragraph [ref=e403]
+                    - paragraph [ref=e404]: 초보자들에게는 가뭄에 단비같은 게시글이겠지요.
+                    - paragraph [ref=e405]
+                    - paragraph [ref=e406]: 개인적으로 시드 약 2500억 가량 소유한 분의 매매법을
+                    - paragraph [ref=e407]
+                    - paragraph [ref=e408]: 이렇게 만나볼수 있는건 큰 행운이라고 생각합니다.
+                    - paragraph [ref=e409]
+                    - paragraph [ref=e410]: 만약 워뇨띠 형아가 본다면 피드백 부탁드립니다 :)
+                  - generic [ref=e421]: "[워뇨띠 어록] 스압주의 읽을 분만 읽으세요"
+                  - generic [ref=e422]:
+                    - paragraph [ref=e423]:
+                      - generic [ref=e425]:
+                        - img "7ceb8374b08b6af336ed98a518d6040313807c707a8d7a70a6aa" [ref=e426]
+                        - emphasis [ref=e428]
+                    - paragraph [ref=e429]
+                    - paragraph [ref=e430]:
+                      - generic [ref=e432]:
+                        - img "7ceb8374b3866ffe3cec96fd47986a37970315cbfb5ec59e1f5d886205eb" [ref=e433]
+                        - emphasis [ref=e435]
+                    - paragraph [ref=e436]
+                    - paragraph [ref=e437]:
+                      - generic [ref=e439]:
+                        - img "7ceb8374b3866ffe3cec98bf06d60403291c7e2ff256d3389ebb" [ref=e440]
+                        - emphasis [ref=e442]
+                    - paragraph [ref=e443]
+                  - paragraph [ref=e444]
+                - generic [ref=e445]:
+                  - img "자동등록방지" [ref=e447]
+                  - textbox "코드 입력" [ref=e448]
+                - generic [ref=e450]:
+                  - generic [ref=e451]:
+                    - generic [ref=e452]:
+                      - generic [ref=e453]:
+                        - paragraph [ref=e454]: "22"
+                        - paragraph [ref=e455]:
+                          - img "고정닉" [ref=e457]
+                          - text: "9"
+                      - button [ref=e458] [cursor=pointer]:
+                        - emphasis [ref=e459]
+                    - generic [ref=e460]:
+                      - button [ref=e461] [cursor=pointer]:
+                        - emphasis [ref=e462]
+                      - paragraph [ref=e464]: "1"
+                  - generic [ref=e465]:
+                    - button "실베추" [ref=e466] [cursor=pointer]:
+                      - emphasis [ref=e467]
+                      - text: 실베추
+                    - button "공유" [ref=e468] [cursor=pointer]:
+                      - emphasis [ref=e469]
+                      - text: 공유
+                    - button "스크랩" [ref=e470] [cursor=pointer]:
+                      - emphasis [ref=e471]
+                      - text: 스크랩
+                    - button "신고" [ref=e472] [cursor=pointer]:
+                      - emphasis [ref=e473]
+                      - text: 신고
+                - iframe [ref=e476]:
+                  
+                - generic [ref=e477]:
+                  - strong [ref=e478]:
+                    - text: 원본 첨부파일
+                    - emphasis [ref=e479]: "4"
+                  - link "본문 이미지 다운로드" [ref=e480] [cursor=pointer]:
+                    - /url: javascript:;
+                  - list [ref=e481]:
+                    - listitem [ref=e482]:
+                      - link "1632592582.png" [ref=e483] [cursor=pointer]:
+                        - /url: https://image.dcinside.com/download.php?no=24b0d769e1d32ca73feb87fa11d0283175f95a5bb5a9434fdc24c2adb1484bda6cedb56e0e83d61ae6db2d1fa9f4ea50855dbac7976beb4d3fea612b804c5790e3fe06f5&f_no=1632592582.png
+                    - listitem [ref=e484]:
+                      - link "1632647823 (1).jpg" [ref=e485] [cursor=pointer]:
+                        - /url: https://image.dcinside.com/download.php?no=24b0d769e1d32ca73feb87fa11d0283175f95a5bb5a9434fdc24c2adb1484bda6cedb56e0e83d61ae6db2d1fa9f4ea50855dbac7976beb4d68b93229d01003c40e4933b1&f_no=1632647823+%281%29.jpg
+                    - listitem [ref=e486]:
+                      - link "1632647823.jpg" [ref=e487] [cursor=pointer]:
+                        - /url: https://image.dcinside.com/download.php?no=24b0d769e1d32ca73feb87fa11d0283175f95a5bb5a9434fdc24c2adb1484bda6cedb56e0e83d61ae6db2d1fa9f4ea50855dbac7976beb4d6eec6579da455ec38c5d9e17&f_no=1632647823.jpg
+                    - listitem [ref=e488]:
+                      - link "IMG_2091.gif" [ref=e489] [cursor=pointer]:
+                        - /url: https://image.dcinside.com/download.php?no=24b0d769e1d32ca73feb87fa11d0283175f95a5bb5a9434fdc24c2adb1484bda6cedb56e0e83d61ae6db2d1fa9f4ea50855dbac7976beb4d3aed6728d64203c59b9feabb&f_no=IMG_2091.gif
+            - generic [ref=e490]:
+              - generic [ref=e491]:
+                - generic [ref=e492]:
+                  - generic [ref=e493]:
+                    - text: 전체 댓글
+                    - emphasis [ref=e494]: "13"
+                    - text: 개
+                    - generic [ref=e495]:
+                      - generic [ref=e496]:
+                        - radio "등록순" [checked] [ref=e497] [cursor=pointer]
+                        - emphasis [ref=e498]
+                        - text: 등록순
+                      - generic [ref=e499]:
+                        - radio "최신순" [ref=e500] [cursor=pointer]
+                        - emphasis [ref=e501]
+                        - text: 최신순
+                      - generic [ref=e502]:
+                        - radio "답글순" [ref=e503] [cursor=pointer]
+                        - emphasis [ref=e504]
+                        - text: 답글순
+                  - generic [ref=e505]:
+                    - link "댓글 등록" [ref=e506] [cursor=pointer]:
+                      - /url: javascript:focusCmt(908514);
+                    - link "본문 보기" [ref=e507] [cursor=pointer]:
+                      - /url: "#container"
+                    - button "댓글닫기" [ref=e508] [cursor=pointer]:
+                      - text: 댓글닫기
+                      - emphasis [ref=e509]
+                    - button "새로고침" [ref=e510] [cursor=pointer]
+                - generic [ref=e511]:
+                  - list [ref=e512]:
+                    - listitem [ref=e513]:
+                      - generic [ref=e514]:
+                        - generic:
+                          - generic [ref=e516] [cursor=pointer]:
+                            - generic "U2U2" [ref=e517]:
+                              - emphasis [ref=e518]: U2U2
+                            - img "갤로그로 이동합니다." [ref=e520]
+                          - img "훌륭해" [ref=e524] [cursor=pointer]
+                        - generic [ref=e526]: 2021.09.26 18:47:18
+                    - listitem [ref=e527]:
+                      - list [ref=e530]:
+                        - listitem [ref=e531]:
+                          - generic [ref=e532]:
+                            - generic:
+                              - generic [ref=e535] [cursor=pointer]:
+                                - emphasis [ref=e536]: 차붕이
+                                - emphasis [ref=e537]: "1"
+                                - generic [ref=e538]: (121.159)
+                              - paragraph [ref=e540] [cursor=pointer]:
+                                - text: "🌑비@트@겟 수@수료 할인(50%) :"
+                                - link "https://ur0.jp/5Rl" [ref=e541]:
+                                  - /url: https://ur0.jp/5Rl
+                                - text: "🌑바이@비트 수수@료 할인(20%) :"
+                                - link "https://ur0.jp/znCPz" [ref=e542]:
+                                  - /url: https://ur0.jp/znCPz
+                                - text: "🌑OKX 수@수료 할인(30%) :"
+                                - link "https://ur0.jp/XOwZS" [ref=e543]:
+                                  - /url: https://ur0.jp/XOwZS
+                                - text: "🌑바이낸스 수수@료 할인(20%) :"
+                                - link "https://ur.link/5j8" [ref=e544]:
+                                  - /url: https://ur.link/5j8
+                            - generic [ref=e545]:
+                              - generic [ref=e546]: 2024.08.15 22:50:57
+                              - button "삭제" [ref=e548] [cursor=pointer]
+                    - listitem [ref=e549]:
+                      - generic [ref=e550]:
+                        - generic:
+                          - generic [ref=e553] [cursor=pointer]:
+                            - emphasis [ref=e554]: ㅇㅇ
+                            - generic [ref=e555]: (112.172)
+                          - paragraph [ref=e557] [cursor=pointer]: 글 지우셈 뭐함 아
+                        - generic [ref=e558]:
+                          - generic [ref=e559]: 2021.09.26 18:50:13
+                          - button "삭제" [ref=e561] [cursor=pointer]
+                    - listitem [ref=e562]:
+                      - generic [ref=e563]:
+                        - generic:
+                          - generic [ref=e565] [cursor=pointer]:
+                            - generic "쾌연" [ref=e566]:
+                              - emphasis [ref=e567]: 쾌연
+                            - img "갤로그로 이동합니다." [ref=e569]
+                          - paragraph [ref=e571] [cursor=pointer]: 이건 ㄹㅇ 알려진 워뇨띠 완성본이노 고맙다
+                        - generic [ref=e573]: 2021.09.26 20:21:30
+                    - listitem [ref=e574]:
+                      - generic [ref=e575]:
+                        - generic:
+                          - generic [ref=e578] [cursor=pointer]:
+                            - emphasis [ref=e579]: ㅇㅇ
+                            - generic [ref=e580]: (211.185)
+                          - paragraph [ref=e582] [cursor=pointer]: 정리글 고마워 형~
+                        - generic [ref=e583]:
+                          - generic [ref=e584]: 2021.09.26 22:33:07
+                          - button "삭제" [ref=e586] [cursor=pointer]
+                    - listitem [ref=e587]:
+                      - generic [ref=e588]:
+                        - generic [ref=e591] [cursor=pointer]:
+                          - emphasis [ref=e592]
+                          - text: 댓글돌이
+                        - generic [ref=e593] [cursor=pointer]:
+                          - link [ref=e596]:
+                            - /url: https://issuefeed.dcinside.com/content/2260188
+                            - img [ref=e597]
+                          - link "“사람이 마음에 안 든다고..“ 최태원 회장이 몇년 전 남긴 인생 직언 4가지" [ref=e598]:
+                            - /url: https://issuefeed.dcinside.com/content/2260188
+                          - generic [ref=e599]:
+                            - generic [ref=e600]:
+                              - strong [ref=e601]: "1"
+                              - text: /20
+                            - generic [ref=e602]:
+                              - button [ref=e603]:
+                                - emphasis [ref=e604]
+                              - button [ref=e605]:
+                                - emphasis [ref=e606]
+                    - listitem [ref=e607]:
+                      - generic [ref=e608]:
+                        - generic:
+                          - generic [ref=e610] [cursor=pointer]:
+                            - generic "디카르고빔" [ref=e611]:
+                              - emphasis [ref=e612]: 디카르고빔
+                            - img "갤로그로 이동합니다." [ref=e614]
+                          - paragraph [ref=e616] [cursor=pointer]: 사실 나도 거래량이 중요하다고는 생각하는데 거래소끼리 너무 쪼개진게 현실임. 그래서 거래소통합한 거래량 지표를 만들었는데 조금 렉이 걸리더라고.. 그래서 거래량을 뺐음 - dc App
+                        - generic [ref=e618]: 2021.09.27 00:50:21
+                    - listitem [ref=e619]:
+                      - generic [ref=e620]:
+                        - generic:
+                          - generic [ref=e623] [cursor=pointer]:
+                            - emphasis [ref=e624]: ㅇㅇ
+                            - generic [ref=e625]: (49.168)
+                          - paragraph [ref=e627] [cursor=pointer]: 지우지마라진짜
+                        - generic [ref=e628]:
+                          - generic [ref=e629]: 2021.09.28 01:23:31
+                          - button "삭제" [ref=e631] [cursor=pointer]
+                    - listitem [ref=e632]:
+                      - generic [ref=e633]:
+                        - generic:
+                          - generic [ref=e636] [cursor=pointer]:
+                            - emphasis [ref=e637]: ㅇㅇ
+                            - generic [ref=e638]: (211.199)
+                          - img "4" [ref=e642] [cursor=pointer]
+                        - generic [ref=e643]:
+                          - generic [ref=e644]: 2021.10.03 13:27:20
+                          - button "삭제" [ref=e646] [cursor=pointer]
+                    - listitem [ref=e647]:
+                      - generic [ref=e648]:
+                        - generic:
+                          - generic [ref=e650] [cursor=pointer]:
+                            - generic "개구링" [ref=e651]:
+                              - emphasis [ref=e652]: 개구링
+                            - img "갤로그로 이동합니다." [ref=e654]
+                          - img "35" [ref=e658] [cursor=pointer]
+                        - generic [ref=e660]: 2021.10.05 18:08:42
+                    - listitem [ref=e661]:
+                      - generic [ref=e662]:
+                        - generic:
+                          - generic [ref=e664] [cursor=pointer]:
+                            - generic "후앙" [ref=e665]:
+                              - emphasis [ref=e666]: 후앙
+                            - img "갤로그로 이동합니다." [ref=e668]
+                          - paragraph [ref=e670] [cursor=pointer]: ㅇㄷ
+                        - generic [ref=e672]: 2021.10.08 05:20:58
+                    - listitem [ref=e673]:
+                      - generic [ref=e674]:
+                        - generic:
+                          - generic [ref=e677] [cursor=pointer]:
+                            - emphasis [ref=e678]: ㅇㅇ
+                            - generic [ref=e679]: (112.160)
+                          - paragraph [ref=e681] [cursor=pointer]: 수면매매 절대 안한다고 수차례 강조했는데 장투는 하는데 2주이상안한다고? 이거 인터뷰 확실한거 맞냐
+                        - generic [ref=e682]:
+                          - generic [ref=e683]: 2022.08.07 06:29:42
+                          - button "삭제" [ref=e685] [cursor=pointer]
+                    - listitem [ref=e686]:
+                      - generic [ref=e687]:
+                        - generic:
+                          - generic [ref=e689] [cursor=pointer]:
+                            - generic "포스트휴먼." [ref=e690]:
+                              - emphasis [ref=e691]: 포스트휴먼.
+                            - img "갤로그로 이동합니다." [ref=e693]
+                          - img "01" [ref=e697] [cursor=pointer]
+                        - generic [ref=e699]: 2024.06.21 08:03:30
+                    - listitem [ref=e700]:
+                      - generic [ref=e701]:
+                        - generic:
+                          - generic [ref=e704] [cursor=pointer]:
+                            - emphasis [ref=e705]: 차붕이
+                            - emphasis [ref=e706]: "2"
+                            - generic [ref=e707]: (59.14)
+                          - paragraph [ref=e709] [cursor=pointer]: 끼리끼리 만난다더니 여친분도 미쳤네
+                        - generic [ref=e710]:
+                          - generic [ref=e711]: 2024.09.21 18:26:56
+                          - button "삭제" [ref=e713] [cursor=pointer]
+                  - generic [ref=e714]:
+                    - emphasis [ref=e716]: "1"
+                    - generic [ref=e717]:
+                      - link "본문 보기" [ref=e718] [cursor=pointer]:
+                        - /url: "#container"
+                      - button "댓글닫기" [ref=e719] [cursor=pointer]:
+                        - generic [ref=e720]: 댓글닫기
+                        - emphasis [ref=e721]
+                      - button "새로고침" [ref=e722] [cursor=pointer]
+              - generic [ref=e723]:
+                - generic [ref=e724]:
+                  - generic [ref=e725]:
+                    - generic [ref=e727]:
+                      - paragraph [ref=e728]:
+                        - text: 차붕이는 갤러리에서 권장하는 비회원 전용
+                        - text: 갤닉네임입니다. (삭제 시 닉네임 등록 가능)
+                      - button [ref=e729] [cursor=pointer]
+                    - textbox [ref=e730]: 차붕이
+                    - button [ref=e731] [cursor=pointer]
+                  - textbox "비밀번호" [ref=e733]
+                  - textbox "코드 입력" [ref=e735]
+                  - img "자동등록방지" [ref=e737]
+                - generic [ref=e738]:
+                  - generic [ref=e739]:
+                    - generic [ref=e740]:
+                      - text: 타인의 권리를 침해하거나 명예를 훼손하는 댓글은 운영원칙 및 관련 법률에 제재를 받을 수 있습니다.
+                      - text: Shift+Enter 키를 동시에 누르면 줄바꿈이 됩니다.
+                    - textbox [ref=e741]
+                  - generic [ref=e742]:
+                    - generic [ref=e743]:
+                      - button "디시콘" [ref=e744] [cursor=pointer]:
+                        - emphasis [ref=e745]
+                        - text: 디시콘
+                      - button [ref=e746] [cursor=pointer]:
+                        - emphasis [ref=e747]
+                    - generic [ref=e748]:
+                      - button "등록" [ref=e749] [cursor=pointer]
+                      - button "등록+추천" [ref=e750] [cursor=pointer]
+            - generic [ref=e751]:
+              - generic [ref=e752]:
+                - button "전체글" [ref=e753] [cursor=pointer]
+                - button "개념글" [ref=e754] [cursor=pointer]
+              - button "글쓰기" [ref=e756] [cursor=pointer]
+            - generic [ref=e758]:
+              - generic [ref=e759]:
+                - heading "파워링크" [level=3] [ref=e760]: 파워링크
+                - link "등록안내" [ref=e762] [cursor=pointer]:
+                  - /url: https://saedu.naver.com/adbiz/searchad/intro.nhn
+              - list [ref=e763]:
+                - listitem [ref=e764] [cursor=pointer]:
+                  - link "부모님이 주는 비트코인 https://smartstore.naver.com/keplerwallet 편리하고 안전한 상속 어려운 설정없이 카드만 전하세요" [ref=e765]:
+                    - /url: https://ader.naver.com/v1/rHIbs8qLOusx8hAerc68mk4Irl9nY0cVhKsjHr1J_sYuWFVGfT9KK72c_dSq5NmP6N1FdJ7kvSjjehSOBUUP2vOGHcNUQx5_RSBrB4Z4EjI0MViBIswa2hmd-QRjU-baKhEHY_SzYTgIP244JSf0KKuXXRdkkf8TnUx75zxeQcmWOtvLLGjWx1fmAKDtl7HJvK-BH1a94_VJy_Ej8gTiTLAuU1EBguynQaURB-UTTQQ=?c=dcinside.ch3&t=0
+                    - text: 부모님이 주는 비트코인
+                    - generic [ref=e766]: https://smartstore.naver.com/keplerwallet
+                    - paragraph [ref=e767]: 편리하고 안전한 상속 어려운 설정없이 카드만 전하세요
+                - listitem [ref=e768] [cursor=pointer]:
+                  - link "코인투자의 정석,엘리트시그널 http://elitesignal.co.kr 실제회원들의 100% 인생역전 리얼후기! 급등종목찾기의 달인 엘리트시그널!" [ref=e769]:
+                    - /url: https://ader.naver.com/v1/ArCwXxL9TzbBwuFh4jl5e0fTGg50vhczFnIFYopoYFsCllsTyUJPDqgE519R-mSSWFlF-F72JT6FL-GVE0pnXIkeXyE2q1nLF7-97PVLtGCORvXyLh1gi0l9Dop2Dey0au9CeH7kFMrKeeILVhxJiTEUvYeijfgLry60nWZ4wnY5CiLrkvSMgoDfuMuXCIsr_lPayrTdJfs3L44emH3sEDb2mBryBvtsHgz_BH-w0GC3wPBrmnomTr-nc2q9M_oZc0G8M2DeWXr22ElZrsidbmCJvaUuot-u1gs7j1_MQm_FG_7uzC644mG2lD4OByUGIH-f-Puja9habICNoYcE_4s113eMOg3fQAvWI4iacj4=?c=dcinside.ch3&t=0
+                    - text: 코인투자의 정석,엘리트시그널
+                    - generic [ref=e770]: http://elitesignal.co.kr
+                    - paragraph [ref=e771]: 실제회원들의 100% 인생역전 리얼후기! 급등종목찾기의 달인 엘리트시그널!
+              - list
+          - article [ref=e772]:
+            - generic [ref=e773]:
+              - article [ref=e775]:
+                - table "갤러리 리스트" [ref=e777]:
+                  - caption: 갤러리 리스트
+                  - rowgroup [ref=e786]:
+                    - row "번호 말머리 제목 글쓴이 작성일 조회 추천" [ref=e787]:
+                      - columnheader "번호" [ref=e788]
+                      - columnheader "말머리" [ref=e789]
+                      - columnheader "제목" [ref=e790]
+                      - columnheader "글쓴이" [ref=e791]
+                      - columnheader "작성일" [ref=e792]
+                      - columnheader "조회" [ref=e793]
+                      - columnheader "추천" [ref=e794]
+                  - rowgroup [ref=e795]:
+                    - row "- 설문 과거의 스타병을 뒤로하고 달라진 것 같은 스타는? 운영자 26/05/18 - -" [ref=e796]:
+                      - cell "-" [ref=e797]
+                      - cell "설문" [ref=e798]
+                      - cell "과거의 스타병을 뒤로하고 달라진 것 같은 스타는?" [ref=e799]:
+                        - link "과거의 스타병을 뒤로하고 달라진 것 같은 스타는?" [ref=e800] [cursor=pointer]:
+                          - /url: javascript:;
+                          - emphasis [ref=e801]
+                          - text: 과거의 스타병을 뒤로하고 달라진 것 같은 스타는?
+                      - cell "운영자" [ref=e802] [cursor=pointer]
+                      - cell "26/05/18" [ref=e803]
+                      - cell "-" [ref=e804]
+                      - cell "-" [ref=e805]
+                    - row "- AD [NH선물] 삼성전자 API 자동매매 직접 세팅해보기 운영자 26/01/01 - -" [ref=e806]:
+                      - cell "-" [ref=e807]
+                      - cell "AD" [ref=e808]
+                      - cell "[NH선물] 삼성전자 API 자동매매 직접 세팅해보기" [ref=e809]:
+                        - link "[NH선물] 삼성전자 API 자동매매 직접 세팅해보기" [ref=e810] [cursor=pointer]:
+                          - /url: https://addc.dcinside.com/NetInsight/click/dcinside/adver/adver@text?ads_id=23836&creative_id=98072&click_id=96348
+                          - emphasis [ref=e811]
+                          - text: "[NH선물] 삼성전자 API 자동매매 직접 세팅해보기"
+                      - cell "운영자" [ref=e812] [cursor=pointer]
+                      - cell "26/01/01" [ref=e813]
+                      - cell "-" [ref=e814]
+                      - cell "-" [ref=e815]
+                    - row "- AD [LS증권] 아직도 매매에 AI를 안써? 차렷 운영자 26/01/01 - -" [ref=e816]:
+                      - cell "-" [ref=e817]
+                      - cell "AD" [ref=e818]
+                      - cell "[LS증권] 아직도 매매에 AI를 안써? 차렷" [ref=e819]:
+                        - link "[LS증권] 아직도 매매에 AI를 안써? 차렷" [ref=e820] [cursor=pointer]:
+                          - /url: https://addc.dcinside.com/NetInsight/click/dcinside/adver/adver@text?ads_id=23834&creative_id=100184&click_id=98576
+                          - emphasis [ref=e821]
+                          - text: "[LS증권] 아직도 매매에 AI를 안써? 차렷"
+                      - cell "운영자" [ref=e822] [cursor=pointer]
+                      - cell "26/01/01" [ref=e823]
+                      - cell "-" [ref=e824]
+                      - cell "-" [ref=e825]
+                    - row "- AD [삼성선물 유튜브]미국이란 평화협정 기대와 우려 공존 운영자 26/01/01 - -" [ref=e826]:
+                      - cell "-" [ref=e827]
+                      - cell "AD" [ref=e828]
+                      - cell "[삼성선물 유튜브]미국이란 평화협정 기대와 우려 공존" [ref=e829]:
+                        - link "[삼성선물 유튜브]미국이란 평화협정 기대와 우려 공존" [ref=e830] [cursor=pointer]:
+                          - /url: https://addc.dcinside.com/NetInsight/click/dcinside/adver/adver@text?ads_id=23832&creative_id=101202&click_id=99654
+                          - emphasis [ref=e831]
+                          - text: "[삼성선물 유튜브]미국이란 평화협정 기대와 우려 공존"
+                      - cell "운영자" [ref=e832] [cursor=pointer]
+                      - cell "26/01/01" [ref=e833]
+                      - cell "-" [ref=e834]
+                      - cell "-" [ref=e835]
+                    - row "4632893 공지 신문고 댕파 갤로그로 이동합니다. 26.03.14 20349 23" [ref=e836]:
+                      - cell "4632893" [ref=e837]
+                      - cell "공지" [ref=e838]
+                      - cell "신문고" [ref=e839]:
+                        - link "신문고" [ref=e840] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4632893&page=1
+                          - emphasis [ref=e841]
+                          - text: 신문고
+                      - cell "댕파 갤로그로 이동합니다." [ref=e842] [cursor=pointer]:
+                        - generic [ref=e844]:
+                          - generic "댕파" [ref=e845]:
+                            - emphasis [ref=e846]: 댕파
+                          - img "갤로그로 이동합니다." [ref=e848]
+                      - cell "26.03.14" [ref=e849]
+                      - cell "20349" [ref=e850]
+                      - cell "23" [ref=e851]
+                    - row "1792956 공지 [💡] 차트 마이너 갤러리 규정 안내 [69] 월차 갤로그로 이동합니다. 22.07.27 89096 64" [ref=e852]:
+                      - cell "1792956" [ref=e853]
+                      - cell "공지" [ref=e854]
+                      - cell "[💡] 차트 마이너 갤러리 규정 안내 [69]" [ref=e855]:
+                        - link "[💡] 차트 마이너 갤러리 규정 안내" [ref=e856] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=1792956&page=1
+                          - emphasis [ref=e857]
+                          - text: "[💡] 차트 마이너 갤러리 규정 안내"
+                        - link "[69]" [ref=e858] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=1792956&t=cv
+                      - cell "월차 갤로그로 이동합니다." [ref=e859] [cursor=pointer]:
+                        - generic [ref=e861]:
+                          - generic "월차" [ref=e862]:
+                            - emphasis [ref=e863]: 월차
+                          - img "갤로그로 이동합니다." [ref=e865]
+                      - cell "22.07.27" [ref=e866]
+                      - cell "89096" [ref=e867]
+                      - cell "64" [ref=e868]
+                    - row "4096305 공지 [📈] 차트 마이너 갤러리 정보글 모음 [6] 월차 갤로그로 이동합니다. 25.10.02 14422 2" [ref=e869]:
+                      - cell "4096305" [ref=e870]
+                      - cell "공지" [ref=e871]
+                      - cell "[📈] 차트 마이너 갤러리 정보글 모음 [6]" [ref=e872]:
+                        - link "[📈] 차트 마이너 갤러리 정보글 모음" [ref=e873] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4096305&page=1
+                          - emphasis [ref=e874]
+                          - text: "[📈] 차트 마이너 갤러리 정보글 모음"
+                        - link "[6]" [ref=e875] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4096305&t=cv
+                      - cell "월차 갤로그로 이동합니다." [ref=e876] [cursor=pointer]:
+                        - generic [ref=e878]:
+                          - generic "월차" [ref=e879]:
+                            - emphasis [ref=e880]: 월차
+                          - img "갤로그로 이동합니다." [ref=e882]
+                      - cell "25.10.02" [ref=e883]
+                      - cell "14422" [ref=e884]
+                      - cell "2" [ref=e885]
+                    - row "4091342 공지 [🚨로맨스 스캠🚨]구걸해서 돈받고 제보 하세요. [50] 차갤망령 갤로그로 이동합니다. 25.09.30 20697 20" [ref=e886]:
+                      - cell "4091342" [ref=e887]
+                      - cell "공지" [ref=e888]
+                      - cell "[🚨로맨스 스캠🚨]구걸해서 돈받고 제보 하세요. [50]" [ref=e889]:
+                        - link "[🚨로맨스 스캠🚨]구걸해서 돈받고 제보 하세요." [ref=e890] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4091342&page=1
+                          - emphasis [ref=e891]
+                          - text: "[🚨로맨스 스캠🚨]구걸해서 돈받고 제보 하세요."
+                        - link "[50]" [ref=e892] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4091342&t=cv
+                      - cell "차갤망령 갤로그로 이동합니다." [ref=e893] [cursor=pointer]:
+                        - generic [ref=e895]:
+                          - generic "차갤망령" [ref=e896]:
+                            - emphasis [ref=e897]: 차갤망령
+                          - img "갤로그로 이동합니다." [ref=e899]
+                      - cell "25.09.30" [ref=e900]
+                      - cell "20697" [ref=e901]
+                      - cell "20" [ref=e902]
+                    - row "4798033 💬 국장 근황 [2] BYBIT 갤로그로 이동합니다. 09:58 42 0" [ref=e903]:
+                      - cell "4798033" [ref=e904]
+                      - cell "💬" [ref=e905]
+                      - cell "국장 근황 [2]" [ref=e906]:
+                        - link "국장 근황" [ref=e907] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798033&page=1
+                          - emphasis [ref=e908]
+                          - text: 국장 근황
+                        - link "[2]" [ref=e909] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4798033&t=cv
+                      - cell "BYBIT 갤로그로 이동합니다." [ref=e910] [cursor=pointer]:
+                        - generic [ref=e911]:
+                          - generic "BYBIT" [ref=e912]:
+                            - emphasis [ref=e913]: BYBIT
+                          - img "갤로그로 이동합니다." [ref=e915]
+                      - cell "09:58" [ref=e916]
+                      - cell "42" [ref=e917]
+                      - cell "0" [ref=e918]
+                    - row "4798032 💬 지하철 성추행가해자들 상담하는 상담사가 [2] ㅇㅇ 갤로그로 이동합니다. 09:56 44 0" [ref=e919]:
+                      - cell "4798032" [ref=e920]
+                      - cell "💬" [ref=e921]
+                      - cell "지하철 성추행가해자들 상담하는 상담사가 [2]" [ref=e922]:
+                        - link "지하철 성추행가해자들 상담하는 상담사가" [ref=e923] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798032&page=1
+                          - emphasis [ref=e924]
+                          - text: 지하철 성추행가해자들 상담하는 상담사가
+                        - link "[2]" [ref=e925] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4798032&t=cv
+                      - cell "ㅇㅇ 갤로그로 이동합니다." [ref=e926] [cursor=pointer]:
+                        - generic [ref=e927]:
+                          - generic "ㅇㅇ" [ref=e928]:
+                            - emphasis [ref=e929]: ㅇㅇ
+                          - img "갤로그로 이동합니다." [ref=e931]
+                      - cell "09:56" [ref=e932]
+                      - cell "44" [ref=e933]
+                      - cell "0" [ref=e934]
+                    - row "4798031 💬 비트 일봉 ema 50선 76,700 차붕이 (220.117) 09:55 30 0" [ref=e935]:
+                      - cell "4798031" [ref=e936]
+                      - cell "💬" [ref=e937]
+                      - cell "비트 일봉 ema 50선 76,700" [ref=e938]:
+                        - link "비트 일봉 ema 50선 76,700" [ref=e939] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798031&page=1
+                          - emphasis [ref=e940]
+                          - text: 비트 일봉 ema 50선 76,700
+                      - cell "차붕이 (220.117)" [ref=e941] [cursor=pointer]:
+                        - generic [ref=e942]:
+                          - generic "차붕이" [ref=e943]:
+                            - emphasis [ref=e944]: 차붕이
+                          - generic [ref=e945]: (220.117)
+                      - cell "09:55" [ref=e946]
+                      - cell "30" [ref=e947]
+                      - cell "0" [ref=e948]
+                    - row "4798030 🌎뉴스 “개미들 물려놓고 먼저 탈출”...골드만삭스 [2] 차붕이 (58.78) 09:55 82 1" [ref=e949]:
+                      - cell "4798030" [ref=e950]
+                      - cell "🌎뉴스" [ref=e951]
+                      - cell "“개미들 물려놓고 먼저 탈출”...골드만삭스 [2]" [ref=e952]:
+                        - link "“개미들 물려놓고 먼저 탈출”...골드만삭스" [ref=e953] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798030&page=1
+                          - emphasis [ref=e954]
+                          - text: “개미들 물려놓고 먼저 탈출”...골드만삭스
+                        - link "[2]" [ref=e955] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4798030&t=cv
+                      - cell "차붕이 (58.78)" [ref=e956] [cursor=pointer]:
+                        - generic [ref=e957]:
+                          - generic "차붕이" [ref=e958]:
+                            - emphasis [ref=e959]: 차붕이
+                          - generic [ref=e960]: (58.78)
+                      - cell "09:55" [ref=e961]
+                      - cell "82" [ref=e962]
+                      - cell "1" [ref=e963]
+                    - row "4798029 💬 과매도 식히고 다시 내려갈려는건가 ㅇㅇ 갤로그로 이동합니다. 09:54 42 0" [ref=e964]:
+                      - cell "4798029" [ref=e965]
+                      - cell "💬" [ref=e966]
+                      - cell "과매도 식히고 다시 내려갈려는건가" [ref=e967]:
+                        - link "과매도 식히고 다시 내려갈려는건가" [ref=e968] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798029&page=1
+                          - emphasis [ref=e969]
+                          - text: 과매도 식히고 다시 내려갈려는건가
+                      - cell "ㅇㅇ 갤로그로 이동합니다." [ref=e970] [cursor=pointer]:
+                        - generic [ref=e971]:
+                          - generic "ㅇㅇ" [ref=e972]:
+                            - emphasis [ref=e973]: ㅇㅇ
+                          - img "갤로그로 이동합니다." [ref=e975]
+                      - cell "09:54" [ref=e976]
+                      - cell "42" [ref=e977]
+                      - cell "0" [ref=e978]
+                    - row "4798028 💬 개미들이 한방향만 보고잇으니 ㅇㅇ (211.205) 09:54 31 0" [ref=e979]:
+                      - cell "4798028" [ref=e980]
+                      - cell "💬" [ref=e981]
+                      - cell "개미들이 한방향만 보고잇으니" [ref=e982]:
+                        - link "개미들이 한방향만 보고잇으니" [ref=e983] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798028&page=1
+                          - emphasis [ref=e984]
+                          - text: 개미들이 한방향만 보고잇으니
+                      - cell "ㅇㅇ (211.205)" [ref=e985] [cursor=pointer]:
+                        - generic [ref=e986]:
+                          - generic "ㅇㅇ" [ref=e987]:
+                            - emphasis [ref=e988]: ㅇㅇ
+                          - generic [ref=e989]: (211.205)
+                      - cell "09:54" [ref=e990]
+                      - cell "31" [ref=e991]
+                      - cell "0" [ref=e992]
+                    - row "4798027 💬 하닉은 꽤 내려갔는데 삼전은 아직도 [2] 계엄메카 갤로그로 이동합니다. 09:51 83 0" [ref=e993]:
+                      - cell "4798027" [ref=e994]
+                      - cell "💬" [ref=e995]
+                      - cell "하닉은 꽤 내려갔는데 삼전은 아직도 [2]" [ref=e996]:
+                        - link "하닉은 꽤 내려갔는데 삼전은 아직도" [ref=e997] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798027&page=1
+                          - emphasis [ref=e998]
+                          - text: 하닉은 꽤 내려갔는데 삼전은 아직도
+                        - link "[2]" [ref=e999] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4798027&t=cv
+                      - cell "계엄메카 갤로그로 이동합니다." [ref=e1000] [cursor=pointer]:
+                        - generic [ref=e1001]:
+                          - generic "계엄메카" [ref=e1002]:
+                            - emphasis [ref=e1003]: 계엄메카
+                          - img "갤로그로 이동합니다." [ref=e1005]
+                      - cell "09:51" [ref=e1006]
+                      - cell "83" [ref=e1007]
+                      - cell "0" [ref=e1008]
+                    - row "4798026 💬 그래도 코인 사랑하시죠? [3] 몬스터제로 갤로그로 이동합니다. 09:49 34 0" [ref=e1009]:
+                      - cell "4798026" [ref=e1010]
+                      - cell "💬" [ref=e1011]
+                      - cell "그래도 코인 사랑하시죠? [3]" [ref=e1012]:
+                        - link "그래도 코인 사랑하시죠?" [ref=e1013] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798026&page=1
+                          - emphasis [ref=e1014]
+                          - text: 그래도 코인 사랑하시죠?
+                        - link "[3]" [ref=e1015] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4798026&t=cv
+                      - cell "몬스터제로 갤로그로 이동합니다." [ref=e1016] [cursor=pointer]:
+                        - generic [ref=e1017]:
+                          - generic "몬스터제로" [ref=e1018]:
+                            - emphasis [ref=e1019]: 몬스터제로
+                          - img "갤로그로 이동합니다." [ref=e1021]
+                      - cell "09:49" [ref=e1022]
+                      - cell "34" [ref=e1023]
+                      - cell "0" [ref=e1024]
+                    - row "4798025 💬 지금 본인 배급 못받는 이유 ㅇㅇ 갤로그로 이동합니다. 09:48 59 0" [ref=e1025]:
+                      - cell "4798025" [ref=e1026]
+                      - cell "💬" [ref=e1027]
+                      - cell "지금 본인 배급 못받는 이유" [ref=e1028]:
+                        - link "지금 본인 배급 못받는 이유" [ref=e1029] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798025&page=1
+                          - emphasis [ref=e1030]
+                          - text: 지금 본인 배급 못받는 이유
+                      - cell "ㅇㅇ 갤로그로 이동합니다." [ref=e1031] [cursor=pointer]:
+                        - generic [ref=e1032]:
+                          - generic "ㅇㅇ" [ref=e1033]:
+                            - emphasis [ref=e1034]: ㅇㅇ
+                          - img "갤로그로 이동합니다." [ref=e1036]
+                      - cell "09:48" [ref=e1037]
+                      - cell "59" [ref=e1038]
+                      - cell "0" [ref=e1039]
+                    - row "4798024 💬 수이 시발년 왜이래... [2] Sui 갤로그로 이동합니다. 09:48 62 0" [ref=e1040]:
+                      - cell "4798024" [ref=e1041]
+                      - cell "💬" [ref=e1042]
+                      - cell "수이 시발년 왜이래... [2]" [ref=e1043]:
+                        - link "수이 시발년 왜이래..." [ref=e1044] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798024&page=1
+                          - emphasis [ref=e1045]
+                          - text: 수이 시발년 왜이래...
+                        - link "[2]" [ref=e1046] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4798024&t=cv
+                      - cell "Sui 갤로그로 이동합니다." [ref=e1047] [cursor=pointer]:
+                        - generic [ref=e1048]:
+                          - generic "Sui" [ref=e1049]:
+                            - emphasis [ref=e1050]: Sui
+                          - img "갤로그로 이동합니다." [ref=e1052]
+                      - cell "09:48" [ref=e1053]
+                      - cell "62" [ref=e1054]
+                      - cell "0" [ref=e1055]
+                    - row "4798023 💬 삼닉 인버스나 곱버스나오면삼? ㅇㅇ 갤로그로 이동합니다. 09:48 23 0" [ref=e1056]:
+                      - cell "4798023" [ref=e1057]
+                      - cell "💬" [ref=e1058]
+                      - cell "삼닉 인버스나 곱버스나오면삼?" [ref=e1059]:
+                        - link "삼닉 인버스나 곱버스나오면삼?" [ref=e1060] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798023&page=1
+                          - emphasis [ref=e1061]
+                          - text: 삼닉 인버스나 곱버스나오면삼?
+                      - cell "ㅇㅇ 갤로그로 이동합니다." [ref=e1062] [cursor=pointer]:
+                        - generic [ref=e1063]:
+                          - generic "ㅇㅇ" [ref=e1064]:
+                            - emphasis [ref=e1065]: ㅇㅇ
+                          - img "갤로그로 이동합니다." [ref=e1067]
+                      - cell "09:48" [ref=e1068]
+                      - cell "23" [ref=e1069]
+                      - cell "0" [ref=e1070]
+                    - row "4798022 💬 783 정도 갔다가 박을거같지않냐 ㅇㅇ 갤로그로 이동합니다. 09:47 30 0" [ref=e1071]:
+                      - cell "4798022" [ref=e1072]
+                      - cell "💬" [ref=e1073]
+                      - cell "783 정도 갔다가 박을거같지않냐" [ref=e1074]:
+                        - link "783 정도 갔다가 박을거같지않냐" [ref=e1075] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798022&page=1
+                          - emphasis [ref=e1076]
+                          - text: 783 정도 갔다가 박을거같지않냐
+                      - cell "ㅇㅇ 갤로그로 이동합니다." [ref=e1077] [cursor=pointer]:
+                        - generic [ref=e1078]:
+                          - generic "ㅇㅇ" [ref=e1079]:
+                            - emphasis [ref=e1080]: ㅇㅇ
+                          - img "갤로그로 이동합니다." [ref=e1082]
+                      - cell "09:47" [ref=e1083]
+                      - cell "30" [ref=e1084]
+                      - cell "0" [ref=e1085]
+                    - row "4798021 💬 비트 진짜 건강해 보이네 ㅇㅇ 갤로그로 이동합니다. 09:46 55 0" [ref=e1086]:
+                      - cell "4798021" [ref=e1087]
+                      - cell "💬" [ref=e1088]
+                      - cell "비트 진짜 건강해 보이네" [ref=e1089]:
+                        - link "비트 진짜 건강해 보이네" [ref=e1090] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798021&page=1
+                          - emphasis [ref=e1091]
+                          - text: 비트 진짜 건강해 보이네
+                      - cell "ㅇㅇ 갤로그로 이동합니다." [ref=e1092] [cursor=pointer]:
+                        - generic [ref=e1093]:
+                          - generic "ㅇㅇ" [ref=e1094]:
+                            - emphasis [ref=e1095]: ㅇㅇ
+                          - img "갤로그로 이동합니다." [ref=e1097]
+                      - cell "09:46" [ref=e1098]
+                      - cell "55" [ref=e1099]
+                      - cell "0" [ref=e1100]
+                    - row "4798020 💬 사람들에게서 관심 없어지면 오른다면서요 ㅇㅇ 갤로그로 이동합니다. 09:46 51 0" [ref=e1101]:
+                      - cell "4798020" [ref=e1102]
+                      - cell "💬" [ref=e1103]
+                      - cell "사람들에게서 관심 없어지면 오른다면서요" [ref=e1104]:
+                        - link "사람들에게서 관심 없어지면 오른다면서요" [ref=e1105] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798020&page=1
+                          - emphasis [ref=e1106]
+                          - text: 사람들에게서 관심 없어지면 오른다면서요
+                      - cell "ㅇㅇ 갤로그로 이동합니다." [ref=e1107] [cursor=pointer]:
+                        - generic [ref=e1108]:
+                          - generic "ㅇㅇ" [ref=e1109]:
+                            - emphasis [ref=e1110]: ㅇㅇ
+                          - img "갤로그로 이동합니다." [ref=e1112]
+                      - cell "09:46" [ref=e1113]
+                      - cell "51" [ref=e1114]
+                      - cell "0" [ref=e1115]
+                    - row "4798019 💬 연기금 고생했다. 미국은고점 갤로그로 이동합니다. 09:44 73 0" [ref=e1116]:
+                      - cell "4798019" [ref=e1117]
+                      - cell "💬" [ref=e1118]
+                      - cell "연기금 고생했다." [ref=e1119]:
+                        - link "연기금 고생했다." [ref=e1120] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798019&page=1
+                          - emphasis [ref=e1121]
+                          - text: 연기금 고생했다.
+                      - cell "미국은고점 갤로그로 이동합니다." [ref=e1122] [cursor=pointer]:
+                        - generic [ref=e1123]:
+                          - generic "미국은고점" [ref=e1124]:
+                            - emphasis [ref=e1125]: 미국은고점
+                          - img "갤로그로 이동합니다." [ref=e1127]
+                      - cell "09:44" [ref=e1128]
+                      - cell "73" [ref=e1129]
+                      - cell "0" [ref=e1130]
+                    - row "4798018 💬 하닉 ㅋㅋㅋㅋ 미국은고점 갤로그로 이동합니다. 09:40 117 0" [ref=e1131]:
+                      - cell "4798018" [ref=e1132]
+                      - cell "💬" [ref=e1133]
+                      - cell "하닉 ㅋㅋㅋㅋ" [ref=e1134]:
+                        - link "하닉 ㅋㅋㅋㅋ" [ref=e1135] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798018&page=1
+                          - emphasis [ref=e1136]
+                          - text: 하닉 ㅋㅋㅋㅋ
+                      - cell "미국은고점 갤로그로 이동합니다." [ref=e1137] [cursor=pointer]:
+                        - generic [ref=e1138]:
+                          - generic "미국은고점" [ref=e1139]:
+                            - emphasis [ref=e1140]: 미국은고점
+                          - img "갤로그로 이동합니다." [ref=e1142]
+                      - cell "09:40" [ref=e1143]
+                      - cell "117" [ref=e1144]
+                      - cell "0" [ref=e1145]
+                    - row "4798017 💬 코스피 어제 오늘 좀떨어지고 가나 토르자이트 갤로그로 이동합니다. 09:40 28 0" [ref=e1146]:
+                      - cell "4798017" [ref=e1147]
+                      - cell "💬" [ref=e1148]
+                      - cell "코스피 어제 오늘 좀떨어지고 가나" [ref=e1149]:
+                        - link "코스피 어제 오늘 좀떨어지고 가나" [ref=e1150] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798017&page=1
+                          - emphasis [ref=e1151]
+                          - text: 코스피 어제 오늘 좀떨어지고 가나
+                      - cell "토르자이트 갤로그로 이동합니다." [ref=e1152] [cursor=pointer]:
+                        - generic [ref=e1153]:
+                          - generic "토르자이트" [ref=e1154]:
+                            - emphasis [ref=e1155]: 토르자이트
+                          - img "갤로그로 이동합니다." [ref=e1157]
+                      - cell "09:40" [ref=e1158]
+                      - cell "28" [ref=e1159]
+                      - cell "0" [ref=e1160]
+                    - row "4798016 💬 비트엿으면 이차트아님? ㅇㅇ 갤로그로 이동합니다. 09:37 86 0" [ref=e1161]:
+                      - cell "4798016" [ref=e1162]
+                      - cell "💬" [ref=e1163]
+                      - cell "비트엿으면 이차트아님?" [ref=e1164]:
+                        - link "비트엿으면 이차트아님?" [ref=e1165] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798016&page=1
+                          - emphasis [ref=e1166]
+                          - text: 비트엿으면 이차트아님?
+                      - cell "ㅇㅇ 갤로그로 이동합니다." [ref=e1167] [cursor=pointer]:
+                        - generic [ref=e1168]:
+                          - generic "ㅇㅇ" [ref=e1169]:
+                            - emphasis [ref=e1170]: ㅇㅇ
+                          - img "갤로그로 이동합니다." [ref=e1172]
+                      - cell "09:37" [ref=e1173]
+                      - cell "86" [ref=e1174]
+                      - cell "0" [ref=e1175]
+                    - row "4798015 💬 코스피 오늘 7500 복귀 가능성 있을까요? .txt [11] 새침냥이 갤로그로 이동합니다. 09:37 145 0" [ref=e1176]:
+                      - cell "4798015" [ref=e1177]
+                      - cell "💬" [ref=e1178]
+                      - cell "코스피 오늘 7500 복귀 가능성 있을까요? .txt [11]" [ref=e1179]:
+                        - link "코스피 오늘 7500 복귀 가능성 있을까요? .txt" [ref=e1180] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798015&page=1
+                          - emphasis [ref=e1181]
+                          - text: 코스피 오늘 7500 복귀 가능성 있을까요? .txt
+                        - link "[11]" [ref=e1182] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4798015&t=cv
+                      - cell "새침냥이 갤로그로 이동합니다." [ref=e1183] [cursor=pointer]:
+                        - generic [ref=e1184]:
+                          - generic "새침냥이" [ref=e1185]:
+                            - emphasis [ref=e1186]: 새침냥이
+                          - img "갤로그로 이동합니다." [ref=e1188]
+                      - cell "09:37" [ref=e1189]
+                      - cell "145" [ref=e1190]
+                      - cell "0" [ref=e1191]
+                    - row "4798014 💬 양놈들이 국장을 튀면 코인에 투자하라고!!! ㅇㅇ 갤로그로 이동합니다. 09:37 27 0" [ref=e1192]:
+                      - cell "4798014" [ref=e1193]
+                      - cell "💬" [ref=e1194]
+                      - cell "양놈들이 국장을 튀면 코인에 투자하라고!!!" [ref=e1195]:
+                        - link "양놈들이 국장을 튀면 코인에 투자하라고!!!" [ref=e1196] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798014&page=1
+                          - emphasis [ref=e1197]
+                          - text: 양놈들이 국장을 튀면 코인에 투자하라고!!!
+                      - cell "ㅇㅇ 갤로그로 이동합니다." [ref=e1198] [cursor=pointer]:
+                        - generic [ref=e1199]:
+                          - generic "ㅇㅇ" [ref=e1200]:
+                            - emphasis [ref=e1201]: ㅇㅇ
+                          - img "갤로그로 이동합니다." [ref=e1203]
+                      - cell "09:37" [ref=e1204]
+                      - cell "27" [ref=e1205]
+                      - cell "0" [ref=e1206]
+                    - row "4798013 💬 바낸 dram 매수 묘법 갤로그로 이동합니다. 09:37 69 0" [ref=e1207]:
+                      - cell "4798013" [ref=e1208]
+                      - cell "💬" [ref=e1209]
+                      - cell "바낸 dram 매수" [ref=e1210]:
+                        - link "바낸 dram 매수" [ref=e1211] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798013&page=1
+                          - emphasis [ref=e1212]
+                          - text: 바낸 dram 매수
+                      - cell "묘법 갤로그로 이동합니다." [ref=e1213] [cursor=pointer]:
+                        - generic [ref=e1214]:
+                          - generic "묘법" [ref=e1215]:
+                            - emphasis [ref=e1216]: 묘법
+                          - img "갤로그로 이동합니다." [ref=e1218]
+                      - cell "09:37" [ref=e1219]
+                      - cell "69" [ref=e1220]
+                      - cell "0" [ref=e1221]
+                    - row "4798012 💬 비트는 왜 못 올라요 ㅇㅇ 갤로그로 이동합니다. 09:36 32 0" [ref=e1222]:
+                      - cell "4798012" [ref=e1223]
+                      - cell "💬" [ref=e1224]
+                      - cell "비트는 왜 못 올라요" [ref=e1225]:
+                        - link "비트는 왜 못 올라요" [ref=e1226] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798012&page=1
+                          - emphasis [ref=e1227]
+                          - text: 비트는 왜 못 올라요
+                      - cell "ㅇㅇ 갤로그로 이동합니다." [ref=e1228] [cursor=pointer]:
+                        - generic [ref=e1229]:
+                          - generic "ㅇㅇ" [ref=e1230]:
+                            - emphasis [ref=e1231]: ㅇㅇ
+                          - img "갤로그로 이동합니다." [ref=e1233]
+                      - cell "09:36" [ref=e1234]
+                      - cell "32" [ref=e1235]
+                      - cell "0" [ref=e1236]
+                    - row "4798011 💬 다들 돈 잘버나보다 테더 출금만 기다리는거 보니까 버블팝 갤로그로 이동합니다. 09:35 40 0" [ref=e1237]:
+                      - cell "4798011" [ref=e1238]
+                      - cell "💬" [ref=e1239]
+                      - cell "다들 돈 잘버나보다 테더 출금만 기다리는거 보니까" [ref=e1240]:
+                        - link "다들 돈 잘버나보다 테더 출금만 기다리는거 보니까" [ref=e1241] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798011&page=1
+                          - emphasis [ref=e1242]
+                          - text: 다들 돈 잘버나보다 테더 출금만 기다리는거 보니까
+                      - cell "버블팝 갤로그로 이동합니다." [ref=e1243] [cursor=pointer]:
+                        - generic [ref=e1244]:
+                          - generic "버블팝" [ref=e1245]:
+                            - emphasis [ref=e1246]: 버블팝
+                          - img "갤로그로 이동합니다." [ref=e1248]
+                      - cell "09:35" [ref=e1249]
+                      - cell "40" [ref=e1250]
+                      - cell "0" [ref=e1251]
+                    - row "4798010 💬 블랙스완 올거같다 지금 웬지 [1] ㅇㅇ (211.205) 09:35 74 0" [ref=e1252]:
+                      - cell "4798010" [ref=e1253]
+                      - cell "💬" [ref=e1254]
+                      - cell "블랙스완 올거같다 지금 웬지 [1]" [ref=e1255]:
+                        - link "블랙스완 올거같다 지금 웬지" [ref=e1256] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798010&page=1
+                          - emphasis [ref=e1257]
+                          - text: 블랙스완 올거같다 지금 웬지
+                        - link "[1]" [ref=e1258] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4798010&t=cv
+                      - cell "ㅇㅇ (211.205)" [ref=e1259] [cursor=pointer]:
+                        - generic [ref=e1260]:
+                          - generic "ㅇㅇ" [ref=e1261]:
+                            - emphasis [ref=e1262]: ㅇㅇ
+                          - generic [ref=e1263]: (211.205)
+                      - cell "09:35" [ref=e1264]
+                      - cell "74" [ref=e1265]
+                      - cell "0" [ref=e1266]
+                    - row "4798009 💬 반도체나 담자 go7kgo 갤로그로 이동합니다. 09:34 36 0" [ref=e1267]:
+                      - cell "4798009" [ref=e1268]
+                      - cell "💬" [ref=e1269]
+                      - cell "반도체나 담자" [ref=e1270]:
+                        - link "반도체나 담자" [ref=e1271] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798009&page=1
+                          - emphasis [ref=e1272]
+                          - text: 반도체나 담자
+                      - cell "go7kgo 갤로그로 이동합니다." [ref=e1273] [cursor=pointer]:
+                        - generic [ref=e1274]:
+                          - generic "go7kgo" [ref=e1275]:
+                            - emphasis [ref=e1276]: go7kgo
+                          - img "갤로그로 이동합니다." [ref=e1278]
+                      - cell "09:34" [ref=e1279]
+                      - cell "36" [ref=e1280]
+                      - cell "0" [ref=e1281]
+                    - row "4798008 💬 삼닉차트 비트엿으면 계단식하락인데 하…. ㅇㅇ 갤로그로 이동합니다. 09:34 51 0" [ref=e1282]:
+                      - cell "4798008" [ref=e1283]
+                      - cell "💬" [ref=e1284]
+                      - cell "삼닉차트 비트엿으면 계단식하락인데 하…." [ref=e1285]:
+                        - link "삼닉차트 비트엿으면 계단식하락인데 하…." [ref=e1286] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798008&page=1
+                          - emphasis [ref=e1287]
+                          - text: 삼닉차트 비트엿으면 계단식하락인데 하….
+                      - cell "ㅇㅇ 갤로그로 이동합니다." [ref=e1288] [cursor=pointer]:
+                        - generic [ref=e1289]:
+                          - generic "ㅇㅇ" [ref=e1290]:
+                            - emphasis [ref=e1291]: ㅇㅇ
+                          - img "갤로그로 이동합니다." [ref=e1293]
+                      - cell "09:34" [ref=e1294]
+                      - cell "51" [ref=e1295]
+                      - cell "0" [ref=e1296]
+                    - row "4798007 💬 ㅅㅂ 역프 안풀릴라나 [18] 0415코린 갤로그로 이동합니다. 09:33 153 0" [ref=e1297]:
+                      - cell "4798007" [ref=e1298]
+                      - cell "💬" [ref=e1299]
+                      - cell "ㅅㅂ 역프 안풀릴라나 [18]" [ref=e1300]:
+                        - link "ㅅㅂ 역프 안풀릴라나" [ref=e1301] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798007&page=1
+                          - emphasis [ref=e1302]
+                          - text: ㅅㅂ 역프 안풀릴라나
+                        - link "[18]" [ref=e1303] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4798007&t=cv
+                      - cell "0415코린 갤로그로 이동합니다." [ref=e1304] [cursor=pointer]:
+                        - generic [ref=e1305]:
+                          - generic "0415코린" [ref=e1306]:
+                            - emphasis [ref=e1307]: 0415코린
+                          - img "갤로그로 이동합니다." [ref=e1309]
+                      - cell "09:33" [ref=e1310]
+                      - cell "153" [ref=e1311]
+                      - cell "0" [ref=e1312]
+                    - row "4798006 💬 이거 심상치않은데요? 어떨까요? [1] 본전말도 갤로그로 이동합니다. 09:33 102 0" [ref=e1313]:
+                      - cell "4798006" [ref=e1314]
+                      - cell "💬" [ref=e1315]
+                      - cell "이거 심상치않은데요? 어떨까요? [1]" [ref=e1316]:
+                        - link "이거 심상치않은데요? 어떨까요?" [ref=e1317] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798006&page=1
+                          - emphasis [ref=e1318]
+                          - text: 이거 심상치않은데요? 어떨까요?
+                        - link "[1]" [ref=e1319] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4798006&t=cv
+                      - cell "본전말도 갤로그로 이동합니다." [ref=e1320] [cursor=pointer]:
+                        - generic [ref=e1321]:
+                          - generic "본전말도" [ref=e1322]:
+                            - emphasis [ref=e1323]: 본전말도
+                          - img "갤로그로 이동합니다." [ref=e1325]
+                      - cell "09:33" [ref=e1326]
+                      - cell "102" [ref=e1327]
+                      - cell "0" [ref=e1328]
+                    - row "4798005 정신병 어차피 주식으로 돈따고도 코인할거잔아 ㅇㅇ (211.205) 09:32 30 0" [ref=e1329]:
+                      - cell "4798005" [ref=e1330]
+                      - cell "정신병" [ref=e1331]
+                      - cell "어차피 주식으로 돈따고도 코인할거잔아" [ref=e1332]:
+                        - link "어차피 주식으로 돈따고도 코인할거잔아" [ref=e1333] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798005&page=1
+                          - emphasis [ref=e1334]
+                          - text: 어차피 주식으로 돈따고도 코인할거잔아
+                      - cell "ㅇㅇ (211.205)" [ref=e1335] [cursor=pointer]:
+                        - generic [ref=e1336]:
+                          - generic "ㅇㅇ" [ref=e1337]:
+                            - emphasis [ref=e1338]: ㅇㅇ
+                          - generic [ref=e1339]: (211.205)
+                      - cell "09:32" [ref=e1340]
+                      - cell "30" [ref=e1341]
+                      - cell "0" [ref=e1342]
+                    - row "4798004 💬 오늘 엔비디아 실적에 모든 증시와 코인의 운명이 걸린듯 [1] 버블팝 갤로그로 이동합니다. 09:32 55 0" [ref=e1343]:
+                      - cell "4798004" [ref=e1344]
+                      - cell "💬" [ref=e1345]
+                      - cell "오늘 엔비디아 실적에 모든 증시와 코인의 운명이 걸린듯 [1]" [ref=e1346]:
+                        - link "오늘 엔비디아 실적에 모든 증시와 코인의 운명이 걸린듯" [ref=e1347] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798004&page=1
+                          - emphasis [ref=e1348]
+                          - text: 오늘 엔비디아 실적에 모든 증시와 코인의 운명이 걸린듯
+                        - link "[1]" [ref=e1349] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4798004&t=cv
+                      - cell "버블팝 갤로그로 이동합니다." [ref=e1350] [cursor=pointer]:
+                        - generic [ref=e1351]:
+                          - generic "버블팝" [ref=e1352]:
+                            - emphasis [ref=e1353]: 버블팝
+                          - img "갤로그로 이동합니다." [ref=e1355]
+                      - cell "09:32" [ref=e1356]
+                      - cell "55" [ref=e1357]
+                      - cell "0" [ref=e1358]
+                    - row "4798003 💬 출근길 짧먹튀 [2] 로너 갤로그로 이동합니다. 09:32 63 0" [ref=e1359]:
+                      - cell "4798003" [ref=e1360]
+                      - cell "💬" [ref=e1361]
+                      - cell "출근길 짧먹튀 [2]" [ref=e1362]:
+                        - link "출근길 짧먹튀" [ref=e1363] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798003&page=1
+                          - emphasis [ref=e1364]
+                          - text: 출근길 짧먹튀
+                        - link "[2]" [ref=e1365] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4798003&t=cv
+                      - cell "로너 갤로그로 이동합니다." [ref=e1366] [cursor=pointer]:
+                        - generic [ref=e1367]:
+                          - generic "로너" [ref=e1368]:
+                            - emphasis [ref=e1369]: 로너
+                          - img "갤로그로 이동합니다." [ref=e1371]
+                      - cell "09:32" [ref=e1372]
+                      - cell "63" [ref=e1373]
+                      - cell "0" [ref=e1374]
+                    - row "4798002 💬 테더 언제 오르노 [4] 닷컴버블 갤로그로 이동합니다. 09:31 58 0" [ref=e1375]:
+                      - cell "4798002" [ref=e1376]
+                      - cell "💬" [ref=e1377]
+                      - cell "테더 언제 오르노 [4]" [ref=e1378]:
+                        - link "테더 언제 오르노" [ref=e1379] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798002&page=1
+                          - emphasis [ref=e1380]
+                          - text: 테더 언제 오르노
+                        - link "[4]" [ref=e1381] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4798002&t=cv
+                      - cell "닷컴버블 갤로그로 이동합니다." [ref=e1382] [cursor=pointer]:
+                        - generic [ref=e1383]:
+                          - generic "닷컴버블" [ref=e1384]:
+                            - emphasis [ref=e1385]: 닷컴버블
+                          - img "갤로그로 이동합니다." [ref=e1387]
+                      - cell "09:31" [ref=e1388]
+                      - cell "58" [ref=e1389]
+                      - cell "0" [ref=e1390]
+                    - row "4798001 💬 다말아올리네 시발 지금이라도 살까 [2] ㅇㅇ 갤로그로 이동합니다. 09:30 82 0" [ref=e1391]:
+                      - cell "4798001" [ref=e1392]
+                      - cell "💬" [ref=e1393]
+                      - cell "다말아올리네 시발 지금이라도 살까 [2]" [ref=e1394]:
+                        - link "다말아올리네 시발 지금이라도 살까" [ref=e1395] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4798001&page=1
+                          - emphasis [ref=e1396]
+                          - text: 다말아올리네 시발 지금이라도 살까
+                        - link "[2]" [ref=e1397] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4798001&t=cv
+                      - cell "ㅇㅇ 갤로그로 이동합니다." [ref=e1398] [cursor=pointer]:
+                        - generic [ref=e1399]:
+                          - generic "ㅇㅇ" [ref=e1400]:
+                            - emphasis [ref=e1401]: ㅇㅇ
+                          - img "갤로그로 이동합니다." [ref=e1403]
+                      - cell "09:30" [ref=e1404]
+                      - cell "82" [ref=e1405]
+                      - cell "0" [ref=e1406]
+                    - row "4797999 💬 시발 주식 개쳐박을때 기습양봉 좀 줘봐 비트련아 알트의비밀을풀고싶다 갤로그로 이동합니다. 09:29 40 0" [ref=e1407]:
+                      - cell "4797999" [ref=e1408]
+                      - cell "💬" [ref=e1409]
+                      - cell "시발 주식 개쳐박을때 기습양봉 좀 줘봐 비트련아" [ref=e1410]:
+                        - link "시발 주식 개쳐박을때 기습양봉 좀 줘봐 비트련아" [ref=e1411] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4797999&page=1
+                          - emphasis [ref=e1412]
+                          - text: 시발 주식 개쳐박을때 기습양봉 좀 줘봐 비트련아
+                      - cell "알트의비밀을풀고싶다 갤로그로 이동합니다." [ref=e1413] [cursor=pointer]:
+                        - generic [ref=e1414]:
+                          - generic "알트의비밀을풀고싶다" [ref=e1415]:
+                            - emphasis [ref=e1416]: 알트의비밀을풀고싶다
+                          - img "갤로그로 이동합니다." [ref=e1418]
+                      - cell "09:29" [ref=e1419]
+                      - cell "40" [ref=e1420]
+                      - cell "0" [ref=e1421]
+                    - row "4797998 💬 주식은 심리학에 가까운듯 ㅇㅇ 갤로그로 이동합니다. 09:29 39 0" [ref=e1422]:
+                      - cell "4797998" [ref=e1423]
+                      - cell "💬" [ref=e1424]
+                      - cell "주식은 심리학에 가까운듯" [ref=e1425]:
+                        - link "주식은 심리학에 가까운듯" [ref=e1426] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4797998&page=1
+                          - emphasis [ref=e1427]
+                          - text: 주식은 심리학에 가까운듯
+                      - cell "ㅇㅇ 갤로그로 이동합니다." [ref=e1428] [cursor=pointer]:
+                        - generic [ref=e1429]:
+                          - generic "ㅇㅇ" [ref=e1430]:
+                            - emphasis [ref=e1431]: ㅇㅇ
+                          - img "갤로그로 이동합니다." [ref=e1433]
+                      - cell "09:29" [ref=e1434]
+                      - cell "39" [ref=e1435]
+                      - cell "0" [ref=e1436]
+                    - row "4797997 💬 10년간 오조오억 날린 내가 픽준다 원통분통침통하다 갤로그로 이동합니다. 09:29 26 0" [ref=e1437]:
+                      - cell "4797997" [ref=e1438]
+                      - cell "💬" [ref=e1439]
+                      - cell "10년간 오조오억 날린 내가 픽준다" [ref=e1440]:
+                        - link "10년간 오조오억 날린 내가 픽준다" [ref=e1441] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4797997&page=1
+                          - emphasis [ref=e1442]
+                          - text: 10년간 오조오억 날린 내가 픽준다
+                      - cell "원통분통침통하다 갤로그로 이동합니다." [ref=e1443] [cursor=pointer]:
+                        - generic [ref=e1444]:
+                          - generic "원통분통침통하다" [ref=e1445]:
+                            - emphasis [ref=e1446]: 원통분통침통하다
+                          - img "갤로그로 이동합니다." [ref=e1448]
+                      - cell "09:29" [ref=e1449]
+                      - cell "26" [ref=e1450]
+                      - cell "0" [ref=e1451]
+                    - row "4797996 💬 이제 거지만 남아서 비트 사는놈이 없네 ㅇㅇ 갤로그로 이동합니다. 09:28 23 0" [ref=e1452]:
+                      - cell "4797996" [ref=e1453]
+                      - cell "💬" [ref=e1454]
+                      - cell "이제 거지만 남아서 비트 사는놈이 없네" [ref=e1455]:
+                        - link "이제 거지만 남아서 비트 사는놈이 없네" [ref=e1456] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4797996&page=1
+                          - emphasis [ref=e1457]
+                          - text: 이제 거지만 남아서 비트 사는놈이 없네
+                      - cell "ㅇㅇ 갤로그로 이동합니다." [ref=e1458] [cursor=pointer]:
+                        - generic [ref=e1459]:
+                          - generic "ㅇㅇ" [ref=e1460]:
+                            - emphasis [ref=e1461]: ㅇㅇ
+                          - img "갤로그로 이동합니다." [ref=e1463]
+                      - cell "09:28" [ref=e1464]
+                      - cell "23" [ref=e1465]
+                      - cell "0" [ref=e1466]
+                    - row "4797995 💬 미친새끼야..양봉 그만 만들어 Dd 갤로그로 이동합니다. 09:28 40 0" [ref=e1467]:
+                      - cell "4797995" [ref=e1468]
+                      - cell "💬" [ref=e1469]
+                      - cell "미친새끼야..양봉 그만 만들어" [ref=e1470]:
+                        - link "미친새끼야..양봉 그만 만들어" [ref=e1471] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4797995&page=1
+                          - emphasis [ref=e1472]
+                          - text: 미친새끼야..양봉 그만 만들어
+                      - cell "Dd 갤로그로 이동합니다." [ref=e1473] [cursor=pointer]:
+                        - generic [ref=e1474]:
+                          - generic "Dd" [ref=e1475]:
+                            - emphasis [ref=e1476]: Dd
+                          - img "갤로그로 이동합니다." [ref=e1478]
+                      - cell "09:28" [ref=e1479]
+                      - cell "40" [ref=e1480]
+                      - cell "0" [ref=e1481]
+                    - row "4797994 💬 코스피 힘뭐야 씨발 [10] ㅇㅇ 갤로그로 이동합니다. 09:27 107 0" [ref=e1482]:
+                      - cell "4797994" [ref=e1483]
+                      - cell "💬" [ref=e1484]
+                      - cell "코스피 힘뭐야 씨발 [10]" [ref=e1485]:
+                        - link "코스피 힘뭐야 씨발" [ref=e1486] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4797994&page=1
+                          - emphasis [ref=e1487]
+                          - text: 코스피 힘뭐야 씨발
+                        - link "[10]" [ref=e1488] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4797994&t=cv
+                      - cell "ㅇㅇ 갤로그로 이동합니다." [ref=e1489] [cursor=pointer]:
+                        - generic [ref=e1490]:
+                          - generic "ㅇㅇ" [ref=e1491]:
+                            - emphasis [ref=e1492]: ㅇㅇ
+                          - img "갤로그로 이동합니다." [ref=e1494]
+                      - cell "09:27" [ref=e1495]
+                      - cell "107" [ref=e1496]
+                      - cell "0" [ref=e1497]
+                    - row "4797993 💬 질문)코스피 갭채웠으니 이제 1만 가는거죠? .txt [11] 새침냥이 갤로그로 이동합니다. 09:26 116 0" [ref=e1498]:
+                      - cell "4797993" [ref=e1499]
+                      - cell "💬" [ref=e1500]
+                      - cell "질문)코스피 갭채웠으니 이제 1만 가는거죠? .txt [11]" [ref=e1501]:
+                        - link "질문)코스피 갭채웠으니 이제 1만 가는거죠? .txt" [ref=e1502] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4797993&page=1
+                          - emphasis [ref=e1503]
+                          - text: 질문)코스피 갭채웠으니 이제 1만 가는거죠? .txt
+                        - link "[11]" [ref=e1504] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4797993&t=cv
+                      - cell "새침냥이 갤로그로 이동합니다." [ref=e1505] [cursor=pointer]:
+                        - generic [ref=e1506]:
+                          - generic "새침냥이" [ref=e1507]:
+                            - emphasis [ref=e1508]: 새침냥이
+                          - img "갤로그로 이동합니다." [ref=e1510]
+                      - cell "09:26" [ref=e1511]
+                      - cell "116" [ref=e1512]
+                      - cell "0" [ref=e1513]
+                    - row "4797992 💬 좆인양붕이들 좆스피들어갈때가 위험할때였네 [1] ㅇㅇ 갤로그로 이동합니다. 09:25 31 0" [ref=e1514]:
+                      - cell "4797992" [ref=e1515]
+                      - cell "💬" [ref=e1516]
+                      - cell "좆인양붕이들 좆스피들어갈때가 위험할때였네 [1]" [ref=e1517]:
+                        - link "좆인양붕이들 좆스피들어갈때가 위험할때였네" [ref=e1518] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4797992&page=1
+                          - emphasis [ref=e1519]
+                          - text: 좆인양붕이들 좆스피들어갈때가 위험할때였네
+                        - link "[1]" [ref=e1520] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4797992&t=cv
+                      - cell "ㅇㅇ 갤로그로 이동합니다." [ref=e1521] [cursor=pointer]:
+                        - generic [ref=e1522]:
+                          - generic "ㅇㅇ" [ref=e1523]:
+                            - emphasis [ref=e1524]: ㅇㅇ
+                          - img "갤로그로 이동합니다." [ref=e1526]
+                      - cell "09:25" [ref=e1527]
+                      - cell "31" [ref=e1528]
+                      - cell "0" [ref=e1529]
+                    - row "4797991 💬 와 시발 이때가 고점이였네 [4] 0415코린 갤로그로 이동합니다. 09:25 153 0" [ref=e1530]:
+                      - cell "4797991" [ref=e1531]
+                      - cell "💬" [ref=e1532]
+                      - cell "와 시발 이때가 고점이였네 [4]" [ref=e1533]:
+                        - link "와 시발 이때가 고점이였네" [ref=e1534] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4797991&page=1
+                          - emphasis [ref=e1535]
+                          - text: 와 시발 이때가 고점이였네
+                        - link "[4]" [ref=e1536] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4797991&t=cv
+                      - cell "0415코린 갤로그로 이동합니다." [ref=e1537] [cursor=pointer]:
+                        - generic [ref=e1538]:
+                          - generic "0415코린" [ref=e1539]:
+                            - emphasis [ref=e1540]: 0415코린
+                          - img "갤로그로 이동합니다." [ref=e1542]
+                      - cell "09:25" [ref=e1543]
+                      - cell "153" [ref=e1544]
+                      - cell "0" [ref=e1545]
+                    - row "4797990 💬 국장 빠지는거 보는데 [8] 월차 갤로그로 이동합니다. 09:25 164 0" [ref=e1546]:
+                      - cell "4797990" [ref=e1547]
+                      - cell "💬" [ref=e1548]
+                      - cell "국장 빠지는거 보는데 [8]" [ref=e1549]:
+                        - link "국장 빠지는거 보는데" [ref=e1550] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4797990&page=1
+                          - emphasis [ref=e1551]
+                          - text: 국장 빠지는거 보는데
+                        - link "[8]" [ref=e1552] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4797990&t=cv
+                      - cell "월차 갤로그로 이동합니다." [ref=e1553] [cursor=pointer]:
+                        - generic [ref=e1554]:
+                          - generic "월차" [ref=e1555]:
+                            - emphasis [ref=e1556]: 월차
+                          - img "갤로그로 이동합니다." [ref=e1558]
+                      - cell "09:25" [ref=e1559]
+                      - cell "164" [ref=e1560]
+                      - cell "0" [ref=e1561]
+                    - row "4797989 💬 한국은FX마진이왜불법일까 [2] 일우 갤로그로 이동합니다. 09:25 50 0" [ref=e1562]:
+                      - cell "4797989" [ref=e1563]
+                      - cell "💬" [ref=e1564]
+                      - cell "한국은FX마진이왜불법일까 [2]" [ref=e1565]:
+                        - link "한국은FX마진이왜불법일까" [ref=e1566] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4797989&page=1
+                          - emphasis [ref=e1567]
+                          - text: 한국은FX마진이왜불법일까
+                        - link "[2]" [ref=e1568] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=4797989&t=cv
+                      - cell "일우 갤로그로 이동합니다." [ref=e1569] [cursor=pointer]:
+                        - generic [ref=e1570]:
+                          - generic "일우" [ref=e1571]:
+                            - emphasis [ref=e1572]: 일우
+                          - img "갤로그로 이동합니다." [ref=e1574]
+                      - cell "09:25" [ref=e1575]
+                      - cell "50" [ref=e1576]
+                      - cell "0" [ref=e1577]
+                    - row "4797988 💬 비트 반등자리 같은데 갈증 갤로그로 이동합니다. 09:25 38 0" [ref=e1578]:
+                      - cell "4797988" [ref=e1579]
+                      - cell "💬" [ref=e1580]
+                      - cell "비트 반등자리 같은데" [ref=e1581]:
+                        - link "비트 반등자리 같은데" [ref=e1582] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4797988&page=1
+                          - emphasis [ref=e1583]
+                          - text: 비트 반등자리 같은데
+                      - cell "갈증 갤로그로 이동합니다." [ref=e1584] [cursor=pointer]:
+                        - generic [ref=e1585]:
+                          - generic "갈증" [ref=e1586]:
+                            - emphasis [ref=e1587]: 갈증
+                          - img "갤로그로 이동합니다." [ref=e1589]
+                      - cell "09:25" [ref=e1590]
+                      - cell "38" [ref=e1591]
+                      - cell "0" [ref=e1592]
+                    - row "4797987 💬 계단식 운지다 ㅇㅇ 갤로그로 이동합니다. 09:24 38 1" [ref=e1593]:
+                      - cell "4797987" [ref=e1594]
+                      - cell "💬" [ref=e1595]
+                      - cell "계단식 운지다" [ref=e1596]:
+                        - link "계단식 운지다" [ref=e1597] [cursor=pointer]:
+                          - /url: /mgallery/board/view/?id=chartanalysis&no=4797987&page=1
+                          - emphasis [ref=e1598]
+                          - text: 계단식 운지다
+                      - cell "ㅇㅇ 갤로그로 이동합니다." [ref=e1599] [cursor=pointer]:
+                        - generic [ref=e1600]:
+                          - generic "ㅇㅇ" [ref=e1601]:
+                            - emphasis [ref=e1602]: ㅇㅇ
+                          - img "갤로그로 이동합니다." [ref=e1604]
+                      - cell "09:24" [ref=e1605]
+                      - cell "38" [ref=e1606]
+                      - cell "1" [ref=e1607]
+                - generic [ref=e1608]:
+                  - generic [ref=e1609]:
+                    - button "전체글" [ref=e1610] [cursor=pointer]
+                    - button "개념글" [ref=e1611] [cursor=pointer]
+                  - button "글쓰기" [ref=e1613] [cursor=pointer]
+                - generic [ref=e1614]:
+                  - generic [ref=e1615]:
+                    - emphasis [ref=e1616]: "1"
+                    - link "2" [ref=e1617] [cursor=pointer]:
+                      - /url: /mgallery/board/lists/?id=chartanalysis&page=2
+                    - link "3" [ref=e1618] [cursor=pointer]:
+                      - /url: /mgallery/board/lists/?id=chartanalysis&page=3
+                    - link "4" [ref=e1619] [cursor=pointer]:
+                      - /url: /mgallery/board/lists/?id=chartanalysis&page=4
+                    - link "5" [ref=e1620] [cursor=pointer]:
+                      - /url: /mgallery/board/lists/?id=chartanalysis&page=5
+                    - link "6" [ref=e1621] [cursor=pointer]:
+                      - /url: /mgallery/board/lists/?id=chartanalysis&page=6
+                    - link "7" [ref=e1622] [cursor=pointer]:
+                      - /url: /mgallery/board/lists/?id=chartanalysis&page=7
+                    - link "8" [ref=e1623] [cursor=pointer]:
+                      - /url: /mgallery/board/lists/?id=chartanalysis&page=8
+                    - link "9" [ref=e1624] [cursor=pointer]:
+                      - /url: /mgallery/board/lists/?id=chartanalysis&page=9
+                    - link "10" [ref=e1625] [cursor=pointer]:
+                      - /url: /mgallery/board/lists/?id=chartanalysis&page=10
+                    - link "11" [ref=e1626] [cursor=pointer]:
+                      - /url: /mgallery/board/lists/?id=chartanalysis&page=11
+                    - link "12" [ref=e1627] [cursor=pointer]:
+                      - /url: /mgallery/board/lists/?id=chartanalysis&page=12
+                    - link "13" [ref=e1628] [cursor=pointer]:
+                      - /url: /mgallery/board/lists/?id=chartanalysis&page=13
+                    - link "14" [ref=e1629] [cursor=pointer]:
+                      - /url: /mgallery/board/lists/?id=chartanalysis&page=14
+                    - link "15" [ref=e1630] [cursor=pointer]:
+                      - /url: /mgallery/board/lists/?id=chartanalysis&page=15
+                    - link "다음" [ref=e1631] [cursor=pointer]:
+                      - /url: /mgallery/board/lists/?id=chartanalysis&page=16
+                    - link "끝" [ref=e1632] [cursor=pointer]:
+                      - /url: /mgallery/board/lists/?id=chartanalysis&page=99924
+                  - button "페이지 이동" [ref=e1634] [cursor=pointer]: 페이지 이동
+                  - text: /
+                - group "갤러리 내부 검색" [ref=e1637]:
+                  - generic [ref=e1638]:
+                    - generic [ref=e1640] [cursor=pointer]:
+                      - text: 제목+내용
+                      - emphasis [ref=e1642]
+                    - generic [ref=e1643]:
+                      - textbox "검색어 입력" [ref=e1645]
+                      - button [ref=e1646] [cursor=pointer]
+              - generic [ref=e1648]:
+                - generic [ref=e1649]:
+                  - strong [ref=e1651] [cursor=pointer]: 로그인해 주세요.
+                  - generic [ref=e1652]:
+                    - link "즐겨찾기" [ref=e1654] [cursor=pointer]:
+                      - /url: javascript:;
+                    - generic [ref=e1655]: "|스크랩"
+                    - generic [ref=e1656]:
+                      - text: "|"
+                      - link "알림" [ref=e1657] [cursor=pointer]:
+                        - /url: javascript:;
+                        - emphasis [ref=e1658]
+                        - text: 알림
+                  - text: "| | | |"
+                - article [ref=e1660]:
+                  - generic [ref=e1661]:
+                    - generic [ref=e1662]:
+                      - heading "실시간 베스트" [level=3] [ref=e1663]:
+                        - link "실시간 베스트" [ref=e1664] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/board/lists?id=dcbest
+                      - generic [ref=e1665]:
+                        - generic [ref=e1666]:
+                          - strong [ref=e1667]: "1"
+                          - text: /8
+                        - button [ref=e1668] [cursor=pointer]:
+                          - emphasis [ref=e1669]
+                        - button [ref=e1670] [cursor=pointer]:
+                          - emphasis [ref=e1671]
+                    - generic [ref=e1672]:
+                      - generic [ref=e1673]:
+                        - link "편의점에서 물건 훔치고 말리는 점장 때려눕힌 스시녀" [ref=e1675] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/board/view/?id=dcbest&no=430532
+                          - strong [ref=e1678]: 편의점에서 물건 훔치고 말리는 점장 때려눕힌 스시녀
+                        - link "국내 대기업 재직자 평점 TOP10..jpg" [ref=e1680] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/board/view/?id=dcbest&no=430647
+                          - strong [ref=e1683]: 국내 대기업 재직자 평점 TOP10..jpg
+                      - list [ref=e1684]:
+                        - listitem [ref=e1685]:
+                          - link "우울증 언니 때문에 화병 난다는 여자" [ref=e1686] [cursor=pointer]:
+                            - /url: https://gall.dcinside.com/board/view/?id=dcbest&no=430643
+                        - listitem [ref=e1687]:
+                          - link "싱글벙글 요즘 릴스에 자주 보이는 미백" [ref=e1688] [cursor=pointer]:
+                            - /url: https://gall.dcinside.com/board/view/?id=dcbest&no=430514
+                        - listitem [ref=e1689]:
+                          - link "트리플에스가 해주는 경상도 사투리 강의" [ref=e1690] [cursor=pointer]:
+                            - /url: https://gall.dcinside.com/board/view/?id=dcbest&no=430622
+                        - listitem [ref=e1691]:
+                          - link "레전드 연애를 하고있는 분들" [ref=e1692] [cursor=pointer]:
+                            - /url: https://gall.dcinside.com/board/view/?id=dcbest&no=430634
+                        - listitem [ref=e1693]:
+                          - link "오싹오싹 최근 터진 여경 성추행 사건" [ref=e1694] [cursor=pointer]:
+                            - /url: https://gall.dcinside.com/board/view/?id=dcbest&no=430534
+                - article [ref=e1695]:
+                  - generic [ref=e1696]:
+                    - generic [ref=e1697]:
+                      - heading "디시미디어" [level=3] [ref=e1698]:
+                        - link "디시미디어" [ref=e1699] [cursor=pointer]:
+                          - /url: javascript:mediaTabMove('media');
+                      - heading "| 디시이슈" [level=3] [ref=e1700]:
+                        - text: "|"
+                        - link "디시이슈" [ref=e1701] [cursor=pointer]:
+                          - /url: javascript:mediaTabMove('issue');
+                      - generic [ref=e1702]:
+                        - generic [ref=e1703]:
+                          - strong [ref=e1704]: "1"
+                          - text: /4
+                        - button [ref=e1705] [cursor=pointer]:
+                          - emphasis [ref=e1706]
+                        - button [ref=e1707] [cursor=pointer]:
+                          - emphasis [ref=e1708]
+                    - generic [ref=e1709]:
+                      - generic [ref=e1710]:
+                        - link "MC몽 틱톡 계정 일주일 정지, 김민종·여배우 실명 폭로 직후 규정 위반 제재" [ref=e1712] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/mmnews/34096
+                          - strong [ref=e1715]: MC몽 틱톡 계정 일주일 정지, 김민종·여배우 실명 폭로 직후 규정 위반 제재
+                        - link "[단독] 학교 앞 유해업소 1500건 넘게 적발…'바지사장' 세우고" [ref=e1717] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/fnnews/25141
+                          - strong [ref=e1720]: "[단독] 학교 앞 유해업소 1500건 넘게 적발…'바지사장' 세우고"
+                      - list [ref=e1721]:
+                        - listitem [ref=e1722]:
+                          - link "조종사 연쇄살인 피의자, 뉘우침 표현 전무…배심원 앞 서겠다 자청 (종합)" [ref=e1723] [cursor=pointer]:
+                            - /url: https://gall.dcinside.com/nanammedia/20683
+                        - listitem [ref=e1724]:
+                          - link "\"먼지 쌓인 선풍기에 '이 물' 뿌려보세요\"... 진작 이렇게 청소할 걸 그랬습니다" [ref=e1725] [cursor=pointer]:
+                            - /url: https://gall.dcinside.com/ardentnews/2564
+                        - listitem [ref=e1726]:
+                          - link "30세 이전에 \"이것\" 있는 사람들이 췌장암 위험 최대 5배까지 높아집니다." [ref=e1727] [cursor=pointer]:
+                            - /url: https://gall.dcinside.com/weekhealthy/4794
+                - article [ref=e1728]:
+                  - generic [ref=e1729]:
+                    - generic [ref=e1730]:
+                      - heading "개념글 [ 교정직 ]" [level=3] [ref=e1731]:
+                        - link "개념글 [ 교정직 ]" [ref=e1732] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/board/view/?id=correction&no=1652724
+                          - text: 개념글
+                          - generic [ref=e1733]:
+                            - text: "["
+                            - emphasis [ref=e1734]: 교정직
+                            - text: "]"
+                      - generic [ref=e1735]:
+                        - generic [ref=e1736]:
+                          - strong [ref=e1737]: "1"
+                          - text: /27
+                        - button [ref=e1738] [cursor=pointer]:
+                          - emphasis [ref=e1739]
+                        - button [ref=e1740] [cursor=pointer]:
+                          - emphasis [ref=e1741]
+                    - list [ref=e1742]:
+                      - listitem [ref=e1743]:
+                        - link "사실상 끝에 다 왔읍니다" [ref=e1744] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/board/view/?id=correction&no=1652724
+                      - listitem [ref=e1745]:
+                        - link "오늘따라 쿨찐들 왜케 많노ㅋㅋㅋ" [ref=e1746] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/board/view/?id=correction&no=1652653
+                      - listitem [ref=e1747]:
+                        - link "오후조 후기!" [ref=e1748] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/board/view/?id=correction&no=1652550
+                      - listitem [ref=e1749]:
+                        - link "체력시험 오전조 후기(긴글, 요약있음)" [ref=e1750] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/board/view/?id=correction&no=1652538
+                      - listitem [ref=e1751]:
+                        - link "배려심 깊은 오전조 올만점의 후기(추천줘잉)" [ref=e1752] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/board/view/?id=correction&no=1652449
+                      - listitem [ref=e1753]:
+                        - link "내복내가걷어찼네 ㅋㅋ" [ref=e1754] [cursor=pointer]:
+                          - /url: https://gall.dcinside.com/board/view/?id=correction&no=1652422
+      - link [ref=e1758] [cursor=pointer]:
+        - /url: https://addc.dcinside.com:443/click/dcinside/pc/list@left_wing_finance?ads_id=24875&creative_id=101237&click_id=99701&content_series=&event=
+        - img [ref=e1759]
+      - link [ref=e1761] [cursor=pointer]:
+        - /url: https://addc.dcinside.com:443/click/dcinside/pc/list@right_wing_finance?ads_id=24876&creative_id=101238&click_id=99702&content_series=&event=
+        - img [ref=e1762]
+    - contentinfo [ref=e1763]:
+      - generic [ref=e1765]:
+        - generic [ref=e1766]:
+          - generic [ref=e1767]:
+            - term [ref=e1768]: 게임
+            - definition [ref=e1769]:
+              - link "던전앤파이터" [ref=e1770] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=d_fighter_new2
+            - definition [ref=e1771]:
+              - link "리그 오브 레전드" [ref=e1772] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=leagueoflegends6
+            - definition [ref=e1773]:
+              - link "승리의 여신 니케" [ref=e1774] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=projectnike
+            - definition [ref=e1775]:
+              - link "메이플스토리" [ref=e1776] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=maplestory_new
+            - definition [ref=e1777]:
+              - link "아이돌마스터" [ref=e1778] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=idolmaster_new1
+            - definition [ref=e1779]:
+              - link "사운드 볼텍스" [ref=e1780] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=sdvx
+            - definition [ref=e1781]:
+              - link "FC 온라인" [ref=e1782] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=fifaonline
+            - definition [ref=e1783]:
+              - link "로스트아크" [ref=e1784] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=lostark
+            - definition [ref=e1785]:
+              - link "포켓몬스터" [ref=e1786] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=pokemon
+            - definition [ref=e1787]:
+              - link "월드 오브 탱크" [ref=e1788] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=worldoftanks
+          - generic [ref=e1789]:
+            - term [ref=e1790]: 연예/방송
+            - definition [ref=e1791]:
+              - link "남자 연예인" [ref=e1792] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=m_entertainer_new1
+            - definition [ref=e1793]:
+              - link "방탄소년단" [ref=e1794] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=bts
+            - definition [ref=e1795]:
+              - link "아이유" [ref=e1796] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=iu_new
+            - definition [ref=e1797]:
+              - link "여자 연예인" [ref=e1798] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=w_entertainer
+            - definition [ref=e1799]:
+              - link "태연" [ref=e1800] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=taeyeon_new1
+            - definition [ref=e1801]:
+              - link "기타 국내 드라마" [ref=e1802] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=drama_new3
+            - definition [ref=e1803]:
+              - link "나는 솔로" [ref=e1804] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=iamsolo
+            - definition [ref=e1805]:
+              - link "걸스플래닛999" [ref=e1806] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=grsgills
+            - definition [ref=e1807]:
+              - link "미스터 트롯" [ref=e1808] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=mistertrot
+            - definition [ref=e1809]:
+              - link "기타 미국드라마" [ref=e1810] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=f_drama
+          - generic [ref=e1811]:
+            - term [ref=e1812]: 스포츠
+            - definition [ref=e1813]:
+              - link "한화 이글스" [ref=e1814] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=hanwhaeagles_new
+            - definition [ref=e1815]:
+              - link "삼성 라이온즈" [ref=e1816] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=samsunglions_new
+            - definition [ref=e1817]:
+              - link "해외야구" [ref=e1818] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=baseball_ab2
+            - definition [ref=e1819]:
+              - link "롯데 자이언츠" [ref=e1820] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=giants_new3
+            - definition [ref=e1821]:
+              - link "LG 트윈스" [ref=e1822] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=lgtwins_new
+            - definition [ref=e1823]:
+              - link "KIA 타이거즈" [ref=e1824] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=tigers_new2
+            - definition [ref=e1825]:
+              - link "두산 베어스" [ref=e1826] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=doosanbears_new1
+            - definition [ref=e1827]:
+              - link "SSG 랜더스" [ref=e1828] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=skwyverns_new1
+            - definition [ref=e1829]:
+              - link "kt 위즈" [ref=e1830] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=ktwiz
+            - definition [ref=e1831]:
+              - link "키움 히어로즈" [ref=e1832] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=sh_new
+          - generic [ref=e1833]:
+            - term [ref=e1834]: 교육/금융/IT
+            - definition [ref=e1835]:
+              - link "대출" [ref=e1836] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=loan_new1
+            - definition [ref=e1837]:
+              - link "부동산" [ref=e1838] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=immovables
+            - definition [ref=e1839]:
+              - link "주식" [ref=e1840] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=neostock
+            - definition [ref=e1841]:
+              - link "컴퓨터 본체" [ref=e1842] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=pridepc_new4
+            - definition [ref=e1843]:
+              - link "프로그래밍" [ref=e1844] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=programming
+            - definition [ref=e1845]:
+              - link "자격증" [ref=e1846] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=coq
+            - definition [ref=e1847]:
+              - link "학점은행제" [ref=e1848] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=acbs
+            - definition [ref=e1849]:
+              - link "토익" [ref=e1850] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=toeic
+            - definition [ref=e1851]:
+              - link "정치, 사회" [ref=e1852] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=stock_new2
+            - definition [ref=e1853]:
+              - link "의학" [ref=e1854] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=medicalscience
+          - generic [ref=e1855]:
+            - term [ref=e1856]: 여행/음식/생물
+            - definition [ref=e1857]:
+              - link "도시" [ref=e1858] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=city
+            - definition [ref=e1859]:
+              - link "여행-동남아" [ref=e1860] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=travel_asia
+            - definition [ref=e1861]:
+              - link "KFC" [ref=e1862] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=kfc
+            - definition [ref=e1863]:
+              - link "편의점" [ref=e1864] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=cs_new1
+            - definition [ref=e1865]:
+              - link "치킨" [ref=e1866] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=chicken
+            - definition [ref=e1867]:
+              - link "기타음식" [ref=e1868] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=food
+            - definition [ref=e1869]:
+              - link "파충류, 양서류" [ref=e1870] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=reptile
+            - definition [ref=e1871]:
+              - link "식물" [ref=e1872] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=tree
+            - definition [ref=e1873]:
+              - link "야옹이" [ref=e1874] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=cat
+            - definition [ref=e1875]:
+              - link "멍멍이" [ref=e1876] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=dog
+          - generic [ref=e1877]:
+            - term [ref=e1878]: 취미/생활
+            - definition [ref=e1879]:
+              - link "인터넷방송" [ref=e1880] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=ib_new2
+            - definition [ref=e1881]:
+              - link "판타지" [ref=e1882] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=fantasy_new2
+            - definition [ref=e1883]:
+              - link "토이" [ref=e1884] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=toy
+            - definition [ref=e1885]:
+              - link "역학" [ref=e1886] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=divination_new1
+            - definition [ref=e1887]:
+              - link "LGBT" [ref=e1888] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=lgbt
+            - definition [ref=e1889]:
+              - link "미스터리" [ref=e1890] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=mystery
+            - definition [ref=e1891]:
+              - link "만화" [ref=e1892] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=comic_new6
+            - definition [ref=e1893]:
+              - link "카툰-연재" [ref=e1894] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=cartoon
+            - definition [ref=e1895]:
+              - link "향수, 화장품" [ref=e1896] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=cosmetic
+            - definition [ref=e1897]:
+              - link "안경" [ref=e1898] [cursor=pointer]:
+                - /url: https://gall.dcinside.com/board/lists/?id=fashion_acc
+        - generic [ref=e1900]:
+          - link "야간모드" [ref=e1901] [cursor=pointer]:
+            - /url: javascript:;
+            - emphasis [ref=e1902]
+            - text: 야간모드
+          - link "맨위로" [ref=e1903] [cursor=pointer]:
+            - /url: "#top"
+            - emphasis [ref=e1904]
+            - text: 맨위로
+      - generic [ref=e1905]:
+        - link "회사소개" [ref=e1906] [cursor=pointer]:
+          - /url: https://www.dcinside.com/company
+        - link "제휴안내" [ref=e1907] [cursor=pointer]:
+          - /url: https://www.dcinside.com/company#alliance
+        - link "광고안내" [ref=e1908] [cursor=pointer]:
+          - /url: https://nstatic.dcinside.com/dc/dcad/w/index.html
+        - link "이용약관" [ref=e1909] [cursor=pointer]:
+          - /url: https://nstatic.dcinside.com/dc/w/policy/policy_index.html
+        - link "개인정보처리방침" [ref=e1910] [cursor=pointer]:
+          - /url: https://nstatic.dcinside.com/dc/w/policy/privacy_index.html
+        - link "청소년보호정책" [ref=e1911] [cursor=pointer]:
+          - /url: https://nstatic.dcinside.com/dc/w/policy/youth_policy.html
+        - link "마이너 갤러리 운영원칙" [ref=e1912] [cursor=pointer]:
+          - /url: javascript:;
+      - generic [ref=e1913]: Copyright ⓒ 1999 - 2026 dcinside. All rights reserved.
+  - text: "- - - - - -"
+  - textbox [ref=e1914]

@@ -1,0 +1,36 @@
+[     205ms] [INFO] Resource Sentinel initialized... @ https://placid-snowboard-6ef.notion.site/Claude-Codex-34900d8ca0498005bc87d8de6539a670:0
+[     947ms] [INFO] 2026-05-21T03:22:30.523Z [info] PageLoader: loserAborted {data: Object} @ https://placid-snowboard-6ef.notion.site/_assets/app-de89115667ff9fba.js:6
+[    1170ms] [WARNING] Ignoring inability to install OPFS sqlite3_vfs: Cannot install OPFS: Missing SharedArrayBuffer and/or Atomics. The server must emit the COOP/COEP response headers to enable those. See https://sqlite.org/wasm/doc/trunk/persistence.md#coop-coep @ https://placid-snowboard-6ef.notion.site/_assets/wasm-sqlite-worker-b6861135b361cf2b.js:0
+[    1210ms] [INFO] 2026-05-21T03:22:30.786Z [info] FeatureFlagTransactionQueue: preferIndexedDB {team: no-team-specified} @ https://placid-snowboard-6ef.notion.site/_assets/app-de89115667ff9fba.js:6
+[    1300ms] [INFO] 2026-05-21T03:22:30.876Z [info] appHelpers: shouldShowError {data: Object} @ https://placid-snowboard-6ef.notion.site/_assets/app-de89115667ff9fba.js:6
+[    1331ms] [INFO] 2026-05-21T03:22:30.908Z [info] appHelpers: shouldShowError {data: Object} @ https://placid-snowboard-6ef.notion.site/_assets/app-de89115667ff9fba.js:6
+[    1365ms] [LOG] %c
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnn                         nnnn
+	nnnnnnn                          nnnn
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+	nnnnnnnn                           nnn
+	nnnnnnnn    nnnnnnnn     nnnnnnn   nnn
+	nnnnnnnn      nnnnnnn      nnn     nnn
+	nnnnnnnn      nnnnnnnn     nnn     nnn
+	nnnnnnnn      nnnnnnnnnn   nnn     nnn
+	nnnnnnnn      nnn nnnnnnn  nnn     nnn
+	nnnnnnnn      nnn  nnnnnnnnnnn     nnn
+	nnnnnnnn      nnn   nnnnnnnnnn     nnn
+	nnnnnnnn      nnn     nnnnnnnn     nnn
+	nnnnnnnn      nnn      nnnnnnn     nnn
+	nnnnnnnn    nnnnnnnn    nnnnnn     nnn
+	  nnnnnn                           nnn
+		nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn		We're hiring!
+		  nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn		notion.so/careers
+
+	“yeah, I would probably eat a lemon for one hundred dollars” -- Ivan Zhao (2023-07-14)
+				  font-family: monospace @ https://placid-snowboard-6ef.notion.site/_assets/mainApp-46fbf0f2898b24c6.js:61
+[    1907ms] [WARNING]   WARN  [Statsig] 'StatsigUser.customIDs.stableID' mismatch @ https://placid-snowboard-6ef.notion.site/_assets/38994-57e75a3c479e6567.js:0
+[    1915ms] [WARNING]   WARN  [Statsig] 'StatsigUser.customIDs.stableID' mismatch @ https://placid-snowboard-6ef.notion.site/_assets/38994-57e75a3c479e6567.js:0
+[    2105ms] [INFO] 2026-05-21T03:22:31.681Z [error] handleRestrictedStateForResponse: callApi {data: Object} @ https://placid-snowboard-6ef.notion.site/_assets/app-de89115667ff9fba.js:6
+[    2153ms] [INFO] 2026-05-21T03:22:31.729Z [error] handleRestrictedStateForResponse: callApi {data: Object} @ https://placid-snowboard-6ef.notion.site/_assets/app-de89115667ff9fba.js:6
+[    2369ms] [WARNING] Amplitude Logger [Warn]: Event not tracked, no destination plugins on the instance @ https://placid-snowboard-6ef.notion.site/_assets/transport-support-49d6a98cbf389fa8.js:0
+[    2370ms] [INFO] 2026-05-21T03:22:31.946Z [error] eventTrailApiHelpers: trackFailure {error: Object} @ https://placid-snowboard-6ef.notion.site/_assets/app-de89115667ff9fba.js:6
+[    4758ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cdn.metadata.io/pixel/config/1127.json:0

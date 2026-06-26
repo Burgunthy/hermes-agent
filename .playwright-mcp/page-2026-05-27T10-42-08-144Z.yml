@@ -1,0 +1,16 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - link "CatchDM" [ref=e5] [cursor=pointer]:
+      - /url: /
+      - img [ref=e7]
+      - text: CatchDM
+    - heading "Welcome back" [level=3] [ref=e9]
+    - paragraph [ref=e10]: Sign in to manage your Instagram automation
+  - generic [ref=e11]:
+    - button "Sign in with Google" [ref=e12] [cursor=pointer]:
+      - img [ref=e13]
+      - text: Sign in with Google
+    - button "Sign in with Meta" [ref=e18] [cursor=pointer]:
+      - img [ref=e19]
+      - text: Sign in with Meta
+    - paragraph [ref=e21]: By signing in, you agree to our Terms of Service and Privacy Policy.

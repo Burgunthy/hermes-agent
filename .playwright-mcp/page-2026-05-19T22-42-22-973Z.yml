@@ -1,0 +1,407 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - list [ref=e5]:
+        - listitem [ref=e6]:
+          - link "Skip to content" [ref=e7] [cursor=pointer]:
+            - /url: "#maincontent"
+        - listitem [ref=e8]:
+          - link "Accessibility Policy" [ref=e9] [cursor=pointer]:
+            - /url: https://www.oracle.com/corporate/accessibility/
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - navigation "Main Menu" [ref=e12]:
+            - button "Menu" [ref=e13] [cursor=pointer]:
+              - img [ref=e14]
+              - generic [ref=e15]: Menu
+          - link "Oracle Home" [ref=e16] [cursor=pointer]:
+            - /url: https://www.oracle.com/
+            - img [ref=e17]
+        - search [ref=e20]:
+          - generic [ref=e21]:
+            - img
+            - combobox "Search Oracle.com" [ref=e22]
+        - generic [ref=e24]:
+          - button "Select country" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]: Country
+          - button "Sign in" [ref=e29] [cursor=pointer]:
+            - img [ref=e30]
+          - link "Contact us" [ref=e32] [cursor=pointer]:
+            - /url: /corporate/contact/
+            - img [ref=e33]
+    - main [ref=e36]:
+      - navigation "breadcrumb" [ref=e37]:
+        - list [ref=e40]:
+          - listitem [ref=e41]:
+            - link " Cloud" [ref=e42] [cursor=pointer]:
+              - /url: /cloud/
+      - generic [ref=e47]:
+        - generic [ref=e49]:
+          - heading "Oracle Cloud Free Tier" [level=1] [ref=e50]
+          - paragraph [ref=e51]: Build, test, and deploy applications on Oracle Cloud—for free.
+          - generic [ref=e52]:
+            - link "Start for free" [ref=e54] [cursor=pointer]:
+              - /url: https://signup.cloud.oracle.com/?source=:ow:o:p:feb:0916FreePageBannerButton&intcmp=:ow:o:p:feb:0916FreePageBannerButton
+            - link "Sign in to Oracle Cloud" [ref=e56] [cursor=pointer]:
+              - /url: /cloud/sign-in.html?intcmp=OcomFreeTier
+        - figure [ref=e60]
+      - generic [ref=e62]:
+        - heading "Here is how Oracle Cloud Free Tier works" [level=3] [ref=e63]
+        - list [ref=e65]:
+          - listitem [ref=e66]:
+            - heading "1" [level=4] [ref=e68]
+            - paragraph [ref=e70]:
+              - text: Start with a US$300 cloud credit.*
+              - text: You’ll have 30 days to use it to test your applications on all OCI services, in addition to Always Free Services in your Free Tier account.
+          - listitem [ref=e71]:
+            - heading "2" [level=4] [ref=e73]
+            - paragraph [ref=e75]: At any time during or after the 30-day period,* switch to a Pay As You Go account. Pay only for services that exceed the monthly free amounts from Always Free Services.
+          - listitem [ref=e76]:
+            - heading "3" [level=4] [ref=e78]
+            - paragraph [ref=e80]: If you do nothing after 30 days, you’ll continue to get Always Free Services in your Free Tier account.
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - heading "Oracle Cloud Free Tier" [level=2] [ref=e85]
+          - paragraph [ref=e86]: Get cloud credits and start using Oracle Cloud services.
+        - link "Sign up now" [ref=e89] [cursor=pointer]:
+          - /url: /cloud/sign-in.html?intcmp=OcomFreeTierPromoBanner
+      - generic [ref=e91]:
+        - heading "Services available on Oracle Cloud Free Tier" [level=4] [ref=e92]
+        - generic [ref=e93]:
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - generic [ref=e97]: 
+              - textbox "Search" [ref=e100]: 
+            - generic [ref=e101]:
+              - heading "Featured Product" [level=5] [ref=e102] [cursor=pointer]:
+                - button "Featured Product" [expanded] [ref=e103]:
+                  - text: Featured Product
+                  - generic [ref=e104]: 
+              - list "Featured Product" [ref=e105]:
+                - listitem [ref=e106] [cursor=pointer]:
+                  - generic [ref=e107]:
+                    - checkbox " AI and Machine Learning" [ref=e108]
+                    - generic: 
+                    - generic [ref=e109]: AI and Machine Learning
+                - listitem [ref=e110] [cursor=pointer]:
+                  - generic [ref=e111]:
+                    - checkbox " Compute" [ref=e112]
+                    - generic: 
+                    - generic [ref=e113]: Compute
+                - listitem [ref=e114] [cursor=pointer]:
+                  - generic [ref=e115]:
+                    - checkbox " Networking" [ref=e116]
+                    - generic: 
+                    - generic [ref=e117]: Networking
+                - listitem [ref=e118] [cursor=pointer]:
+                  - generic [ref=e119]:
+                    - checkbox " Oracle Databases" [ref=e120]
+                    - generic: 
+                    - generic [ref=e121]: Oracle Databases
+                - listitem [ref=e122] [cursor=pointer]:
+                  - generic [ref=e123]:
+                    - checkbox " Storage" [ref=e124]
+                    - generic: 
+                    - generic [ref=e125]: Storage
+            - generic [ref=e126]:
+              - heading "Tier Type" [level=5] [ref=e127] [cursor=pointer]:
+                - button "Tier Type" [expanded] [ref=e128]:
+                  - text: Tier Type
+                  - generic [ref=e129]: 
+              - list "Tier Type" [ref=e130]:
+                - listitem [ref=e131] [cursor=pointer]:
+                  - generic [ref=e132]:
+                    - checkbox " Always Free" [ref=e133]
+                    - generic: 
+                    - generic [ref=e134]: Always Free
+                - listitem [ref=e135] [cursor=pointer]:
+                  - generic [ref=e136]:
+                    - checkbox " Trial" [ref=e137]
+                    - generic: 
+                    - generic [ref=e138]: Trial
+            - generic [ref=e139]:
+              - heading "Product Category" [level=5] [ref=e140] [cursor=pointer]:
+                - button "Product Category" [expanded] [ref=e141]:
+                  - text: Product Category
+                  - generic [ref=e142]: 
+              - list "Product Category" [ref=e143]:
+                - listitem [ref=e144] [cursor=pointer]:
+                  - generic [ref=e145]:
+                    - checkbox " AI and Machine Learning" [ref=e146]
+                    - generic: 
+                    - generic [ref=e147]: AI and Machine Learning
+                - listitem [ref=e148] [cursor=pointer]:
+                  - generic [ref=e149]:
+                    - checkbox " Analytics and BI" [ref=e150]
+                    - generic: 
+                    - generic [ref=e151]: Analytics and BI
+                - listitem [ref=e152] [cursor=pointer]:
+                  - generic [ref=e153]:
+                    - checkbox " Compute" [ref=e154]
+                    - generic: 
+                    - generic [ref=e155]: Compute
+                - listitem [ref=e156] [cursor=pointer]:
+                  - generic [ref=e157]:
+                    - checkbox " Containers and Functions" [ref=e158]
+                    - generic: 
+                    - generic [ref=e159]: Containers and Functions
+                - listitem [ref=e160] [cursor=pointer]:
+                  - generic [ref=e161]:
+                    - checkbox " Developer Services" [ref=e162]
+                    - generic: 
+                    - generic [ref=e163]: Developer Services
+                - listitem [ref=e164] [cursor=pointer]:
+                  - generic [ref=e165]:
+                    - checkbox " Integration" [ref=e166]
+                    - generic: 
+                    - generic [ref=e167]: Integration
+                - listitem [ref=e168] [cursor=pointer]:
+                  - generic [ref=e169]:
+                    - checkbox " Networking" [ref=e170]
+                    - generic: 
+                    - generic [ref=e171]: Networking
+                - listitem [ref=e172] [cursor=pointer]:
+                  - generic [ref=e173]:
+                    - checkbox " Observability and Management" [ref=e174]
+                    - generic: 
+                    - generic [ref=e175]: Observability and Management
+                - listitem [ref=e176] [cursor=pointer]:
+                  - generic [ref=e177]:
+                    - checkbox " Open Source Databases" [ref=e178]
+                    - generic: 
+                    - generic [ref=e179]: Open Source Databases
+                - listitem [ref=e180] [cursor=pointer]:
+                  - generic [ref=e181]:
+                    - checkbox " Oracle Databases" [ref=e182]
+                    - generic: 
+                    - generic [ref=e183]: Oracle Databases
+                - listitem [ref=e184] [cursor=pointer]:
+                  - generic [ref=e185]:
+                    - checkbox " Others" [ref=e186]
+                    - generic: 
+                    - generic [ref=e187]: Others
+                - listitem [ref=e188] [cursor=pointer]:
+                  - generic [ref=e189]:
+                    - checkbox " Security" [ref=e190]
+                    - generic: 
+                    - generic [ref=e191]: Security
+                - listitem [ref=e192] [cursor=pointer]:
+                  - generic [ref=e193]:
+                    - checkbox " Storage" [ref=e194]
+                    - generic: 
+                    - generic [ref=e195]: Storage
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - generic [ref=e199]:
+                - paragraph [ref=e200]: "Filtered by: No Filters applied"
+                - list
+              - button "Clear all" [ref=e201] [cursor=pointer]
+            - generic [ref=e202]:
+              - list "Services available on Oracle Cloud Free Tier" [ref=e203]:
+                - listitem [ref=e204]:
+                  - generic [ref=e205]:
+                    - generic [ref=e206]: Trial
+                    - generic [ref=e207]:
+                      - strong [ref=e208]: AI and Machine Learning
+                      - heading "Data Science" [level=4] [ref=e209]
+                    - paragraph [ref=e210]: Up to 4,700 hours. Build, train, deploy, and manage machine learning models. The platform makes data science collaborative, scalable, and powerful.
+                - listitem [ref=e211]:
+                  - generic [ref=e212]:
+                    - generic [ref=e213]: Trial
+                    - generic [ref=e214]:
+                      - strong [ref=e215]: AI and Machine Learning
+                      - heading "Oracle Digital Assistant" [level=4] [ref=e216]
+                    - paragraph [ref=e217]: Up to 51 hours, digital assistants help accomplish tasks through natural language conversations, without having to manage various apps and web sites.
+                - listitem [ref=e218]:
+                  - generic [ref=e219]:
+                    - generic [ref=e220]: Trial
+                    - generic [ref=e221]:
+                      - strong [ref=e222]: AI and Machine Learning
+                      - heading "Language" [level=4] [ref=e223]
+                    - paragraph [ref=e224]: Tiered pricing based on use cases. OCI Language is a cloud-based AI service for performing sophisticated text analysis at scale
+                - listitem [ref=e225]:
+                  - generic [ref=e226]:
+                    - generic [ref=e227]: Trial
+                    - generic [ref=e228]:
+                      - strong [ref=e229]: AI and Machine Learning
+                      - heading "Speech" [level=4] [ref=e230]
+                    - paragraph [ref=e231]: Tiered Pricing based on use cases. OCI Speech is an AI service that applies automatic speech recognition technology to transform audio-based content to text
+                - listitem [ref=e232]:
+                  - generic [ref=e233]:
+                    - generic [ref=e234]: Trial
+                    - generic [ref=e235]:
+                      - strong [ref=e236]: AI and Machine Learning
+                      - heading "Vision" [level=4] [ref=e237]
+                    - paragraph [ref=e238]: Tiered Pricing based on use cases. OCI Vision is an AI service for performing deep-learning-based image analysis at scale.
+                - listitem [ref=e239]:
+                  - generic [ref=e240]:
+                    - generic [ref=e241]: Trial
+                    - generic [ref=e242]:
+                      - strong [ref=e243]: AI and Machine Learning
+                      - heading "Document Understanding" [level=4] [ref=e244]
+                    - paragraph [ref=e245]: Tierd Pricing. OCI Document Understanding is an AI service that enables developers to extract text, tables, and other key data from document files through APIs and command line interface tools.
+                - listitem [ref=e246]:
+                  - generic [ref=e247]:
+                    - generic [ref=e248]: Trial
+                    - generic [ref=e249]:
+                      - strong [ref=e250]: Analytics and BI
+                      - heading "Analytics Cloud" [level=4] [ref=e251]
+                    - paragraph [ref=e252]: Up to 4,700 hours. The most comprehensive analytics in the cloud.
+                - listitem [ref=e253]:
+                  - generic [ref=e254]:
+                    - generic [ref=e255]: Always Free
+                    - generic [ref=e256]:
+                      - strong [ref=e257]: Compute
+                      - heading "AMD Compute Instance" [level=4] [ref=e258]
+                    - paragraph [ref=e259]: AMD based Compute VMs with 1/8 OCPU and 1 GB memory each
+                    - paragraph [ref=e260]:
+                      - strong [ref=e261]: Always Free
+                      - text: 2 AMD based compute VMs
+                - listitem [ref=e262]:
+                  - generic [ref=e263]:
+                    - generic [ref=e264]: Always Free
+                    - generic [ref=e265]:
+                      - strong [ref=e266]: Compute
+                      - heading "Arm Compute Instance" [level=4] [ref=e267]
+                    - paragraph [ref=e268]: Arm-based Ampere A1 cores and 24 GB of memory usable as 1 VM or up to 4 VMs
+                    - paragraph [ref=e269]:
+                      - strong [ref=e270]: Always Free
+                      - text: 3,000 OCPU hours and 18,000 GB hours per month
+              - region: 1 of 8
+              - generic [ref=e271]:
+                - button "Go to Page 1" [ref=e272]: "1"
+                - button "Go to Page 2" [ref=e273] [cursor=pointer]: "2"
+                - button "Go to Page 3" [ref=e274] [cursor=pointer]: "3"
+                - button "Go to Page 4" [ref=e275] [cursor=pointer]: "4"
+                - button "Go to Page 5" [ref=e276] [cursor=pointer]: "5"
+                - button "Go to Page 6" [ref=e277] [cursor=pointer]: "6"
+                - button "Go to Page 7" [ref=e278] [cursor=pointer]: "7"
+                - button "Go to Page 8" [ref=e279] [cursor=pointer]: "8"
+                - button "Next Page" [ref=e280] [cursor=pointer]
+      - generic [ref=e282]:
+        - heading "Here are some resources to enhance your Oracle Cloud Free Tier experience" [level=2] [ref=e284]
+        - list [ref=e286]:
+          - listitem [ref=e287]:
+            - generic [ref=e288]:
+              - heading "Developer Resource Center" [level=3] [ref=e289]
+              - paragraph [ref=e290]:
+                - text: Discover, learn, and build.
+                - text: Create common apps and grow with generative AI. Enjoy unmatched capabilities.
+            - link "Learn more about Developer Resource Center" [ref=e292] [cursor=pointer]:
+              - /url: https://developer.oracle.com
+              - text: Learn more
+              - generic [ref=e293]: about Developer Resource Center
+          - listitem [ref=e294]:
+            - generic [ref=e295]:
+              - heading "Oracle Architecture Center" [level=3] [ref=e296]
+              - paragraph [ref=e297]: Design and implement your workloads faster and more efficiently with reference architectures, quick-start guides, and other resources.
+            - link "Learn more about Oracle Architecture Center" [ref=e299] [cursor=pointer]:
+              - /url: /cloud/architecture-center/
+              - text: Learn more
+              - generic [ref=e300]: about Oracle Architecture Center
+          - listitem [ref=e301]:
+            - generic [ref=e302]:
+              - heading "Free training and accreditation" [level=3] [ref=e303]
+              - paragraph [ref=e304]: The Oracle Learning Explorer program offers entry-level training courses and accreditation for Oracle's entire product portfolio.
+            - link "Learn more about Free training and accreditation" [ref=e306] [cursor=pointer]:
+              - /url: https://education.oracle.com/learning-explorer
+              - text: Learn more
+              - generic [ref=e307]: about Free training and accreditation
+      - generic [ref=e309]:
+        - generic [ref=e310]:
+          - heading "Frequently asked questions" [level=2] [ref=e311]
+          - button "Open all" [ref=e312] [cursor=pointer]:
+            - generic [ref=e313]: Open all
+        - list "Frequently asked questions" [ref=e314]:
+          - listitem [ref=e315] [cursor=pointer]:
+            - button " What is Oracle Cloud Free Tier?" [ref=e316]:
+              - text: 
+              - generic [ref=e317]: What is Oracle Cloud Free Tier?
+          - listitem [ref=e318] [cursor=pointer]:
+            - button " What are Always Free Services?" [ref=e319]:
+              - text: 
+              - generic [ref=e320]: What are Always Free Services?
+          - listitem [ref=e321] [cursor=pointer]:
+            - button " Is Oracle Cloud Free Tier available in all countries?" [ref=e322]:
+              - text: 
+              - generic [ref=e323]: Is Oracle Cloud Free Tier available in all countries?
+          - listitem [ref=e324] [cursor=pointer]:
+            - button " Who is eligible for Oracle Cloud Free Tier?" [ref=e325]:
+              - text: 
+              - generic [ref=e326]: Who is eligible for Oracle Cloud Free Tier?
+          - listitem [ref=e327] [cursor=pointer]:
+            - button " Why do I need to provide credit or debit card information when I sign up for Oracle Cloud Free Tier?" [ref=e328]:
+              - text: 
+              - generic [ref=e329]: Why do I need to provide credit or debit card information when I sign up for Oracle Cloud Free Tier?
+          - listitem [ref=e330] [cursor=pointer]:
+            - button " What payment methods does Oracle accept?" [ref=e331]:
+              - text: 
+              - generic [ref=e332]: What payment methods does Oracle accept?
+          - listitem [ref=e333] [cursor=pointer]:
+            - button " What is the advantage of moving to Pay As You Go accounts after the trial?" [ref=e334]:
+              - text: 
+              - generic [ref=e335]: What is the advantage of moving to Pay As You Go accounts after the trial?
+          - listitem [ref=e336] [cursor=pointer]:
+            - button " How do I know how much I am going be charged for Pay As You Go services?" [ref=e337]:
+              - text: 
+              - generic [ref=e338]: How do I know how much I am going be charged for Pay As You Go services?
+        - paragraph [ref=e339]:
+          - link "View all Oracle Cloud Free Tier FAQ" [ref=e340] [cursor=pointer]:
+            - /url: /cloud/free/faq/
+      - generic [ref=e342]:
+        - paragraph [ref=e343]:
+          - text: "*Free Tier is generally available in regions where commercial Oracle Cloud Infrastructure service is available See the"
+          - link "data regions page" [ref=e344] [cursor=pointer]:
+            - /url: /cloud/public-cloud-regions/service-availability/
+          - text: for detailed service availability (Exact regions available for Free Tier may differ during signup process). The US$300 cloud credit is available in select countries and valid for up to 30 days. Cloud credits consumption can be subject to discounted rates during the 30-day promotional period.
+        - paragraph [ref=e345]: "** Availability to Free Tier is subject to capacity limits. The capacity limits listed under each service are only estimates and reflect the maximum capacity you can get if you consume your entire credit on one service during the promotional period. The maximum capacity per service you get can be less if you consume multiple services. The list of services and capacity estimates are subject to change. Your credit balance is available to you in the Oracle Cloud Infrastructure Console."
+    - contentinfo [ref=e346]:
+      - generic [ref=e348]:
+        - list [ref=e349]:
+          - listitem [ref=e350]:
+            - link "© 2026 Oracle" [ref=e351] [cursor=pointer]:
+              - /url: /legal/copyright.html
+          - listitem [ref=e352]:
+            - link "Privacy" [ref=e353] [cursor=pointer]:
+              - /url: /legal/privacy/
+            - text: /
+            - link "Do Not Sell My Info" [ref=e354] [cursor=pointer]:
+              - /url: /legal/privacy/privacy-choices.html
+          - listitem [ref=e355]:
+            - complementary "Open Cookie Preferences Modal" [ref=e356]:
+              - link "Cookie Preferences, opens a dedicated popup modal window" [ref=e357] [cursor=pointer]: Cookie Preferences
+          - listitem [ref=e358]:
+            - link "Ad Choices" [ref=e359] [cursor=pointer]:
+              - /url: /legal/privacy/privacy-policy/#adchoices
+          - listitem [ref=e360]:
+            - link "Careers" [ref=e361] [cursor=pointer]:
+              - /url: /corporate/careers/
+          - listitem [ref=e362]:
+            - link "Subscribe to emails" [ref=e363] [cursor=pointer]:
+              - /url: https://go.oracle.com/subscribe/?l_code=en&src1=OW:O:FO
+          - listitem [ref=e364]:
+            - link "Integrity Helpline" [ref=e365] [cursor=pointer]:
+              - /url: https://secure.ethicspoint.com/domain/media/en/gui/31053/index.html
+          - listitem [ref=e366]:
+            - link "Contact Us" [ref=e367] [cursor=pointer]:
+              - /url: /corporate/contact/
+        - list [ref=e368]:
+          - listitem [ref=e369]:
+            - link "Facebook" [ref=e370] [cursor=pointer]:
+              - /url: https://www.facebook.com/Oracle/
+              - generic [ref=e371]: Facebook
+          - listitem [ref=e372]:
+            - link "Follow Oracle on X" [ref=e373] [cursor=pointer]:
+              - /url: https://x.com/oracle
+              - generic [ref=e374]: X
+          - listitem [ref=e375]:
+            - link "Oracle on LinkedIn" [ref=e376] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/oracle/
+              - generic [ref=e377]: LinkedIn
+          - listitem [ref=e378]:
+            - link "Watch Oracle on YouTube" [ref=e379] [cursor=pointer]:
+              - /url: https://www.youtube.com/oracle/
+              - generic [ref=e380]: YouTube
+  - generic [ref=e383]:
+    - dialog "Your choices regarding the use of cookies on this site":
+      - img "Loading ..." [ref=e385]

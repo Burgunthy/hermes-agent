@@ -1,0 +1,617 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FNeteaseFuxiRL%2Faction-balance-exploration
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=NeteaseFuxiRL%2Faction-balance-exploration
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "NeteaseFuxiRL" [ref=e70] [cursor=pointer]:
+            - /url: /NeteaseFuxiRL
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "action-balance-exploration" [ref=e73] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/action-balance-exploration
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2FNeteaseFuxiRL%2Faction-balance-exploration
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 2" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2FNeteaseFuxiRL%2Faction-balance-exploration
+                - img [ref=e82]
+                - text: Fork
+                - generic "2" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FNeteaseFuxiRL%2Faction-balance-exploration
+                - img [ref=e88]
+                - text: Star
+                - generic "4 users starred this repository" [ref=e90]: "4"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/action-balance-exploration
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues" [ref=e99] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/action-balance-exploration/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+          - listitem [ref=e104]:
+            - link "Pull requests" [ref=e105] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/action-balance-exploration/pulls
+              - img [ref=e106]
+              - generic [ref=e108]: Pull requests
+          - listitem [ref=e109]:
+            - link "Actions" [ref=e110] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/action-balance-exploration/actions
+              - img [ref=e111]
+              - generic [ref=e113]: Actions
+          - listitem [ref=e114]:
+            - link "Projects" [ref=e115] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/action-balance-exploration/projects
+              - img [ref=e116]
+              - generic [ref=e118]: Projects
+          - listitem [ref=e119]:
+            - link "Security and quality" [ref=e120] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/action-balance-exploration/security
+              - img [ref=e121]
+              - generic [ref=e123]: Security and quality
+          - listitem [ref=e124]:
+            - link "Insights" [ref=e125] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/action-balance-exploration/pulse
+              - img [ref=e126]
+              - generic [ref=e128]: Insights
+    - generic [ref=e141]:
+      - heading "NeteaseFuxiRL/action-balance-exploration" [level=1] [ref=e143]
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - button "master branch" [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]:
+                  - generic [ref=e154]:
+                    - img [ref=e156]
+                    - generic [ref=e159]: master
+                  - generic:
+                    - img
+              - generic [ref=e160]:
+                - link "1 Branch" [ref=e161] [cursor=pointer]:
+                  - /url: /NeteaseFuxiRL/action-balance-exploration/branches
+                  - generic [ref=e162]:
+                    - generic:
+                      - img
+                    - generic [ref=e164]:
+                      - strong [ref=e165]: "1"
+                      - text: Branch
+                - link "0 Tags" [ref=e166] [cursor=pointer]:
+                  - /url: /NeteaseFuxiRL/action-balance-exploration/tags
+                  - generic [ref=e167]:
+                    - generic:
+                      - img
+                    - generic [ref=e169]:
+                      - strong [ref=e170]: "0"
+                      - text: Tags
+            - generic [ref=e171]:
+              - generic [ref=e175]:
+                - img [ref=e177]
+                - combobox "Go to file" [ref=e179]
+              - button "Code" [ref=e180] [cursor=pointer]:
+                - generic [ref=e181]:
+                  - generic:
+                    - img
+                  - generic [ref=e182]: Code
+                  - generic:
+                    - img
+          - generic [ref=e183]:
+            - generic [ref=e184]:
+              - heading "Folders and files" [level=2] [ref=e185]
+              - table "Folders and files" [ref=e186]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e187]:
+                  - row "Latest commit FuxiRL commits by FuxiRL Update README.md Commit d0f5c19 · Apr 19, 20224 years ago History 4 Commits" [ref=e188]:
+                    - cell "Latest commit FuxiRL commits by FuxiRL Update README.md Commit d0f5c19 · Apr 19, 20224 years ago History 4 Commits" [ref=e189]:
+                      - generic [ref=e190]:
+                        - heading "Latest commit" [level=2] [ref=e191]
+                        - generic [ref=e192]:
+                          - generic [ref=e194]:
+                            - link "FuxiRL" [ref=e195] [cursor=pointer]:
+                              - /url: /FuxiRL
+                              - img "FuxiRL" [ref=e196]
+                            - link "commits by FuxiRL" [ref=e197] [cursor=pointer]:
+                              - /url: /NeteaseFuxiRL/action-balance-exploration/commits?author=FuxiRL
+                              - text: FuxiRL
+                          - link "Update README.md" [ref=e201] [cursor=pointer]:
+                            - /url: /NeteaseFuxiRL/action-balance-exploration/commit/d0f5c195dcc1340d892257cc039a6c0fc26a365b
+                        - generic [ref=e202]:
+                          - generic [ref=e204]:
+                            - link "Commit d0f5c19" [ref=e205] [cursor=pointer]:
+                              - /url: /NeteaseFuxiRL/action-balance-exploration/commit/d0f5c195dcc1340d892257cc039a6c0fc26a365b
+                              - text: d0f5c19
+                            - text: ·
+                            - generic "Apr 19, 2022, 6:10 PM GMT+9" [ref=e206]: Apr 19, 20224 years ago
+                          - generic [ref=e207]:
+                            - heading "History" [level=2] [ref=e208]
+                            - link "4 Commits" [ref=e209] [cursor=pointer]:
+                              - /url: /NeteaseFuxiRL/action-balance-exploration/commits/master/
+                              - generic [ref=e210]:
+                                - generic:
+                                  - img
+                                - generic [ref=e211]: 4 Commits
+                  - row "grid-experiments, (Directory) remove useless codes Nov 18, 20197 years ago" [ref=e212]:
+                    - cell "grid-experiments, (Directory)" [ref=e213]:
+                      - generic [ref=e214]:
+                        - img [ref=e215]
+                        - link "grid-experiments, (Directory)" [ref=e220] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/tree/master/grid-experiments
+                          - text: grid-experiments
+                    - cell "remove useless codes" [ref=e221]:
+                      - link "remove useless codes" [ref=e224] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/commit/085ea521105e82b9c02eef3d5e3526902ffd6d14
+                    - cell "Nov 18, 20197 years ago" [ref=e225]:
+                      - generic [ref=e226]: Nov 18, 20197 years ago
+                  - row "policies, (Directory) remove useless codes Nov 18, 20197 years ago" [ref=e227]:
+                    - cell "policies, (Directory)" [ref=e228]:
+                      - generic [ref=e229]:
+                        - img [ref=e230]
+                        - link "policies, (Directory)" [ref=e235] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/tree/master/policies
+                          - text: policies
+                    - cell "remove useless codes" [ref=e236]:
+                      - link "remove useless codes" [ref=e239] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/commit/085ea521105e82b9c02eef3d5e3526902ffd6d14
+                    - cell "Nov 18, 20197 years ago" [ref=e240]:
+                      - generic [ref=e241]: Nov 18, 20197 years ago
+                  - row ".gitignore, (File) remove useless codes Nov 18, 20197 years ago" [ref=e242]:
+                    - cell ".gitignore, (File)" [ref=e243]:
+                      - generic [ref=e244]:
+                        - img [ref=e245]
+                        - link ".gitignore, (File)" [ref=e250] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/blob/master/.gitignore
+                          - text: .gitignore
+                    - cell "remove useless codes" [ref=e251]:
+                      - link "remove useless codes" [ref=e254] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/commit/085ea521105e82b9c02eef3d5e3526902ffd6d14
+                    - cell "Nov 18, 20197 years ago" [ref=e255]:
+                      - generic [ref=e256]: Nov 18, 20197 years ago
+                  - row "LICENSE, (File) update readme and LICENSE May 20, 20206 years ago" [ref=e257]:
+                    - cell "LICENSE, (File)" [ref=e258]:
+                      - generic [ref=e259]:
+                        - img [ref=e260]
+                        - link "LICENSE, (File)" [ref=e265] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/blob/master/LICENSE
+                          - text: LICENSE
+                    - cell "update readme and LICENSE" [ref=e266]:
+                      - link "update readme and LICENSE" [ref=e269] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/commit/c527ec071c5762b1cc34b484433690549d752a3e
+                    - cell "May 20, 20206 years ago" [ref=e270]:
+                      - generic [ref=e271]: May 20, 20206 years ago
+                  - row "README.md, (File) Update README.md Apr 19, 20224 years ago" [ref=e272]:
+                    - cell "README.md, (File)" [ref=e273]:
+                      - generic [ref=e274]:
+                        - img [ref=e275]
+                        - link "README.md, (File)" [ref=e280] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/blob/master/README.md
+                          - text: README.md
+                    - cell "Update README.md" [ref=e281]:
+                      - link "Update README.md" [ref=e284] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/commit/d0f5c195dcc1340d892257cc039a6c0fc26a365b
+                    - cell "Apr 19, 20224 years ago" [ref=e285]:
+                      - generic [ref=e286]: Apr 19, 20224 years ago
+                  - row "atari_wrappers.py, (File) remove useless codes Nov 18, 20197 years ago" [ref=e287]:
+                    - cell "atari_wrappers.py, (File)" [ref=e288]:
+                      - generic [ref=e289]:
+                        - img [ref=e290]
+                        - link "atari_wrappers.py, (File)" [ref=e295] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/blob/master/atari_wrappers.py
+                          - text: atari_wrappers.py
+                    - cell "remove useless codes" [ref=e296]:
+                      - link "remove useless codes" [ref=e299] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/commit/085ea521105e82b9c02eef3d5e3526902ffd6d14
+                    - cell "Nov 18, 20197 years ago" [ref=e300]:
+                      - generic [ref=e301]: Nov 18, 20197 years ago
+                  - row "cmd_util.py, (File) first commit Nov 16, 20197 years ago" [ref=e302]:
+                    - cell "cmd_util.py, (File)" [ref=e303]:
+                      - generic [ref=e304]:
+                        - img [ref=e305]
+                        - link "cmd_util.py, (File)" [ref=e310] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/blob/master/cmd_util.py
+                          - text: cmd_util.py
+                    - cell "first commit" [ref=e311]:
+                      - link "first commit" [ref=e314] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/commit/66541ada4381174d53d03b80013b0419964cf8c0
+                    - cell "Nov 16, 20197 years ago" [ref=e315]:
+                      - generic [ref=e316]: Nov 16, 20197 years ago
+                  - row "console_util.py, (File) first commit Nov 16, 20197 years ago" [ref=e317]:
+                    - cell "console_util.py, (File)" [ref=e318]:
+                      - generic [ref=e319]:
+                        - img [ref=e320]
+                        - link "console_util.py, (File)" [ref=e325] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/blob/master/console_util.py
+                          - text: console_util.py
+                    - cell "first commit" [ref=e326]:
+                      - link "first commit" [ref=e329] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/commit/66541ada4381174d53d03b80013b0419964cf8c0
+                    - cell "Nov 16, 20197 years ago" [ref=e330]:
+                      - generic [ref=e331]: Nov 16, 20197 years ago
+                  - row "load_log.py, (File) first commit Nov 16, 20197 years ago" [ref=e332]:
+                    - cell "load_log.py, (File)" [ref=e333]:
+                      - generic [ref=e334]:
+                        - img [ref=e335]
+                        - link "load_log.py, (File)" [ref=e340] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/blob/master/load_log.py
+                          - text: load_log.py
+                    - cell "first commit" [ref=e341]:
+                      - link "first commit" [ref=e344] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/commit/66541ada4381174d53d03b80013b0419964cf8c0
+                    - cell "Nov 16, 20197 years ago" [ref=e345]:
+                      - generic [ref=e346]: Nov 16, 20197 years ago
+                  - row "monitor.py, (File) first commit Nov 16, 20197 years ago" [ref=e347]:
+                    - cell "monitor.py, (File)" [ref=e348]:
+                      - generic [ref=e349]:
+                        - img [ref=e350]
+                        - link "monitor.py, (File)" [ref=e355] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/blob/master/monitor.py
+                          - text: monitor.py
+                    - cell "first commit" [ref=e356]:
+                      - link "first commit" [ref=e359] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/commit/66541ada4381174d53d03b80013b0419964cf8c0
+                    - cell "Nov 16, 20197 years ago" [ref=e360]:
+                      - generic [ref=e361]: Nov 16, 20197 years ago
+                  - row "mpi_util.py, (File) first commit Nov 16, 20197 years ago" [ref=e362]:
+                    - cell "mpi_util.py, (File)" [ref=e363]:
+                      - generic [ref=e364]:
+                        - img [ref=e365]
+                        - link "mpi_util.py, (File)" [ref=e370] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/blob/master/mpi_util.py
+                          - text: mpi_util.py
+                    - cell "first commit" [ref=e371]:
+                      - link "first commit" [ref=e374] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/commit/66541ada4381174d53d03b80013b0419964cf8c0
+                    - cell "Nov 16, 20197 years ago" [ref=e375]:
+                      - generic [ref=e376]: Nov 16, 20197 years ago
+                  - row "ppo_agent.py, (File) first commit Nov 16, 20197 years ago" [ref=e377]:
+                    - cell "ppo_agent.py, (File)" [ref=e378]:
+                      - generic [ref=e379]:
+                        - img [ref=e380]
+                        - link "ppo_agent.py, (File)" [ref=e385] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/blob/master/ppo_agent.py
+                          - text: ppo_agent.py
+                    - cell "first commit" [ref=e386]:
+                      - link "first commit" [ref=e389] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/commit/66541ada4381174d53d03b80013b0419964cf8c0
+                    - cell "Nov 16, 20197 years ago" [ref=e390]:
+                      - generic [ref=e391]: Nov 16, 20197 years ago
+                  - row "recorder.py, (File) first commit Nov 16, 20197 years ago" [ref=e392]:
+                    - cell "recorder.py, (File)" [ref=e393]:
+                      - generic [ref=e394]:
+                        - img [ref=e395]
+                        - link "recorder.py, (File)" [ref=e400] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/blob/master/recorder.py
+                          - text: recorder.py
+                    - cell "first commit" [ref=e401]:
+                      - link "first commit" [ref=e404] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/commit/66541ada4381174d53d03b80013b0419964cf8c0
+                    - cell "Nov 16, 20197 years ago" [ref=e405]:
+                      - generic [ref=e406]: Nov 16, 20197 years ago
+                  - row "replayer.py, (File) first commit Nov 16, 20197 years ago" [ref=e407]:
+                    - cell "replayer.py, (File)" [ref=e408]:
+                      - generic [ref=e409]:
+                        - img [ref=e410]
+                        - link "replayer.py, (File)" [ref=e415] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/blob/master/replayer.py
+                          - text: replayer.py
+                    - cell "first commit" [ref=e416]:
+                      - link "first commit" [ref=e419] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/commit/66541ada4381174d53d03b80013b0419964cf8c0
+                    - cell "Nov 16, 20197 years ago" [ref=e420]:
+                      - generic [ref=e421]: Nov 16, 20197 years ago
+                  - row "run_atari.py, (File) remove useless codes Nov 18, 20197 years ago" [ref=e422]:
+                    - cell "run_atari.py, (File)" [ref=e423]:
+                      - generic [ref=e424]:
+                        - img [ref=e425]
+                        - link "run_atari.py, (File)" [ref=e430] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/blob/master/run_atari.py
+                          - text: run_atari.py
+                    - cell "remove useless codes" [ref=e431]:
+                      - link "remove useless codes" [ref=e434] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/commit/085ea521105e82b9c02eef3d5e3526902ffd6d14
+                    - cell "Nov 18, 20197 years ago" [ref=e435]:
+                      - generic [ref=e436]: Nov 18, 20197 years ago
+                  - row "stochastic_policy.py, (File) first commit Nov 16, 20197 years ago" [ref=e437]:
+                    - cell "stochastic_policy.py, (File)" [ref=e438]:
+                      - generic [ref=e439]:
+                        - img [ref=e440]
+                        - link "stochastic_policy.py, (File)" [ref=e445] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/blob/master/stochastic_policy.py
+                          - text: stochastic_policy.py
+                    - cell "first commit" [ref=e446]:
+                      - link "first commit" [ref=e449] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/commit/66541ada4381174d53d03b80013b0419964cf8c0
+                    - cell "Nov 16, 20197 years ago" [ref=e450]:
+                      - generic [ref=e451]: Nov 16, 20197 years ago
+                  - row "tf_util.py, (File) first commit Nov 16, 20197 years ago" [ref=e452]:
+                    - cell "tf_util.py, (File)" [ref=e453]:
+                      - generic [ref=e454]:
+                        - img [ref=e455]
+                        - link "tf_util.py, (File)" [ref=e460] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/blob/master/tf_util.py
+                          - text: tf_util.py
+                    - cell "first commit" [ref=e461]:
+                      - link "first commit" [ref=e464] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/commit/66541ada4381174d53d03b80013b0419964cf8c0
+                    - cell "Nov 16, 20197 years ago" [ref=e465]:
+                      - generic [ref=e466]: Nov 16, 20197 years ago
+                  - row "utils.py, (File) first commit Nov 16, 20197 years ago" [ref=e467]:
+                    - cell "utils.py, (File)" [ref=e468]:
+                      - generic [ref=e469]:
+                        - img [ref=e470]
+                        - link "utils.py, (File)" [ref=e475] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/blob/master/utils.py
+                          - text: utils.py
+                    - cell "first commit" [ref=e476]:
+                      - link "first commit" [ref=e479] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/commit/66541ada4381174d53d03b80013b0419964cf8c0
+                    - cell "Nov 16, 20197 years ago" [ref=e480]:
+                      - generic [ref=e481]: Nov 16, 20197 years ago
+                  - row "vec_env.py, (File) first commit Nov 16, 20197 years ago" [ref=e482]:
+                    - cell "vec_env.py, (File)" [ref=e483]:
+                      - generic [ref=e484]:
+                        - img [ref=e485]
+                        - link "vec_env.py, (File)" [ref=e490] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/blob/master/vec_env.py
+                          - text: vec_env.py
+                    - cell "first commit" [ref=e491]:
+                      - link "first commit" [ref=e494] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/commit/66541ada4381174d53d03b80013b0419964cf8c0
+                    - cell "Nov 16, 20197 years ago" [ref=e495]:
+                      - generic [ref=e496]: Nov 16, 20197 years ago
+            - generic [ref=e498]:
+              - generic [ref=e499]:
+                - heading "Repository files navigation" [level=2] [ref=e500]
+                - navigation "Repository files" [ref=e501]:
+                  - list [ref=e502]:
+                    - listitem [ref=e503]:
+                      - link "README" [ref=e504] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e506]
+                        - generic [ref=e508]: README
+                    - listitem [ref=e509]:
+                      - link "GPL-3.0 license" [ref=e510] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e512]
+                        - generic [ref=e514]: GPL-3.0 license
+                - button "Outline" [ref=e515] [cursor=pointer]:
+                  - img [ref=e516]
+              - article [ref=e519]:
+                - paragraph [ref=e520]:
+                  - link "fuxi_logo" [ref=e521] [cursor=pointer]:
+                    - /url: https://github.com/NeteaseFuxiRL/FeverBasketball/blob/master/materials/image/Fuxi_logo.png
+                    - img "fuxi_logo" [ref=e522]
+                - generic [ref=e523]:
+                  - heading "Code for the paper \"Exploring Unknown States with Action Balance\"" [level=1] [ref=e524]
+                  - 'link "Permalink: Code for the paper \"Exploring Unknown States with Action Balance\"" [ref=e525] [cursor=pointer]':
+                    - /url: "#code-for-the-paper-exploring-unknown-states-with-action-balance"
+                    - img [ref=e526]
+                - paragraph [ref=e528]: "If you find this code useful, please reference in your paper:"
+                - generic [ref=e529]:
+                  - code [ref=e531]: "@article{DBLP:journals/corr/abs-2003-04518, author = {Yan Song and Yingfeng Chen and Yujing Hu and Changjie Fan}, title = {Exploring Unknown States with Action Balance}, journal = {CoRR}, year = {2020} }"
+                  - button "Copy code to clipboard" [ref=e533] [cursor=pointer]:
+                    - img [ref=e534]
+                - generic [ref=e537]:
+                  - heading "Usage" [level=2] [ref=e538]
+                  - 'link "Permalink: Usage" [ref=e539] [cursor=pointer]':
+                    - /url: "#usage"
+                    - img [ref=e540]
+                - paragraph [ref=e542]:
+                  - strong [ref=e543]: "Finding unknown states (Grid world):"
+                - paragraph [ref=e544]: Run following command for one group experiment.
+                - generic [ref=e545]:
+                  - generic [ref=e546]: cd grid-experiments && mkdir logs ./run_no_ends.sh no_ends_test run1 100 100 128 1
+                  - button "Copy code to clipboard" [ref=e548] [cursor=pointer]:
+                    - img [ref=e549]
+                - paragraph [ref=e552]:
+                  - strong [ref=e553]: "Reaching goals (Grid world):"
+                - generic [ref=e554]:
+                  - generic [ref=e555]: cd grid-experiments && mkdir logs ./run_reach_goal.sh reach_goals_test 128 1
+                  - button "Copy code to clipboard" [ref=e557] [cursor=pointer]:
+                    - img [ref=e558]
+                - paragraph [ref=e561]:
+                  - strong [ref=e562]: "Atari:"
+                - paragraph [ref=e563]:
+                  - text: This implementation is mainly based on
+                  - strong [ref=e564]:
+                    - link "random-network-distillation" [ref=e565] [cursor=pointer]:
+                      - /url: https://github.com/openai/random-network-distillation
+                  - text: . The following command should train an
+                  - emphasis [ref=e566]: action balance RND
+                  - text: with action channel on Montezuma's Revenge.
+                - list [ref=e567]:
+                  - listitem [ref=e568]:
+                    - code [ref=e569]: "--abc"
+                    - text: ": 0 or 1, whether use action balance exploration. 0 means only RND."
+                  - listitem [ref=e570]:
+                    - code [ref=e571]: "--array_action"
+                    - text: ": 0 or 1, whether use action channel."
+                - generic [ref=e572]:
+                  - code [ref=e574]: python3 -u run_atari.py --env=MontezumaRevengeNoFrameskip-v4 --num_env=32 --gamma_ext 0.999 --abc=1 --seed=0 --array_action=1 --logdir /tmp/action_balance_tmp_run
+                  - button "Copy code to clipboard" [ref=e576] [cursor=pointer]:
+                    - img [ref=e577]
+                - paragraph [ref=e580]:
+                  - text: If you have any question, please contact
+                  - link "yansong1024@gmail.com" [ref=e581] [cursor=pointer]:
+                    - /url: mailto:yansong1024@gmail.com
+                  - text: .
+        - generic [ref=e585]:
+          - generic [ref=e588]:
+            - heading "About" [level=2] [ref=e589]
+            - generic [ref=e590]: No description, website, or topics provided.
+            - heading "Resources" [level=3] [ref=e591]
+            - link "Readme" [ref=e593] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e594]
+              - text: Readme
+            - heading "License" [level=3] [ref=e596]
+            - link "GPL-3.0 license" [ref=e598] [cursor=pointer]:
+              - /url: "#GPL-3.0-1-ov-file"
+              - img [ref=e599]
+              - text: GPL-3.0 license
+            - link "Activity" [ref=e602] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/action-balance-exploration/activity
+              - img [ref=e603]
+              - text: Activity
+            - link "Custom properties" [ref=e606] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/action-balance-exploration/custom-properties
+              - img [ref=e607]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e609]
+            - link "4 stars" [ref=e611] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/action-balance-exploration/stargazers
+              - img [ref=e612]
+              - strong [ref=e614]: "4"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e615]
+            - link "1 watching" [ref=e617] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/action-balance-exploration/watchers
+              - img [ref=e618]
+              - strong [ref=e620]: "1"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e621]
+            - link "2 forks" [ref=e623] [cursor=pointer]:
+              - /url: /NeteaseFuxiRL/action-balance-exploration/forks
+              - img [ref=e624]
+              - strong [ref=e626]: "2"
+              - text: forks
+            - link "Report repository" [ref=e628] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FNeteaseFuxiRL%2Faction-balance-exploration&report=NeteaseFuxiRL+%28user%29
+          - generic [ref=e630]:
+            - heading "Releases" [level=2] [ref=e631]:
+              - link "Releases" [ref=e632] [cursor=pointer]:
+                - /url: /NeteaseFuxiRL/action-balance-exploration/releases
+            - generic [ref=e633]: No releases published
+          - generic [ref=e635]:
+            - heading "Packages" [level=2] [ref=e636]:
+              - link "Packages" [ref=e637] [cursor=pointer]:
+                - /url: /orgs/NeteaseFuxiRL/packages?repo_name=action-balance-exploration
+            - generic [ref=e638]: No packages published
+          - generic [ref=e640]:
+            - heading "Contributors 1" [level=2] [ref=e641]:
+              - link "Contributors 1" [ref=e642] [cursor=pointer]:
+                - /url: /NeteaseFuxiRL/action-balance-exploration/graphs/contributors
+                - text: Contributors
+                - generic "1" [ref=e643]
+            - list [ref=e644]:
+              - listitem [ref=e645]:
+                - link "@FuxiRL" [ref=e646] [cursor=pointer]:
+                  - /url: https://github.com/FuxiRL
+                  - img "@FuxiRL" [ref=e647]
+                - link "FuxiRL" [ref=e649] [cursor=pointer]:
+                  - /url: https://github.com/FuxiRL
+                  - strong [ref=e650]: FuxiRL
+          - generic [ref=e652]:
+            - heading "Languages" [level=2] [ref=e653]
+            - list [ref=e658]:
+              - listitem [ref=e659]:
+                - link "Python 99.4%" [ref=e660] [cursor=pointer]:
+                  - /url: /NeteaseFuxiRL/action-balance-exploration/search?l=python
+                  - img [ref=e661]
+                  - generic [ref=e663]: Python
+                  - generic [ref=e664]: 99.4%
+              - listitem [ref=e665]:
+                - link "Shell 0.6%" [ref=e666] [cursor=pointer]:
+                  - /url: /NeteaseFuxiRL/action-balance-exploration/search?l=shell
+                  - img [ref=e667]
+                  - generic [ref=e669]: Shell
+                  - generic [ref=e670]: 0.6%
+  - contentinfo [ref=e672]:
+    - heading "Footer" [level=2] [ref=e673]
+    - generic [ref=e674]:
+      - generic [ref=e675]:
+        - link "GitHub Homepage" [ref=e676] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e677]
+        - generic [ref=e679]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e680]:
+        - heading "Footer navigation" [level=3] [ref=e681]
+        - list "Footer navigation" [ref=e682]:
+          - listitem [ref=e683]:
+            - link "Terms" [ref=e684] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e685]:
+            - link "Privacy" [ref=e686] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e687]:
+            - link "Security" [ref=e688] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e689]:
+            - link "Status" [ref=e690] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e691]:
+            - link "Community" [ref=e692] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e693]:
+            - link "Docs" [ref=e694] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e695]:
+            - link "Contact" [ref=e696] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e697]:
+            - button "Manage cookies" [ref=e699] [cursor=pointer]
+          - listitem [ref=e700]:
+            - button "Do not share my personal information" [ref=e702] [cursor=pointer]

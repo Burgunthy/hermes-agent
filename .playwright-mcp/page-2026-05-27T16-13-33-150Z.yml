@@ -1,0 +1,189 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [active] [ref=e9] [cursor=pointer]
+        - generic [ref=e11]:
+          - link "YouTube Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e16]: KR
+        - button "Skip navigation" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: Skip navigation
+      - generic [ref=e25]:
+        - search [ref=e26]:
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - combobox "Search" [expanded] [ref=e30]: rdlx-1 AI model
+              - button "Clear search query" [ref=e32] [cursor=pointer]
+            - button "Search" [ref=e37] [cursor=pointer]
+        - generic [ref=e40]:
+          - button "Search with your voice" [ref=e42] [cursor=pointer]
+          - tooltip "tooltip"
+  - navigation [ref=e53]
+  - main [ref=e55]:
+    - generic [ref=e56]:
+      - generic [ref=e58]:
+        - tablist [ref=e63]:
+          - tab "All" [selected] [ref=e67] [cursor=pointer]:
+            - generic [ref=e69]: All
+          - tab "Shorts" [ref=e76] [cursor=pointer]:
+            - generic [ref=e78]: Shorts
+          - tab "Unwatched" [ref=e85] [cursor=pointer]:
+            - generic [ref=e87]: Unwatched
+          - tab "Watched" [ref=e94] [cursor=pointer]:
+            - generic [ref=e96]: Watched
+          - tab "Videos" [ref=e103] [cursor=pointer]:
+            - generic [ref=e105]: Videos
+          - tab "Recently uploaded" [ref=e112] [cursor=pointer]:
+            - generic [ref=e114]: Recently uploaded
+          - tab "Live" [ref=e121] [cursor=pointer]:
+            - generic [ref=e123]: Live
+        - generic [ref=e128]:
+          - button "Search filters" [ref=e130] [cursor=pointer]:
+            - generic [ref=e131]: Filters
+          - tooltip "tooltip"
+      - generic [ref=e142]:
+        - generic [ref=e147]:
+          - img [ref=e153]
+          - generic [ref=e155] [cursor=pointer]:
+            - generic [ref=e156]:
+              - link "Hire Globally with Ease" [ref=e159]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CNT1GKBgXaq3MNPWyr7wP2IPV8Q7XoOPThQH3xviKtRWwkB8QASAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGr1bS7AqgDBMgDCqoEowJP0OVvMI8el9PCNLcpMff2NSZNmSFSbFFTtzKi3B64Q0DgHmN1_eCLAe83XstaMqth4Sv9zm_iH4u3DR1bmsT9VqC23gthOwScK9QYN9qMANUdmXfkaermti4P0c8RA7dNMOgpW0fHY34B0lzioAbk_RG_aa0_Yy4c1vJ7_Et6J3swyK2Jkivl6RoMoj7IDBBjGw5ntzOA8tOt7z-b6yf8Js8Lq3bj4yZNiIclrQZ65quzMS7VonDRcNHcaQ3a70xk32vFzkoUClWnDnni7I6Ol-_eSW0pU39Zjkdyw26eB7GPoWvUxpMp6CY-qJOWm807SjGcAT8uT0ua7hXISkaGImtTeNEPNHp-FZS4yKZo4frbbyt4sEdQTheByMiZldnr1hyIBeqDut9XkgUICBN4r6jRkgOgBm6AB7O8qpADkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB77ZsQKoB6vFG6gHt6GxAqgH1amxAqgH3rWxAtIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWODylaPu2ZQDYAGaCV5odHRwczovL3d3dy5nbG9iYWxpemF0aW9uLXBhcnRuZXJzLmNvbS9yZXNvdXJjZXMvZWJvb2stZ2xvYmFsLWhpcmluZy1ndWlkZS1maW5hbmNpYWwtc2VydmljZXMvsQkJz0sq4QRxksgJAMgJigKYCwG6Cz8IAxAFGAQgCCgBMBxAAUgAWE5gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBroDB3ZpdHBlcmLQCxKiDAwqCgoIjt-xApXisQLSDAIQAZoNARKqDQJLUsgNAdINhwRodHRwczovL3d3dy5nbG9iYWxpemF0aW9uLXBhcnRuZXJzLmNvbS9yZXNvdXJjZXMvZWJvb2stZ2xvYmFsLWhpcmluZy1ndWlkZS1maW5hbmNpYWwtc2VydmljZXMvP3V0bV9kZXZpY2U9YyZ1dG1fa2V5d29yZD0mdXRtX21hdGNodHlwZT0mZ3BidWNpPXtnY2xpZH0mY3FfY21wPTIzNTU0MDY0ODc0JnV0bV9zb3VyY2U9QWR3b3JkcyZ1dG1fbWVkaXVtPWNwYyZ1dG1fY2FtcGFpZ249c291dGhfa29yZWFfX2RlbWFuZF9nZW5fX2RlbWFuZGJhc2VfbG9va2FsaWtlX19bZW5dJnV0bV9jb250ZW50PWRnX2ZpbmFuY2VfZGVtYW5kYmFzZV9sb29rYWxpa2UmdXRtX3Rlcm09JmhzYV9hY2M9OTYwMTIwMjA3MCZoc2FfY2FtPTIzNTU0MDY0ODc0JmhzYV9ncnA9MTk2NzkwMzU1ODAxJmhzYV9hZD03OTcyODQ0MzY4MDQmaHNhX3NyYz0maHNhX3RndD1hdWQtMjQ2ODMwNDE4Mjg1OSZoc2Ffa3c9JmhzYV9tdD0maHNhX25ldD1hZHdvcmRzJmhzYV92ZXI9MyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM1NTQwNjQ4NzS4E____________wGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXzdJ8iJeT-fy6FwYoADAAOAHQGAHwGAHCGQIIAQ&gclid=EAIaIQobChMIrYCWo-7ZlAMVddmLAR3YQTXuEAEYASAAEgKFzPD_BwE&num=1&cid=CAASqgHkaEd4gz9feo3y08nfg7KvgybOY5_gm2fIP7usp1ttkt6dbOWZIKoZo8B3YufPjHzjwgV6pMLbFyMp5-VWrp3R5VKyEu9WxJkl7_cA24ozxrVZ5lD53dc4kap5Wbb_jY351Os4w_zdFqlBb96mA74FXqlLU5u5PTVATiMYzd6jXv_lTpgbvRaHed3D-X9rqaQsrgZ_a-fchaRGOAHrEYyV8Uoft-apAcXcOg&sig=AOD64_11rcKv2OejGWqRH-dlHUfmFdctbA&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - link "Turn Global Hiring Complexity Into a Competitive Advantage. Download the Complete Toolkit." [ref=e162]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CNT1GKBgXaq3MNPWyr7wP2IPV8Q7XoOPThQH3xviKtRWwkB8QASAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGr1bS7AqgDBMgDCqoEowJP0OVvMI8el9PCNLcpMff2NSZNmSFSbFFTtzKi3B64Q0DgHmN1_eCLAe83XstaMqth4Sv9zm_iH4u3DR1bmsT9VqC23gthOwScK9QYN9qMANUdmXfkaermti4P0c8RA7dNMOgpW0fHY34B0lzioAbk_RG_aa0_Yy4c1vJ7_Et6J3swyK2Jkivl6RoMoj7IDBBjGw5ntzOA8tOt7z-b6yf8Js8Lq3bj4yZNiIclrQZ65quzMS7VonDRcNHcaQ3a70xk32vFzkoUClWnDnni7I6Ol-_eSW0pU39Zjkdyw26eB7GPoWvUxpMp6CY-qJOWm807SjGcAT8uT0ua7hXISkaGImtTeNEPNHp-FZS4yKZo4frbbyt4sEdQTheByMiZldnr1hyIBeqDut9XkgUICBN4r6jRkgOgBm6AB7O8qpADkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB77ZsQKoB6vFG6gHt6GxAqgH1amxAqgH3rWxAtIILgiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWODylaPu2ZQDYAGaCV5odHRwczovL3d3dy5nbG9iYWxpemF0aW9uLXBhcnRuZXJzLmNvbS9yZXNvdXJjZXMvZWJvb2stZ2xvYmFsLWhpcmluZy1ndWlkZS1maW5hbmNpYWwtc2VydmljZXMvsQkJz0sq4QRxksgJAMgJigKYCwG6Cz8IAxAFGAQgCCgBMBxAAUgAWE5gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBroDB3ZpdHBlcmLQCxKiDAwqCgoIjt-xApXisQLSDAIQAZoNARKqDQJLUsgNAdINhwRodHRwczovL3d3dy5nbG9iYWxpemF0aW9uLXBhcnRuZXJzLmNvbS9yZXNvdXJjZXMvZWJvb2stZ2xvYmFsLWhpcmluZy1ndWlkZS1maW5hbmNpYWwtc2VydmljZXMvP3V0bV9kZXZpY2U9YyZ1dG1fa2V5d29yZD0mdXRtX21hdGNodHlwZT0mZ3BidWNpPXtnY2xpZH0mY3FfY21wPTIzNTU0MDY0ODc0JnV0bV9zb3VyY2U9QWR3b3JkcyZ1dG1fbWVkaXVtPWNwYyZ1dG1fY2FtcGFpZ249c291dGhfa29yZWFfX2RlbWFuZF9nZW5fX2RlbWFuZGJhc2VfbG9va2FsaWtlX19bZW5dJnV0bV9jb250ZW50PWRnX2ZpbmFuY2VfZGVtYW5kYmFzZV9sb29rYWxpa2UmdXRtX3Rlcm09JmhzYV9hY2M9OTYwMTIwMjA3MCZoc2FfY2FtPTIzNTU0MDY0ODc0JmhzYV9ncnA9MTk2NzkwMzU1ODAxJmhzYV9hZD03OTcyODQ0MzY4MDQmaHNhX3NyYz0maHNhX3RndD1hdWQtMjQ2ODMwNDE4Mjg1OSZoc2Ffa3c9JmhzYV9tdD0maHNhX25ldD1hZHdvcmRzJmhzYV92ZXI9MyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM1NTQwNjQ4NzS4E____________wGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXzdJ8iJeT-fy6FwYoADAAOAHQGAHwGAHCGQIIAQ&gclid=EAIaIQobChMIrYCWo-7ZlAMVddmLAR3YQTXuEAEYASAAEgKFzPD_BwE&num=1&cid=CAASqgHkaEd4gz9feo3y08nfg7KvgybOY5_gm2fIP7usp1ttkt6dbOWZIKoZo8B3YufPjHzjwgV6pMLbFyMp5-VWrp3R5VKyEu9WxJkl7_cA24ozxrVZ5lD53dc4kap5Wbb_jY351Os4w_zdFqlBb96mA74FXqlLU5u5PTVATiMYzd6jXv_lTpgbvRaHed3D-X9rqaQsrgZ_a-fchaRGOAHrEYyV8Uoft-apAcXcOg&sig=AOD64_11rcKv2OejGWqRH-dlHUfmFdctbA&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - generic [ref=e163]:
+                - generic [ref=e165]:
+                  - generic [ref=e166]: Sponsored
+                  - text: ·
+                - generic [ref=e168]: G-P
+            - button "My Ad Center" [ref=e171]
+        - generic [ref=e177]:
+          - generic [ref=e180]:
+            - img [ref=e182]
+            - heading "Shorts" [level=2] [ref=e185]
+          - generic [ref=e187]:
+            - generic [ref=e190]:
+              - link [ref=e191] [cursor=pointer]:
+                - /url: /shorts/o6p8wl9mfhQ
+                - img [ref=e196]:
+                  - generic [ref=e197]: New
+              - generic [ref=e198] [cursor=pointer]:
+                - link "RLDX-1 Powers Two Robots to Pack and Sort" [ref=e199]:
+                  - /url: /shorts/o6p8wl9mfhQ
+                - generic [ref=e200]: 155K views
+              - button "More actions" [ref=e202] [cursor=pointer]
+            - generic [ref=e210]:
+              - link [ref=e211] [cursor=pointer]:
+                - /url: /shorts/lD8cheKBT14
+              - generic [ref=e215] [cursor=pointer]:
+                - link "Building RLDX-1" [ref=e216]:
+                  - /url: /shorts/lD8cheKBT14
+                - generic [ref=e217]: 713 views
+              - button "More actions" [ref=e219] [cursor=pointer]
+            - generic [ref=e227]:
+              - link [ref=e228] [cursor=pointer]:
+                - /url: /shorts/Gw0XVxCHfdc
+              - generic [ref=e232] [cursor=pointer]:
+                - 'link "Flux Lora training models #ai #fluxlora #modelling" [ref=e233]':
+                  - /url: /shorts/Gw0XVxCHfdc
+                - generic [ref=e234]: 604 views
+              - button "More actions" [ref=e236] [cursor=pointer]
+            - generic [ref=e244]:
+              - link [ref=e245] [cursor=pointer]:
+                - /url: /shorts/vNSudpkwqTA
+              - generic [ref=e249] [cursor=pointer]:
+                - link "The AI Model Roller Coaster" [ref=e250]:
+                  - /url: /shorts/vNSudpkwqTA
+                - generic [ref=e251]: 991 views
+              - button "More actions" [ref=e253] [cursor=pointer]
+            - generic [ref=e261]:
+              - link [ref=e262] [cursor=pointer]:
+                - /url: /shorts/K5dgQgjC8Iw
+                - img [ref=e267]:
+                  - generic [ref=e268]: New
+              - generic [ref=e269] [cursor=pointer]:
+                - 'link "Reasoning Models Explained: What o1 & DeepSeek-R1 Actually Do" [ref=e270]':
+                  - /url: /shorts/K5dgQgjC8Iw
+                - generic [ref=e271]: 303 views
+              - button "More actions" [ref=e273] [cursor=pointer]
+        - generic [ref=e280]:
+          - link [ref=e282] [cursor=pointer]:
+            - /url: /watch?v=KRD9yMqPKJw&pp=ygUPcmRseC0xIEFJIG1vZGVs
+          - generic [ref=e284] [cursor=pointer]:
+            - generic [ref=e285]:
+              - heading "RLDX-1 | Dexterity is Intelligence 11 minutes, 42 seconds" [level=3] [ref=e287]:
+                - link "RLDX-1 | Dexterity is Intelligence 11 minutes, 42 seconds" [ref=e288]:
+                  - /url: /watch?v=KRD9yMqPKJw&pp=ygUPcmRseC0xIEFJIG1vZGVs
+                  - text: RLDX-1 | Dexterity is Intelligence
+              - generic [ref=e291]:
+                - generic [ref=e292]: 3.6K views
+                - generic [ref=e293]: •2 weeks ago
+            - generic [ref=e294]:
+              - link "Go to channel RLWRLD - Dexterity Physical AI" [ref=e295]:
+                - /url: /@rlwrld.dexterity
+              - link "RLWRLD - Dexterity Physical AI" [ref=e300]:
+                - /url: /@rlwrld.dexterity
+            - generic [ref=e301]:
+              - generic [ref=e302]: The full conversation behind RLDX-1. RLWRLD's team walks through the architecture, the data pipeline, and the deployment ...
+              - tooltip "tooltip"
+            - generic [ref=e304]:
+              - img "4K" [ref=e307]:
+                - generic [ref=e308]: 4K
+              - img "Closed captions" [ref=e311]:
+                - generic [ref=e312]: CC
+        - generic [ref=e317]:
+          - img [ref=e323]
+          - generic [ref=e325] [cursor=pointer]:
+            - generic [ref=e326]:
+              - link "Seedance2.0 4모드 고성능" [ref=e329]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CEptSKBgXaq3MNPWyr7wP2IPV8Q6z9O2rhwH33JLN3BVkEAIgAGCbs-mEuCmCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABxNmEvz2oAwTIAwqqBL4CT9BxswevHgXT6jRlURfd5QcxT4MDXE50QJlpn444klBy9xx5V_PCowfWBkzyTzO6eeV0yJxJyAy5oA8He6DBhEDykPAcQjkYsSzbEy6Vp07UDo5z3mnQ5aY6CcCXHFyRVwDZJ3QNzjxjEMBQ96w6sIlZ4HS8LW87EMPyf8YLCydlMM6vipAo-e8FEqMgSj2tFWMOPrlyjOnTu_9znaopSUohfeh2uu1nQZOHM71KfKel8y5k1LJv0G-a3DMfze1WWMZB0clWWwEMuRI4q-r-7P3LmkBnIbYR2BRECJSiXAB1RQtdoaUx1w6PEOuNMGYHhNg8-fPvDxHvrXUVU1TQbB-THSKC9AniC2LufN9V2hMWJFwbFFr28nA8mVlKFaw1cwQ0d9d3-VssZHBkXJeLT6nBX33HBkcQVkxaoLugiAXtg7rIWJIFCAgTeIaSjKUdoAakAYAHn9-6hR2QBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgHvtmxAqgHq8UbqAe3obECqAfVqbECqAfetbEC0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRY4PKVo-7ZlANgAZoJMGh0dHBzOi8vd3d3LmJ5dGVwbHVzLmNvbS9lbi9hY3Rpdml0eS9zZWVkYW5jZTItMLEJhMnZdBwrrNHICQCYCwG6Cz8IAxAFGBYgCCgBMBxAAUgAWE5gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBroDB3ZpdHBlcmLQCxKiDC4qCgoIjt-xApXisQJqGwoZY29tLmJ5dGVwbHVzLmJ5dGVwbHVzbGl2ZXgAiAEA0gwCEAGaDQESqg0CS1LIDQHSDeYBaHR0cHM6Ly93d3cuYnl0ZXBsdXMuY29tL2VuL2FjdGl2aXR5L3NlZWRhbmNlMi0wP3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09cG1heCZ1dG1fY2FtcGFpZ249c2lnbnVwX3NlZWRhbmNlX2tyX2tvcmVhbl8yMDI2MDQyMl9mbGYmdXRtX3Rlcm09MjAyNjA0MjJfYWJpbGl0eV9zZWVkYW5jZTIuMCZ1dG1fY29udGVudD10ZWNkbyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM3NzQyNjU4MzewDtud5_wYuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF2OHblRUD3CKuhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMIrYCWo-7ZlAMVddmLAR3YQTXuEAEYAiAAEgJxKPD_BwE&num=2&cid=CAASqgHkaEd4gz9feo3y08nfg7KvgybOY5_gm2fIP7usp1ttkt6dbOWZIKoZo8B3YufPjHzjwgV6pMLbFyMp5-VWrp3R5VKyEu9WxJkl7_cA24ozxrVZ5lD53dc4kap5Wbb_jY351Os4w_zdFqlBb96mA74FXqlLU5u5PTVATiMYzd6jXv_lTpgbvRaHed3D-X9rqaQsrgZ_a-fchaRGOAHrEYyV8Uoft-apAcXcOg&sig=AOD64_1JJniC2oa1_Q9-cwf81WiU2JxQVA&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - link "4가지 모드를 통합해 고세밀·몰입감 넘치는 완벽한 품질 영상 구현" [ref=e332]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CEptSKBgXaq3MNPWyr7wP2IPV8Q6z9O2rhwH33JLN3BVkEAIgAGCbs-mEuCmCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABxNmEvz2oAwTIAwqqBL4CT9BxswevHgXT6jRlURfd5QcxT4MDXE50QJlpn444klBy9xx5V_PCowfWBkzyTzO6eeV0yJxJyAy5oA8He6DBhEDykPAcQjkYsSzbEy6Vp07UDo5z3mnQ5aY6CcCXHFyRVwDZJ3QNzjxjEMBQ96w6sIlZ4HS8LW87EMPyf8YLCydlMM6vipAo-e8FEqMgSj2tFWMOPrlyjOnTu_9znaopSUohfeh2uu1nQZOHM71KfKel8y5k1LJv0G-a3DMfze1WWMZB0clWWwEMuRI4q-r-7P3LmkBnIbYR2BRECJSiXAB1RQtdoaUx1w6PEOuNMGYHhNg8-fPvDxHvrXUVU1TQbB-THSKC9AniC2LufN9V2hMWJFwbFFr28nA8mVlKFaw1cwQ0d9d3-VssZHBkXJeLT6nBX33HBkcQVkxaoLugiAXtg7rIWJIFCAgTeIaSjKUdoAakAYAHn9-6hR2QBwSoB_LAsQKoB7jEsQKoB-G2sQKoB6XPsQKoB-edsQKoB-idsQKoB--1sQKoB_C1sQKoB_nTsQKoB8nasQKoB6ngsQKoB4QIqAem1LECqAeo0huoB7YHqAex3BuoB7CbsQKoB66xsQKoB_2ysQKoB8jPsQKoB8nPsQKoB83HsQKoB_HRsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB53XsQKoB53UsQKoB4HGG6gH_K-xAqgHvtmxAqgHq8UbqAe3obECqAfVqbECqAfetbEC0gguCIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAEEjZoNI1UBRY4PKVo-7ZlANgAZoJMGh0dHBzOi8vd3d3LmJ5dGVwbHVzLmNvbS9lbi9hY3Rpdml0eS9zZWVkYW5jZTItMLEJhMnZdBwrrNHICQCYCwG6Cz8IAxAFGBYgCCgBMBxAAUgAWE5gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBroDB3ZpdHBlcmLQCxKiDC4qCgoIjt-xApXisQJqGwoZY29tLmJ5dGVwbHVzLmJ5dGVwbHVzbGl2ZXgAiAEA0gwCEAGaDQESqg0CS1LIDQHSDeYBaHR0cHM6Ly93d3cuYnl0ZXBsdXMuY29tL2VuL2FjdGl2aXR5L3NlZWRhbmNlMi0wP3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09cG1heCZ1dG1fY2FtcGFpZ249c2lnbnVwX3NlZWRhbmNlX2tyX2tvcmVhbl8yMDI2MDQyMl9mbGYmdXRtX3Rlcm09MjAyNjA0MjJfYWJpbGl0eV9zZWVkYW5jZTIuMCZ1dG1fY29udGVudD10ZWNkbyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM3NzQyNjU4MzewDtud5_wYuBP___________8BiBQDsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF2OHblRUD3CKuhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMIrYCWo-7ZlAMVddmLAR3YQTXuEAEYAiAAEgJxKPD_BwE&num=2&cid=CAASqgHkaEd4gz9feo3y08nfg7KvgybOY5_gm2fIP7usp1ttkt6dbOWZIKoZo8B3YufPjHzjwgV6pMLbFyMp5-VWrp3R5VKyEu9WxJkl7_cA24ozxrVZ5lD53dc4kap5Wbb_jY351Os4w_zdFqlBb96mA74FXqlLU5u5PTVATiMYzd6jXv_lTpgbvRaHed3D-X9rqaQsrgZ_a-fchaRGOAHrEYyV8Uoft-apAcXcOg&sig=AOD64_1JJniC2oa1_Q9-cwf81WiU2JxQVA&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - generic [ref=e333]:
+                - generic [ref=e335]:
+                  - generic [ref=e336]: Sponsored
+                  - text: ·
+                - generic [ref=e338]: BytePlus
+            - button "My Ad Center" [ref=e341]
+        - generic [ref=e348]:
+          - link [ref=e350] [cursor=pointer]:
+            - /url: /watch?v=dkKR46Nx0gY&pp=ygUPcmRseC0xIEFJIG1vZGVs
+          - generic [ref=e352] [cursor=pointer]:
+            - generic [ref=e353]:
+              - heading "RLDX-1 | The Dexterity-First Foundation Model for Robot Hands 1 minute" [level=3] [ref=e355]:
+                - link "RLDX-1 | The Dexterity-First Foundation Model for Robot Hands 1 minute" [ref=e356]:
+                  - /url: /watch?v=dkKR46Nx0gY&pp=ygUPcmRseC0xIEFJIG1vZGVs
+                  - text: RLDX-1 | The Dexterity-First Foundation Model for Robot Hands
+              - generic [ref=e359]:
+                - generic [ref=e360]: 4.5K views
+                - generic [ref=e361]: •2 weeks ago
+            - generic [ref=e362]:
+              - link "Go to channel RLWRLD - Dexterity Physical AI" [ref=e363]:
+                - /url: /@rlwrld.dexterity
+              - link "RLWRLD - Dexterity Physical AI" [ref=e368]:
+                - /url: /@rlwrld.dexterity
+            - generic [ref=e369]:
+              - generic [ref=e370]: If you ask what defines the future of humanoids, the answer is ultimately dexterity. That's where the real edge in Physical AI is ...
+              - tooltip "tooltip"
+            - img "4K" [ref=e375]:
+              - generic [ref=e376]: 4K
+        - generic [ref=e378]:
+          - link [ref=e380] [cursor=pointer]:
+            - /url: /watch?v=6KaIBQA6wws&pp=ygUPcmRseC0xIEFJIG1vZGVs
+          - generic [ref=e382] [cursor=pointer]:
+            - generic [ref=e383]:
+              - 'heading "RLDX-1: Robotic VLA with Tactile and Memory 4 minutes, 35 seconds" [level=3] [ref=e385]':
+                - 'link "RLDX-1: Robotic VLA with Tactile and Memory 4 minutes, 35 seconds" [ref=e386]':
+                  - /url: /watch?v=6KaIBQA6wws&pp=ygUPcmRseC0xIEFJIG1vZGVs
+                  - text: "RLDX-1: Robotic VLA with Tactile and Memory"
+              - generic [ref=e389]:
+                - generic [ref=e390]: 94 views
+                - generic [ref=e391]: •2 weeks ago
+            - generic [ref=e392]:
+              - link "Go to channel AI Research Roundup" [ref=e393]:
+                - /url: /@AIResearchRoundup
+              - link "AI Research Roundup" [ref=e398]:
+                - /url: /@AIResearchRoundup
+            - generic [ref=e399]:
+              - generic [ref=e400]: "In this AI Research Roundup episode, Alex discusses the paper: 'RLDX-1 Technical Report' Alex introduces RLDX-1, ..."
+              - tooltip "tooltip"

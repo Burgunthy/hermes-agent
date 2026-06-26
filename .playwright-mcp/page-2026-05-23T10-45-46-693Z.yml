@@ -1,0 +1,288 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-container"
+    - banner [ref=e4]:
+      - link "logo" [ref=e6] [cursor=pointer]:
+        - /url: https://cornell.edu/
+        - img "logo" [ref=e7]
+      - paragraph [ref=e9]:
+        - generic [ref=e10]:
+          - text: We gratefully acknowledge support from
+          - text: the Simons Foundation,
+          - link "member institutions" [ref=e11] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/ourmembers.html
+          - text: ", and all contributors."
+          - link "Donate" [ref=e12] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/donate.html
+    - generic [ref=e13]:
+      - link "arxiv-logo" [ref=e16] [cursor=pointer]:
+        - /url: https://arxiv.org/
+        - img "logo" [ref=e17]
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - textbox "Search term or terms" [ref=e22]:
+            - /placeholder: Search...
+          - paragraph [ref=e23]:
+            - link "Help" [ref=e24] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+            - text: "|"
+            - link "Advanced Search" [ref=e25] [cursor=pointer]:
+              - /url: https://arxiv.org/search/advanced
+        - combobox "Field to search" [ref=e28] [cursor=pointer]:
+          - option "All fields" [selected]
+          - option "Title"
+          - option "Author"
+          - option "Abstract"
+          - option "Comments"
+          - option "Journal reference"
+          - option "ACM classification"
+          - option "MSC classification"
+          - option "Report number"
+          - option "arXiv identifier"
+          - option "DOI"
+          - option "ORCID"
+          - option "arXiv author ID"
+          - option "Help pages"
+          - option "Full text"
+        - button "Search" [ref=e29] [cursor=pointer]
+    - navigation "User menu" [ref=e31]:
+      - link "Login" [ref=e32] [cursor=pointer]:
+        - /url: https://arxiv.org/login
+  - main [ref=e33]:
+    - generic [ref=e34]:
+      - 'heading "Showing 1–2 of 2 results for all: dexterous manipulation sim to real vision 2024" [level=1] [ref=e36]'
+      - link "Search v0.5.6 released 2020-02-24" [ref=e39] [cursor=pointer]:
+        - /url: https://github.com/arXiv/arxiv-search/releases
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic: Search term or terms
+            - textbox "Search term or terms" [ref=e44]:
+              - /placeholder: Search term...
+              - text: dexterous manipulation sim to real vision 2024
+          - combobox "Field" [ref=e46] [cursor=pointer]:
+            - option "All fields" [selected]
+            - option "Title"
+            - option "Author(s)"
+            - option "Abstract"
+            - option "Comments"
+            - option "Journal reference"
+            - option "ACM classification"
+            - option "MSC classification"
+            - option "Report number"
+            - option "arXiv identifier"
+            - option "DOI"
+            - option "ORCID"
+            - option "License (URI)"
+            - option "arXiv author ID"
+            - option "Help pages"
+            - option "Full text"
+          - button "Search" [ref=e48] [cursor=pointer]
+        - generic [ref=e50]:
+          - generic [ref=e51] [cursor=pointer]:
+            - radio "Show abstracts Show abstracts" [checked] [ref=e52]
+            - text: Show abstracts
+          - generic [ref=e53] [cursor=pointer]:
+            - radio "Hide abstracts Hide abstracts" [ref=e54]
+            - text: Hide abstracts
+        - link "Advanced Search" [ref=e57] [cursor=pointer]:
+          - /url: /search/advanced?terms-0-term=dexterous+manipulation+sim+to+real+vision+2024&terms-0-field=all&size=50&order=-announced_date_first
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - combobox "results per page" [ref=e64] [cursor=pointer]:
+            - option "25"
+            - option "50" [selected]
+            - option "100"
+            - option "200"
+          - text: results per page.
+        - generic [ref=e65]:
+          - text: Sort results by
+          - combobox "Sort results by" [ref=e67] [cursor=pointer]:
+            - option "Announcement date (newest first)" [selected]
+            - option "Announcement date (oldest first)"
+            - option "Submission date (newest first)"
+            - option "Submission date (oldest first)"
+            - option "Relevance"
+        - button "Go" [ref=e69] [cursor=pointer]
+      - list [ref=e70]:
+        - listitem [ref=e71]:
+          - generic [ref=e72]:
+            - paragraph [ref=e73]:
+              - link "arXiv:2412.13877" [ref=e74] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2412.13877
+              - generic [ref=e75]:
+                - text: "["
+                - link "pdf" [ref=e76] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2412.13877
+                - text: ","
+                - link "other" [ref=e77] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2412.13877
+                - text: "]"
+            - generic [ref=e78]:
+              - generic [ref=e79]: cs.RO
+              - generic [ref=e80]: cs.AI
+            - generic [ref=e82]:
+              - generic [ref=e83]: doi
+              - link "10.15607/RSS.2025.XXI.152" [ref=e85] [cursor=pointer]:
+                - /url: https://doi.org/10.15607/RSS.2025.XXI.152
+          - paragraph [ref=e86]: "RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for Robot Manipulation"
+          - paragraph [ref=e87]:
+            - text: "Authors:"
+            - link "Kun Wu" [ref=e88] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wu%2C+K
+            - text: ","
+            - link "Chengkai Hou" [ref=e89] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Hou%2C+C
+            - text: ","
+            - link "Jiaming Liu" [ref=e90] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liu%2C+J
+            - text: ","
+            - link "Zhengping Che" [ref=e91] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Che%2C+Z
+            - text: ","
+            - link "Xiaozhu Ju" [ref=e92] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ju%2C+X
+            - text: ","
+            - link "Zhuqin Yang" [ref=e93] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yang%2C+Z
+            - text: ","
+            - link "Meng Li" [ref=e94] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Li%2C+M
+            - text: ","
+            - link "Yinuo Zhao" [ref=e95] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhao%2C+Y
+            - text: ","
+            - link "Zhiyuan Xu" [ref=e96] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Xu%2C+Z
+            - text: ","
+            - link "Guang Yang" [ref=e97] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yang%2C+G
+            - text: ","
+            - link "Shichao Fan" [ref=e98] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Fan%2C+S
+            - text: ","
+            - link "Xinhua Wang" [ref=e99] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+X
+            - text: ","
+            - link "Fei Liao" [ref=e100] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liao%2C+F
+            - text: ","
+            - link "Zhen Zhao" [ref=e101] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhao%2C+Z
+            - text: ","
+            - link "Guangyu Li" [ref=e102] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Li%2C+G
+            - text: ","
+            - link "Zhao Jin" [ref=e103] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Jin%2C+Z
+            - text: ","
+            - link "Lecheng Wang" [ref=e104] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+L
+            - text: ","
+            - link "Jilei Mao" [ref=e105] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Mao%2C+J
+            - text: ","
+            - link "Ning Liu" [ref=e106] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liu%2C+N
+            - text: ","
+            - link "Pei Ren" [ref=e107] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ren%2C+P
+            - text: ","
+            - link "Qiang Zhang" [ref=e108] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+Q
+            - text: ","
+            - link "Yaoxu Lyu" [ref=e109] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Lyu%2C+Y
+            - text: ","
+            - link "Mengzhen Liu" [ref=e110] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liu%2C+M
+            - text: ","
+            - link "Jingyang He" [ref=e111] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=He%2C+J
+            - text: ","
+            - link "Yulin Luo" [ref=e112] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Luo%2C+Y
+            - text: ", et al. (12 additional authors not shown)"
+          - paragraph [ref=e113]:
+            - text: "Abstract:"
+            - generic [ref=e114]: In this paper, we introduce RoboMIND (Multi-embodiment Intelligence Normative Data for Robot Manipulation), a dataset containing 107k demonstration trajectories across 479 diverse tasks involving 96 object classes. RoboMIND is collected through human teleoperation and encompasses comprehensive robotic-related information, including multi-view observations, p… ▽ More
+          - paragraph [ref=e115]: Submitted 26 May, 2025; v1 submitted 18 December, 2024; originally announced December 2024.
+          - paragraph [ref=e116]: "Comments: 21 pages, 17 figures, Robotics: Science and Systems 2025"
+          - paragraph [ref=e117]: "Journal ref: Robotics: Science and Systems XXI (RSS 2025)"
+        - listitem [ref=e118]:
+          - generic [ref=e119]:
+            - paragraph [ref=e120]:
+              - link "arXiv:2409.14562" [ref=e121] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2409.14562
+              - generic [ref=e122]:
+                - text: "["
+                - link "pdf" [ref=e123] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2409.14562
+                - text: ","
+                - link "other" [ref=e124] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2409.14562
+                - text: "]"
+            - generic [ref=e126]: cs.RO
+          - paragraph [ref=e127]: "DROP: Dexterous Reorientation via Online Planning"
+          - paragraph [ref=e128]:
+            - text: "Authors:"
+            - link "Albert H. Li" [ref=e129] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Li%2C+A+H
+            - text: ","
+            - link "Preston Culbertson" [ref=e130] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Culbertson%2C+P
+            - text: ","
+            - link "Vince Kurtz" [ref=e131] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Kurtz%2C+V
+            - text: ","
+            - link "Aaron D. Ames" [ref=e132] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ames%2C+A+D
+          - paragraph [ref=e133]:
+            - text: "Abstract:"
+            - generic [ref=e134]: Achieving human-like dexterity is a longstanding challenge in robotics, in part due to the complexity of planning and control for contact-rich systems. In reinforcement learning (RL), one popular approach has been to use massively-parallelized, domain-randomized simulations to learn a policy offline over a vast array of contact conditions, allowing robust… ▽ More
+          - paragraph [ref=e135]: Submitted 5 March, 2025; v1 submitted 22 September, 2024; originally announced September 2024.
+          - paragraph [ref=e136]: "Comments: Extended version, updated appendix. Accepted to ICRA 2025"
+  - contentinfo [ref=e137]:
+    - navigation "Secondary" [ref=e138]:
+      - generic [ref=e140]:
+        - list [ref=e142]:
+          - listitem [ref=e143]:
+            - link "About" [ref=e144] [cursor=pointer]:
+              - /url: https://info.arxiv.org/about
+          - listitem [ref=e145]:
+            - link "Help" [ref=e146] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+        - list [ref=e148]:
+          - listitem [ref=e149]:
+            - link "Contact" [ref=e151] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/contact.html
+          - listitem [ref=e152]:
+            - link "Subscribe" [ref=e154] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/subscribe
+      - generic [ref=e156]:
+        - list [ref=e158]:
+          - listitem [ref=e159]:
+            - link "Copyright" [ref=e160] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/license/index.html
+          - listitem [ref=e161]:
+            - link "Privacy Policy" [ref=e162] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/policies/privacy_policy.html
+        - list [ref=e164]:
+          - listitem [ref=e165]:
+            - link "Web Accessibility Assistance" [ref=e166] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/web_accessibility.html
+          - listitem [ref=e167]:
+            - paragraph [ref=e168]:
+              - link "arXiv Operational Status" [ref=e169] [cursor=pointer]:
+                - /url: https://status.arxiv.org
+                - text: arXiv Operational Status
+              - text: Get status notifications via
+              - link "email" [ref=e171] [cursor=pointer]:
+                - /url: https://subscribe.sorryapp.com/24846f03/email/new
+                - text: email
+              - text: or
+              - link "slack" [ref=e173] [cursor=pointer]:
+                - /url: https://subscribe.sorryapp.com/24846f03/slack/new
+                - text: slack

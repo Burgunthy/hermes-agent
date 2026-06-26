@@ -1,0 +1,665 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dfreqtrade%2Bstrategy%26type%3Drepositories%26sort%3Dstars%26o%3Ddesc
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fsearch&source=header
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e61]:
+    - generic [ref=e64]:
+      - heading "repositories Search Results · freqtrade strategy" [level=1] [ref=e65]
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - region "Filter by" [ref=e70]:
+            - heading "Filter by" [level=2] [ref=e71]
+            - list "Filter by" [ref=e76]:
+              - listitem [ref=e77]:
+                - list [ref=e78]:
+                  - listitem [ref=e79]:
+                    - link "Code (...) results" [ref=e80] [cursor=pointer]:
+                      - /url: https://github.com/search?q=freqtrade+strategy&type=code&sort=stars
+                      - generic:
+                        - img
+                      - generic [ref=e81]:
+                        - generic [ref=e82]: Code
+                        - generic:
+                          - generic: ...
+                          - generic: (...)
+                          - generic: results
+                  - listitem [ref=e83]:
+                    - link "Repositories results" [ref=e84] [cursor=pointer]:
+                      - /url: https://github.com/search?q=freqtrade+strategy&type=repositories&sort=stars
+                      - generic:
+                        - img
+                      - generic [ref=e85]:
+                        - generic [ref=e86]: Repositories
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e87]:
+                    - link "Issues results" [ref=e88] [cursor=pointer]:
+                      - /url: https://github.com/search?q=freqtrade+strategy&type=issues&sort=stars
+                      - generic:
+                        - img
+                      - generic [ref=e89]:
+                        - generic [ref=e90]: Issues
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e91]:
+                    - link "Pull requests results" [ref=e92] [cursor=pointer]:
+                      - /url: https://github.com/search?q=freqtrade+strategy&type=pullrequests&sort=stars
+                      - generic:
+                        - img
+                      - generic [ref=e93]:
+                        - generic [ref=e94]: Pull requests
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e95]:
+                    - link "Discussions results" [ref=e96] [cursor=pointer]:
+                      - /url: https://github.com/search?q=freqtrade+strategy&type=discussions&sort=stars
+                      - generic:
+                        - img
+                      - generic [ref=e97]:
+                        - generic [ref=e98]: Discussions
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e99]:
+                    - link "Users results" [ref=e100] [cursor=pointer]:
+                      - /url: https://github.com/search?q=freqtrade+strategy&type=users&sort=stars
+                      - generic:
+                        - img
+                      - generic [ref=e101]:
+                        - generic [ref=e102]: Users
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e103]:
+                    - button "More" [ref=e104] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e106]: More
+              - listitem [ref=e107]
+              - listitem [ref=e108]:
+                - heading "Languages" [level=3] [ref=e110]
+                - list "Languages" [ref=e111]:
+                  - listitem [ref=e112]:
+                    - link "Python" [ref=e113] [cursor=pointer]:
+                      - /url: https://github.com/search?q=freqtrade+strategy+language%3APython&type=repositories&sort=stars&o=desc
+                      - generic "Python" [ref=e117]
+                  - listitem [ref=e118]:
+                    - link "HTML" [ref=e119] [cursor=pointer]:
+                      - /url: https://github.com/search?q=freqtrade+strategy+language%3AHTML&type=repositories&sort=stars&o=desc
+                      - generic "HTML" [ref=e123]
+                  - listitem [ref=e124]:
+                    - link "Shell" [ref=e125] [cursor=pointer]:
+                      - /url: https://github.com/search?q=freqtrade+strategy+language%3AShell&type=repositories&sort=stars&o=desc
+                      - generic "Shell" [ref=e129]
+                  - listitem [ref=e130]:
+                    - link "Jupyter Notebook" [ref=e131] [cursor=pointer]:
+                      - /url: https://github.com/search?q=freqtrade+strategy+language%3AJupyter+Notebook&type=repositories&sort=stars&o=desc
+                      - generic "Jupyter Notebook" [ref=e135]
+                  - listitem [ref=e136]:
+                    - link "TypeScript" [ref=e137] [cursor=pointer]:
+                      - /url: https://github.com/search?q=freqtrade+strategy+language%3ATypeScript&type=repositories&sort=stars&o=desc
+                      - generic "TypeScript" [ref=e141]
+                  - listitem [ref=e142]:
+                    - link "Roff" [ref=e143] [cursor=pointer]:
+                      - /url: https://github.com/search?q=freqtrade+strategy+language%3ARoff&type=repositories&sort=stars&o=desc
+                      - generic "Roff" [ref=e147]
+                  - listitem [ref=e148]:
+                    - link "JavaScript" [ref=e149] [cursor=pointer]:
+                      - /url: https://github.com/search?q=freqtrade+strategy+language%3AJavaScript&type=repositories&sort=stars&o=desc
+                      - generic "JavaScript" [ref=e153]
+                  - listitem [ref=e154]:
+                    - link "C#" [ref=e155] [cursor=pointer]:
+                      - /url: https://github.com/search?q=freqtrade+strategy+language%3AC%23&type=repositories&sort=stars&o=desc
+                      - generic "C#" [ref=e159]
+                  - listitem [ref=e160]:
+                    - link "C++" [ref=e161] [cursor=pointer]:
+                      - /url: https://github.com/search?q=freqtrade+strategy+language%3AC%2B%2B&type=repositories&sort=stars&o=desc
+                      - generic "C++" [ref=e165]
+                  - listitem [ref=e166]:
+                    - link "CSS" [ref=e167] [cursor=pointer]:
+                      - /url: https://github.com/search?q=freqtrade+strategy+language%3ACSS&type=repositories&sort=stars&o=desc
+                      - generic "CSS" [ref=e171]
+                  - listitem [ref=e172]:
+                    - button "More languages..." [ref=e173] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "More languages..." [ref=e176]
+                  - listitem [ref=e177]
+              - listitem [ref=e178]:
+                - heading "Advanced" [level=3] [ref=e180]
+                - list "Advanced" [ref=e181]:
+                  - listitem [ref=e182]:
+                    - button "Owner" [ref=e183] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Owner" [ref=e187]
+                  - listitem [ref=e188]:
+                    - button "Size" [ref=e189] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Size" [ref=e193]
+                  - listitem [ref=e194]:
+                    - button "Number of followers" [ref=e195] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of followers" [ref=e199]
+                  - listitem [ref=e200]:
+                    - button "Number of forks" [ref=e201] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of forks" [ref=e205]
+                  - listitem [ref=e206]:
+                    - button "Number of stars" [ref=e207] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of stars" [ref=e211]
+                  - listitem [ref=e212]:
+                    - button "Date created" [ref=e213] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Date created" [ref=e217]
+                  - listitem [ref=e218]:
+                    - button "Date pushed" [ref=e219] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Date pushed" [ref=e223]
+                  - listitem [ref=e224]:
+                    - button "Topic" [ref=e225] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Topic" [ref=e229]
+                  - listitem [ref=e230]:
+                    - button "License" [ref=e231] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "License" [ref=e235]
+                  - listitem [ref=e236]:
+                    - button "Archived" [ref=e237] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Archived" [ref=e241]
+                  - listitem [ref=e242]:
+                    - link "Public" [ref=e243] [cursor=pointer]:
+                      - /url: https://github.com/search?q=freqtrade+strategy+is%3Apublic&type=repositories&sort=stars&o=desc
+                      - generic:
+                        - img
+                      - generic "Public" [ref=e247]
+                  - listitem [ref=e248]:
+                    - link "Private" [ref=e249] [cursor=pointer]:
+                      - /url: https://github.com/search?q=freqtrade+strategy+is%3Aprivate&type=repositories&sort=stars&o=desc
+                      - generic:
+                        - img
+                      - generic "Private" [ref=e253]
+              - listitem [ref=e254]
+              - listitem [ref=e255]:
+                - link "Advanced search" [ref=e256] [cursor=pointer]:
+                  - /url: /search/advanced
+                  - generic:
+                    - img
+                  - generic [ref=e258]: Advanced search
+          - slider "Draggable pane splitter" [ref=e260]
+        - generic [ref=e263]:
+          - generic [ref=e264]:
+            - generic [ref=e266]:
+              - generic [ref=e267]:
+                - generic [ref=e268]:
+                  - generic [ref=e269]: 264 results
+                  - generic [ref=e270]: (319 ms)
+                - heading "264 results" [active] [level=2] [ref=e271]
+              - generic [ref=e272]:
+                - 'button "Sort by: Best match" [ref=e274] [cursor=pointer]':
+                  - generic [ref=e276]: "Sort by: Best match"
+                  - generic:
+                    - img
+                - button "Open column options" [ref=e278] [cursor=pointer]:
+                  - img [ref=e279]
+            - generic [ref=e283]:
+              - generic [ref=e285]:
+                - generic [ref=e286]:
+                  - heading "freqtrade/freqtrade-strategies" [level=3] [ref=e287]:
+                    - link "freqtrade/freqtrade-strategies" [ref=e291] [cursor=pointer]:
+                      - /url: /freqtrade/freqtrade-strategies
+                      - generic [ref=e292]:
+                        - text: freqtrade/
+                        - emphasis [ref=e293]: freqtrade
+                        - text: "-strategies"
+                  - generic [ref=e295]:
+                    - text: Free trading
+                    - emphasis [ref=e296]: strategies
+                    - text: for
+                    - emphasis [ref=e297]: Freqtrade
+                    - text: bot
+                  - generic [ref=e298]:
+                    - link "bitcoin" [ref=e300] [cursor=pointer]:
+                      - /url: /topics/bitcoin
+                    - link "trading" [ref=e302] [cursor=pointer]:
+                      - /url: /topics/trading
+                    - link "trading-bot" [ref=e304] [cursor=pointer]:
+                      - /url: /topics/trading-bot
+                    - link "cryptocurrency" [ref=e306] [cursor=pointer]:
+                      - /url: /topics/cryptocurrency
+                    - link "trading-strategies" [ref=e308] [cursor=pointer]:
+                      - /url: /topics/trading-strategies
+                  - list [ref=e309]:
+                    - listitem [ref=e310]:
+                      - generic "Python language" [ref=e313]: Python
+                    - generic [ref=e314]: ·
+                    - listitem [ref=e315]:
+                      - link "5153 stars" [ref=e316] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/stargazers
+                        - img [ref=e317]
+                        - generic [ref=e319]: 5.2k
+                    - generic [ref=e320]: ·
+                    - listitem [ref=e321]:
+                      - generic [ref=e322]:
+                        - text: Updated
+                        - generic "May 5, 2026, 2:06 PM GMT+9" [ref=e323]: 14 days ago
+                - link "Star" [ref=e326] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dfreqtrade%2Bstrategy%26type%3Drepositories%26sort%3Dstars%26o%3Ddesc
+                  - generic [ref=e327]:
+                    - generic:
+                      - img
+                    - generic [ref=e328]: Star
+              - generic [ref=e330]:
+                - generic [ref=e331]:
+                  - heading "iterativv/NostalgiaForInfinity" [level=3] [ref=e332]:
+                    - link "iterativv/NostalgiaForInfinity" [ref=e336] [cursor=pointer]:
+                      - /url: /iterativv/NostalgiaForInfinity
+                  - generic [ref=e338]:
+                    - text: Trading
+                    - emphasis [ref=e339]: strategy
+                    - text: for the
+                    - emphasis [ref=e340]: Freqtrade
+                    - text: crypto bot
+                  - list [ref=e341]:
+                    - listitem [ref=e342]:
+                      - generic "Python language" [ref=e345]: Python
+                    - generic [ref=e346]: ·
+                    - listitem [ref=e347]:
+                      - link "3219 stars" [ref=e348] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/stargazers
+                        - img [ref=e349]
+                        - generic [ref=e351]: 3.2k
+                    - generic [ref=e352]: ·
+                    - listitem [ref=e353]:
+                      - generic [ref=e354]:
+                        - text: Updated
+                        - generic "May 19, 2026, 7:41 AM GMT+9" [ref=e355]: 7 hours ago
+                - link "Star" [ref=e358] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dfreqtrade%2Bstrategy%26type%3Drepositories%26sort%3Dstars%26o%3Ddesc
+                  - generic [ref=e359]:
+                    - generic:
+                      - img
+                    - generic [ref=e360]: Star
+              - generic [ref=e362]:
+                - generic [ref=e363]:
+                  - heading "ssssi/freqtrade_strs" [level=3] [ref=e364]:
+                    - link "ssssi/freqtrade_strs" [ref=e368] [cursor=pointer]:
+                      - /url: /ssssi/freqtrade_strs
+                      - generic [ref=e369]:
+                        - text: ssssi/
+                        - emphasis [ref=e370]: freqtrade
+                        - text: _strs
+                  - generic [ref=e372]:
+                    - text: Trading
+                    - emphasis [ref=e373]: Strategies
+                    - text: for
+                    - emphasis [ref=e374]: Freqtrade
+                  - list [ref=e375]:
+                    - listitem [ref=e376]:
+                      - generic "Python language" [ref=e379]: Python
+                    - generic [ref=e380]: ·
+                    - listitem [ref=e381]:
+                      - link "647 stars" [ref=e382] [cursor=pointer]:
+                        - /url: /ssssi/freqtrade_strs/stargazers
+                        - img [ref=e383]
+                        - generic [ref=e385]: "647"
+                    - generic [ref=e386]: ·
+                    - listitem [ref=e387]:
+                      - generic [ref=e388]:
+                        - text: Updated
+                        - generic "Dec 16, 2025, 1:05 PM GMT+9" [ref=e389]: on Dec 16, 2025
+                - link "Star" [ref=e392] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dfreqtrade%2Bstrategy%26type%3Drepositories%26sort%3Dstars%26o%3Ddesc
+                  - generic [ref=e393]:
+                    - generic:
+                      - img
+                    - generic [ref=e394]: Star
+              - generic [ref=e396]:
+                - generic [ref=e397]:
+                  - heading "PeetCrypto/freqtrade-stuff" [level=3] [ref=e398]:
+                    - link "PeetCrypto/freqtrade-stuff" [ref=e402] [cursor=pointer]:
+                      - /url: /PeetCrypto/freqtrade-stuff
+                      - generic [ref=e403]:
+                        - text: PeetCrypto/
+                        - emphasis [ref=e404]: freqtrade
+                        - text: "-stuff"
+                  - generic [ref=e406]:
+                    - emphasis [ref=e407]: Strategies
+                    - text: for
+                    - emphasis [ref=e408]: Freqtrade
+                  - list [ref=e409]:
+                    - listitem [ref=e410]:
+                      - generic "Python language" [ref=e413]: Python
+                    - generic [ref=e414]: ·
+                    - listitem [ref=e415]:
+                      - link "323 stars" [ref=e416] [cursor=pointer]:
+                        - /url: /PeetCrypto/freqtrade-stuff/stargazers
+                        - img [ref=e417]
+                        - generic [ref=e419]: "323"
+                    - generic [ref=e420]: ·
+                    - listitem [ref=e421]:
+                      - generic [ref=e422]:
+                        - text: Updated
+                        - generic "Feb 19, 2022, 1:53 AM GMT+9" [ref=e423]: on Feb 19, 2022
+                - link "Star" [ref=e426] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dfreqtrade%2Bstrategy%26type%3Drepositories%26sort%3Dstars%26o%3Ddesc
+                  - generic [ref=e427]:
+                    - generic:
+                      - img
+                    - generic [ref=e428]: Star
+              - generic [ref=e430]:
+                - generic [ref=e431]:
+                  - heading "i1ya/freqtrade-strategies" [level=3] [ref=e432]:
+                    - link "i1ya/freqtrade-strategies" [ref=e436] [cursor=pointer]:
+                      - /url: /i1ya/freqtrade-strategies
+                      - generic [ref=e437]:
+                        - text: i1ya/
+                        - emphasis [ref=e438]: freqtrade
+                        - text: "-strategies"
+                  - generic [ref=e440]:
+                    - text: My
+                    - emphasis [ref=e441]: freqtrade
+                    - emphasis [ref=e442]: strategies
+                  - list [ref=e443]:
+                    - listitem [ref=e444]:
+                      - generic "Python language" [ref=e447]: Python
+                    - generic [ref=e448]: ·
+                    - listitem [ref=e449]:
+                      - link "238 stars" [ref=e450] [cursor=pointer]:
+                        - /url: /i1ya/freqtrade-strategies/stargazers
+                        - img [ref=e451]
+                        - generic [ref=e453]: "238"
+                    - generic [ref=e454]: ·
+                    - listitem [ref=e455]:
+                      - generic [ref=e456]:
+                        - text: Updated
+                        - generic "Jul 11, 2021, 11:05 PM GMT+9" [ref=e457]: on Jul 11, 2021
+                - link "Star" [ref=e460] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dfreqtrade%2Bstrategy%26type%3Drepositories%26sort%3Dstars%26o%3Ddesc
+                  - generic [ref=e461]:
+                    - generic:
+                      - img
+                    - generic [ref=e462]: Star
+              - generic [ref=e464]:
+                - generic [ref=e465]:
+                  - heading "werkkrew/freqtrade-strategies" [level=3] [ref=e466]:
+                    - link "werkkrew/freqtrade-strategies" [ref=e470] [cursor=pointer]:
+                      - /url: /werkkrew/freqtrade-strategies
+                      - generic [ref=e471]:
+                        - text: werkkrew/
+                        - emphasis [ref=e472]: freqtrade
+                        - text: "-strategies"
+                  - generic [ref=e474]:
+                    - text: Trading
+                    - emphasis [ref=e475]: Strategies
+                    - text: for
+                    - emphasis [ref=e476]: Freqtrade
+                  - list [ref=e477]:
+                    - listitem [ref=e478]:
+                      - generic "Python language" [ref=e481]: Python
+                    - generic [ref=e482]: ·
+                    - listitem [ref=e483]:
+                      - link "319 stars" [ref=e484] [cursor=pointer]:
+                        - /url: /werkkrew/freqtrade-strategies/stargazers
+                        - img [ref=e485]
+                        - generic [ref=e487]: "319"
+                    - generic [ref=e488]: ·
+                    - listitem [ref=e489]:
+                      - generic [ref=e490]:
+                        - text: Updated
+                        - generic "Jun 5, 2021, 1:03 AM GMT+9" [ref=e491]: on Jun 5, 2021
+                - link "Star" [ref=e494] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dfreqtrade%2Bstrategy%26type%3Drepositories%26sort%3Dstars%26o%3Ddesc
+                  - generic [ref=e495]:
+                    - generic:
+                      - img
+                    - generic [ref=e496]: Star
+              - generic [ref=e498]:
+                - generic [ref=e499]:
+                  - heading "nateemma/strategies" [level=3] [ref=e500]:
+                    - link "nateemma/strategies" [ref=e504] [cursor=pointer]:
+                      - /url: /nateemma/strategies
+                  - generic [ref=e506]:
+                    - text: Custom trading
+                    - emphasis [ref=e507]: strategies
+                    - text: using the
+                    - emphasis [ref=e508]: freqtrade
+                    - text: framework
+                  - list [ref=e509]:
+                    - listitem [ref=e510]:
+                      - generic "Python language" [ref=e513]: Python
+                    - generic [ref=e514]: ·
+                    - listitem [ref=e515]:
+                      - link "422 stars" [ref=e516] [cursor=pointer]:
+                        - /url: /nateemma/strategies/stargazers
+                        - img [ref=e517]
+                        - generic [ref=e519]: "422"
+                    - generic [ref=e520]: ·
+                    - listitem [ref=e521]:
+                      - generic [ref=e522]:
+                        - text: Updated
+                        - generic "May 18, 2026, 7:50 AM GMT+9" [ref=e523]: yesterday
+                - link "Star" [ref=e526] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dfreqtrade%2Bstrategy%26type%3Drepositories%26sort%3Dstars%26o%3Ddesc
+                  - generic [ref=e527]:
+                    - generic:
+                      - img
+                    - generic [ref=e528]: Star
+              - generic [ref=e530]:
+                - generic [ref=e531]:
+                  - heading "froggleston/cryptofrog-strategies" [level=3] [ref=e532]:
+                    - link "froggleston/cryptofrog-strategies" [ref=e536] [cursor=pointer]:
+                      - /url: /froggleston/cryptofrog-strategies
+                  - generic [ref=e538]:
+                    - emphasis [ref=e539]: Strategies
+                    - text: for
+                    - emphasis [ref=e540]: freqtrade
+                  - list [ref=e541]:
+                    - listitem [ref=e542]:
+                      - generic "Python language" [ref=e545]: Python
+                    - generic [ref=e546]: ·
+                    - listitem [ref=e547]:
+                      - link "181 stars" [ref=e548] [cursor=pointer]:
+                        - /url: /froggleston/cryptofrog-strategies/stargazers
+                        - img [ref=e549]
+                        - generic [ref=e551]: "181"
+                    - generic [ref=e552]: ·
+                    - listitem [ref=e553]:
+                      - generic [ref=e554]:
+                        - text: Updated
+                        - generic "Mar 2, 2022, 11:40 PM GMT+9" [ref=e555]: on Mar 2, 2022
+                - generic [ref=e556]:
+                  - link "Star" [ref=e558] [cursor=pointer]:
+                    - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dfreqtrade%2Bstrategy%26type%3Drepositories%26sort%3Dstars%26o%3Ddesc
+                    - generic [ref=e559]:
+                      - generic:
+                        - img
+                      - generic [ref=e560]: Star
+                  - link "Sponsor @froggleston" [ref=e563] [cursor=pointer]:
+                    - /url: /sponsors/froggleston
+                    - generic [ref=e565]:
+                      - img [ref=e566]
+                      - text: Sponsor
+              - generic [ref=e569]:
+                - generic [ref=e570]:
+                  - heading "devbootstrap/optimize-trading-strategy-using-freqtrade" [level=3] [ref=e571]:
+                    - link "devbootstrap/optimize-trading-strategy-using-freqtrade" [ref=e575] [cursor=pointer]:
+                      - /url: /devbootstrap/optimize-trading-strategy-using-freqtrade
+                      - generic [ref=e576]:
+                        - text: devbootstrap/optimize-trading-
+                        - emphasis [ref=e577]: strategy
+                        - text: "-using-"
+                        - emphasis [ref=e578]: freqtrade
+                  - generic [ref=e580]:
+                    - text: Optimize Trading
+                    - emphasis [ref=e581]: Strategies
+                    - text: Using
+                    - emphasis [ref=e582]: Freqtrade
+                  - list [ref=e583]:
+                    - listitem [ref=e584]:
+                      - generic "Python language" [ref=e587]: Python
+                    - generic [ref=e588]: ·
+                    - listitem [ref=e589]:
+                      - link "162 stars" [ref=e590] [cursor=pointer]:
+                        - /url: /devbootstrap/optimize-trading-strategy-using-freqtrade/stargazers
+                        - img [ref=e591]
+                        - generic [ref=e593]: "162"
+                    - generic [ref=e594]: ·
+                    - listitem [ref=e595]:
+                      - generic [ref=e596]:
+                        - text: Updated
+                        - generic "May 22, 2021, 11:59 AM GMT+9" [ref=e597]: on May 22, 2021
+                - link "Star" [ref=e600] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dfreqtrade%2Bstrategy%26type%3Drepositories%26sort%3Dstars%26o%3Ddesc
+                  - generic [ref=e601]:
+                    - generic:
+                      - img
+                    - generic [ref=e602]: Star
+              - generic [ref=e604]:
+                - generic [ref=e605]:
+                  - heading "paulcpk/freqtrade-strategies-that-work" [level=3] [ref=e606]:
+                    - link "paulcpk/freqtrade-strategies-that-work" [ref=e610] [cursor=pointer]:
+                      - /url: /paulcpk/freqtrade-strategies-that-work
+                      - generic [ref=e611]:
+                        - text: paulcpk/
+                        - emphasis [ref=e612]: freqtrade
+                        - text: "-strategies-that-work"
+                  - generic [ref=e614]:
+                    - text: Crypto Trading
+                    - emphasis [ref=e615]: Strategies
+                    - text: for the
+                    - emphasis [ref=e616]: freqtrade
+                    - text: .io trading bot
+                  - generic [ref=e617]:
+                    - link "trading" [ref=e619] [cursor=pointer]:
+                      - /url: /topics/trading
+                    - link "trading-bot" [ref=e621] [cursor=pointer]:
+                      - /url: /topics/trading-bot
+                    - link "freqtrade-strategies" [ref=e623] [cursor=pointer]:
+                      - /url: /topics/freqtrade-strategies
+                    - link "crypto-trading-strategies" [ref=e625] [cursor=pointer]:
+                      - /url: /topics/crypto-trading-strategies
+                    - link "freqtrade" [ref=e627] [cursor=pointer]:
+                      - /url: /topics/freqtrade
+                  - list [ref=e628]:
+                    - listitem [ref=e629]:
+                      - generic "Python language" [ref=e632]: Python
+                    - generic [ref=e633]: ·
+                    - listitem [ref=e634]:
+                      - link "325 stars" [ref=e635] [cursor=pointer]:
+                        - /url: /paulcpk/freqtrade-strategies-that-work/stargazers
+                        - img [ref=e636]
+                        - generic [ref=e638]: "325"
+                    - generic [ref=e639]: ·
+                    - listitem [ref=e640]:
+                      - generic [ref=e641]:
+                        - text: Updated
+                        - generic "Jun 15, 2021, 1:26 AM GMT+9" [ref=e642]: on Jun 15, 2021
+                - link "Star" [ref=e645] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Dfreqtrade%2Bstrategy%26type%3Drepositories%26sort%3Dstars%26o%3Ddesc
+                  - generic [ref=e646]:
+                    - generic:
+                      - img
+                    - generic [ref=e647]: Star
+            - navigation "Pagination" [ref=e650]:
+              - generic [ref=e651]:
+                - generic [ref=e652]:
+                  - img [ref=e653]
+                  - text: Previous
+                - link "Page 1" [ref=e655] [cursor=pointer]:
+                  - /url: https://github.com/search?q=freqtrade+strategy&type=repositories&sort=stars&o=desc&p=1
+                  - text: "1"
+                - link "Page 2" [ref=e656] [cursor=pointer]:
+                  - /url: https://github.com/search?q=freqtrade+strategy&type=repositories&sort=stars&o=desc&p=2
+                  - text: "2"
+                - link "Page 3" [ref=e657] [cursor=pointer]:
+                  - /url: https://github.com/search?q=freqtrade+strategy&type=repositories&sort=stars&o=desc&p=3
+                  - text: "3"
+                - link "Page 4" [ref=e658] [cursor=pointer]:
+                  - /url: https://github.com/search?q=freqtrade+strategy&type=repositories&sort=stars&o=desc&p=4
+                  - text: "4"
+                - link "Page 5" [ref=e659] [cursor=pointer]:
+                  - /url: https://github.com/search?q=freqtrade+strategy&type=repositories&sort=stars&o=desc&p=5
+                  - text: "5"
+                - link "Page 6" [ref=e660] [cursor=pointer]:
+                  - /url: https://github.com/search?q=freqtrade+strategy&type=repositories&sort=stars&o=desc&p=6
+                  - text: "6"
+                - link "Page 7..." [ref=e661] [cursor=pointer]:
+                  - /url: https://github.com/search?q=freqtrade+strategy&type=repositories&sort=stars&o=desc&p=7
+                  - text: "7"
+                - text: …
+                - link "Page 27" [ref=e662] [cursor=pointer]:
+                  - /url: https://github.com/search?q=freqtrade+strategy&type=repositories&sort=stars&o=desc&p=27
+                  - text: "27"
+                - link "Next Page" [ref=e663] [cursor=pointer]:
+                  - /url: https://github.com/search?q=freqtrade+strategy&type=repositories&sort=stars&o=desc&p=2
+                  - text: Next
+                  - img [ref=e664]
+          - generic [ref=e667]:
+            - generic [ref=e668]:
+              - img "Package icon" [ref=e670]
+              - heading "Sponsor open source projects you depend on" [level=2] [ref=e671]
+              - generic [ref=e672]: Contributors are working behind the scenes to make open source better for everyone—give them the help and recognition they deserve.
+              - link "Explore sponsorable projects" [ref=e673] [cursor=pointer]:
+                - /url: https://github.com/sponsors/explore
+                - text: Explore sponsorable projects
+                - img [ref=e674]
+            - generic [ref=e676]:
+              - generic [ref=e677]:
+                - img [ref=e678]
+                - text: ProTip!
+              - generic [ref=e680]:
+                - text: Press the
+                - generic [ref=e681]: /
+                - text: key to activate the search input again and adjust your query.

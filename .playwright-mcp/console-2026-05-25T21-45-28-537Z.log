@@ -1,0 +1,4 @@
+[    1311ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://github.com/rust-for-robotics/iros2026/raw/main/assets/img/screenshot-home.png:0
+[    1399ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://github.com/rust-for-robotics/iros2026/raw/main/assets/img/screenshot-papers.png:0
+[    1514ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://github.com/rust-for-robotics/iros2026/raw/main/assets/img/screenshot-schedule.png:0
+[    1516ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://github.com/rust-for-robotics/iros2026/raw/main/assets/img/screenshot-speakers.png:0

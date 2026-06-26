@@ -1,0 +1,174 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ollama" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Ollama" [ref=e5]
+      - generic [ref=e6]:
+        - link "Models" [ref=e7] [cursor=pointer]:
+          - /url: /search
+        - link "Docs" [ref=e8] [cursor=pointer]:
+          - /url: /docs
+        - link "Pricing" [ref=e9] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=e13]:
+        - img [ref=e15]
+        - textbox "Search models" [ref=e17]
+      - generic [ref=e18]:
+        - link "Sign in" [ref=e19] [cursor=pointer]:
+          - /url: /signin
+        - link "Download" [ref=e20] [cursor=pointer]:
+          - /url: /download
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - link "phi4-mini" [ref=e27] [cursor=pointer]:
+        - /url: /library/phi4-mini
+      - generic [ref=e28]:
+        - paragraph [ref=e30]:
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - generic [ref=e34]: 1.2M
+            - generic [ref=e35]: Downloads
+          - generic "Feb 28, 2025 8:02 PM UTC" [ref=e36]:
+            - img [ref=e37]
+            - generic [ref=e39]: Updated
+            - generic [ref=e40]: 1 year ago
+        - heading "Phi-4-mini brings significant enhancements in multilingual support, reasoning, and mathematics, and now, the long-awaited function calling feature is finally supported." [level=2] [ref=e42]
+        - generic [ref=e43]:
+          - generic [ref=e44]: tools
+          - generic [ref=e45]: 3.8b
+    - generic [ref=e46]:
+      - generic [ref=e48]:
+        - generic [ref=e50]:
+          - button "CLI" [ref=e51] [cursor=pointer]
+          - button "cURL" [ref=e52] [cursor=pointer]
+          - button "Python" [ref=e53] [cursor=pointer]
+          - button "JavaScript" [ref=e54] [cursor=pointer]
+        - generic [ref=e55]:
+          - button "Copy" [ref=e57] [cursor=pointer]:
+            - img [ref=e58]
+          - generic [ref=e61]: ollama run phi4-mini
+      - generic [ref=e62]:
+        - heading "Applications" [level=2] [ref=e63]
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - img "Claude Code" [ref=e68]
+              - generic [ref=e69]:
+                - generic [ref=e70]: Claude Code
+                - code [ref=e71]: ollama launch claude --model phi4-mini
+            - button "Copy" [ref=e72] [cursor=pointer]:
+              - img [ref=e73]
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - img "Codex App" [ref=e77]
+              - generic [ref=e78]:
+                - generic [ref=e79]: Codex App
+                - code [ref=e80]: ollama launch codex-app --model phi4-mini
+            - button "Copy" [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - img "OpenClaw" [ref=e86]
+              - generic [ref=e87]:
+                - generic [ref=e88]: OpenClaw
+                - code [ref=e89]: ollama launch openclaw --model phi4-mini
+            - button "Copy" [ref=e90] [cursor=pointer]:
+              - img [ref=e91]
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - img "Hermes Agent" [ref=e95]
+              - generic [ref=e96]:
+                - generic [ref=e97]: Hermes Agent
+                - code [ref=e98]: ollama launch hermes --model phi4-mini
+            - button "Copy" [ref=e99] [cursor=pointer]:
+              - img [ref=e100]
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - img "Codex" [ref=e104]
+              - generic [ref=e105]:
+                - generic [ref=e106]: Codex
+                - code [ref=e107]: ollama launch codex --model phi4-mini
+            - button "Copy" [ref=e108] [cursor=pointer]:
+              - img [ref=e109]
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - img "OpenCode" [ref=e113]
+              - generic [ref=e114]:
+                - generic [ref=e115]: OpenCode
+                - code [ref=e116]: ollama launch opencode --model phi4-mini
+            - button "Copy" [ref=e117] [cursor=pointer]:
+              - img [ref=e118]
+      - generic [ref=e120]:
+        - generic [ref=e121]:
+          - heading "Models" [level=2] [ref=e122]
+          - link "View all →" [ref=e123] [cursor=pointer]:
+            - /url: /library/phi4-mini/tags
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - paragraph [ref=e127]: Name
+            - paragraph [ref=e128]: Size / Usage
+            - paragraph [ref=e129]: Context
+            - paragraph [ref=e130]: Input
+          - generic [ref=e131]:
+            - link "phi4-mini:latest" [ref=e133] [cursor=pointer]:
+              - /url: /library/phi4-mini:latest
+            - paragraph [ref=e134]: 2.5GB
+            - paragraph [ref=e135]: 128K
+            - paragraph [ref=e136]: Text
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - link "phi4-mini:3.8b" [ref=e139] [cursor=pointer]:
+                - /url: /library/phi4-mini:3.8b
+              - generic [ref=e140]: latest
+            - paragraph [ref=e141]: 2.5GB
+            - paragraph [ref=e142]: 128K
+            - paragraph [ref=e143]: Text
+    - generic [ref=e144]:
+      - heading "Readme" [level=2] [ref=e146]
+      - generic [ref=e148]:
+        - blockquote [ref=e149]:
+          - paragraph [ref=e150]:
+            - text: "Note: this model requires"
+            - link "Ollama 0.5.13" [ref=e151] [cursor=pointer]:
+              - /url: https://github.com/ollama/ollama/releases/tag/v0.5.13
+            - text: or later.
+        - paragraph [ref=e152]:
+          - img [ref=e153]
+        - paragraph [ref=e154]: Phi-4-mini-instruct is a lightweight open model built upon synthetic data and filtered publicly available websites - with a focus on high-quality, reasoning dense data. The model belongs to the Phi-4 model family and supports 128K token context length. The model underwent an enhancement process, incorporating both supervised fine-tuning and direct preference optimization to support precise instruction adherence and robust safety measures.
+        - heading "Primary use cases" [level=2] [ref=e155]
+        - paragraph [ref=e156]: "The model is intended for broad multilingual commercial and research use. The model provides uses for general purpose AI systems and applications which require:"
+        - list [ref=e157]:
+          - listitem [ref=e158]: Memory/compute constrained environments
+          - listitem [ref=e159]: Latency bound scenarios
+          - listitem [ref=e160]: Strong reasoning (especially math and logic).
+          - listitem [ref=e161]: The model is designed to accelerate research on language and multimodal models, for use as a building block for generative AI powered features.
+        - heading "References" [level=2] [ref=e162]
+        - paragraph [ref=e163]:
+          - link "Hugging Face" [ref=e164] [cursor=pointer]:
+            - /url: https://huggingface.co/microsoft/Phi-4-mini-instruct
+        - paragraph [ref=e165]:
+          - link "Blog post" [ref=e166] [cursor=pointer]:
+            - /url: https://techcommunity.microsoft.com/blog/educatordeveloperblog/welcome-to-the-new-phi-4-models---microsoft-phi-4-mini--phi-4-multimodal/4386037
+  - contentinfo [ref=e167]:
+    - generic [ref=e169]:
+      - generic [ref=e170]: © 2026 Ollama
+      - generic [ref=e171]:
+        - link "Download" [ref=e172] [cursor=pointer]:
+          - /url: /download
+        - link "Blog" [ref=e173] [cursor=pointer]:
+          - /url: /blog
+        - link "Docs" [ref=e174] [cursor=pointer]:
+          - /url: https://docs.ollama.com
+        - link "GitHub" [ref=e175] [cursor=pointer]:
+          - /url: https://github.com/ollama/ollama
+        - link "Discord" [ref=e176] [cursor=pointer]:
+          - /url: https://discord.com/invite/ollama
+        - link "X (Twitter)" [ref=e177] [cursor=pointer]:
+          - /url: https://twitter.com/ollama
+        - link "Contact" [ref=e178] [cursor=pointer]:
+          - /url: mailto:hello@ollama.com
+        - link "Privacy" [ref=e179] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e180] [cursor=pointer]:
+          - /url: /terms

@@ -1,0 +1,504 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fopenai%2Fphasic-policy-gradient
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=openai%2Fphasic-policy-gradient
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]: This repository was archived by the owner on Apr 8, 2026. It is now read-only.
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e67]:
+          - img [ref=e68]
+          - link "openai" [ref=e71] [cursor=pointer]:
+            - /url: /openai
+          - generic [ref=e72]: /
+          - strong [ref=e73]:
+            - link "phasic-policy-gradient" [ref=e74] [cursor=pointer]:
+              - /url: /openai/phasic-policy-gradient
+          - generic [ref=e75]: Public archive
+        - generic [ref=e76]:
+          - list:
+            - listitem [ref=e77]:
+              - link "You must be signed in to change notification settings" [ref=e78] [cursor=pointer]:
+                - /url: /login?return_to=%2Fopenai%2Fphasic-policy-gradient
+                - img [ref=e79]
+                - text: Notifications
+            - listitem [ref=e81]:
+              - link "Fork 59" [ref=e82] [cursor=pointer]:
+                - /url: /login?return_to=%2Fopenai%2Fphasic-policy-gradient
+                - img [ref=e83]
+                - text: Fork
+                - generic "59" [ref=e85]
+            - listitem [ref=e86]:
+              - link "You must be signed in to star a repository" [ref=e88] [cursor=pointer]:
+                - /url: /login?return_to=%2Fopenai%2Fphasic-policy-gradient
+                - img [ref=e89]
+                - text: Star
+                - generic "267 users starred this repository" [ref=e91]: "267"
+      - navigation "Repository" [ref=e92]:
+        - list [ref=e93]:
+          - listitem [ref=e94]:
+            - link "Code" [ref=e95] [cursor=pointer]:
+              - /url: /openai/phasic-policy-gradient
+              - img [ref=e96]
+              - generic [ref=e98]: Code
+          - listitem [ref=e99]:
+            - link "Issues 4" [ref=e100] [cursor=pointer]:
+              - /url: /openai/phasic-policy-gradient/issues
+              - img [ref=e101]
+              - generic [ref=e104]: Issues
+              - generic "4" [ref=e105]
+          - listitem [ref=e106]:
+            - link "Pull requests 1" [ref=e107] [cursor=pointer]:
+              - /url: /openai/phasic-policy-gradient/pulls
+              - img [ref=e108]
+              - generic [ref=e110]: Pull requests
+              - generic "1" [ref=e111]
+          - listitem [ref=e112]:
+            - link "Actions" [ref=e113] [cursor=pointer]:
+              - /url: /openai/phasic-policy-gradient/actions
+              - img [ref=e114]
+              - generic [ref=e116]: Actions
+          - listitem [ref=e117]:
+            - link "Projects" [ref=e118] [cursor=pointer]:
+              - /url: /openai/phasic-policy-gradient/projects
+              - img [ref=e119]
+              - generic [ref=e121]: Projects
+          - listitem [ref=e122]:
+            - link "Security and quality" [ref=e123] [cursor=pointer]:
+              - /url: /openai/phasic-policy-gradient/security
+              - img [ref=e124]
+              - generic [ref=e126]: Security and quality
+          - listitem [ref=e127]:
+            - link "Insights" [ref=e128] [cursor=pointer]:
+              - /url: /openai/phasic-policy-gradient/pulse
+              - img [ref=e129]
+              - generic [ref=e131]: Insights
+    - generic [ref=e144]:
+      - heading "openai/phasic-policy-gradient" [level=1] [ref=e146]
+      - generic [ref=e147]:
+        - generic [ref=e150]:
+          - generic [ref=e151]:
+            - generic [ref=e152]:
+              - button "master branch" [ref=e154] [cursor=pointer]:
+                - generic [ref=e155]:
+                  - generic [ref=e157]:
+                    - img [ref=e159]
+                    - generic [ref=e162]: master
+                  - generic:
+                    - img
+              - generic [ref=e163]:
+                - link "1 Branch" [ref=e164] [cursor=pointer]:
+                  - /url: /openai/phasic-policy-gradient/branches
+                  - generic [ref=e165]:
+                    - generic:
+                      - img
+                    - generic [ref=e167]:
+                      - strong [ref=e168]: "1"
+                      - text: Branch
+                - link "0 Tags" [ref=e169] [cursor=pointer]:
+                  - /url: /openai/phasic-policy-gradient/tags
+                  - generic [ref=e170]:
+                    - generic:
+                      - img
+                    - generic [ref=e172]:
+                      - strong [ref=e173]: "0"
+                      - text: Tags
+            - generic [ref=e174]:
+              - generic [ref=e178]:
+                - img [ref=e180]
+                - combobox "Go to file" [ref=e182]
+              - button "Code" [ref=e183] [cursor=pointer]:
+                - generic [ref=e184]:
+                  - generic:
+                    - img
+                  - generic [ref=e185]: Code
+                  - generic:
+                    - img
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - heading "Folders and files" [level=2] [ref=e188]
+              - table "Folders and files" [ref=e189]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e190]:
+                  - row "Latest commit kcobbe commits by kcobbe n_epoch_vf typo bugfix Commit 7295473 · Dec 12, 20206 years ago History 2 Commits" [ref=e191]:
+                    - cell "Latest commit kcobbe commits by kcobbe n_epoch_vf typo bugfix Commit 7295473 · Dec 12, 20206 years ago History 2 Commits" [ref=e192]:
+                      - generic [ref=e193]:
+                        - heading "Latest commit" [level=2] [ref=e194]
+                        - generic [ref=e195]:
+                          - generic [ref=e197]:
+                            - link "kcobbe" [ref=e198] [cursor=pointer]:
+                              - /url: /kcobbe
+                              - img "kcobbe" [ref=e199]
+                            - link "commits by kcobbe" [ref=e200] [cursor=pointer]:
+                              - /url: /openai/phasic-policy-gradient/commits?author=kcobbe
+                              - text: kcobbe
+                          - link "n_epoch_vf typo bugfix" [ref=e204] [cursor=pointer]:
+                            - /url: /openai/phasic-policy-gradient/commit/7295473f0185c82f9eb9c1e17a373135edd8aacc
+                        - generic [ref=e205]:
+                          - generic [ref=e207]:
+                            - link "Commit 7295473" [ref=e208] [cursor=pointer]:
+                              - /url: /openai/phasic-policy-gradient/commit/7295473f0185c82f9eb9c1e17a373135edd8aacc
+                              - text: "7295473"
+                            - text: ·
+                            - generic "Dec 12, 2020, 6:36 AM GMT+9" [ref=e209]: Dec 12, 20206 years ago
+                          - generic [ref=e210]:
+                            - heading "History" [level=2] [ref=e211]
+                            - link "2 Commits" [ref=e212] [cursor=pointer]:
+                              - /url: /openai/phasic-policy-gradient/commits/master/
+                              - generic [ref=e213]:
+                                - generic:
+                                  - img
+                                - generic [ref=e214]: 2 Commits
+                  - row "phasic_policy_gradient, (Directory) n_epoch_vf typo bugfix Dec 12, 20206 years ago" [ref=e215]:
+                    - cell "phasic_policy_gradient, (Directory)" [ref=e216]:
+                      - generic [ref=e217]:
+                        - img [ref=e218]
+                        - link "phasic_policy_gradient, (Directory)" [ref=e223] [cursor=pointer]:
+                          - /url: /openai/phasic-policy-gradient/tree/master/phasic_policy_gradient
+                          - text: phasic_policy_gradient
+                    - cell "n_epoch_vf typo bugfix" [ref=e224]:
+                      - link "n_epoch_vf typo bugfix" [ref=e227] [cursor=pointer]:
+                        - /url: /openai/phasic-policy-gradient/commit/7295473f0185c82f9eb9c1e17a373135edd8aacc
+                    - cell "Dec 12, 20206 years ago" [ref=e228]:
+                      - generic [ref=e229]: Dec 12, 20206 years ago
+                  - row ".gitignore, (File) initial commit Sep 11, 20206 years ago" [ref=e230]:
+                    - cell ".gitignore, (File)" [ref=e231]:
+                      - generic [ref=e232]:
+                        - img [ref=e233]
+                        - link ".gitignore, (File)" [ref=e238] [cursor=pointer]:
+                          - /url: /openai/phasic-policy-gradient/blob/master/.gitignore
+                          - text: .gitignore
+                    - cell "initial commit" [ref=e239]:
+                      - link "initial commit" [ref=e242] [cursor=pointer]:
+                        - /url: /openai/phasic-policy-gradient/commit/c789b00be58aa704f7223b6fc8cd28a5aaa2e101
+                    - cell "Sep 11, 20206 years ago" [ref=e243]:
+                      - generic [ref=e244]: Sep 11, 20206 years ago
+                  - row "LICENSE, (File) initial commit Sep 11, 20206 years ago" [ref=e245]:
+                    - cell "LICENSE, (File)" [ref=e246]:
+                      - generic [ref=e247]:
+                        - img [ref=e248]
+                        - link "LICENSE, (File)" [ref=e253] [cursor=pointer]:
+                          - /url: /openai/phasic-policy-gradient/blob/master/LICENSE
+                          - text: LICENSE
+                    - cell "initial commit" [ref=e254]:
+                      - link "initial commit" [ref=e257] [cursor=pointer]:
+                        - /url: /openai/phasic-policy-gradient/commit/c789b00be58aa704f7223b6fc8cd28a5aaa2e101
+                    - cell "Sep 11, 20206 years ago" [ref=e258]:
+                      - generic [ref=e259]: Sep 11, 20206 years ago
+                  - row "README.md, (File) n_epoch_vf typo bugfix Dec 12, 20206 years ago" [ref=e260]:
+                    - cell "README.md, (File)" [ref=e261]:
+                      - generic [ref=e262]:
+                        - img [ref=e263]
+                        - link "README.md, (File)" [ref=e268] [cursor=pointer]:
+                          - /url: /openai/phasic-policy-gradient/blob/master/README.md
+                          - text: README.md
+                    - cell "n_epoch_vf typo bugfix" [ref=e269]:
+                      - link "n_epoch_vf typo bugfix" [ref=e272] [cursor=pointer]:
+                        - /url: /openai/phasic-policy-gradient/commit/7295473f0185c82f9eb9c1e17a373135edd8aacc
+                    - cell "Dec 12, 20206 years ago" [ref=e273]:
+                      - generic [ref=e274]: Dec 12, 20206 years ago
+                  - row "environment.yml, (File) initial commit Sep 11, 20206 years ago" [ref=e275]:
+                    - cell "environment.yml, (File)" [ref=e276]:
+                      - generic [ref=e277]:
+                        - img [ref=e278]
+                        - link "environment.yml, (File)" [ref=e283] [cursor=pointer]:
+                          - /url: /openai/phasic-policy-gradient/blob/master/environment.yml
+                          - text: environment.yml
+                    - cell "initial commit" [ref=e284]:
+                      - link "initial commit" [ref=e287] [cursor=pointer]:
+                        - /url: /openai/phasic-policy-gradient/commit/c789b00be58aa704f7223b6fc8cd28a5aaa2e101
+                    - cell "Sep 11, 20206 years ago" [ref=e288]:
+                      - generic [ref=e289]: Sep 11, 20206 years ago
+                  - row "setup.py, (File) initial commit Sep 11, 20206 years ago" [ref=e290]:
+                    - cell "setup.py, (File)" [ref=e291]:
+                      - generic [ref=e292]:
+                        - img [ref=e293]
+                        - link "setup.py, (File)" [ref=e298] [cursor=pointer]:
+                          - /url: /openai/phasic-policy-gradient/blob/master/setup.py
+                          - text: setup.py
+                    - cell "initial commit" [ref=e299]:
+                      - link "initial commit" [ref=e302] [cursor=pointer]:
+                        - /url: /openai/phasic-policy-gradient/commit/c789b00be58aa704f7223b6fc8cd28a5aaa2e101
+                    - cell "Sep 11, 20206 years ago" [ref=e303]:
+                      - generic [ref=e304]: Sep 11, 20206 years ago
+            - generic [ref=e306]:
+              - generic [ref=e307]:
+                - heading "Repository files navigation" [level=2] [ref=e308]
+                - navigation "Repository files" [ref=e309]:
+                  - list [ref=e310]:
+                    - listitem [ref=e311]:
+                      - link "README" [ref=e312] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e314]
+                        - generic [ref=e316]: README
+                    - listitem [ref=e317]:
+                      - link "MIT license" [ref=e318] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e320]
+                        - generic [ref=e322]: MIT license
+                - button "Outline" [ref=e323] [cursor=pointer]:
+                  - img [ref=e324]
+              - article [ref=e327]:
+                - paragraph [ref=e328]:
+                  - strong [ref=e329]: "Status:"
+                  - text: Archive (code is provided as-is, no updates expected)
+                - generic [ref=e330]:
+                  - heading "Phasic Policy Gradient" [level=1] [ref=e331]
+                  - 'link "Permalink: Phasic Policy Gradient" [ref=e332] [cursor=pointer]':
+                    - /url: "#phasic-policy-gradient"
+                    - img [ref=e333]
+                - generic [ref=e335]:
+                  - heading "[Paper]" [level=4] [ref=e336]:
+                    - link "[Paper]" [ref=e337] [cursor=pointer]:
+                      - /url: https://arxiv.org/abs/2009.04416
+                  - 'link "Permalink: [Paper]" [ref=e338] [cursor=pointer]':
+                    - /url: "#paper"
+                    - img [ref=e339]
+                - paragraph [ref=e341]:
+                  - text: This is code for training agents using
+                  - link "Phasic Policy Gradient" [ref=e342] [cursor=pointer]:
+                    - /url: https://arxiv.org/abs/2009.04416
+                  - link "(citation)" [ref=e343] [cursor=pointer]:
+                    - /url: "#citation"
+                  - text: .
+                - paragraph [ref=e344]: "Supported platforms:"
+                - list [ref=e345]:
+                  - listitem [ref=e346]: macOS 10.14 (Mojave)
+                  - listitem [ref=e347]: Ubuntu 16.04
+                - paragraph [ref=e348]: "Supported Pythons:"
+                - list [ref=e349]:
+                  - listitem [ref=e350]: 3.7 64-bit
+                - generic [ref=e351]:
+                  - heading "Install" [level=2] [ref=e352]
+                  - 'link "Permalink: Install" [ref=e353] [cursor=pointer]':
+                    - /url: "#install"
+                    - img [ref=e354]
+                - paragraph [ref=e356]:
+                  - text: You can get miniconda from
+                  - link "https://docs.conda.io/en/latest/miniconda.html" [ref=e357] [cursor=pointer]:
+                    - /url: https://docs.conda.io/en/latest/miniconda.html
+                  - text: if you don't have it, or install the dependencies from
+                  - link "environment.yml" [ref=e358] [cursor=pointer]:
+                    - /url: /openai/phasic-policy-gradient/blob/master/environment.yml
+                    - code [ref=e359]: environment.yml
+                  - text: manually.
+                - generic [ref=e360]:
+                  - code [ref=e362]: git clone https://github.com/openai/phasic-policy-gradient.git conda env update --name phasic-policy-gradient --file phasic-policy-gradient/environment.yml conda activate phasic-policy-gradient pip install -e phasic-policy-gradient
+                  - button "Copy code to clipboard" [ref=e364] [cursor=pointer]:
+                    - img [ref=e365]
+                - generic [ref=e368]:
+                  - heading "Reproduce and Visualize Results" [level=2] [ref=e369]
+                  - 'link "Permalink: Reproduce and Visualize Results" [ref=e370] [cursor=pointer]':
+                    - /url: "#reproduce-and-visualize-results"
+                    - img [ref=e371]
+                - paragraph [ref=e373]: "PPG with default hyperparameters (results/ppg-runN):"
+                - generic [ref=e374]:
+                  - code [ref=e376]: mpiexec -np 4 python -m phasic_policy_gradient.train python -m phasic_policy_gradient.graph --experiment_name ppg
+                  - button "Copy code to clipboard" [ref=e378] [cursor=pointer]:
+                    - img [ref=e379]
+                - paragraph [ref=e382]: "PPO baseline (results/ppo-runN):"
+                - generic [ref=e383]:
+                  - code [ref=e385]: mpiexec -np 4 python -m phasic_policy_gradient.train --n_epoch_pi 3 --n_epoch_vf 3 --n_aux_epochs 0 --arch shared python -m phasic_policy_gradient.graph --experiment_name ppo
+                  - button "Copy code to clipboard" [ref=e387] [cursor=pointer]:
+                    - img [ref=e388]
+                - paragraph [ref=e391]: "PPG, varying E_pi (results/e-pi-N):"
+                - generic [ref=e392]:
+                  - code [ref=e394]: mpiexec -np 4 python -m phasic_policy_gradient.train --n_epoch_pi N python -m phasic_policy_gradient.graph --experiment_name e_pi
+                  - button "Copy code to clipboard" [ref=e396] [cursor=pointer]:
+                    - img [ref=e397]
+                - paragraph [ref=e400]: "PPG, varying E_aux (results/e-aux-N):"
+                - generic [ref=e401]:
+                  - code [ref=e403]: mpiexec -np 4 python -m phasic_policy_gradient.train --n_aux_epochs N python -m phasic_policy_gradient.graph --experiment_name e_aux
+                  - button "Copy code to clipboard" [ref=e405] [cursor=pointer]:
+                    - img [ref=e406]
+                - paragraph [ref=e409]: "PPG, varying N_pi (results/n-pi-N):"
+                - generic [ref=e410]:
+                  - code [ref=e412]: mpiexec -np 4 python -m phasic_policy_gradient.train --n_pi N python -m phasic_policy_gradient.graph --experiment_name n_pi
+                  - button "Copy code to clipboard" [ref=e414] [cursor=pointer]:
+                    - img [ref=e415]
+                - paragraph [ref=e418]: "PPG, using L_KL instead of L_clip (results/ppgkl-runN):"
+                - generic [ref=e419]:
+                  - code [ref=e421]: mpiexec -np 4 python -m phasic_policy_gradient.train --clip_param 0 --kl_penalty 1 python -m phasic_policy_gradient.graph --experiment_name ppgkl
+                  - button "Copy code to clipboard" [ref=e423] [cursor=pointer]:
+                    - img [ref=e424]
+                - paragraph [ref=e427]: "PPG, single network variant (results/ppgsingle-runN):"
+                - generic [ref=e428]:
+                  - code [ref=e430]: mpiexec -np 4 python -m phasic_policy_gradient.train --arch detach python -m phasic_policy_gradient.graph --experiment_name ppg_single_network
+                  - button "Copy code to clipboard" [ref=e432] [cursor=pointer]:
+                    - img [ref=e433]
+                - paragraph [ref=e436]:
+                  - text: Pass
+                  - code [ref=e437]: "--normalize_and_reduce"
+                  - text: to compute and visualize the mean normalized return with
+                  - code [ref=e438]: phasic_policy_gradient.graph
+                  - text: .
+                - generic [ref=e439]:
+                  - heading "Citation" [level=1] [ref=e440]
+                  - 'link "Permalink: Citation" [ref=e441] [cursor=pointer]':
+                    - /url: "#citation"
+                    - img [ref=e442]
+                - paragraph [ref=e444]: "Please cite using the following bibtex entry:"
+                - generic [ref=e445]:
+                  - code [ref=e447]: "@article{cobbe2020ppg, title={Phasic Policy Gradient}, author={Cobbe, Karl and Hilton, Jacob and Klimov, Oleg and Schulman, John}, journal={arXiv preprint arXiv:2009.04416}, year={2020} }"
+                  - button "Copy code to clipboard" [ref=e449] [cursor=pointer]:
+                    - img [ref=e450]
+        - generic [ref=e456]:
+          - generic [ref=e459]:
+            - heading "About" [level=2] [ref=e460]
+            - paragraph [ref=e461]: Code for the paper "Phasic Policy Gradient"
+            - heading "Resources" [level=3] [ref=e462]
+            - link "Readme" [ref=e464] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e465]
+              - text: Readme
+            - heading "License" [level=3] [ref=e467]
+            - link "MIT license" [ref=e469] [cursor=pointer]:
+              - /url: "#MIT-1-ov-file"
+              - img [ref=e470]
+              - text: MIT license
+            - link "Activity" [ref=e473] [cursor=pointer]:
+              - /url: /openai/phasic-policy-gradient/activity
+              - img [ref=e474]
+              - text: Activity
+            - link "Custom properties" [ref=e477] [cursor=pointer]:
+              - /url: /openai/phasic-policy-gradient/custom-properties
+              - img [ref=e478]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e480]
+            - link "267 stars" [ref=e482] [cursor=pointer]:
+              - /url: /openai/phasic-policy-gradient/stargazers
+              - img [ref=e483]
+              - strong [ref=e485]: "267"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e486]
+            - link "4 watching" [ref=e488] [cursor=pointer]:
+              - /url: /openai/phasic-policy-gradient/watchers
+              - img [ref=e489]
+              - strong [ref=e491]: "4"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e492]
+            - link "59 forks" [ref=e494] [cursor=pointer]:
+              - /url: /openai/phasic-policy-gradient/forks
+              - img [ref=e495]
+              - strong [ref=e497]: "59"
+              - text: forks
+            - link "Report repository" [ref=e499] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fopenai%2Fphasic-policy-gradient&report=openai+%28user%29
+          - generic [ref=e501]:
+            - heading "Releases" [level=2] [ref=e502]:
+              - link "Releases" [ref=e503] [cursor=pointer]:
+                - /url: /openai/phasic-policy-gradient/releases
+            - generic [ref=e504]: No releases published
+          - generic [ref=e506]:
+            - heading "Packages" [level=2] [ref=e507]:
+              - link "Packages" [ref=e508] [cursor=pointer]:
+                - /url: /orgs/openai/packages?repo_name=phasic-policy-gradient
+            - generic [ref=e509]: No packages published
+          - generic [ref=e511]:
+            - heading "Contributors 1" [level=2] [ref=e512]:
+              - link "Contributors 1" [ref=e513] [cursor=pointer]:
+                - /url: /openai/phasic-policy-gradient/graphs/contributors
+                - text: Contributors
+                - generic "1" [ref=e514]
+            - list [ref=e515]:
+              - listitem [ref=e516]:
+                - link "@kcobbe" [ref=e517] [cursor=pointer]:
+                  - /url: https://github.com/kcobbe
+                  - img "@kcobbe" [ref=e518]
+                - link "kcobbe Karl Cobbe" [ref=e520] [cursor=pointer]:
+                  - /url: https://github.com/kcobbe
+                  - strong [ref=e521]: kcobbe
+                  - text: Karl Cobbe
+          - generic [ref=e523]:
+            - heading "Languages" [level=2] [ref=e524]
+            - list [ref=e528]:
+              - listitem [ref=e529]:
+                - link "Python 100.0%" [ref=e530] [cursor=pointer]:
+                  - /url: /openai/phasic-policy-gradient/search?l=python
+                  - img [ref=e531]
+                  - generic [ref=e533]: Python
+                  - generic [ref=e534]: 100.0%
+  - contentinfo [ref=e536]:
+    - heading "Footer" [level=2] [ref=e537]
+    - generic [ref=e538]:
+      - generic [ref=e539]:
+        - link "GitHub Homepage" [ref=e540] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e541]
+        - generic [ref=e543]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e544]:
+        - heading "Footer navigation" [level=3] [ref=e545]
+        - list "Footer navigation" [ref=e546]:
+          - listitem [ref=e547]:
+            - link "Terms" [ref=e548] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e549]:
+            - link "Privacy" [ref=e550] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e551]:
+            - link "Security" [ref=e552] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e553]:
+            - link "Status" [ref=e554] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e555]:
+            - link "Community" [ref=e556] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e557]:
+            - link "Docs" [ref=e558] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e559]:
+            - link "Contact" [ref=e560] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e561]:
+            - button "Manage cookies" [ref=e563] [cursor=pointer]
+          - listitem [ref=e564]:
+            - button "Do not share my personal information" [ref=e566] [cursor=pointer]

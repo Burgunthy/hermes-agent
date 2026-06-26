@@ -1,0 +1,1082 @@
+- generic [ref=e83]:
+  - banner [ref=e62]:
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - button "Guide" [ref=e67] [cursor=pointer]:
+          - generic [ref=e85]:
+            - img
+        - generic [ref=e69]:
+          - link "YouTube Home" [ref=e86] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e91]:
+              - img
+          - generic [ref=e92]: KR
+        - button "Skip navigation" [ref=e96] [cursor=pointer]:
+          - generic [ref=e97]: Skip navigation
+      - generic [ref=e70]:
+        - search [ref=e71]:
+          - generic [ref=e72]:
+            - combobox "Search" [expanded] [ref=e101]
+            - button "Search" [ref=e76] [cursor=pointer]:
+              - generic [ref=e103]:
+                - img
+        - generic [ref=e105]:
+          - button "Search with your voice" [ref=e107] [cursor=pointer]:
+            - generic [ref=e111]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e115]:
+        - button "Settings" [ref=e120] [cursor=pointer]:
+          - generic [ref=e123]:
+            - img
+        - link "Sign in" [ref=e126] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D6-byfxO8iB0&hl=en&ec=65620
+          - generic [ref=e130]:
+            - img
+          - generic [ref=e131]: Sign in
+  - main [ref=e136]:
+    - generic [ref=e137]:
+      - generic [ref=e139]:
+        - complementary [ref=e146]:
+          - generic "YouTube Video Player" [ref=e5]:
+            - generic [ref=e10]:
+              - generic [ref=e11] [cursor=pointer]:
+                - slider "Seek slider" [ref=e12]
+                - generic:
+                  - generic:
+                    - generic:
+                      - slider "Click or scroll the panel for the precise seeking."
+              - generic [ref=e21]:
+                - generic [ref=e22]:
+                  - button "Pause (k)" [ref=e23] [cursor=pointer]:
+                    - img
+                  - generic [ref=e24]:
+                    - button "Mute (m)" [ref=e26] [cursor=pointer]:
+                      - img
+                    - slider "Volume"
+                  - button "0 Minutes 2 Seconds of 11 Minutes 26 Seconds" [ref=e151] [cursor=pointer]: 0:02 / 11:26
+                - generic [ref=e31]:
+                  - generic [ref=e32]:
+                    - button "Autoplay is on" [ref=e152] [cursor=pointer]
+                    - button "Subtitles/closed captions unavailable" [ref=e33] [cursor=pointer]:
+                      - generic [ref=e34]:
+                        - img
+                    - button "Settings" [ref=e35] [cursor=pointer]:
+                      - img
+                  - generic [ref=e36]:
+                    - button "Theater mode (t)" [ref=e37] [cursor=pointer]:
+                      - img
+                    - button "Full screen (f)" [ref=e38] [cursor=pointer]:
+                      - img
+        - generic [ref=e155]:
+          - generic [ref=e156]:
+            - generic [ref=e158]:
+              - heading "워뇨띠 매매법 총정리, 코인 투자로 600만원을 3000억으로 만든 백수" [level=1] [ref=e160]
+              - generic [ref=e161]:
+                - generic [ref=e162]:
+                  - generic [ref=e163]:
+                    - link [ref=e164] [cursor=pointer]:
+                      - /url: /@gold_finger_trader
+                    - generic [ref=e166]:
+                      - generic "골드핑거" [ref=e170]:
+                        - link "골드핑거" [ref=e171] [cursor=pointer]:
+                          - /url: /@gold_finger_trader
+                      - generic "72.3 thousand subscribers" [ref=e172]: 72.3K subscribers
+                  - generic [ref=e176]:
+                    - button "Subscribe to 골드핑거." [ref=e178] [cursor=pointer]:
+                      - generic [ref=e179]: Subscribe
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                      - generic:
+                        - img
+                - generic [ref=e186]:
+                  - generic [ref=e187]:
+                    - generic [ref=e191]:
+                      - button "like this video along with 571 other people" [ref=e195] [cursor=pointer]:
+                        - generic [ref=e199]:
+                          - img
+                        - generic [ref=e200]: "571"
+                      - button "Dislike this video" [ref=e207] [cursor=pointer]:
+                        - generic [ref=e211]:
+                          - img
+                    - button "Share" [ref=e217] [cursor=pointer]:
+                      - generic [ref=e221]:
+                        - img
+                      - generic [ref=e222]: Share
+                  - button "Save to playlist" [ref=e229] [cursor=pointer]:
+                    - generic [ref=e233]:
+                      - img
+                    - generic [ref=e234]: Save
+                  - button "More actions" [ref=e239] [cursor=pointer]:
+                    - generic [ref=e243]:
+                      - img
+              - generic [ref=e249]:
+                - generic [ref=e252]:
+                  - text: 27,777 views Nov 22, 2023
+                  - link "#rsi" [ref=e253] [cursor=pointer]:
+                    - /url: /hashtag/rsi
+                  - link "#볼린저밴드" [ref=e254] [cursor=pointer]:
+                    - /url: /hashtag/%EB%B3%BC%EB%A6%B0%EC%A0%80%EB%B0%B4%EB%93%9C
+                  - link "#보조지표" [ref=e255] [cursor=pointer]:
+                    - /url: /hashtag/%EB%B3%B4%EC%A1%B0%EC%A7%80%ED%91%9C
+                - generic [ref=e256]:
+                  - generic [ref=e259]:
+                    - link "#볼린저밴드" [ref=e261] [cursor=pointer]:
+                      - /url: /hashtag/%EB%B3%BC%EB%A6%B0%EC%A0%80%EB%B0%B4%EB%93%9C
+                    - link "#macd" [ref=e263] [cursor=pointer]:
+                      - /url: /hashtag/macd
+                    - link "#rsi" [ref=e265] [cursor=pointer]:
+                      - /url: /hashtag/rsi
+                    - link "#트레이딩뷰" [ref=e267] [cursor=pointer]:
+                      - /url: /hashtag/%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9%EB%B7%B0
+                    - link "#보조지표" [ref=e269] [cursor=pointer]:
+                      - /url: /hashtag/%EB%B3%B4%EC%A1%B0%EC%A7%80%ED%91%9C
+                    - text: "워뇨띠 매매법 총정리, 코인 투자로 600만원을 3000억으로 만든 백수 🚀 코인 투자자 필수! 오픈카톡방 안내 🚀 즉시 입장:"
+                    - link "http://pf.kakao.com/_FxapPn/chat" [ref=e271] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa2RsWGZpY2RqNC1OcTF2Q1hJSm9JcEV4TV9qZ3xBQ3Jtc0tteEtyQmhyWHZWaXhXRXpobGMweFhjVDltcl9zcFZTak5NbmVQVFlvWUhwcTY4OEQ0OGVCWmpCX0c1bEdQOEd0djlnUE5wbFVTVjhINEVIeUdsSF82SU9VczFRblZSUDlVV21lR1BvSi1ERTFlZW9faw&q=http%3A%2F%2Fpf.kakao.com%2F_FxapPn%2Fchat&v=6-byfxO8iB0
+                    - text: "입장 코드: \"3\" 🤖 비트코인 자동 거래봇, 무료 체험 기회! 🤖 1:1 카톡 문의:"
+                    - link "http://pf.kakao.com/_FxapPn/chat" [ref=e273] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbEVJYWhDNlpvSHJDdGRnT3BpU2hrek4tWUVFd3xBQ3Jtc0tsRU9RMmVFcVQtYW1BeWpsT2FoZ3hlX1AzVDZ4UE1zZG1hWjE1N1lZcFpiZVRwX0RtbU45Q29QS0NvMGQ4Rk92LU9NZjZIczZLSktxXzFheTVSWEJaRngtRDQzeXExaWxtal9nTmxwY3Q2WDF2ZUN6aw&q=http%3A%2F%2Fpf.kakao.com%2F_FxapPn%2Fchat&v=6-byfxO8iB0
+                    - text: "체험 코드: \"3\" 📈 고수들의 비법서, 지금 바로 받으세요! 📈 신청하기:"
+                    - link "http://pf.kakao.com/_FxapPn/chat" [ref=e275] [cursor=pointer]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbEZna3p1ZnNKY1Bqc3M2OWg1WW10TXJ5NjhYQXxBQ3Jtc0tuVm5Vd25DQ2pESms0Z3hCYTRxV0twWndscUNvUm1hS3FxRTluN3N0QkM1WHNFWGh4cTNvUXQwX1hfc3VjZlhYQ3AtNldUVzR1M0F0c3RnU2gzLVUxMF9kd24yVU04WlBzcUg4Y0g1V0lMbFdaSXBDdw&q=http%3A%2F%2Fpf.kakao.com%2F_FxapPn%2Fchat&v=6-byfxO8iB0
+                    - text: "신청 코드: \"3\" 💖 구독 / 좋아요 / 알림설정은 저희에게 큰 힘이 됩니다! 📢 중요 안내: 본 방송에서 제공되는 모든 정보는 전문가의 개인적인 의견입니다. 투자에 대한 최종 결정과 책임은 본인에게 있습니다."
+                  - generic [ref=e278]:
+                    - generic [ref=e279]:
+                      - generic [ref=e281]: Transcript
+                      - paragraph [ref=e283]: Follow along using the transcript.
+                      - button "Show transcript" [ref=e288] [cursor=pointer]:
+                        - generic [ref=e289]: Show transcript
+                    - generic [ref=e293]:
+                      - link "골드핑거 72.3K subscribers" [ref=e294] [cursor=pointer]:
+                        - /url: /@gold_finger_trader
+                        - generic [ref=e295]:
+                          - heading "골드핑거" [level=3] [ref=e296]
+                          - generic [ref=e297]: 72.3K subscribers
+                      - generic [ref=e300]:
+                        - link "Videos" [ref=e303] [cursor=pointer]:
+                          - /url: /channel/UCwdly2S1YIYdDI9algaX0hw/videos
+                          - generic [ref=e307]:
+                            - img
+                          - generic [ref=e308]: Videos
+                        - link "About" [ref=e314] [cursor=pointer]:
+                          - /url: /channel/UCwdly2S1YIYdDI9algaX0hw/about
+                          - generic [ref=e318]:
+                            - img
+                          - generic [ref=e319]: About
+                  - button "Show less" [ref=e323] [cursor=pointer]
+            - text: •
+          - heading "Comments" [level=2] [ref=e330]:
+            - generic [ref=e331]: Comments
+      - generic [ref=e404]:
+        - generic [ref=e1182]:
+          - generic [ref=e1185]:
+            - heading "Transcript" [active] [level=2] [ref=e1187]:
+              - generic "Transcript" [ref=e1188]
+            - button "Close" [ref=e1192] [cursor=pointer]:
+              - generic [ref=e1196]:
+                - img
+          - generic [ref=e1201]:
+            - generic [ref=e1206]:
+              - generic [ref=e1207]: Search transcript
+              - textbox "Search transcript" [ref=e1208]
+            - generic [ref=e1211]:
+              - button "안녕하세요 골드핑거 있니다 아마 코인 투자를 해보신 분들은 원요이라는 투자 고수를 한번쯤 들어보셨을 겁니다" [ref=e1213] [cursor=pointer]:
+                - generic [ref=e1216]:
+                  - generic [ref=e1217]: 0:00
+                  - text: 안녕하세요 골드핑거 있니다 아마 코인 투자를 해보신 분들은 원요이라는 투자 고수를 한번쯤 들어보셨을 겁니다
+              - button "8 seconds 오늘은 코인 투자에 살아있는 전설인 원유가 어떻게 600만 원으로 3천억을 벌었는지 대한 비법을 알려" [ref=e1220] [cursor=pointer]:
+                - generic [ref=e1223]:
+                  - generic [ref=e1224]: 0:08
+                  - generic [ref=e1225]: 8 seconds
+                  - text: 오늘은 코인 투자에 살아있는 전설인 원유가 어떻게 600만 원으로 3천억을 벌었는지 대한 비법을 알려
+              - button "16 seconds 드리겠습니다 워뇨띠 2017년도에 약 600만 원으로 코인 투자를 시작해서 코인 투자" [ref=e1227] [cursor=pointer]:
+                - generic [ref=e1230]:
+                  - generic [ref=e1231]: 0:16
+                  - generic [ref=e1232]: 16 seconds
+                  - text: 드리겠습니다 워뇨띠 2017년도에 약 600만 원으로 코인 투자를 시작해서 코인 투자
+              - button "23 seconds 하나로만 약 4년 동안 3천억 대의 자산을 벌어들였습니다 그리고이 그림에서 보는 것처럼 원유는 직접" [ref=e1234] [cursor=pointer]:
+                - generic [ref=e1237]:
+                  - generic [ref=e1238]: 0:23
+                  - generic [ref=e1239]: 23 seconds
+                  - text: 하나로만 약 4년 동안 3천억 대의 자산을 벌어들였습니다 그리고이 그림에서 보는 것처럼 원유는 직접
+              - button "32 seconds 자신의 수익률표 공개하기도 했는데요 수익률표 보면 코인 시장이나 가격에 크게 상관없이 3년 동안 꾸준히" [ref=e1241] [cursor=pointer]:
+                - generic [ref=e1244]:
+                  - generic [ref=e1245]: 0:32
+                  - generic [ref=e1246]: 32 seconds
+                  - text: 자신의 수익률표 공개하기도 했는데요 수익률표 보면 코인 시장이나 가격에 크게 상관없이 3년 동안 꾸준히
+              - button "40 seconds 수익을 내고 있는 것을 볼 수 있습니다 어떻게 원띠 이렇게 꾸준한 수익을 낼 수 있었는지 아마 모두들" [ref=e1248] [cursor=pointer]:
+                - generic [ref=e1251]:
+                  - generic [ref=e1252]: 0:40
+                  - generic [ref=e1253]: 40 seconds
+                  - text: 수익을 내고 있는 것을 볼 수 있습니다 어떻게 원띠 이렇게 꾸준한 수익을 낼 수 있었는지 아마 모두들
+              - button "48 seconds 궁금해할 겁니다 원띠 국내 뭐 커뮤니티에서 활동을 하면서 본인이 어떻게 매매를 했는지에 대한 많은" [ref=e1255] [cursor=pointer]:
+                - generic [ref=e1258]:
+                  - generic [ref=e1259]: 0:48
+                  - generic [ref=e1260]: 48 seconds
+                  - text: 궁금해할 겁니다 원띠 국내 뭐 커뮤니티에서 활동을 하면서 본인이 어떻게 매매를 했는지에 대한 많은
+              - button "55 seconds 글들과 자료들을 남겼습니다 이것들은 제가 오랫동안 꾸준히 분 분석한 결과 어떻게 20대 백수 원띠 600만" [ref=e1262] [cursor=pointer]:
+                - generic [ref=e1265]:
+                  - generic [ref=e1266]: 0:55
+                  - generic [ref=e1267]: 55 seconds
+                  - text: 글들과 자료들을 남겼습니다 이것들은 제가 오랫동안 꾸준히 분 분석한 결과 어떻게 20대 백수 원띠 600만
+              - button "1 minute, 4 seconds 원으로 3천억을 불렸는지 대한 방법을 알아냈고 여러분에게 최대한 쉽게 알려 드리겠습니다 원띠 관리한 영상이" [ref=e1269] [cursor=pointer]:
+                - generic [ref=e1272]:
+                  - generic [ref=e1273]: 1:04
+                  - generic [ref=e1274]: 1 minute, 4 seconds
+                  - text: 원으로 3천억을 불렸는지 대한 방법을 알아냈고 여러분에게 최대한 쉽게 알려 드리겠습니다 원띠 관리한 영상이
+              - button "1 minute, 13 seconds 많지만이 영상 하나만 봐도 원요 띠의 매매법을 완전히 파악할 수 있다고 저는 확신합니다 원요 띠의 투자비법" [ref=e1276] [cursor=pointer]:
+                - generic [ref=e1279]:
+                  - generic [ref=e1280]: 1:13
+                  - generic [ref=e1281]: 1 minute, 13 seconds
+                  - text: 많지만이 영상 하나만 봐도 원요 띠의 매매법을 완전히 파악할 수 있다고 저는 확신합니다 원요 띠의 투자비법
+              - button "1 minute, 21 seconds 첫 번째는 바로 차트 위주로 매매하라입니다 보통 일반적으로 투자자들은 어디서들은 정보를 가지고" [ref=e1283] [cursor=pointer]:
+                - generic [ref=e1286]:
+                  - generic [ref=e1287]: 1:21
+                  - generic [ref=e1288]: 1 minute, 21 seconds
+                  - text: 첫 번째는 바로 차트 위주로 매매하라입니다 보통 일반적으로 투자자들은 어디서들은 정보를 가지고
+              - button "1 minute, 28 seconds 흔히 말하는 호재 매매를 많이 합니다 그러나 원띠 먼저 정보를 취득할 수 있는 내부자들이 할 수 있기 때문에" [ref=e1290] [cursor=pointer]:
+                - generic [ref=e1293]:
+                  - generic [ref=e1294]: 1:28
+                  - generic [ref=e1295]: 1 minute, 28 seconds
+                  - text: 흔히 말하는 호재 매매를 많이 합니다 그러나 원띠 먼저 정보를 취득할 수 있는 내부자들이 할 수 있기 때문에
+              - button "1 minute, 35 seconds 철저하게 차트만 보고 매매를 한다고 합니다 또한 청산액 롱숏 비율 펀딩 피 같은 정보들은 참고만 하고 차트" [ref=e1297] [cursor=pointer]:
+                - generic [ref=e1300]:
+                  - generic [ref=e1301]: 1:35
+                  - generic [ref=e1302]: 1 minute, 35 seconds
+                  - text: 철저하게 차트만 보고 매매를 한다고 합니다 또한 청산액 롱숏 비율 펀딩 피 같은 정보들은 참고만 하고 차트
+              - button "1 minute, 44 seconds 분석을 통해서 시장의 분위기를 파악해서 매매를 했다는 것이 핵심 포인트입니다 개인적인 견해를" [ref=e1304] [cursor=pointer]:
+                - generic [ref=e1307]:
+                  - generic [ref=e1308]: 1:44
+                  - generic [ref=e1309]: 1 minute, 44 seconds
+                  - text: 분석을 통해서 시장의 분위기를 파악해서 매매를 했다는 것이 핵심 포인트입니다 개인적인 견해를
+              - button "1 minute, 51 seconds 덧붙이자면 여러분 혹시 효율적 시장 가설이라고 들어보셨나요 효율적 시장 가설에 따르면 과거의 가격 즉" [ref=e1311] [cursor=pointer]:
+                - generic [ref=e1314]:
+                  - generic [ref=e1315]: 1:51
+                  - generic [ref=e1316]: 1 minute, 51 seconds
+                  - text: 덧붙이자면 여러분 혹시 효율적 시장 가설이라고 들어보셨나요 효율적 시장 가설에 따르면 과거의 가격 즉
+              - button "2 minutes 차트로는 장기적으로 투자 수익을 얻을 수 없습니다 그러나 아직 암호화폐의 시장은 미성숙한 시장이며 투기성이" [ref=e1318] [cursor=pointer]:
+                - generic [ref=e1321]:
+                  - generic [ref=e1322]: 2:00
+                  - generic [ref=e1323]: 2 minutes
+                  - text: 차트로는 장기적으로 투자 수익을 얻을 수 없습니다 그러나 아직 암호화폐의 시장은 미성숙한 시장이며 투기성이
+              - button "2 minutes, 8 seconds 다분한 시장이기 때문에 정보가 효율적으로 돌아가고 있지 않아 아직까지는 차트를 보고 투자해서" [ref=e1325] [cursor=pointer]:
+                - generic [ref=e1328]:
+                  - generic [ref=e1329]: 2:08
+                  - generic [ref=e1330]: 2 minutes, 8 seconds
+                  - text: 다분한 시장이기 때문에 정보가 효율적으로 돌아가고 있지 않아 아직까지는 차트를 보고 투자해서
+              - button "2 minutes, 15 seconds 충분히 코인 시장에서 승산이 있다고 생각합니다 특히 원유 띠는 차트를 끊임없이 보라고 말했습니다 본인도" [ref=e1332] [cursor=pointer]:
+                - generic [ref=e1335]:
+                  - generic [ref=e1336]: 2:15
+                  - generic [ref=e1337]: 2 minutes, 15 seconds
+                  - text: 충분히 코인 시장에서 승산이 있다고 생각합니다 특히 원유 띠는 차트를 끊임없이 보라고 말했습니다 본인도
+              - button "2 minutes, 23 seconds 매일 몇 시간씩 차트를 보면서 연습했고 거의 만시간 이상을 차트를 보면서 공부 거 같다고 합니다 또한" [ref=e1339] [cursor=pointer]:
+                - generic [ref=e1342]:
+                  - generic [ref=e1343]: 2:23
+                  - generic [ref=e1344]: 2 minutes, 23 seconds
+                  - text: 매일 몇 시간씩 차트를 보면서 연습했고 거의 만시간 이상을 차트를 보면서 공부 거 같다고 합니다 또한
+              - button "2 minutes, 31 seconds 차트 공부만 한 것이 아니라 계속 실전 매매를 통해 차트 복귀를 하면서 결국 차트 고수가 되었습니다 그리고" [ref=e1346] [cursor=pointer]:
+                - generic [ref=e1349]:
+                  - generic [ref=e1350]: 2:31
+                  - generic [ref=e1351]: 2 minutes, 31 seconds
+                  - text: 차트 공부만 한 것이 아니라 계속 실전 매매를 통해 차트 복귀를 하면서 결국 차트 고수가 되었습니다 그리고
+              - button "2 minutes, 39 seconds 원띠 차트 패턴이나 추세선 등 책이나 나오는 기본적인 개념 자체는 크게 중요하게 생각하지 않다고 합니다" [ref=e1353] [cursor=pointer]:
+                - generic [ref=e1356]:
+                  - generic [ref=e1357]: 2:39
+                  - generic [ref=e1358]: 2 minutes, 39 seconds
+                  - text: 원띠 차트 패턴이나 추세선 등 책이나 나오는 기본적인 개념 자체는 크게 중요하게 생각하지 않다고 합니다
+              - button "2 minutes, 48 seconds 실제로 이런 차트의 교과서적인 패턴은 동일한 패턴을 찾기 힘들고 시장 상황이나 코인 종목마다 패턴이 다르기" [ref=e1360] [cursor=pointer]:
+                - generic [ref=e1363]:
+                  - generic [ref=e1364]: 2:48
+                  - generic [ref=e1365]: 2 minutes, 48 seconds
+                  - text: 실제로 이런 차트의 교과서적인 패턴은 동일한 패턴을 찾기 힘들고 시장 상황이나 코인 종목마다 패턴이 다르기
+              - button "2 minutes, 56 seconds 때문이라고 합니다 대신 종목별로 소액으로 매매에 직접 해보면서 차트의 감각을 직접 익히는 것을 추천했습니다" [ref=e1367] [cursor=pointer]:
+                - generic [ref=e1370]:
+                  - generic [ref=e1371]: 2:56
+                  - generic [ref=e1372]: 2 minutes, 56 seconds
+                  - text: 때문이라고 합니다 대신 종목별로 소액으로 매매에 직접 해보면서 차트의 감각을 직접 익히는 것을 추천했습니다
+              - button "3 minutes, 5 seconds 원유 뛰는 차트를 볼 때 기본 차트 위주로 매매를 했고 보조 지표는 잘 사용 안 했다고 합니다 특히 캔들" [ref=e1374] [cursor=pointer]:
+                - generic [ref=e1377]:
+                  - generic [ref=e1378]: 3:05
+                  - generic [ref=e1379]: 3 minutes, 5 seconds
+                  - text: 원유 뛰는 차트를 볼 때 기본 차트 위주로 매매를 했고 보조 지표는 잘 사용 안 했다고 합니다 특히 캔들
+              - button "3 minutes, 13 seconds 차트의 패턴을 파악해 매매를 많이 했다고 밝히면서 캔들의 중요성을 강조했습니다 이동평균선은 추세를" [ref=e1381] [cursor=pointer]:
+                - generic [ref=e1384]:
+                  - generic [ref=e1385]: 3:13
+                  - generic [ref=e1386]: 3 minutes, 13 seconds
+                  - text: 차트의 패턴을 파악해 매매를 많이 했다고 밝히면서 캔들의 중요성을 강조했습니다 이동평균선은 추세를
+              - button "3 minutes, 20 seconds 파악할 때나지지 또는 저항의 근거로 사용했지만 단순히 이동 평균선을 닿았다고 해서 매매를 하지는 않았다고" [ref=e1388] [cursor=pointer]:
+                - generic [ref=e1391]:
+                  - generic [ref=e1392]: 3:20
+                  - generic [ref=e1393]: 3 minutes, 20 seconds
+                  - text: 파악할 때나지지 또는 저항의 근거로 사용했지만 단순히 이동 평균선을 닿았다고 해서 매매를 하지는 않았다고
+              - button "3 minutes, 28 seconds 합니다 거래량 같은 경우 원요 띠가 가격의 방향성을 예상하는데 실내도 측정하기 위한 정도로만 참고하는데" [ref=e1395] [cursor=pointer]:
+                - generic [ref=e1398]:
+                  - generic [ref=e1399]: 3:28
+                  - generic [ref=e1400]: 3 minutes, 28 seconds
+                  - text: 합니다 거래량 같은 경우 원요 띠가 가격의 방향성을 예상하는데 실내도 측정하기 위한 정도로만 참고하는데
+              - button "3 minutes, 37 seconds 특히 큰 거래소들 위주로 거래량 패턴들이 비슷할 경우에 신뢰도가 높았다고 합니다 예를 들어이 차트에서" [ref=e1402] [cursor=pointer]:
+                - generic [ref=e1405]:
+                  - generic [ref=e1406]: 3:37
+                  - generic [ref=e1407]: 3 minutes, 37 seconds
+                  - text: 특히 큰 거래소들 위주로 거래량 패턴들이 비슷할 경우에 신뢰도가 높았다고 합니다 예를 들어이 차트에서
+              - button "3 minutes, 45 seconds 캔들 차트만 보면 가격이 상승 신호가 발생했다고 생각했지만 실제 거래량이 많이 발생하지 않으면 신뢰도가 높지" [ref=e1409] [cursor=pointer]:
+                - generic [ref=e1412]:
+                  - generic [ref=e1413]: 3:45
+                  - generic [ref=e1414]: 3 minutes, 45 seconds
+                  - text: 캔들 차트만 보면 가격이 상승 신호가 발생했다고 생각했지만 실제 거래량이 많이 발생하지 않으면 신뢰도가 높지
+              - button "3 minutes, 54 seconds 않다는 의미입니다 앞에서 말한 것처럼 원유 띠는 보조 지표는 참고를 잘 안 했는데 macd rsi 볼린저 밴드" [ref=e1416] [cursor=pointer]:
+                - generic [ref=e1419]:
+                  - generic [ref=e1420]: 3:54
+                  - generic [ref=e1421]: 3 minutes, 54 seconds
+                  - text: 않다는 의미입니다 앞에서 말한 것처럼 원유 띠는 보조 지표는 참고를 잘 안 했는데 macd rsi 볼린저 밴드
+              - button "4 minutes, 3 seconds 등의 보조 지표는 쓰레기 지표라고 표현할 정도였습니다 더욱이 복잡한 계산이 필요한 하모닉 패턴이나 엘리어" [ref=e1423] [cursor=pointer]:
+                - generic [ref=e1426]:
+                  - generic [ref=e1427]: 4:03
+                  - generic [ref=e1428]: 4 minutes, 3 seconds
+                  - text: 등의 보조 지표는 쓰레기 지표라고 표현할 정도였습니다 더욱이 복잡한 계산이 필요한 하모닉 패턴이나 엘리어
+              - button "4 minutes, 11 seconds 파동 이론 같은 것은 사용하지 않았다고 합니다 원띠 매매를 할 때 모니터를 한 대만 사용했다는 것을" [ref=e1430] [cursor=pointer]:
+                - generic [ref=e1433]:
+                  - generic [ref=e1434]: 4:11
+                  - generic [ref=e1435]: 4 minutes, 11 seconds
+                  - text: 파동 이론 같은 것은 사용하지 않았다고 합니다 원띠 매매를 할 때 모니터를 한 대만 사용했다는 것을
+              - button "4 minutes, 18 seconds 보면 복잡한 매매보다는 기본적인 차트 위주로 단순하게 매매를 한 것 같습니다 물론 보조지표 관련한 띠의" [ref=e1437] [cursor=pointer]:
+                - generic [ref=e1440]:
+                  - generic [ref=e1441]: 4:18
+                  - generic [ref=e1442]: 4 minutes, 18 seconds
+                  - text: 보면 복잡한 매매보다는 기본적인 차트 위주로 단순하게 매매를 한 것 같습니다 물론 보조지표 관련한 띠의
+              - button "4 minutes, 27 seconds 의견은 저는 개인적인 견해가 다 수 있다고 생각합니다 원띠 외에 투자로 큰 돈을 번 사람 중에 실제 투자에" [ref=e1444] [cursor=pointer]:
+                - generic [ref=e1447]:
+                  - generic [ref=e1448]: 4:27
+                  - generic [ref=e1449]: 4 minutes, 27 seconds
+                  - text: 의견은 저는 개인적인 견해가 다 수 있다고 생각합니다 원띠 외에 투자로 큰 돈을 번 사람 중에 실제 투자에
+              - button "4 minutes, 35 seconds 성공한 사람도 있고요 두 번째 원띠 투자 비법은 시장 상황에 따라서 유연한 트레이딩을 하락입니다 예를" [ref=e1451] [cursor=pointer]:
+                - generic [ref=e1454]:
+                  - generic [ref=e1455]: 4:35
+                  - generic [ref=e1456]: 4 minutes, 35 seconds
+                  - text: 성공한 사람도 있고요 두 번째 원띠 투자 비법은 시장 상황에 따라서 유연한 트레이딩을 하락입니다 예를
+              - button "4 minutes, 43 seconds 들어 전체 시장이 좋아 상승 추세가 강할 때는 가격에 영향을 미칠 수 있는 악재성 뉴스가 나왔다고 해도" [ref=e1458] [cursor=pointer]:
+                - generic [ref=e1461]:
+                  - generic [ref=e1462]: 4:43
+                  - generic [ref=e1463]: 4 minutes, 43 seconds
+                  - text: 들어 전체 시장이 좋아 상승 추세가 강할 때는 가격에 영향을 미칠 수 있는 악재성 뉴스가 나왔다고 해도
+              - button "4 minutes, 50 seconds 가격에 미치는 영향이 크지 않기 때문에 시장이 상승하는 쪽으로 생각해서 매매를 하고 반대로 시장" [ref=e1465] [cursor=pointer]:
+                - generic [ref=e1468]:
+                  - generic [ref=e1469]: 4:50
+                  - generic [ref=e1470]: 4 minutes, 50 seconds
+                  - text: 가격에 미치는 영향이 크지 않기 때문에 시장이 상승하는 쪽으로 생각해서 매매를 하고 반대로 시장
+              - button "4 minutes, 57 seconds 분위기가 좋지 않아 락 추세가 강할 때는 어떤 호재가 뜨더라도 영향이 크지 않기 때문에 시장 하락 쪽으로" [ref=e1472] [cursor=pointer]:
+                - generic [ref=e1475]:
+                  - generic [ref=e1476]: 4:57
+                  - generic [ref=e1477]: 4 minutes, 57 seconds
+                  - text: 분위기가 좋지 않아 락 추세가 강할 때는 어떤 호재가 뜨더라도 영향이 크지 않기 때문에 시장 하락 쪽으로
+              - button "5 minutes, 5 seconds 대응해서 시장 상황에 맞는 매매를 하라고 했습니다이 비트코인 차트에서 보면 이전에 2020년 2021년" [ref=e1479] [cursor=pointer]:
+                - generic [ref=e1482]:
+                  - generic [ref=e1483]: 5:05
+                  - generic [ref=e1484]: 5 minutes, 5 seconds
+                  - text: 대응해서 시장 상황에 맞는 매매를 하라고 했습니다이 비트코인 차트에서 보면 이전에 2020년 2021년
+              - button "5 minutes, 14 seconds 분량 때 이렇게 강한 상승 추세가 형성되어 있을 때도 악재가 중간중간 나왔지만 가격에는 영향이 크지" [ref=e1486] [cursor=pointer]:
+                - generic [ref=e1489]:
+                  - generic [ref=e1490]: 5:14
+                  - generic [ref=e1491]: 5 minutes, 14 seconds
+                  - text: 분량 때 이렇게 강한 상승 추세가 형성되어 있을 때도 악재가 중간중간 나왔지만 가격에는 영향이 크지
+              - button "5 minutes, 22 seconds 않았다는 것을 알 수 있습니다 원효 띠는 이런 상황이 맞는 유연한 트레이딩을 위해 시장의 분위기 및" [ref=e1493] [cursor=pointer]:
+                - generic [ref=e1496]:
+                  - generic [ref=e1497]: 5:22
+                  - generic [ref=e1498]: 5 minutes, 22 seconds
+                  - text: 않았다는 것을 알 수 있습니다 원효 띠는 이런 상황이 맞는 유연한 트레이딩을 위해 시장의 분위기 및
+              - button "5 minutes, 29 seconds 투자자 심리 파악을 많이 했는데 이때 차트를 적극적으로 활용했다고 합니다 단순히 차트 패턴의 모양을 보는게" [ref=e1500] [cursor=pointer]:
+                - generic [ref=e1503]:
+                  - generic [ref=e1504]: 5:29
+                  - generic [ref=e1505]: 5 minutes, 29 seconds
+                  - text: 투자자 심리 파악을 많이 했는데 이때 차트를 적극적으로 활용했다고 합니다 단순히 차트 패턴의 모양을 보는게
+              - button "5 minutes, 37 seconds 아니라 차트 패턴을 시장 참여자의 심리를 읽는 도구로 활용했다고 합니다 특히 시장 참여자들이 많을수록" [ref=e1507] [cursor=pointer]:
+                - generic [ref=e1510]:
+                  - generic [ref=e1511]: 5:37
+                  - generic [ref=e1512]: 5 minutes, 37 seconds
+                  - text: 아니라 차트 패턴을 시장 참여자의 심리를 읽는 도구로 활용했다고 합니다 특히 시장 참여자들이 많을수록
+              - button "5 minutes, 45 seconds 실내서이 높아지기 때문에 비트코인이나 이더리움 같은 시가총액 큰 코인 위주로 매매했다고 합니다 만약에" [ref=e1514] [cursor=pointer]:
+                - generic [ref=e1517]:
+                  - generic [ref=e1518]: 5:45
+                  - generic [ref=e1519]: 5 minutes, 45 seconds
+                  - text: 실내서이 높아지기 때문에 비트코인이나 이더리움 같은 시가총액 큰 코인 위주로 매매했다고 합니다 만약에
+              - button "5 minutes, 53 seconds 알트코인 매매를 한다고 해도 비트코인 차트를 꼭 참고했다고 합니다 그리고 차트를 볼 때 기간이 너무 짧은" [ref=e1521] [cursor=pointer]:
+                - generic [ref=e1524]:
+                  - generic [ref=e1525]: 5:53
+                  - generic [ref=e1526]: 5 minutes, 53 seconds
+                  - text: 알트코인 매매를 한다고 해도 비트코인 차트를 꼭 참고했다고 합니다 그리고 차트를 볼 때 기간이 너무 짧은
+              - button "6 minutes 1분봉 5분봉 등은 휩소 즉 속임수 움직임이 많아 참조를 많이 안 한다고 합니다 여기 보시면 비트코인 차트와" [ref=e1528] [cursor=pointer]:
+                - generic [ref=e1531]:
+                  - generic [ref=e1532]: 6:00
+                  - generic [ref=e1533]: 6 minutes
+                  - text: 1분봉 5분봉 등은 휩소 즉 속임수 움직임이 많아 참조를 많이 안 한다고 합니다 여기 보시면 비트코인 차트와
+              - button "6 minutes, 10 seconds 주요 알트코인 전체 차트를 비교해 보면 거의 비슷하게 움직이는 것을 볼 수 있습니다 사실 코인 시장에서" [ref=e1535] [cursor=pointer]:
+                - generic [ref=e1538]:
+                  - generic [ref=e1539]: 6:10
+                  - generic [ref=e1540]: 6 minutes, 10 seconds
+                  - text: 주요 알트코인 전체 차트를 비교해 보면 거의 비슷하게 움직이는 것을 볼 수 있습니다 사실 코인 시장에서
+              - button "6 minutes, 17 seconds 비트코인이 크게 상승하지 않고 주요 메이저 거래소에 상장된 알트코인들이 크게 상승하는 경우는 많지 않습니다" [ref=e1542] [cursor=pointer]:
+                - generic [ref=e1545]:
+                  - generic [ref=e1546]: 6:17
+                  - generic [ref=e1547]: 6 minutes, 17 seconds
+                  - text: 비트코인이 크게 상승하지 않고 주요 메이저 거래소에 상장된 알트코인들이 크게 상승하는 경우는 많지 않습니다
+              - button "6 minutes, 25 seconds 반대로 비트코인이 급락하면 대부분의 알트코인이란 급락하는 경우가 많습니다 이렇게 비트코인의 움직임에" [ref=e1549] [cursor=pointer]:
+                - generic [ref=e1552]:
+                  - generic [ref=e1553]: 6:25
+                  - generic [ref=e1554]: 6 minutes, 25 seconds
+                  - text: 반대로 비트코인이 급락하면 대부분의 알트코인이란 급락하는 경우가 많습니다 이렇게 비트코인의 움직임에
+              - button "6 minutes, 32 seconds 알트코인들이 크게 영향을 받기 때문에 알트코인 투자를 한다고 해도 꼭 비트코인 차트도 같이 분석해서" [ref=e1556] [cursor=pointer]:
+                - generic [ref=e1559]:
+                  - generic [ref=e1560]: 6:32
+                  - generic [ref=e1561]: 6 minutes, 32 seconds
+                  - text: 알트코인들이 크게 영향을 받기 때문에 알트코인 투자를 한다고 해도 꼭 비트코인 차트도 같이 분석해서
+              - button "6 minutes, 39 seconds 트레이딩을 해야 합니다 세 번째 원유 띠의 투자 방법은 시장에서 많은 경험을 쌓고 살아남아라입니다 본인처럼" [ref=e1563] [cursor=pointer]:
+                - generic [ref=e1566]:
+                  - generic [ref=e1567]: 6:39
+                  - generic [ref=e1568]: 6 minutes, 39 seconds
+                  - text: 트레이딩을 해야 합니다 세 번째 원유 띠의 투자 방법은 시장에서 많은 경험을 쌓고 살아남아라입니다 본인처럼
+              - button "6 minutes, 47 seconds 트레이딩으로 장기간 시장을이기는 것은 어느 정도 학습을 통해 가능하고 그렇게 해야 시장을 이길 수 있다고" [ref=e1570] [cursor=pointer]:
+                - generic [ref=e1573]:
+                  - generic [ref=e1574]: 6:47
+                  - generic [ref=e1575]: 6 minutes, 47 seconds
+                  - text: 트레이딩으로 장기간 시장을이기는 것은 어느 정도 학습을 통해 가능하고 그렇게 해야 시장을 이길 수 있다고
+              - button "6 minutes, 54 seconds 원유이는 생각했습니다 원유이는 코인 현문 시장에서는 약 20% 투자자가 그리고 코인 선물 같은 경우 10%" [ref=e1577] [cursor=pointer]:
+                - generic [ref=e1580]:
+                  - generic [ref=e1581]: 6:54
+                  - generic [ref=e1582]: 6 minutes, 54 seconds
+                  - text: 원유이는 생각했습니다 원유이는 코인 현문 시장에서는 약 20% 투자자가 그리고 코인 선물 같은 경우 10%
+              - button "7 minutes, 4 seconds 투자자 정도만 시장에서 살아남을 수 있다고 말했는데 자산의 작은 비율로 꾸준히 매매를 해서 실력을 쌓는다면" [ref=e1584] [cursor=pointer]:
+                - generic [ref=e1587]:
+                  - generic [ref=e1588]: 7:04
+                  - generic [ref=e1589]: 7 minutes, 4 seconds
+                  - text: 투자자 정도만 시장에서 살아남을 수 있다고 말했는데 자산의 작은 비율로 꾸준히 매매를 해서 실력을 쌓는다면
+              - button "7 minutes, 12 seconds 결국 확률이 높은 매매 자리가 보이기 시작해서 시장을 이길 수 있다고 말했습니다 원효이는 또한 시장에서" [ref=e1591] [cursor=pointer]:
+                - generic [ref=e1594]:
+                  - generic [ref=e1595]: 7:12
+                  - generic [ref=e1596]: 7 minutes, 12 seconds
+                  - text: 결국 확률이 높은 매매 자리가 보이기 시작해서 시장을 이길 수 있다고 말했습니다 원효이는 또한 시장에서
+              - button "7 minutes, 19 seconds 살아남기 위해 손절매를 강조했습니다 일반적인 전문가들은 코인 투자시에 몇 % 손실이 발생할 경우 손절하는" [ref=e1598] [cursor=pointer]:
+                - generic [ref=e1601]:
+                  - generic [ref=e1602]: 7:19
+                  - generic [ref=e1603]: 7 minutes, 19 seconds
+                  - text: 살아남기 위해 손절매를 강조했습니다 일반적인 전문가들은 코인 투자시에 몇 % 손실이 발생할 경우 손절하는
+              - button "7 minutes, 28 seconds 기계적인 손절매 를 많이 추천합니다 그러나 원유 t 같은 경우 이런 기계적인 손절매 보다는 자신이 사전에" [ref=e1605] [cursor=pointer]:
+                - generic [ref=e1608]:
+                  - generic [ref=e1609]: 7:28
+                  - generic [ref=e1610]: 7 minutes, 28 seconds
+                  - text: 기계적인 손절매 를 많이 추천합니다 그러나 원유 t 같은 경우 이런 기계적인 손절매 보다는 자신이 사전에
+              - button "7 minutes, 35 seconds 생각했던 예측과 다르게 움직이거나 정신이 지나치게 흔들리기 시작하면 손절을 했다고 합니다 개인적으로" [ref=e1612] [cursor=pointer]:
+                - generic [ref=e1615]:
+                  - generic [ref=e1616]: 7:35
+                  - generic [ref=e1617]: 7 minutes, 35 seconds
+                  - text: 생각했던 예측과 다르게 움직이거나 정신이 지나치게 흔들리기 시작하면 손절을 했다고 합니다 개인적으로
+              - button "7 minutes, 43 seconds 이러한 손절매 방법은 원요가 전체 투자금의 20에서 30%을 투자해 자금의 손실 리스크를 관리했기 때문에" [ref=e1619] [cursor=pointer]:
+                - generic [ref=e1622]:
+                  - generic [ref=e1623]: 7:43
+                  - generic [ref=e1624]: 7 minutes, 43 seconds
+                  - text: 이러한 손절매 방법은 원요가 전체 투자금의 20에서 30%을 투자해 자금의 손실 리스크를 관리했기 때문에
+              - button "7 minutes, 51 seconds 가능한 방법으로 만약 전체 투자금의 대부분을 투자하는 투자자들에게는 맞지 않는 방법입니다네 번째 원요 띠의" [ref=e1626] [cursor=pointer]:
+                - generic [ref=e1629]:
+                  - generic [ref=e1630]: 7:51
+                  - generic [ref=e1631]: 7 minutes, 51 seconds
+                  - text: 가능한 방법으로 만약 전체 투자금의 대부분을 투자하는 투자자들에게는 맞지 않는 방법입니다네 번째 원요 띠의
+              - button "8 minutes 트레이딩 비법은 전체 시드의 2 30%만을 투자하라 있니다 이것은 원요가 계속 강조한 가장 중요한 자금" [ref=e1633] [cursor=pointer]:
+                - generic [ref=e1636]:
+                  - generic [ref=e1637]: 8:00
+                  - generic [ref=e1638]: 8 minutes
+                  - text: 트레이딩 비법은 전체 시드의 2 30%만을 투자하라 있니다 이것은 원요가 계속 강조한 가장 중요한 자금
+              - button "8 minutes, 8 seconds 관리입니다 저 개인적으로도 투자에서 가장 중요하다고 하는 생각은 자금 관리 및 리스크 관리 부분입니다 특히" [ref=e1640] [cursor=pointer]:
+                - generic [ref=e1643]:
+                  - generic [ref=e1644]: 8:08
+                  - generic [ref=e1645]: 8 minutes, 8 seconds
+                  - text: 관리입니다 저 개인적으로도 투자에서 가장 중요하다고 하는 생각은 자금 관리 및 리스크 관리 부분입니다 특히
+              - button "8 minutes, 16 seconds 코인 선물을 투자하시는 분은이 자금 및 리스크 관리를 못하면 결국 폐가 망신 한다고 생각합니다 예를 들어" [ref=e1647] [cursor=pointer]:
+                - generic [ref=e1650]:
+                  - generic [ref=e1651]: 8:16
+                  - generic [ref=e1652]: 8 minutes, 16 seconds
+                  - text: 코인 선물을 투자하시는 분은이 자금 및 리스크 관리를 못하면 결국 폐가 망신 한다고 생각합니다 예를 들어
+              - button "8 minutes, 24 seconds 투자금이 3천만 원 이하일 경우 투자금의 2 30% 정도인 400만 에서 600만 원 정도만 투자하는" [ref=e1654] [cursor=pointer]:
+                - generic [ref=e1657]:
+                  - generic [ref=e1658]: 8:24
+                  - generic [ref=e1659]: 8 minutes, 24 seconds
+                  - text: 투자금이 3천만 원 이하일 경우 투자금의 2 30% 정도인 400만 에서 600만 원 정도만 투자하는
+              - button "8 minutes, 31 seconds 것입니다 이렇게 하면 투자한 자금을 100% 다 손해를 봐도 전체 투자금 있는 2 30% 많은 손실을 보는" [ref=e1661] [cursor=pointer]:
+                - generic [ref=e1664]:
+                  - generic [ref=e1665]: 8:31
+                  - generic [ref=e1666]: 8 minutes, 31 seconds
+                  - text: 것입니다 이렇게 하면 투자한 자금을 100% 다 손해를 봐도 전체 투자금 있는 2 30% 많은 손실을 보는
+              - button "8 minutes, 39 seconds 것이기 때문에 나머지 7 80% 투자금으로 다시 복구하는 것이 가능합니다 또한 원유 띠는 저배율 즉" [ref=e1668] [cursor=pointer]:
+                - generic [ref=e1671]:
+                  - generic [ref=e1672]: 8:39
+                  - generic [ref=e1673]: 8 minutes, 39 seconds
+                  - text: 것이기 때문에 나머지 7 80% 투자금으로 다시 복구하는 것이 가능합니다 또한 원유 띠는 저배율 즉
+              - button "8 minutes, 47 seconds 낮은 레버리지를 사용하고 투자금의 대부분을 풀매수 또는 풀매도 하는 것을 피하고 철저하게 리스크 관리를" [ref=e1675] [cursor=pointer]:
+                - generic [ref=e1678]:
+                  - generic [ref=e1679]: 8:47
+                  - generic [ref=e1680]: 8 minutes, 47 seconds
+                  - text: 낮은 레버리지를 사용하고 투자금의 대부분을 풀매수 또는 풀매도 하는 것을 피하고 철저하게 리스크 관리를
+              - button "8 minutes, 55 seconds 해야 한다고 원는 말했습니다이를 위해 코인 물 투자 시에는 배의 레버리지" [ref=e1682] [cursor=pointer]:
+                - generic [ref=e1685]:
+                  - generic [ref=e1686]: 8:55
+                  - generic [ref=e1687]: 8 minutes, 55 seconds
+                  - text: 해야 한다고 원는 말했습니다이를 위해 코인 물 투자 시에는 배의 레버리지
+              - button "9 minutes, 1 second 이하로 투자하고 투자금이 커질수록 단계적으로 레버리지를 낮추는 것을 추천했습니다 원요 띠도 처음에는" [ref=e1689] [cursor=pointer]:
+                - generic [ref=e1692]:
+                  - generic [ref=e1693]: 9:01
+                  - generic [ref=e1694]: 9 minutes, 1 second
+                  - text: 이하로 투자하고 투자금이 커질수록 단계적으로 레버리지를 낮추는 것을 추천했습니다 원요 띠도 처음에는
+              - button "9 minutes, 9 seconds 레버리지 25배 잠깐 쓰다가 리플로 투자금액 50% 손실을 보고 난 이후 위험하다고 판단을 해서 줄였다고" [ref=e1696] [cursor=pointer]:
+                - generic [ref=e1699]:
+                  - generic [ref=e1700]: 9:09
+                  - generic [ref=e1701]: 9 minutes, 9 seconds
+                  - text: 레버리지 25배 잠깐 쓰다가 리플로 투자금액 50% 손실을 보고 난 이후 위험하다고 판단을 해서 줄였다고
+              - button "9 minutes, 18 seconds 합니다 원요 뛰는 그 이후에 코인 선물 투자 시에는 청산이 세 번 연속 나서 손실을 본다고 해도 다시 복구할" [ref=e1703] [cursor=pointer]:
+                - generic [ref=e1706]:
+                  - generic [ref=e1707]: 9:18
+                  - generic [ref=e1708]: 9 minutes, 18 seconds
+                  - text: 합니다 원요 뛰는 그 이후에 코인 선물 투자 시에는 청산이 세 번 연속 나서 손실을 본다고 해도 다시 복구할
+              - button "9 minutes, 26 seconds 투자금을 남겨놓고 남은 투자금으로 복 하는데 시간이 걸리더라도 천천히 복구를 했다고 합니다 아마 여기서" [ref=e1710] [cursor=pointer]:
+                - generic [ref=e1713]:
+                  - generic [ref=e1714]: 9:26
+                  - generic [ref=e1715]: 9 minutes, 26 seconds
+                  - text: 투자금을 남겨놓고 남은 투자금으로 복 하는데 시간이 걸리더라도 천천히 복구를 했다고 합니다 아마 여기서
+              - button "9 minutes, 34 seconds 천천히 복구했다고 말한 것은 급하게 다시 복구하려 보면 멘탈이 흔들릴 수 있기 때문에 여유를 갖고 매매를 한" [ref=e1717] [cursor=pointer]:
+                - generic [ref=e1720]:
+                  - generic [ref=e1721]: 9:34
+                  - generic [ref=e1722]: 9 minutes, 34 seconds
+                  - text: 천천히 복구했다고 말한 것은 급하게 다시 복구하려 보면 멘탈이 흔들릴 수 있기 때문에 여유를 갖고 매매를 한
+              - button "9 minutes, 41 seconds 것 같습니다 또한 추가적인 리스크 관리를 위해 원요 띠는 분할 매수 방식을 추천했습니다 실제로 원띠" [ref=e1724] [cursor=pointer]:
+                - generic [ref=e1727]:
+                  - generic [ref=e1728]: 9:41
+                  - generic [ref=e1729]: 9 minutes, 41 seconds
+                  - text: 것 같습니다 또한 추가적인 리스크 관리를 위해 원요 띠는 분할 매수 방식을 추천했습니다 실제로 원띠
+              - button "9 minutes, 49 seconds 투자금이 작을 때는 10분할 레버리지 10배 정도로 매매를 했고 투자금이 커지면서 3분할 레버리지 세배 정도로" [ref=e1731] [cursor=pointer]:
+                - generic [ref=e1734]:
+                  - generic [ref=e1735]: 9:49
+                  - generic [ref=e1736]: 9 minutes, 49 seconds
+                  - text: 투자금이 작을 때는 10분할 레버리지 10배 정도로 매매를 했고 투자금이 커지면서 3분할 레버리지 세배 정도로
+              - button "9 minutes, 57 seconds 매매를 했다고 하면서 운용자 자산이 커질수록 레버리지 배율을 낮추고 철저하게 리스크 관리를 했다고 합니다" [ref=e1738] [cursor=pointer]:
+                - generic [ref=e1741]:
+                  - generic [ref=e1742]: 9:57
+                  - generic [ref=e1743]: 9 minutes, 57 seconds
+                  - text: 매매를 했다고 하면서 운용자 자산이 커질수록 레버리지 배율을 낮추고 철저하게 리스크 관리를 했다고 합니다
+              - button "10 minutes, 4 seconds 그리고 물타기 같은 경우 처음부터 계획한 불만 매매가 아니라 계획하지 않은 물타기는 확신이 있을 때만 하고" [ref=e1745] [cursor=pointer]:
+                - generic [ref=e1748]:
+                  - generic [ref=e1749]: 10:04
+                  - generic [ref=e1750]: 10 minutes, 4 seconds
+                  - text: 그리고 물타기 같은 경우 처음부터 계획한 불만 매매가 아니라 계획하지 않은 물타기는 확신이 있을 때만 하고
+              - button "10 minutes, 12 seconds 초보는 절대 물타기를 하지 말라는 말을 했습니다 다섯 번째 원요 띠의 트레이딩 비법은 바로 높은 승률과" [ref=e1752] [cursor=pointer]:
+                - generic [ref=e1755]:
+                  - generic [ref=e1756]: 10:12
+                  - generic [ref=e1757]: 10 minutes, 12 seconds
+                  - text: 초보는 절대 물타기를 하지 말라는 말을 했습니다 다섯 번째 원요 띠의 트레이딩 비법은 바로 높은 승률과
+              - button "10 minutes, 19 seconds 복리 투자입니다 원띠 같은 경우 많은 투자자들이 중요하게 생각하는 손익비 다 승률을 높이는 것이 투자의 성공" [ref=e1759] [cursor=pointer]:
+                - generic [ref=e1762]:
+                  - generic [ref=e1763]: 10:19
+                  - generic [ref=e1764]: 10 minutes, 19 seconds
+                  - text: 복리 투자입니다 원띠 같은 경우 많은 투자자들이 중요하게 생각하는 손익비 다 승률을 높이는 것이 투자의 성공
+              - button "10 minutes, 28 seconds 비법이라고 생각 습니다 손익비가 높다라는 것은 한번 수익이 날 때 크게 수익이 나게 한다는 것인데 큰" [ref=e1766] [cursor=pointer]:
+                - generic [ref=e1769]:
+                  - generic [ref=e1770]: 10:28
+                  - generic [ref=e1771]: 10 minutes, 28 seconds
+                  - text: 비법이라고 생각 습니다 손익비가 높다라는 것은 한번 수익이 날 때 크게 수익이 나게 한다는 것인데 큰
+              - button "10 minutes, 35 seconds 수익을 원하면 결국 한 방을 바라는 매매로 갈 수밖에 없다고 생각했기 때문입니다 또한 한 방에 큰 수익을" [ref=e1773] [cursor=pointer]:
+                - generic [ref=e1776]:
+                  - generic [ref=e1777]: 10:35
+                  - generic [ref=e1778]: 10 minutes, 35 seconds
+                  - text: 수익을 원하면 결국 한 방을 바라는 매매로 갈 수밖에 없다고 생각했기 때문입니다 또한 한 방에 큰 수익을
+              - button "10 minutes, 43 seconds 추구하기보다는 복리로 계산시 하루 1 2% 정도 계속 먹었을 때 엄청난 수익이 나온다는 것을 깨달았던 거" [ref=e1780] [cursor=pointer]:
+                - generic [ref=e1783]:
+                  - generic [ref=e1784]: 10:43
+                  - generic [ref=e1785]: 10 minutes, 43 seconds
+                  - text: 추구하기보다는 복리로 계산시 하루 1 2% 정도 계속 먹었을 때 엄청난 수익이 나온다는 것을 깨달았던 거
+              - button "10 minutes, 51 seconds 같습니다 아마이 부분을 보면 원유 뛰는 단타 매매로 적은 수익을 많이 발생시키는 매매 방법을 사용한" [ref=e1787] [cursor=pointer]:
+                - generic [ref=e1790]:
+                  - generic [ref=e1791]: 10:51
+                  - generic [ref=e1792]: 10 minutes, 51 seconds
+                  - text: 같습니다 아마이 부분을 보면 원유 뛰는 단타 매매로 적은 수익을 많이 발생시키는 매매 방법을 사용한
+              - button "10 minutes, 59 seconds 같습니다 실제로 원띠 공개한 자신의 수익률 표를 보면 3년 동안 1평균 0.87% 수익을 꾸준히 벌어서" [ref=e1794] [cursor=pointer]:
+                - generic [ref=e1797]:
+                  - generic [ref=e1798]: 10:59
+                  - generic [ref=e1799]: 10 minutes, 59 seconds
+                  - text: 같습니다 실제로 원띠 공개한 자신의 수익률 표를 보면 3년 동안 1평균 0.87% 수익을 꾸준히 벌어서
+              - button "11 minutes, 8 seconds 600만 원이 3천억이 되는 복리의 마법을 부렸습니다 지금까지 골드핑거 있습니다 구독 위에 좋아요 부탁드립니다" [ref=e1801] [cursor=pointer]:
+                - generic [ref=e1804]:
+                  - generic [ref=e1805]: 11:08
+                  - generic [ref=e1806]: 11 minutes, 8 seconds
+                  - text: 600만 원이 3천억이 되는 복리의 마법을 부렸습니다 지금까지 골드핑거 있습니다 구독 위에 좋아요 부탁드립니다
+              - button "11 minutes, 16 seconds [음악]" [ref=e1808] [cursor=pointer]:
+                - generic [ref=e1811]:
+                  - generic [ref=e1812]: 11:16
+                  - generic [ref=e1813]: 11 minutes, 16 seconds
+                  - text: "[음악]"
+              - button "11 minutes, 25 seconds 감사합니다" [ref=e1815] [cursor=pointer]:
+                - generic [ref=e1818]:
+                  - generic [ref=e1819]: 11:25
+                  - generic [ref=e1820]: 11 minutes, 25 seconds
+                  - text: 감사합니다
+        - generic [ref=e409]:
+          - generic [ref=e411] [cursor=pointer]:
+            - link [ref=e412]:
+              - /url: /watch?v=1L40_6tgAjQ
+              - generic [ref=e419]: 48:30
+            - generic [ref=e421]:
+              - generic [ref=e422]:
+                - 'heading "[최초공개] 양자역학, 한 편으로 이해할 수 있는 다큐! 세계는 확률인가, 법칙인가… 아인슈타인 vs 보어 - 양자 전쟁 I 사이언스 워 : 거인의 전쟁I KBS 260307 방송 48 minutes" [level=3] [ref=e423]':
+                  - 'link "[최초공개] 양자역학, 한 편으로 이해할 수 있는 다큐! 세계는 확률인가, 법칙인가… 아인슈타인 vs 보어 - 양자 전쟁 I 사이언스 워 : 거인의 전쟁I KBS 260307 방송 48 minutes" [ref=e424]':
+                    - /url: /watch?v=1L40_6tgAjQ
+                    - text: "[최초공개] 양자역학, 한 편으로 이해할 수 있는 다큐! 세계는 확률인가, 법칙인가… 아인슈타인 vs 보어 - 양자 전쟁 I 사이언스 워 : 거인의 전쟁I KBS 260307 방송"
+                - generic [ref=e426]:
+                  - group [ref=e427]:
+                    - generic [ref=e428]:
+                      - text: KBS 다큐
+                      - img [ref=e431]:
+                        - generic [ref=e433]:
+                          - img
+                  - group [ref=e434]:
+                    - generic [ref=e435]: 278K views
+                    - generic [ref=e436]: •
+                    - generic [ref=e437]: 2 months ago
+              - button "More actions" [ref=e440]:
+                - generic [ref=e444]:
+                  - img
+          - generic [ref=e449] [cursor=pointer]:
+            - link [ref=e450]:
+              - /url: /watch?v=Qrpln889-rk
+              - generic [ref=e457]: 24:10
+            - generic [ref=e459]:
+              - generic [ref=e460]:
+                - heading "커버드콜부터 월배당 ETF까지! 배당투자 A to Z💰ㅣ타이머 / 14F 24 minutes" [level=3] [ref=e461]:
+                  - link "커버드콜부터 월배당 ETF까지! 배당투자 A to Z💰ㅣ타이머 / 14F 24 minutes" [ref=e462]:
+                    - /url: /watch?v=Qrpln889-rk
+                    - text: 커버드콜부터 월배당 ETF까지! 배당투자 A to Z💰ㅣ타이머 / 14F
+                - generic [ref=e464]:
+                  - group [ref=e465]:
+                    - generic [ref=e466]: 14F 일사에프
+                  - group [ref=e467]:
+                    - generic [ref=e468]: 642K views
+                    - generic [ref=e469]: •
+                    - generic [ref=e470]: 9 months ago
+              - button "More actions" [ref=e473]:
+                - generic [ref=e477]:
+                  - img
+          - generic [ref=e482] [cursor=pointer]:
+            - link [ref=e483]:
+              - /url: /watch?v=cLFKXrkoDRY&pp=ugUEEgJrbw%3D%3D
+              - generic [ref=e490]: 12:35
+            - generic [ref=e492]:
+              - generic [ref=e493]:
+                - heading "[UFC] 최두호 vs 빌 알지오 12 minutes, 35 seconds" [level=3] [ref=e494]:
+                  - link "[UFC] 최두호 vs 빌 알지오 12 minutes, 35 seconds" [ref=e495]:
+                    - /url: /watch?v=cLFKXrkoDRY&pp=ugUEEgJrbw%3D%3D
+                    - text: "[UFC] 최두호 vs 빌 알지오"
+                - generic [ref=e497]:
+                  - group [ref=e498]:
+                    - generic [ref=e499]:
+                      - text: tvN SPORTS
+                      - img [ref=e502]:
+                        - generic [ref=e504]:
+                          - img
+                  - group [ref=e505]:
+                    - generic [ref=e506]: 3.2M views
+                    - generic [ref=e507]: •
+                    - generic [ref=e508]: 1 year ago
+              - button "More actions" [ref=e511]:
+                - generic [ref=e515]:
+                  - img
+          - generic [ref=e520] [cursor=pointer]:
+            - link [ref=e521]:
+              - /url: /watch?v=CHCq0vh6Frg
+              - generic [ref=e528]: 3:42:02
+            - generic [ref=e530]:
+              - generic [ref=e531]:
+                - heading "토익스피킹 독학용 파트별 핵심 강의 🐰 노베이스 3시간 반 벼락치기 3 hours, 42 minutes" [level=3] [ref=e532]:
+                  - link "토익스피킹 독학용 파트별 핵심 강의 🐰 노베이스 3시간 반 벼락치기 3 hours, 42 minutes" [ref=e533]:
+                    - /url: /watch?v=CHCq0vh6Frg
+                    - text: 토익스피킹 독학용 파트별 핵심 강의 🐰 노베이스 3시간 반 벼락치기
+                - generic [ref=e535]:
+                  - group [ref=e536]:
+                    - generic [ref=e537]: 시계토끼제니쌤
+                  - group [ref=e538]:
+                    - generic [ref=e539]: 722K views
+                    - generic [ref=e540]: •
+                    - generic [ref=e541]: 11 months ago
+              - button "More actions" [ref=e544]:
+                - generic [ref=e548]:
+                  - img
+          - generic [ref=e553] [cursor=pointer]:
+            - link [ref=e554]:
+              - /url: /watch?v=O-6N7qmrW_o&pp=0gcJCQYLAYcqIYzv
+              - generic [ref=e561]: 2:44:14
+            - generic [ref=e563]:
+              - generic [ref=e564]:
+                - heading "김어준의 겸손은힘들다 뉴스공장 2026년 5월 26일 화요일 [전태진, 박형룡, 하정우, 이원택, 주식아가방, 퍼니포, 임성무X성광진X송영기X임전수X조용식, 겸손공장] 2 hours, 44 minutes" [level=3] [ref=e565]:
+                  - link "김어준의 겸손은힘들다 뉴스공장 2026년 5월 26일 화요일 [전태진, 박형룡, 하정우, 이원택, 주식아가방, 퍼니포, 임성무X성광진X송영기X임전수X조용식, 겸손공장] 2 hours, 44 minutes" [ref=e566]:
+                    - /url: /watch?v=O-6N7qmrW_o&pp=0gcJCQYLAYcqIYzv
+                    - text: 김어준의 겸손은힘들다 뉴스공장 2026년 5월 26일 화요일 [전태진, 박형룡, 하정우, 이원택, 주식아가방, 퍼니포, 임성무X성광진X송영기X임전수X조용식, 겸손공장]
+                - generic [ref=e568]:
+                  - group [ref=e569]:
+                    - generic [ref=e570]: 김어준의 겸손은힘들다 뉴스공장
+                  - group [ref=e571]:
+                    - generic [ref=e572]: 751K views
+                    - generic [ref=e573]: •
+                    - generic [ref=e574]: Streamed 1 hour ago
+                  - group [ref=e575]:
+                    - generic [ref=e579]: New
+              - button "More actions" [ref=e582]:
+                - generic [ref=e586]:
+                  - img
+          - generic [ref=e591] [cursor=pointer]:
+            - link [ref=e592]:
+              - /url: /watch?v=6RQ-bBdASvk&list=RD6RQ-bBdASvk&start_radio=1&pp=oAcB
+              - generic [ref=e598]:
+                - generic [ref=e601]:
+                  - img
+                - generic [ref=e602]: 22:09
+            - generic [ref=e604]:
+              - generic [ref=e605]:
+                - heading "성시경(Sungsikyung)의 킬링보이스를 라이브로! - 너의 모든 순간, 좋을텐데, 넌 감동이었어, 희재, 두사람, 미소천사, 거리에서, 태양계, I Love Uㅣ딩고뮤직 22 minutes" [level=3] [ref=e606]:
+                  - link "성시경(Sungsikyung)의 킬링보이스를 라이브로! - 너의 모든 순간, 좋을텐데, 넌 감동이었어, 희재, 두사람, 미소천사, 거리에서, 태양계, I Love Uㅣ딩고뮤직 22 minutes" [ref=e607]:
+                    - /url: /watch?v=6RQ-bBdASvk&list=RD6RQ-bBdASvk&start_radio=1&pp=oAcB
+                    - text: 성시경(Sungsikyung)의 킬링보이스를 라이브로! - 너의 모든 순간, 좋을텐데, 넌 감동이었어, 희재, 두사람, 미소천사, 거리에서, 태양계, I Love Uㅣ딩고뮤직
+                - generic [ref=e609]:
+                  - group [ref=e610]:
+                    - generic [ref=e611]:
+                      - text: 딩고 뮤직 / dingo music
+                      - img [ref=e614]:
+                        - generic [ref=e616]:
+                          - img
+                  - group [ref=e617]:
+                    - generic [ref=e618]: 75M views
+                    - generic [ref=e619]: •
+                    - generic [ref=e620]: 5 years ago
+              - button "More actions" [ref=e623]:
+                - generic [ref=e627]:
+                  - img
+          - generic [ref=e632] [cursor=pointer]:
+            - link [ref=e633]:
+              - /url: /watch?v=MPcUGG8zvrc&pp=ugUEEgJrbw%3D%3D
+              - generic [ref=e640]: 25:50
+            - generic [ref=e642]:
+              - generic [ref=e643]:
+                - heading "The Dawn of a New Dynasty [T1scord 2024 Ep.18] 25 minutes" [level=3] [ref=e644]:
+                  - link "The Dawn of a New Dynasty [T1scord 2024 Ep.18] 25 minutes" [ref=e645]:
+                    - /url: /watch?v=MPcUGG8zvrc&pp=ugUEEgJrbw%3D%3D
+                    - text: The Dawn of a New Dynasty [T1scord 2024 Ep.18]
+                - generic [ref=e647]:
+                  - group [ref=e648]:
+                    - generic [ref=e649]:
+                      - text: T1
+                      - img [ref=e652]:
+                        - generic [ref=e654]:
+                          - img
+                  - group [ref=e655]:
+                    - generic [ref=e656]: 3.5M views
+                    - generic [ref=e657]: •
+                    - generic [ref=e658]: 1 year ago
+              - button "More actions" [ref=e661]:
+                - generic [ref=e665]:
+                  - img
+          - generic [ref=e670] [cursor=pointer]:
+            - link [ref=e671]:
+              - /url: /watch?v=o--Jfjno7aI
+              - generic [ref=e678]: 2:25:07
+            - generic [ref=e680]:
+              - generic [ref=e681]:
+                - heading "돈이란 무엇인가?💵경제 원리를 알아야 벌 수 있는 돈의 모든 것｜2024년 최고의 프로그램 '돈의 얼굴' 시청자상, 한국방송대상 수상🏅｜금리와 인플레이션｜주식과 재테크｜#골라듄다큐 2 hours, 25 minutes" [level=3] [ref=e682]:
+                  - link "돈이란 무엇인가?💵경제 원리를 알아야 벌 수 있는 돈의 모든 것｜2024년 최고의 프로그램 '돈의 얼굴' 시청자상, 한국방송대상 수상🏅｜금리와 인플레이션｜주식과 재테크｜#골라듄다큐 2 hours, 25 minutes" [ref=e683]:
+                    - /url: /watch?v=o--Jfjno7aI
+                    - text: 돈이란 무엇인가?💵경제 원리를 알아야 벌 수 있는 돈의 모든 것｜2024년 최고의 프로그램 '돈의 얼굴' 시청자상, 한국방송대상 수상🏅｜금리와 인플레이션｜주식과 재테크｜#골라듄다큐
+                - generic [ref=e685]:
+                  - group [ref=e686]:
+                    - generic [ref=e687]:
+                      - text: EBSDocumentary (EBS 다큐)
+                      - img [ref=e690]:
+                        - generic [ref=e692]:
+                          - img
+                  - group [ref=e693]:
+                    - generic [ref=e694]: 1.5M views
+                    - generic [ref=e695]: •
+                    - generic [ref=e696]: 1 year ago
+              - button "More actions" [ref=e699]:
+                - generic [ref=e703]:
+                  - img
+          - generic [ref=e708] [cursor=pointer]:
+            - link [ref=e709]:
+              - /url: /watch?v=vMWexfEQTNU&pp=ugUEEgJrbw%3D%3D
+              - generic [ref=e716]: 22:04
+            - generic [ref=e718]:
+              - generic [ref=e719]:
+                - 'heading "[실화Pick] 취소하면 음식이 공짜? 그렇게 ''배달거지''가 된다 #실화탐사대 #실화On MBC260416방송 22 minutes" [level=3] [ref=e720]':
+                  - 'link "[실화Pick] 취소하면 음식이 공짜? 그렇게 ''배달거지''가 된다 #실화탐사대 #실화On MBC260416방송 22 minutes" [ref=e721]':
+                    - /url: /watch?v=vMWexfEQTNU&pp=ugUEEgJrbw%3D%3D
+                    - text: "[실화Pick] 취소하면 음식이 공짜? 그렇게 '배달거지'가 된다 #실화탐사대 #실화On MBC260416방송"
+                - generic [ref=e723]:
+                  - group [ref=e724]:
+                    - generic [ref=e725]: 실화 On
+                  - group [ref=e726]:
+                    - generic [ref=e727]: 2.6M views
+                    - generic [ref=e728]: •
+                    - generic [ref=e729]: 1 month ago
+                  - group [ref=e730]:
+                    - generic [ref=e733]:
+                      - generic [ref=e736]:
+                        - img
+                      - generic [ref=e737]: Auto-dubbed
+              - button "More actions" [ref=e740]:
+                - generic [ref=e744]:
+                  - img
+          - generic [ref=e749] [cursor=pointer]:
+            - link [ref=e750]:
+              - /url: /watch?v=P3jFI-VpyLg&t=27s
+              - generic [ref=e759]: 3:14:01
+            - generic [ref=e761]:
+              - generic [ref=e762]:
+                - heading "이 영상이 당신 인생을 바꿉니다. 바이브 코딩 1인 창업 3시간 통합본 3 hours, 14 minutes" [level=3] [ref=e763]:
+                  - link "이 영상이 당신 인생을 바꿉니다. 바이브 코딩 1인 창업 3시간 통합본 3 hours, 14 minutes" [ref=e764]:
+                    - /url: /watch?v=P3jFI-VpyLg&t=27s
+                    - text: 이 영상이 당신 인생을 바꿉니다. 바이브 코딩 1인 창업 3시간 통합본
+                - generic [ref=e766]:
+                  - group [ref=e767]:
+                    - generic [ref=e768]:
+                      - text: 조코딩 JoCoding
+                      - img [ref=e771]:
+                        - generic [ref=e773]:
+                          - img
+                  - group [ref=e774]:
+                    - generic [ref=e775]: 326K views
+                    - generic [ref=e776]: •
+                    - generic [ref=e777]: 3 months ago
+              - button "More actions" [ref=e780]:
+                - generic [ref=e784]:
+                  - img
+          - generic [ref=e789] [cursor=pointer]:
+            - link [ref=e790]:
+              - /url: /watch?v=hc8irclX6to&pp=0gcJCQYLAYcqIYzv
+              - generic [ref=e797]: 46:25
+            - generic [ref=e799]:
+              - generic [ref=e800]:
+                - 'heading "[Full] 작전 : 라덕연의 주가조작_MBC 2023년 6월 6일 방송 46 minutes" [level=3] [ref=e801]':
+                  - 'link "[Full] 작전 : 라덕연의 주가조작_MBC 2023년 6월 6일 방송 46 minutes" [ref=e802]':
+                    - /url: /watch?v=hc8irclX6to&pp=0gcJCQYLAYcqIYzv
+                    - text: "[Full] 작전 : 라덕연의 주가조작_MBC 2023년 6월 6일 방송"
+                - generic [ref=e804]:
+                  - group [ref=e805]:
+                    - generic [ref=e806]: MBC PD수첩
+                  - group [ref=e807]:
+                    - generic [ref=e808]: 1.1M views
+                    - generic [ref=e809]: •
+                    - generic [ref=e810]: 2 years ago
+              - button "More actions" [ref=e813]:
+                - generic [ref=e817]:
+                  - img
+          - generic [ref=e822] [cursor=pointer]:
+            - link [ref=e823]:
+              - /url: /watch?v=xxMv2by6L1o&pp=0gcJCQYLAYcqIYzv
+              - generic [ref=e830]: 2:18:17
+            - generic [ref=e832]:
+              - generic [ref=e833]:
+                - 'heading "[ENG SUB] The Most Sleep Inducing Yet Fascinating Math Documentary Ever Numbers #PICKDOCU 2 hours, 18 minutes" [level=3] [ref=e834]':
+                  - 'link "[ENG SUB] The Most Sleep Inducing Yet Fascinating Math Documentary Ever Numbers #PICKDOCU 2 hours, 18 minutes" [ref=e835]':
+                    - /url: /watch?v=xxMv2by6L1o&pp=0gcJCQYLAYcqIYzv
+                    - text: "[ENG SUB] The Most Sleep Inducing Yet Fascinating Math Documentary Ever Numbers #PICKDOCU"
+                - generic [ref=e837]:
+                  - group [ref=e838]:
+                    - generic [ref=e839]:
+                      - text: EBSDocumentary (EBS 다큐)
+                      - img [ref=e842]:
+                        - generic [ref=e844]:
+                          - img
+                  - group [ref=e845]:
+                    - generic [ref=e846]: 334K views
+                    - generic [ref=e847]: •
+                    - generic [ref=e848]: 9 months ago
+              - button "More actions" [ref=e851]:
+                - generic [ref=e855]:
+                  - img
+          - generic [ref=e860] [cursor=pointer]:
+            - link [ref=e861]:
+              - /url: /watch?v=uNf1CmnZB0A
+              - generic [ref=e868]: 15:52
+            - generic [ref=e870]:
+              - generic [ref=e871]:
+                - heading "연예계 주식 환자 1세대 지석진의 눈물겨운 투자 연대기^^ (※남일같지않음 주의※) [개미는 오늘도 뚠뚠 챕터5] 15 minutes" [level=3] [ref=e872]:
+                  - link "연예계 주식 환자 1세대 지석진의 눈물겨운 투자 연대기^^ (※남일같지않음 주의※) [개미는 오늘도 뚠뚠 챕터5] 15 minutes" [ref=e873]:
+                    - /url: /watch?v=uNf1CmnZB0A
+                    - text: 연예계 주식 환자 1세대 지석진의 눈물겨운 투자 연대기^^ (※남일같지않음 주의※) [개미는 오늘도 뚠뚠 챕터5]
+                - generic [ref=e875]:
+                  - group [ref=e876]:
+                    - generic [ref=e877]: 스발바르 저장고
+                  - group [ref=e878]:
+                    - generic [ref=e879]: 659K views
+                    - generic [ref=e880]: •
+                    - generic [ref=e881]: 4 years ago
+              - button "More actions" [ref=e884]:
+                - generic [ref=e888]:
+                  - img
+          - generic [ref=e893] [cursor=pointer]:
+            - link [ref=e894]:
+              - /url: /watch?v=nnPJB_0WIWg&pp=ugUEEgJrbw%3D%3D
+              - generic [ref=e901]: 39:55
+            - generic [ref=e903]:
+              - generic [ref=e904]:
+                - heading "최근 관측된 우주가 이론과 달라 심각한 고민에 빠진 천문학계 (흔들리는 빅뱅이론..) | 과학을 보다 EP.95 39 minutes" [level=3] [ref=e905]:
+                  - link "최근 관측된 우주가 이론과 달라 심각한 고민에 빠진 천문학계 (흔들리는 빅뱅이론..) | 과학을 보다 EP.95 39 minutes" [ref=e906]:
+                    - /url: /watch?v=nnPJB_0WIWg&pp=ugUEEgJrbw%3D%3D
+                    - text: 최근 관측된 우주가 이론과 달라 심각한 고민에 빠진 천문학계 (흔들리는 빅뱅이론..) | 과학을 보다 EP.95
+                - generic [ref=e908]:
+                  - group [ref=e909]:
+                    - generic [ref=e910]:
+                      - text: 보다 BODA
+                      - img [ref=e913]:
+                        - generic [ref=e915]:
+                          - img
+                  - group [ref=e916]:
+                    - generic [ref=e917]: 2.2M views
+                    - generic [ref=e918]: •
+                    - generic [ref=e919]: 1 year ago
+              - button "More actions" [ref=e922]:
+                - generic [ref=e926]:
+                  - img
+          - generic [ref=e931] [cursor=pointer]:
+            - link [ref=e932]:
+              - /url: /watch?v=7ZbR7N6Vcdo
+              - generic [ref=e939]: 18:05
+            - generic [ref=e941]:
+              - generic [ref=e942]:
+                - heading "[UFC] 최두호 vs 다니엘 산토스 18 minutes" [level=3] [ref=e943]:
+                  - link "[UFC] 최두호 vs 다니엘 산토스 18 minutes" [ref=e944]:
+                    - /url: /watch?v=7ZbR7N6Vcdo
+                    - text: "[UFC] 최두호 vs 다니엘 산토스"
+                - generic [ref=e946]:
+                  - group [ref=e947]:
+                    - generic [ref=e948]:
+                      - text: tvN SPORTS
+                      - img [ref=e951]:
+                        - generic [ref=e953]:
+                          - img
+                  - group [ref=e954]:
+                    - generic [ref=e955]: 3.4M views
+                    - generic [ref=e956]: •
+                    - generic [ref=e957]: 8 days ago
+              - button "More actions" [ref=e960]:
+                - generic [ref=e964]:
+                  - img
+          - generic [ref=e969] [cursor=pointer]:
+            - link [ref=e970]:
+              - /url: /watch?v=qLe3ZnT5_HY
+              - generic [ref=e977]: 31:25
+            - generic [ref=e979]:
+              - generic [ref=e980]:
+                - heading "현무-5에 중국과 일본에 이어 미국까지 경악한 이유 (샤를세환) | 작전본부 31 minutes" [level=3] [ref=e981]:
+                  - link "현무-5에 중국과 일본에 이어 미국까지 경악한 이유 (샤를세환) | 작전본부 31 minutes" [ref=e982]:
+                    - /url: /watch?v=qLe3ZnT5_HY
+                    - text: 현무-5에 중국과 일본에 이어 미국까지 경악한 이유 (샤를세환) | 작전본부
+                - generic [ref=e984]:
+                  - group [ref=e985]:
+                    - generic [ref=e986]:
+                      - text: 연합뉴스경제TV
+                      - img [ref=e989]:
+                        - generic [ref=e991]:
+                          - img
+                  - group [ref=e992]:
+                    - generic [ref=e993]: 3.2M views
+                    - generic [ref=e994]: •
+                    - generic [ref=e995]: 1 year ago
+              - button "More actions" [ref=e998]:
+                - generic [ref=e1002]:
+                  - img
+          - generic [ref=e1007] [cursor=pointer]:
+            - link [ref=e1008]:
+              - /url: /watch?v=Mpk4LNZ_P4c&pp=ugUEEgJrbw%3D%3D
+              - generic [ref=e1015]: 37:09
+            - generic [ref=e1017]:
+              - generic [ref=e1018]:
+                - heading "‘나는 왜 AI를 써도 좋은 보고서가 안 나올까?’ (김덕중 Firb AI연구소장) 37 minutes" [level=3] [ref=e1019]:
+                  - link "‘나는 왜 AI를 써도 좋은 보고서가 안 나올까?’ (김덕중 Firb AI연구소장) 37 minutes" [ref=e1020]:
+                    - /url: /watch?v=Mpk4LNZ_P4c&pp=ugUEEgJrbw%3D%3D
+                    - text: ‘나는 왜 AI를 써도 좋은 보고서가 안 나올까?’ (김덕중 Firb AI연구소장)
+                - generic [ref=e1022]:
+                  - group [ref=e1023]:
+                    - generic [ref=e1024]:
+                      - text: 티타임즈TV
+                      - img [ref=e1027]:
+                        - generic [ref=e1029]:
+                          - img
+                  - group [ref=e1030]:
+                    - generic [ref=e1031]: 387K views
+                    - generic [ref=e1032]: •
+                    - generic [ref=e1033]: 1 year ago
+              - button "More actions" [ref=e1036]:
+                - generic [ref=e1040]:
+                  - img
+          - generic [ref=e1045] [cursor=pointer]:
+            - link [ref=e1046]:
+              - /url: /watch?v=euNulR92fgg&pp=ugUEEgJrbw%3D%3D
+              - generic [ref=e1053]: 36:37
+            - generic [ref=e1055]:
+              - generic [ref=e1056]:
+                - heading "\"60일 휴전·호르무즈 개방\"‥핵 간극 여전 - [LIVE] MBC 뉴스투데이 2026년 05월 25일 36 minutes" [level=3] [ref=e1057]:
+                  - link "\"60일 휴전·호르무즈 개방\"‥핵 간극 여전 - [LIVE] MBC 뉴스투데이 2026년 05월 25일 36 minutes" [ref=e1058]:
+                    - /url: /watch?v=euNulR92fgg&pp=ugUEEgJrbw%3D%3D
+                    - text: "\"60일 휴전·호르무즈 개방\"‥핵 간극 여전 - [LIVE] MBC 뉴스투데이 2026년 05월 25일"
+                - generic [ref=e1060]:
+                  - group [ref=e1061]:
+                    - generic [ref=e1062]: MBCNEWS
+                  - group [ref=e1063]:
+                    - generic [ref=e1064]: 198K views
+                    - generic [ref=e1065]: •
+                    - generic [ref=e1066]: Streamed 1 day ago
+                  - group [ref=e1067]:
+                    - generic [ref=e1071]: New
+              - button "More actions" [ref=e1074]:
+                - generic [ref=e1078]:
+                  - img
+          - generic [ref=e1083] [cursor=pointer]:
+            - link [ref=e1084]:
+              - /url: /watch?v=Nl4iqwomcPc&pp=ugUEEgJrbw%3D%3D
+              - generic [ref=e1091]: 1:07:30
+            - generic [ref=e1093]:
+              - generic [ref=e1094]:
+                - heading "[12시에 만나요] 외국인 언제 돌아오나 반도체 다음 주도주는?🤔ㅣ강은호 전 방위산업청장ㅣ2026년 4월 24일 금요일 1 hour, 7 minutes" [level=3] [ref=e1095]:
+                  - link "[12시에 만나요] 외국인 언제 돌아오나 반도체 다음 주도주는?🤔ㅣ강은호 전 방위산업청장ㅣ2026년 4월 24일 금요일 1 hour, 7 minutes" [ref=e1096]:
+                    - /url: /watch?v=Nl4iqwomcPc&pp=ugUEEgJrbw%3D%3D
+                    - text: "[12시에 만나요] 외국인 언제 돌아오나 반도체 다음 주도주는?🤔ㅣ강은호 전 방위산업청장ㅣ2026년 4월 24일 금요일"
+                - generic [ref=e1098]:
+                  - group [ref=e1099]:
+                    - generic [ref=e1100]: 김어준의 겸손은힘들다 뉴스공장
+                  - group [ref=e1101]:
+                    - generic [ref=e1102]: 651K views
+                    - generic [ref=e1103]: •
+                    - generic [ref=e1104]: Streamed 1 month ago
+              - button "More actions" [ref=e1107]:
+                - generic [ref=e1111]:
+                  - img
+          - generic [ref=e1116] [cursor=pointer]:
+            - link [ref=e1117]:
+              - /url: /watch?v=ccVTFKwTbnw
+              - generic [ref=e1124]: 1:21:45
+            - generic [ref=e1126]:
+              - generic [ref=e1127]:
+                - heading "100% PRIÈRE - dimanche 24 mai - Prières inspirées - Jérémy Sourdril 1 hour, 21 minutes" [level=3] [ref=e1128]:
+                  - link "100% PRIÈRE - dimanche 24 mai - Prières inspirées - Jérémy Sourdril 1 hour, 21 minutes" [ref=e1129]:
+                    - /url: /watch?v=ccVTFKwTbnw
+                    - text: 100% PRIÈRE - dimanche 24 mai - Prières inspirées - Jérémy Sourdril
+                - generic [ref=e1131]:
+                  - group [ref=e1132]:
+                    - generic [ref=e1133]:
+                      - text: EMCI TV
+                      - img [ref=e1136]:
+                        - generic [ref=e1138]:
+                          - img
+                  - group [ref=e1139]:
+                    - generic [ref=e1140]: 179K views
+                    - generic [ref=e1141]: •
+                    - generic [ref=e1142]: 1 day ago
+                  - group [ref=e1143]:
+                    - generic [ref=e1147]: New
+              - button "More actions" [ref=e1150]:
+                - generic [ref=e1154]:
+                  - img

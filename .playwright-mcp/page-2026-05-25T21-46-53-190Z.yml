@@ -1,0 +1,379 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "折 Robotic Origami Challenge" [ref=e4] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e5]: 折
+        - generic [ref=e6]:
+          - text: Robotic
+          - emphasis [ref=e7]: Origami
+          - text: Challenge
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Task" [ref=e10] [cursor=pointer]:
+            - /url: "#task"
+        - listitem [ref=e11]:
+          - link "Resources" [ref=e12] [cursor=pointer]:
+            - /url: "#resources"
+        - listitem [ref=e13]:
+          - link "Organizers" [ref=e14] [cursor=pointer]:
+            - /url: "#organizers"
+        - listitem [ref=e15]:
+          - link "Partners" [ref=e16] [cursor=pointer]:
+            - /url: "#partners"
+        - listitem [ref=e17]:
+          - link "FAQ" [ref=e18] [cursor=pointer]:
+            - /url: "#faq"
+        - listitem [ref=e19]:
+          - combobox "Language" [ref=e20] [cursor=pointer]:
+            - option "EN" [selected]
+            - option "日本語"
+        - listitem [ref=e21]:
+          - link "Register" [ref=e22] [cursor=pointer]:
+            - /url: https://forms.gle/wchFyv3kjzbvxmJZ9
+            - button "Register" [ref=e23]
+  - generic [ref=e24]:
+    - generic: 折
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e31]: IROS 2026 · Pittsburgh
+        - generic [ref=e32]: ·
+        - generic [ref=e33]: 折紙
+        - generic [ref=e34]: ·
+        - generic [ref=e35]: First Edition
+      - heading "The Robotic Origami Challenge" [level=1] [ref=e36]:
+        - text: The Robotic
+        - emphasis [ref=e37]: Origami
+        - text: Challenge
+      - paragraph [ref=e38]: A competition benchmarking dexterous robotic hands on fine-motor, sequential paper manipulation — against expert artists from the Nippon Origami Association (日本折紙協会).
+      - generic [ref=e39]:
+        - strong [ref=e41]: Sep 27 — Oct 1, 2026
+        - generic [ref=e42]: ·
+        - generic [ref=e43]: David L. Lawrence Convention Center
+        - generic [ref=e44]: ·
+        - generic [ref=e45]: Pittsburgh, PA
+      - generic [ref=e46]:
+        - link "Register Now for the Robotic Origami Challenge 2026 →" [ref=e47] [cursor=pointer]:
+          - /url: https://forms.gle/wchFyv3kjzbvxmJZ9
+          - button "Register Now for the Robotic Origami Challenge 2026 →" [ref=e48]
+        - link "Read the rules" [ref=e49] [cursor=pointer]:
+          - /url: "#task"
+          - button "Read the rules" [ref=e50]
+  - generic [ref=e52]:
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e55]: 01 · The Task
+        - generic [ref=e56]: 紙飛行機
+      - heading "Fold a paper airplane. One figure, every team." [level=2] [ref=e57]:
+        - text: Fold
+        - emphasis [ref=e58]: a paper airplane.
+        - text: One figure, every team.
+      - paragraph [ref=e59]:
+        - text: Traditional
+        - emphasis [ref=e60]: kami hikōki
+        - text: — a classic 4–6 fold airplane curated by the Nippon Origami Association (日本折紙協会).
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - generic [ref=e63]: Target figure
+        - img "A traditional paper airplane — the target figure for IROS 2026" [ref=e64]
+      - generic [ref=e65]:
+        - generic [ref=e66]: 紙飛行機 · kami hikōki
+        - heading "The Paper Airplane" [level=3] [ref=e67]:
+          - text: The
+          - emphasis [ref=e68]: Paper Airplane
+        - paragraph [ref=e69]: A traditional Japanese paper airplane — 4 to 6 folds depending on the variant chosen by the team. Judged on crease accuracy, structural fidelity, symmetry, and paper integrity.
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - generic [ref=e72]: Default paper
+            - generic [ref=e73]: 15 × 15 cm
+          - generic [ref=e74]:
+            - generic [ref=e75]: Default weight
+            - generic [ref=e76]: ≥ 60 gsm
+          - generic [ref=e77]:
+            - generic [ref=e78]: Folds
+            - generic [ref=e79]: 4 — 6
+          - generic [ref=e80]:
+            - generic [ref=e81]: Scored on
+            - generic [ref=e82]: Folding time
+    - generic [ref=e83]:
+      - generic [ref=e84]: The Rules
+      - paragraph [ref=e85]: Judged by an Origami Grand Master from the Nippon Origami Association. Their craft is the rubric.
+    - generic [ref=e88]:
+      - generic [ref=e89]: Nippon Origami Association · 日本折紙協会
+      - text: The masters who set the bar.
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - generic [ref=e92]: Success / Failed
+        - generic [ref=e93]:
+          - text: Pass
+          - emphasis [ref=e94]: or
+          - text: fail
+        - generic [ref=e95]: The judge panel declares whether you folded a recognizable airplane.
+      - generic [ref=e96]:
+        - generic [ref=e97]: Time limit
+        - generic [ref=e98]:
+          - emphasis [ref=e99]: "10"
+          - text: min/attempt
+        - generic [ref=e100]: Exceeding the limit is an automatic fail.
+      - generic [ref=e101]:
+        - generic [ref=e102]: Judged by
+        - generic [ref=e103]:
+          - text: Origami
+          - emphasis [ref=e104]: Grand Master
+        - generic [ref=e105]: From the Nippon Origami Association (日本折紙協会).
+      - generic [ref=e106]:
+        - generic [ref=e107]: Scoring criterion
+        - generic [ref=e108]:
+          - text: Folding
+          - emphasis [ref=e109]: time
+        - generic [ref=e110]: Faster successful folds rank higher.
+    - generic [ref=e111]:
+      - img
+      - paragraph [ref=e112]:
+        - text: And if the plane actually
+        - emphasis [ref=e113]: flies
+        - text: — extra points.
+  - generic [ref=e115]:
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - generic [ref=e118]: 02 · Resources
+        - generic [ref=e119]: 資源
+      - heading "What we provide to every team." [level=2] [ref=e120]:
+        - text: What we
+        - emphasis [ref=e121]: provide
+        - text: to every team.
+      - paragraph [ref=e122]: Three things, released to all registered teams — so the barrier to entry is policy, not logistics.
+    - generic [ref=e123]:
+      - generic [ref=e124]:
+        - img "Key moments from the Sharpa Hands paper-airplane fold sequence" [ref=e126]
+        - generic [ref=e127]:
+          - generic [ref=e128]: 01 · 資料
+          - heading "Teleop datasets" [level=3] [ref=e129]
+          - paragraph [ref=e130]: 500+ episodes of teleoperation demonstrations collected on the target folding sequence.
+          - list [ref=e131]:
+            - listitem [ref=e132]: — Human teleoperation demonstrations (500+ episodes)
+            - listitem [ref=e133]: — Fold-sequence diagrams
+            - listitem [ref=e134]: — Reference example folds
+          - generic [ref=e135]:
+            - link "Coming soon" [disabled]:
+              - /url: "#"
+      - generic [ref=e136]:
+        - img [ref=e138]
+        - generic [ref=e153]:
+          - generic [ref=e154]: 02 · 模擬
+          - heading "Simulation environment" [level=3] [ref=e155]:
+            - text: Simulation
+            - emphasis [ref=e156]: environment
+          - paragraph [ref=e157]: A high-fidelity sim built on NVIDIA Isaac Sim, with the paper physics and hand kinematics you need to train a folding policy end-to-end.
+          - list [ref=e158]:
+            - listitem [ref=e159]: — Thin-shell paper physics with plastic creasing and fold memory
+            - listitem [ref=e160]: — Digital twins of every partner robotic hand
+            - listitem [ref=e161]: — Representative paper-airplane task setups
+            - listitem [ref=e162]: — Same scoring rubric as the live event
+          - generic [ref=e163]: Released ahead of the event · standardised across all teams.
+      - generic [ref=e167]:
+        - generic [ref=e168]: 03 · 評価
+        - heading "Real-World Eval" [level=3] [ref=e169]:
+          - text: Real-World
+          - emphasis [ref=e170]: Eval
+        - generic [ref=e171]: Sharpa Hands
+        - paragraph [ref=e172]: A remote real-world lab where teams upload policies and run them on the same arms + Sharpa Hands rig that ships to Pittsburgh.
+        - list [ref=e173]:
+          - listitem [ref=e174]: — Bimanual arms paired with Sharpa Hands dexterous end-effectors
+          - listitem [ref=e175]: — Identical rig in sim, remote eval, and on-site
+          - listitem [ref=e176]: — Upload a policy, queue an eval, get scored
+          - listitem [ref=e177]: — Lowers the barrier — no shipping robots to Pittsburgh
+        - generic [ref=e178]: Bookable through the team portal ahead of the event.
+  - generic [ref=e180]:
+    - generic [ref=e181]:
+      - generic [ref=e182]:
+        - generic [ref=e183]: 03 · Organizers
+        - generic [ref=e184]: 主催
+      - heading "The organizing committee." [level=2] [ref=e185]
+    - generic [ref=e186]:
+      - text: 主
+      - generic [ref=e187]:
+        - paragraph [ref=e188]: A coalition across robotics labs, simulation, and origami practice — assembled to make a fair, reproducible, well-judged competition.
+        - generic [ref=e189]:
+          - generic [ref=e190]: "08"
+          - text: Co-organizers
+      - generic [ref=e191]:
+        - generic [ref=e192]:
+          - generic [ref=e193]: "01"
+          - img "Gao Yang" [ref=e195]
+          - generic [ref=e196]: Gao Yang
+          - generic [ref=e197]: Tsinghua University / SpiritAI
+        - generic [ref=e198]:
+          - generic [ref=e199]: "02"
+          - img "Noriaki Hirose" [ref=e201]
+          - generic [ref=e202]: Noriaki Hirose
+          - generic [ref=e203]: Toyota Central R&D Labs., Inc.
+        - generic [ref=e204]:
+          - generic [ref=e205]: "03"
+          - img "Steve Xie" [ref=e207]
+          - generic [ref=e208]: Steve Xie
+          - generic [ref=e209]: Lightwheel
+        - generic [ref=e210]:
+          - generic [ref=e211]: "04"
+          - img "Chris Paxton" [ref=e213]
+          - generic [ref=e214]: Chris Paxton
+          - generic [ref=e215]: Agility Robotics
+        - generic [ref=e216]:
+          - generic [ref=e217]: "05"
+          - img "Jiafei Duan" [ref=e219]
+          - generic [ref=e220]: Jiafei Duan
+          - generic [ref=e221]: NUS
+        - generic [ref=e222]:
+          - generic [ref=e223]: "06"
+          - img "Chengbo Yuan" [ref=e225]
+          - generic [ref=e226]: Chengbo Yuan
+          - generic [ref=e227]: Tsinghua University
+        - generic [ref=e228]:
+          - generic [ref=e229]: "07"
+          - img "Yunfang Yang" [ref=e231]
+          - generic [ref=e232]: Yunfang Yang
+          - generic [ref=e233]: Sharpa Hands
+        - generic [ref=e234]:
+          - generic [ref=e235]: "08"
+          - img "Zhang Kaifeng" [ref=e237]
+          - generic [ref=e238]: Zhang Kaifeng
+          - generic [ref=e239]: Sharpa Hands
+        - generic [ref=e240]:
+          - generic [ref=e241]: "09"
+          - img "Michael Cho" [ref=e243]
+          - generic [ref=e244]: Michael Cho
+          - generic [ref=e245]: FrodoBots
+        - generic [ref=e246]:
+          - generic [ref=e247]: "10"
+          - img "Santiago Pravisani" [ref=e249]
+          - generic [ref=e250]: Santiago Pravisani
+          - generic [ref=e251]: FrodoBots
+  - generic [ref=e253]:
+    - generic [ref=e254]:
+      - generic [ref=e255]:
+        - generic [ref=e256]: 04 · Partners
+        - generic [ref=e257]: 協力
+      - heading "Made possible by." [level=2] [ref=e258]
+    - generic [ref=e259]:
+      - generic [ref=e260]:
+        - generic [ref=e261]: Host
+        - img "BitRobot" [ref=e262]
+      - generic [ref=e263]:
+        - generic [ref=e264]: Human Experts
+        - img "Nippon Origami Association (日本折紙協会)" [ref=e265]
+      - generic [ref=e266]:
+        - generic [ref=e267]: Hardware
+        - img "Sharpa Hands" [ref=e268]
+      - generic [ref=e269]:
+        - generic [ref=e270]: Simulation
+        - img "Lightwheel" [ref=e271]
+  - generic [ref=e273]:
+    - generic [ref=e274]:
+      - generic [ref=e275]:
+        - generic [ref=e276]: 05 · FAQ
+        - generic [ref=e277]: 問答
+      - heading "Frequently asked." [level=2] [ref=e278]
+    - generic [ref=e279]:
+      - group [ref=e280]:
+        - generic "What exactly do we fold?" [ref=e281] [cursor=pointer]:
+          - generic [ref=e282]: What exactly do we fold?
+        - generic [ref=e284]:
+          - text: A traditional Japanese paper airplane (
+          - emphasis [ref=e285]: kami hikōki
+          - text: ), 4 to 6 folds depending on the variant. Every team folds the same target figure.
+      - group [ref=e286]:
+        - generic "How is scoring calculated?" [ref=e287] [cursor=pointer]:
+          - generic [ref=e288]: How is scoring calculated?
+      - group [ref=e290]:
+        - generic "Do I need to bring my own robotic hand?" [ref=e291] [cursor=pointer]:
+          - generic [ref=e292]: Do I need to bring my own robotic hand?
+      - group [ref=e294]:
+        - generic "When does registration open?" [ref=e295] [cursor=pointer]:
+          - generic [ref=e296]: When does registration open?
+      - group [ref=e298]:
+        - generic "Can I train in simulation first?" [ref=e299] [cursor=pointer]:
+          - generic [ref=e300]: Can I train in simulation first?
+      - group [ref=e302]:
+        - generic "Is there a remote evaluation option?" [ref=e303] [cursor=pointer]:
+          - generic [ref=e304]: Is there a remote evaluation option?
+      - group [ref=e306]:
+        - generic "Who judges?" [ref=e307] [cursor=pointer]:
+          - generic [ref=e308]: Who judges?
+      - group [ref=e310]:
+        - generic "Open to industry teams?" [ref=e311] [cursor=pointer]:
+          - generic [ref=e312]: Open to industry teams?
+      - group [ref=e314]:
+        - generic "How can I partner or sponsor?" [ref=e315] [cursor=pointer]:
+          - generic [ref=e316]: How can I partner or sponsor?
+  - generic [ref=e319]:
+    - generic [ref=e320]:
+      - generic [ref=e321]:
+        - generic [ref=e322]: 06 · Registration
+        - generic [ref=e323]: 登録
+      - heading "Be the first to fold." [level=2] [ref=e324]:
+        - text: Be the first
+        - emphasis [ref=e325]: to fold.
+    - generic [ref=e326]:
+      - text: 折
+      - generic [ref=e327]:
+        - generic [ref=e328]: Registration opens soon
+        - heading "Complete the form and we'll notify you when everything goes live — sim, remote lab, registration." [level=3] [ref=e329]:
+          - text: Complete the form and we'll notify you when
+          - emphasis [ref=e330]: everything goes live
+          - text: — sim, remote lab, registration.
+        - paragraph [ref=e331]: Tell us about your team. We'll be in touch with simulation access, the figure spec, and the call-for-teams when it opens.
+        - link "Open the form →" [ref=e332] [cursor=pointer]:
+          - /url: https://forms.gle/wchFyv3kjzbvxmJZ9
+      - generic [ref=e333]:
+        - generic [ref=e334]:
+          - generic [ref=e335]: email
+          - generic [ref=e336]: organizers@robotic-origami-challenge.org
+        - generic [ref=e337]:
+          - generic [ref=e338]: updates
+          - generic [ref=e339]: "@RoboticOrigami"
+        - generic [ref=e340]:
+          - generic [ref=e341]: press
+          - generic [ref=e342]: press@robotic-origami-challenge.org
+  - contentinfo [ref=e343]:
+    - generic [ref=e344]:
+      - generic [ref=e345]:
+        - generic [ref=e346]:
+          - generic [ref=e347]:
+            - text: Robotic
+            - emphasis [ref=e348]: Origami
+            - text: Challenge
+          - paragraph [ref=e349]: IROS 2026 — dexterous manipulation benchmarked against traditional Japanese origami.
+        - generic [ref=e350]:
+          - generic [ref=e351]:
+            - heading "Program" [level=5] [ref=e352]
+            - list [ref=e353]:
+              - listitem [ref=e354]:
+                - link "Task" [ref=e355] [cursor=pointer]:
+                  - /url: "#task"
+              - listitem [ref=e356]:
+                - link "Resources" [ref=e357] [cursor=pointer]:
+                  - /url: "#resources"
+          - generic [ref=e358]:
+            - heading "Event" [level=5] [ref=e359]
+            - list [ref=e360]:
+              - listitem [ref=e361]:
+                - link "Organizers" [ref=e362] [cursor=pointer]:
+                  - /url: "#organizers"
+              - listitem [ref=e363]:
+                - link "Partners" [ref=e364] [cursor=pointer]:
+                  - /url: "#partners"
+          - generic [ref=e365]:
+            - heading "Contact" [level=5] [ref=e366]
+            - list [ref=e367]:
+              - listitem [ref=e368]:
+                - link "Register" [ref=e369] [cursor=pointer]:
+                  - /url: https://forms.gle/wchFyv3kjzbvxmJZ9
+              - listitem [ref=e370]:
+                - link "FAQ" [ref=e371] [cursor=pointer]:
+                  - /url: "#faq"
+              - listitem [ref=e372]:
+                - link "Email" [ref=e373] [cursor=pointer]:
+                  - /url: mailto:organizers@robotic-origami-challenge.org
+      - generic [ref=e374]:
+        - generic [ref=e375]: © 2026 The Robotic Origami Challenge · IROS 2026
+        - generic [ref=e376]: Pittsburgh · Sept 27 — Oct 1, 2026

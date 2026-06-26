@@ -1,0 +1,164 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Introducing the Polar Startup Program" [ref=e4] [cursor=pointer]:
+      - /url: /startup-program
+      - generic [ref=e5]:
+        - paragraph [ref=e6]: Introducing the Polar Startup Program
+        - img [ref=e7]
+    - generic [ref=e10]:
+      - link [ref=e11] [cursor=pointer]:
+        - /url: /
+        - button [ref=e13]:
+          - img [ref=e15]
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - button "Features" [ref=e26] [cursor=pointer]
+        - listitem [ref=e27]:
+          - button "Docs" [ref=e28] [cursor=pointer]
+        - listitem [ref=e29]:
+          - link "Blog" [ref=e30] [cursor=pointer]:
+            - /url: /blog
+        - listitem [ref=e31]:
+          - link "Company" [ref=e32] [cursor=pointer]:
+            - /url: /company
+      - generic [ref=e33]:
+        - button "Sign in" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: Sign in
+        - button "Get Started" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]:
+            - generic [ref=e38]: Get Started
+            - img
+  - generic [ref=e40]:
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - heading "Sell globally, without the tax compliance" [level=1] [ref=e46]
+        - paragraph [ref=e47]: Polar as your Merchant of Record.
+        - generic [ref=e48]:
+          - button "Get Started" [ref=e49] [cursor=pointer]:
+            - generic [ref=e50]:
+              - generic [ref=e51]: Get Started
+              - img
+          - link "View Documentation" [ref=e52] [cursor=pointer]:
+            - /url: /docs/merchant-of-record/introduction
+            - button "View Documentation" [ref=e53]:
+              - generic [ref=e54]: View Documentation
+      - generic [ref=e59]: Most jurisdictions tax digital sales, and the rules differ country by country. Polar takes the role of reseller for those sales, which moves the international tax liability off your balance sheet onto ours.
+      - generic [ref=e60]:
+        - heading "What Merchant of Record actually means" [level=2] [ref=e61]
+        - generic [ref=e62]:
+          - paragraph [ref=e63]: "A Payment Service Provider like Stripe routes money between your customer and your bank. It's a powerful abstraction for processing transactions, but it stops there: the merchant on every receipt is still you, which means the tax liability for every international sale is also still yours."
+          - paragraph [ref=e64]: A Merchant of Record sits one layer higher. Polar buys the digital good from you and resells it to your customer, which makes us the merchant for that specific sale. As a consequence, international sales tax (VAT, GST, US Sales Tax, and the rest) is owed by us, not you.
+          - paragraph [ref=e65]: What stays with you is the customer relationship. The renewals, the support, and the product experience are all yours. We sit underneath, handling the regulatory layer the customer never has to think about.
+      - generic [ref=e66]:
+        - generic [ref=e67]:
+          - img [ref=e69]
+          - generic [ref=e71]:
+            - heading "Global coverage" [level=3] [ref=e72]
+            - paragraph [ref=e73]: Sell into every country we support. We monitor thresholds and expand registrations as our volume grows.
+        - generic [ref=e74]:
+          - img [ref=e76]
+          - generic [ref=e79]:
+            - heading "Tax-correct invoices" [level=3] [ref=e80]
+            - paragraph [ref=e81]: Every order ships with a compliant invoice and the right VAT, GST, or Sales Tax line.
+        - generic [ref=e82]:
+          - img [ref=e84]
+          - generic [ref=e86]:
+            - heading "Liability on us" [level=3] [ref=e87]
+            - paragraph [ref=e88]: We're on the hook for capturing and remitting international sales tax.
+        - generic [ref=e89]:
+          - img [ref=e91]
+          - generic [ref=e94]:
+            - heading "EU B2B reverse charge" [level=3] [ref=e95]
+            - paragraph [ref=e96]: VAT-registered EU businesses get reverse-charge handling automatically.
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - heading "What we cover" [level=2] [ref=e99]
+          - paragraph [ref=e100]: Tax compliance is more than charging the right rate at checkout. Polar takes the full chain, from the moment money is captured to the moment it's remitted.
+        - list [ref=e101]:
+          - listitem [ref=e102]:
+            - generic [ref=e103]: Capture
+            - generic [ref=e104]: We charge the correct rate at checkout based on the customer's location and tax status, including reverse charge for EU B2B.
+          - listitem [ref=e105]:
+            - generic [ref=e106]: Remittance
+            - generic [ref=e107]: We file and pay sales tax to the relevant authorities on the cadence they require.
+          - listitem [ref=e108]:
+            - generic [ref=e109]: Registrations
+            - generic [ref=e110]: We hold EU OSS VAT (Ireland), UK VAT, and US state registrations, and we add new ones as we cross volume thresholds.
+          - listitem [ref=e111]:
+            - generic [ref=e112]: Invoices and receipts
+            - generic [ref=e113]: Every order produces a tax-correct invoice the customer can hand to their accountant.
+          - listitem [ref=e114]:
+            - generic [ref=e115]: Refunds and disputes
+            - generic [ref=e116]: Refunds adjust the tax line automatically. Disputes are managed end to end.
+      - generic [ref=e117]:
+        - heading "Sell internationally" [level=2] [ref=e118]
+        - paragraph [ref=e119]: Polar takes the international tax exposure as your Merchant of Record.
+        - button "Get Started" [ref=e121] [cursor=pointer]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: Get Started
+            - img
+    - generic [ref=e127]:
+      - generic [ref=e128]:
+        - button [ref=e131]:
+          - img [ref=e133]
+        - generic [ref=e142]:
+          - link "Join Polar today" [ref=e143] [cursor=pointer]:
+            - /url: /signup
+            - generic [ref=e144]: Join Polar today
+            - img [ref=e145]
+          - generic [ref=e147]: © Polar Software, Inc. 2026
+      - generic [ref=e148]:
+        - heading "Features" [level=3] [ref=e149]
+        - generic [ref=e150]:
+          - link "Usage Billing" [ref=e151] [cursor=pointer]:
+            - /url: /features/usage-billing
+          - link "Subscriptions" [ref=e152] [cursor=pointer]:
+            - /url: /features/subscriptions
+          - link "Seats" [ref=e153] [cursor=pointer]:
+            - /url: /features/seats
+          - link "Credits" [ref=e154] [cursor=pointer]:
+            - /url: /features/credits
+          - link "Trials" [ref=e155] [cursor=pointer]:
+            - /url: /features/trials
+          - link "Discounts" [ref=e156] [cursor=pointer]:
+            - /url: /features/discounts
+          - link "Cost Insights" [ref=e157] [cursor=pointer]:
+            - /url: /features/cost-insights
+          - link "Finance" [ref=e158] [cursor=pointer]:
+            - /url: /features/finance
+          - link "Merchant of Record" [ref=e159] [cursor=pointer]:
+            - /url: /features/merchant-of-record
+      - generic [ref=e160]:
+        - heading "Resources" [level=3] [ref=e161]
+        - generic [ref=e162]:
+          - link "Why Polar" [ref=e163] [cursor=pointer]:
+            - /url: /resources/why
+          - link "Merchant of Record" [ref=e164] [cursor=pointer]:
+            - /url: /resources/merchant-of-record
+          - link "Pricing" [ref=e165] [cursor=pointer]:
+            - /url: /resources/pricing
+          - link "Downloads" [ref=e166] [cursor=pointer]:
+            - /url: /downloads
+      - generic [ref=e167]:
+        - heading "Company" [level=3] [ref=e168]
+        - generic [ref=e169]:
+          - link "About Polar" [ref=e170] [cursor=pointer]:
+            - /url: /company
+          - link "GitHub" [ref=e171] [cursor=pointer]:
+            - /url: https://github.com/polarsource
+          - link "X / Twitter" [ref=e172] [cursor=pointer]:
+            - /url: https://x.com/polar_sh
+          - link "Brand Assets" [ref=e173] [cursor=pointer]:
+            - /url: https://polar.sh/assets/brand/polar_brand.zip
+          - link "Legal" [ref=e174] [cursor=pointer]:
+            - /url: https://polar.sh/legal
+          - button "Cookie Preferences" [ref=e175]
+      - generic [ref=e176]:
+        - heading "Support" [level=3] [ref=e177]
+        - generic [ref=e178]:
+          - link "Docs" [ref=e179] [cursor=pointer]:
+            - /url: https://polar.sh/docs
+          - link "Contact" [ref=e180] [cursor=pointer]:
+            - /url: mailto:support@polar.sh
+          - link "Service Status" [ref=e181] [cursor=pointer]:
+            - /url: https://status.polar.sh

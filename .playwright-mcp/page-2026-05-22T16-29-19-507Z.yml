@@ -1,0 +1,20 @@
+- generic [active] [ref=e1]:
+  - generic "YouTube Video Player" [ref=e5]:
+    - generic [ref=e11]:
+      - img [ref=e13]
+      - generic [ref=e14]: Members-only content
+      - generic [ref=e15]: Join this channel to get access to members-only content like this video, and other exclusive perks.
+  - banner [ref=e39]:
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - button "Guide" [ref=e44] [cursor=pointer]
+        - generic [ref=e46]:
+          - link:
+            - /url: /
+            - generic:
+              - generic:
+                - img
+      - search [ref=e48]:
+        - generic [ref=e49]:
+          - combobox [expanded] [ref=e52]
+          - button "Search" [ref=e53] [cursor=pointer]

@@ -1,0 +1,627 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fopenai%2Flarge-scale-curiosity
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=openai%2Flarge-scale-curiosity
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]: This repository was archived by the owner on Apr 8, 2026. It is now read-only.
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e67]:
+          - img [ref=e68]
+          - link "openai" [ref=e71] [cursor=pointer]:
+            - /url: /openai
+          - generic [ref=e72]: /
+          - strong [ref=e73]:
+            - link "large-scale-curiosity" [ref=e74] [cursor=pointer]:
+              - /url: /openai/large-scale-curiosity
+          - generic [ref=e75]: Public archive
+        - generic [ref=e76]:
+          - list:
+            - listitem [ref=e77]:
+              - link "You must be signed in to change notification settings" [ref=e78] [cursor=pointer]:
+                - /url: /login?return_to=%2Fopenai%2Flarge-scale-curiosity
+                - img [ref=e79]
+                - text: Notifications
+            - listitem [ref=e81]:
+              - link "Fork 184" [ref=e82] [cursor=pointer]:
+                - /url: /login?return_to=%2Fopenai%2Flarge-scale-curiosity
+                - img [ref=e83]
+                - text: Fork
+                - generic "184" [ref=e85]
+            - listitem [ref=e86]:
+              - link "You must be signed in to star a repository" [ref=e88] [cursor=pointer]:
+                - /url: /login?return_to=%2Fopenai%2Flarge-scale-curiosity
+                - img [ref=e89]
+                - text: Star
+                - generic "829 users starred this repository" [ref=e91]: "829"
+      - navigation "Repository" [ref=e92]:
+        - list [ref=e93]:
+          - listitem [ref=e94]:
+            - link "Code" [ref=e95] [cursor=pointer]:
+              - /url: /openai/large-scale-curiosity
+              - img [ref=e96]
+              - generic [ref=e98]: Code
+          - listitem [ref=e99]:
+            - link "Issues 11" [ref=e100] [cursor=pointer]:
+              - /url: /openai/large-scale-curiosity/issues
+              - img [ref=e101]
+              - generic [ref=e104]: Issues
+              - generic "11" [ref=e105]
+          - listitem [ref=e106]:
+            - link "Pull requests 2" [ref=e107] [cursor=pointer]:
+              - /url: /openai/large-scale-curiosity/pulls
+              - img [ref=e108]
+              - generic [ref=e110]: Pull requests
+              - generic "2" [ref=e111]
+          - listitem [ref=e112]:
+            - link "Actions" [ref=e113] [cursor=pointer]:
+              - /url: /openai/large-scale-curiosity/actions
+              - img [ref=e114]
+              - generic [ref=e116]: Actions
+          - listitem [ref=e117]:
+            - link "Projects" [ref=e118] [cursor=pointer]:
+              - /url: /openai/large-scale-curiosity/projects
+              - img [ref=e119]
+              - generic [ref=e121]: Projects
+          - listitem [ref=e122]:
+            - link "Security and quality" [ref=e123] [cursor=pointer]:
+              - /url: /openai/large-scale-curiosity/security
+              - img [ref=e124]
+              - generic [ref=e126]: Security and quality
+          - listitem [ref=e127]:
+            - link "Insights" [ref=e128] [cursor=pointer]:
+              - /url: /openai/large-scale-curiosity/pulse
+              - img [ref=e129]
+              - generic [ref=e131]: Insights
+    - generic [ref=e144]:
+      - heading "openai/large-scale-curiosity" [level=1] [ref=e146]
+      - generic [ref=e147]:
+        - generic [ref=e150]:
+          - generic [ref=e151]:
+            - generic [ref=e152]:
+              - button "master branch" [ref=e154] [cursor=pointer]:
+                - generic [ref=e155]:
+                  - generic [ref=e157]:
+                    - img [ref=e159]
+                    - generic [ref=e162]: master
+                  - generic:
+                    - img
+              - generic [ref=e163]:
+                - link "1 Branch" [ref=e164] [cursor=pointer]:
+                  - /url: /openai/large-scale-curiosity/branches
+                  - generic [ref=e165]:
+                    - generic:
+                      - img
+                    - generic [ref=e167]:
+                      - strong [ref=e168]: "1"
+                      - text: Branch
+                - link "0 Tags" [ref=e169] [cursor=pointer]:
+                  - /url: /openai/large-scale-curiosity/tags
+                  - generic [ref=e170]:
+                    - generic:
+                      - img
+                    - generic [ref=e172]:
+                      - strong [ref=e173]: "0"
+                      - text: Tags
+            - generic [ref=e174]:
+              - generic [ref=e178]:
+                - img [ref=e180]
+                - combobox "Go to file" [ref=e182]
+              - button "Code" [ref=e183] [cursor=pointer]:
+                - generic [ref=e184]:
+                  - generic:
+                    - img
+                  - generic [ref=e185]: Code
+                  - generic:
+                    - img
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - heading "Folders and files" [level=2] [ref=e188]
+              - table "Folders and files" [ref=e189]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e190]:
+                  - 'row "Latest commit yburda commits by yburda Merge pull request #17 from pathak22/patch-1 Open commit details Commit e0a6986 · May 30, 20197 years ago History 10 Commits" [ref=e191]':
+                    - 'cell "Latest commit yburda commits by yburda Merge pull request #17 from pathak22/patch-1 Open commit details Commit e0a6986 · May 30, 20197 years ago History 10 Commits" [ref=e192]':
+                      - generic [ref=e193]:
+                        - heading "Latest commit" [level=2] [ref=e194]
+                        - generic [ref=e195]:
+                          - generic [ref=e197]:
+                            - link "yburda" [ref=e198] [cursor=pointer]:
+                              - /url: /yburda
+                              - img "yburda" [ref=e199]
+                            - link "commits by yburda" [ref=e200] [cursor=pointer]:
+                              - /url: /openai/large-scale-curiosity/commits?author=yburda
+                              - text: yburda
+                          - generic [ref=e201]:
+                            - generic [ref=e203]:
+                              - link "Merge pull request" [ref=e204] [cursor=pointer]:
+                                - /url: /openai/large-scale-curiosity/commit/e0a698676d19307a095cd4ac1991c4e4e70e56fb
+                              - link "#17" [ref=e205] [cursor=pointer]:
+                                - /url: https://github.com/openai/large-scale-curiosity/pull/17
+                              - link "from pathak22/patch-1" [ref=e206] [cursor=pointer]:
+                                - /url: /openai/large-scale-curiosity/commit/e0a698676d19307a095cd4ac1991c4e4e70e56fb
+                            - button "Open commit details" [ref=e207] [cursor=pointer]:
+                              - img [ref=e208]
+                        - generic [ref=e210]:
+                          - generic [ref=e212]:
+                            - link "Commit e0a6986" [ref=e213] [cursor=pointer]:
+                              - /url: /openai/large-scale-curiosity/commit/e0a698676d19307a095cd4ac1991c4e4e70e56fb
+                              - text: e0a6986
+                            - text: ·
+                            - generic "May 30, 2019, 6:26 AM GMT+9" [ref=e214]: May 30, 20197 years ago
+                          - generic [ref=e215]:
+                            - heading "History" [level=2] [ref=e216]
+                            - link "10 Commits" [ref=e217] [cursor=pointer]:
+                              - /url: /openai/large-scale-curiosity/commits/master/
+                              - generic [ref=e218]:
+                                - generic:
+                                  - img
+                                - generic [ref=e219]: 10 Commits
+                  - row "roboenvs, (Directory) First commit after some clean-up Oct 11, 20188 years ago" [ref=e220]:
+                    - cell "roboenvs, (Directory)" [ref=e221]:
+                      - generic [ref=e222]:
+                        - img [ref=e223]
+                        - link "roboenvs, (Directory)" [ref=e228] [cursor=pointer]:
+                          - /url: /openai/large-scale-curiosity/tree/master/roboenvs
+                          - text: roboenvs
+                    - cell "First commit after some clean-up" [ref=e229]:
+                      - link "First commit after some clean-up" [ref=e232] [cursor=pointer]:
+                        - /url: /openai/large-scale-curiosity/commit/9cf6fee8394f2c6dd3d35bf5f53b7efaf1826736
+                    - cell "Oct 11, 20188 years ago" [ref=e233]:
+                      - generic [ref=e234]: Oct 11, 20188 years ago
+                  - row ".gitignore, (File) Update readme, small simplifications Oct 12, 20188 years ago" [ref=e235]:
+                    - cell ".gitignore, (File)" [ref=e236]:
+                      - generic [ref=e237]:
+                        - img [ref=e238]
+                        - link ".gitignore, (File)" [ref=e243] [cursor=pointer]:
+                          - /url: /openai/large-scale-curiosity/blob/master/.gitignore
+                          - text: .gitignore
+                    - cell "Update readme, small simplifications" [ref=e244]:
+                      - link "Update readme, small simplifications" [ref=e247] [cursor=pointer]:
+                        - /url: /openai/large-scale-curiosity/commit/0c3d179fd61ee46233199d0891c40fbe7964d3aa
+                    - cell "Oct 12, 20188 years ago" [ref=e248]:
+                      - generic [ref=e249]: Oct 12, 20188 years ago
+                  - row "README.md, (File) Update README.md Apr 18, 20197 years ago" [ref=e250]:
+                    - cell "README.md, (File)" [ref=e251]:
+                      - generic [ref=e252]:
+                        - img [ref=e253]
+                        - link "README.md, (File)" [ref=e258] [cursor=pointer]:
+                          - /url: /openai/large-scale-curiosity/blob/master/README.md
+                          - text: README.md
+                    - cell "Update README.md" [ref=e259]:
+                      - link "Update README.md" [ref=e262] [cursor=pointer]:
+                        - /url: /openai/large-scale-curiosity/commit/3ebf67565db09d558972eb22a9e63f09b87e4f04
+                    - cell "Apr 18, 20197 years ago" [ref=e263]:
+                      - generic [ref=e264]: Apr 18, 20197 years ago
+                  - row "__init__.py, (File) First commit after some clean-up Oct 11, 20188 years ago" [ref=e265]:
+                    - cell "__init__.py, (File)" [ref=e266]:
+                      - generic [ref=e267]:
+                        - img [ref=e268]
+                        - link "__init__.py, (File)" [ref=e273] [cursor=pointer]:
+                          - /url: /openai/large-scale-curiosity/blob/master/__init__.py
+                          - text: __init__.py
+                    - cell "First commit after some clean-up" [ref=e274]:
+                      - link "First commit after some clean-up" [ref=e277] [cursor=pointer]:
+                        - /url: /openai/large-scale-curiosity/commit/9cf6fee8394f2c6dd3d35bf5f53b7efaf1826736
+                    - cell "Oct 11, 20188 years ago" [ref=e278]:
+                      - generic [ref=e279]: Oct 11, 20188 years ago
+                  - row "auxiliary_tasks.py, (File) First commit after some clean-up Oct 11, 20188 years ago" [ref=e280]:
+                    - cell "auxiliary_tasks.py, (File)" [ref=e281]:
+                      - generic [ref=e282]:
+                        - img [ref=e283]
+                        - link "auxiliary_tasks.py, (File)" [ref=e288] [cursor=pointer]:
+                          - /url: /openai/large-scale-curiosity/blob/master/auxiliary_tasks.py
+                          - text: auxiliary_tasks.py
+                    - cell "First commit after some clean-up" [ref=e289]:
+                      - link "First commit after some clean-up" [ref=e292] [cursor=pointer]:
+                        - /url: /openai/large-scale-curiosity/commit/9cf6fee8394f2c6dd3d35bf5f53b7efaf1826736
+                    - cell "Oct 11, 20188 years ago" [ref=e293]:
+                      - generic [ref=e294]: Oct 11, 20188 years ago
+                  - row "cnn_policy.py, (File) First commit after some clean-up Oct 11, 20188 years ago" [ref=e295]:
+                    - cell "cnn_policy.py, (File)" [ref=e296]:
+                      - generic [ref=e297]:
+                        - img [ref=e298]
+                        - link "cnn_policy.py, (File)" [ref=e303] [cursor=pointer]:
+                          - /url: /openai/large-scale-curiosity/blob/master/cnn_policy.py
+                          - text: cnn_policy.py
+                    - cell "First commit after some clean-up" [ref=e304]:
+                      - link "First commit after some clean-up" [ref=e307] [cursor=pointer]:
+                        - /url: /openai/large-scale-curiosity/commit/9cf6fee8394f2c6dd3d35bf5f53b7efaf1826736
+                    - cell "Oct 11, 20188 years ago" [ref=e308]:
+                      - generic [ref=e309]: Oct 11, 20188 years ago
+                  - row "cppo_agent.py, (File) First commit after some clean-up Oct 11, 20188 years ago" [ref=e310]:
+                    - cell "cppo_agent.py, (File)" [ref=e311]:
+                      - generic [ref=e312]:
+                        - img [ref=e313]
+                        - link "cppo_agent.py, (File)" [ref=e318] [cursor=pointer]:
+                          - /url: /openai/large-scale-curiosity/blob/master/cppo_agent.py
+                          - text: cppo_agent.py
+                    - cell "First commit after some clean-up" [ref=e319]:
+                      - link "First commit after some clean-up" [ref=e322] [cursor=pointer]:
+                        - /url: /openai/large-scale-curiosity/commit/9cf6fee8394f2c6dd3d35bf5f53b7efaf1826736
+                    - cell "Oct 11, 20188 years ago" [ref=e323]:
+                      - generic [ref=e324]: Oct 11, 20188 years ago
+                  - row "dynamics.py, (File) First commit after some clean-up Oct 11, 20188 years ago" [ref=e325]:
+                    - cell "dynamics.py, (File)" [ref=e326]:
+                      - generic [ref=e327]:
+                        - img [ref=e328]
+                        - link "dynamics.py, (File)" [ref=e333] [cursor=pointer]:
+                          - /url: /openai/large-scale-curiosity/blob/master/dynamics.py
+                          - text: dynamics.py
+                    - cell "First commit after some clean-up" [ref=e334]:
+                      - link "First commit after some clean-up" [ref=e337] [cursor=pointer]:
+                        - /url: /openai/large-scale-curiosity/commit/9cf6fee8394f2c6dd3d35bf5f53b7efaf1826736
+                    - cell "Oct 11, 20188 years ago" [ref=e338]:
+                      - generic [ref=e339]: Oct 11, 20188 years ago
+                  - row "mpi_utils.py, (File) First commit after some clean-up Oct 11, 20188 years ago" [ref=e340]:
+                    - cell "mpi_utils.py, (File)" [ref=e341]:
+                      - generic [ref=e342]:
+                        - img [ref=e343]
+                        - link "mpi_utils.py, (File)" [ref=e348] [cursor=pointer]:
+                          - /url: /openai/large-scale-curiosity/blob/master/mpi_utils.py
+                          - text: mpi_utils.py
+                    - cell "First commit after some clean-up" [ref=e349]:
+                      - link "First commit after some clean-up" [ref=e352] [cursor=pointer]:
+                        - /url: /openai/large-scale-curiosity/commit/9cf6fee8394f2c6dd3d35bf5f53b7efaf1826736
+                    - cell "Oct 11, 20188 years ago" [ref=e353]:
+                      - generic [ref=e354]: Oct 11, 20188 years ago
+                  - row "recorder.py, (File) Remove unnecessary printing Oct 11, 20188 years ago" [ref=e355]:
+                    - cell "recorder.py, (File)" [ref=e356]:
+                      - generic [ref=e357]:
+                        - img [ref=e358]
+                        - link "recorder.py, (File)" [ref=e363] [cursor=pointer]:
+                          - /url: /openai/large-scale-curiosity/blob/master/recorder.py
+                          - text: recorder.py
+                    - cell "Remove unnecessary printing" [ref=e364]:
+                      - link "Remove unnecessary printing" [ref=e367] [cursor=pointer]:
+                        - /url: /openai/large-scale-curiosity/commit/6d91dee289c42130932af5748e2a2964889c19a9
+                    - cell "Oct 11, 20188 years ago" [ref=e368]:
+                      - generic [ref=e369]: Oct 11, 20188 years ago
+                  - row "rollouts.py, (File) First commit after some clean-up Oct 11, 20188 years ago" [ref=e370]:
+                    - cell "rollouts.py, (File)" [ref=e371]:
+                      - generic [ref=e372]:
+                        - img [ref=e373]
+                        - link "rollouts.py, (File)" [ref=e378] [cursor=pointer]:
+                          - /url: /openai/large-scale-curiosity/blob/master/rollouts.py
+                          - text: rollouts.py
+                    - cell "First commit after some clean-up" [ref=e379]:
+                      - link "First commit after some clean-up" [ref=e382] [cursor=pointer]:
+                        - /url: /openai/large-scale-curiosity/commit/9cf6fee8394f2c6dd3d35bf5f53b7efaf1826736
+                    - cell "Oct 11, 20188 years ago" [ref=e383]:
+                      - generic [ref=e384]: Oct 11, 20188 years ago
+                  - row "run.py, (File) Update readme, small simplifications Oct 12, 20188 years ago" [ref=e385]:
+                    - cell "run.py, (File)" [ref=e386]:
+                      - generic [ref=e387]:
+                        - img [ref=e388]
+                        - link "run.py, (File)" [ref=e393] [cursor=pointer]:
+                          - /url: /openai/large-scale-curiosity/blob/master/run.py
+                          - text: run.py
+                    - cell "Update readme, small simplifications" [ref=e394]:
+                      - link "Update readme, small simplifications" [ref=e397] [cursor=pointer]:
+                        - /url: /openai/large-scale-curiosity/commit/0c3d179fd61ee46233199d0891c40fbe7964d3aa
+                    - cell "Oct 12, 20188 years ago" [ref=e398]:
+                      - generic [ref=e399]: Oct 12, 20188 years ago
+                  - row "utils.py, (File) Update readme, small simplifications Oct 12, 20188 years ago" [ref=e400]:
+                    - cell "utils.py, (File)" [ref=e401]:
+                      - generic [ref=e402]:
+                        - img [ref=e403]
+                        - link "utils.py, (File)" [ref=e408] [cursor=pointer]:
+                          - /url: /openai/large-scale-curiosity/blob/master/utils.py
+                          - text: utils.py
+                    - cell "Update readme, small simplifications" [ref=e409]:
+                      - link "Update readme, small simplifications" [ref=e412] [cursor=pointer]:
+                        - /url: /openai/large-scale-curiosity/commit/0c3d179fd61ee46233199d0891c40fbe7964d3aa
+                    - cell "Oct 12, 20188 years ago" [ref=e413]:
+                      - generic [ref=e414]: Oct 12, 20188 years ago
+                  - row "vec_env.py, (File) First commit after some clean-up Oct 11, 20188 years ago" [ref=e415]:
+                    - cell "vec_env.py, (File)" [ref=e416]:
+                      - generic [ref=e417]:
+                        - img [ref=e418]
+                        - link "vec_env.py, (File)" [ref=e423] [cursor=pointer]:
+                          - /url: /openai/large-scale-curiosity/blob/master/vec_env.py
+                          - text: vec_env.py
+                    - cell "First commit after some clean-up" [ref=e424]:
+                      - link "First commit after some clean-up" [ref=e427] [cursor=pointer]:
+                        - /url: /openai/large-scale-curiosity/commit/9cf6fee8394f2c6dd3d35bf5f53b7efaf1826736
+                    - cell "Oct 11, 20188 years ago" [ref=e428]:
+                      - generic [ref=e429]: Oct 11, 20188 years ago
+                  - row "wrappers.py, (File) Update readme, small simplifications Oct 12, 20188 years ago" [ref=e430]:
+                    - cell "wrappers.py, (File)" [ref=e431]:
+                      - generic [ref=e432]:
+                        - img [ref=e433]
+                        - link "wrappers.py, (File)" [ref=e438] [cursor=pointer]:
+                          - /url: /openai/large-scale-curiosity/blob/master/wrappers.py
+                          - text: wrappers.py
+                    - cell "Update readme, small simplifications" [ref=e439]:
+                      - link "Update readme, small simplifications" [ref=e442] [cursor=pointer]:
+                        - /url: /openai/large-scale-curiosity/commit/0c3d179fd61ee46233199d0891c40fbe7964d3aa
+                    - cell "Oct 12, 20188 years ago" [ref=e443]:
+                      - generic [ref=e444]: Oct 12, 20188 years ago
+            - generic [ref=e446]:
+              - generic [ref=e447]:
+                - heading "Repository files navigation" [level=2] [ref=e448]
+                - navigation "Repository files" [ref=e449]:
+                  - list [ref=e450]:
+                    - listitem [ref=e451]:
+                      - link "README" [ref=e452] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e454]
+                        - generic [ref=e456]: README
+                - button "Outline" [ref=e457] [cursor=pointer]:
+                  - img [ref=e458]
+              - article [ref=e461]:
+                - paragraph [ref=e462]:
+                  - strong [ref=e463]: "Status:"
+                  - text: Archive (code is provided as-is, no updates expected)
+                - generic [ref=e464]:
+                  - heading "Large-Scale Study of Curiosity-Driven Learning" [level=2] [ref=e465]
+                  - 'link "Permalink: Large-Scale Study of Curiosity-Driven Learning" [ref=e466] [cursor=pointer]':
+                    - /url: "#large-scale-study-of-curiosity-driven-learning"
+                    - img [ref=e467]
+                - generic [ref=e469]:
+                  - heading "[Project Website] [Demo Video]" [level=4] [ref=e470]:
+                    - link "[Project Website]" [ref=e471] [cursor=pointer]:
+                      - /url: https://pathak22.github.io/large-scale-curiosity/
+                    - link "[Demo Video]" [ref=e472] [cursor=pointer]:
+                      - /url: https://youtu.be/l1FqtAHfJLI
+                  - 'link "Permalink: [Project Website][Demo Video]" [ref=e473] [cursor=pointer]':
+                    - /url: "#project-website-demo-video"
+                    - img [ref=e474]
+                - paragraph [ref=e476]:
+                  - link "Yuri Burda*" [ref=e477] [cursor=pointer]:
+                    - /url: https://sites.google.com/site/yburda/
+                  - text: ","
+                  - link "Harri Edwards*" [ref=e478] [cursor=pointer]:
+                    - /url: https://github.com/harri-edwards/
+                  - text: ","
+                  - link "Deepak Pathak*" [ref=e479] [cursor=pointer]:
+                    - /url: https://people.eecs.berkeley.edu/~pathak/
+                  - text: ","
+                  - link "Amos Storkey" [ref=e480] [cursor=pointer]:
+                    - /url: http://homepages.inf.ed.ac.uk/amos/
+                  - text: ","
+                  - link "Trevor Darrell" [ref=e481] [cursor=pointer]:
+                    - /url: https://people.eecs.berkeley.edu/~trevor/
+                  - text: ","
+                  - link "Alexei A. Efros" [ref=e482] [cursor=pointer]:
+                    - /url: https://people.eecs.berkeley.edu/~efros/
+                  - text: (* alphabetical ordering, equal contribution)
+                - paragraph [ref=e483]:
+                  - text: University of California, Berkeley
+                  - text: OpenAI
+                  - text: University of Edinburgh
+                - link [ref=e484] [cursor=pointer]:
+                  - /url: https://pathak22.github.io/large-scale-curiosity/
+                  - img [ref=e485]
+                - paragraph [ref=e486]:
+                  - text: This is a TensorFlow based implementation for our
+                  - link "paper on large-scale study of curiosity-driven learning" [ref=e487] [cursor=pointer]:
+                    - /url: https://pathak22.github.io/large-scale-curiosity/
+                  - text: "across 54 environments. Curiosity is a type of intrinsic reward function which uses prediction error as reward signal. In this paper, We perform the first large-scale study of purely curiosity-driven learning, i.e. without any extrinsic rewards, across 54 standard benchmark environments. We further investigate the effect of using different feature spaces for computing prediction error and show that random features are sufficient for many popular RL game benchmarks, but learned features appear to generalize better (e.g. to novel game levels in Super Mario Bros.). If you find this work useful in your research, please cite:"
+                - generic [ref=e488]:
+                  - code [ref=e490]: "@inproceedings{largeScaleCuriosity2018, Author = {Burda, Yuri and Edwards, Harri and Pathak, Deepak and Storkey, Amos and Darrell, Trevor and Efros, Alexei A.}, Title = {Large-Scale Study of Curiosity-Driven Learning}, Booktitle = {arXiv:1808.04355}, Year = {2018} }"
+                  - button "Copy code to clipboard" [ref=e492] [cursor=pointer]:
+                    - img [ref=e493]
+                - generic [ref=e496]:
+                  - heading "Installation and Usage" [level=3] [ref=e497]
+                  - 'link "Permalink: Installation and Usage" [ref=e498] [cursor=pointer]':
+                    - /url: "#installation-and-usage"
+                    - img [ref=e499]
+                - paragraph [ref=e501]: The following command should train a pure exploration agent on Breakout with default experiment parameters.
+                - generic [ref=e502]:
+                  - generic [ref=e503]: python run.py
+                  - button "Copy code to clipboard" [ref=e505] [cursor=pointer]:
+                    - img [ref=e506]
+                - paragraph [ref=e509]:
+                  - text: To use more than one gpu/machine, use MPI (e.g.
+                  - code [ref=e510]: mpiexec -n 8 python run.py
+                  - text: should use 1024 parallel environments to collect experience instead of the default 128 on an 8 gpu machine).
+                - generic [ref=e511]:
+                  - heading "Data for plots in paper" [level=3] [ref=e512]
+                  - 'link "Permalink: Data for plots in paper" [ref=e513] [cursor=pointer]':
+                    - /url: "#data-for-plots-in-paper"
+                    - img [ref=e514]
+                - paragraph [ref=e516]:
+                  - link "Data for Figure-2" [ref=e517] [cursor=pointer]:
+                    - /url: https://www.dropbox.com/s/ufr7o8g9omb9zpl/experiments.tar.gz
+                  - text: ": contains raw game score data along with the plotting code to generate Figure-2 in the paper."
+                - generic [ref=e518]:
+                  - heading "Other helpful pointers" [level=3] [ref=e519]
+                  - 'link "Permalink: Other helpful pointers" [ref=e520] [cursor=pointer]':
+                    - /url: "#other-helpful-pointers"
+                    - img [ref=e521]
+                - list [ref=e523]:
+                  - listitem [ref=e524]:
+                    - link "Paper" [ref=e525] [cursor=pointer]:
+                      - /url: https://pathak22.github.io/large-scale-curiosity/resources/largeScaleCuriosity2018.pdf
+                  - listitem [ref=e526]:
+                    - link "Project Website" [ref=e527] [cursor=pointer]:
+                      - /url: https://pathak22.github.io/large-scale-curiosity/
+                  - listitem [ref=e528]:
+                    - link "Demo Video" [ref=e529] [cursor=pointer]:
+                      - /url: https://youtu.be/l1FqtAHfJLI
+        - generic [ref=e533]:
+          - generic [ref=e536]:
+            - heading "About" [level=2] [ref=e537]
+            - paragraph [ref=e538]: Code for the paper "Large-Scale Study of Curiosity-Driven Learning"
+            - generic [ref=e539]:
+              - img [ref=e540]
+              - link "arxiv.org/abs/1808.04355" [ref=e543] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/1808.04355
+            - heading "Topics" [level=3] [ref=e544]
+            - link "paper" [ref=e547] [cursor=pointer]:
+              - /url: /topics/paper
+            - heading "Resources" [level=3] [ref=e548]
+            - link "Readme" [ref=e550] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e551]
+              - text: Readme
+            - link "Activity" [ref=e554] [cursor=pointer]:
+              - /url: /openai/large-scale-curiosity/activity
+              - img [ref=e555]
+              - text: Activity
+            - link "Custom properties" [ref=e558] [cursor=pointer]:
+              - /url: /openai/large-scale-curiosity/custom-properties
+              - img [ref=e559]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e561]
+            - link "829 stars" [ref=e563] [cursor=pointer]:
+              - /url: /openai/large-scale-curiosity/stargazers
+              - img [ref=e564]
+              - strong [ref=e566]: "829"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e567]
+            - link "56 watching" [ref=e569] [cursor=pointer]:
+              - /url: /openai/large-scale-curiosity/watchers
+              - img [ref=e570]
+              - strong [ref=e572]: "56"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e573]
+            - link "184 forks" [ref=e575] [cursor=pointer]:
+              - /url: /openai/large-scale-curiosity/forks
+              - img [ref=e576]
+              - strong [ref=e578]: "184"
+              - text: forks
+            - link "Report repository" [ref=e580] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fopenai%2Flarge-scale-curiosity&report=openai+%28user%29
+          - generic [ref=e582]:
+            - heading "Releases" [level=2] [ref=e583]:
+              - link "Releases" [ref=e584] [cursor=pointer]:
+                - /url: /openai/large-scale-curiosity/releases
+            - generic [ref=e585]: No releases published
+          - generic [ref=e587]:
+            - heading "Packages" [level=2] [ref=e588]:
+              - link "Packages" [ref=e589] [cursor=pointer]:
+                - /url: /orgs/openai/packages?repo_name=large-scale-curiosity
+            - generic [ref=e590]: No packages published
+          - generic [ref=e592]:
+            - heading "Contributors 4" [level=2] [ref=e593]:
+              - link "Contributors 4" [ref=e594] [cursor=pointer]:
+                - /url: /openai/large-scale-curiosity/graphs/contributors
+                - text: Contributors
+                - generic "4" [ref=e595]
+            - list [ref=e596]:
+              - listitem [ref=e597]:
+                - link "@yburda" [ref=e598] [cursor=pointer]:
+                  - /url: https://github.com/yburda
+                  - img "@yburda" [ref=e599]
+                - link "yburda" [ref=e601] [cursor=pointer]:
+                  - /url: https://github.com/yburda
+                  - strong [ref=e602]: yburda
+              - listitem [ref=e603]:
+                - link "@pathak22" [ref=e604] [cursor=pointer]:
+                  - /url: https://github.com/pathak22
+                  - img "@pathak22" [ref=e605]
+                - link "pathak22 Deepak Pathak" [ref=e607] [cursor=pointer]:
+                  - /url: https://github.com/pathak22
+                  - strong [ref=e608]: pathak22
+                  - text: Deepak Pathak
+              - listitem [ref=e609]:
+                - link "@christopherhesse" [ref=e610] [cursor=pointer]:
+                  - /url: https://github.com/christopherhesse
+                  - img "@christopherhesse" [ref=e611]
+                - link "christopherhesse Christopher Hesse" [ref=e613] [cursor=pointer]:
+                  - /url: https://github.com/christopherhesse
+                  - strong [ref=e614]: christopherhesse
+                  - text: Christopher Hesse
+              - listitem [ref=e615]:
+                - link "@cberner" [ref=e616] [cursor=pointer]:
+                  - /url: https://github.com/cberner
+                  - img "@cberner" [ref=e617]
+                - link "cberner Christopher Berner" [ref=e619] [cursor=pointer]:
+                  - /url: https://github.com/cberner
+                  - strong [ref=e620]: cberner
+                  - text: Christopher Berner
+          - generic [ref=e622]:
+            - heading "Languages" [level=2] [ref=e623]
+            - list [ref=e627]:
+              - listitem [ref=e628]:
+                - link "Python 100.0%" [ref=e629] [cursor=pointer]:
+                  - /url: /openai/large-scale-curiosity/search?l=python
+                  - img [ref=e630]
+                  - generic [ref=e632]: Python
+                  - generic [ref=e633]: 100.0%
+  - contentinfo [ref=e635]:
+    - heading "Footer" [level=2] [ref=e636]
+    - generic [ref=e637]:
+      - generic [ref=e638]:
+        - link "GitHub Homepage" [ref=e639] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e640]
+        - generic [ref=e642]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e643]:
+        - heading "Footer navigation" [level=3] [ref=e644]
+        - list "Footer navigation" [ref=e645]:
+          - listitem [ref=e646]:
+            - link "Terms" [ref=e647] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e648]:
+            - link "Privacy" [ref=e649] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e650]:
+            - link "Security" [ref=e651] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e652]:
+            - link "Status" [ref=e653] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e654]:
+            - link "Community" [ref=e655] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e656]:
+            - link "Docs" [ref=e657] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e658]:
+            - link "Contact" [ref=e659] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e660]:
+            - button "Manage cookies" [ref=e662] [cursor=pointer]
+          - listitem [ref=e663]:
+            - button "Do not share my personal information" [ref=e665] [cursor=pointer]

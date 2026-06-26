@@ -1,0 +1,120 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - link "본문 바로가기":
+      - /url: "#ct"
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - heading "블로그" [level=1] [ref=e4]:
+        - link "블로그" [ref=e5] [cursor=pointer]:
+          - /url: /Recommendation.naver
+          - generic [ref=e6]: 블로그
+      - heading "카테고리 이동 캔들러Candler" [level=2] [ref=e7]:
+        - generic [ref=e8]:
+          - link "카테고리 이동" [ref=e10] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e11]: 카테고리 이동
+          - link "캔들러Candler" [ref=e13] [cursor=pointer]:
+            - /url: /PostList.naver?blogId=ccandlerr
+            - generic [ref=e14]: 캔들러Candler
+    - generic [ref=e15]:
+      - link "검색" [ref=e16] [cursor=pointer]:
+        - /url: /PostSearchList.naver?blogId=ccandlerr
+        - generic [ref=e17]: 검색
+      - button "MY메뉴 열기" [ref=e18] [cursor=pointer]:
+        - generic [ref=e19]: MY메뉴 열기
+  - main [ref=e21]:
+    - generic [ref=e24]:
+      - generic [ref=e27]:
+        - link "부자되는 방" [ref=e29] [cursor=pointer]:
+          - /url: /PostList.naver?blogId=ccandlerr&categoryNo=10&logCode=0&categoryName=%EB%B6%80%EC%9E%90%EB%90%98%EB%8A%94%C2%A0%EB%B0%A9#postlist_block
+        - paragraph [ref=e31]:
+          - generic [ref=e32]: 워뇨띠 매매법, 3000억 비트코인 포지션 전략 공개
+        - generic [ref=e33]:
+          - link "프로필" [ref=e34] [cursor=pointer]:
+            - /url: /PostList.naver?blogId=ccandlerr
+            - img "프로필" [ref=e36]
+          - generic [ref=e37]:
+            - link "캔들러" [ref=e39] [cursor=pointer]:
+              - /url: /PostList.naver?blogId=ccandlerr
+              - strong [ref=e40]: 캔들러
+            - paragraph [ref=e41]: 2024. 8. 19. 21:10
+        - generic:
+          - link "이웃추가" [ref=e42] [cursor=pointer]:
+            - /url: "#"
+            - text: 이웃추가
+          - button "본문 기타 기능" [ref=e45] [cursor=pointer]:
+            - generic [ref=e46]: 본문 기타 기능
+      - generic [ref=e47]:
+        - generic [ref=e50]:
+          - link [ref=e52] [cursor=pointer]:
+            - /url: "#"
+          - paragraph [ref=e54]: 워뇨띠
+        - paragraph [ref=e59]
+        - paragraph [ref=e64]: 단순함으로 3000억 달성, 워뇨띠 비밀
+        - paragraph [ref=e69]: 비트코인 투자로 성공을 꿈꾸는 많은 사람들은 복잡한 차트와 지표를 해석하는 데 어려움을 겪습니다. 트레이딩을 하면서 수많은 지표를 참고하지만, 그 결과는 기대에 미치지 못할 때가 많죠. 그 이유는 나만의 기준 없이 보조지표만 추가해서 그러는데요.
+        - generic [ref=e72]:
+          - link [ref=e74] [cursor=pointer]:
+            - /url: "#"
+          - paragraph [ref=e76]: 워뇨띠 매매법
+        - generic [ref=e80]:
+          - paragraph [ref=e81]
+          - paragraph [ref=e82]: 그런데 단 600만 원으로 3,000억 원을 만든 전설적인 트레이더, ‘워뇨띠’는 이와 정반대의 전략을 사용해 성공을 거두었습니다. 복잡한 지표 대신 단순함을 택했고 워뇨띠 매매법은 비트코인 선물 거래 시장에서 최고의 레전드가 되었죠. 워뇨띠 포지션만 잡아도 화제가 되는데 오늘은 그가 어떻게 단순한 전략으로 엄청난 성과를 거둘 수 있었는지, 그의 비밀을 하나씩 공개하겠습니다.
+          - paragraph [ref=e83]
+        - generic [ref=e86]:
+          - link [ref=e88] [cursor=pointer]:
+            - /url: "#"
+          - paragraph [ref=e90]: 워뇨띠 포지션
+        - paragraph [ref=e95]
+        - paragraph [ref=e100]: 워뇨띠 매매법과 캔들의 중심선 활용
+        - blockquote [ref=e104]:
+          - paragraph [ref=e106]: 1. 캔들과 거래량에 집중한 이유
+        - paragraph [ref=e111]: 워뇨띠가 강조한 것은 복잡한 보조 지표가 아닌 캔들과 거래량이었습니다. 보조 지표는 캔들과 거래량을 기반으로 만들어진 도구들이기 때문에, 보조지표를 추천하지 않았습니다. 캔들은 시장 참여자들의 심리를 반영하며, 거래량은 캔들 하나만 보기에는 시장에 노이즈가(가짜 신호) 발생하기 때문에 꼭 같이 본다고 합니다. 워뇨띠는 캔들과 거래량을 분석하여 매수와 매도의 힘을 파악했는데, 예를 들어, 꽉 찬 양봉 캔들은 강한 매수세를, 꽉 찬 음봉 캔들은 강한 매도세를 의미합니다. 이렇게 캔들과 거래량만으로 시장의 흐름을 읽어내는 것이 그의 성공 비결 중 하나였습니다.
+        - generic [ref=e114]:
+          - link [ref=e116] [cursor=pointer]:
+            - /url: "#"
+          - paragraph [ref=e118]: 워뇨띠
+        - blockquote [ref=e122]:
+          - paragraph [ref=e124]: 2. 캔들의 중심선 활용
+        - generic [ref=e128]:
+          - paragraph [ref=e129]: 워뇨띠가 강조한 또 다른 중요한 요소는 바로 캔들의 중심선입니다. 캔들의 중심선이란, 캔들의 몸통을 절반으로 나눈 선을 말합니다. 이 중심선을 통해 다음 캔들의 움직임을 예측하고, 지지선과 저항선을 파악할 수 있는데
+          - paragraph [ref=e130]: 예를 들어, 캔들이 매물대를 돌파할 때, 그 중심선이 다음 캔들의 지지선 역할을 하게 됩니다. 이 중심선을 기준으로 캔들이 지지 받고 다시 상승할 확률이 높아지기 때문에, 워뇨띠는 이를 중요하게 여겼습니다. 또한, 장대 음봉이 중심선을 돌파하면, 그 지점이 강한 저항선으로 작용할 수 있다는 것을 파악하여 매매에 활용했습니다.
+        - generic [ref=e133]:
+          - link [ref=e135] [cursor=pointer]:
+            - /url: "#"
+          - paragraph [ref=e137]: 워뇨띠 매매법
+        - generic [ref=e141]:
+          - paragraph [ref=e142]
+          - paragraph [ref=e143]: 캔들의 중심선은 단순한 차트 분석을 넘어, 실제 매매에서 매우 중요한 역할을 합니다. 그러나 이 중심선만으로 매매 전략을 세우기에는 한계가 있습니다. 따라서 거래량과 함께 분석하여, 노이즈를 줄이고 신뢰도를 높이는 것이 워뇨띠 성공 비결 중 하나였습니다.
+        - generic [ref=e146]:
+          - link [ref=e148] [cursor=pointer]:
+            - /url: "#"
+          - paragraph [ref=e150]: 워뇨띠 포지션
+        - paragraph [ref=e155]
+        - paragraph [ref=e160]: 워뇨띠 매매법 Q&A
+        - blockquote [ref=e164]:
+          - paragraph [ref=e166]: 차트분석 시 몇 분봉, 몇 시간 봉 보는지?
+        - paragraph [ref=e171]: 1분봉, 5분봉, 15분봉, 일봉 다른 사람들이 보는 타임 사이클은 다 참고함.
+        - blockquote [ref=e175]:
+          - paragraph [ref=e177]: 캔들, 거래량 말고 차트 외적인 부분도 참고하나요?
+        - paragraph [ref=e182]: 차트분석이 90%, 외적 요소 10%. 주식이 아닌 비트코인은 기술적분석이 더 중요하다고 생각합니다.
+        - blockquote [ref=e186]:
+          - paragraph [ref=e188]: 워뇨띠 매매원칙
+        - paragraph [ref=e193]: 크게 잃더라도 복구할 만한 시드는 남겨두는 것이 중요합니다. 시드가 적게 남았다고 해서 추가 입금은 지양하고 어떻게든 남은 액수로 복구한다고 합니다.
+        - blockquote [ref=e197]:
+          - paragraph [ref=e199]: 저배율, 복리 매매, 높은 승률을 추구하는 이유는?
+        - paragraph [ref=e204]: 저배율은 재미가 없을 수 있지만 복리 매매로 승률을 높여가면 자연스럽게 시드와 실력은 우상 향합니다.
+        - blockquote [ref=e208]:
+          - paragraph [ref=e210]: 손절 기준, 멘탈케어는?
+        - paragraph [ref=e215]: 매매하기 전 시나리오를 떠올리고 내가 생각했던 시나리오가 오지 않는다면 최대한 기다리고 지나치게 멘탈이 흔들리면 손절합니다.
+        - generic [ref=e218]:
+          - generic [ref=e219]:
+            - link [ref=e221] [cursor=pointer]:
+              - /url: "#"
+            - link [ref=e223] [cursor=pointer]:
+              - /url: "#"
+          - paragraph [ref=e225]: 워뇨띠
+        - paragraph [ref=e230]: 단순함으로 3000억 달성
+        - generic [ref=e234]:
+          - paragraph [ref=e235]: 워뇨띠 성공은 단순함에서 시작되었습니다. 복잡한 지표에 의존하지 않고, 캔들과 거래량이라는 기본에 충실한 그의 전략은 비트코인 선물 시장에서 엄청난 성과를 이루어냈습니다. 또한, 캔들의 중심선을 활용한 철저한 차트 분석과 거래량을 함께 고려한 매매법이 그를 성공으로 이끌었습니다. 만약 현재 복잡한 지표에 의존하면서 손실만 늘어나고 있다면, 워뇨띠 단순하고도 강력한 매매법을 참고해 보시길 권장합니다. 그의 방법은 단순해 보일지 모르지만, 그것이 바로 수익을 만드는 핵심이었음을 기억하십시오. 지금 바로 워뇨띠 전략을 배워 자신의 것으로 만들어 보세요.
+          - paragraph [ref=e236]
+        - paragraph [ref=e242]: 워뇨띠

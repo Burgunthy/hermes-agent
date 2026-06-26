@@ -1,0 +1,421 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-container"
+    - banner [ref=e4]:
+      - link "logo" [ref=e6] [cursor=pointer]:
+        - /url: https://cornell.edu/
+        - img "logo" [ref=e7]
+      - paragraph [ref=e9]:
+        - generic [ref=e10]:
+          - text: We gratefully acknowledge support from
+          - text: the Simons Foundation,
+          - link "member institutions" [ref=e11] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/ourmembers.html
+          - text: ", and all contributors."
+          - link "Donate" [ref=e12] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/donate.html
+    - generic [ref=e13]:
+      - link "arxiv-logo" [ref=e16] [cursor=pointer]:
+        - /url: https://arxiv.org/
+        - img "logo" [ref=e17]
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - textbox "Search term or terms" [ref=e22]:
+            - /placeholder: Search...
+          - paragraph [ref=e23]:
+            - link "Help" [ref=e24] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+            - text: "|"
+            - link "Advanced Search" [ref=e25] [cursor=pointer]:
+              - /url: https://arxiv.org/search/advanced
+        - combobox "Field to search" [ref=e28] [cursor=pointer]:
+          - option "All fields" [selected]
+          - option "Title"
+          - option "Author"
+          - option "Abstract"
+          - option "Comments"
+          - option "Journal reference"
+          - option "ACM classification"
+          - option "MSC classification"
+          - option "Report number"
+          - option "arXiv identifier"
+          - option "DOI"
+          - option "ORCID"
+          - option "arXiv author ID"
+          - option "Help pages"
+          - option "Full text"
+        - button "Search" [ref=e29] [cursor=pointer]
+    - navigation "User menu" [ref=e31]:
+      - link "Login" [ref=e32] [cursor=pointer]:
+        - /url: https://arxiv.org/login
+  - main [ref=e33]:
+    - generic [ref=e34]:
+      - 'heading "Showing 1–6 of 6 results for all: \"teacher student\" \"dexterous\" \"manipulation\"" [level=1] [ref=e36]'
+      - link "Search v0.5.6 released 2020-02-24" [ref=e39] [cursor=pointer]:
+        - /url: https://github.com/arXiv/arxiv-search/releases
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic: Search term or terms
+            - textbox "Search term or terms" [ref=e44]:
+              - /placeholder: Search term...
+              - text: "\"teacher student\" \"dexterous\" \"manipulation\""
+          - combobox "Field" [ref=e46] [cursor=pointer]:
+            - option "All fields" [selected]
+            - option "Title"
+            - option "Author(s)"
+            - option "Abstract"
+            - option "Comments"
+            - option "Journal reference"
+            - option "ACM classification"
+            - option "MSC classification"
+            - option "Report number"
+            - option "arXiv identifier"
+            - option "DOI"
+            - option "ORCID"
+            - option "License (URI)"
+            - option "arXiv author ID"
+            - option "Help pages"
+            - option "Full text"
+          - button "Search" [ref=e48] [cursor=pointer]
+        - generic [ref=e50]:
+          - generic [ref=e51] [cursor=pointer]:
+            - radio "Show abstracts Show abstracts" [checked] [ref=e52]
+            - text: Show abstracts
+          - generic [ref=e53] [cursor=pointer]:
+            - radio "Hide abstracts Hide abstracts" [ref=e54]
+            - text: Hide abstracts
+        - link "Advanced Search" [ref=e57] [cursor=pointer]:
+          - /url: /search/advanced?terms-0-term=%22teacher+student%22+%22dexterous%22+%22manipulation%22&terms-0-field=all&size=50&order=-announced_date_first
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - combobox "results per page" [ref=e64] [cursor=pointer]:
+            - option "25"
+            - option "50" [selected]
+            - option "100"
+            - option "200"
+          - text: results per page.
+        - generic [ref=e65]:
+          - text: Sort results by
+          - combobox "Sort results by" [ref=e67] [cursor=pointer]:
+            - option "Announcement date (newest first)" [selected]
+            - option "Announcement date (oldest first)"
+            - option "Submission date (newest first)"
+            - option "Submission date (oldest first)"
+            - option "Relevance"
+        - button "Go" [ref=e69] [cursor=pointer]
+      - list [ref=e70]:
+        - listitem [ref=e71]:
+          - generic [ref=e72]:
+            - paragraph [ref=e73]:
+              - link "arXiv:2604.11138" [ref=e74] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2604.11138
+              - generic [ref=e75]:
+                - text: "["
+                - link "pdf" [ref=e76] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2604.11138
+                - text: ","
+                - link "ps" [ref=e77] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2604.11138
+                - text: ","
+                - link "other" [ref=e78] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2604.11138
+                - text: "]"
+            - generic [ref=e79]:
+              - generic [ref=e80]: cs.RO
+              - generic [ref=e81]: cs.CV
+          - paragraph [ref=e82]: "ViserDex: Visual Sim-to-Real for Robust Dexterous In-hand Reorientation"
+          - paragraph [ref=e83]:
+            - text: "Authors:"
+            - link "Arjun Bhardwaj" [ref=e84] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Bhardwaj%2C+A
+            - text: ","
+            - link "Maximum Wilder-Smith" [ref=e85] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wilder-Smith%2C+M
+            - text: ","
+            - link "Mayank Mittal" [ref=e86] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Mittal%2C+M
+            - text: ","
+            - link "Vaishakh Patil" [ref=e87] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Patil%2C+V
+            - text: ","
+            - link "Marco Hutter" [ref=e88] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Hutter%2C+M
+          - paragraph [ref=e89]:
+            - text: "Abstract:"
+            - generic [ref=e90]: "…space: by applying physically consistent, pre-rendering augmentations to 3D Gaussians, we generate photorealistic, randomized visual data for object pose estimation. The manipulation policy is trained using curriculum-based reinforcement learning with… ▽ More"
+          - paragraph [ref=e91]: Submitted 13 April, 2026; originally announced April 2026.
+        - listitem [ref=e92]:
+          - generic [ref=e93]:
+            - paragraph [ref=e94]:
+              - link "arXiv:2511.15200" [ref=e95] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2511.15200
+              - generic [ref=e96]:
+                - text: "["
+                - link "pdf" [ref=e97] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2511.15200
+                - text: ","
+                - link "ps" [ref=e98] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2511.15200
+                - text: ","
+                - link "other" [ref=e99] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2511.15200
+                - text: "]"
+            - generic [ref=e101]: cs.RO
+          - paragraph [ref=e102]: "VIRAL: Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation"
+          - paragraph [ref=e103]:
+            - text: "Authors:"
+            - link "Tairan He" [ref=e104] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=He%2C+T
+            - text: ","
+            - link "Zi Wang" [ref=e105] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+Z
+            - text: ","
+            - link "Haoru Xue" [ref=e106] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Xue%2C+H
+            - text: ","
+            - link "Qingwei Ben" [ref=e107] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ben%2C+Q
+            - text: ","
+            - link "Zhengyi Luo" [ref=e108] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Luo%2C+Z
+            - text: ","
+            - link "Wenli Xiao" [ref=e109] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Xiao%2C+W
+            - text: ","
+            - link "Ye Yuan" [ref=e110] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yuan%2C+Y
+            - text: ","
+            - link "Xingye Da" [ref=e111] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Da%2C+X
+            - text: ","
+            - link "Fernando Castañeda" [ref=e112] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Casta%C3%B1eda%2C+F
+            - text: ","
+            - link "Shankar Sastry" [ref=e113] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Sastry%2C+S
+            - text: ","
+            - link "Changliu Liu" [ref=e114] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liu%2C+C
+            - text: ","
+            - link "Guanya Shi" [ref=e115] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Shi%2C+G
+            - text: ","
+            - link "Linxi Fan" [ref=e116] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Fan%2C+L
+            - text: ","
+            - link "Yuke Zhu" [ref=e117] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhu%2C+Y
+          - paragraph [ref=e118]:
+            - text: "Abstract:"
+            - generic [ref=e119]: A key barrier to the real-world deployment of humanoid robots is the lack of autonomous loco-manipulation skills. We introduce VIRAL, a visual sim-to-real framework that learns humanoid loco-… ▽ More
+          - paragraph [ref=e120]: Submitted 27 November, 2025; v1 submitted 19 November, 2025; originally announced November 2025.
+          - paragraph [ref=e121]: "Comments: Project website: https://viral-humanoid.github.io/"
+        - listitem [ref=e122]:
+          - generic [ref=e123]:
+            - paragraph [ref=e124]:
+              - link "arXiv:2508.08896" [ref=e125] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2508.08896
+              - generic [ref=e126]:
+                - text: "["
+                - link "pdf" [ref=e127] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2508.08896
+                - text: ","
+                - link "ps" [ref=e128] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2508.08896
+                - text: ","
+                - link "other" [ref=e129] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2508.08896
+                - text: "]"
+            - generic [ref=e131]: cs.RO
+          - paragraph [ref=e132]: Towards Affordance-Aware Robotic Dexterous Grasping with Human-like Priors
+          - paragraph [ref=e133]:
+            - text: "Authors:"
+            - link "Haoyu Zhao" [ref=e134] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhao%2C+H
+            - text: ","
+            - link "Linghao Zhuang" [ref=e135] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhuang%2C+L
+            - text: ","
+            - link "Xingyue Zhao" [ref=e136] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhao%2C+X
+            - text: ","
+            - link "Cheng Zeng" [ref=e137] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zeng%2C+C
+            - text: ","
+            - link "Haoran Xu" [ref=e138] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Xu%2C+H
+            - text: ","
+            - link "Yuming Jiang" [ref=e139] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Jiang%2C+Y
+            - text: ","
+            - link "Jun Cen" [ref=e140] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Cen%2C+J
+            - text: ","
+            - link "Kexiang Wang" [ref=e141] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+K
+            - text: ","
+            - link "Jiayan Guo" [ref=e142] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Guo%2C+J
+            - text: ","
+            - link "Siteng Huang" [ref=e143] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Huang%2C+S
+            - text: ","
+            - link "Xin Li" [ref=e144] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Li%2C+X
+            - text: ","
+            - link "Deli Zhao" [ref=e145] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhao%2C+D
+            - text: ","
+            - link "Hua Zou" [ref=e146] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zou%2C+H
+          - paragraph [ref=e147]:
+            - text: "Abstract:"
+            - generic [ref=e148]: A dexterous hand capable of generalizable grasping objects is fundamental for the development of general-purpose embodied AI. However, previous methods focus narrowly on low-level grasp stability metrics, neglecting affordance-aware positioning and human-like poses which are crucial for downstream… ▽ More
+          - paragraph [ref=e149]: Submitted 11 November, 2025; v1 submitted 12 August, 2025; originally announced August 2025.
+          - paragraph [ref=e150]: "Comments: AAAI 2026"
+        - listitem [ref=e151]:
+          - generic [ref=e152]:
+            - paragraph [ref=e153]:
+              - link "arXiv:2410.07403" [ref=e154] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2410.07403
+              - generic [ref=e155]:
+                - text: "["
+                - link "pdf" [ref=e156] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2410.07403
+                - text: ","
+                - link "other" [ref=e157] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2410.07403
+                - text: "]"
+            - generic [ref=e159]: cs.RO
+          - paragraph [ref=e160]: On the Feasibility of A Mixed-Method Approach for Solving Long Horizon Task-Oriented Dexterous Manipulation
+          - paragraph [ref=e161]:
+            - text: "Authors:"
+            - link "Shaunak A. Mehta" [ref=e162] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Mehta%2C+S+A
+            - text: ","
+            - link "Rana Soltani Zarrin" [ref=e163] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zarrin%2C+R+S
+          - paragraph [ref=e164]:
+            - text: "Abstract:"
+            - generic [ref=e165]: In-hand manipulation of tools using… ▽ More
+          - paragraph [ref=e166]: Submitted 9 October, 2024; originally announced October 2024.
+        - listitem [ref=e167]:
+          - generic [ref=e168]:
+            - paragraph [ref=e169]:
+              - link "arXiv:2410.02477" [ref=e170] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2410.02477
+              - generic [ref=e171]:
+                - text: "["
+                - link "pdf" [ref=e172] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2410.02477
+                - text: ","
+                - link "other" [ref=e173] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2410.02477
+                - text: "]"
+            - generic [ref=e174]:
+              - generic [ref=e175]: cs.RO
+              - generic [ref=e176]: cs.LG
+          - paragraph [ref=e177]: Learning Diverse Bimanual Dexterous Manipulation Skills from Human Demonstrations
+          - paragraph [ref=e178]:
+            - text: "Authors:"
+            - link "Bohan Zhou" [ref=e179] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhou%2C+B
+            - text: ","
+            - link "Haoqi Yuan" [ref=e180] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yuan%2C+H
+            - text: ","
+            - link "Yuhui Fu" [ref=e181] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Fu%2C+Y
+            - text: ","
+            - link "Zongqing Lu" [ref=e182] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Lu%2C+Z
+          - paragraph [ref=e183]:
+            - text: "Abstract:"
+            - generic [ref=e184]: Bimanual dexterous… ▽ More
+          - paragraph [ref=e185]: Submitted 3 October, 2024; originally announced October 2024.
+        - listitem [ref=e186]:
+          - generic [ref=e187]:
+            - paragraph [ref=e188]:
+              - link "arXiv:2403.12421" [ref=e189] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2403.12421
+              - generic [ref=e190]:
+                - text: "["
+                - link "pdf" [ref=e191] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2403.12421
+                - text: ","
+                - link "other" [ref=e192] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2403.12421
+                - text: "]"
+            - generic [ref=e194]: cs.RO
+          - paragraph [ref=e195]: Dexterous Functional Pre-Grasp Manipulation with Diffusion Policy
+          - paragraph [ref=e196]:
+            - text: "Authors:"
+            - link "Tianhao Wu" [ref=e197] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wu%2C+T
+            - text: ","
+            - link "Yunchong Gan" [ref=e198] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Gan%2C+Y
+            - text: ","
+            - link "Mingdong Wu" [ref=e199] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wu%2C+M
+            - text: ","
+            - link "Jingbo Cheng" [ref=e200] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Cheng%2C+J
+            - text: ","
+            - link "Yaodong Yang" [ref=e201] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yang%2C+Y
+            - text: ","
+            - link "Yixin Zhu" [ref=e202] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhu%2C+Y
+            - text: ","
+            - link "Hao Dong" [ref=e203] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Dong%2C+H
+          - paragraph [ref=e204]:
+            - text: "Abstract:"
+            - generic [ref=e205]: In real-world scenarios, objects often require repositioning and reorientation before they can be grasped, a process known as pre-grasp manipulation. Learning universal… ▽ More
+          - paragraph [ref=e206]: Submitted 5 May, 2024; v1 submitted 19 March, 2024; originally announced March 2024.
+  - contentinfo [ref=e207]:
+    - navigation "Secondary" [ref=e208]:
+      - generic [ref=e210]:
+        - list [ref=e212]:
+          - listitem [ref=e213]:
+            - link "About" [ref=e214] [cursor=pointer]:
+              - /url: https://info.arxiv.org/about
+          - listitem [ref=e215]:
+            - link "Help" [ref=e216] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+        - list [ref=e218]:
+          - listitem [ref=e219]:
+            - link "Contact" [ref=e221] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/contact.html
+          - listitem [ref=e222]:
+            - link "Subscribe" [ref=e224] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/subscribe
+      - generic [ref=e226]:
+        - list [ref=e228]:
+          - listitem [ref=e229]:
+            - link "Copyright" [ref=e230] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/license/index.html
+          - listitem [ref=e231]:
+            - link "Privacy Policy" [ref=e232] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/policies/privacy_policy.html
+        - list [ref=e234]:
+          - listitem [ref=e235]:
+            - link "Web Accessibility Assistance" [ref=e236] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/web_accessibility.html
+          - listitem [ref=e237]:
+            - paragraph [ref=e238]:
+              - link "arXiv Operational Status" [ref=e239] [cursor=pointer]:
+                - /url: https://status.arxiv.org
+                - text: arXiv Operational Status
+              - text: Get status notifications via
+              - link "email" [ref=e241] [cursor=pointer]:
+                - /url: https://subscribe.sorryapp.com/24846f03/email/new
+                - text: email
+              - text: or
+              - link "slack" [ref=e243] [cursor=pointer]:
+                - /url: https://subscribe.sorryapp.com/24846f03/slack/new
+                - text: slack

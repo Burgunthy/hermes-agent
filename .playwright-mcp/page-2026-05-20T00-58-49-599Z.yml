@@ -1,0 +1,295 @@
+- generic [active] [ref=e1]:
+  - link "컨텐츠로 건너뛰기" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner "사이트" [ref=e3]:
+    - generic [ref=e4]:
+      - paragraph [ref=e6]:
+        - link "GAEMIWIKI" [ref=e7] [cursor=pointer]:
+          - /url: https://gaemiwiki.com/
+      - navigation "기본":
+        - generic:
+          - generic:
+            - list
+  - generic [ref=e9]:
+    - main [ref=e11]:
+      - article [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - heading "워뇨띠 얼굴 공개 없는 코인 전설의 매매법(그것이알고싶다 pick)" [level=1] [ref=e15]
+            - generic [ref=e16]:
+              - time [ref=e18]: 2025년 09월 24일
+              - generic [ref=e19]:
+                - text: "작성자:"
+                - link "뚱뚱" [ref=e21] [cursor=pointer]:
+                  - /url: https://gaemiwiki.com/author/endmy/
+          - generic [ref=e22]:
+            - insertion [ref=e23]
+            - paragraph [ref=e24]: 대한민국 코인판에서 “마진계의 전설”이라 불리는 워뇨띠는 투자자들 사이에서 신화 같은 존재다. 워뇨띠라는 독특한 닉네임은 디시인사이드 차트갤러리 특유의 분위기와 익명성이 잘 녹아 있으며, 2017년 본인 계좌에 고작 600만 원이라는 소액을 넣으며 ‘현물 투자’로 코인판에 첫 발을 내디뎠다.
+            - paragraph [ref=e25]: 2018년 급락, 2020년 불장, 2021~2022년 치열한 하락장까지, 폭락장의 쓴맛도 수차례 봤지만 결국 누적 이익이 수 천억 원, 2024년 기준 약 3,000억 원에 달하는 것으로 확인돼 ‘마진계의 산증인’, ‘차갤의 전설’로 불린다. 최근에는 하루 만에 85억 원의 수익을 거뒀다는 소식이 기삿거리가 되기도 했다.
+            - paragraph [ref=e26]: 워뇨띠는 익명성 유지를 원한다. SNS나 언론 인터뷰도 적고, 투자 관련 커뮤니티에서 간혹 인증 글이나 매매 내역을 올릴 뿐이다. 이 신비감과 거리 두기가 실력 이상의 전설을 만들어냈다. 그알 워뇨띠 제보는 그의 입지를 증명한다. 워뇨띠 그는 누군지 매매법은 어떤지 알아보자.
+            - group [ref=e27]:
+              - generic "목차" [ref=e28] [cursor=pointer]
+            - heading "워뇨띠 프로필" [level=2] [ref=e30]
+            - list [ref=e31]:
+              - listitem [ref=e32]: 영어이름 AOA > ILLIT> Newjeans 변경 추정 | 한자이름 정보 없음
+              - listitem [ref=e33]: 생년월일 1998년생 추정(나이 약 27세)
+              - listitem [ref=e34]: 고향 경기도 추정 | 국적 대한민국 |
+              - listitem [ref=e35]: 키/몸무게/혈액형/MBTI 정보 없음
+              - listitem [ref=e36]: 워뇨띠 재산 2025년 기준 약 2,000~3,000억 원 추정 (자산 정보 참고)
+              - listitem [ref=e37]: 학력 정보 없음
+              - listitem [ref=e38]: 군대 정보 없음
+              - listitem [ref=e39]: 개인 SNS(공식) 없음
+              - listitem [ref=e40]: 디시인사이드 차트갤러리, 비트맥스(aoa), 바이낸스(NewJeans) 등 닉네임 활동
+            - paragraph [ref=e41]: 워뇨띠 이름은 걸그룹 아이브 장원영의 별명에서 따왔다고 한다. 워낙 팬이다 보니 장원영 별명 워뇨에서 닉네임을 따왔고, 그렇게 전설이 시작됐다. 대부분의 사람들에게 코인 투자는 ‘고위험, 고수익’이란 이미지지만, 워뇨띠는 자신만의 매매 기준으로 극단적 손익구간을 오가면서도 흔들림 없이 장기적인 자산 증식을 노렸다.
+            - paragraph [ref=e42]: 워뇨띠가 시장에 미치는 영향력은 엄청나다. 실제로 워뇨띠가 대규모 매수를 하거나 계좌 인증을 올리기만 해도 시장 전체가 출렁인다. 업비트 실명 계좌와 이더리움, 비트코인 호가창 채우기 인증 등으로 “진짜 고래”, “진짜 부자”로 불린다.
+            - paragraph [ref=e43]: 워낙 노출이 없다보니 실존인물이 맞는지 의심도 많지만, 디시 알트갤에 자주 출몰하며 질의응답도 해주고 있다. 대한민국 암호화폐 투자자들에게 워뇨띠는 한 명의 이름이 아니라, 신화 그 자체다.
+            - heading "워뇨띠 디시 등장" [level=2] [ref=e44]
+            - figure "2021년 워뇨띠 리더보드" [ref=e46]:
+              - img "워뇨띠 얼굴 공개 없는 코인 전설의 매매법(그것이알고싶다 pick)" [ref=e47]
+              - generic [ref=e48]: 2021년 워뇨띠 리더보드
+            - paragraph [ref=e49]: 2021년 디시인사이드에 혜성처럼 나타난 워뇨띠. 매매방식은 비트맥스에서 코인을 통한 마진거래(레버리지 선물거래)를 주로 하며 본인만의 분석과 냉철함으로 꾸준한 복리를 통해 수익을 창출했다.
+            - paragraph [ref=e50]: 처음에는 비트맥스에서 aoa라는 닉네임을 사용했고, 전세계 랭커 25위 중 현재 12위를 기록하기도 했다. 2021년 1월 6일 기준 비트 수익은 약 1494비트, 단순계산로 비트 가격 3750×1494비트 했을 시 약 562억원 정도였다.
+            - heading "워뇨띠 재산 타임라인" [level=2] [ref=e51]
+            - paragraph [ref=e52]:
+              - strong [ref=e53]: 2017년 12월
+            - list [ref=e54]:
+              - listitem [ref=e55]:
+                - strong [ref=e56]: 자산 규모 (추정)
+                - text: ": 600만 원 (시드머니)"
+              - listitem [ref=e57]:
+                - strong [ref=e58]: 주요 사건 및 인증
+                - text: ": 코인 투자 시작. 노트북 판매 자금 포함. 디시인사이드 차트 갤러리에서 활동 개시."
+            - paragraph [ref=e59]:
+              - strong [ref=e60]: 2018년 5월
+            - list [ref=e61]:
+              - listitem [ref=e62]:
+                - strong [ref=e63]: 자산 규모 (추정)
+                - text: ": 1억 원"
+              - listitem [ref=e64]:
+                - strong [ref=e65]: 주요 사건 및 인증
+                - text: ": 초기 1억 원 돌파. 베어마켓 속 마진 거래로 자본 16배 증식. 비트멕스 ‘aoa’ 닉네임 등록."
+            - paragraph [ref=e66]:
+              - strong [ref=e67]: 2020년 3월
+            - list [ref=e68]:
+              - listitem [ref=e69]:
+                - strong [ref=e70]: 자산 규모 (추정)
+                - text: ": 100억 원"
+              - listitem [ref=e71]:
+                - strong [ref=e72]: 주요 사건 및 인증
+                - text: ": 코로나 팬데믹 랠리 활용. 시드 100억 원 인증. 저레버리지(1.5~2배) 선물 거래 본격화."
+            - paragraph [ref=e73]:
+              - strong [ref=e74]: 2021년 1월
+            - list [ref=e75]:
+              - listitem [ref=e76]:
+                - strong [ref=e77]: 자산 규모 (추정)
+                - text: ": 562억 원 (1,494 BTC)"
+              - listitem [ref=e78]:
+                - strong [ref=e79]: 주요 사건 및 인증
+                - text: ": 비트멕스 리더보드 12위. 김프 제외 BTC 가격 $3,750 기준 수익 인증. 불장 절정."
+            - paragraph [ref=e80]:
+              - strong [ref=e81]: 2021년 8월
+            - list [ref=e82]:
+              - listitem [ref=e83]:
+                - strong [ref=e84]: 자산 규모 (추정)
+                - text: ": 1,000억 원"
+              - listitem [ref=e85]:
+                - strong [ref=e86]: 주요 사건 및 인증
+                - text: ": 디시 차트 갤러리 Q&A 세션. 총 자산 1,000억 원 공개 인증. 알트코인 50% 이내 투자 원칙 강조."
+            - paragraph [ref=e87]:
+              - strong [ref=e88]: 2021년 말
+            - list [ref=e89]:
+              - listitem [ref=e90]:
+                - strong [ref=e91]: 자산 규모 (추정)
+                - text: ": 3,000억 원 (피크)"
+              - listitem [ref=e92]:
+                - strong [ref=e93]: 주요 사건 및 인증
+                - text: ": 누적 수익 2,119 BTC 이상. 업비트 자산 스크린샷 인증. 연말 변동성으로 수백억 손실 추정."
+            - paragraph [ref=e94]:
+              - strong [ref=e95]: 2022년
+            - list [ref=e96]:
+              - listitem [ref=e97]:
+                - strong [ref=e98]: 자산 규모 (추정)
+                - text: ": 1,000~2,000억 원 (하락)"
+              - listitem [ref=e99]:
+                - strong [ref=e100]: 주요 사건 및 인증
+                - text: ": 테라-루나 사태 여파. 자산 일부 축소. 관망 기간, 리스크 관리 강조."
+            - paragraph [ref=e101]:
+              - strong [ref=e102]: 2023년 2월
+            - list [ref=e103]:
+              - listitem [ref=e104]:
+                - strong [ref=e105]: 자산 규모 (추정)
+                - text: ": 1조 원 (조작 루머)"
+              - listitem [ref=e106]:
+                - strong [ref=e107]: 주요 사건 및 인증
+                - text: ": 1조 원 인증 사진 유포, 워뇨띠 본인 “스크린샷 조작” 해명. 실제 자산 2,000억 원대 유지."
+            - paragraph [ref=e108]:
+              - strong [ref=e109]: 2023년 9월
+            - list [ref=e110]:
+              - listitem [ref=e111]:
+                - strong [ref=e112]: 자산 규모 (추정)
+                - text: ": 2,500억 원+"
+              - listitem [ref=e113]:
+                - strong [ref=e114]: 주요 사건 및 인증
+                - text: ": 업비트 2,550 BTC 매수벽 포착. 커뮤니티 추측 속 “워뇨띠 귀환” 화제."
+            - paragraph [ref=e115]:
+              - strong [ref=e116]: 2024년 3월
+            - list [ref=e117]:
+              - listitem [ref=e118]:
+                - strong [ref=e119]: 자산 규모 (추정)
+                - text: ": 3,700억 원 (3,671 BTC)"
+              - listitem [ref=e120]:
+                - strong [ref=e121]: 주요 사건 및 인증
+                - text: ": 비트멕스 리더보드 4위. BTC 1억 원 돌파 시 “압구정 아파트 100채 값” 수익 인증."
+            - paragraph [ref=e122]:
+              - strong [ref=e123]: 2025년 4월
+            - list [ref=e124]:
+              - listitem [ref=e125]:
+                - strong [ref=e126]: 자산 규모 (추정)
+                - text: ": 3,840억 원+ (하루 85억 수익)"
+              - listitem [ref=e127]:
+                - strong [ref=e128]: 주요 사건 및 인증
+                - text: ": 업비트 ETH 640억 원 매수벽. 다음 날 85억 원 익절 인증. “영역 전개” 글 게시."
+            - paragraph [ref=e129]:
+              - strong [ref=e130]: 2025년 9월 (현재)
+            - list [ref=e131]:
+              - listitem [ref=e132]:
+                - strong [ref=e133]: 자산 규모 (추정)
+                - text: ": 4,000억 원 (누적)"
+              - listitem [ref=e134]:
+                - strong [ref=e135]: 주요 사건 및 인증
+                - text: ": 비트멕스 인터뷰 공개. BTC/ETH 중심 거래 지속. “리스크는 생존의 기본” 조언."
+            - heading "워뇨띠 매매법" [level=2] [ref=e136]
+            - paragraph [ref=e137]: 600만원에서 3000억을 번 워뇨띠 매매법은 무엇일까? 워뇨띠도 세계적 투자자 워렌버핏이나 벤자민 그레이엄처럼 특별한 방법은 없다. 대신 기술적 지표, 정형 매매법과 달리 실전 경험에 기반한 원칙, 강도높은 리스크 관리가 전부다.
+            - paragraph [ref=e138]: 다음은 워뇨띠의 매매 원칙 6가지이다.
+            - heading "1. 시장 경험 우선" [level=3] [ref=e139]
+            - paragraph [ref=e140]: 차트 패턴, 이론, 지표보다는 실전에서 다양한 금액·상황을 직접 겪으며 감각을 체득하는 것이 무엇보다 중요하다고 강조한다. 매매일지를 쓰거나 패턴을 암기하기보다 “매일같이 시장에 오래 참여하며 그때그때 경험을 축적”을 추천한다.
+            - heading "2. 리스크 관리 최우선" [level=3] [ref=e141]
+            - paragraph [ref=e142]: ‘격리’ 방식을 통해 한번의 트레이딩에서 전체 시드의 20~30%보다 큰 손실을 절대 보지 않는다. 평소나 변동성장(큰 파동시기)이나 자신의 시드를 강제 손절 라인에 맞춰 분할 관리한다.
+            - paragraph [ref=e143]: 큰 손실을 본 날에도 전체 자산의 30% 이상을 잃지 않도록 ‘자동 입금 불가’ 등 자기통제를 하고, 추가 입금을 스스로 굉장히 불편하게 만들어서, 손실 시 충동적으로 자산을 더 투입하지 못하도록 한다.
+            - heading "3. 저배율, 분할 진입/청산" [level=3] [ref=e144]
+            - paragraph [ref=e145]: 풀시드를 한 번에 몰빵하는 것이 아니라 포지션을 소수분할(2~3회)로 쪼갠다. 레버리지는 자산이 커질수록 (초기 25배→) 요즘은 2~3배로 낮춰가고, 분할청산 역시 고점/저점 예측이 어렵기 때문에 나눠서 익절 및 손절을 시행한다.
+            - heading "4. 캔들·거래량 중심 매매" [level=3] [ref=e146]
+            - paragraph [ref=e147]: 보조지표나 복잡한 알고리즘은 많이 사용하지 않는다. 오랜 시간 차트(캔들·거래량 흐름)만 직접 관찰하여, 시장 참가자 심리 흐름·반복패턴을 감각적으로 파악한다.
+            - heading "5. 타이밍과 심리" [level=3] [ref=e148]
+            - paragraph [ref=e149]: 유행, 뉴스, 대세론보다 저점/고점 구간에서만 적극 진입. 남들 쏠릴 때는 오히려 관망. 초조하거나 계획과 달라질 때, 망설임이 크면 ‘분할 및 관망’으로 리스크를 최소화. 혼자서만 얻을 수 있는 실전 경험과 판단을 중시한다.
+            - heading "6. 장·단기 포지션" [level=3] [ref=e150]
+            - paragraph [ref=e151]: 거래량 많은 곳에선 단기, 적은 곳에선 장기 포지션으로 자산을 굴린다.
+            - paragraph [ref=e152]: 이처럼 워뇨띠는 익히 알려진 매매법에 자신만의 인내와 지식을 추가하는 모습이다. 한번에 돈을 벌기 보다는 장기전에서 살아남기 위한 전략이 특징이라면 특징이다.
+            - heading "워뇨띠 포지션 보는 법" [level=2] [ref=e153]
+            - figure "워뇨띠 바이낸스 포지션" [ref=e155]:
+              - img "워뇨띠-포지션" [ref=e156]
+              - generic [ref=e157]: 워뇨띠 바이낸스 포지션
+            - paragraph [ref=e158]: 워낙 수익에 능한 워뇨띠이다 보니 포지션을 궁금해하는 사람들이 많다. 워뇨띠 포지션은 바이낸스 리더보드를 통해 확인할 수 있다. 원래 닉네임이 AOA 였는데, 최근 ILLIT으로 변경한 것 같다. (뉴진스라는 말도 있음)
+            - paragraph [ref=e159]: PC에서 바이낸스 로그인 후 화면 하단의 포지션을 누르면 현재 워뇨띠 위치를 확인할 수 있다. (앱으로는 리더보드가 안됨)
+            - link "워뇨띠 포지션 보기" [ref=e162] [cursor=pointer]:
+              - /url: https://www.binance.com/en/futures-activity/leaderboard/user/um?encryptedUid=14EA12E7412DC5A21DFF5E7EAC6013B9
+            - heading "워뇨띠 비트맥스 질문 답변 모음" [level=2] [ref=e164]
+            - paragraph [ref=e165]: 온라인에 잘 나서지 않는 천재 트레이더 워뇨띠는 최근 비트맥스와의 인터뷰 고래 트레이더로 소개됐다. 정상급 트레이더들의 통찰력을 공유하는 이번 시리즈에서 비트멕스는 첫 주자로 워뇨띠를 선택했다.
+            - paragraph [ref=e166]: 과연 코인에 대한 그의 대답은 무엇이었을지 알아보자.
+            - group [ref=e167]:
+              - generic "질문 답변 보기" [ref=e168] [cursor=pointer]
+            - link "워뇨띠 디시 매매법 모음" [ref=e172] [cursor=pointer]:
+              - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=908514
+            - heading "워뇨띠 근황" [level=2] [ref=e174]
+            - paragraph [ref=e175]: 지난 4월 워뇨띠 영역전개 이후 현재까지는 특별한 매수 활동 보고가 없다. 다만 위의 비트맥스 인터뷰를 통해 자신의 모습을 드러냈을 뿐, 어디에서도 존재를 찾을 수 없다.
+            - paragraph [ref=e176]: 워뇨띠 유튜브 이름으로 개설된 영상들이 돌고 있지만, 본인은 아니라고 한다. 그래도 코인의 관한 영상으로 몇 만 조회수가 나고 있다. 또한 워뇨띠 그것이알고싶다 제보 소식에 여론이 들썩이고 있는데, 근데 그알에서 왜 워뇨띠를 찾는거지?
+            - paragraph [ref=e177]: 실제로 얼굴을 볼 수 있을런지.. 진짜라면 그알 워뇨띠 인터뷰가 기다려지긴 한다.
+            - figure "워뇨띠 유튜브 영상" [ref=e179]:
+              - link "워뇨띠-유튜브-가짜" [ref=e180] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=cn9yZTYqDy4
+                - img "워뇨띠-유튜브-가짜" [ref=e181]
+              - generic [ref=e182]: 워뇨띠 유튜브 영상
+            - paragraph [ref=e183]:
+              - link "시타 문해일 그는 누구인가? (프로필 블로그 유튜브)" [ref=e184] [cursor=pointer]:
+                - /url: https://gaemiwiki.com/i/%eb%ac%b8%ed%95%b4%ec%9d%bc-%ed%94%84%eb%a1%9c%ed%95%84/
+            - paragraph [ref=e185]:
+              - link "와이프라이크 결말 리뷰 뭐든지 해주는 AI 존예 와이프(엘레나 캠푸리스 넷플릭스X)" [ref=e186] [cursor=pointer]:
+                - /url: https://gaemiwiki.com/m/%ec%98%81%ed%99%94-%ec%99%80%ec%9d%b4%ed%94%84%eb%9d%bc%ec%9d%b4%ed%81%ac-%ea%b2%b0%eb%a7%90-%eb%a6%ac%eb%b7%b0/
+            - insertion
+          - generic "항목 메타" [ref=e187]:
+            - generic [ref=e188]:
+              - img [ref=e190]
+              - generic [ref=e192]: 카테고리
+              - link "이슈" [ref=e193] [cursor=pointer]:
+                - /url: https://gaemiwiki.com/i/
+            - navigation "글" [ref=e194]:
+              - generic [ref=e195]:
+                - img [ref=e197]
+                - link "시타 문해일 그는 누구인가? (프로필 블로그 유튜브)" [ref=e200] [cursor=pointer]:
+                  - /url: https://gaemiwiki.com/i/%eb%ac%b8%ed%95%b4%ec%9d%bc-%ed%94%84%eb%a1%9c%ed%95%84/
+              - generic [ref=e201]:
+                - img [ref=e203]
+                - link "브아솔 김주원 배우 프로필 뮤비 여주 또 통했네(작품활동 인스타 나이)" [ref=e206] [cursor=pointer]:
+                  - /url: https://gaemiwiki.com/i/%eb%b8%8c%ec%95%84%ec%86%94-%ea%b9%80%ec%a3%bc%ec%9b%90-%eb%b0%b0%ec%9a%b0-%ed%94%84%eb%a1%9c%ed%95%84-%ec%9d%b8%ec%8a%a4%ed%83%80-%ec%9e%91%ed%92%88%ed%99%9c%eb%8f%99/
+    - generic [ref=e208]:
+      - complementary [ref=e209]:
+        - generic [ref=e211]:
+          - heading "최신 글" [level=2] [ref=e212]
+          - list [ref=e213]:
+            - listitem [ref=e214]:
+              - img "전북 무형문화재 서인석 장구 명인 스토리(+장구 가격 제작 과정)" [ref=e216]
+              - link "전북 무형문화재 서인석 장구 명인 스토리(+장구 가격 제작 과정)" [ref=e217] [cursor=pointer]:
+                - /url: https://gaemiwiki.com/i/%ec%84%9c%ec%9d%b8%ec%84%9d-%ec%9e%a5%ea%b5%ac-%ea%b0%80%ea%b2%a9-%ec%a0%84%eb%b6%81-%eb%ac%b4%ed%98%95%eb%ac%b8%ed%99%94%ec%9e%ac-12%ed%98%b8-%ec%95%85%ea%b8%b0%ec%9e%a5/
+              - generic [ref=e218]:
+                - text: 전라북도 무형문화재 제12호 악기장(장구·북) 서인석 장구 명인. 3대째 손으로 장구와 북을 깎는 ...
+                - link "전북 무형문화재 서인석 장구 명인 스토리(+장구 가격 제작 과정)에 대해 더 자세히 알아보세요" [ref=e219] [cursor=pointer]:
+                  - /url: https://gaemiwiki.com/i/%ec%84%9c%ec%9d%b8%ec%84%9d-%ec%9e%a5%ea%b5%ac-%ea%b0%80%ea%b2%a9-%ec%a0%84%eb%b6%81-%eb%ac%b4%ed%98%95%eb%ac%b8%ed%99%94%ec%9e%ac-12%ed%98%b8-%ec%95%85%ea%b8%b0%ec%9e%a5/
+                  - text: Read more
+            - listitem [ref=e220]:
+              - img "윤종훈-배우" [ref=e222]
+              - link "윤종훈 배우 프로필 펜트하우스 악역의 따듯한 10년 우정(나이 필모그래피 작품활동)" [ref=e223] [cursor=pointer]:
+                - /url: https://gaemiwiki.com/i/%ec%9c%a4%ec%a2%85%ed%9b%88-%eb%b0%b0%ec%9a%b0-%ed%94%84%eb%a1%9c%ed%95%84-%eb%82%98%ec%9d%b4-%ec%9e%91%ed%92%88%ed%99%9c%eb%8f%99-%ed%95%84%eb%aa%a8%ea%b7%b8%eb%9e%98%ed%94%bc/
+              - generic [ref=e224]:
+                - text: 윤종훈 배우는 SBS 펜트하우스하윤철 역으로 대중에게 강렬한 인상을 남긴 연기자 입니다. 어린시절 ...
+                - link "윤종훈 배우 프로필 펜트하우스 악역의 따듯한 10년 우정(나이 필모그래피 작품활동)에 대해 더 자세히 알아보세요" [ref=e225] [cursor=pointer]:
+                  - /url: https://gaemiwiki.com/i/%ec%9c%a4%ec%a2%85%ed%9b%88-%eb%b0%b0%ec%9a%b0-%ed%94%84%eb%a1%9c%ed%95%84-%eb%82%98%ec%9d%b4-%ec%9e%91%ed%92%88%ed%99%9c%eb%8f%99-%ed%95%84%eb%aa%a8%ea%b7%b8%eb%9e%98%ed%94%bc/
+                  - text: Read more
+            - listitem [ref=e226]:
+              - img "최석구-사기-결혼" [ref=e228]
+              - link "최석구 아내 차경아 17살 나이차 결혼 스토리(프로필 나이 장모)" [ref=e229] [cursor=pointer]:
+                - /url: https://gaemiwiki.com/i/%ec%b5%9c%ec%84%9d%ea%b5%ac-%ec%95%84%eb%82%b4-%ec%b0%a8%ea%b2%bd%ec%95%84-17%ec%82%b4-%eb%82%98%ec%9d%b4%ec%b0%a8-%ea%b2%b0%ed%98%bc-%ec%8a%a4%ed%86%a0%eb%a6%ac%ed%94%84%eb%a1%9c%ed%95%84-%eb%82%98/
+              - generic [ref=e230]:
+                - text: 최석구는 대한민국을 대표하는 배우이자 KBS1 6시 내고향의 간판 리포터로 오랜 기간 국민에게 ...
+                - link "최석구 아내 차경아 17살 나이차 결혼 스토리(프로필 나이 장모)에 대해 더 자세히 알아보세요" [ref=e231] [cursor=pointer]:
+                  - /url: https://gaemiwiki.com/i/%ec%b5%9c%ec%84%9d%ea%b5%ac-%ec%95%84%eb%82%b4-%ec%b0%a8%ea%b2%bd%ec%95%84-17%ec%82%b4-%eb%82%98%ec%9d%b4%ec%b0%a8-%ea%b2%b0%ed%98%bc-%ec%8a%a4%ed%86%a0%eb%a6%ac%ed%94%84%eb%a1%9c%ed%95%84-%eb%82%98/
+                  - text: Read more
+            - listitem [ref=e232]:
+              - img "스롱피아비 남편 28살 차이 자녀 없는 이유? (국적 연봉 프로필" [ref=e234]
+              - link "스롱피아비 남편 28살 차이 자녀 없는 이유? (국적 연봉 프로필" [ref=e235] [cursor=pointer]:
+                - /url: https://gaemiwiki.com/i/%ec%8a%a4%eb%a1%b1%ed%94%bc%ec%95%84%eb%b9%84-%ed%94%84%eb%a1%9c%ed%95%84-%eb%82%a8%ed%8e%b8-%ea%b5%ad%ec%a0%81-%ec%97%b0%eb%b4%89/
+              - generic [ref=e236]:
+                - text: LPBA 여자당구 최고 선수를 뽑으라면 누굴 선택하시겠나요? 당구여제 김가영? 떠오르는 신예 당구 ...
+                - link "스롱피아비 남편 28살 차이 자녀 없는 이유? (국적 연봉 프로필에 대해 더 자세히 알아보세요" [ref=e237] [cursor=pointer]:
+                  - /url: https://gaemiwiki.com/i/%ec%8a%a4%eb%a1%b1%ed%94%bc%ec%95%84%eb%b9%84-%ed%94%84%eb%a1%9c%ed%95%84-%eb%82%a8%ed%8e%b8-%ea%b5%ad%ec%a0%81-%ec%97%b0%eb%b4%89/
+                  - text: Read more
+            - listitem [ref=e238]:
+              - img "노아주다-프로필" [ref=e240]
+              - link "김준현 아냐? 힙사사돈 노아주다 프로필(프로필 소속사noahjooda)" [ref=e241] [cursor=pointer]:
+                - /url: https://gaemiwiki.com/i/%eb%85%b8%ec%95%84%ec%a3%bc%eb%8b%a4-%ed%94%84%eb%a1%9c%ed%95%84-%eb%85%b8%eb%9e%98-%ed%9e%99%ec%82%ac%ec%82%ac%eb%8f%88-%ec%97%ad%ec%a3%bc%ed%96%89/
+              - generic [ref=e242]:
+                - text: 개그맨 김준현 앨범냈나? 이번 10cm의 쓰담쓰담 방송에선 래퍼 노아주다가 김준현 도플갱어 특집으로 ...
+                - link "김준현 아냐? 힙사사돈 노아주다 프로필(프로필 소속사noahjooda)에 대해 더 자세히 알아보세요" [ref=e243] [cursor=pointer]:
+                  - /url: https://gaemiwiki.com/i/%eb%85%b8%ec%95%84%ec%a3%bc%eb%8b%a4-%ed%94%84%eb%a1%9c%ed%95%84-%eb%85%b8%eb%9e%98-%ed%9e%99%ec%82%ac%ec%82%ac%eb%8f%88-%ec%97%ad%ec%a3%bc%ed%96%89/
+                  - text: Read more
+            - listitem [ref=e244]:
+              - img "김가영-당구-결혼" [ref=e246]
+              - link "김가영 당구 선수 남자친구 결혼 임박?(프로필 연봉 엄마 아빠 수상)" [ref=e247] [cursor=pointer]:
+                - /url: https://gaemiwiki.com/i/%ea%b9%80%ea%b0%80%ec%98%81-%eb%8b%b9%ea%b5%ac-%ec%84%a0%ec%88%98-%eb%82%a8%ed%8e%b8-%ea%b2%b0%ed%98%bc-%ec%86%8c%ec%8b%9d/
+              - generic [ref=e248]:
+                - text: 김가영 당구 선수는 우리나라를 대표하는 포켓볼과 3쿠션의 전설적인 선수입니다. 40대인 지금도 여전한 ...
+                - link "김가영 당구 선수 남자친구 결혼 임박?(프로필 연봉 엄마 아빠 수상)에 대해 더 자세히 알아보세요" [ref=e249] [cursor=pointer]:
+                  - /url: https://gaemiwiki.com/i/%ea%b9%80%ea%b0%80%ec%98%81-%eb%8b%b9%ea%b5%ac-%ec%84%a0%ec%88%98-%eb%82%a8%ed%8e%b8-%ea%b2%b0%ed%98%bc-%ec%86%8c%ec%8b%9d/
+                  - text: Read more
+            - listitem [ref=e250]:
+              - img "다초점렌즈-원리" [ref=e252]
+              - link "다초점렌즈 가격 안경 알아보시기 전 필독!(누진 렌즈 부작용)" [ref=e253] [cursor=pointer]:
+                - /url: https://gaemiwiki.com/i/%eb%8b%a4%ec%b4%88%ec%a0%90%eb%a0%8c%ec%a6%88-%ea%b0%80%ea%b2%a9-%eb%88%84%ec%a7%84-%eb%a0%8c%ec%a6%88-%eb%b6%80%ec%9e%91%ec%9a%a9/
+              - generic [ref=e254]:
+                - text: 다초점렌즈 가격 알아보시기전에 꼭 읽어야 할 내용 및 누진 렌즈 부작용 알아보겠습니다. ...
+                - link "다초점렌즈 가격 안경 알아보시기 전 필독!(누진 렌즈 부작용)에 대해 더 자세히 알아보세요" [ref=e255] [cursor=pointer]:
+                  - /url: https://gaemiwiki.com/i/%eb%8b%a4%ec%b4%88%ec%a0%90%eb%a0%8c%ec%a6%88-%ea%b0%80%ea%b2%a9-%eb%88%84%ec%a7%84-%eb%a0%8c%ec%a6%88-%eb%b6%80%ec%9e%91%ec%9a%a9/
+                  - text: Read more
+      - complementary [ref=e256]:
+        - insertion
+  - contentinfo "사이트" [ref=e258]:
+    - generic [ref=e260]: © 개미위키

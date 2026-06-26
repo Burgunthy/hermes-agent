@@ -1,0 +1,308 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ollama" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Ollama" [ref=e5]
+      - generic [ref=e6]:
+        - link "Models" [ref=e7] [cursor=pointer]:
+          - /url: /search
+        - link "Docs" [ref=e8] [cursor=pointer]:
+          - /url: /docs
+        - link "Pricing" [ref=e9] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=e13]:
+        - img [ref=e15]
+        - textbox "Search models" [ref=e17]
+      - generic [ref=e18]:
+        - link "Sign in" [ref=e19] [cursor=pointer]:
+          - /url: /signin
+        - link "Download" [ref=e20] [cursor=pointer]:
+          - /url: /download
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - link "llama4" [ref=e27] [cursor=pointer]:
+        - /url: /library/llama4
+      - generic [ref=e28]:
+        - paragraph [ref=e30]:
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - generic [ref=e34]: 1.7M
+            - generic [ref=e35]: Downloads
+          - generic "Jun 16, 2025 8:45 PM UTC" [ref=e36]:
+            - img [ref=e37]
+            - generic [ref=e39]: Updated
+            - generic [ref=e40]: 11 months ago
+        - heading "Meta's latest collection of multimodal models." [level=2] [ref=e42]
+        - generic [ref=e43]:
+          - generic [ref=e44]: vision
+          - generic [ref=e45]: tools
+          - generic [ref=e46]: 16x17b
+          - generic [ref=e47]: 128x17b
+    - generic [ref=e48]:
+      - generic [ref=e50]:
+        - generic [ref=e52]:
+          - button "CLI" [ref=e53] [cursor=pointer]
+          - button "cURL" [ref=e54] [cursor=pointer]
+          - button "Python" [ref=e55] [cursor=pointer]
+          - button "JavaScript" [ref=e56] [cursor=pointer]
+        - generic [ref=e57]:
+          - button "Copy" [ref=e59] [cursor=pointer]:
+            - img [ref=e60]
+          - generic [ref=e63]: ollama run llama4
+      - generic [ref=e64]:
+        - heading "Applications" [level=2] [ref=e65]
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - img "Claude Code" [ref=e70]
+              - generic [ref=e71]:
+                - generic [ref=e72]: Claude Code
+                - code [ref=e73]: ollama launch claude --model llama4
+            - button "Copy" [ref=e74] [cursor=pointer]:
+              - img [ref=e75]
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - img "Codex App" [ref=e79]
+              - generic [ref=e80]:
+                - generic [ref=e81]: Codex App
+                - code [ref=e82]: ollama launch codex-app --model llama4
+            - button "Copy" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - img "OpenClaw" [ref=e88]
+              - generic [ref=e89]:
+                - generic [ref=e90]: OpenClaw
+                - code [ref=e91]: ollama launch openclaw --model llama4
+            - button "Copy" [ref=e92] [cursor=pointer]:
+              - img [ref=e93]
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - img "Hermes Agent" [ref=e97]
+              - generic [ref=e98]:
+                - generic [ref=e99]: Hermes Agent
+                - code [ref=e100]: ollama launch hermes --model llama4
+            - button "Copy" [ref=e101] [cursor=pointer]:
+              - img [ref=e102]
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - img "Codex" [ref=e106]
+              - generic [ref=e107]:
+                - generic [ref=e108]: Codex
+                - code [ref=e109]: ollama launch codex --model llama4
+            - button "Copy" [ref=e110] [cursor=pointer]:
+              - img [ref=e111]
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - img "OpenCode" [ref=e115]
+              - generic [ref=e116]:
+                - generic [ref=e117]: OpenCode
+                - code [ref=e118]: ollama launch opencode --model llama4
+            - button "Copy" [ref=e119] [cursor=pointer]:
+              - img [ref=e120]
+      - generic [ref=e122]:
+        - generic [ref=e123]:
+          - heading "Models" [level=2] [ref=e124]
+          - link "View all →" [ref=e125] [cursor=pointer]:
+            - /url: /library/llama4/tags
+        - generic [ref=e127]:
+          - generic [ref=e128]:
+            - paragraph [ref=e129]: Name
+            - paragraph [ref=e130]: Size / Usage
+            - paragraph [ref=e131]: Context
+            - paragraph [ref=e132]: Input
+          - generic [ref=e133]:
+            - link "llama4:latest" [ref=e135] [cursor=pointer]:
+              - /url: /library/llama4:latest
+            - paragraph [ref=e136]: 67GB
+            - paragraph [ref=e137]: 10M
+            - paragraph [ref=e138]: Text, Image
+          - generic [ref=e139]:
+            - generic [ref=e140]:
+              - link "llama4:16x17b" [ref=e141] [cursor=pointer]:
+                - /url: /library/llama4:16x17b
+              - generic [ref=e142]: latest
+            - paragraph [ref=e143]: 67GB
+            - paragraph [ref=e144]: 10M
+            - paragraph [ref=e145]: Text, Image
+          - generic [ref=e146]:
+            - link "llama4:128x17b" [ref=e148] [cursor=pointer]:
+              - /url: /library/llama4:128x17b
+            - paragraph [ref=e149]: 245GB
+            - paragraph [ref=e150]: 1M
+            - paragraph [ref=e151]: Text, Image
+    - generic [ref=e152]:
+      - heading "Readme" [level=2] [ref=e154]
+      - generic [ref=e156]:
+        - paragraph [ref=e157]:
+          - img "image.png" [ref=e158]
+        - paragraph [ref=e159]: The Llama 4 collection of models are natively multimodal AI models that enable text and multimodal experiences. These two models leverage a mixture-of-experts (MoE) architecture and support native multimodality (image input).
+        - paragraph [ref=e160]:
+          - strong [ref=e161]: "Supported languages:"
+          - text: Arabic, English, French, German, Hindi, Indonesian, Italian, Portuguese, Spanish, Tagalog, Thai, and Vietnamese.
+        - paragraph [ref=e162]:
+          - strong [ref=e163]: "Input:"
+          - text: multilingual text, image
+        - paragraph [ref=e164]:
+          - strong [ref=e165]: "Output:"
+          - text: multilingual text, code
+        - heading "Models" [level=3] [ref=e166]
+        - heading "Llama 4 Scout" [level=4] [ref=e167]
+        - code [ref=e169]: ollama run llama4:scout
+        - paragraph [ref=e170]: 109B parameter MoE model with 17B active parameters
+        - heading "Llama 4 Maverick" [level=4] [ref=e171]
+        - code [ref=e173]: ollama run llama4:maverick
+        - paragraph [ref=e174]: 400B parameter MoE model with 17B active parameters
+        - heading "Intended Use" [level=3] [ref=e175]
+        - paragraph [ref=e176]:
+          - strong [ref=e177]: "Intended Use Cases:"
+          - text: Llama 4 is intended for commercial and research use in multiple languages. Instruction tuned models are intended for assistant-like chat and visual reasoning tasks, whereas pretrained models can be adapted for natural language generation. For vision, Llama 4 models are also optimized for visual recognition, image reasoning, captioning, and answering general questions about an image. The Llama 4 model collection also supports the ability to leverage the outputs of its models to improve other models including synthetic data generation and distillation. The Llama 4 Community License allows for these use cases.
+        - paragraph [ref=e178]:
+          - strong [ref=e179]: Out-of-scope
+          - text: ": Use in any manner that violates applicable laws or regulations (including trade compliance laws). Use in any other way that is prohibited by the Acceptable Use Policy and Llama 4 Community License. Use in languages or capabilities beyond those explicitly referenced as supported in this model card."
+        - paragraph [ref=e180]: "Note:"
+        - list [ref=e181]:
+          - listitem [ref=e182]:
+            - paragraph [ref=e183]:
+              - text: Llama 4 has been trained on a broader collection of languages than the 12 supported languages (pre-training includes
+              - link "200 total languages" [ref=e184] [cursor=pointer]:
+                - /url: https://ai.meta.com/research/no-language-left-behind/
+              - text: ). Developers may fine-tune Llama 4 models for languages beyond the 12 supported languages provided they comply with the Llama 4 Community License and the Acceptable Use Policy. Developers are responsible for ensuring that their use of Llama 4 in additional languages is done in a safe and responsible manner.
+          - listitem [ref=e185]:
+            - paragraph [ref=e186]: Llama 4 has been tested for image understanding up to 5 input images. If leveraging additional image understanding capabilities beyond this, Developers are responsible for ensuring that their deployments are mitigated for risks and should perform additional testing and tuning tailored to their specific applications.
+        - heading "Benchmarks" [level=3] [ref=e187]
+        - paragraph
+        - table [ref=e188]:
+          - rowgroup [ref=e189]:
+            - 'row "Category Benchmark # Shots Metric Llama 3.3 70B Llama 3.1 405B Llama 4 Scout Llama 4 Maverick" [ref=e190]':
+              - columnheader "Category" [ref=e191]
+              - columnheader "Benchmark" [ref=e192]
+              - columnheader "# Shots" [ref=e193]
+              - columnheader "Metric" [ref=e194]
+              - columnheader "Llama 3.3 70B" [ref=e195]
+              - columnheader "Llama 3.1 405B" [ref=e196]
+              - columnheader "Llama 4 Scout" [ref=e197]
+              - columnheader "Llama 4 Maverick" [ref=e198]
+            - row "Image Reasoning MMMU 0 accuracy No multimodal support 69.4 73.4" [ref=e199]:
+              - cell "Image Reasoning" [ref=e200]
+              - cell "MMMU" [ref=e201]
+              - cell "0" [ref=e202]
+              - cell "accuracy" [ref=e203]
+              - cell "No multimodal support" [ref=e204]
+              - cell "69.4" [ref=e205]
+              - cell "73.4" [ref=e206]
+            - row "MMMU Pro^ 0 accuracy 52.2 59.6" [ref=e207]:
+              - cell [ref=e208]
+              - cell "MMMU Pro^" [ref=e209]
+              - cell "0" [ref=e210]
+              - cell "accuracy" [ref=e211]
+              - cell [ref=e212]
+              - cell "52.2" [ref=e213]
+              - cell "59.6" [ref=e214]
+            - row "MathVista 0 accuracy 70.7 73.7" [ref=e215]:
+              - cell [ref=e216]
+              - cell "MathVista" [ref=e217]
+              - cell "0" [ref=e218]
+              - cell "accuracy" [ref=e219]
+              - cell [ref=e220]
+              - cell "70.7" [ref=e221]
+              - cell "73.7" [ref=e222]
+            - row "Image Understanding ChartQA 0 relaxed_accuracy 88.8 90.0" [ref=e223]:
+              - cell "Image Understanding" [ref=e224]
+              - cell "ChartQA" [ref=e225]
+              - cell "0" [ref=e226]
+              - cell "relaxed_accuracy" [ref=e227]
+              - cell [ref=e228]
+              - cell "88.8" [ref=e229]
+              - cell "90.0" [ref=e230]
+            - row "DocVQA (test) 0 anls 94.4 94.4" [ref=e231]:
+              - cell [ref=e232]
+              - cell "DocVQA (test)" [ref=e233]
+              - cell "0" [ref=e234]
+              - cell "anls" [ref=e235]
+              - cell [ref=e236]
+              - cell "94.4" [ref=e237]
+              - cell "94.4" [ref=e238]
+            - row "Code LiveCodeBench (10/01/2024-02/01/2025) 0 pass@1 33.3 27.7 32.8 43.4" [ref=e239]:
+              - cell "Code" [ref=e240]
+              - cell "LiveCodeBench (10/01/2024-02/01/2025)" [ref=e241]
+              - cell "0" [ref=e242]
+              - cell "pass@1" [ref=e243]
+              - cell "33.3" [ref=e244]
+              - cell "27.7" [ref=e245]
+              - cell "32.8" [ref=e246]
+              - cell "43.4" [ref=e247]
+            - row "Reasoning & Knowledge MMLU Pro 0 macro_avg/acc 68.9 73.4 74.3 80.5" [ref=e248]:
+              - cell "Reasoning & Knowledge" [ref=e249]
+              - cell "MMLU Pro" [ref=e250]
+              - cell "0" [ref=e251]
+              - cell "macro_avg/acc" [ref=e252]
+              - cell "68.9" [ref=e253]
+              - cell "73.4" [ref=e254]
+              - cell "74.3" [ref=e255]
+              - cell "80.5" [ref=e256]
+            - row "GPQA Diamond 0 accuracy 50.5 49.0 57.2 69.8" [ref=e257]:
+              - cell [ref=e258]
+              - cell "GPQA Diamond" [ref=e259]
+              - cell "0" [ref=e260]
+              - cell "accuracy" [ref=e261]
+              - cell "50.5" [ref=e262]
+              - cell "49.0" [ref=e263]
+              - cell "57.2" [ref=e264]
+              - cell "69.8" [ref=e265]
+            - row "Multilingual MGSM 0 average/em 91.1 91.6 90.6 92.3" [ref=e266]:
+              - cell "Multilingual" [ref=e267]
+              - cell "MGSM" [ref=e268]
+              - cell "0" [ref=e269]
+              - cell "average/em" [ref=e270]
+              - cell "91.1" [ref=e271]
+              - cell "91.6" [ref=e272]
+              - cell "90.6" [ref=e273]
+              - cell "92.3" [ref=e274]
+            - row "Long Context MTOB (half book) eng->kgv/kgv->eng - chrF Context window is 128K 42.2 / 36.6 54.0 / 46.4" [ref=e275]:
+              - cell "Long Context" [ref=e276]
+              - cell "MTOB (half book) eng->kgv/kgv->eng" [ref=e277]
+              - cell "-" [ref=e278]
+              - cell "chrF" [ref=e279]
+              - cell "Context window is 128K" [ref=e280]
+              - cell "42.2 / 36.6" [ref=e281]
+              - cell "54.0 / 46.4" [ref=e282]
+            - row "MTOB (full book) eng->kgv/kgv->eng - chrF 39.7 / 36.3 50.8 / 46.7" [ref=e283]:
+              - cell [ref=e284]
+              - cell "MTOB (full book) eng->kgv/kgv->eng" [ref=e285]
+              - cell "-" [ref=e286]
+              - cell "chrF" [ref=e287]
+              - cell [ref=e288]
+              - cell "39.7 / 36.3" [ref=e289]
+              - cell "50.8 / 46.7" [ref=e290]
+        - text: "*reported numbers for MMMU Pro is the average of Standard and Vision tasks"
+        - paragraph
+        - heading "Reference" [level=3] [ref=e291]
+        - list [ref=e292]:
+          - listitem [ref=e293]:
+            - text: Meta Llama 4
+            - link "post" [ref=e294] [cursor=pointer]:
+              - /url: https://ai.meta.com/blog/llama-4-multimodal-intelligence/
+  - contentinfo [ref=e295]:
+    - generic [ref=e297]:
+      - generic [ref=e298]: © 2026 Ollama
+      - generic [ref=e299]:
+        - link "Download" [ref=e300] [cursor=pointer]:
+          - /url: /download
+        - link "Blog" [ref=e301] [cursor=pointer]:
+          - /url: /blog
+        - link "Docs" [ref=e302] [cursor=pointer]:
+          - /url: https://docs.ollama.com
+        - link "GitHub" [ref=e303] [cursor=pointer]:
+          - /url: https://github.com/ollama/ollama
+        - link "Discord" [ref=e304] [cursor=pointer]:
+          - /url: https://discord.com/invite/ollama
+        - link "X (Twitter)" [ref=e305] [cursor=pointer]:
+          - /url: https://twitter.com/ollama
+        - link "Contact" [ref=e306] [cursor=pointer]:
+          - /url: mailto:hello@ollama.com
+        - link "Privacy" [ref=e307] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e308] [cursor=pointer]:
+          - /url: /terms

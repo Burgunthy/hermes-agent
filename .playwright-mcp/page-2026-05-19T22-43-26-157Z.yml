@@ -1,0 +1,2800 @@
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - navigation [ref=e5]:
+      - generic [ref=e7]:
+        - link "Oracle Cloud" [ref=e9] [cursor=pointer]:
+          - /url: /
+          - img "Oracle Cloud" [ref=e10]
+        - button "Main Navigation" [ref=e13] [cursor=pointer]
+        - link "Help Center" [ref=e16] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e19]:
+          - generic [ref=e20]: Search
+          - textbox "Search" [ref=e21]
+          - link "Oracle Cloud Infrastructure Search scoped to this page. Use this button to use site search instead." [ref=e22]:
+            - generic [ref=e23]:
+              - img [ref=e24]
+              - strong [ref=e29]: Oracle Cloud Infrastructure
+              - button "Search scoped to this page. Use this button to use site search instead." [ref=e30] [cursor=pointer]:
+                - img [ref=e31]
+        - generic "Select Language" [ref=e36]:
+          - generic [ref=e37]:
+            - button [ref=e38] [cursor=pointer]
+            - combobox "Select Language" [ref=e39] [cursor=pointer]:
+              - option "Deutsch"
+              - option "English (US)" [selected]
+              - option "Español"
+              - option "Français (Canada)"
+              - option "Français"
+              - option "Italiano"
+              - option "日本語"
+              - option "Português (Brasil)"
+  - generic [ref=e44]:
+    - generic [ref=e45]:
+      - heading "Oracle Cloud Infrastructure Documentation" [level=3] [ref=e46]:
+        - link "Oracle Cloud Infrastructure Documentation" [ref=e47] [cursor=pointer]:
+          - /url: /iaas/Content/home.htm
+      - separator [ref=e48]
+    - link "Try Free Tier" [ref=e51] [cursor=pointer]:
+      - /url: https://www.oracle.com/cloud/free/?source=:ow:o:h:po:OHPPanel1nav0625&intcmp=:ow:o:h:po:OHPPanel1nav0625
+  - generic [ref=e54]:
+    - generic [ref=e56]:
+      - generic [ref=e58]:
+        - list [ref=e60]:
+          - listitem [ref=e61]:
+            - button "Expand All Expandable Areas" [ref=e62] [cursor=pointer]:
+              - img [ref=e64]
+              - text: Expand All Expandable Areas
+        - navigation "Compute Shapes" [ref=e66]:
+          - list [ref=e67]:
+            - listitem [ref=e68]:
+              - link "Compute Shapes" [ref=e69] [cursor=pointer]:
+                - /url: "#Compute_Shapes"
+            - listitem [ref=e70]:
+              - link "Compute Shape Pricing" [ref=e71] [cursor=pointer]:
+                - /url: "#Compute_Shapes__pricing"
+            - listitem [ref=e72]:
+              - link "Flexible Shapes" [ref=e73] [cursor=pointer]:
+                - /url: "#flexible"
+            - listitem [ref=e74]:
+              - link "Supported Images" [ref=e75] [cursor=pointer]:
+                - /url: "#images"
+            - listitem [ref=e76]:
+              - link "Supported Regions" [ref=e77] [cursor=pointer]:
+                - /url: "#regions"
+            - listitem [ref=e78]:
+              - link "Extended Memory VM Instances" [ref=e79] [cursor=pointer]:
+                - /url: "#computeshapes_topic-extended-memory"
+            - listitem [ref=e80]:
+              - link "Bare Metal Shapes" [ref=e81] [cursor=pointer]:
+                - /url: "#baremetalshapes"
+            - listitem [ref=e82]:
+              - link "Standard Shapes" [ref=e83] [cursor=pointer]:
+                - /url: "#bm-standard"
+            - listitem [ref=e84]:
+              - link "Dense I/O Shapes" [ref=e85] [cursor=pointer]:
+                - /url: "#bm-dense"
+            - listitem [ref=e86]:
+              - link "GPU Shapes" [ref=e87] [cursor=pointer]:
+                - /url: "#bm-gpu"
+            - listitem [ref=e88]:
+              - link "HPC and Optimized Shapes" [ref=e89] [cursor=pointer]:
+                - /url: "#bm-hpc-optimized"
+            - listitem [ref=e90]:
+              - link "Virtual Machine (VM) Shapes" [ref=e91] [cursor=pointer]:
+                - /url: "#vmshapes"
+            - listitem [ref=e92]:
+              - link "Standard Shapes" [ref=e93] [cursor=pointer]:
+                - /url: "#vm-standard"
+            - listitem [ref=e94]:
+              - link "Dense I/O Shapes" [ref=e95] [cursor=pointer]:
+                - /url: "#vm-dense"
+            - listitem [ref=e96]:
+              - link "GPU Shapes" [ref=e97] [cursor=pointer]:
+                - /url: "#vm-gpu"
+            - listitem [ref=e98]:
+              - link "HPC and Optimized Shapes" [ref=e99] [cursor=pointer]:
+                - /url: "#vm-hpc-optimized"
+            - listitem [ref=e100]:
+              - link "Dedicated Virtual Machine Host Shapes" [ref=e101] [cursor=pointer]:
+                - /url: "#dedicatedvmhost"
+            - listitem [ref=e102]:
+              - link "Previous Generation Shapes" [ref=e103] [cursor=pointer]:
+                - /url: "#previous-generation-shapes"
+            - listitem [ref=e104]:
+              - link "Upgrading from a Previous Generation Shape" [ref=e105] [cursor=pointer]:
+                - /url: "#previous-generation-shapes__upgrading-from-previous-generation"
+            - listitem [ref=e106]:
+              - link "Previous Generation Bare Metal Shapes" [ref=e107] [cursor=pointer]:
+                - /url: "#previous-generation-shapes__previous-generation-bm"
+            - listitem [ref=e108]:
+              - link "Previous Generation VM Shapes" [ref=e109] [cursor=pointer]:
+                - /url: "#previous-generation-shapes__previous-generation-vm"
+        - generic [ref=e113]:
+          - paragraph [ref=e114]: Was this article helpful?
+          - generic [ref=e115]:
+            - button "Yes" [ref=e116]:
+              - img "Yes" [ref=e117]
+            - button "No" [ref=e119]:
+              - img "No" [ref=e120]
+        - generic [ref=e123]: Updated 2026-05-18
+      - generic [ref=e124]:
+        - link "Skip to main content" [ref=e125] [cursor=pointer]:
+          - /url: "#dcoc-content-body"
+        - article "Compute Shapes" [ref=e128]:
+          - article "Compute Shapes" [ref=e129]:
+            - heading "Compute Shapes" [level=1] [ref=e130]
+            - generic [ref=e131]:
+              - paragraph [ref=e132]:
+                - text: A shape is a template that determines the number of
+                - strong [ref=e133]:
+                  - text: OCPUs
+                  - img [ref=e135]
+                - text: ", amount of memory, and other resources that are allocated to an instance. Compute shapes are available with AMD processors, Intel processors, and Arm-based processors."
+              - paragraph [ref=e138]:
+                - text: This topic provides basic information about the shapes that are available for bare metal instances, virtual machines (VMs), and dedicated virtual machine hosts. For information about service limits, see
+                - link "Compute Limits" [ref=e139] [cursor=pointer]:
+                  - /url: /iaas/Content/General/service-limits/default.htm#computelimits
+                - text: . For information about protecting data on NVMe devices, see
+                - link "Protecting Data on NVMe Devices" [ref=e140] [cursor=pointer]:
+                  - /url: nvmedeviceinformation.htm
+                - text: .
+              - generic [ref=e141]:
+                - img [ref=e143]
+                - strong [ref=e146]: Note
+                - list [ref=e147]:
+                  - listitem [ref=e148]:
+                    - paragraph [ref=e149]: When a new region becomes available, it might take a few weeks before host capacity also becomes available.
+                    - paragraph [ref=e150]:
+                      - text: To obtain a list of shapes available to you, run the
+                      - link "ListShapes" [ref=e151] [cursor=pointer]:
+                        - /url: /iaas/api/#/en/iaas/latest/Shape/ListShapes
+                      - text: operation.
+                  - listitem [ref=e152]:
+                    - text: If your instance uses
+                    - link "stateful security rules" [ref=e153] [cursor=pointer]:
+                      - /url: /iaas/Content/Network/Concepts/securityrules.htm#stateful
+                    - text: ", each instance has a"
+                    - link "maximum number of concurrent connections" [ref=e154] [cursor=pointer]:
+                      - /url: /iaas/Content/General/service-limits/default.htm#connection-tracking
+                    - text: that can be tracked, based on the instance's shape.
+              - generic [ref=e155]:
+                - heading "Compute Shape Pricing" [level=2] [ref=e156]
+                - paragraph [ref=e157]:
+                  - text: You can use the
+                  - link "Cost Estimator" [ref=e158] [cursor=pointer]:
+                    - /url: https://www.oracle.com/cloud/cost-estimator.html
+                  - text: to estimate your expected monthly project costs with Oracle Cloud Infrastructure. For detailed information about billing, see
+                  - link "Billing and Cost Management" [ref=e159] [cursor=pointer]:
+                    - /url: /iaas/Content/Billing/home.htm
+                  - text: and the Oracle Compute Cloud Services section of
+                  - link "Oracle PaaS and IaaS Universal Credits Service Descriptions" [ref=e160] [cursor=pointer]:
+                    - /url: https://www.oracle.com/assets/paas-iaas-universal-credits-3940775.pdf
+                  - text: .
+                - generic [ref=e161]:
+                  - term [ref=e162]: OCPUs and vCPUs
+                  - definition [ref=e163]:
+                    - paragraph [ref=e164]: Oracle measures compute resource pricing differently. The Oracle CPU (OCPU) represents physical CPU cores and is the unit of measurement for CPUs on x86 CPUs (AMD and Intel) and Arm CPUs (OCI Ampere Compute). A virtual CPU (vCPU), the industry-standard for measuring compute resources, represents one execution thread of a physical CPU core.
+                    - paragraph [ref=e165]: Most CPU architectures, including x86, runs two threads per physical core, so one OCPU is the equal of two vCPUs for x86-based compute. For OCI Compute, the minimum unit of provisioning starts from one OCPU on both X86 (Intel and AMD) and OCI Ampere Compute processors.
+                    - generic [ref=e166]:
+                      - text: "The following are the provisioning units for compute instances:"
+                      - list [ref=e167]:
+                        - listitem [ref=e168]: 1 OCPU on Arm A1 (Compute) = 1 core on Arm A1 (Compute) or 1 vCPU
+                        - listitem [ref=e169]: 1 OCPU on Arm A2 (Compute) and A4 (Compute) = 2 cores on Arm A2 (Compute) and A4 (Compute) or 2 vCPUs
+                        - listitem [ref=e170]: 1 OCPU on x86 (AMD and Intel) = 2 vCPUs
+                    - paragraph [ref=e171]:
+                      - text: For more information, see
+                      - link "Cloud Price List" [ref=e172] [cursor=pointer]:
+                        - /url: https://www.oracle.com/cloud/price-list.html#compute-vm
+                      - text: . In addition, you can read this blog post on
+                      - link "vCPU and OCPU pricing information" [ref=e173] [cursor=pointer]:
+                        - /url: https://blogs.oracle.com/cloud-infrastructure/post/vcpu-and-ocpu-pricing-information
+                      - text: .
+            - article "Flexible Shapes Copy link to this section" [ref=e174]:
+              - heading "Flexible Shapes Copy link to this section" [level=2] [ref=e175]:
+                - heading "Flexible Shapes" [level=2] [ref=e176]
+                - button "Copy link to this section" [ref=e177]: 🔗
+              - generic [ref=e178]:
+                - paragraph [ref=e179]:
+                  - text: A flexible shape is a shape that lets you customize the number of OCPUs and the amount of memory when launching or resizing your VM. When you
+                  - link "create a VM instance" [ref=e180] [cursor=pointer]:
+                    - /url: ../Tasks/launchinginstance.htm
+                  - text: using a flexible shape, you select the number of OCPUs and the amount of memory that you need for the workloads that run on the instance. The network bandwidth and number of VNICs scale proportionately with the number of OCPUs. This flexibility lets you build VMs that match your workload, enabling you to optimize performance and minimize cost.
+                - paragraph [ref=e181]: "The flexible shapes are:"
+                - list [ref=e182]:
+                  - listitem [ref=e183]: VM.Standard3.Flex (Intel)
+                  - listitem [ref=e184]: VM.Standard4.Ax.Flex (Intel)
+                  - listitem [ref=e185]: VM.Standard.E4.Flex (AMD)
+                  - listitem [ref=e186]: VM.Standard.E5.Flex (AMD)
+                  - listitem [ref=e187]: VM.Standard.E6.Flex (AMD)
+                  - listitem [ref=e188]: VM.Standard.E6.Ax.Flex (AMD)
+                  - listitem [ref=e189]: VM.Standard.A1.Flex (Altra processor from Ampere)
+                  - listitem [ref=e190]: VM.Standard.A2.Flex (AmpereOne processor from Ampere)
+                  - listitem [ref=e191]: VM.Standard.A4.Flex (AmpereOne M processor from Ampere)
+                  - listitem [ref=e192]: VM.Standard.A4.Ax.Flex (AmpereOne M processor from Ampere)
+                  - listitem [ref=e193]: VM.DenseIO.E4.Flex (AMD)
+                  - listitem [ref=e194]: VM.DenseIO.E5.Flex (AMD)
+                  - listitem [ref=e195]: VM.DenseIO.E6.Ax.Flex (AMD)
+                  - listitem [ref=e196]: VM.Optimized3.Flex (Intel)
+                - paragraph [ref=e197]: Flexible memory is also available on flexible shapes. The amount of memory allowed is based on the number of OCPUs selected.
+                - paragraph [ref=e198]:
+                  - text: For
+                  - link "standard" [ref=e199] [cursor=pointer]:
+                    - /url: computeshapes.htm#vm-standard
+                  - text: and
+                  - link "optimized" [ref=e200] [cursor=pointer]:
+                    - /url: computeshapes.htm#vm-hpc-optimized
+                  - text: flexible shapes, the ratio of memory to OCPUs depends on the shape.
+                - table [ref=e202]:
+                  - caption [ref=e203]
+                  - rowgroup [ref=e209]:
+                    - row "Shape Maximum OCPUs Minimum Memory Maximum Memory" [ref=e210]:
+                      - columnheader "Shape" [ref=e211]
+                      - columnheader "Maximum OCPUs" [ref=e212]
+                      - columnheader "Minimum Memory" [ref=e213]
+                      - columnheader "Maximum Memory" [ref=e214]
+                  - rowgroup [ref=e215]:
+                    - row "VM.Standard3.Flex 32 See Extended Memory VM Instances. 1 GB or a value matching the number of OCPUs, whichever is greater 64 GB per OCPU, up to 512 GB total See Extended Memory VM Instances." [ref=e216]:
+                      - cell "VM.Standard3.Flex" [ref=e217]
+                      - cell "32 See Extended Memory VM Instances." [ref=e218]:
+                        - text: "32"
+                        - paragraph [ref=e219]:
+                          - text: See
+                          - link "Extended Memory VM Instances" [ref=e220] [cursor=pointer]:
+                            - /url: extended-memory-vm-instances.htm
+                          - text: .
+                      - cell "1 GB or a value matching the number of OCPUs, whichever is greater" [ref=e221]
+                      - cell "64 GB per OCPU, up to 512 GB total See Extended Memory VM Instances." [ref=e222]:
+                        - text: 64 GB per OCPU, up to 512 GB total
+                        - paragraph [ref=e223]:
+                          - text: See
+                          - link "Extended Memory VM Instances" [ref=e224] [cursor=pointer]:
+                            - /url: extended-memory-vm-instances.htm
+                          - text: .
+                    - row "VM.Standard4.Ax.Flex 39 1 GB or a value matching the number of OCPUs, whichever is greater 64 GB per OCPU, up to 360 GB total" [ref=e225]:
+                      - cell "VM.Standard4.Ax.Flex" [ref=e226]
+                      - cell "39" [ref=e227]
+                      - cell "1 GB or a value matching the number of OCPUs, whichever is greater" [ref=e228]
+                      - cell "64 GB per OCPU, up to 360 GB total" [ref=e229]
+                    - row "VM.Standard.E4.Flex 64 See Extended Memory VM Instances. 1 GB or a value matching the number of OCPUs, whichever is greater 64 GB per OCPU, up to 1024 GB total See Extended Memory VM Instances." [ref=e230]:
+                      - cell "VM.Standard.E4.Flex" [ref=e231]
+                      - cell "64 See Extended Memory VM Instances." [ref=e232]:
+                        - text: "64"
+                        - paragraph [ref=e233]:
+                          - text: See
+                          - link "Extended Memory VM Instances" [ref=e234] [cursor=pointer]:
+                            - /url: extended-memory-vm-instances.htm
+                          - text: .
+                      - cell "1 GB or a value matching the number of OCPUs, whichever is greater" [ref=e235]
+                      - cell "64 GB per OCPU, up to 1024 GB total See Extended Memory VM Instances." [ref=e236]:
+                        - text: 64 GB per OCPU, up to 1024 GB total
+                        - paragraph [ref=e237]:
+                          - text: See
+                          - link "Extended Memory VM Instances" [ref=e238] [cursor=pointer]:
+                            - /url: extended-memory-vm-instances.htm
+                          - text: .
+                    - row "VM.Standard.E5.Flex 126 See Extended Memory VM Instances. 1 GB or a value matching the number of OCPUs, whichever is greater 64 GB per OCPU, up to 1024 GB total See Extended Memory VM Instances." [ref=e239]:
+                      - cell "VM.Standard.E5.Flex" [ref=e240]
+                      - cell "126 See Extended Memory VM Instances." [ref=e241]:
+                        - text: "126"
+                        - paragraph [ref=e242]:
+                          - text: See
+                          - link "Extended Memory VM Instances" [ref=e243] [cursor=pointer]:
+                            - /url: extended-memory-vm-instances.htm
+                          - text: .
+                      - cell "1 GB or a value matching the number of OCPUs, whichever is greater" [ref=e244]
+                      - cell "64 GB per OCPU, up to 1024 GB total See Extended Memory VM Instances." [ref=e245]:
+                        - text: 64 GB per OCPU, up to 1024 GB total
+                        - paragraph [ref=e246]:
+                          - text: See
+                          - link "Extended Memory VM Instances" [ref=e247] [cursor=pointer]:
+                            - /url: extended-memory-vm-instances.htm
+                          - text: .
+                    - row "VM.Standard.E6.Flex 126 1 GB or a value matching the number of OCPUs, whichever is greater 64 GB per OCPU, up to 1454 GB total" [ref=e248]:
+                      - cell "VM.Standard.E6.Flex" [ref=e249]
+                      - cell "126" [ref=e250]:
+                        - paragraph [ref=e251]: "126"
+                      - cell "1 GB or a value matching the number of OCPUs, whichever is greater" [ref=e252]
+                      - cell "64 GB per OCPU, up to 1454 GB total" [ref=e253]
+                    - row "VM.Standard.E6.Ax.Flex 94 1 GB or a value matching the number of OCPUs, whichever is greater 64 GB per OCPU, up to 712 GB total" [ref=e254]:
+                      - cell "VM.Standard.E6.Ax.Flex" [ref=e255]
+                      - cell "94" [ref=e256]
+                      - cell "1 GB or a value matching the number of OCPUs, whichever is greater" [ref=e257]
+                      - cell "64 GB per OCPU, up to 712 GB total" [ref=e258]
+                    - row "VM.Standard.A1.Flex 76 (OCPU is 1 core of an Altra processor) 1 GB or a value matching the number of OCPUs, whichever is greater 64 GB per OCPU, up to 472 GB total" [ref=e259]:
+                      - cell "VM.Standard.A1.Flex" [ref=e260]
+                      - cell "76 (OCPU is 1 core of an Altra processor)" [ref=e261]:
+                        - text: "76"
+                        - paragraph [ref=e262]: (OCPU is 1 core of an Altra processor)
+                      - cell "1 GB or a value matching the number of OCPUs, whichever is greater" [ref=e263]
+                      - cell "64 GB per OCPU, up to 472 GB total" [ref=e264]
+                    - row "VM.Standard.A2.Flex 78 (OCPU is 2 cores of an AmpereOne processor) 1 GB or a value matching the number of OCPUs, whichever is greater 64 GB per OCPU, up to 946 GB total" [ref=e265]:
+                      - cell "VM.Standard.A2.Flex" [ref=e266]
+                      - cell "78 (OCPU is 2 cores of an AmpereOne processor)" [ref=e267]:
+                        - text: "78"
+                        - paragraph [ref=e268]: (OCPU is 2 cores of an AmpereOne processor)
+                      - cell "1 GB or a value matching the number of OCPUs, whichever is greater" [ref=e269]
+                      - cell "64 GB per OCPU, up to 946 GB total" [ref=e270]
+                    - row "VM.Standard.A4.Flex 45 (OCPU is 2 cores of an AmpereOne M processor) 1 GB or a value matching the number of OCPUs, whichever is greater 64 GB per OCPU, up to 700 GB total" [ref=e271]:
+                      - cell "VM.Standard.A4.Flex" [ref=e272]
+                      - cell "45 (OCPU is 2 cores of an AmpereOne M processor)" [ref=e273]:
+                        - text: "45"
+                        - paragraph [ref=e274]: (OCPU is 2 cores of an AmpereOne M processor)
+                      - cell "1 GB or a value matching the number of OCPUs, whichever is greater" [ref=e275]
+                      - cell "64 GB per OCPU, up to 700 GB total" [ref=e276]
+                    - row "VM.Standard.A4.Ax.Flex 45 (OCPU is 2 cores of an AmpereOne M processor) 1 GB or a value matching the number of OCPUs, whichever is greater 64 GB per OCPU, up to 720 GB total" [ref=e277]:
+                      - cell "VM.Standard.A4.Ax.Flex" [ref=e278]
+                      - cell "45 (OCPU is 2 cores of an AmpereOne M processor)" [ref=e279]:
+                        - text: "45"
+                        - paragraph [ref=e280]: (OCPU is 2 cores of an AmpereOne M processor)
+                      - cell "1 GB or a value matching the number of OCPUs, whichever is greater" [ref=e281]
+                      - cell "64 GB per OCPU, up to 720 GB total" [ref=e282]
+                    - row "VM.Optimized3.Flex 18 1 GB or a value matching the number of OCPUs, whichever is greater 64 GB per OCPU, up to 256 GB total" [ref=e283]:
+                      - cell "VM.Optimized3.Flex" [ref=e284]
+                      - cell "18" [ref=e285]
+                      - cell "1 GB or a value matching the number of OCPUs, whichever is greater" [ref=e286]
+                      - cell "64 GB per OCPU, up to 256 GB total" [ref=e287]
+                - paragraph [ref=e288]:
+                  - text: For
+                  - link "dense I/O" [ref=e289] [cursor=pointer]:
+                    - /url: computeshapes.htm#vm-dense
+                  - text: "flexible shapes, the following configurations are available:"
+                - paragraph [ref=e290]:
+                  - strong [ref=e291]: VM.DenseIO.E4.Flex
+                - list [ref=e292]:
+                  - listitem [ref=e293]: 8 OCPUs, 128 GB memory
+                  - listitem [ref=e294]: 16 OCPUs, 256 GB memory
+                  - listitem [ref=e295]: 32 OCPUs, 512 GB memory
+                - paragraph [ref=e296]:
+                  - strong [ref=e297]: VM.DenseIO.E5.Flex
+                - list [ref=e298]:
+                  - listitem [ref=e299]: 8 OCPUs, 96 GB memory
+                  - listitem [ref=e300]: 16 OCPUs, 192 GB memory
+                  - listitem [ref=e301]: 24 OCPUs, 288 GB memory
+                  - listitem [ref=e302]: 32 OCPUs, 384 GB memory
+                  - listitem [ref=e303]: 40 OCPUs, 480 GB memory
+                  - listitem [ref=e304]: 48 OCPUs, 576 GB memory
+                - paragraph [ref=e305]:
+                  - strong [ref=e306]: VM.DenseIO.E6.Ax.Flex
+                - list [ref=e307]:
+                  - listitem [ref=e308]: 8 OCPUs, 96 GB memory
+                  - listitem [ref=e309]: 16 OCPUs, 192 GB memory
+                  - listitem [ref=e310]: 24 OCPUs, 288 GB memory
+                  - listitem [ref=e311]: 32 OCPUs, 384 GB memory
+                  - listitem [ref=e312]: 40 OCPUs, 480 GB memory
+                  - listitem [ref=e313]: 48 OCPUs, 576 GB memory
+                - paragraph [ref=e314]: These resources are billed at a per-second granularity with a one-minute minimum. Optimize your costs by choosing the shape that matches your workload and by changing the shape when your workload changes. For example, you can configure the VM to maximize compute processing power by choosing a low core-to-memory ratio. Or, for applications like in-memory databases or big data processing engines, configure an instance with a high core-to-memory ratio. Modify the OCPUs and memory as your workload changes, scaling up to increase performance or scaling down to reduce costs.
+              - article "Supported Images Copy link to this section" [ref=e315]:
+                - heading "Supported Images Copy link to this section" [level=3] [ref=e316]:
+                  - heading "Supported Images" [level=3] [ref=e317]
+                  - button "Copy link to this section" [ref=e318]: 🔗
+                - generic [ref=e319]:
+                  - paragraph [ref=e320]:
+                    - text: Most
+                    - link "platform images" [ref=e321] [cursor=pointer]:
+                      - /url: images.htm
+                    - text: are compatible with flexible shapes. Use a platform image that was published after the flexible shape was released (for release dates, see
+                    - link "the Compute release notes" [ref=e322] [cursor=pointer]:
+                      - /url: /iaas/releasenotes/services/compute/
+                    - text: ).
+                  - paragraph [ref=e323]:
+                    - text: Custom images are also supported, depending on the image. You must
+                    - link "add flexible shape compatibility to the custom image" [ref=e324] [cursor=pointer]:
+                      - /url: ../Tasks/managingcustomimages.htm#Managing_Custom_Images__console-custom-image-tasks
+                    - text: ", and then test the image on the flexible shape to ensure that it actually works on the shape."
+              - article "Supported Regions Copy link to this section" [ref=e325]:
+                - heading "Supported Regions Copy link to this section" [level=3] [ref=e326]:
+                  - heading "Supported Regions" [level=3] [ref=e327]
+                  - button "Copy link to this section" [ref=e328]: 🔗
+                - generic [ref=e329]:
+                  - paragraph [ref=e330]:
+                    - text: For a list of supported regions, see the
+                    - link "compute instance service limits" [ref=e331] [cursor=pointer]:
+                      - /url: /iaas/Content/General/service-limits/default.htm#Compute_Instances
+                    - text: . As host capacity becomes available in additional regions, the list is updated.
+                  - generic [ref=e332]:
+                    - img [ref=e334]
+                    - strong [ref=e337]: Note
+                    - text: Capacity might be limited for A1 shapes.
+            - article "Extended Memory VM Instances Copy link to this section" [ref=e338]:
+              - heading "Extended Memory VM Instances Copy link to this section" [level=2] [ref=e339]:
+                - heading "Extended Memory VM Instances" [level=2] [ref=e340]
+                - button "Copy link to this section" [ref=e341]: 🔗
+              - generic [ref=e342]:
+                - paragraph [ref=e343]:
+                  - link "Extended memory virtual machine (VM) instances" [ref=e344] [cursor=pointer]:
+                    - /url: extended-memory-vm-instances.htm
+                  - text: are VM instances that provide more memory and cores than available with standard shapes.
+                - generic [ref=e345]:
+                  - text: "The following shapes are available for extended memory VM instances:"
+                  - list [ref=e346]:
+                    - listitem [ref=e347]:
+                      - paragraph [ref=e348]: VM.Standard3.Flex
+                    - listitem [ref=e349]:
+                      - paragraph [ref=e350]: VM.Standard.E3.Flex
+                    - listitem [ref=e351]:
+                      - paragraph [ref=e352]: VM.Standard.E4.Flex
+                    - listitem [ref=e353]:
+                      - paragraph [ref=e354]: VM.Standard.E5.Flex
+            - article "Bare Metal Shapes Copy link to this section" [ref=e355]:
+              - heading "Bare Metal Shapes Copy link to this section" [level=2] [ref=e356]:
+                - heading "Bare Metal Shapes" [level=2] [ref=e357]
+                - button "Copy link to this section" [ref=e358]: 🔗
+              - generic [ref=e359]:
+                - paragraph [ref=e360]: "The following shapes are available for bare metal instances:"
+                - list [ref=e361]:
+                  - listitem [ref=e362]:
+                    - link "Standard Shapes" [ref=e363] [cursor=pointer]:
+                      - /url: computeshapes.htm#bm-standard
+                  - listitem [ref=e364]:
+                    - link "Dense I/O Shapes" [ref=e365] [cursor=pointer]:
+                      - /url: computeshapes.htm#bm-dense
+                  - listitem [ref=e366]:
+                    - link "GPU Shapes" [ref=e367] [cursor=pointer]:
+                      - /url: computeshapes.htm#bm-gpu
+                  - listitem [ref=e368]:
+                    - link "HPC and Optimized Shapes" [ref=e369] [cursor=pointer]:
+                      - /url: computeshapes.htm#bm-hpc-optimized
+                - paragraph [ref=e370]:
+                  - text: Network bandwidth is based on expected bandwidth for traffic within a VCN. To determine which
+                  - link "physical NICs are active for a shape" [ref=e371] [cursor=pointer]:
+                    - /url: /iaas/Content/Network/Tasks/managingVNICs.htm#overview__How
+                  - text: ", refer to the network bandwidth specifications in the following tables. If the network bandwidth is listed as \"2 x <bandwidth> Gbps,\" it means that both NIC 0 and NIC 1 are active."
+                - paragraph [ref=e372]:
+                  - text: For bare metal instances, optionally
+                  - link "configure advanced BIOS settings" [ref=e373] [cursor=pointer]:
+                    - /url: ../References/bios-settings.htm
+                  - text: ", such as disabling simultaneous multithreading, disabling cores, or optimizing the NUMA settings."
+              - article "Standard Shapes Copy link to this section" [ref=e374]:
+                - heading "Standard Shapes Copy link to this section" [level=3] [ref=e375]:
+                  - heading "Standard Shapes" [level=3] [ref=e376]
+                  - button "Copy link to this section" [ref=e377]: 🔗
+                - generic [ref=e378]:
+                  - paragraph [ref=e379]: Designed for general purpose workloads and suitable for a wide range of applications and use cases. Standard shapes provide a balance of cores, memory, and network resources. Standard shapes are available with Intel, AMD, and Arm-based processors.
+                  - paragraph [ref=e380]: "These are the bare metal standard series:"
+                  - list [ref=e381]:
+                    - listitem [ref=e382]:
+                      - strong [ref=e383]: "BM.Standard3:"
+                      - text: "X9-based standard compute. Processor: Intel Xeon Platinum 8358. Base frequency 2.6 GHz, max turbo frequency 3.4 GHz."
+                    - listitem [ref=e384]:
+                      - strong [ref=e385]: "BM.Standard4.Ax:"
+                      - text: "X12-based standard compute. Processor: Intel Xeon 6987P-C. Base frequency 2.2 GHz, max turbo frequency 3.2 GHz."
+                    - listitem [ref=e386]:
+                      - strong [ref=e387]: "BM.Standard.E4:"
+                      - text: "E4-based standard compute. Processor: AMD EPYC 7J13. Base frequency 2.55 GHz, max boost frequency 3.5 GHz."
+                    - listitem [ref=e388]:
+                      - strong [ref=e389]: "BM.Standard.E5:"
+                      - text: "E5-based standard compute. Processor: AMD EPYC 9J14. Base frequency 2.4 GHz, max boost frequency 3.7 GHz."
+                    - listitem [ref=e390]:
+                      - strong [ref=e391]: "BM.Standard.E6:"
+                      - text: "E6-based standard compute. Processor: AMD EPYC 9J45. Base frequency 2.7 GHz, max boost frequency 4.1 GHz."
+                    - listitem [ref=e392]:
+                      - strong [ref=e393]: "BM.Standard.E6.Ax:"
+                      - text: "E6-based standard compute. Processor: AMD EPYC 9J45. Base frequency 2.7 GHz, max boost frequency 4.1 GHz."
+                    - listitem [ref=e394]:
+                      - strong [ref=e395]: "BM.Standard.A1:"
+                      - text: "OCI Ampere A1 Compute Arm-based standard compute. Each OCPU corresponds to a single hardware execution thread. Processor: Ampere Altra Q80-30. Max frequency 3.0 GHz."
+                    - listitem [ref=e396]:
+                      - strong [ref=e397]: "BM.Standard.A4:"
+                      - text: "OCI Ampere A4 Compute Arm-based standard compute. Each OCPU corresponds to two hardware execution threads (2 cores). Processor: Ampere AmpereOne M A06-36M. Frequency 3.6 GHz."
+                    - listitem [ref=e398]:
+                      - strong [ref=e399]: "BM.Standard.A4.Ax:"
+                      - text: "OCI Ampere A4 Compute Arm-based standard compute. Each OCPU corresponds to two hardware execution threads (2 cores). Processor: Ampere AmpereOne M 192-36M. Frequency 3.6 GHz."
+                  - table [ref=e401]:
+                    - caption [ref=e402]
+                    - rowgroup [ref=e411]:
+                      - 'row "Shape OCPU Memory (GB) Local Disk Max Network Bandwidth Max VNICs Total: Linux Max VNICs Total: Windows" [ref=e412]':
+                        - columnheader "Shape" [ref=e413]
+                        - columnheader "OCPU" [ref=e414]
+                        - columnheader "Memory (GB)" [ref=e415]
+                        - columnheader "Local Disk" [ref=e416]
+                        - columnheader "Max Network Bandwidth" [ref=e417]
+                        - 'columnheader "Max VNICs Total: Linux" [ref=e418]'
+                        - 'columnheader "Max VNICs Total: Windows" [ref=e419]'
+                    - rowgroup [ref=e420]:
+                      - row "BM.Standard3.64 64 1024 Block storage only 2 x 50 Gbps 256 129 (1 on the first physical NIC, 128 on the second)" [ref=e421]:
+                        - rowheader "BM.Standard3.64" [ref=e422]
+                        - cell "64" [ref=e423]
+                        - cell "1024" [ref=e424]
+                        - cell "Block storage only" [ref=e425]
+                        - cell "2 x 50 Gbps" [ref=e426]
+                        - cell "256" [ref=e427]
+                        - cell "129 (1 on the first physical NIC, 128 on the second)" [ref=e428]
+                      - row "BM.Standard4.Ax.120 120 1152 Block storage only 2 x 100 Gbps 256 129 (1 on the first physical NIC, 128 on the second)" [ref=e429]:
+                        - rowheader "BM.Standard4.Ax.120" [ref=e430]
+                        - cell "120" [ref=e431]
+                        - cell "1152" [ref=e432]
+                        - cell "Block storage only" [ref=e433]
+                        - cell "2 x 100 Gbps" [ref=e434]
+                        - cell "256" [ref=e435]
+                        - cell "129 (1 on the first physical NIC, 128 on the second)" [ref=e436]
+                      - row "BM.Standard.E4.128 128 2048 Block storage only 2 x 50 Gbps 256 129 (1 on the first physical NIC, 128 on the second)" [ref=e437]:
+                        - rowheader "BM.Standard.E4.128" [ref=e438]
+                        - cell "128" [ref=e439]
+                        - cell "2048" [ref=e440]
+                        - cell "Block storage only" [ref=e441]
+                        - cell "2 x 50 Gbps" [ref=e442]
+                        - cell "256" [ref=e443]
+                        - cell "129 (1 on the first physical NIC, 128 on the second)" [ref=e444]
+                      - row "BM.Standard.E5.192 192 2304 Block storage only 1 x 100 Gbps 256 129 (1 on the first physical NIC, 128 on the second)" [ref=e445]:
+                        - rowheader "BM.Standard.E5.192" [ref=e446]
+                        - cell "192" [ref=e447]
+                        - cell "2304" [ref=e448]
+                        - cell "Block storage only" [ref=e449]
+                        - cell "1 x 100 Gbps" [ref=e450]
+                        - cell "256" [ref=e451]
+                        - cell "129 (1 on the first physical NIC, 128 on the second)" [ref=e452]
+                      - row "BM.Standard.E6.256 256 3072 2 x 960 GB NVMe Block storage 1 x 200 Gbps 256 129 (1 on the first physical NIC, 128 on the second)" [ref=e453]:
+                        - rowheader "BM.Standard.E6.256" [ref=e454]
+                        - cell "256" [ref=e455]
+                        - cell "3072" [ref=e456]
+                        - cell "2 x 960 GB NVMe Block storage" [ref=e457]:
+                          - paragraph [ref=e458]: 2 x 960 GB NVMe
+                          - paragraph [ref=e459]: Block storage
+                        - cell "1 x 200 Gbps" [ref=e460]
+                        - cell "256" [ref=e461]
+                        - cell "129 (1 on the first physical NIC, 128 on the second)" [ref=e462]
+                      - row "BM.Standard.E6.Ax.192 192 1536 2 x 960 GB NVMe Block storage 1 x 200 Gbps 256 129 (1 on the first physical NIC, 128 on the second)" [ref=e463]:
+                        - rowheader "BM.Standard.E6.Ax.192" [ref=e464]
+                        - cell "192" [ref=e465]
+                        - cell "1536" [ref=e466]
+                        - cell "2 x 960 GB NVMe Block storage" [ref=e467]:
+                          - paragraph [ref=e468]: 2 x 960 GB NVMe
+                          - paragraph [ref=e469]: Block storage
+                        - cell "1 x 200 Gbps" [ref=e470]
+                        - cell "256" [ref=e471]
+                        - cell "129 (1 on the first physical NIC, 128 on the second)" [ref=e472]
+                      - row "BM.Standard.A1.160 See Arm-Based Compute. 160 1024 Block storage only 2 x 50 Gbps 256 Windows images are not supported on this shape." [ref=e473]:
+                        - rowheader "BM.Standard.A1.160 See Arm-Based Compute." [ref=e474]:
+                          - paragraph [ref=e475]: BM.Standard.A1.160
+                          - paragraph [ref=e476]:
+                            - text: See
+                            - link "Arm-Based Compute" [ref=e477] [cursor=pointer]:
+                              - /url: arm.htm
+                            - text: .
+                        - cell "160" [ref=e478]
+                        - cell "1024" [ref=e479]
+                        - cell "Block storage only" [ref=e480]
+                        - cell "2 x 50 Gbps" [ref=e481]
+                        - cell "256" [ref=e482]
+                        - cell "Windows images are not supported on this shape." [ref=e483]
+                      - row "BM.Standard.A4.48 See Arm-Based Compute. 48 768 1 x 3.84 TB NVMe Block Storage 1 x 100 Gbps 256 Windows images are not supported on this shape." [ref=e484]:
+                        - rowheader "BM.Standard.A4.48 See Arm-Based Compute." [ref=e485]:
+                          - paragraph [ref=e486]: BM.Standard.A4.48
+                          - paragraph [ref=e487]:
+                            - text: See
+                            - link "Arm-Based Compute" [ref=e488] [cursor=pointer]:
+                              - /url: arm.htm
+                            - text: .
+                        - cell "48" [ref=e489]
+                        - cell "768" [ref=e490]
+                        - cell "1 x 3.84 TB NVMe Block Storage" [ref=e491]:
+                          - paragraph [ref=e492]: 1 x 3.84 TB NVMe
+                          - paragraph [ref=e493]: Block Storage
+                        - cell "1 x 100 Gbps" [ref=e494]
+                        - cell "256" [ref=e495]
+                        - cell "Windows images are not supported on this shape." [ref=e496]
+                      - row "BM.Standard.A4.Ax.48 See Arm-Based Compute. 48 768 1 x 3.84 TB NVMe Block Storage 1 x 100 Gbps 256 Windows images are not supported on this shape." [ref=e497]:
+                        - rowheader "BM.Standard.A4.Ax.48 See Arm-Based Compute." [ref=e498]:
+                          - paragraph [ref=e499]: BM.Standard.A4.Ax.48
+                          - paragraph [ref=e500]:
+                            - text: See
+                            - link "Arm-Based Compute" [ref=e501] [cursor=pointer]:
+                              - /url: arm.htm
+                            - text: .
+                        - cell "48" [ref=e502]
+                        - cell "768" [ref=e503]
+                        - cell "1 x 3.84 TB NVMe Block Storage" [ref=e504]:
+                          - paragraph [ref=e505]: 1 x 3.84 TB NVMe
+                          - paragraph [ref=e506]: Block Storage
+                        - cell "1 x 100 Gbps" [ref=e507]
+                        - cell "256" [ref=e508]
+                        - cell "Windows images are not supported on this shape." [ref=e509]
+                - article "C-States and Frequency Scaling Copy link to this section" [ref=e510]:
+                  - heading "C-States and Frequency Scaling Copy link to this section" [level=4] [ref=e511]:
+                    - heading "C-States and Frequency Scaling" [level=4] [ref=e512]
+                    - button "Copy link to this section" [ref=e513]: 🔗
+                  - generic [ref=e514]:
+                    - paragraph [ref=e515]: Modern CPUs transition to a power-saving state (called c-states) when the CPU is idle or underutilized. These c-states start at C0, which is the normal CPU operating mode (the CPU is 100% activated). The higher the c-state, the deeper the sleep mode into which the CPU transitions. The sleep modes work by cutting the clock signal and power from idle units inside the CPU, thereby reducing the energy use. As the CPU transitions to higher c-states (deeper sleep states), the longer it takes to wake up the units that are shut down. This is an undesirable side effect of c-states transitions, because it can slow down a demanding application.
+                    - paragraph [ref=e516]: Fortunately, the hypervisor on standard VM shapes manages this complexity for the end user by preventing transitions to deeper sleep states even when the CPU is underutilized. In addition, it disables c-states when it sees sustained high utilization. When c-states are disabled, the CPU operates in C0 state, where all cores are active at base frequency. Each processor manufacturer names the maximum frequency per core differently; for Intel the maximum frequency is named max turbo frequency, and for AMD it is called max boost frequency. This maximum frequency is realized by the respective CPU's built-in algorithms when the processor is running in C0 state under normal but sustained load.
+                    - paragraph [ref=e517]: Currently, the hypervisor does not allow the client operating system running in the instance to manage the c-states using kernel command line options. The client always shows the base frequency, even when the hypervisor is running the processor at the maximum frequency advertised by the processor.
+              - article "Dense I/O Shapes Copy link to this section" [ref=e518]:
+                - heading "Dense I/O Shapes Copy link to this section" [level=3] [ref=e519]:
+                  - heading "Dense I/O Shapes" [level=3] [ref=e520]
+                  - button "Copy link to this section" [ref=e521]: 🔗
+                - generic [ref=e522]:
+                  - paragraph [ref=e523]: Designed for large databases, big data workloads, and applications that require high-performance local storage. DenseIO shapes include locally-attached NVMe-based SSDs.
+                  - paragraph [ref=e524]: "This is the bare metal dense I/O series:"
+                  - list [ref=e525]:
+                    - listitem [ref=e526]:
+                      - strong [ref=e527]: "BM.DenseIO.E4:"
+                      - text: "E4-based dense I/O compute. Processor: AMD EPYC 7J13. Base frequency 2.55 GHz, max boost frequency 3.5 GHz."
+                    - listitem [ref=e528]:
+                      - strong [ref=e529]: "BM.DenseIO.E5:"
+                      - text: "E5-based dense I/O compute. Processor: AMD EPYC 9J14. Base frequency 2.6 GHz, max boost frequency 3.7 GHz."
+                    - listitem [ref=e530]:
+                      - strong [ref=e531]: "BM.DenseIO.E6.Ax:"
+                      - text: "E6-based dense I/O compute. Processor: AMD EPYC 9J45. Base frequency 2.7 GHz, max boost frequency 4.1 GHz."
+                  - table [ref=e533]:
+                    - caption [ref=e534]
+                    - rowgroup [ref=e543]:
+                      - 'row "Shape OCPU Memory (GB) Local Disk Max Network Bandwidth Max VNICs Total: Linux Max VNICs Total: Windows" [ref=e544]':
+                        - columnheader "Shape" [ref=e545]
+                        - columnheader "OCPU" [ref=e546]
+                        - columnheader "Memory (GB)" [ref=e547]
+                        - columnheader "Local Disk" [ref=e548]
+                        - columnheader "Max Network Bandwidth" [ref=e549]
+                        - 'columnheader "Max VNICs Total: Linux" [ref=e550]'
+                        - 'columnheader "Max VNICs Total: Windows" [ref=e551]'
+                    - rowgroup [ref=e552]:
+                      - row "BM.DenseIO.E4.128 128 2048 54.4 TB NVMe SSD Storage (8 drives) 2 x 50 Gbps 256 129 (1 on the first physical NIC, 128 on the second)" [ref=e553]:
+                        - rowheader "BM.DenseIO.E4.128" [ref=e554]
+                        - cell "128" [ref=e555]
+                        - cell "2048" [ref=e556]
+                        - cell "54.4 TB NVMe SSD Storage (8 drives)" [ref=e557]
+                        - cell "2 x 50 Gbps" [ref=e558]
+                        - cell "256" [ref=e559]
+                        - cell "129 (1 on the first physical NIC, 128 on the second)" [ref=e560]
+                      - row "BM.DenseIO.E5.1281 128 1536 81.6 TB NVMe SSD Storage (12 x 6.8 TB drives) 1 x 100Gbps 256 129 (1 on the first physical NIC, 128 on the second)" [ref=e561]:
+                        - rowheader "BM.DenseIO.E5.1281" [ref=e562]:
+                          - text: BM.DenseIO.E5.128
+                          - superscript [ref=e563]: "1"
+                        - cell "128" [ref=e564]
+                        - cell "1536" [ref=e565]
+                        - cell "81.6 TB NVMe SSD Storage (12 x 6.8 TB drives)" [ref=e566]
+                        - cell "1 x 100Gbps" [ref=e567]
+                        - cell "256" [ref=e568]
+                        - cell "129 (1 on the first physical NIC, 128 on the second)" [ref=e569]
+                      - row "BM.DenseIO.E6.Ax.1921 192 2304 81.6 TB NVMe SSD Storage (12 x 6.8 TB drives) 1 x 200Gbps 256 129 (1 on the first physical NIC, 128 on the second)" [ref=e570]:
+                        - rowheader "BM.DenseIO.E6.Ax.1921" [ref=e571]:
+                          - text: BM.DenseIO.E6.Ax.192
+                          - superscript [ref=e572]: "1"
+                        - cell "192" [ref=e573]
+                        - cell "2304" [ref=e574]
+                        - cell "81.6 TB NVMe SSD Storage (12 x 6.8 TB drives)" [ref=e575]
+                        - cell "1 x 200Gbps" [ref=e576]
+                        - cell "256" [ref=e577]
+                        - cell "129 (1 on the first physical NIC, 128 on the second)" [ref=e578]
+                  - paragraph [ref=e579]:
+                    - strong [ref=e580]: Notes
+                  - paragraph [ref=e581]:
+                    - strong [ref=e582]: "1:"
+                    - text: Please contact an
+                    - link "Oracle sales representative" [ref=e583] [cursor=pointer]:
+                      - /url: https://www.oracle.com/corporate/contact/global.html
+                    - text: for additional details.
+              - article "GPU Shapes Copy link to this section" [ref=e584]:
+                - heading "GPU Shapes Copy link to this section" [level=3] [ref=e585]:
+                  - heading "GPU Shapes" [level=3] [ref=e586]
+                  - button "Copy link to this section" [ref=e587]: 🔗
+                - generic [ref=e588]:
+                  - paragraph [ref=e589]: Designed for hardware-accelerated workloads. GPU shapes include Intel, AMD, or Arm CPUs with NVIDIA or AMD graphics processors. Some bare metal GPU shapes support cluster networking.
+                  - paragraph [ref=e590]: "These are the bare metal GPU series:"
+                  - list [ref=e591]:
+                    - listitem [ref=e592]:
+                      - paragraph [ref=e593]:
+                        - strong [ref=e594]: "BM.GPU2:"
+                        - text: X7-based GPU compute.
+                      - list [ref=e595]:
+                        - listitem [ref=e596]: "GPU: NVIDIA Tesla P100 16 GB"
+                        - listitem [ref=e597]: "CPU: Intel Xeon Platinum 8167M. Base frequency 2.0 GHz, max turbo frequency 2.4 GHz."
+                    - listitem [ref=e598]:
+                      - paragraph [ref=e599]:
+                        - strong [ref=e600]: "BM.GPU3:"
+                        - text: X7-based GPU compute.
+                      - list [ref=e601]:
+                        - listitem [ref=e602]: "GPU: NVIDIA Tesla V100 16 GB"
+                        - listitem [ref=e603]: "CPU: Intel Xeon Platinum 8167M. Base frequency 2.0 GHz, max turbo frequency 2.4 GHz."
+                    - listitem [ref=e604]:
+                      - paragraph [ref=e605]:
+                        - strong [ref=e606]: "BM.GPU4:"
+                        - text: E3-based GPU compute.
+                      - list [ref=e607]:
+                        - listitem [ref=e608]: "GPU: NVIDIA A100 40 GB"
+                        - listitem [ref=e609]: "CPU: AMD EPYC 7542. Base frequency 2.9 GHz, max boost frequency 3.4 GHz."
+                    - listitem [ref=e610]:
+                      - paragraph [ref=e611]:
+                        - strong [ref=e612]: "BM.GPU.A10:"
+                        - text: X9-based GPU compute.
+                      - list [ref=e613]:
+                        - listitem [ref=e614]: "GPU: NVIDIA A10 24 GB"
+                        - listitem [ref=e615]: "CPU: Intel Xeon Platinum 8358. Base frequency 2.6 GHz, max turbo frequency 3.4 GHz."
+                    - listitem [ref=e616]:
+                      - paragraph [ref=e617]:
+                        - strong [ref=e618]: "BM.GPU.A100:"
+                        - text: E4-based GPU compute.
+                      - list [ref=e619]:
+                        - listitem [ref=e620]: "GPU: NVIDIA A100 80 GB"
+                        - listitem [ref=e621]: "CPU: AMD EPYC 7J13. Base frequency 2.55 GHz, max boost frequency 3.7 GHz."
+                    - listitem [ref=e622]:
+                      - paragraph [ref=e623]:
+                        - strong [ref=e624]: BM.GPU.MI300X.8
+                        - text: ": X10-based GPU compute."
+                      - list [ref=e625]:
+                        - listitem [ref=e626]: "GPU: 8x MI300X 192 GB"
+                        - listitem [ref=e627]: "CPU: Intel Sapphire Rapids 8480+ 2x 56c. Base frequency 2 GHz, max boost frequency 3.8 GHz."
+                    - listitem [ref=e628]:
+                      - paragraph [ref=e629]:
+                        - strong [ref=e630]: "BM.GPU.MI355X.8:"
+                        - text: X10-based GPU compute.
+                      - list [ref=e631]:
+                        - listitem [ref=e632]: "GPU: 8x MI355X 288 GB"
+                        - listitem [ref=e633]: "CPU: 2 x 64-core AMD 5th Gen AMD EPYC™ Processors"
+                    - listitem [ref=e634]:
+                      - paragraph [ref=e635]:
+                        - strong [ref=e636]: BM.GPU.L40S.4
+                      - list [ref=e637]:
+                        - listitem [ref=e638]: "GPU: 4x L40S 48 GB"
+                        - listitem [ref=e639]: "CPU: 2 x 56-core Intel Sapphire Rapids 8480+"
+                    - listitem [ref=e640]:
+                      - paragraph [ref=e641]:
+                        - strong [ref=e642]: BM.GPU.RTXPRO.8
+                      - list [ref=e643]:
+                        - listitem [ref=e644]: "GPU: 8x NVIDIA RTX PRO 6000 Blackwell GPUs 96 GB GDDR7"
+                        - listitem [ref=e645]: "CPU: 2 x 72-core Intel Xeon 6"
+                    - listitem [ref=e646]:
+                      - paragraph [ref=e647]:
+                        - strong [ref=e648]: "BM.GPU.H100.8:"
+                        - text: X10-based GPU compute.
+                      - list [ref=e649]:
+                        - listitem [ref=e650]: "GPU: 8x H100 80 GB"
+                        - listitem [ref=e651]: "CPU: Intel Sapphire Rapids 8480+ 2x 56c. Base frequency 2 GHz, max boost frequency 3.8 GHz."
+                    - listitem [ref=e652]:
+                      - paragraph [ref=e653]:
+                        - strong [ref=e654]: BM.GPU.H200.8
+                      - list [ref=e655]:
+                        - listitem [ref=e656]: "GPU: 8x NVIDIA H200 Tensor Core GPUs 141 GB"
+                        - listitem [ref=e657]: "CPU: 2 x 56-core Intel Sapphire Rapids 8480+"
+                    - listitem [ref=e658]:
+                      - paragraph [ref=e659]:
+                        - strong [ref=e660]: BM.GPU.B200.8
+                      - list [ref=e661]:
+                        - listitem [ref=e662]: "GPU: 8x NVIDIA B200 Tensor Core GPUs 180 GB"
+                        - listitem [ref=e663]: "CPU: 2 x 64-core Intel Emerald Rapids 8592+"
+                    - listitem [ref=e664]:
+                      - paragraph [ref=e665]:
+                        - strong [ref=e666]: BM.GPU.B300.8
+                      - list [ref=e667]:
+                        - listitem [ref=e668]: "GPU: 8x NVIDIA B300 Tensor Core GPUs 263 GB"
+                        - listitem [ref=e669]: "CPU: 2 x 64-core Intel Emerald Rapids 8592+"
+                    - listitem [ref=e670]:
+                      - paragraph [ref=e671]:
+                        - strong [ref=e672]: BM.GPU.GB200.4
+                      - list [ref=e673]:
+                        - listitem [ref=e674]: "GPU: 4 x NVIDIA Blackwell B200 192 GB"
+                        - listitem [ref=e675]: "CPU: 2 x 72-core NVIDIA Grace"
+                    - listitem [ref=e676]:
+                      - paragraph [ref=e677]:
+                        - strong [ref=e678]: BM.GPU.GB300.4
+                      - list [ref=e679]:
+                        - listitem [ref=e680]: "GPU: 4 x NVIDIA Blackwell B300 278 GB"
+                        - listitem [ref=e681]: "CPU: 2 x 72-core NVIDIA Grace"
+                  - table [ref=e683]:
+                    - caption [ref=e684]
+                    - rowgroup [ref=e694]:
+                      - 'row "Shape OCPU GPU Memory (GB) CPU Memory (GB) Local Disk Max Network Bandwidth Max VNICs Total: Linux Max VNICs Total: Windows" [ref=e695]':
+                        - columnheader "Shape" [ref=e696]
+                        - columnheader "OCPU" [ref=e697]
+                        - columnheader "GPU Memory (GB)" [ref=e698]
+                        - columnheader "CPU Memory (GB)" [ref=e699]
+                        - columnheader "Local Disk" [ref=e700]
+                        - columnheader "Max Network Bandwidth" [ref=e701]
+                        - 'columnheader "Max VNICs Total: Linux" [ref=e702]'
+                        - 'columnheader "Max VNICs Total: Windows" [ref=e703]'
+                    - rowgroup [ref=e704]:
+                      - 'row "BM.GPU2.2 (GPU: 2xP100) 28 32 192 Block storage only 2 x 25 Gbps 28 15 (1 on the first physical NIC, 14 on the second)" [ref=e705]':
+                        - 'rowheader "BM.GPU2.2 (GPU: 2xP100)" [ref=e706]':
+                          - paragraph [ref=e707]: BM.GPU2.2
+                          - paragraph [ref=e708]: "(GPU: 2xP100)"
+                        - cell "28" [ref=e709]
+                        - cell "32" [ref=e710]
+                        - cell "192" [ref=e711]
+                        - cell "Block storage only" [ref=e712]
+                        - cell "2 x 25 Gbps" [ref=e713]
+                        - cell "28" [ref=e714]
+                        - cell "15 (1 on the first physical NIC, 14 on the second)" [ref=e715]
+                      - 'row "BM.GPU3.8 (GPU: 8xV100) 52 128 768 Block storage only 2 x 25 Gbps 52 27 (1 on the first physical NIC, 26 on the second)" [ref=e716]':
+                        - 'rowheader "BM.GPU3.8 (GPU: 8xV100)" [ref=e717]':
+                          - paragraph [ref=e718]: BM.GPU3.8
+                          - paragraph [ref=e719]: "(GPU: 8xV100)"
+                        - cell "52" [ref=e720]
+                        - cell "128" [ref=e721]
+                        - cell "768" [ref=e722]
+                        - cell "Block storage only" [ref=e723]
+                        - cell "2 x 25 Gbps" [ref=e724]
+                        - cell "52" [ref=e725]
+                        - cell "27 (1 on the first physical NIC, 26 on the second)" [ref=e726]
+                      - 'row "BM.GPU4.8 (GPU: 8xA100) 64 320 2048 27.2 TB NVMe SSD (4 drives) 1 x 50 Gbps 8 x 200 Gbps RDMA 64 Windows images are not supported on this shape." [ref=e727]':
+                        - 'rowheader "BM.GPU4.8 (GPU: 8xA100)" [ref=e728]':
+                          - paragraph [ref=e729]: BM.GPU4.8
+                          - paragraph [ref=e730]: "(GPU: 8xA100)"
+                        - cell "64" [ref=e731]
+                        - cell "320" [ref=e732]
+                        - cell "2048" [ref=e733]
+                        - cell "27.2 TB NVMe SSD (4 drives)" [ref=e734]
+                        - cell "1 x 50 Gbps 8 x 200 Gbps RDMA" [ref=e735]:
+                          - paragraph [ref=e736]: 1 x 50 Gbps
+                          - paragraph [ref=e737]: 8 x 200 Gbps RDMA
+                        - cell "64" [ref=e738]
+                        - cell "Windows images are not supported on this shape." [ref=e739]
+                      - 'row "BM.GPU.A10.4 (GPU: 4xA10) 64 96 1024 7.68 TB NVMe SSD (2 drives) 2 x 50 Gbps 256 Windows images are not supported on this shape." [ref=e740]':
+                        - 'rowheader "BM.GPU.A10.4 (GPU: 4xA10)" [ref=e741]':
+                          - paragraph [ref=e742]: BM.GPU.A10.4
+                          - paragraph [ref=e743]: "(GPU: 4xA10)"
+                        - cell "64" [ref=e744]
+                        - cell "96" [ref=e745]
+                        - cell "1024" [ref=e746]
+                        - cell "7.68 TB NVMe SSD (2 drives)" [ref=e747]
+                        - cell "2 x 50 Gbps" [ref=e748]
+                        - cell "256" [ref=e749]
+                        - cell "Windows images are not supported on this shape." [ref=e750]
+                      - 'row "BM.GPU.A100-v2.8 (GPU: 8xA100) 128 640 2048 27.2 TB NVMe SSD (4 drives) 2 x 50 Gbps 16 x 100 Gbps RDMA 256 Windows images are not supported on this shape." [ref=e751]':
+                        - 'rowheader "BM.GPU.A100-v2.8 (GPU: 8xA100)" [ref=e752]':
+                          - paragraph [ref=e753]: BM.GPU.A100-v2.8
+                          - paragraph [ref=e754]: "(GPU: 8xA100)"
+                        - cell "128" [ref=e755]
+                        - cell "640" [ref=e756]
+                        - cell "2048" [ref=e757]
+                        - cell "27.2 TB NVMe SSD (4 drives)" [ref=e758]
+                        - cell "2 x 50 Gbps 16 x 100 Gbps RDMA" [ref=e759]:
+                          - paragraph [ref=e760]: 2 x 50 Gbps
+                          - paragraph [ref=e761]: 16 x 100 Gbps RDMA
+                        - cell "256" [ref=e762]
+                        - cell "Windows images are not supported on this shape." [ref=e763]
+                      - row "BM.GPU.MI300X.8 112 1536 2048 8 x 3.84 TB NVMe 1 x 100 Gbps 8 x 1 x 400 Gbps RDMA 256 Windows images are not supported on this shape." [ref=e764]:
+                        - rowheader "BM.GPU.MI300X.8" [ref=e765]:
+                          - paragraph [ref=e766]: BM.GPU.MI300X.8
+                        - cell "112" [ref=e767]
+                        - cell "1536" [ref=e768]
+                        - cell "2048" [ref=e769]
+                        - cell "8 x 3.84 TB NVMe" [ref=e770]
+                        - cell "1 x 100 Gbps 8 x 1 x 400 Gbps RDMA" [ref=e771]:
+                          - paragraph [ref=e772]: 1 x 100 Gbps
+                          - paragraph [ref=e773]: 8 x 1 x 400 Gbps RDMA
+                        - cell "256" [ref=e774]
+                        - cell "Windows images are not supported on this shape." [ref=e775]
+                      - row "BM.GPU.MI355X.8 128 288 3072 8 x 7.68 TB NVMe 2 x 200 Gbps 8 x 400 Gbps RDMA 256 Windows images are not supported on this shape." [ref=e776]:
+                        - rowheader "BM.GPU.MI355X.8" [ref=e777]:
+                          - paragraph [ref=e778]: BM.GPU.MI355X.8
+                        - cell "128" [ref=e779]
+                        - cell "288" [ref=e780]
+                        - cell "3072" [ref=e781]
+                        - cell "8 x 7.68 TB NVMe" [ref=e782]
+                        - cell "2 x 200 Gbps 8 x 400 Gbps RDMA" [ref=e783]:
+                          - paragraph [ref=e784]: 2 x 200 Gbps
+                          - paragraph [ref=e785]: 8 x 400 Gbps RDMA
+                        - cell "256" [ref=e786]
+                        - cell "Windows images are not supported on this shape." [ref=e787]
+                      - row "BM.GPU.L40S.4 112 192 1024 2 x 3.84 TB NVMe 1 x 200 Gbps 800 Gbps RDMA 256 Windows images are not supported on this shape." [ref=e788]:
+                        - rowheader "BM.GPU.L40S.4" [ref=e789]:
+                          - paragraph [ref=e790]: BM.GPU.L40S.4
+                        - cell "112" [ref=e791]
+                        - cell "192" [ref=e792]
+                        - cell "1024" [ref=e793]
+                        - cell "2 x 3.84 TB NVMe" [ref=e794]
+                        - cell "1 x 200 Gbps 800 Gbps RDMA" [ref=e795]:
+                          - paragraph [ref=e796]: 1 x 200 Gbps
+                          - paragraph [ref=e797]: 800 Gbps RDMA
+                        - cell "256" [ref=e798]
+                        - cell "Windows images are not supported on this shape." [ref=e799]
+                      - row "BM.GPU.RTXPRO.8 144 8 x 96 GB 3072 8 x 7.68 TB NVMe 2 x 200 Gbps 8 x 400 Gbps RDMA 256 Windows images are not supported on this shape." [ref=e800]:
+                        - rowheader "BM.GPU.RTXPRO.8" [ref=e801]
+                        - cell "144" [ref=e802]
+                        - cell "8 x 96 GB" [ref=e803]
+                        - cell "3072" [ref=e804]
+                        - cell "8 x 7.68 TB NVMe" [ref=e805]
+                        - cell "2 x 200 Gbps 8 x 400 Gbps RDMA" [ref=e806]:
+                          - paragraph [ref=e807]: 2 x 200 Gbps
+                          - paragraph [ref=e808]: 8 x 400 Gbps RDMA
+                        - cell "256" [ref=e809]
+                        - cell "Windows images are not supported on this shape." [ref=e810]
+                      - 'row "BM.GPU.H100.8 (GPU: 8xH100) 112 640 2048 16 x 3.84 TB NVMe 1 x 100 Gbps 8 x 2 x 200 Gbps RDMA 256 Windows images are not supported on this shape." [ref=e811]':
+                        - 'rowheader "BM.GPU.H100.8 (GPU: 8xH100)" [ref=e812]':
+                          - paragraph [ref=e813]: BM.GPU.H100.8
+                          - paragraph [ref=e814]: "(GPU: 8xH100)"
+                        - cell "112" [ref=e815]
+                        - cell "640" [ref=e816]
+                        - cell "2048" [ref=e817]
+                        - cell "16 x 3.84 TB NVMe" [ref=e818]
+                        - cell "1 x 100 Gbps 8 x 2 x 200 Gbps RDMA" [ref=e819]:
+                          - paragraph [ref=e820]: 1 x 100 Gbps
+                          - paragraph [ref=e821]: 8 x 2 x 200 Gbps RDMA
+                        - cell "256" [ref=e822]
+                        - cell "Windows images are not supported on this shape." [ref=e823]
+                      - 'row "BM.GPU.H200.8 (GPU: 8xH200) 112 1128 3072 8 x 3.84 TB NVMe 1 x 200 Gbps 8 x 400 Gbps RDMA 256 Windows images are not supported on this shape." [ref=e824]':
+                        - 'rowheader "BM.GPU.H200.8 (GPU: 8xH200)" [ref=e825]':
+                          - paragraph [ref=e826]: BM.GPU.H200.8
+                          - paragraph [ref=e827]: "(GPU: 8xH200)"
+                        - cell "112" [ref=e828]
+                        - cell "1128" [ref=e829]
+                        - cell "3072" [ref=e830]
+                        - cell "8 x 3.84 TB NVMe" [ref=e831]
+                        - cell "1 x 200 Gbps 8 x 400 Gbps RDMA" [ref=e832]:
+                          - paragraph [ref=e833]: 1 x 200 Gbps
+                          - paragraph [ref=e834]: 8 x 400 Gbps RDMA
+                        - cell "256" [ref=e835]
+                        - cell "Windows images are not supported on this shape." [ref=e836]
+                      - 'row "BM.GPU.B200.8 (GPU: 8xB200) 128 1440 4096 8 x 3.84 TB NVMe 2 x 200 Gbps 8 x 400 Gbps RDMA 256 Windows images are not supported on this shape." [ref=e837]':
+                        - 'rowheader "BM.GPU.B200.8 (GPU: 8xB200)" [ref=e838]':
+                          - paragraph [ref=e839]: BM.GPU.B200.8
+                          - paragraph [ref=e840]: "(GPU: 8xB200)"
+                        - cell "128" [ref=e841]
+                        - cell "1440" [ref=e842]
+                        - cell "4096" [ref=e843]
+                        - cell "8 x 3.84 TB NVMe" [ref=e844]
+                        - cell "2 x 200 Gbps 8 x 400 Gbps RDMA" [ref=e845]:
+                          - paragraph [ref=e846]: 2 x 200 Gbps
+                          - paragraph [ref=e847]: 8 x 400 Gbps RDMA
+                        - cell "256" [ref=e848]
+                        - cell "Windows images are not supported on this shape." [ref=e849]
+                      - row "BM.GPU.B300.8 128 2100 4096 8 x 3.84 TB NVMe 2 x 200 Gbps 8 x 800 Gbps RDMA 256 Windows images are not supported on this shape." [ref=e850]:
+                        - rowheader "BM.GPU.B300.8" [ref=e851]
+                        - cell "128" [ref=e852]
+                        - cell "2100" [ref=e853]
+                        - cell "4096" [ref=e854]
+                        - cell "8 x 3.84 TB NVMe" [ref=e855]
+                        - cell "2 x 200 Gbps 8 x 800 Gbps RDMA" [ref=e856]:
+                          - paragraph [ref=e857]: 2 x 200 Gbps
+                          - paragraph [ref=e858]: 8 x 800 Gbps RDMA
+                        - cell "256" [ref=e859]
+                        - cell "Windows images are not supported on this shape." [ref=e860]
+                      - 'row "BM.GPU.GB200.4 (GPU: 4xB200) 144 768 960 4 x 7.68 TB NVMe 2 x 200 Gbps 4 x 400 Gbps RDMA 512 Windows images are not supported on this shape." [ref=e861]':
+                        - 'rowheader "BM.GPU.GB200.4 (GPU: 4xB200)" [ref=e862]':
+                          - paragraph [ref=e863]: BM.GPU.GB200.4
+                          - paragraph [ref=e864]: "(GPU: 4xB200)"
+                        - cell "144" [ref=e865]
+                        - cell "768" [ref=e866]
+                        - cell "960" [ref=e867]
+                        - cell "4 x 7.68 TB NVMe" [ref=e868]
+                        - cell "2 x 200 Gbps 4 x 400 Gbps RDMA" [ref=e869]:
+                          - paragraph [ref=e870]: 2 x 200 Gbps
+                          - paragraph [ref=e871]: 4 x 400 Gbps RDMA
+                        - cell "512" [ref=e872]
+                        - cell "Windows images are not supported on this shape." [ref=e873]
+                      - 'row "BM.GPU.GB300.4 (GPU: 4xB300) 144 1112 960 4 x 7.68 TB NVMe 2 x 200 Gbps 8 x 400 Gbps RDMA 512 Windows images are not supported on this shape." [ref=e874]':
+                        - 'rowheader "BM.GPU.GB300.4 (GPU: 4xB300)" [ref=e875]':
+                          - paragraph [ref=e876]: BM.GPU.GB300.4
+                          - paragraph [ref=e877]: "(GPU: 4xB300)"
+                        - cell "144" [ref=e878]
+                        - cell "1112" [ref=e879]
+                        - cell "960" [ref=e880]
+                        - cell "4 x 7.68 TB NVMe" [ref=e881]
+                        - cell "2 x 200 Gbps 8 x 400 Gbps RDMA" [ref=e882]:
+                          - paragraph [ref=e883]: 2 x 200 Gbps
+                          - paragraph [ref=e884]: 8 x 400 Gbps RDMA
+                        - cell "512" [ref=e885]
+                        - cell "Windows images are not supported on this shape." [ref=e886]
+              - article "HPC and Optimized Shapes Copy link to this section" [ref=e887]:
+                - heading "HPC and Optimized Shapes Copy link to this section" [level=3] [ref=e888]:
+                  - heading "HPC and Optimized Shapes" [level=3] [ref=e889]
+                  - button "Copy link to this section" [ref=e890]: 🔗
+                - generic [ref=e891]:
+                  - paragraph [ref=e892]: Designed for high-performance computing workloads that require high frequency processor cores. Bare metal HPC and optimized shapes support cluster networking.
+                  - paragraph [ref=e893]: "This is the bare metal optimized series:"
+                  - list [ref=e894]:
+                    - listitem [ref=e895]:
+                      - strong [ref=e896]: "BM.Optimized3:"
+                      - text: "Processor: Intel Xeon 6354. Base frequency 3.0 GHz, max turbo frequency 3.6 GHz."
+                    - listitem [ref=e897]:
+                      - strong [ref=e898]: "BM.HPC.E5:"
+                      - text: "Processor: AMD EPYC 9J14. Base frequency 2.4 GHz, max boost frequency 3.7 GHz."
+                  - table [ref=e900]:
+                    - caption [ref=e901]
+                    - rowgroup [ref=e910]:
+                      - 'row "Shape OCPU Memory (GB) Local Disk Max Network Bandwidth Max VNICs Total: Linux Max VNICs Total: Windows" [ref=e911]':
+                        - columnheader "Shape" [ref=e912]
+                        - columnheader "OCPU" [ref=e913]
+                        - columnheader "Memory (GB)" [ref=e914]
+                        - columnheader "Local Disk" [ref=e915]
+                        - columnheader "Max Network Bandwidth" [ref=e916]
+                        - 'columnheader "Max VNICs Total: Linux" [ref=e917]'
+                        - 'columnheader "Max VNICs Total: Windows" [ref=e918]'
+                    - rowgroup [ref=e919]:
+                      - row "BM.Optimized3.36 36 512 3.84 TB NVMe SSD (1 drive) 2 X 50 Gbps 1 X 100 Gbps RDMA 256 129" [ref=e920]:
+                        - rowheader "BM.Optimized3.36" [ref=e921]
+                        - cell "36" [ref=e922]
+                        - cell "512" [ref=e923]
+                        - cell "3.84 TB NVMe SSD (1 drive)" [ref=e924]
+                        - cell "2 X 50 Gbps 1 X 100 Gbps RDMA" [ref=e925]:
+                          - paragraph [ref=e926]: 2 X 50 Gbps
+                          - paragraph [ref=e927]: 1 X 100 Gbps RDMA
+                        - cell "256" [ref=e928]
+                        - cell "129" [ref=e929]
+                      - row "BM.HPC.E5.1441 144 768 3.84 TB NVMe SSD (1 drive) 1 x 100Gbps 1 x 100Gbps RDMA 256 129 (1 on the first physical NIC, 128 on the second)" [ref=e930]:
+                        - rowheader "BM.HPC.E5.1441" [ref=e931]:
+                          - text: BM.HPC.E5.144
+                          - superscript [ref=e932]: "1"
+                        - cell "144" [ref=e933]
+                        - cell "768" [ref=e934]
+                        - cell "3.84 TB NVMe SSD (1 drive)" [ref=e935]
+                        - cell "1 x 100Gbps 1 x 100Gbps RDMA" [ref=e936]:
+                          - text: 1 x 100Gbps
+                          - paragraph [ref=e937]: 1 x 100Gbps RDMA
+                        - cell "256" [ref=e938]
+                        - cell "129 (1 on the first physical NIC, 128 on the second)" [ref=e939]
+                  - paragraph [ref=e940]:
+                    - strong [ref=e941]: Notes
+                  - paragraph [ref=e942]:
+                    - strong [ref=e943]: "1:"
+                    - text: Please contact an
+                    - link "Oracle sales representative" [ref=e944] [cursor=pointer]:
+                      - /url: https://www.oracle.com/corporate/contact/global.html
+                    - text: for additional details.
+            - article "Virtual Machine (VM) Shapes Copy link to this section" [ref=e945]:
+              - heading "Virtual Machine (VM) Shapes Copy link to this section" [level=2] [ref=e946]:
+                - heading "Virtual Machine (VM) Shapes" [level=2] [ref=e947]
+                - button "Copy link to this section" [ref=e948]: 🔗
+              - generic [ref=e949]:
+                - paragraph [ref=e950]: "The following shapes are available for VMs:"
+                - list [ref=e951]:
+                  - listitem [ref=e952]:
+                    - link "Standard Shapes" [ref=e953] [cursor=pointer]:
+                      - /url: computeshapes.htm#vm-standard
+                  - listitem [ref=e954]:
+                    - link "Dense I/O Shapes" [ref=e955] [cursor=pointer]:
+                      - /url: computeshapes.htm#vm-dense
+                  - listitem [ref=e956]:
+                    - link "GPU Shapes" [ref=e957] [cursor=pointer]:
+                      - /url: computeshapes.htm#vm-gpu
+                  - listitem [ref=e958]:
+                    - link "HPC and Optimized Shapes" [ref=e959] [cursor=pointer]:
+                      - /url: computeshapes.htm#vm-hpc-optimized
+                - paragraph [ref=e960]: Network bandwidth is based on expected bandwidth for traffic within a VCN.
+              - article "Standard Shapes Copy link to this section" [ref=e961]:
+                - heading "Standard Shapes Copy link to this section" [level=3] [ref=e962]:
+                  - heading "Standard Shapes" [level=3] [ref=e963]
+                  - button "Copy link to this section" [ref=e964]: 🔗
+                - generic [ref=e965]:
+                  - paragraph [ref=e966]: Designed for general purpose workloads and suitable for a wide range of applications and use cases. Standard shapes provide a balance of cores, memory, and network resources. Standard shapes are available with Intel, AMD, and Arm-based processors.
+                  - paragraph [ref=e967]: "These are the VM standard series:"
+                  - list [ref=e968]:
+                    - listitem [ref=e969]:
+                      - strong [ref=e970]: "VM.Standard3:"
+                      - text: "X9-based standard compute. Processor: Intel Xeon Platinum 8358. Base frequency 2.6 GHz, max turbo frequency 3.4 GHz."
+                    - listitem [ref=e971]:
+                      - strong [ref=e972]: "VM.Standard4.Ax:"
+                      - text: "X12-based standard compute. Processor: Intel Xeon 6987P-C. Base frequency 2.2 GHz, max turbo frequency 3.2 GHz."
+                    - listitem [ref=e973]:
+                      - paragraph [ref=e974]:
+                        - strong [ref=e975]: "VM.Standard.E2.1.Micro:"
+                        - text: "E2-based, E3-based, or E4-based standard compute. Oracle Cloud Infrastructure assigns one of the following processors:"
+                      - list [ref=e976]:
+                        - listitem [ref=e977]: AMD EPYC 7551. Base frequency 2.0 GHz, max boost frequency 3.0 GHz.
+                        - listitem [ref=e978]: AMD EPYC 7742. Base frequency 2.25 GHz, max boost frequency 3.4 GHz.
+                        - listitem [ref=e979]: AMD EPYC 7J13. Base frequency 2.55 GHz, max boost frequency 3.5 GHz.
+                    - listitem [ref=e980]:
+                      - strong [ref=e981]: "VM.Standard.E4:"
+                      - text: "E4-based standard compute. Processor: AMD EPYC 7J13. Base frequency 2.55 GHz, max boost frequency 3.5 GHz."
+                    - listitem [ref=e982]:
+                      - strong [ref=e983]: "VM.Standard.E5:"
+                      - text: "E5-based standard compute. Processor: AMD EPYC 9J14. Base frequency 2.4 GHz, max boost frequency 3.7 GHz."
+                    - listitem [ref=e984]:
+                      - strong [ref=e985]: "VM.Standard.E6:"
+                      - text: "E6-based standard compute. Processor: AMD EPYC 9J45. Base frequency 2.7 GHz, max boost frequency 4.1 GHz."
+                    - listitem [ref=e986]:
+                      - strong [ref=e987]: "VM.Standard.E6.Ax:"
+                      - text: "E6-based standard compute. Processor: AMD EPYC 9J45. Base frequency 2.7 GHz, max boost frequency 4.1 GHz."
+                    - listitem [ref=e988]:
+                      - strong [ref=e989]: "VM.Standard.A1:"
+                      - text: "OCI Ampere A1 Compute Arm-based standard compute. Each OCPU corresponds to a single hardware execution thread. Processor: Ampere Altra Q80-30. Max frequency 3.0 GHz."
+                    - listitem [ref=e990]:
+                      - strong [ref=e991]: "VM.Standard.A2:"
+                      - text: "OCI Ampere A2 Compute Arm-based standard compute. Each OCPU corresponds to two hardware execution threads (2 cores). Processor: Ampere AmpereOne A160-30. Max frequency 3.0 GHz."
+                    - listitem [ref=e992]:
+                      - strong [ref=e993]: "VM.Standard.A4:"
+                      - text: "OCI Ampere A4 Compute Arm-based standard compute. Each OCPU corresponds to two hardware execution threads (2 cores). Processor: Ampere AmpereOne M A06-36M. Frequency 3.6 GHz."
+                    - listitem [ref=e994]:
+                      - strong [ref=e995]: "VM.Standard.A4.Ax:"
+                      - text: "OCI Ampere A4 Compute Arm-based standard compute. Each OCPU corresponds to two hardware execution threads (2 cores). Processor: Ampere AmpereOne M 192-36M. Frequency 3.6 GHz."
+                  - table [ref=e997]:
+                    - caption [ref=e998]
+                    - rowgroup [ref=e1007]:
+                      - 'row "Shape OCPU Memory (GB) Local Disk (TB) Max Network Bandwidth Max VNICs Total: Linux Max VNICs Total: Windows" [ref=e1008]':
+                        - columnheader "Shape" [ref=e1009]
+                        - columnheader "OCPU" [ref=e1010]
+                        - columnheader "Memory (GB)" [ref=e1011]
+                        - columnheader "Local Disk (TB)" [ref=e1012]
+                        - columnheader "Max Network Bandwidth" [ref=e1013]
+                        - 'columnheader "Max VNICs Total: Linux" [ref=e1014]'
+                        - 'columnheader "Max VNICs Total: Windows" [ref=e1015]'
+                    - rowgroup [ref=e1016]:
+                      - 'row "VM.Standard3.Flex See Flexible Shapes and Burstable Instances. 1 minimum, 32 OCPU maximum See Extended Memory VM Instances. 1 GB minimum, 512 GB maximum See Extended Memory VM Instances. Block storage only 1 Gbps per OCPU, maximum 32 Gbps VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs. VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1017]':
+                        - rowheader "VM.Standard3.Flex See Flexible Shapes and Burstable Instances." [ref=e1018]:
+                          - paragraph [ref=e1019]: VM.Standard3.Flex
+                          - paragraph [ref=e1020]:
+                            - text: See
+                            - link "Flexible Shapes" [ref=e1021] [cursor=pointer]:
+                              - /url: computeshapes.htm#flexible
+                            - text: and
+                            - link "Burstable Instances" [ref=e1022] [cursor=pointer]:
+                              - /url: burstable-instances.htm
+                            - text: .
+                        - cell "1 minimum, 32 OCPU maximum See Extended Memory VM Instances." [ref=e1023]:
+                          - text: 1 minimum, 32 OCPU maximum
+                          - paragraph [ref=e1024]:
+                            - text: See
+                            - link "Extended Memory VM Instances" [ref=e1025] [cursor=pointer]:
+                              - /url: extended-memory-vm-instances.htm
+                            - text: .
+                        - cell "1 GB minimum, 512 GB maximum See Extended Memory VM Instances." [ref=e1026]:
+                          - text: 1 GB minimum, 512 GB maximum
+                          - paragraph [ref=e1027]:
+                            - text: See
+                            - link "Extended Memory VM Instances" [ref=e1028] [cursor=pointer]:
+                              - /url: extended-memory-vm-instances.htm
+                            - text: .
+                        - cell "Block storage only" [ref=e1029]
+                        - cell "1 Gbps per OCPU, maximum 32 Gbps" [ref=e1030]
+                        - 'cell "VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1031]':
+                          - generic [ref=e1032]:
+                            - paragraph [ref=e1033]: "VM with 1 OCPU: 2 VNICs."
+                            - paragraph [ref=e1034]: "VM with 2 or more OCPUs: 1 VNIC per OCPU."
+                            - paragraph [ref=e1035]: Maximum 24 VNICs.
+                        - 'cell "VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1036]':
+                          - generic [ref=e1037]:
+                            - paragraph [ref=e1038]: "VM with 1 OCPU: 2 VNICs."
+                            - paragraph [ref=e1039]: "VM with 2 or more OCPUs: 1 VNIC per OCPU."
+                            - paragraph [ref=e1040]: Maximum 24 VNICs.
+                      - 'row "VM.Standard4.Ax.Flex See Flexible Shapes. 1 minimum, 39 OCPU maximum 1 GB minimum, 360 GB maximum Block storage only 1 Gbps per OCPU, maximum 99 Gbps VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs. VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1041]':
+                        - rowheader "VM.Standard4.Ax.Flex See Flexible Shapes." [ref=e1042]:
+                          - paragraph [ref=e1043]: VM.Standard4.Ax.Flex
+                          - paragraph [ref=e1044]:
+                            - text: See
+                            - link "Flexible Shapes" [ref=e1045] [cursor=pointer]:
+                              - /url: computeshapes.htm#flexible
+                            - text: .
+                        - cell "1 minimum, 39 OCPU maximum" [ref=e1046]
+                        - cell "1 GB minimum, 360 GB maximum" [ref=e1047]
+                        - cell "Block storage only" [ref=e1048]
+                        - cell "1 Gbps per OCPU, maximum 99 Gbps" [ref=e1049]
+                        - 'cell "VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1050]':
+                          - generic [ref=e1051]:
+                            - paragraph [ref=e1052]: "VM with 1 OCPU: 2 VNICs."
+                            - paragraph [ref=e1053]: "VM with 2 or more OCPUs: 1 VNIC per OCPU."
+                            - paragraph [ref=e1054]: Maximum 24 VNICs.
+                        - 'cell "VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1055]':
+                          - generic [ref=e1056]:
+                            - paragraph [ref=e1057]: "VM with 1 OCPU: 2 VNICs."
+                            - paragraph [ref=e1058]: "VM with 2 or more OCPUs: 1 VNIC per OCPU."
+                            - paragraph [ref=e1059]: Maximum 24 VNICs.
+                      - row "VM.Standard.E2.1.Micro 1 See Always Free Resources. 1 Block storage only 480 Mbps 1 -" [ref=e1060]:
+                        - rowheader "VM.Standard.E2.1.Micro" [ref=e1061]
+                        - cell "1 See Always Free Resources." [ref=e1062]:
+                          - paragraph [ref=e1063]: "1"
+                          - paragraph [ref=e1064]:
+                            - text: See
+                            - link "Always Free Resources" [ref=e1065] [cursor=pointer]:
+                              - /url: /iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm
+                            - text: .
+                        - cell "1" [ref=e1066]
+                        - cell "Block storage only" [ref=e1067]
+                        - cell "480 Mbps" [ref=e1068]
+                        - cell "1" [ref=e1069]
+                        - cell "-" [ref=e1070]
+                      - 'row "VM.Standard.E4.Flex See Flexible Shapes and Burstable Instances. 1 OCPU minimum, 64 OCPU maximum See Extended Memory VM Instances. 1 GB minimum, 1024 GB maximum See Extended Memory VM Instances. Block storage only 1 Gbps per OCPU, maximum 40 Gbps VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs. VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1071]':
+                        - rowheader "VM.Standard.E4.Flex See Flexible Shapes and Burstable Instances." [ref=e1072]:
+                          - paragraph [ref=e1073]: VM.Standard.E4.Flex
+                          - paragraph [ref=e1074]:
+                            - text: See
+                            - link "Flexible Shapes" [ref=e1075] [cursor=pointer]:
+                              - /url: computeshapes.htm#flexible
+                            - text: and
+                            - link "Burstable Instances" [ref=e1076] [cursor=pointer]:
+                              - /url: burstable-instances.htm
+                            - text: .
+                        - cell "1 OCPU minimum, 64 OCPU maximum See Extended Memory VM Instances." [ref=e1077]:
+                          - text: 1 OCPU minimum, 64 OCPU maximum
+                          - paragraph [ref=e1078]:
+                            - text: See
+                            - link "Extended Memory VM Instances" [ref=e1079] [cursor=pointer]:
+                              - /url: extended-memory-vm-instances.htm
+                            - text: .
+                        - cell "1 GB minimum, 1024 GB maximum See Extended Memory VM Instances." [ref=e1080]:
+                          - text: 1 GB minimum, 1024 GB maximum
+                          - paragraph [ref=e1081]:
+                            - text: See
+                            - link "Extended Memory VM Instances" [ref=e1082] [cursor=pointer]:
+                              - /url: extended-memory-vm-instances.htm
+                            - text: .
+                        - cell "Block storage only" [ref=e1083]
+                        - cell "1 Gbps per OCPU, maximum 40 Gbps" [ref=e1084]
+                        - 'cell "VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1085]':
+                          - generic [ref=e1086]:
+                            - paragraph [ref=e1087]: "VM with 1 OCPU: 2 VNICs."
+                            - paragraph [ref=e1088]: "VM with 2 or more OCPUs: 1 VNIC per OCPU."
+                            - paragraph [ref=e1089]: Maximum 24 VNICs.
+                        - 'cell "VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1090]':
+                          - generic [ref=e1091]:
+                            - paragraph [ref=e1092]: "VM with 1 OCPU: 2 VNICs."
+                            - paragraph [ref=e1093]: "VM with 2 or more OCPUs: 1 VNIC per OCPU."
+                            - paragraph [ref=e1094]: Maximum 24 VNICs.
+                      - 'row "VM.Standard.E5.Flex See Flexible Shapes. 1 OCPU minimum, 126 OCPU maximum 1 GB minimum, 1049 GB maximum Block storage only 1 Gbps per OCPU, maximum 40 Gbps VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs. VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1095]':
+                        - rowheader "VM.Standard.E5.Flex See Flexible Shapes." [ref=e1096]:
+                          - paragraph [ref=e1097]: VM.Standard.E5.Flex
+                          - paragraph [ref=e1098]:
+                            - text: See
+                            - link "Flexible Shapes" [ref=e1099] [cursor=pointer]:
+                              - /url: computeshapes.htm#flexible
+                            - text: .
+                        - cell "1 OCPU minimum, 126 OCPU maximum" [ref=e1100]:
+                          - paragraph [ref=e1101]: 1 OCPU minimum, 126 OCPU maximum
+                        - cell "1 GB minimum, 1049 GB maximum" [ref=e1102]:
+                          - paragraph [ref=e1103]: 1 GB minimum, 1049 GB maximum
+                        - cell "Block storage only" [ref=e1104]
+                        - cell "1 Gbps per OCPU, maximum 40 Gbps" [ref=e1105]
+                        - 'cell "VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1106]':
+                          - paragraph [ref=e1107]: "VM with 1 OCPU: 2 VNICs."
+                          - paragraph [ref=e1108]: "VM with 2 or more OCPUs: 1 VNIC per OCPU."
+                          - paragraph [ref=e1109]: Maximum 24 VNICs.
+                        - 'cell "VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1110]':
+                          - paragraph [ref=e1111]: "VM with 1 OCPU: 2 VNICs."
+                          - paragraph [ref=e1112]: "VM with 2 or more OCPUs: 1 VNIC per OCPU."
+                          - paragraph [ref=e1113]: Maximum 24 VNICs.
+                      - 'row "VM.Standard.E6.Flex See Flexible Shapes. 1 OCPU minimum, 126 OCPU maximum 1 GB minimum, 1454 GB maximum Block storage only 1 Gbps per OCPU, maximum 99 Gbps VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs. VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1114]':
+                        - rowheader "VM.Standard.E6.Flex See Flexible Shapes." [ref=e1115]:
+                          - paragraph [ref=e1116]: VM.Standard.E6.Flex
+                          - paragraph [ref=e1117]:
+                            - text: See
+                            - link "Flexible Shapes" [ref=e1118] [cursor=pointer]:
+                              - /url: computeshapes.htm#flexible
+                            - text: .
+                        - cell "1 OCPU minimum, 126 OCPU maximum" [ref=e1119]:
+                          - paragraph [ref=e1120]: 1 OCPU minimum, 126 OCPU maximum
+                        - cell "1 GB minimum, 1454 GB maximum" [ref=e1121]:
+                          - paragraph [ref=e1122]: 1 GB minimum, 1454 GB maximum
+                        - cell "Block storage only" [ref=e1123]
+                        - cell "1 Gbps per OCPU, maximum 99 Gbps" [ref=e1124]
+                        - 'cell "VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1125]':
+                          - paragraph [ref=e1126]: "VM with 1 OCPU: 2 VNICs."
+                          - paragraph [ref=e1127]: "VM with 2 or more OCPUs: 1 VNIC per OCPU."
+                          - paragraph [ref=e1128]: Maximum 24 VNICs.
+                        - 'cell "VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1129]':
+                          - paragraph [ref=e1130]: "VM with 1 OCPU: 2 VNICs."
+                          - paragraph [ref=e1131]: "VM with 2 or more OCPUs: 1 VNIC per OCPU."
+                          - paragraph [ref=e1132]: Maximum 24 VNICs.
+                      - 'row "VM.Standard.E6.Ax.Flex See Flexible Shapes. 1 OCPU minimum, 94 OCPU maximum 1 GB minimum, 712 GB maximum Block storage only 1 Gbps per OCPU, maximum 99 Gbps VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs. VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1133]':
+                        - rowheader "VM.Standard.E6.Ax.Flex See Flexible Shapes." [ref=e1134]:
+                          - paragraph [ref=e1135]: VM.Standard.E6.Ax.Flex
+                          - paragraph [ref=e1136]:
+                            - text: See
+                            - link "Flexible Shapes" [ref=e1137] [cursor=pointer]:
+                              - /url: computeshapes.htm#flexible
+                            - text: .
+                        - cell "1 OCPU minimum, 94 OCPU maximum" [ref=e1138]:
+                          - paragraph [ref=e1139]: 1 OCPU minimum, 94 OCPU maximum
+                        - cell "1 GB minimum, 712 GB maximum" [ref=e1140]:
+                          - paragraph [ref=e1141]: 1 GB minimum, 712 GB maximum
+                        - cell "Block storage only" [ref=e1142]
+                        - cell "1 Gbps per OCPU, maximum 99 Gbps" [ref=e1143]
+                        - 'cell "VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1144]':
+                          - paragraph [ref=e1145]: "VM with 1 OCPU: 2 VNICs."
+                          - paragraph [ref=e1146]: "VM with 2 or more OCPUs: 1 VNIC per OCPU."
+                          - paragraph [ref=e1147]: Maximum 24 VNICs.
+                        - 'cell "VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1148]':
+                          - paragraph [ref=e1149]: "VM with 1 OCPU: 2 VNICs."
+                          - paragraph [ref=e1150]: "VM with 2 or more OCPUs: 1 VNIC per OCPU."
+                          - paragraph [ref=e1151]: Maximum 24 VNICs.
+                      - 'row "VM.Standard.A1.Flex See Flexible Shapes and Arm-Based Compute. 1 OCPU minimum, 76 OCPU maximum See Always Free Resources. 1 GB minimum, 472 GB maximum Block storage only 1 Gbps per OCPU, maximum 40 Gbps VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs. Windows images are not supported on this shape." [ref=e1152]':
+                        - rowheader "VM.Standard.A1.Flex See Flexible Shapes and Arm-Based Compute." [ref=e1153]:
+                          - paragraph [ref=e1154]: VM.Standard.A1.Flex
+                          - paragraph [ref=e1155]:
+                            - text: See
+                            - link "Flexible Shapes" [ref=e1156] [cursor=pointer]:
+                              - /url: computeshapes.htm#flexible
+                            - text: and
+                            - link "Arm-Based Compute" [ref=e1157] [cursor=pointer]:
+                              - /url: arm.htm
+                            - text: .
+                        - cell "1 OCPU minimum, 76 OCPU maximum See Always Free Resources." [ref=e1158]:
+                          - paragraph [ref=e1159]: 1 OCPU minimum, 76 OCPU maximum
+                          - paragraph [ref=e1160]:
+                            - text: See
+                            - link "Always Free Resources" [ref=e1161] [cursor=pointer]:
+                              - /url: /iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm
+                            - text: .
+                        - cell "1 GB minimum, 472 GB maximum" [ref=e1162]
+                        - cell "Block storage only" [ref=e1163]
+                        - cell "1 Gbps per OCPU, maximum 40 Gbps" [ref=e1164]
+                        - 'cell "VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1165]':
+                          - generic [ref=e1166]:
+                            - paragraph [ref=e1167]: "VM with 1 OCPU: 2 VNICs."
+                            - paragraph [ref=e1168]: "VM with 2 or more OCPUs: 1 VNIC per OCPU."
+                            - paragraph [ref=e1169]: Maximum 24 VNICs.
+                        - cell "Windows images are not supported on this shape." [ref=e1170]
+                      - 'row "VM.Standard.A2.Flex See Flexible Shapes and Arm-Based Compute. 1 OCPU minimum, 78 OCPU maximum 1 GB minimum, 946 GB maximum Block storage only 1 Gbps per OCPU, maximum 78 Gbps VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs. Windows images are not supported on this shape." [ref=e1171]':
+                        - rowheader "VM.Standard.A2.Flex See Flexible Shapes and Arm-Based Compute." [ref=e1172]:
+                          - paragraph [ref=e1173]: VM.Standard.A2.Flex
+                          - paragraph [ref=e1174]:
+                            - text: See
+                            - link "Flexible Shapes" [ref=e1175] [cursor=pointer]:
+                              - /url: computeshapes.htm#flexible
+                            - text: and
+                            - link "Arm-Based Compute" [ref=e1176] [cursor=pointer]:
+                              - /url: arm.htm
+                            - text: .
+                        - cell "1 OCPU minimum, 78 OCPU maximum" [ref=e1177]
+                        - cell "1 GB minimum, 946 GB maximum" [ref=e1178]
+                        - cell "Block storage only" [ref=e1179]
+                        - cell "1 Gbps per OCPU, maximum 78 Gbps" [ref=e1180]
+                        - 'cell "VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1181]':
+                          - paragraph [ref=e1182]: "VM with 1 OCPU: 2 VNICs."
+                          - paragraph [ref=e1183]: "VM with 2 or more OCPUs: 1 VNIC per OCPU."
+                          - paragraph [ref=e1184]: Maximum 24 VNICs.
+                        - cell "Windows images are not supported on this shape." [ref=e1185]
+                      - 'row "VM.Standard.A4.Flex See Flexible Shapes and Arm-Based Compute. 1 OCPU minimum, 45 OCPU maximum 1 GB minimum, 700 GB maximum Block storage only 1 Gbps per OCPU, maximum 100 Gbps VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs. Windows images are not supported on this shape." [ref=e1186]':
+                        - rowheader "VM.Standard.A4.Flex See Flexible Shapes and Arm-Based Compute." [ref=e1187]:
+                          - paragraph [ref=e1188]: VM.Standard.A4.Flex
+                          - paragraph [ref=e1189]:
+                            - text: See
+                            - link "Flexible Shapes" [ref=e1190] [cursor=pointer]:
+                              - /url: computeshapes.htm#flexible
+                            - text: and
+                            - link "Arm-Based Compute" [ref=e1191] [cursor=pointer]:
+                              - /url: arm.htm
+                            - text: .
+                        - cell "1 OCPU minimum, 45 OCPU maximum" [ref=e1192]
+                        - cell "1 GB minimum, 700 GB maximum" [ref=e1193]
+                        - cell "Block storage only" [ref=e1194]
+                        - cell "1 Gbps per OCPU, maximum 100 Gbps" [ref=e1195]
+                        - 'cell "VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1196]':
+                          - paragraph [ref=e1197]: "VM with 1 OCPU: 2 VNICs."
+                          - paragraph [ref=e1198]: "VM with 2 or more OCPUs: 1 VNIC per OCPU."
+                          - paragraph [ref=e1199]: Maximum 24 VNICs.
+                        - cell "Windows images are not supported on this shape." [ref=e1200]
+                      - 'row "VM.Standard.A4.Ax.Flex See Flexible Shapes and Arm-Based Compute. 1 OCPU minimum, 45 OCPU maximum 1 GB minimum, 720 GB maximum Block storage only 1 Gbps per OCPU, maximum 100 Gbps VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs. Windows images are not supported on this shape." [ref=e1201]':
+                        - rowheader "VM.Standard.A4.Ax.Flex See Flexible Shapes and Arm-Based Compute." [ref=e1202]:
+                          - paragraph [ref=e1203]: VM.Standard.A4.Ax.Flex
+                          - paragraph [ref=e1204]:
+                            - text: See
+                            - link "Flexible Shapes" [ref=e1205] [cursor=pointer]:
+                              - /url: computeshapes.htm#flexible
+                            - text: and
+                            - link "Arm-Based Compute" [ref=e1206] [cursor=pointer]:
+                              - /url: arm.htm
+                            - text: .
+                        - cell "1 OCPU minimum, 45 OCPU maximum" [ref=e1207]
+                        - cell "1 GB minimum, 720 GB maximum" [ref=e1208]
+                        - cell "Block storage only" [ref=e1209]
+                        - cell "1 Gbps per OCPU, maximum 100 Gbps" [ref=e1210]
+                        - 'cell "VM with 1 OCPU: 2 VNICs. VM with 2 or more OCPUs: 1 VNIC per OCPU. Maximum 24 VNICs." [ref=e1211]':
+                          - paragraph [ref=e1212]: "VM with 1 OCPU: 2 VNICs."
+                          - paragraph [ref=e1213]: "VM with 2 or more OCPUs: 1 VNIC per OCPU."
+                          - paragraph [ref=e1214]: Maximum 24 VNICs.
+                        - cell "Windows images are not supported on this shape." [ref=e1215]
+              - article "Dense I/O Shapes Copy link to this section" [ref=e1216]:
+                - heading "Dense I/O Shapes Copy link to this section" [level=3] [ref=e1217]:
+                  - heading "Dense I/O Shapes" [level=3] [ref=e1218]
+                  - button "Copy link to this section" [ref=e1219]: 🔗
+                - generic [ref=e1220]:
+                  - paragraph [ref=e1221]: Designed for large databases, big data workloads, and applications that require high-performance local storage. DenseIO shapes include locally-attached NVMe-based SSDs.
+                  - paragraph [ref=e1222]: "This is the VM dense I/O series:"
+                  - list [ref=e1223]:
+                    - listitem [ref=e1224]:
+                      - strong [ref=e1225]: "VM.DenseIO.E4:"
+                      - text: "E4-based dense I/O compute. Processor: AMD EPYC 7J13. Base frequency 2.55 GHz, max boost frequency 3.5 GHz."
+                    - listitem [ref=e1226]:
+                      - strong [ref=e1227]: "VM.DenseIO.E5:"
+                      - text: "E5-based dense I/O compute. Processor: AMD EPYC 9J14. Base frequency 2.6 GHz, max boost frequency 3.7 GHz."
+                    - listitem [ref=e1228]:
+                      - strong [ref=e1229]: "VM.DenseIO.E6.Ax:"
+                      - text: "E6-based dense I/O compute. Processor: AMD EPYC 9J45. Base frequency 2.7 GHz, max boost frequency 4.1 GHz."
+                  - table [ref=e1231]:
+                    - caption [ref=e1232]
+                    - rowgroup [ref=e1241]:
+                      - 'row "Shape OCPU Memory (GB) Local Disk (TB) Max Network Bandwidth Max VNICs Total: Linux Max VNICs Total: Windows" [ref=e1242]':
+                        - columnheader "Shape" [ref=e1243]
+                        - columnheader "OCPU" [ref=e1244]
+                        - columnheader "Memory (GB)" [ref=e1245]
+                        - columnheader "Local Disk (TB)" [ref=e1246]
+                        - columnheader "Max Network Bandwidth" [ref=e1247]
+                        - 'columnheader "Max VNICs Total: Linux" [ref=e1248]'
+                        - 'columnheader "Max VNICs Total: Windows" [ref=e1249]'
+                    - rowgroup [ref=e1250]:
+                      - row "VM.DenseIO.E4.Flex See Flexible Shapes. 8 128 6.8 TB NVMe SSD storage (1 drive) 8 Gbps 8 8" [ref=e1251]:
+                        - rowheader "VM.DenseIO.E4.Flex See Flexible Shapes." [ref=e1252]:
+                          - paragraph [ref=e1253]: VM.DenseIO.E4.Flex
+                          - paragraph [ref=e1254]:
+                            - text: See
+                            - link "Flexible Shapes" [ref=e1255] [cursor=pointer]:
+                              - /url: computeshapes.htm#flexible
+                            - text: .
+                        - cell "8" [ref=e1256]
+                        - cell "128" [ref=e1257]
+                        - cell "6.8 TB NVMe SSD storage (1 drive)" [ref=e1258]
+                        - cell "8 Gbps" [ref=e1259]
+                        - cell "8" [ref=e1260]
+                        - cell "8" [ref=e1261]
+                      - row "16 256 13.6 TB NVMe SSD storage (2 drives) 16 Gbps 16 16" [ref=e1262]:
+                        - cell "16" [ref=e1263]
+                        - cell "256" [ref=e1264]
+                        - cell "13.6 TB NVMe SSD storage (2 drives)" [ref=e1265]
+                        - cell "16 Gbps" [ref=e1266]
+                        - cell "16" [ref=e1267]
+                        - cell "16" [ref=e1268]
+                      - row "32 512 27.2 TB NVMe SSD storage (4 drives) 32 Gbps 24 24" [ref=e1269]:
+                        - cell "32" [ref=e1270]
+                        - cell "512" [ref=e1271]
+                        - cell "27.2 TB NVMe SSD storage (4 drives)" [ref=e1272]
+                        - cell "32 Gbps" [ref=e1273]
+                        - cell "24" [ref=e1274]
+                        - cell "24" [ref=e1275]
+                      - row "VM.DenseIO.E5.Flex1 8 96 6.8 TB NVMe SSD storage (1 drive) 8 Gbps 8 8" [ref=e1276]:
+                        - rowheader "VM.DenseIO.E5.Flex1" [ref=e1277]:
+                          - text: VM.DenseIO.E5.Flex
+                          - superscript [ref=e1278]: "1"
+                        - cell "8" [ref=e1279]
+                        - cell "96" [ref=e1280]
+                        - cell "6.8 TB NVMe SSD storage (1 drive)" [ref=e1281]
+                        - cell "8 Gbps" [ref=e1282]
+                        - cell "8" [ref=e1283]
+                        - cell "8" [ref=e1284]
+                      - row "16 192 13.6 TB NVMe SSD storage (2 drives) 16 Gbps 16 16" [ref=e1285]:
+                        - cell "16" [ref=e1286]
+                        - cell "192" [ref=e1287]
+                        - cell "13.6 TB NVMe SSD storage (2 drives)" [ref=e1288]
+                        - cell "16 Gbps" [ref=e1289]
+                        - cell "16" [ref=e1290]
+                        - cell "16" [ref=e1291]
+                      - row "24 288 20.4 TB NVMe SSD storage (3 drives) 24 Gbps 24 24" [ref=e1292]:
+                        - cell "24" [ref=e1293]
+                        - cell "288" [ref=e1294]
+                        - cell "20.4 TB NVMe SSD storage (3 drives)" [ref=e1295]
+                        - cell "24 Gbps" [ref=e1296]
+                        - cell "24" [ref=e1297]
+                        - cell "24" [ref=e1298]
+                      - row "32 384 27.2 TB NVMe SSD storage (4 drives) 32 Gbps 24 24" [ref=e1299]:
+                        - cell "32" [ref=e1300]
+                        - cell "384" [ref=e1301]
+                        - cell "27.2 TB NVMe SSD storage (4 drives)" [ref=e1302]
+                        - cell "32 Gbps" [ref=e1303]
+                        - cell "24" [ref=e1304]
+                        - cell "24" [ref=e1305]
+                      - row "40 480 34 TB NVMe SSD storage (5 drives) 40 Gbps 24 24" [ref=e1306]:
+                        - cell "40" [ref=e1307]
+                        - cell "480" [ref=e1308]
+                        - cell "34 TB NVMe SSD storage (5 drives)" [ref=e1309]
+                        - cell "40 Gbps" [ref=e1310]
+                        - cell "24" [ref=e1311]
+                        - cell "24" [ref=e1312]
+                      - row "48 576 40.8 TB NVMe SSD storage (6 drives) 48 Gbps 24 24" [ref=e1313]:
+                        - cell "48" [ref=e1314]
+                        - cell "576" [ref=e1315]
+                        - cell "40.8 TB NVMe SSD storage (6 drives)" [ref=e1316]
+                        - cell "48 Gbps" [ref=e1317]
+                        - cell "24" [ref=e1318]
+                        - cell "24" [ref=e1319]
+                      - row "VM.DenseIO.E6.Ax.Flex1 8 96 6.8 TB NVMe SSD storage (1 drive) 8 Gbps 8 8" [ref=e1320]:
+                        - rowheader "VM.DenseIO.E6.Ax.Flex1" [ref=e1321]:
+                          - text: VM.DenseIO.E6.Ax.Flex
+                          - superscript [ref=e1322]: "1"
+                        - cell "8" [ref=e1323]
+                        - cell "96" [ref=e1324]
+                        - cell "6.8 TB NVMe SSD storage (1 drive)" [ref=e1325]
+                        - cell "8 Gbps" [ref=e1326]
+                        - cell "8" [ref=e1327]
+                        - cell "8" [ref=e1328]
+                      - row "16 192 13.6 TB NVMe SSD storage (2 drives) 16 Gbps 16 16" [ref=e1329]:
+                        - cell "16" [ref=e1330]
+                        - cell "192" [ref=e1331]
+                        - cell "13.6 TB NVMe SSD storage (2 drives)" [ref=e1332]
+                        - cell "16 Gbps" [ref=e1333]
+                        - cell "16" [ref=e1334]
+                        - cell "16" [ref=e1335]
+                      - row "24 288 20.4 TB NVMe SSD storage (3 drives) 24 Gbps 24 24" [ref=e1336]:
+                        - cell "24" [ref=e1337]
+                        - cell "288" [ref=e1338]
+                        - cell "20.4 TB NVMe SSD storage (3 drives)" [ref=e1339]
+                        - cell "24 Gbps" [ref=e1340]
+                        - cell "24" [ref=e1341]
+                        - cell "24" [ref=e1342]
+                      - row "32 384 27.2 TB NVMe SSD storage (4 drives) 32 Gbps 24 24" [ref=e1343]:
+                        - cell "32" [ref=e1344]
+                        - cell "384" [ref=e1345]
+                        - cell "27.2 TB NVMe SSD storage (4 drives)" [ref=e1346]
+                        - cell "32 Gbps" [ref=e1347]
+                        - cell "24" [ref=e1348]
+                        - cell "24" [ref=e1349]
+                      - row "40 480 34 TB NVMe SSD storage (5 drives) 40 Gbps 24 24" [ref=e1350]:
+                        - cell "40" [ref=e1351]
+                        - cell "480" [ref=e1352]
+                        - cell "34 TB NVMe SSD storage (5 drives)" [ref=e1353]
+                        - cell "40 Gbps" [ref=e1354]
+                        - cell "24" [ref=e1355]
+                        - cell "24" [ref=e1356]
+                      - row "48 576 40.8 TB NVMe SSD storage (6 drives) 48 Gbps 24 24" [ref=e1357]:
+                        - cell "48" [ref=e1358]
+                        - cell "576" [ref=e1359]
+                        - cell "40.8 TB NVMe SSD storage (6 drives)" [ref=e1360]
+                        - cell "48 Gbps" [ref=e1361]
+                        - cell "24" [ref=e1362]
+                        - cell "24" [ref=e1363]
+                  - paragraph [ref=e1364]:
+                    - strong [ref=e1365]: Notes
+                  - paragraph [ref=e1366]:
+                    - strong [ref=e1367]: "1:"
+                    - text: Please contact an
+                    - link "Oracle sales representative" [ref=e1368] [cursor=pointer]:
+                      - /url: https://www.oracle.com/corporate/contact/global.html
+                    - text: for additional details.
+              - article "GPU Shapes Copy link to this section" [ref=e1369]:
+                - heading "GPU Shapes Copy link to this section" [level=3] [ref=e1370]:
+                  - heading "GPU Shapes" [level=3] [ref=e1371]
+                  - button "Copy link to this section" [ref=e1372]: 🔗
+                - generic [ref=e1373]:
+                  - paragraph [ref=e1374]: Designed for hardware-accelerated workloads. GPU shapes include Intel, AMD, or Arm CPUs with NVIDIA or AMD graphics processors.
+                  - paragraph [ref=e1375]: "These are the VM GPU series:"
+                  - list [ref=e1376]:
+                    - listitem [ref=e1377]:
+                      - paragraph [ref=e1378]:
+                        - strong [ref=e1379]: "VM.GPU2:"
+                        - text: X7-based GPU compute.
+                      - list [ref=e1380]:
+                        - listitem [ref=e1381]: "GPU: NVIDIA Tesla P100 16 GB"
+                        - listitem [ref=e1382]: "CPU: Intel Xeon Platinum 8167M. Base frequency 2.0 GHz, max turbo frequency 2.4 GHz."
+                    - listitem [ref=e1383]:
+                      - paragraph [ref=e1384]:
+                        - strong [ref=e1385]: "VM.GPU3:"
+                        - text: X7-based GPU compute.
+                      - list [ref=e1386]:
+                        - listitem [ref=e1387]: "GPU: NVIDIA Tesla V100 16 GB"
+                        - listitem [ref=e1388]: "CPU: Intel Xeon Platinum 8167M. Base frequency 2.0 GHz, max turbo frequency 2.4 GHz."
+                    - listitem [ref=e1389]:
+                      - paragraph [ref=e1390]:
+                        - strong [ref=e1391]: "VM.GPU.A10:"
+                        - text: X9-based GPU compute.
+                      - list [ref=e1392]:
+                        - listitem [ref=e1393]: "GPU: NVIDIA A10 24 GB"
+                        - listitem [ref=e1394]: "CPU: Intel Xeon Platinum 8358. Base frequency 2.6 GHz, max turbo frequency 3.4 GHz."
+                  - table [ref=e1396]:
+                    - caption [ref=e1397]
+                    - rowgroup [ref=e1407]:
+                      - 'row "Shape OCPU GPU Memory (GB) CPU Memory (GB) Local Disk (TB) Max Network Bandwidth Max VNICs Total: Linux Max VNICs Total: Windows" [ref=e1408]':
+                        - columnheader "Shape" [ref=e1409]
+                        - columnheader "OCPU" [ref=e1410]
+                        - columnheader "GPU Memory (GB)" [ref=e1411]
+                        - columnheader "CPU Memory (GB)" [ref=e1412]
+                        - columnheader "Local Disk (TB)" [ref=e1413]
+                        - columnheader "Max Network Bandwidth" [ref=e1414]
+                        - 'columnheader "Max VNICs Total: Linux" [ref=e1415]'
+                        - 'columnheader "Max VNICs Total: Windows" [ref=e1416]'
+                    - rowgroup [ref=e1417]:
+                      - 'row "VM.GPU2.1 (GPU: 1xP100) 12 16 72 Block storage only 8 Gbps 12 12" [ref=e1418]':
+                        - 'rowheader "VM.GPU2.1 (GPU: 1xP100)" [ref=e1419]':
+                          - paragraph [ref=e1420]: VM.GPU2.1
+                          - paragraph [ref=e1421]: "(GPU: 1xP100)"
+                        - cell "12" [ref=e1422]
+                        - cell "16" [ref=e1423]
+                        - cell "72" [ref=e1424]
+                        - cell "Block storage only" [ref=e1425]
+                        - cell "8 Gbps" [ref=e1426]
+                        - cell "12" [ref=e1427]
+                        - cell "12" [ref=e1428]
+                      - 'row "VM.GPU3.1 (GPU: 1xV100) 6 16 90 Block storage only 4 Gbps 6 6" [ref=e1429]':
+                        - 'rowheader "VM.GPU3.1 (GPU: 1xV100)" [ref=e1430]':
+                          - paragraph [ref=e1431]: VM.GPU3.1
+                          - paragraph [ref=e1432]: "(GPU: 1xV100)"
+                        - cell "6" [ref=e1433]
+                        - cell "16" [ref=e1434]
+                        - cell "90" [ref=e1435]
+                        - cell "Block storage only" [ref=e1436]
+                        - cell "4 Gbps" [ref=e1437]
+                        - cell "6" [ref=e1438]
+                        - cell "6" [ref=e1439]
+                      - 'row "VM.GPU3.2 (GPU: 2xV100) 12 32 180 Block storage only 8 Gbps 12 12" [ref=e1440]':
+                        - 'rowheader "VM.GPU3.2 (GPU: 2xV100)" [ref=e1441]':
+                          - paragraph [ref=e1442]: VM.GPU3.2
+                          - paragraph [ref=e1443]: "(GPU: 2xV100)"
+                        - cell "12" [ref=e1444]
+                        - cell "32" [ref=e1445]
+                        - cell "180" [ref=e1446]
+                        - cell "Block storage only" [ref=e1447]
+                        - cell "8 Gbps" [ref=e1448]
+                        - cell "12" [ref=e1449]
+                        - cell "12" [ref=e1450]
+                      - 'row "VM.GPU3.4 (GPU: 4xV100) 24 64 360 Block storage only 24.6 Gbps 24 24" [ref=e1451]':
+                        - 'rowheader "VM.GPU3.4 (GPU: 4xV100)" [ref=e1452]':
+                          - paragraph [ref=e1453]: VM.GPU3.4
+                          - paragraph [ref=e1454]: "(GPU: 4xV100)"
+                        - cell "24" [ref=e1455]
+                        - cell "64" [ref=e1456]
+                        - cell "360" [ref=e1457]
+                        - cell "Block storage only" [ref=e1458]
+                        - cell "24.6 Gbps" [ref=e1459]
+                        - cell "24" [ref=e1460]
+                        - cell "24" [ref=e1461]
+                      - 'row "VM.GPU.A10.1 (GPU: 1xA10) 15 24 240 Block storage only 24 Gbps 15 15" [ref=e1462]':
+                        - 'rowheader "VM.GPU.A10.1 (GPU: 1xA10)" [ref=e1463]':
+                          - paragraph [ref=e1464]: VM.GPU.A10.1
+                          - paragraph [ref=e1465]: "(GPU: 1xA10)"
+                        - cell "15" [ref=e1466]
+                        - cell "24" [ref=e1467]
+                        - cell "240" [ref=e1468]
+                        - cell "Block storage only" [ref=e1469]
+                        - cell "24 Gbps" [ref=e1470]
+                        - cell "15" [ref=e1471]
+                        - cell "15" [ref=e1472]
+                      - 'row "VM.GPU.A10.2 (GPU: 2xA10) 30 48 480 Block storage only 48 Gbps 24 24" [ref=e1473]':
+                        - 'rowheader "VM.GPU.A10.2 (GPU: 2xA10)" [ref=e1474]':
+                          - paragraph [ref=e1475]: VM.GPU.A10.2
+                          - paragraph [ref=e1476]: "(GPU: 2xA10)"
+                        - cell "30" [ref=e1477]
+                        - cell "48" [ref=e1478]
+                        - cell "480" [ref=e1479]
+                        - cell "Block storage only" [ref=e1480]
+                        - cell "48 Gbps" [ref=e1481]
+                        - cell "24" [ref=e1482]
+                        - cell "24" [ref=e1483]
+              - article "HPC and Optimized Shapes Copy link to this section" [ref=e1484]:
+                - heading "HPC and Optimized Shapes Copy link to this section" [level=3] [ref=e1485]:
+                  - heading "HPC and Optimized Shapes" [level=3] [ref=e1486]
+                  - button "Copy link to this section" [ref=e1487]: 🔗
+                - generic [ref=e1488]:
+                  - paragraph [ref=e1489]: Designed for high-performance computing workloads that require high frequency processor cores.
+                  - paragraph [ref=e1490]: "This is the VM optimized series:"
+                  - list [ref=e1491]:
+                    - listitem [ref=e1492]:
+                      - strong [ref=e1493]: "VM.Optimized3:"
+                      - text: "Processor: Intel Xeon 6354. Base frequency 3.0 GHz, max turbo frequency 3.6 GHz."
+                  - table [ref=e1495]:
+                    - caption [ref=e1496]
+                    - rowgroup [ref=e1505]:
+                      - 'row "Shape OCPU Memory (GB) Local Disk Max Network Bandwidth Max VNICs Total: Linux Max VNICs Total: Windows" [ref=e1506]':
+                        - columnheader "Shape" [ref=e1507]
+                        - columnheader "OCPU" [ref=e1508]
+                        - columnheader "Memory (GB)" [ref=e1509]
+                        - columnheader "Local Disk" [ref=e1510]
+                        - columnheader "Max Network Bandwidth" [ref=e1511]
+                        - 'columnheader "Max VNICs Total: Linux" [ref=e1512]'
+                        - 'columnheader "Max VNICs Total: Windows" [ref=e1513]'
+                    - rowgroup [ref=e1514]:
+                      - row "VM.Optimized3.Flex 1 OCPU minimum, 18 OCPU maximum 1 GB minimum, 256 GB maximum Block storage only 4 Gbps per OCPU, maximum 40 Gbps 2 VNICs per OCPU. Maximum 24 VNICs. 2 VNICs per OCPU. Maximum 24 VNICs." [ref=e1515]:
+                        - rowheader "VM.Optimized3.Flex" [ref=e1516]
+                        - cell "1 OCPU minimum, 18 OCPU maximum" [ref=e1517]
+                        - cell "1 GB minimum, 256 GB maximum" [ref=e1518]
+                        - cell "Block storage only" [ref=e1519]
+                        - cell "4 Gbps per OCPU, maximum 40 Gbps" [ref=e1520]
+                        - cell "2 VNICs per OCPU. Maximum 24 VNICs." [ref=e1521]:
+                          - paragraph [ref=e1522]: 2 VNICs per OCPU.
+                          - paragraph [ref=e1523]: Maximum 24 VNICs.
+                        - cell "2 VNICs per OCPU. Maximum 24 VNICs." [ref=e1524]:
+                          - paragraph [ref=e1525]: 2 VNICs per OCPU.
+                          - paragraph [ref=e1526]: Maximum 24 VNICs.
+            - article "Dedicated Virtual Machine Host Shapes Copy link to this section" [ref=e1527]:
+              - heading "Dedicated Virtual Machine Host Shapes Copy link to this section" [level=2] [ref=e1528]:
+                - heading "Dedicated Virtual Machine Host Shapes" [level=2] [ref=e1529]
+                - button "Copy link to this section" [ref=e1530]: 🔗
+              - generic [ref=e1531]:
+                - table [ref=e1533]:
+                  - caption [ref=e1534]
+                  - rowgroup [ref=e1543]:
+                    - row "Shape Instance Type Billed OCPU Usable OCPU1 Total Memory (GB)3 Usable Memory (GB)1 Supported Shapes for Hosted VMs" [ref=e1544]:
+                      - columnheader "Shape" [ref=e1545]
+                      - columnheader "Instance Type" [ref=e1546]
+                      - columnheader "Billed OCPU" [ref=e1547]
+                      - columnheader "Usable OCPU1" [ref=e1548]:
+                        - text: Usable OCPU
+                        - superscript [ref=e1549]: "1"
+                      - columnheader "Total Memory (GB)3" [ref=e1550]:
+                        - text: Total Memory (GB)
+                        - superscript [ref=e1551]: "3"
+                      - columnheader "Usable Memory (GB)1" [ref=e1552]:
+                        - text: Usable Memory (GB)
+                        - superscript [ref=e1553]: "1"
+                      - columnheader "Supported Shapes for Hosted VMs" [ref=e1554]
+                  - rowgroup [ref=e1555]:
+                    - row "DVH.Standard2.522 X7-based VM host 52 48 768 736 VM.Standard2 series" [ref=e1556]:
+                      - rowheader "DVH.Standard2.522" [ref=e1557]:
+                        - text: DVH.Standard2.52
+                        - superscript [ref=e1558]: "2"
+                      - cell "X7-based VM host" [ref=e1559]
+                      - cell "52" [ref=e1560]
+                      - cell "48" [ref=e1561]
+                      - cell "768" [ref=e1562]
+                      - cell "736" [ref=e1563]
+                      - cell "VM.Standard2 series" [ref=e1564]
+                    - row "DVH.Standard3.64 X9-based VM host 64 60 1024 960 VM.Standard3 series" [ref=e1565]:
+                      - rowheader "DVH.Standard3.64" [ref=e1566]
+                      - cell "X9-based VM host" [ref=e1567]
+                      - cell "64" [ref=e1568]
+                      - cell "60" [ref=e1569]
+                      - cell "1024" [ref=e1570]
+                      - cell "960" [ref=e1571]
+                      - cell "VM.Standard3 series" [ref=e1572]
+                    - row "DVH.Standard.E2.642 E2-based VM host 64 59 512 480 VM.Standard.E2 series" [ref=e1573]:
+                      - rowheader "DVH.Standard.E2.642" [ref=e1574]:
+                        - text: DVH.Standard.E2.64
+                        - superscript [ref=e1575]: "2"
+                      - cell "E2-based VM host" [ref=e1576]
+                      - cell "64" [ref=e1577]
+                      - cell "59" [ref=e1578]
+                      - cell "512" [ref=e1579]
+                      - cell "480" [ref=e1580]
+                      - cell "VM.Standard.E2 series" [ref=e1581]
+                    - row "DVH.Standard.E3.1282 E3-based VM host 128 124 2048 1912 VM.Standard.E3 series" [ref=e1582]:
+                      - rowheader "DVH.Standard.E3.1282" [ref=e1583]:
+                        - text: DVH.Standard.E3.128
+                        - superscript [ref=e1584]: "2"
+                      - cell "E3-based VM host" [ref=e1585]
+                      - cell "128" [ref=e1586]
+                      - cell "124" [ref=e1587]
+                      - cell "2048" [ref=e1588]
+                      - cell "1912" [ref=e1589]
+                      - cell "VM.Standard.E3 series" [ref=e1590]
+                    - row "DVH.Standard.E4.128 E4-based VM host 128 124 2048 1912 VM.Standard.E4 series" [ref=e1591]:
+                      - rowheader "DVH.Standard.E4.128" [ref=e1592]
+                      - cell "E4-based VM host" [ref=e1593]
+                      - cell "128" [ref=e1594]
+                      - cell "124" [ref=e1595]
+                      - cell "2048" [ref=e1596]
+                      - cell "1912" [ref=e1597]
+                      - cell "VM.Standard.E4 series" [ref=e1598]
+                    - row "DVH.Standard.E5.192 E5-based VM host 192 188 2304 2098 VM.Standard.E5 series" [ref=e1599]:
+                      - rowheader "DVH.Standard.E5.192" [ref=e1600]
+                      - cell "E5-based VM host" [ref=e1601]
+                      - cell "192" [ref=e1602]
+                      - cell "188" [ref=e1603]
+                      - cell "2304" [ref=e1604]
+                      - cell "2098" [ref=e1605]
+                      - cell "VM.Standard.E5 series" [ref=e1606]
+                    - row "DVH.DenseIO2.522 X7-based dense I/O VM host 52 48 768 736 VM.DenseIO2 series" [ref=e1607]:
+                      - rowheader "DVH.DenseIO2.522" [ref=e1608]:
+                        - text: DVH.DenseIO2.52
+                        - superscript [ref=e1609]: "2"
+                      - cell "X7-based dense I/O VM host" [ref=e1610]
+                      - cell "52" [ref=e1611]
+                      - cell "48" [ref=e1612]
+                      - cell "768" [ref=e1613]
+                      - cell "736" [ref=e1614]
+                      - cell "VM.DenseIO2 series" [ref=e1615]
+                    - row "DVH.Optimized3.36 X9-based optimized VM host 36 34 512 472 VM.Optimized3 series" [ref=e1616]:
+                      - rowheader "DVH.Optimized3.36" [ref=e1617]
+                      - cell "X9-based optimized VM host" [ref=e1618]
+                      - cell "36" [ref=e1619]
+                      - cell "34" [ref=e1620]
+                      - cell "512" [ref=e1621]
+                      - cell "472" [ref=e1622]
+                      - cell "VM.Optimized3 series" [ref=e1623]
+                - paragraph [ref=e1624]:
+                  - strong [ref=e1625]: Notes
+                - paragraph [ref=e1626]:
+                  - strong [ref=e1627]: "1:"
+                  - text: The difference between total and usable OCPUs and memory is caused by the need to reserve OCPUs and memory for hypervisor use.
+                - paragraph [ref=e1628]:
+                  - strong [ref=e1629]: "2:"
+                  - text: Because this dedicated virtual machine host shape supports hosted VMs that use a
+                  - link "previous generation" [ref=e1630] [cursor=pointer]:
+                    - /url: computeshapes.htm#previous-generation-shapes
+                  - text: shape series, it is available by request only.
+                - paragraph [ref=e1631]:
+                  - strong [ref=e1632]: "3:"
+                  - text: For Standard2, Standard.E2, and DenseIO2 shapes, billing is based on OCPUs, not memory. For all other shapes that support flexible hosted VMs, billing is based on OCPUs and memory, which are billed independently.
+            - article "Previous Generation Shapes Copy link to this section" [ref=e1633]:
+              - heading "Previous Generation Shapes Copy link to this section" [level=2] [ref=e1634]:
+                - heading "Previous Generation Shapes" [level=2] [ref=e1635]
+                - button "Copy link to this section" [ref=e1636]: 🔗
+              - generic [ref=e1637]:
+                - generic [ref=e1638]:
+                  - img [ref=e1640]
+                  - strong [ref=e1651]: Tip
+                  - text: Previous generation shapes are still fully supported. However, because the underlying hardware has reached the sustaining phase of its lifecycle, capacity in certain high-demand regions might be limited.
+                - paragraph [ref=e1652]: Oracle Cloud Infrastructure periodically releases new generations of Compute shapes. The latest shapes let you take advantage of newer hardware and a better price-performance ratio. When a shape is several years old, and newer generation shapes that are suited for the same purposes are available, the old shape transitions to become a previous generation shape.
+                - paragraph [ref=e1653]: Your current utilization is fully supported on the previous generation shape. In certain high demand regions, you may need to plan your utilization growth on a newer generation shape.
+                - heading "Upgrading from a Previous Generation Shape" [level=3] [ref=e1655]
+                - paragraph [ref=e1656]: "To upgrade from a previous generation shape to a current generation shape, you can do the following things:"
+                - list [ref=e1657]:
+                  - listitem [ref=e1658]:
+                    - text: For supported VM instances,
+                    - link "change the shape of the instance" [ref=e1659] [cursor=pointer]:
+                      - /url: ../Tasks/resizinginstances.htm
+                    - text: .
+                  - listitem [ref=e1660]:
+                    - text: For bare metal instances and VM instances that don't support changing the shape,
+                    - link "terminate the instance but DO NOT delete the boot volume" [ref=e1661] [cursor=pointer]:
+                      - /url: ../Tasks/terminatinginstance.htm
+                    - text: . Then,
+                    - link "use the boot volume to create a new instance" [ref=e1662] [cursor=pointer]:
+                      - /url: ../Tasks/launchinginstance.htm
+                    - text: .
+                - generic [ref=e1663]:
+                  - heading "Previous Generation Bare Metal Shapes" [level=3] [ref=e1664]
+                  - paragraph [ref=e1665]: These are the previous generation bare metal shape series.
+                  - button "BM.Standard1" [ref=e1668] [cursor=pointer]
+                  - button "BM.Standard.B1" [ref=e1671] [cursor=pointer]
+                  - button "BM.Standard2" [ref=e1674] [cursor=pointer]
+                  - button "BM.Standard.E2" [ref=e1677] [cursor=pointer]
+                  - button "BM.Standard.E3" [ref=e1680] [cursor=pointer]
+                  - button "BM.DenseIO1" [ref=e1683] [cursor=pointer]
+                  - button "BM.DenseIO2" [ref=e1686] [cursor=pointer]
+                  - button "BM.HPC2" [ref=e1689] [cursor=pointer]
+                - generic [ref=e1690]:
+                  - heading "Previous Generation VM Shapes" [level=3] [ref=e1691]
+                  - paragraph [ref=e1692]: These are the previous generation VM shape series.
+                  - button "VM.Standard1" [ref=e1695] [cursor=pointer]
+                  - button "VM.Standard.B1" [ref=e1698] [cursor=pointer]
+                  - button "VM.Standard2" [ref=e1701] [cursor=pointer]
+                  - button "VM.Standard.E2" [ref=e1704] [cursor=pointer]
+                  - button "VM.Standard.E3" [ref=e1707] [cursor=pointer]
+                  - button "VM.DenseIO1" [ref=e1710] [cursor=pointer]
+                  - button "VM.DenseIO2" [ref=e1713] [cursor=pointer]
+    - navigation "Oracle Cloud Infrastructure Documentation" [ref=e1716]:
+      - list [ref=e1717]:
+        - listitem [ref=e1718]:
+          - link "Oracle Cloud Infrastructure Cloud Adoption Framework Open" [ref=e1719] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/cloud-adoption-framework/home.htm
+            - generic [ref=e1720]: Oracle Cloud Infrastructure Cloud Adoption Framework
+            - button "Open" [ref=e1721]:
+              - img [ref=e1722]
+        - listitem [ref=e1724]:
+          - link "Getting Started Open" [ref=e1725] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/GSG/Concepts/baremetalintro.htm
+            - generic [ref=e1726]: Getting Started
+            - button "Open" [ref=e1727]:
+              - img [ref=e1728]
+        - listitem [ref=e1730]:
+          - link "Oracle Cloud's Free Tier Open" [ref=e1731] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/FreeTier/freetier.htm
+            - generic [ref=e1732]: Oracle Cloud's Free Tier
+            - button "Open" [ref=e1733]:
+              - img [ref=e1734]
+        - listitem [ref=e1736]:
+          - link "Oracle Multicloud Open" [ref=e1737] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/multicloud/Oraclemulticloud.htm
+            - generic [ref=e1738]: Oracle Multicloud
+            - button "Open" [ref=e1739]:
+              - img [ref=e1740]
+        - listitem [ref=e1742]:
+          - link "Oracle Cloud Infrastructure Government Cloud Open" [ref=e1743] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/gov-cloud/govlanding.htm
+            - generic [ref=e1744]: Oracle Cloud Infrastructure Government Cloud
+            - button "Open" [ref=e1745]:
+              - img [ref=e1746]
+        - listitem [ref=e1748]:
+          - link "Oracle UK Sovereign Cloud Open" [ref=e1749] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/uk-sovereign-cloud/home.htm
+            - generic [ref=e1750]: Oracle UK Sovereign Cloud
+            - button "Open" [ref=e1751]:
+              - img [ref=e1752]
+        - listitem [ref=e1754]:
+          - link "Oracle EU Sovereign Cloud" [ref=e1755] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/sovereign-cloud/eu-sovereign-cloud.htm
+            - generic [ref=e1756]: Oracle EU Sovereign Cloud
+        - listitem [ref=e1757]:
+          - link "Applications Services Open" [ref=e1758] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/applications-manager/applications-services-home.htm
+            - generic [ref=e1759]: Applications Services
+            - button "Open" [ref=e1760]:
+              - img [ref=e1761]
+        - listitem [ref=e1763]:
+          - link "Infrastructure Services Close" [ref=e1764] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/services.htm
+            - generic [ref=e1765]: Infrastructure Services
+            - button "Close" [ref=e1766]:
+              - img [ref=e1767]
+          - list [ref=e1769]:
+            - listitem [ref=e1770]:
+              - link "Service Essentials Open" [ref=e1771] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/General/serviceessentials.htm
+                - generic [ref=e1772]: Service Essentials
+                - button "Open" [ref=e1773]:
+                  - img [ref=e1774]
+            - listitem [ref=e1776]:
+              - link "Access Governance Open" [ref=e1777] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/access-governance/home.htm
+                - generic [ref=e1778]: Access Governance
+                - button "Open" [ref=e1779]:
+                  - img [ref=e1780]
+            - listitem [ref=e1782]:
+              - link "AI Data Platform" [ref=e1783] [cursor=pointer]:
+                - /url: /en-us/iaas/ai-data-platform/index.html
+                - generic [ref=e1784]: AI Data Platform
+            - listitem [ref=e1785]:
+              - link "Analytics Cloud Open" [ref=e1786] [cursor=pointer]:
+                - /url: /en-us/iaas/analytics-cloud/index.html
+                - generic [ref=e1787]: Analytics Cloud
+                - button "Open" [ref=e1788]:
+                  - img [ref=e1789]
+            - listitem [ref=e1791]:
+              - link "API Gateway Open" [ref=e1792] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/APIGateway/home.htm
+                - generic [ref=e1793]: API Gateway
+                - button "Open" [ref=e1794]:
+                  - img [ref=e1795]
+            - listitem [ref=e1797]:
+              - link "Application Dependency Management Open" [ref=e1798] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/application-dependency-management/home.htm
+                - generic [ref=e1799]: Application Dependency Management
+                - button "Open" [ref=e1800]:
+                  - img [ref=e1801]
+            - listitem [ref=e1803]:
+              - link "Application Performance Monitoring Open" [ref=e1804] [cursor=pointer]:
+                - /url: /en-us/iaas/application-performance-monitoring/home.htm
+                - generic [ref=e1805]: Application Performance Monitoring
+                - button "Open" [ref=e1806]:
+                  - img [ref=e1807]
+            - listitem [ref=e1809]:
+              - link "Archive Storage Open" [ref=e1810] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Archive/home.htm
+                - generic [ref=e1811]: Archive Storage
+                - button "Open" [ref=e1812]:
+                  - img [ref=e1813]
+            - listitem [ref=e1815]:
+              - link "Artifact Registry Open" [ref=e1816] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/artifacts/home.htm
+                - generic [ref=e1817]: Artifact Registry
+                - button "Open" [ref=e1818]:
+                  - img [ref=e1819]
+            - listitem [ref=e1821]:
+              - link "Audit Open" [ref=e1822] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Audit/home.htm
+                - generic [ref=e1823]: Audit
+                - button "Open" [ref=e1824]:
+                  - img [ref=e1825]
+            - listitem [ref=e1827]:
+              - link "Automated CEMLI Execution Open" [ref=e1828] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/auto-cemli-execution/home.htm
+                - generic [ref=e1829]: Automated CEMLI Execution
+                - button "Open" [ref=e1830]:
+                  - img [ref=e1831]
+            - listitem [ref=e1833]:
+              - link "Autonomous Linux Open" [ref=e1834] [cursor=pointer]:
+                - /url: /en-us/iaas/autonomous-linux/doc/home.htm
+                - generic [ref=e1835]: Autonomous Linux
+                - button "Open" [ref=e1836]:
+                  - img [ref=e1837]
+            - listitem [ref=e1839]:
+              - link "Bastion Open" [ref=e1840] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Bastion/home.htm
+                - generic [ref=e1841]: Bastion
+                - button "Open" [ref=e1842]:
+                  - img [ref=e1843]
+            - listitem [ref=e1845]:
+              - link "Batch Open" [ref=e1846] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/oci-batch/home.htm
+                - generic [ref=e1847]: Batch
+                - button "Open" [ref=e1848]:
+                  - img [ref=e1849]
+            - listitem [ref=e1851]:
+              - link "Big Data Service Open" [ref=e1852] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/bigdata/home.htm
+                - generic [ref=e1853]: Big Data Service
+                - button "Open" [ref=e1854]:
+                  - img [ref=e1855]
+            - listitem [ref=e1857]:
+              - link "Billing and Cost Management Open" [ref=e1858] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Billing/home.htm
+                - generic [ref=e1859]: Billing and Cost Management
+                - button "Open" [ref=e1860]:
+                  - img [ref=e1861]
+            - listitem [ref=e1863]:
+              - link "Block Volume Open" [ref=e1864] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Block/home.htm
+                - generic [ref=e1865]: Block Volume
+                - button "Open" [ref=e1866]:
+                  - img [ref=e1867]
+            - listitem [ref=e1869]:
+              - link "Blockchain Platform" [ref=e1870] [cursor=pointer]:
+                - /url: /en-us/iaas/blockchain-platform/index.html
+                - generic [ref=e1871]: Blockchain Platform
+            - listitem [ref=e1872]:
+              - link "Certificates Open" [ref=e1873] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/certificates/home.htm
+                - generic [ref=e1874]: Certificates
+                - button "Open" [ref=e1875]:
+                  - img [ref=e1876]
+            - listitem [ref=e1878]:
+              - link "Cloud Advisor Open" [ref=e1879] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/CloudAdvisor/home.htm
+                - generic [ref=e1880]: Cloud Advisor
+                - button "Open" [ref=e1881]:
+                  - img [ref=e1882]
+            - listitem [ref=e1884]:
+              - link "Cloud Guard Open" [ref=e1885] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/cloud-guard/home.htm
+                - generic [ref=e1886]: Cloud Guard
+                - button "Open" [ref=e1887]:
+                  - img [ref=e1888]
+            - listitem [ref=e1890]:
+              - link "Cluster Placement Groups Open" [ref=e1891] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/cluster-placement-groups/home.htm
+                - generic [ref=e1892]: Cluster Placement Groups
+                - button "Open" [ref=e1893]:
+                  - img [ref=e1894]
+            - listitem [ref=e1896]:
+              - link "Compartment Quotas Open" [ref=e1897] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Quotas/home.htm
+                - generic [ref=e1898]: Compartment Quotas
+                - button "Open" [ref=e1899]:
+                  - img [ref=e1900]
+            - listitem [ref=e1902]:
+              - link "Compliance Documents Open" [ref=e1903] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/ComplianceDocuments/Concepts/compliancedocsoverview.htm
+                - generic [ref=e1904]: Compliance Documents
+                - button "Open" [ref=e1905]:
+                  - img [ref=e1906]
+            - listitem [ref=e1908]:
+              - link "Compute Close" [ref=e1909] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Compute/home.htm
+                - generic [ref=e1910]: Compute
+                - button "Close" [ref=e1911]:
+                  - img [ref=e1912]
+              - list [ref=e1914]:
+                - listitem [ref=e1915]:
+                  - link "Overview of the Compute Service Open" [ref=e1916] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/Concepts/computeoverview.htm
+                    - generic [ref=e1917]: Overview of the Compute Service
+                    - button "Open" [ref=e1918]:
+                      - img [ref=e1919]
+                - listitem [ref=e1921]:
+                  - link "Working with Instances Open" [ref=e1922] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/Tasks/instances.htm
+                    - generic [ref=e1923]: Working with Instances
+                    - button "Open" [ref=e1924]:
+                      - img [ref=e1925]
+                - listitem [ref=e1927]:
+                  - link "Platform Images Open" [ref=e1928] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/References/images.htm
+                    - generic [ref=e1929]: Platform Images
+                    - button "Open" [ref=e1930]:
+                      - img [ref=e1931]
+                - listitem [ref=e1933]:
+                  - link "Compute Shapes Close" [ref=e1934] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/References/computeshapes.htm
+                    - generic [ref=e1935]: Compute Shapes
+                    - button "Close" [ref=e1936]:
+                      - img [ref=e1937]
+                  - list [ref=e1939]:
+                    - listitem [ref=e1940]:
+                      - link "BIOS Settings for Bare Metal Instances" [ref=e1941] [cursor=pointer]:
+                        - /url: /en-us/iaas/Content/Compute/References/bios-settings.htm
+                        - generic [ref=e1942]: BIOS Settings for Bare Metal Instances
+                - listitem [ref=e1943]:
+                  - link "Instance Maintenance Open" [ref=e1944] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/References/infrastructure-maintenance.htm
+                    - generic [ref=e1945]: Instance Maintenance
+                    - button "Open" [ref=e1946]:
+                      - img [ref=e1947]
+                - listitem [ref=e1949]:
+                  - link "Dedicated Virtual Machine Hosts Open" [ref=e1950] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/Concepts/dedicatedvmhosts.htm
+                    - generic [ref=e1951]: Dedicated Virtual Machine Hosts
+                    - button "Open" [ref=e1952]:
+                      - img [ref=e1953]
+                - listitem [ref=e1955]:
+                  - link "Managing Instance Configurations Open" [ref=e1956] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/Concepts/instancemanagement.htm
+                    - generic [ref=e1957]: Managing Instance Configurations
+                    - button "Open" [ref=e1958]:
+                      - img [ref=e1959]
+                - listitem [ref=e1961]:
+                  - link "Managing Instance Pools Open" [ref=e1962] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/Concepts/instance-pools.htm
+                    - generic [ref=e1963]: Managing Instance Pools
+                    - button "Open" [ref=e1964]:
+                      - img [ref=e1965]
+                - listitem [ref=e1967]:
+                  - link "High Performance Computing Open" [ref=e1968] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/References/high-performance-compute.htm
+                    - generic [ref=e1969]: High Performance Computing
+                    - button "Open" [ref=e1970]:
+                      - img [ref=e1971]
+                - listitem [ref=e1973]:
+                  - link "Autoscaling Open" [ref=e1974] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/Tasks/autoscalinginstancepools.htm
+                    - generic [ref=e1975]: Autoscaling
+                    - button "Open" [ref=e1976]:
+                      - img [ref=e1977]
+                - listitem [ref=e1979]:
+                  - link "Capacity Reservations Open" [ref=e1980] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/Tasks/reserve-capacity.htm
+                    - generic [ref=e1981]: Capacity Reservations
+                    - button "Open" [ref=e1982]:
+                      - img [ref=e1983]
+                - listitem [ref=e1985]:
+                  - link "Managing Custom Images Open" [ref=e1986] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/Tasks/managingcustomimages.htm
+                    - generic [ref=e1987]: Managing Custom Images
+                    - button "Open" [ref=e1988]:
+                      - img [ref=e1989]
+                - listitem [ref=e1991]:
+                  - link "Bring Your Own Image (BYOI) Open" [ref=e1992] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/References/bringyourownimage.htm
+                    - generic [ref=e1993]: Bring Your Own Image (BYOI)
+                    - button "Open" [ref=e1994]:
+                      - img [ref=e1995]
+                - listitem [ref=e1997]:
+                  - link "Oracle Cloud Agent" [ref=e1998] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/Tasks/manage-plugins.htm
+                    - generic [ref=e1999]: Oracle Cloud Agent
+                - listitem [ref=e2000]:
+                  - link "Compute Metrics and Monitoring Open" [ref=e2001] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/References/computemetricsoverview.htm
+                    - generic [ref=e2002]: Compute Metrics and Monitoring
+                    - button "Open" [ref=e2003]:
+                      - img [ref=e2004]
+                - listitem [ref=e2006]:
+                  - link "Best Practices for Your Compute Instances Open" [ref=e2007] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/References/bestpracticescompute.htm
+                    - generic [ref=e2008]: Best Practices for Your Compute Instances
+                    - button "Open" [ref=e2009]:
+                      - img [ref=e2010]
+                - listitem [ref=e2012]:
+                  - link "Arm-Based Compute" [ref=e2013] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/References/arm.htm
+                    - generic [ref=e2014]: Arm-Based Compute
+                - listitem [ref=e2015]:
+                  - link "NVIDIA AI Enterprise on OCI Compute" [ref=e2016] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/Tasks/nvidia-ai-enterprise.htm
+                    - generic [ref=e2017]: NVIDIA AI Enterprise on OCI Compute
+                - listitem [ref=e2018]:
+                  - link "Compute NVMe Performance" [ref=e2019] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/Concepts/computeperformance.htm
+                    - generic [ref=e2020]: Compute NVMe Performance
+                - listitem [ref=e2021]:
+                  - link "Microsoft Licensing on Oracle Cloud Infrastructure Open" [ref=e2022] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/References/microsoftlicensing.htm
+                    - generic [ref=e2023]: Microsoft Licensing on Oracle Cloud Infrastructure
+                    - button "Open" [ref=e2024]:
+                      - img [ref=e2025]
+                - listitem [ref=e2027]:
+                  - link "Updating the Linux iSCSI Service to Restart Automatically" [ref=e2028] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/Tasks/updatingiscsidservice.htm
+                    - generic [ref=e2029]: Updating the Linux iSCSI Service to Restart Automatically
+                - listitem [ref=e2030]:
+                  - link "Developing with the Compute Service" [ref=e2031] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/Tasks/developing-with-compute.htm
+                    - generic [ref=e2032]: Developing with the Compute Service
+                - listitem [ref=e2033]:
+                  - link "Troubleshooting Open" [ref=e2034] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/References/troubleshooting-compute-instances.htm
+                    - generic [ref=e2035]: Troubleshooting
+                    - button "Open" [ref=e2036]:
+                      - img [ref=e2037]
+                - listitem [ref=e2039]:
+                  - link "Known Issues" [ref=e2040] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/known-issues.htm
+                    - generic [ref=e2041]: Known Issues
+                - listitem [ref=e2042]:
+                  - link "Tutorials Open" [ref=e2043] [cursor=pointer]:
+                    - /url: /en-us/iaas/Content/Compute/tutorials.htm
+                    - generic [ref=e2044]: Tutorials
+                    - button "Open" [ref=e2045]:
+                      - img [ref=e2046]
+            - listitem [ref=e2048]:
+              - link "Compute Cloud@Customer Open" [ref=e2049] [cursor=pointer]:
+                - /url: /en-us/iaas/compute-cloud-at-customer/ccc/home.htm
+                - generic [ref=e2050]: Compute Cloud@Customer
+                - button "Open" [ref=e2051]:
+                  - img [ref=e2052]
+            - listitem [ref=e2054]:
+              - link "Compute Cloud@Customer Isolated Open" [ref=e2055] [cursor=pointer]:
+                - /url: /en-us/iaas/compute-cloud-at-customer-isolated/c3i/home.htm
+                - generic [ref=e2056]: Compute Cloud@Customer Isolated
+                - button "Open" [ref=e2057]:
+                  - img [ref=e2058]
+            - listitem [ref=e2060]:
+              - link "Connector Hub Open" [ref=e2061] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/connector-hub/home.htm
+                - generic [ref=e2062]: Connector Hub
+                - button "Open" [ref=e2063]:
+                  - img [ref=e2064]
+            - listitem [ref=e2066]:
+              - link "Console Dashboards Open" [ref=e2067] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Dashboards/home.htm
+                - generic [ref=e2068]: Console Dashboards
+                - button "Open" [ref=e2069]:
+                  - img [ref=e2070]
+            - listitem [ref=e2072]:
+              - link "Container Instances Open" [ref=e2073] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/container-instances/home.htm
+                - generic [ref=e2074]: Container Instances
+                - button "Open" [ref=e2075]:
+                  - img [ref=e2076]
+            - listitem [ref=e2078]:
+              - link "Container Registry Open" [ref=e2079] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Registry/home.htm
+                - generic [ref=e2080]: Container Registry
+                - button "Open" [ref=e2081]:
+                  - img [ref=e2082]
+            - listitem [ref=e2084]:
+              - link "Content Management Open" [ref=e2085] [cursor=pointer]:
+                - /url: /en-us/iaas/content-management/index.html
+                - generic [ref=e2086]: Content Management
+                - button "Open" [ref=e2087]:
+                  - img [ref=e2088]
+            - listitem [ref=e2090]:
+              - link "Data Catalog Open" [ref=e2091] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/data-catalog/home.htm
+                - generic [ref=e2092]: Data Catalog
+                - button "Open" [ref=e2093]:
+                  - img [ref=e2094]
+            - listitem [ref=e2096]:
+              - link "Data Flow Open" [ref=e2097] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/data-flow/using/home.htm
+                - generic [ref=e2098]: Data Flow
+                - button "Open" [ref=e2099]:
+                  - img [ref=e2100]
+            - listitem [ref=e2102]:
+              - link "Data Integration Open" [ref=e2103] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/data-integration/home.htm
+                - generic [ref=e2104]: Data Integration
+                - button "Open" [ref=e2105]:
+                  - img [ref=e2106]
+            - listitem [ref=e2108]:
+              - link "Data Labeling Open" [ref=e2109] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/data-labeling/using/home.htm
+                - generic [ref=e2110]: Data Labeling
+                - button "Open" [ref=e2111]:
+                  - img [ref=e2112]
+            - listitem [ref=e2114]:
+              - link "Data Safe Open" [ref=e2115] [cursor=pointer]:
+                - /url: /en-us/iaas/data-safe/index.html
+                - generic [ref=e2116]: Data Safe
+                - button "Open" [ref=e2117]:
+                  - img [ref=e2118]
+            - listitem [ref=e2120]:
+              - link "Data Science Open" [ref=e2121] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/data-science/using/home.htm
+                - generic [ref=e2122]: Data Science
+                - button "Open" [ref=e2123]:
+                  - img [ref=e2124]
+            - listitem [ref=e2126]:
+              - link "Database Open" [ref=e2127] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Database/home.htm
+                - generic [ref=e2128]: Database
+                - button "Open" [ref=e2129]:
+                  - img [ref=e2130]
+            - listitem [ref=e2132]:
+              - link "Database Management Open" [ref=e2133] [cursor=pointer]:
+                - /url: /en-us/iaas/database-management/home.htm
+                - generic [ref=e2134]: Database Management
+                - button "Open" [ref=e2135]:
+                  - img [ref=e2136]
+            - listitem [ref=e2138]:
+              - link "Database Migration Open" [ref=e2139] [cursor=pointer]:
+                - /url: /en-us/iaas/database-migration/index.html
+                - generic [ref=e2140]: Database Migration
+                - button "Open" [ref=e2141]:
+                  - img [ref=e2142]
+            - listitem [ref=e2144]:
+              - link "Database Tools Open" [ref=e2145] [cursor=pointer]:
+                - /url: /en-us/iaas/database-tools/home.htm
+                - generic [ref=e2146]: Database Tools
+                - button "Open" [ref=e2147]:
+                  - img [ref=e2148]
+            - listitem [ref=e2150]:
+              - link "DevOps Open" [ref=e2151] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/devops/using/home.htm
+                - generic [ref=e2152]: DevOps
+                - button "Open" [ref=e2153]:
+                  - img [ref=e2154]
+            - listitem [ref=e2156]:
+              - link "Digital Assistant Open" [ref=e2157] [cursor=pointer]:
+                - /url: /en-us/iaas/digital-assistant/index.html
+                - generic [ref=e2158]: Digital Assistant
+                - button "Open" [ref=e2159]:
+                  - img [ref=e2160]
+            - listitem [ref=e2162]:
+              - link "Disaster Recovery Open" [ref=e2163] [cursor=pointer]:
+                - /url: /en-us/iaas/disaster-recovery/index.html
+                - generic [ref=e2164]: Disaster Recovery
+                - button "Open" [ref=e2165]:
+                  - img [ref=e2166]
+            - listitem [ref=e2168]:
+              - link "DNS and Traffic Management Open" [ref=e2169] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/DNS/home.htm
+                - generic [ref=e2170]: DNS and Traffic Management
+                - button "Open" [ref=e2171]:
+                  - img [ref=e2172]
+            - listitem [ref=e2174]:
+              - link "Document Understanding Open" [ref=e2175] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/document-understanding/using/home.htm
+                - generic [ref=e2176]: Document Understanding
+                - button "Open" [ref=e2177]:
+                  - img [ref=e2178]
+            - listitem [ref=e2180]:
+              - link "Email Delivery Open" [ref=e2181] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Email/home.htm
+                - generic [ref=e2182]: Email Delivery
+                - button "Open" [ref=e2183]:
+                  - img [ref=e2184]
+            - listitem [ref=e2186]:
+              - link "Events Open" [ref=e2187] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Events/home.htm
+                - generic [ref=e2188]: Events
+                - button "Open" [ref=e2189]:
+                  - img [ref=e2190]
+            - listitem [ref=e2192]:
+              - link "File Storage Open" [ref=e2193] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/File/home.htm
+                - generic [ref=e2194]: File Storage
+                - button "Open" [ref=e2195]:
+                  - img [ref=e2196]
+            - listitem [ref=e2198]:
+              - link "File Storage with Lustre Open" [ref=e2199] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/lustre/home.htm
+                - generic [ref=e2200]: File Storage with Lustre
+                - button "Open" [ref=e2201]:
+                  - img [ref=e2202]
+            - listitem [ref=e2204]:
+              - link "Fleet Application Management Open" [ref=e2205] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/fleet-management/home.htm
+                - generic [ref=e2206]: Fleet Application Management
+                - button "Open" [ref=e2207]:
+                  - img [ref=e2208]
+            - listitem [ref=e2210]:
+              - link "Functions Open" [ref=e2211] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Functions/home.htm
+                - generic [ref=e2212]: Functions
+                - button "Open" [ref=e2213]:
+                  - img [ref=e2214]
+            - listitem [ref=e2216]:
+              - link "Fusion Data Intelligence Open" [ref=e2217] [cursor=pointer]:
+                - /url: /en-us/iaas/analytics-for-applications/index.html
+                - generic [ref=e2218]: Fusion Data Intelligence
+                - button "Open" [ref=e2219]:
+                  - img [ref=e2220]
+            - listitem [ref=e2222]:
+              - link "Generative AI Open" [ref=e2223] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/generative-ai/home.htm
+                - generic [ref=e2224]: Generative AI
+                - button "Open" [ref=e2225]:
+                  - img [ref=e2226]
+            - listitem [ref=e2228]:
+              - link "Generative AI Agents Open" [ref=e2229] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/generative-ai-agents/home.htm
+                - generic [ref=e2230]: Generative AI Agents
+                - button "Open" [ref=e2231]:
+                  - img [ref=e2232]
+            - listitem [ref=e2234]:
+              - link "Globally Distributed Exadata Database on Exascale Infrastructure" [ref=e2235] [cursor=pointer]:
+                - /url: /en-us/iaas/globally-distributed-exascale-database/index.html
+                - generic [ref=e2236]: Globally Distributed Exadata Database on Exascale Infrastructure
+            - listitem [ref=e2237]:
+              - link "GoldenGate Open" [ref=e2238] [cursor=pointer]:
+                - /url: /en-us/iaas/goldengate/index.html
+                - generic [ref=e2239]: GoldenGate
+                - button "Open" [ref=e2240]:
+                  - img [ref=e2241]
+            - listitem [ref=e2243]:
+              - link "Health Checks Open" [ref=e2244] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/HealthChecks/home.htm
+                - generic [ref=e2245]: Health Checks
+                - button "Open" [ref=e2246]:
+                  - img [ref=e2247]
+            - listitem [ref=e2249]:
+              - link "IAM with Identity Domains Open" [ref=e2250] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Identity/home.htm
+                - generic [ref=e2251]: IAM with Identity Domains
+                - button "Open" [ref=e2252]:
+                  - img [ref=e2253]
+            - listitem [ref=e2255]:
+              - link "IAM without Identity Domains Open" [ref=e2256] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Identity/home1.htm
+                - generic [ref=e2257]: IAM without Identity Domains
+                - button "Open" [ref=e2258]:
+                  - img [ref=e2259]
+            - listitem [ref=e2261]:
+              - link "Integration 3 Open" [ref=e2262] [cursor=pointer]:
+                - /url: /en-us/iaas/application-integration/index.html
+                - generic [ref=e2263]: Integration 3
+                - button "Open" [ref=e2264]:
+                  - img [ref=e2265]
+            - listitem [ref=e2267]:
+              - link "Internet of Things Open" [ref=e2268] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/internet-of-things/home.htm
+                - generic [ref=e2269]: Internet of Things
+                - button "Open" [ref=e2270]:
+                  - img [ref=e2271]
+            - listitem [ref=e2273]:
+              - link "Java Management Open" [ref=e2274] [cursor=pointer]:
+                - /url: /en-us/iaas/jms/index.html
+                - generic [ref=e2275]: Java Management
+                - button "Open" [ref=e2276]:
+                  - img [ref=e2277]
+            - listitem [ref=e2279]:
+              - link "Kubernetes Engine (OKE) Open" [ref=e2280] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/ContEng/home.htm
+                - generic [ref=e2281]: Kubernetes Engine (OKE)
+                - button "Open" [ref=e2282]:
+                  - img [ref=e2283]
+            - listitem [ref=e2285]:
+              - link "Language Open" [ref=e2286] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/language/using/home.htm
+                - generic [ref=e2287]: Language
+                - button "Open" [ref=e2288]:
+                  - img [ref=e2289]
+            - listitem [ref=e2291]:
+              - link "Load Balancer Open" [ref=e2292] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Balance/home.htm
+                - generic [ref=e2293]: Load Balancer
+                - button "Open" [ref=e2294]:
+                  - img [ref=e2295]
+            - listitem [ref=e2297]:
+              - link "Log Analytics Open" [ref=e2298] [cursor=pointer]:
+                - /url: /en-us/iaas/log-analytics/home.htm
+                - generic [ref=e2299]: Log Analytics
+                - button "Open" [ref=e2300]:
+                  - img [ref=e2301]
+            - listitem [ref=e2303]:
+              - link "Logging Open" [ref=e2304] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Logging/home.htm
+                - generic [ref=e2305]: Logging
+                - button "Open" [ref=e2306]:
+                  - img [ref=e2307]
+            - listitem [ref=e2309]:
+              - link "Managed Access Open" [ref=e2310] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/managed-access/home.htm
+                - generic [ref=e2311]: Managed Access
+                - button "Open" [ref=e2312]:
+                  - img [ref=e2313]
+            - listitem [ref=e2315]:
+              - link "Managed Cloud Self Service Platform Open" [ref=e2316] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/managed-cloud-self-service/home.htm
+                - generic [ref=e2317]: Managed Cloud Self Service Platform
+                - button "Open" [ref=e2318]:
+                  - img [ref=e2319]
+            - listitem [ref=e2321]:
+              - link "Managed Services for Mac Open" [ref=e2322] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/managed-mac/home.htm
+                - generic [ref=e2323]: Managed Services for Mac
+                - button "Open" [ref=e2324]:
+                  - img [ref=e2325]
+            - listitem [ref=e2327]:
+              - link "Management Agent Open" [ref=e2328] [cursor=pointer]:
+                - /url: /en-us/iaas/management-agents/home.htm
+                - generic [ref=e2329]: Management Agent
+                - button "Open" [ref=e2330]:
+                  - img [ref=e2331]
+            - listitem [ref=e2333]:
+              - link "Management Dashboard Open" [ref=e2334] [cursor=pointer]:
+                - /url: /en-us/iaas/management-dashboard/home.htm
+                - generic [ref=e2335]: Management Dashboard
+                - button "Open" [ref=e2336]:
+                  - img [ref=e2337]
+            - listitem [ref=e2339]:
+              - link "Media Services Open" [ref=e2340] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/media-services/home.htm
+                - generic [ref=e2341]: Media Services
+                - button "Open" [ref=e2342]:
+                  - img [ref=e2343]
+            - listitem [ref=e2345]:
+              - link "Monitoring Open" [ref=e2346] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Monitoring/home.htm
+                - generic [ref=e2347]: Monitoring
+                - button "Open" [ref=e2348]:
+                  - img [ref=e2349]
+            - listitem [ref=e2351]:
+              - link "MySQL HeatWave Open" [ref=e2352] [cursor=pointer]:
+                - /url: /en-us/iaas/mysql-database/home.htm
+                - generic [ref=e2353]: MySQL HeatWave
+                - button "Open" [ref=e2354]:
+                  - img [ref=e2355]
+            - listitem [ref=e2357]:
+              - link "Network Firewall Open" [ref=e2358] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/network-firewall/home.htm
+                - generic [ref=e2359]: Network Firewall
+                - button "Open" [ref=e2360]:
+                  - img [ref=e2361]
+            - listitem [ref=e2363]:
+              - link "Network Load Balancer Open" [ref=e2364] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/NetworkLoadBalancer/home.htm
+                - generic [ref=e2365]: Network Load Balancer
+                - button "Open" [ref=e2366]:
+                  - img [ref=e2367]
+            - listitem [ref=e2369]:
+              - link "Networking Open" [ref=e2370] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Network/Concepts/landing.htm
+                - generic [ref=e2371]: Networking
+                - button "Open" [ref=e2372]:
+                  - img [ref=e2373]
+            - listitem [ref=e2375]:
+              - link "NoSQL Database" [ref=e2376] [cursor=pointer]:
+                - /url: /en-us/iaas/nosql-database/index.html
+                - generic [ref=e2377]: NoSQL Database
+            - listitem [ref=e2378]:
+              - link "Notifications Open" [ref=e2379] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Notification/home.htm
+                - generic [ref=e2380]: Notifications
+                - button "Open" [ref=e2381]:
+                  - img [ref=e2382]
+            - listitem [ref=e2384]:
+              - link "Object Storage Open" [ref=e2385] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Object/home.htm
+                - generic [ref=e2386]: Object Storage
+                - button "Open" [ref=e2387]:
+                  - img [ref=e2388]
+            - listitem [ref=e2390]:
+              - link "OCI Cache Open" [ref=e2391] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/ocicache/home.htm
+                - generic [ref=e2392]: OCI Cache
+                - button "Open" [ref=e2393]:
+                  - img [ref=e2394]
+            - listitem [ref=e2396]:
+              - link "OCI Control Center Open" [ref=e2397] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/control-center/home.htm
+                - generic [ref=e2398]: OCI Control Center
+                - button "Open" [ref=e2399]:
+                  - img [ref=e2400]
+            - listitem [ref=e2402]:
+              - link "OCI Database with PostgreSQL Open" [ref=e2403] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/postgresql/home.htm
+                - generic [ref=e2404]: OCI Database with PostgreSQL
+                - button "Open" [ref=e2405]:
+                  - img [ref=e2406]
+            - listitem [ref=e2408]:
+              - link "OpenShift Container Platform on OCI Open" [ref=e2409] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/openshift-on-oci/overview.htm
+                - generic [ref=e2410]: OpenShift Container Platform on OCI
+                - button "Open" [ref=e2411]:
+                  - img [ref=e2412]
+            - listitem [ref=e2414]:
+              - link "Ops Insights Open" [ref=e2415] [cursor=pointer]:
+                - /url: /en-us/iaas/operations-insights/home.htm
+                - generic [ref=e2416]: Ops Insights
+                - button "Open" [ref=e2417]:
+                  - img [ref=e2418]
+            - listitem [ref=e2420]:
+              - link "Oracle APEX Application Development" [ref=e2421] [cursor=pointer]:
+                - /url: /en-us/iaas/apex/index.html
+                - generic [ref=e2422]: Oracle APEX Application Development
+            - listitem [ref=e2423]:
+              - link "Oracle Cloud Migrations Open" [ref=e2424] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/cloud-migration/home.htm
+                - generic [ref=e2425]: Oracle Cloud Migrations
+                - button "Open" [ref=e2426]:
+                  - img [ref=e2427]
+            - listitem [ref=e2429]:
+              - link "Oracle Linux Open" [ref=e2430] [cursor=pointer]:
+                - /url: /en-us/iaas/oracle-linux/home.htm
+                - generic [ref=e2431]: Oracle Linux
+                - button "Open" [ref=e2432]:
+                  - img [ref=e2433]
+            - listitem [ref=e2435]:
+              - link "OS Management Hub Open" [ref=e2436] [cursor=pointer]:
+                - /url: /en-us/iaas/osmh/doc/home.htm
+                - generic [ref=e2437]: OS Management Hub
+                - button "Open" [ref=e2438]:
+                  - img [ref=e2439]
+            - listitem [ref=e2441]:
+              - link "Private Cloud Appliance Open" [ref=e2442] [cursor=pointer]:
+                - /url: /en-us/iaas/private-cloud-appliance/pca/home.htm
+                - generic [ref=e2443]: Private Cloud Appliance
+                - button "Open" [ref=e2444]:
+                  - img [ref=e2445]
+            - listitem [ref=e2447]:
+              - link "Process Automation Open" [ref=e2448] [cursor=pointer]:
+                - /url: /en-us/iaas/process-automation/index.html
+                - generic [ref=e2449]: Process Automation
+                - button "Open" [ref=e2450]:
+                  - img [ref=e2451]
+            - listitem [ref=e2453]:
+              - link "Pulse Open" [ref=e2454] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/pulse/home.htm
+                - generic [ref=e2455]: Pulse
+                - button "Open" [ref=e2456]:
+                  - img [ref=e2457]
+            - listitem [ref=e2459]:
+              - link "Queue Open" [ref=e2460] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/queue/home.htm
+                - generic [ref=e2461]: Queue
+                - button "Open" [ref=e2462]:
+                  - img [ref=e2463]
+            - listitem [ref=e2465]:
+              - link "Resource Analytics Open" [ref=e2466] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/resource-analytics/home.htm
+                - generic [ref=e2467]: Resource Analytics
+                - button "Open" [ref=e2468]:
+                  - img [ref=e2469]
+            - listitem [ref=e2471]:
+              - link "Resource Manager Open" [ref=e2472] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/ResourceManager/home.htm
+                - generic [ref=e2473]: Resource Manager
+                - button "Open" [ref=e2474]:
+                  - img [ref=e2475]
+            - listitem [ref=e2477]:
+              - link "Resource Scheduler Open" [ref=e2478] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/resource-scheduler/home.htm
+                - generic [ref=e2479]: Resource Scheduler
+                - button "Open" [ref=e2480]:
+                  - img [ref=e2481]
+            - listitem [ref=e2483]:
+              - link "Roving Edge Classic Open" [ref=e2484] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Rover/home.htm
+                - generic [ref=e2485]: Roving Edge Classic
+                - button "Open" [ref=e2486]:
+                  - img [ref=e2487]
+            - listitem [ref=e2489]:
+              - link "Roving Edge Infrastructure Open" [ref=e2490] [cursor=pointer]:
+                - /url: /en-us/iaas/roving-edge-infrastructure/rvr/home.htm
+                - generic [ref=e2491]: Roving Edge Infrastructure
+                - button "Open" [ref=e2492]:
+                  - img [ref=e2493]
+            - listitem [ref=e2495]:
+              - link "Search Open" [ref=e2496] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Search/home.htm
+                - generic [ref=e2497]: Search
+                - button "Open" [ref=e2498]:
+                  - img [ref=e2499]
+            - listitem [ref=e2501]:
+              - link "Search with OpenSearch Open" [ref=e2502] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/search-opensearch/home.htm
+                - generic [ref=e2503]: Search with OpenSearch
+                - button "Open" [ref=e2504]:
+                  - img [ref=e2505]
+            - listitem [ref=e2507]:
+              - link "Secret Management Service Open" [ref=e2508] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/secret-management/home.htm
+                - generic [ref=e2509]: Secret Management Service
+                - button "Open" [ref=e2510]:
+                  - img [ref=e2511]
+            - listitem [ref=e2513]:
+              - link "Secure Desktops Open" [ref=e2514] [cursor=pointer]:
+                - /url: /en-us/iaas/secure-desktops/home.htm
+                - generic [ref=e2515]: Secure Desktops
+                - button "Open" [ref=e2516]:
+                  - img [ref=e2517]
+            - listitem [ref=e2519]:
+              - link "Security Advisor Open" [ref=e2520] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/SecurityAdvisor/home.htm
+                - generic [ref=e2521]: Security Advisor
+                - button "Open" [ref=e2522]:
+                  - img [ref=e2523]
+            - listitem [ref=e2525]:
+              - link "Security Zones Open" [ref=e2526] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/security-zone/home.htm
+                - generic [ref=e2527]: Security Zones
+                - button "Open" [ref=e2528]:
+                  - img [ref=e2529]
+            - listitem [ref=e2531]:
+              - link "Speech Open" [ref=e2532] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/speech/home.htm
+                - generic [ref=e2533]: Speech
+                - button "Open" [ref=e2534]:
+                  - img [ref=e2535]
+            - listitem [ref=e2537]:
+              - link "Stack Monitoring Open" [ref=e2538] [cursor=pointer]:
+                - /url: /en-us/iaas/stack-monitoring/home.htm
+                - generic [ref=e2539]: Stack Monitoring
+                - button "Open" [ref=e2540]:
+                  - img [ref=e2541]
+            - listitem [ref=e2543]:
+              - link "Streaming Open" [ref=e2544] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Streaming/home.htm
+                - generic [ref=e2545]: Streaming
+                - button "Open" [ref=e2546]:
+                  - img [ref=e2547]
+            - listitem [ref=e2549]:
+              - link "Streaming with Apache Kafka Open" [ref=e2550] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/kafka/home.htm
+                - generic [ref=e2551]: Streaming with Apache Kafka
+                - button "Open" [ref=e2552]:
+                  - img [ref=e2553]
+            - listitem [ref=e2555]:
+              - link "Tagging Open" [ref=e2556] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/Tagging/home.htm
+                - generic [ref=e2557]: Tagging
+                - button "Open" [ref=e2558]:
+                  - img [ref=e2559]
+            - listitem [ref=e2561]:
+              - link "Threat Intelligence Open" [ref=e2562] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/threat-intel/home.htm
+                - generic [ref=e2563]: Threat Intelligence
+                - button "Open" [ref=e2564]:
+                  - img [ref=e2565]
+            - listitem [ref=e2567]:
+              - link "Vault Open" [ref=e2568] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/KeyManagement/home.htm
+                - generic [ref=e2569]: Vault
+                - button "Open" [ref=e2570]:
+                  - img [ref=e2571]
+            - listitem [ref=e2573]:
+              - link "Vision Open" [ref=e2574] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/vision/using/home.htm
+                - generic [ref=e2575]: Vision
+                - button "Open" [ref=e2576]:
+                  - img [ref=e2577]
+            - listitem [ref=e2579]:
+              - link "Visual Builder Open" [ref=e2580] [cursor=pointer]:
+                - /url: /en-us/iaas/visual-builder/index.html
+                - generic [ref=e2581]: Visual Builder
+                - button "Open" [ref=e2582]:
+                  - img [ref=e2583]
+            - listitem [ref=e2585]:
+              - link "Visual Builder Studio Open" [ref=e2586] [cursor=pointer]:
+                - /url: /en-us/iaas/visual-builder-studio/index.html
+                - generic [ref=e2587]: Visual Builder Studio
+                - button "Open" [ref=e2588]:
+                  - img [ref=e2589]
+            - listitem [ref=e2591]:
+              - link "VMware Solution Open" [ref=e2592] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/VMware/home.htm
+                - generic [ref=e2593]: VMware Solution
+                - button "Open" [ref=e2594]:
+                  - img [ref=e2595]
+            - listitem [ref=e2597]:
+              - link "Vulnerability Scanning Open" [ref=e2598] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/scanning/home.htm
+                - generic [ref=e2599]: Vulnerability Scanning
+                - button "Open" [ref=e2600]:
+                  - img [ref=e2601]
+            - listitem [ref=e2603]:
+              - link "Web Application Acceleration Open" [ref=e2604] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/web-app-acceleration/home.htm
+                - generic [ref=e2605]: Web Application Acceleration
+                - button "Open" [ref=e2606]:
+                  - img [ref=e2607]
+            - listitem [ref=e2609]:
+              - link "Web Application Firewall Open" [ref=e2610] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/WAF/home.htm
+                - generic [ref=e2611]: Web Application Firewall
+                - button "Open" [ref=e2612]:
+                  - img [ref=e2613]
+            - listitem [ref=e2615]:
+              - link "WebLogic Management Open" [ref=e2616] [cursor=pointer]:
+                - /url: /en-us/iaas/wlms/home.htm
+                - generic [ref=e2617]: WebLogic Management
+                - button "Open" [ref=e2618]:
+                  - img [ref=e2619]
+            - listitem [ref=e2621]:
+              - link "Zero Trust Packet Routing Open" [ref=e2622] [cursor=pointer]:
+                - /url: /en-us/iaas/Content/zero-trust-packet-routing/home.htm
+                - generic [ref=e2623]: Zero Trust Packet Routing
+                - button "Open" [ref=e2624]:
+                  - img [ref=e2625]
+        - listitem [ref=e2627]:
+          - link "Developer Resources Open" [ref=e2628] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/devtoolshome.htm
+            - generic [ref=e2629]: Developer Resources
+            - button "Open" [ref=e2630]:
+              - img [ref=e2631]
+        - listitem [ref=e2633]:
+          - link "Security Open" [ref=e2634] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/Security/Concepts/security.htm
+            - generic [ref=e2635]: Security
+            - button "Open" [ref=e2636]:
+              - img [ref=e2637]
+        - listitem [ref=e2639]:
+          - link "Marketplace Open" [ref=e2640] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/Marketplace/home.htm
+            - generic [ref=e2641]: Marketplace
+            - button "Open" [ref=e2642]:
+              - img [ref=e2643]
+        - listitem [ref=e2645]:
+          - link "More Resources Open" [ref=e2646] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/General/Reference/more.htm
+            - generic [ref=e2647]: More Resources
+            - button "Open" [ref=e2648]:
+              - img [ref=e2649]
+        - listitem [ref=e2651]:
+          - link "Glossary" [ref=e2652] [cursor=pointer]:
+            - /url: /en-us/iaas/Content/libraries/glossary/glossary-intro.htm
+            - generic [ref=e2653]: Glossary
+        - listitem [ref=e2654]:
+          - link "Oracle Cloud Console" [ref=e2655] [cursor=pointer]:
+            - /url: https://cloud.oracle.com/
+            - generic [ref=e2656]: Oracle Cloud Console
+  - contentinfo [ref=e2657]:
+    - list [ref=e2659]:
+      - listitem [ref=e2660]:
+        - generic [ref=e2661]: Copyright © 2026, Oracle and/or its affiliates.
+      - listitem [ref=e2662]:
+        - link "About Oracle" [ref=e2663] [cursor=pointer]:
+          - /url: https://www.oracle.com/corporate/index.html
+      - listitem [ref=e2664]:
+        - link "Contact Us" [ref=e2665] [cursor=pointer]:
+          - /url: https://www.oracle.com/corporate/contact/index.html
+      - listitem [ref=e2666]:
+        - link "Legal Notices" [ref=e2667] [cursor=pointer]:
+          - /url: /iaas/Content/legalnotices.htm
+      - listitem [ref=e2668]:
+        - link "Terms of Use & Privacy" [ref=e2669] [cursor=pointer]:
+          - /url: https://www.oracle.com/legal/privacy/
+      - listitem [ref=e2670]:
+        - link "Document Conventions" [ref=e2671] [cursor=pointer]:
+          - /url: /iaas/Content/General/Reference/docconventions.htm
+      - listitem [ref=e2672]:
+        - complementary "Open Cookie Preferences Modal" [ref=e2673]:
+          - link "Cookie Preferences, opens a dedicated popup modal window" [ref=e2674] [cursor=pointer]: Cookie Preferences
+  - generic [ref=e2676]:
+    - dialog "Your choices regarding the use of cookies on this site":
+      - img "Loading ..." [ref=e2678]

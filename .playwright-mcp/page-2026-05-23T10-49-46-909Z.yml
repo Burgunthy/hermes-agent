@@ -1,0 +1,190 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-container"
+    - banner [ref=e4]:
+      - link "logo" [ref=e6] [cursor=pointer]:
+        - /url: https://cornell.edu/
+        - img "logo" [ref=e7]
+      - paragraph [ref=e9]:
+        - generic [ref=e10]:
+          - text: We gratefully acknowledge support from
+          - text: the Simons Foundation,
+          - link "member institutions" [ref=e11] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/ourmembers.html
+          - text: ", and all contributors."
+          - link "Donate" [ref=e12] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/donate.html
+    - generic [ref=e13]:
+      - link "arxiv-logo" [ref=e16] [cursor=pointer]:
+        - /url: https://arxiv.org/
+        - img "logo" [ref=e17]
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - textbox "Search term or terms" [ref=e22]:
+            - /placeholder: Search...
+          - paragraph [ref=e23]:
+            - link "Help" [ref=e24] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+            - text: "|"
+            - link "Advanced Search" [ref=e25] [cursor=pointer]:
+              - /url: https://arxiv.org/search/advanced
+        - combobox "Field to search" [ref=e28] [cursor=pointer]:
+          - option "All fields" [selected]
+          - option "Title"
+          - option "Author"
+          - option "Abstract"
+          - option "Comments"
+          - option "Journal reference"
+          - option "ACM classification"
+          - option "MSC classification"
+          - option "Report number"
+          - option "arXiv identifier"
+          - option "DOI"
+          - option "ORCID"
+          - option "arXiv author ID"
+          - option "Help pages"
+          - option "Full text"
+        - button "Search" [ref=e29] [cursor=pointer]
+    - navigation "User menu" [ref=e31]:
+      - link "Login" [ref=e32] [cursor=pointer]:
+        - /url: https://arxiv.org/login
+  - main [ref=e33]:
+    - generic [ref=e34]:
+      - 'heading "Showing 1–1 of 1 results for all: \"without tactile\" \"dexterous\" \"reinforcement\"" [level=1] [ref=e36]'
+      - link "Search v0.5.6 released 2020-02-24" [ref=e39] [cursor=pointer]:
+        - /url: https://github.com/arXiv/arxiv-search/releases
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic: Search term or terms
+            - textbox "Search term or terms" [ref=e44]:
+              - /placeholder: Search term...
+              - text: "\"without tactile\" \"dexterous\" \"reinforcement\""
+          - combobox "Field" [ref=e46] [cursor=pointer]:
+            - option "All fields" [selected]
+            - option "Title"
+            - option "Author(s)"
+            - option "Abstract"
+            - option "Comments"
+            - option "Journal reference"
+            - option "ACM classification"
+            - option "MSC classification"
+            - option "Report number"
+            - option "arXiv identifier"
+            - option "DOI"
+            - option "ORCID"
+            - option "License (URI)"
+            - option "arXiv author ID"
+            - option "Help pages"
+            - option "Full text"
+          - button "Search" [ref=e48] [cursor=pointer]
+        - generic [ref=e50]:
+          - generic [ref=e51] [cursor=pointer]:
+            - radio "Show abstracts Show abstracts" [checked] [ref=e52]
+            - text: Show abstracts
+          - generic [ref=e53] [cursor=pointer]:
+            - radio "Hide abstracts Hide abstracts" [ref=e54]
+            - text: Hide abstracts
+        - link "Advanced Search" [ref=e57] [cursor=pointer]:
+          - /url: /search/advanced?terms-0-term=%22without+tactile%22+%22dexterous%22+%22reinforcement%22&terms-0-field=all&size=50&order=-announced_date_first
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - combobox "results per page" [ref=e64] [cursor=pointer]:
+            - option "25"
+            - option "50" [selected]
+            - option "100"
+            - option "200"
+          - text: results per page.
+        - generic [ref=e65]:
+          - text: Sort results by
+          - combobox "Sort results by" [ref=e67] [cursor=pointer]:
+            - option "Announcement date (newest first)" [selected]
+            - option "Announcement date (oldest first)"
+            - option "Submission date (newest first)"
+            - option "Submission date (oldest first)"
+            - option "Relevance"
+        - button "Go" [ref=e69] [cursor=pointer]
+      - list [ref=e70]:
+        - listitem [ref=e71]:
+          - generic [ref=e72]:
+            - paragraph [ref=e73]:
+              - link "arXiv:2309.12300" [ref=e74] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2309.12300
+              - generic [ref=e75]:
+                - text: "["
+                - link "pdf" [ref=e76] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2309.12300
+                - text: ","
+                - link "other" [ref=e77] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2309.12300
+                - text: "]"
+            - generic [ref=e78]:
+              - generic [ref=e79]: cs.RO
+              - generic [ref=e80]: cs.AI
+              - generic [ref=e81]: cs.CV
+              - generic [ref=e82]: cs.LG
+          - paragraph [ref=e83]: "See to Touch: Learning Tactile Dexterity through Visual Incentives"
+          - paragraph [ref=e84]:
+            - text: "Authors:"
+            - link "Irmak Guzey" [ref=e85] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Guzey%2C+I
+            - text: ","
+            - link "Yinlong Dai" [ref=e86] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Dai%2C+Y
+            - text: ","
+            - link "Ben Evans" [ref=e87] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Evans%2C+B
+            - text: ","
+            - link "Soumith Chintala" [ref=e88] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Chintala%2C+S
+            - text: ","
+            - link "Lerrel Pinto" [ref=e89] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Pinto%2C+L
+          - paragraph [ref=e90]:
+            - text: "Abstract:"
+            - generic [ref=e91]: Equipping multi-fingered robots with tactile sensing is crucial for achieving the precise, contact-rich, and dexterous manipulation that humans excel at. However, relying solely on tactile sensing fails to provide adequate cues for reasoning about objects' spatial configurations, limiting the ability to correct errors and adapt to changing situations. In… ▽ More
+          - paragraph [ref=e92]: Submitted 21 September, 2023; originally announced September 2023.
+  - contentinfo [ref=e93]:
+    - navigation "Secondary" [ref=e94]:
+      - generic [ref=e96]:
+        - list [ref=e98]:
+          - listitem [ref=e99]:
+            - link "About" [ref=e100] [cursor=pointer]:
+              - /url: https://info.arxiv.org/about
+          - listitem [ref=e101]:
+            - link "Help" [ref=e102] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+        - list [ref=e104]:
+          - listitem [ref=e105]:
+            - link "Contact" [ref=e107] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/contact.html
+          - listitem [ref=e108]:
+            - link "Subscribe" [ref=e110] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/subscribe
+      - generic [ref=e112]:
+        - list [ref=e114]:
+          - listitem [ref=e115]:
+            - link "Copyright" [ref=e116] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/license/index.html
+          - listitem [ref=e117]:
+            - link "Privacy Policy" [ref=e118] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/policies/privacy_policy.html
+        - list [ref=e120]:
+          - listitem [ref=e121]:
+            - link "Web Accessibility Assistance" [ref=e122] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/web_accessibility.html
+          - listitem [ref=e123]:
+            - paragraph [ref=e124]:
+              - link "arXiv Operational Status" [ref=e125] [cursor=pointer]:
+                - /url: https://status.arxiv.org
+                - text: arXiv Operational Status
+              - text: Get status notifications via
+              - link "email" [ref=e127] [cursor=pointer]:
+                - /url: https://subscribe.sorryapp.com/24846f03/email/new
+                - text: email
+              - text: or
+              - link "slack" [ref=e129] [cursor=pointer]:
+                - /url: https://subscribe.sorryapp.com/24846f03/slack/new
+                - text: slack

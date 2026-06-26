@@ -1,0 +1,224 @@
+- main [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - link [ref=e8] [cursor=pointer]:
+          - /url: https://news.ycombinator.com
+          - img [ref=e9]
+        - link "Search Hacker News" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e11]:
+            - text: Search
+            - text: Hacker News
+      - generic [ref=e12]:
+        - generic:
+          - img
+        - searchbox "Search stories by title, url or author" [ref=e13]: rdlx model
+        - generic [ref=e14]:
+          - generic: Search by
+          - link "Algolia Logo" [ref=e15] [cursor=pointer]:
+            - /url: https://www.algolia.com/developers/?utm_source=hackernews&utm_medium=referral
+            - img "Algolia Logo" [ref=e16]
+      - link [ref=e18] [cursor=pointer]:
+        - /url: /settings
+        - img [ref=e19]
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]: Search
+          - combobox "Stories" [ref=e26]:
+            - generic [ref=e27] [cursor=pointer]:
+              - text: Stories
+              - img [ref=e28]
+        - generic [ref=e30]:
+          - generic [ref=e31]: by
+          - combobox "Popularity" [ref=e32]:
+            - generic [ref=e33] [cursor=pointer]:
+              - text: Popularity
+              - img [ref=e34]
+        - generic [ref=e36]:
+          - generic [ref=e37]: for
+          - combobox "All time" [ref=e38]:
+            - generic [ref=e39] [cursor=pointer]:
+              - text: All time
+              - img [ref=e40]
+      - generic [ref=e42]:
+        - paragraph [ref=e43]: 5 results (0.013 seconds)
+        - combobox [ref=e45]:
+          - img [ref=e47] [cursor=pointer]
+    - generic [ref=e54]:
+      - article [ref=e55]:
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - link "Tesla Model S For $500 Per Month? No. Just No." [ref=e59] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=5506217
+              - generic [ref=e60]:
+                - text: Tesla
+                - emphasis [ref=e61]: Model
+                - text: S For $500 Per Month? No. Just No.
+            - link "(http://www.motorauthority.com/news/1083324_tesla-model-s-for-500-per-month-no-just-no)" [ref=e62] [cursor=pointer]:
+              - /url: http://www.motorauthority.com/news/1083324_tesla-model-s-for-500-per-month-no-just-no
+              - text: (http://www.motorauthority.com/news/1083324_tesla-
+              - emphasis [ref=e63]: model
+              - text: "-s-for-500-per-month-no-just-no)"
+          - generic [ref=e64]:
+            - link "10 points" [ref=e66] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=5506217
+            - text: "|"
+            - link "rdl" [ref=e68] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=rdl
+              - emphasis [ref=e70]: rdl
+            - text: "|"
+            - link "13 years ago" [ref=e72] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=5506217
+            - text: "|"
+            - link "2 comments" [ref=e74] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=5506217
+      - article [ref=e75]:
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - link "Woman Who’s Created the 21st Century Finance Model for Emerging Technologies" [ref=e79] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=11800869
+              - generic [ref=e80]:
+                - text: Woman Who’s Created the 21st Century Finance
+                - emphasis [ref=e81]: Model
+                - text: for Emerging Technologies
+            - link "(https://medium.com/the-internet-of-women/meet-the-woman-whos-created-the-21st-century-finance-model-for-emerging-technologies-6eb242b41f9c#.h2bk592c7)" [ref=e82] [cursor=pointer]:
+              - /url: https://medium.com/the-internet-of-women/meet-the-woman-whos-created-the-21st-century-finance-model-for-emerging-technologies-6eb242b41f9c#.h2bk592c7
+              - text: (https://medium.com/the-internet-of-women/meet-the-woman-whos-created-the-21st-century-finance-
+              - emphasis [ref=e83]: model
+              - text: "-for-emerging-technologies-6eb242b41f9c#.h2bk592c7)"
+          - generic [ref=e84]:
+            - link "3 points" [ref=e86] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=11800869
+            - text: "|"
+            - link "rdl" [ref=e88] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=rdl
+              - emphasis [ref=e90]: rdl
+            - text: "|"
+            - link "10 years ago" [ref=e92] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=11800869
+            - text: "|"
+            - link "0 comments" [ref=e94] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=11800869
+      - article [ref=e95]:
+        - generic [ref=e97]:
+          - generic [ref=e98]:
+            - link "Pseudo-Programmer Model 100 Review" [ref=e99] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=33383328
+              - generic [ref=e100]:
+                - text: Pseudo-Programmer
+                - emphasis [ref=e101]: Model
+                - text: 100 Review
+            - link "(https://www.thelis.org/blog/model100)" [ref=e102] [cursor=pointer]:
+              - /url: https://www.thelis.org/blog/model100
+          - generic [ref=e103]:
+            - link "1 points" [ref=e105] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=33383328
+            - text: "|"
+            - link "rdli" [ref=e107] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=rdli
+              - emphasis [ref=e109]: rdli
+            - text: "|"
+            - link "4 years ago" [ref=e111] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=33383328
+            - text: "|"
+            - link "0 comments" [ref=e113] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=33383328
+      - article [ref=e114]:
+        - generic [ref=e116]:
+          - 'link "Launch HN: Release (YC W20) – Staging environments made easy" [ref=e118] [cursor=pointer]':
+            - /url: https://news.ycombinator.com/item?id=22486031
+          - generic [ref=e119]:
+            - link "150 points" [ref=e121] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=22486031
+            - text: "|"
+            - link "tommy_mcclung" [ref=e123] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=tommy_mcclung
+            - text: "|"
+            - link "6 years ago" [ref=e125] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=22486031
+            - text: "|"
+            - link "63 comments" [ref=e127] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=22486031
+            - generic [ref=e129]:
+              - text: Hey everyone, we’re Tommy, David and Erik, co-founders of Release. (
+              - link "https://www.releaseapp.io" [ref=e130] [cursor=pointer]:
+                - /url: https://www.releaseapp.io
+              - text: ). Release makes staging environments easy by automatically generating an ephemeral environment for every Pull Request.
+              - paragraph [ref=e131]:
+                - text: David, Erik and I have worked together for almost 20 years starting with Erik and I meeting each other at an Internship right out of college. We met David in about 2003 when we were all working for
+                - emphasis [ref=e132]: RLX
+                - text: Technologies, which was one of the original blade server companies. Our early days were focused on systems management problems before VM’s were widely used. Interestingly enough a lot of the systems problems we are facing today are similar to the problems faced back then, just abstracted a few levels. Staging environments were hard then and they are hard now.
+              - paragraph [ref=e133]: Since then, we’ve all pretty much stuck together, including co-founding IMSafer (detection of inappropriate conversations online for parents) together in 2006. David did take a break from us along the way as he became one of the early engineers at Etsy where he got a new perspective on systems challenges while Erik and I founded CarWoo! (YCS09 - online car buying made easy). David eventually made his way to CarWoo! and rejoined Erik and I after 4 years at Etsy where he was responsible for their search infrastructure and was involved in their DevOps systems. CarWoo! eventually was acqui-hired by TrueCar in 2014. We stayed on as the technology leadership team there for 5 years and led a major replatforming project that solved environments and enabled developers to iterate quickly.
+              - paragraph [ref=e134]: Throughout our careers in doing systems engineering, starting companies, and being in and around technology there has been a universal difficulty in building environments that represent production and actually aid in getting work done vs being a bottleneck. As we’ve explored this problem with early customers, we’re getting similar feedback that’s reinforced our excitement to solve this problem.
+              - paragraph [ref=e135]: We’re hearing some common themes as we talk with customers. Teams with just one or few staging environments have a big bottleneck in their process and can’t get product delivered as quickly as they’d like. The drift between production and the few staging environments a team may have is a problem. A lack of environments causes stakeholders to be out of the loop until really late in the development cycle and rework costs are high.
+              - paragraph [ref=e136]: Engineering leaders are telling us how expensive in time, money and distraction away from core company objectives it will be to focus on this effort. Many times this is the reason this project (building a more flexible staging environment solutions) sits in the backlog and teams are just living with suboptimal velocity. Leaders that have invested in building an in-house solution have told us how complicated building it has been and aren’t happy that they’ve had to dedicate resources to this versus solving customer problems directly.
+              - paragraph [ref=e137]: It’s not all bad though, as companies who have actually built and are maintaining adequate environment infrastructure have a distinct advantage in speed of delivery of complex applications. They are moving faster and that speed is a distinct advantage over companies without this capability. However, the cost of building this infrastructure is generally prohibitively high unless you’ve raised a lot of money or your application is extremely simple.
+              - paragraph [ref=e138]: We’ve solved staging environments at every company we’ve started or been a part of throughout our careers and it’s always been the key to enabling us to move fast. We’ve learned that if developers have their own staging environment automatically created on every Pull Request, they can move incredibly fast. They are free to experiment, they can share work-in-progress changes with stakeholders early and they aren’t waiting for resources to free up to get their work done. We’ve seen ideas come alive while they were being built which has allowed them to iterate faster with more feedback and less rework.
+              - paragraph [ref=e139]: We decided to build Release after spending countless hours talking about our experiences in our careers and when we’ve been the happiest at work. We’ve seen how powerful technology teams can be when they have enabling platforms at their disposal and how hard it can be when they don’t. We’ve always taken pride in making developers happy and more efficient. Release is the perfect avenue to solve a really big problem AND do work we love, that makes us happy.
+              - paragraph [ref=e140]: As we started thinking about building Release, we leaned into the technology we were already familiar with, Docker, docker-compose, AWS and used that as our starting point. We felt that adding Kubernetes to the equation gave us a way to create these environments in a generic way where almost any application would run. We’ve tackled some complex environments for our early customers with lots of services and the interdependencies between them, including cloud native dependencies. Our ability to tackle complex environments has given us hope that the right technologies have emerged that make this possible now.
+              - paragraph [ref=e141]: As we started exploring the idea, we knew Docker and containers were the baseline and we liked the starting point that docker-compose offered for running applications and defining environments. If you have a docker-compose we can run environments for you. We take that docker-compose and compile it into an application/environment definition (release.yml) that we automatically generate. Think of this as an abstraction that sits in between docker-compose and Kubernetes that gives you flexibility to define environments and resources that meet your needs.
+              - paragraph [ref=e142]: From the application definition in the release.yml and your docker-compose we automatically generate all of the Kubernetes yaml files to run your environments. As a customer, you don’t need to know anything about K8’s. Whenever you do a PR we automatically generate all that’s needed to deploy and run your environment in K8’s. We’re interested to hear how much access customers would want to the raw K8’s ecosystem. To date we’ve had the opinion that customers shouldn’t have to deal with it, but would love to hear HN’s opinions on this.
+              - paragraph [ref=e143]:
+                - text: If you’d like to give it a shot, request access at
+                - link "https://www.releaseapp.io" [ref=e144] [cursor=pointer]:
+                  - /url: https://www.releaseapp.io
+                - text: We’d love to have you! We’ve tried to keep the
+                - emphasis [ref=e145]: model
+                - text: simple and just charge a fee for the number environments created each month by our users.
+              - paragraph [ref=e146]: We’d love to hear your feedback. We’d also love to hear about how companies are handling this problem today. Your feedback is incredibly important to us, we know the HN community has a really unique perspective and appreciate you reading our launch post and making it this far in our launch story!
+      - article [ref=e147]:
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - 'link "Engineering Reasoning LLMs: Notes and Observations" [ref=e151] [cursor=pointer]':
+              - /url: https://news.ycombinator.com/item?id=43332234
+            - link "(https://www.thelis.org/blog/reasoning-model-notes)" [ref=e152] [cursor=pointer]:
+              - /url: https://www.thelis.org/blog/reasoning-model-notes
+              - text: (https://www.thelis.org/blog/reasoning-
+              - emphasis [ref=e153]: model
+              - text: "-notes)"
+          - generic [ref=e154]:
+            - link "6 points" [ref=e156] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=43332234
+            - text: "|"
+            - link "rdli" [ref=e158] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/user?id=rdli
+              - emphasis [ref=e160]: rdli
+            - text: "|"
+            - link "1 year ago" [ref=e162] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=43332234
+            - text: "|"
+            - link "0 comments" [ref=e164] [cursor=pointer]:
+              - /url: https://news.ycombinator.com/item?id=43332234
+    - list [ref=e165]:
+      - listitem [ref=e166]:
+        - button "1" [ref=e167] [cursor=pointer]
+    - list [ref=e169]:
+      - listitem [ref=e170]:
+        - link "About" [ref=e171] [cursor=pointer]:
+          - /url: /about
+      - listitem [ref=e172]: •
+      - listitem [ref=e173]:
+        - link "Setting" [ref=e174] [cursor=pointer]:
+          - /url: /settings
+      - listitem [ref=e175]: •
+      - listitem [ref=e176]:
+        - link "Help" [ref=e177] [cursor=pointer]:
+          - /url: /help
+      - listitem [ref=e178]: •
+      - listitem [ref=e179]:
+        - link "API Documentation" [ref=e180] [cursor=pointer]:
+          - /url: /api
+      - listitem [ref=e181]: •
+      - listitem [ref=e182]:
+        - link "Hacker News" [ref=e183] [cursor=pointer]:
+          - /url: https://news.ycombinator.com
+      - listitem [ref=e184]: •
+      - listitem [ref=e185]:
+        - link "Fork/Contribute" [ref=e186] [cursor=pointer]:
+          - /url: https://github.com/algolia/hn-search
+      - listitem [ref=e187]: •
+      - listitem [ref=e188]:
+        - link "Cool Apps" [ref=e189] [cursor=pointer]:
+          - /url: /cool_apps

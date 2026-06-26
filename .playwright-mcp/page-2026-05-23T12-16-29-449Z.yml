@@ -1,0 +1,293 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to main content" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - link "Cornell University" [ref=e7] [cursor=pointer]:
+        - /url: https://www.cornell.edu/
+        - img "Cornell University" [ref=e8]
+      - link "Learn about arXiv becoming an independent nonprofit." [ref=e10] [cursor=pointer]:
+        - /url: https://tech.cornell.edu/arxiv/
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - text: We gratefully acknowledge support from the Simons Foundation,
+          - link "member institutions" [ref=e13] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/ourmembers.html
+          - text: ", and all contributors."
+        - link "Donate" [ref=e14] [cursor=pointer]:
+          - /url: https://info.arxiv.org/about/donate.html
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - link "arxiv logo" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img "arxiv logo" [ref=e18]
+        - generic [ref=e19]: ">"
+        - link "physics" [ref=e20] [cursor=pointer]:
+          - /url: /list/physics/recent
+        - generic [ref=e21]: ">"
+        - text: arXiv:2210.06043
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - textbox "Search term or terms" [ref=e26]:
+            - /placeholder: Search...
+          - paragraph [ref=e27]:
+            - link "Help" [ref=e28] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+            - text: "|"
+            - link "Advanced Search" [ref=e29] [cursor=pointer]:
+              - /url: https://arxiv.org/search/advanced
+        - combobox "Field to search" [ref=e31]:
+          - option "All fields" [selected]
+          - option "Title"
+          - option "Author"
+          - option "Abstract"
+          - option "Comments"
+          - option "Journal reference"
+          - option "ACM classification"
+          - option "MSC classification"
+          - option "Report number"
+          - option "arXiv identifier"
+          - option "DOI"
+          - option "ORCID"
+          - option "arXiv author ID"
+          - option "Help pages"
+          - option "Full text"
+        - button "Search" [ref=e32] [cursor=pointer]
+  - main [ref=e33]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - heading "Physics > Fluid Dynamics" [level=1] [ref=e38]
+        - generic [ref=e40]:
+          - generic [ref=e41]: "[Submitted on 12 Oct 2022]"
+          - heading "Predicting the vascular adhesion of deformable drug carriers in narrow capillaries traversed by blood cell" [level=1] [ref=e42]
+          - generic [ref=e43]:
+            - link "A. Coclite" [ref=e44] [cursor=pointer]:
+              - /url: https://arxiv.org/search/physics?searchtype=author&query=Coclite,+A
+            - text: ","
+            - link "G. Pascazio" [ref=e45] [cursor=pointer]:
+              - /url: https://arxiv.org/search/physics?searchtype=author&query=Pascazio,+G
+            - text: ","
+            - link "M. D. de Tullio" [ref=e46] [cursor=pointer]:
+              - /url: https://arxiv.org/search/physics?searchtype=author&query=de+Tullio,+M+D
+            - text: ","
+            - link "P. Decuzzi" [ref=e47] [cursor=pointer]:
+              - /url: https://arxiv.org/search/physics?searchtype=author&query=Decuzzi,+P
+          - blockquote [ref=e48]: "In vascular targeted therapies, blood-borne carriers should realize sustained drug release from the luminal side towards the diseased tissue. In this context, such carriers are required to firmly adhere to the vessel walls for a sufficient period of time while resisting force perturbations induced by the blood flow and circulating cells. Here, a hybrid computational model, combining a Lattice Boltzmann (LBM) and Immersed Boundary Methods (IBM), is proposed for predicting the strength of adhesion of particles in narrow capillaries (7.5 \\mu \\mathrm{m}) traversed by blood cells. While flowing down the capillary, globular and biconcave deformable cells ( 7 \\mu \\mathrm{m} ) encounter 2 \\mu \\mathrm{m} discoidal particles, adhering to the vessel walls. Particles present aspect ratios ranging from 0.25 to 1.0 and a mechanical stiffness varying from rigid (\\mathrm{Ca}=0) to soft \\left(\\mathrm{Ca}=10^{-3}\\right) . Cell-particle interactions are quantitatively predicted over time via three independent parameters: the cell membrane stretching \\delta p ; the cell-to-particle distance r , and the number of engaged ligand-receptor bonds N_{\\mathrm{L}} ."
+          - table "Additional metadata" [ref=e50]:
+            - rowgroup [ref=e51]:
+              - 'row "Comments: arXiv admin note: text overlap with arXiv:1907.00080" [ref=e52]':
+                - cell "Comments:" [ref=e53]
+                - 'cell "arXiv admin note: text overlap with arXiv:1907.00080" [ref=e54]':
+                  - text: "arXiv admin note: text overlap with"
+                  - link "arXiv:1907.00080" [ref=e55] [cursor=pointer]:
+                    - /url: https://arxiv.org/abs/1907.00080
+              - 'row "Subjects: Fluid Dynamics (physics.flu-dyn); Numerical Analysis (math.NA)" [ref=e56]':
+                - cell "Subjects:" [ref=e57]
+                - cell "Fluid Dynamics (physics.flu-dyn); Numerical Analysis (math.NA)" [ref=e58]
+              - 'row "Cite as: arXiv:2210.06043 [physics.flu-dyn]" [ref=e59]':
+                - cell "Cite as:" [ref=e60]
+                - cell "arXiv:2210.06043 [physics.flu-dyn]" [ref=e61]:
+                  - generic [ref=e62]:
+                    - link "arXiv:2210.06043" [ref=e63] [cursor=pointer]:
+                      - /url: https://arxiv.org/abs/2210.06043
+                    - text: "[physics.flu-dyn]"
+              - row "(or arXiv:2210.06043v1 [physics.flu-dyn] for this version)" [ref=e64]:
+                - cell [ref=e65]
+                - cell "(or arXiv:2210.06043v1 [physics.flu-dyn] for this version)" [ref=e66]:
+                  - text: (or
+                  - generic [ref=e67]:
+                    - link "arXiv:2210.06043v1" [ref=e68] [cursor=pointer]:
+                      - /url: https://arxiv.org/abs/2210.06043v1
+                    - text: "[physics.flu-dyn]"
+                  - text: for this version)
+              - row "https://doi.org/10.48550/arXiv.2210.06043 Focus to learn more" [ref=e69]:
+                - cell [ref=e70]
+                - cell "https://doi.org/10.48550/arXiv.2210.06043 Focus to learn more" [ref=e71]:
+                  - link "https://doi.org/10.48550/arXiv.2210.06043" [ref=e72] [cursor=pointer]:
+                    - /url: https://doi.org/10.48550/arXiv.2210.06043
+                  - button "Focus to learn more" [ref=e74]:
+                    - generic [ref=e76]: Focus to learn more
+              - 'row "Journal reference: Journal of Fluid and Structures 82 (2018) 638-650" [ref=e77]':
+                - cell "Journal reference:" [ref=e78]
+                - cell "Journal of Fluid and Structures 82 (2018) 638-650" [ref=e79]
+              - 'row "Related DOI: https://doi.org/10.1016/j.jfluidstructs.2018.08.001 Focus to learn more" [ref=e80]':
+                - cell "Related DOI:" [ref=e81]
+                - cell "https://doi.org/10.1016/j.jfluidstructs.2018.08.001 Focus to learn more" [ref=e82]:
+                  - link "https://doi.org/10.1016/j.jfluidstructs.2018.08.001" [ref=e83] [cursor=pointer]:
+                    - /url: https://doi.org/10.1016/j.jfluidstructs.2018.08.001
+                  - button "Focus to learn more" [ref=e85]:
+                    - generic [ref=e87]: Focus to learn more
+        - generic [ref=e88]:
+          - heading "Submission history" [level=2] [ref=e89]
+          - text: "From: Alessandro Coclite ["
+          - link "view email" [ref=e90] [cursor=pointer]:
+            - /url: /show-email/c3fc2077/2210.06043
+          - text: "]"
+          - strong [ref=e91]: "[v1]"
+          - text: Wed, 12 Oct 2022 09:29:47 UTC (1,112 KB)
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - heading "Access Paper:" [level=2] [ref=e94]
+          - list [ref=e95]:
+            - listitem [ref=e96]:
+              - link "View PDF" [ref=e97] [cursor=pointer]:
+                - /url: /pdf/2210.06043
+            - listitem [ref=e98]:
+              - link "TeX Source" [ref=e99] [cursor=pointer]:
+                - /url: /src/2210.06043
+          - link "view license" [ref=e101] [cursor=pointer]:
+            - /url: http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+        - generic [ref=e102]:
+          - heading "Current browse context:" [level=3] [ref=e103]
+          - generic [ref=e104]: physics.flu-dyn
+          - generic [ref=e105]:
+            - link "< prev" [ref=e107] [cursor=pointer]:
+              - /url: /prevnext?id=2210.06043&function=prev&context=physics.flu-dyn
+            - text: "|"
+            - link "next >" [ref=e109] [cursor=pointer]:
+              - /url: /prevnext?id=2210.06043&function=next&context=physics.flu-dyn
+          - generic [ref=e110]:
+            - link "new" [ref=e111] [cursor=pointer]:
+              - /url: /list/physics.flu-dyn/new
+            - text: "|"
+            - link "recent" [ref=e112] [cursor=pointer]:
+              - /url: /list/physics.flu-dyn/recent
+            - text: "|"
+            - link "2022-10" [ref=e113] [cursor=pointer]:
+              - /url: /list/physics.flu-dyn/2022-10
+          - generic [ref=e114]:
+            - text: "Change to browse by:"
+            - generic [ref=e115]:
+              - link "cs" [ref=e116] [cursor=pointer]:
+                - /url: /abs/2210.06043?context=cs
+              - link "cs.NA" [ref=e117] [cursor=pointer]:
+                - /url: /abs/2210.06043?context=cs.NA
+              - link "math" [ref=e118] [cursor=pointer]:
+                - /url: /abs/2210.06043?context=math
+              - link "math.NA" [ref=e119] [cursor=pointer]:
+                - /url: /abs/2210.06043?context=math.NA
+              - link "physics" [ref=e120] [cursor=pointer]:
+                - /url: /abs/2210.06043?context=physics
+        - generic [ref=e121]:
+          - heading "References & Citations" [level=3] [ref=e122]
+          - list [ref=e123]:
+            - listitem [ref=e124]:
+              - link "NASA ADS" [ref=e125] [cursor=pointer]:
+                - /url: https://ui.adsabs.harvard.edu/abs/arXiv:2210.06043
+            - listitem [ref=e126]:
+              - link "Google Scholar" [ref=e127] [cursor=pointer]:
+                - /url: https://scholar.google.com/scholar_lookup?arxiv_id=2210.06043
+            - listitem [ref=e128]:
+              - link "Semantic Scholar" [ref=e129] [cursor=pointer]:
+                - /url: https://api.semanticscholar.org/arXiv:2210.06043
+        - button "export BibTeX citation" [ref=e131]
+        - generic [ref=e132]:
+          - heading "Bookmark" [level=3] [ref=e134]
+          - link "BibSonomy" [ref=e135] [cursor=pointer]:
+            - /url: http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2210.06043&description=Predicting the vascular adhesion of deformable drug carriers in narrow capillaries traversed by blood cell
+            - img "BibSonomy" [ref=e136]
+          - link "Reddit" [ref=e137] [cursor=pointer]:
+            - /url: https://reddit.com/submit?url=https://arxiv.org/abs/2210.06043&title=Predicting the vascular adhesion of deformable drug carriers in narrow capillaries traversed by blood cell
+            - img "Reddit" [ref=e138]
+      - tablist "arXivLabs tools" [ref=e140]:
+        - radio "Bibliographic Tools" [checked] [ref=e141]
+        - tab "Bibliographic Tools" [selected] [ref=e142] [cursor=pointer]
+        - tabpanel "Bibliographic Tools" [ref=e143]:
+          - heading "Bibliographic and Citation Tools" [level=1] [ref=e144]
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - generic [ref=e148]:
+                - checkbox "Bibliographic Explorer Toggle"
+                - generic [ref=e150]: Bibliographic Explorer Toggle
+              - generic [ref=e151]:
+                - text: Bibliographic Explorer
+                - emphasis [ref=e152]:
+                  - text: (
+                  - link "What is the Explorer?" [ref=e153] [cursor=pointer]:
+                    - /url: https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer
+                  - text: )
+            - generic [ref=e154]:
+              - generic [ref=e156]:
+                - checkbox "Connected Papers"
+                - generic [ref=e158]: Connected Papers Toggle
+              - generic [ref=e159]:
+                - text: Connected Papers
+                - emphasis [ref=e160]:
+                  - text: (
+                  - link "What is Connected Papers?" [ref=e161] [cursor=pointer]:
+                    - /url: https://www.connectedpapers.com/about
+                  - text: )
+            - generic [ref=e162]:
+              - generic [ref=e164]:
+                - checkbox "Litmaps"
+                - generic [ref=e166]: Litmaps Toggle
+              - generic [ref=e167]:
+                - text: Litmaps
+                - emphasis [ref=e168]:
+                  - text: (
+                  - link "What is Litmaps?" [ref=e169] [cursor=pointer]:
+                    - /url: https://www.litmaps.co/
+                  - text: )
+            - generic [ref=e170]:
+              - generic [ref=e172]:
+                - checkbox "scite Smart Citations"
+                - generic [ref=e174]: scite.ai Toggle
+              - generic [ref=e175]:
+                - text: scite Smart Citations
+                - emphasis [ref=e176]:
+                  - text: (
+                  - link "What are Smart Citations?" [ref=e177] [cursor=pointer]:
+                    - /url: https://www.scite.ai/
+                  - text: )
+        - radio "Code, Data, Media" [ref=e181]
+        - tab "Code, Data, Media" [ref=e182] [cursor=pointer]
+        - radio "Demos" [ref=e183]
+        - tab "Demos" [ref=e184] [cursor=pointer]
+        - radio "Related Papers" [ref=e185]
+        - tab "Related Papers" [ref=e186] [cursor=pointer]
+        - radio "About arXivLabs" [ref=e187]
+        - tab "About arXivLabs" [ref=e188] [cursor=pointer]
+      - generic [ref=e189]:
+        - link "Which authors of this paper are endorsers?" [ref=e190] [cursor=pointer]:
+          - /url: /auth/show-endorsers/2210.06043
+        - text: "|"
+        - link "Disable MathJax" [ref=e191] [cursor=pointer]:
+          - /url: javascript:setMathjaxCookie()
+        - text: (
+        - link "What is MathJax?" [ref=e192] [cursor=pointer]:
+          - /url: https://info.arxiv.org/help/mathjax.html
+        - text: )
+  - contentinfo [ref=e193]:
+    - navigation "Secondary" [ref=e194]:
+      - generic [ref=e196]:
+        - list [ref=e198]:
+          - listitem [ref=e199]:
+            - link "About" [ref=e200] [cursor=pointer]:
+              - /url: https://info.arxiv.org/about
+          - listitem [ref=e201]:
+            - link "Help" [ref=e202] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+        - list [ref=e204]:
+          - listitem [ref=e205]:
+            - link "Contact" [ref=e207] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/contact.html
+          - listitem [ref=e208]:
+            - link "Subscribe" [ref=e210] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/subscribe
+      - generic [ref=e212]:
+        - list [ref=e214]:
+          - listitem [ref=e215]:
+            - link "Copyright" [ref=e216] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/license/index.html
+          - listitem [ref=e217]:
+            - link "Privacy Policy" [ref=e218] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/policies/privacy_policy.html
+        - list [ref=e220]:
+          - listitem [ref=e221]:
+            - link "Web Accessibility Assistance" [ref=e222] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/web_accessibility.html
+          - listitem [ref=e223]:
+            - paragraph [ref=e224]:
+              - link "arXiv Operational Status" [ref=e225] [cursor=pointer]:
+                - /url: https://status.arxiv.org
+                - text: arXiv Operational Status

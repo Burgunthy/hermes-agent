@@ -1,0 +1,581 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - link "메뉴 영역으로 바로가기" [ref=e2] [cursor=pointer]:
+      - /url: "#lnb"
+      - generic [ref=e3]: 메뉴 영역으로 바로가기
+    - link "본문 영역으로 바로가기" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+      - generic [ref=e5]: 본문 영역으로 바로가기
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - generic [ref=e11]:
+        - heading "NAVER" [level=1] [ref=e12]:
+          - link "NAVER" [ref=e13] [cursor=pointer]:
+            - /url: https://www.naver.com
+            - generic [ref=e14]: NAVER
+        - search [ref=e15]:
+          - group "검색" [ref=e16]:
+            - combobox "검색어를 입력해 주세요." [ref=e18]:
+              - text: "\"워뇨띠\" 100문100답 비트멕스"
+              - button "자동완성 레이어" [ref=e19] [cursor=pointer]:
+                - generic [ref=e20]: 자동완성 레이어
+            - button "검색" [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]: 검색
+            - button "한글 입력기" [ref=e24] [cursor=pointer]:
+              - generic [ref=e25]: 한글 입력기
+      - generic [ref=e26]:
+        - generic [ref=e28]:
+          - generic [ref=e30]:
+            - tablist [ref=e31]:
+              - tab "블로그" [ref=e32] [cursor=pointer]
+              - tab "카페" [ref=e33] [cursor=pointer]
+              - tab "이미지" [ref=e34] [cursor=pointer]
+              - tab "클립" [ref=e35] [cursor=pointer]
+              - tab "지식iN" [ref=e36] [cursor=pointer]
+              - tab "인플루언서" [ref=e37] [cursor=pointer]
+              - tab "동영상" [ref=e38] [cursor=pointer]
+              - tab "쇼핑" [ref=e39] [cursor=pointer]
+              - tab "뉴스" [ref=e40] [cursor=pointer]
+              - tab "숏텐츠" [ref=e41] [cursor=pointer]
+              - tab "어학사전" [ref=e42] [cursor=pointer]
+              - tab "지도" [ref=e43] [cursor=pointer]
+              - tab "도서" [ref=e44] [cursor=pointer]
+              - tab "지식백과" [ref=e45] [cursor=pointer]
+              - tab "학술정보" [ref=e46] [cursor=pointer]
+            - button "다음" [ref=e47] [cursor=pointer]:
+              - generic [ref=e49]: 다음
+          - button "더보기" [ref=e51] [cursor=pointer]:
+            - generic [ref=e52]: 더보기
+        - list [ref=e54]:
+          - listitem [ref=e55]:
+            - button "공유" [ref=e56] [cursor=pointer]
+    - main [ref=e57]:
+      - generic [ref=e58]:
+        - heading "\"워뇨띠\" 100문100답 비트멕스 검색 결과" [level=1] [ref=e59]
+        - generic [ref=e60]:
+          - generic [ref=e64]:
+            - strong [ref=e65]: "'\"워뇨띠\" 100문100답 비트멕스'"
+            - text: 에 대한 상세검색 결과를 보시겠습니까?
+            - link "상세 검색결과 보기" [ref=e66] [cursor=pointer]:
+              - /url: "?ssc=tab.nx.all&where=nexearch&query=%22%EC%9B%8C%EB%87%A8%EB%9D%A0%22+100%EB%AC%B8100%EB%8B%B5+%EB%B9%84%ED%8A%B8%EB%A9%95%EC%8A%A4&sm=tab_dgs&qdt=1"
+          - generic [ref=e67]:
+            - generic [ref=e73]:
+              - generic [ref=e74]:
+                - link "CoinNess coinness.com›community" [ref=e75] [cursor=pointer]:
+                  - /url: https://coinness.com/community/lounge/1111778
+                  - generic [ref=e77]:
+                    - generic [ref=e82]: CoinNess
+                    - generic [ref=e86]: coinness.com›community
+                - button "옵션 메뉴 열기" [ref=e88] [cursor=pointer]:
+                  - img [ref=e89]
+              - generic [ref=e93]:
+                - link "워뇨띠 100문 100답 다시보자" [ref=e95] [cursor=pointer]:
+                  - /url: https://coinness.com/community/lounge/1111778
+                  - generic [ref=e96]:
+                    - mark [ref=e97]: 워뇨띠 100문 100답
+                    - text: 다시보자
+                - link "2025.12.18.한 번에 진입하는 것을 선호하지만, 크게 보면 애매할 때 시드의 40%를 비트로 가지고 있는 스탠스를 취한 것이 FOMO와... 웬만하면 비트코인과 커플링 할 때 시총이 큰 것 위주로 매매합니다. 이평에 닿는 기준만으로 매매하지 않습니다 Q12.... 참고할만하다고 생각하는 비트코인 차트의 범위는 어느 정도 규모가 커진 2017년 차트부터입니다 Q17. 평소 수면과 식사시간이..." [ref=e99] [cursor=pointer]:
+                  - /url: https://coinness.com/community/lounge/1111778
+                  - generic [ref=e100]:
+                    - generic [ref=e101]: 2025.12.18.
+                    - generic [ref=e102]:
+                      - text: 한 번에 진입하는 것을 선호하지만, 크게 보면 애매할 때 시드의 40%를
+                      - mark [ref=e103]: 비트
+                      - text: 로 가지고 있는 스탠스를 취한 것이 FOMO와... 웬만하면
+                      - mark [ref=e104]: 비트
+                      - text: 코인과 커플링 할 때 시총이 큰 것 위주로 매매합니다. 이평에 닿는 기준만으로 매매하지 않습니다 Q12.... 참고할만하다고 생각하는
+                      - mark [ref=e105]: 비트
+                      - text: 코인 차트의 범위는 어느 정도 규모가 커진 2017년 차트부터입니다 Q17. 평소 수면과 식사시간이...
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - link "m.inews24.com›tv" [ref=e113] [cursor=pointer]:
+                  - /url: https://m.inews24.com/tv/tv:sLZji-A272c:youtube:480:360:530005
+                  - generic [ref=e121]: m.inews24.com›tv
+                - button "옵션 메뉴 열기" [ref=e123] [cursor=pointer]:
+                  - img [ref=e124]
+              - generic [ref=e128]:
+                - link "굿모닝 비트코인 0812 - 아이뉴스24" [ref=e130] [cursor=pointer]:
+                  - /url: https://m.inews24.com/tv/tv:sLZji-A272c:youtube:480:360:530005
+                  - generic [ref=e131]:
+                    - text: 굿모닝
+                    - mark [ref=e132]: 비트
+                    - text: 코인 0812 - 아이뉴스24
+                - generic [ref=e133]:
+                  - link "동영상 4105" [ref=e134] [cursor=pointer]:
+                    - /url: https://m.inews24.com/tv/tv:sLZji-A272c:youtube:480:360:530005
+                    - generic [ref=e135]: 동영상 4105
+                  - link "클래리티법안, 최종 통과까지 남은 관문은? | 비트코인 주말 새 4% 급락!!! 반도체 ETF를 보면 비트코인 ETF가 생각난다, 그래서 버블은 언제 터지는데? 비트코인 8.2만 터치! 그리고 알트 순환매 시작? 코생지로 보는 이번주 디지털자산" [ref=e136] [cursor=pointer]:
+                    - /url: https://m.inews24.com/tv/tv:sLZji-A272c:youtube:480:360:530005
+                    - generic [ref=e137]:
+                      - generic [ref=e142]: 클래리티법안, 최종 통과까지 남은 관문은? | 비트코인 주말 새 4% 급락!!!
+                      - generic [ref=e147]: 반도체 ETF를 보면 비트코인 ETF가 생각난다, 그래서 버블은 언제 터지는데?
+                      - generic [ref=e152]: 비트코인 8.2만 터치! 그리고 알트 순환매 시작? 코생지로 보는 이번주 디지털자산
+            - generic [ref=e158]:
+              - generic [ref=e159]:
+                - link "Telegram t.me›moon252423" [ref=e160] [cursor=pointer]:
+                  - /url: https://t.me/s/moon252423?before=17764
+                  - generic [ref=e162]:
+                    - generic [ref=e167]: Telegram
+                    - generic [ref=e171]: t.me›moon252423
+                - button "옵션 메뉴 열기" [ref=e173] [cursor=pointer]:
+                  - img [ref=e174]
+              - generic [ref=e178]:
+                - link "투더문 To the Moon 🚀🌕의 이미지" [ref=e179] [cursor=pointer]:
+                  - /url: https://t.me/s/moon252423?before=17764
+                  - img "투더문 To the Moon 🚀🌕의 이미지" [ref=e181]
+                - link "투더문 To the Moon 🚀🌕" [ref=e184] [cursor=pointer]:
+                  - /url: https://t.me/s/moon252423?before=17764
+                  - generic [ref=e185]: 투더문 To the Moon 🚀🌕
+                - link "고팍스 최대주주 바이낸스, 韓시장 철수 의혹 반박…\"고팍스 계속 돕겠다\" · 뉴스1 · 고팍스 최대주주 바이낸스, 韓시장 철수 의혹 반박 ... Forwarded from GALA · 1/ 비트코인 청산맵 2/ 비트코인 고배율 청산맵 3/ 이더리움 청산맵 4/ 이더리움 고배율 청산맵 · 12:50 발키리도 블랙록, 아크, 반에크와 마찬가지로 비트코인 현물 ETF를 업데이트했습니다. 12:55" [ref=e187] [cursor=pointer]:
+                  - /url: https://t.me/s/moon252423?before=17764
+                  - generic [ref=e188]:
+                    - generic [ref=e193]: 고팍스 최대주주 바이낸스, 韓시장 철수 의혹 반박…"고팍스 계속 돕겠다" · 뉴스1 · 고팍스 최대주주 바이낸스, 韓시장 철수 의혹 반박 ...
+                    - generic [ref=e198]: Forwarded from GALA · 1/ 비트코인 청산맵 2/ 비트코인 고배율 청산맵 3/ 이더리움 청산맵 4/ 이더리움 고배율 청산맵 · 12:50
+                    - generic [ref=e203]: 발키리도 블랙록, 아크, 반에크와 마찬가지로 비트코인 현물 ETF를 업데이트했습니다. 12:55
+            - generic [ref=e209]:
+              - generic [ref=e210]:
+                - generic [ref=e211]:
+                  - link [ref=e213] [cursor=pointer]:
+                    - /url: https://blog.naver.com/jinswon
+                  - generic [ref=e216]:
+                    - link "진서원출판사" [ref=e218] [cursor=pointer]:
+                      - /url: https://blog.naver.com/jinswon
+                      - generic [ref=e219]: 진서원출판사
+                    - img [ref=e220]
+                  - generic [ref=e225]: 2024.06.03.
+                - button "옵션 메뉴 열기" [ref=e227] [cursor=pointer]:
+                  - img [ref=e228]
+              - generic [ref=e233]:
+                - generic [ref=e234]:
+                  - link "<조변의 코인투자 100문 100답> - 06 국내에 4,000억원 가까운 수익을 낸 20대 투자자가 있다?" [ref=e235] [cursor=pointer]:
+                    - /url: https://blog.naver.com/jinswon/223463615920
+                    - generic [ref=e236]:
+                      - text: <조변의 코인투자
+                      - mark [ref=e237]: 100문 100답
+                      - text: "> - 06 국내에 4,000억원 가까운 수익을 낸 20대 투자자가 있다?"
+                  - 'link "국내에서는 비트멕스 ‘워뇨띠(인기 아이돌그룹 IVE의 멤버 장원영을 좋아해서 지은 이름 이라고 합니다)’로 유명한 투자자이며 공식 석상에서 얼굴을 드러낸 적은 없지만 20대... #진서원출판사 #조성근의코인투자100문100답 #코인투자 #투자인사이트대방출 #비트코인 #이더리움 #알트코인 #코인전문변호사 #신종코인사기수법 #코인이슈해독법 #알트코인투자법" [ref=e239] [cursor=pointer]':
+                    - /url: https://blog.naver.com/jinswon/223463615920
+                    - generic [ref=e240]:
+                      - text: 국내에서는
+                      - mark [ref=e241]: 비트멕스
+                      - text: ‘
+                      - mark [ref=e242]: 워뇨띠
+                      - text: "(인기 아이돌그룹 IVE의 멤버 장원영을 좋아해서 지은 이름 이라고 합니다)’로 유명한 투자자이며 공식 석상에서 얼굴을 드러낸 적은 없지만 20대... #진서원출판사 #조성근의코인투자"
+                      - mark [ref=e243]: 100문100답
+                      - text: "#코인투자 #투자인사이트대방출 #"
+                      - mark [ref=e244]: 비트
+                      - text: "코인 #이더리움 #알트코인 #코인전문변호사 #신종코인사기수법 #코인이슈해독법 #알트코인투자법"
+                - link "2" [ref=e245] [cursor=pointer]:
+                  - /url: https://blog.naver.com/jinswon/223463615920
+                  - generic [ref=e247]:
+                    - img [ref=e248]
+                    - generic [ref=e252]: "2"
+            - generic [ref=e258]:
+              - generic [ref=e259]:
+                - link "이코노미블록 economybloc.com›article" [ref=e260] [cursor=pointer]:
+                  - /url: https://economybloc.com/article/87110/
+                  - generic [ref=e262]:
+                    - generic [ref=e267]: 이코노미블록
+                    - generic [ref=e271]: economybloc.com›article
+                - button "옵션 메뉴 열기" [ref=e273] [cursor=pointer]:
+                  - img [ref=e274]
+              - generic [ref=e278]:
+                - link "전설의 코인 트레이더 '<mark>워뇨띠</mark>' 근황과 성공비결·트레이딩 원칙 - <mark>비트멕스</mark> 인터뷰의 이미지" [ref=e279] [cursor=pointer]:
+                  - /url: https://economybloc.com/article/87110/
+                  - img "전설의 코인 트레이더 '<mark>워뇨띠</mark>' 근황과 성공비결·트레이딩 원칙 - <mark>비트멕스</mark> 인터뷰의 이미지" [ref=e281]
+                - link "전설의 코인 트레이더 '워뇨띠' 근황과 성공비결·트레이딩 원칙 - 비트멕스 인터뷰" [ref=e284] [cursor=pointer]:
+                  - /url: https://economybloc.com/article/87110/
+                  - generic [ref=e285]:
+                    - text: 전설의 코인 트레이더 '
+                    - mark [ref=e286]: 워뇨띠
+                    - text: "' 근황과 성공비결·트레이딩 원칙 -"
+                    - mark [ref=e287]: 비트멕스
+                    - text: 인터뷰
+                - link "2025.06.11.비트멕스 600만원→4000억…천재 트레이더 워뇨띠 “하락장보다 무서운 건 FOMO” “내 성공 비결은 시장에 대한 끊임없는 의심” “포지션과 사랑에 빠지지 마라” “원칙은 리스크 관리” 디지털자산 파생상품 거래소 비트멕스가 자사의 블로그를 통해 코인 시장의 정상급 트레이더들의 통찰력을 공유하는 ‘고래 트레이더 인터뷰’ 시리즈를 시작했다. 비트멕스는..." [ref=e289] [cursor=pointer]:
+                  - /url: https://economybloc.com/article/87110/
+                  - generic [ref=e290]:
+                    - generic [ref=e291]: 2025.06.11.
+                    - generic [ref=e292]:
+                      - mark [ref=e293]: 비트멕스
+                      - text: 600만원→4000억…천재 트레이더
+                      - mark [ref=e294]: 워뇨띠
+                      - text: “하락장보다 무서운 건 FOMO” “내 성공 비결은 시장에 대한 끊임없는 의심” “포지션과 사랑에 빠지지 마라” “원칙은 리스크 관리” 디지털자산 파생상품 거래소
+                      - mark [ref=e295]: 비트멕스
+                      - text: 가 자사의 블로그를 통해 코인 시장의 정상급 트레이더들의 통찰력을 공유하는 ‘고래 트레이더 인터뷰’ 시리즈를 시작했다.
+                      - mark [ref=e296]: 비트멕스
+                      - text: 는...
+          - generic [ref=e297]:
+            - generic [ref=e303]:
+              - generic [ref=e304]:
+                - generic [ref=e305]:
+                  - link [ref=e307] [cursor=pointer]:
+                    - /url: https://blog.naver.com/r4029
+                  - link "Time After Time" [ref=e312] [cursor=pointer]:
+                    - /url: https://blog.naver.com/r4029
+                    - generic [ref=e313]: Time After Time
+                  - generic [ref=e316]: 2025.09.18.
+                - button "옵션 메뉴 열기" [ref=e318] [cursor=pointer]:
+                  - img [ref=e319]
+              - generic [ref=e325]:
+                - link "워뇨띠 비트맥스 AMA 1차, 2차 전부 요약" [ref=e326] [cursor=pointer]:
+                  - /url: https://blog.naver.com/r4029/224012296091
+                  - generic [ref=e327]:
+                    - mark [ref=e328]: 워뇨띠
+                    - mark [ref=e329]: 비트
+                    - text: 맥스 AMA 1차, 2차 전부 요약
+                - 'link "Q: 향후 1년간 비트코인 가격 흐름에 대한 개인적인 생각 여쭙습니다 A: 큰 대세상승장 속에 두 달 짜리 하락장이 섞이는 느낌일거라고 생각중입니다. Q: 향후 비트코인 장기적인... Q: 연승을 이어가시다 첫 손실인 상황에서, 복구를 위한 진입 비율을 전체 자산 23배 운용으로 가정했을 때, 레버리지 23배 시드 100% 진입과 레버리지 510배 시드 2030% 진입 중 어떤 것이 더..." [ref=e331] [cursor=pointer]':
+                  - /url: https://blog.naver.com/r4029/224012296091
+                  - generic [ref=e332]:
+                    - text: "Q: 향후 1년간"
+                    - mark [ref=e333]: 비트
+                    - text: "코인 가격 흐름에 대한 개인적인 생각 여쭙습니다 A: 큰 대세상승장 속에 두 달 짜리 하락장이 섞이는 느낌일거라고 생각중입니다. Q: 향후"
+                    - mark [ref=e334]: 비트
+                    - text: "코인 장기적인... Q: 연승을 이어가시다 첫 손실인 상황에서, 복구를 위한 진입 비율을 전체 자산 23배 운용으로 가정했을 때, 레버리지 23배 시드"
+                    - mark [ref=e335]: "100"
+                    - text: "% 진입과 레버리지 510배 시드 2030% 진입 중 어떤 것이 더..."
+            - generic [ref=e341]:
+              - generic [ref=e342]:
+                - generic [ref=e343]:
+                  - link [ref=e345] [cursor=pointer]:
+                    - /url: https://blog.naver.com/signal_jobs
+                  - link "I'm 시그널잡스(SignalJobs)" [ref=e350] [cursor=pointer]:
+                    - /url: https://blog.naver.com/signal_jobs
+                    - generic [ref=e351]: I'm 시그널잡스(SignalJobs)
+                  - generic [ref=e354]: 2025.09.18.
+                - button "옵션 메뉴 열기" [ref=e356] [cursor=pointer]:
+                  - img [ref=e357]
+              - generic [ref=e362]:
+                - generic [ref=e363]:
+                  - link "코인전설 워뇨띠와 AMA 참여한 생생한 대화내용~" [ref=e364] [cursor=pointer]:
+                    - /url: https://blog.naver.com/signal_jobs/224012697211
+                    - generic [ref=e365]:
+                      - text: 코인전설
+                      - mark [ref=e366]: 워뇨띠
+                      - text: 와 AMA 참여한 생생한 대화내용~
+                  - 'link "워뇨띠 : 현재 자산 총 1조원 추정(인터넷 기사 등 인용) 우선 bitmex거래소가 다시 흥하기 위해서 가입링크입니다.(리퍼럴 포함링크) https://www.bitmex.com/app/trade?referralID=Ucr2y1 왜 바이낸스, 바이비트, 비트겟 등을 놔두고 bitmex인가 궁금하신분들 많으시겠지만, 코인 초창기는 bitmex거래소가 전세계 TOP거래소였고, 여기 거래소의 구현, 로직 등을 다른..." [ref=e368] [cursor=pointer]':
+                    - /url: https://blog.naver.com/signal_jobs/224012697211
+                    - generic [ref=e369]:
+                      - mark [ref=e370]: 워뇨띠
+                      - text: ": 현재 자산 총 1조원 추정(인터넷 기사 등 인용) 우선 bitmex거래소가 다시 흥하기 위해서 가입링크입니다.(리퍼럴 포함링크) https://www.bitmex.com/app/trade?referralID=Ucr2y1 왜 바이낸스, 바이"
+                      - mark [ref=e371]: 비트
+                      - text: ","
+                      - mark [ref=e372]: 비트
+                      - text: 겟 등을 놔두고 bitmex인가 궁금하신분들 많으시겠지만, 코인 초창기는 bitmex거래소가 전세계 TOP거래소였고, 여기 거래소의 구현, 로직 등을 다른...
+                - link "5" [ref=e373] [cursor=pointer]:
+                  - /url: https://blog.naver.com/signal_jobs/224012697211
+                  - generic [ref=e375]:
+                    - img [ref=e376]
+                    - generic [ref=e380]: "5"
+            - generic [ref=e386]:
+              - generic [ref=e387]:
+                - generic [ref=e388]:
+                  - link [ref=e390] [cursor=pointer]:
+                    - /url: https://blog.naver.com/aiserdo
+                  - link "aiserdo님의 블로그" [ref=e395] [cursor=pointer]:
+                    - /url: https://blog.naver.com/aiserdo
+                    - generic [ref=e396]: aiserdo님의 블로그
+                  - generic [ref=e399]: 2025.09.15.
+                - button "옵션 메뉴 열기" [ref=e401] [cursor=pointer]:
+                  - img [ref=e402]
+              - generic [ref=e407]:
+                - generic [ref=e408]:
+                  - link "비트멕스와 워뇨띠 인터뷰 내용" [ref=e409] [cursor=pointer]:
+                    - /url: https://blog.naver.com/aiserdo/223993842553
+                    - generic [ref=e410]:
+                      - mark [ref=e411]: 비트멕스
+                      - text: 와
+                      - mark [ref=e412]: 워뇨띠
+                      - text: 인터뷰 내용
+                  - link "현실 세계에서 ‘aoa’나 ‘워뇨띠’로 알아보는 사람들이 있나요? 제가 많이 드러내지 않아서 엄청 가까운 사람들만... 시드가 천억원일때 100억어치 매수를 할때보다 시드가 3천만원일때 천만원 어치 매수하는게 더 떨렸어요. 최애 거래소는 어디이며, BitMEX라면 그 이유는? 최애 거래소는 비트멕스가 맞긴 해요. 기능보다는 제 매매 스타일과 맞아서 사용하고..." [ref=e414] [cursor=pointer]:
+                    - /url: https://blog.naver.com/aiserdo/223993842553
+                    - generic [ref=e415]:
+                      - text: 현실 세계에서 ‘aoa’나 ‘
+                      - mark [ref=e416]: 워뇨띠
+                      - text: ’로 알아보는 사람들이 있나요? 제가 많이 드러내지 않아서 엄청 가까운 사람들만... 시드가 천억원일때
+                      - mark [ref=e417]: "100"
+                      - text: 억어치 매수를 할때보다 시드가 3천만원일때 천만원 어치 매수하는게 더 떨렸어요. 최애 거래소는 어디이며, BitMEX라면 그 이유는? 최애 거래소는
+                      - mark [ref=e418]: 비트멕스
+                      - text: 가 맞긴 해요. 기능보다는 제 매매 스타일과 맞아서 사용하고...
+                - link [ref=e419] [cursor=pointer]:
+                  - /url: https://blog.naver.com/aiserdo/223993842553
+                  - img [ref=e422]
+            - generic [ref=e429]:
+              - generic [ref=e430]:
+                - generic [ref=e431]:
+                  - link [ref=e433] [cursor=pointer]:
+                    - /url: https://blog.naver.com/ghfjvb465
+                  - link "노마드신지테의 경제적자유얻기 챌린지" [ref=e438] [cursor=pointer]:
+                    - /url: https://blog.naver.com/ghfjvb465
+                    - generic [ref=e439]: 노마드신지테의 경제적자유얻기 챌린지
+                  - generic [ref=e442]: 2025.07.07.
+                - button "옵션 메뉴 열기" [ref=e444] [cursor=pointer]:
+                  - img [ref=e445]
+              - generic [ref=e450]:
+                - generic [ref=e451]:
+                  - link "비트멕스 거래소 워뇨띠 인터뷰 소개 및 전망" [ref=e452] [cursor=pointer]:
+                    - /url: https://blog.naver.com/ghfjvb465/223924513038
+                    - generic [ref=e453]:
+                      - mark [ref=e454]: 비트멕스
+                      - text: 거래소
+                      - mark [ref=e455]: 워뇨띠
+                      - text: 인터뷰 소개 및 전망
+                  - link "비트멕스에서는 최대 100배의 레버리지를 설정할 수 있습니다. 하지만 워뇨띠는 전체 포트폴리오 기준으로 1.5~2배 수준만 사용한다고 밝힙니다. 비트멕스는 격리/교차 마진, 지정가/시장가, 고급 주문 설정 등 다양한 기능을 제공하지만, 그 복잡함과 빠른 체결 속도는 초보자에게 오히려 ‘함정’이 되기도 합니다.(물론 잘하면 나도 제2의 워뇨띠? ㅋㅋㅋ)..." [ref=e457] [cursor=pointer]:
+                    - /url: https://blog.naver.com/ghfjvb465/223924513038
+                    - generic [ref=e458]:
+                      - mark [ref=e459]: 비트멕스
+                      - text: 에서는 최대
+                      - mark [ref=e460]: "100"
+                      - text: 배의 레버리지를 설정할 수 있습니다. 하지만
+                      - mark [ref=e461]: 워뇨띠
+                      - text: 는 전체 포트폴리오 기준으로 1.5~2배 수준만 사용한다고 밝힙니다.
+                      - mark [ref=e462]: 비트멕스
+                      - text: 는 격리/교차 마진, 지정가/시장가, 고급 주문 설정 등 다양한 기능을 제공하지만, 그 복잡함과 빠른 체결 속도는 초보자에게 오히려 ‘함정’이 되기도 합니다.(물론 잘하면 나도 제2의
+                      - mark [ref=e463]: 워뇨띠
+                      - text: "? ㅋㅋㅋ)..."
+                - link "11" [ref=e464] [cursor=pointer]:
+                  - /url: https://blog.naver.com/ghfjvb465/223924513038
+                  - generic [ref=e466]:
+                    - img [ref=e467]
+                    - generic [ref=e471]: "11"
+            - generic [ref=e477]:
+              - generic [ref=e478]:
+                - link "k11.wordpress5945.com›비트코인-선물-레버리지-하는-방법-좀-알려주세요" [ref=e479] [cursor=pointer]:
+                  - /url: https://k11.wordpress5945.com/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%84%A0%EB%AC%BC-%EB%A0%88%EB%B2%84%EB%A6%AC%EC%A7%80-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-%EC%A2%80-%EC%95%8C%EB%A0%A4%EC%A3%BC%EC%84%B8%EC%9A%94/
+                  - generic [ref=e487]: k11.wordpress5945.com›비트코인-선물-레버리지-하는-방법-좀-알려주세요
+                - button "옵션 메뉴 열기" [ref=e489] [cursor=pointer]:
+                  - img [ref=e490]
+              - generic [ref=e494]:
+                - link "<mark>비트</mark>코인 선물 레버리지 하는 방법 좀 알려주세요의 이미지" [ref=e495] [cursor=pointer]:
+                  - /url: https://k11.wordpress5945.com/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%84%A0%EB%AC%BC-%EB%A0%88%EB%B2%84%EB%A6%AC%EC%A7%80-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-%EC%A2%80-%EC%95%8C%EB%A0%A4%EC%A3%BC%EC%84%B8%EC%9A%94/
+                  - img "<mark>비트</mark>코인 선물 레버리지 하는 방법 좀 알려주세요의 이미지" [ref=e497]
+                - link "비트코인 선물 레버리지 하는 방법 좀 알려주세요" [ref=e500] [cursor=pointer]:
+                  - /url: https://k11.wordpress5945.com/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%84%A0%EB%AC%BC-%EB%A0%88%EB%B2%84%EB%A6%AC%EC%A7%80-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-%EC%A2%80-%EC%95%8C%EB%A0%A4%EC%A3%BC%EC%84%B8%EC%9A%94/
+                  - generic [ref=e501]:
+                    - mark [ref=e502]: 비트
+                    - text: 코인 선물 레버리지 하는 방법 좀 알려주세요
+                - link "2025.07.29.비트코인 선물 거래는 많은 투자자들에게 매력적인 기회로 여겨지고 있습니다. 특히, 레버리지를 활용하면 적은 자본으로 더 큰 포지션을 취할 수 있어 잠재적인 수익을 극대화할 수 있는 장점이 있습니다. 그러나 높은 수익률과 함께 리스크도 동반되므로, 신중한 접근이 필요합니다. 이번 글에서는 비트코인 선물에서 레버리지를 어떻게 활용할 수 있는지에 대해 자세히 알아....." [ref=e504] [cursor=pointer]:
+                  - /url: https://k11.wordpress5945.com/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8-%EC%84%A0%EB%AC%BC-%EB%A0%88%EB%B2%84%EB%A6%AC%EC%A7%80-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95-%EC%A2%80-%EC%95%8C%EB%A0%A4%EC%A3%BC%EC%84%B8%EC%9A%94/
+                  - generic [ref=e505]:
+                    - generic [ref=e506]: 2025.07.29.
+                    - generic [ref=e507]:
+                      - mark [ref=e508]: 비트
+                      - text: 코인 선물 거래는 많은 투자자들에게 매력적인 기회로 여겨지고 있습니다. 특히, 레버리지를 활용하면 적은 자본으로 더 큰 포지션을 취할 수 있어 잠재적인 수익을 극대화할 수 있는 장점이 있습니다. 그러나 높은 수익률과 함께 리스크도 동반되므로, 신중한 접근이 필요합니다. 이번 글에서는
+                      - mark [ref=e509]: 비트
+                      - text: 코인 선물에서 레버리지를 어떻게 활용할 수 있는지에 대해 자세히 알아.....
+            - generic [ref=e514]:
+              - generic [ref=e515]:
+                - generic [ref=e516]:
+                  - link "www.seoul.co.kr›글로벌 신뢰도" [ref=e517] [cursor=pointer]:
+                    - /url: https://www.seoul.co.kr:8888/index.php?keyword=%EA%B8%80%EB%A1%9C%EB%B2%8C%20%EC%8B%A0%EB%A2%B0%EB%8F%84&page=9
+                    - generic [ref=e525]: www.seoul.co.kr›글로벌 신뢰도
+                  - button "옵션 메뉴 열기" [ref=e527] [cursor=pointer]:
+                    - img [ref=e528]
+                - generic [ref=e532]:
+                  - link "서울신문 검색" [ref=e534] [cursor=pointer]:
+                    - /url: https://www.seoul.co.kr:8888/index.php?keyword=%EA%B8%80%EB%A1%9C%EB%B2%8C%20%EC%8B%A0%EB%A2%B0%EB%8F%84&page=9
+                    - generic [ref=e535]: 서울신문 검색
+                  - link "자동차 배터리 브랜드 쏠라이트, 대한민국 브랜드 스타 6년 연속 수상 ; “압구정 아파트 100채 값 벌었다”…韓코인계 전설이라는 인물 ; 김성한 “자유주의 국제질서 지속하려면…글로벌 사우스와 협력 강화”" [ref=e537] [cursor=pointer]:
+                    - /url: https://www.seoul.co.kr:8888/index.php?keyword=%EA%B8%80%EB%A1%9C%EB%B2%8C%20%EC%8B%A0%EB%A2%B0%EB%8F%84&page=9
+                    - generic [ref=e538]:
+                      - text: 자동차 배터리 브랜드 쏠라이트, 대한민국 브랜드 스타 6년 연속 수상 ; “압구정 아파트
+                      - mark [ref=e539]: "100"
+                      - text: 채 값 벌었다”…韓코인계 전설이라는 인물 ; 김성한 “자유주의 국제질서 지속하려면…글로벌 사우스와 협력 강화”
+              - generic [ref=e540]:
+                - generic [ref=e541]:
+                  - link "자동차 배터리 브랜드 쏠라이트, 대한민국 브랜드 스타 6년 연속 수상의 이미지 자동차 배터리 브랜드 쏠라이트, 대한민국 브랜드 스타 6년 연속 수상" [ref=e542] [cursor=pointer]:
+                    - /url: https://www.seoul.co.kr/news/economy/car/2024/03/22/20240322500138
+                    - generic [ref=e543]:
+                      - img "자동차 배터리 브랜드 쏠라이트, 대한민국 브랜드 스타 6년 연속 수상의 이미지" [ref=e545]
+                      - generic [ref=e548]: 자동차 배터리 브랜드 쏠라이트, 대한민국 브랜드 스타 6년 연속 수상
+                  - link "“압구정 아파트 100채 값 벌었다”…韓코인계 전설이라는 인물의 이미지 “압구정 아파트 100채 값 벌었다”…韓코인계 전설이라는 인물" [ref=e549] [cursor=pointer]:
+                    - /url: https://www.seoul.co.kr/news/economy/2024/03/15/20240315500002
+                    - generic [ref=e550]:
+                      - img "“압구정 아파트 100채 값 벌었다”…韓코인계 전설이라는 인물의 이미지" [ref=e552]
+                      - generic [ref=e555]: “압구정 아파트 100채 값 벌었다”…韓코인계 전설이라는 인물
+                  - link "김성한 “자유주의 국제질서 지속하려면…글로벌 사우스와 협력 강화”의 이미지 김성한 “자유주의 국제질서 지속하려면…글로벌 사우스와 협력 강화”" [ref=e556] [cursor=pointer]:
+                    - /url: https://www.seoul.co.kr/news/politics/diplomacy/2024/02/26/20240226500153
+                    - generic [ref=e557]:
+                      - img "김성한 “자유주의 국제질서 지속하려면…글로벌 사우스와 협력 강화”의 이미지" [ref=e559]
+                      - generic [ref=e562]: 김성한 “자유주의 국제질서 지속하려면…글로벌 사우스와 협력 강화”
+                  - link "현대차·기아 피치 신용등급 ‘A-’로 상향의 이미지 현대차·기아 피치 신용등급 ‘A-’로 상향" [ref=e563] [cursor=pointer]:
+                    - /url: https://www.seoul.co.kr/news/economy/car/2024/02/16/20240216500170
+                    - generic [ref=e564]:
+                      - img "현대차·기아 피치 신용등급 ‘A-’로 상향의 이미지" [ref=e566]
+                      - generic [ref=e569]: 현대차·기아 피치 신용등급 ‘A-’로 상향
+                  - link "대한전선 최대 주주 호반산업, 대한전선 유상증자에 120% 청약 확정의 이미지 대한전선 최대 주주 호반산업, 대한전선 유상증자에 120% 청약 확정" [ref=e570] [cursor=pointer]:
+                    - /url: https://www.seoul.co.kr/news/economy/2024/01/10/20240110500066
+                    - generic [ref=e571]:
+                      - img "대한전선 최대 주주 호반산업, 대한전선 유상증자에 120% 청약 확정의 이미지" [ref=e573]
+                      - generic [ref=e576]: 대한전선 최대 주주 호반산업, 대한전선 유상증자에 120% 청약 확정
+                  - link "“창의력 말살하는 수능… 교육 혁신 없으면 국가 미래도 위협”[최광숙의 Inside]의 이미지 “창의력 말살하는 수능… 교육 혁신 없으면 국가 미래도 위협”[최광숙의 Inside]" [ref=e577] [cursor=pointer]:
+                    - /url: https://www.seoul.co.kr/news/editOpinion/column/inside-story-cgs/2024/01/08/20240108023001
+                    - generic [ref=e578]:
+                      - img "“창의력 말살하는 수능… 교육 혁신 없으면 국가 미래도 위협”[최광숙의 Inside]의 이미지" [ref=e580]
+                      - generic [ref=e583]: “창의력 말살하는 수능… 교육 혁신 없으면 국가 미래도 위협”[최광숙의 Inside]
+                  - link "LG전자, 전기차 충전기 美 UL 안전 인증 획득…내년 美 시장 본격 진출의 이미지 LG전자, 전기차 충전기 美 UL 안전 인증 획득…내년 美 시장 본격 진출" [ref=e584] [cursor=pointer]:
+                    - /url: https://www.seoul.co.kr/news/economy/2023/12/29/20231229500069
+                    - generic [ref=e585]:
+                      - img "LG전자, 전기차 충전기 美 UL 안전 인증 획득…내년 美 시장 본격 진출의 이미지" [ref=e587]
+                      - generic [ref=e590]: LG전자, 전기차 충전기 美 UL 안전 인증 획득…내년 美 시장 본격 진출
+                  - link "담백하루 ‘초임계 알티지 오메가에센스 1000’ 심뇌혈관 예방관리사업 물품 2년 연속 선정의 이미지 담백하루 ‘초임계 알티지 오메가에센스 1000’ 심뇌혈관 예방관리사업 물품 2년 연속 선정" [ref=e591] [cursor=pointer]:
+                    - /url: https://www.seoul.co.kr/news/economy/distribution/2023/12/28/20231228500098
+                    - generic [ref=e592]:
+                      - img "담백하루 ‘초임계 알티지 오메가에센스 1000’ 심뇌혈관 예방관리사업 물품 2년 연속 선정의 이미지" [ref=e594]
+                      - generic [ref=e597]: 담백하루 ‘초임계 알티지 오메가에센스 1000’ 심뇌혈관 예방관리사업 물품 2년 연속 선정
+                  - link "검찰, ‘캄보디아 뇌물 혐의’ 김태오 DGB금융 회장 징역 4년 구형의 이미지 검찰, ‘캄보디아 뇌물 혐의’ 김태오 DGB금융 회장 징역 4년 구형" [ref=e598] [cursor=pointer]:
+                    - /url: https://www.seoul.co.kr/news/society/accident/2023/12/13/20231213500237
+                    - generic [ref=e599]:
+                      - img "검찰, ‘캄보디아 뇌물 혐의’ 김태오 DGB금융 회장 징역 4년 구형의 이미지" [ref=e601]
+                      - generic [ref=e604]: 검찰, ‘캄보디아 뇌물 혐의’ 김태오 DGB금융 회장 징역 4년 구형
+                  - link "금융위 “공매도, 주식시장 선진화 위한 것... 은행, ELS 잘 모르고 팔았을 수도”의 이미지 금융위 “공매도, 주식시장 선진화 위한 것... 은행, ELS 잘 모르고 팔았을 수도”" [ref=e605] [cursor=pointer]:
+                    - /url: https://www.seoul.co.kr/news/economy/2023/12/01/20231201500132
+                    - generic [ref=e606]:
+                      - img "금융위 “공매도, 주식시장 선진화 위한 것... 은행, ELS 잘 모르고 팔았을 수도”의 이미지" [ref=e608]
+                      - generic [ref=e611]: 금융위 “공매도, 주식시장 선진화 위한 것... 은행, ELS 잘 모르고 팔았을 수도”
+                  - link "더보기" [ref=e612] [cursor=pointer]:
+                    - /url: https://www.seoul.co.kr:8888/index.php?keyword=%EA%B8%80%EB%A1%9C%EB%B2%8C%20%EC%8B%A0%EB%A2%B0%EB%8F%84&page=9
+                    - generic [ref=e613]:
+                      - img [ref=e615]
+                      - generic [ref=e617]: 더보기
+                - button "다음 버튼" [ref=e618] [cursor=pointer]:
+                  - img [ref=e620]
+            - generic [ref=e627]:
+              - generic [ref=e628]:
+                - link "코인판 coinpan.com›futures" [ref=e629] [cursor=pointer]:
+                  - /url: https://coinpan.com/futures/250078878
+                  - generic [ref=e631]:
+                    - generic [ref=e636]: 코인판
+                    - generic [ref=e640]: coinpan.com›futures
+                - button "옵션 메뉴 열기" [ref=e642] [cursor=pointer]:
+                  - img [ref=e643]
+              - generic [ref=e647]:
+                - link "<mark>워뇨띠</mark>의 매매기법 천기누설을 연구한지 반년째...의 이미지" [ref=e648] [cursor=pointer]:
+                  - /url: https://coinpan.com/futures/250078878
+                  - img "<mark>워뇨띠</mark>의 매매기법 천기누설을 연구한지 반년째...의 이미지" [ref=e650]
+                - link "워뇨띠의 매매기법 천기누설을 연구한지 반년째..." [ref=e653] [cursor=pointer]:
+                  - /url: https://coinpan.com/futures/250078878
+                  - generic [ref=e654]:
+                    - mark [ref=e655]: 워뇨띠
+                    - text: 의 매매기법 천기누설을 연구한지 반년째...
+                - link "2021.09.10.이제 어느정도 답을 찾은거같다 워뇨띠는 기본적으로 보조지표없이 거의 캔들과 볼륨만 보고 거래한다고 했다. 나도 그 소식을 접한 이후로 3년치 비트.이더 차트를 캔들과 볼륨만 보고 현미경분석 해보기 시작했다. 집구석에 쳐박혀서 차트만 쳐다본지 반년 하고도 보름째.. 이제서야 빛이보인다. 누가 차트를 후행지표라 하였는가? 적어도 나에겐 이제부터 차트가..." [ref=e657] [cursor=pointer]:
+                  - /url: https://coinpan.com/futures/250078878
+                  - generic [ref=e658]:
+                    - generic [ref=e659]: 2021.09.10.
+                    - generic [ref=e660]:
+                      - text: 이제 어느정도 답을 찾은거같다
+                      - mark [ref=e661]: 워뇨띠
+                      - text: 는 기본적으로 보조지표없이 거의 캔들과 볼륨만 보고 거래한다고 했다. 나도 그 소식을 접한 이후로 3년치
+                      - mark [ref=e662]: 비트
+                      - text: .이더 차트를 캔들과 볼륨만 보고 현미경분석 해보기 시작했다. 집구석에 쳐박혀서 차트만 쳐다본지 반년 하고도 보름째.. 이제서야 빛이보인다. 누가 차트를 후행지표라 하였는가? 적어도 나에겐 이제부터 차트가...
+            - generic [ref=e668]:
+              - generic [ref=e669]:
+                - link "헤럴드경제 biz.heraldcorp.com›article" [ref=e670] [cursor=pointer]:
+                  - /url: https://biz.heraldcorp.com/article/10509695
+                  - generic [ref=e672]:
+                    - generic [ref=e677]: 헤럴드경제
+                    - generic [ref=e681]: biz.heraldcorp.com›article
+                - button "옵션 메뉴 열기" [ref=e683] [cursor=pointer]:
+                  - img [ref=e684]
+              - generic [ref=e688]:
+                - link "걸그룹 AOA를 사랑한 천재 코인트레이더 ‘워뇨띠’를 아시나요 [가상자산 불공정거래 읽어주는 ...." [ref=e690] [cursor=pointer]:
+                  - /url: https://biz.heraldcorp.com/article/10509695
+                  - generic [ref=e691]:
+                    - text: 걸그룹 AOA를 사랑한 천재 코인트레이더 ‘
+                    - mark [ref=e692]: 워뇨띠
+                    - text: ’를 아시나요 [가상자산 불공정거래 읽어주는 ....
+                - link "2025.06.16.최근 ‘천재 코인트레이더’로 불리는 ‘워뇨띠’가 해외 거래소 비트멕스(BitMEX)와의 인터뷰로 다시금 주목받고 있다. 그는 ‘AOA’라는 닉네임으로 비트멕스 수익률 랭킹 상위권에... 특히 가상자산 선물은 최대 100배 레버리지로 큰 손실이 발생할 수 있는 고위험 상품이다. 국내 금융시장에서는 이 같은 파생상품을 취급하려면 자본시장법상 인가를 받아야 하고..." [ref=e694] [cursor=pointer]:
+                  - /url: https://biz.heraldcorp.com/article/10509695
+                  - generic [ref=e695]:
+                    - generic [ref=e696]: 2025.06.16.
+                    - generic [ref=e697]:
+                      - text: 최근 ‘천재 코인트레이더’로 불리는 ‘
+                      - mark [ref=e698]: 워뇨띠
+                      - text: ’가 해외 거래소
+                      - mark [ref=e699]: 비트멕스
+                      - text: (BitMEX)와의 인터뷰로 다시금 주목받고 있다. 그는 ‘AOA’라는 닉네임으로
+                      - mark [ref=e700]: 비트멕스
+                      - text: 수익률 랭킹 상위권에... 특히 가상자산 선물은 최대
+                      - mark [ref=e701]: "100"
+                      - text: 배 레버리지로 큰 손실이 발생할 수 있는 고위험 상품이다. 국내 금융시장에서는 이 같은 파생상품을 취급하려면 자본시장법상 인가를 받아야 하고...
+          - generic [ref=e705]:
+            - generic [ref=e707]:
+              - heading "이미지" [level=2] [ref=e709]
+              - button "이미지 신고하기" [ref=e712] [cursor=pointer]:
+                - generic [ref=e713]: 이미지 신고하기
+            - generic [ref=e715]:
+              - generic:
+                - button "비트, 이더 600억씩 샀던 며칠전 워뇨띠 근황":
+                  - img "비트, 이더 600억씩 샀던 며칠전 워뇨띠 근황"
+              - generic:
+                - button "뚜띠맘의10문10답릴레이♡":
+                  - img "뚜띠맘의10문10답릴레이♡"
+              - generic:
+                - button "갱이의 10문 10답 릴레이# from 꾸띠":
+                  - img "갱이의 10문 10답 릴레이# from 꾸띠"
+              - generic:
+                - button "비트맥스 트롤박스에서 진행한 워뇨띠 AMA 핵심 요약본":
+                  - img "비트맥스 트롤박스에서 진행한 워뇨띠 AMA 핵심 요약본"
+              - generic:
+                - button "탭비트(Tapbit) 거래소 - 바로가기 \"워뇨띠가 600만원을 3천억으로 만든 방법\"":
+                  - img "탭비트(Tapbit) 거래소 - 바로가기 \"워뇨띠가 600만원을 3천억으로 만든 방법\""
+              - generic:
+                - button "탭비트(Tapbit) 거래소 - 바로가기 \"워뇨띠가 600만원을 3천억으로 만든 방법\"":
+                  - img "탭비트(Tapbit) 거래소 - 바로가기 \"워뇨띠가 600만원을 3천억으로 만든 방법\""
+              - generic:
+                - button "탭비트(Tapbit) 거래소 - 바로가기 \"워뇨띠가 600만원을 3천억으로 만든 방법\"":
+                  - img "탭비트(Tapbit) 거래소 - 바로가기 \"워뇨띠가 600만원을 3천억으로 만든 방법\""
+              - generic:
+                - button "탭비트(Tapbit) 거래소 - 바로가기 \"워뇨띠가 600만원을 3천억으로 만든 방법\"":
+                  - img "탭비트(Tapbit) 거래소 - 바로가기 \"워뇨띠가 600만원을 3천억으로 만든 방법\""
+              - generic:
+                - button "탭비트(Tapbit) 거래소 - 바로가기 \"워뇨띠가 600만원을 3천억으로 만든 방법\"":
+                  - img "탭비트(Tapbit) 거래소 - 바로가기 \"워뇨띠가 600만원을 3천억으로 만든 방법\""
+              - generic:
+                - button "탭비트(Tapbit) 거래소 - 바로가기 \"워뇨띠가 600만원을 3천억으로 만든 방법\"":
+                  - img "탭비트(Tapbit) 거래소 - 바로가기 \"워뇨띠가 600만원을 3천억으로 만든 방법\""
+          - generic [ref=e717]:
+            - button "이전" [disabled] [ref=e718]:
+              - generic [ref=e719]: 이전
+            - generic [ref=e720]:
+              - button "1" [pressed] [ref=e721] [cursor=pointer]
+              - button "2" [ref=e722] [cursor=pointer]
+              - button "3" [ref=e723] [cursor=pointer]
+            - button "다음" [ref=e724] [cursor=pointer]:
+              - generic [ref=e725]: 다음
+        - generic [ref=e729]:
+          - link "좋아하는 건 누구나 남기고 싶으니까 클립 올리면 매주 쌓이는 Npay 포인트" [ref=e730] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2603-naverclip-001&target=https%3A%2F%2Fclipcreators.naver.com%2Fpromotion%2Ftoday%3Fdtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2603-naverclip-001
+            - generic [ref=e732]:
+              - strong [ref=e733]: 좋아하는 건 누구나 남기고 싶으니까
+              - paragraph [ref=e734]: 클립 올리면 매주 쌓이는 Npay 포인트
+          - link "모두가 찜하고 싶은 스토어의 발견" [ref=e735] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2512-shopping-024&material=J&target=https%3A%2F%2Fmkt.naver.com%2Fstore_discovery%3Fdtm_detail%3DJ%26dtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2512-shopping-024
+            - generic [ref=e737]:
+              - strong [ref=e738]: 모두가 찜하고 싶은
+              - paragraph [ref=e739]: 스토어의 발견
+          - link "컬리N마트 5O% 첫 구매 혜택 반값 쿠폰 받고 최대 2만원 적립까지" [ref=e740] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2604-shopping-033&target=https%3A%2F%2Fshopping.naver.com%2Ffesta%2Fonsale%2Ffood%2F69e0ad173cda702a9b5553dc%3Fdtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2604-shopping-033
+            - generic [ref=e742]:
+              - strong [ref=e743]: 컬리N마트 5O% 첫 구매 혜택
+              - paragraph [ref=e744]: 반값 쿠폰 받고 최대 2만원 적립까지
+          - link "네이버가 더 편해지는 순간 웨일 브라우저 알아보기" [ref=e745] [cursor=pointer]:
+            - /url: https://naver.me/FWTmTscE
+            - generic [ref=e747]:
+              - strong [ref=e748]: 네이버가 더 편해지는 순간
+              - paragraph [ref=e749]: 웨일 브라우저 알아보기
+    - generic [ref=e750]:
+      - link "맨위로" [ref=e752] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e753]: 맨위로
+      - generic [ref=e755]:
+        - link "전체서비스" [ref=e757] [cursor=pointer]:
+          - /url: https://www.naver.com/more.html
+        - link "이용약관" [ref=e759] [cursor=pointer]:
+          - /url: https://policy.naver.com/policy/service.html
+        - link "개인정보처리방침" [ref=e761] [cursor=pointer]:
+          - /url: https://policy.naver.com/policy/privacy.html
+          - strong [ref=e762]: 개인정보처리방침
+        - link "검색 고객센터" [ref=e764] [cursor=pointer]:
+          - /url: https://help.naver.com/alias/search/integration/main.naver
+        - link "© NAVER Corp." [ref=e766] [cursor=pointer]:
+          - /url: https://www.navercorp.com/

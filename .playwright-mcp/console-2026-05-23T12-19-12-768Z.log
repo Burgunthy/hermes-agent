@@ -1,0 +1,2 @@
+[     536ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://github.com/danijar/dreamerv3/blob/main/dreamerv3/jaxmodels.py:0
+[    1133ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://github.com/danijar/dreamerv3/latest-commit/main/dreamerv3/jaxmodels.py:0

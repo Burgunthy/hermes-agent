@@ -1,0 +1,25 @@
+- table [ref=e4]:
+  - rowgroup [ref=e5]:
+    - row "Techmeme Search" [ref=e6]:
+      - cell "Techmeme Search" [ref=e7]:
+        - img "Techmeme Search" [ref=e8]
+    - row "Go" [ref=e9]:
+      - cell [ref=e10]:
+        - textbox [ref=e12]
+      - cell "Go" [ref=e13]:
+        - button "Go" [ref=e15]
+    - row "Search title & summary only" [ref=e16]:
+      - cell "Search title & summary only" [ref=e17]:
+        - generic [ref=e18]:
+          - checkbox "Search title & summary only" [checked] [ref=e19]
+          - text: Search title & summary only
+    - 'row "Tip: try these searches too — sourcename:\"Verge\" date:8/20/2019 author:\"Bill Gates\" title:\"iPhone\"" [ref=e20]':
+      - 'cell "Tip: try these searches too — sourcename:\"Verge\" date:8/20/2019 author:\"Bill Gates\" title:\"iPhone\"" [ref=e21]':
+        - generic [ref=e22]:
+          - text: "Tip: try these searches too —"
+          - list [ref=e23]:
+            - listitem [ref=e24]: sourcename:"Verge"
+            - listitem [ref=e25]: date:8/20/2019
+            - listitem [ref=e26]: author:"Bill Gates"
+            - listitem [ref=e27]: title:"iPhone"
+      - cell [ref=e28]

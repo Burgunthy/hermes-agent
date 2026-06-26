@@ -1,0 +1,4 @@
+[    1034ms] [LOG] Coinness v6.0.0 @ https://coinness.com/static/main--goqWGlR.js:1336
+[    1430ms] [WARNING] [GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202605150101/pubads_impl.js?cb=31098603:18
+[    3357ms] [WARNING] [WebBottomAnchorAd] No fill - community_detail_bottom_fix  @ https://coinness.com/static/main--goqWGlR.js:1387

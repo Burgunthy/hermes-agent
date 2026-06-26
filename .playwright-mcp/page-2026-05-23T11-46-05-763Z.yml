@@ -1,0 +1,161 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fisaac-sim%2FIsaacGymEnvs%2Ffind%2Fmain
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Ftree%2Ffind&source=header-repo&source_repo=isaac-sim%2FIsaacGymEnvs
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]: This repository was archived by the owner on Apr 14, 2026. It is now read-only.
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e67]:
+          - img [ref=e68]
+          - link "isaac-sim" [ref=e71] [cursor=pointer]:
+            - /url: /isaac-sim
+          - generic [ref=e72]: /
+          - strong [ref=e73]:
+            - link "IsaacGymEnvs" [ref=e74] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs
+          - generic [ref=e75]: Public archive
+        - generic [ref=e76]:
+          - list:
+            - listitem [ref=e77]:
+              - link "You must be signed in to change notification settings" [ref=e78] [cursor=pointer]:
+                - /url: /login?return_to=%2Fisaac-sim%2FIsaacGymEnvs
+                - img [ref=e79]
+                - text: Notifications
+            - listitem [ref=e81]:
+              - link "Fork 516" [ref=e82] [cursor=pointer]:
+                - /url: /login?return_to=%2Fisaac-sim%2FIsaacGymEnvs
+                - img [ref=e83]
+                - text: Fork
+                - generic "516" [ref=e85]
+            - listitem [ref=e86]:
+              - link "You must be signed in to star a repository" [ref=e88] [cursor=pointer]:
+                - /url: /login?return_to=%2Fisaac-sim%2FIsaacGymEnvs
+                - img [ref=e89]
+                - text: Star
+                - generic "2934 users starred this repository" [ref=e91]: 2.9k
+      - navigation "Repository" [ref=e92]:
+        - list [ref=e93]:
+          - listitem [ref=e94]:
+            - link "Code" [ref=e95] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs
+              - img [ref=e96]
+              - generic [ref=e98]: Code
+          - listitem [ref=e99]:
+            - link "Issues 145" [ref=e100] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/issues
+              - img [ref=e101]
+              - generic [ref=e104]: Issues
+              - generic "145" [ref=e105]
+          - listitem [ref=e106]:
+            - link "Pull requests 13" [ref=e107] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/pulls
+              - img [ref=e108]
+              - generic [ref=e110]: Pull requests
+              - generic "13" [ref=e111]
+          - listitem [ref=e112]:
+            - link "Actions" [ref=e113] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/actions
+              - img [ref=e114]
+              - generic [ref=e116]: Actions
+          - listitem [ref=e117]:
+            - link "Projects" [ref=e118] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/projects
+              - img [ref=e119]
+              - generic [ref=e121]: Projects
+          - listitem [ref=e122]:
+            - link "Security and quality" [ref=e123] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/security
+              - img [ref=e124]
+              - generic [ref=e126]: Security and quality
+          - listitem [ref=e127]:
+            - link "Insights" [ref=e128] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacGymEnvs/pulse
+              - img [ref=e129]
+              - generic [ref=e131]: Insights
+    - generic [ref=e135]:
+      - generic [ref=e136]:
+        - generic [ref=e137]:
+          - link "IsaacGymEnvs" [ref=e139] [cursor=pointer]:
+            - /url: /isaac-sim/IsaacGymEnvs
+          - text: /
+        - combobox "The name of the file to navigate to." [expanded] [active] [ref=e140]
+      - listbox [ref=e142]
+  - contentinfo [ref=e143]:
+    - heading "Footer" [level=2] [ref=e144]
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - link "GitHub Homepage" [ref=e147] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e148]
+        - generic [ref=e150]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e151]:
+        - heading "Footer navigation" [level=3] [ref=e152]
+        - list "Footer navigation" [ref=e153]:
+          - listitem [ref=e154]:
+            - link "Terms" [ref=e155] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e156]:
+            - link "Privacy" [ref=e157] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e158]:
+            - link "Security" [ref=e159] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e160]:
+            - link "Status" [ref=e161] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e162]:
+            - link "Community" [ref=e163] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e164]:
+            - link "Docs" [ref=e165] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e166]:
+            - link "Contact" [ref=e167] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e168]:
+            - button "Manage cookies" [ref=e170] [cursor=pointer]
+          - listitem [ref=e171]:
+            - button "Do not share my personal information" [ref=e173] [cursor=pointer]

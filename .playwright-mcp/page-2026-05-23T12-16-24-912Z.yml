@@ -1,0 +1,285 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to main content" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - link "Cornell University" [ref=e7] [cursor=pointer]:
+        - /url: https://www.cornell.edu/
+        - img "Cornell University" [ref=e8]
+      - link "Learn about arXiv becoming an independent nonprofit." [ref=e10] [cursor=pointer]:
+        - /url: https://tech.cornell.edu/arxiv/
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - text: We gratefully acknowledge support from the Simons Foundation,
+          - link "member institutions" [ref=e13] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/ourmembers.html
+          - text: ", and all contributors."
+        - link "Donate" [ref=e14] [cursor=pointer]:
+          - /url: https://info.arxiv.org/about/donate.html
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - link "arxiv logo" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img "arxiv logo" [ref=e18]
+        - generic [ref=e19]: ">"
+        - link "astro-ph" [ref=e20] [cursor=pointer]:
+          - /url: /list/astro-ph/recent
+        - generic [ref=e21]: ">"
+        - text: arXiv:2210.03056
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - textbox "Search term or terms" [ref=e26]:
+            - /placeholder: Search...
+          - paragraph [ref=e27]:
+            - link "Help" [ref=e28] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+            - text: "|"
+            - link "Advanced Search" [ref=e29] [cursor=pointer]:
+              - /url: https://arxiv.org/search/advanced
+        - combobox "Field to search" [ref=e31]:
+          - option "All fields" [selected]
+          - option "Title"
+          - option "Author"
+          - option "Abstract"
+          - option "Comments"
+          - option "Journal reference"
+          - option "ACM classification"
+          - option "MSC classification"
+          - option "Report number"
+          - option "arXiv identifier"
+          - option "DOI"
+          - option "ORCID"
+          - option "arXiv author ID"
+          - option "Help pages"
+          - option "Full text"
+        - button "Search" [ref=e32] [cursor=pointer]
+  - main [ref=e33]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - heading "Astrophysics > Earth and Planetary Astrophysics" [level=1] [ref=e38]
+        - generic [ref=e40]:
+          - generic [ref=e41]: "[Submitted on 6 Oct 2022]"
+          - 'heading "Lava World: Exoplanet Surfaces" [level=1] [ref=e42]'
+          - generic [ref=e43]:
+            - link "Marc-Antoine Fortin" [ref=e44] [cursor=pointer]:
+              - /url: https://arxiv.org/search/astro-ph?searchtype=author&query=Fortin,+M
+            - text: ","
+            - link "Esteban Gazel" [ref=e45] [cursor=pointer]:
+              - /url: https://arxiv.org/search/astro-ph?searchtype=author&query=Gazel,+E
+            - text: ","
+            - link "Lisa Kaltenegger" [ref=e46] [cursor=pointer]:
+              - /url: https://arxiv.org/search/astro-ph?searchtype=author&query=Kaltenegger,+L
+            - text: ","
+            - link "Megan E. Holycross" [ref=e47] [cursor=pointer]:
+              - /url: https://arxiv.org/search/astro-ph?searchtype=author&query=Holycross,+M+E
+          - blockquote [ref=e48]: "The recent first measurements of the reflection of the surface of a lava world provides an unprecedented opportunity to investigate different stages of rocky planet evolution. The spectral features of the surfaces of rocky lava world exoplanets give insights into their evolution, mantle composition and inner workings. However, no database exists yet that contains spectral reflectivity and emission of a wide range of potential exoplanet surface materials. Here we first synthesized 16 potential exoplanet surfaces, spanning a wide range of chemical compositions based on potential mantle material guided by the metallicity of different host stars. Then we measured their infrared reflection spectrum (2.5 - 28 {\\mu}m, 350 - 4000 cm^{-1}), from which we can obtain their emission spectra and establish the link between the composition and a strong spectral feature at 8 {\\mu}m, the Christiansen feature (CF). Our analysis suggests a new multi-component composition relationship with the CF, as well as a correlation with the silica content of the exoplanet mantle. We also report the mineralogies of our materials as possibilities for that of lava worlds. This database is a tool to aid in the interpretation of future spectra of lava worlds that will be collected by the James Webb Space Telescope and future missions"
+          - table "Additional metadata" [ref=e50]:
+            - rowgroup [ref=e51]:
+              - 'row "Comments: published in Monthly Notices of the Royal Astronomical Society" [ref=e52]':
+                - cell "Comments:" [ref=e53]
+                - cell "published in Monthly Notices of the Royal Astronomical Society" [ref=e54]
+              - 'row "Subjects: Earth and Planetary Astrophysics (astro-ph.EP); Geophysics (physics.geo-ph); Space Physics (physics.space-ph)" [ref=e55]':
+                - cell "Subjects:" [ref=e56]
+                - cell "Earth and Planetary Astrophysics (astro-ph.EP); Geophysics (physics.geo-ph); Space Physics (physics.space-ph)" [ref=e57]
+              - 'row "Cite as: arXiv:2210.03056 [astro-ph.EP]" [ref=e58]':
+                - cell "Cite as:" [ref=e59]
+                - cell "arXiv:2210.03056 [astro-ph.EP]" [ref=e60]:
+                  - generic [ref=e61]:
+                    - link "arXiv:2210.03056" [ref=e62] [cursor=pointer]:
+                      - /url: https://arxiv.org/abs/2210.03056
+                    - text: "[astro-ph.EP]"
+              - row "(or arXiv:2210.03056v1 [astro-ph.EP] for this version)" [ref=e63]:
+                - cell [ref=e64]
+                - cell "(or arXiv:2210.03056v1 [astro-ph.EP] for this version)" [ref=e65]:
+                  - text: (or
+                  - generic [ref=e66]:
+                    - link "arXiv:2210.03056v1" [ref=e67] [cursor=pointer]:
+                      - /url: https://arxiv.org/abs/2210.03056v1
+                    - text: "[astro-ph.EP]"
+                  - text: for this version)
+              - row "https://doi.org/10.48550/arXiv.2210.03056 Focus to learn more" [ref=e68]:
+                - cell [ref=e69]
+                - cell "https://doi.org/10.48550/arXiv.2210.03056 Focus to learn more" [ref=e70]:
+                  - link "https://doi.org/10.48550/arXiv.2210.03056" [ref=e71] [cursor=pointer]:
+                    - /url: https://doi.org/10.48550/arXiv.2210.03056
+                  - button "Focus to learn more" [ref=e73]:
+                    - generic [ref=e75]: Focus to learn more
+              - 'row "Journal reference: Monthly Notices of the Royal Astronomical Society, Volume 516, Issue 3, November 2022, Pages 4569" [ref=e76]':
+                - cell "Journal reference:" [ref=e77]
+                - cell "Monthly Notices of the Royal Astronomical Society, Volume 516, Issue 3, November 2022, Pages 4569" [ref=e78]
+              - 'row "Related DOI: https://doi.org/10.1093/mnras/stac2198 Focus to learn more" [ref=e79]':
+                - cell "Related DOI:" [ref=e80]
+                - cell "https://doi.org/10.1093/mnras/stac2198 Focus to learn more" [ref=e81]:
+                  - link "https://doi.org/10.1093/mnras/stac2198" [ref=e82] [cursor=pointer]:
+                    - /url: https://doi.org/10.1093/mnras/stac2198
+                  - button "Focus to learn more" [ref=e84]:
+                    - generic [ref=e86]: Focus to learn more
+        - generic [ref=e87]:
+          - heading "Submission history" [level=2] [ref=e88]
+          - text: "From: Lisa Kaltenegger ["
+          - link "view email" [ref=e89] [cursor=pointer]:
+            - /url: /show-email/6bd4b109/2210.03056
+          - text: "]"
+          - strong [ref=e90]: "[v1]"
+          - text: Thu, 6 Oct 2022 17:02:57 UTC (800 KB)
+      - generic [ref=e91]:
+        - generic [ref=e92]:
+          - heading "Access Paper:" [level=2] [ref=e93]
+          - list [ref=e94]:
+            - listitem [ref=e95]:
+              - link "View PDF" [ref=e96] [cursor=pointer]:
+                - /url: /pdf/2210.03056
+          - link "view license" [ref=e98] [cursor=pointer]:
+            - /url: http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+        - generic [ref=e99]:
+          - text: "Current browse context:"
+          - generic [ref=e100]: astro-ph.EP
+          - generic [ref=e101]:
+            - link "< prev" [ref=e103] [cursor=pointer]:
+              - /url: /prevnext?id=2210.03056&function=prev&context=astro-ph.EP
+            - text: "|"
+            - link "next >" [ref=e105] [cursor=pointer]:
+              - /url: /prevnext?id=2210.03056&function=next&context=astro-ph.EP
+          - generic [ref=e106]:
+            - link "new" [ref=e107] [cursor=pointer]:
+              - /url: /list/astro-ph.EP/new
+            - text: "|"
+            - link "recent" [ref=e108] [cursor=pointer]:
+              - /url: /list/astro-ph.EP/recent
+            - text: "|"
+            - link "2022-10" [ref=e109] [cursor=pointer]:
+              - /url: /list/astro-ph.EP/2022-10
+          - generic [ref=e110]:
+            - text: "Change to browse by:"
+            - generic [ref=e111]:
+              - link "astro-ph" [ref=e112] [cursor=pointer]:
+                - /url: /abs/2210.03056?context=astro-ph
+              - link "physics" [ref=e113] [cursor=pointer]:
+                - /url: /abs/2210.03056?context=physics
+              - link "physics.geo-ph" [ref=e114] [cursor=pointer]:
+                - /url: /abs/2210.03056?context=physics.geo-ph
+              - link "physics.space-ph" [ref=e115] [cursor=pointer]:
+                - /url: /abs/2210.03056?context=physics.space-ph
+        - generic [ref=e116]:
+          - heading "References & Citations" [level=3] [ref=e117]
+          - list [ref=e118]:
+            - listitem [ref=e119]:
+              - link "NASA ADS" [ref=e120] [cursor=pointer]:
+                - /url: https://ui.adsabs.harvard.edu/abs/arXiv:2210.03056
+            - listitem [ref=e121]:
+              - link "Google Scholar" [ref=e122] [cursor=pointer]:
+                - /url: https://scholar.google.com/scholar_lookup?arxiv_id=2210.03056
+            - listitem [ref=e123]:
+              - link "Semantic Scholar" [ref=e124] [cursor=pointer]:
+                - /url: https://api.semanticscholar.org/arXiv:2210.03056
+        - generic [ref=e125]: export BibTeX citation
+        - generic [ref=e126]:
+          - heading "Bookmark" [level=3] [ref=e128]
+          - link "BibSonomy logo" [ref=e129] [cursor=pointer]:
+            - /url: "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2210.03056&description=Lava World: Exoplanet Surfaces"
+            - img "BibSonomy logo" [ref=e130]
+          - link "Reddit logo" [ref=e131] [cursor=pointer]:
+            - /url: "https://reddit.com/submit?url=https://arxiv.org/abs/2210.03056&title=Lava World: Exoplanet Surfaces"
+            - img "Reddit logo" [ref=e132]
+      - generic [ref=e134]:
+        - radio "Bibliographic Tools" [checked] [ref=e135]
+        - generic [ref=e136] [cursor=pointer]: Bibliographic Tools
+        - generic [ref=e137]:
+          - heading "Bibliographic and Citation Tools" [level=1] [ref=e138]
+          - generic [ref=e139]:
+            - generic [ref=e140]:
+              - generic [ref=e142]:
+                - checkbox "Bibliographic Explorer Toggle"
+                - generic [ref=e144]: Bibliographic Explorer Toggle
+              - generic [ref=e145]:
+                - text: Bibliographic Explorer
+                - emphasis [ref=e146]:
+                  - text: (
+                  - link "What is the Explorer?" [ref=e147] [cursor=pointer]:
+                    - /url: https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer
+                  - text: )
+            - generic [ref=e148]:
+              - generic [ref=e150]:
+                - checkbox "Connected Papers"
+                - generic [ref=e152]: Connected Papers Toggle
+              - generic [ref=e153]:
+                - text: Connected Papers
+                - emphasis [ref=e154]:
+                  - text: (
+                  - link "What is Connected Papers?" [ref=e155] [cursor=pointer]:
+                    - /url: https://www.connectedpapers.com/about
+                  - text: )
+            - generic [ref=e156]:
+              - generic [ref=e158]:
+                - checkbox "Litmaps"
+                - generic [ref=e160]: Litmaps Toggle
+              - generic [ref=e161]:
+                - text: Litmaps
+                - emphasis [ref=e162]:
+                  - text: (
+                  - link "What is Litmaps?" [ref=e163] [cursor=pointer]:
+                    - /url: https://www.litmaps.co/
+                  - text: )
+            - generic [ref=e164]:
+              - generic [ref=e166]:
+                - checkbox "scite Smart Citations"
+                - generic [ref=e168]: scite.ai Toggle
+              - generic [ref=e169]:
+                - text: scite Smart Citations
+                - emphasis [ref=e170]:
+                  - text: (
+                  - link "What are Smart Citations?" [ref=e171] [cursor=pointer]:
+                    - /url: https://www.scite.ai/
+                  - text: )
+        - radio "Code, Data, Media" [ref=e175]
+        - generic [ref=e176] [cursor=pointer]: Code, Data, Media
+        - radio "Demos" [ref=e177]
+        - generic [ref=e178] [cursor=pointer]: Demos
+        - radio "Related Papers" [ref=e179]
+        - generic [ref=e180] [cursor=pointer]: Related Papers
+        - radio "About arXivLabs" [ref=e181]
+        - generic [ref=e182] [cursor=pointer]: About arXivLabs
+      - generic [ref=e183]:
+        - link "Which authors of this paper are endorsers?" [ref=e184] [cursor=pointer]:
+          - /url: /auth/show-endorsers/2210.03056
+        - text: "|"
+        - link "Disable MathJax" [ref=e185] [cursor=pointer]:
+          - /url: javascript:setMathjaxCookie()
+        - text: (
+        - link "What is MathJax?" [ref=e186] [cursor=pointer]:
+          - /url: https://info.arxiv.org/help/mathjax.html
+        - text: )
+  - contentinfo [ref=e187]:
+    - navigation "Secondary" [ref=e188]:
+      - generic [ref=e190]:
+        - list [ref=e192]:
+          - listitem [ref=e193]:
+            - link "About" [ref=e194] [cursor=pointer]:
+              - /url: https://info.arxiv.org/about
+          - listitem [ref=e195]:
+            - link "Help" [ref=e196] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+        - list [ref=e198]:
+          - listitem [ref=e199]:
+            - link "Contact" [ref=e201] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/contact.html
+          - listitem [ref=e202]:
+            - link "Subscribe" [ref=e204] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/subscribe
+      - generic [ref=e206]:
+        - list [ref=e208]:
+          - listitem [ref=e209]:
+            - link "Copyright" [ref=e210] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/license/index.html
+          - listitem [ref=e211]:
+            - link "Privacy Policy" [ref=e212] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/policies/privacy_policy.html
+        - list [ref=e214]:
+          - listitem [ref=e215]:
+            - link "Web Accessibility Assistance" [ref=e216] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/web_accessibility.html
+          - listitem [ref=e217]:
+            - paragraph [ref=e218]:
+              - link "arXiv Operational Status" [ref=e219] [cursor=pointer]:
+                - /url: https://status.arxiv.org
+                - text: arXiv Operational Status

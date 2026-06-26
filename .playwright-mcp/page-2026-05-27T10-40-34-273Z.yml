@@ -1,0 +1,221 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - link "CatchDM" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - img [ref=e6]
+      - text: CatchDM
+    - generic [ref=e8]:
+      - link "How it works" [ref=e9] [cursor=pointer]:
+        - /url: "#how"
+      - link "Features" [ref=e10] [cursor=pointer]:
+        - /url: "#features"
+      - link "Pricing" [ref=e11] [cursor=pointer]:
+        - /url: "#pricing"
+      - link "Log in" [ref=e12] [cursor=pointer]:
+        - /url: /login
+        - button "Log in" [ref=e13]
+      - link "Get started" [ref=e14] [cursor=pointer]:
+        - /url: /login
+        - button "Get started" [ref=e15]
+  - generic [ref=e17]:
+    - generic [ref=e18]:
+      - generic [ref=e19]: Instagram Automation
+      - heading "Comments become conversions" [level=1] [ref=e20]:
+        - text: Comments become
+        - emphasis [ref=e21]: conversions
+      - paragraph [ref=e22]: When someone comments on your post, CatchDM sends them a product link via DM — automatically. No manual work. No missed leads.
+      - generic [ref=e23]:
+        - link "Start free →" [ref=e24] [cursor=pointer]:
+          - /url: /login
+          - button "Start free →" [ref=e25]
+        - link "See how it works" [ref=e26] [cursor=pointer]:
+          - /url: "#how"
+          - button "See how it works" [ref=e27]
+      - paragraph [ref=e28]: Free for your first 100 DMs. No credit card needed.
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]: S
+        - generic [ref=e34]: sarah.beauty
+      - generic [ref=e35]:
+        - generic [ref=e36]: Love this! LINK please 😍
+        - generic [ref=e37]: ✓ Follower · auto-reply sent
+        - generic [ref=e38]: Thanks Sarah! Here's your link 💗
+        - generic [ref=e39]: catchdm.link/rose-matte
+        - generic [ref=e41]: Ordered!! 🛍️
+      - generic [ref=e43]: Message...
+  - generic [ref=e45]:
+    - generic [ref=e46]:
+      - generic [ref=e47]: 50K+
+      - generic [ref=e48]: DMs sent
+    - generic [ref=e49]:
+      - generic [ref=e50]: 10K+
+      - generic [ref=e51]: Creators
+    - generic [ref=e52]:
+      - generic [ref=e53]: 99.9%
+      - generic [ref=e54]: Uptime
+  - generic [ref=e56]:
+    - generic [ref=e57]:
+      - generic [ref=e58]: How it works
+      - heading "Three steps. Zero effort." [level=2] [ref=e59]
+    - generic [ref=e60]:
+      - generic [ref=e61]:
+        - generic [ref=e62]: "1"
+        - heading "Follower comments" [level=3] [ref=e63]
+        - paragraph [ref=e64]: Someone comments with your trigger keyword on any post or reel.
+      - generic [ref=e65]:
+        - generic [ref=e66]: "2"
+        - heading "CatchDM verifies" [level=3] [ref=e67]
+        - paragraph [ref=e68]: We check if they follow you and match your targeting rules.
+      - generic [ref=e69]:
+        - generic [ref=e70]: "3"
+        - heading "DM delivered" [level=3] [ref=e71]
+        - paragraph [ref=e72]: Your product link lands in their inbox. You close the sale while you sleep.
+  - generic [ref=e74]:
+    - generic [ref=e75]:
+      - generic [ref=e76]: Features
+      - heading "Every tool to never miss a lead" [level=2] [ref=e77]
+      - paragraph [ref=e78]: Set up in 2 minutes. CatchDM watches your comments 24/7, verifies followers, and sends DMs while you sleep.
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - generic [ref=e81]: 💬
+          - generic [ref=e82]:
+            - heading "Auto DM" [level=4] [ref=e83]
+            - paragraph [ref=e84]: Keyword triggers an instant personalized DM with your link.
+        - generic [ref=e85]:
+          - generic [ref=e86]: ✓
+          - generic [ref=e87]:
+            - heading "Follow Gate" [level=4] [ref=e88]
+            - paragraph [ref=e89]: Only followers get DMs. Reward loyalty, grow your audience.
+        - generic [ref=e90]:
+          - generic [ref=e91]: 📊
+          - generic [ref=e92]:
+            - heading "Live Analytics" [level=4] [ref=e93]
+            - paragraph [ref=e94]: Track delivery, clicks, and conversions in real time.
+        - generic [ref=e95]:
+          - generic [ref=e96]: 🔑
+          - generic [ref=e97]:
+            - heading "Smart Keywords" [level=4] [ref=e98]
+            - paragraph [ref=e99]: Custom triggers per post — LINK, PRICE, anything you want.
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e103]:
+          - generic [ref=e104]: 📸
+          - generic [ref=e105]:
+            - text: You post a reel
+            - generic [ref=e106]: With keyword trigger set
+        - generic [ref=e107]: ↓
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - generic [ref=e110]: 💬
+          - generic [ref=e111]:
+            - text: Follower comments "LINK"
+            - generic [ref=e112]: Keyword detected instantly
+        - generic [ref=e113]: ↓
+      - generic [ref=e114]:
+        - generic [ref=e115]:
+          - generic [ref=e116]: ✓
+          - generic [ref=e117]:
+            - text: Follow status verified
+            - generic [ref=e118]: Only followers qualify
+        - generic [ref=e119]: ↓
+      - generic [ref=e121]:
+        - generic [ref=e122]: 💌
+        - generic [ref=e123]:
+          - text: DM with product link sent
+          - generic [ref=e124]: In under 2 seconds
+  - generic [ref=e126]:
+    - generic [ref=e127]:
+      - generic [ref=e128]: Pricing
+      - heading "Start free. Scale when ready." [level=2] [ref=e129]
+    - generic [ref=e130]:
+      - generic [ref=e131]:
+        - generic [ref=e132]: Starter
+        - generic [ref=e133]: Try it out
+        - generic [ref=e134]: $0/mo
+        - list [ref=e136]:
+          - listitem [ref=e137]:
+            - img [ref=e139]
+            - text: 1 Instagram account
+          - listitem [ref=e141]:
+            - img [ref=e143]
+            - text: 100 DMs / month
+          - listitem [ref=e145]:
+            - img [ref=e147]
+            - text: Basic comment triggers
+          - listitem [ref=e149]:
+            - img [ref=e151]
+            - text: Email support
+        - link "Get Started Free" [ref=e153] [cursor=pointer]:
+          - /url: /login
+          - button "Get Started Free" [ref=e154]
+      - generic [ref=e155]:
+        - generic [ref=e156]: Pro
+        - generic [ref=e157]: For growing creators
+        - generic [ref=e158]: $29/mo
+        - list [ref=e160]:
+          - listitem [ref=e161]:
+            - img [ref=e163]
+            - text: Up to 3 Instagram accounts
+          - listitem [ref=e165]:
+            - img [ref=e167]
+            - text: 2,000 DMs / month
+          - listitem [ref=e169]:
+            - img [ref=e171]
+            - text: Custom DM templates
+          - listitem [ref=e173]:
+            - img [ref=e175]
+            - text: Keyword triggers
+          - listitem [ref=e177]:
+            - img [ref=e179]
+            - text: Analytics dashboard
+          - listitem [ref=e181]:
+            - img [ref=e183]
+            - text: Priority support
+        - link "Start Pro Trial" [ref=e185] [cursor=pointer]:
+          - /url: /login
+          - button "Start Pro Trial" [ref=e186]
+      - generic [ref=e187]:
+        - generic [ref=e188]: Growth
+        - generic [ref=e189]: Agencies & power users
+        - generic [ref=e190]: $99/mo
+        - list [ref=e192]:
+          - listitem [ref=e193]:
+            - img [ref=e195]
+            - text: Up to 10 Instagram accounts
+          - listitem [ref=e197]:
+            - img [ref=e199]
+            - text: 10,000 DMs / month
+          - listitem [ref=e201]:
+            - img [ref=e203]
+            - text: Advanced automation rules
+          - listitem [ref=e205]:
+            - img [ref=e207]
+            - text: A/B testing for DMs
+          - listitem [ref=e209]:
+            - img [ref=e211]
+            - text: Webhook integrations
+          - listitem [ref=e213]:
+            - img [ref=e215]
+            - text: API access
+          - listitem [ref=e217]:
+            - img [ref=e219]
+            - text: Dedicated account manager
+        - link "Go Growth" [ref=e221] [cursor=pointer]:
+          - /url: /login
+          - button "Go Growth" [ref=e222]
+  - generic [ref=e225]:
+    - heading "Stop missing leads." [level=2] [ref=e226]
+    - paragraph [ref=e227]: Free for your first 100 DMs. No credit card needed.
+    - link "Get started free →" [ref=e229] [cursor=pointer]:
+      - /url: /login
+      - button "Get started free →" [ref=e230]
+  - contentinfo [ref=e231]:
+    - generic [ref=e232]:
+      - generic [ref=e233]: © 2026 CatchDM
+      - generic [ref=e234]:
+        - link "Privacy" [ref=e235] [cursor=pointer]:
+          - /url: "#"
+        - link "Terms" [ref=e236] [cursor=pointer]:
+          - /url: "#"
+        - link "Support" [ref=e237] [cursor=pointer]:
+          - /url: "#"

@@ -1,0 +1,41 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - link "Skip to content" [ref=e9] [cursor=pointer]:
+        - /url: "#main"
+        - generic [ref=e10]:
+          - text: Skip to content
+          - img [ref=e11]
+      - generic [ref=e13]:
+        - banner [ref=e14]:
+          - generic [ref=e16]:
+            - button "현진-바이브코딩" [disabled] [ref=e18]:
+              - generic [ref=e22]: 현진-바이브코딩
+            - generic [ref=e23]:
+              - button "Close panel" [ref=e25] [cursor=pointer]:
+                - img [ref=e26]
+              - generic [ref=e29]:
+                - button [ref=e30] [cursor=pointer]:
+                  - img [ref=e31]
+                - button "More actions" [ref=e34] [cursor=pointer]:
+                  - img [ref=e35]
+                - button "Get Notion free" [ref=e37] [cursor=pointer]
+        - main [ref=e38]:
+          - group [disabled] [ref=e41]:
+            - generic [ref=e43]:
+              - generic [ref=e46]:
+                - img "Page icon" [ref=e51]
+                - heading "현진-바이브코딩" [level=1] [ref=e56]
+              - generic [ref=e58]:
+                - generic [ref=e62]: 클로드 110달러짜리 요금제 결제
+                - link "1. [0315]lazy-meerkat" [disabled] [ref=e65] [cursor=pointer]:
+                  - /url: /1-0315-lazy-meerkat-324b59134498804c9240d5b69d3abdd5?pvs=25
+                  - generic [ref=e68]:
+                    - img [ref=e71]:
+                      - img [ref=e72]
+                    - generic [ref=e76]: 1. [0315]lazy-meerkat
+        - region [ref=e82]
+    - status [ref=e83]
+    - alert [ref=e84]
+  - iframe [ref=e85]:
+    

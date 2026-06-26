@@ -1,0 +1,58 @@
+- generic [ref=e1]:
+  - dialog "Cookie Consent Banner" [ref=e2]:
+    - button "Close this dialog" [active] [ref=e3] [cursor=pointer]:
+      - img "Close this dialog" [ref=e4]
+    - generic [ref=e5]:
+      - generic [ref=e6]: This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising. You may change your settings at any time or accept the default settings. You may close this banner to continue with only essential cookies.
+      - link "Privacy Policy" [ref=e7] [cursor=pointer]:
+        - /url: https://allenai.org/privacy-policy/2025-02-19
+      - paragraph [ref=e8]:
+        - link "Storage Preferences" [ref=e9] [cursor=pointer]:
+          - /url: "#abad4311-9f9a-42c9-9b27-cad72ecb62cb"
+      - group "Storage Preferences" [ref=e10]:
+        - list "Storage Preferences" [ref=e11]:
+          - listitem [ref=e12]:
+            - generic [ref=e13]:
+              - switch "Targeted Advertising" [ref=e14]
+              - generic [ref=e16]: Targeted Advertising
+          - listitem [ref=e17]:
+            - generic [ref=e18]:
+              - switch "Personalization" [ref=e19]
+              - generic [ref=e21]: Personalization
+          - listitem [ref=e22]:
+            - generic [ref=e23]:
+              - switch "Analytics" [ref=e24]
+              - generic [ref=e26]: Analytics
+    - generic [ref=e27]:
+      - button "Save" [ref=e28] [cursor=pointer]
+      - button "Accept All" [ref=e29] [cursor=pointer]
+      - button "Reject Non-Essential" [ref=e30] [cursor=pointer]
+  - generic [ref=e32]:
+    - generic [ref=e34]:
+      - link "Skip to search form" [ref=e35] [cursor=pointer]:
+        - /url: "#search-form"
+      - link "Skip to main content" [ref=e36] [cursor=pointer]:
+        - /url: "#main-content"
+      - link "Skip to account menu" [ref=e37] [cursor=pointer]:
+        - /url: "#account-menu"
+      - banner [ref=e38]:
+        - link "Homepage" [ref=e39] [cursor=pointer]:
+          - /url: /
+          - img "Semantic Scholar Semantic Scholar's Logo" [ref=e40]
+        - search [ref=e62]:
+          - generic [ref=e64]:
+            - searchbox "Search text" [ref=e65]: kelly criterion optimal position sizing cryptocurrency leverage
+            - button "Submit" [disabled] [ref=e66]:
+              - generic [ref=e67]:
+                - generic [ref=e68]: Search
+                - img [ref=e69]
+        - navigation [ref=e72]:
+          - generic [ref=e73]:
+            - button "Sign In" [ref=e74] [cursor=pointer]:
+              - generic [ref=e75]: Sign In
+            - button "Create Free Account" [ref=e76] [cursor=pointer]:
+              - generic [ref=e77]: Create Free Account
+    - main [ref=e79]:
+      - generic [ref=e80]:
+        - img [ref=e81]
+        - text: Loading results

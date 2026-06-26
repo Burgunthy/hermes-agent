@@ -1,0 +1,686 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [active] [ref=e9] [cursor=pointer]:
+          - generic [ref=e270]:
+            - img
+        - generic [ref=e11]:
+          - link "YouTube Home" [ref=e271] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e276]:
+              - img
+          - generic [ref=e277]: KR
+        - button "Skip navigation" [ref=e281] [cursor=pointer]:
+          - generic [ref=e282]: Skip navigation
+      - generic [ref=e12]:
+        - search [ref=e13]:
+          - generic [ref=e14]:
+            - generic [ref=e15]:
+              - combobox "Search" [expanded] [ref=e286]: 워뇨띠 닮은꼴 프랙탈 매매법
+              - button "Clear search query" [ref=e287] [cursor=pointer]:
+                - generic [ref=e289]:
+                  - img
+            - button "Search" [ref=e24] [cursor=pointer]:
+              - generic [ref=e291]:
+                - img
+        - generic [ref=e293]:
+          - button "Search with your voice" [ref=e295] [cursor=pointer]:
+            - generic [ref=e299]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e303]:
+        - button "Settings" [ref=e308] [cursor=pointer]:
+          - generic [ref=e311]:
+            - img
+        - link "Sign in" [ref=e314] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fresults%253Fsearch_query%253D%2525EC%25259B%25258C%2525EB%252587%2525A8%2525EB%25259D%2525A0%252B%2525EB%25258B%2525AE%2525EC%25259D%252580%2525EA%2525BC%2525B4%252B%2525ED%252594%252584%2525EB%25259E%252599%2525ED%252583%252588%252B%2525EB%2525A7%2525A4%2525EB%2525A7%2525A4%2525EB%2525B2%252595&hl=en&ec=65620
+          - generic [ref=e318]:
+            - img
+          - generic [ref=e319]: Sign in
+  - navigation [ref=e31]:
+    - generic [ref=e323]:
+      - link "Home" [ref=e325] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e328]:
+          - img
+        - generic [ref=e329]: Home
+      - link "Shorts" [ref=e331] [cursor=pointer]:
+        - /url: /shorts/
+        - generic [ref=e334]:
+          - img
+        - generic [ref=e335]: Shorts
+      - link "Subscriptions" [ref=e337] [cursor=pointer]:
+        - /url: /feed/subscriptions
+        - generic [ref=e340]:
+          - img
+        - generic [ref=e341]: Subscriptions
+      - link "You" [ref=e343] [cursor=pointer]:
+        - /url: /feed/you
+        - generic [ref=e346]:
+          - img
+        - generic [ref=e347]: You
+  - generic [ref=e32]:
+    - main [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e36]:
+          - tablist [ref=e41]:
+            - tab "All" [selected] [ref=e45] [cursor=pointer]:
+              - generic [ref=e47]: All
+            - tab "Shorts" [ref=e54] [cursor=pointer]:
+              - generic [ref=e56]: Shorts
+            - tab "Unwatched" [ref=e63] [cursor=pointer]:
+              - generic [ref=e65]: Unwatched
+            - tab "Watched" [ref=e72] [cursor=pointer]:
+              - generic [ref=e74]: Watched
+            - tab "Videos" [ref=e81] [cursor=pointer]:
+              - generic [ref=e83]: Videos
+            - tab "Recently uploaded" [ref=e90] [cursor=pointer]:
+              - generic [ref=e92]: Recently uploaded
+            - tab "Live" [ref=e99] [cursor=pointer]:
+              - generic [ref=e101]: Live
+          - generic [ref=e116]:
+            - button "Search filters" [ref=e118] [cursor=pointer]:
+              - generic [ref=e119]: Filters
+              - generic [ref=e349]:
+                - img
+            - tooltip "tooltip"
+        - generic [ref=e130]:
+          - generic [ref=e135]:
+            - img [ref=e141]:
+              - generic [ref=e351]:
+                - img
+            - generic [ref=e143] [cursor=pointer]:
+              - generic [ref=e144]:
+                - link "Fast-Track Global Hiring" [ref=e147]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CYNhLioEQauuKGrSvrfcPr9C80A3XoOPThQH3xviKtRWwkB8QASAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGr1bS7AqgDBMgDCqoEuwJP0EjXaOL8EmZh2DNDw5x1ksqQwStwTVO1tlJpFU3rkn6H2tmI85Z0L_jHKYMSQKiLCHPv9c43vRu9xnlbwzgLR0K9aGq5d_IdlonM-mXDxBylqYK2NwFXhI3xGPxSvfnTVuGFjCkCsYC2VlPwnEQDIUbQcPm5ehv7KlO8Gv1l4l_RrSDsdmP7ufh_vBhVVXP5btuP_VJXMVZqvxIWL6hx93RLHTBBOQzyJdYscyuzErjNTMB7I_-TcXPZeJRutfp8mEqeBVQ6JBkUuxFjRI4j6z7H1Zhuj3zCN1ifqy6wlnc_Lp-5nz0R8V3wB-cEwTWuJRG1g6RpLll5uZH1btMH3bcsHv4jaVttGV-Muu1eAMmlditl67a4JO3E9FL-KZFyE5MEQ5dbOqQ6axnED_6MPh6b8Q6ZiPdDkdaIBeqDut9XkgUICBN4r6jRkgOgBm6AB7O8qpADkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB77ZsQKoB6vFG6gHt6GxAqgH1amxAqgH3rWxAtIILAiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWKjlieWlzZQDmgleaHR0cHM6Ly93d3cuZ2xvYmFsaXphdGlvbi1wYXJ0bmVycy5jb20vcmVzb3VyY2VzL2Vib29rLWdsb2JhbC1oaXJpbmctZ3VpZGUtZmluYW5jaWFsLXNlcnZpY2VzL7EJCc9LKuEEcZLICQDICYoCmAsBugtBCAMQBRgEIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAga6Awl2aXRwZXphYWHQCxKiDAwqCgoIjt-xApXisQLSDAIQAZoNARKqDQJLUsgNAdINhwRodHRwczovL3d3dy5nbG9iYWxpemF0aW9uLXBhcnRuZXJzLmNvbS9yZXNvdXJjZXMvZWJvb2stZ2xvYmFsLWhpcmluZy1ndWlkZS1maW5hbmNpYWwtc2VydmljZXMvP3V0bV9kZXZpY2U9YyZ1dG1fa2V5d29yZD0mdXRtX21hdGNodHlwZT0mZ3BidWNpPXtnY2xpZH0mY3FfY21wPTIzNTU0MDY0ODc0JnV0bV9zb3VyY2U9QWR3b3JkcyZ1dG1fbWVkaXVtPWNwYyZ1dG1fY2FtcGFpZ249c291dGhfa29yZWFfX2RlbWFuZF9nZW5fX2RlbWFuZGJhc2VfbG9va2FsaWtlX19bZW5dJnV0bV9jb250ZW50PWRnX2ZpbmFuY2VfZGVtYW5kYmFzZV9sb29rYWxpa2UmdXRtX3Rlcm09JmhzYV9hY2M9OTYwMTIwMjA3MCZoc2FfY2FtPTIzNTU0MDY0ODc0JmhzYV9ncnA9MTk2NzkwMzU1ODAxJmhzYV9hZD03OTcyODQ0MzY4MDQmaHNhX3NyYz0maHNhX3RndD1hdWQtMjQ2ODMwNDE4Mjg1OSZoc2Ffa3c9JmhzYV9tdD0maHNhX25ldD1hZHdvcmRzJmhzYV92ZXI9MyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM1NTQwNjQ4NzS4E____________wGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF83SfIiXk_n8uhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMI6_eJ5aXNlAMVtFfrCB0vKA_aEAEYASAAEgJzp_D_BwE&num=1&cid=CAASqwHkaJeR2Jjr517mYI5E9co_fBseQQDcgUi77z-2ANkVajKrOy7INKlO6jjBa4_PxkiQbCYOLykcl4le4O6pmhrZw4_aYVkyCe7YPZrFthCb3eDmUtJqUePVP7F82ixdQhNQyvDCdOxJpqYa3X9Xt6TUBUfrsMs30T5NYm914sm2IfpfMnnNxhA2D_MgabmgTrcvOGxPvlYp5VDsDupMPnizpauprnvTfePkvBc&sig=AOD64_2TMoiO9W3YRPJ2IQHTwe8K_tmXTg&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - link "Access Global Talent Faster. Avoid Costly Mistakes. Download the Global Hiring Toolkit." [ref=e150]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CYNhLioEQauuKGrSvrfcPr9C80A3XoOPThQH3xviKtRWwkB8QASAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGr1bS7AqgDBMgDCqoEuwJP0EjXaOL8EmZh2DNDw5x1ksqQwStwTVO1tlJpFU3rkn6H2tmI85Z0L_jHKYMSQKiLCHPv9c43vRu9xnlbwzgLR0K9aGq5d_IdlonM-mXDxBylqYK2NwFXhI3xGPxSvfnTVuGFjCkCsYC2VlPwnEQDIUbQcPm5ehv7KlO8Gv1l4l_RrSDsdmP7ufh_vBhVVXP5btuP_VJXMVZqvxIWL6hx93RLHTBBOQzyJdYscyuzErjNTMB7I_-TcXPZeJRutfp8mEqeBVQ6JBkUuxFjRI4j6z7H1Zhuj3zCN1ifqy6wlnc_Lp-5nz0R8V3wB-cEwTWuJRG1g6RpLll5uZH1btMH3bcsHv4jaVttGV-Muu1eAMmlditl67a4JO3E9FL-KZFyE5MEQ5dbOqQ6axnED_6MPh6b8Q6ZiPdDkdaIBeqDut9XkgUICBN4r6jRkgOgBm6AB7O8qpADkAcEqAfywLECqAe4xLECqAfhtrECqAelz7ECqAfnnbECqAfonbECqAfvtbECqAfwtbECqAf507ECqAfJ2rECqAep4LECqAeECKgHptSxAqgHqNIbqAe2B6gHsdwbqAewm7ECqAeusbECqAfmvLECqAf9srECqAfIz7ECqAfJz7ECqAfNx7ECqAfx0bECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAed17ECqAed1LECqAeBxhuoB_yvsQKoB77ZsQKoB6vFG6gHt6GxAqgH1amxAqgH3rWxAtIILAiAQRABGF4yAoICOg-AQoDAgICAgICAAqqAgBBI2aDSNVAUWKjlieWlzZQDmgleaHR0cHM6Ly93d3cuZ2xvYmFsaXphdGlvbi1wYXJ0bmVycy5jb20vcmVzb3VyY2VzL2Vib29rLWdsb2JhbC1oaXJpbmctZ3VpZGUtZmluYW5jaWFsLXNlcnZpY2VzL7EJCc9LKuEEcZLICQDICYoCmAsBugtBCAMQBRgEIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAga6Awl2aXRwZXphYWHQCxKiDAwqCgoIjt-xApXisQLSDAIQAZoNARKqDQJLUsgNAdINhwRodHRwczovL3d3dy5nbG9iYWxpemF0aW9uLXBhcnRuZXJzLmNvbS9yZXNvdXJjZXMvZWJvb2stZ2xvYmFsLWhpcmluZy1ndWlkZS1maW5hbmNpYWwtc2VydmljZXMvP3V0bV9kZXZpY2U9YyZ1dG1fa2V5d29yZD0mdXRtX21hdGNodHlwZT0mZ3BidWNpPXtnY2xpZH0mY3FfY21wPTIzNTU0MDY0ODc0JnV0bV9zb3VyY2U9QWR3b3JkcyZ1dG1fbWVkaXVtPWNwYyZ1dG1fY2FtcGFpZ249c291dGhfa29yZWFfX2RlbWFuZF9nZW5fX2RlbWFuZGJhc2VfbG9va2FsaWtlX19bZW5dJnV0bV9jb250ZW50PWRnX2ZpbmFuY2VfZGVtYW5kYmFzZV9sb29rYWxpa2UmdXRtX3Rlcm09JmhzYV9hY2M9OTYwMTIwMjA3MCZoc2FfY2FtPTIzNTU0MDY0ODc0JmhzYV9ncnA9MTk2NzkwMzU1ODAxJmhzYV9hZD03OTcyODQ0MzY4MDQmaHNhX3NyYz0maHNhX3RndD1hdWQtMjQ2ODMwNDE4Mjg1OSZoc2Ffa3c9JmhzYV9tdD0maHNhX25ldD1hZHdvcmRzJmhzYV92ZXI9MyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM1NTQwNjQ4NzS4E____________wGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF83SfIiXk_n8uhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMI6_eJ5aXNlAMVtFfrCB0vKA_aEAEYASAAEgJzp_D_BwE&num=1&cid=CAASqwHkaJeR2Jjr517mYI5E9co_fBseQQDcgUi77z-2ANkVajKrOy7INKlO6jjBa4_PxkiQbCYOLykcl4le4O6pmhrZw4_aYVkyCe7YPZrFthCb3eDmUtJqUePVP7F82ixdQhNQyvDCdOxJpqYa3X9Xt6TUBUfrsMs30T5NYm914sm2IfpfMnnNxhA2D_MgabmgTrcvOGxPvlYp5VDsDupMPnizpauprnvTfePkvBc&sig=AOD64_2TMoiO9W3YRPJ2IQHTwe8K_tmXTg&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - generic [ref=e151]:
+                  - generic [ref=e153]:
+                    - generic [ref=e154]: Sponsored
+                    - text: ·
+                  - generic [ref=e156]: G-P
+              - button "My Ad Center" [ref=e159]:
+                - generic [ref=e353]:
+                  - img
+          - generic [ref=e166]:
+            - link [ref=e168] [cursor=pointer]:
+              - /url: /watch?v=s7gdILkbQJM&pp=ygUn7JuM64eo652gIOuLruydgOq8tCDtlITrnpntg4gg66ek66ek67KV
+              - img [ref=e354]
+              - img [ref=e357]:
+                - generic [ref=e358]: 6:27
+              - generic:
+                - generic: Now playing
+                - generic:
+                  - img
+            - generic [ref=e170] [cursor=pointer]:
+              - generic [ref=e171]:
+                - generic [ref=e172]:
+                  - heading "워뇨띠가 사용하는 프랙탈 기법의 창시자 6 minutes, 27 seconds" [level=3] [ref=e173]:
+                    - link "워뇨띠가 사용하는 프랙탈 기법의 창시자 6 minutes, 27 seconds" [ref=e174]:
+                      - /url: /watch?v=s7gdILkbQJM&pp=ygUn7JuM64eo652gIOuLruydgOq8tCDtlITrnpntg4gg66ek66ek67KV
+                      - text: 워뇨띠가 사용하는 프랙탈 기법의 창시자
+                  - button "Action menu" [ref=e362]:
+                    - generic [ref=e365]:
+                      - img
+                - generic [ref=e177]:
+                  - generic [ref=e178]: 36K views
+                  - generic [ref=e179]: •3 years ago
+              - generic [ref=e180]:
+                - link "Go to channel 조크라테스 - 지표 전략 연구소" [ref=e181]:
+                  - /url: /@Trader_Zocrates
+                - link "조크라테스 - 지표 전략 연구소" [ref=e186]:
+                  - /url: /@Trader_Zocrates
+              - generic [ref=e187]:
+                - text: 한국트레이더협회 네이버 카페 https://cafe.naver.com/cjsrnr6777.
+                - tooltip "tooltip"
+          - generic [ref=e189]:
+            - link [ref=e191] [cursor=pointer]:
+              - /url: /watch?v=C1XzSC9JLYQ&pp=ygUn7JuM64eo652gIOuLruydgOq8tCDtlITrnpntg4gg66ek66ek67KV
+              - img [ref=e367]
+              - img [ref=e370]:
+                - generic [ref=e371]: 6:11
+              - generic:
+                - generic: Now playing
+                - generic:
+                  - img
+            - generic [ref=e193] [cursor=pointer]:
+              - generic [ref=e194]:
+                - generic [ref=e195]:
+                  - heading "워뇨띠의 프랙탈 매매법 (해외선물 프랙탈 매매법) 6 minutes, 11 seconds" [level=3] [ref=e196]:
+                    - link "워뇨띠의 프랙탈 매매법 (해외선물 프랙탈 매매법) 6 minutes, 11 seconds" [ref=e197]:
+                      - /url: /watch?v=C1XzSC9JLYQ&pp=ygUn7JuM64eo652gIOuLruydgOq8tCDtlITrnpntg4gg66ek66ek67KV
+                      - text: 워뇨띠의 프랙탈 매매법 (해외선물 프랙탈 매매법)
+                  - button "Action menu" [ref=e375]:
+                    - generic [ref=e378]:
+                      - img
+                - generic [ref=e200]:
+                  - generic [ref=e201]: 229 views
+                  - generic [ref=e202]: •1 month ago
+              - generic [ref=e203]:
+                - link "Go to channel 해외선물 퓨처스 트레이딩" [ref=e204]:
+                  - /url: /@%ED%93%A8%EC%B2%98%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9
+                - link "해외선물 퓨처스 트레이딩" [ref=e209]:
+                  - /url: /@%ED%93%A8%EC%B2%98%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9
+              - generic [ref=e210]:
+                - generic [ref=e211]: 전설의 트레이더 워뇨띠의 프랙탈 매매법을 알려드립니다 해외선물 매매에서 프랙탈 매매 이렇게만 따라하시면 됩니다 전설의 코인 ...
+                - tooltip "tooltip"
+          - generic [ref=e216]:
+            - img [ref=e222]:
+              - generic [ref=e381]:
+                - img
+            - generic [ref=e224] [cursor=pointer]:
+              - generic [ref=e225]:
+                - link "XM 거래 지원금 $100 지급" [ref=e228]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CCMFQioEQauuKGrSvrfcPr9C80A2418v5hgGYjMb_4xWwkB8QAiAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGdsO6hA6kCLPN3MWJzsz6oAwTIAwqqBLoCT9BI12ji_BJmYdgzQ8OcdZLKkMErcE1TtbZSaRVN65J-h9rZiPOWdC_4xymDEkCoiwhz7_XON70bvcZ5W8M4C0dCvWhquXfyHZaJzPplw8QcpamCtjcBV4SN8Rj8Ur3501bhhYwpArGAtlZT8JxEAyFG0HD5uXob-ypTvBr9ZeJf0a0g7HZj-7n4f7wYVVVz-W7bj_1SVzFWar8SFi-ocfd0Sx0wQTkM8iXWLHMrsxK4zUzAeyP_k3Fz2XiUbrX6fJhKngVUOiQZFLsRY0SOI-s-x9WYbo98wjdYn6susJZ3Py6fuZ89EfFd8AfnBME1riURq52kaS5Zed7stlLXB92dKxsAwI7rDUrRS39rJcDTQKYh_Xufk9CVwKm41puiWUwOEo5tcBikNn-z9yShESI8m_8YdfDzHnuIBa6DwrRUkgUHCBN4ha_UbKAGboAHrOu1bJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFio5Ynlpc2UA5oJK2h0dHBzOi8vd3d3LnhtLmNvbS9sYW5kaW5nL2RlcG9zaXQtYm9udXMva3KxCVspvwP0zVsayAkAyAmKApgLAboLQQgDEAUYBCAIKAEwHEABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIFugMJdml0cGV6YWFh0AsSogwzKgoKCI7fsQKV4rECYg8KDWNvbS54bS5XZWJBcHBqDwoNY29tLnhtLndlYmFwcHgAiAEA0gwCEAGaDQESqg0CS1LIDQHSDV5odHRwczovL3d3dy54bS5jb20vbGFuZGluZy9kZXBvc2l0LWJvbnVzL2tyP2dpZD0yNjE0ODkmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIyNjU4NzExOTgyuBP___________8BiBQEsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRfOlhRFRVavL7oXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMI6_eJ5aXNlAMVtFfrCB0vKA_aEAEYAiAAEgJxzPD_BwE&num=2&cid=CAASqwHkaJeR2Jjr517mYI5E9co_fBseQQDcgUi77z-2ANkVajKrOy7INKlO6jjBa4_PxkiQbCYOLykcl4le4O6pmhrZw4_aYVkyCe7YPZrFthCb3eDmUtJqUePVP7F82ixdQhNQyvDCdOxJpqYa3X9Xt6TUBUfrsMs30T5NYm914sm2IfpfMnnNxhA2D_MgabmgTrcvOGxPvlYp5VDsDupMPnizpauprnvTfePkvBc&sig=AOD64_3Wi2DDGo2GUrMtLthCcDtkbvaarQ&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - link "규제를 받고 공식 라이선스를 갖춘 XM 거래소에서 빠른 거래 체결을 경험하세요." [ref=e231]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CCMFQioEQauuKGrSvrfcPr9C80A2418v5hgGYjMb_4xWwkB8QAiAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGdsO6hA6kCLPN3MWJzsz6oAwTIAwqqBLoCT9BI12ji_BJmYdgzQ8OcdZLKkMErcE1TtbZSaRVN65J-h9rZiPOWdC_4xymDEkCoiwhz7_XON70bvcZ5W8M4C0dCvWhquXfyHZaJzPplw8QcpamCtjcBV4SN8Rj8Ur3501bhhYwpArGAtlZT8JxEAyFG0HD5uXob-ypTvBr9ZeJf0a0g7HZj-7n4f7wYVVVz-W7bj_1SVzFWar8SFi-ocfd0Sx0wQTkM8iXWLHMrsxK4zUzAeyP_k3Fz2XiUbrX6fJhKngVUOiQZFLsRY0SOI-s-x9WYbo98wjdYn6susJZ3Py6fuZ89EfFd8AfnBME1riURq52kaS5Zed7stlLXB92dKxsAwI7rDUrRS39rJcDTQKYh_Xufk9CVwKm41puiWUwOEo5tcBikNn-z9yShESI8m_8YdfDzHnuIBa6DwrRUkgUHCBN4ha_UbKAGboAHrOu1bJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFio5Ynlpc2UA5oJK2h0dHBzOi8vd3d3LnhtLmNvbS9sYW5kaW5nL2RlcG9zaXQtYm9udXMva3KxCVspvwP0zVsayAkAyAmKApgLAboLQQgDEAUYBCAIKAEwHEABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AICqAEB2AEBgAIBiAIFugMJdml0cGV6YWFh0AsSogwzKgoKCI7fsQKV4rECYg8KDWNvbS54bS5XZWJBcHBqDwoNY29tLnhtLndlYmFwcHgAiAEA0gwCEAGaDQESqg0CS1LIDQHSDV5odHRwczovL3d3dy54bS5jb20vbGFuZGluZy9kZXBvc2l0LWJvbnVzL2tyP2dpZD0yNjE0ODkmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIyNjU4NzExOTgyuBP___________8BiBQEsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRfOlhRFRVavL7oXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMI6_eJ5aXNlAMVtFfrCB0vKA_aEAEYAiAAEgJxzPD_BwE&num=2&cid=CAASqwHkaJeR2Jjr517mYI5E9co_fBseQQDcgUi77z-2ANkVajKrOy7INKlO6jjBa4_PxkiQbCYOLykcl4le4O6pmhrZw4_aYVkyCe7YPZrFthCb3eDmUtJqUePVP7F82ixdQhNQyvDCdOxJpqYa3X9Xt6TUBUfrsMs30T5NYm914sm2IfpfMnnNxhA2D_MgabmgTrcvOGxPvlYp5VDsDupMPnizpauprnvTfePkvBc&sig=AOD64_3Wi2DDGo2GUrMtLthCcDtkbvaarQ&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - generic [ref=e232]:
+                  - generic [ref=e234]:
+                    - generic [ref=e235]: Sponsored
+                    - text: ·
+                  - generic [ref=e237]: XM
+              - button "My Ad Center" [ref=e240]:
+                - generic [ref=e383]:
+                  - img
+          - generic [ref=e385]:
+            - link [ref=e387] [cursor=pointer]:
+              - /url: /watch?v=9fzpxOvctaQ&pp=ygUn7JuM64eo652gIOuLruydgOq8tCDtlITrnpntg4gg66ek66ek67KV
+            - generic [ref=e389] [cursor=pointer]:
+              - generic [ref=e390]:
+                - generic [ref=e391]:
+                  - heading "해외선물 프랙탈 + EMA 매매법｜전설의 트레이더 워뇨띠의 프랙탈 매매 6 minutes, 39 seconds" [level=3] [ref=e392]:
+                    - link "해외선물 프랙탈 + EMA 매매법｜전설의 트레이더 워뇨띠의 프랙탈 매매 6 minutes, 39 seconds" [ref=e393]:
+                      - /url: /watch?v=9fzpxOvctaQ&pp=ygUn7JuM64eo652gIOuLruydgOq8tCDtlITrnpntg4gg66ek66ek67KV
+                      - text: 해외선물 프랙탈 + EMA 매매법｜전설의 트레이더 워뇨띠의 프랙탈 매매
+                  - button "Action menu" [ref=e397]:
+                    - generic [ref=e400]:
+                      - img
+                - generic [ref=e403]:
+                  - generic [ref=e404]: 11 views
+                  - generic [ref=e405]: •11 hours ago
+              - generic [ref=e406]:
+                - link "Go to channel 해외선물 퓨처스 트레이딩" [ref=e407]:
+                  - /url: /@%ED%93%A8%EC%B2%98%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9
+                - link "해외선물 퓨처스 트레이딩" [ref=e413]:
+                  - /url: /@%ED%93%A8%EC%B2%98%EC%8A%A4%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9
+              - generic [ref=e414]:
+                - generic [ref=e415]: 해외선물 프랙탈과 EMA를 조합해 지지·저항 구간과 추세 방향을 함께 확인하는 매매법을 정리했습니다. 프랙탈로 고점·저점 구조를 ...
+                - tooltip "tooltip"
+              - img "New" [ref=e420]:
+                - generic [ref=e421]: New
+          - generic [ref=e423]:
+            - link [ref=e425] [cursor=pointer]:
+              - /url: /shorts/tWinN3xW8H8
+            - generic [ref=e427] [cursor=pointer]:
+              - generic [ref=e428]:
+                - generic [ref=e429]:
+                  - 'heading "프랙탈 지표로 제대로 지지/저항구간 찾아 매매하는 코인선물 매매법 #비트코인선물 #코인선물 by 코미니 - 코인의민족 27,101 views 2 years ago 1 minute - play Short" [level=3] [ref=e430]':
+                    - 'link "프랙탈 지표로 제대로 지지/저항구간 찾아 매매하는 코인선물 매매법 #비트코인선물 #코인선물 by 코미니 - 코인의민족 27,101 views 2 years ago 1 minute - play Short" [ref=e431]':
+                      - /url: /shorts/tWinN3xW8H8
+                      - text: "프랙탈 지표로 제대로 지지/저항구간 찾아 매매하는 코인선물 매매법 #비트코인선물 #코인선물"
+                  - button "Action menu" [ref=e435]:
+                    - generic [ref=e438]:
+                      - img
+                - generic [ref=e441]:
+                  - generic [ref=e442]: 27K views
+                  - generic [ref=e443]: •2 years ago
+              - generic [ref=e444]:
+                - link "Go to channel 코미니 - 코인의민족" [ref=e445]:
+                  - /url: /@CominiTV
+                - link "코미니 - 코인의민족" [ref=e450]:
+                  - /url: /@CominiTV
+              - generic [ref=e451]:
+                - link "0 seconds 차트의 모양을 보고 매매하는 프레스 액션 트레이딩에 있어서 최고의 방법인 <b>프랙탈</b> 지표 활용 방법에 대해서 알고 계신가요 우선&nbsp;..." [ref=e452]:
+                  - /url: /watch?v=tWinN3xW8H8
+                  - text: 0:00
+                  - generic [ref=e453]: 차트의 모양을 보고 매매하는 프레스 액션 트레이딩에 있어서 최고의 방법인 프랙탈 지표 활용 방법에 대해서 알고 계신가요 우선 ...
+                - tooltip "tooltip"
+          - generic [ref=e462] [cursor=pointer]:
+            - link [ref=e463]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CiitIioEQauuKGrSvrfcPr9C80A31haKUhwG5uNf3iRawkB8QAyAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHz4d-TQqkCqVk_klqlBj6oAwTIAwqqBLoCT9BI12ji_BJmYdgzQ8OcdZLKkMErcE1TtbZSaRVN65J-h9rZiPOWdC_4xymDEkCoiwhz7_XON70bvcZ5W8M4C0dCvWhquXfyHZaJzPplw8QcpamCtjcBV4SN8Rj8Ur3501bhhYwpArGAtlZT8JxEAyFG0HD5uXob-ypTvBr9ZeJf0a0g7HZj-7n4f7wYVVVz-W7bj_1SVzFWar8SFi-ocfd0Sx0wQTkM8iXWLHMrsxK4zUzAeyP_k3Fz2XiUbrX6fJhKngVUOiQZFLsRY0SOI-s-x9WYbo98wjdYn6susJZ3Py6fuZ89EfFd8AfnBME1riUR8gd9qymZsxOfxGNQ-DseYAvbspS83XkMAn09ksdtkXNW_Xufk-utopi_1oTpdmEOEphtcBikNn_O5Fu7ESI8m_8YLJDBGHyIBeeD3PJYkgUICBN45MS3kh2gBqEBgAfzmbDzHJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECkggLU3JBX3Y4MTlaQTCoCAHSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFio5Ynlpc2UA5oJHGh0dHBzOi8vY2NsLWtvLmtyL3BhZ2UvY2NsMTexCVP6vmhnTsiFyAkXyAmPAcgJwgGYCwG6C0EIAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBroDCXZpdHBlemFhYdALEqIMDCoKCgiO37ECleKxAtIMAhABmg0BEqoNAktSyA0B0g2CAWh0dHBzOi8vY2NsLWtvLmtyL3BhZ2UvY2NsMTc_dXRtX3NvdXJjZT1nb29nbGUmdXRtX21lZGl1bT1jcGMmdXRtX2NhbXBhaWduPXlvdXR1YmUyNl9sYW4xNyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM4NjI5MDMyNzG4E____________wGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF6_-tvQngiAduhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMI6_eJ5aXNlAMVtFfrCB0vKA_aEAEYAyAAEgJh_vD_BwE&num=3&cid=CAASqwHkaJeR2Jjr517mYI5E9co_fBseQQDcgUi77z-2ANkVajKrOy7INKlO6jjBa4_PxkiQbCYOLykcl4le4O6pmhrZw4_aYVkyCe7YPZrFthCb3eDmUtJqUePVP7F82ixdQhNQyvDCdOxJpqYa3X9Xt6TUBUfrsMs30T5NYm914sm2IfpfMnnNxhA2D_MgabmgTrcvOGxPvlYp5VDsDupMPnizpauprnvTfePkvBc&ad_cpn=%5BCPN%5D&sig=AOD64_1jlT06jrwKtWK6S9fa_YJxaCYvyQ&ctype=110&video_id=SrA_v819ZA0&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - button [ref=e468]:
+                - generic [ref=e472]:
+                  - img
+            - generic [ref=e476]:
+              - generic [ref=e477]:
+                - generic [ref=e478]:
+                  - link "만족도 1위, 인지도 1위, 서비스 1위, 컬쳐캐피탈. 역대 이벤트 진행중" [ref=e481]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CiitIioEQauuKGrSvrfcPr9C80A31haKUhwG5uNf3iRawkB8QAyAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHz4d-TQqkCqVk_klqlBj6oAwTIAwqqBLoCT9BI12ji_BJmYdgzQ8OcdZLKkMErcE1TtbZSaRVN65J-h9rZiPOWdC_4xymDEkCoiwhz7_XON70bvcZ5W8M4C0dCvWhquXfyHZaJzPplw8QcpamCtjcBV4SN8Rj8Ur3501bhhYwpArGAtlZT8JxEAyFG0HD5uXob-ypTvBr9ZeJf0a0g7HZj-7n4f7wYVVVz-W7bj_1SVzFWar8SFi-ocfd0Sx0wQTkM8iXWLHMrsxK4zUzAeyP_k3Fz2XiUbrX6fJhKngVUOiQZFLsRY0SOI-s-x9WYbo98wjdYn6susJZ3Py6fuZ89EfFd8AfnBME1riUR8gd9qymZsxOfxGNQ-DseYAvbspS83XkMAn09ksdtkXNW_Xufk-utopi_1oTpdmEOEphtcBikNn_O5Fu7ESI8m_8YLJDBGHyIBeeD3PJYkgUICBN45MS3kh2gBqEBgAfzmbDzHJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECkggLU3JBX3Y4MTlaQTCoCAHSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFio5Ynlpc2UA5oJHGh0dHBzOi8vY2NsLWtvLmtyL3BhZ2UvY2NsMTexCVP6vmhnTsiFyAkXyAmPAcgJwgGYCwG6C0EIAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBroDCXZpdHBlemFhYdALEqIMDCoKCgiO37ECleKxAtIMAhABmg0BEqoNAktSyA0B0g2CAWh0dHBzOi8vY2NsLWtvLmtyL3BhZ2UvY2NsMTc_dXRtX3NvdXJjZT1nb29nbGUmdXRtX21lZGl1bT1jcGMmdXRtX2NhbXBhaWduPXlvdXR1YmUyNl9sYW4xNyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM4NjI5MDMyNzG4E____________wGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF6_-tvQngiAduhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMI6_eJ5aXNlAMVtFfrCB0vKA_aEAEYAyAAEgJh_vD_BwE&num=3&cid=CAASqwHkaJeR2Jjr517mYI5E9co_fBseQQDcgUi77z-2ANkVajKrOy7INKlO6jjBa4_PxkiQbCYOLykcl4le4O6pmhrZw4_aYVkyCe7YPZrFthCb3eDmUtJqUePVP7F82ixdQhNQyvDCdOxJpqYa3X9Xt6TUBUfrsMs30T5NYm914sm2IfpfMnnNxhA2D_MgabmgTrcvOGxPvlYp5VDsDupMPnizpauprnvTfePkvBc&ad_cpn=%5BCPN%5D&sig=AOD64_1jlT06jrwKtWK6S9fa_YJxaCYvyQ&ctype=110&video_id=SrA_v819ZA0&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - link "만족도 1위, 인지도 1위, 서비스 1위, 컬쳐캐피탈. 역대 이벤트 진행중" [ref=e484]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CiitIioEQauuKGrSvrfcPr9C80A31haKUhwG5uNf3iRawkB8QAyAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHz4d-TQqkCqVk_klqlBj6oAwTIAwqqBLoCT9BI12ji_BJmYdgzQ8OcdZLKkMErcE1TtbZSaRVN65J-h9rZiPOWdC_4xymDEkCoiwhz7_XON70bvcZ5W8M4C0dCvWhquXfyHZaJzPplw8QcpamCtjcBV4SN8Rj8Ur3501bhhYwpArGAtlZT8JxEAyFG0HD5uXob-ypTvBr9ZeJf0a0g7HZj-7n4f7wYVVVz-W7bj_1SVzFWar8SFi-ocfd0Sx0wQTkM8iXWLHMrsxK4zUzAeyP_k3Fz2XiUbrX6fJhKngVUOiQZFLsRY0SOI-s-x9WYbo98wjdYn6susJZ3Py6fuZ89EfFd8AfnBME1riUR8gd9qymZsxOfxGNQ-DseYAvbspS83XkMAn09ksdtkXNW_Xufk-utopi_1oTpdmEOEphtcBikNn_O5Fu7ESI8m_8YLJDBGHyIBeeD3PJYkgUICBN45MS3kh2gBqEBgAfzmbDzHJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECkggLU3JBX3Y4MTlaQTCoCAHSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFio5Ynlpc2UA5oJHGh0dHBzOi8vY2NsLWtvLmtyL3BhZ2UvY2NsMTexCVP6vmhnTsiFyAkXyAmPAcgJwgGYCwG6C0EIAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBroDCXZpdHBlemFhYdALEqIMDCoKCgiO37ECleKxAtIMAhABmg0BEqoNAktSyA0B0g2CAWh0dHBzOi8vY2NsLWtvLmtyL3BhZ2UvY2NsMTc_dXRtX3NvdXJjZT1nb29nbGUmdXRtX21lZGl1bT1jcGMmdXRtX2NhbXBhaWduPXlvdXR1YmUyNl9sYW4xNyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM4NjI5MDMyNzG4E____________wGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF6_-tvQngiAduhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMI6_eJ5aXNlAMVtFfrCB0vKA_aEAEYAyAAEgJh_vD_BwE&num=3&cid=CAASqwHkaJeR2Jjr517mYI5E9co_fBseQQDcgUi77z-2ANkVajKrOy7INKlO6jjBa4_PxkiQbCYOLykcl4le4O6pmhrZw4_aYVkyCe7YPZrFthCb3eDmUtJqUePVP7F82ixdQhNQyvDCdOxJpqYa3X9Xt6TUBUfrsMs30T5NYm914sm2IfpfMnnNxhA2D_MgabmgTrcvOGxPvlYp5VDsDupMPnizpauprnvTfePkvBc&ad_cpn=%5BCPN%5D&sig=AOD64_1jlT06jrwKtWK6S9fa_YJxaCYvyQ&ctype=110&video_id=SrA_v819ZA0&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - generic [ref=e485]:
+                    - button "CULTURE_CAPITAL" [ref=e489]
+                    - generic [ref=e493]:
+                      - generic [ref=e494]: Sponsored
+                      - text: ·
+                    - generic [ref=e496]: 컬쳐캐피탈
+                - button "My Ad Center" [ref=e499]:
+                  - generic [ref=e503]:
+                    - img
+              - generic [ref=e509]:
+                - link "Watch" [ref=e512]:
+                  - /url: /watch?v=SrA_v819ZA0
+                  - generic [ref=e513]: Watch
+                - link "Visit site" [ref=e519]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CiitIioEQauuKGrSvrfcPr9C80A31haKUhwG5uNf3iRawkB8QAyAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAHz4d-TQqkCqVk_klqlBj6oAwTIAwqqBLoCT9BI12ji_BJmYdgzQ8OcdZLKkMErcE1TtbZSaRVN65J-h9rZiPOWdC_4xymDEkCoiwhz7_XON70bvcZ5W8M4C0dCvWhquXfyHZaJzPplw8QcpamCtjcBV4SN8Rj8Ur3501bhhYwpArGAtlZT8JxEAyFG0HD5uXob-ypTvBr9ZeJf0a0g7HZj-7n4f7wYVVVz-W7bj_1SVzFWar8SFi-ocfd0Sx0wQTkM8iXWLHMrsxK4zUzAeyP_k3Fz2XiUbrX6fJhKngVUOiQZFLsRY0SOI-s-x9WYbo98wjdYn6susJZ3Py6fuZ89EfFd8AfnBME1riUR8gd9qymZsxOfxGNQ-DseYAvbspS83XkMAn09ksdtkXNW_Xufk-utopi_1oTpdmEOEphtcBikNn_O5Fu7ESI8m_8YLJDBGHyIBeeD3PJYkgUICBN45MS3kh2gBqEBgAfzmbDzHJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECkggLU3JBX3Y4MTlaQTCoCAHSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFio5Ynlpc2UA5oJHGh0dHBzOi8vY2NsLWtvLmtyL3BhZ2UvY2NsMTexCVP6vmhnTsiFyAkXyAmPAcgJwgGYCwG6C0EIAxAFGAQgBygBMBxAAUgAWH1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCBroDCXZpdHBlemFhYdALEqIMDCoKCgiO37ECleKxAtIMAhABmg0BEqoNAktSyA0B0g2CAWh0dHBzOi8vY2NsLWtvLmtyL3BhZ2UvY2NsMTc_dXRtX3NvdXJjZT1nb29nbGUmdXRtX21lZGl1bT1jcGMmdXRtX2NhbXBhaWduPXlvdXR1YmUyNl9sYW4xNyZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjM4NjI5MDMyNzG4E____________wGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXFggDGAEgASgBMAE4AUABSAFQAVgBYAKgFwGpF6_-tvQngiAduhcGKAAwADgB0BgB8BgBwhkCCAE&gclid=EAIaIQobChMI6_eJ5aXNlAMVtFfrCB0vKA_aEAEYAyAAEgJh_vD_BwE&num=3&cid=CAASqwHkaJeR2Jjr517mYI5E9co_fBseQQDcgUi77z-2ANkVajKrOy7INKlO6jjBa4_PxkiQbCYOLykcl4le4O6pmhrZw4_aYVkyCe7YPZrFthCb3eDmUtJqUePVP7F82ixdQhNQyvDCdOxJpqYa3X9Xt6TUBUfrsMs30T5NYm914sm2IfpfMnnNxhA2D_MgabmgTrcvOGxPvlYp5VDsDupMPnizpauprnvTfePkvBc&ad_cpn=%5BCPN%5D&sig=AOD64_1jlT06jrwKtWK6S9fa_YJxaCYvyQ&ctype=110&video_id=SrA_v819ZA0&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - generic [ref=e520]: Visit site
+          - generic [ref=e525]:
+            - link [ref=e527] [cursor=pointer]:
+              - /url: /watch?v=cjTs_haV1SA&pp=ygUn7JuM64eo652gIOuLruydgOq8tCDtlITrnpntg4gg66ek66ek67KV
+            - generic [ref=e529] [cursor=pointer]:
+              - generic [ref=e530]:
+                - generic [ref=e531]:
+                  - heading "해외선물 프랙탈 매매법 (워뇨띠 프랙탈 매매법 해외선물 매매에서는 이렇게 써야 합니다) 6 minutes, 23 seconds" [level=3] [ref=e532]:
+                    - link "해외선물 프랙탈 매매법 (워뇨띠 프랙탈 매매법 해외선물 매매에서는 이렇게 써야 합니다) 6 minutes, 23 seconds" [ref=e533]:
+                      - /url: /watch?v=cjTs_haV1SA&pp=ygUn7JuM64eo652gIOuLruydgOq8tCDtlITrnpntg4gg66ek66ek67KV
+                      - text: 해외선물 프랙탈 매매법 (워뇨띠 프랙탈 매매법 해외선물 매매에서는 이렇게 써야 합니다)
+                  - button "Action menu" [ref=e537]:
+                    - generic [ref=e540]:
+                      - img
+                - generic [ref=e543]:
+                  - generic [ref=e544]: 130 views
+                  - generic [ref=e545]: •1 month ago
+              - generic [ref=e546]:
+                - link "Go to channel 올트 - 올바른 해외선물 트레이딩" [ref=e547]:
+                  - /url: /@alltrading-1
+                - link "올트 - 올바른 해외선물 트레이딩" [ref=e552]:
+                  - /url: /@alltrading-1
+              - generic [ref=e553]:
+                - generic [ref=e554]: 해외선물 프랙탈 매매법에 대해서 이야기 드려보도록 하겠습니다 전설의 트레이더 워뇨띠의 프랙탈 매매법 해외선물 매매에서는 ...
+                - tooltip "tooltip"
+          - generic [ref=e556]:
+            - link [ref=e558] [cursor=pointer]:
+              - /url: /shorts/PX3FAHEleOU
+            - generic [ref=e560] [cursor=pointer]:
+              - generic [ref=e561]:
+                - generic [ref=e562]:
+                  - heading "프렉탈의 원리로 연수익 4억 8천#shorts by 함투사 아카데미 7,570 views 3 years ago 58 seconds - play Short" [level=3] [ref=e563]:
+                    - link "프렉탈의 원리로 연수익 4억 8천#shorts by 함투사 아카데미 7,570 views 3 years ago 58 seconds - play Short" [ref=e564]:
+                      - /url: /shorts/PX3FAHEleOU
+                      - text: 프렉탈의 원리로 연수익 4억 8천#shorts
+                  - button "Action menu" [ref=e568]:
+                    - generic [ref=e571]:
+                      - img
+                - generic [ref=e574]:
+                  - generic [ref=e575]: 7.5K views
+                  - generic [ref=e576]: •3 years ago
+              - generic [ref=e577]:
+                - link "Go to channel 함투사 아카데미" [ref=e578]:
+                  - /url: /@HAMTOOSA
+                - link "함투사 아카데미" [ref=e583]:
+                  - /url: /@HAMTOOSA
+              - generic [ref=e584]:
+                - text: 차트강의#차트공부#차트기초#실전매매#코인선물#선물##MT4#트레이딩뷰#해외선물#MT5#메타트레이드5 함께 성장하는 함투사 ...
+                - tooltip "tooltip"
+          - generic [ref=e586]:
+            - link [ref=e588] [cursor=pointer]:
+              - /url: /shorts/xsaaPWKaIF0
+            - generic [ref=e590] [cursor=pointer]:
+              - generic [ref=e591]:
+                - generic [ref=e592]:
+                  - heading "Wonyoti's shockingly honest statement by 코인드림_자산 인사이트 1,182,445 views 7 months ago 24 seconds - play Short" [level=3] [ref=e593]:
+                    - link "Wonyoti's shockingly honest statement by 코인드림_자산 인사이트 1,182,445 views 7 months ago 24 seconds - play Short" [ref=e594]:
+                      - /url: /shorts/xsaaPWKaIF0
+                      - text: Wonyoti's shockingly honest statement
+                  - button "Action menu" [ref=e598]:
+                    - generic [ref=e601]:
+                      - img
+                - generic [ref=e604]:
+                  - generic [ref=e605]: 1.1M views
+                  - generic [ref=e606]: •7 months ago
+              - generic [ref=e607]:
+                - link "Go to channel 코인드림_자산 인사이트" [ref=e608]:
+                  - /url: /@%EC%BD%94%EC%9D%B8%EB%93%9C%EB%A6%BC
+                - link "코인드림_자산 인사이트" [ref=e613]:
+                  - /url: /@%EC%BD%94%EC%9D%B8%EB%93%9C%EB%A6%BC
+              - generic [ref=e614]:
+                - text: "#Wonyotti #WonyottiPosition #WonyottiEyelet #WonyottiRealTime"
+                - tooltip "tooltip"
+          - generic [ref=e616]:
+            - link [ref=e618] [cursor=pointer]:
+              - /url: /shorts/z-s9GYn7QYE
+            - generic [ref=e620] [cursor=pointer]:
+              - generic [ref=e621]:
+                - generic [ref=e622]:
+                  - heading "워뇨띠가 직접 공개한 매매법 by 레벨업 트레이딩 123,422 views 11 months ago 44 seconds - play Short" [level=3] [ref=e623]:
+                    - link "워뇨띠가 직접 공개한 매매법 by 레벨업 트레이딩 123,422 views 11 months ago 44 seconds - play Short" [ref=e624]:
+                      - /url: /shorts/z-s9GYn7QYE
+                      - text: 워뇨띠가 직접 공개한 매매법
+                  - button "Action menu" [ref=e628]:
+                    - generic [ref=e631]:
+                      - img
+                - generic [ref=e634]:
+                  - generic [ref=e635]: 123K views
+                  - generic [ref=e636]: •11 months ago
+              - generic [ref=e637]:
+                - link "Go to channel 레벨업 트레이딩" [ref=e638]:
+                  - /url: /@Lv-UP
+                - link "레벨업 트레이딩" [ref=e643]:
+                  - /url: /@Lv-UP
+              - generic [ref=e644]:
+                - generic [ref=e645]: "워뇨띠 #워뇨띠매매법 #워뇨띠인터뷰 #비트코인선물 #이더리움선물."
+                - tooltip "tooltip"
+              - img "4K" [ref=e650]:
+                - generic [ref=e651]: 4K
+          - generic [ref=e653]:
+            - link [ref=e655] [cursor=pointer]:
+              - /url: /shorts/tNjkePHxoT0
+            - generic [ref=e657] [cursor=pointer]:
+              - generic [ref=e658]:
+                - generic [ref=e659]:
+                  - heading "The ending of the one-shot Wonyotti with 110 billion won by 코인드림_자산 인사이트 1,930,184 views 1 year ago 35 seconds - play Short" [level=3] [ref=e660]:
+                    - link "The ending of the one-shot Wonyotti with 110 billion won by 코인드림_자산 인사이트 1,930,184 views 1 year ago 35 seconds - play Short" [ref=e661]:
+                      - /url: /shorts/tNjkePHxoT0
+                      - text: The ending of the one-shot Wonyotti with 110 billion won
+                  - button "Action menu" [ref=e665]:
+                    - generic [ref=e668]:
+                      - img
+                - generic [ref=e671]:
+                  - generic [ref=e672]: 1.9M views
+                  - generic [ref=e673]: •1 year ago
+              - generic [ref=e674]:
+                - link "Go to channel 코인드림_자산 인사이트" [ref=e675]:
+                  - /url: /@%EC%BD%94%EC%9D%B8%EB%93%9C%EB%A6%BC
+                - link "코인드림_자산 인사이트" [ref=e680]:
+                  - /url: /@%EC%BD%94%EC%9D%B8%EB%93%9C%EB%A6%BC
+          - generic [ref=e682]:
+            - link [ref=e684] [cursor=pointer]:
+              - /url: /watch?v=xOSqtWoTzC8&pp=ygUn7JuM64eo652gIOuLruydgOq8tCDtlITrnpntg4gg66ek66ek67KV
+            - generic [ref=e686] [cursor=pointer]:
+              - generic [ref=e687]:
+                - generic [ref=e688]:
+                  - heading "🔴 프렉탈 매매법으로 코인 선물 졸업하기 (Feat. 지지&저항) 8 minutes, 35 seconds" [level=3] [ref=e689]:
+                    - link "🔴 프렉탈 매매법으로 코인 선물 졸업하기 (Feat. 지지&저항) 8 minutes, 35 seconds" [ref=e690]:
+                      - /url: /watch?v=xOSqtWoTzC8&pp=ygUn7JuM64eo652gIOuLruydgOq8tCDtlITrnpntg4gg66ek66ek67KV
+                      - text: 🔴 프렉탈 매매법으로 코인 선물 졸업하기 (Feat. 지지&저항)
+                  - button "Action menu" [ref=e694]:
+                    - generic [ref=e697]:
+                      - img
+                - generic [ref=e700]:
+                  - generic [ref=e701]: 29K views
+                  - generic [ref=e702]: •3 years ago
+              - generic [ref=e703]:
+                - link "Go to channel 코미니 - 코인의민족" [ref=e704]:
+                  - /url: /@CominiTV
+                - link "코미니 - 코인의민족" [ref=e709]:
+                  - /url: /@CominiTV
+              - generic [ref=e710]:
+                - generic [ref=e711]: 유사한 패턴이 계속되는 프랙탈의 특징을 활용한 코인 선물 매매법에 대해서 공부해보는 시간을 갖도록 하겠습니다 코인의민족 ...
+                - tooltip "tooltip"
+              - generic [ref=e713]:
+                - img "4K" [ref=e716]:
+                  - generic [ref=e717]: 4K
+                - img "Closed captions" [ref=e720]:
+                  - generic [ref=e721]: CC
+              - generic [ref=e724]:
+                - generic [ref=e725]:
+                  - generic [ref=e729]: 6 chapters
+                  - button "인트로 | 윌리엄스 프랙탈 설명 | 프랙탈을 활용한 지지/저항 매매전략 | 프랙탈 한계점 해결방안 | 프랙탈 전략 및 매매법 | 마무리" [ref=e730]
+                - button "More" [ref=e735]:
+                  - generic [ref=e739]:
+                    - img
+          - generic [ref=e744]:
+            - link [ref=e746] [cursor=pointer]:
+              - /url: /watch?v=7TyBAz1e-Rk&pp=ygUn7JuM64eo652gIOuLruydgOq8tCDtlITrnpntg4gg66ek66ek67KV0gcJCQQLAYcqIYzv
+            - generic [ref=e748] [cursor=pointer]:
+              - generic [ref=e749]:
+                - generic [ref=e750]:
+                  - heading "워뇨띠도 프랙탈 기법은 이렇게 사용합니다. | 캔들차트 분석 9 minutes, 23 seconds" [level=3] [ref=e751]:
+                    - link "워뇨띠도 프랙탈 기법은 이렇게 사용합니다. | 캔들차트 분석 9 minutes, 23 seconds" [ref=e752]:
+                      - /url: /watch?v=7TyBAz1e-Rk&pp=ygUn7JuM64eo652gIOuLruydgOq8tCDtlITrnpntg4gg66ek66ek67KV0gcJCQQLAYcqIYzv
+                      - text: 워뇨띠도 프랙탈 기법은 이렇게 사용합니다. | 캔들차트 분석
+                  - button "Action menu" [ref=e756]:
+                    - generic [ref=e759]:
+                      - img
+                - generic [ref=e762]:
+                  - generic [ref=e763]: 21K views
+                  - generic [ref=e764]: •2 years ago
+              - generic [ref=e765]:
+                - link "Go to channel 이힛차트" [ref=e766]:
+                  - /url: /@iiHitChart
+                - link "이힛차트" [ref=e771]:
+                  - /url: /@iiHitChart
+              - generic [ref=e772]:
+                - generic [ref=e773]: 프랙탈 분석을 제대로 사용하는 사람이 없어서 잘못된 방법으로 알려지고 있어 올바른 사용 방법을 제작해 보았습니다. 아마 시청해 ...
+                - tooltip "tooltip"
+          - generic [ref=e775]:
+            - link [ref=e777] [cursor=pointer]:
+              - /url: /watch?v=zRAZ3ygAmrc&pp=ygUn7JuM64eo652gIOuLruydgOq8tCDtlITrnpntg4gg66ek66ek67KV
+            - generic [ref=e779] [cursor=pointer]:
+              - generic [ref=e780]:
+                - generic [ref=e781]:
+                  - heading "워뇨띠가 캔들 중심 기법을 강조하는 이유가 다 있습니다. 6 minutes, 32 seconds" [level=3] [ref=e782]:
+                    - link "워뇨띠가 캔들 중심 기법을 강조하는 이유가 다 있습니다. 6 minutes, 32 seconds" [ref=e783]:
+                      - /url: /watch?v=zRAZ3ygAmrc&pp=ygUn7JuM64eo652gIOuLruydgOq8tCDtlITrnpntg4gg66ek66ek67KV
+                      - text: 워뇨띠가 캔들 중심 기법을 강조하는 이유가 다 있습니다.
+                  - button "Action menu" [ref=e787]:
+                    - generic [ref=e790]:
+                      - img
+                - generic [ref=e793]:
+                  - generic [ref=e794]: 114K views
+                  - generic [ref=e795]: •3 years ago
+              - generic [ref=e796]:
+                - link "Go to channel 이힛차트" [ref=e797]:
+                  - /url: /@iiHitChart
+                - link "이힛차트" [ref=e802]:
+                  - /url: /@iiHitChart
+              - generic [ref=e803]:
+                - text: 캔들만으로도 알 수 있는 정보는 무척 많지만 잘 사용하는 사람은 많지 않아 어려움을 겪곤 합니다. 캔들 장인이 공개하는 캔들 분석 ...
+                - tooltip "tooltip"
+          - generic [ref=e805]:
+            - link [ref=e807] [cursor=pointer]:
+              - /url: /shorts/azpzv4GveD4
+            - generic [ref=e809] [cursor=pointer]:
+              - generic [ref=e810]:
+                - generic [ref=e811]:
+                  - 'heading "프랙탈 이론과 파동에너지. #shorts #쇼츠 by 이레네오 326 views 2 years ago 58 seconds - play Short" [level=3] [ref=e812]':
+                    - 'link "프랙탈 이론과 파동에너지. #shorts #쇼츠 by 이레네오 326 views 2 years ago 58 seconds - play Short" [ref=e813]':
+                      - /url: /shorts/azpzv4GveD4
+                      - text: "프랙탈 이론과 파동에너지. #shorts #쇼츠"
+                  - button "Action menu" [ref=e817]:
+                    - generic [ref=e820]:
+                      - img
+                - generic [ref=e823]:
+                  - generic [ref=e824]: 326 views
+                  - generic [ref=e825]: •2 years ago
+              - generic [ref=e826]:
+                - link "Go to channel 이레네오" [ref=e827]:
+                  - /url: /@irenaeux
+                - link "이레네오" [ref=e832]:
+                  - /url: /@irenaeux
+              - generic [ref=e833]:
+                - text: "초보자를 위한 파동에너지 이론 무료로 보기 : https://bakktatr.com/ Copyright 2021 bakkta tradingroom Inc. All rights reserved."
+                - tooltip "tooltip"
+          - generic [ref=e835]:
+            - link [ref=e837] [cursor=pointer]:
+              - /url: /shorts/vFTuojZbT6U
+            - generic [ref=e839] [cursor=pointer]:
+              - generic [ref=e840]:
+                - generic [ref=e841]:
+                  - 'heading "제대로 사용하면 코인 단타 끝장볼 수 있는 윌리엄스 프랙탈 매매법 #비트코인선물 #코인선물 #비트코인선물거래 #코인선물단타 by 코미니 - 코인의민족 19,926 views 3 years ago 54 seconds - play Short" [level=3] [ref=e842]':
+                    - 'link "제대로 사용하면 코인 단타 끝장볼 수 있는 윌리엄스 프랙탈 매매법 #비트코인선물 #코인선물 #비트코인선물거래 #코인선물단타 by 코미니 - 코인의민족 19,926 views 3 years ago 54 seconds - play Short" [ref=e843]':
+                      - /url: /shorts/vFTuojZbT6U
+                      - text: "제대로 사용하면 코인 단타 끝장볼 수 있는 윌리엄스 프랙탈 매매법 #비트코인선물 #코인선물 #비트코인선물거래 #코인선물단타"
+                  - button "Action menu" [ref=e847]:
+                    - generic [ref=e850]:
+                      - img
+                - generic [ref=e853]:
+                  - generic [ref=e854]: 19K views
+                  - generic [ref=e855]: •3 years ago
+              - generic [ref=e856]:
+                - link "Go to channel 코미니 - 코인의민족" [ref=e857]:
+                  - /url: /@CominiTV
+                - link "코미니 - 코인의민족" [ref=e862]:
+                  - /url: /@CominiTV
+              - generic [ref=e863]:
+                - link "0 seconds 볼린저 밴드와 윌리엄즈 <b>프랙탈</b>이라는 유명한 두 보조지표와 스토캐스틱 아랫사이를 활용한 맨법에 대해서 알고 계신가요 지표 검색&nbsp;..." [ref=e864]:
+                  - /url: /watch?v=vFTuojZbT6U
+                  - text: 0:00
+                  - generic [ref=e865]: 볼린저 밴드와 윌리엄즈 프랙탈이라는 유명한 두 보조지표와 스토캐스틱 아랫사이를 활용한 맨법에 대해서 알고 계신가요 지표 검색 ...
+                - tooltip "tooltip"
+          - generic [ref=e867]:
+            - link [ref=e869] [cursor=pointer]:
+              - /url: /@%EC%9C%A0%ED%8A%9C%EB%B8%8C%EC%9B%8C%EB%87%A8%EB%9D%A0
+            - generic [ref=e872]:
+              - link "워뇨띠 @유튜브워뇨띠•59.5K subscribers 실전 투자 대회 1등이 알려주는 \"진짜\" 트레이딩- 모든 관점 공유 및 기타 차트 공부 자료는 거래대상·시점·가액에 대한 추천이나 권유 ..." [ref=e873] [cursor=pointer]:
+                - /url: /@%EC%9C%A0%ED%8A%9C%EB%B8%8C%EC%9B%8C%EB%87%A8%EB%9D%A0
+                - generic [ref=e874]:
+                  - generic [ref=e878]: 워뇨띠
+                  - generic [ref=e879]: "@유튜브워뇨띠•59.5K subscribers"
+                  - generic [ref=e880]: 실전 투자 대회 1등이 알려주는 "진짜" 트레이딩- 모든 관점 공유 및 기타 차트 공부 자료는 거래대상·시점·가액에 대한 추천이나 권유 ...
+              - link "Subscribe" [ref=e885] [cursor=pointer]:
+                - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253D%2525EC%25259B%25258C%2525EB%252587%2525A8%2525EB%25259D%2525A0%252B%2525EB%25258B%2525AE%2525EC%25259D%252580%2525EA%2525BC%2525B4%252B%2525ED%252594%252584%2525EB%25259E%252599%2525ED%252583%252588%252B%2525EB%2525A7%2525A4%2525EB%2525A7%2525A4%2525EB%2525B2%252595%26continue_action%3DQUFFLUhqbFVuWEo1WS1YY2NPUmJqYWJka28xYkJGenBwUXxBQ3Jtc0ttY2pFWmZFNFgtbDhsTmcxWjVweFgzR3ZodDU1RDk3cGJvYS1QWm1NbUMzYlVoX0ZGeHBnaXhtRElqLUtja3BLWVNFTWFkeWtONEROVWZGdDFuekQyeE5aa3p2WlVybTAzbDJnQzNnSHkzWi1XRlZwaEhrTkNuYmFQcTRERk13Nlc2WG12VEVrd1hNMFBuT044NkpFRjUwUzRqaDRNNHdtbFlETW5FWWxrdGp3b0gtY2pKOUVHVEVaSXlRbDlLOTVZM0pMR2w&hl=en
+                - generic [ref=e886]: Subscribe
+          - generic [ref=e898] [cursor=pointer]:
+            - link [ref=e899]:
+              - /url: /watch?v=KArdSZodGGc
+              - generic [ref=e905]: 0:17
+            - generic [ref=e906]:
+              - generic [ref=e907]:
+                - generic [ref=e908]:
+                  - link "피부 장수 혁신 성분 에피셀린™으로 10가지 피부노화를 타겟하는 고기능 안티에이징 세럼" [ref=e911]:
+                    - /url: /watch?v=KArdSZodGGc
+                  - link "피부 장수 혁신 성분 에피셀린™으로 10가지 피부노화를 타겟하는 고기능 안티에이징 세럼" [ref=e914]:
+                    - /url: /watch?v=KArdSZodGGc
+                  - generic [ref=e915]:
+                    - button "유세린 Eucerin Korea" [ref=e919]
+                    - generic [ref=e923]:
+                      - generic [ref=e924]: Sponsored
+                      - text: ·
+                    - generic [ref=e926]: 유세린 Eucerin Korea
+                - button "My Ad Center" [ref=e929]:
+                  - generic [ref=e933]:
+                    - img
+              - link "더알아보기" [ref=e940]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CD8mPioEQauuKGrSvrfcPr9C80A3E1cnmhgGKkZCo5xWwkB8QBCAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAH77MDFPakCqVk_klqlBj6oAwSqBL4CT9BI12ji_BJmYdgzQ8OcdZLKkMErcE1TtbZSaRVN65J-h9rZiPOWdC_4xymDEkCoiwhz7_XON70bvcZ5W8M4C0dCvWhquXfyHZaJzPplw8QcpamCtjcBV4SN8Rj8Ur3501bhhYwpArGAtlZT8JxEAyFG0HD5uXob-ypTvBr9ZeJf0a0g7HZj-7n4f7wYVVVz-W7bj_1SVzFWar8SFi-ocfd0Sx0wQTkM8iXWLHMrsxK4zUzAeyP_k3Fz2XiUbrX6fJhKngVUOiQZFLsRY0SOI-s-x9WYbo98wjdYn6susJZ3Py6fuZ89EfFd8AfnBME1riURsihG0ymduxMJ89VsfHWCmy9q0RqVfdYWjjpMifk1kKyjbrw4mrYXPk4YDrCwroCD47GFbTBXM0UBXOB1ttilIs4igXAo4fEnhXgCiAWMs9XYWJIFDAgSMOew9NCZqbeFKJIFCAgTePGTyacYoAZVgAf7pJGlGJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH5ryxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAfVzhuoB77ZsQKoB6vFG6gHnNwbqAe3obECqAfVqbECqAfn2rECqAfetbECkggLS0FyZFNab2RHR2OoCAHSCCwIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFio5Ynlpc2UA5oJOmh0dHBzOi8vd3d3Lm9saXZleW91bmcuY28ua3Ivc3RvcmUvZ29vZHMvZ2V0R29vZHNEZXRhaWwuZG-xCcz_-z0_Y5aXyAkXyAmPAcgJwgGYCwG6C0EIAxAFGAYgBygBMBxAAUgAWF1gAGgAcAGIAQCYAQGiAQgKAKgCAdgCAqgBAdgBAYACAYgCB7oDCXZpdHBlemFhYdALE6IMDCoKCgiO37ECleKxAtIMAhABmg0BE6oNAktSyA0B0g14aHR0cHM6Ly93d3cub2xpdmV5b3VuZy5jby5rci9zdG9yZS9nb29kcy9nZXRHb29kc0RldGFpbC5kbz9nb29kc05vPUEwMDAwMDAyNTIxOTMmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzODA4MjY4Njg0uBP___________8BiBQEsBQDwBWBgIBA0BUB2BUBmBYBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAboXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMI6_eJ5aXNlAMVtFfrCB0vKA_aEAEYBCAAEgLwW_D_BwE&num=4&cid=CAASqwHkaJeR2Jjr517mYI5E9co_fBseQQDcgUi77z-2ANkVajKrOy7INKlO6jjBa4_PxkiQbCYOLykcl4le4O6pmhrZw4_aYVkyCe7YPZrFthCb3eDmUtJqUePVP7F82ixdQhNQyvDCdOxJpqYa3X9Xt6TUBUfrsMs30T5NYm914sm2IfpfMnnNxhA2D_MgabmgTrcvOGxPvlYp5VDsDupMPnizpauprnvTfePkvBc&ad_cpn=%5BCPN%5D&sig=AOD64_08nvYCwUXGqed3TFNJz3mYYRfjmg&ctype=110&video_id=KArdSZodGGc&client=ca-pub-6219811747049371&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D
+                - generic [ref=e941]: 더알아보기
+          - generic [ref=e946]:
+            - link [ref=e948] [cursor=pointer]:
+              - /url: /shorts/teQefpLDvVI
+            - generic [ref=e950] [cursor=pointer]:
+              - generic [ref=e951]:
+                - generic [ref=e952]:
+                  - 'heading "워뇨띠 캔들, 거래량 보는법 #shorts #비트코인 #선물매매 by 캔들러Candler 25,689 views 1 year ago 27 seconds - play Short" [level=3] [ref=e953]':
+                    - 'link "워뇨띠 캔들, 거래량 보는법 #shorts #비트코인 #선물매매 by 캔들러Candler 25,689 views 1 year ago 27 seconds - play Short" [ref=e954]':
+                      - /url: /shorts/teQefpLDvVI
+                      - text: "워뇨띠 캔들, 거래량 보는법 #shorts #비트코인 #선물매매"
+                  - button "Action menu" [ref=e958]:
+                    - generic [ref=e961]:
+                      - img
+                - generic [ref=e964]:
+                  - generic [ref=e965]: 25K views
+                  - generic [ref=e966]: •1 year ago
+              - generic [ref=e967]:
+                - link "Go to channel 캔들러Candler" [ref=e968]:
+                  - /url: /@ccandlerr
+                - link "캔들러Candler" [ref=e973]:
+                  - /url: /@ccandlerr
+              - generic [ref=e974]:
+                - text: "투자 #단타 #변곡점."
+                - tooltip "tooltip"
+          - generic [ref=e976]:
+            - link [ref=e978] [cursor=pointer]:
+              - /url: /shorts/39HW8lXSrnQ
+            - generic [ref=e980] [cursor=pointer]:
+              - generic [ref=e981]:
+                - generic [ref=e982]:
+                  - heading "600만원으로 4000억 번 워뇨띠 매매법 인터뷰 및 복귀 근황 by 밍고의 셀퍼럴 세상 94,779 views 9 months ago 59 seconds - play Short" [level=3] [ref=e983]:
+                    - link "600만원으로 4000억 번 워뇨띠 매매법 인터뷰 및 복귀 근황 by 밍고의 셀퍼럴 세상 94,779 views 9 months ago 59 seconds - play Short" [ref=e984]:
+                      - /url: /shorts/39HW8lXSrnQ
+                      - text: 600만원으로 4000억 번 워뇨띠 매매법 인터뷰 및 복귀 근황
+                  - button "Action menu" [ref=e988]:
+                    - generic [ref=e991]:
+                      - img
+                - generic [ref=e994]:
+                  - generic [ref=e995]: 94K views
+                  - generic [ref=e996]: •9 months ago
+              - generic [ref=e997]:
+                - link "Go to channel 밍고의 셀퍼럴 세상" [ref=e998]:
+                  - /url: /@%EC%85%80%ED%8D%BC%EB%9F%B4
+                - link "밍고의 셀퍼럴 세상" [ref=e1003]:
+                  - /url: /@%EC%85%80%ED%8D%BC%EB%9F%B4
+              - generic [ref=e1004]:
+                - text: 셀퍼럴 비트코인 선물 거래 수수료 페이백 파트너 등록이 가능한 거래소를 최고 요율로 등록하는 방법을 알려드립니다. 이 채널은 해외 ...
+                - tooltip "tooltip"
+          - generic [ref=e1006]:
+            - link [ref=e1008] [cursor=pointer]:
+              - /url: /watch?v=sxcTT1MlZMI&pp=ygUn7JuM64eo652gIOuLruydgOq8tCDtlITrnpntg4gg66ek66ek67KV
+            - generic [ref=e1010] [cursor=pointer]:
+              - generic [ref=e1011]:
+                - generic [ref=e1012]:
+                  - heading "600만원 → 3000억을 만든 전설의 트레이더 워뇨띠 매매법 (실시간 포지션 보는 법) 14 minutes, 56 seconds" [level=3] [ref=e1013]:
+                    - link "600만원 → 3000억을 만든 전설의 트레이더 워뇨띠 매매법 (실시간 포지션 보는 법) 14 minutes, 56 seconds" [ref=e1014]:
+                      - /url: /watch?v=sxcTT1MlZMI&pp=ygUn7JuM64eo652gIOuLruydgOq8tCDtlITrnpntg4gg66ek66ek67KV
+                      - text: 600만원 → 3000억을 만든 전설의 트레이더 워뇨띠 매매법 (실시간 포지션 보는 법)
+                  - button "Action menu" [ref=e1018]:
+                    - generic [ref=e1021]:
+                      - img
+                - generic [ref=e1024]:
+                  - generic [ref=e1025]: 1.9K views
+                  - generic [ref=e1026]: •4 months ago
+              - generic [ref=e1027]:
+                - link "Go to channel 코덕후" [ref=e1028]:
+                  - /url: /@%EC%BD%94%EB%8D%95%ED%9B%84
+                - link "코덕후" [ref=e1033]:
+                  - /url: /@%EC%BD%94%EB%8D%95%ED%9B%84
+              - generic [ref=e1034]:
+                - generic [ref=e1035]: 600만원 → 3000억 워뇨띠 매매법 핵심 Q&A (실시간 포지션 보는 법) 오늘 영상에서는 워뇨띠 매매법 중 200가지의 Q&A를 압축해서 ...
+                - tooltip "tooltip"
+              - generic [ref=e1038]:
+                - generic [ref=e1039]:
+                  - generic [ref=e1043]: 9 chapters
+                  - button "오프닝 | 핵심3가지 | 트레이딩 비법 | 승률 중심 | 실시간 워뇨띠 포지션 확인하는 법 | 리스크 관리 | 멘탈 관리 | 차트분석 | 핵심 총 정리" [ref=e1044]
+                - button "More" [ref=e1049]:
+                  - generic [ref=e1053]:
+                    - img
+          - generic [ref=e1058]:
+            - link [ref=e1060] [cursor=pointer]:
+              - /url: /shorts/WObGESzSDeU
+            - generic [ref=e1062] [cursor=pointer]:
+              - generic [ref=e1063]:
+                - generic [ref=e1064]:
+                  - heading "코인 워뇨띠가 3천억을 만들 수 있었던 캔들 매매법 by 불장 듀오 54,593 views 11 months ago 48 seconds - play Short" [level=3] [ref=e1065]:
+                    - link "코인 워뇨띠가 3천억을 만들 수 있었던 캔들 매매법 by 불장 듀오 54,593 views 11 months ago 48 seconds - play Short" [ref=e1066]:
+                      - /url: /shorts/WObGESzSDeU
+                      - text: 코인 워뇨띠가 3천억을 만들 수 있었던 캔들 매매법
+                  - button "Action menu" [ref=e1070]:
+                    - generic [ref=e1073]:
+                      - img
+                - generic [ref=e1076]:
+                  - generic [ref=e1077]: 54K views
+                  - generic [ref=e1078]: •11 months ago
+              - generic [ref=e1079]:
+                - link "Go to channel 불장 듀오" [ref=e1080]:
+                  - /url: /@%EB%B6%88%EC%9E%A5%EB%93%80%EC%98%A4
+                - link "불장 듀오" [ref=e1085]:
+                  - /url: /@%EB%B6%88%EC%9E%A5%EB%93%80%EC%98%A4
+              - generic [ref=e1086]:
+                - generic [ref=e1087]: 코인 워뇨띠가 3천억을 만들 수 있었던 캔들 매매법! 깔끔히 정리해 드립니다 코인 하락장 무서워 하지 마세요 코인 매매 방법만 알아가 ...
+                - tooltip "tooltip"
+          - generic [ref=e1089]:
+            - link [ref=e1091] [cursor=pointer]:
+              - /url: /watch?v=XEJg7sCz8tw&pp=ygUn7JuM64eo652gIOuLruydgOq8tCDtlITrnpntg4gg66ek66ek67KV
+            - generic [ref=e1093] [cursor=pointer]:
+              - generic [ref=e1094]:
+                - generic [ref=e1095]:
+                  - heading "[비트코인]3000억 부자 킹갓 제너럴 워뇨띠 Q&A FULL 버전 정리본(박제용) 1 hour, 3 minutes" [level=3] [ref=e1096]:
+                    - link "[비트코인]3000억 부자 킹갓 제너럴 워뇨띠 Q&A FULL 버전 정리본(박제용) 1 hour, 3 minutes" [ref=e1097]:
+                      - /url: /watch?v=XEJg7sCz8tw&pp=ygUn7JuM64eo652gIOuLruydgOq8tCDtlITrnpntg4gg66ek66ek67KV
+                      - text: "[비트코인]3000억 부자 킹갓 제너럴 워뇨띠 Q&A FULL 버전 정리본(박제용)"
+                  - button "Action menu" [ref=e1101]:
+                    - generic [ref=e1104]:
+                      - img
+                - generic [ref=e1107]:
+                  - generic [ref=e1108]: 123K views
+                  - generic [ref=e1109]: •4 years ago
+              - generic [ref=e1110]:
+                - link "Go to channel 박호구 다이어리" [ref=e1111]:
+                  - /url: /@hogoo
+                - link "박호구 다이어리" [ref=e1116]:
+                  - /url: /@hogoo
+              - generic [ref=e1117]:
+                - generic [ref=e1118]: 워뇨띠가 사용하는 비트코인 선물거래소 -------------------------------------------------------------------- [비트겟bitget]50% 수수료 무기한 할인+ ...
+                - tooltip "tooltip"
+    - text: •

@@ -1,0 +1,383 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ollama" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Ollama" [ref=e5]
+      - generic [ref=e6]:
+        - link "Models" [ref=e7] [cursor=pointer]:
+          - /url: /search
+        - link "Docs" [ref=e8] [cursor=pointer]:
+          - /url: /docs
+        - link "Pricing" [ref=e9] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=e13]:
+        - img [ref=e15]
+        - textbox "Search models" [ref=e17]
+      - generic [ref=e18]:
+        - link "Sign in" [ref=e19] [cursor=pointer]:
+          - /url: /signin
+        - link "Download" [ref=e20] [cursor=pointer]:
+          - /url: /download
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - link "nemotron-3-super" [ref=e27] [cursor=pointer]:
+        - /url: /library/nemotron-3-super
+      - generic [ref=e28]:
+        - paragraph [ref=e30]:
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - generic [ref=e34]: 2.4M
+            - generic [ref=e35]: Downloads
+          - generic "Mar 11, 2026 4:00 PM UTC" [ref=e36]:
+            - img [ref=e37]
+            - generic [ref=e39]: Updated
+            - generic [ref=e40]: 2 months ago
+        - heading "NVIDIA Nemotron 3 Super is a 120B open MoE model activating just 12B parameters to deliver maximum compute efficiency and accuracy for complex multi-agent applications." [level=2] [ref=e42]
+        - generic [ref=e43]:
+          - generic [ref=e44]: tools
+          - generic [ref=e45]: thinking
+          - generic [ref=e46]: cloud
+          - generic [ref=e47]: 120b
+    - generic [ref=e48]:
+      - generic [ref=e50]:
+        - generic [ref=e52]:
+          - button "CLI" [ref=e53] [cursor=pointer]
+          - button "cURL" [ref=e54] [cursor=pointer]
+          - button "Python" [ref=e55] [cursor=pointer]
+          - button "JavaScript" [ref=e56] [cursor=pointer]
+        - generic [ref=e57]:
+          - button "Copy" [ref=e59] [cursor=pointer]:
+            - img [ref=e60]
+          - generic [ref=e63]: ollama run nemotron-3-super
+      - generic [ref=e64]:
+        - heading "Applications" [level=2] [ref=e65]
+        - generic [ref=e67]:
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - img "Claude Code" [ref=e70]
+              - generic [ref=e71]:
+                - generic [ref=e72]: Claude Code
+                - code [ref=e73]: ollama launch claude --model nemotron-3-super
+            - button "Copy" [ref=e74] [cursor=pointer]:
+              - img [ref=e75]
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - img "Codex App" [ref=e79]
+              - generic [ref=e80]:
+                - generic [ref=e81]: Codex App
+                - code [ref=e82]: ollama launch codex-app --model nemotron-3-super
+            - button "Copy" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - img "OpenClaw" [ref=e88]
+              - generic [ref=e89]:
+                - generic [ref=e90]: OpenClaw
+                - code [ref=e91]: ollama launch openclaw --model nemotron-3-super
+            - button "Copy" [ref=e92] [cursor=pointer]:
+              - img [ref=e93]
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - img "Hermes Agent" [ref=e97]
+              - generic [ref=e98]:
+                - generic [ref=e99]: Hermes Agent
+                - code [ref=e100]: ollama launch hermes --model nemotron-3-super
+            - button "Copy" [ref=e101] [cursor=pointer]:
+              - img [ref=e102]
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - img "Codex" [ref=e106]
+              - generic [ref=e107]:
+                - generic [ref=e108]: Codex
+                - code [ref=e109]: ollama launch codex --model nemotron-3-super
+            - button "Copy" [ref=e110] [cursor=pointer]:
+              - img [ref=e111]
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - img "OpenCode" [ref=e115]
+              - generic [ref=e116]:
+                - generic [ref=e117]: OpenCode
+                - code [ref=e118]: ollama launch opencode --model nemotron-3-super
+            - button "Copy" [ref=e119] [cursor=pointer]:
+              - img [ref=e120]
+      - generic [ref=e122]:
+        - generic [ref=e123]:
+          - heading "Models" [level=2] [ref=e124]
+          - link "View all →" [ref=e125] [cursor=pointer]:
+            - /url: /library/nemotron-3-super/tags
+        - generic [ref=e127]:
+          - generic [ref=e128]:
+            - paragraph [ref=e129]: Name
+            - paragraph [ref=e130]: Size / Usage
+            - paragraph [ref=e131]: Context
+            - paragraph [ref=e132]: Input
+          - generic [ref=e133]:
+            - link "nemotron-3-super:latest" [ref=e135] [cursor=pointer]:
+              - /url: /library/nemotron-3-super:latest
+            - paragraph [ref=e136]: 87GB
+            - paragraph [ref=e137]: 256K
+            - paragraph [ref=e138]: Text
+          - generic [ref=e139]:
+            - generic [ref=e140]:
+              - link "nemotron-3-super:120b" [ref=e141] [cursor=pointer]:
+                - /url: /library/nemotron-3-super:120b
+              - generic [ref=e142]: latest
+            - paragraph [ref=e143]: 87GB
+            - paragraph [ref=e144]: 256K
+            - paragraph [ref=e145]: Text
+          - generic [ref=e146]:
+            - link "nemotron-3-super:cloud" [ref=e148] [cursor=pointer]:
+              - /url: /library/nemotron-3-super:cloud
+            - paragraph [ref=e149]
+            - paragraph [ref=e154]: 256K
+            - paragraph [ref=e155]: Text
+    - generic [ref=e156]:
+      - heading "Readme" [level=2] [ref=e158]
+      - generic [ref=e160]:
+        - paragraph [ref=e161]: NVIDIA Nemotron™ is a family of open models with open weights, training data, and recipes, delivering leading efficiency and accuracy for building specialized AI agents.
+        - paragraph [ref=e162]:
+          - strong [ref=e163]: Nemotron-3-Super
+          - text: is a large language model (LLM) trained by NVIDIA, designed to deliver strong agentic, reasoning, and conversational capabilities. It is optimized for collaborative agents and high-volume workloads such as IT ticket automation. Like other models in the family, it responds to user queries and tasks by first generating a reasoning trace and then concluding with a final response. The model’s reasoning capabilities can be configured through a flag in the chat template.
+        - paragraph [ref=e164]:
+          - text: The model has
+          - strong [ref=e165]: 12B active parameters
+          - text: and
+          - strong [ref=e166]: 120B parameters in total
+          - text: .
+        - paragraph [ref=e167]: "The supported languages include: English, French, German, Italian, Japanese, Spanish, and Chinese"
+        - paragraph [ref=e168]: This model is ready for commercial use.
+        - paragraph [ref=e169]:
+          - img "nemotron 3 super" [ref=e170]
+        - heading "Benchmarks" [level=3] [ref=e171]
+        - table [ref=e172]:
+          - rowgroup [ref=e173]:
+            - row "Benchmark Nemotron 3 Super Qwen3.5-122B-A10B GPT-OSS-120B" [ref=e174]:
+              - columnheader "Benchmark" [ref=e175]:
+                - strong [ref=e176]: Benchmark
+              - columnheader "Nemotron 3 Super" [ref=e177]:
+                - strong [ref=e178]: Nemotron 3 Super
+              - columnheader "Qwen3.5-122B-A10B" [ref=e179]:
+                - strong [ref=e180]: Qwen3.5-122B-A10B
+              - columnheader "GPT-OSS-120B" [ref=e181]:
+                - strong [ref=e182]: GPT-OSS-120B
+          - rowgroup [ref=e183]:
+            - row "General Knowledge" [ref=e184]:
+              - cell "General Knowledge" [ref=e185]:
+                - strong [ref=e186]: General Knowledge
+              - cell [ref=e187]
+              - cell [ref=e188]
+              - cell [ref=e189]
+            - row "MMLU-Pro 83.73 86.70 81.00" [ref=e190]:
+              - cell "MMLU-Pro" [ref=e191]
+              - cell "83.73" [ref=e192]
+              - cell "86.70" [ref=e193]
+              - cell "81.00" [ref=e194]
+            - row "Reasoning" [ref=e195]:
+              - cell "Reasoning" [ref=e196]:
+                - strong [ref=e197]: Reasoning
+              - cell [ref=e198]
+              - cell [ref=e199]
+              - cell [ref=e200]
+            - row "AIME25 (no tools) 90.21 90.36 92.50" [ref=e201]:
+              - cell "AIME25 (no tools)" [ref=e202]
+              - cell "90.21" [ref=e203]
+              - cell "90.36" [ref=e204]
+              - cell "92.50" [ref=e205]
+            - row "HMMT Feb25 (no tools) 93.67 91.40 90.00" [ref=e206]:
+              - cell "HMMT Feb25 (no tools)" [ref=e207]
+              - cell "93.67" [ref=e208]
+              - cell "91.40" [ref=e209]
+              - cell "90.00" [ref=e210]
+            - row "HMMT Feb25 (with tools) 94.73 89.55 —" [ref=e211]:
+              - cell "HMMT Feb25 (with tools)" [ref=e212]
+              - cell "94.73" [ref=e213]
+              - cell "89.55" [ref=e214]
+              - cell "—" [ref=e215]
+            - row "GPQA (no tools) 79.23 86.60 80.10" [ref=e216]:
+              - cell "GPQA (no tools)" [ref=e217]
+              - cell "79.23" [ref=e218]
+              - cell "86.60" [ref=e219]
+              - cell "80.10" [ref=e220]
+            - row "GPQA (with tools) 82.70 — 80.09" [ref=e221]:
+              - cell "GPQA (with tools)" [ref=e222]
+              - cell "82.70" [ref=e223]
+              - cell "—" [ref=e224]
+              - cell "80.09" [ref=e225]
+            - row "LiveCodeBench (v5 2024-07 to 2024-12) 81.19 78.93 88.00" [ref=e226]:
+              - cell "LiveCodeBench (v5 2024-07 to 2024-12)" [ref=e227]
+              - cell "81.19" [ref=e228]
+              - cell "78.93" [ref=e229]
+              - cell "88.00" [ref=e230]
+            - row "SciCode (subtask) 42.05 42.00 39.00" [ref=e231]:
+              - cell "SciCode (subtask)" [ref=e232]
+              - cell "42.05" [ref=e233]
+              - cell "42.00" [ref=e234]
+              - cell "39.00" [ref=e235]
+            - row "HLE (no tools) 18.26 25.30 14.90" [ref=e236]:
+              - cell "HLE (no tools)" [ref=e237]
+              - cell "18.26" [ref=e238]
+              - cell "25.30" [ref=e239]
+              - cell "14.90" [ref=e240]
+            - row "HLE (with tools) 22.82 — 19.0" [ref=e241]:
+              - cell "HLE (with tools)" [ref=e242]
+              - cell "22.82" [ref=e243]
+              - cell "—" [ref=e244]
+              - cell "19.0" [ref=e245]
+            - row "Agentic" [ref=e246]:
+              - cell "Agentic" [ref=e247]:
+                - strong [ref=e248]: Agentic
+              - cell [ref=e249]
+              - cell [ref=e250]
+              - cell [ref=e251]
+            - row "Terminal Bench (hard subset) 25.78 26.80 24.00" [ref=e252]:
+              - cell "Terminal Bench (hard subset)" [ref=e253]
+              - cell "25.78" [ref=e254]
+              - cell "26.80" [ref=e255]
+              - cell "24.00" [ref=e256]
+            - row "Terminal Bench Core 2.0 31.00 37.50 18.70" [ref=e257]:
+              - cell "Terminal Bench Core 2.0" [ref=e258]
+              - cell "31.00" [ref=e259]
+              - cell "37.50" [ref=e260]
+              - cell "18.70" [ref=e261]
+            - row "SWE-Bench (OpenHands) 60.47 66.40 41.9" [ref=e262]:
+              - cell "SWE-Bench (OpenHands)" [ref=e263]
+              - cell "60.47" [ref=e264]
+              - cell "66.40" [ref=e265]
+              - cell "41.9" [ref=e266]
+            - row "SWE-Bench (OpenCode) 59.20 67.40 —" [ref=e267]:
+              - cell "SWE-Bench (OpenCode)" [ref=e268]
+              - cell "59.20" [ref=e269]
+              - cell "67.40" [ref=e270]
+              - cell "—" [ref=e271]
+            - row "SWE-Bench (Codex) 53.73 61.20 —" [ref=e272]:
+              - cell "SWE-Bench (Codex)" [ref=e273]
+              - cell "53.73" [ref=e274]
+              - cell "61.20" [ref=e275]
+              - cell "—" [ref=e276]
+            - row "SWE-Bench Multilingual (OpenHands) 45.78 — 30.80" [ref=e277]:
+              - cell "SWE-Bench Multilingual (OpenHands)" [ref=e278]
+              - cell "45.78" [ref=e279]
+              - cell "—" [ref=e280]
+              - cell "30.80" [ref=e281]
+            - row "TauBench V2" [ref=e282]:
+              - cell "TauBench V2" [ref=e283]:
+                - strong [ref=e284]: TauBench V2
+              - cell [ref=e285]
+              - cell [ref=e286]
+              - cell [ref=e287]
+            - row "Airline 56.25 66.0 49.2" [ref=e288]:
+              - cell "Airline" [ref=e289]
+              - cell "56.25" [ref=e290]
+              - cell "66.0" [ref=e291]
+              - cell "49.2" [ref=e292]
+            - row "Retail 62.83 62.6 67.80" [ref=e293]:
+              - cell "Retail" [ref=e294]
+              - cell "62.83" [ref=e295]
+              - cell "62.6" [ref=e296]
+              - cell "67.80" [ref=e297]
+            - row "Telecom 64.36 95.00 66.00" [ref=e298]:
+              - cell "Telecom" [ref=e299]
+              - cell "64.36" [ref=e300]
+              - cell "95.00" [ref=e301]
+              - cell "66.00" [ref=e302]
+            - row "Average 61.15 74.53 61.0" [ref=e303]:
+              - cell "Average" [ref=e304]
+              - cell "61.15" [ref=e305]
+              - cell "74.53" [ref=e306]
+              - cell "61.0" [ref=e307]
+            - row "BrowseComp with Search 31.28 — 33.89" [ref=e308]:
+              - cell "BrowseComp with Search" [ref=e309]
+              - cell "31.28" [ref=e310]
+              - cell "—" [ref=e311]
+              - cell "33.89" [ref=e312]
+            - row "BIRD Bench 41.80 — 38.25" [ref=e313]:
+              - cell "BIRD Bench" [ref=e314]
+              - cell "41.80" [ref=e315]
+              - cell "—" [ref=e316]
+              - cell "38.25" [ref=e317]
+            - row "Chat & Instruction Following" [ref=e318]:
+              - cell "Chat & Instruction Following" [ref=e319]:
+                - strong [ref=e320]: Chat & Instruction Following
+              - cell [ref=e321]
+              - cell [ref=e322]
+              - cell [ref=e323]
+            - row "IFBench (prompt) 72.56 73.77 68.32" [ref=e324]:
+              - cell "IFBench (prompt)" [ref=e325]
+              - cell "72.56" [ref=e326]
+              - cell "73.77" [ref=e327]
+              - cell "68.32" [ref=e328]
+            - row "Scale AI Multi-Challenge 55.23 61.50 58.29" [ref=e329]:
+              - cell "Scale AI Multi-Challenge" [ref=e330]
+              - cell "55.23" [ref=e331]
+              - cell "61.50" [ref=e332]
+              - cell "58.29" [ref=e333]
+            - row "Arena-Hard-V2 73.88 75.15 90.26" [ref=e334]:
+              - cell "Arena-Hard-V2" [ref=e335]
+              - cell "73.88" [ref=e336]
+              - cell "75.15" [ref=e337]
+              - cell "90.26" [ref=e338]
+            - row "Long Context" [ref=e339]:
+              - cell "Long Context" [ref=e340]:
+                - strong [ref=e341]: Long Context
+              - cell [ref=e342]
+              - cell [ref=e343]
+              - cell [ref=e344]
+            - row "AA-LCR 58.31 66.90 51.00" [ref=e345]:
+              - cell "AA-LCR" [ref=e346]
+              - cell "58.31" [ref=e347]
+              - cell "66.90" [ref=e348]
+              - cell "51.00" [ref=e349]
+            - row "RULER @ 256k 96.30 96.74 52.30" [ref=e350]:
+              - cell "RULER @ 256k" [ref=e351]
+              - cell "96.30" [ref=e352]
+              - cell "96.74" [ref=e353]
+              - cell "52.30" [ref=e354]
+            - row "RULER @ 512k 95.67 95.95 46.70" [ref=e355]:
+              - cell "RULER @ 512k" [ref=e356]
+              - cell "95.67" [ref=e357]
+              - cell "95.95" [ref=e358]
+              - cell "46.70" [ref=e359]
+            - row "RULER @ 1M 91.75 91.33 22.30" [ref=e360]:
+              - cell "RULER @ 1M" [ref=e361]
+              - cell "91.75" [ref=e362]
+              - cell "91.33" [ref=e363]
+              - cell "22.30" [ref=e364]
+            - row "Multilingual" [ref=e365]:
+              - cell "Multilingual" [ref=e366]:
+                - strong [ref=e367]: Multilingual
+              - cell [ref=e368]
+              - cell [ref=e369]
+              - cell [ref=e370]
+            - row "MMLU-ProX (avg over langs) 79.36 85.06 76.59" [ref=e371]:
+              - cell "MMLU-ProX (avg over langs)" [ref=e372]
+              - cell "79.36" [ref=e373]
+              - cell "85.06" [ref=e374]
+              - cell "76.59" [ref=e375]
+            - row "WMT24++ (en→xx) 86.67 87.84 88.89" [ref=e376]:
+              - cell "WMT24++ (en→xx)" [ref=e377]
+              - cell "86.67" [ref=e378]
+              - cell "87.84" [ref=e379]
+              - cell "88.89" [ref=e380]
+  - contentinfo [ref=e381]:
+    - generic [ref=e383]:
+      - generic [ref=e384]: © 2026 Ollama
+      - generic [ref=e385]:
+        - link "Download" [ref=e386] [cursor=pointer]:
+          - /url: /download
+        - link "Blog" [ref=e387] [cursor=pointer]:
+          - /url: /blog
+        - link "Docs" [ref=e388] [cursor=pointer]:
+          - /url: https://docs.ollama.com
+        - link "GitHub" [ref=e389] [cursor=pointer]:
+          - /url: https://github.com/ollama/ollama
+        - link "Discord" [ref=e390] [cursor=pointer]:
+          - /url: https://discord.com/invite/ollama
+        - link "X (Twitter)" [ref=e391] [cursor=pointer]:
+          - /url: https://twitter.com/ollama
+        - link "Contact" [ref=e392] [cursor=pointer]:
+          - /url: mailto:hello@ollama.com
+        - link "Privacy" [ref=e393] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e394] [cursor=pointer]:
+          - /url: /terms

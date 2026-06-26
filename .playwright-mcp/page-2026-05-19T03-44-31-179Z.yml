@@ -1,0 +1,528 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e6]:
+        - heading "Navigation Menu" [level=2] [ref=e7]
+        - generic [ref=e8]:
+          - link "Homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+          - generic [ref=e13]:
+            - navigation "Global" [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Platform" [ref=e20] [cursor=pointer]:
+                    - text: Platform
+                    - img [ref=e21]
+                - listitem [ref=e23]:
+                  - button "Solutions" [ref=e25] [cursor=pointer]:
+                    - text: Solutions
+                    - img [ref=e26]
+                - listitem [ref=e28]:
+                  - button "Resources" [ref=e30] [cursor=pointer]:
+                    - text: Resources
+                    - img [ref=e31]
+                - listitem [ref=e33]:
+                  - button "Open Source" [ref=e35] [cursor=pointer]:
+                    - text: Open Source
+                    - img [ref=e36]
+                - listitem [ref=e38]:
+                  - button "Enterprise" [ref=e40] [cursor=pointer]:
+                    - text: Enterprise
+                    - img [ref=e41]
+                - listitem [ref=e43]:
+                  - link "Pricing" [ref=e44] [cursor=pointer]:
+                    - /url: https://github.com/pricing
+                    - generic [ref=e45]: Pricing
+            - generic [ref=e46]:
+              - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+                - img [ref=e51]
+              - link "Sign in" [ref=e54] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Ffreqtrade%2Ffreqtrade-strategies%2Ftree%2Fmain%2Fuser_data%2Fstrategies%2Ffutures
+              - link "Sign up" [ref=e55] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Ffiles%2Fdisambiguate&source=header-repo&source_repo=freqtrade%2Ffreqtrade-strategies
+              - button "Appearance settings" [ref=e58] [cursor=pointer]:
+                - img
+    - main [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - link "freqtrade" [ref=e70] [cursor=pointer]:
+              - /url: /freqtrade
+            - generic [ref=e71]: /
+            - strong [ref=e72]:
+              - link "freqtrade-strategies" [ref=e73] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies
+            - generic [ref=e74]: Public
+          - generic [ref=e75]:
+            - list:
+              - listitem [ref=e76]:
+                - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                  - /url: /login?return_to=%2Ffreqtrade%2Ffreqtrade-strategies
+                  - img [ref=e78]
+                  - text: Notifications
+              - listitem [ref=e80]:
+                - link "Fork 1.4k" [ref=e81] [cursor=pointer]:
+                  - /url: /login?return_to=%2Ffreqtrade%2Ffreqtrade-strategies
+                  - img [ref=e82]
+                  - text: Fork
+                  - generic "1,403" [ref=e84]: 1.4k
+              - listitem [ref=e85]:
+                - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                  - /url: /login?return_to=%2Ffreqtrade%2Ffreqtrade-strategies
+                  - img [ref=e88]
+                  - text: Star
+                  - generic "5153 users starred this repository" [ref=e90]: 5.2k
+        - navigation "Repository" [ref=e91]:
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Code" [ref=e94] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies
+                - img [ref=e95]
+                - generic [ref=e97]: Code
+            - listitem [ref=e98]:
+              - link "Issues 11" [ref=e99] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies/issues
+                - img [ref=e100]
+                - generic [ref=e103]: Issues
+                - generic "11" [ref=e104]
+            - listitem [ref=e105]:
+              - link "Pull requests" [ref=e106] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies/pulls
+                - img [ref=e107]
+                - generic [ref=e109]: Pull requests
+            - listitem [ref=e110]:
+              - link "Actions" [ref=e111] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies/actions
+                - img [ref=e112]
+                - generic [ref=e114]: Actions
+            - listitem [ref=e115]:
+              - link "Projects" [ref=e116] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies/projects
+                - img [ref=e117]
+                - generic [ref=e119]: Projects
+            - listitem [ref=e120]:
+              - link "Wiki" [ref=e121] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies/wiki
+                - img [ref=e122]
+                - generic [ref=e124]: Wiki
+            - listitem [ref=e125]:
+              - link "Security and quality" [ref=e126] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies/security
+                - img [ref=e127]
+                - generic [ref=e129]: Security and quality
+            - listitem [ref=e130]:
+              - link "Insights" [ref=e131] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies/pulse
+                - img [ref=e132]
+                - generic [ref=e134]: Insights
+      - generic [ref=e142]:
+        - generic [ref=e144]:
+          - generic [ref=e147]:
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - heading "Collapse file tree" [level=2] [ref=e150]:
+                  - button "Collapse file tree" [expanded] [ref=e151] [cursor=pointer]:
+                    - img [ref=e152]
+                - heading "Files" [level=2] [ref=e155]
+              - generic [ref=e156]:
+                - button "main branch" [ref=e158] [cursor=pointer]:
+                  - generic [ref=e159]:
+                    - generic [ref=e161]:
+                      - img [ref=e163]
+                      - generic [ref=e166]: main
+                    - generic:
+                      - img
+                - button "Search this repository (forward slash)" [ref=e168] [cursor=pointer]:
+                  - img [ref=e169]
+            - generic [ref=e172]:
+              - img [ref=e174]
+              - combobox "Go to file" [ref=e176]
+            - navigation "File Tree Navigation" [ref=e182]:
+              - tree "Files" [ref=e184]:
+                - treeitem ".github" [level=1] [ref=e185]:
+                  - generic [ref=e186] [cursor=pointer]:
+                    - img [ref=e188]
+                    - generic [ref=e190]:
+                      - img [ref=e194]
+                      - generic [ref=e196]: .github
+                - treeitem "user_data" [expanded] [level=1] [ref=e197]:
+                  - generic [ref=e198] [cursor=pointer]:
+                    - img [ref=e200]
+                    - generic [ref=e202]:
+                      - img [ref=e206]
+                      - generic [ref=e208]: user_data
+                  - group "user_data" [ref=e209]:
+                    - treeitem "hyperopts" [level=2] [ref=e210]:
+                      - generic [ref=e211] [cursor=pointer]:
+                        - img [ref=e216]
+                        - generic [ref=e218]:
+                          - img [ref=e222]
+                          - generic [ref=e224]: hyperopts
+                    - treeitem "strategies" [expanded] [level=2] [ref=e225]:
+                      - generic [ref=e226] [cursor=pointer]:
+                        - img [ref=e231]
+                        - generic [ref=e233]:
+                          - img [ref=e237]
+                          - generic [ref=e239]: strategies
+                      - group "strategies" [ref=e240]:
+                        - treeitem "berlinguyinca" [level=3] [ref=e241]:
+                          - generic [ref=e242] [cursor=pointer]:
+                            - img [ref=e248]
+                            - generic [ref=e250]:
+                              - img [ref=e254]
+                              - generic [ref=e256]: berlinguyinca
+                        - treeitem "futures" [expanded] [level=3] [ref=e257]:
+                          - generic [ref=e258] [cursor=pointer]:
+                            - img [ref=e264]
+                            - generic [ref=e266]:
+                              - img [ref=e270]
+                              - generic [ref=e272]: futures
+                          - group "futures" [ref=e273]:
+                            - treeitem "FAdxSmaStrategy.py" [level=4] [ref=e274]:
+                              - generic [ref=e281] [cursor=pointer]:
+                                - img [ref=e284]
+                                - generic [ref=e286]: FAdxSmaStrategy.py
+                            - treeitem "FOttStrategy.py" [level=4] [ref=e287]:
+                              - generic [ref=e294] [cursor=pointer]:
+                                - img [ref=e297]
+                                - generic [ref=e299]: FOttStrategy.py
+                            - treeitem "FReinforcedStrategy.py" [level=4] [ref=e300]:
+                              - generic [ref=e307] [cursor=pointer]:
+                                - img [ref=e310]
+                                - generic [ref=e312]: FReinforcedStrategy.py
+                            - treeitem "FSampleStrategy.py" [level=4] [ref=e313]:
+                              - generic [ref=e320] [cursor=pointer]:
+                                - img [ref=e323]
+                                - generic [ref=e325]: FSampleStrategy.py
+                            - treeitem "FSupertrendStrategy.py" [level=4] [ref=e326]:
+                              - generic [ref=e333] [cursor=pointer]:
+                                - img [ref=e336]
+                                - generic [ref=e338]: FSupertrendStrategy.py
+                            - treeitem "Readme.md" [level=4] [ref=e339]:
+                              - generic [ref=e346] [cursor=pointer]:
+                                - img [ref=e349]
+                                - generic [ref=e351]: Readme.md
+                            - treeitem "TrendFollowingStrategy.py" [level=4] [ref=e352]:
+                              - generic [ref=e359] [cursor=pointer]:
+                                - img [ref=e362]
+                                - generic [ref=e364]: TrendFollowingStrategy.py
+                            - treeitem "VolatilitySystem.py" [level=4] [ref=e365]:
+                              - generic [ref=e372] [cursor=pointer]:
+                                - img [ref=e375]
+                                - generic [ref=e377]: VolatilitySystem.py
+                        - treeitem "lookahead_bias" [level=3] [ref=e378]:
+                          - generic [ref=e379] [cursor=pointer]:
+                            - img [ref=e385]
+                            - generic [ref=e387]:
+                              - img [ref=e391]
+                              - generic [ref=e393]: lookahead_bias
+                        - treeitem "Bandtastic.py" [level=3] [ref=e394]:
+                          - generic [ref=e400] [cursor=pointer]:
+                            - img [ref=e403]
+                            - generic [ref=e405]: Bandtastic.py
+                        - treeitem "BreakEven.py" [level=3] [ref=e406]:
+                          - generic [ref=e412] [cursor=pointer]:
+                            - img [ref=e415]
+                            - generic [ref=e417]: BreakEven.py
+                        - treeitem "CustomStoplossWithPSAR.py" [level=3] [ref=e418]:
+                          - generic [ref=e424] [cursor=pointer]:
+                            - img [ref=e427]
+                            - generic [ref=e429]: CustomStoplossWithPSAR.py
+                        - treeitem "Diamond.py" [level=3] [ref=e430]:
+                          - generic [ref=e436] [cursor=pointer]:
+                            - img [ref=e439]
+                            - generic [ref=e441]: Diamond.py
+                        - treeitem "FixedRiskRewardLoss.py" [level=3] [ref=e442]:
+                          - generic [ref=e448] [cursor=pointer]:
+                            - img [ref=e451]
+                            - generic [ref=e453]: FixedRiskRewardLoss.py
+                        - treeitem "GodStra.py" [level=3] [ref=e454]:
+                          - generic [ref=e460] [cursor=pointer]:
+                            - img [ref=e463]
+                            - generic [ref=e465]: GodStra.py
+                        - treeitem "Heracles.py" [level=3] [ref=e466]:
+                          - generic [ref=e472] [cursor=pointer]:
+                            - img [ref=e475]
+                            - generic [ref=e477]: Heracles.py
+                        - treeitem "HourBasedStrategy.py" [level=3] [ref=e478]:
+                          - generic [ref=e484] [cursor=pointer]:
+                            - img [ref=e487]
+                            - generic [ref=e489]: HourBasedStrategy.py
+                        - treeitem "InformativeSample.py" [level=3] [ref=e490]:
+                          - generic [ref=e496] [cursor=pointer]:
+                            - img [ref=e499]
+                            - generic [ref=e501]: InformativeSample.py
+                        - treeitem "MultiMa.py" [level=3] [ref=e502]:
+                          - generic [ref=e508] [cursor=pointer]:
+                            - img [ref=e511]
+                            - generic [ref=e513]: MultiMa.py
+                        - treeitem "PatternRecognition.py" [level=3] [ref=e514]:
+                          - generic [ref=e520] [cursor=pointer]:
+                            - img [ref=e523]
+                            - generic [ref=e525]: PatternRecognition.py
+                        - treeitem "PowerTower.py" [level=3] [ref=e526]:
+                          - generic [ref=e532] [cursor=pointer]:
+                            - img [ref=e535]
+                            - generic [ref=e537]: PowerTower.py
+                        - treeitem "Strategy001.py" [level=3] [ref=e538]:
+                          - generic [ref=e544] [cursor=pointer]:
+                            - img [ref=e547]
+                            - generic [ref=e549]: Strategy001.py
+                        - treeitem "Strategy001_custom_exit.py" [level=3] [ref=e550]:
+                          - generic [ref=e556] [cursor=pointer]:
+                            - img [ref=e559]
+                            - generic [ref=e561]: Strategy001_custom_exit.py
+                        - treeitem "Strategy002.py" [level=3] [ref=e562]:
+                          - generic [ref=e568] [cursor=pointer]:
+                            - img [ref=e571]
+                            - generic [ref=e573]: Strategy002.py
+                        - treeitem "Strategy003.py" [level=3] [ref=e574]:
+                          - generic [ref=e580] [cursor=pointer]:
+                            - img [ref=e583]
+                            - generic [ref=e585]: Strategy003.py
+                        - treeitem "Strategy004.py" [level=3] [ref=e586]:
+                          - generic [ref=e592] [cursor=pointer]:
+                            - img [ref=e595]
+                            - generic [ref=e597]: Strategy004.py
+                        - treeitem "Strategy005.py" [level=3] [ref=e598]:
+                          - generic [ref=e604] [cursor=pointer]:
+                            - img [ref=e607]
+                            - generic [ref=e609]: Strategy005.py
+                        - treeitem "Supertrend.py" [level=3] [ref=e610]:
+                          - generic [ref=e616] [cursor=pointer]:
+                            - img [ref=e619]
+                            - generic [ref=e621]: Supertrend.py
+                        - treeitem "SwingHighToSky.py" [level=3] [ref=e622]:
+                          - generic [ref=e628] [cursor=pointer]:
+                            - img [ref=e631]
+                            - generic [ref=e633]: SwingHighToSky.py
+                        - treeitem "TrendRiderStrategy.py" [level=3] [ref=e634]:
+                          - generic [ref=e640] [cursor=pointer]:
+                            - img [ref=e643]
+                            - generic [ref=e645]: TrendRiderStrategy.py
+                        - treeitem "UniversalMACD.py" [level=3] [ref=e646]:
+                          - generic [ref=e652] [cursor=pointer]:
+                            - img [ref=e655]
+                            - generic [ref=e657]: UniversalMACD.py
+                        - treeitem "hlhb.py" [level=3] [ref=e658]:
+                          - generic [ref=e664] [cursor=pointer]:
+                            - img [ref=e667]
+                            - generic [ref=e669]: hlhb.py
+                        - treeitem "mabStra.py" [level=3] [ref=e670]:
+                          - generic [ref=e676] [cursor=pointer]:
+                            - img [ref=e679]
+                            - generic [ref=e681]: mabStra.py
+                        - treeitem "multi_tf.py" [level=3] [ref=e682]:
+                          - generic [ref=e688] [cursor=pointer]:
+                            - img [ref=e691]
+                            - generic [ref=e693]: multi_tf.py
+                - treeitem ".gitignore" [level=1] [ref=e694]:
+                  - generic [ref=e696] [cursor=pointer]:
+                    - img [ref=e699]
+                    - generic [ref=e701]: .gitignore
+                - treeitem "LICENSE" [level=1] [ref=e702]:
+                  - generic [ref=e704] [cursor=pointer]:
+                    - img [ref=e707]
+                    - generic [ref=e709]: LICENSE
+                - treeitem "README.md" [level=1] [ref=e710]:
+                  - generic [ref=e712] [cursor=pointer]:
+                    - img [ref=e715]
+                    - generic [ref=e717]: README.md
+          - slider "Draggable pane splitter" [ref=e719]
+        - generic [ref=e722]:
+          - generic [ref=e726]:
+            - generic [ref=e728]:
+              - navigation "Breadcrumbs" [ref=e729]:
+                - heading "Breadcrumbs" [level=2] [ref=e730]
+                - list [ref=e731]:
+                  - listitem [ref=e732]:
+                    - link "freqtrade-strategies" [ref=e733] [cursor=pointer]:
+                      - /url: /freqtrade/freqtrade-strategies/tree/main
+                  - listitem [ref=e734]:
+                    - text: /
+                    - link "user_data" [ref=e735] [cursor=pointer]:
+                      - /url: /freqtrade/freqtrade-strategies/tree/main/user_data
+                  - listitem [ref=e736]:
+                    - text: /
+                    - link "strategies" [ref=e737] [cursor=pointer]:
+                      - /url: /freqtrade/freqtrade-strategies/tree/main/user_data/strategies
+              - generic [ref=e738]:
+                - text: /
+                - heading "futures" [level=1] [ref=e739]
+                - text: /
+              - button "Copy path" [ref=e740] [cursor=pointer]:
+                - img [ref=e741]
+            - generic [ref=e746]:
+              - heading "Directory actions" [level=2] [ref=e747]
+              - heading "More options" [level=2] [ref=e748]
+              - button "More options" [ref=e749] [cursor=pointer]:
+                - img [ref=e750]
+          - generic [ref=e752]:
+            - generic [ref=e754]:
+              - heading "Latest commit" [level=2] [ref=e755]
+              - generic [ref=e756]:
+                - generic [ref=e758]:
+                  - link "xmatthias" [ref=e759] [cursor=pointer]:
+                    - /url: /xmatthias
+                    - img "xmatthias" [ref=e760]
+                  - link "commits by xmatthias" [ref=e761] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade-strategies/commits?author=xmatthias
+                    - text: xmatthias
+                - generic [ref=e762]:
+                  - 'link "fix: use correct futures pair naming" [ref=e765] [cursor=pointer]':
+                    - /url: /freqtrade/freqtrade-strategies/commit/4dcce29de17f7dceabe15939ba7059eb0e288af4
+                  - button "Open commit details" [ref=e766] [cursor=pointer]:
+                    - img [ref=e767]
+              - generic [ref=e769]:
+                - generic [ref=e771]:
+                  - link "Commit 4dcce29" [ref=e772] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade-strategies/commit/4dcce29de17f7dceabe15939ba7059eb0e288af4
+                    - text: 4dcce29
+                  - text: ·
+                  - generic "Jan 11, 2026, 9:47 PM GMT+9" [ref=e773]: Jan 11, 20264 months ago
+                - generic [ref=e774]:
+                  - heading "History" [level=2] [ref=e775]
+                  - link "History" [ref=e776] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade-strategies/commits/main/user_data/strategies/futures
+                    - generic [ref=e777]:
+                      - generic:
+                        - img
+                      - generic [ref=e778]: History
+            - generic [ref=e779]:
+              - generic [ref=e780]:
+                - heading "Folders and files" [level=2] [ref=e781]
+                - table "Folders and files" [ref=e782]:
+                  - rowgroup [ref=e783]:
+                    - row "Name Last commit message Last commit date" [ref=e784]:
+                      - columnheader "Name" [ref=e785]
+                      - columnheader "Last commit message" [ref=e786]:
+                        - generic "Last commit message" [ref=e787]
+                      - columnheader "Last commit date" [ref=e788]:
+                        - generic "Last commit date" [ref=e789]
+                  - rowgroup [ref=e790]:
+                    - row "parent directory Parent directory" [ref=e791]:
+                      - cell "parent directory Parent directory" [ref=e792]:
+                        - heading "parent directory" [level=3] [ref=e793]
+                        - link "Parent directory" [ref=e794] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/tree/main/user_data/strategies
+                          - generic [ref=e795]:
+                            - img [ref=e796]
+                            - text: ..
+                    - 'row "FAdxSmaStrategy.py, (File) feat: add explicit space parameters to FAdxSmaStrategy Dec 20, 20255 months ago" [ref=e798]':
+                      - cell "FAdxSmaStrategy.py, (File)" [ref=e799]:
+                        - generic [ref=e800]:
+                          - img [ref=e801]
+                          - link "FAdxSmaStrategy.py, (File)" [ref=e806] [cursor=pointer]:
+                            - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/futures/FAdxSmaStrategy.py
+                            - text: FAdxSmaStrategy.py
+                      - 'cell "feat: add explicit space parameters to FAdxSmaStrategy" [ref=e807]':
+                        - 'link "feat: add explicit space parameters to FAdxSmaStrategy" [ref=e810] [cursor=pointer]':
+                          - /url: /freqtrade/freqtrade-strategies/commit/d2e8721595931d9c5f4504acfeea381bc3f416e4
+                      - cell "Dec 20, 20255 months ago" [ref=e811]:
+                        - generic [ref=e812]: Dec 20, 20255 months ago
+                    - row "FOttStrategy.py, (File) Rename strategies to align name with class name Jul 10, 20224 years ago" [ref=e813]:
+                      - cell "FOttStrategy.py, (File)" [ref=e814]:
+                        - generic [ref=e815]:
+                          - img [ref=e816]
+                          - link "FOttStrategy.py, (File)" [ref=e821] [cursor=pointer]:
+                            - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/futures/FOttStrategy.py
+                            - text: FOttStrategy.py
+                      - cell "Rename strategies to align name with class name" [ref=e822]:
+                        - link "Rename strategies to align name with class name" [ref=e825] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/commit/98ab175ee301eee699b9de1a27a3cc73a368a889
+                      - cell "Jul 10, 20224 years ago" [ref=e826]:
+                        - generic [ref=e827]: Jul 10, 20224 years ago
+                    - row "FReinforcedStrategy.py, (File) Update example strategies to use process_only_new_candles=True Jul 16, 20233 years ago" [ref=e828]:
+                      - cell "FReinforcedStrategy.py, (File)" [ref=e829]:
+                        - generic [ref=e830]:
+                          - img [ref=e831]
+                          - link "FReinforcedStrategy.py, (File)" [ref=e836] [cursor=pointer]:
+                            - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/futures/FReinforcedStrategy.py
+                            - text: FReinforcedStrategy.py
+                      - cell "Update example strategies to use process_only_new_candles=True" [ref=e837]:
+                        - link "Update example strategies to use process_only_new_candles=True" [ref=e840] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/commit/6fce5f382bebb5d9ca7e0c2e9b8c676f6f4eb461
+                      - cell "Jul 16, 20233 years ago" [ref=e841]:
+                        - generic [ref=e842]: Jul 16, 20233 years ago
+                    - row "FSampleStrategy.py, (File) Set process candles to True Feb 10, 20233 years ago" [ref=e843]:
+                      - cell "FSampleStrategy.py, (File)" [ref=e844]:
+                        - generic [ref=e845]:
+                          - img [ref=e846]
+                          - link "FSampleStrategy.py, (File)" [ref=e851] [cursor=pointer]:
+                            - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/futures/FSampleStrategy.py
+                            - text: FSampleStrategy.py
+                      - cell "Set process candles to True" [ref=e852]:
+                        - link "Set process candles to True" [ref=e855] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/commit/1fea9264fe912d72f1508953edf99ec8ec407e6a
+                      - cell "Feb 10, 20233 years ago" [ref=e856]:
+                        - generic [ref=e857]: Feb 10, 20233 years ago
+                    - 'row "FSupertrendStrategy.py, (File) chore: fix further np.NaN occurances Dec 2, 20255 months ago" [ref=e858]':
+                      - cell "FSupertrendStrategy.py, (File)" [ref=e859]:
+                        - generic [ref=e860]:
+                          - img [ref=e861]
+                          - link "FSupertrendStrategy.py, (File)" [ref=e866] [cursor=pointer]:
+                            - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/futures/FSupertrendStrategy.py
+                            - text: FSupertrendStrategy.py
+                      - 'cell "chore: fix further np.NaN occurances" [ref=e867]':
+                        - 'link "chore: fix further np.NaN occurances" [ref=e870] [cursor=pointer]':
+                          - /url: /freqtrade/freqtrade-strategies/commit/b8a90bebebfc13a78416635166ebafdece596d3f
+                      - cell "Dec 2, 20255 months ago" [ref=e871]:
+                        - generic [ref=e872]: Dec 2, 20255 months ago
+                    - 'row "Readme.md, (File) fix: use correct futures pair naming Jan 11, 20264 months ago" [ref=e873]':
+                      - cell "Readme.md, (File)" [ref=e874]:
+                        - generic [ref=e875]:
+                          - img [ref=e876]
+                          - link "Readme.md, (File)" [ref=e881] [cursor=pointer]:
+                            - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/futures/Readme.md
+                            - text: Readme.md
+                      - 'cell "fix: use correct futures pair naming" [ref=e882]':
+                        - 'link "fix: use correct futures pair naming" [ref=e885] [cursor=pointer]':
+                          - /url: /freqtrade/freqtrade-strategies/commit/4dcce29de17f7dceabe15939ba7059eb0e288af4
+                      - cell "Jan 11, 20264 months ago" [ref=e886]:
+                        - generic [ref=e887]: Jan 11, 20264 months ago
+                    - row "TrendFollowingStrategy.py, (File) Typo on enter_short line Jun 25, 20242 years ago" [ref=e888]:
+                      - cell "TrendFollowingStrategy.py, (File)" [ref=e889]:
+                        - generic [ref=e890]:
+                          - img [ref=e891]
+                          - link "TrendFollowingStrategy.py, (File)" [ref=e896] [cursor=pointer]:
+                            - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/futures/TrendFollowingStrategy.py
+                            - text: TrendFollowingStrategy.py
+                      - cell "Typo on enter_short line" [ref=e897]:
+                        - link "Typo on enter_short line" [ref=e900] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/commit/0727df98acc0b49497b1988da3dc37892be5503c
+                      - cell "Jun 25, 20242 years ago" [ref=e901]:
+                        - generic [ref=e902]: Jun 25, 20242 years ago
+                    - 'row "VolatilitySystem.py, (File) Amend some additions from #288 Feb 7, 20233 years ago" [ref=e903]':
+                      - cell "VolatilitySystem.py, (File)" [ref=e904]:
+                        - generic [ref=e905]:
+                          - img [ref=e906]
+                          - link "VolatilitySystem.py, (File)" [ref=e911] [cursor=pointer]:
+                            - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/futures/VolatilitySystem.py
+                            - text: VolatilitySystem.py
+                      - 'cell "Amend some additions from #288" [ref=e912]':
+                        - generic [ref=e914]:
+                          - link "Amend some additions from" [ref=e915] [cursor=pointer]:
+                            - /url: /freqtrade/freqtrade-strategies/commit/40e3a13e981058e586a0407b1fde6e7960a9551a
+                          - link "#288" [ref=e916] [cursor=pointer]:
+                            - /url: https://github.com/freqtrade/freqtrade-strategies/pull/288
+                      - cell "Feb 7, 20233 years ago" [ref=e917]:
+                        - generic [ref=e918]: Feb 7, 20233 years ago
+              - generic [ref=e920]:
+                - heading "Readme.md" [level=2] [ref=e922]:
+                  - link "Readme.md" [ref=e923] [cursor=pointer]:
+                    - /url: "#readme"
+                - article [ref=e925]:
+                  - generic [ref=e926]:
+                    - heading "all strategies are tested against this config. Tests only done on binance futures" [level=1] [ref=e927]
+                    - 'link "Permalink: all strategies are tested against this config. Tests only done on binance futures" [ref=e928] [cursor=pointer]':
+                      - /url: "#all-strategies-are-tested-against-this-config-tests-only-done-on-binance-futures"
+                      - img [ref=e929]
+                  - generic [ref=e931]:
+                    - code [ref=e933]: "{ \"max_open_trades\": -1, \"stake_currency\": \"USDT\", \"stake_amount\": 100, \"tradable_balance_ratio\": 0.99, \"fiat_display_currency\": \"USD\", \"dry_run\": true, \"cancel_open_orders_on_exit\": false, \"trading_mode\": \"futures\", \"margin_mode\": \"isolated\", \"unfilledtimeout\": { \"entry\": 10, \"exit\": 10, \"exit_timeout_count\": 0, \"unit\": \"minutes\" }, \"entry_pricing\": { \"price_side\": \"same\", \"use_order_book\": true, \"order_book_top\": 1, \"price_last_balance\": 0.0, \"check_depth_of_market\": { \"enabled\": false, \"bids_to_ask_delta\": 1 } }, \"exit_pricing\": { \"price_side\": \"same\", \"use_order_book\": true, \"order_book_top\": 1 }, \"exchange\": { \"name\": \"binance\", \"key\": \"\", \"secret\": \"\", \"ccxt_config\": {}, \"ccxt_async_config\": {}, \"pair_whitelist\": [ \"AAVE/USDT:USDT\", \"ALICE/USDT:USDT\", \"ARPA/USDT:USDT\", \"AVAX/USDT:USDT\", \"ATOM/USDT:USDT\", \"ANKR/USDT:USDT\", \"AXS/USDT:USDT\", \"ADA/USDT:USDT\", \"ALGO/USDT:USDT\", \"BAND/USDT:USDT\", \"BEL/USDT:USDT\", \"BTC/USDT:USDT\", \"BAT/USDT:USDT\", \"CHR/USDT:USDT\", \"C98/USDT:USDT\", \"COTI/USDT:USDT\", \"CHZ/USDT:USDT\", \"COMP/USDT:USDT\", \"CRV/USDT:USDT\", \"CELO/USDT:USDT\", \"DUSK/USDT:USDT\", \"DOGE/USDT:USDT\", \"DENT/USDT:USDT\", \"DASH/USDT:USDT\", \"DOT/USDT:USDT\", \"DYDX/USDT:USDT\", \"ENJ/USDT:USDT\", \"ETH/USDT:USDT\", \"ETC/USDT:USDT\", \"ENS/USDT:USDT\", \"EGLD/USDT:USDT\", \"FIL/USDT:USDT\", \"GRT/USDT:USDT\", \"GALA/USDT:USDT\", \"HBAR/USDT:USDT\", \"HOT/USDT:USDT\", \"IOTX/USDT:USDT\", \"ICX/USDT:USDT\", \"ICP/USDT:USDT\", \"IOTA/USDT:USDT\", \"IOST/USDT:USDT\", \"KAVA/USDT:USDT\", \"KNC/USDT:USDT\", \"KSM/USDT:USDT\", \"LRC/USDT:USDT\", \"LTC/USDT:USDT\", \"LINK/USDT:USDT\", \"NEAR/USDT:USDT\", \"MANA/USDT:USDT\", \"MTL/USDT:USDT\", \"NEO/USDT:USDT\", \"ONT/USDT:USDT\", \"OGN/USDT:USDT\", \"ONE/USDT:USDT\", \"PEOPLE/USDT:USDT\", \"RLC/USDT:USDT\", \"RUNE/USDT:USDT\", \"RVN/USDT:USDT\", \"RSR/USDT:USDT\", \"ROSE/USDT:USDT\", \"SNX/USDT:USDT\", \"SAND/USDT:USDT\", \"SOL/USDT:USDT\", \"SUSHI/USDT:USDT\", \"SKL/USDT:USDT\", \"STORJ/USDT:USDT\", \"TRX/USDT:USDT\", \"TRB/USDT:USDT\", \"TLM/USDT:USDT\", \"THETA/USDT:USDT\", \"UNI/USDT:USDT\", \"VET/USDT:USDT\", \"YFI/USDT:USDT\", \"ZIL/USDT:USDT\", \"ZEN/USDT:USDT\", \"ZRX/USDT:USDT\", \"ZEC/USDT:USDT\", \"XRP/USDT:USDT\", \"XLM/USDT:USDT\", \"XTZ/USDT:USDT\", \"XMR/USDT:USDT\", \"QTUM/USDT:USDT\", \"1INCH/USDT:USDT\" ], \"pair_blacklist\": [\"BNB/.*\"] }, \"pairlists\": [{ \"method\": \"StaticPairList\" }], \"edge\": { \"enabled\": false, \"process_throttle_secs\": 3600, \"calculate_since_number_of_days\": 7, \"allowed_risk\": 0.01, \"stoploss_range_min\": -0.01, \"stoploss_range_max\": -0.1, \"stoploss_range_step\": -0.01, \"minimum_winrate\": 0.6, \"minimum_expectancy\": 0.2, \"min_trade_number\": 10, \"max_trade_duration_minute\": 1440, \"remove_pumps\": false }, \"telegram\": { \"enabled\": false, \"token\": \"\", \"chat_id\": \"\" }, \"api_server\": { \"enabled\": true, \"listen_ip_address\": \"0.0.0.0\", \"listen_port\": 8080, \"verbosity\": \"error\", \"enable_openapi\": false, \"jwt_secret_key\": \"556ebba5770ae3a07e80eda0f0f2b55df102896f8a5b86459c3433c1314345c4\", \"CORS_origins\": [], \"username\": \"\", \"password\": \"\" }, \"bot_name\": \"\", \"initial_state\": \"running\", \"force_entry_enable\": false, \"internals\": { \"process_throttle_secs\": 5 } }"
+                    - button "Copy code to clipboard" [ref=e935] [cursor=pointer]:
+                      - img [ref=e936]
+  - alert [ref=e942]

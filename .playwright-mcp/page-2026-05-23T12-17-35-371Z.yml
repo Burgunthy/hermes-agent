@@ -1,0 +1,94 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-container"
+    - banner [ref=e4]:
+      - link "logo" [ref=e6] [cursor=pointer]:
+        - /url: https://cornell.edu/
+        - img "logo" [ref=e7]
+      - paragraph [ref=e9]:
+        - generic [ref=e10]:
+          - text: We gratefully acknowledge support from
+          - text: the Simons Foundation, Schmidt Sciences,
+          - link "member institutions" [ref=e11] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/ourmembers.html
+          - text: ", and all contributors."
+          - link "Donate" [ref=e12] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/donate.html
+    - generic [ref=e13]:
+      - link "arxiv-logo" [ref=e16] [cursor=pointer]:
+        - /url: https://arxiv.org/
+        - img "logo" [ref=e17]
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - textbox "Search term or terms" [ref=e22]:
+            - /placeholder: Search...
+          - paragraph [ref=e23]:
+            - link "Help" [ref=e24] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+            - text: "|"
+            - link "Advanced Search" [ref=e25] [cursor=pointer]:
+              - /url: https://arxiv.org/search/advanced
+        - combobox "Field to search" [ref=e28] [cursor=pointer]:
+          - option "All fields" [selected]
+          - option "Title"
+          - option "Author"
+          - option "Abstract"
+          - option "Comments"
+          - option "Journal reference"
+          - option "ACM classification"
+          - option "MSC classification"
+          - option "Report number"
+          - option "arXiv identifier"
+          - option "DOI"
+          - option "ORCID"
+          - option "arXiv author ID"
+          - option "Help pages"
+          - option "Full text"
+        - button "Search" [ref=e29] [cursor=pointer]
+    - navigation "User menu" [ref=e31]:
+      - link "Login" [ref=e32] [cursor=pointer]:
+        - /url: https://arxiv.org/login
+  - main [ref=e33]:
+    - heading "No HTML for '1910.07113'" [level=1] [ref=e34]
+    - paragraph [ref=e35]: HTML is not available for the source.
+    - paragraph [ref=e36]: This could be due to the source files not being HTML, LaTeX, or a conversion failure.
+    - paragraph [ref=e37]:
+      - text: If you are an author, learn how you can help
+      - link "HTML conversions for your papers" [ref=e38] [cursor=pointer]:
+        - /url: https://info.arxiv.org/about/accessibility_html_error_messages.html
+      - text: .
+  - contentinfo [ref=e39]:
+    - navigation "Secondary" [ref=e40]:
+      - generic [ref=e42]:
+        - list [ref=e44]:
+          - listitem [ref=e45]:
+            - link "About" [ref=e46] [cursor=pointer]:
+              - /url: https://info.arxiv.org/about
+          - listitem [ref=e47]:
+            - link "Help" [ref=e48] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+        - list [ref=e50]:
+          - listitem [ref=e51]:
+            - link "Contact" [ref=e53] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/contact.html
+          - listitem [ref=e54]:
+            - link "Subscribe" [ref=e56] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/subscribe
+      - generic [ref=e58]:
+        - list [ref=e60]:
+          - listitem [ref=e61]:
+            - link "Copyright" [ref=e62] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/license/index.html
+          - listitem [ref=e63]:
+            - link "Privacy Policy" [ref=e64] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/policies/privacy_policy.html
+        - list [ref=e66]:
+          - listitem [ref=e67]:
+            - link "Web Accessibility Assistance" [ref=e68] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/web_accessibility.html
+          - listitem [ref=e69]:
+            - paragraph [ref=e70]:
+              - link "arXiv Operational Status" [ref=e71] [cursor=pointer]:
+                - /url: https://status.arxiv.org
+                - text: arXiv Operational Status

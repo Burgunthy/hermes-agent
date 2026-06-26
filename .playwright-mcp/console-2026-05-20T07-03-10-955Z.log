@@ -1,0 +1,5 @@
+[    1052ms] [LOG] Coinness v6.0.0 @ https://coinness.com/static/main--goqWGlR.js:1336
+[    1982ms] [WARNING] [GPT] PubAdsService.enableSingleRequest is deprecated, use googletag.setConfig({singleRequest: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202605150101/pubads_impl.js?cb=31098603:18
+[    3009ms] [WARNING] [WebBottomAnchorAd] No fill - community_detail_bottom_fix  @ https://coinness.com/static/main--goqWGlR.js:1387
+[    3028ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://cm.g.doubleclick.net/pixel?google_nid=enliple_tw&google_hm=X3xffDNiZTAyYzM4N2RmNWUyZmIzOGVhYzkzNzE5ZTQzMTEyNmRjLTIyNTQ=:0

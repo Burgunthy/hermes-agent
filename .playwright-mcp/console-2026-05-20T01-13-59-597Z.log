@@ -1,0 +1,11 @@
+[    4566ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://code.highcharts.com/modules/accessibility.js?ver=6.9.4:0
+[    4567ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://code.highcharts.com/modules/no-data-to-display.js?ver=6.9.4:0
+[    4570ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://code.highcharts.com/modules/histogram-bellcurve.js?ver=6.9.4:0
+[    4570ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://code.highcharts.com/highcharts-more.js?ver=6.9.4:0
+[    4571ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://code.highcharts.com/highcharts.js?ver=6.9.4:0
+[    4571ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://code.highcharts.com/modules/heatmap.js?ver=6.9.4:0
+[    4574ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://code.highcharts.com/modules/exporting.js?ver=6.9.4:0
+[    4574ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://code.highcharts.com/modules/export-data.js?ver=6.9.4:0
+[    6057ms] Uncaught ReferenceError: Highcharts is not defined
+    at <anonymous> (https://quantpedia-prod-api.azurewebsites.net/content/main.js?ver=6.9.4:3:0)
+[    6097ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://quantpedia.com/:0

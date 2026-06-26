@@ -1,0 +1,6 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic "!" [ref=e5]
+    - heading "게시물이 삭제되었어요." [level=1] [ref=e6]
+  - link "이전 화면으로" [ref=e8] [cursor=pointer]:
+    - /url: "#"

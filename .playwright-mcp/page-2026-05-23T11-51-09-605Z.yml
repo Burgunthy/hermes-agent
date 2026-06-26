@@ -1,0 +1,544 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e6]:
+        - heading "Navigation Menu" [level=2] [ref=e7]
+        - generic [ref=e8]:
+          - link "Homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+          - generic [ref=e13]:
+            - navigation "Global" [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Platform" [ref=e20] [cursor=pointer]:
+                    - text: Platform
+                    - img [ref=e21]
+                - listitem [ref=e23]:
+                  - button "Solutions" [ref=e25] [cursor=pointer]:
+                    - text: Solutions
+                    - img [ref=e26]
+                - listitem [ref=e28]:
+                  - button "Resources" [ref=e30] [cursor=pointer]:
+                    - text: Resources
+                    - img [ref=e31]
+                - listitem [ref=e33]:
+                  - button "Open Source" [ref=e35] [cursor=pointer]:
+                    - text: Open Source
+                    - img [ref=e36]
+                - listitem [ref=e38]:
+                  - button "Enterprise" [ref=e40] [cursor=pointer]:
+                    - text: Enterprise
+                    - img [ref=e41]
+                - listitem [ref=e43]:
+                  - link "Pricing" [ref=e44] [cursor=pointer]:
+                    - /url: https://github.com/pricing
+                    - generic [ref=e45]: Pricing
+            - generic [ref=e46]:
+              - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+                - img [ref=e51]
+              - link "Sign in" [ref=e54] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fisaac-sim%2FIsaacGymEnvs%2Ffind%2Fmain
+              - link "Sign up" [ref=e55] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Ftree%2Ffind&source=header-repo&source_repo=isaac-sim%2FIsaacGymEnvs
+              - button "Appearance settings" [ref=e58] [cursor=pointer]:
+                - img
+    - main [ref=e62]:
+      - generic [ref=e63]: This repository was archived by the owner on Apr 14, 2026. It is now read-only.
+      - generic [ref=e64]:
+        - generic [ref=e65]:
+          - generic [ref=e67]:
+            - img [ref=e68]
+            - link "isaac-sim" [ref=e71] [cursor=pointer]:
+              - /url: /isaac-sim
+            - generic [ref=e72]: /
+            - strong [ref=e73]:
+              - link "IsaacGymEnvs" [ref=e74] [cursor=pointer]:
+                - /url: /isaac-sim/IsaacGymEnvs
+            - generic [ref=e75]: Public archive
+          - generic [ref=e76]:
+            - list:
+              - listitem [ref=e77]:
+                - link "You must be signed in to change notification settings" [ref=e78] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fisaac-sim%2FIsaacGymEnvs
+                  - img [ref=e79]
+                  - text: Notifications
+              - listitem [ref=e81]:
+                - link "Fork 516" [ref=e82] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fisaac-sim%2FIsaacGymEnvs
+                  - img [ref=e83]
+                  - text: Fork
+                  - generic "516" [ref=e85]
+              - listitem [ref=e86]:
+                - link "You must be signed in to star a repository" [ref=e88] [cursor=pointer]:
+                  - /url: /login?return_to=%2Fisaac-sim%2FIsaacGymEnvs
+                  - img [ref=e89]
+                  - text: Star
+                  - generic "2934 users starred this repository" [ref=e91]: 2.9k
+        - navigation "Repository" [ref=e92]:
+          - list [ref=e93]:
+            - listitem [ref=e94]:
+              - link "Code" [ref=e95] [cursor=pointer]:
+                - /url: /isaac-sim/IsaacGymEnvs
+                - img [ref=e96]
+                - generic [ref=e98]: Code
+            - listitem [ref=e99]:
+              - link "Issues 145" [ref=e100] [cursor=pointer]:
+                - /url: /isaac-sim/IsaacGymEnvs/issues
+                - img [ref=e101]
+                - generic [ref=e104]: Issues
+                - generic "145" [ref=e105]
+            - listitem [ref=e106]:
+              - link "Pull requests 13" [ref=e107] [cursor=pointer]:
+                - /url: /isaac-sim/IsaacGymEnvs/pulls
+                - img [ref=e108]
+                - generic [ref=e110]: Pull requests
+                - generic "13" [ref=e111]
+            - listitem [ref=e112]:
+              - link "Actions" [ref=e113] [cursor=pointer]:
+                - /url: /isaac-sim/IsaacGymEnvs/actions
+                - img [ref=e114]
+                - generic [ref=e116]: Actions
+            - listitem [ref=e117]:
+              - link "Projects" [ref=e118] [cursor=pointer]:
+                - /url: /isaac-sim/IsaacGymEnvs/projects
+                - img [ref=e119]
+                - generic [ref=e121]: Projects
+            - listitem [ref=e122]:
+              - link "Security and quality" [ref=e123] [cursor=pointer]:
+                - /url: /isaac-sim/IsaacGymEnvs/security
+                - img [ref=e124]
+                - generic [ref=e126]: Security and quality
+            - listitem [ref=e127]:
+              - link "Insights" [ref=e128] [cursor=pointer]:
+                - /url: /isaac-sim/IsaacGymEnvs/pulse
+                - img [ref=e129]
+                - generic [ref=e131]: Insights
+      - generic [ref=e556]:
+        - generic [ref=e558]:
+          - generic [ref=e561]:
+            - generic [ref=e562]:
+              - generic [ref=e563]:
+                - heading "Collapse file tree" [level=2] [ref=e564]:
+                  - button "Collapse file tree" [expanded] [ref=e565] [cursor=pointer]:
+                    - img [ref=e566]
+                - heading "Files" [level=2] [ref=e569]
+              - generic [ref=e570]:
+                - button "main branch" [ref=e572] [cursor=pointer]:
+                  - generic [ref=e573]:
+                    - generic [ref=e575]:
+                      - img [ref=e577]
+                      - generic [ref=e580]: main
+                    - generic:
+                      - img
+                - button "Search this repository (forward slash)" [ref=e582] [cursor=pointer]:
+                  - img [ref=e583]
+            - generic [ref=e586]:
+              - img [ref=e588]
+              - combobox "Go to file" [ref=e590]
+            - navigation "File Tree Navigation" [ref=e596]:
+              - tree "Files" [ref=e598]:
+                - treeitem ".gitlab" [level=1] [ref=e599]:
+                  - generic [ref=e600] [cursor=pointer]:
+                    - img [ref=e602]
+                    - generic [ref=e604]:
+                      - img [ref=e608]
+                      - generic [ref=e610]: .gitlab
+                - treeitem "assets" [level=1] [ref=e611]:
+                  - generic [ref=e612] [cursor=pointer]:
+                    - img [ref=e614]
+                    - generic [ref=e616]:
+                      - img [ref=e620]
+                      - generic [ref=e622]: assets
+                - treeitem "docs" [expanded] [level=1] [ref=e623]:
+                  - generic [ref=e624] [cursor=pointer]:
+                    - img [ref=e626]
+                    - generic [ref=e628]:
+                      - img [ref=e632]
+                      - generic [ref=e634]: docs
+                  - group "docs" [ref=e635]:
+                    - treeitem "images" [level=2] [ref=e636]:
+                      - generic [ref=e637] [cursor=pointer]:
+                        - img [ref=e642]
+                        - generic [ref=e644]:
+                          - img [ref=e648]
+                          - generic [ref=e650]: images
+                    - treeitem "dextreme.md" [level=2] [ref=e651]:
+                      - generic [ref=e656] [cursor=pointer]:
+                        - img [ref=e659]
+                        - generic [ref=e661]: dextreme.md
+                    - treeitem "domain_randomization.md" [level=2] [ref=e662]:
+                      - generic [ref=e667] [cursor=pointer]:
+                        - img [ref=e670]
+                        - generic [ref=e672]: domain_randomization.md
+                    - treeitem "factory.md" [level=2] [ref=e673]:
+                      - generic [ref=e678] [cursor=pointer]:
+                        - img [ref=e681]
+                        - generic [ref=e683]: factory.md
+                    - treeitem "framework.md" [level=2] [ref=e684]:
+                      - generic [ref=e689] [cursor=pointer]:
+                        - img [ref=e692]
+                        - generic [ref=e694]: framework.md
+                    - treeitem "industreal.md" [level=2] [ref=e695]:
+                      - generic [ref=e700] [cursor=pointer]:
+                        - img [ref=e703]
+                        - generic [ref=e705]: industreal.md
+                    - treeitem "pbt.md" [level=2] [ref=e706]:
+                      - generic [ref=e711] [cursor=pointer]:
+                        - img [ref=e714]
+                        - generic [ref=e716]: pbt.md
+                    - treeitem "release_notes.md" [level=2] [ref=e717]:
+                      - generic [ref=e722] [cursor=pointer]:
+                        - img [ref=e725]
+                        - generic [ref=e727]: release_notes.md
+                    - treeitem "reproducibility.md" [level=2] [ref=e728]:
+                      - generic [ref=e733] [cursor=pointer]:
+                        - img [ref=e736]
+                        - generic [ref=e738]: reproducibility.md
+                    - treeitem "rl_examples.md" [level=2] [ref=e739]:
+                      - generic [ref=e744] [cursor=pointer]:
+                        - img [ref=e747]
+                        - generic [ref=e749]: rl_examples.md
+                - treeitem "isaacgymenvs" [level=1] [ref=e750]:
+                  - generic [ref=e751] [cursor=pointer]:
+                    - img [ref=e753]
+                    - generic [ref=e755]:
+                      - img [ref=e759]
+                      - generic [ref=e761]: isaacgymenvs
+                - treeitem ".gitattributes" [level=1] [ref=e762]:
+                  - generic [ref=e764] [cursor=pointer]:
+                    - img [ref=e767]
+                    - generic [ref=e769]: .gitattributes
+                - treeitem ".gitignore" [level=1] [ref=e770]:
+                  - generic [ref=e772] [cursor=pointer]:
+                    - img [ref=e775]
+                    - generic [ref=e777]: .gitignore
+                - treeitem ".pre-commit-config.yaml" [level=1] [ref=e778]:
+                  - generic [ref=e780] [cursor=pointer]:
+                    - img [ref=e783]
+                    - generic [ref=e785]: .pre-commit-config.yaml
+                - treeitem "LICENSE.txt" [level=1] [ref=e786]:
+                  - generic [ref=e788] [cursor=pointer]:
+                    - img [ref=e791]
+                    - generic [ref=e793]: LICENSE.txt
+                - treeitem "README.md" [level=1] [ref=e794]:
+                  - generic [ref=e796] [cursor=pointer]:
+                    - img [ref=e799]
+                    - generic [ref=e801]: README.md
+                - treeitem "setup.py" [level=1] [ref=e802]:
+                  - generic [ref=e804] [cursor=pointer]:
+                    - img [ref=e807]
+                    - generic [ref=e809]: setup.py
+          - slider "Draggable pane splitter" [ref=e811]
+        - generic [ref=e814]:
+          - generic [ref=e818]:
+            - generic [ref=e820]:
+              - navigation "Breadcrumbs" [ref=e821]:
+                - heading "Breadcrumbs" [level=2] [ref=e822]
+                - list [ref=e823]:
+                  - listitem [ref=e824]:
+                    - link "IsaacGymEnvs" [ref=e825] [cursor=pointer]:
+                      - /url: /isaac-sim/IsaacGymEnvs/tree/main
+                  - listitem [ref=e826]:
+                    - text: /
+                    - link "docs" [ref=e827] [cursor=pointer]:
+                      - /url: /isaac-sim/IsaacGymEnvs/tree/main/docs
+              - generic [ref=e828]:
+                - text: /
+                - heading "dextreme.md" [level=1] [ref=e829]
+              - button "Copy path" [ref=e830] [cursor=pointer]:
+                - img [ref=e831]
+            - button "More file actions" [ref=e837] [cursor=pointer]:
+              - img [ref=e838]
+          - generic [ref=e840]:
+            - generic [ref=e842]:
+              - heading "Latest commit" [level=2] [ref=e843]
+              - generic [ref=e844]:
+                - generic [ref=e846]:
+                  - link "ahanda-nv" [ref=e847] [cursor=pointer]:
+                    - /url: /ahanda-nv
+                    - img "ahanda-nv" [ref=e848]
+                  - link "commits by ahanda-nv" [ref=e849] [cursor=pointer]:
+                    - /url: /isaac-sim/IsaacGymEnvs/commits?author=ahanda-nv
+                    - text: ahanda-nv
+                - generic [ref=e850]:
+                  - link "Docs fixed and rlgames test working with both AllegroHandDeXtreme env…" [ref=e853] [cursor=pointer]:
+                    - /url: /isaac-sim/IsaacGymEnvs/commit/3d2d5ed7ce71401db3063d8c339f4a800ce8709f
+                  - button "Open commit details" [ref=e854] [cursor=pointer]:
+                    - img [ref=e855]
+              - generic [ref=e857]:
+                - generic [ref=e859]:
+                  - link "Commit 3d2d5ed" [ref=e860] [cursor=pointer]:
+                    - /url: /isaac-sim/IsaacGymEnvs/commit/3d2d5ed7ce71401db3063d8c339f4a800ce8709f
+                    - text: 3d2d5ed
+                  - text: ·
+                  - generic "Apr 12, 2023, 3:12 AM GMT+9" [ref=e861]: Apr 12, 20233 years ago
+                - generic [ref=e862]:
+                  - heading "History" [level=2] [ref=e863]
+                  - link "History" [ref=e864] [cursor=pointer]:
+                    - /url: /isaac-sim/IsaacGymEnvs/commits/main/docs/dextreme.md
+                    - generic [ref=e865]:
+                      - generic:
+                        - img
+                      - generic [ref=e866]: History
+            - generic [ref=e868]:
+              - generic [ref=e870]:
+                - heading "File metadata and controls" [level=2] [ref=e871]
+                - list "File view" [ref=e873]:
+                  - listitem [ref=e874]:
+                    - button "Preview" [ref=e875] [cursor=pointer]:
+                      - generic [ref=e877]: Preview
+                  - listitem [ref=e878]:
+                    - button "Code" [ref=e879] [cursor=pointer]:
+                      - generic [ref=e881]: Code
+                  - listitem [ref=e882]:
+                    - button "Blame" [ref=e883] [cursor=pointer]:
+                      - generic [ref=e885]: Blame
+                - generic [ref=e886]:
+                  - generic [ref=e888]:
+                    - link "Raw" [ref=e890] [cursor=pointer]:
+                      - /url: https://github.com/isaac-sim/IsaacGymEnvs/raw/refs/heads/main/docs/dextreme.md
+                      - generic [ref=e892]: Raw
+                    - button "Copy raw file" [ref=e894] [cursor=pointer]:
+                      - img [ref=e895]
+                    - button "Download raw file" [ref=e899] [cursor=pointer]:
+                      - img [ref=e900]
+                  - button "Outline" [ref=e903] [cursor=pointer]:
+                    - img [ref=e904]
+              - region "dextreme.md" [ref=e907]:
+                - article [ref=e909]:
+                  - paragraph [ref=e910]:
+                    - text: DeXtreme is our recent work on transferring cube rotation with allegro hand from simulations to the real world. This task is especially challenging due to increased number of contacts that come into play with doing physics simulation. Naturally, the transfer requires carefully modelling and scheduling the randomisation for both physics and non-physics parameters. More details of the work can be found on the website
+                    - link "https://dextreme.org/" [ref=e911] [cursor=pointer]:
+                      - /url: https://dextreme.org/
+                    - text: as well as the paper (accepted at ICRA 2023, London) available on arXiv
+                    - link "https://arxiv.org/pdf/2210.13702.pdf" [ref=e912] [cursor=pointer]:
+                      - /url: https://arxiv.org/pdf/2210.13702.pdf
+                    - text: .
+                  - paragraph [ref=e913]:
+                    - text: The work builds on top of our previously released
+                    - code [ref=e914]: AllegroHand
+                    - text: "environment but with changes to accomodate training for sim-to-real involving two different variants: ManualDR (where the ranges of parameter domain randomisation are chosen by the user manually) and Automatic Domain Randomisation or ADR (where the ranges of the parameter are updated automatically based on periodic simulation performance benchmarking in the loop)."
+                  - generic [ref=e915]:
+                    - heading "Overview" [level=2] [ref=e916]
+                    - 'link "Permalink: Overview" [ref=e917] [cursor=pointer]':
+                      - /url: "#overview"
+                      - img [ref=e918]
+                  - paragraph [ref=e920]:
+                    - text: There are two different classes
+                    - strong [ref=e921]: AllegroHandDextremeManualDR
+                    - text: and
+                    - strong [ref=e922]: AllegroHandDextremeADR
+                    - text: both located in
+                    - link "tasks/dextreme/allegro_hand_dextreme.py" [ref=e923] [cursor=pointer]:
+                      - /url: /isaac-sim/IsaacGymEnvs/blob/main/isaacgymenvs/tasks/dextreme/allegro_hand_dextreme.py
+                    - text: python file. There's additional
+                    - link "adr_vec_task.py" [ref=e924] [cursor=pointer]:
+                      - /url: /isaac-sim/IsaacGymEnvs/blob/main/isaacgymenvs/tasks/dextreme/adr_vec_task.py
+                    - text: located in the same
+                    - link "folder" [ref=e925] [cursor=pointer]:
+                      - /url: /isaac-sim/IsaacGymEnvs/blob/main/isaacgymenvs/tasks/dextreme
+                    - text: that covers the necessary code related to training with ADR in the
+                    - code [ref=e926]: ADRVecTask
+                    - text: class.
+                  - paragraph [ref=e927]:
+                    - text: Both the variants are trained with
+                    - code [ref=e928]: Asymmetric Actor-Critic
+                    - text: where the
+                    - code [ref=e929]: policy
+                    - text: only receives the input that is available in the real world while the
+                    - code [ref=e930]: value function
+                    - text: receives additional privileged information available from the simulator. At inference, only the policy is used to obtain the action given the history of states and value function is discarded. For more information, please look at
+                    - code [ref=e931]: Section 2
+                    - text: of the DeXtreme paper.
+                  - paragraph [ref=e932]:
+                    - text: As we will show below, both environments are compatible with the standard way of training with Isaac Gym via
+                    - code [ref=e933]: python train.py task=<AllegroHandDextremeManualDR or AllegroHandDextremeADR>
+                    - text: . Additionally, the code uses
+                    - code [ref=e934]: dictionary observations
+                    - text: enabled via
+                    - code [ref=e935]: use_dict_obs=True
+                    - text: (set as default for these enviornments) in the
+                    - code [ref=e936]: ADRVecTask
+                    - text: where the relevant observations needed for training are provided as dictionaries as opposed to filling in the data via slicing and indexing. This keeps it cleaner and easier to manage. Which observations to choose for the policy and value function can be described in the corresponding
+                    - code [ref=e937]: yaml
+                    - text: files for training located in
+                    - code [ref=e938]: cfg/train
+                    - text: folder. For instance, the policy in the
+                    - link "AllegroHandDextremeManualDRPPO.yaml" [ref=e939] [cursor=pointer]:
+                      - /url: /isaac-sim/IsaacGymEnvs/blob/main/isaacgymenvs/cfg/train/AllegroHandDextremeManualDRPPO.yaml
+                    - text: can be described below like
+                  - generic [ref=e940]:
+                    - code [ref=e942]: "inputs: dof_pos_randomized: { } object_pose_cam_randomized: { } goal_pose_randomized: { } goal_relative_rot_cam_randomized: { } last_actions_randomized: { }"
+                    - button "Copy code to clipboard" [ref=e944] [cursor=pointer]:
+                      - img [ref=e945]
+                  - paragraph [ref=e948]: Similarly, for the value function
+                  - generic [ref=e949]:
+                    - code [ref=e951]: "name: actor_critic central_value: True inputs: dof_pos: { } dof_vel: { } dof_force: { } object_pose: { } object_pose_cam_randomized: { } object_vels: { } goal_pose: { } goal_relative_rot: {} last_actions: { } ft_force_torques: {} gravity_vec: {} ft_states: {}"
+                    - button "Copy code to clipboard" [ref=e953] [cursor=pointer]:
+                      - img [ref=e954]
+                  - paragraph [ref=e957]:
+                    - text: Similar configuration set up is done for
+                    - link "AllegroHandDextremeADRPPO.yaml" [ref=e958] [cursor=pointer]:
+                      - /url: /isaac-sim/IsaacGymEnvs/blob/main/isaacgymenvs/cfg/train/AllegroHandDextremeManualDRPPO.yaml
+                    - text: .
+                  - paragraph [ref=e959]:
+                    - text: Various parameters that the user wishes to randomise for their training can be chosen and tuned in the corresponding
+                    - code [ref=e960]: task
+                    - text: files located in
+                    - code [ref=e961]: cfg/task
+                    - link "folder" [ref=e962] [cursor=pointer]:
+                      - /url: /isaac-sim/IsaacGymEnvs/blob/main/isaacgymenvs/cfg/task
+                    - text: . For instance, in
+                    - link "AllegroHandDextremeManualDR.yaml" [ref=e963] [cursor=pointer]:
+                      - /url: /isaac-sim/IsaacGymEnvs/blob/main/isaacgymenvs/cfg/task/AllegroHandDextremeManualDR.yaml
+                    - text: ", the randomisation parameters and ranges can be found under"
+                  - generic [ref=e964]:
+                    - code [ref=e966]: "task: randomize: True randomization_params: ...."
+                    - button "Copy code to clipboard" [ref=e968] [cursor=pointer]:
+                      - img [ref=e969]
+                  - paragraph [ref=e972]:
+                    - text: For the
+                    - link "AllegroHandDextremeADR.yaml" [ref=e973] [cursor=pointer]:
+                      - /url: /isaac-sim/IsaacGymEnvs/blob/main/isaacgymenvs/cfg/task/AllegroHandDextremeADR.yaml
+                    - text: ", additional configuration is needed and can be found under"
+                  - generic [ref=e974]:
+                    - code [ref=e976]: "adr: use_adr: True # set to false to not do update ADR ranges. useful for evaluation or training a base policy update_adr_ranges: True ... # raw ADR params. more are added by affine transforms code params: ### Hand Properties hand_damping: range_path: actor_params.hand.dof_properties.damping.range init_range: [0.5, 2.0] limits: [0.01, 20.0] delta: 0.01 delta_style: 'additive'"
+                    - button "Copy code to clipboard" [ref=e978] [cursor=pointer]:
+                      - img [ref=e979]
+                  - paragraph [ref=e982]:
+                    - text: "You will also see that there are two key variables:"
+                    - code [ref=e983]: limits
+                    - text: and
+                    - code [ref=e984]: delta
+                    - text: . The variable
+                    - code [ref=e985]: limits
+                    - text: refers to the complete range within which the parameter is permitted to move, while
+                    - code [ref=e986]: delta
+                    - text: represents the incremental change that the parameter can undergo with each ADR update. These variables play a crucial role in determining the scope and pace of parameter adjustments made by ADR.
+                  - paragraph [ref=e987]: We highly recommend to familiarise yourself with the codebase and configuration files first before training to understand the relevant classes and the inheritence involved.
+                  - paragraph [ref=e988]: Below we provide the exact settings for training the two different variants of the environment we used in our work for reproducibility.
+                  - generic [ref=e989]:
+                    - heading "To run experiments with Manual DR settings" [level=1] [ref=e990]
+                    - 'link "Permalink: To run experiments with Manual DR settings" [ref=e991] [cursor=pointer]':
+                      - /url: "#to-run-experiments-with-manual-dr-settings"
+                      - img [ref=e992]
+                  - paragraph [ref=e994]: If you are using a single GPU, run the following command to train DeXtreme RL policies with Manual DR
+                  - generic [ref=e995]:
+                    - code [ref=e997]: "HYDRA_MANUAL_DR=\"train.py multi_gpu=False \\ task=AllegroHandDextremeManualDR \\ task.env.resetTime=8 task.env.successTolerance=0.4 \\ experiment='allegrohand_dextreme_manual_dr' \\ headless=True seed=-1 \\ task.env.startObjectPoseDY=-0.15 \\ task.env.actionDeltaPenaltyScale=-0.2 \\ task.env.resetTime=8 \\ task.env.controlFrequencyInv=2 \\ train.params.network.mlp.units=[512,512] \\ train.params.network.rnn.units=768 \\ train.params.network.rnn.name=lstm \\ train.params.config.central_value_config.network.mlp.units=[1024,512,256] \\ train.params.config.max_epochs=50000 \\ task.env.apply_random_quat=True\" python ${HYDRA_MANUAL_DR}"
+                    - button "Copy code to clipboard" [ref=e999] [cursor=pointer]:
+                      - img [ref=e1000]
+                  - paragraph [ref=e1003]:
+                    - text: The
+                    - code [ref=e1004]: apply_random_quat=True
+                    - text: flag samples unbiased quaternion goals which makes the training slightly harder. We use a successTolerance of 0.4 radians in these settings overriding the settings in AllegroHandDextremeManualDR.yaml via hydra CLI.
+                  - generic [ref=e1005]:
+                    - heading "To run experiments with Automatic Domain Randomisation (ADR)" [level=1] [ref=e1006]
+                    - 'link "Permalink: To run experiments with Automatic Domain Randomisation (ADR)" [ref=e1007] [cursor=pointer]':
+                      - /url: "#to-run-experiments-with-automatic-domain-randomisation-adr"
+                      - img [ref=e1008]
+                  - paragraph [ref=e1010]: The ADR policies are trained with a successTolerance of 0.1 radians and use LSTMs both for policy as well as value function. For ADR on a single GPU, run the following commands to train the RL policies
+                  - generic [ref=e1011]:
+                    - code [ref=e1013]: "HYDRA_ADR=\"train.py multi_gpu=False \\ task=AllegroHandDextremeADR \\ headless=True seed=-1 \\ num_envs=8192 \\ task.env.resetTime=8 \\ task.env.controlFrequencyInv=2 \\ train.params.config.max_epochs=50000\" python ${HYDRA_ADR}"
+                    - button "Copy code to clipboard" [ref=e1015] [cursor=pointer]:
+                      - img [ref=e1016]
+                  - paragraph [ref=e1019]:
+                    - text: If you want to do
+                    - code [ref=e1020]: wandb_logging
+                    - text: you can also add the following to the
+                    - code [ref=e1021]: HYDRA_MANUAL_DR
+                  - generic [ref=e1022]:
+                    - code [ref=e1024]: wandb_activate=True wandb_group=group_name wandb_project=project_name"
+                    - button "Copy code to clipboard" [ref=e1026] [cursor=pointer]:
+                      - img [ref=e1027]
+                  - paragraph [ref=e1030]: "To log the entire isaacgymenvs code used to train in the wandb dashboard (this is useful for reproducibility as you make changes to your code) you can add:"
+                  - generic [ref=e1031]:
+                    - code [ref=e1033]: wandb_logcode_dir=<isaac_gym_dir>
+                    - button "Copy code to clipboard" [ref=e1035] [cursor=pointer]:
+                      - img [ref=e1036]
+                  - generic [ref=e1039]:
+                    - heading "Loading checkpoints" [level=1] [ref=e1040]
+                    - 'link "Permalink: Loading checkpoints" [ref=e1041] [cursor=pointer]':
+                      - /url: "#loading-checkpoints"
+                      - img [ref=e1042]
+                  - paragraph [ref=e1044]: To load a given checkpoint using ManualDR, you can use the following
+                  - generic [ref=e1045]:
+                    - code [ref=e1047]: python train.py task=AllegroHandDextremeManualDR \ num_envs=32 task.env.startObjectPoseDY=-0.15 \ task.env.actionDeltaPenaltyScale=-0.2 \ task.env.controlFrequencyInv=2 train.params.network.mlp.units=[512,512] \ train.params.network.rnn.units=768 \ train.params.network.rnn.name=lstm \ train.params.config.central_value_config.network.mlp.units=[1024,512,256] \ task.env.random_network_adversary.enable=True checkpoint=<ckpt_path> \ test=True task.env.apply_random_quat=True task.env.printNumSuccesses=False
+                    - button "Copy code to clipboard" [ref=e1049] [cursor=pointer]:
+                      - img [ref=e1050]
+                  - paragraph [ref=e1053]:
+                    - text: and for ADR, add
+                    - code [ref=e1054]: task.task.adr.adr_load_from_checkpoint=True
+                    - text: to the command above, i.e.
+                  - generic [ref=e1055]:
+                    - code [ref=e1057]: python train.py task=AllegroHandDextremeADR \ num_envs=2048 checkpoint=<your_checkpoint_path> \ test=True \ task.task.adr.adr_load_from_checkpoint=True \ task.env.printNumSuccesses=True \ headless=True
+                    - button "Copy code to clipboard" [ref=e1059] [cursor=pointer]:
+                      - img [ref=e1060]
+                  - paragraph [ref=e1063]:
+                    - text: It will also print statistics and create a new
+                    - code [ref=e1064]: eval_summaries
+                    - text: directory logging the performance for test in a tensorboard log. For the ADR testing, it is will also load the new adr parameters (they are saved in the checkpoint and can also be viewed in the
+                    - code [ref=e1065]: set_env_state
+                    - text: function in
+                    - code [ref=e1066]: allegro_hand_dextreme.py
+                    - text: ). You should see something like this when you load a checkpoint with ADR
+                  - generic [ref=e1067]:
+                    - code [ref=e1069]: "=> loading checkpoint 'your_checkpoint_path' Loaded env state value act_moving_average:0.183225 Skipping loading ADR params from checkpoint... ADR Params after loading from checkpoint: {'hand_damping': {'range_path': 'actor_params.hand.dof_properties.damping.range', 'init_range': [0.5, 2.0], 'limits': [0.01, 20.0], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.5, 2.0], 'next_limits': [0.49, 2.01]}, 'hand_stiffness': {'range_path': 'actor_params.hand.dof_properties.stiffness.range', 'init_range': [0.8, 1.2], 'limits': [0.01, 20.0], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.8, 1.2], 'next_limits': [0.79, 1.21]}, 'hand_joint_friction': {'range_path': 'actor_params.hand.dof_properties.friction.range', 'init_range': [0.8, 1.2], 'limits': [0.0, 10.0], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.8, 1.2], 'next_limits': [0.79, 1.21]}, 'hand_armature': {'range_path': 'actor_params.hand.dof_properties.armature.range', 'init_range': [0.8, 1.2], 'limits': [0.0, 10.0], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.8, 1.2], 'next_limits': [0.79, 1.21]}, 'hand_effort': {'range_path': 'actor_params.hand.dof_properties.effort.range', 'init_range': [0.9, 1.1], 'limits': [0.4, 10.0], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.9, 1.1], 'next_limits': [0.89, 1.11]}, 'hand_lower': {'range_path': 'actor_params.hand.dof_properties.lower.range', 'init_range': [0.0, 0.0], 'limits': [-5.0, 5.0], 'delta': 0.02, 'delta_style': 'additive', 'range': [0.0, 0.0], 'next_limits': [-0.02, 0.02]}, 'hand_upper': {'range_path': 'actor_params.hand.dof_properties.upper.range', 'init_range': [0.0, 0.0], 'limits': [-5.0, 5.0], 'delta': 0.02, 'delta_style': 'additive', 'range': [0.0, 0.0], 'next_limits': [-0.02, 0.02]}, 'hand_mass': {'range_path': 'actor_params.hand.rigid_body_properties.mass.range', 'init_range': [0.8, 1.2], 'limits': [0.01, 10.0], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.8, 1.2], 'next_limits': [0.79, 1.21]}, 'hand_friction_fingertips': {'range_path': 'actor_params.hand.rigid_shape_properties.friction.range', 'init_range': [0.9, 1.1], 'limits': [0.1, 2.0], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.9, 1.1], 'next_limits': [0.89, 1.11]}, 'hand_restitution': {'range_path': 'actor_params.hand.rigid_shape_properties.restitution.range', 'init_range': [0.0, 0.1], 'limits': [0.0, 1.0], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.0, 0.1], 'next_limits': [0.0, 0.11]}, 'object_mass': {'range_path': 'actor_params.object.rigid_body_properties.mass.range', 'init_range': [0.8, 1.2], 'limits': [0.01, 10.0], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.8, 1.2], 'next_limits': [0.79, 1.21]}, 'object_friction': {'range_path': 'actor_params.object.rigid_shape_properties.friction.range', 'init_range': [0.4, 0.8], 'limits': [0.01, 2.0], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.4, 0.8], 'next_limits': [0.39, 0.81]}, 'object_restitution': {'range_path': 'actor_params.object.rigid_shape_properties.restitution.range', 'init_range': [0.0, 0.1], 'limits': [0.0, 1.0], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.0, 0.1], 'next_limits': [0.0, 0.11]}, 'cube_obs_delay_prob': {'init_range': [0.0, 0.05], 'limits': [0.0, 0.7], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.0, 0.05], 'next_limits': [0.0, 0.060000000000000005]}, 'cube_pose_refresh_rate': {'init_range': [1.0, 1.0], 'limits': [1.0, 6.0], 'delta': 0.2, 'delta_style': 'additive', 'range': [1.0, 1.0], 'next_limits': [1.0, 1.2]}, 'action_delay_prob': {'init_range': [0.0, 0.05], 'limits': [0.0, 0.7], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.0, 0.05], 'next_limits': [0.0, 0.060000000000000005]}, 'action_latency': {'init_range': [0.0, 0.0], 'limits': [0, 60], 'delta': 0.1, 'delta_style': 'additive', 'range': [0.0, 0.0], 'next_limits': [0, 0.1]}, 'affine_action_scaling': {'init_range': [0.0, 0.0], 'limits': [0.0, 4.0], 'delta': 0.0, 'delta_style': 'additive', 'range': [0.0, 0.0], 'next_limits': [0.0, 0.0]}, 'affine_action_additive': {'init_range': [0.0, 0.04], 'limits': [0.0, 4.0], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.0, 0.04], 'next_limits': [0.0, 0.05]}, 'affine_action_white': {'init_range': [0.0, 0.04], 'limits': [0.0, 4.0], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.0, 0.04], 'next_limits': [0.0, 0.05]}, 'affine_cube_pose_scaling': {'init_range': [0.0, 0.0], 'limits': [0.0, 4.0], 'delta': 0.0, 'delta_style': 'additive', 'range': [0.0, 0.0], 'next_limits': [0.0, 0.0]}, 'affine_cube_pose_additive': {'init_range': [0.0, 0.04], 'limits': [0.0, 4.0], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.0, 0.04], 'next_limits': [0.0, 0.05]}, 'affine_cube_pose_white': {'init_range': [0.0, 0.04], 'limits': [0.0, 4.0], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.0, 0.04], 'next_limits': [0.0, 0.05]}, 'affine_dof_pos_scaling': {'init_range': [0.0, 0.0], 'limits': [0.0, 4.0], 'delta': 0.0, 'delta_style': 'additive', 'range': [0.0, 0.0], 'next_limits': [0.0, 0.0]}, 'affine_dof_pos_additive': {'init_range': [0.0, 0.04], 'limits': [0.0, 4.0], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.0, 0.04], 'next_limits': [0.0, 0.05]}, 'affine_dof_pos_white': {'init_range': [0.0, 0.04], 'limits': [0.0, 4.0], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.0, 0.04], 'next_limits': [0.0, 0.05]}, 'rna_alpha': {'init_range': [0.0, 0.0], 'limits': [0.0, 1.0], 'delta': 0.01, 'delta_style': 'additive', 'range': [0.0, 0.0], 'next_limits': [0.0, 0.01]}}"
+                    - button "Copy code to clipboard" [ref=e1071] [cursor=pointer]:
+                      - img [ref=e1072]
+                  - generic [ref=e1075]:
+                    - heading "Multi-GPU settings" [level=1] [ref=e1076]
+                    - 'link "Permalink: Multi-GPU settings" [ref=e1077] [cursor=pointer]':
+                      - /url: "#multi-gpu-settings"
+                      - img [ref=e1078]
+                  - paragraph [ref=e1080]: "If you want to train on multiple GPUs (or a single DGX node), we also provide training scripts and the code to run both Manual DR as well as ADR below. The ${GPUS} variable needs to be set beforehand in your bash e.g. GPUS=8 if you are using a single node. Throughout our experimentation for the DeXtreme work, We trained our policies on a single node containg 8 NVIDIA A40 GPUs."
+                  - generic [ref=e1081]:
+                    - heading "Manual DR" [level=1] [ref=e1082]
+                    - 'link "Permalink: Manual DR" [ref=e1083] [cursor=pointer]':
+                      - /url: "#manual-dr"
+                      - img [ref=e1084]
+                  - paragraph [ref=e1086]:
+                    - text: To run the training with Manual DR settings on Multi-GPU settings set the flag
+                    - code [ref=e1087]: multi_gpu=True
+                    - text: ". You will also need to add the following to the previous Manual DR command:"
+                  - generic [ref=e1088]:
+                    - code [ref=e1090]: "torchrun --nnodes=1 --nproc_per_node=${GPUS} --master_addr '127.0.0.1' ${HYDRA_MANUAL_DR}"
+                    - button "Copy code to clipboard" [ref=e1092] [cursor=pointer]:
+                      - img [ref=e1093]
+                  - generic [ref=e1096]:
+                    - heading "ADR" [level=1] [ref=e1097]
+                    - 'link "Permalink: ADR" [ref=e1098] [cursor=pointer]':
+                      - /url: "#adr"
+                      - img [ref=e1099]
+                  - paragraph [ref=e1101]: "Similarly for ADR:"
+                  - generic [ref=e1102]:
+                    - code [ref=e1104]: "torchrun --nnodes=1 --nproc_per_node=${GPUS} --master_addr '127.0.0.1' ${HYDRA_ADR}"
+                    - button "Copy code to clipboard" [ref=e1106] [cursor=pointer]:
+                      - img [ref=e1107]
+                  - paragraph [ref=e1110]:
+                    - text: Below, we show the npd (nats per dimension cf. Algorithm 5.2
+                    - link "OpenAI et al. 2019" [ref=e1111] [cursor=pointer]:
+                      - /url: https://arxiv.org/pdf/1910.07113.pdf
+                    - text: and Section 2.6.3
+                    - link "DeXtreme" [ref=e1112] [cursor=pointer]:
+                      - /url: https://arxiv.org/pdf/2210.13702.pdf
+                    - text: ) graphs of two batches of 8 different trials each run on a single node (8 GPUs) across different weeks. Each of these plots are meant to highlight the variability in the runs. Increase in npd means the networks are being trained on more divesity.
+                  - paragraph [ref=e1113]:
+                    - link "npd_1" [ref=e1114] [cursor=pointer]:
+                      - /url: /isaac-sim/IsaacGymEnvs/blob/main/docs/images/npd_1.jpg
+                      - img "npd_1" [ref=e1115]
+                  - paragraph [ref=e1116]:
+                    - link "npd_2" [ref=e1117] [cursor=pointer]:
+                      - /url: /isaac-sim/IsaacGymEnvs/blob/main/docs/images/npd_2.jpg
+                      - img "npd_2" [ref=e1118]
+                  - generic [ref=e1119]:
+                    - heading "RL training" [level=2] [ref=e1120]
+                    - 'link "Permalink: RL training" [ref=e1121] [cursor=pointer]':
+                      - /url: "#rl-training"
+                      - img [ref=e1122]
+                  - paragraph [ref=e1124]:
+                    - text: To try the exact version of rl_games we used for training our experiments, please git clone and install
+                    - code [ref=e1125]: https://github.com/ArthurAllshire/rl_games
+  - alert [ref=e1127]

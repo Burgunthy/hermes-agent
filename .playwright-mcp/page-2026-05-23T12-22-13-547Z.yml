@@ -1,0 +1,2413 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-container"
+    - banner [ref=e4]:
+      - link "logo" [ref=e6] [cursor=pointer]:
+        - /url: https://cornell.edu/
+        - img "logo" [ref=e7]
+      - paragraph [ref=e9]:
+        - generic [ref=e10]:
+          - text: We gratefully acknowledge support from
+          - text: the Simons Foundation,
+          - link "member institutions" [ref=e11] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/ourmembers.html
+          - text: ", and all contributors."
+          - link "Donate" [ref=e12] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/donate.html
+    - generic [ref=e13]:
+      - link "arxiv-logo" [ref=e16] [cursor=pointer]:
+        - /url: https://arxiv.org/
+        - img "logo" [ref=e17]
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - textbox "Search term or terms" [ref=e22]:
+            - /placeholder: Search...
+          - paragraph [ref=e23]:
+            - link "Help" [ref=e24] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+            - text: "|"
+            - link "Advanced Search" [ref=e25] [cursor=pointer]:
+              - /url: https://arxiv.org/search/advanced
+        - combobox "Field to search" [ref=e28] [cursor=pointer]:
+          - option "All fields" [selected]
+          - option "Title"
+          - option "Author"
+          - option "Abstract"
+          - option "Comments"
+          - option "Journal reference"
+          - option "ACM classification"
+          - option "MSC classification"
+          - option "Report number"
+          - option "arXiv identifier"
+          - option "DOI"
+          - option "ORCID"
+          - option "arXiv author ID"
+          - option "Help pages"
+          - option "Full text"
+        - button "Search" [ref=e29] [cursor=pointer]
+    - navigation "User menu" [ref=e31]:
+      - link "Login" [ref=e32] [cursor=pointer]:
+        - /url: https://arxiv.org/login
+  - main [ref=e33]:
+    - generic [ref=e34]:
+      - 'heading "Showing 1–50 of 261 results for all: \"in-hand manipulation\" \"recurrent\" OR \"LSTM\"" [level=1] [ref=e36]'
+      - link "Search v0.5.6 released 2020-02-24" [ref=e39] [cursor=pointer]:
+        - /url: https://github.com/arXiv/arxiv-search/releases
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic: Search term or terms
+            - textbox "Search term or terms" [ref=e44]:
+              - /placeholder: Search term...
+              - text: "\"in-hand manipulation\" \"recurrent\" OR \"LSTM\""
+          - combobox "Field" [ref=e46] [cursor=pointer]:
+            - option "All fields" [selected]
+            - option "Title"
+            - option "Author(s)"
+            - option "Abstract"
+            - option "Comments"
+            - option "Journal reference"
+            - option "ACM classification"
+            - option "MSC classification"
+            - option "Report number"
+            - option "arXiv identifier"
+            - option "DOI"
+            - option "ORCID"
+            - option "License (URI)"
+            - option "arXiv author ID"
+            - option "Help pages"
+            - option "Full text"
+          - button "Search" [ref=e48] [cursor=pointer]
+        - generic [ref=e50]:
+          - generic [ref=e51] [cursor=pointer]:
+            - radio "Show abstracts Show abstracts" [checked] [ref=e52]
+            - text: Show abstracts
+          - generic [ref=e53] [cursor=pointer]:
+            - radio "Hide abstracts Hide abstracts" [ref=e54]
+            - text: Hide abstracts
+        - link "Advanced Search" [ref=e57] [cursor=pointer]:
+          - /url: /search/advanced?terms-0-term=%22in-hand+manipulation%22+%22recurrent%22+OR+%22LSTM%22&terms-0-field=all&size=50&order=-announced_date_first
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - combobox "results per page" [ref=e64] [cursor=pointer]:
+            - option "25"
+            - option "50" [selected]
+            - option "100"
+            - option "200"
+          - text: results per page.
+        - generic [ref=e65]:
+          - text: Sort results by
+          - combobox "Sort results by" [ref=e67] [cursor=pointer]:
+            - option "Announcement date (newest first)" [selected]
+            - option "Announcement date (oldest first)"
+            - option "Submission date (newest first)"
+            - option "Submission date (oldest first)"
+            - option "Relevance"
+        - button "Go" [ref=e69] [cursor=pointer]
+      - navigation "pagination" [ref=e70]:
+        - link "Next" [ref=e71] [cursor=pointer]:
+          - /url: /search/?query=%22in-hand+manipulation%22+%22recurrent%22+OR+%22LSTM%22&searchtype=all&order=-announced_date_first&start=50
+        - list [ref=e72]:
+          - listitem [ref=e73]:
+            - link "Goto page 1" [ref=e74] [cursor=pointer]:
+              - /url: /search/?query=%22in-hand+manipulation%22+%22recurrent%22+OR+%22LSTM%22&searchtype=all&order=-announced_date_first&start=0
+              - text: "1"
+          - listitem [ref=e75]:
+            - link "Page 2" [ref=e76] [cursor=pointer]:
+              - /url: /search/?query=%22in-hand+manipulation%22+%22recurrent%22+OR+%22LSTM%22&searchtype=all&order=-announced_date_first&start=50
+              - text: "2"
+          - listitem [ref=e77]:
+            - link "Page 3" [ref=e78] [cursor=pointer]:
+              - /url: /search/?query=%22in-hand+manipulation%22+%22recurrent%22+OR+%22LSTM%22&searchtype=all&order=-announced_date_first&start=100
+              - text: "3"
+          - listitem [ref=e79]:
+            - link "Page 4" [ref=e80] [cursor=pointer]:
+              - /url: /search/?query=%22in-hand+manipulation%22+%22recurrent%22+OR+%22LSTM%22&searchtype=all&order=-announced_date_first&start=150
+              - text: "4"
+          - listitem [ref=e81]:
+            - link "Page 5" [ref=e82] [cursor=pointer]:
+              - /url: /search/?query=%22in-hand+manipulation%22+%22recurrent%22+OR+%22LSTM%22&searchtype=all&order=-announced_date_first&start=200
+              - text: "5"
+          - listitem [ref=e83]:
+            - link "Page 6" [ref=e84] [cursor=pointer]:
+              - /url: /search/?query=%22in-hand+manipulation%22+%22recurrent%22+OR+%22LSTM%22&searchtype=all&order=-announced_date_first&start=250
+              - text: "6"
+      - list [ref=e85]:
+        - listitem [ref=e86]:
+          - generic [ref=e87]:
+            - paragraph [ref=e88]:
+              - link "arXiv:2605.21330" [ref=e89] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2605.21330
+              - generic [ref=e90]:
+                - text: "["
+                - link "pdf" [ref=e91] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2605.21330
+                - text: ","
+                - link "ps" [ref=e92] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2605.21330
+                - text: ","
+                - link "other" [ref=e93] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2605.21330
+                - text: "]"
+            - generic [ref=e95]: cs.RO
+          - paragraph [ref=e96]: Learning Robust Dexterous In-Hand Manipulation from Joint Sensors with Proprioceptive Transformer
+          - paragraph [ref=e97]:
+            - text: "Authors:"
+            - link "Senlan Yao" [ref=e98] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yao%2C+S
+            - text: ","
+            - link "Chenyu Yang" [ref=e99] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yang%2C+C
+            - text: ","
+            - link "Jaehoon Kim" [ref=e100] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Kim%2C+J
+            - text: ","
+            - link "Aristotelis Sympetheros" [ref=e101] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Sympetheros%2C+A
+            - text: ","
+            - link "Robert K. Katzschmann" [ref=e102] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Katzschmann%2C+R+K
+          - paragraph [ref=e103]:
+            - text: "Abstract:"
+            - generic [ref=e104]: In-hand object manipulation is a fundamental yet challenging capability for dexterous robots. Despite significant progress in dexterous manipulation, existing approaches rely heavily on vision or tactile sensing to track object states, while joint sensing -- the most readily available modality on any robotic hand -- remains largely overlooked, particularly for tendon-driven hands. In this paper, w… ▽ More
+          - paragraph [ref=e105]: Submitted 20 May, 2026; originally announced May 2026.
+          - paragraph [ref=e106]: "Comments: 8 pages, 6 figures, 3 tables"
+        - listitem [ref=e107]:
+          - generic [ref=e108]:
+            - paragraph [ref=e109]:
+              - link "arXiv:2605.18722" [ref=e110] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2605.18722
+              - generic [ref=e111]:
+                - text: "["
+                - link "pdf" [ref=e112] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2605.18722
+                - text: ","
+                - link "ps" [ref=e113] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2605.18722
+                - text: ","
+                - link "other" [ref=e114] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2605.18722
+                - text: "]"
+            - generic [ref=e116]: cs.RO
+          - paragraph [ref=e117]: "Dexora: Open-source VLA for High-DoF Bimanual Dexterity"
+          - paragraph [ref=e118]:
+            - text: "Authors:"
+            - link "Zongzheng Zhang" [ref=e119] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+Z
+            - text: ","
+            - link "Jingrui Pang" [ref=e120] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Pang%2C+J
+            - text: ","
+            - link "Zhuo Yang" [ref=e121] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yang%2C+Z
+            - text: ","
+            - link "Kun Li" [ref=e122] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Li%2C+K
+            - text: ","
+            - link "Minwen Liao" [ref=e123] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liao%2C+M
+            - text: ","
+            - link "Saining Zhang" [ref=e124] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+S
+            - text: ","
+            - link "Guoxuan Chi" [ref=e125] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Chi%2C+G
+            - text: ","
+            - link "Jinbang Guo" [ref=e126] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Guo%2C+J
+            - text: ","
+            - link "Huan-ang Gao" [ref=e127] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Gao%2C+H
+            - text: ","
+            - link "Modi Shi" [ref=e128] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Shi%2C+M
+            - text: ","
+            - link "Dongyun Ge" [ref=e129] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ge%2C+D
+            - text: ","
+            - link "Yao Mu" [ref=e130] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Mu%2C+Y
+            - text: ","
+            - link "Jiayuan Gu" [ref=e131] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Gu%2C+J
+            - text: ","
+            - link "Rui Chen" [ref=e132] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Chen%2C+R
+            - text: ","
+            - link "Hao Dong" [ref=e133] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Dong%2C+H
+            - text: ","
+            - link "Huazhe Xu" [ref=e134] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Xu%2C+H
+            - text: ","
+            - link "Li Yi" [ref=e135] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yi%2C+L
+            - text: ","
+            - link "Yixin Zhu" [ref=e136] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhu%2C+Y
+            - text: ","
+            - link "Hang Zhao" [ref=e137] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhao%2C+H
+            - text: ","
+            - link "Pengwei Wang" [ref=e138] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+P
+            - text: ","
+            - link "Shanghang Zhang" [ref=e139] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+S
+            - text: ","
+            - link "Guocai Yao" [ref=e140] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yao%2C+G
+            - text: ","
+            - link "Jianyu Chen" [ref=e141] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Chen%2C+J
+            - text: ","
+            - link "Hongyang Li" [ref=e142] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Li%2C+H
+            - text: ","
+            - link "Hao Zhao" [ref=e143] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhao%2C+H
+          - paragraph [ref=e144]:
+            - text: "Abstract:"
+            - generic [ref=e145]: …(VLA) models have recently become a central direction in embodied AI, but current systems are restricted to either dual-gripper control or single-arm dexterous hand manipulation. While low-dimensional gripper control can often be handled with simpler methods, high-dimensional dexterous hand control benefits greatly fro… ▽ More
+          - paragraph [ref=e146]: Submitted 18 May, 2026; originally announced May 2026.
+          - paragraph [ref=e147]: "Comments: Accpeted by ICRA 2026"
+        - listitem [ref=e148]:
+          - generic [ref=e149]:
+            - paragraph [ref=e150]:
+              - link "arXiv:2605.17929" [ref=e151] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2605.17929
+              - generic [ref=e152]:
+                - text: "["
+                - link "pdf" [ref=e153] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2605.17929
+                - text: ","
+                - link "ps" [ref=e154] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2605.17929
+                - text: ","
+                - link "other" [ref=e155] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2605.17929
+                - text: "]"
+            - generic [ref=e157]: cs.RO
+          - paragraph [ref=e158]: "TacSE3: Equivariant SE(3) Motion Estimation from Low-Texture Visuotactile Images for In-Gripper Tracking and Compensation"
+          - paragraph [ref=e159]:
+            - text: "Authors:"
+            - link "Zhongyuan Liao" [ref=e160] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liao%2C+Z
+            - text: ","
+            - link "Junzhe Wang" [ref=e161] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+J
+            - text: ","
+            - link "Qingyang Liu" [ref=e162] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liu%2C+Q
+            - text: ","
+            - link "Zhenmin Huang" [ref=e163] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Huang%2C+Z
+            - text: ","
+            - link "Jun Ma" [ref=e164] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ma%2C+J
+            - text: ","
+            - link "Yi Cai" [ref=e165] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Cai%2C+Y
+            - text: ","
+            - link "Fei Meng" [ref=e166] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Meng%2C+F
+            - text: ","
+            - link "Haobo Liang" [ref=e167] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liang%2C+H
+            - text: ","
+            - link "Michael Yu Wang" [ref=e168] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+M+Y
+          - paragraph [ref=e169]:
+            - text: "Abstract:"
+            - generic [ref=e170]: Robotic in-hand manipulation requires reliable object-motion tracking under frequent visual occlusion, yet low-texture visuotactile images provide few stable correspondences for conventional image- or geometry-matching methods. This paper presents TacSE3, a tactile motion-estimation pipeline that converts low-texture v… ▽ More
+          - paragraph [ref=e171]: Submitted 18 May, 2026; originally announced May 2026.
+        - listitem [ref=e172]:
+          - generic [ref=e173]:
+            - paragraph [ref=e174]:
+              - link "arXiv:2604.27557" [ref=e175] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2604.27557
+              - generic [ref=e176]:
+                - text: "["
+                - link "pdf" [ref=e177] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2604.27557
+                - text: ","
+                - link "ps" [ref=e178] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2604.27557
+                - text: ","
+                - link "other" [ref=e179] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2604.27557
+                - text: "]"
+            - generic [ref=e181]: cs.RO
+          - paragraph [ref=e182]: Function-based Parametric Co-Design Optimization of Dexterous Hands
+          - paragraph [ref=e183]:
+            - text: "Authors:"
+            - link "Mohammad Amin Mirzaee" [ref=e184] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Mirzaee%2C+M+A
+            - text: ","
+            - link "Harsh Gupta" [ref=e185] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Gupta%2C+H
+            - text: ","
+            - link "Wenzhen Yuan" [ref=e186] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yuan%2C+W
+          - paragraph [ref=e187]:
+            - text: "Abstract:"
+            - generic [ref=e188]: Despite advances in dexterous hand manipulation, robotic hand design is still largely decoupled from task-driven evaluation and control, limiting systematic optimization. Existing robotic hand co-design approaches are often limited in scope, optimizing a small subset of design parameters. We introduce a comprehensive p… ▽ More
+          - paragraph [ref=e189]: Submitted 30 April, 2026; originally announced April 2026.
+          - paragraph [ref=e190]: "Comments: 8 pages, 7 figures, https://www.aminmirzaee.com/HandCDO/"
+        - listitem [ref=e191]:
+          - generic [ref=e192]:
+            - paragraph [ref=e193]:
+              - link "arXiv:2604.27175" [ref=e194] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2604.27175
+              - generic [ref=e195]:
+                - text: "["
+                - link "pdf" [ref=e196] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2604.27175
+                - text: ","
+                - link "ps" [ref=e197] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2604.27175
+                - text: ","
+                - link "other" [ref=e198] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2604.27175
+                - text: "]"
+            - generic [ref=e200]: cs.RO
+          - paragraph [ref=e201]: Global Sampling-Based Trajectory Optimization for Contact-Rich Manipulation via KernelSOS
+          - paragraph [ref=e202]:
+            - text: "Authors:"
+            - link "Zhongqi Wei" [ref=e203] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wei%2C+Z
+            - text: ","
+            - link "Frederike Dümbgen" [ref=e204] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=D%C3%BCmbgen%2C+F
+          - paragraph [ref=e205]:
+            - text: "Abstract:"
+            - generic [ref=e206]: …path integral method to locally refine the solution. We evaluate Global-MPPI on high-dimensional, long-horizon contact-rich tasks, including the PushT task and dexterous in-hand manipulation. Experimental results demonstrate that our approach robustly uncovers high-quality solutions, achieving faster convergence and lo… ▽ More
+          - paragraph [ref=e207]: Submitted 29 April, 2026; originally announced April 2026.
+          - paragraph [ref=e208]: "Comments: 8 pages, 5 figures"
+        - listitem [ref=e209]:
+          - generic [ref=e210]:
+            - paragraph [ref=e211]:
+              - link "arXiv:2604.15013" [ref=e212] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2604.15013
+              - generic [ref=e213]:
+                - text: "["
+                - link "pdf" [ref=e214] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2604.15013
+                - text: ","
+                - link "ps" [ref=e215] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2604.15013
+                - text: ","
+                - link "other" [ref=e216] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2604.15013
+                - text: "]"
+            - generic [ref=e218]: cs.RO
+          - paragraph [ref=e219]: "DEX-Mouse: A Low-cost Portable and Universal Interface with Force Feedback for Data Collection of Dexterous Robotic Hands"
+          - paragraph [ref=e220]:
+            - text: "Authors:"
+            - link "Joonho Koh" [ref=e221] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Koh%2C+J
+            - text: ","
+            - link "Haechan Jung" [ref=e222] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Jung%2C+H
+            - text: ","
+            - link "Nayoung Kim" [ref=e223] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Kim%2C+N
+            - text: ","
+            - link "Wook Ko" [ref=e224] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ko%2C+W
+            - text: ","
+            - link "Changjoo Nam" [ref=e225] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Nam%2C+C
+          - paragraph [ref=e226]:
+            - text: "Abstract:"
+            - generic [ref=e227]: Data-driven dexterous hand manipulation requires large-scale, physically consistent demonstration data. Simulation and video-based methods suffer from sim-to-real gaps and retargeting problems, while MoCap glove-based teleoperation systems require per-operator calibration and lack portability, as the robot hand is typi… ▽ More
+          - paragraph [ref=e228]: Submitted 16 April, 2026; originally announced April 2026.
+        - listitem [ref=e229]:
+          - generic [ref=e230]:
+            - paragraph [ref=e231]:
+              - link "arXiv:2604.08528" [ref=e232] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2604.08528
+              - generic [ref=e233]:
+                - text: "["
+                - link "pdf" [ref=e234] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2604.08528
+                - text: ","
+                - link "ps" [ref=e235] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2604.08528
+                - text: ","
+                - link "other" [ref=e236] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2604.08528
+                - text: "]"
+            - generic [ref=e238]: cs.RO
+          - paragraph [ref=e239]: "A-SLIP: Acoustic Sensing for Continuous In-hand Slip Estimation"
+          - paragraph [ref=e240]:
+            - text: "Authors:"
+            - link "Uksang Yoo" [ref=e241] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yoo%2C+U
+            - text: ","
+            - link "Yuemin Mao" [ref=e242] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Mao%2C+Y
+            - text: ","
+            - link "Jean Oh" [ref=e243] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Oh%2C+J
+            - text: ","
+            - link "Jeffrey Ichnowski" [ref=e244] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ichnowski%2C+J
+          - paragraph [ref=e245]:
+            - text: "Abstract:"
+            - generic [ref=e246]: Reliable in-hand manipulation requires accurate real-time estimation of slip between a gripper and a grasped object. Existing tactile sensing approaches based on vision, capacitance, or force-torque measurements face fundamental trade-offs in form factor, durability, and their ability to jointly estimate slip direction… ▽ More
+          - paragraph [ref=e247]: Submitted 9 April, 2026; originally announced April 2026.
+        - listitem [ref=e248]:
+          - generic [ref=e249]:
+            - paragraph [ref=e250]:
+              - link "arXiv:2604.07426" [ref=e251] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2604.07426
+              - generic [ref=e252]:
+                - text: "["
+                - link "pdf" [ref=e253] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2604.07426
+                - text: ","
+                - link "ps" [ref=e254] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2604.07426
+                - text: ","
+                - link "other" [ref=e255] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2604.07426
+                - text: "]"
+            - generic [ref=e256]:
+              - generic [ref=e257]: cs.LG
+              - generic [ref=e258]: cs.AI
+          - paragraph [ref=e259]: "GIRL: Generative Imagination Reinforcement Learning via Information-Theoretic Hallucination Control"
+          - paragraph [ref=e260]:
+            - text: "Authors:"
+            - link "Prakul Sunil Hiremath" [ref=e261] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Hiremath%2C+P+S
+          - paragraph [ref=e262]:
+            - text: "Abstract:"
+            - generic [ref=e263]: …as the discount factor approaches one and connects the objective to real-environment regret. Experiments across three benchmark suites, including DeepMind Control, Adroit Hand Manipulation, and Meta-World with visual distractors, show that GIRL reduces latent rollout drift by 38 to 61 percent across tasks relative to D… ▽ More
+          - paragraph [ref=e264]: Submitted 8 April, 2026; originally announced April 2026.
+          - paragraph [ref=e265]: "Comments: 20 pages, 2 figures, 7 tables; reinforcement learning, world models"
+          - paragraph [ref=e266]: "ACM Class: I.2.6; I.2.8"
+        - listitem [ref=e267]:
+          - generic [ref=e268]:
+            - paragraph [ref=e269]:
+              - link "arXiv:2604.02820" [ref=e270] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2604.02820
+              - generic [ref=e271]:
+                - text: "["
+                - link "pdf" [ref=e272] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2604.02820
+                - text: ","
+                - link "ps" [ref=e273] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2604.02820
+                - text: ","
+                - link "other" [ref=e274] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2604.02820
+                - text: "]"
+            - generic [ref=e276]: cs.RO
+            - generic [ref=e278]:
+              - generic [ref=e279]: doi
+              - link "10.1109/LRA.2026.3662616" [ref=e281] [cursor=pointer]:
+                - /url: https://doi.org/10.1109/LRA.2026.3662616
+          - paragraph [ref=e282]: "MFE: A Multimodal Hand Exoskeleton with Interactive Force, Pressure and Thermo-haptic Feedback"
+          - paragraph [ref=e283]:
+            - text: "Authors:"
+            - link "Ziyuan Tang" [ref=e284] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Tang%2C+Z
+            - text: ","
+            - link "Yitian Guo" [ref=e285] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Guo%2C+Y
+            - text: ","
+            - link "Chenxi Xiao" [ref=e286] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Xiao%2C+C
+          - paragraph [ref=e287]:
+            - text: "Abstract:"
+            - generic [ref=e288]: …pumps capable of rendering temperatures from 10 to 55 degrees Celsius. We validated the MFE by integrating it into a robotic teleoperation system using the X-Arm 6 and Inspire Hand manipulator. In user studies, participants successfully recognized and manipulated deformable objects and differentiated remote objects wit… ▽ More
+          - paragraph [ref=e289]: Submitted 3 April, 2026; originally announced April 2026.
+          - paragraph [ref=e290]: "Comments: 8 pages, 7 figures, 2 tables"
+          - paragraph [ref=e291]: "Journal ref: IEEE Robotics and Automation Letters 11 (2026) 3756-3763"
+        - listitem [ref=e292]:
+          - generic [ref=e293]:
+            - paragraph [ref=e294]:
+              - link "arXiv:2603.22281" [ref=e295] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2603.22281
+              - generic [ref=e296]:
+                - text: "["
+                - link "pdf" [ref=e297] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2603.22281
+                - text: ","
+                - link "ps" [ref=e298] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2603.22281
+                - text: ","
+                - link "other" [ref=e299] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2603.22281
+                - text: "]"
+            - generic [ref=e300]:
+              - generic [ref=e301]: cs.CV
+              - generic [ref=e302]: cs.AI
+              - generic [ref=e303]: cs.CL
+              - generic [ref=e304]: cs.LG
+              - generic [ref=e305]: cs.RO
+          - paragraph [ref=e306]: "ThinkJEPA: Empowering Latent World Models with Large Vision-Language Reasoning Model"
+          - paragraph [ref=e307]:
+            - text: "Authors:"
+            - link "Haichao Zhang" [ref=e308] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+H
+            - text: ","
+            - link "Yijiang Li" [ref=e309] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Li%2C+Y
+            - text: ","
+            - link "Shwai He" [ref=e310] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=He%2C+S
+            - text: ","
+            - link "Tushar Nagarajan" [ref=e311] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Nagarajan%2C+T
+            - text: ","
+            - link "Mingfei Chen" [ref=e312] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Chen%2C+M
+            - text: ","
+            - link "Jianglin Lu" [ref=e313] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Lu%2C+J
+            - text: ","
+            - link "Ang Li" [ref=e314] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Li%2C+A
+            - text: ","
+            - link "Yun Fu" [ref=e315] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Fu%2C+Y
+          - paragraph [ref=e316]:
+            - text: "Abstract:"
+            - generic [ref=e317]: …a hierarchical pyramid representation extraction module that aggregates multi-layer VLM representations into guidance features compatible with latent prediction. Experiments on hand-manipulation trajectory prediction show that our method outperforms both a strong VLM-only baseline and a JEPA-predictor baseline, and yie… ▽ More
+          - paragraph [ref=e318]: Submitted 23 March, 2026; originally announced March 2026.
+          - paragraph [ref=e319]: "Comments: 10 pages, 5 figures"
+          - paragraph [ref=e320]: "MSC Class: 68T45; 68T07; 68U10; 68T10; 93C85; 93B40; 70Q05 ACM Class: I.2.9; I.2.10; I.2.6; I.2.7; I.4.8; I.4.9; I.2.8"
+        - listitem [ref=e321]:
+          - generic [ref=e322]:
+            - paragraph [ref=e323]:
+              - link "arXiv:2603.20992" [ref=e324] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2603.20992
+              - generic [ref=e325]:
+                - text: "["
+                - link "pdf" [ref=e326] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2603.20992
+                - text: ","
+                - link "ps" [ref=e327] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2603.20992
+                - text: ","
+                - link "other" [ref=e328] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2603.20992
+                - text: "]"
+            - generic [ref=e330]: cs.RO
+          - paragraph [ref=e331]: Geometrically Plausible Object Pose Refinement using Differentiable Simulation
+          - paragraph [ref=e332]:
+            - text: "Authors:"
+            - link "Anil Zeybek" [ref=e333] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zeybek%2C+A
+            - text: ","
+            - link "Rhys Newbury" [ref=e334] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Newbury%2C+R
+            - text: ","
+            - link "Snehal Dikhale" [ref=e335] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Dikhale%2C+S
+            - text: ","
+            - link "Nawid Jamali" [ref=e336] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Jamali%2C+N
+            - text: ","
+            - link "Soshi Iba" [ref=e337] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Iba%2C+S
+            - text: ","
+            - link "Akansel Cosgun" [ref=e338] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Cosgun%2C+A
+          - paragraph [ref=e339]:
+            - text: "Abstract:"
+            - generic [ref=e340]: …and orientation errors. Achieving pose estimation that is grounded in physical reality while remaining faithful to multi-modal sensor inputs is a critical step toward robust in-hand manipulation. ▽ More
+          - paragraph [ref=e341]: Submitted 21 March, 2026; originally announced March 2026.
+        - listitem [ref=e342]:
+          - generic [ref=e343]:
+            - paragraph [ref=e344]:
+              - link "arXiv:2603.08122" [ref=e345] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2603.08122
+              - generic [ref=e346]:
+                - text: "["
+                - link "pdf" [ref=e347] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2603.08122
+                - text: ","
+                - link "ps" [ref=e348] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2603.08122
+                - text: ","
+                - link "other" [ref=e349] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2603.08122
+                - text: "]"
+            - generic [ref=e351]: cs.RO
+          - paragraph [ref=e352]: Towards Human-Like Manipulation through RL-Augmented Teleoperation and Mixture-of-Dexterous-Experts VLA
+          - paragraph [ref=e353]:
+            - text: "Authors:"
+            - link "Tutian Tang" [ref=e354] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Tang%2C+T
+            - text: ","
+            - link "Xingyu Ji" [ref=e355] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ji%2C+X
+            - text: ","
+            - link "Wanli Xing" [ref=e356] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Xing%2C+W
+            - text: ","
+            - link "Ce Hao" [ref=e357] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Hao%2C+C
+            - text: ","
+            - link "Wenqiang Xu" [ref=e358] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Xu%2C+W
+            - text: ","
+            - link "Lin Shao" [ref=e359] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Shao%2C+L
+            - text: ","
+            - link "Cewu Lu" [ref=e360] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Lu%2C+C
+            - text: ","
+            - link "Qiaojun Yu" [ref=e361] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yu%2C+Q
+            - text: ","
+            - link "Jiangmiao Pang" [ref=e362] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Pang%2C+J
+            - text: ","
+            - link "Kaifeng Zhang" [ref=e363] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+K
+          - paragraph [ref=e364]:
+            - text: "Abstract:"
+            - generic [ref=e365]: "…and multimodal sensory fusion. In this paper, we propose an integrated framework to address these bottlenecks, built upon two components. First, we introduce IMCopilot (In-hand Manipulation Copilot), a suite of reinforcement learning-trained atomic skills that plays a dual role: it acts as a shared-autonomy assistant… ▽ More"
+          - paragraph [ref=e366]: Submitted 9 March, 2026; originally announced March 2026.
+          - paragraph [ref=e367]: "Comments: Project Homepage: https://sites.google.com/view/mode-vla"
+        - listitem [ref=e368]:
+          - generic [ref=e369]:
+            - paragraph [ref=e370]:
+              - link "arXiv:2603.05687" [ref=e371] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2603.05687
+              - generic [ref=e372]:
+                - text: "["
+                - link "pdf" [ref=e373] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2603.05687
+                - text: ","
+                - link "ps" [ref=e374] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2603.05687
+                - text: ","
+                - link "other" [ref=e375] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2603.05687
+                - text: "]"
+            - generic [ref=e377]: cs.RO
+          - paragraph [ref=e378]: "Contact-Grounded Policy: Dexterous Visuotactile Policy with Generative Contact Grounding"
+          - paragraph [ref=e379]:
+            - text: "Authors:"
+            - link "Zhengtong Xu" [ref=e380] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Xu%2C+Z
+            - text: ","
+            - link "Yeping Wang" [ref=e381] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+Y
+            - text: ","
+            - link "Ben Abbatematteo" [ref=e382] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Abbatematteo%2C+B
+            - text: ","
+            - link "Jom Preechayasomboon" [ref=e383] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Preechayasomboon%2C+J
+            - text: ","
+            - link "Sonny Chan" [ref=e384] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Chan%2C+S
+            - text: ","
+            - link "Nick Colonnese" [ref=e385] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Colonnese%2C+N
+            - text: ","
+            - link "Amirhossein H. Memar" [ref=e386] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Memar%2C+A+H
+          - paragraph [ref=e387]:
+            - text: "Abstract:"
+            - generic [ref=e388]: …hand with Digit360 fingertip tactile sensors, and a simulated five-finger Tesollo DG-5F hand with dense whole-hand tactile arrays. Across a range of dexterous tasks including in-hand manipulation, delicate grasping, and tool use, CGP outperforms visuomotor and visuotactile diffusion-policy baselines. ▽ More
+          - paragraph [ref=e389]: Submitted 7 May, 2026; v1 submitted 5 March, 2026; originally announced March 2026.
+        - listitem [ref=e390]:
+          - generic [ref=e391]:
+            - paragraph [ref=e392]:
+              - link "arXiv:2603.00732" [ref=e393] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2603.00732
+              - generic [ref=e394]:
+                - text: "["
+                - link "pdf" [ref=e395] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2603.00732
+                - text: ","
+                - link "ps" [ref=e396] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2603.00732
+                - text: ","
+                - link "other" [ref=e397] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2603.00732
+                - text: "]"
+            - generic [ref=e398]:
+              - generic [ref=e399]: cs.RO
+              - generic [ref=e400]: cs.CV
+          - paragraph [ref=e401]: "UniHM: Unified Dexterous Hand Manipulation with Vision Language Model"
+          - paragraph [ref=e402]:
+            - text: "Authors:"
+            - link "Zhenhao Zhang" [ref=e403] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+Z
+            - text: ","
+            - link "Jiaxin Liu" [ref=e404] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liu%2C+J
+            - text: ","
+            - link "Ye Shi" [ref=e405] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Shi%2C+Y
+            - text: ","
+            - link "Jingya Wang" [ref=e406] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+J
+          - paragraph [ref=e407]:
+            - text: "Abstract:"
+            - generic [ref=e408]: Planning physically feasible dexterous hand… ▽ More
+          - paragraph [ref=e409]: Submitted 28 February, 2026; originally announced March 2026.
+          - paragraph [ref=e410]: "Comments: Accepted by ICLR 2026"
+        - listitem [ref=e411]:
+          - generic [ref=e412]:
+            - paragraph [ref=e413]:
+              - link "arXiv:2602.14104" [ref=e414] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2602.14104
+              - generic [ref=e415]:
+                - text: "["
+                - link "pdf" [ref=e416] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2602.14104
+                - text: ","
+                - link "ps" [ref=e417] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2602.14104
+                - text: ","
+                - link "other" [ref=e418] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2602.14104
+                - text: "]"
+            - generic [ref=e419]:
+              - generic [ref=e420]: cs.RO
+              - generic [ref=e421]: eess.SY
+          - paragraph [ref=e422]: Rigidity-Based Multi-Finger Coordination for Precise In-Hand Manipulation of Force-Sensitive Objects
+          - paragraph [ref=e423]:
+            - text: "Authors:"
+            - link "Xinan Rong" [ref=e424] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Rong%2C+X
+            - text: ","
+            - link "Changhuang Wan" [ref=e425] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wan%2C+C
+            - text: ","
+            - link "Aochen He" [ref=e426] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=He%2C+A
+            - text: ","
+            - link "Xiaolong Li" [ref=e427] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Li%2C+X
+            - text: ","
+            - link "Gangshan Jing" [ref=e428] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Jing%2C+G
+          - paragraph [ref=e429]:
+            - text: "Abstract:"
+            - generic [ref=e430]: Precise in-hand manipulation of force-sensitive objects typically requires judicious coordinated force planning as well as accurate contact force feedback and control. Unlike multi-arm platforms with gripper end effectors, multi-fingered hands rely solely on fingertip point contacts and are not able to apply pull force… ▽ More
+          - paragraph [ref=e431]: Submitted 15 February, 2026; originally announced February 2026.
+          - paragraph [ref=e432]: "Comments: This paper has been accepted by IEEE Robotics and Automation Letters. The experimental video is avaialable at: https://www.youtube.com/watch?v=kcf9dVW0Dpo"
+        - listitem [ref=e433]:
+          - generic [ref=e434]:
+            - paragraph [ref=e435]:
+              - link "arXiv:2602.14099" [ref=e436] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2602.14099
+              - generic [ref=e437]:
+                - text: "["
+                - link "pdf" [ref=e438] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2602.14099
+                - text: ","
+                - link "ps" [ref=e439] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2602.14099
+                - text: ","
+                - link "other" [ref=e440] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2602.14099
+                - text: "]"
+            - generic [ref=e441]:
+              - generic [ref=e442]: cs.RO
+              - generic [ref=e443]: cs.AI
+              - generic [ref=e444]: cs.CV
+          - paragraph [ref=e445]: "SemanticFeels: Semantic Labeling during In-Hand Manipulation"
+          - paragraph [ref=e446]:
+            - text: "Authors:"
+            - link "Anas Al Shikh Khalil" [ref=e447] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Khalil%2C+A+A+S
+            - text: ","
+            - link "Haozhi Qi" [ref=e448] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Qi%2C+H
+            - text: ","
+            - link "Roberto Calandra" [ref=e449] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Calandra%2C+R
+          - paragraph [ref=e450]:
+            - text: "Abstract:"
+            - generic [ref=e451]: As robots become increasingly integrated into everyday tasks, their ability to perceive both the shape and properties of objects during in-hand manipulation becomes critical for adaptive and intelligent behavior. We present SemanticFeels, an extension of the NeuralFeels framework that integrates semantic labeling with… ▽ More
+          - paragraph [ref=e452]: Submitted 15 February, 2026; originally announced February 2026.
+          - paragraph [ref=e453]: "Comments: 10 pages, 5 figures"
+          - paragraph [ref=e454]: "MSC Class: 68T45; 68T05 ACM Class: I.2.9; I.2.10; I.4.8; I.2.6"
+        - listitem [ref=e455]:
+          - generic [ref=e456]:
+            - paragraph [ref=e457]:
+              - link "arXiv:2602.09013" [ref=e458] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2602.09013
+              - generic [ref=e459]:
+                - text: "["
+                - link "pdf" [ref=e460] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2602.09013
+                - text: ","
+                - link "ps" [ref=e461] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2602.09013
+                - text: ","
+                - link "other" [ref=e462] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2602.09013
+                - text: "]"
+            - generic [ref=e463]:
+              - generic [ref=e464]: cs.RO
+              - generic [ref=e465]: cs.CV
+          - paragraph [ref=e466]: Dexterous Manipulation Policies from RGB Human Videos via 3D Hand-Object Trajectory Reconstruction
+          - paragraph [ref=e467]:
+            - text: "Authors:"
+            - link "Hongyi Chen" [ref=e468] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Chen%2C+H
+            - text: ","
+            - link "Tony Dong" [ref=e469] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Dong%2C+T
+            - text: ","
+            - link "Tiancheng Wu" [ref=e470] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wu%2C+T
+            - text: ","
+            - link "Liquan Wang" [ref=e471] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+L
+            - text: ","
+            - link "Yash Jangir" [ref=e472] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Jangir%2C+Y
+            - text: ","
+            - link "Yaru Niu" [ref=e473] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Niu%2C+Y
+            - text: ","
+            - link "Yufei Ye" [ref=e474] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ye%2C+Y
+            - text: ","
+            - link "Homanga Bharadhwaj" [ref=e475] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Bharadhwaj%2C+H
+            - text: ","
+            - link "Zackory Erickson" [ref=e476] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Erickson%2C+Z
+            - text: ","
+            - link "Jeffrey Ichnowski" [ref=e477] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ichnowski%2C+J
+          - paragraph [ref=e478]:
+            - text: "Abstract:"
+            - generic [ref=e479]: Multi-finger robotic hand manipulation and grasping are challenging due to the high-dimensional action space and the difficulty of acquiring large-scale training data. Existing approaches largely rely on human teleoperation with wearable devices or specialized sensing equipment to capture hand-object interactions, whic… ▽ More
+          - paragraph [ref=e480]: Submitted 11 February, 2026; v1 submitted 9 February, 2026; originally announced February 2026.
+        - listitem [ref=e481]:
+          - generic [ref=e482]:
+            - paragraph [ref=e483]:
+              - link "arXiv:2602.05468" [ref=e484] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2602.05468
+              - generic [ref=e485]:
+                - text: "["
+                - link "pdf" [ref=e486] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2602.05468
+                - text: ","
+                - link "ps" [ref=e487] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2602.05468
+                - text: ","
+                - link "other" [ref=e488] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2602.05468
+                - text: "]"
+            - generic [ref=e490]: cs.RO
+          - paragraph [ref=e491]: "TaSA: Two-Phased Deep Predictive Learning of Tactile Sensory Attenuation for Improving In-Grasp Manipulation"
+          - paragraph [ref=e492]:
+            - text: "Authors:"
+            - link "Pranav Ponnivalavan" [ref=e493] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ponnivalavan%2C+P
+            - text: ","
+            - link "Satoshi Funabashi" [ref=e494] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Funabashi%2C+S
+            - text: ","
+            - link "Alexander Schmitz" [ref=e495] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Schmitz%2C+A
+            - text: ","
+            - link "Tetsuya Ogata" [ref=e496] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ogata%2C+T
+            - text: ","
+            - link "Shigeki Sugano" [ref=e497] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Sugano%2C+S
+          - paragraph [ref=e498]:
+            - text: "Abstract:"
+            - generic [ref=e499]: Humans can achieve diverse in-hand manipulations, such as object pinching and tool use, which often involve simultaneous contact between the object and multiple fingers. This is still an open issue for robotic hands because such dexterous manipulation requires distinguishing between tactile sensations generated by thei… ▽ More
+          - paragraph [ref=e500]: Submitted 5 February, 2026; originally announced February 2026.
+          - paragraph [ref=e501]: "Comments: 8 pages, 8 figures, 8 tables, ICRA2026 accepted"
+        - listitem [ref=e502]:
+          - generic [ref=e503]:
+            - paragraph [ref=e504]:
+              - link "arXiv:2601.18121" [ref=e505] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2601.18121
+              - generic [ref=e506]:
+                - text: "["
+                - link "pdf" [ref=e507] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2601.18121
+                - text: ","
+                - link "ps" [ref=e508] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2601.18121
+                - text: ","
+                - link "other" [ref=e509] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2601.18121
+                - text: "]"
+            - generic [ref=e510]:
+              - generic [ref=e511]: cs.RO
+              - generic [ref=e512]: cs.CV
+          - paragraph [ref=e513]: "Grasp-and-Lift: Executable 3D Hand-Object Interaction Reconstruction via Physics-in-the-Loop Optimization"
+          - paragraph [ref=e514]:
+            - text: "Authors:"
+            - link "Byeonggyeol Choi" [ref=e515] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Choi%2C+B
+            - text: ","
+            - link "Woojin Oh" [ref=e516] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Oh%2C+W
+            - text: ","
+            - link "Jongwoo Lim" [ref=e517] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Lim%2C+J
+          - paragraph [ref=e518]:
+            - text: "Abstract:"
+            - generic [ref=e519]: Dexterous hand manipulation increasingly relies on large-scale motion datasets with precise hand-object trajectory data. However, existing resources such as DexYCB and HO3D are primarily optimized for visual alignment but often yield physically implausible interactions when replayed in physics simulators, including pen… ▽ More
+          - paragraph [ref=e520]: Submitted 25 January, 2026; originally announced January 2026.
+          - paragraph [ref=e521]: "Comments: 13 pages, 7 figures"
+        - listitem [ref=e522]:
+          - generic [ref=e523]:
+            - paragraph [ref=e524]:
+              - link "arXiv:2601.17991" [ref=e525] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2601.17991
+              - generic [ref=e526]:
+                - text: "["
+                - link "pdf" [ref=e527] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2601.17991
+                - text: ","
+                - link "ps" [ref=e528] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2601.17991
+                - text: ","
+                - link "other" [ref=e529] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2601.17991
+                - text: "]"
+            - generic [ref=e531]: cs.RO
+          - paragraph [ref=e532]: Prosthetic Hand Manipulation System Based on EMG and Eye Tracking Powered by the Neuromorphic Processor AltAi
+          - paragraph [ref=e533]:
+            - text: "Authors:"
+            - link "Roman Akinshin" [ref=e534] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Akinshin%2C+R
+            - text: ","
+            - link "Elizaveta Lopatina" [ref=e535] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Lopatina%2C+E
+            - text: ","
+            - link "Kirill Bogatikov" [ref=e536] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Bogatikov%2C+K
+            - text: ","
+            - link "Nikolai Kiz" [ref=e537] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Kiz%2C+N
+            - text: ","
+            - link "Anna V. Makarova" [ref=e538] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Makarova%2C+A+V
+            - text: ","
+            - link "Mikhail Lebedev" [ref=e539] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Lebedev%2C+M
+            - text: ","
+            - link "Miguel Altamirano Cabrera" [ref=e540] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Cabrera%2C+M+A
+            - text: ","
+            - link "Dzmitry Tsetserukou" [ref=e541] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Tsetserukou%2C+D
+            - text: ","
+            - link "Valerii Kangler" [ref=e542] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Kangler%2C+V
+          - paragraph [ref=e543]:
+            - text: "Abstract:"
+            - generic [ref=e544]: This paper presents a novel neuromorphic control architecture for upper-limb prostheses that combines surface electromyography (sEMG) with gaze-guided computer vision. The system uses a spiking neural network deployed on the neuromorphic processor AltAi to classify EMG patterns in real time while an eye-tracking headset and scene camera identify the object within the user's focus. In our prototype… ▽ More
+          - paragraph [ref=e545]: Submitted 20 February, 2026; v1 submitted 25 January, 2026; originally announced January 2026.
+          - paragraph [ref=e546]: "Comments: This paper has been accepted for publication at LBR of HRI 2026 conference"
+        - listitem [ref=e547]:
+          - generic [ref=e548]:
+            - paragraph [ref=e549]:
+              - link "arXiv:2601.07559" [ref=e550] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2601.07559
+              - generic [ref=e551]:
+                - text: "["
+                - link "pdf" [ref=e552] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2601.07559
+                - text: ","
+                - link "ps" [ref=e553] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2601.07559
+                - text: ","
+                - link "other" [ref=e554] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2601.07559
+                - text: "]"
+            - generic [ref=e556]: cs.RO
+          - paragraph [ref=e557]: Stable In-hand Manipulation for a Lightweight Four-motor Prosthetic Hand
+          - paragraph [ref=e558]:
+            - text: "Authors:"
+            - link "Yuki Kuroda" [ref=e559] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Kuroda%2C+Y
+            - text: ","
+            - link "Tomoya Takahashi" [ref=e560] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Takahashi%2C+T
+            - text: ","
+            - link "Cristian C. Beltran-Hernandez" [ref=e561] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Beltran-Hernandez%2C+C+C
+            - text: ","
+            - link "Kazutoshi Tanaka" [ref=e562] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Tanaka%2C+K
+            - text: ","
+            - link "Masashi Hamaya" [ref=e563] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Hamaya%2C+M
+          - paragraph [ref=e564]:
+            - text: "Abstract:"
+            - generic [ref=e565]: …decrease the burden on the user, shaped like human hands for cosmetic purposes, and designed with motors enclosed inside to protect them from damage and dirt. Additionally, in-hand manipulation is necessary to perform daily activities such as transitioning between different postures, particularly through rotational mov… ▽ More
+          - paragraph [ref=e566]: Submitted 12 January, 2026; originally announced January 2026.
+        - listitem [ref=e567]:
+          - generic [ref=e568]:
+            - paragraph [ref=e569]:
+              - link "arXiv:2601.05844" [ref=e570] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2601.05844
+              - generic [ref=e571]:
+                - text: "["
+                - link "pdf" [ref=e572] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2601.05844
+                - text: ","
+                - link "ps" [ref=e573] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2601.05844
+                - text: ","
+                - link "other" [ref=e574] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2601.05844
+                - text: "]"
+            - generic [ref=e575]:
+              - generic [ref=e576]: cs.GR
+              - generic [ref=e577]: cs.AI
+              - generic [ref=e578]: cs.RO
+          - paragraph [ref=e579]: "DexterCap: An Affordable and Automated System for Capturing Dexterous Hand-Object Manipulation"
+          - paragraph [ref=e580]:
+            - text: "Authors:"
+            - link "Yutong Liang" [ref=e581] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liang%2C+Y
+            - text: ","
+            - link "Shiyi Xu" [ref=e582] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Xu%2C+S
+            - text: ","
+            - link "Yulong Zhang" [ref=e583] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+Y
+            - text: ","
+            - link "Bowen Zhan" [ref=e584] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhan%2C+B
+            - text: ","
+            - link "He Zhang" [ref=e585] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+H
+            - text: ","
+            - link "Libin Liu" [ref=e586] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liu%2C+L
+          - paragraph [ref=e587]:
+            - text: "Abstract:"
+            - generic [ref=e588]: Capturing fine-grained hand-object interactions is challenging due to severe self-occlusion from closely spaced fingers and the subtlety of in-hand… ▽ More
+          - paragraph [ref=e589]: Submitted 12 February, 2026; v1 submitted 9 January, 2026; originally announced January 2026.
+          - paragraph [ref=e590]: "Comments: 12 pages, 12 figures"
+          - paragraph [ref=e591]: "ACM Class: I.3.6"
+        - listitem [ref=e592]:
+          - generic [ref=e593]:
+            - paragraph [ref=e594]:
+              - link "arXiv:2601.05248" [ref=e595] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2601.05248
+              - generic [ref=e596]:
+                - text: "["
+                - link "pdf" [ref=e597] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2601.05248
+                - text: ","
+                - link "ps" [ref=e598] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2601.05248
+                - text: ","
+                - link "other" [ref=e599] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2601.05248
+                - text: "]"
+            - generic [ref=e601]: cs.RO
+          - paragraph [ref=e602]: "LaST_{0} : Latent Spatio-Temporal Chain-of-Thought for Robotic Vision-Language-Action Model"
+          - paragraph [ref=e603]:
+            - text: "Authors:"
+            - link "Zhuoyang Liu" [ref=e604] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liu%2C+Z
+            - text: ","
+            - link "Jiaming Liu" [ref=e605] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liu%2C+J
+            - text: ","
+            - link "Hao Chen" [ref=e606] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Chen%2C+H
+            - text: ","
+            - link "Jiale Yu" [ref=e607] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yu%2C+J
+            - text: ","
+            - link "Ziyu Guo" [ref=e608] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Guo%2C+Z
+            - text: ","
+            - link "Chengkai Hou" [ref=e609] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Hou%2C+C
+            - text: ","
+            - link "Chenyang Gu" [ref=e610] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Gu%2C+C
+            - text: ","
+            - link "Xiangju Mi" [ref=e611] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Mi%2C+X
+            - text: ","
+            - link "Renrui Zhang" [ref=e612] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+R
+            - text: ","
+            - link "Kun Wu" [ref=e613] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wu%2C+K
+            - text: ","
+            - link "Zhengping Che" [ref=e614] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Che%2C+Z
+            - text: ","
+            - link "Jian Tang" [ref=e615] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Tang%2C+J
+            - text: ","
+            - link "Pheng-Ann Heng" [ref=e616] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Heng%2C+P
+            - text: ","
+            - link "Shanghang Zhang" [ref=e617] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+S
+          - paragraph [ref=e618]:
+            - text: "Abstract:"
+            - generic [ref=e619]: …is trained with heterogeneous operation frequencies, enabling adaptive switching during deployment. Across 10 real-world tasks spanning tabletop, mobile, and dexterous hand manipulation, LaST_0 improves mean success rates by 13%, 14% and 14% over prior SOTA VLA methods, respectively. ▽ More
+          - paragraph [ref=e620]: Submitted 30 March, 2026; v1 submitted 8 January, 2026; originally announced January 2026.
+          - paragraph [ref=e621]: "Comments: Project page: https://vla-last0.github.io/"
+        - listitem [ref=e622]:
+          - generic [ref=e623]:
+            - paragraph [ref=e624]:
+              - link "arXiv:2512.15020" [ref=e625] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2512.15020
+              - generic [ref=e626]:
+                - text: "["
+                - link "pdf" [ref=e627] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2512.15020
+                - text: ","
+                - link "ps" [ref=e628] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2512.15020
+                - text: ","
+                - link "other" [ref=e629] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2512.15020
+                - text: "]"
+            - generic [ref=e631]: cs.RO
+          - paragraph [ref=e632]: "ISS Policy : Scalable Diffusion Policy with Implicit Scene Supervision"
+          - paragraph [ref=e633]:
+            - text: "Authors:"
+            - link "Wenlong Xia" [ref=e634] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Xia%2C+W
+            - text: ","
+            - link "Jinhao Zhang" [ref=e635] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+J
+            - text: ","
+            - link "Ce Zhang" [ref=e636] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+C
+            - text: ","
+            - link "Yaojia Wang" [ref=e637] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+Y
+            - text: ","
+            - link "Huizhe Li" [ref=e638] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Li%2C+H
+            - text: ","
+            - link "Youmin Gong" [ref=e639] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Gong%2C+Y
+            - text: ","
+            - link "Jie Mei" [ref=e640] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Mei%2C+J
+          - paragraph [ref=e641]:
+            - text: "Abstract:"
+            - generic [ref=e642]: …improving the performance and robustness of the policy. Notably, ISS Policy achieves state-of-the-art performance on both single-arm manipulation tasks (MetaWorld) and dexterous hand manipulation (Adroit). In real-world experiments, it also demonstrates strong generalization and robustness. Additional ablation studies… ▽ More
+          - paragraph [ref=e643]: Submitted 1 March, 2026; v1 submitted 16 December, 2025; originally announced December 2025.
+        - listitem [ref=e644]:
+          - generic [ref=e645]:
+            - paragraph [ref=e646]:
+              - link "arXiv:2512.02951" [ref=e647] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2512.02951
+              - generic [ref=e648]:
+                - text: "["
+                - link "pdf" [ref=e649] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2512.02951
+                - text: ","
+                - link "ps" [ref=e650] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2512.02951
+                - text: ","
+                - link "other" [ref=e651] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2512.02951
+                - text: "]"
+            - generic [ref=e653]: cs.RO
+          - paragraph [ref=e654]: Experimental Characterization of Fingertip Trajectory following for a 3-DoF Series-Parallel Hybrid Robotic Finger
+          - paragraph [ref=e655]:
+            - text: "Authors:"
+            - link "Nicholas Baiata" [ref=e656] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Baiata%2C+N
+            - text: ","
+            - link "Nilanjan Chakraborty" [ref=e657] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Chakraborty%2C+N
+          - paragraph [ref=e658]:
+            - text: "Abstract:"
+            - generic [ref=e659]: …demonstrations of precise task-space trajectory tracking in a linkage-driven robotic finger, thereby establishing a benchmark for future designs aimed at dexterous in-hand manipulation. ▽ More
+          - paragraph [ref=e660]: Submitted 2 December, 2025; originally announced December 2025.
+        - listitem [ref=e661]:
+          - generic [ref=e662]:
+            - paragraph [ref=e663]:
+              - link "arXiv:2512.00324" [ref=e664] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2512.00324
+              - generic [ref=e665]:
+                - text: "["
+                - link "pdf" [ref=e666] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2512.00324
+                - text: ","
+                - link "ps" [ref=e667] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2512.00324
+                - text: ","
+                - link "other" [ref=e668] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2512.00324
+                - text: "]"
+            - generic [ref=e669]:
+              - generic [ref=e670]: cs.RO
+              - generic [ref=e671]: cs.CV
+              - generic [ref=e672]: cs.HC
+          - paragraph [ref=e673]: "MILE: A Mechanically Isomorphic Exoskeleton Data Collection System with Fingertip Visuotactile Sensing for Dexterous Manipulation"
+          - paragraph [ref=e674]:
+            - text: "Authors:"
+            - link "Jinda Du" [ref=e675] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Du%2C+J
+            - text: ","
+            - link "Jieji Ren" [ref=e676] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ren%2C+J
+            - text: ","
+            - link "Qiaojun Yu" [ref=e677] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yu%2C+Q
+            - text: ","
+            - link "Ningbin Zhang" [ref=e678] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+N
+            - text: ","
+            - link "Yu Deng" [ref=e679] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Deng%2C+Y
+            - text: ","
+            - link "Xingyu Wei" [ref=e680] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wei%2C+X
+            - text: ","
+            - link "Yufei Liu" [ref=e681] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liu%2C+Y
+            - text: ","
+            - link "Guoying Gu" [ref=e682] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Gu%2C+G
+            - text: ","
+            - link "Xiangyang Zhu" [ref=e683] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhu%2C+X
+          - paragraph [ref=e684]:
+            - text: "Abstract:"
+            - generic [ref=e685]: Imitation learning provides a promising approach to dexterous hand… ▽ More
+          - paragraph [ref=e686]: Submitted 19 December, 2025; v1 submitted 29 November, 2025; originally announced December 2025.
+        - listitem [ref=e687]:
+          - generic [ref=e688]:
+            - paragraph [ref=e689]:
+              - link "arXiv:2511.22100" [ref=e690] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2511.22100
+              - generic [ref=e691]:
+                - text: "["
+                - link "pdf" [ref=e692] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2511.22100
+                - text: ","
+                - link "ps" [ref=e693] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2511.22100
+                - text: ","
+                - link "other" [ref=e694] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2511.22100
+                - text: "]"
+            - generic [ref=e696]: cs.RO
+          - paragraph [ref=e697]: Design of an Adaptive Modular Anthropomorphic Dexterous Hand for Human-like Manipulation
+          - paragraph [ref=e698]:
+            - text: "Authors:"
+            - link "Zelong Zhou" [ref=e699] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhou%2C+Z
+            - text: ","
+            - link "Wenrui Chen" [ref=e700] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Chen%2C+W
+            - text: ","
+            - link "Zeyun Hu" [ref=e701] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Hu%2C+Z
+            - text: ","
+            - link "Qiang Diao" [ref=e702] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Diao%2C+Q
+            - text: ","
+            - link "Qixin Gao" [ref=e703] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Gao%2C+Q
+            - text: ","
+            - link "Yaonan Wang" [ref=e704] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+Y
+          - paragraph [ref=e705]:
+            - text: "Abstract:"
+            - generic [ref=e706]: …a modular finger architecture. Leveraging these biomimetic mappings, we design a five-finger modular hand and establish its kinematic model to analyze adaptive grasping and in-hand manipulation. Finally, we construct a physical prototype and conduct preliminary experiments, which validate the effectiveness of the propo… ▽ More
+          - paragraph [ref=e707]: Submitted 26 November, 2025; originally announced November 2025.
+          - paragraph [ref=e708]: "Comments: 7 pages, 8 figures"
+        - listitem [ref=e709]:
+          - generic [ref=e710]:
+            - paragraph [ref=e711]:
+              - link "arXiv:2511.10987" [ref=e712] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2511.10987
+              - generic [ref=e713]:
+                - text: "["
+                - link "pdf" [ref=e714] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2511.10987
+                - text: ","
+                - link "ps" [ref=e715] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2511.10987
+                - text: ","
+                - link "other" [ref=e716] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2511.10987
+                - text: "]"
+            - generic [ref=e718]: cs.RO
+          - paragraph [ref=e719]: Dexterous Manipulation Transfer via Progressive Kinematic-Dynamic Alignment
+          - paragraph [ref=e720]:
+            - text: "Authors:"
+            - link "Wenbin Bai" [ref=e721] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Bai%2C+W
+            - text: ","
+            - link "Qiyu Chen" [ref=e722] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Chen%2C+Q
+            - text: ","
+            - link "Xiangbo Lin" [ref=e723] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Lin%2C+X
+            - text: ","
+            - link "Jianwen Li" [ref=e724] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Li%2C+J
+            - text: ","
+            - link "Quancheng Li" [ref=e725] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Li%2C+Q
+            - text: ","
+            - link "Hejiang Pan" [ref=e726] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Pan%2C+H
+            - text: ","
+            - link "Yi Sun" [ref=e727] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Sun%2C+Y
+          - paragraph [ref=e728]:
+            - text: "Abstract:"
+            - generic [ref=e729]: …research on data-driven dexterous manipulation policy learning. To address this challenge, we present a hand-agnostic manipulation transfer system. It efficiently converts human hand… ▽ More
+          - paragraph [ref=e730]: Submitted 14 November, 2025; originally announced November 2025.
+          - paragraph [ref=e731]: "Comments: 13 pages, 15 figures. Accepted by AAAI 2026"
+        - listitem [ref=e732]:
+          - generic [ref=e733]:
+            - paragraph [ref=e734]:
+              - link "arXiv:2510.27048" [ref=e735] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2510.27048
+              - generic [ref=e736]:
+                - text: "["
+                - link "pdf" [ref=e737] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2510.27048
+                - text: ","
+                - link "ps" [ref=e738] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2510.27048
+                - text: ","
+                - link "other" [ref=e739] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2510.27048
+                - text: "]"
+            - generic [ref=e741]: cs.RO
+          - paragraph [ref=e742]: "SpikeATac: A Multimodal Tactile Finger with Taxelized Dynamic Sensing for Dexterous Manipulation"
+          - paragraph [ref=e743]:
+            - text: "Authors:"
+            - link "Eric T. Chang" [ref=e744] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Chang%2C+E+T
+            - text: ","
+            - link "Peter Ballentine" [ref=e745] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ballentine%2C+P
+            - text: ","
+            - link "Zhanpeng He" [ref=e746] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=He%2C+Z
+            - text: ","
+            - link "Do-Gon Kim" [ref=e747] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Kim%2C+D
+            - text: ","
+            - link "Kai Jiang" [ref=e748] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Jiang%2C+K
+            - text: ","
+            - link "Hua-Hsuan Liang" [ref=e749] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liang%2C+H
+            - text: ","
+            - link "Joaquin Palacios" [ref=e750] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Palacios%2C+J
+            - text: ","
+            - link "William Wang" [ref=e751] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+W
+            - text: ","
+            - link "Pedro Piacenza" [ref=e752] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Piacenza%2C+P
+            - text: ","
+            - link "Ioannis Kymissis" [ref=e753] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Kymissis%2C+I
+            - text: ","
+            - link "Matei Ciocarlie" [ref=e754] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ciocarlie%2C+M
+          - paragraph [ref=e755]:
+            - text: "Abstract:"
+            - generic [ref=e756]: "…of a policy to modulate force. Our hardware platform and learning pipeline together enable a difficult dexterous and contact-rich task that has not previously been achieved: in-hand manipulation of fragile objects. Videos are available at https://roamlab.github.io/spikeatac/ . ▽ More"
+          - paragraph [ref=e757]: Submitted 5 March, 2026; v1 submitted 30 October, 2025; originally announced October 2025.
+          - paragraph [ref=e758]: "Comments: 8 pages, 8 figures, ICRA 2026"
+        - listitem [ref=e759]:
+          - generic [ref=e760]:
+            - paragraph [ref=e761]:
+              - link "arXiv:2510.26362" [ref=e762] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2510.26362
+              - generic [ref=e763]:
+                - text: "["
+                - link "pdf" [ref=e764] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2510.26362
+                - text: ","
+                - link "ps" [ref=e765] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2510.26362
+                - text: ","
+                - link "other" [ref=e766] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2510.26362
+                - text: "]"
+            - generic [ref=e767]:
+              - generic [ref=e768]: cs.RO
+              - generic [ref=e769]: eess.SY
+          - paragraph [ref=e770]: Cooperative Task Spaces for Multi-Arm Manipulation Control based on Similarity Transformations
+          - paragraph [ref=e771]:
+            - text: "Authors:"
+            - link "Tobias Löw" [ref=e772] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=L%C3%B6w%2C+T
+            - text: ","
+            - link "Cem Bilaloglu" [ref=e773] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Bilaloglu%2C+C
+            - text: ","
+            - link "Sylvain Calinon" [ref=e774] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Calinon%2C+S
+          - paragraph [ref=e775]:
+            - text: "Abstract:"
+            - generic [ref=e776]: …behavior between multiple kinematic chains, either to provide additional support for carrying big and bulky objects or to enable the dexterity that is required for in-hand manipulation. Since these complex systems often have a very high number of degrees of freedom coordinating their movements is notoriously difficult… ▽ More
+          - paragraph [ref=e777]: Submitted 19 December, 2025; v1 submitted 30 October, 2025; originally announced October 2025.
+        - listitem [ref=e778]:
+          - generic [ref=e779]:
+            - paragraph [ref=e780]:
+              - link "arXiv:2510.25268" [ref=e781] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2510.25268
+              - generic [ref=e782]:
+                - text: "["
+                - link "pdf" [ref=e783] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2510.25268
+                - text: ","
+                - link "ps" [ref=e784] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2510.25268
+                - text: ","
+                - link "other" [ref=e785] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2510.25268
+                - text: "]"
+            - generic [ref=e786]:
+              - generic [ref=e787]: cs.RO
+              - generic [ref=e788]: cs.AI
+              - generic [ref=e789]: cs.CV
+          - paragraph [ref=e790]: SynHLMA:Synthesizing Hand Language Manipulation for Articulated Object with Discrete Human Object Interaction Representation
+          - paragraph [ref=e791]:
+            - text: "Authors:"
+            - link "Wang zhi" [ref=e792] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=zhi%2C+W
+            - text: ","
+            - link "Yuyan Liu" [ref=e793] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liu%2C+Y
+            - text: ","
+            - link "Liu Liu" [ref=e794] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liu%2C+L
+            - text: ","
+            - link "Li Zhang" [ref=e795] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+L
+            - text: ","
+            - link "Ruixuan Lu" [ref=e796] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Lu%2C+R
+            - text: ","
+            - link "Dan Guo" [ref=e797] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Guo%2C+D
+          - paragraph [ref=e798]:
+            - text: "Abstract:"
+            - generic [ref=e799]: …space. A joint-aware loss is employed to ensure hand grasps follow the dynamic variations of articulated object joints. In this way, our SynHLMA achieves three typical hand manipulation tasks for articulated objects of HAOI generation, HAOI prediction and HAOI interpolation. We evaluate SynHLMA on our built HAOI-lang d… ▽ More
+          - paragraph [ref=e800]: Submitted 10 March, 2026; v1 submitted 29 October, 2025; originally announced October 2025.
+        - listitem [ref=e801]:
+          - generic [ref=e802]:
+            - paragraph [ref=e803]:
+              - link "arXiv:2510.09209" [ref=e804] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2510.09209
+              - generic [ref=e805]:
+                - text: "["
+                - link "pdf" [ref=e806] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2510.09209
+                - text: ","
+                - link "ps" [ref=e807] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2510.09209
+                - text: ","
+                - link "other" [ref=e808] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2510.09209
+                - text: "]"
+            - generic [ref=e810]: cs.RO
+            - generic [ref=e812]:
+              - generic [ref=e813]: doi
+              - link "10.1109/ICORR66766.2025.11063043" [ref=e815] [cursor=pointer]:
+                - /url: https://doi.org/10.1109/ICORR66766.2025.11063043
+          - paragraph [ref=e816]: "PLEXUS Hand: Lightweight Four-Motor Prosthetic Hand Enabling Precision-Lateral Dexterous Manipulation"
+          - paragraph [ref=e817]:
+            - text: "Authors:"
+            - link "Yuki Kuroda" [ref=e818] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Kuroda%2C+Y
+            - text: ","
+            - link "Tomoya Takahashi" [ref=e819] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Takahashi%2C+T
+            - text: ","
+            - link "Cristian C Beltran-Hernandez" [ref=e820] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Beltran-Hernandez%2C+C+C
+            - text: ","
+            - link "Masashi Hamaya" [ref=e821] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Hamaya%2C+M
+            - text: ","
+            - link "Kazutoshi Tanaka" [ref=e822] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Tanaka%2C+K
+          - paragraph [ref=e823]:
+            - text: "Abstract:"
+            - generic [ref=e824]: …have motors inside to protect them from damage and dirt. In addition to the ability to perform daily activities, these features are essential for everyday use of the hand. In-hand… ▽ More
+          - paragraph [ref=e825]: Submitted 10 October, 2025; originally announced October 2025.
+          - paragraph [ref=e826]: "Journal ref: 2025 International Conference On Rehabilitation Robotics (ICORR), Chicago, IL, USA, 2025, pp. 22-29"
+        - listitem [ref=e827]:
+          - generic [ref=e828]:
+            - paragraph [ref=e829]:
+              - link "arXiv:2510.08884" [ref=e830] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2510.08884
+              - generic [ref=e831]:
+                - text: "["
+                - link "pdf" [ref=e832] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2510.08884
+                - text: ","
+                - link "ps" [ref=e833] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2510.08884
+                - text: ","
+                - link "other" [ref=e834] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2510.08884
+                - text: "]"
+            - generic [ref=e836]: cs.RO
+          - paragraph [ref=e837]: Model-Based Lookahead Reinforcement Learning for in-hand manipulation
+          - paragraph [ref=e838]:
+            - text: "Authors:"
+            - link "Alexandre Lopes" [ref=e839] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Lopes%2C+A
+            - text: ","
+            - link "Catarina Barata" [ref=e840] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Barata%2C+C
+            - text: ","
+            - link "Plinio Moreno" [ref=e841] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Moreno%2C+P
+          - paragraph [ref=e842]:
+            - text: "Abstract:"
+            - generic [ref=e843]: In-Hand… ▽ More
+          - paragraph [ref=e844]: Submitted 11 December, 2025; v1 submitted 9 October, 2025; originally announced October 2025.
+        - listitem [ref=e845]:
+          - generic [ref=e846]:
+            - paragraph [ref=e847]:
+              - link "arXiv:2509.26236" [ref=e848] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2509.26236
+              - generic [ref=e849]:
+                - text: "["
+                - link "pdf" [ref=e850] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2509.26236
+                - text: ","
+                - link "ps" [ref=e851] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2509.26236
+                - text: ","
+                - link "other" [ref=e852] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2509.26236
+                - text: "]"
+            - generic [ref=e854]: cs.RO
+          - paragraph [ref=e855]: "ISyHand: A Dexterous Multi-finger Robot Hand with an Articulated Palm"
+          - paragraph [ref=e856]:
+            - text: "Authors:"
+            - link "Benjamin A. Richardson" [ref=e857] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Richardson%2C+B+A
+            - text: ","
+            - link "Felix Grüninger" [ref=e858] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Gr%C3%BCninger%2C+F
+            - text: ","
+            - link "Lukas Mack" [ref=e859] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Mack%2C+L
+            - text: ","
+            - link "Joerg Stueckler" [ref=e860] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Stueckler%2C+J
+            - text: ","
+            - link "Katherine J. Kuchenbecker" [ref=e861] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Kuchenbecker%2C+K+J
+          - paragraph [ref=e862]:
+            - text: "Abstract:"
+            - generic [ref=e863]: "…modest sacrifice in anthropomorphism. To demonstrate the utility of the articulated palm, we use reinforcement learning in simulation to train the hand to perform a classical in-hand manipulation task: cube reorientation. Our novel, systematic experiments show that the simulated ISyHand outperforms the two most compara… ▽ More"
+          - paragraph [ref=e864]: Submitted 30 September, 2025; originally announced September 2025.
+          - paragraph [ref=e865]: "Comments: Accepted at IEEE Humanoids 2025"
+        - listitem [ref=e866]:
+          - generic [ref=e867]:
+            - paragraph [ref=e868]:
+              - link "arXiv:2509.23075" [ref=e869] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2509.23075
+              - generic [ref=e870]:
+                - text: "["
+                - link "pdf" [ref=e871] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2509.23075
+                - text: ","
+                - link "ps" [ref=e872] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2509.23075
+                - text: ","
+                - link "other" [ref=e873] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2509.23075
+                - text: "]"
+            - generic [ref=e875]: cs.RO
+          - paragraph [ref=e876]: In-Hand Manipulation of Articulated Tools with Dexterous Robot Hands with Sim-to-Real Transfer
+          - paragraph [ref=e877]:
+            - text: "Authors:"
+            - link "Soofiyan Atar" [ref=e878] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Atar%2C+S
+            - text: ","
+            - link "Daniel Huang" [ref=e879] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Huang%2C+D
+            - text: ","
+            - link "Florian Richter" [ref=e880] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Richter%2C+F
+            - text: ","
+            - link "Michael Yip" [ref=e881] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yip%2C+M
+          - paragraph [ref=e882]:
+            - text: "Abstract:"
+            - generic [ref=e883]: …still fall short of idealized tactile sensing, both in terms of coverage, sensitivity, and specificity. In this paper, we present an original approach to learning dexterous in-hand manipulation of articulated tools that has reduced articulation and kinematic redundancy relative to the human hand. Our approach augments… ▽ More
+          - paragraph [ref=e884]: Submitted 4 March, 2026; v1 submitted 26 September, 2025; originally announced September 2025.
+        - listitem [ref=e885]:
+          - generic [ref=e886]:
+            - paragraph [ref=e887]:
+              - link "arXiv:2509.20646" [ref=e888] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2509.20646
+              - generic [ref=e889]:
+                - text: "["
+                - link "pdf" [ref=e890] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2509.20646
+                - text: ","
+                - link "ps" [ref=e891] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2509.20646
+                - text: ","
+                - link "other" [ref=e892] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2509.20646
+                - text: "]"
+            - generic [ref=e894]: cs.RO
+          - paragraph [ref=e895]: "Suction Leap-Hand: Suction Cups on a Multi-fingered Hand Enable Embodied Dexterity and In-Hand Teleoperation"
+          - paragraph [ref=e896]:
+            - text: "Authors:"
+            - link "Sun Zhaole" [ref=e897] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhaole%2C+S
+            - text: ","
+            - link "Xiaofeng Mao" [ref=e898] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Mao%2C+X
+            - text: ","
+            - link "Jihong Zhu" [ref=e899] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhu%2C+J
+            - text: ","
+            - link "Yuanlong Zhang" [ref=e900] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+Y
+            - text: ","
+            - link "Robert B. Fisher" [ref=e901] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Fisher%2C+R+B
+          - paragraph [ref=e902]:
+            - text: "Abstract:"
+            - generic [ref=e903]: "Dexterous in-hand manipulation remains a foundational challenge in robotics, with progress often constrained by the prevailing paradigm of imitating the human hand. This anthropomorphic approach creates two critical barriers: 1) it limits robotic capabilities to tasks humans can already perform, and 2) it makes data co… ▽ More"
+          - paragraph [ref=e904]: Submitted 24 September, 2025; originally announced September 2025.
+          - paragraph [ref=e905]: "Comments: An IEEE conference paper currently under review"
+        - listitem [ref=e906]:
+          - generic [ref=e907]:
+            - paragraph [ref=e908]:
+              - link "arXiv:2509.17812" [ref=e909] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2509.17812
+              - generic [ref=e910]:
+                - text: "["
+                - link "pdf" [ref=e911] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2509.17812
+                - text: ","
+                - link "ps" [ref=e912] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2509.17812
+                - text: ","
+                - link "other" [ref=e913] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2509.17812
+                - text: "]"
+            - generic [ref=e915]: cs.RO
+          - paragraph [ref=e916]: "Tac2Motion: Contact-Aware Reinforcement Learning with Tactile Feedback for Robotic Hand Manipulation"
+          - paragraph [ref=e917]:
+            - text: "Authors:"
+            - link "Yitaek Kim" [ref=e918] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Kim%2C+Y
+            - text: ","
+            - link "Casper Hewson Rask" [ref=e919] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Rask%2C+C+H
+            - text: ","
+            - link "Christoffer Sloth" [ref=e920] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Sloth%2C+C
+          - paragraph [ref=e921]:
+            - text: "Abstract:"
+            - generic [ref=e922]: This paper proposes Tac2Motion, a contact-aware reinforcement learning framework to facilitate the learning of contact-rich in-hand manipulation tasks, such as removing a lid. To this end, we propose tactile sensing-based reward shaping and incorporate the sensing into the observation space through embedding. The desig… ▽ More
+          - paragraph [ref=e923]: Submitted 18 November, 2025; v1 submitted 22 September, 2025; originally announced September 2025.
+          - paragraph [ref=e924]: "Comments: This paper has submitted to Dexterous Humanoid Manipulation Workshop, Humanoid 2025"
+        - listitem [ref=e925]:
+          - generic [ref=e926]:
+            - paragraph [ref=e927]:
+              - link "arXiv:2509.17053" [ref=e928] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2509.17053
+              - generic [ref=e929]:
+                - text: "["
+                - link "pdf" [ref=e930] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2509.17053
+                - text: ","
+                - link "ps" [ref=e931] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2509.17053
+                - text: ","
+                - link "other" [ref=e932] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2509.17053
+                - text: "]"
+            - generic [ref=e934]: cs.RO
+          - paragraph [ref=e935]: "FILIC: Dual-Loop Force-Guided Imitation Learning with Impedance Torque Control for Contact-Rich Manipulation Tasks"
+          - paragraph [ref=e936]:
+            - text: "Authors:"
+            - link "Haizhou Ge" [ref=e937] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ge%2C+H
+            - text: ","
+            - link "Yufei Jia" [ref=e938] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Jia%2C+Y
+            - text: ","
+            - link "Zheng Li" [ref=e939] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Li%2C+Z
+            - text: ","
+            - link "Yue Li" [ref=e940] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Li%2C+Y
+            - text: ","
+            - link "Zhixing Chen" [ref=e941] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Chen%2C+Z
+            - text: ","
+            - link "Ruqi Huang" [ref=e942] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Huang%2C+R
+            - text: ","
+            - link "Guyue Zhou" [ref=e943] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhou%2C+G
+          - paragraph [ref=e944]:
+            - text: "Abstract:"
+            - generic [ref=e945]: Contact-rich manipulation is crucial for robots to perform tasks requiring precise force control, such as insertion, assembly, and in-hand manipulation. However, most imitation learning (IL) policies remain position-centric and lack explicit force awareness, and adding force/torque sensors to collaborative robot arms i… ▽ More
+          - paragraph [ref=e946]: Submitted 21 September, 2025; originally announced September 2025.
+          - paragraph [ref=e947]: "MSC Class: 68T40; 93C85 ACM Class: I.2.9"
+        - listitem [ref=e948]:
+          - generic [ref=e949]:
+            - paragraph [ref=e950]:
+              - link "arXiv:2509.14984" [ref=e951] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2509.14984
+              - generic [ref=e952]:
+                - text: "["
+                - link "pdf" [ref=e953] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2509.14984
+                - text: ","
+                - link "ps" [ref=e954] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2509.14984
+                - text: ","
+                - link "other" [ref=e955] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2509.14984
+                - text: "]"
+            - generic [ref=e956]:
+              - generic [ref=e957]: cs.RO
+              - generic [ref=e958]: cs.AI
+              - generic [ref=e959]: cs.LG
+              - generic [ref=e960]: eess.SY
+          - paragraph [ref=e961]: "The Role of Touch: Towards Optimal Tactile Sensing Distribution in Anthropomorphic Hands for Dexterous In-Hand Manipulation"
+          - paragraph [ref=e962]:
+            - text: "Authors:"
+            - link "João Damião Almeida" [ref=e963] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Almeida%2C+J+D
+            - text: ","
+            - link "Egidio Falotico" [ref=e964] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Falotico%2C+E
+            - text: ","
+            - link "Cecilia Laschi" [ref=e965] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Laschi%2C+C
+            - text: ","
+            - link "José Santos-Victor" [ref=e966] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Santos-Victor%2C+J
+          - paragraph [ref=e967]:
+            - text: "Abstract:"
+            - generic [ref=e968]: In-hand manipulation tasks, particularly in human-inspired robotic systems, must rely on distributed tactile sensing to achieve precise control across a wide variety of tasks. However, the optimal configuration of this network of sensors is a complex problem, and while the fingertips are a common choice for placing sen… ▽ More
+          - paragraph [ref=e969]: Submitted 18 September, 2025; originally announced September 2025.
+          - paragraph [ref=e970]: "Journal ref: Proc. IEEE Int. Conf. on Networking, Sensing and Control (ICNSC), 2025"
+        - listitem [ref=e971]:
+          - generic [ref=e972]:
+            - paragraph [ref=e973]:
+              - link "arXiv:2509.07916" [ref=e974] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2509.07916
+              - generic [ref=e975]:
+                - text: "["
+                - link "pdf" [ref=e976] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2509.07916
+                - text: ","
+                - link "ps" [ref=e977] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2509.07916
+                - text: ","
+                - link "other" [ref=e978] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2509.07916
+                - text: "]"
+            - generic [ref=e980]: cs.RO
+          - paragraph [ref=e981]: Programmable Locking Cells (PLC) for Modular Robots with High Stiffness Tunability and Morphological Adaptability
+          - paragraph [ref=e982]:
+            - text: "Authors:"
+            - link "Jianshu Zhou" [ref=e983] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhou%2C+J
+            - text: ","
+            - link "Wei Chen" [ref=e984] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Chen%2C+W
+            - text: ","
+            - link "Junda Huang" [ref=e985] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Huang%2C+J
+            - text: ","
+            - link "Boyuan Liang" [ref=e986] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liang%2C+B
+            - text: ","
+            - link "Yunhui Liu" [ref=e987] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Liu%2C+Y
+            - text: ","
+            - link "Masayoshi Tomizuka" [ref=e988] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Tomizuka%2C+M
+          - paragraph [ref=e989]:
+            - text: "Abstract:"
+            - generic [ref=e990]: "…spatially programmable stiffness. We validate the design through two functional prototypes: (1) a variable-stiffness gripper capable of adaptive grasping, firm holding, and in-hand manipulation; and (2) a pipe-traversing robot composed of serial PLC units that achieves shape adaptability and stiffness control in confin… ▽ More"
+          - paragraph [ref=e991]: Submitted 9 September, 2025; originally announced September 2025.
+        - listitem [ref=e992]:
+          - generic [ref=e993]:
+            - paragraph [ref=e994]:
+              - link "arXiv:2509.07445" [ref=e995] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2509.07445
+              - generic [ref=e996]:
+                - text: "["
+                - link "pdf" [ref=e997] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2509.07445
+                - text: ","
+                - link "ps" [ref=e998] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2509.07445
+                - text: ","
+                - link "other" [ref=e999] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2509.07445
+                - text: "]"
+            - generic [ref=e1000]:
+              - generic [ref=e1001]: cs.RO
+              - generic [ref=e1002]: cs.AI
+          - paragraph [ref=e1003]: "Text2Touch: Tactile In-Hand Manipulation with LLM-Designed Reward Functions"
+          - paragraph [ref=e1004]:
+            - text: "Authors:"
+            - link "Harrison Field" [ref=e1005] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Field%2C+H
+            - text: ","
+            - link "Max Yang" [ref=e1006] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yang%2C+M
+            - text: ","
+            - link "Yijiong Lin" [ref=e1007] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Lin%2C+Y
+            - text: ","
+            - link "Efi Psomopoulou" [ref=e1008] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Psomopoulou%2C+E
+            - text: ","
+            - link "David Barton" [ref=e1009] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Barton%2C+D
+            - text: ","
+            - link "Nathan F. Lepora" [ref=e1010] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Lepora%2C+N+F
+          - paragraph [ref=e1011]:
+            - text: "Abstract:"
+            - generic [ref=e1012]: Large language models (LLMs) are beginning to automate reward design for dexterous manipulation. However, no prior work has considered tactile sensing, which is known to be critical for human-like dexterity. We present Text2Touch, bringing LLM-crafted rewards to the challenging task of multi-axis in-hand object rotation with real-world vision based tactile sensing in palm-up and palm-down configur… ▽ More
+          - paragraph [ref=e1013]: Submitted 9 September, 2025; originally announced September 2025.
+          - paragraph [ref=e1014]: "Comments: Accepted at CoRL 2025"
+        - listitem [ref=e1015]:
+          - generic [ref=e1016]:
+            - paragraph [ref=e1017]:
+              - link "arXiv:2508.14441" [ref=e1018] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2508.14441
+              - generic [ref=e1019]:
+                - text: "["
+                - link "pdf" [ref=e1020] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2508.14441
+                - text: ","
+                - link "ps" [ref=e1021] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2508.14441
+                - text: ","
+                - link "other" [ref=e1022] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2508.14441
+                - text: "]"
+            - generic [ref=e1024]: cs.RO
+          - paragraph [ref=e1025]: "FBI: Learning Dexterous In-hand Manipulation with Dynamic Visuotactile Shortcut Policy"
+          - paragraph [ref=e1026]:
+            - text: "Authors:"
+            - link "Yijin Chen" [ref=e1027] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Chen%2C+Y
+            - text: ","
+            - link "Wenqiang Xu" [ref=e1028] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Xu%2C+W
+            - text: ","
+            - link "Zhenjun Yu" [ref=e1029] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yu%2C+Z
+            - text: ","
+            - link "Tutian Tang" [ref=e1030] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Tang%2C+T
+            - text: ","
+            - link "Yutong Li" [ref=e1031] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Li%2C+Y
+            - text: ","
+            - link "Siqiong Yao" [ref=e1032] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yao%2C+S
+            - text: ","
+            - link "Cewu Lu" [ref=e1033] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Lu%2C+C
+          - paragraph [ref=e1034]:
+            - text: "Abstract:"
+            - generic [ref=e1035]: Dexterous in-hand… ▽ More
+          - paragraph [ref=e1036]: Submitted 20 August, 2025; originally announced August 2025.
+        - listitem [ref=e1037]:
+          - generic [ref=e1038]:
+            - paragraph [ref=e1039]:
+              - link "arXiv:2508.12439" [ref=e1040] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2508.12439
+              - generic [ref=e1041]:
+                - text: "["
+                - link "pdf" [ref=e1042] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2508.12439
+                - text: ","
+                - link "ps" [ref=e1043] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2508.12439
+                - text: ","
+                - link "other" [ref=e1044] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2508.12439
+                - text: "]"
+            - generic [ref=e1046]: cs.RO
+          - paragraph [ref=e1047]: Geodesic Tracing-Based Kinematic Integration of Rolling and Sliding Contact on Manifold Meshes for Dexterous In-Hand Manipulation
+          - paragraph [ref=e1048]:
+            - text: "Authors:"
+            - link "Sunyu Wang" [ref=e1049] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+S
+            - text: ","
+            - link "Arjun S. Lakshmipathy" [ref=e1050] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Lakshmipathy%2C+A+S
+            - text: ","
+            - link "Jean Oh" [ref=e1051] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Oh%2C+J
+            - text: ","
+            - link "Nancy S. Pollard" [ref=e1052] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Pollard%2C+N+S
+          - paragraph [ref=e1053]:
+            - text: "Abstract:"
+            - generic [ref=e1054]: …manipulation to reason over high-fidelity discrete representations of an object's true geometry. Using our method, we planned dexterous motions of a multi-finger robotic hand manipulating five objects in-hand in simulation. The planning was achieved with a least-squares optimizer that strives to maintain the most s… ▽ More
+          - paragraph [ref=e1055]: Submitted 17 August, 2025; originally announced August 2025.
+        - listitem [ref=e1056]:
+          - generic [ref=e1057]:
+            - paragraph [ref=e1058]:
+              - link "arXiv:2508.05415" [ref=e1059] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2508.05415
+              - generic [ref=e1060]:
+                - text: "["
+                - link "pdf" [ref=e1061] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2508.05415
+                - text: ","
+                - link "ps" [ref=e1062] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2508.05415
+                - text: ","
+                - link "other" [ref=e1063] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2508.05415
+                - text: "]"
+            - generic [ref=e1065]: cs.RO
+          - paragraph [ref=e1066]: Do Robots Really Need Anthropomorphic Hands? A Comparison of Human and Robotic Hands
+          - paragraph [ref=e1067]:
+            - text: "Authors:"
+            - link "Alexander Fabisch" [ref=e1068] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Fabisch%2C+A
+            - text: ","
+            - link "Wadhah Zai El Amri" [ref=e1069] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Amri%2C+W+Z+E
+            - text: ","
+            - link "Chandandeep Singh" [ref=e1070] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Singh%2C+C
+            - text: ","
+            - link "Nicolás Navarro-Guerrero" [ref=e1071] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Navarro-Guerrero%2C+N
+          - paragraph [ref=e1072]:
+            - text: "Abstract:"
+            - generic [ref=e1073]: …from 2019-2025. Although complex five-fingered hands are often considered the ultimate goal for robotic manipulators, they are not necessary for all tasks. We find that in-hand manipulation does not benefit from anthropomorphic hand design as simpler mechanisms are sufficient, but mechanism complexity correlates with… ▽ More
+          - paragraph [ref=e1074]: Submitted 18 May, 2026; v1 submitted 7 August, 2025; originally announced August 2025.
+        - listitem [ref=e1075]:
+          - generic [ref=e1076]:
+            - paragraph [ref=e1077]:
+              - link "arXiv:2507.23682" [ref=e1078] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2507.23682
+              - generic [ref=e1079]:
+                - text: "["
+                - link "pdf" [ref=e1080] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2507.23682
+                - text: ","
+                - link "ps" [ref=e1081] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2507.23682
+                - text: ","
+                - link "other" [ref=e1082] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2507.23682
+                - text: "]"
+            - generic [ref=e1083]:
+              - generic [ref=e1084]: cs.RO
+              - generic [ref=e1085]: cs.AI
+              - generic [ref=e1086]: cs.LG
+          - paragraph [ref=e1087]: "villa-X: Enhancing Latent Action Modeling in Vision-Language-Action Models"
+          - paragraph [ref=e1088]:
+            - text: "Authors:"
+            - link "Xiaoyu Chen" [ref=e1089] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Chen%2C+X
+            - text: ","
+            - link "Hangxing Wei" [ref=e1090] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wei%2C+H
+            - text: ","
+            - link "Pushi Zhang" [ref=e1091] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+P
+            - text: ","
+            - link "Chuheng Zhang" [ref=e1092] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+C
+            - text: ","
+            - link "Kaixin Wang" [ref=e1093] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+K
+            - text: ","
+            - link "Yanjiang Guo" [ref=e1094] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Guo%2C+Y
+            - text: ","
+            - link "Rushuai Yang" [ref=e1095] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yang%2C+R
+            - text: ","
+            - link "Yucen Wang" [ref=e1096] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+Y
+            - text: ","
+            - link "Xinquan Xiao" [ref=e1097] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Xiao%2C+X
+            - text: ","
+            - link "Li Zhao" [ref=e1098] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhao%2C+L
+            - text: ","
+            - link "Jianyu Chen" [ref=e1099] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Chen%2C+J
+            - text: ","
+            - link "Jiang Bian" [ref=e1100] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Bian%2C+J
+          - paragraph [ref=e1101]:
+            - text: "Abstract:"
+            - generic [ref=e1102]: …capability enables villa-X to achieve superior performance across diverse simulation tasks in SIMPLER and on two real-world robotic setups involving both gripper and dexterous hand manipulation. These results establish villa-X as a principled and scalable paradigm for learning generalizable robot manipulation policies.… ▽ More
+          - paragraph [ref=e1103]: Submitted 25 September, 2025; v1 submitted 31 July, 2025; originally announced July 2025.
+          - paragraph [ref=e1104]: "Comments: Project page: https://aka.ms/villa-x"
+        - listitem [ref=e1105]:
+          - generic [ref=e1106]:
+            - paragraph [ref=e1107]:
+              - link "arXiv:2507.04452" [ref=e1108] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2507.04452
+              - generic [ref=e1109]:
+                - text: "["
+                - link "pdf" [ref=e1110] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2507.04452
+                - text: ","
+                - link "ps" [ref=e1111] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2507.04452
+                - text: ","
+                - link "other" [ref=e1112] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2507.04452
+                - text: "]"
+            - generic [ref=e1114]: cs.RO
+          - paragraph [ref=e1115]: "SimLauncher: Launching Sample-Efficient Real-world Robotic Reinforcement Learning via Simulation Pre-training"
+          - paragraph [ref=e1116]:
+            - text: "Authors:"
+            - link "Mingdong Wu" [ref=e1117] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wu%2C+M
+            - text: ","
+            - link "Lehong Wu" [ref=e1118] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wu%2C+L
+            - text: ","
+            - link "Yizhuo Wu" [ref=e1119] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wu%2C+Y
+            - text: ","
+            - link "Weiyao Huang" [ref=e1120] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Huang%2C+W
+            - text: ","
+            - link "Hongwei Fan" [ref=e1121] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Fan%2C+H
+            - text: ","
+            - link "Zheyuan Hu" [ref=e1122] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Hu%2C+Z
+            - text: ","
+            - link "Haoran Geng" [ref=e1123] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Geng%2C+H
+            - text: ","
+            - link "Jinzhou Li" [ref=e1124] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Li%2C+J
+            - text: ","
+            - link "Jiahe Ying" [ref=e1125] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ying%2C+J
+            - text: ","
+            - link "Long Yang" [ref=e1126] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yang%2C+L
+            - text: ","
+            - link "Yuanpei Chen" [ref=e1127] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Chen%2C+Y
+            - text: ","
+            - link "Hao Dong" [ref=e1128] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Dong%2C+H
+          - paragraph [ref=e1129]:
+            - text: "Abstract:"
+            - generic [ref=e1130]: …and (2) Incorporating action proposals from the pre-trained policy for better exploration. We conduct comprehensive experiments across multi-stage, contact-rich, and dexterous hand manipulation tasks. Compared to prior real-world RL approaches, SimLauncher significantly improves sample efficiency and achieves near-per… ▽ More
+          - paragraph [ref=e1131]: Submitted 6 July, 2025; originally announced July 2025.
+        - listitem [ref=e1132]:
+          - generic [ref=e1133]:
+            - paragraph [ref=e1134]:
+              - link "arXiv:2507.03227" [ref=e1135] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2507.03227
+              - generic [ref=e1136]:
+                - text: "["
+                - link "pdf" [ref=e1137] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2507.03227
+                - text: ","
+                - link "ps" [ref=e1138] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2507.03227
+                - text: ","
+                - link "other" [ref=e1139] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2507.03227
+                - text: "]"
+            - generic [ref=e1141]: cs.RO
+          - paragraph [ref=e1142]: Dexterous Teleoperation of 20-DoF ByteDexter Hand via Human Motion Retargeting
+          - paragraph [ref=e1143]:
+            - text: "Authors:"
+            - link "Ruoshi Wen" [ref=e1144] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wen%2C+R
+            - text: ","
+            - link "Jiajun Zhang" [ref=e1145] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+J
+            - text: ","
+            - link "Guangzeng Chen" [ref=e1146] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Chen%2C+G
+            - text: ","
+            - link "Zhongren Cui" [ref=e1147] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Cui%2C+Z
+            - text: ","
+            - link "Min Du" [ref=e1148] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Du%2C+M
+            - text: ","
+            - link "Yang Gou" [ref=e1149] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Gou%2C+Y
+            - text: ","
+            - link "Zhigang Han" [ref=e1150] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Han%2C+Z
+            - text: ","
+            - link "Junkai Hu" [ref=e1151] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Hu%2C+J
+            - text: ","
+            - link "Liqun Huang" [ref=e1152] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Huang%2C+L
+            - text: ","
+            - link "Hao Niu" [ref=e1153] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Niu%2C+H
+            - text: ","
+            - link "Wei Xu" [ref=e1154] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Xu%2C+W
+            - text: ","
+            - link "Haoxiang Zhang" [ref=e1155] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhang%2C+H
+            - text: ","
+            - link "Zhengming Zhu" [ref=e1156] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhu%2C+Z
+            - text: ","
+            - link "Hang Li" [ref=e1157] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Li%2C+H
+            - text: ","
+            - link "Zeyu Ren" [ref=e1158] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ren%2C+Z
+          - paragraph [ref=e1159]:
+            - text: "Abstract:"
+            - generic [ref=e1160]: …reproduction of intricate human hand motions and seamless hand--arm coordination. We validate the system via extensive empirical evaluations, including dexterous in-hand manipulation tasks and a long--horizon task requiring the organization of a cluttered makeup table randomly populated with nine objects. Experimental… ▽ More
+          - paragraph [ref=e1161]: Submitted 3 July, 2025; originally announced July 2025.
+          - paragraph [ref=e1162]: "Comments: Tech Report. Project page: https://byte-dexter.github.io/"
+        - listitem [ref=e1163]:
+          - generic [ref=e1164]:
+            - paragraph [ref=e1165]:
+              - link "arXiv:2506.17198" [ref=e1166] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2506.17198
+              - generic [ref=e1167]:
+                - text: "["
+                - link "pdf" [ref=e1168] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2506.17198
+                - text: ","
+                - link "ps" [ref=e1169] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2506.17198
+                - text: ","
+                - link "other" [ref=e1170] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2506.17198
+                - text: "]"
+            - generic [ref=e1171]:
+              - generic [ref=e1172]: cs.RO
+              - generic [ref=e1173]: cs.CV
+          - paragraph [ref=e1174]: "Dex1B: Learning with 1B Demonstrations for Dexterous Manipulation"
+          - paragraph [ref=e1175]:
+            - text: "Authors:"
+            - link "Jianglong Ye" [ref=e1176] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Ye%2C+J
+            - text: ","
+            - link "Keyi Wang" [ref=e1177] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+K
+            - text: ","
+            - link "Chengjing Yuan" [ref=e1178] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yuan%2C+C
+            - text: ","
+            - link "Ruihan Yang" [ref=e1179] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yang%2C+R
+            - text: ","
+            - link "Yiquan Li" [ref=e1180] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Li%2C+Y
+            - text: ","
+            - link "Jiyue Zhu" [ref=e1181] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zhu%2C+J
+            - text: ","
+            - link "Yuzhe Qin" [ref=e1182] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Qin%2C+Y
+            - text: ","
+            - link "Xueyan Zou" [ref=e1183] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Zou%2C+X
+            - text: ","
+            - link "Xiaolong Wang" [ref=e1184] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+X
+          - paragraph [ref=e1185]:
+            - text: "Abstract:"
+            - generic [ref=e1186]: Generating large-scale demonstrations for dexterous hand manipulation remains challenging, and several approaches have been proposed in recent years to address this. Among them, generative models have emerged as a promising paradigm, enabling the efficient creation of diverse and physically plausible demonstrations. In… ▽ More
+          - paragraph [ref=e1187]: Submitted 20 June, 2025; originally announced June 2025.
+          - paragraph [ref=e1188]: "Comments: Accepted to RSS 2025. Project page: https://jianglongye.com/dex1b"
+        - listitem [ref=e1189]:
+          - generic [ref=e1190]:
+            - paragraph [ref=e1191]:
+              - link "arXiv:2506.12676" [ref=e1192] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2506.12676
+              - generic [ref=e1193]:
+                - text: "["
+                - link "pdf" [ref=e1194] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2506.12676
+                - text: ","
+                - link "ps" [ref=e1195] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2506.12676
+                - text: ","
+                - link "other" [ref=e1196] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2506.12676
+                - text: "]"
+            - generic [ref=e1198]: cs.RO
+          - paragraph [ref=e1199]: Goal-based Self-Adaptive Generative Adversarial Imitation Learning (Goal-SAGAIL) for Multi-goal Robotic Manipulation Tasks
+          - paragraph [ref=e1200]:
+            - text: "Authors:"
+            - link "Yingyi Kuang" [ref=e1201] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Kuang%2C+Y
+            - text: ","
+            - link "Luis J. Manso" [ref=e1202] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Manso%2C+L+J
+            - text: ","
+            - link "George Vogiatzis" [ref=e1203] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Vogiatzis%2C+G
+          - paragraph [ref=e1204]:
+            - text: "Abstract:"
+            - generic [ref=e1205]: …are available. Experimental results validate that our method significantly improves learning efficiency across various multi-goal manipulation scenarios -- including complex in-hand manipulation tasks -- using suboptimal demonstrations provided by both simulation and human experts. ▽ More
+          - paragraph [ref=e1206]: Submitted 14 June, 2025; originally announced June 2025.
+          - paragraph [ref=e1207]: "Comments: 6 pages, 5 figures"
+        - listitem [ref=e1208]:
+          - generic [ref=e1209]:
+            - paragraph [ref=e1210]:
+              - link "arXiv:2505.22882" [ref=e1211] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2505.22882
+              - generic [ref=e1212]:
+                - text: "["
+                - link "pdf" [ref=e1213] [cursor=pointer]:
+                  - /url: https://arxiv.org/pdf/2505.22882
+                - text: ","
+                - link "ps" [ref=e1214] [cursor=pointer]:
+                  - /url: https://arxiv.org/ps/2505.22882
+                - text: ","
+                - link "other" [ref=e1215] [cursor=pointer]:
+                  - /url: https://arxiv.org/format/2505.22882
+                - text: "]"
+            - generic [ref=e1217]: cs.RO
+          - paragraph [ref=e1218]: "TwinTrack: Bridging Vision and Contact Physics for Real-Time Tracking of Unknown Objects in Contact-Rich Scenes"
+          - paragraph [ref=e1219]:
+            - text: "Authors:"
+            - link "Wen Yang" [ref=e1220] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Yang%2C+W
+            - text: ","
+            - link "Zhixian Xie" [ref=e1221] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Xie%2C+Z
+            - text: ","
+            - link "Yiting Wang" [ref=e1222] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Wang%2C+Y
+            - text: ","
+            - link "Abhijit Tadepalli" [ref=e1223] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Tadepalli%2C+A
+            - text: ","
+            - link "Heni Ben Amor" [ref=e1224] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Amor%2C+H+B
+            - text: ","
+            - link "Shan Lin" [ref=e1225] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Lin%2C+S
+            - text: ","
+            - link "Wanxin Jin" [ref=e1226] [cursor=pointer]:
+              - /url: /search/?searchtype=author&query=Jin%2C+W
+          - paragraph [ref=e1227]:
+            - text: "Abstract:"
+            - generic [ref=e1228]: Real-time tracking of previously unseen, highly dynamic objects in contact-rich scenes, such as during dexterous in-hand… ▽ More
+          - paragraph [ref=e1229]: Submitted 18 March, 2026; v1 submitted 28 May, 2025; originally announced May 2025.
+          - paragraph [ref=e1230]: "Comments: Accepted by IEEE International Conference on Robotics & Automation (ICRA) 2026"
+      - navigation "pagination" [ref=e1231]:
+        - link "Next" [ref=e1232] [cursor=pointer]:
+          - /url: /search/?query=%22in-hand+manipulation%22+%22recurrent%22+OR+%22LSTM%22&searchtype=all&order=-announced_date_first&start=50
+        - list [ref=e1233]:
+          - listitem [ref=e1234]:
+            - link "Goto page 1" [ref=e1235] [cursor=pointer]:
+              - /url: /search/?query=%22in-hand+manipulation%22+%22recurrent%22+OR+%22LSTM%22&searchtype=all&order=-announced_date_first&start=0
+              - text: "1"
+          - listitem [ref=e1236]:
+            - link "Page 2" [ref=e1237] [cursor=pointer]:
+              - /url: /search/?query=%22in-hand+manipulation%22+%22recurrent%22+OR+%22LSTM%22&searchtype=all&order=-announced_date_first&start=50
+              - text: "2"
+          - listitem [ref=e1238]:
+            - link "Page 3" [ref=e1239] [cursor=pointer]:
+              - /url: /search/?query=%22in-hand+manipulation%22+%22recurrent%22+OR+%22LSTM%22&searchtype=all&order=-announced_date_first&start=100
+              - text: "3"
+          - listitem [ref=e1240]:
+            - link "Page 4" [ref=e1241] [cursor=pointer]:
+              - /url: /search/?query=%22in-hand+manipulation%22+%22recurrent%22+OR+%22LSTM%22&searchtype=all&order=-announced_date_first&start=150
+              - text: "4"
+          - listitem [ref=e1242]:
+            - link "Page 5" [ref=e1243] [cursor=pointer]:
+              - /url: /search/?query=%22in-hand+manipulation%22+%22recurrent%22+OR+%22LSTM%22&searchtype=all&order=-announced_date_first&start=200
+              - text: "5"
+          - listitem [ref=e1244]:
+            - link "Page 6" [ref=e1245] [cursor=pointer]:
+              - /url: /search/?query=%22in-hand+manipulation%22+%22recurrent%22+OR+%22LSTM%22&searchtype=all&order=-announced_date_first&start=250
+              - text: "6"
+  - contentinfo [ref=e1246]:
+    - navigation "Secondary" [ref=e1247]:
+      - generic [ref=e1249]:
+        - list [ref=e1251]:
+          - listitem [ref=e1252]:
+            - link "About" [ref=e1253] [cursor=pointer]:
+              - /url: https://info.arxiv.org/about
+          - listitem [ref=e1254]:
+            - link "Help" [ref=e1255] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+        - list [ref=e1257]:
+          - listitem [ref=e1258]:
+            - link "Contact" [ref=e1260] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/contact.html
+          - listitem [ref=e1261]:
+            - link "Subscribe" [ref=e1263] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/subscribe
+      - generic [ref=e1265]:
+        - list [ref=e1267]:
+          - listitem [ref=e1268]:
+            - link "Copyright" [ref=e1269] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/license/index.html
+          - listitem [ref=e1270]:
+            - link "Privacy Policy" [ref=e1271] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/policies/privacy_policy.html
+        - list [ref=e1273]:
+          - listitem [ref=e1274]:
+            - link "Web Accessibility Assistance" [ref=e1275] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/web_accessibility.html
+          - listitem [ref=e1276]:
+            - paragraph [ref=e1277]:
+              - link "arXiv Operational Status" [ref=e1278] [cursor=pointer]:
+                - /url: https://status.arxiv.org
+                - text: arXiv Operational Status
+              - text: Get status notifications via
+              - link "email" [ref=e1280] [cursor=pointer]:
+                - /url: https://subscribe.sorryapp.com/24846f03/email/new
+                - text: email
+              - text: or
+              - link "slack" [ref=e1282] [cursor=pointer]:
+                - /url: https://subscribe.sorryapp.com/24846f03/slack/new
+                - text: slack

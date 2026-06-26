@@ -1,0 +1,911 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fiterativv%2FNostalgiaForInfinity
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=iterativv%2FNostalgiaForInfinity
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "iterativv" [ref=e70] [cursor=pointer]:
+            - /url: /iterativv
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "NostalgiaForInfinity" [ref=e73] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fiterativv%2FNostalgiaForInfinity
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 721" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fiterativv%2FNostalgiaForInfinity
+                - img [ref=e82]
+                - text: Fork
+                - generic "721" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fiterativv%2FNostalgiaForInfinity
+                - img [ref=e88]
+                - text: Star
+                - generic "3219 users starred this repository" [ref=e90]: 3.2k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 60" [ref=e99] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "60" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 3" [ref=e106] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "3" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Actions" [ref=e112] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/actions
+              - img [ref=e113]
+              - generic [ref=e115]: Actions
+          - listitem [ref=e116]:
+            - link "Projects" [ref=e117] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/projects
+              - img [ref=e118]
+              - generic [ref=e120]: Projects
+          - listitem [ref=e121]:
+            - link "Wiki" [ref=e122] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/wiki
+              - img [ref=e123]
+              - generic [ref=e125]: Wiki
+          - listitem [ref=e126]:
+            - link "Security and quality" [ref=e127] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/security
+              - img [ref=e128]
+              - generic [ref=e130]: Security and quality
+          - listitem [ref=e131]:
+            - link "Insights" [ref=e132] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/pulse
+              - img [ref=e133]
+              - generic [ref=e135]: Insights
+    - generic [ref=e148]:
+      - heading "iterativv/NostalgiaForInfinity" [level=1] [ref=e150]
+      - generic [ref=e151]:
+        - generic [ref=e154]:
+          - generic [ref=e155]:
+            - generic [ref=e156]:
+              - button "main branch" [ref=e158] [cursor=pointer]:
+                - generic [ref=e159]:
+                  - generic [ref=e161]:
+                    - img [ref=e163]
+                    - generic [ref=e166]: main
+                  - generic:
+                    - img
+              - generic [ref=e167]:
+                - link "5 Branches" [ref=e168] [cursor=pointer]:
+                  - /url: /iterativv/NostalgiaForInfinity/branches
+                  - generic [ref=e169]:
+                    - generic:
+                      - img
+                    - generic [ref=e171]:
+                      - strong [ref=e172]: "5"
+                      - text: Branches
+                - link "516 Tags" [ref=e173] [cursor=pointer]:
+                  - /url: /iterativv/NostalgiaForInfinity/tags
+                  - generic [ref=e174]:
+                    - generic:
+                      - img
+                    - generic [ref=e176]:
+                      - strong [ref=e177]: "516"
+                      - text: Tags
+            - generic [ref=e178]:
+              - generic [ref=e182]:
+                - img [ref=e184]
+                - combobox "Go to file" [ref=e186]
+              - button "Code" [ref=e187] [cursor=pointer]:
+                - generic [ref=e188]:
+                  - generic:
+                    - img
+                  - generic [ref=e189]: Code
+                  - generic:
+                    - img
+          - generic [ref=e190]:
+            - generic [ref=e191]:
+              - heading "Folders and files" [level=2] [ref=e192]
+              - table "Folders and files" [ref=e193]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e194]:
+                  - 'row "Latest commit iterativv commits by iterativv X7: system_v3_2: fine tune the grind entries. failure Commit bad4238 · May 19, 20265 hours ago History 22,270 Commits" [ref=e195]':
+                    - 'cell "Latest commit iterativv commits by iterativv X7: system_v3_2: fine tune the grind entries. failure Commit bad4238 · May 19, 20265 hours ago History 22,270 Commits" [ref=e196]':
+                      - generic [ref=e197]:
+                        - heading "Latest commit" [level=2] [ref=e198]
+                        - generic [ref=e199]:
+                          - generic [ref=e201]:
+                            - link "iterativv" [ref=e202] [cursor=pointer]:
+                              - /url: /iterativv
+                              - img "iterativv" [ref=e203]
+                            - link "commits by iterativv" [ref=e204] [cursor=pointer]:
+                              - /url: /iterativv/NostalgiaForInfinity/commits?author=iterativv
+                              - text: iterativv
+                          - generic [ref=e205]:
+                            - 'link "X7: system_v3_2: fine tune the grind entries." [ref=e208] [cursor=pointer]':
+                              - /url: /iterativv/NostalgiaForInfinity/commit/bad4238acffc9d7e2118a9d970ebd24904b7986e
+                            - button "failure" [ref=e209] [cursor=pointer]:
+                              - img [ref=e210]
+                        - generic [ref=e212]:
+                          - generic [ref=e214]:
+                            - link "Commit bad4238" [ref=e215] [cursor=pointer]:
+                              - /url: /iterativv/NostalgiaForInfinity/commit/bad4238acffc9d7e2118a9d970ebd24904b7986e
+                              - text: bad4238
+                            - text: ·
+                            - generic "May 19, 2026, 7:40 AM GMT+9" [ref=e216]: May 19, 20265 hours ago
+                          - generic [ref=e217]:
+                            - heading "History" [level=2] [ref=e218]
+                            - link "22,270 Commits" [ref=e219] [cursor=pointer]:
+                              - /url: /iterativv/NostalgiaForInfinity/commits/main/
+                              - generic [ref=e220]:
+                                - generic:
+                                  - img
+                                - generic [ref=e221]: 22,270 Commits
+                  - row ".github, (Directory) Update artifact handling in backtests workflow May 6, 20262 weeks ago" [ref=e222]:
+                    - cell ".github, (Directory)" [ref=e223]:
+                      - generic [ref=e224]:
+                        - img [ref=e225]
+                        - link ".github, (Directory)" [ref=e230] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/tree/main/.github
+                          - text: .github
+                    - cell "Update artifact handling in backtests workflow" [ref=e231]:
+                      - link "Update artifact handling in backtests workflow" [ref=e234] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/86d308378f738373e4cdd1ffb3e0d6a2351c7593
+                    - cell "May 6, 20262 weeks ago" [ref=e235]:
+                      - generic [ref=e236]: May 6, 20262 weeks ago
+                  - 'row "configs, (Directory) Configs: blacklist SYS. May 14, 20265 days ago" [ref=e237]':
+                    - cell "configs, (Directory)" [ref=e238]:
+                      - generic [ref=e239]:
+                        - img [ref=e240]
+                        - link "configs, (Directory)" [ref=e245] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/tree/main/configs
+                          - text: configs
+                    - 'cell "Configs: blacklist SYS." [ref=e246]':
+                      - 'link "Configs: blacklist SYS." [ref=e249] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/cec9c493e55ec3e062d7914ace7aa497c9c47f2e
+                    - cell "May 14, 20265 days ago" [ref=e250]:
+                      - generic [ref=e251]: May 14, 20265 days ago
+                  - 'row "docker, (Directory) fix(updater): per-exchange state tracking to prevent race condition May 9, 20262 weeks ago" [ref=e252]':
+                    - cell "docker, (Directory)" [ref=e253]:
+                      - generic [ref=e254]:
+                        - img [ref=e255]
+                        - link "docker, (Directory)" [ref=e260] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/tree/main/docker
+                          - text: docker
+                    - 'cell "fix(updater): per-exchange state tracking to prevent race condition" [ref=e261]':
+                      - 'link "fix(updater): per-exchange state tracking to prevent race condition" [ref=e264] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/da7787351f1cecdbbc3e5b9d9eb93ac253e0453a
+                    - cell "May 9, 20262 weeks ago" [ref=e265]:
+                      - generic [ref=e266]: May 9, 20262 weeks ago
+                  - row "docs, (Directory) Update the links. May 13, 2026last week" [ref=e267]:
+                    - cell "docs, (Directory)" [ref=e268]:
+                      - generic [ref=e269]:
+                        - img [ref=e270]
+                        - link "docs, (Directory)" [ref=e275] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/tree/main/docs
+                          - text: docs
+                    - cell "Update the links." [ref=e276]:
+                      - link "Update the links." [ref=e279] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/e67e7478fd99a39c7041cddd2ac910b8a46a391c
+                    - cell "May 13, 2026last week" [ref=e280]:
+                      - generic [ref=e281]: May 13, 2026last week
+                  - 'row "legacy, (Directory) format update: legacy/NostalgiaForInfinityNextGen.py Nov 18, 20233 years ago" [ref=e282]':
+                    - cell "legacy, (Directory)" [ref=e283]:
+                      - generic [ref=e284]:
+                        - img [ref=e285]
+                        - link "legacy, (Directory)" [ref=e290] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/tree/main/legacy
+                          - text: legacy
+                    - 'cell "format update: legacy/NostalgiaForInfinityNextGen.py" [ref=e291]':
+                      - 'link "format update: legacy/NostalgiaForInfinityNextGen.py" [ref=e294] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/fbafe570a3ab59c6c33363628315dad546f4e01e
+                    - cell "Nov 18, 20233 years ago" [ref=e295]:
+                      - generic [ref=e296]: Nov 18, 20233 years ago
+                  - row "tests, (Directory) Add merge informative benchmark helper May 16, 20263 days ago" [ref=e297]:
+                    - cell "tests, (Directory)" [ref=e298]:
+                      - generic [ref=e299]:
+                        - img [ref=e300]
+                        - link "tests, (Directory)" [ref=e305] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/tree/main/tests
+                          - text: tests
+                    - cell "Add merge informative benchmark helper" [ref=e306]:
+                      - link "Add merge informative benchmark helper" [ref=e309] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/47927d476f9d43cde1422f1985a0ee950357541f
+                    - cell "May 16, 20263 days ago" [ref=e310]:
+                      - generic [ref=e311]: May 16, 20263 days ago
+                  - row "tools, (Directory) Add merge informative benchmark helper May 16, 20263 days ago" [ref=e312]:
+                    - cell "tools, (Directory)" [ref=e313]:
+                      - generic [ref=e314]:
+                        - img [ref=e315]
+                        - link "tools, (Directory)" [ref=e320] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/tree/main/tools
+                          - text: tools
+                    - cell "Add merge informative benchmark helper" [ref=e321]:
+                      - link "Add merge informative benchmark helper" [ref=e324] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/47927d476f9d43cde1422f1985a0ee950357541f
+                    - cell "May 16, 20263 days ago" [ref=e325]:
+                      - generic [ref=e326]: May 16, 20263 days ago
+                  - 'row "user_data, (Directory) X7: add symlink to strategies dir. Oct 22, 20257 months ago" [ref=e327]':
+                    - cell "user_data, (Directory)" [ref=e328]:
+                      - generic [ref=e329]:
+                        - img [ref=e330]
+                        - link "user_data, (Directory)" [ref=e335] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/tree/main/user_data
+                          - text: user_data
+                    - 'cell "X7: add symlink to strategies dir." [ref=e336]':
+                      - 'link "X7: add symlink to strategies dir." [ref=e339] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/31f05b24514d82381a3e60496f98884062c14bce
+                    - cell "Oct 22, 20257 months ago" [ref=e340]:
+                      - generic [ref=e341]: Oct 22, 20257 months ago
+                  - 'row ".editorconfig, (File) new file: .editorconfig Nov 14, 20233 years ago" [ref=e342]':
+                    - cell ".editorconfig, (File)" [ref=e343]:
+                      - generic [ref=e344]:
+                        - img [ref=e345]
+                        - link ".editorconfig, (File)" [ref=e350] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/.editorconfig
+                          - text: .editorconfig
+                    - 'cell "new file: .editorconfig" [ref=e351]':
+                      - 'link "new file: .editorconfig" [ref=e354] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/22e255dbd7461532846b383c1f6329c615b1d331
+                    - cell "Nov 14, 20233 years ago" [ref=e355]:
+                      - generic [ref=e356]: Nov 14, 20233 years ago
+                  - row ".gitignore, (File) fix .gitignore actions Jan 13, 20264 months ago" [ref=e357]:
+                    - cell ".gitignore, (File)" [ref=e358]:
+                      - generic [ref=e359]:
+                        - img [ref=e360]
+                        - link ".gitignore, (File)" [ref=e365] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell "fix .gitignore actions" [ref=e366]:
+                      - link "fix .gitignore actions" [ref=e369] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/9e7dcf306b87534f8e7abc88db85f53b7e947994
+                    - cell "Jan 13, 20264 months ago" [ref=e370]:
+                      - generic [ref=e371]: Jan 13, 20264 months ago
+                  - 'row ".pre-commit-config.yaml, (File) feat: github pages Aug 3, 202510 months ago" [ref=e372]':
+                    - cell ".pre-commit-config.yaml, (File)" [ref=e373]:
+                      - generic [ref=e374]:
+                        - img [ref=e375]
+                        - link ".pre-commit-config.yaml, (File)" [ref=e380] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/.pre-commit-config.yaml
+                          - text: .pre-commit-config.yaml
+                    - 'cell "feat: github pages" [ref=e381]':
+                      - 'link "feat: github pages" [ref=e384] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/47c978ce111966581b32bd3e72062c67d418b5e7
+                    - cell "Aug 3, 202510 months ago" [ref=e385]:
+                      - generic [ref=e386]: Aug 3, 202510 months ago
+                  - row "LICENSE, (File) Initial commit Jul 15, 20215 years ago" [ref=e387]:
+                    - cell "LICENSE, (File)" [ref=e388]:
+                      - generic [ref=e389]:
+                        - img [ref=e390]
+                        - link "LICENSE, (File)" [ref=e395] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/LICENSE
+                          - text: LICENSE
+                    - cell "Initial commit" [ref=e396]:
+                      - link "Initial commit" [ref=e399] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/7c348527c6db5a5f2fbb43dc460853b5762499c1
+                    - cell "Jul 15, 20215 years ago" [ref=e400]:
+                      - generic [ref=e401]: Jul 15, 20215 years ago
+                  - row "NostalgiaForInfinityX.py, (File) Update the links. May 13, 2026last week" [ref=e402]:
+                    - cell "NostalgiaForInfinityX.py, (File)" [ref=e403]:
+                      - generic [ref=e404]:
+                        - img [ref=e405]
+                        - link "NostalgiaForInfinityX.py, (File)" [ref=e410] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/NostalgiaForInfinityX.py
+                          - text: NostalgiaForInfinityX.py
+                    - cell "Update the links." [ref=e411]:
+                      - link "Update the links." [ref=e414] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/e67e7478fd99a39c7041cddd2ac910b8a46a391c
+                    - cell "May 13, 2026last week" [ref=e415]:
+                      - generic [ref=e416]: May 13, 2026last week
+                  - row "NostalgiaForInfinityX2.py, (File) Update the links. May 13, 2026last week" [ref=e417]:
+                    - cell "NostalgiaForInfinityX2.py, (File)" [ref=e418]:
+                      - generic [ref=e419]:
+                        - img [ref=e420]
+                        - link "NostalgiaForInfinityX2.py, (File)" [ref=e425] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/NostalgiaForInfinityX2.py
+                          - text: NostalgiaForInfinityX2.py
+                    - cell "Update the links." [ref=e426]:
+                      - link "Update the links." [ref=e429] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/e67e7478fd99a39c7041cddd2ac910b8a46a391c
+                    - cell "May 13, 2026last week" [ref=e430]:
+                      - generic [ref=e431]: May 13, 2026last week
+                  - row "NostalgiaForInfinityX3.py, (File) Update the links. May 13, 2026last week" [ref=e432]:
+                    - cell "NostalgiaForInfinityX3.py, (File)" [ref=e433]:
+                      - generic [ref=e434]:
+                        - img [ref=e435]
+                        - link "NostalgiaForInfinityX3.py, (File)" [ref=e440] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/NostalgiaForInfinityX3.py
+                          - text: NostalgiaForInfinityX3.py
+                    - cell "Update the links." [ref=e441]:
+                      - link "Update the links." [ref=e444] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/e67e7478fd99a39c7041cddd2ac910b8a46a391c
+                    - cell "May 13, 2026last week" [ref=e445]:
+                      - generic [ref=e446]: May 13, 2026last week
+                  - row "NostalgiaForInfinityX4.py, (File) Update the links. May 13, 2026last week" [ref=e447]:
+                    - cell "NostalgiaForInfinityX4.py, (File)" [ref=e448]:
+                      - generic [ref=e449]:
+                        - img [ref=e450]
+                        - link "NostalgiaForInfinityX4.py, (File)" [ref=e455] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/NostalgiaForInfinityX4.py
+                          - text: NostalgiaForInfinityX4.py
+                    - cell "Update the links." [ref=e456]:
+                      - link "Update the links." [ref=e459] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/e67e7478fd99a39c7041cddd2ac910b8a46a391c
+                    - cell "May 13, 2026last week" [ref=e460]:
+                      - generic [ref=e461]: May 13, 2026last week
+                  - row "NostalgiaForInfinityX5.py, (File) Update the links. May 13, 2026last week" [ref=e462]:
+                    - cell "NostalgiaForInfinityX5.py, (File)" [ref=e463]:
+                      - generic [ref=e464]:
+                        - img [ref=e465]
+                        - link "NostalgiaForInfinityX5.py, (File)" [ref=e470] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/NostalgiaForInfinityX5.py
+                          - text: NostalgiaForInfinityX5.py
+                    - cell "Update the links." [ref=e471]:
+                      - link "Update the links." [ref=e474] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/e67e7478fd99a39c7041cddd2ac910b8a46a391c
+                    - cell "May 13, 2026last week" [ref=e475]:
+                      - generic [ref=e476]: May 13, 2026last week
+                  - 'row "NostalgiaForInfinityX6.py, (File) X6: signal 103: add protection. May 19, 202611 hours ago" [ref=e477]':
+                    - cell "NostalgiaForInfinityX6.py, (File)" [ref=e478]:
+                      - generic [ref=e479]:
+                        - img [ref=e480]
+                        - link "NostalgiaForInfinityX6.py, (File)" [ref=e485] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/NostalgiaForInfinityX6.py
+                          - text: NostalgiaForInfinityX6.py
+                    - 'cell "X6: signal 103: add protection." [ref=e486]':
+                      - 'link "X6: signal 103: add protection." [ref=e489] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/24edba939b8d6fc68a283b1a65615fa7b2d58093
+                    - cell "May 19, 202611 hours ago" [ref=e490]:
+                      - generic [ref=e491]: May 19, 202611 hours ago
+                  - 'row "NostalgiaForInfinityX7.py, (File) X7: system_v3_2: fine tune the grind entries. May 19, 20265 hours ago" [ref=e492]':
+                    - cell "NostalgiaForInfinityX7.py, (File)" [ref=e493]:
+                      - generic [ref=e494]:
+                        - img [ref=e495]
+                        - link "NostalgiaForInfinityX7.py, (File)" [ref=e500] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/NostalgiaForInfinityX7.py
+                          - text: NostalgiaForInfinityX7.py
+                    - 'cell "X7: system_v3_2: fine tune the grind entries." [ref=e501]':
+                      - 'link "X7: system_v3_2: fine tune the grind entries." [ref=e504] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/bad4238acffc9d7e2118a9d970ebd24904b7986e
+                    - cell "May 19, 20265 hours ago" [ref=e505]:
+                      - generic [ref=e506]: May 19, 20265 hours ago
+                  - row "README.md, (File) Update the links. May 13, 2026last week" [ref=e507]:
+                    - cell "README.md, (File)" [ref=e508]:
+                      - generic [ref=e509]:
+                        - img [ref=e510]
+                        - link "README.md, (File)" [ref=e515] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/README.md
+                          - text: README.md
+                    - cell "Update the links." [ref=e516]:
+                      - link "Update the links." [ref=e519] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/e67e7478fd99a39c7041cddd2ac910b8a46a391c
+                    - cell "May 13, 2026last week" [ref=e520]:
+                      - generic [ref=e521]: May 13, 2026last week
+                  - row "docker-compose.tests.yml, (File) backtest default X7 strategy. Oct 22, 20257 months ago" [ref=e522]:
+                    - cell "docker-compose.tests.yml, (File)" [ref=e523]:
+                      - generic [ref=e524]:
+                        - img [ref=e525]
+                        - link "docker-compose.tests.yml, (File)" [ref=e530] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/docker-compose.tests.yml
+                          - text: docker-compose.tests.yml
+                    - cell "backtest default X7 strategy." [ref=e531]:
+                      - link "backtest default X7 strategy." [ref=e534] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/73ce26857330f96c49fae36f587c5f2223575fef
+                    - cell "Oct 22, 20257 months ago" [ref=e535]:
+                      - generic [ref=e536]: Oct 22, 20257 months ago
+                  - 'row "docker-compose.yml, (File) Docker compose: quick fix. Apr 11, 2026last month" [ref=e537]':
+                    - cell "docker-compose.yml, (File)" [ref=e538]:
+                      - generic [ref=e539]:
+                        - img [ref=e540]
+                        - link "docker-compose.yml, (File)" [ref=e545] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/docker-compose.yml
+                          - text: docker-compose.yml
+                    - 'cell "Docker compose: quick fix." [ref=e546]':
+                      - 'link "Docker compose: quick fix." [ref=e549] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/4e0559b3cfbc78e50b040d34f9388e46cfbff9e2
+                    - cell "Apr 11, 2026last month" [ref=e550]:
+                      - generic [ref=e551]: Apr 11, 2026last month
+                  - row "live-account-example.env, (File) backtest default X7 strategy. Oct 22, 20257 months ago" [ref=e552]:
+                    - cell "live-account-example.env, (File)" [ref=e553]:
+                      - generic [ref=e554]:
+                        - img [ref=e555]
+                        - link "live-account-example.env, (File)" [ref=e560] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/live-account-example.env
+                          - text: live-account-example.env
+                    - cell "backtest default X7 strategy." [ref=e561]:
+                      - link "backtest default X7 strategy." [ref=e564] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/73ce26857330f96c49fae36f587c5f2223575fef
+                    - cell "Oct 22, 20257 months ago" [ref=e565]:
+                      - generic [ref=e566]: Oct 22, 20257 months ago
+                  - row "manual-testing.env, (File) Updated documentation Oct 23, 20257 months ago" [ref=e567]:
+                    - cell "manual-testing.env, (File)" [ref=e568]:
+                      - generic [ref=e569]:
+                        - img [ref=e570]
+                        - link "manual-testing.env, (File)" [ref=e575] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/manual-testing.env
+                          - text: manual-testing.env
+                    - cell "Updated documentation" [ref=e576]:
+                      - link "Updated documentation" [ref=e579] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/0dc7ca6c0218ca991677d1d9f2e7812d65bac13b
+                    - cell "Oct 23, 20257 months ago" [ref=e580]:
+                      - generic [ref=e581]: Oct 23, 20257 months ago
+                  - row "mkdocs.yml, (File) Update the docs. Apr 5, 2026last month" [ref=e582]:
+                    - cell "mkdocs.yml, (File)" [ref=e583]:
+                      - generic [ref=e584]:
+                        - img [ref=e585]
+                        - link "mkdocs.yml, (File)" [ref=e590] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/mkdocs.yml
+                          - text: mkdocs.yml
+                    - cell "Update the docs." [ref=e591]:
+                      - link "Update the docs." [ref=e594] [cursor=pointer]:
+                        - /url: /iterativv/NostalgiaForInfinity/commit/76e9259f14fd5700a093c8ae99e8cc17301ebc41
+                    - cell "Apr 5, 2026last month" [ref=e595]:
+                      - generic [ref=e596]: Apr 5, 2026last month
+                  - 'row "pyproject.toml, (File) formatting: pyproject.toml Dec 10, 20242 years ago" [ref=e597]':
+                    - cell "pyproject.toml, (File)" [ref=e598]:
+                      - generic [ref=e599]:
+                        - img [ref=e600]
+                        - link "pyproject.toml, (File)" [ref=e605] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/pyproject.toml
+                          - text: pyproject.toml
+                    - 'cell "formatting: pyproject.toml" [ref=e606]':
+                      - 'link "formatting: pyproject.toml" [ref=e609] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/5370d503c5767c3e51c074321dadc081d8a95c9a
+                    - cell "Dec 10, 20242 years ago" [ref=e610]:
+                      - generic [ref=e611]: Dec 10, 20242 years ago
+                  - 'row "pytest.ini, (File) modified: pytest.ini Aug 4, 20242 years ago" [ref=e612]':
+                    - cell "pytest.ini, (File)" [ref=e613]:
+                      - generic [ref=e614]:
+                        - img [ref=e615]
+                        - link "pytest.ini, (File)" [ref=e620] [cursor=pointer]:
+                          - /url: /iterativv/NostalgiaForInfinity/blob/main/pytest.ini
+                          - text: pytest.ini
+                    - 'cell "modified: pytest.ini" [ref=e621]':
+                      - 'link "modified: pytest.ini" [ref=e624] [cursor=pointer]':
+                        - /url: /iterativv/NostalgiaForInfinity/commit/739d11de9cbd2674859775c99498948d9425b327
+                    - cell "Aug 4, 20242 years ago" [ref=e625]:
+                      - generic [ref=e626]: Aug 4, 20242 years ago
+            - generic [ref=e628]:
+              - generic [ref=e629]:
+                - heading "Repository files navigation" [level=2] [ref=e630]
+                - navigation "Repository files" [ref=e631]:
+                  - list [ref=e632]:
+                    - listitem [ref=e633]:
+                      - link "README" [ref=e634] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e636]
+                        - generic [ref=e638]: README
+                    - listitem [ref=e639]:
+                      - link "GPL-3.0 license" [ref=e640] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e642]
+                        - generic [ref=e644]: GPL-3.0 license
+                - button "Outline" [ref=e645] [cursor=pointer]:
+                  - img [ref=e646]
+              - article [ref=e649]:
+                - generic [ref=e650]:
+                  - heading "NostalgiaForInfinity" [level=1] [ref=e651]
+                  - 'link "Permalink: NostalgiaForInfinity" [ref=e652] [cursor=pointer]':
+                    - /url: "#nostalgiaforinfinity"
+                    - img [ref=e653]
+                - paragraph [ref=e655]:
+                  - link "GitHub Pages" [ref=e656] [cursor=pointer]:
+                    - /url: https://iterativv.github.io/NostalgiaForInfinity/
+                    - img "GitHub Pages" [ref=e657]
+                - generic [ref=e658]:
+                  - heading "📖 Documentation" [level=2] [ref=e659]
+                  - 'link "Permalink: 📖 Documentation" [ref=e660] [cursor=pointer]':
+                    - /url: "#-documentation"
+                    - img [ref=e661]
+                - paragraph [ref=e663]:
+                  - text: "Full documentation is available online at:"
+                  - text: 👉
+                  - link "https://iterativv.github.io/NostalgiaForInfinity/" [ref=e664] [cursor=pointer]:
+                    - /url: https://iterativv.github.io/NostalgiaForInfinity/
+                - generic [ref=e665]:
+                  - heading "Introduction" [level=2] [ref=e666]
+                  - 'link "Permalink: Introduction" [ref=e667] [cursor=pointer]':
+                    - /url: "#introduction"
+                    - img [ref=e668]
+                - paragraph [ref=e670]:
+                  - text: Trading strategy for the
+                  - link "Freqtrade" [ref=e671] [cursor=pointer]:
+                    - /url: https://www.freqtrade.io
+                  - text: crypto bot. For backtesting results, check out the comments in the individual
+                  - link "commit" [ref=e672] [cursor=pointer]:
+                    - /url: https://github.com/iterativv/NostalgiaForInfinity/commits/main
+                  - text: page.
+                - generic [ref=e673]:
+                  - heading "General Recommendations" [level=2] [ref=e674]
+                  - 'link "Permalink: General Recommendations" [ref=e675] [cursor=pointer]':
+                    - /url: "#general-recommendations"
+                    - img [ref=e676]
+                - paragraph [ref=e678]: For optimal performance, suggested to use between 6 and 12 open trades, with unlimited stake.
+                - paragraph [ref=e679]: A pairlist with 40 to 80 pairs. Volume pairlist works well.
+                - paragraph [ref=e680]: Prefer stable coin (USDT, USDC etc) pairs, instead of BTC or ETH pairs.
+                - paragraph [ref=e681]: Highly recommended to blacklist leveraged tokens (*BULL, *BEAR, *UP, *DOWN etc).
+                - paragraph [ref=e682]: Ensure that you don't override any variables in you config.json. Especially the timeframe (must be 5m).
+                - list [ref=e683]:
+                  - listitem [ref=e684]:
+                    - code [ref=e685]: use_exit_signal
+                    - text: must set to true (or not set at all).
+                  - listitem [ref=e686]:
+                    - code [ref=e687]: exit_profit_only
+                    - text: must set to false (or not set at all).
+                  - listitem [ref=e688]:
+                    - code [ref=e689]: ignore_roi_if_entry_signal
+                    - text: must set to true (or not set at all).
+                - generic [ref=e690]:
+                  - heading "Automatic Updates (Docker)" [level=2] [ref=e691]
+                  - 'link "Permalink: Automatic Updates (Docker)" [ref=e692] [cursor=pointer]':
+                    - /url: "#automatic-updates-docker"
+                    - img [ref=e693]
+                - paragraph [ref=e695]:
+                  - text: The repository includes an
+                  - code [ref=e696]: nfi-updater
+                  - text: sidecar service for Docker Compose users that keeps the strategy, blacklist, and pairlist automatically up to date without manual intervention.
+                - paragraph [ref=e697]:
+                  - strong [ref=e698]: "What it does:"
+                - list [ref=e699]:
+                  - listitem [ref=e700]: "Checks the strategy file, blacklist, and pairlist against the latest version on GitHub on a configurable schedule (default: every day at 10:00 AM in your timezone)"
+                  - listitem [ref=e701]: Watches the blacklist file via HTTP ETag every 60 seconds and applies critical updates immediately
+                  - listitem [ref=e702]: Automatically restarts the freqtrade container only when a file actually changed
+                - paragraph [ref=e703]:
+                  - strong [ref=e704]: "How to enable it:"
+                - paragraph [ref=e705]:
+                  - text: The
+                  - code [ref=e706]: nfi-updater
+                  - text: service is already defined in
+                  - code [ref=e707]: docker-compose.yml
+                  - text: ". It starts alongside freqtrade automatically when you run:"
+                - generic [ref=e708]:
+                  - generic [ref=e709]: docker compose up -d --build
+                  - button "Copy code to clipboard" [ref=e711] [cursor=pointer]:
+                    - img [ref=e712]
+                - paragraph [ref=e715]:
+                  - strong [ref=e716]:
+                    - text: Configuration (add to your
+                    - code [ref=e717]: .env
+                    - text: "):"
+                - generic [ref=e718]:
+                  - generic [ref=e719]:
+                    - generic [ref=e720]: "# Timezone for the cron schedule"
+                    - text: TZ=Europe/London
+                    - generic [ref=e721]: "# How often to check for updates (cron syntax, default: daily at 10:00 AM)"
+                    - text: NFI_UPDATE_CRON=0 10 * * *
+                    - generic [ref=e722]: "# Docker Compose project name — must match what 'docker compose ls' shows"
+                    - generic [ref=e723]: "# Docker uses the lowercase folder name by default"
+                    - text: COMPOSE_PROJECT_NAME=nostalgiaforinfinity
+                  - button "Copy code to clipboard" [ref=e725] [cursor=pointer]:
+                    - img [ref=e726]
+                - paragraph [ref=e729]:
+                  - strong [ref=e730]: "View updater logs:"
+                - generic [ref=e731]:
+                  - generic [ref=e732]: docker compose logs -f nfi-updater
+                  - button "Copy code to clipboard" [ref=e734] [cursor=pointer]:
+                    - img [ref=e735]
+                - generic [ref=e738]:
+                  - heading "Discord Link" [level=2] [ref=e739]
+                  - 'link "Permalink: Discord Link" [ref=e740] [cursor=pointer]':
+                    - /url: "#discord-link"
+                    - img [ref=e741]
+                - paragraph [ref=e743]: This is where we chat, hangout and contribute as a community (both links is the same server)
+                - list [ref=e744]:
+                  - listitem [ref=e745]:
+                    - link "Discord Invite 1" [ref=e746] [cursor=pointer]:
+                      - /url: https://discord.gg/DeAmv3btxQ
+                  - listitem [ref=e747]:
+                    - link "Discord Invite 2" [ref=e748] [cursor=pointer]:
+                      - /url: https://discord.gg/nzVeNvZsQq
+                - generic [ref=e749]:
+                  - heading "Referral Links" [level=2] [ref=e750]
+                  - 'link "Permalink: Referral Links" [ref=e751] [cursor=pointer]':
+                    - /url: "#referral-links"
+                    - img [ref=e752]
+                - paragraph [ref=e754]: "If you like to help, you can also use the following links to sign up to various exchanges:"
+                - list [ref=e755]:
+                  - listitem [ref=e756]:
+                    - 'link "Binance: (20% discount on trading fees)" [ref=e757] [cursor=pointer]':
+                      - /url: https://www.binance.com/join?ref=C68K26A9
+                  - listitem [ref=e758]:
+                    - 'link "Kucoin: (20% lifetime discount on trading fees)" [ref=e759] [cursor=pointer]':
+                      - /url: https://www.kucoin.com/r/af/QBSSS5J2
+                  - listitem [ref=e760]:
+                    - 'link "Gate: (20% lifetime discount on trading fees)" [ref=e761] [cursor=pointer]':
+                      - /url: https://www.gate.io/share/nfinfinity
+                  - listitem [ref=e762]:
+                    - 'link "OKX: (20% discount on trading fees)" [ref=e763] [cursor=pointer]':
+                      - /url: https://www.okx.com/join/11749725931
+                  - listitem [ref=e764]:
+                    - 'link "MEXC: (10% discount on trading fees)" [ref=e765] [cursor=pointer]':
+                      - /url: https://promote.mexc.com/b/nfinfinity
+                  - listitem [ref=e766]:
+                    - 'link "ByBit: (signup bonuses)" [ref=e767] [cursor=pointer]':
+                      - /url: https://partner.bybit.com/b/nfi
+                  - listitem [ref=e768]:
+                    - 'link "Bitget: (lifetime 20% rebate all plus 10% discount on spot fees)" [ref=e769] [cursor=pointer]':
+                      - /url: https://bonus.bitget.com/nfinfinity
+                  - listitem [ref=e770]:
+                    - link "Kraken:" [ref=e771] [cursor=pointer]:
+                      - /url: https://proinvite.kraken.com/9f1e/cctimhte
+                  - listitem [ref=e772]:
+                    - 'link "BitMart: (20% lifetime discount on trading fees)" [ref=e773] [cursor=pointer]':
+                      - /url: https://www.bitmart.com/invite/nfinfinity
+                  - listitem [ref=e774]:
+                    - 'link "HTX: (Welcome Bonus worth 241 USDT upon completion of a deposit and trade)" [ref=e775] [cursor=pointer]':
+                      - /url: https://www.htx.com/invite/en-us/1f?invite_code=ubpt2223
+                  - listitem [ref=e776]:
+                    - 'link "ByBit: (no fees for the first € 10000)" [ref=e777] [cursor=pointer]':
+                      - /url: https://bitvavo.com/invite?a=D22103A4BC
+                - generic [ref=e778]:
+                  - heading "Donations" [level=2] [ref=e779]
+                  - 'link "Permalink: Donations" [ref=e780] [cursor=pointer]':
+                    - /url: "#donations"
+                    - img [ref=e781]
+                - paragraph [ref=e783]: Absolutely not required. However, will be accepted as a token of appreciation.
+                - list [ref=e784]:
+                  - listitem [ref=e785]:
+                    - paragraph [ref=e786]:
+                      - text: "BTC:"
+                      - code [ref=e787]: bc1qvflsvddkmxh7eqhc4jyu5z5k6xcw3ay8jl49sk
+                  - listitem [ref=e788]:
+                    - paragraph [ref=e789]:
+                      - text: "ETH (ERC20):"
+                      - code [ref=e790]: "0x83D3cFb8001BDC5d2211cBeBB8cB3461E5f7Ec91"
+                  - listitem [ref=e791]:
+                    - paragraph [ref=e792]:
+                      - text: "BEP20/BSC (USDT, ETH, BNB, ...):"
+                      - code [ref=e793]: "0x86A0B21a20b39d16424B7c8003E4A7e12d78ABEe"
+                  - listitem [ref=e794]:
+                    - paragraph [ref=e795]:
+                      - text: "TRC20/TRON (USDT, TRON, ...):"
+                      - code [ref=e796]: TTAa9MX6zMLXNgWMhg7tkNormVHWCoq8Xk
+                  - listitem [ref=e797]:
+                    - paragraph [ref=e798]:
+                      - text: "Patreon :"
+                      - link "https://www.patreon.com/iterativ" [ref=e799] [cursor=pointer]:
+                        - /url: https://www.patreon.com/iterativ
+        - generic [ref=e803]:
+          - generic [ref=e806]:
+            - heading "About" [level=2] [ref=e807]
+            - paragraph [ref=e808]: Trading strategy for the Freqtrade crypto bot
+            - heading "Resources" [level=3] [ref=e809]
+            - link "Readme" [ref=e811] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e812]
+              - text: Readme
+            - heading "License" [level=3] [ref=e814]
+            - link "GPL-3.0 license" [ref=e816] [cursor=pointer]:
+              - /url: "#GPL-3.0-1-ov-file"
+              - img [ref=e817]
+              - text: GPL-3.0 license
+            - link "Activity" [ref=e820] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/activity
+              - img [ref=e821]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e823]
+            - link "3.2k stars" [ref=e825] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/stargazers
+              - img [ref=e826]
+              - strong [ref=e828]: 3.2k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e829]
+            - link "92 watching" [ref=e831] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/watchers
+              - img [ref=e832]
+              - strong [ref=e834]: "92"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e835]
+            - link "721 forks" [ref=e837] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/forks
+              - img [ref=e838]
+              - strong [ref=e840]: "721"
+              - text: forks
+            - link "Report repository" [ref=e842] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fiterativv%2FNostalgiaForInfinity&report=iterativv+%28user%29
+          - generic [ref=e844]:
+            - heading "Releases 516" [level=2] [ref=e845]:
+              - link "Releases 516" [ref=e846] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity/releases
+                - text: Releases
+                - generic "516" [ref=e847]
+            - link "v17.4.37 Latest Apr 28, 20263 weeks ago" [ref=e848] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/releases/tag/v17.4.37
+              - img [ref=e849]
+              - generic [ref=e851]:
+                - generic [ref=e852]:
+                  - generic [ref=e853]: v17.4.37
+                  - 'generic "Label: Latest" [ref=e854]': Latest
+                - generic [ref=e855]: Apr 28, 20263 weeks ago
+            - link "+ 515 releases" [ref=e857] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/releases
+          - generic [ref=e859]:
+            - heading "Packages 2" [level=2] [ref=e860]:
+              - link "Packages 2" [ref=e861] [cursor=pointer]:
+                - /url: /users/iterativv/packages?repo_name=NostalgiaForInfinity
+                - text: Packages
+                - generic "2" [ref=e862]
+            - list [ref=e863]:
+              - listitem [ref=e864]:
+                - img [ref=e866]
+                - link "ci-strategy-backtesting" [ref=e868] [cursor=pointer]:
+                  - /url: /users/iterativv/packages/container/package/ci-strategy-backtesting
+              - listitem [ref=e869]:
+                - img [ref=e871]
+                - link "market-data" [ref=e873] [cursor=pointer]:
+                  - /url: /users/iterativv/packages/container/package/market-data
+          - generic [ref=e875]:
+            - heading "Contributors 86" [level=2] [ref=e876]:
+              - link "Contributors 86" [ref=e877] [cursor=pointer]:
+                - /url: /iterativv/NostalgiaForInfinity/graphs/contributors
+                - text: Contributors
+                - generic "86" [ref=e878]
+            - list [ref=e879]:
+              - listitem [ref=e880]:
+                - link "@iterativv" [ref=e881] [cursor=pointer]:
+                  - /url: https://github.com/iterativv
+                  - img "@iterativv" [ref=e882]
+              - listitem [ref=e883]:
+                - link "@tolgakaratas" [ref=e884] [cursor=pointer]:
+                  - /url: https://github.com/tolgakaratas
+                  - img "@tolgakaratas" [ref=e885]
+              - listitem [ref=e886]:
+                - link "@eSeR1805" [ref=e887] [cursor=pointer]:
+                  - /url: https://github.com/eSeR1805
+                  - img "@eSeR1805" [ref=e888]
+              - listitem [ref=e889]:
+                - link "@pimpmyname2" [ref=e890] [cursor=pointer]:
+                  - /url: https://github.com/pimpmyname2
+                  - img "@pimpmyname2" [ref=e891]
+              - listitem [ref=e892]:
+                - link "@Mandark-droid" [ref=e893] [cursor=pointer]:
+                  - /url: https://github.com/Mandark-droid
+                  - img "@Mandark-droid" [ref=e894]
+              - listitem [ref=e895]:
+                - link "@s0undt3ch" [ref=e896] [cursor=pointer]:
+                  - /url: https://github.com/s0undt3ch
+                  - img "@s0undt3ch" [ref=e897]
+              - listitem [ref=e898]:
+                - link "@BillGatesIII" [ref=e899] [cursor=pointer]:
+                  - /url: https://github.com/BillGatesIII
+                  - img "@BillGatesIII" [ref=e900]
+              - listitem [ref=e901]:
+                - link "@anasyusef" [ref=e902] [cursor=pointer]:
+                  - /url: https://github.com/anasyusef
+                  - img "@anasyusef" [ref=e903]
+              - listitem [ref=e904]:
+                - link "@Rodvask" [ref=e905] [cursor=pointer]:
+                  - /url: https://github.com/Rodvask
+                  - img "@Rodvask" [ref=e906]
+              - listitem [ref=e907]:
+                - link "@jerome-benoit" [ref=e908] [cursor=pointer]:
+                  - /url: https://github.com/jerome-benoit
+                  - img "@jerome-benoit" [ref=e909]
+              - listitem [ref=e910]:
+                - link "@Canx" [ref=e911] [cursor=pointer]:
+                  - /url: https://github.com/Canx
+                  - img "@Canx" [ref=e912]
+              - listitem [ref=e913]:
+                - link "@erickmarx" [ref=e914] [cursor=pointer]:
+                  - /url: https://github.com/erickmarx
+                  - img "@erickmarx" [ref=e915]
+              - listitem [ref=e916]:
+                - link "@kevinjulian" [ref=e917] [cursor=pointer]:
+                  - /url: https://github.com/kevinjulian
+                  - img "@kevinjulian" [ref=e918]
+            - link "+ 72 contributors" [ref=e920] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/graphs/contributors
+          - generic [ref=e922]:
+            - heading "Languages" [level=2] [ref=e923]
+            - list [ref=e928]:
+              - listitem [ref=e929]:
+                - link "Python 99.1%" [ref=e930] [cursor=pointer]:
+                  - /url: /iterativv/NostalgiaForInfinity/search?l=python
+                  - img [ref=e931]
+                  - generic [ref=e933]: Python
+                  - generic [ref=e934]: 99.1%
+              - listitem [ref=e935]:
+                - link "Shell 0.9%" [ref=e936] [cursor=pointer]:
+                  - /url: /iterativv/NostalgiaForInfinity/search?l=shell
+                  - img [ref=e937]
+                  - generic [ref=e939]: Shell
+                  - generic [ref=e940]: 0.9%
+  - contentinfo [ref=e942]:
+    - heading "Footer" [level=2] [ref=e943]
+    - generic [ref=e944]:
+      - generic [ref=e945]:
+        - link "GitHub Homepage" [ref=e946] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e947]
+        - generic [ref=e949]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e950]:
+        - heading "Footer navigation" [level=3] [ref=e951]
+        - list "Footer navigation" [ref=e952]:
+          - listitem [ref=e953]:
+            - link "Terms" [ref=e954] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e955]:
+            - link "Privacy" [ref=e956] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e957]:
+            - link "Security" [ref=e958] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e959]:
+            - link "Status" [ref=e960] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e961]:
+            - link "Community" [ref=e962] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e963]:
+            - link "Docs" [ref=e964] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e965]:
+            - link "Contact" [ref=e966] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e967]:
+            - button "Manage cookies" [ref=e969] [cursor=pointer]
+          - listitem [ref=e970]:
+            - button "Do not share my personal information" [ref=e972] [cursor=pointer]

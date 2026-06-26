@@ -1,0 +1,3 @@
+[     562ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://scholar.google.com/scholar?q=partial+take+profit+optimal+ratio+crypto+trading+DCA+exit:0
+[     582ms] ReferenceError: solveSimpleChallenge is not defined
+    at onload (https://scholar.google.com/scholar?q=partial+take+profit+optimal+ratio+crypto+trading+DCA+exit:4:316)

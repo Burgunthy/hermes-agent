@@ -1,0 +1,600 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3D%2522IROS%2B2026%2522%2B%2522grand%2Bchallenge%2522%2BOR%2B%2522bitrobot%2522%2BOR%2B%2522earth%2Brover%2522%26type%3Drepositories
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fsearch&source=header
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e61]:
+    - generic [ref=e64]:
+      - heading "repositories Search Results · \"IROS 2026\" \"grand challenge\" OR \"bitrobot\" OR \"earth rover\"" [level=1] [ref=e65]
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - region "Filter by" [ref=e70]:
+            - heading "Filter by" [level=2] [ref=e71]
+            - list "Filter by" [ref=e76]:
+              - listitem [ref=e77]:
+                - list [ref=e78]:
+                  - listitem [ref=e79]:
+                    - link "Code (...) results" [ref=e80] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22&type=code
+                      - generic:
+                        - img
+                      - generic [ref=e81]:
+                        - generic [ref=e82]: Code
+                        - generic:
+                          - generic: ...
+                          - generic: (...)
+                          - generic: results
+                  - listitem [ref=e83]:
+                    - link "Repositories (46) results" [ref=e84] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22&type=repositories
+                      - generic:
+                        - img
+                      - generic [ref=e85]:
+                        - generic [ref=e86]: Repositories
+                        - generic:
+                          - generic: "46"
+                          - generic: (46)
+                          - generic: results
+                  - listitem [ref=e87]:
+                    - link "Issues (6k) results" [ref=e88] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22&type=issues
+                      - generic:
+                        - img
+                      - generic [ref=e89]:
+                        - generic [ref=e90]: Issues
+                        - generic:
+                          - generic: 6k
+                          - generic: (6k)
+                          - generic: results
+                  - listitem [ref=e91]:
+                    - link "Pull requests (13k) results" [ref=e92] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22&type=pullrequests
+                      - generic:
+                        - img
+                      - generic [ref=e93]:
+                        - generic [ref=e94]: Pull requests
+                        - generic:
+                          - generic: 13k
+                          - generic: (13k)
+                          - generic: results
+                  - listitem [ref=e95]:
+                    - link "Discussions (1) results" [ref=e96] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22&type=discussions
+                      - generic:
+                        - img
+                      - generic [ref=e97]:
+                        - generic [ref=e98]: Discussions
+                        - generic:
+                          - generic: "1"
+                          - generic: (1)
+                          - generic: results
+                  - listitem [ref=e99]:
+                    - link "Users (1) results" [ref=e100] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22&type=users
+                      - generic:
+                        - img
+                      - generic [ref=e101]:
+                        - generic [ref=e102]: Users
+                        - generic:
+                          - generic: "1"
+                          - generic: (1)
+                          - generic: results
+                  - listitem [ref=e103]:
+                    - button "More" [ref=e104] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e106]: More
+              - listitem [ref=e107]
+              - listitem [ref=e108]:
+                - heading "Languages" [level=3] [ref=e110]
+                - list "Languages" [ref=e111]:
+                  - listitem [ref=e112]:
+                    - link "HTML" [ref=e113] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22+language%3AHTML&type=repositories
+                      - generic "HTML" [ref=e117]
+                  - listitem [ref=e118]:
+                    - link "Python" [ref=e119] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22+language%3APython&type=repositories
+                      - generic "Python" [ref=e123]
+                  - listitem [ref=e124]:
+                    - link "SCSS" [ref=e125] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22+language%3ASCSS&type=repositories
+                      - generic "SCSS" [ref=e129]
+                  - listitem [ref=e130]:
+                    - link "C++" [ref=e131] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22+language%3AC%2B%2B&type=repositories
+                      - generic "C++" [ref=e135]
+                  - listitem [ref=e136]:
+                    - link "MATLAB" [ref=e137] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22+language%3AMATLAB&type=repositories
+                      - generic "MATLAB" [ref=e141]
+                  - listitem [ref=e142]:
+                    - link "CSS" [ref=e143] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22+language%3ACSS&type=repositories
+                      - generic "CSS" [ref=e147]
+                  - listitem [ref=e148]:
+                    - link "JavaScript" [ref=e149] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22+language%3AJavaScript&type=repositories
+                      - generic "JavaScript" [ref=e153]
+                  - listitem [ref=e154]:
+                    - link "Jupyter Notebook" [ref=e155] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22+language%3AJupyter+Notebook&type=repositories
+                      - generic "Jupyter Notebook" [ref=e159]
+                  - listitem [ref=e160]:
+                    - link "Rust" [ref=e161] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22+language%3ARust&type=repositories
+                      - generic "Rust" [ref=e165]
+                  - listitem [ref=e166]:
+                    - link "TeX" [ref=e167] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22+language%3ATeX&type=repositories
+                      - generic "TeX" [ref=e171]
+                  - listitem [ref=e172]:
+                    - button "More languages..." [ref=e173] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "More languages..." [ref=e176]
+                  - listitem [ref=e177]
+              - listitem [ref=e178]:
+                - heading "Advanced" [level=3] [ref=e180]
+                - list "Advanced" [ref=e181]:
+                  - listitem [ref=e182]:
+                    - button "Owner" [ref=e183] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Owner" [ref=e187]
+                  - listitem [ref=e188]:
+                    - button "Size" [ref=e189] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Size" [ref=e193]
+                  - listitem [ref=e194]:
+                    - button "Number of followers" [ref=e195] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of followers" [ref=e199]
+                  - listitem [ref=e200]:
+                    - button "Number of forks" [ref=e201] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of forks" [ref=e205]
+                  - listitem [ref=e206]:
+                    - button "Number of stars" [ref=e207] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of stars" [ref=e211]
+                  - listitem [ref=e212]:
+                    - button "Date created" [ref=e213] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Date created" [ref=e217]
+                  - listitem [ref=e218]:
+                    - button "Date pushed" [ref=e219] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Date pushed" [ref=e223]
+                  - listitem [ref=e224]:
+                    - button "Topic" [ref=e225] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Topic" [ref=e229]
+                  - listitem [ref=e230]:
+                    - button "License" [ref=e231] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "License" [ref=e235]
+                  - listitem [ref=e236]:
+                    - button "Archived" [ref=e237] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Archived" [ref=e241]
+                  - listitem [ref=e242]:
+                    - link "Public" [ref=e243] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22+is%3Apublic&type=repositories
+                      - generic:
+                        - img
+                      - generic "Public" [ref=e247]
+                  - listitem [ref=e248]:
+                    - link "Private" [ref=e249] [cursor=pointer]:
+                      - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22+is%3Aprivate&type=repositories
+                      - generic:
+                        - img
+                      - generic "Private" [ref=e253]
+              - listitem [ref=e254]
+              - listitem [ref=e255]:
+                - link "Advanced search" [ref=e256] [cursor=pointer]:
+                  - /url: /search/advanced
+                  - generic:
+                    - img
+                  - generic [ref=e258]: Advanced search
+          - slider "Draggable pane splitter" [ref=e260]
+        - generic [ref=e263]:
+          - generic [ref=e264]:
+            - generic [ref=e266]:
+              - generic [ref=e267]:
+                - generic [ref=e268]:
+                  - generic [ref=e269]: 46 results
+                  - generic [ref=e270]: (267 ms)
+                - heading "46 results" [active] [level=2] [ref=e271]
+              - generic [ref=e272]:
+                - 'button "Sort by: Best match" [ref=e274] [cursor=pointer]':
+                  - generic [ref=e276]: "Sort by: Best match"
+                  - generic:
+                    - img
+                - button "Open column options" [ref=e278] [cursor=pointer]:
+                  - img [ref=e279]
+            - generic [ref=e283]:
+              - generic [ref=e285]:
+                - generic [ref=e286]:
+                  - heading "lrse/pdrl-aslam" [level=3] [ref=e287]:
+                    - link "lrse/pdrl-aslam" [ref=e291] [cursor=pointer]:
+                      - /url: /lrse/pdrl-aslam
+                  - generic [ref=e293]:
+                    - text: Massive Parallel Deep Reinforcement Learning for Active SLAM -
+                    - emphasis [ref=e294]: IROS
+                    - emphasis [ref=e295]: "2026"
+                    - text: submission.
+                  - link "active-slam" [ref=e298] [cursor=pointer]:
+                    - /url: /topics/active-slam
+                  - list [ref=e299]:
+                    - listitem [ref=e300]:
+                      - generic "Python language" [ref=e303]: Python
+                    - generic [ref=e304]: ·
+                    - listitem [ref=e305]:
+                      - link "3 stars" [ref=e306] [cursor=pointer]:
+                        - /url: /lrse/pdrl-aslam/stargazers
+                        - img [ref=e307]
+                        - generic [ref=e309]: "3"
+                    - generic [ref=e310]: ·
+                    - listitem [ref=e311]:
+                      - generic [ref=e312]:
+                        - text: Updated
+                        - generic "Mar 20, 2026, 10:45 PM GMT+9" [ref=e313]: on Mar 20
+                - link "Star" [ref=e316] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3D%2522IROS%2B2026%2522%2B%2522grand%2Bchallenge%2522%2BOR%2B%2522bitrobot%2522%2BOR%2B%2522earth%2Brover%2522%26type%3Drepositories
+                  - generic [ref=e317]:
+                    - generic:
+                      - img
+                    - generic [ref=e318]: Star
+              - generic [ref=e320]:
+                - generic [ref=e321]:
+                  - heading "lcx15228727985-jpg/dataset_platform" [level=3] [ref=e322]:
+                    - link "lcx15228727985-jpg/dataset_platform" [ref=e326] [cursor=pointer]:
+                      - /url: /lcx15228727985-jpg/dataset_platform
+                  - generic [ref=e328]:
+                    - emphasis [ref=e329]: iros
+                    - emphasis [ref=e330]: "2026"
+                    - text: datasetplatform
+                  - list [ref=e331]:
+                    - listitem [ref=e332]:
+                      - generic "Python language" [ref=e335]: Python
+                    - generic [ref=e336]: ·
+                    - listitem [ref=e337]:
+                      - link "0 stars" [ref=e338] [cursor=pointer]:
+                        - /url: /lcx15228727985-jpg/dataset_platform/stargazers
+                        - img [ref=e339]
+                        - generic [ref=e341]: "0"
+                    - generic [ref=e342]: ·
+                    - listitem [ref=e343]:
+                      - generic [ref=e344]:
+                        - text: Updated
+                        - generic "Feb 21, 2026, 12:42 PM GMT+9" [ref=e345]: on Feb 21
+                - link "Star" [ref=e348] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3D%2522IROS%2B2026%2522%2B%2522grand%2Bchallenge%2522%2BOR%2B%2522bitrobot%2522%2BOR%2B%2522earth%2Brover%2522%26type%3Drepositories
+                  - generic [ref=e349]:
+                    - generic:
+                      - img
+                    - generic [ref=e350]: Star
+              - generic [ref=e352]:
+                - generic [ref=e353]:
+                  - heading "hadr-robotics/iros2026" [level=3] [ref=e354]:
+                    - link "hadr-robotics/iros2026" [ref=e358] [cursor=pointer]:
+                      - /url: /hadr-robotics/iros2026
+                      - generic [ref=e359]:
+                        - text: hadr-robotics/
+                        - emphasis [ref=e360]: iros2026
+                  - generic [ref=e362]:
+                    - text: HADR Workshop @
+                    - emphasis [ref=e363]: IROS
+                    - emphasis [ref=e364]: "2026"
+                  - list [ref=e365]:
+                    - listitem [ref=e366]:
+                      - generic "SCSS language" [ref=e369]: SCSS
+                    - generic [ref=e370]: ·
+                    - listitem [ref=e371]:
+                      - link "0 stars" [ref=e372] [cursor=pointer]:
+                        - /url: /hadr-robotics/iros2026/stargazers
+                        - img [ref=e373]
+                        - generic [ref=e375]: "0"
+                    - generic [ref=e376]: ·
+                    - listitem [ref=e377]:
+                      - generic [ref=e378]:
+                        - text: Updated
+                        - generic "Mar 13, 2026, 4:40 AM GMT+9" [ref=e379]: on Mar 13
+                - link "Star" [ref=e382] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3D%2522IROS%2B2026%2522%2B%2522grand%2Bchallenge%2522%2BOR%2B%2522bitrobot%2522%2BOR%2B%2522earth%2Brover%2522%26type%3Drepositories
+                  - generic [ref=e383]:
+                    - generic:
+                      - img
+                    - generic [ref=e384]: Star
+              - generic [ref=e386]:
+                - generic [ref=e387]:
+                  - heading "rust-for-robotics/iros2026" [level=3] [ref=e388]:
+                    - link "rust-for-robotics/iros2026" [ref=e392] [cursor=pointer]:
+                      - /url: /rust-for-robotics/iros2026
+                      - generic [ref=e393]:
+                        - text: rust-for-robotics/
+                        - emphasis [ref=e394]: iros2026
+                  - generic [ref=e396]:
+                    - emphasis [ref=e397]: IROS
+                    - emphasis [ref=e398]: "2026"
+                    - text: Workshop Website
+                  - list [ref=e399]:
+                    - listitem [ref=e400]:
+                      - generic "SCSS language" [ref=e403]: SCSS
+                    - generic [ref=e404]: ·
+                    - listitem [ref=e405]:
+                      - link "0 stars" [ref=e406] [cursor=pointer]:
+                        - /url: /rust-for-robotics/iros2026/stargazers
+                        - img [ref=e407]
+                        - generic [ref=e409]: "0"
+                    - generic [ref=e410]: ·
+                    - listitem [ref=e411]:
+                      - generic [ref=e412]:
+                        - text: Updated
+                        - generic "May 22, 2026, 11:11 PM GMT+9" [ref=e413]: 3 days ago
+                - link "Star" [ref=e416] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3D%2522IROS%2B2026%2522%2B%2522grand%2Bchallenge%2522%2BOR%2B%2522bitrobot%2522%2BOR%2B%2522earth%2Brover%2522%26type%3Drepositories
+                  - generic [ref=e417]:
+                    - generic:
+                      - img
+                    - generic [ref=e418]: Star
+              - generic [ref=e420]:
+                - generic [ref=e421]:
+                  - heading "yejiiiiiiii/IROS-2026-data" [level=3] [ref=e422]:
+                    - link "yejiiiiiiii/IROS-2026-data" [ref=e426] [cursor=pointer]:
+                      - /url: /yejiiiiiiii/IROS-2026-data
+                      - generic [ref=e427]:
+                        - text: yejiiiiiiii/
+                        - emphasis [ref=e428]: IROS
+                        - text: "-"
+                        - emphasis [ref=e429]: "2026"
+                        - text: "-data"
+                  - generic [ref=e431]:
+                    - text: Raw data of
+                    - emphasis [ref=e432]: IROS
+                    - emphasis [ref=e433]: "2026"
+                  - list [ref=e434]:
+                    - listitem [ref=e435]:
+                      - link "0 stars" [ref=e436] [cursor=pointer]:
+                        - /url: /yejiiiiiiii/IROS-2026-data/stargazers
+                        - img [ref=e437]
+                        - generic [ref=e439]: "0"
+                    - generic [ref=e440]: ·
+                    - listitem [ref=e441]:
+                      - generic [ref=e442]:
+                        - text: Updated
+                        - generic "Mar 6, 2026, 5:09 AM GMT+9" [ref=e443]: on Mar 6
+                - link "Star" [ref=e446] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3D%2522IROS%2B2026%2522%2B%2522grand%2Bchallenge%2522%2BOR%2B%2522bitrobot%2522%2BOR%2B%2522earth%2Brover%2522%26type%3Drepositories
+                  - generic [ref=e447]:
+                    - generic:
+                      - img
+                    - generic [ref=e448]: Star
+              - generic [ref=e450]:
+                - generic [ref=e451]:
+                  - heading "WenceslausIV/semantics-aware-cbf" [level=3] [ref=e452]:
+                    - link "WenceslausIV/semantics-aware-cbf" [ref=e456] [cursor=pointer]:
+                      - /url: /WenceslausIV/semantics-aware-cbf
+                  - generic [ref=e458]:
+                    - text: First Author Submission for
+                    - emphasis [ref=e459]: IROS
+                    - emphasis [ref=e460]: "2026"
+                  - list [ref=e461]:
+                    - listitem [ref=e462]:
+                      - link "0 stars" [ref=e463] [cursor=pointer]:
+                        - /url: /WenceslausIV/semantics-aware-cbf/stargazers
+                        - img [ref=e464]
+                        - generic [ref=e466]: "0"
+                    - generic [ref=e467]: ·
+                    - listitem [ref=e468]:
+                      - generic [ref=e469]:
+                        - text: Updated
+                        - generic "Apr 27, 2026, 7:23 AM GMT+9" [ref=e470]: 28 days ago
+                - link "Star" [ref=e473] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3D%2522IROS%2B2026%2522%2B%2522grand%2Bchallenge%2522%2BOR%2B%2522bitrobot%2522%2BOR%2B%2522earth%2Brover%2522%26type%3Drepositories
+                  - generic [ref=e474]:
+                    - generic:
+                      - img
+                    - generic [ref=e475]: Star
+              - generic [ref=e477]:
+                - generic [ref=e478]:
+                  - heading "divake/uncertainty-franka" [level=3] [ref=e479]:
+                    - link "divake/uncertainty-franka" [ref=e483] [cursor=pointer]:
+                      - /url: /divake/uncertainty-franka
+                  - generic [ref=e485]:
+                    - text: Uncertainty-aware robot manipulation for
+                    - emphasis [ref=e486]: IROS
+                    - emphasis [ref=e487]: "2026"
+                  - list [ref=e488]:
+                    - listitem [ref=e489]:
+                      - generic "Python language" [ref=e492]: Python
+                    - generic [ref=e493]: ·
+                    - listitem [ref=e494]:
+                      - link "0 stars" [ref=e495] [cursor=pointer]:
+                        - /url: /divake/uncertainty-franka/stargazers
+                        - img [ref=e496]
+                        - generic [ref=e498]: "0"
+                    - generic [ref=e499]: ·
+                    - listitem [ref=e500]:
+                      - generic [ref=e501]:
+                        - text: Updated
+                        - generic "Mar 2, 2026, 7:50 PM GMT+9" [ref=e502]: on Mar 2
+                - link "Star" [ref=e505] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3D%2522IROS%2B2026%2522%2B%2522grand%2Bchallenge%2522%2BOR%2B%2522bitrobot%2522%2BOR%2B%2522earth%2Brover%2522%26type%3Drepositories
+                  - generic [ref=e506]:
+                    - generic:
+                      - img
+                    - generic [ref=e507]: Star
+              - generic [ref=e509]:
+                - generic [ref=e510]:
+                  - heading "shaomq21/AbsVLA" [level=3] [ref=e511]:
+                    - link "shaomq21/AbsVLA" [ref=e515] [cursor=pointer]:
+                      - /url: /shaomq21/AbsVLA
+                  - generic [ref=e517]:
+                    - text: AbsVLA paper under review at
+                    - emphasis [ref=e518]: IROS
+                    - emphasis [ref=e519]: "2026"
+                  - list [ref=e520]:
+                    - listitem [ref=e521]:
+                      - link "0 stars" [ref=e522] [cursor=pointer]:
+                        - /url: /shaomq21/AbsVLA/stargazers
+                        - img [ref=e523]
+                        - generic [ref=e525]: "0"
+                    - generic [ref=e526]: ·
+                    - listitem [ref=e527]:
+                      - generic [ref=e528]:
+                        - text: Updated
+                        - generic "Apr 17, 2026, 9:54 AM GMT+9" [ref=e529]: on Apr 17
+                - link "Star" [ref=e532] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3D%2522IROS%2B2026%2522%2B%2522grand%2Bchallenge%2522%2BOR%2B%2522bitrobot%2522%2BOR%2B%2522earth%2Brover%2522%26type%3Drepositories
+                  - generic [ref=e533]:
+                    - generic:
+                      - img
+                    - generic [ref=e534]: Star
+              - generic [ref=e536]:
+                - generic [ref=e537]:
+                  - heading "robotic-origami-challenge/robotic-origami-challenge.github.io" [level=3] [ref=e538]:
+                    - link "robotic-origami-challenge/robotic-origami-challenge.github.io" [ref=e542] [cursor=pointer]:
+                      - /url: /robotic-origami-challenge/robotic-origami-challenge.github.io
+                  - generic [ref=e544]:
+                    - emphasis [ref=e545]: IROS
+                    - emphasis [ref=e546]: "2026"
+                    - text: Robotic Origami Challenge — official competition site
+                  - list [ref=e547]:
+                    - listitem [ref=e548]:
+                      - generic "HTML language" [ref=e551]: HTML
+                    - generic [ref=e552]: ·
+                    - listitem [ref=e553]:
+                      - link "0 stars" [ref=e554] [cursor=pointer]:
+                        - /url: /robotic-origami-challenge/robotic-origami-challenge.github.io/stargazers
+                        - img [ref=e555]
+                        - generic [ref=e557]: "0"
+                    - generic [ref=e558]: ·
+                    - listitem [ref=e559]:
+                      - generic [ref=e560]:
+                        - text: Updated
+                        - generic "May 19, 2026, 10:29 PM GMT+9" [ref=e561]: 6 days ago
+                - link "Star" [ref=e564] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3D%2522IROS%2B2026%2522%2B%2522grand%2Bchallenge%2522%2BOR%2B%2522bitrobot%2522%2BOR%2B%2522earth%2Brover%2522%26type%3Drepositories
+                  - generic [ref=e565]:
+                    - generic:
+                      - img
+                    - generic [ref=e566]: Star
+              - generic [ref=e568]:
+                - generic [ref=e569]:
+                  - heading "MEDCVR/Forceps-Manipulation-Challenge" [level=3] [ref=e570]:
+                    - link "MEDCVR/Forceps-Manipulation-Challenge" [ref=e574] [cursor=pointer]:
+                      - /url: /MEDCVR/Forceps-Manipulation-Challenge
+                  - generic [ref=e576]:
+                    - emphasis [ref=e577]: IROS
+                    - emphasis [ref=e578]: "2026"
+                    - text: "Competition: Forceps-based Fine Manipulation Challenge"
+                  - list [ref=e579]:
+                    - listitem [ref=e580]:
+                      - link "0 stars" [ref=e581] [cursor=pointer]:
+                        - /url: /MEDCVR/Forceps-Manipulation-Challenge/stargazers
+                        - img [ref=e582]
+                        - generic [ref=e584]: "0"
+                    - generic [ref=e585]: ·
+                    - listitem [ref=e586]:
+                      - generic [ref=e587]:
+                        - text: Updated
+                        - generic "May 15, 2026, 11:11 AM GMT+9" [ref=e588]: 10 days ago
+                - link "Star" [ref=e591] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3D%2522IROS%2B2026%2522%2B%2522grand%2Bchallenge%2522%2BOR%2B%2522bitrobot%2522%2BOR%2B%2522earth%2Brover%2522%26type%3Drepositories
+                  - generic [ref=e592]:
+                    - generic:
+                      - img
+                    - generic [ref=e593]: Star
+            - navigation "Pagination" [ref=e596]:
+              - generic [ref=e597]:
+                - generic [ref=e598]:
+                  - img [ref=e599]
+                  - text: Previous
+                - link "Page 1" [ref=e601] [cursor=pointer]:
+                  - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22&type=repositories&p=1
+                  - text: "1"
+                - link "Page 2" [ref=e602] [cursor=pointer]:
+                  - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22&type=repositories&p=2
+                  - text: "2"
+                - link "Page 3" [ref=e603] [cursor=pointer]:
+                  - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22&type=repositories&p=3
+                  - text: "3"
+                - link "Page 4" [ref=e604] [cursor=pointer]:
+                  - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22&type=repositories&p=4
+                  - text: "4"
+                - link "Page 5" [ref=e605] [cursor=pointer]:
+                  - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22&type=repositories&p=5
+                  - text: "5"
+                - link "Next Page" [ref=e606] [cursor=pointer]:
+                  - /url: https://github.com/search?q=%22IROS+2026%22+%22grand+challenge%22+OR+%22bitrobot%22+OR+%22earth+rover%22&type=repositories&p=2
+                  - text: Next
+                  - img [ref=e607]
+          - generic [ref=e610]:
+            - generic [ref=e611]:
+              - img "Package icon" [ref=e613]
+              - heading "Sponsor open source projects you depend on" [level=2] [ref=e614]
+              - generic [ref=e615]: Contributors are working behind the scenes to make open source better for everyone—give them the help and recognition they deserve.
+              - link "Explore sponsorable projects" [ref=e616] [cursor=pointer]:
+                - /url: https://github.com/sponsors/explore
+                - text: Explore sponsorable projects
+                - img [ref=e617]
+            - generic [ref=e619]:
+              - generic [ref=e620]:
+                - img [ref=e621]
+                - text: ProTip!
+              - generic [ref=e623]:
+                - text: Press the
+                - generic [ref=e624]: /
+                - text: key to activate the search input again and adjust your query.

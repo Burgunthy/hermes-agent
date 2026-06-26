@@ -1,0 +1,308 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - link "게시판 목록 바로가기" [ref=e2] [cursor=pointer]:
+      - /url: "#cafe-menu"
+    - link "본문 바로가기" [ref=e3] [cursor=pointer]:
+      - /url: "#main-area"
+    - link "웹 접근성이 좋은 모바일 웹에서 사용하겠습니까?" [ref=e4] [cursor=pointer]:
+      - /url: https://m.cafe.naver.com/coolguycoin
+  - heading "[블록캠퍼스] - 비트코인/이더리움/리플/업비트/투자/트레이딩" [level=1] [ref=e5]
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - link "NAVER" [ref=e9] [cursor=pointer]:
+          - /url: http://www.naver.com
+          - img "NAVER" [ref=e10]
+        - generic [ref=e11]:
+          - paragraph [ref=e12]:
+            - link "카페홈" [ref=e13] [cursor=pointer]:
+              - /url: https://section.cafe.naver.com
+          - link "이웃" [ref=e15] [cursor=pointer]:
+            - /url: https://cafe.naver.com/ca-fe/home/town
+          - generic [ref=e16]:
+            - link "가입카페" [ref=e17] [cursor=pointer]:
+              - /url: "#"
+            - link "가입카페" [ref=e18] [cursor=pointer]:
+              - /url: "#"
+              - img "가입카페" [ref=e19]
+          - link "새글" [ref=e21] [cursor=pointer]:
+            - /url: "#"
+          - link "내소식" [ref=e23] [cursor=pointer]:
+            - /url: "#"
+          - link "채팅" [ref=e25] [cursor=pointer]:
+            - /url: "#"
+          - generic [ref=e26]:
+            - strong [ref=e27]: 사용자 링크
+            - list [ref=e28]:
+              - listitem [ref=e29]:
+                - link "로그인" [ref=e30] [cursor=pointer]:
+                  - /url: https://nid.naver.com/nidlogin.login
+                  - generic [ref=e33]: 로그인
+              - listitem [ref=e34]:
+                - link "서비스 더보기" [ref=e35] [cursor=pointer]:
+                  - /url: javascript:;
+                  - generic [ref=e36]: 서비스 더보기
+      - link "[블록캠퍼스] - 비트코인/이더리움/리플/업비트/투자/트레이딩" [ref=e40] [cursor=pointer]:
+        - /url: /MyCafeIntro.nhn?clubid=31329665
+        - img "[블록캠퍼스] - 비트코인/이더리움/리플/업비트/투자/트레이딩" [ref=e41]
+      - list [ref=e44]:
+        - listitem [ref=e45]:
+          - link "공지사항" [ref=e46] [cursor=pointer]:
+            - /url: /ArticleList.nhn?search.clubid=31329665&search.menuid=4&search.boardtype=L
+        - listitem [ref=e47]:
+          - link "인기글" [ref=e48] [cursor=pointer]:
+            - /url: /f-e/cafes/31329665/popular
+        - listitem [ref=e49]:
+          - link "수익인증" [ref=e50] [cursor=pointer]:
+            - /url: /ArticleList.nhn?search.clubid=31329665&search.menuid=17&search.boardtype=L
+        - listitem [ref=e51]:
+          - link "전체글보기" [ref=e52] [cursor=pointer]:
+            - /url: /ArticleList.nhn?search.clubid=31329665&search.boardtype=L
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e56]:
+            - list [ref=e57]:
+              - listitem [ref=e58] [cursor=pointer]:
+                - button "카페정보" [disabled] [ref=e59]
+              - listitem [ref=e60] [cursor=pointer]:
+                - button "나의활동" [ref=e61]
+            - generic [ref=e62]:
+              - heading "카페정보" [level=4] [ref=e63]
+              - list [ref=e65]:
+                - listitem [ref=e66]:
+                  - link "카페아이콘" [ref=e67] [cursor=pointer]:
+                    - /url: /MyCafeIntro.nhn?clubid=31329665
+                    - img "카페아이콘" [ref=e68]
+                - listitem [ref=e69]:
+                  - link "블캠 총괄 매니저" [ref=e70] [cursor=pointer]:
+                    - /url: /f-e/cafes/31329665/members/cR_ocyDnQ9pjOxGhsnoHqsTQvMCrx2UtPk9_t7NwvQA
+                    - generic [ref=e72]: 블캠 총괄 매니저
+                  - emphasis [ref=e73]: 매니저
+                  - link "2024.11.18. 개설" [ref=e75] [cursor=pointer]:
+                    - /url: "#"
+                  - link "카페소개" [ref=e77] [cursor=pointer]:
+                    - /url: "#"
+              - list [ref=e79]:
+                - listitem [ref=e80]:
+                  - link "카페등급 가지2단계" [ref=e81] [cursor=pointer]:
+                    - /url: "#"
+                    - strong [ref=e82]: 카페등급
+                    - emphasis [ref=e84]: 가지2단계
+                - listitem [ref=e85] [cursor=pointer]:
+                  - strong [ref=e86]: 카페멤버수
+                  - link "멤버수 13,799 비공개" [ref=e87]:
+                    - /url: "#"
+                    - img "멤버수" [ref=e88]
+                    - emphasis [ref=e89]:
+                      - text: 13,799
+                      - generic [ref=e90]: 비공개
+                  - link "닫기":
+                    - /url: "#"
+                    - generic [ref=e91]: 닫기
+                  - link "초대" [ref=e92]:
+                    - /url: "#"
+                - listitem [ref=e93]:
+                  - img "지역" [ref=e94]
+                  - text: 강남구 압구정동
+            - link "카페 가입하기" [ref=e96] [cursor=pointer]:
+              - /url: "#"
+            - list [ref=e98]:
+              - listitem [ref=e99]:
+                - link "카페 채팅" [ref=e100] [cursor=pointer]:
+                  - /url: "#"
+          - generic [ref=e102]:
+            - textbox "카페글 검색어 입력" [ref=e103]
+            - button "검색" [ref=e104] [cursor=pointer]
+          - generic [ref=e106]:
+            - list [ref=e107]:
+              - listitem [ref=e108]:
+                - link "전체글보기" [ref=e109] [cursor=pointer]:
+                  - /url: /ArticleList.nhn?search.clubid=31329665&search.boardtype=L
+                - generic [ref=e110]: 15,624
+              - listitem [ref=e111]:
+                - link "인기글" [ref=e112] [cursor=pointer]:
+                  - /url: /f-e/cafes/31329665/popular
+            - heading "🏢블록캠퍼스" [level=3] [ref=e114]:
+              - generic "&#127970;블록캠퍼스" [ref=e115]: 🏢블록캠퍼스
+            - list [ref=e116]:
+              - listitem [ref=e117]:
+                - link "공지사항" [ref=e118] [cursor=pointer]:
+                  - /url: /ArticleList.nhn?search.clubid=31329665&search.menuid=4&search.boardtype=L
+              - listitem [ref=e119]:
+                - link "가입인사(글+댓글 5개 자동등업)" [ref=e120] [cursor=pointer]:
+                  - /url: /ArticleList.nhn?search.clubid=31329665&search.menuid=36&search.boardtype=L
+                - img "새 게시글" [ref=e121]
+              - listitem [ref=e122]:
+                - link "블캠 이용 가이드" [ref=e123] [cursor=pointer]:
+                  - /url: /ArticleList.nhn?search.clubid=31329665&search.menuid=49&search.boardtype=L
+              - listitem [ref=e124]:
+                - link "자료실" [ref=e125] [cursor=pointer]:
+                  - /url: /ArticleList.nhn?search.clubid=31329665&search.menuid=63&search.boardtype=L
+              - listitem [ref=e126]:
+                - link "고객센터" [ref=e127] [cursor=pointer]:
+                  - /url: https://blockcampus.channel.io/home
+            - heading "📱블캠 공식 텔방" [level=3] [ref=e129]:
+              - generic "&#128241;블캠 공식 텔방" [ref=e130]: 📱블캠 공식 텔방
+            - list [ref=e131]:
+              - listitem [ref=e132]:
+                - link "텔방 입장 방법(선착순 마감)" [ref=e133] [cursor=pointer]:
+                  - /url: /ArticleList.nhn?search.clubid=31329665&search.menuid=74&search.boardtype=L
+            - heading "💸수익인증+찐후기" [level=3] [ref=e135]:
+              - generic "&#128184;수익인증+찐후기" [ref=e136]: 💸수익인증+찐후기
+            - list [ref=e137]:
+              - listitem [ref=e138]:
+                - link "수익인증" [ref=e139] [cursor=pointer]:
+                  - /url: /ArticleList.nhn?search.clubid=31329665&search.menuid=17&search.boardtype=L
+              - listitem [ref=e140]:
+                - link "찐후기" [ref=e141] [cursor=pointer]:
+                  - /url: /ArticleList.nhn?search.clubid=31329665&search.menuid=42&search.boardtype=L
+            - heading "🔥블캠 무료특강" [level=3] [ref=e143]:
+              - generic "&#128293;블캠 무료특강" [ref=e144]: 🔥블캠 무료특강
+            - list [ref=e145]:
+              - listitem [ref=e146]:
+                - link "무료특강 안내" [ref=e147] [cursor=pointer]:
+                  - /url: /ArticleList.nhn?search.clubid=31329665&search.menuid=5&search.boardtype=L
+              - listitem [ref=e148]:
+                - link "무료특강 기대평, 후기" [ref=e149] [cursor=pointer]:
+                  - /url: /ArticleList.nhn?search.clubid=31329665&search.menuid=75&search.boardtype=L
+            - heading "📹블캠 정규강의" [level=3] [ref=e151]:
+              - generic "&#128249;블캠 정규강의" [ref=e152]: 📹블캠 정규강의
+            - list [ref=e153]:
+              - listitem [ref=e154]:
+                - link "정규강의 안내" [ref=e155] [cursor=pointer]:
+                  - /url: /ArticleList.nhn?search.clubid=31329665&search.menuid=27&search.boardtype=L
+            - heading "💡블캠 공식 협력사" [level=3] [ref=e157]:
+              - generic "&#128161;블캠 공식 협력사" [ref=e158]: 💡블캠 공식 협력사
+            - list [ref=e159]:
+              - listitem [ref=e160]:
+                - link "이게 진짜 트레이더다(이진트)" [ref=e161] [cursor=pointer]:
+                  - /url: https://cafe.naver.com/ejint
+              - listitem [ref=e162]:
+                - link "테더플러스" [ref=e163] [cursor=pointer]:
+                  - /url: /ArticleList.nhn?search.clubid=31329665&search.menuid=80&search.boardtype=L
+            - heading "✍️공부방" [level=3] [ref=e165]:
+              - generic "&#9997;&#65039;공부방" [ref=e166]: ✍️공부방
+            - list [ref=e167]:
+              - listitem [ref=e168]:
+                - link "자유게시판" [ref=e169] [cursor=pointer]:
+                  - /url: /ArticleList.nhn?search.clubid=31329665&search.menuid=35&search.boardtype=L
+              - listitem [ref=e170]:
+                - link "매매일지" [ref=e171] [cursor=pointer]:
+                  - /url: /ArticleList.nhn?search.clubid=31329665&search.menuid=10&search.boardtype=L
+              - listitem [ref=e172]:
+                - link "칼럼" [ref=e173] [cursor=pointer]:
+                  - /url: /ArticleList.nhn?search.clubid=31329665&search.menuid=62&search.boardtype=L
+              - listitem [ref=e174]:
+                - link "목표 선언" [ref=e175] [cursor=pointer]:
+                  - /url: /ArticleList.nhn?search.clubid=31329665&search.menuid=41&search.boardtype=L
+              - listitem [ref=e176]:
+                - link "Q&A" [ref=e177] [cursor=pointer]:
+                  - /url: /ArticleList.nhn?search.clubid=31329665&search.menuid=23&search.boardtype=L
+            - generic [ref=e178]:
+              - heading "과거 글" [level=3] [ref=e179]:
+                - link "과거 글" [ref=e180] [cursor=pointer]:
+                  - /url: "#"
+              - paragraph [ref=e181]:
+                - link "열기/닫기" [ref=e182] [cursor=pointer]:
+                  - /url: "#"
+                  - img "열기/닫기" [ref=e183]
+          - list [ref=e184]:
+            - listitem [ref=e185]:
+              - generic [ref=e186]:
+                - heading "지난주 멤버 랭킹" [level=4] [ref=e188]
+                - list [ref=e189]:
+                  - listitem [ref=e190]:
+                    - generic [ref=e191]: 댓글
+                  - listitem [ref=e192]:
+                    - generic [ref=e193]: ▼
+                    - link "게시글" [ref=e194] [cursor=pointer]:
+                      - /url: "#"
+                  - listitem [ref=e195]:
+                    - generic [ref=e196]: ▼
+                    - link "방문" [ref=e197] [cursor=pointer]:
+                      - /url: "#"
+                - heading "댓글" [level=5] [ref=e198]
+                - generic [ref=e199]:
+                  - list [ref=e200]:
+                    - listitem [ref=e201]:
+                      - generic [ref=e202]: "1."
+                      - link "제이지에스" [ref=e204] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e205]: 제이지에스
+                    - listitem [ref=e206]:
+                      - generic [ref=e207]: "2."
+                      - link "5월 블캠안내" [ref=e209] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e210]: 5월 블캠안내
+                    - listitem [ref=e211]:
+                      - generic [ref=e212]: "3."
+                      - link "정감독" [ref=e214] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e215]: 정감독
+                    - listitem [ref=e216]:
+                      - generic [ref=e217]: "4."
+                      - link "5월 블캠알림" [ref=e219] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e220]: 5월 블캠알림
+                    - listitem [ref=e221]:
+                      - generic [ref=e222]: "5."
+                      - link "lv100" [ref=e224] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e225]: lv100
+                  - generic [ref=e226]:
+                    - text: 이전 ㅣ
+                    - link "다음" [ref=e228] [cursor=pointer]:
+                      - /url: "#"
+            - listitem [ref=e229]:
+              - generic [ref=e230]:
+                - heading "지난주 게시글 랭킹" [level=4] [ref=e232]
+                - list [ref=e233]:
+                  - listitem [ref=e234]:
+                    - generic [ref=e235]: 좋아요 횟수
+                  - listitem [ref=e236]:
+                    - generic [ref=e237]: ▼
+                    - link "댓글수" [ref=e238] [cursor=pointer]:
+                      - /url: "#"
+                - heading "좋아요 횟수" [level=5] [ref=e239]
+                - list [ref=e240]:
+                  - listitem [ref=e241]:
+                    - generic [ref=e242]: "1."
+                    - link "가입인사드립니.." [ref=e244] [cursor=pointer]:
+                      - /url: /ArticleRead.nhn?clubid=31329665&articleid=17951
+                      - generic [ref=e245]: 가입인사드립니..
+                  - listitem [ref=e246]:
+                    - generic [ref=e247]: "2."
+                    - link "가입인사드립니.." [ref=e249] [cursor=pointer]:
+                      - /url: /ArticleRead.nhn?clubid=31329665&articleid=17950
+                      - generic [ref=e250]: 가입인사드립니..
+                  - listitem [ref=e251]:
+                    - generic [ref=e252]: "3."
+                    - link "가입인사 드립니.." [ref=e254] [cursor=pointer]:
+                      - /url: /ArticleRead.nhn?clubid=31329665&articleid=17949
+                      - generic [ref=e255]: 가입인사 드립니..
+                  - listitem [ref=e256]:
+                    - generic [ref=e257]: "4."
+                    - link "가입인사드립니.." [ref=e259] [cursor=pointer]:
+                      - /url: /ArticleRead.nhn?clubid=31329665&articleid=17947
+                      - generic [ref=e260]: 가입인사드립니..
+                  - listitem [ref=e261]:
+                    - generic [ref=e262]: "5."
+                    - link "안녕하세요!" [ref=e264] [cursor=pointer]:
+                      - /url: /ArticleRead.nhn?clubid=31329665&articleid=17945
+                      - generic [ref=e265]: 안녕하세요!
+          - link "궁금한게 있을 땐 카페 스마트봇" [ref=e267] [cursor=pointer]:
+            - /url: https://talk.naver.com/ct/w4nd8o
+            - img "궁금한게 있을 땐 카페 스마트봇" [ref=e268]
+        - iframe [ref=e270]:
+          
+      - contentinfo [ref=e271]:
+        - heading "[블록캠퍼스] - 비트코인/이더리움/리플/업비트/투자/트레이딩" [level=2] [ref=e272]
+        - link "https://cafe.naver.com/coolguycoin" [ref=e273] [cursor=pointer]:
+          - /url: "#"
+        - heading "NAVER 카페" [level=2]:
+          - link "NAVER 카페" [ref=e274] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e275]: NAVER 카페
+    - link "콘텐츠 상단" [ref=e276] [cursor=pointer]:
+      - /url: "#"
+  - iframe

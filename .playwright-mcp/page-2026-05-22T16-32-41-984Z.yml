@@ -1,0 +1,415 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [ref=e9] [cursor=pointer]
+        - generic [ref=e11]:
+          - link "YouTube Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e16]: KR
+        - button "Skip navigation" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: Skip navigation
+      - generic [ref=e25]:
+        - search [ref=e26]:
+          - generic [ref=e27]:
+            - combobox "Search" [expanded] [ref=e30]
+            - button "Search" [ref=e31] [cursor=pointer]
+        - generic [ref=e34]:
+          - button "Search with your voice" [ref=e36] [cursor=pointer]
+          - tooltip "tooltip"
+  - main [ref=e48]:
+    - generic [ref=e49]:
+      - generic [ref=e51]:
+        - complementary [ref=e58]:
+          - generic "YouTube Video Player" [active] [ref=e61]:
+            - button "Play" [ref=e65] [cursor=pointer]:
+              - img
+            - button "Channel watermark" [ref=e68] [cursor=pointer]:
+              - img "Channel watermark" [ref=e69]
+            - generic [ref=e70]:
+              - generic [ref=e71] [cursor=pointer]:
+                - generic:
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                  - generic:
+                    - img
+                - slider "Seek slider" [ref=e72]
+                - generic:
+                  - generic:
+                    - generic:
+                      - slider "Click or scroll the panel for the precise seeking."
+              - generic [ref=e307]:
+                - generic [ref=e308]:
+                  - button "Pause (k)" [ref=e309] [cursor=pointer]:
+                    - img
+                  - generic [ref=e310]:
+                    - button "Mute (m)" [ref=e312] [cursor=pointer]:
+                      - img
+                    - slider "Volume"
+                  - button "2 Hours 14 Minutes 46 Seconds of 3 Hours 14 Minutes 0 Seconds" [ref=e316] [cursor=pointer]: 2:14:46 / 3:14:00
+                  - button "(4주차) 데이터베이스와 DBMS, Supabase" [ref=e318] [cursor=pointer]:
+                    - generic "(4주차) 데이터베이스와 DBMS, Supabase" [ref=e319]
+                    - generic [ref=e320]:
+                      - img
+                - generic [ref=e321]:
+                  - generic [ref=e322]:
+                    - button "Autoplay is on" [ref=e323] [cursor=pointer]
+                    - button "Subtitles/closed captions unavailable" [ref=e326] [cursor=pointer]:
+                      - generic [ref=e327]:
+                        - img
+                    - button "Settings" [ref=e328] [cursor=pointer]:
+                      - img
+                  - generic [ref=e329]:
+                    - button "Theater mode (t)" [ref=e330] [cursor=pointer]:
+                      - img
+                    - button "Full screen (f)" [ref=e331] [cursor=pointer]:
+                      - img
+        - generic [ref=e333]:
+          - generic [ref=e335]:
+            - heading "이 영상이 당신 인생을 바꿉니다. 바이브 코딩 1인 창업 3시간 통합본" [level=1] [ref=e337]
+            - generic [ref=e338]:
+              - generic [ref=e339]:
+                - generic [ref=e340]:
+                  - link [ref=e341] [cursor=pointer]:
+                    - /url: /@jocoding
+                  - generic [ref=e343]:
+                    - generic [ref=e344]:
+                      - generic "조코딩 JoCoding" [ref=e347]:
+                        - link "조코딩 JoCoding" [ref=e348] [cursor=pointer]:
+                          - /url: /@jocoding
+                      - img "Verified" [ref=e353]
+                    - generic "737 thousand subscribers" [ref=e355]: 737K subscribers
+                  - button "Join this channel" [ref=e362] [cursor=pointer]:
+                    - generic [ref=e363]: Join
+                - generic [ref=e370]:
+                  - button "Subscribe to 조코딩 JoCoding." [ref=e372] [cursor=pointer]:
+                    - generic [ref=e373]: Subscribe
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                    - generic:
+                      - img
+              - generic [ref=e380]:
+                - generic [ref=e381]:
+                  - generic [ref=e385]:
+                    - button "like this video along with 11,041 other people" [ref=e389] [cursor=pointer]:
+                      - generic [ref=e392]: 11K
+                    - button "Dislike this video" [ref=e399] [cursor=pointer]
+                  - button "Share" [ref=e407] [cursor=pointer]:
+                    - generic [ref=e410]: Share
+                - button "Save to playlist" [ref=e417] [cursor=pointer]:
+                  - generic [ref=e420]: Save
+                - button "More actions" [ref=e425] [cursor=pointer]
+            - generic [ref=e433] [cursor=pointer]:
+              - generic [ref=e434]:
+                - generic [ref=e436]:
+                  - text: 315K views 3 months ago
+                  - link "[편집본] 바이브 코딩 1인 창업 부트캠프 (AI Product Builder)" [ref=e437]:
+                    - /url: /playlist?list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD
+                - tooltip "tooltip"
+              - generic [ref=e438]:
+                - generic [ref=e439]:
+                  - generic [ref=e442]:
+                    - text: "바이브 코딩으로 글로벌 수익형 AI 프로덕트를 만드는 1인 창업가 부트캠프 Firebase Studio 종료 대안: Github Codespaces 가이드"
+                    - 'link "YouTube Channel Link: [LIVE] 바이브 코딩, 1인 창업가 부트캠프 - Firebase Studio 종료 대응 방안" [ref=e445]':
+                      - /url: /watch?v=tzBFg1UPH2Y&t=1s
+                      - text: • [LIVE] 바이브 코딩, 1인 창업가 부트캠프 - Firebase Stud...
+                    - text: "✅강의 자료:"
+                    - link "https://jocoding.net/productbuilder" [ref=e448]:
+                      - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqazZfdHpIWHFyVW1yNXRWRDNxMEJ4eWtFUXlOUXxBQ3Jtc0tsNnpmNVNSRzZwNEhLRzZaT2lmNFVDX1prMHBiU193ZXVrZVh0WHdLRVF6TmZrdkY1WHJaSzNqOERjME9nVU1fMEdwQzg5anVSM25rYVRHaDFCcFd4eDRZSkhTS2FERHBkcTBnaVQ0RjhHQl9ZbnJ0Yw&q=https%3A%2F%2Fjocoding.net%2Fproductbuilder&v=P3jFI-VpyLg
+                  - generic: …
+                - button "...more" [ref=e449]
+          - text: •
+          - generic [ref=e451]:
+            - generic [ref=e452]:
+              - heading "Shop the 조코딩 JoCoding store" [ref=e453]
+              - button "Actions menu" [ref=e457] [cursor=pointer]
+            - generic [ref=e461]:
+              - generic "조코딩 JoCoding 굿즈샵 길단 HTML CSS 로고 티셔츠, ₩18,000 , from marpple.shop" [ref=e463] [cursor=pointer]:
+                - generic [ref=e468]:
+                  - generic [ref=e469]: 조코딩 JoCoding 굿즈샵 길단 HTML CSS 로고 티셔츠
+                  - generic [ref=e471]: ₩18,000
+                  - generic [ref=e473]: marpple.shop
+              - generic "조코딩 JoCoding 굿즈샵 404 에러 티셔츠 검정, ₩18,000 , from marpple.shop" [ref=e476] [cursor=pointer]:
+                - generic [ref=e481]:
+                  - generic [ref=e482]: 조코딩 JoCoding 굿즈샵 404 에러 티셔츠 검정
+                  - generic [ref=e484]: ₩18,000
+                  - generic [ref=e486]: marpple.shop
+              - generic "조코딩 JoCoding 굿즈샵 css is awesome 머그컵, ₩15,000 , from marpple.shop" [ref=e489] [cursor=pointer]:
+                - generic [ref=e494]:
+                  - generic [ref=e495]: 조코딩 JoCoding 굿즈샵 css is awesome 머그컵
+                  - generic [ref=e497]: ₩15,000
+                  - generic [ref=e499]: marpple.shop
+              - generic "조코딩 JoCoding 굿즈샵 HTML CSS는 친구예요, ₩10,000 , from marpple.shop" [ref=e502] [cursor=pointer]:
+                - generic [ref=e507]:
+                  - generic [ref=e508]: 조코딩 JoCoding 굿즈샵 HTML CSS는 친구예요
+                  - generic [ref=e510]: ₩10,000
+                  - generic [ref=e512]: marpple.shop
+              - generic "조코딩 JoCoding 굿즈샵 저는 HTML로 프로그래밍해요, ₩10,000 , from marpple.shop" [ref=e515] [cursor=pointer]:
+                - generic [ref=e520]:
+                  - generic [ref=e521]: 조코딩 JoCoding 굿즈샵 저는 HTML로 프로그래밍해요
+                  - generic [ref=e523]: ₩10,000
+                  - generic [ref=e525]: marpple.shop
+              - generic "조코딩 JoCoding 굿즈샵 스마트톡 자바스크립트는 자바가 아닙니다, ₩10,000 , from marpple.shop" [ref=e528] [cursor=pointer]:
+                - generic [ref=e533]:
+                  - generic [ref=e534]: 조코딩 JoCoding 굿즈샵 스마트톡 자바스크립트는 자바가 아닙니다
+                  - generic [ref=e536]: ₩10,000
+                  - generic [ref=e538]: marpple.shop
+      - generic [ref=e549]:
+        - generic [ref=e551] [cursor=pointer]:
+          - link [ref=e552]:
+            - /url: /watch?v=XFWdfoRl_ig&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=e559]: 14:17
+          - generic [ref=e561]:
+            - generic [ref=e562]:
+              - heading "대 '딸깍'의 시대, 지금 당장 바이브 코딩으로 1인 창업을 해야 하는 이유 14 minutes, 17 seconds" [level=3] [ref=e563]:
+                - link "대 '딸깍'의 시대, 지금 당장 바이브 코딩으로 1인 창업을 해야 하는 이유 14 minutes, 17 seconds" [ref=e564]:
+                  - /url: /watch?v=XFWdfoRl_ig&pp=ugUEEgJrbw%3D%3D
+                  - text: 대 '딸깍'의 시대, 지금 당장 바이브 코딩으로 1인 창업을 해야 하는 이유
+              - generic [ref=e566]:
+                - group [ref=e567]:
+                  - generic [ref=e568]:
+                    - text: 조코딩 JoCoding
+                    - img [ref=e571]
+                - group [ref=e572]:
+                  - generic [ref=e573]: 195K views
+                  - generic [ref=e574]: •
+                  - generic [ref=e575]: 4 months ago
+            - button "More actions" [ref=e578]
+        - generic [ref=e585] [cursor=pointer]:
+          - link [ref=e586]:
+            - /url: /watch?v=i8z-MT-khLc
+            - generic [ref=e593]: 10:16
+          - generic [ref=e595]:
+            - generic [ref=e596]:
+              - heading "클로드 베타테스터가 월 30만원 쓰면서 알게 된 클로드, 코워크, 클로드 코드. 핵심 정리 10 minutes, 16 seconds" [level=3] [ref=e597]:
+                - link "클로드 베타테스터가 월 30만원 쓰면서 알게 된 클로드, 코워크, 클로드 코드. 핵심 정리 10 minutes, 16 seconds" [ref=e598]:
+                  - /url: /watch?v=i8z-MT-khLc
+                  - text: 클로드 베타테스터가 월 30만원 쓰면서 알게 된 클로드, 코워크, 클로드 코드. 핵심 정리
+              - generic [ref=e600]:
+                - group [ref=e601]:
+                  - generic [ref=e602]: Close AI Club
+                - group [ref=e603]:
+                  - generic [ref=e604]: 6.2K views
+                  - generic [ref=e605]: •
+                  - generic [ref=e606]: 3 months ago
+            - button "More actions" [ref=e609]
+        - generic [ref=e616] [cursor=pointer]:
+          - link [ref=e617]:
+            - /url: /watch?v=LPZh9BOjkQs&pp=ugUHEgVlbi1VUw%3D%3D
+            - generic [ref=e624]: 7:58
+          - generic [ref=e626]:
+            - generic [ref=e627]:
+              - heading "Large Language Models explained briefly 7 minutes, 58 seconds" [level=3] [ref=e628]:
+                - link "Large Language Models explained briefly 7 minutes, 58 seconds" [ref=e629]:
+                  - /url: /watch?v=LPZh9BOjkQs&pp=ugUHEgVlbi1VUw%3D%3D
+                  - text: Large Language Models explained briefly
+              - generic [ref=e631]:
+                - group [ref=e632]:
+                  - generic [ref=e633]:
+                    - text: 3Blue1Brown
+                    - img [ref=e636]
+                - group [ref=e637]:
+                  - generic [ref=e638]: 6.3M views
+                  - generic [ref=e639]: •
+                  - generic [ref=e640]: 1 year ago
+            - button "More actions" [ref=e643]
+        - generic [ref=e650] [cursor=pointer]:
+          - link [ref=e651]:
+            - /url: /watch?v=tzBFg1UPH2Y&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=e658]: 53:03
+          - generic [ref=e660]:
+            - generic [ref=e661]:
+              - heading "[LIVE] 바이브 코딩, 1인 창업가 부트캠프 - Firebase Studio 종료 대응 방안 53 minutes" [level=3] [ref=e662]:
+                - link "[LIVE] 바이브 코딩, 1인 창업가 부트캠프 - Firebase Studio 종료 대응 방안 53 minutes" [ref=e663]:
+                  - /url: /watch?v=tzBFg1UPH2Y&pp=ugUEEgJrbw%3D%3D
+                  - text: "[LIVE] 바이브 코딩, 1인 창업가 부트캠프 - Firebase Studio 종료 대응 방안"
+              - generic [ref=e665]:
+                - group [ref=e666]:
+                  - generic [ref=e667]:
+                    - text: 조코딩 JoCoding
+                    - img [ref=e670]
+                - group [ref=e671]:
+                  - generic [ref=e672]: 7.9K views
+                  - generic [ref=e673]: •
+                  - generic [ref=e674]: Streamed 2 months ago
+            - button "More actions" [ref=e677]
+        - generic [ref=e684] [cursor=pointer]:
+          - link [ref=e685]:
+            - /url: /watch?v=C9aQKsL2NVM&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=e692]: 12:21
+          - generic [ref=e694]:
+            - generic [ref=e695]:
+              - heading "나만 안 해 바이브 코딩... FOMO 극복을 위해 준비한 영상 / 오그랲 / 바디오머그 12 minutes, 21 seconds" [level=3] [ref=e696]:
+                - link "나만 안 해 바이브 코딩... FOMO 극복을 위해 준비한 영상 / 오그랲 / 바디오머그 12 minutes, 21 seconds" [ref=e697]:
+                  - /url: /watch?v=C9aQKsL2NVM&pp=ugUEEgJrbw%3D%3D
+                  - text: 나만 안 해 바이브 코딩... FOMO 극복을 위해 준비한 영상 / 오그랲 / 바디오머그
+              - generic [ref=e699]:
+                - group [ref=e700]:
+                  - generic [ref=e701]:
+                    - text: 비디오머그 - VIDEOMUG
+                    - img [ref=e704]
+                - group [ref=e705]:
+                  - generic [ref=e706]: 138K views
+                  - generic [ref=e707]: •
+                  - generic [ref=e708]: 2 months ago
+                - group [ref=e709]:
+                  - generic [ref=e714]: Auto-dubbed
+            - button "More actions" [ref=e717]
+        - generic [ref=e724] [cursor=pointer]:
+          - link [ref=e725]:
+            - /url: /watch?v=OQ_y05yH5z4
+            - generic [ref=e732]: 23:40
+          - generic [ref=e734]:
+            - generic [ref=e735]:
+              - heading "3억 잃고 나서야 알았습니다. 캔들 하나면 충분했다는 걸 23 minutes" [level=3] [ref=e736]:
+                - link "3억 잃고 나서야 알았습니다. 캔들 하나면 충분했다는 걸 23 minutes" [ref=e737]:
+                  - /url: /watch?v=OQ_y05yH5z4
+                  - text: 3억 잃고 나서야 알았습니다. 캔들 하나면 충분했다는 걸
+              - generic [ref=e739]:
+                - group [ref=e740]:
+                  - generic [ref=e741]: 김직선 - 나스닥 트레이더
+                - group [ref=e742]:
+                  - generic [ref=e743]: 316K views
+                  - generic [ref=e744]: •
+                  - generic [ref=e745]: 3 months ago
+            - button "More actions" [ref=e748]
+        - generic [ref=e755] [cursor=pointer]:
+          - link [ref=e756]:
+            - /url: /watch?v=kGikrbiRoLk
+            - generic [ref=e763]: 15:25
+          - generic [ref=e765]:
+            - generic [ref=e766]:
+              - heading "스페이스X, 지상 최대 IPO 시작됐다… 일론 머스크가 전 세계 돈 빨아들이는 방법 / 똑소리E / 비디오머그 15 minutes" [level=3] [ref=e767]:
+                - link "스페이스X, 지상 최대 IPO 시작됐다… 일론 머스크가 전 세계 돈 빨아들이는 방법 / 똑소리E / 비디오머그 15 minutes" [ref=e768]:
+                  - /url: /watch?v=kGikrbiRoLk
+                  - text: 스페이스X, 지상 최대 IPO 시작됐다… 일론 머스크가 전 세계 돈 빨아들이는 방법 / 똑소리E / 비디오머그
+              - generic [ref=e770]:
+                - group [ref=e771]:
+                  - generic [ref=e772]:
+                    - text: 비디오머그 - VIDEOMUG
+                    - img [ref=e775]
+                - group [ref=e776]:
+                  - generic [ref=e777]: 96K views
+                  - generic [ref=e778]: •
+                  - generic [ref=e779]: 7 hours ago
+                - group [ref=e780]:
+                  - generic [ref=e784]: New
+            - button "More actions" [ref=e787]
+        - generic [ref=e794] [cursor=pointer]:
+          - link [ref=e795]:
+            - /url: /watch?v=FuwxlbhCPgA
+            - generic [ref=e802]: 8:08
+          - generic [ref=e804]:
+            - generic [ref=e805]:
+              - heading "GPT-5.5 나왔다 — 근데 Claude가 이겼다고? 8 minutes, 8 seconds" [level=3] [ref=e806]:
+                - link "GPT-5.5 나왔다 — 근데 Claude가 이겼다고? 8 minutes, 8 seconds" [ref=e807]:
+                  - /url: /watch?v=FuwxlbhCPgA
+                  - text: GPT-5.5 나왔다 — 근데 Claude가 이겼다고?
+              - generic [ref=e809]:
+                - group [ref=e810]:
+                  - generic [ref=e811]: AI 오늘부터
+                - group [ref=e812]:
+                  - generic [ref=e813]: 1K views
+                  - generic [ref=e814]: •
+                  - generic [ref=e815]: 2 weeks ago
+            - button "More actions" [ref=e818]

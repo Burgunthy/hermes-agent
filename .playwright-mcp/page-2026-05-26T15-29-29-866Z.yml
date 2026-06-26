@@ -1,0 +1,242 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - paragraph [ref=e31]: the network
+        - generic [ref=e32]:
+          - paragraph [ref=e35]:
+            - text: Coordinating the collective
+            - text: to advance embodied AI
+          - generic [ref=e36]:
+            - paragraph [ref=e39]: Robotics breakthroughs won’t come from a single lab. They’ll come from the network
+            - link "join the network" [ref=e43] [cursor=pointer]:
+              - /url: ./get-involved
+              - paragraph [ref=e45]: join the network
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - paragraph [ref=e51]: Network spec
+            - paragraph [ref=e53]: results published regularly
+          - generic [ref=e54]:
+            - paragraph [ref=e61]: "Active subnets: 6"
+            - paragraph [ref=e63]: updated frequently
+        - generic [ref=e68]:
+          - generic [ref=e70]:
+            - paragraph [ref=e72]: How Subnets Coordinate Robotics Resources and Contributors
+            - generic [ref=e73]:
+              - paragraph [ref=e75]: vrw phases
+              - paragraph [ref=e77]: monthly epochs
+          - generic [ref=e78]:
+            - generic [ref=e84]:
+              - generic [ref=e85]:
+                - generic [ref=e86]:
+                  - paragraph [ref=e88]: "01"
+                  - paragraph [ref=e90]: Coordinate
+                - paragraph [ref=e92]: Robotic missions for data collection, training, or real-world testing.
+              - paragraph [ref=e94]: people, robots, and compute organized.
+            - generic [ref=e104]:
+              - generic [ref=e105]:
+                - generic [ref=e106]:
+                  - paragraph [ref=e108]: "02"
+                  - paragraph [ref=e110]: Execute
+                - paragraph [ref=e112]: Missions brought to life with real contributions.
+              - paragraph [ref=e114]: data collected, identities created.
+            - generic [ref=e124]:
+              - generic [ref=e125]:
+                - generic [ref=e126]:
+                  - paragraph [ref=e128]: "03"
+                  - paragraph [ref=e130]: Verify
+                - paragraph [ref=e132]: Impacts & data measured, results proven and verified.
+              - paragraph [ref=e134]: contributions validated.
+    - generic [ref=e140]:
+      - generic [ref=e141]:
+        - paragraph [ref=e143]: engage
+        - generic [ref=e144]:
+          - paragraph [ref=e146]: Join or launch a subnet
+          - paragraph [ref=e148]: Participation is open to contributors at all levels, from hobbyists to active researchers.
+        - link "Build with the network" [ref=e152] [cursor=pointer]:
+          - /url: ./get-involved
+          - paragraph [ref=e154]: Build with the network
+      - generic [ref=e156]:
+        - paragraph [ref=e164]: Open opportunities
+        - generic [ref=e165]:
+          - generic [ref=e166]:
+            - generic [ref=e167]:
+              - paragraph [ref=e171]: ET Fugi
+              - paragraph [ref=e173]: SN/01
+            - generic [ref=e174]:
+              - generic [ref=e175]:
+                - paragraph [ref=e177]: Drive and Earn
+                - paragraph [ref=e179]: Buy a sidewalk robot. Catch aliens and complete missions to accumulate Qualified Miles.
+              - link "Start diriving" [ref=e182] [cursor=pointer]:
+                - /url: https://etfugi.gg
+                - paragraph [ref=e184]: Start diriving
+          - generic [ref=e185]:
+            - generic [ref=e186]:
+              - paragraph [ref=e190]: telearms
+              - paragraph [ref=e192]: SN/07
+            - generic [ref=e193]:
+              - generic [ref=e194]:
+                - paragraph [ref=e196]: Control Robotic Arms on TeleArms
+                - paragraph [ref=e198]: Sign up for Waitlist to access our teleoperation-in-simulation platform.
+              - link "play now" [ref=e201] [cursor=pointer]:
+                - /url: https://app.youform.com/forms/kce82fwu
+                - paragraph [ref=e203]: play now
+    - generic [ref=e208]:
+      - generic [ref=e209]:
+        - paragraph [ref=e211]: lab access
+        - generic [ref=e214]:
+          - heading "Frequently Asked Questions" [level=3] [ref=e216]
+          - generic [ref=e217]:
+            - generic [ref=e220] [cursor=pointer]:
+              - paragraph [ref=e222]: What is the BitRobot Network?
+              - paragraph [ref=e224]: BitRobot is the platform for distributed robotics research and development, coordinating global resources to tackle key challenges in robotics.
+            - paragraph [ref=e231] [cursor=pointer]: What is the BitRobot Network’s business model?
+            - paragraph [ref=e238] [cursor=pointer]: How is the BitRobot Network related to FrodoBots Lab?
+            - paragraph [ref=e245] [cursor=pointer]: Why is BitRobot built as a blockchain network?
+      - generic [ref=e248]:
+        - img [ref=e254]
+        - generic [ref=e256]:
+          - generic [ref=e257]:
+            - paragraph [ref=e259]: published march 10, 2025
+            - paragraph [ref=e261]: updated as necessary
+          - generic [ref=e262]:
+            - paragraph [ref=e264]: full network spec
+            - generic [ref=e265]:
+              - paragraph [ref=e268]: Read the whitepaper
+              - generic [ref=e269]:
+                - paragraph [ref=e271]: View network architecture, protocol structure, governance, the BitRobot rewards program, and more.
+                - link "Start reading" [ref=e274] [cursor=pointer]:
+                  - /url: ./whitepaper
+                  - paragraph [ref=e276]: Start reading
+    - generic [ref=e283]:
+      - link [ref=e284] [cursor=pointer]:
+        - /url: ./
+        - img [ref=e287]
+      - generic [ref=e290]:
+        - generic [ref=e291]:
+          - paragraph [ref=e293]:
+            - link "Network" [ref=e294] [cursor=pointer]:
+              - /url: ./network
+          - paragraph [ref=e296]:
+            - link "Grand Challenges" [ref=e297] [cursor=pointer]:
+              - /url: ./grand-challenges
+          - paragraph [ref=e299]:
+            - link "updates" [ref=e300] [cursor=pointer]:
+              - /url: ./updates
+          - paragraph [ref=e302]:
+            - link "Whitepaper" [ref=e303] [cursor=pointer]:
+              - /url: ./whitepaper
+          - paragraph [ref=e305]:
+            - link "origin" [ref=e306] [cursor=pointer]:
+              - /url: ./origin
+        - generic [ref=e308]:
+          - link [ref=e309] [cursor=pointer]:
+            - /url: https://x.com/BitRobotNetwork
+          - link [ref=e311] [cursor=pointer]:
+            - /url: https://discord.com/invite/bitrobot
+      - link "Join the Network" [ref=e314] [cursor=pointer]:
+        - /url: ./get-involved
+        - paragraph [ref=e316]: Join the Network
+    - generic [ref=e317]:
+      - generic [ref=e318]:
+        - paragraph [ref=e320]: Builders and researchers
+        - generic [ref=e321]:
+          - paragraph [ref=e323]: selected partners
+          - paragraph [ref=e325]: builders & researchers
+      - generic [ref=e327]:
+        - img [ref=e331]
+        - img [ref=e342]
+        - img [ref=e347]
+        - img [ref=e382]
+        - img [ref=e405]
+        - img [ref=e410]
+    - generic [ref=e415]:
+      - generic [ref=e416]:
+        - generic [ref=e417]:
+          - link "start coordinating Early access to subnet launches, challenges, and network updates. Connect with researchers and operators. join now" [ref=e418] [cursor=pointer]:
+            - /url: https://discord.com/invite/bitrobot
+            - paragraph [ref=e420]: start coordinating
+            - generic [ref=e421]:
+              - generic [ref=e422]:
+                - paragraph [ref=e423]
+                - paragraph [ref=e424]
+                - paragraph [ref=e425]: Early access to subnet launches, challenges, and network updates. Connect with researchers and operators.
+              - paragraph [ref=e428]: join now
+          - generic [ref=e431]:
+            - paragraph [ref=e433]: Newsletter
+            - generic [ref=e434]:
+              - textbox [ref=e437]:
+                - /placeholder: Enter your email
+              - button "Get on the list →" [ref=e439] [cursor=pointer]:
+                - paragraph [ref=e441]: Get on the list →
+        - generic [ref=e442]:
+          - generic [ref=e446]:
+            - generic [ref=e448]:
+              - paragraph [ref=e450]: connect
+              - generic [ref=e451]:
+                - paragraph [ref=e453]:
+                  - link "X" [ref=e454] [cursor=pointer]:
+                    - /url: https://x.com/BitRobotNetwork
+                - paragraph [ref=e456]:
+                  - link "Discord" [ref=e457] [cursor=pointer]:
+                    - /url: https://discord.com/invite/bitrobot
+            - generic [ref=e458]:
+              - paragraph [ref=e460]: learn
+              - generic [ref=e461]:
+                - paragraph [ref=e463]:
+                  - link "Home" [ref=e464] [cursor=pointer]:
+                    - /url: ./
+                - paragraph [ref=e466]:
+                  - link "Network" [ref=e467] [cursor=pointer]:
+                    - /url: ./network
+                - paragraph [ref=e469]:
+                  - link "Origin" [ref=e470] [cursor=pointer]:
+                    - /url: ./origin
+                - paragraph [ref=e472]:
+                  - link "Updates" [ref=e473] [cursor=pointer]:
+                    - /url: ./updates
+                - paragraph [ref=e475]:
+                  - link "Whitepaper" [ref=e476] [cursor=pointer]:
+                    - /url: ./whitepaper
+            - generic [ref=e477]:
+              - paragraph [ref=e479]: engage
+              - generic [ref=e480]:
+                - paragraph [ref=e482]:
+                  - link "Grand Challenges" [ref=e483] [cursor=pointer]:
+                    - /url: ./grand-challenges
+                - paragraph [ref=e485]:
+                  - link "Launch a Subnet" [ref=e486] [cursor=pointer]:
+                    - /url: https://form.typeform.com/to/kv7iWjKw
+                - paragraph [ref=e488]:
+                  - link "Contribute Compute" [ref=e489] [cursor=pointer]:
+                    - /url: https://form.typeform.com/to/Ac3Mqu6p
+                - paragraph [ref=e491]:
+                  - link "License Outputs" [ref=e492] [cursor=pointer]:
+                    - /url: https://form.typeform.com/to/mbR9ZfG2
+            - generic [ref=e494]:
+              - paragraph [ref=e496]: contact
+              - generic [ref=e497]:
+                - paragraph [ref=e499]:
+                  - link "Media Inquiries" [ref=e500] [cursor=pointer]:
+                    - /url: mailto:contact@bitrobot.ai
+                - paragraph [ref=e502]:
+                  - link "Brand Assets" [ref=e503] [cursor=pointer]:
+                    - /url: ./brand
+                - paragraph [ref=e505]:
+                  - link "Careers" [ref=e506] [cursor=pointer]:
+                    - /url: https://jobs.solana.com/companies/bitrobot-foundation
+          - generic [ref=e507]:
+            - img [ref=e510]
+            - img [ref=e514]
+            - paragraph [ref=e518]: THE WORLD’S OPEN ROBOTICS LAB
+      - generic [ref=e519]:
+        - generic [ref=e520]:
+          - paragraph [ref=e522]:
+            - link "terms of service" [ref=e523] [cursor=pointer]:
+              - /url: ./updates/terms
+          - paragraph [ref=e525]:
+            - link "privacy policy" [ref=e526] [cursor=pointer]:
+              - /url: ./updates/privacy
+        - paragraph [ref=e529]: ©2026 bitrobot network
+  - img [ref=e531]

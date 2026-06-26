@@ -1,0 +1,432 @@
+- generic [active] [ref=e1]:
+  - link "본문 바로가기" [ref=e2] [cursor=pointer]:
+    - /url: "#ct"
+  - banner:
+    - generic [ref=e6]:
+      - heading "Naver 이전페이지" [level=1] [ref=e7]:
+        - link "Naver" [ref=e8] [cursor=pointer]:
+          - /url: https://m.naver.com/
+          - generic [ref=e9]: Naver
+        - link "이전페이지":
+          - /url: "#"
+          - generic: 이전페이지
+      - search [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e13]:
+            - textbox "검색어를 입력해 주세요." [ref=e14]: 에임하이 MJ 코인 트레이더 매매법 타임프레임
+            - button "입력 내용 삭제" [ref=e15]:
+              - generic [ref=e16]: 입력 내용 삭제
+          - generic [ref=e17]:
+            - button "음성검색" [ref=e18]:
+              - generic [ref=e19]: 음성검색
+            - button "검색":
+              - generic: 검색
+    - tablist [ref=e22]:
+      - tab "블로그" [ref=e23] [cursor=pointer]: 블로그
+      - tab "카페" [ref=e24] [cursor=pointer]: 카페
+      - tab "이미지" [ref=e25] [cursor=pointer]: 이미지
+      - tab "클립" [ref=e26] [cursor=pointer]: 클립
+      - tab "지식iN" [ref=e27] [cursor=pointer]: 지식iN
+      - tab "인플루언서" [ref=e28] [cursor=pointer]: 인플루언서
+      - tab "동영상" [ref=e29] [cursor=pointer]: 동영상
+      - tab "쇼핑" [ref=e30] [cursor=pointer]
+      - tab "뉴스" [ref=e31] [cursor=pointer]: 뉴스
+      - tab "숏텐츠" [ref=e32] [cursor=pointer]: 숏텐츠
+      - tab "어학사전" [ref=e33] [cursor=pointer]
+      - tab "지도" [ref=e34] [cursor=pointer]
+      - tab "도서" [ref=e35] [cursor=pointer]
+      - tab "지식백과" [ref=e36] [cursor=pointer]
+      - tab "검색옵션" [ref=e37] [cursor=pointer]
+  - generic [ref=e39]:
+    - generic [ref=e41]:
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - link "sigbit.kr›swing-trading-guide" [ref=e49] [cursor=pointer]:
+              - /url: https://sigbit.kr/strategy/swing-trading-guide
+              - generic [ref=e51]:
+                - img [ref=e55]
+                - generic [ref=e71]: sigbit.kr›swing-trading-guide
+            - button "옵션 메뉴 열기" [ref=e73] [cursor=pointer]:
+              - img [ref=e74]
+          - link "코인 스윙 트레이딩 완벽 가이드 2026 — 전략·진입 타점·리스크 관리 총정리 | SigBit" [ref=e80] [cursor=pointer]:
+            - /url: https://sigbit.kr/strategy/swing-trading-guide
+            - generic [ref=e81]:
+              - mark [ref=e82]: 코인
+              - text: 스윙 트레이딩 완벽 가이드 2026 — 전략·진입 타점·리스크 관리 총정리 | SigBit
+        - generic [ref=e83]:
+          - generic [ref=e86]:
+            - generic [ref=e89] [cursor=pointer]: 1. 스윙 트레이딩이란?
+            - generic [ref=e92] [cursor=pointer]: 2. 스캘핑·스윙·장기투자 비교
+            - generic [ref=e95] [cursor=pointer]: 3. 스윙 트레이딩 타임프레임
+            - generic [ref=e98] [cursor=pointer]: 4. 스윙 트레이딩 핵심 지표
+            - generic [ref=e101] [cursor=pointer]: 5. 스윙 트레이딩 진입 타점
+            - generic [ref=e104] [cursor=pointer]: 6. 스윙 트레이딩 실전 전략
+            - generic [ref=e107] [cursor=pointer]: 7. 리스크 관리
+            - generic [ref=e110] [cursor=pointer]: 8. 김프·공포탐욕지수 활용
+          - generic [ref=e112]:
+            - generic [ref=e116]:
+              - generic [ref=e117]: 2026.03.06.
+              - text: 스윙 트레이딩(Swing Trading) 은 수일~수주 단위로 포지션을 보유하며 중기 가격 움직임(스윙)을 노리는 매매 전략입니다. 일반적으로 4시간봉~일봉을 주로 활용하며, 하루에 수십 번 거래하는 스캘핑과 수개월~수년을 보유하는 장기투자의 중간에 위치합니다. 직장인이나 전업 트레이더가 아닌 분들에게 특히 적합합니다. 하루 1~2번 차트를 확인하고 포지션을 관리하면 되기 때문...
+            - generic [ref=e121]: 구분 스캘핑 스윙 트레이딩 장기 투자 보유 기간 수초~수분 수일~수주 수개월~수년 목표 수익 0.1~1% 5~30% 100%+ 타임프레임 1분~5분봉 4시간~일봉 주봉~월봉 필요 시간 하루 종일 하루 1~2회 주 1회 스트레스 극심 중간 낮음
+            - generic [ref=e125]: "일봉(1D) : 스윙 트레이딩의 핵심 타임프레임. 전체 방향과 주요 지지·저항 파악 4시간봉(4H) : 진입 타이밍 포착. 일봉 방향과 일치하는 4시간봉 신호만 진입 1시간봉(1H) : 더 정밀한 진입 타이밍 확인용 핵심 원칙: 상위 타임프레임(일봉)에서 방향을 확인하고, 하위 타임프레임(4시간봉)에서 진입 타이밍을 잡습니다."
+            - generic [ref=e129]: EMA 200 — 장기 추세 판단 일봉 EMA200 위에서만 롱 포지션, 아래에서는 숏 포지션을 원칙으로 합니다. EMA200은 장기 상승장·하락장의 경계선입니다. RSI (14) — 과매수·과매도 일봉 RSI 40~60 구간에서의 돌파가 스윙 진입 신호로 자주 활용됩니다. 일봉 RSI 30 이하는 강한 매수 기회, 70 이상은 익절 구간입니다. MACD — 추세 전환 일봉 MACD 골든크로스 + 0선 상향 돌파는 강한 스윙 롱 신호...
+            - generic [ref=e133]: 풀백(Pullback) 진입 — 가장 안전한 방법 상승 추세에서 가격이 EMA50 또는 주요 지지선까지 되돌아올 때 롱 진입 하락 추세에서 가격이 EMA50 또는 주요 저항선까지 반등할 때 숏 진입 리스크 대비 보상 비율(R:R)이 1:2 이상일 때만 진입 돌파(Breakout) 진입 주요 저항선을 거래량 급증과 함께 돌파할 때 롱 진입 돌파 후 재테스트(저항이 지지로 전환) 확인 후 진입이 더 안전
+            - generic [ref=e137]: 전략 1 — 반감기 사이클 스윙 비트코인 반감기 후 6~18개월이 역사적으로 강한 상승 구간입니다. 이 구간에서는 풀백 시마다 롱을 추가하는 전략이 효과적입니다. 공포탐욕지수 30 이하, 김프 역프 구간이 최적 진입 기회입니다. 전략 2 — 김프+공포탐욕지수 조합 스윙 역프 + 공포탐욕지수 25 이하 + 일봉 RSI 35 이하 → 스윙 롱 진입 김프 +5%+ + 공포탐욕지수 80+ + 일봉 RSI 70+ → 스윙...
+            - generic [ref=e141]: "손절 설정 : 진입 즉시 설정. 일반적으로 진입가 대비 3~7% 수준 레버리지 : 스윙에는 3~10배 권장. 높은 레버리지는 작은 조정에도 청산 위험 포지션 크기 : 한 포지션에 계좌의 10~20% 이하 분할 진입·청산 : 한 번에 전량 진입보다 2~3회 분할이 리스크 분산 FOMC 전 포지션 관리 : 주요 경제 이벤트 전날 손절을 타이트하게 설정하거나 포지션 축소"
+            - generic [ref=e145]: "스윙 트레이딩에서 김프와 공포탐욕지수는 거시적 진입·청산 타이밍을 잡는 데 매우 유용합니다: 역프 + 공포탐욕지수 25 이하: 중기 바닥 가능성 높음 → 스윙 롱 시작 김프 +5%+, 공포탐욕지수 80+: 중기 고점 경계 → 스윙 익절 시작 시그빗에서 두 지표를 실시간으로 무료 확인"
+      - generic [ref=e152]:
+        - generic [ref=e153]:
+          - generic [ref=e154]:
+            - link "차트온 - Chart On" [ref=e156] [cursor=pointer]:
+              - /url: https://m.youtube.com/channel/UCln8uzpEWiNC2jTdfETOUBQ
+              - img "차트온 - Chart On" [ref=e159]
+            - link "차트온 - Chart On" [ref=e162] [cursor=pointer]:
+              - /url: https://m.youtube.com/channel/UCln8uzpEWiNC2jTdfETOUBQ
+              - generic [ref=e163]: 차트온 - Chart On
+            - generic [ref=e164]:
+              - link "YouTube" [ref=e167] [cursor=pointer]:
+                - /url: https://www.youtube.com
+                - generic [ref=e168]: YouTube
+              - generic [ref=e171]: 2025.10.17.
+          - button "옵션 메뉴 열기" [ref=e173] [cursor=pointer]:
+            - img [ref=e174]
+        - link "트레이딩 우승자가 알려준 10억을 만들 수 있었던 이동평균선 + 거래량 매매법 ( VWAP )" [ref=e178] [cursor=pointer]:
+          - /url: https://m.youtube.com/watch?v=zOiFJYV5mRo
+          - generic [ref=e179]:
+            - text: 트레이딩 우승자가 알려준 10억을 만들 수 있었던 이동평균선 + 거래량
+            - mark [ref=e180]: 매매법
+            - text: ( VWAP )
+        - link "트레이딩 우승자가 알려준 10억을 만들 수 있었던 이동평균선 + 거래량 매매법 ( VWAP ) 08:28" [ref=e182] [cursor=pointer]:
+          - /url: https://m.youtube.com/watch?v=zOiFJYV5mRo
+          - generic [ref=e183]:
+            - img "트레이딩 우승자가 알려준 10억을 만들 수 있었던 이동평균선 + 거래량 매매법 ( VWAP )" [ref=e184]
+            - generic [ref=e185]:
+              - generic [ref=e186]: 08:28
+              - img [ref=e187]
+      - generic [ref=e194]:
+        - generic [ref=e195]:
+          - generic [ref=e196]:
+            - link [ref=e198] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/sprngfl
+            - link "맛풍선의 미국 이민 사전준비 및 초기정착의 정석" [ref=e203] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/sprngfl
+              - generic [ref=e204]: 맛풍선의 미국 이민 사전준비 및 초기정착의 정석
+            - generic [ref=e207]: 2025.06.20.
+          - button "옵션 메뉴 열기" [ref=e209] [cursor=pointer]:
+            - img [ref=e210]
+        - generic [ref=e216]:
+          - link "[트레이딩] 세상에서 가장 간단하고 승률 제일 높은 scapling 매매법 지표 하나 만들어줘!" [ref=e217] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/sprngfl/223905485588
+            - generic [ref=e218]:
+              - text: "[트레이딩] 세상에서 가장 간단하고 승률 제일 높은 scapling"
+              - mark [ref=e219]: 매매법
+              - text: 지표 하나 만들어줘!
+          - generic [ref=e220]:
+            - 'link "질문: 비트코인 scalping을 하는데 가장 심플하면서 승률이 최고 좋은 매매법 하나 알려줘! 답변... 반전 매매법 사용 도구: 차트 타임프레임: 1분 or 3분 (5분도 가능) 지표: EMA 50 (지수이동평균선) EMA 200 (추세 확인용) 보조: 거래량(선택), RSI(선택) 매매 조건 (롱 포지션 기준): EMA 50이 EMA..." [ref=e222] [cursor=pointer]':
+              - /url: https://m.blog.naver.com/sprngfl/223905485588
+              - generic [ref=e223]:
+                - text: "질문: 비트"
+                - mark [ref=e224]: 코인
+                - text: scalping을 하는데 가장 심플하면서 승률이 최고 좋은
+                - mark [ref=e225]: 매매법
+                - text: 하나 알려줘! 답변... 반전
+                - mark [ref=e226]: 매매법
+                - text: "사용 도구: 차트"
+                - mark [ref=e227]: 타임프레임
+                - text: ": 1분 or 3분 (5분도 가능) 지표: EMA 50 (지수이동평균선) EMA 200 (추세 확인용) 보조: 거래량(선택), RSI(선택)"
+                - mark [ref=e228]: 매매
+                - text: "조건 (롱 포지션 기준): EMA 50이 EMA..."
+            - link [ref=e229] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/sprngfl/223905485588
+              - img [ref=e232]
+      - generic [ref=e239]:
+        - generic [ref=e240]:
+          - generic [ref=e241]:
+            - link [ref=e243] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/coinwhitepaper
+            - link "부의 축적" [ref=e248] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/coinwhitepaper
+              - generic [ref=e249]: 부의 축적
+            - generic [ref=e252]: 2025.04.02.
+          - button "옵션 메뉴 열기" [ref=e254] [cursor=pointer]:
+            - img [ref=e255]
+        - generic [ref=e261]:
+          - 'link "주식·코인 차트 분석: 1분봉부터 1일까지, 시간 프레임별 전략 총정리" [ref=e262] [cursor=pointer]':
+            - /url: https://m.blog.naver.com/coinwhitepaper/223819894328
+            - generic [ref=e263]:
+              - text: 주식·
+              - mark [ref=e264]: 코인
+              - text: "차트 분석: 1분봉부터 1일까지, 시간"
+              - mark [ref=e265]: 프레임
+              - text: 별 전략 총정리
+          - generic [ref=e266]:
+            - 'link "오늘은 각 시간 프레임의 특징과 어떻게 활용하면 좋을지 정리해볼게요. ⏱ 1분봉 (초단타, 스캘핑 트레이더용) 특징... 보조지표 추천: 이평선(20MA, 60MA), 피보나치 되돌림 ⏰ 4시간봉 (스윙 매매의 핵심 타임프레임) 특징: 일봉보단 민감하고, 단봉보단 안정적인 흐름. 활용 팁: 중기 추세 확인, 전략적 진입·청산 판단 시 좋아요. 특히 코인 시장에서는 4시간봉이..." [ref=e268] [cursor=pointer]':
+              - /url: https://m.blog.naver.com/coinwhitepaper/223819894328
+              - generic [ref=e269]:
+                - text: 오늘은 각 시간
+                - mark [ref=e270]: 프레임
+                - text: 의 특징과 어떻게 활용하면 좋을지 정리해볼게요. ⏱ 1분봉 (초단타, 스캘핑
+                - mark [ref=e271]: 트레이더
+                - text: "용) 특징... 보조지표 추천: 이평선(20MA, 60MA), 피보나치 되돌림 ⏰ 4시간봉 (스윙"
+                - mark [ref=e272]: 매매
+                - text: 의 핵심
+                - mark [ref=e273]: 타임프레임
+                - text: ") 특징: 일봉보단 민감하고, 단봉보단 안정적인 흐름. 활용 팁: 중기 추세 확인, 전략적 진입·청산 판단 시 좋아요. 특히"
+                - mark [ref=e274]: 코인
+                - text: 시장에서는 4시간봉이...
+            - link [ref=e275] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/coinwhitepaper/223819894328
+              - img [ref=e278]
+      - generic [ref=e285]:
+        - generic [ref=e286]:
+          - generic [ref=e287]:
+            - link [ref=e289] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/ha_silver_couple
+            - link "일상공유" [ref=e294] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/ha_silver_couple
+              - generic [ref=e295]: 일상공유
+            - generic [ref=e298]: 2025.08.12.
+          - button "옵션 메뉴 열기" [ref=e300] [cursor=pointer]:
+            - img [ref=e301]
+        - generic [ref=e307]:
+          - 'link "FVG 트레이딩 기본 가이드: 초보자도 이해하는 7단계 프로세스" [ref=e308] [cursor=pointer]':
+            - /url: https://m.blog.naver.com/ha_silver_couple/223967897197
+            - generic [ref=e309]: "FVG 트레이딩 기본 가이드: 초보자도 이해하는 7단계 프로세스"
+          - generic [ref=e310]:
+            - link "즉, 매매 타이밍을 잡을 수 있는 유효한 구간이죠. 이번 글에서는 FVG의 기본 정의, 차트에서 찾는 법, 진입·청산·리스크 관리까지 초보자도 바로 따라 할 수 있는 7단계로 나눠... 하위 타임프레임에서 세부 진입 타이밍 조율. 7. 리스크 관리와 기록 1회 거래당 전체 자산의 1~2%만 리스크로 설정. FVG 매매 후 결과와 차트 캡처 기록 → 패턴 복습으로 정확도 향상...." [ref=e312] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/ha_silver_couple/223967897197
+              - generic [ref=e313]:
+                - text: 즉,
+                - mark [ref=e314]: 매매
+                - text: 타이밍을 잡을 수 있는 유효한 구간이죠. 이번 글에서는 FVG의 기본 정의, 차트에서 찾는
+                - mark [ref=e315]: 법
+                - text: ", 진입·청산·리스크 관리까지 초보자도 바로 따라 할 수 있는 7단계로 나눠... 하위"
+                - mark [ref=e316]: 타임프레임
+                - text: 에서 세부 진입 타이밍 조율. 7. 리스크 관리와 기록 1회 거래당 전체 자산의 1~2%만 리스크로 설정. FVG
+                - mark [ref=e317]: 매매
+                - text: 후 결과와 차트 캡처 기록 → 패턴 복습으로 정확도 향상....
+            - link "8" [ref=e318] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/ha_silver_couple/223967897197
+              - generic [ref=e320]:
+                - img [ref=e321]
+                - generic [ref=e325]: "8"
+    - generic [ref=e327]:
+      - generic [ref=e333]:
+        - generic [ref=e334]:
+          - generic [ref=e335]:
+            - link [ref=e337] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/cointr185
+            - link "cointr185님의 블로그" [ref=e342] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/cointr185
+              - generic [ref=e343]: cointr185님의 블로그
+            - generic [ref=e346]: 2025.04.15.
+          - button "옵션 메뉴 열기" [ref=e348] [cursor=pointer]:
+            - img [ref=e349]
+        - generic [ref=e355]:
+          - link "실전 코인트레이더를 위한 고수익 이동평균선 완벽 가이드" [ref=e356] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/cointr185/223834160035
+            - generic [ref=e357]:
+              - text: 실전
+              - mark [ref=e358]: 코인트레이더
+              - text: 를 위한 고수익 이동평균선 완벽 가이드
+          - link "와서 매매 타이밍을 다 놓쳤어요. 그래서 암호화폐 시장에 최적화된 이동평균선 기간은 좀 더 짧아요. 제 경험과 많은 전문 트레이더들의 의견을 종합해보면, 코인 트레이딩에 가장 효과적인 이동평균선 설정은 다음과 같습니다. 이동평균선 기간 트레이딩 스타일 적합한 타임프레임 정확도 5, 10, 21 EMA 스캘핑/초단타 1분, 5분, 15분 변동성 높은 시장에서 70% 9, 21, 55 EMA..." [ref=e361] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/cointr185/223834160035
+            - generic [ref=e362]:
+              - text: 와서
+              - mark [ref=e363]: 매매
+              - text: 타이밍을 다 놓쳤어요. 그래서 암호화폐 시장에 최적화된 이동평균선 기간은 좀 더 짧아요. 제 경험과 많은 전문
+              - mark [ref=e364]: 트레이더
+              - text: 들의 의견을 종합해보면,
+              - mark [ref=e365]: 코인
+              - text: 트레이딩에 가장 효과적인 이동평균선 설정은 다음과 같습니다. 이동평균선 기간 트레이딩 스타일 적합한
+              - mark [ref=e366]: 타임프레임
+              - text: 정확도 5, 10, 21 EMA 스캘핑/초단타 1분, 5분, 15분 변동성 높은 시장에서 70% 9, 21, 55 EMA...
+      - generic [ref=e372]:
+        - generic [ref=e373]:
+          - generic [ref=e374]:
+            - link [ref=e376] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/investment_guide
+            - link "투자가이드" [ref=e381] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/investment_guide
+              - generic [ref=e382]: 투자가이드
+            - generic [ref=e385]: 2025.11.06.
+          - button "옵션 메뉴 열기" [ref=e387] [cursor=pointer]:
+            - img [ref=e388]
+        - generic [ref=e394]:
+          - link "MT5(메타트레이더5) 단타 & 양방향 거래 잘하는 법과 장점 정리" [ref=e395] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/investment_guide/224066732516
+            - generic [ref=e396]:
+              - text: MT5(메타
+              - mark [ref=e397]: 트레이더
+              - text: 5) 단타 & 양방향 거래 잘하는 법과 장점 정리
+          - generic [ref=e398]:
+            - link "MT5(메타트레이더5) 단타 & 양방향 거래 잘하는 법과 장점 정리 MT5는 전 세계 트레이더들이 가장 많이 사용하는 멀티... 잘하는 법 MT5는 빠른 체결과 낮은 슬리피지로 단타에 최적화되어 있습니다. 단타는 짧은 시간에 여러 번 진입·청산을... 차트·21개 타임프레임·수십 가지 인디케이터 자동화 EA(자동매매)와 시그널 복사 기능으로 반복매매 효율적 투명성 호가..." [ref=e400] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/investment_guide/224066732516
+              - generic [ref=e401]:
+                - text: MT5(메타
+                - mark [ref=e402]: 트레이더
+                - text: 5) 단타 & 양방향 거래 잘하는 법과 장점 정리 MT5는 전 세계
+                - mark [ref=e403]: 트레이더
+                - text: 들이 가장 많이 사용하는 멀티... 잘하는
+                - mark [ref=e404]: 법
+                - text: MT5는 빠른 체결과 낮은 슬리피지로 단타에 최적화되어 있습니다. 단타는 짧은 시간에 여러 번 진입·청산을... 차트·21개
+                - mark [ref=e405]: 타임프레임
+                - text: ·수십 가지 인디케이터 자동화 EA(자동
+                - mark [ref=e406]: 매매
+                - text: )와 시그널 복사 기능으로 반복
+                - mark [ref=e407]: 매매
+                - text: 효율적 투명성 호가...
+            - link "3" [ref=e408] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/investment_guide/224066732516
+              - generic [ref=e410]:
+                - img [ref=e411]
+                - generic [ref=e415]: "3"
+      - generic [ref=e420]:
+        - generic [ref=e421]:
+          - generic [ref=e422]:
+            - link "blog.kakaocdn.net›산업통상부_외국인투자기업정보.xlsx XLS" [ref=e423] [cursor=pointer]:
+              - /url: https://blog.kakaocdn.net/dn/3NoAH/btsIsCaMeEO/M4rQrcg7Ac9aoU5oFfPHzk/%EC%82%B0%EC%97%85%ED%86%B5%EC%83%81%EB%B6%80_%EC%99%B8%EA%B5%AD%EC%9D%B8%ED%88%AC%EC%9E%90%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4.xlsx?attach=1&knm=tfile.xlsx
+              - generic [ref=e425]:
+                - img [ref=e429]
+                - generic [ref=e445]: blog.kakaocdn.net›산업통상부_외국인투자기업정보.xlsx
+              - generic [ref=e447]: XLS
+            - button "옵션 메뉴 열기" [ref=e449] [cursor=pointer]:
+              - img [ref=e450]
+          - generic [ref=e454]:
+            - link "▒▒▒ INSC(투자신고통계시스템) ▒▒▒" [ref=e456] [cursor=pointer]:
+              - /url: https://blog.kakaocdn.net/dn/3NoAH/btsIsCaMeEO/M4rQrcg7Ac9aoU5oFfPHzk/%EC%82%B0%EC%97%85%ED%86%B5%EC%83%81%EB%B6%80_%EC%99%B8%EA%B5%AD%EC%9D%B8%ED%88%AC%EC%9E%90%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4.xlsx?attach=1&knm=tfile.xlsx
+            - link "3MB개발,매매,분양,임대,관리,서비스업등 네덜란드 법인기업 (유)디비테크 DB TECH CO.,LTD. 061-381-8247 57241 전라남도 장성군 동화면 전자농공단지길 ( ) 47 화공 그 외 기타 플라스틱 제품 제조업 22299 20160601 친환경난연플라스틱마스타벳치 제조 캐나다 법인기업 (유)디엑스레이서코리아 DXRACER KOREA 061-464-8826 58578 전라남도 무안군..." [ref=e458] [cursor=pointer]:
+              - /url: https://blog.kakaocdn.net/dn/3NoAH/btsIsCaMeEO/M4rQrcg7Ac9aoU5oFfPHzk/%EC%82%B0%EC%97%85%ED%86%B5%EC%83%81%EB%B6%80_%EC%99%B8%EA%B5%AD%EC%9D%B8%ED%88%AC%EC%9E%90%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4.xlsx?attach=1&knm=tfile.xlsx
+              - generic [ref=e459]:
+                - generic [ref=e460]: 3MB
+                - generic [ref=e461]:
+                  - text: 개발,
+                  - mark [ref=e462]: 매매
+                  - text: ",분양,임대,관리,서비스업등 네덜란드 법인기업 (유)디비테크 DB TECH CO.,LTD. 061-381-8247 57241 전라남도 장성군 동화면 전자농공단지길 ( ) 47 화공 그 외 기타 플라스틱 제품 제조업 22299 20160601 친환경난연플라스틱마스타벳치 제조 캐나다 법인기업 (유)디엑스레이서코리아 DXRACER KOREA 061-464-8826 58578 전라남도 무안군..."
+        - generic [ref=e463]:
+          - generic [ref=e465]:
+            - link "▒▒▒ INSC(투자신고통계시스템) ▒▒▒" [ref=e466] [cursor=pointer]:
+              - /url: https://blog.kakaocdn.net/dn/crr95Z/btrIEYe5Pb3/uGihGvhTooXELz3bTKi5D0/%EC%99%B8%EA%B5%AD%EC%9D%B8%ED%88%AC%EC%9E%90%EA%B8%B0%EC%97%85%EC%A0%95%EB%B3%B4.xlsx?attach=1&knm=tfile.xlsx
+              - generic [ref=e467]: ▒▒▒ INSC(투자신고통계시스템) ▒▒▒
+            - generic [ref=e469]: 외국인투자기업정보 외국인투자기업정보 회사명(한글) 회사명(영문) 전화번호 우편번호 주소 표준산업중분류명 표준산업분류명 표준산업분류코드 외투기업최초등록일자 대표업종 대표투자국가 업체유형 (주)한국보팍터미날 VOPAK TERMINALS KOREA LTD. 02-3275-9943 3162 서울특별시 종로구 인사동5길 25, 3층(인사동...
+          - link "관련문서 더보기" [ref=e471] [cursor=pointer]:
+            - /url: "?page=2&query=%EC%97%90%EC%9E%84%ED%95%98%EC%9D%B4+MJ+%EC%BD%94%EC%9D%B8+%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8D%94+%EB%A7%A4%EB%A7%A4%EB%B2%95+%ED%83%80%EC%9E%84%ED%94%84%EB%A0%88%EC%9E%84+site%3Ablog.kakaocdn.net&qvt=0&ssc=tab.m_ur.all"
+            - generic [ref=e472]: 관련문서 더보기
+            - img [ref=e473]
+      - generic [ref=e480]:
+        - generic [ref=e481]:
+          - link "Scribd www.scribd.com›2019년-외국계-기업-리스트" [ref=e482] [cursor=pointer]:
+            - /url: https://www.scribd.com/document/904927768/2019%EB%85%84-%EC%99%B8%EA%B5%AD%EA%B3%84-%EA%B8%B0%EC%97%85-%EB%A6%AC%EC%8A%A4%ED%8A%B8
+            - generic [ref=e484]:
+              - generic [ref=e489]: Scribd
+              - generic [ref=e493]: www.scribd.com›2019년-외국계-기업-리스트
+          - button "옵션 메뉴 열기" [ref=e495] [cursor=pointer]:
+            - img [ref=e496]
+        - generic [ref=e500]:
+          - link "2019년 외국계 기업 리스트 | PDF" [ref=e502] [cursor=pointer]:
+            - /url: https://www.scribd.com/document/904927768/2019%EB%85%84-%EC%99%B8%EA%B5%AD%EA%B3%84-%EA%B8%B0%EC%97%85-%EB%A6%AC%EC%8A%A4%ED%8A%B8
+          - generic [ref=e503]:
+            - link "2019년 외국계 기업 리스트 | PDF의 이미지" [ref=e504] [cursor=pointer]:
+              - /url: https://www.scribd.com/document/904927768/2019%EB%85%84-%EC%99%B8%EA%B5%AD%EA%B3%84-%EA%B8%B0%EC%97%85-%EB%A6%AC%EC%8A%A4%ED%8A%B8
+              - img "2019년 외국계 기업 리스트 | PDF의 이미지" [ref=e506]
+            - link "Copyright · © © All Rights Reserved ; We take content rights seriously. If you suspect this is your content, claim it here." [ref=e508] [cursor=pointer]:
+              - /url: https://www.scribd.com/document/904927768/2019%EB%85%84-%EC%99%B8%EA%B5%AD%EA%B3%84-%EA%B8%B0%EC%97%85-%EB%A6%AC%EC%8A%A4%ED%8A%B8
+              - generic [ref=e509]: Copyright · © © All Rights Reserved ; We take content rights seriously. If you suspect this is your content, claim it here.
+      - generic [ref=e515]:
+        - generic [ref=e516]:
+          - link "cfile219.uf.daum.net›attach XLS" [ref=e517] [cursor=pointer]:
+            - /url: http://cfile219.uf.daum.net/attach/9941C04F5CD78FE12F4045
+            - generic [ref=e525]: cfile219.uf.daum.net›attach
+            - generic [ref=e527]: XLS
+          - button "옵션 메뉴 열기" [ref=e529] [cursor=pointer]:
+            - img [ref=e530]
+        - generic [ref=e534]:
+          - link "고양페이 사용 가능 사업장(카드가맹점) 현황.xlsx" [ref=e536] [cursor=pointer]:
+            - /url: http://cfile219.uf.daum.net/attach/9941C04F5CD78FE12F4045
+          - link "3MBSheet1 가맹점명 주소1 주소2 DIVE WAY 다이브웨이 경기 고양시 덕양구 강매동 265 만능프라자 경기 고양시 덕양구 강매동 398-1번지 삼성철강 경기 고양시 덕양구 강매동 234-6번지 승진건재 경기 고양시 덕양구 강매동 235-8 연흥사 경기 고양시 덕양구 강매동 643-1번지 일욱상사 경기 고양시 덕양구 강매동 237번지 해태상사 경기 고양시 덕양구 강매동 237번지..." [ref=e538] [cursor=pointer]:
+            - /url: http://cfile219.uf.daum.net/attach/9941C04F5CD78FE12F4045
+            - generic [ref=e539]:
+              - generic [ref=e540]: 3MB
+              - text: Sheet1 가맹점명 주소1 주소2 DIVE WAY 다이브웨이 경기 고양시 덕양구 강매동 265 만능프라자 경기 고양시 덕양구 강매동 398-1번지 삼성철강 경기 고양시 덕양구 강매동 234-6번지 승진건재 경기 고양시 덕양구 강매동 235-8 연흥사 경기 고양시 덕양구 강매동 643-1번지 일욱상사 경기 고양시 덕양구 강매동 237번지 해태상사 경기 고양시 덕양구 강매동 237번지...
+      - generic [ref=e546]:
+        - generic [ref=e547]:
+          - generic [ref=e548]:
+            - link [ref=e550] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/bulidingkim
+            - link "갈길이머니 공식 블로그_크립토채널" [ref=e555] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/bulidingkim
+              - generic [ref=e556]: 갈길이머니 공식 블로그_크립토채널
+            - generic [ref=e559]: 2025.09.24.
+          - button "옵션 메뉴 열기" [ref=e561] [cursor=pointer]:
+            - img [ref=e562]
+        - generic [ref=e568]:
+          - link "트레이더 스터디, 팀멘사 팀과 진짜 공부를 해야 하는 5가지 이유" [ref=e569] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/bulidingkim/224020227228
+            - generic [ref=e570]:
+              - mark [ref=e571]: 트레이더
+              - text: 스터디, 팀멘사 팀과 진짜 공부를 해야 하는 5가지 이유
+          - generic [ref=e572]:
+            - link "하는 “코인 공부방”이나 “트레이딩 커뮤니티”가 아닙니다. 우리는 근거 없는 이야기를 하지 않습니다. 모든 매매법과... 팀멘사와 함께 하면 좋은 점 팀멘사 트레이더스터디 팀멘사와 함께 하면 좋은 점 멀티타임프레임 지표로 여러 타임프레임 동기화 한눈에 확인할 수 있어, 매매의 정확도를 극대화합니다. 사람들을 스탑로스 시키는 고유 유동성 중 하나인 세션..." [ref=e574] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/bulidingkim/224020227228
+              - generic [ref=e575]:
+                - text: 하는 “
+                - mark [ref=e576]: 코인
+                - text: 공부방”이나 “트레이딩 커뮤니티”가 아닙니다. 우리는 근거 없는 이야기를 하지 않습니다. 모든
+                - mark [ref=e577]: 매매법
+                - text: 과... 팀멘사와 함께 하면 좋은 점 팀멘사
+                - mark [ref=e578]: 트레이더
+                - text: 스터디 팀멘사와 함께 하면 좋은 점 멀티
+                - mark [ref=e579]: 타임프레임
+                - text: 지표로 여러
+                - mark [ref=e580]: 타임프레임
+                - text: 동기화 한눈에 확인할 수 있어,
+                - mark [ref=e581]: 매매
+                - text: 의 정확도를 극대화합니다. 사람들을 스탑로스 시키는 고유 유동성 중 하나인 세션...
+            - link "11" [ref=e582] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/bulidingkim/224020227228
+              - generic [ref=e584]:
+                - img [ref=e585]
+                - generic [ref=e589]: "11"
+    - generic [ref=e592]:
+      - button "이전페이지" [disabled] [ref=e593]:
+        - generic [ref=e594]: 이전페이지
+      - generic [ref=e595]:
+        - button "1" [disabled] [ref=e596] [cursor=pointer]
+        - button "2" [ref=e597] [cursor=pointer]
+        - button "3" [ref=e598] [cursor=pointer]
+      - button "다음페이지" [ref=e599]:
+        - generic [ref=e600]: 다음페이지
+  - contentinfo [ref=e601]:
+    - generic [ref=e602]:
+      - generic [ref=e603]:
+        - generic [ref=e604]:
+          - button "가 폰트작게보기" [ref=e606] [cursor=pointer]:
+            - text: 가
+            - generic [ref=e607]: 폰트작게보기
+          - button "가 폰트크게보기" [ref=e609] [cursor=pointer]:
+            - text: 가
+            - generic [ref=e610]: 폰트크게보기
+        - generic [ref=e611]:
+          - button "공유하기" [ref=e613] [cursor=pointer]:
+            - generic [ref=e614]: 공유하기
+          - button "맨위로" [ref=e616] [cursor=pointer]:
+            - generic [ref=e617]: 맨위로
+      - generic [ref=e619]:
+        - link "로그인" [ref=e621] [cursor=pointer]:
+          - /url: https://nid.naver.com/nidlogin.login?svctype=262144&url=https%3A%2F%2Fm.search.naver.com%2Fsearch.naver%3Fquery%3D%25EC%2597%2590%25EC%259E%2584%25ED%2595%2598%25EC%259D%25B4%2BMJ%2B%25EC%25BD%2594%25EC%259D%25B8%2B%25ED%258A%25B8%25EB%25A0%2588%25EC%259D%25B4%25EB%258D%2594%2B%25EB%25A7%25A4%25EB%25A7%25A4%25EB%25B2%2595%2B%25ED%2583%2580%25EC%259E%2584%25ED%2594%2584%25EB%25A0%2588%25EC%259E%2584%26where%3Dm_view
+        - link "전체서비스" [ref=e623] [cursor=pointer]:
+          - /url: https://m.naver.com/services.html?f=svc.search
+        - link "PC버전" [ref=e625] [cursor=pointer]:
+          - /url: https://search.naver.com/search.naver?query=%EC%97%90%EC%9E%84%ED%95%98%EC%9D%B4+MJ+%EC%BD%94%EC%9D%B8+%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%8D%94+%EB%A7%A4%EB%A7%A4%EB%B2%95+%ED%83%80%EC%9E%84%ED%94%84%EB%A0%88%EC%9E%84&where=nexearch&sm=mtb_pcv&ssc=tab.nx.all
+      - generic [ref=e626]:
+        - generic [ref=e627]:
+          - link "이용약관" [ref=e629] [cursor=pointer]:
+            - /url: https://policy.naver.com/policy-mobile/term.html
+          - link "개인정보처리방침" [ref=e631] [cursor=pointer]:
+            - /url: https://policy.naver.com/policy-mobile/privacy.html
+          - link "검색 고객센터" [ref=e633] [cursor=pointer]:
+            - /url: https://help.naver.com/alias/search/integration/main.naver
+        - link "NAVER" [ref=e634] [cursor=pointer]:
+          - /url: https://www.navercorp.com/
+          - generic [ref=e635]: NAVER

@@ -1,0 +1,915 @@
+- generic [active] [ref=e1]:
+  - link "Jump to content" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "Site" [ref=e6]:
+        - generic "Main menu" [ref=e7]:
+          - button "Main menu" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: Main menu
+      - link "Wikipedia The Free Encyclopedia" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - generic [ref=e13]:
+          - img "Wikipedia" [ref=e14]
+          - img "The Free Encyclopedia" [ref=e15]
+    - generic [ref=e16]:
+      - search [ref=e17]:
+        - generic [ref=e20]:
+          - searchbox "Search Wikipedia" [ref=e23]
+          - button "Search" [ref=e25]
+      - navigation "Personal tools" [ref=e26]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Donate" [ref=e32] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+          - listitem [ref=e33]:
+            - link "Create account" [ref=e34] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:CreateAccount&returnto=Average+true+range
+          - listitem [ref=e35]:
+            - link "Log in" [ref=e36] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:UserLogin&returnto=Average+true+range
+  - generic [ref=e38]:
+    - navigation "Contents" [ref=e42]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "Contents" [level=2] [ref=e46]
+          - button "hide" [ref=e47] [cursor=pointer]
+        - list [ref=e48]:
+          - listitem [ref=e49]:
+            - link "(Top)" [ref=e50] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e51]: (Top)
+          - listitem [ref=e52]:
+            - link "Calculation" [ref=e53] [cursor=pointer]:
+              - /url: "#Calculation"
+              - generic [ref=e54]: Calculation
+            - list
+          - listitem [ref=e55]:
+            - link "Applicability to futures contracts vs. stocks" [ref=e56] [cursor=pointer]:
+              - /url: "#Applicability_to_futures_contracts_vs._stocks"
+              - generic [ref=e57]: Applicability to futures contracts vs. stocks
+            - list
+          - listitem [ref=e58]:
+            - link "Use in position size calculation" [ref=e59] [cursor=pointer]:
+              - /url: "#Use_in_position_size_calculation"
+              - generic [ref=e60]: Use in position size calculation
+            - list
+          - listitem [ref=e61]:
+            - link "References" [ref=e62] [cursor=pointer]:
+              - /url: "#References"
+              - generic [ref=e63]: References
+            - list
+    - main [ref=e65]:
+      - generic [ref=e66]:
+        - heading "Average true range" [level=1] [ref=e67]:
+          - generic [ref=e68]: Average true range
+        - generic [ref=e69]:
+          - button "Go to an article in another language. Available in 4 languages" [ref=e70] [cursor=pointer]
+          - generic [ref=e73]: 4 languages
+      - generic [ref=e75]:
+        - navigation "Namespaces" [ref=e77]:
+          - generic [ref=e78]:
+            - generic:
+              - list:
+                - listitem [ref=e79]:
+                  - link "Article" [ref=e80] [cursor=pointer]:
+                    - /url: /wiki/Average_true_range
+                    - generic [ref=e81]: Article
+                - listitem [ref=e82]:
+                  - link "Talk" [ref=e83] [cursor=pointer]:
+                    - /url: /wiki/Talk:Average_true_range
+                    - generic [ref=e84]: Talk
+        - generic [ref=e85]:
+          - navigation "Views" [ref=e86]:
+            - generic [ref=e87]:
+              - generic:
+                - list:
+                  - listitem [ref=e88]:
+                    - link "Read" [ref=e89] [cursor=pointer]:
+                      - /url: /wiki/Average_true_range
+                      - generic [ref=e90]: Read
+                  - listitem [ref=e91]:
+                    - link "Edit" [ref=e92] [cursor=pointer]:
+                      - /url: /w/index.php?title=Average_true_range&action=edit
+                      - generic [ref=e93]: Edit
+                  - listitem [ref=e94]:
+                    - link "View history" [ref=e95] [cursor=pointer]:
+                      - /url: /w/index.php?title=Average_true_range&action=history
+                      - generic [ref=e96]: View history
+          - navigation "Page tools" [ref=e97]:
+            - generic [ref=e98]:
+              - button "Tools" [ref=e99] [cursor=pointer]
+              - generic [ref=e101] [cursor=pointer]: Tools
+      - navigation "Appearance" [ref=e104]:
+        - generic [ref=e106]:
+          - generic [ref=e107]:
+            - generic [ref=e108]: Appearance
+            - button "hide" [ref=e109] [cursor=pointer]
+          - generic [ref=e110]:
+            - generic [ref=e111]: Text
+            - list [ref=e113]:
+              - listitem [ref=e114]:
+                - generic [ref=e116]:
+                  - generic [ref=e117]:
+                    - radio "Small" [ref=e118]
+                    - generic [ref=e121]: Small
+                  - generic [ref=e122]:
+                    - radio "Standard" [checked] [ref=e123]
+                    - generic [ref=e126]: Standard
+                  - generic [ref=e127]:
+                    - radio "Large" [ref=e128]
+                    - generic [ref=e131]: Large
+          - generic [ref=e132]:
+            - generic [ref=e133]: Width
+            - list [ref=e135]:
+              - listitem [ref=e136]:
+                - generic [ref=e138]:
+                  - generic [ref=e139]:
+                    - radio "Standard" [checked] [ref=e140]
+                    - generic [ref=e143]: Standard
+                  - generic [ref=e144]:
+                    - radio "Wide" [ref=e145]
+                    - generic [ref=e148]: Wide
+          - generic [ref=e149]:
+            - generic [ref=e150]: Color
+            - list [ref=e152]:
+              - listitem [ref=e153]:
+                - generic [ref=e155]:
+                  - generic [ref=e156]:
+                    - radio "Automatic" [ref=e157]
+                    - generic [ref=e160]: Automatic
+                  - generic [ref=e161]:
+                    - radio "Light" [checked] [ref=e162]
+                    - generic [ref=e165]: Light
+                  - generic [ref=e166]:
+                    - radio "Dark" [ref=e167]
+                    - generic [ref=e170]: Dark
+      - generic "Average true range" [ref=e171]:
+        - generic [ref=e173]: From Wikipedia, the free encyclopedia
+        - generic [ref=e175]:
+          - paragraph [ref=e176]:
+            - text: Average true range (ATR) is a
+            - link "technical analysis" [ref=e177] [cursor=pointer]:
+              - /url: /wiki/Technical_analysis
+            - link "volatility" [ref=e178] [cursor=pointer]:
+              - /url: /wiki/Volatility_(finance)
+            - text: indicator originally developed by
+            - link "J. Welles Wilder, Jr." [ref=e179] [cursor=pointer]:
+              - /url: /wiki/J._Welles_Wilder,_Jr.
+            - text: for
+            - link "commodities" [ref=e180] [cursor=pointer]:
+              - /url: /wiki/Commodities
+            - text: .
+            - superscript [ref=e181]:
+              - link "[1]" [ref=e182] [cursor=pointer]:
+                - /url: "#cite_note-1"
+            - superscript [ref=e183]:
+              - link "[2]" [ref=e184] [cursor=pointer]:
+                - /url: "#cite_note-2"
+            - text: The indicator does not provide an indication of price
+            - link "trend" [ref=e185] [cursor=pointer]:
+              - /url: /wiki/Market_trend
+            - text: ", simply the degree of price volatility."
+            - superscript [ref=e186]:
+              - link "[3]" [ref=e187] [cursor=pointer]:
+                - /url: "#cite_note-3"
+            - text: The average true range is an N-period
+            - link "smoothed moving average" [ref=e188] [cursor=pointer]:
+              - /url: /wiki/Moving_average#Modified_moving_average
+            - text: (SMMA) of the true range values. Wilder recommended a 14-period smoothing.
+            - superscript [ref=e189]:
+              - link "[4]" [ref=e190] [cursor=pointer]:
+                - /url: "#cite_note-4"
+          - generic [ref=e191]:
+            - heading "Calculation" [level=2] [ref=e192]
+            - generic [ref=e193]:
+              - text: "["
+              - link "edit" [ref=e194] [cursor=pointer]:
+                - /url: /w/index.php?title=Average_true_range&action=edit&section=1
+              - text: "]"
+          - figure "MetaTrader EUR/USD chart showing ATR indicator (cyan line) with period 14." [ref=e195]:
+            - link [ref=e196] [cursor=pointer]:
+              - /url: /wiki/File:ATR_Indicator_Chart.png
+              - img [ref=e197]
+            - generic [ref=e198]:
+              - link "MetaTrader" [ref=e199] [cursor=pointer]:
+                - /url: /wiki/MetaTrader_4
+              - text: EUR/USD chart showing ATR indicator (cyan line) with period 14.
+          - paragraph [ref=e200]:
+            - text: The range of a day's trading is simply
+            - generic [ref=e201]:
+              - math [ref=e203]:
+                - generic [ref=e206]:
+                  - generic [ref=e208]: high
+                  - generic [ref=e209]: −
+                  - generic [ref=e211]: low
+              - img [ref=e212]
+            - text: . The true range extends it to yesterday's closing price if it was outside of today's range.
+          - definition [ref=e214]:
+            - generic [ref=e215]:
+              - math [ref=e217]:
+                - generic [ref=e220]:
+                  - generic [ref=e222]: TR
+                  - generic [ref=e223]: =
+                  - generic [ref=e224]:
+                    - generic [ref=e225]: max
+                    - generic [ref=e226]: "["
+                    - generic [ref=e227]: (
+                    - generic [ref=e229]: high
+                    - generic [ref=e230]: −
+                    - generic [ref=e233]: low
+                    - generic [ref=e234]: )
+                    - generic [ref=e235]: ","
+                    - generic [ref=e236]: abs
+                    - generic: ⁡
+                    - generic [ref=e237]: (
+                    - generic [ref=e239]: high
+                    - generic [ref=e240]: −
+                    - generic [ref=e241]:
+                      - generic [ref=e243]: close
+                      - generic [ref=e245]: prev
+                    - generic [ref=e246]: )
+                    - generic [ref=e247]: ","
+                    - generic [ref=e248]: abs
+                    - generic: ⁡
+                    - generic [ref=e249]: (
+                    - generic [ref=e251]: low
+                    - generic [ref=e252]: −
+                    - generic [ref=e253]:
+                      - generic [ref=e255]: close
+                      - generic [ref=e257]: prev
+                    - generic [ref=e258]: )
+                    - generic [ref=e259]: "]"
+              - img [ref=e260]
+          - paragraph [ref=e261]: "The true range is the largest of the:"
+          - list [ref=e262]:
+            - listitem [ref=e263]: Most recent period's high minus the most recent period's low
+            - listitem [ref=e264]: Absolute value of the most recent period's high minus the previous close
+            - listitem [ref=e265]: Absolute value of the most recent period's low minus the previous close
+          - paragraph [ref=e266]: The first term represents the true range when the previous close (closeprev) is situated within the current period's high-low range. The second term yields the maximum value when closeprev is lower than the current low, while the third term applies when closeprev is higher than the current high.
+          - paragraph [ref=e267]: "The formula can be simplified to:"
+          - definition [ref=e269]:
+            - generic [ref=e270]:
+              - math [ref=e272]:
+                - generic [ref=e275]:
+                  - generic [ref=e277]: TR
+                  - generic [ref=e278]: =
+                  - generic [ref=e279]:
+                    - generic [ref=e280]: max
+                    - generic [ref=e281]: (
+                    - generic [ref=e283]: high
+                    - generic [ref=e284]: ","
+                    - generic [ref=e285]:
+                      - generic [ref=e287]: close
+                      - generic [ref=e289]: prev
+                    - generic [ref=e290]: )
+                    - generic [ref=e291]: −
+                    - generic [ref=e292]: min
+                    - generic: ⁡
+                    - generic [ref=e293]: (
+                    - generic [ref=e295]: low
+                    - generic [ref=e296]: ","
+                    - generic [ref=e297]:
+                      - generic [ref=e299]: close
+                      - generic [ref=e301]: prev
+                    - generic [ref=e302]: )
+              - img [ref=e303]
+          - paragraph [ref=e304]:
+            - text: "The ATR at the moment of time t is calculated using the following formula: (This is one form of an"
+            - link "exponential moving average" [ref=e305] [cursor=pointer]:
+              - /url: /wiki/Moving_average#Exponential_moving_average
+            - text: )
+          - definition [ref=e307]:
+            - generic [ref=e308]:
+              - math [ref=e310]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: A
+                  - generic [ref=e315]: T
+                  - generic [ref=e316]:
+                    - generic [ref=e317]: R
+                    - generic [ref=e319]: t
+                  - generic [ref=e320]: =
+                  - generic [ref=e322]:
+                    - generic [ref=e323]:
+                      - generic [ref=e324]: A
+                      - generic [ref=e325]: T
+                      - generic [ref=e326]:
+                        - generic [ref=e327]: R
+                        - generic [ref=e328]:
+                          - generic [ref=e329]: t
+                          - generic [ref=e330]: −
+                          - generic [ref=e331]: "1"
+                      - generic [ref=e332]: ×
+                      - generic [ref=e333]: (
+                      - generic [ref=e334]: "n"
+                      - generic [ref=e335]: −
+                      - generic [ref=e336]: "1"
+                      - generic [ref=e337]: )
+                      - generic [ref=e338]: +
+                      - generic [ref=e339]: T
+                      - generic [ref=e340]:
+                        - generic [ref=e341]: R
+                        - generic [ref=e343]: t
+                    - generic [ref=e344]: "n"
+              - img [ref=e345]
+          - paragraph [ref=e346]: "The first ATR value is calculated using the arithmetic mean formula:"
+          - definition [ref=e348]:
+            - generic [ref=e349]:
+              - math [ref=e351]:
+                - generic [ref=e354]:
+                  - generic [ref=e355]: A
+                  - generic [ref=e356]: T
+                  - generic [ref=e357]: R
+                  - generic [ref=e358]: =
+                  - generic [ref=e360]:
+                    - generic [ref=e361]: "1"
+                    - generic [ref=e362]: "n"
+                  - generic [ref=e363]:
+                    - generic [ref=e364]: ∑
+                    - generic [ref=e365]:
+                      - generic [ref=e366]: i
+                      - generic [ref=e367]: =
+                      - generic [ref=e368]: "1"
+                    - generic [ref=e370]: "n"
+                  - generic [ref=e371]: T
+                  - generic [ref=e372]:
+                    - generic [ref=e373]: R
+                    - generic [ref=e375]: i
+              - img [ref=e376]
+          - paragraph [ref=e377]: N.B. This first value is the first in the time series (not the most recent) and is n periods from the beginning of the chart.
+          - paragraph [ref=e378]:
+            - text: The idea of ranges is that they show the commitment or enthusiasm of traders. Large or increasing ranges suggest traders prepared to continue to bid up or sell down a
+            - link "stock" [ref=e379] [cursor=pointer]:
+              - /url: /wiki/Stock
+            - text: through the course of the day. Decreasing range suggests waning interest.
+          - generic [ref=e380]:
+            - heading "Applicability to futures contracts vs. stocks" [level=2] [ref=e381]
+            - generic [ref=e382]:
+              - text: "["
+              - link "edit" [ref=e383] [cursor=pointer]:
+                - /url: /w/index.php?title=Average_true_range&action=edit&section=2
+              - text: "]"
+          - paragraph [ref=e384]:
+            - text: Since true range and ATR are calculated by subtracting prices, the volatility they compute does not change when historical prices are back-adjusted by adding or subtracting a constant to every price. Back-adjustments are often employed when splicing together individual monthly
+            - link "futures contracts" [ref=e385] [cursor=pointer]:
+              - /url: /wiki/Futures_contract
+            - text: to form a continuous futures contract spanning a long period of time. However the standard procedures used to compute volatility of stock prices, such as the
+            - link "standard deviation" [ref=e386] [cursor=pointer]:
+              - /url: /wiki/Standard_deviation
+            - text: of logarithmic price ratios, are not invariant (to addition of a constant). Thus futures traders and analysts typically use one method (ATR) to calculate volatility, while stock traders and analysts typically use standard deviation of log price ratios.
+          - generic [ref=e387]:
+            - heading "Use in position size calculation" [level=2] [ref=e388]
+            - generic [ref=e389]:
+              - text: "["
+              - link "edit" [ref=e390] [cursor=pointer]:
+                - /url: /w/index.php?title=Average_true_range&action=edit&section=3
+              - text: "]"
+          - paragraph [ref=e391]:
+            - text: Apart from being a trend strength gauge, ATR serves as an element of position sizing in financial trading. Current ATR value (or a multiple of it) can be used as the size of the potential adverse movement (
+            - link "stop-loss" [ref=e392] [cursor=pointer]:
+              - /url: /wiki/Order_(exchange)#Stop_orders
+            - text: distance) when calculating the trade volume based on trader's risk tolerance. In this case, ATR provides a self-adjusting risk limit dependent on the market volatility for strategies without a fixed stop-loss placement.
+            - superscript [ref=e393]:
+              - text: "["
+              - link "citation needed" [ref=e395] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:Citation_needed
+              - text: "]"
+          - generic [ref=e396]:
+            - heading "References" [level=2] [ref=e397]
+            - generic [ref=e398]:
+              - text: "["
+              - link "edit" [ref=e399] [cursor=pointer]:
+                - /url: /w/index.php?title=Average_true_range&action=edit&section=4
+              - text: "]"
+          - list [ref=e402]:
+            - listitem [ref=e403]:
+              - link "Jump up" [ref=e406] [cursor=pointer]:
+                - /url: "#cite_ref-1"
+                - text: ^
+              - generic [ref=e407]:
+                - generic [ref=e408]:
+                  - link "J. Welles Wilder, Jr." [ref=e409] [cursor=pointer]:
+                    - /url: /wiki/J._Welles_Wilder,_Jr.
+                  - text: (June 1978).
+                  - generic "Free registration required" [ref=e410]:
+                    - link "New Concepts in Technical Trading Systems" [ref=e411] [cursor=pointer]:
+                      - /url: https://archive.org/details/newconceptsintec00wild
+                  - text: ". Greensboro, NC: Trend Research."
+                  - link "ISBN" [ref=e412] [cursor=pointer]:
+                    - /url: /wiki/ISBN_(identifier)
+                  - link "978-0-89459-027-6" [ref=e413] [cursor=pointer]:
+                    - /url: /wiki/Special:BookSources/978-0-89459-027-6
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=New+Concepts+in+Technical+Trading+Systems&rft.place=Greensboro%2C+NC&rft.pub=Trend+Research&rft.date=1978-06&rft.isbn=978-0-89459-027-6&rft.au=J.+Welles+Wilder%2C+Jr.&rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Fnewconceptsintec00wild&rfr_id=info%3Asid%2Fen.wikipedia.org%3AAverage+true+range"
+            - listitem [ref=e414]:
+              - link "Jump up" [ref=e417] [cursor=pointer]:
+                - /url: "#cite_ref-2"
+                - text: ^
+              - generic [ref=e418]:
+                - generic [ref=e419]:
+                  - link "\"Average True Range (ATR) [ChartSchool]\"" [ref=e420] [cursor=pointer]:
+                    - /url: https://school.stockcharts.com/doku.php?id=technical_indicators:average_true_range_atr
+                  - text: . school.stockcharts.com
+                  - generic [ref=e421]: . Retrieved 2024-03-17
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=school.stockcharts.com&rft.atitle=Average+True+Range+%28ATR%29+%5BChartSchool%5D&rft_id=https%3A%2F%2Fschool.stockcharts.com%2Fdoku.php%3Fid%3Dtechnical_indicators%3Aaverage_true_range_atr&rfr_id=info%3Asid%2Fen.wikipedia.org%3AAverage+true+range"
+            - listitem [ref=e422]:
+              - link "Jump up" [ref=e425] [cursor=pointer]:
+                - /url: "#cite_ref-3"
+                - text: ^
+              - generic [ref=e426]:
+                - generic [ref=e427]:
+                  - text: Joel G. Siegel (2000).
+                  - link "International encyclopedia of technical analysis" [ref=e428] [cursor=pointer]:
+                    - /url: https://books.google.com/books?id=IjuoD5yJs8YC&pg=PA341
+                  - text: . Global Professional Publishing. p. 341.
+                  - link "ISBN" [ref=e429] [cursor=pointer]:
+                    - /url: /wiki/ISBN_(identifier)
+                  - link "978-1-888998-88-7" [ref=e430] [cursor=pointer]:
+                    - /url: /wiki/Special:BookSources/978-1-888998-88-7
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=International+encyclopedia+of+technical+analysis&rft.pages=341&rft.pub=Global+Professional+Publishing&rft.date=2000&rft.isbn=978-1-888998-88-7&rft.au=Joel+G.+Siegel&rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DIjuoD5yJs8YC%26pg%3DPA341&rfr_id=info%3Asid%2Fen.wikipedia.org%3AAverage+true+range"
+            - listitem [ref=e431]:
+              - link "Jump up" [ref=e434] [cursor=pointer]:
+                - /url: "#cite_ref-4"
+                - text: ^
+              - text: This is by his reckoning of SMMA periods, meaning an α=1/14.
+          - navigation "Technical analysis" [ref=e435]:
+            - table [ref=e436]:
+              - rowgroup [ref=e437]:
+                - row "[hide] v · t · e Technical analysis" [ref=e438]:
+                  - columnheader "[hide] v · t · e Technical analysis" [ref=e439]:
+                    - button "[hide]" [expanded] [ref=e440] [cursor=pointer]
+                    - list [ref=e442]:
+                      - listitem [ref=e443]:
+                        - link "v" [ref=e444] [cursor=pointer]:
+                          - /url: /wiki/Template:Technical_analysis
+                        - text: ·
+                      - listitem [ref=e445]:
+                        - link "t" [ref=e446] [cursor=pointer]:
+                          - /url: /wiki/Template_talk:Technical_analysis
+                        - text: ·
+                      - listitem [ref=e447]:
+                        - link "e" [ref=e448] [cursor=pointer]:
+                          - /url: /wiki/Special:EditPage/Template:Technical_analysis
+                    - link "Technical analysis" [ref=e450] [cursor=pointer]:
+                      - /url: /wiki/Technical_analysis
+                - row "Concepts Breakout · Dead cat bounce · Dow theory · Elliott wave principle · Market trend" [ref=e451]:
+                  - rowheader "Concepts" [ref=e452]
+                  - cell "Breakout · Dead cat bounce · Dow theory · Elliott wave principle · Market trend" [ref=e453]:
+                    - list [ref=e455]:
+                      - listitem [ref=e456]:
+                        - link "Breakout" [ref=e457] [cursor=pointer]:
+                          - /url: /wiki/Breakout_(technical_analysis)
+                        - text: ·
+                      - listitem [ref=e458]:
+                        - link "Dead cat bounce" [ref=e459] [cursor=pointer]:
+                          - /url: /wiki/Dead_cat_bounce
+                        - text: ·
+                      - listitem [ref=e460]:
+                        - link "Dow theory" [ref=e461] [cursor=pointer]:
+                          - /url: /wiki/Dow_theory
+                        - text: ·
+                      - listitem [ref=e462]:
+                        - link "Elliott wave principle" [ref=e463] [cursor=pointer]:
+                          - /url: /wiki/Elliott_wave_principle
+                        - text: ·
+                      - listitem [ref=e464]:
+                        - link "Market trend" [ref=e465] [cursor=pointer]:
+                          - /url: /wiki/Market_trend
+                - row "Charts Candlestick · Renko · Kagi · Line · Open-high-low-close · Point and figure · Line break" [ref=e466]:
+                  - rowheader "Charts" [ref=e467]
+                  - cell "Candlestick · Renko · Kagi · Line · Open-high-low-close · Point and figure · Line break" [ref=e468]:
+                    - list [ref=e470]:
+                      - listitem [ref=e471]:
+                        - link "Candlestick" [ref=e472] [cursor=pointer]:
+                          - /url: /wiki/Candlestick_chart
+                        - text: ·
+                      - listitem [ref=e473]:
+                        - link "Renko" [ref=e474] [cursor=pointer]:
+                          - /url: /wiki/Renko_chart
+                        - text: ·
+                      - listitem [ref=e475]:
+                        - link "Kagi" [ref=e476] [cursor=pointer]:
+                          - /url: /wiki/Kagi_chart
+                        - text: ·
+                      - listitem [ref=e477]:
+                        - link "Line" [ref=e478] [cursor=pointer]:
+                          - /url: /wiki/Line_chart
+                        - text: ·
+                      - listitem [ref=e479]:
+                        - link "Open-high-low-close" [ref=e480] [cursor=pointer]:
+                          - /url: /wiki/Open-high-low-close_chart
+                        - text: ·
+                      - listitem [ref=e481]:
+                        - link "Point and figure" [ref=e482] [cursor=pointer]:
+                          - /url: /wiki/Point_and_figure_chart
+                        - text: ·
+                      - listitem [ref=e483]:
+                        - link "Line break" [ref=e484] [cursor=pointer]:
+                          - /url: /wiki/Line_break_chart
+                - row "Patterns Chart Broadening top · Cup and handle · Double top and double bottom · Flag and pennant · Gap · Head and shoulders · Island reversal · Price channels · Triangle · Triple top and triple bottom · Wedge pattern Candlestick Simple Doji Complex Hikkake pattern · Morning star · Three black crows · Three white soldiers Point and figure Bull trap · Bear trap" [ref=e485]:
+                  - rowheader "Patterns" [ref=e486]
+                  - cell "Chart Broadening top · Cup and handle · Double top and double bottom · Flag and pennant · Gap · Head and shoulders · Island reversal · Price channels · Triangle · Triple top and triple bottom · Wedge pattern Candlestick Simple Doji Complex Hikkake pattern · Morning star · Three black crows · Three white soldiers Point and figure Bull trap · Bear trap" [ref=e487]:
+                    - table [ref=e488]:
+                      - rowgroup [ref=e489]:
+                        - row "Chart Broadening top · Cup and handle · Double top and double bottom · Flag and pennant · Gap · Head and shoulders · Island reversal · Price channels · Triangle · Triple top and triple bottom · Wedge pattern" [ref=e490]:
+                          - rowheader "Chart" [ref=e491]:
+                            - link "Chart" [ref=e492] [cursor=pointer]:
+                              - /url: /wiki/Chart_pattern
+                          - cell "Broadening top · Cup and handle · Double top and double bottom · Flag and pennant · Gap · Head and shoulders · Island reversal · Price channels · Triangle · Triple top and triple bottom · Wedge pattern" [ref=e493]:
+                            - list [ref=e495]:
+                              - listitem [ref=e496]:
+                                - link "Broadening top" [ref=e497] [cursor=pointer]:
+                                  - /url: /wiki/Broadening_top
+                                - text: ·
+                              - listitem [ref=e498]:
+                                - link "Cup and handle" [ref=e499] [cursor=pointer]:
+                                  - /url: /wiki/Cup_and_handle
+                                - text: ·
+                              - listitem [ref=e500]:
+                                - link "Double top and double bottom" [ref=e501] [cursor=pointer]:
+                                  - /url: /wiki/Double_top_and_double_bottom
+                                - text: ·
+                              - listitem [ref=e502]:
+                                - link "Flag and pennant" [ref=e503] [cursor=pointer]:
+                                  - /url: /wiki/Flag_and_pennant_patterns
+                                - text: ·
+                              - listitem [ref=e504]:
+                                - link "Gap" [ref=e505] [cursor=pointer]:
+                                  - /url: /wiki/Gap_(chart_pattern)
+                                - text: ·
+                              - listitem [ref=e506]:
+                                - link "Head and shoulders" [ref=e507] [cursor=pointer]:
+                                  - /url: /wiki/Head_and_shoulders_(chart_pattern)
+                                - text: ·
+                              - listitem [ref=e508]:
+                                - link "Island reversal" [ref=e509] [cursor=pointer]:
+                                  - /url: /wiki/Island_reversal
+                                - text: ·
+                              - listitem [ref=e510]:
+                                - link "Price channels" [ref=e511] [cursor=pointer]:
+                                  - /url: /wiki/Price_channels
+                                - text: ·
+                              - listitem [ref=e512]:
+                                - link "Triangle" [ref=e513] [cursor=pointer]:
+                                  - /url: /wiki/Triangle_(chart_pattern)
+                                - text: ·
+                              - listitem [ref=e514]:
+                                - link "Triple top and triple bottom" [ref=e515] [cursor=pointer]:
+                                  - /url: /wiki/Triple_top_and_triple_bottom
+                                - text: ·
+                              - listitem [ref=e516]:
+                                - link "Wedge pattern" [ref=e517] [cursor=pointer]:
+                                  - /url: /wiki/Wedge_pattern
+                        - row "Candlestick Simple Doji Complex Hikkake pattern · Morning star · Three black crows · Three white soldiers" [ref=e518]:
+                          - rowheader "Candlestick" [ref=e519]:
+                            - link "Candlestick" [ref=e520] [cursor=pointer]:
+                              - /url: /wiki/Candlestick_pattern
+                          - cell "Simple Doji Complex Hikkake pattern · Morning star · Three black crows · Three white soldiers" [ref=e521]:
+                            - table [ref=e522]:
+                              - rowgroup [ref=e523]:
+                                - row "Simple Doji" [ref=e524]:
+                                  - rowheader "Simple" [ref=e525]:
+                                    - link "Simple" [ref=e526] [cursor=pointer]:
+                                      - /url: /wiki/Candlestick_pattern#Simple_patterns
+                                  - cell "Doji" [ref=e527]:
+                                    - list [ref=e529]:
+                                      - listitem [ref=e530]:
+                                        - link "Doji" [ref=e531] [cursor=pointer]:
+                                          - /url: /wiki/Doji
+                                - row "Complex Hikkake pattern · Morning star · Three black crows · Three white soldiers" [ref=e532]:
+                                  - rowheader "Complex" [ref=e533]:
+                                    - link "Complex" [ref=e534] [cursor=pointer]:
+                                      - /url: /wiki/Candlestick_pattern#Complex_patterns
+                                  - cell "Hikkake pattern · Morning star · Three black crows · Three white soldiers" [ref=e535]:
+                                    - list [ref=e537]:
+                                      - listitem [ref=e538]:
+                                        - link "Hikkake pattern" [ref=e539] [cursor=pointer]:
+                                          - /url: /wiki/Hikkake_pattern
+                                        - text: ·
+                                      - listitem [ref=e540]:
+                                        - link "Morning star" [ref=e541] [cursor=pointer]:
+                                          - /url: /wiki/Morning_star_(candlestick_pattern)
+                                        - text: ·
+                                      - listitem [ref=e542]:
+                                        - link "Three black crows" [ref=e543] [cursor=pointer]:
+                                          - /url: /wiki/Three_black_crows
+                                        - text: ·
+                                      - listitem [ref=e544]:
+                                        - link "Three white soldiers" [ref=e545] [cursor=pointer]:
+                                          - /url: /wiki/Three_white_soldiers
+                        - row "Point and figure Bull trap · Bear trap" [ref=e546]:
+                          - rowheader "Point and figure" [ref=e547]:
+                            - link "Point and figure" [ref=e548] [cursor=pointer]:
+                              - /url: /wiki/Point_and_figure_chart
+                          - cell "Bull trap · Bear trap" [ref=e549]:
+                            - list [ref=e551]:
+                              - listitem [ref=e552]:
+                                - link "Bull trap" [ref=e553] [cursor=pointer]:
+                                  - /url: /wiki/Bull_trap
+                                - text: ·
+                              - listitem [ref=e554]:
+                                - link "Bear trap" [ref=e555] [cursor=pointer]:
+                                  - /url: /wiki/Bear_market
+                - row [ref=e556]:
+                  - rowheader "Indicators" [ref=e557]:
+                    - link "Indicators" [ref=e558] [cursor=pointer]:
+                      - /url: /wiki/Technical_indicator
+                  - cell [ref=e559]:
+                    - table [ref=e560]:
+                      - rowgroup [ref=e561]:
+                        - row "Support & resistance Fibonacci retracement · Pivot point (PP)" [ref=e562]:
+                          - rowheader "Support & resistance" [ref=e563]:
+                            - link "Support & resistance" [ref=e564] [cursor=pointer]:
+                              - /url: /wiki/Support_and_resistance
+                              - text: Support &
+                              - text: resistance
+                          - cell "Fibonacci retracement · Pivot point (PP)" [ref=e565]:
+                            - list [ref=e567]:
+                              - listitem [ref=e568]:
+                                - link "Fibonacci retracement" [ref=e569] [cursor=pointer]:
+                                  - /url: /wiki/Fibonacci_retracement
+                                - text: ·
+                              - listitem [ref=e570]:
+                                - link "Pivot point" [ref=e571] [cursor=pointer]:
+                                  - /url: /wiki/Pivot_point_(technical_analysis)
+                                - text: (PP)
+                        - row "Trend Average directional index (A.D.X.) · Commodity channel index (CCI) · Detrended price oscillator (DPO) · Know sure thing oscillator (KST) · Ichimoku Kinkō Hyō · Moving average convergence/divergence (MACD) · Mass index · Moving average (MA) · Parabolic SAR (SAR) · Smart money index (SMI) · Trend line · Trix · Vortex indicator (VI)" [ref=e572]:
+                          - rowheader "Trend" [ref=e573]:
+                            - link "Trend" [ref=e574] [cursor=pointer]:
+                              - /url: /wiki/Market_trend
+                          - cell "Average directional index (A.D.X.) · Commodity channel index (CCI) · Detrended price oscillator (DPO) · Know sure thing oscillator (KST) · Ichimoku Kinkō Hyō · Moving average convergence/divergence (MACD) · Mass index · Moving average (MA) · Parabolic SAR (SAR) · Smart money index (SMI) · Trend line · Trix · Vortex indicator (VI)" [ref=e575]:
+                            - list [ref=e577]:
+                              - listitem [ref=e578]:
+                                - link "Average directional index" [ref=e579] [cursor=pointer]:
+                                  - /url: /wiki/Average_directional_movement_index
+                                - text: (A.D.X.) ·
+                              - listitem [ref=e580]:
+                                - link "Commodity channel index" [ref=e581] [cursor=pointer]:
+                                  - /url: /wiki/Commodity_channel_index
+                                - text: (CCI) ·
+                              - listitem [ref=e582]:
+                                - link "Detrended price oscillator" [ref=e583] [cursor=pointer]:
+                                  - /url: /wiki/Detrended_price_oscillator
+                                - text: (DPO) ·
+                              - listitem [ref=e584]:
+                                - link "Know sure thing oscillator" [ref=e585] [cursor=pointer]:
+                                  - /url: /wiki/KST_oscillator
+                                - text: (KST) ·
+                              - listitem [ref=e586]:
+                                - link "Ichimoku Kinkō Hyō" [ref=e587] [cursor=pointer]:
+                                  - /url: /wiki/Ichimoku_Kink%C5%8D_Hy%C5%8D
+                                - text: ·
+                              - listitem [ref=e588]:
+                                - link "Moving average convergence/divergence" [ref=e589] [cursor=pointer]:
+                                  - /url: /wiki/MACD
+                                - text: (MACD) ·
+                              - listitem [ref=e590]:
+                                - link "Mass index" [ref=e591] [cursor=pointer]:
+                                  - /url: /wiki/Mass_index
+                                - text: ·
+                              - listitem [ref=e592]:
+                                - link "Moving average" [ref=e593] [cursor=pointer]:
+                                  - /url: /wiki/Moving_average
+                                - text: (MA) ·
+                              - listitem [ref=e594]:
+                                - link "Parabolic SAR" [ref=e595] [cursor=pointer]:
+                                  - /url: /wiki/Parabolic_SAR
+                                - text: (SAR) ·
+                              - listitem [ref=e596]:
+                                - link "Smart money index" [ref=e597] [cursor=pointer]:
+                                  - /url: /wiki/Smart_money_index
+                                - text: (SMI) ·
+                              - listitem [ref=e598]:
+                                - link "Trend line" [ref=e599] [cursor=pointer]:
+                                  - /url: /wiki/Trend_line_(technical_analysis)
+                                - text: ·
+                              - listitem [ref=e600]:
+                                - link "Trix" [ref=e601] [cursor=pointer]:
+                                  - /url: /wiki/Trix_(technical_analysis)
+                                - text: ·
+                              - listitem [ref=e602]:
+                                - link "Vortex indicator" [ref=e603] [cursor=pointer]:
+                                  - /url: /wiki/Vortex_indicator
+                                - text: (VI)
+                        - row "Momentum Money flow index (MFI) · Relative strength index (RSI) · Stochastic oscillator · True strength index (TSI) · Ultimate oscillator · Williams %R (%R)" [ref=e604]:
+                          - rowheader "Momentum" [ref=e605]:
+                            - link "Momentum" [ref=e606] [cursor=pointer]:
+                              - /url: /wiki/Momentum_(finance)
+                          - cell "Money flow index (MFI) · Relative strength index (RSI) · Stochastic oscillator · True strength index (TSI) · Ultimate oscillator · Williams %R (%R)" [ref=e607]:
+                            - list [ref=e609]:
+                              - listitem [ref=e610]:
+                                - link "Money flow index" [ref=e611] [cursor=pointer]:
+                                  - /url: /wiki/Money_flow_index
+                                - text: (MFI) ·
+                              - listitem [ref=e612]:
+                                - link "Relative strength index" [ref=e613] [cursor=pointer]:
+                                  - /url: /wiki/Relative_strength_index
+                                - text: (RSI) ·
+                              - listitem [ref=e614]:
+                                - link "Stochastic oscillator" [ref=e615] [cursor=pointer]:
+                                  - /url: /wiki/Stochastic_oscillator
+                                - text: ·
+                              - listitem [ref=e616]:
+                                - link "True strength index" [ref=e617] [cursor=pointer]:
+                                  - /url: /wiki/True_strength_index
+                                - text: (TSI) ·
+                              - listitem [ref=e618]:
+                                - link "Ultimate oscillator" [ref=e619] [cursor=pointer]:
+                                  - /url: /wiki/Ultimate_oscillator
+                                - text: ·
+                              - listitem [ref=e620]:
+                                - link "Williams %R" [ref=e621] [cursor=pointer]:
+                                  - /url: /wiki/Williams_%25R
+                                - text: (%R)
+                        - row "Volume Accumulation/distribution line · Ease of movement (EMV) · Force index (FI) · Negative volume index (NVI) · On-balance volume (OBV) · Put/call ratio (PCR) · Volume–price trend (VPT)" [ref=e622]:
+                          - rowheader "Volume" [ref=e623]:
+                            - link "Volume" [ref=e624] [cursor=pointer]:
+                              - /url: /wiki/Volume_(finance)
+                          - cell "Accumulation/distribution line · Ease of movement (EMV) · Force index (FI) · Negative volume index (NVI) · On-balance volume (OBV) · Put/call ratio (PCR) · Volume–price trend (VPT)" [ref=e625]:
+                            - list [ref=e627]:
+                              - listitem [ref=e628]:
+                                - link "Accumulation/distribution line" [ref=e629] [cursor=pointer]:
+                                  - /url: /wiki/Accumulation/distribution_index
+                                - text: ·
+                              - listitem [ref=e630]:
+                                - link "Ease of movement" [ref=e631] [cursor=pointer]:
+                                  - /url: /wiki/Ease_of_movement
+                                - text: (EMV) ·
+                              - listitem [ref=e632]:
+                                - link "Force index" [ref=e633] [cursor=pointer]:
+                                  - /url: /wiki/Force_index
+                                - text: (FI) ·
+                              - listitem [ref=e634]:
+                                - link "Negative volume index" [ref=e635] [cursor=pointer]:
+                                  - /url: /wiki/Negative_volume_index
+                                - text: (NVI) ·
+                              - listitem [ref=e636]:
+                                - link "On-balance volume" [ref=e637] [cursor=pointer]:
+                                  - /url: /wiki/On-balance_volume
+                                - text: (OBV) ·
+                              - listitem [ref=e638]:
+                                - link "Put/call ratio" [ref=e639] [cursor=pointer]:
+                                  - /url: /wiki/Put/call_ratio
+                                - text: (PCR) ·
+                              - listitem [ref=e640]:
+                                - link "Volume–price trend" [ref=e641] [cursor=pointer]:
+                                  - /url: /wiki/Volume%E2%80%93price_trend
+                                - text: (VPT)
+                        - row "Volatility Average true range (ATR) · Bollinger Bands (BB) · Donchian channel · Keltner channel · CBOE Market Volatility Index (VIX) · Standard deviation (σ)" [ref=e642]:
+                          - rowheader "Volatility" [ref=e643]:
+                            - link "Volatility" [ref=e644] [cursor=pointer]:
+                              - /url: /wiki/Volatility_(finance)
+                          - cell "Average true range (ATR) · Bollinger Bands (BB) · Donchian channel · Keltner channel · CBOE Market Volatility Index (VIX) · Standard deviation (σ)" [ref=e645]:
+                            - list [ref=e647]:
+                              - listitem [ref=e648]: Average true range (ATR) ·
+                              - listitem [ref=e649]:
+                                - link "Bollinger Bands" [ref=e650] [cursor=pointer]:
+                                  - /url: /wiki/Bollinger_Bands
+                                - text: (BB) ·
+                              - listitem [ref=e651]:
+                                - link "Donchian channel" [ref=e652] [cursor=pointer]:
+                                  - /url: /wiki/Donchian_channel
+                                - text: ·
+                              - listitem [ref=e653]:
+                                - link "Keltner channel" [ref=e654] [cursor=pointer]:
+                                  - /url: /wiki/Keltner_channel
+                                - text: ·
+                              - listitem [ref=e655]:
+                                - link "CBOE Market Volatility Index" [ref=e656] [cursor=pointer]:
+                                  - /url: /wiki/VIX
+                                - text: (VIX) ·
+                              - listitem [ref=e657]:
+                                - link "Standard deviation" [ref=e658] [cursor=pointer]:
+                                  - /url: /wiki/Standard_deviation
+                                - text: (σ)
+                        - row "Breadth Advance–decline line (ADL) · Arms index (TRIN) · McClellan oscillator" [ref=e659]:
+                          - rowheader "Breadth" [ref=e660]:
+                            - link "Breadth" [ref=e661] [cursor=pointer]:
+                              - /url: /wiki/Breadth_of_market
+                          - cell "Advance–decline line (ADL) · Arms index (TRIN) · McClellan oscillator" [ref=e662]:
+                            - list [ref=e664]:
+                              - listitem [ref=e665]:
+                                - link "Advance–decline line" [ref=e666] [cursor=pointer]:
+                                  - /url: /wiki/Advance%E2%80%93decline_line
+                                - text: (ADL) ·
+                              - listitem [ref=e667]:
+                                - link "Arms index" [ref=e668] [cursor=pointer]:
+                                  - /url: /wiki/TRIN_(finance)
+                                - text: (TRIN) ·
+                              - listitem [ref=e669]:
+                                - link "McClellan oscillator" [ref=e670] [cursor=pointer]:
+                                  - /url: /wiki/McClellan_oscillator
+                        - row "Other Coppock curve · Ulcer index" [ref=e671]:
+                          - rowheader "Other" [ref=e672]
+                          - cell "Coppock curve · Ulcer index" [ref=e673]:
+                            - list [ref=e675]:
+                              - listitem [ref=e676]:
+                                - link "Coppock curve" [ref=e677] [cursor=pointer]:
+                                  - /url: /wiki/Coppock_curve
+                                - text: ·
+                              - listitem [ref=e678]:
+                                - link "Ulcer index" [ref=e679] [cursor=pointer]:
+                                  - /url: /wiki/Ulcer_index
+                - row "Analysts John Bollinger · Ned Davis · Charles Dow · Ralph Nelson Elliott · Bob Farrell · John Murphy · Mark Hulbert" [ref=e680]:
+                  - rowheader "Analysts" [ref=e681]
+                  - cell "John Bollinger · Ned Davis · Charles Dow · Ralph Nelson Elliott · Bob Farrell · John Murphy · Mark Hulbert" [ref=e682]:
+                    - list [ref=e684]:
+                      - listitem [ref=e685]:
+                        - link "John Bollinger" [ref=e686] [cursor=pointer]:
+                          - /url: /wiki/John_Bollinger
+                        - text: ·
+                      - listitem [ref=e687]:
+                        - link "Ned Davis" [ref=e688] [cursor=pointer]:
+                          - /url: /wiki/Ned_Davis_(analyst)
+                        - text: ·
+                      - listitem [ref=e689]:
+                        - link "Charles Dow" [ref=e690] [cursor=pointer]:
+                          - /url: /wiki/Charles_Dow
+                        - text: ·
+                      - listitem [ref=e691]:
+                        - link "Ralph Nelson Elliott" [ref=e692] [cursor=pointer]:
+                          - /url: /wiki/Ralph_Nelson_Elliott
+                        - text: ·
+                      - listitem [ref=e693]:
+                        - link "Bob Farrell" [ref=e694] [cursor=pointer]:
+                          - /url: /wiki/Robert_Farrell_(technical_analyst)
+                        - text: ·
+                      - listitem [ref=e695]:
+                        - link "John Murphy" [ref=e696] [cursor=pointer]:
+                          - /url: /wiki/John_Murphy_(technical_analyst)
+                        - text: ·
+                      - listitem [ref=e697]:
+                        - link "Mark Hulbert" [ref=e698] [cursor=pointer]:
+                          - /url: /wiki/Mark_Hulbert
+        - generic [ref=e700]:
+          - link "Categories" [ref=e701] [cursor=pointer]:
+            - /url: /wiki/Help:Category
+          - text: ":"
+          - list [ref=e702]:
+            - listitem [ref=e703]:
+              - link "Technical analysis" [ref=e704] [cursor=pointer]:
+                - /url: /wiki/Category:Technical_analysis
+            - listitem [ref=e705]:
+              - link "Technical indicators" [ref=e706] [cursor=pointer]:
+                - /url: /wiki/Category:Technical_indicators
+    - contentinfo [ref=e708]:
+      - list [ref=e709]:
+        - listitem [ref=e710]: This page was last edited on 3 May 2026, at 11:59 (UTC).
+        - listitem [ref=e711]:
+          - text: Text is available under the
+          - link "Creative Commons Attribution-ShareAlike 4.0 License" [ref=e712] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+          - text: ; additional terms may apply. By using this site, you agree to the
+          - link "Terms of Use" [ref=e713] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+          - text: and
+          - link "Privacy Policy" [ref=e714] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+          - text: . Wikipedia® is a registered trademark of the
+          - link "Wikimedia Foundation, Inc." [ref=e715] [cursor=pointer]:
+            - /url: https://wikimediafoundation.org/
+          - text: ", a non-profit organization."
+      - list:
+        - listitem [ref=e716]:
+          - link "Privacy policy" [ref=e717] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e718]:
+          - link "About Wikipedia" [ref=e719] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:About
+        - listitem [ref=e720]:
+          - link "Disclaimers" [ref=e721] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:General_disclaimer
+        - listitem [ref=e722]:
+          - link "Contact Wikipedia" [ref=e723] [cursor=pointer]:
+            - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+        - listitem [ref=e724]:
+          - link "Legal & safety contacts" [ref=e725] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+        - listitem [ref=e726]:
+          - link "Code of Conduct" [ref=e727] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e728]:
+          - link "Developers" [ref=e729] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e730]:
+          - link "Statistics" [ref=e731] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/en.wikipedia.org
+        - listitem [ref=e732]:
+          - link "Cookie statement" [ref=e733] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e734]:
+          - link "Mobile view" [ref=e735] [cursor=pointer]:
+            - /url: //en.wikipedia.org/w/index.php?title=Average_true_range&mobileaction=toggle_view_mobile
+      - list [ref=e736]:
+        - listitem [ref=e737]:
+          - link "Wikimedia Foundation" [ref=e738] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e740]
+        - listitem [ref=e741]:
+          - link "Powered by MediaWiki" [ref=e742] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e744]
+  - generic [ref=e745]:
+    - list

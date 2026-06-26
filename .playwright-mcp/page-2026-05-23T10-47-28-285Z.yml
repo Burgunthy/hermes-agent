@@ -1,0 +1,331 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - generic [ref=e53]:
+              - link "Sign in" [ref=e54] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fisaac-sim%2FIsaacLab%2Ftree%2Fmain%2Fsource%2Fisaaclab_tasks%2Fisaaclab_tasks%2Fmanager_based%2Frobotics%2Fdexterous
+              - generic [ref=e56]:
+                - heading "Sign in to GitHub" [level=4] [ref=e57]
+                - generic [ref=e58]:
+                  - text: Username or email address
+                  - textbox "Username or email address" [active] [ref=e59]
+                  - generic [ref=e60]:
+                    - text: Password
+                    - textbox "Password" [ref=e61]
+                    - link "Forgot password?" [ref=e62] [cursor=pointer]:
+                      - /url: /password_reset
+                    - button "Sign in" [ref=e63] [cursor=pointer]
+                - link "or continue with other methods" [ref=e66] [cursor=pointer]:
+                  - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fisaac-sim%2FIsaacLab%2Ftree%2Fmain%2Fsource%2Fisaaclab_tasks%2Fisaaclab_tasks%2Fmanager_based%2Frobotics%2Fdexterous
+                  - generic [ref=e68]: or continue with other methods
+            - link "Sign up" [ref=e69] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Ffiles%2Fdisambiguate&source=header-repo&source_repo=isaac-sim%2FIsaacLab
+            - button "Appearance settings" [ref=e72] [cursor=pointer]:
+              - img
+  - main [ref=e76]:
+    - generic [ref=e77]:
+      - generic [ref=e78]:
+        - generic [ref=e80]:
+          - img [ref=e81]
+          - link "isaac-sim" [ref=e84] [cursor=pointer]:
+            - /url: /isaac-sim
+          - generic [ref=e85]: /
+          - strong [ref=e86]:
+            - link "IsaacLab" [ref=e87] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacLab
+          - generic [ref=e88]: Public
+        - generic [ref=e89]:
+          - list:
+            - listitem [ref=e90]:
+              - link "You must be signed in to change notification settings" [ref=e91] [cursor=pointer]:
+                - /url: /login?return_to=%2Fisaac-sim%2FIsaacLab
+                - img [ref=e92]
+                - text: Notifications
+            - listitem [ref=e94]:
+              - link "Fork 3.6k" [ref=e95] [cursor=pointer]:
+                - /url: /login?return_to=%2Fisaac-sim%2FIsaacLab
+                - img [ref=e96]
+                - text: Fork
+                - generic "3,559" [ref=e98]: 3.6k
+            - listitem [ref=e99]:
+              - link "You must be signed in to star a repository" [ref=e101] [cursor=pointer]:
+                - /url: /login?return_to=%2Fisaac-sim%2FIsaacLab
+                - img [ref=e102]
+                - text: Star
+                - generic "7239 users starred this repository" [ref=e104]: 7.2k
+      - navigation "Repository" [ref=e105]:
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - link "Code" [ref=e108] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacLab
+              - img [ref=e109]
+              - generic [ref=e111]: Code
+          - listitem [ref=e112]:
+            - link "Issues 388" [ref=e113] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacLab/issues
+              - img [ref=e114]
+              - generic [ref=e117]: Issues
+              - generic "388" [ref=e118]
+          - listitem [ref=e119]:
+            - link "Pull requests 268" [ref=e120] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacLab/pulls
+              - img [ref=e121]
+              - generic [ref=e123]: Pull requests
+              - generic "268" [ref=e124]
+          - listitem [ref=e125]:
+            - link "Discussions" [ref=e126] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacLab/discussions
+              - img [ref=e127]
+              - generic [ref=e129]: Discussions
+          - listitem [ref=e130]:
+            - link "Actions" [ref=e131] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacLab/actions
+              - img [ref=e132]
+              - generic [ref=e134]: Actions
+          - listitem [ref=e135]:
+            - link "Projects" [ref=e136] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacLab/projects
+              - img [ref=e137]
+              - generic [ref=e139]: Projects
+          - listitem [ref=e140]:
+            - link "Security and quality" [ref=e141] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacLab/security
+              - img [ref=e142]
+              - generic [ref=e144]: Security and quality
+          - listitem [ref=e145]:
+            - link "Insights" [ref=e146] [cursor=pointer]:
+              - /url: /isaac-sim/IsaacLab/pulse
+              - img [ref=e147]
+              - generic [ref=e149]: Insights
+    - generic [ref=e157]:
+      - generic [ref=e159]:
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e164]:
+              - heading "Collapse file tree" [level=2] [ref=e165]:
+                - button "Collapse file tree" [expanded] [ref=e166] [cursor=pointer]:
+                  - img [ref=e167]
+              - heading "Files" [level=2] [ref=e170]
+            - generic [ref=e171]:
+              - button "main branch" [ref=e173] [cursor=pointer]:
+                - generic [ref=e174]:
+                  - generic [ref=e176]:
+                    - img [ref=e178]
+                    - generic [ref=e181]: main
+                  - generic:
+                    - img
+              - button "Search this repository (forward slash)" [ref=e183] [cursor=pointer]:
+                - img [ref=e184]
+          - generic [ref=e187]:
+            - img [ref=e189]
+            - combobox "Go to file" [ref=e191]
+          - navigation "File Tree Navigation" [ref=e197]:
+            - tree "Files" [ref=e199]:
+              - treeitem ".github" [level=1] [ref=e200]:
+                - generic [ref=e201] [cursor=pointer]:
+                  - img [ref=e203]
+                  - generic [ref=e205]:
+                    - img [ref=e209]
+                    - generic [ref=e211]: .github
+              - treeitem ".vscode" [level=1] [ref=e212]:
+                - generic [ref=e213] [cursor=pointer]:
+                  - img [ref=e215]
+                  - generic [ref=e217]:
+                    - img [ref=e221]
+                    - generic [ref=e223]: .vscode
+              - treeitem "apps" [level=1] [ref=e224]:
+                - generic [ref=e225] [cursor=pointer]:
+                  - img [ref=e227]
+                  - generic [ref=e229]:
+                    - img [ref=e233]
+                    - generic [ref=e235]: apps
+              - treeitem "docker" [level=1] [ref=e236]:
+                - generic [ref=e237] [cursor=pointer]:
+                  - img [ref=e239]
+                  - generic [ref=e241]:
+                    - img [ref=e245]
+                    - generic [ref=e247]: docker
+              - treeitem "docs" [level=1] [ref=e248]:
+                - generic [ref=e249] [cursor=pointer]:
+                  - img [ref=e251]
+                  - generic [ref=e253]:
+                    - img [ref=e257]
+                    - generic [ref=e259]: docs
+              - treeitem "scripts" [level=1] [ref=e260]:
+                - generic [ref=e261] [cursor=pointer]:
+                  - img [ref=e263]
+                  - generic [ref=e265]:
+                    - img [ref=e269]
+                    - generic [ref=e271]: scripts
+              - treeitem "source" [level=1] [ref=e272]:
+                - generic [ref=e273] [cursor=pointer]:
+                  - img [ref=e275]
+                  - generic [ref=e277]:
+                    - img [ref=e281]
+                    - generic [ref=e283]: source
+              - treeitem "tools" [level=1] [ref=e284]:
+                - generic [ref=e285] [cursor=pointer]:
+                  - img [ref=e287]
+                  - generic [ref=e289]:
+                    - img [ref=e293]
+                    - generic [ref=e295]: tools
+              - treeitem ".dockerignore" [level=1] [ref=e296]:
+                - generic [ref=e298] [cursor=pointer]:
+                  - img [ref=e301]
+                  - generic [ref=e303]: .dockerignore
+              - treeitem ".gitattributes" [level=1] [ref=e304]:
+                - generic [ref=e306] [cursor=pointer]:
+                  - img [ref=e309]
+                  - generic [ref=e311]: .gitattributes
+              - treeitem ".gitignore" [level=1] [ref=e312]:
+                - generic [ref=e314] [cursor=pointer]:
+                  - img [ref=e317]
+                  - generic [ref=e319]: .gitignore
+              - treeitem ".pre-commit-config.yaml" [level=1] [ref=e320]:
+                - generic [ref=e322] [cursor=pointer]:
+                  - img [ref=e325]
+                  - generic [ref=e327]: .pre-commit-config.yaml
+              - treeitem "CITATION.cff" [level=1] [ref=e328]:
+                - generic [ref=e330] [cursor=pointer]:
+                  - img [ref=e333]
+                  - generic [ref=e335]: CITATION.cff
+              - treeitem "CONTRIBUTING.md" [level=1] [ref=e336]:
+                - generic [ref=e338] [cursor=pointer]:
+                  - img [ref=e341]
+                  - generic [ref=e343]: CONTRIBUTING.md
+              - treeitem "CONTRIBUTORS.md" [level=1] [ref=e344]:
+                - generic [ref=e346] [cursor=pointer]:
+                  - img [ref=e349]
+                  - generic [ref=e351]: CONTRIBUTORS.md
+              - treeitem "LICENSE" [level=1] [ref=e352]:
+                - generic [ref=e354] [cursor=pointer]:
+                  - img [ref=e357]
+                  - generic [ref=e359]: LICENSE
+              - treeitem "LICENSE-mimic" [level=1] [ref=e360]:
+                - generic [ref=e362] [cursor=pointer]:
+                  - img [ref=e365]
+                  - generic [ref=e367]: LICENSE-mimic
+              - treeitem "README.md" [level=1] [ref=e368]:
+                - generic [ref=e370] [cursor=pointer]:
+                  - img [ref=e373]
+                  - generic [ref=e375]: README.md
+              - treeitem "SECURITY.md" [level=1] [ref=e376]:
+                - generic [ref=e378] [cursor=pointer]:
+                  - img [ref=e381]
+                  - generic [ref=e383]: SECURITY.md
+              - treeitem "VERSION" [level=1] [ref=e384]:
+                - generic [ref=e386] [cursor=pointer]:
+                  - img [ref=e389]
+                  - generic [ref=e391]: VERSION
+              - treeitem "environment.yml" [level=1] [ref=e392]:
+                - generic [ref=e394] [cursor=pointer]:
+                  - img [ref=e397]
+                  - generic [ref=e399]: environment.yml
+              - treeitem "greptile.json" [level=1] [ref=e400]:
+                - generic [ref=e402] [cursor=pointer]:
+                  - img [ref=e405]
+                  - generic [ref=e407]: greptile.json
+              - treeitem "isaaclab.bat" [level=1] [ref=e408]:
+                - generic [ref=e410] [cursor=pointer]:
+                  - img [ref=e413]
+                  - generic [ref=e415]: isaaclab.bat
+              - treeitem "isaaclab.sh" [level=1] [ref=e416]:
+                - generic [ref=e418] [cursor=pointer]:
+                  - img [ref=e421]
+                  - generic [ref=e423]: isaaclab.sh
+              - treeitem "pyproject.toml" [level=1] [ref=e424]:
+                - generic [ref=e426] [cursor=pointer]:
+                  - img [ref=e429]
+                  - generic [ref=e431]: pyproject.toml
+        - slider "Draggable pane splitter" [ref=e433]
+      - generic [ref=e436]:
+        - generic [ref=e440]:
+          - generic [ref=e442]:
+            - navigation "Breadcrumbs" [ref=e443]:
+              - heading "Breadcrumbs" [level=2] [ref=e444]
+              - list [ref=e445]:
+                - listitem [ref=e446]:
+                  - link "IsaacLab" [ref=e447] [cursor=pointer]:
+                    - /url: /isaac-sim/IsaacLab/tree/main
+                - listitem [ref=e448]:
+                  - text: /
+                  - link "source" [ref=e449] [cursor=pointer]:
+                    - /url: /isaac-sim/IsaacLab/tree/main/source
+                - listitem [ref=e450]:
+                  - text: /
+                  - link "isaaclab_tasks" [ref=e451] [cursor=pointer]:
+                    - /url: /isaac-sim/IsaacLab/tree/main/source/isaaclab_tasks
+                - listitem [ref=e452]:
+                  - text: /
+                  - link "isaaclab_tasks" [ref=e453] [cursor=pointer]:
+                    - /url: /isaac-sim/IsaacLab/tree/main/source/isaaclab_tasks/isaaclab_tasks
+                - listitem [ref=e454]:
+                  - text: /
+                  - link "manager_based" [ref=e455] [cursor=pointer]:
+                    - /url: /isaac-sim/IsaacLab/tree/main/source/isaaclab_tasks/isaaclab_tasks/manager_based
+                - listitem [ref=e456]:
+                  - text: /
+                  - link "robotics" [ref=e457] [cursor=pointer]:
+                    - /url: /isaac-sim/IsaacLab/tree/main/source/isaaclab_tasks/isaaclab_tasks/manager_based/robotics
+            - generic [ref=e458]:
+              - text: /
+              - heading "dexterous" [level=1] [ref=e459]
+              - text: /
+            - button "Copy path" [ref=e460] [cursor=pointer]:
+              - img [ref=e461]
+          - generic [ref=e466]:
+            - heading "Directory actions" [level=2] [ref=e467]
+            - heading "More options" [level=2] [ref=e468]
+            - button "More options" [ref=e469] [cursor=pointer]:
+              - img [ref=e470]
+        - generic [ref=e473]:
+          - img [ref=e474]
+          - generic [ref=e476]:
+            - generic [ref=e477]: 404 - page not found
+            - generic [ref=e478]:
+              - text: The
+              - paragraph [ref=e479]: main
+              - text: branch of
+              - paragraph [ref=e480]: IsaacLab
+              - text: does not contain the path
+              - paragraph [ref=e481]: source/isaaclab_tasks/isaaclab_tasks/manager_based/robotics/dexterous.
+          - link "go to Overview" [ref=e482] [cursor=pointer]:
+            - /url: /isaac-sim/IsaacLab
+            - generic [ref=e484]: Return to the repository overview

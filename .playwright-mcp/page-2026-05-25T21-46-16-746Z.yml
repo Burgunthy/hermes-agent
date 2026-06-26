@@ -1,0 +1,20 @@
+- banner [ref=e2]:
+  - button "Skip to content" [ref=e3] [cursor=pointer]:
+    - generic [ref=e5]: Skip to content
+  - button "Accessibility Feedback" [ref=e6] [cursor=pointer]:
+    - generic [ref=e8]: Accessibility Feedback
+  - generic [ref=e9]:
+    - link "Back to Bing search" [ref=e10] [cursor=pointer]:
+      - /url: /?FORM=Z9FD1
+      - heading "Back to Bing search" [level=1] [ref=e11]
+    - search [ref=e12]:
+      - button "Search" [ref=e15] [cursor=pointer]
+      - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e16]: "\"IROS 2026\" challenge OR competition OR contest robotics"
+  - complementary "Account Rewards and Preferences" [ref=e17]:
+    - button "Microsoft Rewards"
+    - link "Sign in" [ref=e18] [cursor=pointer]:
+      - /url: javascript:void(0)
+      - generic "Sign in" [ref=e19]
+  - generic [ref=e20]:
+    - generic [ref=e21]: One last step
+    - generic [ref=e22]: Please solve the challenge below to continue

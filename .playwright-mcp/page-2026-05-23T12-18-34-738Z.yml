@@ -1,0 +1,283 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to main content" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - link "Cornell University" [ref=e7] [cursor=pointer]:
+        - /url: https://www.cornell.edu/
+        - img "Cornell University" [ref=e8]
+      - link "Learn about arXiv becoming an independent nonprofit." [ref=e10] [cursor=pointer]:
+        - /url: https://tech.cornell.edu/arxiv/
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - text: We gratefully acknowledge support from the Simons Foundation,
+          - link "member institutions" [ref=e13] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/ourmembers.html
+          - text: ", and all contributors."
+        - link "Donate" [ref=e14] [cursor=pointer]:
+          - /url: https://info.arxiv.org/about/donate.html
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - link "arxiv logo" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img "arxiv logo" [ref=e18]
+        - generic [ref=e19]: ">"
+        - link "cs" [ref=e20] [cursor=pointer]:
+          - /url: /list/cs/recent
+        - generic [ref=e21]: ">"
+        - text: arXiv:2206.14176
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - textbox "Search term or terms" [ref=e26]:
+            - /placeholder: Search...
+          - paragraph [ref=e27]:
+            - link "Help" [ref=e28] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+            - text: "|"
+            - link "Advanced Search" [ref=e29] [cursor=pointer]:
+              - /url: https://arxiv.org/search/advanced
+        - combobox "Field to search" [ref=e31]:
+          - option "All fields" [selected]
+          - option "Title"
+          - option "Author"
+          - option "Abstract"
+          - option "Comments"
+          - option "Journal reference"
+          - option "ACM classification"
+          - option "MSC classification"
+          - option "Report number"
+          - option "arXiv identifier"
+          - option "DOI"
+          - option "ORCID"
+          - option "arXiv author ID"
+          - option "Help pages"
+          - option "Full text"
+        - button "Search" [ref=e32] [cursor=pointer]
+  - main [ref=e33]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - heading "Computer Science > Robotics" [level=1] [ref=e38]
+        - generic [ref=e40]:
+          - generic [ref=e41]: "[Submitted on 28 Jun 2022]"
+          - 'heading "DayDreamer: World Models for Physical Robot Learning" [level=1] [ref=e42]'
+          - generic [ref=e43]:
+            - link "Philipp Wu" [ref=e44] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Wu,+P
+            - text: ","
+            - link "Alejandro Escontrela" [ref=e45] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Escontrela,+A
+            - text: ","
+            - link "Danijar Hafner" [ref=e46] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Hafner,+D
+            - text: ","
+            - link "Ken Goldberg" [ref=e47] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Goldberg,+K
+            - text: ","
+            - link "Pieter Abbeel" [ref=e48] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Abbeel,+P
+          - blockquote [ref=e49]: To solve tasks in complex environments, robots need to learn from experience. Deep reinforcement learning is a common approach to robot learning but requires a large amount of trial and error to learn, limiting its deployment in the physical world. As a consequence, many advances in robot learning rely on simulators. On the other hand, learning inside of simulators fails to capture the complexity of the real world, is prone to simulator inaccuracies, and the resulting behaviors do not adapt to changes in the world. The Dreamer algorithm has recently shown great promise for learning from small amounts of interaction by planning within a learned world model, outperforming pure reinforcement learning in video games. Learning a world model to predict the outcomes of potential actions enables planning in imagination, reducing the amount of trial and error needed in the real environment. However, it is unknown whether Dreamer can facilitate faster learning on physical robots. In this paper, we apply Dreamer to 4 robots to learn online and directly in the real world, without simulators. Dreamer trains a quadruped robot to roll off its back, stand up, and walk from scratch and without resets in only 1 hour. We then push the robot and find that Dreamer adapts within 10 minutes to withstand perturbations or quickly roll over and stand back up. On two different robotic arms, Dreamer learns to pick and place multiple objects directly from camera images and sparse rewards, approaching human performance. On a wheeled robot, Dreamer learns to navigate to a goal position purely from camera images, automatically resolving ambiguity about the robot orientation. Using the same hyperparameters across all experiments, we find that Dreamer is capable of online learning in the real world, establishing a strong baseline. We release our infrastructure for future applications of world models to robot learning.
+          - table "Additional metadata" [ref=e51]:
+            - rowgroup [ref=e52]:
+              - 'row "Comments: Website: this https URL" [ref=e53]':
+                - cell "Comments:" [ref=e54]
+                - 'cell "Website: this https URL" [ref=e55]':
+                  - text: "Website:"
+                  - link "this https URL" [ref=e56] [cursor=pointer]:
+                    - /url: https://danijar.com/daydreamer
+              - 'row "Subjects: Robotics (cs.RO); Artificial Intelligence (cs.AI); Machine Learning (cs.LG)" [ref=e57]':
+                - cell "Subjects:" [ref=e58]
+                - cell "Robotics (cs.RO); Artificial Intelligence (cs.AI); Machine Learning (cs.LG)" [ref=e59]
+              - 'row "Cite as: arXiv:2206.14176 [cs.RO]" [ref=e60]':
+                - cell "Cite as:" [ref=e61]
+                - cell "arXiv:2206.14176 [cs.RO]" [ref=e62]:
+                  - generic [ref=e63]:
+                    - link "arXiv:2206.14176" [ref=e64] [cursor=pointer]:
+                      - /url: https://arxiv.org/abs/2206.14176
+                    - text: "[cs.RO]"
+              - row "(or arXiv:2206.14176v1 [cs.RO] for this version)" [ref=e65]:
+                - cell [ref=e66]
+                - cell "(or arXiv:2206.14176v1 [cs.RO] for this version)" [ref=e67]:
+                  - text: (or
+                  - generic [ref=e68]:
+                    - link "arXiv:2206.14176v1" [ref=e69] [cursor=pointer]:
+                      - /url: https://arxiv.org/abs/2206.14176v1
+                    - text: "[cs.RO]"
+                  - text: for this version)
+              - row "https://doi.org/10.48550/arXiv.2206.14176 Focus to learn more" [ref=e70]:
+                - cell [ref=e71]
+                - cell "https://doi.org/10.48550/arXiv.2206.14176 Focus to learn more" [ref=e72]:
+                  - link "https://doi.org/10.48550/arXiv.2206.14176" [ref=e73] [cursor=pointer]:
+                    - /url: https://doi.org/10.48550/arXiv.2206.14176
+                  - button "Focus to learn more" [ref=e75]:
+                    - generic [ref=e77]: Focus to learn more
+        - generic [ref=e78]:
+          - heading "Submission history" [level=2] [ref=e79]
+          - text: "From: Danijar Hafner ["
+          - link "view email" [ref=e80] [cursor=pointer]:
+            - /url: /show-email/42b2c958/2206.14176
+          - text: "]"
+          - strong [ref=e81]: "[v1]"
+          - text: Tue, 28 Jun 2022 17:44:48 UTC (2,791 KB)
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - heading "Access Paper:" [level=2] [ref=e84]
+          - list [ref=e85]:
+            - listitem [ref=e86]:
+              - link "View PDF" [ref=e87] [cursor=pointer]:
+                - /url: /pdf/2206.14176
+            - listitem [ref=e88]:
+              - link "TeX Source" [ref=e89] [cursor=pointer]:
+                - /url: /src/2206.14176
+          - link "view license" [ref=e91] [cursor=pointer]:
+            - /url: http://creativecommons.org/licenses/by/4.0/
+            - generic [ref=e92]: view license
+        - generic [ref=e93]:
+          - text: "Current browse context:"
+          - generic [ref=e94]: cs.RO
+          - generic [ref=e95]:
+            - link "< prev" [ref=e97] [cursor=pointer]:
+              - /url: /prevnext?id=2206.14176&function=prev&context=cs.RO
+            - text: "|"
+            - link "next >" [ref=e99] [cursor=pointer]:
+              - /url: /prevnext?id=2206.14176&function=next&context=cs.RO
+          - generic [ref=e100]:
+            - link "new" [ref=e101] [cursor=pointer]:
+              - /url: /list/cs.RO/new
+            - text: "|"
+            - link "recent" [ref=e102] [cursor=pointer]:
+              - /url: /list/cs.RO/recent
+            - text: "|"
+            - link "2022-06" [ref=e103] [cursor=pointer]:
+              - /url: /list/cs.RO/2022-06
+          - generic [ref=e104]:
+            - text: "Change to browse by:"
+            - generic [ref=e105]:
+              - link "cs" [ref=e106] [cursor=pointer]:
+                - /url: /abs/2206.14176?context=cs
+              - link "cs.AI" [ref=e107] [cursor=pointer]:
+                - /url: /abs/2206.14176?context=cs.AI
+              - link "cs.LG" [ref=e108] [cursor=pointer]:
+                - /url: /abs/2206.14176?context=cs.LG
+        - generic [ref=e109]:
+          - heading "References & Citations" [level=3] [ref=e110]
+          - list [ref=e111]:
+            - listitem [ref=e112]:
+              - link "NASA ADS" [ref=e113] [cursor=pointer]:
+                - /url: https://ui.adsabs.harvard.edu/abs/arXiv:2206.14176
+            - listitem [ref=e114]:
+              - link "Google Scholar" [ref=e115] [cursor=pointer]:
+                - /url: https://scholar.google.com/scholar_lookup?arxiv_id=2206.14176
+            - listitem [ref=e116]:
+              - link "Semantic Scholar" [ref=e117] [cursor=pointer]:
+                - /url: https://api.semanticscholar.org/arXiv:2206.14176
+        - generic [ref=e118]: export BibTeX citation
+        - generic [ref=e119]:
+          - heading "Bookmark" [level=3] [ref=e121]
+          - link "BibSonomy logo" [ref=e122] [cursor=pointer]:
+            - /url: "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2206.14176&description=DayDreamer: World Models for Physical Robot Learning"
+            - img "BibSonomy logo" [ref=e123]
+          - link "Reddit logo" [ref=e124] [cursor=pointer]:
+            - /url: "https://reddit.com/submit?url=https://arxiv.org/abs/2206.14176&title=DayDreamer: World Models for Physical Robot Learning"
+            - img "Reddit logo" [ref=e125]
+      - generic [ref=e127]:
+        - radio "Bibliographic Tools" [checked] [ref=e128]
+        - generic [ref=e129] [cursor=pointer]: Bibliographic Tools
+        - generic [ref=e130]:
+          - heading "Bibliographic and Citation Tools" [level=1] [ref=e131]
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - generic [ref=e135]:
+                - checkbox "Bibliographic Explorer Toggle"
+                - generic [ref=e137]: Bibliographic Explorer Toggle
+              - generic [ref=e138]:
+                - text: Bibliographic Explorer
+                - emphasis [ref=e139]:
+                  - text: (
+                  - link "What is the Explorer?" [ref=e140] [cursor=pointer]:
+                    - /url: https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer
+                  - text: )
+            - generic [ref=e141]:
+              - generic [ref=e143]:
+                - checkbox "Connected Papers"
+                - generic [ref=e145]: Connected Papers Toggle
+              - generic [ref=e146]:
+                - text: Connected Papers
+                - emphasis [ref=e147]:
+                  - text: (
+                  - link "What is Connected Papers?" [ref=e148] [cursor=pointer]:
+                    - /url: https://www.connectedpapers.com/about
+                  - text: )
+            - generic [ref=e149]:
+              - generic [ref=e151]:
+                - checkbox "Litmaps"
+                - generic [ref=e153]: Litmaps Toggle
+              - generic [ref=e154]:
+                - text: Litmaps
+                - emphasis [ref=e155]:
+                  - text: (
+                  - link "What is Litmaps?" [ref=e156] [cursor=pointer]:
+                    - /url: https://www.litmaps.co/
+                  - text: )
+            - generic [ref=e157]:
+              - generic [ref=e159]:
+                - checkbox "scite Smart Citations"
+                - generic [ref=e161]: scite.ai Toggle
+              - generic [ref=e162]:
+                - text: scite Smart Citations
+                - emphasis [ref=e163]:
+                  - text: (
+                  - link "What are Smart Citations?" [ref=e164] [cursor=pointer]:
+                    - /url: https://www.scite.ai/
+                  - text: )
+        - radio "Code, Data, Media" [ref=e168]
+        - generic [ref=e169] [cursor=pointer]: Code, Data, Media
+        - radio "Demos" [ref=e170]
+        - generic [ref=e171] [cursor=pointer]: Demos
+        - radio "Related Papers" [ref=e172]
+        - generic [ref=e173] [cursor=pointer]: Related Papers
+        - radio "About arXivLabs" [ref=e174]
+        - generic [ref=e175] [cursor=pointer]: About arXivLabs
+      - generic [ref=e176]:
+        - link "Which authors of this paper are endorsers?" [ref=e177] [cursor=pointer]:
+          - /url: /auth/show-endorsers/2206.14176
+        - text: "|"
+        - link "Disable MathJax" [ref=e178] [cursor=pointer]:
+          - /url: javascript:setMathjaxCookie()
+        - text: (
+        - link "What is MathJax?" [ref=e179] [cursor=pointer]:
+          - /url: https://info.arxiv.org/help/mathjax.html
+        - text: )
+  - contentinfo [ref=e180]:
+    - navigation "Secondary" [ref=e181]:
+      - generic [ref=e183]:
+        - list [ref=e185]:
+          - listitem [ref=e186]:
+            - link "About" [ref=e187] [cursor=pointer]:
+              - /url: https://info.arxiv.org/about
+          - listitem [ref=e188]:
+            - link "Help" [ref=e189] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+        - list [ref=e191]:
+          - listitem [ref=e192]:
+            - link "Contact" [ref=e194] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/contact.html
+          - listitem [ref=e195]:
+            - link "Subscribe" [ref=e197] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/subscribe
+      - generic [ref=e199]:
+        - list [ref=e201]:
+          - listitem [ref=e202]:
+            - link "Copyright" [ref=e203] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/license/index.html
+          - listitem [ref=e204]:
+            - link "Privacy Policy" [ref=e205] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/policies/privacy_policy.html
+        - list [ref=e207]:
+          - listitem [ref=e208]:
+            - link "Web Accessibility Assistance" [ref=e209] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/web_accessibility.html
+          - listitem [ref=e210]:
+            - paragraph [ref=e211]:
+              - link "arXiv Operational Status" [ref=e212] [cursor=pointer]:
+                - /url: https://status.arxiv.org
+                - text: arXiv Operational Status

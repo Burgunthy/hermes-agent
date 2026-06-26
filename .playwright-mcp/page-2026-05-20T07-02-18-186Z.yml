@@ -1,0 +1,834 @@
+- generic [active] [ref=e1]:
+  - button "Skip to main content" [ref=e4]:
+    - generic [ref=e5]:
+      - generic: Skip to main content
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - link "TradingView main page" [ref=e11] [cursor=pointer]:
+        - /url: /
+        - img [ref=e13]
+      - generic [ref=e17]:
+        - button "Search" [ref=e20]:
+          - img [ref=e21]
+          - generic [ref=e23]: Search (Ctrl+K)
+        - navigation [ref=e24]:
+          - list [ref=e25]:
+            - listitem [ref=e26]:
+              - link "Products Products menu" [ref=e27] [cursor=pointer]:
+                - /url: /chart/
+                - text: Products
+                - button "Products menu" [ref=e28]:
+                  - img [ref=e29]
+            - listitem [ref=e31]:
+              - link "Community Community menu" [ref=e32] [cursor=pointer]:
+                - /url: /ideas/
+                - text: Community
+                - button "Community menu" [ref=e33]:
+                  - img [ref=e34]
+            - listitem [ref=e36]:
+              - link "Markets Markets menu" [ref=e37] [cursor=pointer]:
+                - /url: /markets/
+                - text: Markets
+                - button "Markets menu" [ref=e38]:
+                  - img [ref=e39]
+            - listitem [ref=e41]:
+              - link "Brokers Brokers menu" [ref=e42] [cursor=pointer]:
+                - /url: /brokers/
+                - text: Brokers
+                - button "Brokers menu" [ref=e43]:
+                  - img [ref=e44]
+            - listitem [ref=e46]:
+              - link "More More menu" [ref=e47] [cursor=pointer]:
+                - /url: /support/
+                - text: More
+                - button "More menu" [ref=e48]:
+                  - img [ref=e49]
+      - generic [ref=e51]:
+        - button "Open language menu" [ref=e52] [cursor=pointer]:
+          - img [ref=e53]
+          - text: EN
+        - button "Open user menu" [ref=e55] [cursor=pointer]:
+          - img [ref=e56]
+        - link "Get started" [ref=e60] [cursor=pointer]:
+          - /url: /pricing/?source=header_go_pro_button&feature=start_free_trial
+          - generic [ref=e62]: Get started
+    - main "Main content" [ref=e63]:
+      - generic [ref=e66]:
+        - generic [ref=e70]:
+          - generic [ref=e71]:
+            - generic [ref=e73]:
+              - generic [ref=e77]:
+                - heading "AOA" [level=1] [ref=e79]
+                - generic [ref=e80]:
+                  - text: Last seen
+                  - time [ref=e81]: May 18, 2023
+              - generic [ref=e83]:
+                - button "Followers 6" [ref=e84]:
+                  - generic [ref=e85]: Followers
+                  - text: "6"
+                - button "Following 13" [ref=e86]:
+                  - generic [ref=e87]: Following
+                  - text: "13"
+                - button "Ideas 10" [ref=e88]:
+                  - generic [ref=e89]: Ideas
+                  - text: "10"
+                - button "Scripts 0" [ref=e90]:
+                  - generic [ref=e91]: Scripts
+                  - text: "0"
+            - generic [ref=e93]:
+              - button "Follow" [ref=e94]:
+                - generic [ref=e97]: Follow
+              - generic [ref=e98]:
+                - button "Message" [ref=e99]:
+                  - img [ref=e101]:
+                    - img [ref=e102]
+                - button "Gift a subscription" [ref=e105]:
+                  - img [ref=e107]:
+                    - img [ref=e108]
+                  - generic [ref=e110]: Gift a subscription
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - img [ref=e115]:
+                - img [ref=e116]
+              - text: Joined May 2, 2017
+            - generic [ref=e118]: ·
+            - generic [ref=e119]:
+              - text: "Also on:"
+              - link "X" [ref=e121] [cursor=pointer]:
+                - /url: https://x.com/AGHAMDII
+                - img [ref=e123]:
+                  - img [ref=e124]
+        - tablist [ref=e128]:
+          - tab "Ideas" [selected] [ref=e129] [cursor=pointer]
+          - tab "Minds" [ref=e130] [cursor=pointer]
+          - tab "Scripts" [ref=e131] [cursor=pointer]
+        - generic [ref=e138]:
+          - generic [ref=e139]:
+            - heading "Market analysis and trading tutorials" [level=2] [ref=e140]
+            - button "Search" [ref=e142]:
+              - img [ref=e144]:
+                - img [ref=e145]
+          - generic [ref=e148]:
+            - article [ref=e149]:
+              - generic [ref=e150]:
+                - link "Wolfe Wave along with Diver." [ref=e151] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/DAX/1TuhDEdy-Wolfe-Wave-along-with-Diver/
+                - link "DAX looks like its overbought and it might go down, As Wolfe wave and supply and demand, this is what I see for it and hopefully, it works." [ref=e152] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/DAX/1TuhDEdy-Wolfe-Wave-along-with-Diver/
+                  - generic [ref=e154]: DAX looks like its overbought and it might go down, As Wolfe wave and supply and demand, this is what I see for it and hopefully, it works.
+              - generic [ref=e156]:
+                - generic:
+                  - link "XETR:DAX" [ref=e157] [cursor=pointer]:
+                    - /url: /symbols/XETR-DAX/
+                    - img "XETR:DAX" [ref=e158]
+                  - generic "Short" [ref=e159]:
+                    - img [ref=e160]:
+                      - img [ref=e161]
+                    - generic [ref=e163]: Short
+                - link [ref=e164] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/DAX/1TuhDEdy-Wolfe-Wave-along-with-Diver/
+              - generic [ref=e166]:
+                - generic [ref=e167]:
+                  - link "by AOA" [ref=e169] [cursor=pointer]:
+                    - /url: /u/AOA/
+                    - generic [ref=e170]: by AOA
+                  - time [ref=e172]: Updated Mar 31, 2020
+                - generic [ref=e173]:
+                  - link "0 comments" [ref=e174] [cursor=pointer]:
+                    - /url: https://www.tradingview.com/chart/DAX/1TuhDEdy-Wolfe-Wave-along-with-Diver/#chart-view-comment-form
+                    - img [ref=e176]:
+                      - img [ref=e177]
+                  - button "10 boosts 1 0" [ref=e179]:
+                    - generic [ref=e180]:
+                      - img "10 boosts" [ref=e182]:
+                        - img [ref=e183]
+                      - generic [ref=e187]:
+                        - generic [ref=e189]: "1"
+                        - generic [ref=e191]: "0"
+            - article [ref=e192]:
+              - generic [ref=e193]:
+                - link "S&P 500 LONG" [ref=e194] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/US500/aCZU86ac-S-P-500-LONG/
+                - link "As a Wolfe Wave on the 4H frame Last low has been broken and then engulfing candle came up. hopefully, it will reach its target Let's wait and see." [ref=e195] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/US500/aCZU86ac-S-P-500-LONG/
+                  - generic [ref=e197]: As a Wolfe Wave on the 4H frame Last low has been broken and then engulfing candle came up. hopefully, it will reach its target Let's wait and see.
+              - generic [ref=e199]:
+                - generic:
+                  - generic "CURRENCYCOM:US500" [ref=e200]:
+                    - generic [ref=e201]: U
+                  - generic "Long" [ref=e202]:
+                    - img [ref=e203]:
+                      - img [ref=e204]
+                    - generic [ref=e206]: Long
+                - link [ref=e207] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/US500/aCZU86ac-S-P-500-LONG/
+              - generic [ref=e209]:
+                - generic [ref=e210]:
+                  - link "by AOA" [ref=e212] [cursor=pointer]:
+                    - /url: /u/AOA/
+                    - generic [ref=e213]: by AOA
+                  - time [ref=e215]: Updated Mar 19, 2020
+                - generic [ref=e216]:
+                  - link "0 comments" [ref=e217] [cursor=pointer]:
+                    - /url: https://www.tradingview.com/chart/US500/aCZU86ac-S-P-500-LONG/#chart-view-comment-form
+                    - img [ref=e219]:
+                      - img [ref=e220]
+                  - button "3 boosts 3" [ref=e222]:
+                    - generic [ref=e223]:
+                      - img "3 boosts" [ref=e225]:
+                        - img [ref=e226]
+                      - generic [ref=e232]: "3"
+            - article [ref=e233]:
+              - generic [ref=e234]:
+                - link "Oil Brent Weekly Chart" [ref=e235] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/OIL_BRENT/NgshE3fe-Oil-Brent-Weekly-Chart/
+                - link "On the weekly chart As head and shoulders have been broken and still down with no retest to the neckline, it seems to be it will reach its target soon. Let's wait and see" [ref=e236] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/OIL_BRENT/NgshE3fe-Oil-Brent-Weekly-Chart/
+                  - generic [ref=e238]: On the weekly chart As head and shoulders have been broken and still down with no retest to the neckline, it seems to be it will reach its target soon. Let's wait and see
+              - generic [ref=e240]:
+                - generic:
+                  - generic "CURRENCYCOM:OIL_BRENT" [ref=e241]:
+                    - generic [ref=e242]: O
+                  - generic "Short" [ref=e243]:
+                    - img [ref=e244]:
+                      - img [ref=e245]
+                    - generic [ref=e247]: Short
+                - link [ref=e248] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/OIL_BRENT/NgshE3fe-Oil-Brent-Weekly-Chart/
+              - generic [ref=e250]:
+                - generic [ref=e251]:
+                  - link "by AOA" [ref=e253] [cursor=pointer]:
+                    - /url: /u/AOA/
+                    - generic [ref=e254]: by AOA
+                  - time [ref=e256]: Mar 17, 2020
+                - generic [ref=e257]:
+                  - link "0 comments" [ref=e258] [cursor=pointer]:
+                    - /url: https://www.tradingview.com/chart/OIL_BRENT/NgshE3fe-Oil-Brent-Weekly-Chart/#chart-view-comment-form
+                    - img [ref=e260]:
+                      - img [ref=e261]
+                  - button "4 boosts 4" [ref=e263]:
+                    - generic [ref=e264]:
+                      - img "4 boosts" [ref=e266]:
+                        - img [ref=e267]
+                      - generic [ref=e273]: "4"
+            - article [ref=e274]:
+              - generic [ref=e275]:
+                - link "GBPCAD SHORT" [ref=e276] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/GBPCAD/hW7FjYMd-GBPCAD-SHORT/
+                - link "GBPCAD on Daily Chart Looks like HEAD and SHOULDERS, it might go first to test the upper trend and then fall again toward the lower trend. Thas way I placed tow positions as SHORT. Let's wait and see" [ref=e277] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/GBPCAD/hW7FjYMd-GBPCAD-SHORT/
+                  - generic [ref=e279]: GBPCAD on Daily Chart Looks like HEAD and SHOULDERS, it might go first to test the upper trend and then fall again toward the lower trend. Thas way I placed tow positions as SHORT. Let's wait and see
+              - generic [ref=e281]:
+                - generic:
+                  - link "FX:GBPCAD" [ref=e282] [cursor=pointer]:
+                    - /url: /symbols/GBPCAD/
+                  - generic "Short" [ref=e284]:
+                    - img [ref=e285]:
+                      - img [ref=e286]
+                    - generic [ref=e288]: Short
+                - link [ref=e289] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/GBPCAD/hW7FjYMd-GBPCAD-SHORT/
+              - generic [ref=e291]:
+                - generic [ref=e292]:
+                  - link "by AOA" [ref=e294] [cursor=pointer]:
+                    - /url: /u/AOA/
+                    - generic [ref=e295]: by AOA
+                  - time [ref=e297]: Updated Mar 7, 2020
+                - generic [ref=e298]:
+                  - link "0 comments" [ref=e299] [cursor=pointer]:
+                    - /url: https://www.tradingview.com/chart/GBPCAD/hW7FjYMd-GBPCAD-SHORT/#chart-view-comment-form
+                    - img [ref=e301]:
+                      - img [ref=e302]
+                  - button "4 boosts 4" [ref=e304]:
+                    - generic [ref=e305]:
+                      - img "4 boosts" [ref=e307]:
+                        - img [ref=e308]
+                      - generic [ref=e314]: "4"
+            - article [ref=e315]:
+              - generic [ref=e316]:
+                - link "CVX SHORT D" [ref=e317] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/CVX/84Uymap6-CVX-SHORT-D/
+                - link "CVX on Daily Chart, it brokes the channel and hit the target, Still, it's going down to reach the Wolf Wave target. Lets see" [ref=e318] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/CVX/84Uymap6-CVX-SHORT-D/
+                  - generic [ref=e320]: CVX on Daily Chart, it brokes the channel and hit the target, Still, it's going down to reach the Wolf Wave target. Lets see
+              - generic [ref=e322]:
+                - generic:
+                  - link "NYSE:CVX" [ref=e323] [cursor=pointer]:
+                    - /url: /symbols/NYSE-CVX/
+                    - img "NYSE:CVX" [ref=e324]
+                  - generic "Short" [ref=e325]:
+                    - img [ref=e326]:
+                      - img [ref=e327]
+                    - generic [ref=e329]: Short
+                - link [ref=e330] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/CVX/84Uymap6-CVX-SHORT-D/
+              - generic [ref=e332]:
+                - generic [ref=e333]:
+                  - link "by AOA" [ref=e335] [cursor=pointer]:
+                    - /url: /u/AOA/
+                    - generic [ref=e336]: by AOA
+                  - time [ref=e338]: Updated Mar 3, 2020
+                - generic [ref=e339]:
+                  - link "0 comments" [ref=e340] [cursor=pointer]:
+                    - /url: https://www.tradingview.com/chart/CVX/84Uymap6-CVX-SHORT-D/#chart-view-comment-form
+                    - img [ref=e342]:
+                      - img [ref=e343]
+                  - button "3 boosts 3" [ref=e345]:
+                    - generic [ref=e346]:
+                      - img "3 boosts" [ref=e348]:
+                        - img [ref=e349]
+                      - generic [ref=e355]: "3"
+            - article [ref=e356]:
+              - generic [ref=e357]:
+                - link "Long with Head and Shoulders confirmed." [ref=e358] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/EURUSD/L8CU1Alw-Long-with-Head-and-Shoulders-confirmed/
+                - link "I put this based on the condition that price will drop and then I will take it as a long, my SL is close to my entire concerned is about the complete shape of the HEAD and SHOULDERS and I might stay longer time to make my profit. Let's watch and see" [ref=e359] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/EURUSD/L8CU1Alw-Long-with-Head-and-Shoulders-confirmed/
+                  - generic [ref=e361]: I put this based on the condition that price will drop and then I will take it as a long, my SL is close to my entire concerned is about the complete shape of the HEAD and SHOULDERS and I might stay longer time to make my profit. Let's watch and see
+              - generic [ref=e363]:
+                - generic:
+                  - link "FX:EURUSD" [ref=e364] [cursor=pointer]:
+                    - /url: /symbols/EURUSD/
+                  - generic "Long" [ref=e366]:
+                    - img [ref=e367]:
+                      - img [ref=e368]
+                    - generic [ref=e370]: Long
+                - link [ref=e371] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/EURUSD/L8CU1Alw-Long-with-Head-and-Shoulders-confirmed/
+              - generic [ref=e373]:
+                - generic [ref=e374]:
+                  - link "by AOA" [ref=e376] [cursor=pointer]:
+                    - /url: /u/AOA/
+                    - generic [ref=e377]: by AOA
+                  - time [ref=e379]: Updated Feb 18, 2020
+                - generic [ref=e380]:
+                  - link "0 comments" [ref=e381] [cursor=pointer]:
+                    - /url: https://www.tradingview.com/chart/EURUSD/L8CU1Alw-Long-with-Head-and-Shoulders-confirmed/#chart-view-comment-form
+                    - img [ref=e383]:
+                      - img [ref=e384]
+                  - button "3 boosts 3" [ref=e386]:
+                    - generic [ref=e387]:
+                      - img "3 boosts" [ref=e389]:
+                        - img [ref=e390]
+                      - generic [ref=e396]: "3"
+            - article [ref=e397]:
+              - generic [ref=e398]:
+                - link "GBPCAD Flag" [ref=e399] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/GBPCAD/eZpH4hwJ-GBPCAD-Flag/
+                - link "Simpilesitey ,,,, I recommend the impulse for the up position when the triangle break and retest, let's wait and see." [ref=e400] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/GBPCAD/eZpH4hwJ-GBPCAD-Flag/
+                  - generic [ref=e402]: Simpilesitey ,,,, I recommend the impulse for the up position when the triangle break and retest, let's wait and see.
+              - generic [ref=e404]:
+                - link "OANDA:GBPCAD" [ref=e405] [cursor=pointer]:
+                  - /url: /symbols/GBPCAD/
+                - link [ref=e407] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/GBPCAD/eZpH4hwJ-GBPCAD-Flag/
+              - generic [ref=e409]:
+                - generic [ref=e410]:
+                  - link "by AOA" [ref=e412] [cursor=pointer]:
+                    - /url: /u/AOA/
+                    - generic [ref=e413]: by AOA
+                  - time [ref=e415]: Updated Dec 6, 2019
+                - generic [ref=e416]:
+                  - link "0 comments" [ref=e417] [cursor=pointer]:
+                    - /url: https://www.tradingview.com/chart/GBPCAD/eZpH4hwJ-GBPCAD-Flag/#chart-view-comment-form
+                    - img [ref=e419]:
+                      - img [ref=e420]
+                  - button "5 boosts 5" [ref=e422]:
+                    - generic [ref=e423]:
+                      - img "5 boosts" [ref=e425]:
+                        - img [ref=e426]
+                      - generic [ref=e432]: "5"
+            - article [ref=e433]:
+              - generic [ref=e434]:
+                - link "Head and Shoulders under process" [ref=e435] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/NZDUSD/m9eAm9vD-Head-and-Shoulders-under-process/
+                - link "I am looking for Bullish this pair due to ENGULFING candle and as a Wolfe Wave, all waves are done so far, expecting to make head and shoulders and reach its target as shown. Hopefully, it works well." [ref=e436] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/NZDUSD/m9eAm9vD-Head-and-Shoulders-under-process/
+                  - generic [ref=e438]: I am looking for Bullish this pair due to ENGULFING candle and as a Wolfe Wave, all waves are done so far, expecting to make head and shoulders and reach its target as shown. Hopefully, it works well.
+              - generic [ref=e440]:
+                - generic:
+                  - link "FX:NZDUSD" [ref=e441] [cursor=pointer]:
+                    - /url: /symbols/NZDUSD/
+                  - generic "Long" [ref=e443]:
+                    - img [ref=e444]:
+                      - img [ref=e445]
+                    - generic [ref=e447]: Long
+                - link [ref=e448] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/NZDUSD/m9eAm9vD-Head-and-Shoulders-under-process/
+              - generic [ref=e450]:
+                - generic [ref=e451]:
+                  - link "by AOA" [ref=e453] [cursor=pointer]:
+                    - /url: /u/AOA/
+                    - generic [ref=e454]: by AOA
+                  - time [ref=e456]: Updated Dec 3, 2019
+                - generic [ref=e457]:
+                  - link "2 comments" [ref=e458] [cursor=pointer]:
+                    - /url: https://www.tradingview.com/chart/NZDUSD/m9eAm9vD-Head-and-Shoulders-under-process/#chart-view-comment-form
+                    - img [ref=e460]:
+                      - img [ref=e461]
+                    - generic [ref=e464]: "2"
+                  - button "7 boosts 7" [ref=e465]:
+                    - generic [ref=e466]:
+                      - img "7 boosts" [ref=e468]:
+                        - img [ref=e469]
+                      - generic [ref=e475]: "7"
+            - article [ref=e476]:
+              - generic [ref=e477]:
+                - link "EURGBP SHORT" [ref=e478] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/EURGBP/dt2qxWDK-EURGBP-SHORT/
+                - link "This is what i see , as short for EURGBP" [ref=e479] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/EURGBP/dt2qxWDK-EURGBP-SHORT/
+                  - generic [ref=e481]: This is what i see , as short for EURGBP
+              - generic [ref=e483]:
+                - generic:
+                  - link "OANDA:EURGBP" [ref=e484] [cursor=pointer]:
+                    - /url: /symbols/EURGBP/
+                  - generic "Short" [ref=e486]:
+                    - img [ref=e487]:
+                      - img [ref=e488]
+                    - generic [ref=e490]: Short
+                - link [ref=e491] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/EURGBP/dt2qxWDK-EURGBP-SHORT/
+              - generic [ref=e493]:
+                - generic [ref=e494]:
+                  - link "by AOA" [ref=e496] [cursor=pointer]:
+                    - /url: /u/AOA/
+                    - generic [ref=e497]: by AOA
+                  - time [ref=e499]: Jul 16, 2019
+                - generic [ref=e500]:
+                  - link "2 comments" [ref=e501] [cursor=pointer]:
+                    - /url: https://www.tradingview.com/chart/EURGBP/dt2qxWDK-EURGBP-SHORT/#chart-view-comment-form
+                    - img [ref=e503]:
+                      - img [ref=e504]
+                    - generic [ref=e507]: "2"
+                  - button "3 boosts 3" [ref=e508]:
+                    - generic [ref=e509]:
+                      - img "3 boosts" [ref=e511]:
+                        - img [ref=e512]
+                      - generic [ref=e518]: "3"
+            - article [ref=e519]:
+              - generic [ref=e520]:
+                - link "USD/CAD Short" [ref=e521] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/USDCAD/FJWsTRWp-USD-CAD-Short/
+                - link "As Wolf Wave and Fibo , Short is my consern" [ref=e522] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/USDCAD/FJWsTRWp-USD-CAD-Short/
+                  - generic [ref=e524]: As Wolf Wave and Fibo , Short is my consern
+              - generic [ref=e526]:
+                - generic:
+                  - link "FX:USDCAD" [ref=e527] [cursor=pointer]:
+                    - /url: /symbols/USDCAD/
+                  - generic "Short" [ref=e529]:
+                    - img [ref=e530]:
+                      - img [ref=e531]
+                    - generic [ref=e533]: Short
+                - link [ref=e534] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/chart/USDCAD/FJWsTRWp-USD-CAD-Short/
+              - generic [ref=e536]:
+                - generic [ref=e537]:
+                  - link "by AOA" [ref=e539] [cursor=pointer]:
+                    - /url: /u/AOA/
+                    - generic [ref=e540]: by AOA
+                  - time [ref=e542]: Jan 28, 2019
+                - generic [ref=e543]:
+                  - link "0 comments" [ref=e544] [cursor=pointer]:
+                    - /url: https://www.tradingview.com/chart/USDCAD/FJWsTRWp-USD-CAD-Short/#chart-view-comment-form
+                    - img [ref=e546]:
+                      - img [ref=e547]
+                  - button "1 boost 1" [ref=e549]:
+                    - generic [ref=e550]:
+                      - img "1 boost" [ref=e552]:
+                        - img [ref=e553]
+                      - generic [ref=e559]: "1"
+    - contentinfo [ref=e560]:
+      - generic [ref=e562]:
+        - separator [ref=e563]
+        - generic [ref=e564]:
+          - generic [ref=e565]:
+            - generic [ref=e566]:
+              - generic [ref=e567]:
+                - link "TradingView main page" [ref=e568] [cursor=pointer]:
+                  - /url: /
+                - generic [ref=e570]:
+                  - link "TradingView on X" [ref=e571] [cursor=pointer]:
+                    - /url: https://x.com/tradingview/
+                    - img [ref=e573]:
+                      - img [ref=e574]
+                  - link "TradingView on Facebook" [ref=e576] [cursor=pointer]:
+                    - /url: https://www.facebook.com/tradingview/
+                    - img [ref=e578]:
+                      - img [ref=e579]
+                  - link "TradingView on YouTube" [ref=e581] [cursor=pointer]:
+                    - /url: https://www.youtube.com/@TradingView
+                    - img [ref=e583]:
+                      - img [ref=e584]
+                  - link "TradingView on Instagram" [ref=e586] [cursor=pointer]:
+                    - /url: https://www.instagram.com/tradingview/
+                    - img [ref=e588]:
+                      - img [ref=e589]
+                  - link "TradingView on LinkedIn" [ref=e591] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/tradingview/
+                    - img [ref=e593]:
+                      - img [ref=e594]
+                  - link "TradingView on Telegram" [ref=e596] [cursor=pointer]:
+                    - /url: https://t.me/tradingview/
+                    - img [ref=e598]:
+                      - img [ref=e599]
+                  - link "TradingView on TikTok" [ref=e601] [cursor=pointer]:
+                    - /url: https://www.tiktok.com/@tradingview/
+                    - img [ref=e603]:
+                      - img [ref=e604]
+                  - link "TradingView on Reddit" [ref=e606] [cursor=pointer]:
+                    - /url: https://www.reddit.com/r/TradingView/
+                    - img [ref=e608]:
+                      - img [ref=e609]
+              - generic [ref=e611]:
+                - button "English" [ref=e612]:
+                  - img [ref=e614]:
+                    - img [ref=e615]
+                  - generic [ref=e618]: English
+                  - img [ref=e619]:
+                    - img [ref=e620]
+                - paragraph [ref=e622]:
+                  - generic [ref=e623]:
+                    - text: Select market data provided by
+                    - link "ICE Data Services" [ref=e624] [cursor=pointer]:
+                      - /url: https://www.theice.com/market-data
+                    - text: .
+                  - generic [ref=e625]: Select reference data provided by FactSet. Copyright © 2026 FactSet Research Systems Inc.
+                  - generic [ref=e626]: Copyright © 2026, American Bankers Association. CUSIP Database provided by FactSet Research Systems Inc. All rights reserved.
+                  - generic [ref=e627]:
+                    - text: SEC fillings and other documents provided by
+                    - link "Quartr" [ref=e628] [cursor=pointer]:
+                      - /url: https://www.quartr.com
+                    - text: .
+                  - generic [ref=e629]: © 2026 TradingView, Inc.
+            - generic [ref=e630]:
+              - generic [ref=e631]:
+                - generic [ref=e632]:
+                  - generic [ref=e633]: More than a product
+                  - list [ref=e634]:
+                    - listitem [ref=e635]:
+                      - link "Supercharts" [ref=e636] [cursor=pointer]:
+                        - /url: /chart/
+                - generic [ref=e637]:
+                  - generic [ref=e638]: Screeners
+                  - list [ref=e639]:
+                    - listitem [ref=e640]:
+                      - link "Stocks" [ref=e641] [cursor=pointer]:
+                        - /url: /screener/
+                    - listitem [ref=e642]:
+                      - link "ETFs" [ref=e643] [cursor=pointer]:
+                        - /url: /etf-screener/
+                    - listitem [ref=e644]:
+                      - link "Bonds" [ref=e645] [cursor=pointer]:
+                        - /url: /bond-screener/
+                    - listitem [ref=e646]:
+                      - link "Crypto coins" [ref=e647] [cursor=pointer]:
+                        - /url: /crypto-coins-screener/
+                    - listitem [ref=e648]:
+                      - link "CEX pairs" [ref=e649] [cursor=pointer]:
+                        - /url: /cex-screener/
+                    - listitem [ref=e650]:
+                      - link "DEX pairs" [ref=e651] [cursor=pointer]:
+                        - /url: /dex-screener/
+                    - listitem [ref=e652]:
+                      - link "Pine" [ref=e653] [cursor=pointer]:
+                        - /url: /pine-screener/
+                - generic [ref=e654]:
+                  - generic [ref=e655]: Heatmaps
+                  - list [ref=e656]:
+                    - listitem [ref=e657]:
+                      - link "Stocks" [ref=e658] [cursor=pointer]:
+                        - /url: /heatmap/stock/
+                    - listitem [ref=e659]:
+                      - link "ETFs" [ref=e660] [cursor=pointer]:
+                        - /url: /heatmap/etf/
+                    - listitem [ref=e661]:
+                      - link "Crypto coins" [ref=e662] [cursor=pointer]:
+                        - /url: /heatmap/crypto/
+                - generic [ref=e663]:
+                  - generic [ref=e664]: Calendars
+                  - list [ref=e665]:
+                    - listitem [ref=e666]:
+                      - link "Economic" [ref=e667] [cursor=pointer]:
+                        - /url: /economic-calendar/
+                    - listitem [ref=e668]:
+                      - link "Earnings" [ref=e669] [cursor=pointer]:
+                        - /url: /earnings-calendar/
+                    - listitem [ref=e670]:
+                      - link "Dividends" [ref=e671] [cursor=pointer]:
+                        - /url: /dividend-calendar/
+                - generic [ref=e672]:
+                  - generic [ref=e673]: More products
+                  - list [ref=e674]:
+                    - listitem [ref=e675]:
+                      - link "Yield Curves" [ref=e676] [cursor=pointer]:
+                        - /url: /yield-curves/
+                    - listitem [ref=e677]:
+                      - link "Options" [ref=e678] [cursor=pointer]:
+                        - /url: /options/
+                    - listitem [ref=e679]:
+                      - link "Macro Maps" [ref=e680] [cursor=pointer]:
+                        - /url: /macro-maps/
+                    - listitem [ref=e681]:
+                      - link "News Flow" [ref=e682] [cursor=pointer]:
+                        - /url: /news-flow/
+                    - listitem [ref=e683]:
+                      - link "Pine Script®" [ref=e684] [cursor=pointer]:
+                        - /url: https://www.tradingview.com/pine-script-docs/
+                - generic [ref=e685]:
+                  - generic [ref=e686]: Apps
+                  - list [ref=e687]:
+                    - listitem [ref=e688]:
+                      - link "Mobile" [ref=e689] [cursor=pointer]:
+                        - /url: /mobile/
+                    - listitem [ref=e690]:
+                      - link "Desktop" [ref=e691] [cursor=pointer]:
+                        - /url: /desktop/
+              - generic [ref=e692]:
+                - generic [ref=e693]:
+                  - generic [ref=e694]: Tools & subscriptions
+                  - list [ref=e695]:
+                    - listitem [ref=e696]:
+                      - link "Features" [ref=e697] [cursor=pointer]:
+                        - /url: /features/
+                    - listitem [ref=e698]:
+                      - link "Pricing" [ref=e699] [cursor=pointer]:
+                        - /url: /pricing/?source=footer&feature=pricing
+                    - listitem [ref=e700]:
+                      - link "Market data" [ref=e701] [cursor=pointer]:
+                        - /url: /data-coverage/
+                    - listitem [ref=e702]:
+                      - link "Gift plans" [ref=e703] [cursor=pointer]:
+                        - /url: /gifts/
+                - generic [ref=e704]:
+                  - generic [ref=e705]: Trading
+                  - list [ref=e706]:
+                    - listitem [ref=e707]:
+                      - link "Overview" [ref=e708] [cursor=pointer]:
+                        - /url: /trading/
+                    - listitem [ref=e709]:
+                      - link "Top brokers" [ref=e710] [cursor=pointer]:
+                        - /url: /brokers/
+                    - listitem [ref=e711]:
+                      - link "Brokers comparison" [ref=e712] [cursor=pointer]:
+                        - /url: /brokers/compare/amp_futures-vs-tradestation/?and=tradovate
+                - generic [ref=e713]:
+                  - generic [ref=e714]: Special offers
+                  - list [ref=e715]:
+                    - listitem [ref=e716]:
+                      - link "CME Group futures" [ref=e717] [cursor=pointer]:
+                        - /url: /cme/
+                    - listitem [ref=e718]:
+                      - link "Eurex futures" [ref=e719] [cursor=pointer]:
+                        - /url: /eurex/
+                    - listitem [ref=e720]:
+                      - link "US stocks bundle" [ref=e721] [cursor=pointer]:
+                        - /url: /us-markets-bundle/
+                - generic [ref=e722]:
+                  - generic [ref=e723]: About company
+                  - list [ref=e724]:
+                    - listitem [ref=e725]:
+                      - link "Who we are" [ref=e726] [cursor=pointer]:
+                        - /url: /about/
+                    - listitem [ref=e727]:
+                      - link "Space mission" [ref=e728] [cursor=pointer]:
+                        - /url: /space-mission/
+                    - listitem [ref=e729]:
+                      - link "Blog" [ref=e730] [cursor=pointer]:
+                        - /url: https://www.tradingview.com/blog/en/
+                    - listitem [ref=e731]:
+                      - link "Careers" [ref=e732] [cursor=pointer]:
+                        - /url: /careers/
+                    - listitem [ref=e733]:
+                      - link "Media kit" [ref=e734] [cursor=pointer]:
+                        - /url: /media-kit/
+                - generic [ref=e735]:
+                  - generic [ref=e736]: Merch
+                  - list [ref=e737]:
+                    - listitem [ref=e738]:
+                      - link "TradingView store" [ref=e739] [cursor=pointer]:
+                        - /url: https://tradingviewstore.com/
+                    - listitem [ref=e740]:
+                      - link "Tarot cards for traders" [ref=e741] [cursor=pointer]:
+                        - /url: /tarot-reading/
+                    - listitem [ref=e742]:
+                      - link "The C63 TradeTime" [ref=e743] [cursor=pointer]:
+                        - /url: /tradetime/
+                - generic [ref=e744]:
+                  - generic [ref=e745]: Policies & security
+                  - list [ref=e746]:
+                    - listitem [ref=e747]:
+                      - link "Terms of Use" [ref=e748] [cursor=pointer]:
+                        - /url: /policies/
+                    - listitem [ref=e749]:
+                      - link "Disclaimer" [ref=e750] [cursor=pointer]:
+                        - /url: /disclaimer/
+                    - listitem [ref=e751]:
+                      - link "Privacy Policy" [ref=e752] [cursor=pointer]:
+                        - /url: /privacy-policy/
+                    - listitem [ref=e753]:
+                      - link "Cookies Policy" [ref=e754] [cursor=pointer]:
+                        - /url: /cookies-policy/
+                    - listitem [ref=e755]:
+                      - link "Accessibility Statement" [ref=e756] [cursor=pointer]:
+                        - /url: /accessibility/
+                    - listitem [ref=e757]:
+                      - link "Security tips" [ref=e758] [cursor=pointer]:
+                        - /url: /security/
+                    - listitem [ref=e759]:
+                      - link "Bug Bounty program" [ref=e760] [cursor=pointer]:
+                        - /url: /bounty/
+                    - listitem [ref=e761]:
+                      - link "Status page" [ref=e762] [cursor=pointer]:
+                        - /url: https://status.tradingview.com/
+              - generic [ref=e763]:
+                - generic [ref=e764]:
+                  - generic [ref=e765]: Community
+                  - list [ref=e766]:
+                    - listitem [ref=e767]:
+                      - link "Social network" [ref=e768] [cursor=pointer]:
+                        - /url: /social-network/
+                    - listitem [ref=e769]:
+                      - link "Wall of Love" [ref=e770] [cursor=pointer]:
+                        - /url: /wall-of-love/
+                    - listitem [ref=e771]:
+                      - link "Refer a friend" [ref=e772] [cursor=pointer]:
+                        - /url: /share-your-love/?source=footer&feature=refer_friend
+                    - listitem [ref=e773]:
+                      - link "House Rules" [ref=e774] [cursor=pointer]:
+                        - /url: /house-rules/
+                    - listitem [ref=e775]:
+                      - link "Moderators" [ref=e776] [cursor=pointer]:
+                        - /url: /moderators/
+                - generic [ref=e777]:
+                  - generic [ref=e778]: Ideas
+                  - list [ref=e779]:
+                    - listitem [ref=e780]:
+                      - link "Trading" [ref=e781] [cursor=pointer]:
+                        - /url: /ideas/
+                    - listitem [ref=e782]:
+                      - link "Education" [ref=e783] [cursor=pointer]:
+                        - /url: /ideas/?type=education
+                    - listitem [ref=e784]:
+                      - link "Editors' picks" [ref=e785] [cursor=pointer]:
+                        - /url: /ideas/editors-picks/
+                - generic [ref=e786]:
+                  - generic [ref=e787]: Pine Script
+                  - list [ref=e788]:
+                    - listitem [ref=e789]:
+                      - link "Indicators & strategies" [ref=e790] [cursor=pointer]:
+                        - /url: /scripts/
+                    - listitem [ref=e791]:
+                      - link "Wizards" [ref=e792] [cursor=pointer]:
+                        - /url: /pine-wizards/
+                    - listitem [ref=e793]:
+                      - link "Freelancers" [ref=e794] [cursor=pointer]:
+                        - /url: /pine-script-freelancers/
+                    - listitem [ref=e795]:
+                      - link "Paid Spaces" [ref=e796] [cursor=pointer]:
+                        - /url: /spaces/
+              - generic [ref=e797]:
+                - generic [ref=e798]:
+                  - generic [ref=e799]: Business solutions
+                  - list [ref=e800]:
+                    - listitem [ref=e801]:
+                      - link "Widgets" [ref=e802] [cursor=pointer]:
+                        - /url: /widget/
+                    - listitem [ref=e803]:
+                      - link "Charting libraries" [ref=e804] [cursor=pointer]:
+                        - /url: /free-charting-libraries/
+                    - listitem [ref=e805]:
+                      - link "Lightweight Charts™" [ref=e806] [cursor=pointer]:
+                        - /url: /lightweight-charts/
+                    - listitem [ref=e807]:
+                      - link "Advanced Charts" [ref=e808] [cursor=pointer]:
+                        - /url: /advanced-charts/
+                    - listitem [ref=e809]:
+                      - link "Trading Platform" [ref=e810] [cursor=pointer]:
+                        - /url: /trading-platform/
+                - generic [ref=e811]:
+                  - generic [ref=e812]: Growth opportunities
+                  - list [ref=e813]:
+                    - listitem [ref=e814]:
+                      - link "Advertising" [ref=e815] [cursor=pointer]:
+                        - /url: /advertising-info/
+                    - listitem [ref=e816]:
+                      - link "Brokerage integration" [ref=e817] [cursor=pointer]:
+                        - /url: /brokerage-integration/
+                    - listitem [ref=e818]:
+                      - link "Partner program" [ref=e819] [cursor=pointer]:
+                        - /url: /partner-program/
+                    - listitem [ref=e820]:
+                      - link "Education program" [ref=e821] [cursor=pointer]:
+                        - /url: /students/
+          - img "Look First" [ref=e823]
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list
+            - generic:
+              - log:
+                - list

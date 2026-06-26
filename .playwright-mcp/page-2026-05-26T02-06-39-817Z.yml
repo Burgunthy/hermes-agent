@@ -1,0 +1,1019 @@
+- generic [active] [ref=e1]:
+  - link "본문 바로가기" [ref=e2] [cursor=pointer]:
+    - /url: "#ct"
+  - banner:
+    - generic [ref=e6]:
+      - heading "Naver 이전페이지" [level=1] [ref=e7]:
+        - link "Naver" [ref=e8] [cursor=pointer]:
+          - /url: https://m.naver.com/
+          - generic [ref=e9]: Naver
+        - link "이전페이지":
+          - /url: "#"
+          - generic: 이전페이지
+      - search [ref=e10]:
+        - generic [ref=e11]:
+          - generic [ref=e13]:
+            - textbox "검색어를 입력해 주세요." [ref=e14]: 워뇨띠 매매법 타임프레임 보조지표 볼린저밴드
+            - button "입력 내용 삭제" [ref=e15]:
+              - generic [ref=e16]: 입력 내용 삭제
+          - generic [ref=e17]:
+            - button "음성검색" [ref=e18]:
+              - generic [ref=e19]: 음성검색
+            - button "검색":
+              - generic: 검색
+    - tablist [ref=e22]:
+      - tab "블로그" [ref=e23] [cursor=pointer]: 블로그
+      - tab "카페" [ref=e24] [cursor=pointer]: 카페
+      - tab "이미지" [ref=e25] [cursor=pointer]: 이미지
+      - tab "클립" [ref=e26] [cursor=pointer]: 클립
+      - tab "지식iN" [ref=e27] [cursor=pointer]: 지식iN
+      - tab "인플루언서" [ref=e28] [cursor=pointer]: 인플루언서
+      - tab "동영상" [ref=e29] [cursor=pointer]: 동영상
+      - tab "쇼핑" [ref=e30] [cursor=pointer]
+      - tab "뉴스" [ref=e31] [cursor=pointer]: 뉴스
+      - tab "숏텐츠" [ref=e32] [cursor=pointer]: 숏텐츠
+      - tab "어학사전" [ref=e33] [cursor=pointer]
+      - tab "지도" [ref=e34] [cursor=pointer]
+      - tab "도서" [ref=e35] [cursor=pointer]
+      - tab "지식백과" [ref=e36] [cursor=pointer]
+      - tab "검색옵션" [ref=e37] [cursor=pointer]
+  - generic [ref=e39]:
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - img [ref=e56]
+            - heading "AI 브리핑" [level=2] [ref=e59]
+          - generic [ref=e60]: 실험 단계로 정확하지 않을 수 있어요.
+        - button [ref=e61] [cursor=pointer]:
+          - img [ref=e62]
+      - button "Feedback 박스 열기" [ref=e68] [cursor=pointer]:
+        - img [ref=e69]
+    - generic [ref=e109]:
+      - generic [ref=e115]:
+        - generic [ref=e116]:
+          - link "백릴라 blog.naver.com›gbdkdldjs3" [ref=e117] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/gbdkdldjs3/223713740850
+            - generic [ref=e119]:
+              - generic [ref=e124]: 백릴라
+              - generic [ref=e128]: blog.naver.com›gbdkdldjs3
+          - button "옵션 메뉴 열기" [ref=e130] [cursor=pointer]:
+            - img [ref=e131]
+        - generic [ref=e135]:
+          - link "워뇨띠 매매법 3000억 전설 청산 진실" [ref=e137] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/gbdkdldjs3/223713740850
+            - generic [ref=e138]:
+              - mark [ref=e139]: 워뇨띠 매매법
+              - text: 3000억 전설 청산 진실
+          - generic [ref=e140]:
+            - link "<mark>워뇨띠 매매법</mark> 3000억 전설 청산 진실의 이미지" [ref=e141] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/gbdkdldjs3/223713740850
+              - img "<mark>워뇨띠 매매법</mark> 3000억 전설 청산 진실의 이미지" [ref=e143]
+            - 'link "2025.01.03.Part 02: 워뇨띠 매매법 워뇨띠가 말한 내용을 종합해 보면, 처음에는 코인 현물 위주로 매매하면서 일정 자산을 모으기 시작했다고 합니다. 이후 선물거래로 갈아타며 공격적인... 하루에 10시간씩 차트를 보면서 시세 흐름을 연구했고, 이동평균선과 거래량 정도만 본 뒤 매매를 결정하는 식으로 접근했다고 하네요. 복잡한 보조지표나 특별한 선 긋기 기법보다는..." [ref=e145] [cursor=pointer]':
+              - /url: https://m.blog.naver.com/gbdkdldjs3/223713740850
+              - generic [ref=e146]:
+                - generic [ref=e147]: 2025.01.03.
+                - generic [ref=e148]:
+                  - text: "Part 02:"
+                  - mark [ref=e149]: 워뇨띠 매매법
+                  - mark [ref=e150]: 워뇨띠
+                  - text: 가 말한 내용을 종합해 보면, 처음에는 코인 현물 위주로
+                  - mark [ref=e151]: 매매
+                  - text: 하면서 일정 자산을 모으기 시작했다고 합니다. 이후 선물거래로 갈아타며 공격적인... 하루에 10시간씩 차트를 보면서 시세 흐름을 연구했고, 이동평균선과 거래량 정도만 본 뒤
+                  - mark [ref=e152]: 매매
+                  - text: 를 결정하는 식으로 접근했다고 하네요. 복잡한
+                  - mark [ref=e153]: 보조지표
+                  - text: 나 특별한 선 긋기 기법보다는...
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - link "CoinSea blog.naver.com›coinjob" [ref=e161] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/coinjob/223426964839
+            - generic [ref=e163]:
+              - generic [ref=e168]: CoinSea
+              - generic [ref=e172]: blog.naver.com›coinjob
+          - button "옵션 메뉴 열기" [ref=e174] [cursor=pointer]:
+            - img [ref=e175]
+        - generic [ref=e179]:
+          - link "전설의 코인 트레이더 AOA 워뇨띠 트레이딩 꿀 팁" [ref=e181] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/coinjob/223426964839
+            - generic [ref=e182]:
+              - text: 전설의 코인 트레이더 AOA
+              - mark [ref=e183]: 워뇨띠
+              - text: 트레이딩 꿀 팁
+          - generic [ref=e184]:
+            - link "전설의 코인 트레이더 AOA <mark>워뇨띠</mark> 트레이딩 꿀 팁의 이미지" [ref=e185] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/coinjob/223426964839
+              - img "전설의 코인 트레이더 AOA <mark>워뇨띠</mark> 트레이딩 꿀 팁의 이미지" [ref=e187]
+            - link "2024.04.25.AOA 워뇨띠 1문 1답 Q) 초반 시드 불린 법 자세하게 가능하게 풀어줘요. 현물인지 선물인지 종목 선택법 A) 600만원에서... A) 변동이 커진 만큼 비중을 줄여서 합니다 Q) 요즘 저도 거래량과 캔들만 보고 매매하는데 워뇨띠님은 교과서적인 캔들... 손절 타임하고 익절 타임은 각각 몇프로 보시는지 또 물려있는 상황이 나올것 같으면 과감하게 손절하고 다른곳에 투자하는게..." [ref=e189] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/coinjob/223426964839
+              - generic [ref=e190]:
+                - generic [ref=e191]: 2024.04.25.
+                - generic [ref=e192]:
+                  - text: AOA
+                  - mark [ref=e193]: 워뇨띠
+                  - text: 1문 1답 Q) 초반 시드 불린
+                  - mark [ref=e194]: 법
+                  - text: 자세하게 가능하게 풀어줘요. 현물인지 선물인지 종목 선택법 A) 600만원에서... A) 변동이 커진 만큼 비중을 줄여서 합니다 Q) 요즘 저도 거래량과 캔들만 보고
+                  - mark [ref=e195]: 매매
+                  - text: 하는데
+                  - mark [ref=e196]: 워뇨띠
+                  - text: 님은 교과서적인 캔들... 손절
+                  - mark [ref=e197]: 타임
+                  - text: 하고 익절
+                  - mark [ref=e198]: 타임
+                  - text: 은 각각 몇프로 보시는지 또 물려있는 상황이 나올것 같으면 과감하게 손절하고 다른곳에 투자하는게...
+      - generic [ref=e204]:
+        - generic [ref=e205]:
+          - link "Becoming Crypto Whale www.becomingcryptowhale.com›trading" [ref=e206] [cursor=pointer]:
+            - /url: https://www.becomingcryptowhale.com/ko/trading/indicators
+            - generic [ref=e208]:
+              - generic [ref=e213]: Becoming Crypto Whale
+              - generic [ref=e217]: www.becomingcryptowhale.com›trading
+          - button "옵션 메뉴 열기" [ref=e219] [cursor=pointer]:
+            - img [ref=e220]
+        - generic [ref=e224]:
+          - 'link "기술적 지표 가이드: MA, RSI, MACD, 볼린저 밴드" [ref=e226] [cursor=pointer]':
+            - /url: https://www.becomingcryptowhale.com/ko/trading/indicators
+            - generic [ref=e227]:
+              - text: 기술적
+              - mark [ref=e228]: 지표
+              - text: "가이드: MA, RSI, MACD,"
+              - mark [ref=e229]: 볼린저 밴드
+          - generic [ref=e230]:
+            - 'link "기술적 <mark>지표</mark> 가이드: MA, RSI, MACD, <mark>볼린저 밴드</mark>의 이미지" [ref=e231] [cursor=pointer]':
+              - /url: https://www.becomingcryptowhale.com/ko/trading/indicators
+              - 'img "기술적 <mark>지표</mark> 가이드: MA, RSI, MACD, <mark>볼린저 밴드</mark>의 이미지" [ref=e233]'
+            - link "2025.11.23.이제부터는 기술적 지표(Technical Indicators) 섹션입니다. 이동평균(MA) · MACD · 이치모쿠 · DMI/ADX · RSI, Stoch, CCI · 볼린저 밴드, ATR, ADR · 피보나치, VR 등" [ref=e235] [cursor=pointer]:
+              - /url: https://www.becomingcryptowhale.com/ko/trading/indicators
+              - generic [ref=e236]:
+                - generic [ref=e237]: 2025.11.23.
+                - generic [ref=e238]:
+                  - text: 이제부터는 기술적
+                  - mark [ref=e239]: 지표
+                  - text: (Technical Indicators) 섹션입니다. 이동평균(MA) · MACD · 이치모쿠 · DMI/ADX · RSI, Stoch, CCI ·
+                  - mark [ref=e240]: 볼린저 밴드
+                  - text: ", ATR, ADR · 피보나치, VR 등"
+      - generic [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]:
+            - link "TradingView kr.tradingview.com›support" [ref=e248] [cursor=pointer]:
+              - /url: https://kr.tradingview.com/support/solutions/43000742575/
+              - generic [ref=e250]:
+                - generic [ref=e255]: TradingView
+                - generic [ref=e259]: kr.tradingview.com›support
+            - button "옵션 메뉴 열기" [ref=e261] [cursor=pointer]:
+              - img [ref=e262]
+          - generic [ref=e266]:
+            - link "볼린저 밴드 - TradingView" [ref=e268] [cursor=pointer]:
+              - /url: https://kr.tradingview.com/support/solutions/43000742575/
+              - generic [ref=e269]:
+                - mark [ref=e270]: 볼린저 밴드
+                - text: "- TradingView"
+            - generic [ref=e271]:
+              - link "<mark>볼린저 밴드</mark> - TradingView의 이미지" [ref=e272] [cursor=pointer]:
+                - /url: https://kr.tradingview.com/support/solutions/43000742575/
+                - img "<mark>볼린저 밴드</mark> - TradingView의 이미지" [ref=e274]
+              - link "볼린저 바 인디케이터는 볼린저 밴드의 창시자인 존 볼린저가 개발한 도구입니다. 이 인디케이터는 캔들의 폭을 고정하고 캔들의 몸통과 심지를 구분하기 위해 다양한 색상을 사용하여 캔들 차트를 대체할 수 있는 비주얼을 제공합니다. 트레이더는 이 지표를 사용해 누적/분산 추세, 압축 기간, 큰 박스권 일수 등의 캔들 차트 패턴과 인사이트를 파악할 수 있습니다. 볼린저 바...." [ref=e276] [cursor=pointer]:
+                - /url: https://kr.tradingview.com/support/solutions/43000742575/
+                - generic [ref=e277]:
+                  - mark [ref=e278]: 볼린저
+                  - text: 바 인디케이터는
+                  - mark [ref=e279]: 볼린저 밴드
+                  - text: 의 창시자인 존
+                  - mark [ref=e280]: 볼린저
+                  - text: 가 개발한 도구입니다. 이 인디케이터는 캔들의 폭을 고정하고 캔들의 몸통과 심지를 구분하기 위해 다양한 색상을 사용하여 캔들 차트를 대체할 수 있는 비주얼을 제공합니다. 트레이더는 이
+                  - mark [ref=e281]: 지표
+                  - text: 를 사용해 누적/분산 추세, 압축 기간, 큰 박스권 일수 등의 캔들 차트 패턴과 인사이트를 파악할 수 있습니다.
+                  - mark [ref=e282]: 볼린저
+                  - text: 바....
+        - button "상세 내용 열기" [ref=e285] [cursor=pointer]:
+          - generic [ref=e288]: 볼린저 밴드
+          - img [ref=e290]
+      - generic [ref=e297]:
+        - generic [ref=e298]:
+          - link "디시인사이드 갤러리 gall.dcinside.com›mgallery›chartanalysis" [ref=e299] [cursor=pointer]:
+            - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=2041515
+            - generic [ref=e301]:
+              - generic [ref=e306]: 디시인사이드 갤러리
+              - generic [ref=e310]: gall.dcinside.com›mgallery›chartanalysis
+          - button "옵션 메뉴 열기" [ref=e312] [cursor=pointer]:
+            - img [ref=e313]
+        - generic [ref=e317]:
+          - link "볼밴, RSI 등 기본지표 쓰지 말아야 할 이유 - 차트 마이너 갤러리" [ref=e319] [cursor=pointer]:
+            - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=2041515
+            - generic [ref=e320]:
+              - text: 볼밴, RSI 등 기본
+              - mark [ref=e321]: 지표
+              - text: 쓰지 말아야 할 이유 - 차트 마이너 갤러리
+          - generic [ref=e322]:
+            - link "볼밴, RSI 등 기본<mark>지표</mark> 쓰지 말아야 할 이유 - 차트 마이너 갤러리의 이미지" [ref=e323] [cursor=pointer]:
+              - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=2041515
+              - img "볼밴, RSI 등 기본<mark>지표</mark> 쓰지 말아야 할 이유 - 차트 마이너 갤러리의 이미지" [ref=e325]
+            - link "2022.12.09.그런데 종가 기준 볼린저밴드는 3번째를 가지고 만든 지표임. hl2, hlc3 등은 종가 외의 정보가 배제되는 걸 막으려고... 지표 다 쓸데없고 캔들(OHLC)과 거래량(V)만 보면 된다. 워뇨띠나 다른 고수들은 그렇게 한다. 라고 말하는 애들은 전부... 큰 타임 프레임을 보거나 차트 왼쪽으로 땡기면 그만이라고 할 수 있지만 그것조차 안하거나 대충하고서 그냥 충동적으로..." [ref=e327] [cursor=pointer]:
+              - /url: https://gall.dcinside.com/mgallery/board/view/?id=chartanalysis&no=2041515
+              - generic [ref=e328]:
+                - generic [ref=e329]: 2022.12.09.
+                - generic [ref=e330]:
+                  - text: 그런데 종가 기준
+                  - mark [ref=e331]: 볼린저밴드
+                  - text: 는 3번째를 가지고 만든
+                  - mark [ref=e332]: 지표
+                  - text: 임. hl2, hlc3 등은 종가 외의 정보가 배제되는 걸 막으려고...
+                  - mark [ref=e333]: 지표
+                  - text: 다 쓸데없고 캔들(OHLC)과 거래량(V)만 보면 된다.
+                  - mark [ref=e334]: 워뇨띠
+                  - text: 나 다른 고수들은 그렇게 한다. 라고 말하는 애들은 전부... 큰
+                  - mark [ref=e335]: 타임 프레임
+                  - text: 을 보거나 차트 왼쪽으로 땡기면 그만이라고 할 수 있지만 그것조차 안하거나 대충하고서 그냥 충동적으로...
+    - generic [ref=e337]:
+      - generic [ref=e343]:
+        - generic [ref=e344]:
+          - generic [ref=e345]:
+            - link [ref=e347] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/inverttowin
+            - link "쪽박 피하기 프로젝트" [ref=e352] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/inverttowin
+              - generic [ref=e353]: 쪽박 피하기 프로젝트
+            - generic [ref=e356]: 2025.12.12.
+          - button "옵션 메뉴 열기" [ref=e358] [cursor=pointer]:
+            - img [ref=e359]
+        - generic [ref=e365]:
+          - link "'워뇨띠' 매매법 총정리" [ref=e366] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/inverttowin/224107124811
+            - generic [ref=e367]:
+              - text: "'"
+              - mark [ref=e368]: 워뇨띠
+              - text: "'"
+              - mark [ref=e369]: 매매법
+              - text: 총정리
+          - generic [ref=e370]:
+            - 'link "그냥 보기 아닌, 작은 돈으로 매매하며 집중. 패턴(헤드앤 숄더 등)은 실전에서 변형됨 – 피부로 느껴야 함. 높은 시간봉과 거래량 중심: 1시간 봉 / 일 봉 신뢰 높음. 비트코인/이더리움처럼 거래량 높은 코인 우선 – 신뢰성 ↑. 과열 알트 코인 피함. 단순화: 선/보조지표 없이 캔들+거래량만 봄 (스피커: 재능+노력). RSI/패턴 알지만, 실전 중심. 스피커 경험: 책..." [ref=e372] [cursor=pointer]':
+              - /url: https://m.blog.naver.com/inverttowin/224107124811
+              - generic [ref=e373]:
+                - text: 그냥 보기 아닌, 작은 돈으로
+                - mark [ref=e374]: 매매
+                - text: "하며 집중. 패턴(헤드앤 숄더 등)은 실전에서 변형됨 – 피부로 느껴야 함. 높은 시간봉과 거래량 중심: 1시간 봉 / 일 봉 신뢰 높음. 비트코인/이더리움처럼 거래량 높은 코인 우선 – 신뢰성 ↑. 과열 알트 코인 피함. 단순화: 선/"
+                - mark [ref=e375]: 보조지표
+                - text: "없이 캔들+거래량만 봄 (스피커: 재능+노력). RSI/패턴 알지만, 실전 중심. 스피커 경험: 책..."
+            - link [ref=e376] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/inverttowin/224107124811
+              - img [ref=e379]
+      - generic [ref=e386]:
+        - generic [ref=e387]:
+          - generic [ref=e388]:
+            - link [ref=e390] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/0104848woo
+            - link "부자되는 코인사이트" [ref=e395] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/0104848woo
+              - generic [ref=e396]: 부자되는 코인사이트
+            - generic [ref=e399]: 2025.09.18.
+          - button "옵션 메뉴 열기" [ref=e401] [cursor=pointer]:
+            - img [ref=e402]
+        - generic [ref=e408]:
+          - link "워뇨띠 실시간 포지션, 재산 인증, 매매법 이런거 그만 찾아보세요.." [ref=e409] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/0104848woo/224013049819
+            - generic [ref=e410]:
+              - mark [ref=e411]: 워뇨띠
+              - text: 실시간 포지션, 재산 인증,
+              - mark [ref=e412]: 매매법
+              - text: 이런거 그만 찾아보세요..
+          - generic [ref=e413]:
+            - link "워뇨띠 QnA 일부 저도 워뇨띠 실시간 포지션, 재산 인증, 매매법 이런거 찾아다니던 적이 있었습니다. 근데 다 부질없습니다. 그런다고 내 매매가 바뀌고 수익이 바뀌지 않더라고요.... 봐야하는지, 보조지표는 무엇을 써야할지 모든 것을 자신에게 최적화 시켜나가는 과정이 필요합니다. 그 과정이 쉽지 않을 수 있습니다. 제가 쓴 글들을 보면 본인만의 매매 방식을 만들어..." [ref=e415] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/0104848woo/224013049819
+              - generic [ref=e416]:
+                - mark [ref=e417]: 워뇨띠
+                - text: QnA 일부 저도
+                - mark [ref=e418]: 워뇨띠
+                - text: 실시간 포지션, 재산 인증,
+                - mark [ref=e419]: 매매법
+                - text: 이런거 찾아다니던 적이 있었습니다. 근데 다 부질없습니다. 그런다고 내
+                - mark [ref=e420]: 매매
+                - text: 가 바뀌고 수익이 바뀌지 않더라고요.... 봐야하는지,
+                - mark [ref=e421]: 보조지표
+                - text: 는 무엇을 써야할지 모든 것을 자신에게 최적화 시켜나가는 과정이 필요합니다. 그 과정이 쉽지 않을 수 있습니다. 제가 쓴 글들을 보면 본인만의
+                - mark [ref=e422]: 매매
+                - text: 방식을 만들어...
+            - link "5" [ref=e423] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/0104848woo/224013049819
+              - generic [ref=e425]:
+                - img [ref=e426]
+                - generic [ref=e430]: "5"
+      - generic [ref=e436]:
+        - generic [ref=e437]:
+          - generic [ref=e438]:
+            - link [ref=e440] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/bitbeom
+            - link "bitbeom님의 블로그" [ref=e445] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/bitbeom
+              - generic [ref=e446]: bitbeom님의 블로그
+            - generic [ref=e449]: 2025.01.08.
+          - button "옵션 메뉴 열기" [ref=e451] [cursor=pointer]:
+            - img [ref=e452]
+        - generic [ref=e458]:
+          - link "전설의 3000억 트레이더, 워뇨띠의 초단타 매매법" [ref=e459] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/bitbeom/223718538556
+            - generic [ref=e460]:
+              - text: 전설의 3000억 트레이더,
+              - mark [ref=e461]: 워뇨띠
+              - text: 의 초단타
+              - mark [ref=e462]: 매매법
+          - generic [ref=e463]:
+            - link "그래서 워뇨띠는 단순한 박스권 매매를 추천합니다. 박스권 매매란? 가격이 일정 구간에서 오르내릴 때, 저점에서 사고 고점에서 파는 매매법입니다. 중요한 건? 처음엔 소액으로 연습하고, 시드가 커질수록 투자 비율을 줄이는 겁니다. 이걸 지키지 않으면, 결국 한 방에 잃게 됩니다. 3️⃣ 지지와 저항, 캔들 차트만 보라 “보조지표는 필요 없다.” 이게 워뇨띠의 핵심..." [ref=e465] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/bitbeom/223718538556
+              - generic [ref=e466]:
+                - text: 그래서
+                - mark [ref=e467]: 워뇨띠
+                - text: 는 단순한 박스권
+                - mark [ref=e468]: 매매
+                - text: 를 추천합니다. 박스권
+                - mark [ref=e469]: 매매
+                - text: 란? 가격이 일정 구간에서 오르내릴 때, 저점에서 사고 고점에서 파는
+                - mark [ref=e470]: 매매법
+                - text: 입니다. 중요한 건? 처음엔 소액으로 연습하고, 시드가 커질수록 투자 비율을 줄이는 겁니다. 이걸 지키지 않으면, 결국 한 방에 잃게 됩니다. 3️⃣ 지지와 저항, 캔들 차트만 보라 “
+                - mark [ref=e471]: 보조지표
+                - text: 는 필요 없다.” 이게
+                - mark [ref=e472]: 워뇨띠
+                - text: 의 핵심...
+            - link "3" [ref=e473] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/bitbeom/223718538556
+              - generic [ref=e475]:
+                - img [ref=e476]
+                - generic [ref=e480]: "3"
+      - generic [ref=e486]:
+        - generic [ref=e487]:
+          - generic [ref=e488]:
+            - link [ref=e490] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/xkaliver123
+            - link "투자왕 뚜이" [ref=e495] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/xkaliver123
+              - generic [ref=e496]: 투자왕 뚜이
+            - generic [ref=e499]: 2025.12.03.
+          - button "옵션 메뉴 열기" [ref=e501] [cursor=pointer]:
+            - img [ref=e502]
+        - generic [ref=e508]:
+          - link "워뇨띠 포지션 실시간 보는 방법 및 워뇨띠 매매법 정리" [ref=e509] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/xkaliver123/224097388835
+            - generic [ref=e510]:
+              - mark [ref=e511]: 워뇨띠
+              - text: 포지션 실시간 보는 방법 및
+              - mark [ref=e512]: 워뇨띠 매매법
+              - text: 정리
+          - generic [ref=e513]:
+            - link "워뇨띠의 매매 흐름이 궁금한 사람들에게 큰 도움이 될 것 같네요. 특히, 차트 해석이 어려운 코린이라면, 워뇨띠 포지션을 보며 공부해도 좋을 것 같습니다. 단, 무분별하게 따라 거래하는 건 위험하니, 보조 지표 정도로 참고하시는 게 좋겠네요 ㅎㅎ 이 외에도 김치 프리미엄이나 비트코인 도미넌스 등 다양한 정보를 제공하고 있습니다. 3. 그의 매매법 마지막으로..." [ref=e515] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/xkaliver123/224097388835
+              - generic [ref=e516]:
+                - mark [ref=e517]: 워뇨띠
+                - text: 의
+                - mark [ref=e518]: 매매
+                - text: 흐름이 궁금한 사람들에게 큰 도움이 될 것 같네요. 특히, 차트 해석이 어려운 코린이라면,
+                - mark [ref=e519]: 워뇨띠
+                - text: 포지션을 보며 공부해도 좋을 것 같습니다. 단, 무분별하게 따라 거래하는 건 위험하니,
+                - mark [ref=e520]: 보조 지표
+                - text: 정도로 참고하시는 게 좋겠네요 ㅎㅎ 이 외에도 김치 프리미엄이나 비트코인 도미넌스 등 다양한 정보를 제공하고 있습니다. 3. 그의
+                - mark [ref=e521]: 매매법
+                - text: 마지막으로...
+            - link "24" [ref=e522] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/xkaliver123/224097388835
+              - generic [ref=e524]:
+                - img [ref=e525]
+                - generic [ref=e529]: "24"
+      - generic [ref=e535]:
+        - generic [ref=e536]:
+          - generic [ref=e537]:
+            - link [ref=e539] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/ccandlerr
+            - link "캔들러Candler" [ref=e544] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/ccandlerr
+              - generic [ref=e545]: 캔들러Candler
+            - generic [ref=e548]: 2024.08.19.
+          - button "옵션 메뉴 열기" [ref=e550] [cursor=pointer]:
+            - img [ref=e551]
+        - generic [ref=e557]:
+          - link "워뇨띠 매매법, 3000억 비트코인 포지션 전략 공개" [ref=e558] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/ccandlerr/223553501477
+            - generic [ref=e559]:
+              - mark [ref=e560]: 워뇨띠 매매법
+              - text: ", 3000억 비트코인 포지션 전략 공개"
+          - generic [ref=e561]:
+            - link "그 이유는 나만의 기준 없이 보조지표만 추가해서 그러는데요. 워뇨띠 매매법 그런데 단 600만 원으로 3,000억 원을 만든... 또한, 장대 음봉이 중심선을 돌파하면, 그 지점이 강한 저항선으로 작용할 수 있다는 것을 파악하여 매매에 활용했습니다.... 포지션 워뇨띠 매매법 Q&A 차트분석 시 몇 분봉, 몇 시간 봉 보는지? 1분봉, 5분봉, 15분봉, 일봉 다른 사람들이 보는 타임..." [ref=e563] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/ccandlerr/223553501477
+              - generic [ref=e564]:
+                - text: 그 이유는 나만의 기준 없이
+                - mark [ref=e565]: 보조지표
+                - text: 만 추가해서 그러는데요.
+                - mark [ref=e566]: 워뇨띠 매매법
+                - text: 그런데 단 600만 원으로 3,000억 원을 만든... 또한, 장대 음봉이 중심선을 돌파하면, 그 지점이 강한 저항선으로 작용할 수 있다는 것을 파악하여
+                - mark [ref=e567]: 매매
+                - text: 에 활용했습니다.... 포지션
+                - mark [ref=e568]: 워뇨띠 매매법
+                - text: Q&A 차트분석 시 몇 분봉, 몇 시간 봉 보는지? 1분봉, 5분봉, 15분봉, 일봉 다른 사람들이 보는
+                - mark [ref=e569]: 타임
+                - text: ...
+            - link "9" [ref=e570] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/ccandlerr/223553501477
+              - generic [ref=e572]:
+                - img [ref=e573]
+                - generic [ref=e577]: "9"
+      - generic [ref=e583]:
+        - generic [ref=e584]:
+          - generic [ref=e585]:
+            - link [ref=e587] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/sureman__
+            - link "해선 1등 커뮤니티 해선슈어맨" [ref=e592] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/sureman__
+              - generic [ref=e593]: 해선 1등 커뮤니티 해선슈어맨
+            - generic [ref=e596]: 2025.04.03.
+          - button "옵션 메뉴 열기" [ref=e598] [cursor=pointer]:
+            - img [ref=e599]
+        - generic [ref=e605]:
+          - link "해외선물 차트 분석 꿀팁 대방출!" [ref=e606] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/sureman__/223820968907
+            - generic [ref=e607]: 해외선물 차트 분석 꿀팁 대방출!
+          - generic [ref=e608]:
+            - 'link "활용 보조지표는 차트 분석을 더욱 정밀하게 해주는 도구입니다. RSI (상대강도지수) : 과매수, 과매도를 확인하는 지표 MACD (이동평균 수렴·확산 지수) : 추세 전환 신호 파악 볼린저 밴드 : 변동성 예측 및 매매 타이밍 설정 해외선물 차트... 슈어맨 #워뇨띠 #골든타임 #이지스퀘어 #해외선물사기 #사설대여계좌 #불법대여계좌 #사기피해자 #투자사기 #주식사기..." [ref=e610] [cursor=pointer]':
+              - /url: https://m.blog.naver.com/sureman__/223820968907
+              - generic [ref=e611]:
+                - text: 활용
+                - mark [ref=e612]: 보조지표
+                - text: "는 차트 분석을 더욱 정밀하게 해주는 도구입니다. RSI (상대강도지수) : 과매수, 과매도를 확인하는"
+                - mark [ref=e613]: 지표
+                - text: "MACD (이동평균 수렴·확산 지수) : 추세 전환 신호 파악"
+                - mark [ref=e614]: 볼린저 밴드
+                - text: ": 변동성 예측 및"
+                - mark [ref=e615]: 매매
+                - text: "타이밍 설정 해외선물 차트... 슈어맨 #"
+                - mark [ref=e616]: 워뇨띠
+                - text: "#골든"
+                - mark [ref=e617]: 타임
+                - text: "#이지스퀘어 #해외선물사기 #사설대여계좌 #불법대여계좌 #사기피해자 #투자사기 #주식사기..."
+            - link "10" [ref=e618] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/sureman__/223820968907
+              - generic [ref=e620]:
+                - img [ref=e621]
+                - generic [ref=e625]: "10"
+      - generic [ref=e631]:
+        - generic [ref=e632]:
+          - generic [ref=e633]:
+            - link [ref=e635] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/jaegg1004
+            - link "비트주선님의 블로그" [ref=e640] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/jaegg1004
+              - generic [ref=e641]: 비트주선님의 블로그
+            - generic [ref=e644]: 2024.07.22.
+          - button "옵션 메뉴 열기" [ref=e646] [cursor=pointer]:
+            - img [ref=e647]
+        - generic [ref=e653]:
+          - link "워뇨띠 누구인가? 워뇨띠 매매법." [ref=e654] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/jaegg1004/223520920513
+            - generic [ref=e655]:
+              - mark [ref=e656]: 워뇨띠
+              - text: 누구인가?
+              - mark [ref=e657]: 워뇨띠 매매법
+              - text: .
+          - generic [ref=e658]:
+            - 'link "주요 매매법과 전략 분할 매매 분할 진입과 분할 청산: 워뇨띠는 매수 및 매도를 한 번에 하지 않고 분할하여 진행합니다. 이는 리스크를 줄이고 시장의 변동성에 유연하게 대응하기... 투자자들에게는 보조지표에 너무 의존하지 말고 차트를 오래 보고 소액으로 자주 매매하며 경험을 쌓는 것을 추천합니다 워뇨띠의 영향력과 현재 활동 워뇨띠는 비트맥스, 바이낸스 등..." [ref=e660] [cursor=pointer]':
+              - /url: https://m.blog.naver.com/jaegg1004/223520920513
+              - generic [ref=e661]:
+                - text: 주요
+                - mark [ref=e662]: 매매법
+                - text: 과 전략 분할
+                - mark [ref=e663]: 매매
+                - text: "분할 진입과 분할 청산:"
+                - mark [ref=e664]: 워뇨띠
+                - text: 는 매수 및 매도를 한 번에 하지 않고 분할하여 진행합니다. 이는 리스크를 줄이고 시장의 변동성에 유연하게 대응하기... 투자자들에게는
+                - mark [ref=e665]: 보조지표
+                - text: 에 너무 의존하지 말고 차트를 오래 보고 소액으로 자주
+                - mark [ref=e666]: 매매
+                - text: 하며 경험을 쌓는 것을 추천합니다
+                - mark [ref=e667]: 워뇨띠
+                - text: 의 영향력과 현재 활동
+                - mark [ref=e668]: 워뇨띠
+                - text: 는 비트맥스, 바이낸스 등...
+            - link "3" [ref=e669] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/jaegg1004/223520920513
+              - generic [ref=e671]:
+                - img [ref=e672]
+                - generic [ref=e676]: "3"
+      - generic [ref=e682]:
+        - generic [ref=e683]:
+          - generic [ref=e684]:
+            - link [ref=e686] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/giftyj
+            - link "해외선물 반짝교육" [ref=e691] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/giftyj
+              - generic [ref=e692]: 해외선물 반짝교육
+            - generic [ref=e695]: 2024.10.02.
+          - button "옵션 메뉴 열기" [ref=e697] [cursor=pointer]:
+            - img [ref=e698]
+        - generic [ref=e704]:
+          - link "트레이딩뷰 볼린저밴드 선물투자 보조지표 매매기법 보는 법" [ref=e705] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/giftyj/223598939138
+            - generic [ref=e706]:
+              - text: 트레이딩뷰
+              - mark [ref=e707]: 볼린저밴드
+              - text: 선물투자
+              - mark [ref=e708]: 보조지표
+              - mark [ref=e709]: 매매
+              - text: 기법 보는
+              - mark [ref=e710]: 법
+          - generic [ref=e711]:
+            - link "지표 설정하는 방법은 네이버를 기준으로 \"종목 선택 > 차트 > 보조지표 > 볼린저밴드 를 클릭하면 범위 형태의 보조지표가 나타나는데 이를 볼린 지 밴드라고 합니다ㅏ. 매매기법 해당 지표를 통해 매매에 활용하기 위해서는 지표에 범위가 변하는 움직임을 잘 파악하셔야 합니다. 특징이 보이시나요? 상승세 일 때 와 하락세 또는 보합일 때 차트를 지켜보면 바로 주가의..." [ref=e713] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/giftyj/223598939138
+              - generic [ref=e714]:
+                - mark [ref=e715]: 지표
+                - text: 설정하는 방법은 네이버를 기준으로 "종목 선택 > 차트 >
+                - mark [ref=e716]: 보조지표
+                - text: ">"
+                - mark [ref=e717]: 볼린저밴드
+                - text: 를 클릭하면 범위 형태의
+                - mark [ref=e718]: 보조지표
+                - text: 가 나타나는데 이를 볼린 지
+                - mark [ref=e719]: 밴드
+                - text: 라고 합니다ㅏ.
+                - mark [ref=e720]: 매매
+                - text: 기법 해당
+                - mark [ref=e721]: 지표
+                - text: 를 통해
+                - mark [ref=e722]: 매매
+                - text: 에 활용하기 위해서는
+                - mark [ref=e723]: 지표
+                - text: 에 범위가 변하는 움직임을 잘 파악하셔야 합니다. 특징이 보이시나요? 상승세 일 때 와 하락세 또는 보합일 때 차트를 지켜보면 바로 주가의...
+            - link "5" [ref=e724] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/giftyj/223598939138
+              - generic [ref=e726]:
+                - img [ref=e727]
+                - generic [ref=e731]: "5"
+      - generic [ref=e737]:
+        - generic [ref=e738]:
+          - generic [ref=e739]:
+            - link [ref=e741] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/dolp88
+            - link "일 안하는 엘" [ref=e746] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/dolp88
+              - generic [ref=e747]: 일 안하는 엘
+            - generic [ref=e750]: 2025.08.03.
+          - button "옵션 메뉴 열기" [ref=e752] [cursor=pointer]:
+            - img [ref=e753]
+        - generic [ref=e759]:
+          - link "볼린저밴드 보조지표 의미 실전 투자 전략 해외선물 매매 방법 설정 방법" [ref=e760] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/dolp88/223957088449
+            - generic [ref=e761]:
+              - mark [ref=e762]: 볼린저밴드
+              - mark [ref=e763]: 보조지표
+              - text: 의미 실전 투자 전략 해외선물
+              - mark [ref=e764]: 매매
+              - text: 방법 설정 방법
+          - generic [ref=e765]:
+            - link "만약 위와같은 기준을 만족하는 거래소를 찾지 못하였다면 \"댓글\"을 통해 도움받아보시길 바랍니다. 이상으로 \"볼린저밴드 보조지표 의미 실전 투자 전략 해외선물 매매 방법 설정 방법\" 포스팅 마치도록 하겠습니다. 실전에서 볼린저밴드와 다양한 지표를 실시간으로 활용하여 효율적인 매매 전략을 경험해 보세요!" [ref=e767] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/dolp88/223957088449
+              - generic [ref=e768]:
+                - text: 만약 위와같은 기준을 만족하는 거래소를 찾지 못하였다면 "댓글"을 통해 도움받아보시길 바랍니다. 이상으로 "
+                - mark [ref=e769]: 볼린저밴드
+                - mark [ref=e770]: 보조지표
+                - text: 의미 실전 투자 전략 해외선물
+                - mark [ref=e771]: 매매
+                - text: 방법 설정 방법" 포스팅 마치도록 하겠습니다. 실전에서
+                - mark [ref=e772]: 볼린저밴드
+                - text: 와 다양한
+                - mark [ref=e773]: 지표
+                - text: 를 실시간으로 활용하여 효율적인
+                - mark [ref=e774]: 매매
+                - text: 전략을 경험해 보세요!
+            - link "6" [ref=e775] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/dolp88/223957088449
+              - generic [ref=e777]:
+                - img [ref=e778]
+                - generic [ref=e782]: "6"
+      - generic [ref=e788]:
+        - generic [ref=e789]:
+          - generic [ref=e790]:
+            - link [ref=e792] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/gpsds
+            - link "쉽게 보는 경제 이야기" [ref=e797] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/gpsds
+              - generic [ref=e798]: 쉽게 보는 경제 이야기
+            - generic [ref=e801]: 2025.12.09.
+          - button "옵션 메뉴 열기" [ref=e803] [cursor=pointer]:
+            - img [ref=e804]
+        - generic [ref=e810]:
+          - link "차트 보조지표 종류 총정리(MACD, RSI, 스토태스틱, 볼린저밴드)" [ref=e811] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/gpsds/224103125832
+            - generic [ref=e812]:
+              - text: 차트
+              - mark [ref=e813]: 보조지표
+              - text: 종류 총정리(MACD, RSI, 스토태스틱,
+              - mark [ref=e814]: 볼린저밴드
+              - text: )
+          - generic [ref=e815]:
+            - 'link "보조지표는 단순하게 해석할수록 매매 성과가 좋아요 최종정리 핵심 요약 MACD : 추세 전환 RSI : 과매수, 과매도 스토캐스틱 : 단기 매매 타이밍 볼린저밴드 : 변동성 및 과열 구간 보조지표는 복잡하지 않습니다 가격, 심리, 추세를 동시에 보완하는 가장 단순한 도구에요 이 포스트가 여러분께 도움이 되었길 바라며 오늘 포스팅은 이것으로 마치겠습니다" [ref=e817] [cursor=pointer]':
+              - /url: https://m.blog.naver.com/gpsds/224103125832
+              - generic [ref=e818]:
+                - mark [ref=e819]: 보조지표
+                - text: 는 단순하게 해석할수록
+                - mark [ref=e820]: 매매
+                - text: "성과가 좋아요 최종정리 핵심 요약 MACD : 추세 전환 RSI : 과매수, 과매도 스토캐스틱 : 단기"
+                - mark [ref=e821]: 매매
+                - text: 타이밍
+                - mark [ref=e822]: 볼린저밴드
+                - text: ": 변동성 및 과열 구간"
+                - mark [ref=e823]: 보조지표
+                - text: 는 복잡하지 않습니다 가격, 심리, 추세를 동시에 보완하는 가장 단순한 도구에요 이 포스트가 여러분께 도움이 되었길 바라며 오늘 포스팅은 이것으로 마치겠습니다
+            - link "6" [ref=e824] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/gpsds/224103125832
+              - generic [ref=e826]:
+                - img [ref=e827]
+                - generic [ref=e831]: "6"
+      - generic [ref=e837]:
+        - generic [ref=e838]:
+          - generic [ref=e839]:
+            - link [ref=e841] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/hj6149
+            - link "Money_Maverick" [ref=e846] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/hj6149
+              - generic [ref=e847]: Money_Maverick
+            - generic [ref=e850]: 2025.09.02.
+          - button "옵션 메뉴 열기" [ref=e852] [cursor=pointer]:
+            - img [ref=e853]
+        - generic [ref=e859]:
+          - link "워뇨띠 매매법 바이낸스 리더보드 보는법" [ref=e860] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/hj6149/223990864109
+            - generic [ref=e861]:
+              - mark [ref=e862]: 워뇨띠 매매법
+              - text: 바이낸스 리더보드 보는법
+          - generic [ref=e863]:
+            - 'link "봐도 워뇨띠의 영향력을 실감할 수 있습니다. 워뇨띠 매매법의 핵심 9월 1일 워뇨띠 현재 포지션 제로 많은 이들이... 워뇨띠의 접근법은 의외로 단순한 것으로 알려져 있습니다. 1. 캔들 흐름: 가격 움직임 자체에 집중 2. 거래량 확인: 매수·매도의 강도 파악 3. 이동평균선: 보조적으로만 활용 눈에 잘 띄는 보조지표(MACD, RSI, 볼린저밴드 등)는 거의 무시합니다...." [ref=e865] [cursor=pointer]':
+              - /url: https://m.blog.naver.com/hj6149/223990864109
+              - generic [ref=e866]:
+                - text: 봐도
+                - mark [ref=e867]: 워뇨띠
+                - text: 의 영향력을 실감할 수 있습니다.
+                - mark [ref=e868]: 워뇨띠 매매법
+                - text: 의 핵심 9월 1일
+                - mark [ref=e869]: 워뇨띠
+                - text: 현재 포지션 제로 많은 이들이...
+                - mark [ref=e870]: 워뇨띠
+                - text: "의 접근법은 의외로 단순한 것으로 알려져 있습니다. 1. 캔들 흐름: 가격 움직임 자체에 집중 2. 거래량 확인: 매수·매도의 강도 파악 3. 이동평균선:"
+                - mark [ref=e871]: 보조
+                - text: 적으로만 활용 눈에 잘 띄는
+                - mark [ref=e872]: 보조지표
+                - text: (MACD, RSI,
+                - mark [ref=e873]: 볼린저밴드
+                - text: 등)는 거의 무시합니다....
+            - link "8" [ref=e874] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/hj6149/223990864109
+              - generic [ref=e876]:
+                - img [ref=e877]
+                - generic [ref=e881]: "8"
+      - generic [ref=e887]:
+        - generic [ref=e888]:
+          - generic [ref=e889]:
+            - link [ref=e891] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/jyun1533
+            - link "✅코인하는 퉁퉁이" [ref=e896] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/jyun1533
+              - generic [ref=e897]: ✅코인하는 퉁퉁이
+            - generic [ref=e900]: 2025.09.21.
+          - button "옵션 메뉴 열기" [ref=e902] [cursor=pointer]:
+            - img [ref=e903]
+        - generic [ref=e909]:
+          - link "워뇨띠 인증, 매매법과 최신 근황, 거래소 꿀팁까지 총정리!" [ref=e910] [cursor=pointer]:
+            - /url: https://m.blog.naver.com/jyun1533/224016602222
+            - generic [ref=e911]:
+              - mark [ref=e912]: 워뇨띠
+              - text: 인증,
+              - mark [ref=e913]: 매매법
+              - text: 과 최신 근황, 거래소 꿀팁까지 총정리!
+          - generic [ref=e914]:
+            - link "워뇨띠의 매매법을 보면 아주 심플함. 볼린저밴드, 스토캐스틱 같은 흔한 보조지표는 거의 사용하지 않음. 그럼, 그는 도대체 뭘 보고 매매할까? 이 글에서 워뇨띠가 실제로 보는 지표와 매매법을 정리해 봤음. 끝까지 읽으면 단순하지만, 실전에서 바로 써먹을 수 있는 그의 투자 전략을 한눈에 이해할 수 있을 거임. 워뇨띠 매매법 1. 워뇨띠는 누군가? 카더라긴 한데..." [ref=e916] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/jyun1533/224016602222
+              - generic [ref=e917]:
+                - mark [ref=e918]: 워뇨띠
+                - text: 의
+                - mark [ref=e919]: 매매법
+                - text: 을 보면 아주 심플함.
+                - mark [ref=e920]: 볼린저밴드
+                - text: ", 스토캐스틱 같은 흔한"
+                - mark [ref=e921]: 보조지표
+                - text: 는 거의 사용하지 않음. 그럼, 그는 도대체 뭘 보고
+                - mark [ref=e922]: 매매
+                - text: 할까? 이 글에서
+                - mark [ref=e923]: 워뇨띠
+                - text: 가 실제로 보는
+                - mark [ref=e924]: 지표
+                - text: 와
+                - mark [ref=e925]: 매매법
+                - text: 을 정리해 봤음. 끝까지 읽으면 단순하지만, 실전에서 바로 써먹을 수 있는 그의 투자 전략을 한눈에 이해할 수 있을 거임.
+                - mark [ref=e926]: 워뇨띠 매매법
+                - text: "1."
+                - mark [ref=e927]: 워뇨띠
+                - text: 는 누군가? 카더라긴 한데...
+            - link "30" [ref=e928] [cursor=pointer]:
+              - /url: https://m.blog.naver.com/jyun1533/224016602222
+              - generic [ref=e930]:
+                - img [ref=e931]
+                - generic [ref=e935]: "30"
+      - generic [ref=e941]:
+        - generic [ref=e942]:
+          - link "LilysAI lilys.ai›notes" [ref=e943] [cursor=pointer]:
+            - /url: https://lilys.ai/ko/notes/362047
+            - generic [ref=e945]:
+              - generic [ref=e950]: LilysAI
+              - generic [ref=e954]: lilys.ai›notes
+          - button "옵션 메뉴 열기" [ref=e956] [cursor=pointer]:
+            - img [ref=e957]
+        - generic [ref=e961]:
+          - link "해외선물 초보들도 다 하는 볼린저밴드 프라이스채널 보조지표 제대로 쓰는법" [ref=e963] [cursor=pointer]:
+            - /url: https://lilys.ai/ko/notes/362047
+            - generic [ref=e964]:
+              - text: 해외선물 초보들도 다 하는
+              - mark [ref=e965]: 볼린저밴드
+              - text: 프라이스채널
+              - mark [ref=e966]: 보조지표
+              - text: 제대로 쓰는법
+          - generic [ref=e967]:
+            - link "해외선물 초보들도 다 하는 <mark>볼린저밴드</mark> 프라이스채널 <mark>보조지표</mark> 제대로 쓰는법의 이미지" [ref=e968] [cursor=pointer]:
+              - /url: https://lilys.ai/ko/notes/362047
+              - img "해외선물 초보들도 다 하는 <mark>볼린저밴드</mark> 프라이스채널 <mark>보조지표</mark> 제대로 쓰는법의 이미지" [ref=e970]
+            - link "2024.11.02.이 유튜브영상 인사이트 노트는 LilysAI 로 작성됐어요. LilysAI 에 무료로 가입하고 영상에서 10배 빠르고 깊게 인사이트를 얻으세요" [ref=e972] [cursor=pointer]:
+              - /url: https://lilys.ai/ko/notes/362047
+              - generic [ref=e973]:
+                - generic [ref=e974]: 2024.11.02.
+                - text: 이 유튜브영상 인사이트 노트는 LilysAI 로 작성됐어요. LilysAI 에 무료로 가입하고 영상에서 10배 빠르고 깊게 인사이트를 얻으세요
+      - generic [ref=e981]:
+        - generic [ref=e982]:
+          - generic [ref=e983]:
+            - link "비트고수" [ref=e985] [cursor=pointer]:
+              - /url: https://m.youtube.com/channel/UCnVZQoWy5q6vYmIjE7c1Hqw
+              - img "비트고수" [ref=e988]
+            - link "비트고수" [ref=e991] [cursor=pointer]:
+              - /url: https://m.youtube.com/channel/UCnVZQoWy5q6vYmIjE7c1Hqw
+              - generic [ref=e992]: 비트고수
+            - generic [ref=e993]:
+              - link "YouTube" [ref=e996] [cursor=pointer]:
+                - /url: https://www.youtube.com
+                - generic [ref=e997]: YouTube
+              - generic [ref=e1000]: 2025.09.04.
+          - button "옵션 메뉴 열기" [ref=e1002] [cursor=pointer]:
+            - img [ref=e1003]
+        - link "영국 상위 1% 세력 전문가가 알려주는 진짜 MFI 매매법 (볼린저밴드, rsi)" [ref=e1007] [cursor=pointer]:
+          - /url: https://m.youtube.com/watch?v=r4__m6uIgEE
+          - generic [ref=e1008]:
+            - text: 영국 상위 1% 세력 전문가가 알려주는 진짜 MFI
+            - mark [ref=e1009]: 매매법
+            - text: (
+            - mark [ref=e1010]: 볼린저밴드
+            - text: ", rsi)"
+        - link "영국 상위 1% 세력 전문가가 알려주는 진짜 MFI 매매법 (볼린저밴드, rsi) 22:30" [ref=e1012] [cursor=pointer]:
+          - /url: https://m.youtube.com/watch?v=r4__m6uIgEE
+          - generic [ref=e1013]:
+            - img "영국 상위 1% 세력 전문가가 알려주는 진짜 MFI 매매법 (볼린저밴드, rsi)" [ref=e1014]
+            - generic [ref=e1015]:
+              - generic [ref=e1016]: 22:30
+              - img [ref=e1017]
+      - generic [ref=e1025]:
+        - generic [ref=e1026]:
+          - generic [ref=e1027]:
+            - link "크립토트레이딩 [ Crypto-Trading ]" [ref=e1029] [cursor=pointer]:
+              - /url: https://m.youtube.com/channel/UC-BAHTjeysEpLYmWrZfR_0g
+              - img "크립토트레이딩 [ Crypto-Trading ]" [ref=e1032]
+            - generic [ref=e1033]:
+              - link "크립토트레이딩 [ Crypto-Trading ]" [ref=e1035] [cursor=pointer]:
+                - /url: https://m.youtube.com/channel/UC-BAHTjeysEpLYmWrZfR_0g
+                - generic [ref=e1036]: 크립토트레이딩 [ Crypto-Trading ]
+              - img
+            - generic [ref=e1037]:
+              - link "YouTube" [ref=e1040] [cursor=pointer]:
+                - /url: https://www.youtube.com
+                - generic [ref=e1041]: YouTube
+              - generic [ref=e1044]: 2025.06.09.
+          - button "옵션 메뉴 열기" [ref=e1046] [cursor=pointer]:
+            - img [ref=e1047]
+        - link "볼린저 밴드 상위호환, 추세를 감지하는 무적 지표 매매법" [ref=e1051] [cursor=pointer]:
+          - /url: https://m.youtube.com/watch?v=3xUZT4ASTMo
+          - generic [ref=e1052]:
+            - mark [ref=e1053]: 볼린저 밴드
+            - text: 상위호환, 추세를 감지하는 무적
+            - mark [ref=e1054]: 지표
+            - mark [ref=e1055]: 매매법
+        - link "볼린저 밴드 상위호환, 추세를 감지하는 무적 지표 매매법 01:27" [ref=e1057] [cursor=pointer]:
+          - /url: https://m.youtube.com/watch?v=3xUZT4ASTMo
+          - generic [ref=e1058]:
+            - img "볼린저 밴드 상위호환, 추세를 감지하는 무적 지표 매매법" [ref=e1059]
+            - generic [ref=e1060]:
+              - generic [ref=e1061]: 01:27
+              - img [ref=e1062]
+    - generic [ref=e1066]:
+      - generic [ref=e1068]:
+        - heading "네이버플러스 스토어" [level=2] [ref=e1069]
+        - button "이 정보가 표시된 이유" [ref=e1071]:
+          - generic [ref=e1072]: 이 정보가 표시된 이유
+          - img [ref=e1073]
+      - link "네이버플러스 멤버십 지금 시작하고 최대 5% 적립을 누려요!" [ref=e1078] [cursor=pointer]:
+        - /url: https://nid.naver.com/membership/join?dtm_source=naver_plusshoping&dtm_medium=display&dtm_campaign=point
+        - generic [ref=e1079]: 네이버플러스 멤버십 지금 시작하고 최대 5% 적립을 누려요!
+        - img [ref=e1080]
+      - list [ref=e1083]:
+        - listitem [ref=e1084]:
+          - link "보네또러버밴드 400CT 우레탄밴드 20mm 22mm 시계줄 25% 할인 47,500원 배송비 무료 오늘출발 15:00까지 주문 시 4.75 (379) 시계상자" [ref=e1085] [cursor=pointer]:
+            - /url: https://smartstore.naver.com/main/products/2914644333
+          - generic [ref=e1086]:
+            - img "보네또러버밴드 400CT 우레탄밴드 20mm 22mm 시계줄"
+          - generic [ref=e1088]:
+            - strong [ref=e1089]: 보네또러버밴드 400CT 우레탄밴드 20mm 22mm 시계줄
+            - generic [ref=e1092]:
+              - generic [ref=e1093]:
+                - generic [ref=e1094]:
+                  - text: 25%
+                  - generic [ref=e1095]: 할인
+                - text: 47,500원
+              - generic [ref=e1096]:
+                - img [ref=e1097]
+                - generic [ref=e1102]: 배송비
+                - text: 무료
+            - generic [ref=e1103]:
+              - generic [ref=e1104]: 오늘출발
+              - generic [ref=e1105]: 15:00까지 주문 시
+            - generic [ref=e1107]:
+              - img [ref=e1108]
+              - generic [ref=e1111]: "4.75"
+              - generic [ref=e1112]: (379)
+            - link "시계상자" [ref=e1114] [cursor=pointer]:
+              - /url: https://m.smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fm.smartstore.naver.com%2Fwatchcase&tr=nsls&nl-ts-pid=jmRs7dprfO0ssT81pHd-263653
+              - generic [ref=e1115]: 시계상자
+              - img [ref=e1116]
+        - listitem [ref=e1118]:
+          - link "보네또 러버밴드 300L 최다 색상 이탈리아 정식수입 디버클 스트랩 18 20 22 24 32% 할인 40,000원 배송비 2,500원 오늘출발 15:00까지 주문 시 4.9 (122) 신화사 시계" [ref=e1119] [cursor=pointer]:
+            - /url: https://smartstore.naver.com/main/products/2210212186
+          - generic [ref=e1120]:
+            - img "보네또 러버밴드 300L 최다 색상 이탈리아 정식수입 디버클 스트랩 18 20 22 24"
+          - generic [ref=e1122]:
+            - strong [ref=e1123]: 보네또 러버밴드 300L 최다 색상 이탈리아 정식수입 디버클 스트랩 18 20 22 24
+            - generic [ref=e1126]:
+              - generic [ref=e1127]:
+                - generic [ref=e1128]:
+                  - text: 32%
+                  - generic [ref=e1129]: 할인
+                - text: 40,000원
+              - generic [ref=e1130]:
+                - img [ref=e1131]
+                - generic [ref=e1136]: 배송비
+                - text: 2,500원
+            - generic [ref=e1137]:
+              - generic [ref=e1138]: 오늘출발
+              - generic [ref=e1139]: 15:00까지 주문 시
+            - generic [ref=e1141]:
+              - img [ref=e1142]
+              - generic [ref=e1145]: "4.9"
+              - generic [ref=e1146]: (122)
+            - link "신화사 시계" [ref=e1148] [cursor=pointer]:
+              - /url: https://m.smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fm.smartstore.naver.com%2Fsh4&tr=nsls&nl-ts-pid=jmRs7dprfO0ssT81pHd-263653
+              - generic [ref=e1149]: 신화사 시계
+              - img [ref=e1150]
+        - listitem [ref=e1152]:
+          - link "프리미엄 러버밴드 보네또 400CT 블랙 다크블루 화이트 오렌지 그린 20 22 미리 25% 할인 47,500원 배송비 무료 오늘출발 15:00까지 주문 시 4.79 (128) 신화사 시계" [ref=e1153] [cursor=pointer]:
+            - /url: https://smartstore.naver.com/main/products/6575148787
+          - generic [ref=e1154]:
+            - img "프리미엄 러버밴드 보네또 400CT 블랙 다크블루 화이트 오렌지 그린 20 22 미리"
+          - generic [ref=e1156]:
+            - strong [ref=e1157]: 프리미엄 러버밴드 보네또 400CT 블랙 다크블루 화이트 오렌지 그린 20 22 미리
+            - generic [ref=e1160]:
+              - generic [ref=e1161]:
+                - generic [ref=e1162]:
+                  - text: 25%
+                  - generic [ref=e1163]: 할인
+                - text: 47,500원
+              - generic [ref=e1164]:
+                - img [ref=e1165]
+                - generic [ref=e1170]: 배송비
+                - text: 무료
+            - generic [ref=e1171]:
+              - generic [ref=e1172]: 오늘출발
+              - generic [ref=e1173]: 15:00까지 주문 시
+            - generic [ref=e1175]:
+              - img [ref=e1176]
+              - generic [ref=e1179]: "4.79"
+              - generic [ref=e1180]: (128)
+            - link "신화사 시계" [ref=e1182] [cursor=pointer]:
+              - /url: https://m.smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fm.smartstore.naver.com%2Fsh4&tr=nsls&nl-ts-pid=jmRs7dprfO0ssT81pHd-263653
+              - generic [ref=e1183]: 신화사 시계
+              - img [ref=e1184]
+        - listitem [ref=e1186]:
+          - link "이탈리아 BONETTO 보네또 ZULUDIVER 합작제품 네이비 러버 우레탄 밴드 20mm, 22mm 55,000원 배송비 3,000원 5.0 (4) 제이엘그룹" [ref=e1187] [cursor=pointer]:
+            - /url: https://smartstore.naver.com/main/products/2764195554
+          - generic [ref=e1188]:
+            - img "이탈리아 BONETTO 보네또 ZULUDIVER 합작제품 네이비 러버 우레탄 밴드 20mm, 22mm"
+          - generic [ref=e1190]:
+            - strong [ref=e1191]: 이탈리아 BONETTO 보네또 ZULUDIVER 합작제품 네이비 러버 우레탄 밴드 20mm, 22mm
+            - generic [ref=e1194]:
+              - generic [ref=e1195]: 55,000원
+              - generic [ref=e1196]:
+                - img [ref=e1197]
+                - generic [ref=e1202]: 배송비
+                - text: 3,000원
+            - generic [ref=e1204]:
+              - img [ref=e1205]
+              - generic [ref=e1208]: "5.0"
+              - generic [ref=e1209]: (4)
+            - link "제이엘그룹" [ref=e1211] [cursor=pointer]:
+              - /url: https://m.smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fm.smartstore.naver.com%2Fjlwatch&tr=nsls&nl-ts-pid=jmRs7dprfO0ssT81pHd-263653
+              - generic [ref=e1212]: 제이엘그룹
+              - img [ref=e1213]
+        - listitem [ref=e1215]:
+          - link "[BONETTO] 285 오렌지/보네또 이태리 정품 시계줄/Made in ITALY/올워치 밴드/무료배송/사은품 스프링바+스프링바 툴 10% 할인 38,700원 배송비 무료 4.0 (12) 올워치" [ref=e1216] [cursor=pointer]:
+            - /url: https://smartstore.naver.com/main/products/129001306
+          - generic [ref=e1217]:
+            - img "[BONETTO] 285 오렌지/보네또 이태리 정품 시계줄/Made in ITALY/올워치 밴드/무료배송/사은품 스프링바+스프링바 툴"
+          - generic [ref=e1219]:
+            - strong [ref=e1220]: "[BONETTO] 285 오렌지/보네또 이태리 정품 시계줄/Made in ITALY/올워치 밴드/무료배송/사은품 스프링바+스프링바 툴"
+            - generic [ref=e1223]:
+              - generic [ref=e1224]:
+                - generic [ref=e1225]:
+                  - text: 10%
+                  - generic [ref=e1226]: 할인
+                - text: 38,700원
+              - generic [ref=e1227]:
+                - img [ref=e1228]
+                - generic [ref=e1233]: 배송비
+                - text: 무료
+            - generic [ref=e1235]:
+              - img [ref=e1236]
+              - generic [ref=e1239]: "4.0"
+              - generic [ref=e1240]: (12)
+            - link "올워치" [ref=e1242] [cursor=pointer]:
+              - /url: https://m.smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fm.smartstore.naver.com%2F24&tr=nsls&nl-ts-pid=jmRs7dprfO0ssT81pHd-263653
+              - generic [ref=e1243]: 올워치
+              - img [ref=e1244]
+        - listitem [ref=e1246]:
+          - link "공식수입정품 보네또 러버밴드 24mm 블랙 10% 할인 37,800원 배송비 3,000원 5.0 (2) 시계상자" [ref=e1247] [cursor=pointer]:
+            - /url: https://smartstore.naver.com/main/products/300011217
+          - generic [ref=e1248]:
+            - img "공식수입정품 보네또 러버밴드 24mm 블랙"
+          - generic [ref=e1250]:
+            - strong [ref=e1251]: 공식수입정품 보네또 러버밴드 24mm 블랙
+            - generic [ref=e1254]:
+              - generic [ref=e1255]:
+                - generic [ref=e1256]:
+                  - text: 10%
+                  - generic [ref=e1257]: 할인
+                - text: 37,800원
+              - generic [ref=e1258]:
+                - img [ref=e1259]
+                - generic [ref=e1264]: 배송비
+                - text: 3,000원
+            - generic [ref=e1266]:
+              - img [ref=e1267]
+              - generic [ref=e1270]: "5.0"
+              - generic [ref=e1271]: (2)
+            - link "시계상자" [ref=e1273] [cursor=pointer]:
+              - /url: https://m.smartstore.naver.com/inflow/outlink/url?url=https%3A%2F%2Fm.smartstore.naver.com%2Fwatchcase&tr=nsls&nl-ts-pid=jmRs7dprfO0ssT81pHd-263653
+              - generic [ref=e1274]: 시계상자
+              - img [ref=e1275]
+      - generic [ref=e1277]:
+        - text: 네이버는 상품 판매의 당사자가 아닙니다.
+        - link "법적고지 및 안내" [ref=e1278] [cursor=pointer]:
+          - /url: https://m.help.pay.naver.com/faq/list.help?rootCategoryId=11004&faqId=10909
+      - link "네이버플러스 스토어 더보기" [ref=e1280] [cursor=pointer]:
+        - /url: https://search.shopping.naver.com/ns/search?query=%EC%9B%8C%EB%87%A8%EB%9D%A0%20%EB%A7%A4%EB%A7%A4%EB%B2%95%20%ED%83%80%EC%9E%84%ED%94%84%EB%A0%88%EC%9E%84%20%EB%B3%B4%EC%A1%B0%EC%A7%80%ED%91%9C%20%EB%B3%BC%EB%A6%B0%EC%A0%80%EB%B0%B4%EB%93%9C&nl-ts-pid=jmRs7dprfO0ssT81pHd-263653
+        - text: 네이버플러스 스토어 더보기
+        - img [ref=e1281]
+    - generic [ref=e1286]:
+      - button "이전페이지" [disabled] [ref=e1287]:
+        - generic [ref=e1288]: 이전페이지
+      - generic [ref=e1289]:
+        - button "1" [disabled] [ref=e1290] [cursor=pointer]
+        - button "2" [ref=e1291] [cursor=pointer]
+      - button "다음페이지" [ref=e1292]:
+        - generic [ref=e1293]: 다음페이지
+  - contentinfo [ref=e1294]:
+    - generic [ref=e1295]:
+      - generic [ref=e1296]:
+        - generic [ref=e1297]:
+          - button "가 폰트작게보기" [ref=e1299] [cursor=pointer]:
+            - text: 가
+            - generic [ref=e1300]: 폰트작게보기
+          - button "가 폰트크게보기" [ref=e1302] [cursor=pointer]:
+            - text: 가
+            - generic [ref=e1303]: 폰트크게보기
+        - generic [ref=e1304]:
+          - button "공유하기" [ref=e1306] [cursor=pointer]:
+            - generic [ref=e1307]: 공유하기
+          - button "맨위로" [ref=e1309] [cursor=pointer]:
+            - generic [ref=e1310]: 맨위로
+      - generic [ref=e1312]:
+        - link "로그인" [ref=e1314] [cursor=pointer]:
+          - /url: https://nid.naver.com/nidlogin.login?svctype=262144&url=https%3A%2F%2Fm.search.naver.com%2Fsearch.naver%3Fquery%3D%25EC%259B%258C%25EB%2587%25A8%25EB%259D%25A0%2B%25EB%25A7%25A4%25EB%25A7%25A4%25EB%25B2%2595%2B%25ED%2583%2580%25EC%259E%2584%25ED%2594%2584%25EB%25A0%2588%25EC%259E%2584%2B%25EB%25B3%25B4%25EC%25A1%25B0%25EC%25A7%2580%25ED%2591%259C%2B%25EB%25B3%25BC%25EB%25A6%25B0%25EC%25A0%2580%25EB%25B0%25B4%25EB%2593%259C%26where%3Dm_view%26sm%3Dmtb_viw.all
+        - link "전체서비스" [ref=e1316] [cursor=pointer]:
+          - /url: https://m.naver.com/services.html?f=svc.search
+        - link "PC버전" [ref=e1318] [cursor=pointer]:
+          - /url: https://search.naver.com/search.naver?query=%EC%9B%8C%EB%87%A8%EB%9D%A0+%EB%A7%A4%EB%A7%A4%EB%B2%95+%ED%83%80%EC%9E%84%ED%94%84%EB%A0%88%EC%9E%84+%EB%B3%B4%EC%A1%B0%EC%A7%80%ED%91%9C+%EB%B3%BC%EB%A6%B0%EC%A0%80%EB%B0%B4%EB%93%9C&where=nexearch&sm=mtb_pcv&ssc=tab.nx.all
+      - generic [ref=e1319]:
+        - generic [ref=e1320]:
+          - link "이용약관" [ref=e1322] [cursor=pointer]:
+            - /url: https://policy.naver.com/policy-mobile/term.html
+          - link "개인정보처리방침" [ref=e1324] [cursor=pointer]:
+            - /url: https://policy.naver.com/policy-mobile/privacy.html
+          - link "검색 고객센터" [ref=e1326] [cursor=pointer]:
+            - /url: https://help.naver.com/alias/search/integration/main.naver
+        - link "NAVER" [ref=e1327] [cursor=pointer]:
+          - /url: https://www.navercorp.com/
+          - generic [ref=e1328]: NAVER

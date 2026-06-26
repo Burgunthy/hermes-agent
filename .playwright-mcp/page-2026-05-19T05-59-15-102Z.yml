@@ -1,0 +1,291 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fiterativv%2FNostalgiaForInfinity%2Fissues%3Fq%3Dtrade%2Bfrequency%2Bmore%2Btrades
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fissues%2Findex&source=header-repo&source_repo=iterativv%2FNostalgiaForInfinity
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "iterativv" [ref=e70] [cursor=pointer]:
+            - /url: /iterativv
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "NostalgiaForInfinity" [ref=e73] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fiterativv%2FNostalgiaForInfinity
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 721" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fiterativv%2FNostalgiaForInfinity
+                - img [ref=e82]
+                - text: Fork
+                - generic "721" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fiterativv%2FNostalgiaForInfinity
+                - img [ref=e88]
+                - text: Star
+                - generic "3219 users starred this repository" [ref=e90]: 3.2k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 60" [ref=e99] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "60" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 3" [ref=e106] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "3" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Actions" [ref=e112] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/actions
+              - img [ref=e113]
+              - generic [ref=e115]: Actions
+          - listitem [ref=e116]:
+            - link "Projects" [ref=e117] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/projects
+              - img [ref=e118]
+              - generic [ref=e120]: Projects
+          - listitem [ref=e121]:
+            - link "Wiki" [ref=e122] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/wiki
+              - img [ref=e123]
+              - generic [ref=e125]: Wiki
+          - listitem [ref=e126]:
+            - link "Security and quality" [ref=e127] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/security
+              - img [ref=e128]
+              - generic [ref=e130]: Security and quality
+          - listitem [ref=e131]:
+            - link "Insights" [ref=e132] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/pulse
+              - img [ref=e133]
+              - generic [ref=e135]: Insights
+    - generic [ref=e148]:
+      - heading "Issues" [level=1] [ref=e149]
+      - generic [ref=e150]:
+        - generic [ref=e152]:
+          - form "Search Issues" [ref=e154]:
+            - generic [ref=e155]: Search Issues
+            - generic [ref=e157]:
+              - generic [ref=e159]:
+                - generic [ref=e160]:
+                  - generic [ref=e161]: trade
+                  - generic [ref=e163]: frequency
+                  - generic [ref=e165]: more
+                  - generic [ref=e167]: trades
+                - combobox "Search Issues" [ref=e169]: trade frequency more trades
+              - button "Search" [ref=e170] [cursor=pointer]:
+                - img [ref=e171]
+          - generic [ref=e173]:
+            - link "Labels" [ref=e174] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/labels
+              - generic [ref=e175]:
+                - generic:
+                  - img
+                - generic [ref=e176]: Labels
+            - link "Milestones" [ref=e177] [cursor=pointer]:
+              - /url: /iterativv/NostalgiaForInfinity/milestones
+              - generic [ref=e178]:
+                - generic:
+                  - img
+                - generic [ref=e179]: Milestones
+            - link "New issue" [ref=e180] [cursor=pointer]:
+              - /url: /login?return_to=https://github.com/iterativv/NostalgiaForInfinity/issues?q=trade+frequency+more+trades
+              - generic [ref=e182]: New issue
+        - generic [ref=e186]:
+          - heading "Search results" [level=2] [ref=e187]
+          - generic [ref=e188]:
+            - generic [ref=e189]:
+              - link "Open" [ref=e190] [cursor=pointer]:
+                - /url: ""
+                - generic [ref=e191]: Open
+              - link "Closed" [ref=e193] [cursor=pointer]:
+                - /url: ""
+                - generic [ref=e194]: Closed
+            - toolbar "Actions" [ref=e196]:
+              - generic [ref=e197]:
+                - button "Filter by author" [ref=e199] [cursor=pointer]:
+                  - generic [ref=e200]:
+                    - generic [ref=e201]: Author
+                    - generic:
+                      - img
+                - button "Filter by label" [ref=e203] [cursor=pointer]:
+                  - generic [ref=e204]:
+                    - generic [ref=e205]: Labels
+                    - generic:
+                      - img
+                - button "Filter by project" [ref=e207] [cursor=pointer]:
+                  - generic [ref=e208]:
+                    - generic [ref=e209]: Projects
+                    - generic:
+                      - img
+                - button "Filter by milestone" [ref=e211] [cursor=pointer]:
+                  - generic [ref=e212]:
+                    - generic [ref=e213]: Milestones
+                    - generic:
+                      - img
+                - button "Filter by assignees" [ref=e215] [cursor=pointer]:
+                  - generic [ref=e216]:
+                    - generic [ref=e217]: Assignees
+                    - generic:
+                      - img
+                - button "Sort by Newest , descending" [ref=e219] [cursor=pointer]:
+                  - generic [ref=e220]:
+                    - generic:
+                      - img
+                    - generic [ref=e221]:
+                      - generic [ref=e222]: Sort by
+                      - text: Newest
+                      - generic [ref=e223]: ", descending"
+                  - generic:
+                    - img
+          - list "Search results" [ref=e224]:
+            - listitem "More information available below." [ref=e227]:
+              - heading "frequency of entering trades" [level=3] [ref=e229]:
+                - link "frequency of entering trades" [ref=e230] [cursor=pointer]:
+                  - /url: /iterativv/NostalgiaForInfinity/issues/667
+                  - generic [ref=e231]: frequency of entering trades
+              - generic [ref=e236]:
+                - img [ref=e238]
+                - generic [ref=e241]: "Status: Open."
+              - generic [ref=e245]:
+                - generic [ref=e246]:
+                  - generic [ref=e247]: "#667"
+                  - generic [ref=e248]: In iterativv/NostalgiaForInfinity;
+                - generic [ref=e249]:
+                  - text: ·
+                  - link "sokolovnekita91-oss" [ref=e250] [cursor=pointer]:
+                    - /url: /iterativv/NostalgiaForInfinity/issues?q=trade%20frequency%20more%20trades%20author%3Asokolovnekita91-oss
+                  - text: opened
+                  - generic "Mar 11, 2026, 3:14 AM GMT+9" [ref=e251]: on Mar 10, 2026on Mar 11
+            - listitem "More information available below." [ref=e255]:
+              - heading "Low trade frequency when using USDC pairs" [level=3] [ref=e257]:
+                - link "Low trade frequency when using USDC pairs" [ref=e258] [cursor=pointer]:
+                  - /url: /iterativv/NostalgiaForInfinity/issues/495
+                  - generic [ref=e259]: Low trade frequency when using USDC pairs
+              - generic [ref=e264]:
+                - img [ref=e266]
+                - generic [ref=e269]: "Status: Open."
+              - generic [ref=e273]:
+                - generic [ref=e274]:
+                  - generic [ref=e275]: "#495"
+                  - generic [ref=e276]: In iterativv/NostalgiaForInfinity;
+                - generic [ref=e277]:
+                  - text: ·
+                  - link "danxathome" [ref=e278] [cursor=pointer]:
+                    - /url: /iterativv/NostalgiaForInfinity/issues?q=trade%20frequency%20more%20trades%20author%3Adanxathome
+                  - text: opened
+                  - generic "Apr 8, 2025, 1:48 PM GMT+9" [ref=e279]: on Apr 8, 2025on Apr 8, 2025
+            - listitem "More information available below." [ref=e283]:
+              - heading "Lookahead?" [level=3] [ref=e285]:
+                - link "Lookahead?" [ref=e286] [cursor=pointer]:
+                  - /url: /iterativv/NostalgiaForInfinity/issues/491
+                  - generic [ref=e287]: Lookahead?
+              - generic [ref=e292]:
+                - img [ref=e294]
+                - generic [ref=e297]: "Status: Closed (completed)."
+              - generic [ref=e301]:
+                - generic [ref=e302]:
+                  - generic [ref=e303]: "#491"
+                  - generic [ref=e304]: In iterativv/NostalgiaForInfinity;
+                - generic [ref=e305]:
+                  - text: · by
+                  - link "velea18" [ref=e306] [cursor=pointer]:
+                    - /url: /iterativv/NostalgiaForInfinity/issues?q=trade%20frequency%20more%20trades%20author%3Avelea18
+                  - text: was closed
+                  - generic "Apr 3, 2025, 1:34 AM GMT+9" [ref=e307]: on Apr 2, 2025on Apr 3, 2025
+  - contentinfo [ref=e309]:
+    - heading "Footer" [level=2] [ref=e310]
+    - generic [ref=e311]:
+      - generic [ref=e312]:
+        - link "GitHub Homepage" [ref=e313] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e314]
+        - generic [ref=e316]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e317]:
+        - heading "Footer navigation" [level=3] [ref=e318]
+        - list "Footer navigation" [ref=e319]:
+          - listitem [ref=e320]:
+            - link "Terms" [ref=e321] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e322]:
+            - link "Privacy" [ref=e323] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e324]:
+            - link "Security" [ref=e325] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e326]:
+            - link "Status" [ref=e327] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e328]:
+            - link "Community" [ref=e329] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e330]:
+            - link "Docs" [ref=e331] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e332]:
+            - link "Contact" [ref=e333] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e334]:
+            - button "Manage cookies" [ref=e336] [cursor=pointer]
+          - listitem [ref=e337]:
+            - button "Do not share my personal information" [ref=e339] [cursor=pointer]

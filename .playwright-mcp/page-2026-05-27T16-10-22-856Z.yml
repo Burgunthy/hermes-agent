@@ -1,0 +1,225 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-container"
+    - banner [ref=e4]:
+      - link "logo" [ref=e6] [cursor=pointer]:
+        - /url: https://cornell.edu/
+        - img "logo" [ref=e7]
+      - paragraph [ref=e9]:
+        - generic [ref=e10]:
+          - text: We gratefully acknowledge support from
+          - text: the Simons Foundation,
+          - link "member institutions" [ref=e11] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/ourmembers.html
+          - text: ", and all contributors."
+          - link "Donate" [ref=e12] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/donate.html
+    - generic [ref=e13]:
+      - link "arxiv-logo" [ref=e16] [cursor=pointer]:
+        - /url: https://arxiv.org/
+        - img "logo" [ref=e17]
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - textbox "Search term or terms" [ref=e22]:
+            - /placeholder: Search...
+          - paragraph [ref=e23]:
+            - link "Help" [ref=e24] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+            - text: "|"
+            - link "Advanced Search" [ref=e25] [cursor=pointer]:
+              - /url: https://arxiv.org/search/advanced
+        - combobox "Field to search" [ref=e28] [cursor=pointer]:
+          - option "All fields" [selected]
+          - option "Title"
+          - option "Author"
+          - option "Abstract"
+          - option "Comments"
+          - option "Journal reference"
+          - option "ACM classification"
+          - option "MSC classification"
+          - option "Report number"
+          - option "arXiv identifier"
+          - option "DOI"
+          - option "ORCID"
+          - option "arXiv author ID"
+          - option "Help pages"
+          - option "Full text"
+        - button "Search" [ref=e29] [cursor=pointer]
+    - navigation "User menu" [ref=e31]:
+      - link "Login" [ref=e32] [cursor=pointer]:
+        - /url: https://arxiv.org/login
+  - main [ref=e33]:
+    - generic [ref=e34]:
+      - heading "Search" [level=1] [ref=e36]
+      - link "Search v0.5.6 released 2020-02-24" [ref=e39] [cursor=pointer]:
+        - /url: https://github.com/arXiv/arxiv-search/releases
+    - generic [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic: Search term or terms
+            - textbox "Search term or terms" [ref=e44]:
+              - /placeholder: Search term...
+              - text: rdlx-1
+          - combobox "Field" [ref=e46] [cursor=pointer]:
+            - option "All fields" [selected]
+            - option "Title"
+            - option "Author(s)"
+            - option "Abstract"
+            - option "Comments"
+            - option "Journal reference"
+            - option "ACM classification"
+            - option "MSC classification"
+            - option "Report number"
+            - option "arXiv identifier"
+            - option "DOI"
+            - option "ORCID"
+            - option "License (URI)"
+            - option "arXiv author ID"
+            - option "Help pages"
+            - option "Full text"
+          - button "Search" [ref=e48] [cursor=pointer]
+        - generic [ref=e50]:
+          - generic [ref=e51] [cursor=pointer]:
+            - radio "Show abstracts" [checked] [ref=e52]
+            - text: Show abstracts
+          - generic [ref=e53] [cursor=pointer]:
+            - radio "Hide abstracts" [ref=e54]
+            - text: Hide abstracts
+        - link "Advanced Search" [ref=e57] [cursor=pointer]:
+          - /url: /search/advanced?terms-0-term=rdlx-1&terms-0-field=all&size=50&order=-announced_date_first
+      - paragraph [ref=e58]: "Sorry, your query for all: rdlx-1 produced no results."
+      - article [ref=e59]:
+        - heading "Searching by Author Name" [level=4] [ref=e61]
+        - list [ref=e63]:
+          - listitem [ref=e64]:
+            - text: Using the
+            - strong [ref=e65]: Author(s) field
+            - text: produces best results for author name searches.
+          - listitem [ref=e66]:
+            - text: For the most precise name search, follow
+            - strong [ref=e67]: surname(s), forename(s)
+            - text: or
+            - strong [ref=e68]: surname(s), initial(s)
+            - text: "pattern: example Hawking, S or Hawking, Stephen"
+          - listitem [ref=e69]:
+            - text: For best results on multiple author names,
+            - strong [ref=e70]: separate individuals with a ;
+            - text: "(semicolon). Example: Jin, D S; Ye, J"
+          - listitem [ref=e71]:
+            - text: Author names enclosed in quotes will return only
+            - strong [ref=e72]: exact matches
+            - text: . For example, "Stephen Hawking" will not return matches for Stephen W. Hawking.
+          - listitem [ref=e73]: Diacritic character variants are automatically searched in the Author(s) field.
+          - listitem [ref=e74]: Queries with no punctuation will treat each term independently.
+      - article [ref=e75]:
+        - heading "Searching by subcategory" [level=4] [ref=e77]
+        - list [ref=e79]:
+          - listitem [ref=e80]:
+            - text: To search within a subcategory select
+            - strong [ref=e81]: All fields
+            - text: .
+          - listitem [ref=e82]:
+            - text: A subcategory search can be combined with an author or keyword search by clicking on
+            - strong [ref=e83]: add another term
+            - text: in advanced search.
+      - heading "Tips" [level=2] [ref=e84]
+      - paragraph [ref=e85]: "Wildcards:"
+      - list [ref=e86]:
+        - listitem [ref=e87]: Use ? to replace a single character or * to replace any number of characters.
+        - listitem [ref=e88]: Can be used in any field, but not in the first character position. See Journal References tips for exceptions.
+      - paragraph [ref=e89]: "Expressions:"
+      - list [ref=e90]:
+        - listitem [ref=e91]: TeX expressions can be searched, enclosed in single $ characters.
+      - paragraph [ref=e92]: "Phrases:"
+      - list [ref=e93]:
+        - listitem [ref=e94]: Enclose phrases in double quotes for exact matches in title, abstract, and comments.
+      - paragraph [ref=e95]: "Dates:"
+      - list [ref=e96]:
+        - listitem [ref=e97]:
+          - text: Sorting by announcement date will use the year and month the
+          - emphasis [ref=e98]: original version
+          - text: (v1) of the paper was announced.
+        - listitem [ref=e99]:
+          - text: Sorting by submission date will use the year, month and day the
+          - emphasis [ref=e100]: latest version
+          - text: of the paper was submitted.
+      - paragraph [ref=e101]: "Journal References:"
+      - list [ref=e102]:
+        - listitem [ref=e103]:
+          - text: If a journal reference search contains a wildcard, matches will be made using wildcard matching as expected. For example,
+          - strong [ref=e104]: math*
+          - text: will match
+          - emphasis [ref=e105]: math
+          - text: ","
+          - emphasis [ref=e106]: maths
+          - text: ","
+          - emphasis [ref=e107]: mathematics
+          - text: .
+        - listitem [ref=e108]:
+          - text: If a journal reference search does
+          - strong [ref=e109]: not
+          - text: contain a wildcard, only exact phrases entered will be matched. For example,
+          - strong [ref=e110]: math
+          - text: would match
+          - emphasis [ref=e111]: math
+          - text: or
+          - emphasis [ref=e112]: math and science
+          - text: but not
+          - emphasis [ref=e113]: maths
+          - text: or
+          - emphasis [ref=e114]: mathematics
+          - text: .
+        - listitem [ref=e115]:
+          - text: "All journal reference searches that do not contain a wildcard are literal searches: a search for"
+          - strong [ref=e116]: Physica A
+          - text: will match all papers with journal references containing
+          - emphasis [ref=e117]: Physica A
+          - text: ", but a search for"
+          - strong [ref=e118]: Physica A, 245 (1997) 181
+          - text: will only return the paper with journal reference
+          - emphasis [ref=e119]: Physica A, 245 (1997) 181
+          - text: .
+  - contentinfo [ref=e120]:
+    - navigation "Secondary" [ref=e121]:
+      - generic [ref=e123]:
+        - list [ref=e125]:
+          - listitem [ref=e126]:
+            - link "About" [ref=e127] [cursor=pointer]:
+              - /url: https://info.arxiv.org/about
+          - listitem [ref=e128]:
+            - link "Help" [ref=e129] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+        - list [ref=e131]:
+          - listitem [ref=e132]:
+            - link "Contact" [ref=e134] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/contact.html
+          - listitem [ref=e135]:
+            - link "Subscribe" [ref=e137] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/subscribe
+      - generic [ref=e139]:
+        - list [ref=e141]:
+          - listitem [ref=e142]:
+            - link "Copyright" [ref=e143] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/license/index.html
+          - listitem [ref=e144]:
+            - link "Privacy Policy" [ref=e145] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/policies/privacy_policy.html
+        - list [ref=e147]:
+          - listitem [ref=e148]:
+            - link "Web Accessibility Assistance" [ref=e149] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/web_accessibility.html
+          - listitem [ref=e150]:
+            - paragraph [ref=e151]:
+              - link "arXiv Operational Status" [ref=e152] [cursor=pointer]:
+                - /url: https://status.arxiv.org
+                - text: arXiv Operational Status
+              - text: Get status notifications via
+              - link "email" [ref=e154] [cursor=pointer]:
+                - /url: https://subscribe.sorryapp.com/24846f03/email/new
+                - text: email
+              - text: or
+              - link "slack" [ref=e156] [cursor=pointer]:
+                - /url: https://subscribe.sorryapp.com/24846f03/slack/new
+                - text: slack

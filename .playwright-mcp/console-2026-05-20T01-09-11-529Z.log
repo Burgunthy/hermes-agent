@@ -1,0 +1,3 @@
+[     697ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://scholar.google.com/scholar?q=partial+take+profit+trading+strategy+optimal+exit:0
+[     719ms] ReferenceError: solveSimpleChallenge is not defined
+    at onload (https://scholar.google.com/scholar?q=partial+take+profit+trading+strategy+optimal+exit:4:316)

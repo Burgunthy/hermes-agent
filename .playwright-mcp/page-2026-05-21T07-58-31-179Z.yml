@@ -1,0 +1,513 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FNeteaseFuxiRL
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Corg-login%3E&source=header
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e61]:
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e65]:
+          - img "@NeteaseFuxiRL" [ref=e67]
+          - generic [ref=e68]:
+            - heading "RL Team in Netease Fuxi AI Lab" [level=1] [ref=e69]
+            - generic [ref=e71]: Reinforcement Learning Team in Netease Fuxi AI Lab
+            - list:
+              - listitem
+            - list [ref=e73]:
+              - listitem [ref=e74]:
+                - img [ref=e75]
+                - link "24 followers" [ref=e77] [cursor=pointer]:
+                  - /url: /orgs/NeteaseFuxiRL/followers
+              - listitem [ref=e78]:
+                - img [ref=e79]
+                - text: Hangzhou, China
+              - listitem [ref=e81]:
+                - img [ref=e82]
+                - link "https://fuxi.163.com/en/about.html" [ref=e84] [cursor=pointer]:
+                  - /url: https://fuxi.163.com/en/about.html
+              - listitem [ref=e85]:
+                - img [ref=e86]
+                - link "FuxiRL@163.com" [ref=e88] [cursor=pointer]:
+                  - /url: mailto:FuxiRL@163.com
+        - navigation "Organization" [ref=e90]:
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Overview" [ref=e94] [cursor=pointer]:
+                - /url: /NeteaseFuxiRL
+                - img [ref=e95]
+                - text: Overview
+            - listitem [ref=e97]:
+              - link "Repositories 7" [ref=e98] [cursor=pointer]:
+                - /url: /orgs/NeteaseFuxiRL/repositories
+                - img [ref=e99]
+                - text: Repositories
+                - generic "Not available" [ref=e101]: "7"
+            - listitem [ref=e102]:
+              - link "Projects" [ref=e103] [cursor=pointer]:
+                - /url: /orgs/NeteaseFuxiRL/projects
+                - img [ref=e104]
+                - text: Projects
+            - listitem [ref=e106]:
+              - link "Packages" [ref=e107] [cursor=pointer]:
+                - /url: /orgs/NeteaseFuxiRL/packages
+                - img [ref=e108]
+                - text: Packages
+            - listitem [ref=e110]:
+              - link "People" [ref=e111] [cursor=pointer]:
+                - /url: /orgs/NeteaseFuxiRL/people
+                - img [ref=e112]
+                - text: People
+      - generic [ref=e115]:
+        - generic [ref=e118]:
+          - generic [ref=e119]:
+            - heading "Popular repositories Loading" [level=2] [ref=e120]:
+              - text: Popular repositories
+              - generic [ref=e121]: Loading
+              - status
+            - list [ref=e122]:
+              - listitem [ref=e123]:
+                - generic [ref=e125]:
+                  - generic [ref=e126]:
+                    - link "wuji" [ref=e128] [cursor=pointer]:
+                      - /url: /NeteaseFuxiRL/wuji
+                    - generic [ref=e130]: Public
+                  - paragraph [ref=e131]: "original source code of the ASE 2019 paper: Wuji: Automatic Online Combat Game Testing Using Evolutionary Deep Reinforcement Learning"
+                  - paragraph [ref=e132]:
+                    - generic [ref=e133]: Python
+                    - link "stars 28" [ref=e135] [cursor=pointer]:
+                      - /url: /NeteaseFuxiRL/wuji/stargazers
+                      - img "stars" [ref=e136]
+                      - text: "28"
+                    - link "forks 5" [ref=e138] [cursor=pointer]:
+                      - /url: /NeteaseFuxiRL/wuji/forks
+                      - img "forks" [ref=e139]
+                      - text: "5"
+              - listitem [ref=e141]:
+                - generic [ref=e143]:
+                  - generic [ref=e144]:
+                    - link "FeverBasketball" [ref=e146] [cursor=pointer]:
+                      - /url: /NeteaseFuxiRL/FeverBasketball
+                    - generic [ref=e148]: Public
+                  - paragraph [ref=e149]: The open source of FeverBasketball environment for research purpose.
+                  - paragraph [ref=e150]:
+                    - link "stars 11" [ref=e151] [cursor=pointer]:
+                      - /url: /NeteaseFuxiRL/FeverBasketball/stargazers
+                      - img "stars" [ref=e152]
+                      - text: "11"
+                    - link "forks 11" [ref=e154] [cursor=pointer]:
+                      - /url: /NeteaseFuxiRL/FeverBasketball/forks
+                      - img "forks" [ref=e155]
+                      - text: "11"
+              - listitem [ref=e157]:
+                - generic [ref=e159]:
+                  - generic [ref=e160]:
+                    - link "FuxiRL-research-book" [ref=e162] [cursor=pointer]:
+                      - /url: /NeteaseFuxiRL/FuxiRL-research-book
+                    - generic [ref=e164]: Public
+                  - paragraph
+                  - paragraph [ref=e165]:
+                    - link "stars 5" [ref=e166] [cursor=pointer]:
+                      - /url: /NeteaseFuxiRL/FuxiRL-research-book/stargazers
+                      - img "stars" [ref=e167]
+                      - text: "5"
+                    - link "fork 1" [ref=e169] [cursor=pointer]:
+                      - /url: /NeteaseFuxiRL/FuxiRL-research-book/forks
+                      - img "fork" [ref=e170]
+                      - text: "1"
+              - listitem [ref=e172]:
+                - generic [ref=e174]:
+                  - generic [ref=e175]:
+                    - link "action-balance-exploration" [ref=e177] [cursor=pointer]:
+                      - /url: /NeteaseFuxiRL/action-balance-exploration
+                    - generic [ref=e179]: Public
+                  - paragraph
+                  - paragraph [ref=e180]:
+                    - generic [ref=e181]: Python
+                    - link "stars 4" [ref=e183] [cursor=pointer]:
+                      - /url: /NeteaseFuxiRL/action-balance-exploration/stargazers
+                      - img "stars" [ref=e184]
+                      - text: "4"
+                    - link "forks 2" [ref=e186] [cursor=pointer]:
+                      - /url: /NeteaseFuxiRL/action-balance-exploration/forks
+                      - img "forks" [ref=e187]
+                      - text: "2"
+              - listitem [ref=e189]:
+                - generic [ref=e191]:
+                  - generic [ref=e192]:
+                    - link "asf" [ref=e194] [cursor=pointer]:
+                      - /url: /NeteaseFuxiRL/asf
+                    - generic [ref=e196]: Public
+                  - paragraph [ref=e197]: Implementation of Action-Specific Focuses
+                  - paragraph [ref=e198]:
+                    - generic [ref=e199]: Python
+                    - link "stars 2" [ref=e201] [cursor=pointer]:
+                      - /url: /NeteaseFuxiRL/asf/stargazers
+                      - img "stars" [ref=e202]
+                      - text: "2"
+              - listitem [ref=e204]:
+                - generic [ref=e206]:
+                  - generic [ref=e207]:
+                    - link "neteasefuxirl.github.io" [ref=e209] [cursor=pointer]:
+                      - /url: /NeteaseFuxiRL/neteasefuxirl.github.io
+                    - generic [ref=e211]: Public
+                  - paragraph [ref=e212]: Github Pages template for academic group websites, forked from mmistakes/minimal-mistakes
+                  - paragraph [ref=e213]:
+                    - generic [ref=e214]: JavaScript
+                    - link "star 1" [ref=e216] [cursor=pointer]:
+                      - /url: /NeteaseFuxiRL/neteasefuxirl.github.io/stargazers
+                      - img "star" [ref=e217]
+                      - text: "1"
+          - generic [ref=e220]:
+            - heading "Repositories" [level=3] [ref=e221]:
+              - img [ref=e222]
+              - text: Repositories
+            - search [ref=e226]:
+              - generic [ref=e227]:
+                - generic [ref=e228]:
+                  - searchbox "Find a repository…" [ref=e229]
+                  - img [ref=e230]
+                  - generic [ref=e232]: Loading
+                - generic [ref=e233]:
+                  - group [ref=e234]:
+                    - button "Type" [ref=e235] [cursor=pointer]: Type
+                  - group [ref=e237]:
+                    - button "Language" [ref=e238] [cursor=pointer]: Language
+                  - group [ref=e240]:
+                    - button "Sort" [ref=e241] [cursor=pointer]: Sort
+            - generic [ref=e244]:
+              - generic [ref=e245]: Showing 7 of 7 repositories
+              - list [ref=e247]:
+                - listitem [ref=e248]:
+                  - generic [ref=e249]:
+                    - generic [ref=e250]:
+                      - generic [ref=e251]:
+                        - link "action-balance-exploration" [ref=e252] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration
+                        - 'generic "Label: Public" [ref=e253]': Public
+                      - generic [ref=e254]:
+                        - link "NeteaseFuxiRL/action-balance-exploration’s past year of commit activity":
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/graphs/commit-activity
+                        - link [ref=e256] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/action-balance-exploration/graphs/commit-activity
+                          - img [ref=e257]
+                    - generic [ref=e260]:
+                      - generic [ref=e261]: Python
+                      - link "4 stars" [ref=e263] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/stargazers
+                        - img [ref=e264]
+                        - text: "4"
+                      - generic [ref=e266]:
+                        - img [ref=e267]
+                        - text: GPL-3.0
+                      - link "2 forks" [ref=e269] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/forks
+                        - img [ref=e270]
+                        - text: "2"
+                      - link "0 issues" [ref=e272] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/issues
+                        - img [ref=e273]
+                        - text: "0"
+                      - link "0 pull requests" [ref=e276] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/action-balance-exploration/pulls
+                        - img [ref=e277]
+                        - text: "0"
+                      - generic [ref=e279]: Updated Apr 19, 2022on Apr 19, 2022
+                - listitem [ref=e280]:
+                  - generic [ref=e281]:
+                    - generic [ref=e282]:
+                      - generic [ref=e283]:
+                        - link "wuji" [ref=e284] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/wuji
+                        - 'generic "Label: Public" [ref=e285]': Public
+                        - paragraph [ref=e286]: "original source code of the ASE 2019 paper: Wuji: Automatic Online Combat Game Testing Using Evolutionary Deep Reinforcement Learning"
+                      - generic [ref=e287]:
+                        - link "NeteaseFuxiRL/wuji’s past year of commit activity":
+                          - /url: /NeteaseFuxiRL/wuji/graphs/commit-activity
+                        - link [ref=e289] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/wuji/graphs/commit-activity
+                          - img [ref=e290]
+                    - generic [ref=e293]:
+                      - generic [ref=e294]: Python
+                      - link "28 stars" [ref=e296] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/wuji/stargazers
+                        - img [ref=e297]
+                        - text: "28"
+                      - generic [ref=e299]:
+                        - img [ref=e300]
+                        - text: GPL-3.0
+                      - link "5 forks" [ref=e302] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/wuji/forks
+                        - img [ref=e303]
+                        - text: "5"
+                      - link "3 issues" [ref=e305] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/wuji/issues
+                        - img [ref=e306]
+                        - text: "3"
+                      - link "0 pull requests" [ref=e309] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/wuji/pulls
+                        - img [ref=e310]
+                        - text: "0"
+                      - generic [ref=e312]: Updated Jun 8, 2020on Jun 8, 2020
+                - listitem [ref=e313]:
+                  - generic [ref=e314]:
+                    - generic [ref=e315]:
+                      - generic [ref=e316]:
+                        - link "PPO-PyTorch" [ref=e317] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/PPO-PyTorch
+                        - 'generic "Label: Public" [ref=e318]': Public
+                        - generic [ref=e319]:
+                          - text: Forked from
+                          - link "nikhilbarhate99/PPO-PyTorch" [ref=e320] [cursor=pointer]:
+                            - /url: /nikhilbarhate99/PPO-PyTorch
+                        - paragraph [ref=e321]: Minimal implementation of clipped objective Proximal Policy Optimization (PPO) in PyTorch
+                      - generic [ref=e322]:
+                        - link "NeteaseFuxiRL/PPO-PyTorch’s past year of commit activity":
+                          - /url: /NeteaseFuxiRL/PPO-PyTorch/graphs/commit-activity
+                        - link [ref=e324] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/PPO-PyTorch/graphs/commit-activity
+                          - img [ref=e325]
+                    - generic [ref=e328]:
+                      - generic [ref=e329]: Python
+                      - generic "0 stars" [ref=e331]:
+                        - img [ref=e332]
+                        - text: "0"
+                      - generic [ref=e334]:
+                        - img [ref=e335]
+                        - text: MIT
+                      - link "425 forks" [ref=e337] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/PPO-PyTorch/forks
+                        - img [ref=e338]
+                        - text: "425"
+                      - link "0 issues" [ref=e340] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/PPO-PyTorch/issues
+                        - img [ref=e341]
+                        - text: "0"
+                      - link "0 pull requests" [ref=e344] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/PPO-PyTorch/pulls
+                        - img [ref=e345]
+                        - text: "0"
+                      - generic [ref=e347]: Updated Jun 8, 2020on Jun 8, 2020
+                - listitem [ref=e348]:
+                  - generic [ref=e349]:
+                    - generic [ref=e350]:
+                      - generic [ref=e351]:
+                        - link "asf" [ref=e352] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/asf
+                        - 'generic "Label: Public" [ref=e353]': Public
+                        - paragraph [ref=e354]: Implementation of Action-Specific Focuses
+                      - generic [ref=e355]:
+                        - link "NeteaseFuxiRL/asf’s past year of commit activity":
+                          - /url: /NeteaseFuxiRL/asf/graphs/commit-activity
+                        - link [ref=e357] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/asf/graphs/commit-activity
+                          - img [ref=e358]
+                    - generic [ref=e361]:
+                      - generic [ref=e362]: Python
+                      - link "2 stars" [ref=e364] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/asf/stargazers
+                        - img [ref=e365]
+                        - text: "2"
+                      - generic [ref=e367]:
+                        - img [ref=e368]
+                        - text: MIT
+                      - generic "0 forks" [ref=e370]:
+                        - img [ref=e371]
+                        - text: "0"
+                      - link "0 issues" [ref=e373] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/asf/issues
+                        - img [ref=e374]
+                        - text: "0"
+                      - link "0 pull requests" [ref=e377] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/asf/pulls
+                        - img [ref=e378]
+                        - text: "0"
+                      - generic [ref=e380]: Updated May 20, 2020on May 20, 2020
+                - listitem [ref=e381]:
+                  - generic [ref=e382]:
+                    - generic [ref=e383]:
+                      - generic [ref=e384]:
+                        - link "FeverBasketball" [ref=e385] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/FeverBasketball
+                        - 'generic "Label: Public" [ref=e386]': Public
+                        - paragraph [ref=e387]: The open source of FeverBasketball environment for research purpose.
+                      - generic [ref=e388]:
+                        - link "NeteaseFuxiRL/FeverBasketball’s past year of commit activity":
+                          - /url: /NeteaseFuxiRL/FeverBasketball/graphs/commit-activity
+                        - link [ref=e390] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/FeverBasketball/graphs/commit-activity
+                          - img [ref=e391]
+                    - generic [ref=e394]:
+                      - link "11 stars" [ref=e395] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/FeverBasketball/stargazers
+                        - img [ref=e396]
+                        - text: "11"
+                      - link "11 forks" [ref=e398] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/FeverBasketball/forks
+                        - img [ref=e399]
+                        - text: "11"
+                      - link "0 issues" [ref=e401] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/FeverBasketball/issues
+                        - img [ref=e402]
+                        - text: "0"
+                      - link "0 pull requests" [ref=e405] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/FeverBasketball/pulls
+                        - img [ref=e406]
+                        - text: "0"
+                      - generic [ref=e408]: Updated Mar 2, 2020on Mar 2, 2020
+                - listitem [ref=e409]:
+                  - generic [ref=e410]:
+                    - generic [ref=e411]:
+                      - generic [ref=e412]:
+                        - link "FuxiRL-research-book" [ref=e413] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/FuxiRL-research-book
+                        - 'generic "Label: Public" [ref=e414]': Public
+                      - generic:
+                        - link "NeteaseFuxiRL/FuxiRL-research-book’s past year of commit activity":
+                          - /url: /NeteaseFuxiRL/FuxiRL-research-book/graphs/commit-activity
+                        - generic:
+                          - link:
+                            - /url: /NeteaseFuxiRL/FuxiRL-research-book/graphs/commit-activity
+                    - generic [ref=e415]:
+                      - link "5 stars" [ref=e416] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/FuxiRL-research-book/stargazers
+                        - img [ref=e417]
+                        - text: "5"
+                      - link "1 fork" [ref=e419] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/FuxiRL-research-book/forks
+                        - img [ref=e420]
+                        - text: "1"
+                      - link "0 issues" [ref=e422] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/FuxiRL-research-book/issues
+                        - img [ref=e423]
+                        - text: "0"
+                      - link "0 pull requests" [ref=e426] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/FuxiRL-research-book/pulls
+                        - img [ref=e427]
+                        - text: "0"
+                      - generic [ref=e429]: Updated Feb 17, 2020on Feb 17, 2020
+                - listitem [ref=e430]:
+                  - generic [ref=e431]:
+                    - generic [ref=e432]:
+                      - generic [ref=e433]:
+                        - link "neteasefuxirl.github.io" [ref=e434] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/neteasefuxirl.github.io
+                        - 'generic "Label: Public" [ref=e435]': Public
+                        - paragraph [ref=e436]: Github Pages template for academic group websites, forked from mmistakes/minimal-mistakes
+                      - generic [ref=e437]:
+                        - link "NeteaseFuxiRL/neteasefuxirl.github.io’s past year of commit activity":
+                          - /url: /NeteaseFuxiRL/neteasefuxirl.github.io/graphs/commit-activity
+                        - link [ref=e439] [cursor=pointer]:
+                          - /url: /NeteaseFuxiRL/neteasefuxirl.github.io/graphs/commit-activity
+                          - img [ref=e440]
+                    - generic [ref=e443]:
+                      - generic [ref=e444]: JavaScript
+                      - link "1 star" [ref=e446] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/neteasefuxirl.github.io/stargazers
+                        - img [ref=e447]
+                        - text: "1"
+                      - generic [ref=e449]:
+                        - img [ref=e450]
+                        - text: MIT
+                      - generic "0 forks" [ref=e452]:
+                        - img [ref=e453]
+                        - text: "0"
+                      - link "0 issues" [ref=e455] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/neteasefuxirl.github.io/issues
+                        - img [ref=e456]
+                        - text: "0"
+                      - link "0 pull requests" [ref=e459] [cursor=pointer]:
+                        - /url: /NeteaseFuxiRL/neteasefuxirl.github.io/pulls
+                        - img [ref=e460]
+                        - text: "0"
+                      - generic [ref=e462]: Updated Oct 12, 2019on Oct 12, 2019
+        - generic [ref=e464]:
+          - generic [ref=e466]:
+            - link "People" [ref=e467] [cursor=pointer]:
+              - /url: /orgs/NeteaseFuxiRL/people
+              - heading "People" [level=4] [ref=e468]
+            - paragraph [ref=e469]: This organization has no public members. You must be a member to see who’s a part of this organization.
+          - generic [ref=e471]:
+            - heading "Top languages" [level=4] [ref=e472]
+            - link "Python" [ref=e473] [cursor=pointer]:
+              - /url: /orgs/NeteaseFuxiRL/repositories?language=python&type=all
+              - generic [ref=e474]: Python
+            - link "JavaScript" [ref=e476] [cursor=pointer]:
+              - /url: /orgs/NeteaseFuxiRL/repositories?language=javascript&type=all
+              - generic [ref=e477]: JavaScript
+  - contentinfo [ref=e479]:
+    - heading "Footer" [level=2] [ref=e480]
+    - generic [ref=e481]:
+      - generic [ref=e482]:
+        - link "GitHub Homepage" [ref=e483] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e484]
+        - generic [ref=e486]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e487]:
+        - heading "Footer navigation" [level=3] [ref=e488]
+        - list "Footer navigation" [ref=e489]:
+          - listitem [ref=e490]:
+            - link "Terms" [ref=e491] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e492]:
+            - link "Privacy" [ref=e493] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e494]:
+            - link "Security" [ref=e495] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e496]:
+            - link "Status" [ref=e497] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e498]:
+            - link "Community" [ref=e499] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e500]:
+            - link "Docs" [ref=e501] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e502]:
+            - link "Contact" [ref=e503] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e504]:
+            - button "Manage cookies" [ref=e506] [cursor=pointer]
+          - listitem [ref=e507]:
+            - button "Do not share my personal information" [ref=e509] [cursor=pointer]

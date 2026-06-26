@@ -1,0 +1,358 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to main content" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - link "Cornell University" [ref=e7] [cursor=pointer]:
+        - /url: https://www.cornell.edu/
+        - img "Cornell University" [ref=e8]
+      - link "Learn about arXiv becoming an independent nonprofit." [ref=e10] [cursor=pointer]:
+        - /url: https://tech.cornell.edu/arxiv/
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - text: We gratefully acknowledge support from the Simons Foundation,
+          - link "member institutions" [ref=e13] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/ourmembers.html
+          - text: ", and all contributors."
+        - link "Donate" [ref=e14] [cursor=pointer]:
+          - /url: https://info.arxiv.org/about/donate.html
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - link "arxiv logo" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img "arxiv logo" [ref=e18]
+        - generic [ref=e19]: ">"
+        - link "cs" [ref=e20] [cursor=pointer]:
+          - /url: /list/cs/recent
+        - generic [ref=e21]: ">"
+        - text: arXiv:1910.07113
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - textbox "Search term or terms" [ref=e26]:
+            - /placeholder: Search...
+          - paragraph [ref=e27]:
+            - link "Help" [ref=e28] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+            - text: "|"
+            - link "Advanced Search" [ref=e29] [cursor=pointer]:
+              - /url: https://arxiv.org/search/advanced
+        - combobox "Field to search" [ref=e31]:
+          - option "All fields" [selected]
+          - option "Title"
+          - option "Author"
+          - option "Abstract"
+          - option "Comments"
+          - option "Journal reference"
+          - option "ACM classification"
+          - option "MSC classification"
+          - option "Report number"
+          - option "arXiv identifier"
+          - option "DOI"
+          - option "ORCID"
+          - option "arXiv author ID"
+          - option "Help pages"
+          - option "Full text"
+        - button "Search" [ref=e32] [cursor=pointer]
+  - main [ref=e33]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - heading "Computer Science > Machine Learning" [level=1] [ref=e38]
+        - generic [ref=e40]:
+          - generic [ref=e41]: "[Submitted on 16 Oct 2019]"
+          - heading "Solving Rubik's Cube with a Robot Hand" [level=1] [ref=e42]
+          - generic [ref=e43]:
+            - link "OpenAI" [ref=e44] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=OpenAI
+            - text: ","
+            - link "Ilge Akkaya" [ref=e45] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Akkaya,+I
+            - text: ","
+            - link "Marcin Andrychowicz" [ref=e46] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Andrychowicz,+M
+            - text: ","
+            - link "Maciek Chociej" [ref=e47] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Chociej,+M
+            - text: ","
+            - link "Mateusz Litwin" [ref=e48] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Litwin,+M
+            - text: ","
+            - link "Bob McGrew" [ref=e49] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=McGrew,+B
+            - text: ","
+            - link "Arthur Petron" [ref=e50] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Petron,+A
+            - text: ","
+            - link "Alex Paino" [ref=e51] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Paino,+A
+            - text: ","
+            - link "Matthias Plappert" [ref=e52] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Plappert,+M
+            - text: ","
+            - link "Glenn Powell" [ref=e53] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Powell,+G
+            - text: ","
+            - link "Raphael Ribas" [ref=e54] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Ribas,+R
+            - text: ","
+            - link "Jonas Schneider" [ref=e55] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Schneider,+J
+            - text: ","
+            - link "Nikolas Tezak" [ref=e56] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Tezak,+N
+            - text: ","
+            - link "Jerry Tworek" [ref=e57] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Tworek,+J
+            - text: ","
+            - link "Peter Welinder" [ref=e58] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Welinder,+P
+            - text: ","
+            - link "Lilian Weng" [ref=e59] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Weng,+L
+            - text: ","
+            - link "Qiming Yuan" [ref=e60] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Yuan,+Q
+            - text: ","
+            - link "Wojciech Zaremba" [ref=e61] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Zaremba,+W
+            - text: ","
+            - link "Lei Zhang" [ref=e62] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Zhang,+L
+          - blockquote [ref=e63]:
+            - text: "We demonstrate that models trained only in simulation can be used to solve a manipulation problem of unprecedented complexity on a real robot. This is made possible by two key components: a novel algorithm, which we call automatic domain randomization (ADR) and a robot platform built for machine learning. ADR automatically generates a distribution over randomized environments of ever-increasing difficulty. Control policies and vision state estimators trained with ADR exhibit vastly improved sim2real transfer. For control policies, memory-augmented models trained on an ADR-generated distribution of environments show clear signs of emergent meta-learning at test time. The combination of ADR with our custom robot platform allows us to solve a Rubik's cube with a humanoid robot hand, which involves both control and state estimation problems. Videos summarizing our results are available:"
+            - link "this https URL" [ref=e64] [cursor=pointer]:
+              - /url: https://openai.com/blog/solving-rubiks-cube/
+          - table "Additional metadata" [ref=e66]:
+            - rowgroup [ref=e67]:
+              - 'row "Subjects: Machine Learning (cs.LG); Artificial Intelligence (cs.AI); Computer Vision and Pattern Recognition (cs.CV); Robotics (cs.RO); Machine Learning (stat.ML)" [ref=e68]':
+                - cell "Subjects:" [ref=e69]
+                - cell "Machine Learning (cs.LG); Artificial Intelligence (cs.AI); Computer Vision and Pattern Recognition (cs.CV); Robotics (cs.RO); Machine Learning (stat.ML)" [ref=e70]
+              - 'row "Cite as: arXiv:1910.07113 [cs.LG]" [ref=e71]':
+                - cell "Cite as:" [ref=e72]
+                - cell "arXiv:1910.07113 [cs.LG]" [ref=e73]:
+                  - generic [ref=e74]:
+                    - link "arXiv:1910.07113" [ref=e75] [cursor=pointer]:
+                      - /url: https://arxiv.org/abs/1910.07113
+                    - text: "[cs.LG]"
+              - row "(or arXiv:1910.07113v1 [cs.LG] for this version)" [ref=e76]:
+                - cell [ref=e77]
+                - cell "(or arXiv:1910.07113v1 [cs.LG] for this version)" [ref=e78]:
+                  - text: (or
+                  - generic [ref=e79]:
+                    - link "arXiv:1910.07113v1" [ref=e80] [cursor=pointer]:
+                      - /url: https://arxiv.org/abs/1910.07113v1
+                    - text: "[cs.LG]"
+                  - text: for this version)
+              - row "https://doi.org/10.48550/arXiv.1910.07113 Focus to learn more" [ref=e81]:
+                - cell [ref=e82]
+                - cell "https://doi.org/10.48550/arXiv.1910.07113 Focus to learn more" [ref=e83]:
+                  - link "https://doi.org/10.48550/arXiv.1910.07113" [ref=e84] [cursor=pointer]:
+                    - /url: https://doi.org/10.48550/arXiv.1910.07113
+                  - button "Focus to learn more" [ref=e86]:
+                    - generic [ref=e88]: Focus to learn more
+        - generic [ref=e89]:
+          - heading "Submission history" [level=2] [ref=e90]
+          - text: "From: Matthias Plappert ["
+          - link "view email" [ref=e91] [cursor=pointer]:
+            - /url: /show-email/97ff6093/1910.07113
+          - text: "]"
+          - strong [ref=e92]: "[v1]"
+          - text: Wed, 16 Oct 2019 00:59:05 UTC (4,610 KB)
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - heading "Access Paper:" [level=2] [ref=e95]
+          - list [ref=e96]:
+            - listitem [ref=e97]:
+              - link "View PDF" [ref=e98] [cursor=pointer]:
+                - /url: /pdf/1910.07113
+            - listitem [ref=e99]:
+              - link "TeX Source" [ref=e100] [cursor=pointer]:
+                - /url: /src/1910.07113
+          - link "view license" [ref=e102] [cursor=pointer]:
+            - /url: http://arxiv.org/licenses/nonexclusive-distrib/1.0/
+        - generic [ref=e103]:
+          - heading "Current browse context:" [level=3] [ref=e104]
+          - generic [ref=e105]: cs.LG
+          - generic [ref=e106]:
+            - link "< prev" [ref=e108] [cursor=pointer]:
+              - /url: /prevnext?id=1910.07113&function=prev&context=cs.LG
+            - text: "|"
+            - link "next >" [ref=e110] [cursor=pointer]:
+              - /url: /prevnext?id=1910.07113&function=next&context=cs.LG
+          - generic [ref=e111]:
+            - link "new" [ref=e112] [cursor=pointer]:
+              - /url: /list/cs.LG/new
+            - text: "|"
+            - link "recent" [ref=e113] [cursor=pointer]:
+              - /url: /list/cs.LG/recent
+            - text: "|"
+            - link "2019-10" [ref=e114] [cursor=pointer]:
+              - /url: /list/cs.LG/2019-10
+          - generic [ref=e115]:
+            - text: "Change to browse by:"
+            - generic [ref=e116]:
+              - link "cs" [ref=e117] [cursor=pointer]:
+                - /url: /abs/1910.07113?context=cs
+              - link "cs.AI" [ref=e118] [cursor=pointer]:
+                - /url: /abs/1910.07113?context=cs.AI
+              - link "cs.CV" [ref=e119] [cursor=pointer]:
+                - /url: /abs/1910.07113?context=cs.CV
+              - link "cs.RO" [ref=e120] [cursor=pointer]:
+                - /url: /abs/1910.07113?context=cs.RO
+              - link "stat" [ref=e121] [cursor=pointer]:
+                - /url: /abs/1910.07113?context=stat
+              - link "stat.ML" [ref=e122] [cursor=pointer]:
+                - /url: /abs/1910.07113?context=stat.ML
+        - generic [ref=e123]:
+          - heading "References & Citations" [level=3] [ref=e124]
+          - list [ref=e125]:
+            - listitem [ref=e126]:
+              - link "NASA ADS" [ref=e127] [cursor=pointer]:
+                - /url: https://ui.adsabs.harvard.edu/abs/arXiv:1910.07113
+            - listitem [ref=e128]:
+              - link "Google Scholar" [ref=e129] [cursor=pointer]:
+                - /url: https://scholar.google.com/scholar_lookup?arxiv_id=1910.07113
+            - listitem [ref=e130]:
+              - link "Semantic Scholar" [ref=e131] [cursor=pointer]:
+                - /url: https://api.semanticscholar.org/arXiv:1910.07113
+        - generic [ref=e133]:
+          - heading "1 blog link" [level=3] [ref=e134]:
+            - link "1 blog link" [ref=e135] [cursor=pointer]:
+              - /url: /tb/1910.07113
+          - text: (
+          - link "what is this?" [ref=e136] [cursor=pointer]:
+            - /url: https://info.arxiv.org/help/trackback.html
+          - text: )
+        - generic [ref=e137]:
+          - heading "DBLP - CS Bibliography" [level=3] [ref=e138]:
+            - link "DBLP" [ref=e139] [cursor=pointer]:
+              - /url: https://dblp.uni-trier.de
+            - text: "- CS Bibliography"
+          - generic [ref=e140]:
+            - link "listing" [ref=e141] [cursor=pointer]:
+              - /url: https://dblp.uni-trier.de/db/journals/corr/corr1910.html#abs-1910-07113
+            - text: "|"
+            - link "bibtex" [ref=e142] [cursor=pointer]:
+              - /url: https://dblp.uni-trier.de/rec/bibtex/journals/corr/abs-1910-07113
+          - generic [ref=e143]:
+            - link "OpenAI" [ref=e144] [cursor=pointer]:
+              - /url: https://dblp.uni-trier.de/search/author?author=OpenAI
+            - link "Ilge Akkaya" [ref=e145] [cursor=pointer]:
+              - /url: https://dblp.uni-trier.de/search/author?author=Ilge%20Akkaya
+            - link "Marcin Andrychowicz" [ref=e146] [cursor=pointer]:
+              - /url: https://dblp.uni-trier.de/search/author?author=Marcin%20Andrychowicz
+            - link "Maciek Chociej" [ref=e147] [cursor=pointer]:
+              - /url: https://dblp.uni-trier.de/search/author?author=Maciek%20Chociej
+            - link "Bob McGrew" [ref=e148] [cursor=pointer]:
+              - /url: https://dblp.uni-trier.de/search/author?author=Bob%20McGrew
+            - generic [ref=e149]: …
+        - button "export BibTeX citation" [ref=e151]
+        - generic [ref=e152]:
+          - heading "Bookmark" [level=3] [ref=e154]
+          - link "BibSonomy" [ref=e155] [cursor=pointer]:
+            - /url: http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/1910.07113&description=Solving Rubik's Cube with a Robot Hand
+            - img "BibSonomy" [ref=e156]
+          - link "Reddit" [ref=e157] [cursor=pointer]:
+            - /url: https://reddit.com/submit?url=https://arxiv.org/abs/1910.07113&title=Solving Rubik's Cube with a Robot Hand
+            - img "Reddit" [ref=e158]
+      - tablist "arXivLabs tools" [ref=e160]:
+        - radio "Bibliographic Tools" [checked] [ref=e161]
+        - tab "Bibliographic Tools" [selected] [ref=e162] [cursor=pointer]
+        - tabpanel "Bibliographic Tools" [ref=e163]:
+          - heading "Bibliographic and Citation Tools" [level=1] [ref=e164]
+          - generic [ref=e165]:
+            - generic [ref=e166]:
+              - generic [ref=e168]:
+                - checkbox "Bibliographic Explorer Toggle"
+                - generic [ref=e170]: Bibliographic Explorer Toggle
+              - generic [ref=e171]:
+                - text: Bibliographic Explorer
+                - emphasis [ref=e172]:
+                  - text: (
+                  - link "What is the Explorer?" [ref=e173] [cursor=pointer]:
+                    - /url: https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer
+                  - text: )
+            - generic [ref=e174]:
+              - generic [ref=e176]:
+                - checkbox "Connected Papers"
+                - generic [ref=e178]: Connected Papers Toggle
+              - generic [ref=e179]:
+                - text: Connected Papers
+                - emphasis [ref=e180]:
+                  - text: (
+                  - link "What is Connected Papers?" [ref=e181] [cursor=pointer]:
+                    - /url: https://www.connectedpapers.com/about
+                  - text: )
+            - generic [ref=e182]:
+              - generic [ref=e184]:
+                - checkbox "Litmaps"
+                - generic [ref=e186]: Litmaps Toggle
+              - generic [ref=e187]:
+                - text: Litmaps
+                - emphasis [ref=e188]:
+                  - text: (
+                  - link "What is Litmaps?" [ref=e189] [cursor=pointer]:
+                    - /url: https://www.litmaps.co/
+                  - text: )
+            - generic [ref=e190]:
+              - generic [ref=e192]:
+                - checkbox "scite Smart Citations"
+                - generic [ref=e194]: scite.ai Toggle
+              - generic [ref=e195]:
+                - text: scite Smart Citations
+                - emphasis [ref=e196]:
+                  - text: (
+                  - link "What are Smart Citations?" [ref=e197] [cursor=pointer]:
+                    - /url: https://www.scite.ai/
+                  - text: )
+        - radio "Code, Data, Media" [ref=e201]
+        - tab "Code, Data, Media" [ref=e202] [cursor=pointer]
+        - radio "Demos" [ref=e203]
+        - tab "Demos" [ref=e204] [cursor=pointer]
+        - radio "Related Papers" [ref=e205]
+        - tab "Related Papers" [ref=e206] [cursor=pointer]
+        - radio "About arXivLabs" [ref=e207]
+        - tab "About arXivLabs" [ref=e208] [cursor=pointer]
+      - generic [ref=e209]:
+        - link "Which authors of this paper are endorsers?" [ref=e210] [cursor=pointer]:
+          - /url: /auth/show-endorsers/1910.07113
+        - text: "|"
+        - link "Disable MathJax" [ref=e211] [cursor=pointer]:
+          - /url: javascript:setMathjaxCookie()
+        - text: (
+        - link "What is MathJax?" [ref=e212] [cursor=pointer]:
+          - /url: https://info.arxiv.org/help/mathjax.html
+        - text: )
+  - contentinfo [ref=e213]:
+    - navigation "Secondary" [ref=e214]:
+      - generic [ref=e216]:
+        - list [ref=e218]:
+          - listitem [ref=e219]:
+            - link "About" [ref=e220] [cursor=pointer]:
+              - /url: https://info.arxiv.org/about
+          - listitem [ref=e221]:
+            - link "Help" [ref=e222] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+        - list [ref=e224]:
+          - listitem [ref=e225]:
+            - link "Contact" [ref=e227] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/contact.html
+          - listitem [ref=e228]:
+            - link "Subscribe" [ref=e230] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/subscribe
+      - generic [ref=e232]:
+        - list [ref=e234]:
+          - listitem [ref=e235]:
+            - link "Copyright" [ref=e236] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/license/index.html
+          - listitem [ref=e237]:
+            - link "Privacy Policy" [ref=e238] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/policies/privacy_policy.html
+        - list [ref=e240]:
+          - listitem [ref=e241]:
+            - link "Web Accessibility Assistance" [ref=e242] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/web_accessibility.html
+          - listitem [ref=e243]:
+            - paragraph [ref=e244]:
+              - link "arXiv Operational Status" [ref=e245] [cursor=pointer]:
+                - /url: https://status.arxiv.org
+                - text: arXiv Operational Status

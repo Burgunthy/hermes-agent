@@ -1,0 +1,2 @@
+[     264ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://raw.githubusercontent.com/isaac-sim/IsaacGymEnvs/main/isaacgymenvs/tasks/allegro_hand_dextreme_adr.py:0
+[    9838ms] [ERROR] Blocked script execution in 'https://raw.githubusercontent.com/isaac-sim/IsaacGymEnvs/main/isaacgymenvs/tasks/allegro_hand_dextreme_adr.py' because the document's frame is sandboxed and the 'allow-scripts' permission is not set. @ https://raw.githubusercontent.com/isaac-sim/IsaacGymEnvs/main/isaacgymenvs/tasks/allegro_hand_dextreme_adr.py:0

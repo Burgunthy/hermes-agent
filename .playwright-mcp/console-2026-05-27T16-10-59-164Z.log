@@ -1,0 +1,5 @@
+[    2973ms] [WARNING] [.WebGL-0x3a44000e8200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat) @ https://x.com/i/flow/login?redirect_after_login=%2Fsearch%3Fq%3Drdlx-1%26f%3Dtop:0
+[    3254ms] [WARNING] No available adapters. @ https://x.com/i/flow/login?redirect_after_login=%2Fsearch%3Fq%3Drdlx-1%26f%3Dtop:0
+[    4089ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://x.com/i/jf/onboarding/web?redirect_after_login=%2Fsearch%3Fq%3Drdlx-1%26f%3Dtop&mode=login:0
+[    4233ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://x.com/i/jf/onboarding/web?redirect_after_login=%2Fsearch%3Fq%3Drdlx-1%26f%3Dtop&mode=login:0
+[    4256ms] [WARNING] [GSI_LOGGER]: google.accounts.id.initialize() is called multiple times. This could cause unexpected behavior and only the last initialized instance will be used. @ https://accounts.google.com/gsi/client:84

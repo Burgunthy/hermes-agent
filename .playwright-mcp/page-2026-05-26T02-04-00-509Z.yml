@@ -1,0 +1,512 @@
+- iframe [active] [ref=e2]:
+  - generic [active] [ref=f89e1]:
+    - generic [ref=f89e3]:
+      - generic [ref=f89e4]:
+        - link "NAVER" [ref=f89e5] [cursor=pointer]:
+          - /url: http://www.naver.com
+        - link "블로그" [ref=f89e6] [cursor=pointer]:
+          - /url: https://blog.naver.com
+      - link "캔들러Candler" [ref=f89e9] [cursor=pointer]:
+        - /url: https://blog.naver.com/PostList.naver?blogId=ccandlerr
+        - strong [ref=f89e10]: 캔들러Candler
+      - search [ref=f89e11]:
+        - group "블로그 검색" [ref=f89e13]:
+          - generic [ref=f89e14]: 블로그 검색
+          - generic [ref=f89e15]:
+            - textbox "이 블로그에서 검색" [ref=f89e16]
+            - generic [ref=f89e17]: 이 블로그에서 검색
+            - button "검색" [ref=f89e18] [cursor=pointer]
+      - button "카테고리 열기" [ref=f89e21] [cursor=pointer]
+    - generic [ref=f89e28]:
+      - generic:
+        - generic [ref=f89e30]:
+          - button [ref=f89e33] [cursor=pointer]
+          - button "공감 1" [ref=f89e35]:
+            - button "공감 1" [ref=f89e37]:
+              - generic [ref=f89e40]: 공감
+              - generic [ref=f89e41]: "1"
+        - button "댓글 2" [ref=f89e43] [cursor=pointer]:
+          - generic [ref=f89e45]:
+            - emphasis [ref=f89e46]: 댓글
+            - emphasis [ref=f89e47]: "2"
+      - link "공유하기" [ref=f89e48] [cursor=pointer]:
+        - /url: "#"
+        - img
+        - generic [ref=f89e49]: 공유하기
+    - generic [ref=f89e51]:
+      - link "메뉴 바로가기" [ref=f89e52] [cursor=pointer]:
+        - /url: "#blog-menu"
+      - link "본문 바로가기" [ref=f89e53] [cursor=pointer]:
+        - /url: "#post_1"
+      - list [ref=f89e56]:
+        - listitem [ref=f89e57]:
+          - link "내 블로그" [ref=f89e58] [cursor=pointer]:
+            - /url: https://blog.naver.com/MyBlog.naver
+        - listitem [ref=f89e59]:
+          - link "이웃블로그" [ref=f89e60] [cursor=pointer]:
+            - /url: https://nid.naver.com/nidlogin.login?mode=form&url=https://blog.naver.com/ccandlerr
+        - listitem [ref=f89e61]:
+          - link "블로그 홈" [ref=f89e62] [cursor=pointer]:
+            - /url: https://section.blog.naver.com
+        - listitem [ref=f89e63]:
+          - link "로그인" [ref=f89e64] [cursor=pointer]:
+            - /url: https://nid.naver.com/nidlogin.login?mode=form&url=https://blog.naver.com/ccandlerr/223553501477
+            - generic [ref=f89e65]: 로그인
+        - listitem:
+          - strong [ref=f89e66]: 사용자 링크
+      - generic [ref=f89e68]:
+        - generic [ref=f89e69]:
+          - generic [ref=f89e70]:
+            - heading [level=1]:
+              - link:
+                - /url: https://blog.naver.com/PostList.naver?blogId=ccandlerr&categoryNo=9
+          - table "블로그 메뉴" [ref=f89e73]:
+            - caption:
+              - generic [ref=f89e74]: 블로그 메뉴
+            - rowgroup [ref=f89e75]:
+              - row "프롤로그 블로그 안부" [ref=f89e76]:
+                - cell "프롤로그 블로그" [ref=f89e77]:
+                  - list:
+                    - listitem [ref=f89e78]:
+                      - link "프롤로그" [ref=f89e79] [cursor=pointer]:
+                        - /url: https://blog.naver.com/prologue/PrologueList.naver?blogId=ccandlerr&skinType=&skinId=&from=menu
+                    - listitem [ref=f89e80]:
+                      - link "블로그" [ref=f89e81] [cursor=pointer]:
+                        - /url: https://blog.naver.com/PostList.naver?blogId=ccandlerr&categoryNo=9&skinType=&skinId=&from=menu
+                - cell "안부" [ref=f89e82]:
+                  - list [ref=f89e83]:
+                    - listitem [ref=f89e84]:
+                      - link "안부" [ref=f89e85] [cursor=pointer]:
+                        - /url: https://blog.naver.com/guestbook/GuestBookList.naver?blogId=ccandlerr&skinType=&skinId=&from=menu
+        - generic [ref=f89e87]:
+          - generic [ref=f89e89]:
+            - heading "블로그" [level=2] [ref=f89e90]
+            - generic [ref=f89e92]:
+              - table [ref=f89e93]:
+                - rowgroup [ref=f89e94]:
+                  - row [ref=f89e95]:
+                    - cell [ref=f89e96]
+                    - cell [ref=f89e97]
+                    - cell [ref=f89e98]
+              - table "공지 목록" [ref=f89e99]:
+                - caption:
+                  - generic [ref=f89e100]: 공지 목록
+                - rowgroup [ref=f89e101]:
+                  - row "공지글" [ref=f89e102]:
+                    - cell [ref=f89e103]
+                    - cell "공지글" [ref=f89e104]:
+                      - table "공지글" [ref=f89e106]:
+                        - caption:
+                          - generic [ref=f89e107]: 공지글
+                        - rowgroup [ref=f89e111]:
+                          - row "글 제목 작성일" [ref=f89e112]:
+                            - columnheader "글 제목" [ref=f89e113]
+                            - columnheader "작성일" [ref=f89e114]
+                        - rowgroup [ref=f89e115]:
+                          - row "(1) 공지 비트코인 시황 및 브리핑 텔레그램 2024. 8. 19." [ref=f89e116]:
+                            - cell "(1) 공지 비트코인 시황 및 브리핑 텔레그램" [ref=f89e117]:
+                              - generic [ref=f89e118]:
+                                - generic [ref=f89e120]: (1)
+                                - generic [ref=f89e121]:
+                                  - strong [ref=f89e122]: 공지
+                                  - link "비트코인 시황 및 브리핑 텔레그램" [ref=f89e123] [cursor=pointer]:
+                                    - /url: /PostView.naver?blogId=ccandlerr&logNo=223553505730&categoryNo=9&parentCategoryNo=-1&viewDate=&currentPage=&postListTopCurrentPage=
+                            - cell "2024. 8. 19." [ref=f89e124]
+                    - cell [ref=f89e125]
+              - table [ref=f89e126]:
+                - rowgroup [ref=f89e127]:
+                  - row [ref=f89e128]:
+                    - cell [ref=f89e129]
+                    - cell [ref=f89e130]
+                    - cell [ref=f89e131]
+            - generic [ref=f89e135]:
+              - heading "부자되는 방 8개의 글" [level=4] [ref=f89e136]:
+                - button "부자되는 방" [ref=f89e137] [cursor=pointer]:
+                  - strong [ref=f89e138]: 부자되는 방
+                - text: 8개의 글
+              - button "부자되는 방 목록닫기" [ref=f89e139] [cursor=pointer]:
+                - generic [ref=f89e140]: 부자되는 방
+                - text: 목록닫기
+              - generic [ref=f89e141]:
+                - table "부자되는 방 글 목록" [ref=f89e143]:
+                  - caption:
+                    - generic [ref=f89e144]: 부자되는 방 글 목록
+                  - rowgroup [ref=f89e148]:
+                    - row "글 제목 작성일" [ref=f89e149]:
+                      - columnheader "글 제목" [ref=f89e150]:
+                        - generic [ref=f89e151]: 글 제목
+                      - columnheader "작성일" [ref=f89e153]:
+                        - generic [ref=f89e155]: 작성일
+                  - rowgroup [ref=f89e157]:
+                    - row "(3) 도지코인 전망 비트코인 보다 뜨겁다 투자 전략 총정리 2024. 10. 31." [ref=f89e158]:
+                      - cell "(3) 도지코인 전망 비트코인 보다 뜨겁다 투자 전략 총정리" [ref=f89e159]:
+                        - generic [ref=f89e160]:
+                          - generic [ref=f89e162]: (3)
+                          - link "도지코인 전망 비트코인 보다 뜨겁다 투자 전략 총정리" [ref=f89e164] [cursor=pointer]:
+                            - /url: https://blog.naver.com/PostView.naver?blogId=ccandlerr&logNo=223640490915&categoryNo=10&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
+                      - cell "2024. 10. 31." [ref=f89e166]:
+                        - generic [ref=f89e167]: 2024. 10. 31.
+                    - row "주피터 코인 Jup 업비트 상장 후 투자 전략(최신 버전) 2024. 10. 19." [ref=f89e169]:
+                      - cell "주피터 코인 Jup 업비트 상장 후 투자 전략(최신 버전)" [ref=f89e170]:
+                        - link "주피터 코인 Jup 업비트 상장 후 투자 전략(최신 버전)" [ref=f89e174] [cursor=pointer]:
+                          - /url: https://blog.naver.com/PostView.naver?blogId=ccandlerr&logNo=223624961470&categoryNo=10&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
+                      - cell "2024. 10. 19." [ref=f89e176]:
+                        - generic [ref=f89e177]: 2024. 10. 19.
+                    - row "(2) 세이코인시세, 저점 매수해야 할까? 2024. 8. 31." [ref=f89e179]:
+                      - cell "(2) 세이코인시세, 저점 매수해야 할까?" [ref=f89e180]:
+                        - generic [ref=f89e181]:
+                          - generic [ref=f89e183]: (2)
+                          - link "세이코인시세, 저점 매수해야 할까?" [ref=f89e185] [cursor=pointer]:
+                            - /url: https://blog.naver.com/PostView.naver?blogId=ccandlerr&logNo=223567622166&categoryNo=10&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
+                      - cell "2024. 8. 31." [ref=f89e187]:
+                        - generic [ref=f89e188]: 2024. 8. 31.
+                    - row "하이킨아시 매매 전략이 필수인 이유(매일 100만원 벌기) 2024. 8. 28." [ref=f89e190]:
+                      - cell "하이킨아시 매매 전략이 필수인 이유(매일 100만원 벌기)" [ref=f89e191]:
+                        - link "하이킨아시 매매 전략이 필수인 이유(매일 100만원 벌기)" [ref=f89e195] [cursor=pointer]:
+                          - /url: https://blog.naver.com/PostView.naver?blogId=ccandlerr&logNo=223564190270&categoryNo=10&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
+                      - cell "2024. 8. 28." [ref=f89e197]:
+                        - generic [ref=f89e198]: 2024. 8. 28.
+                    - row "RSI 다이버전스로 신뢰도 높이는 법 2024. 8. 24." [ref=f89e200]:
+                      - cell "RSI 다이버전스로 신뢰도 높이는 법" [ref=f89e201]:
+                        - link "RSI 다이버전스로 신뢰도 높이는 법" [ref=f89e205] [cursor=pointer]:
+                          - /url: https://blog.naver.com/PostView.naver?blogId=ccandlerr&logNo=223558664193&categoryNo=10&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView
+                      - cell "2024. 8. 24." [ref=f89e207]:
+                        - generic [ref=f89e208]: 2024. 8. 24.
+                - button "5줄 보기 " [ref=f89e213] [cursor=pointer]:
+                  - text: 5줄 보기
+                  - generic [ref=f89e215]: 
+                - generic [ref=f89e217]:
+                  - strong [ref=f89e218]: 페이지 이동하기
+                  - strong [ref=f89e219]:
+                    - text: "1"
+                    - generic [ref=f89e220]: 현재 페이지
+                  - link "2" [ref=f89e222] [cursor=pointer]:
+                    - /url: "#"
+                    - text: "2"
+            - generic [ref=f89e226]:
+              - table [ref=f89e227]:
+                - rowgroup [ref=f89e228]:
+                  - row [ref=f89e229]:
+                    - cell [ref=f89e230]
+                    - cell [ref=f89e231]
+                    - cell [ref=f89e232]
+              - generic [ref=f89e234]:
+                - generic [ref=f89e237]:
+                  - link "부자되는 방" [ref=f89e239] [cursor=pointer]:
+                    - /url: /PostList.naver?blogId=ccandlerr&categoryNo=10&from=postList&parentCategoryNo=10
+                  - paragraph [ref=f89e242]:
+                    - generic [ref=f89e243]: 워뇨띠 매매법, 3000억 비트코인 포지션 전략 공개
+                  - generic [ref=f89e245]:
+                    - link "프로파일" [ref=f89e247] [cursor=pointer]:
+                      - /url: https://blog.naver.com/ccandlerr
+                      - img "프로파일" [ref=f89e248]
+                    - link "캔들러" [ref=f89e250] [cursor=pointer]:
+                      - /url: https://blog.naver.com/ccandlerr
+                    - generic [ref=f89e251]: ・ 2024. 8. 19. 21:10
+                  - generic [ref=f89e252]:
+                    - link "URL 복사" [ref=f89e253] [cursor=pointer]:
+                      - /url: "#"
+                    - link " 이웃추가" [ref=f89e254] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=f89e255]: 
+                      - text: 이웃추가
+                    - button " 본문 기타 기능" [ref=f89e258] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=f89e259]: 본문 기타 기능
+                - generic [ref=f89e260]:
+                  - generic [ref=f89e263]:
+                    - link [ref=f89e265] [cursor=pointer]:
+                      - /url: "#"
+                    - paragraph [ref=f89e267]: 워뇨띠
+                  - paragraph [ref=f89e272]
+                  - paragraph [ref=f89e277]: 단순함으로 3000억 달성, 워뇨띠 비밀
+                  - paragraph [ref=f89e282]: 비트코인 투자로 성공을 꿈꾸는 많은 사람들은 복잡한 차트와 지표를 해석하는 데 어려움을 겪습니다. 트레이딩을 하면서 수많은 지표를 참고하지만, 그 결과는 기대에 미치지 못할 때가 많죠. 그 이유는 나만의 기준 없이 보조지표만 추가해서 그러는데요.
+                  - generic [ref=f89e285]:
+                    - link [ref=f89e287] [cursor=pointer]:
+                      - /url: "#"
+                    - paragraph [ref=f89e289]: 워뇨띠 매매법
+                  - generic [ref=f89e293]:
+                    - paragraph [ref=f89e294]
+                    - paragraph [ref=f89e295]: 그런데 단 600만 원으로 3,000억 원을 만든 전설적인 트레이더, ‘워뇨띠’는 이와 정반대의 전략을 사용해 성공을 거두었습니다. 복잡한 지표 대신 단순함을 택했고 워뇨띠 매매법은 비트코인 선물 거래 시장에서 최고의 레전드가 되었죠. 워뇨띠 포지션만 잡아도 화제가 되는데 오늘은 그가 어떻게 단순한 전략으로 엄청난 성과를 거둘 수 있었는지, 그의 비밀을 하나씩 공개하겠습니다.
+                    - paragraph [ref=f89e296]
+                  - generic [ref=f89e299]:
+                    - link [ref=f89e301] [cursor=pointer]:
+                      - /url: "#"
+                    - paragraph [ref=f89e303]: 워뇨띠 포지션
+                  - paragraph [ref=f89e308]
+                  - paragraph [ref=f89e313]: 워뇨띠 매매법과 캔들의 중심선 활용
+                  - blockquote [ref=f89e317]:
+                    - paragraph [ref=f89e319]: 1. 캔들과 거래량에 집중한 이유
+                  - paragraph [ref=f89e324]: 워뇨띠가 강조한 것은 복잡한 보조 지표가 아닌 캔들과 거래량이었습니다. 보조 지표는 캔들과 거래량을 기반으로 만들어진 도구들이기 때문에, 보조지표를 추천하지 않았습니다. 캔들은 시장 참여자들의 심리를 반영하며, 거래량은 캔들 하나만 보기에는 시장에 노이즈가(가짜 신호) 발생하기 때문에 꼭 같이 본다고 합니다. 워뇨띠는 캔들과 거래량을 분석하여 매수와 매도의 힘을 파악했는데, 예를 들어, 꽉 찬 양봉 캔들은 강한 매수세를, 꽉 찬 음봉 캔들은 강한 매도세를 의미합니다. 이렇게 캔들과 거래량만으로 시장의 흐름을 읽어내는 것이 그의 성공 비결 중 하나였습니다.
+                  - generic [ref=f89e327]:
+                    - link [ref=f89e329] [cursor=pointer]:
+                      - /url: "#"
+                    - paragraph [ref=f89e331]: 워뇨띠
+                  - blockquote [ref=f89e335]:
+                    - paragraph [ref=f89e337]: 2. 캔들의 중심선 활용
+                  - generic [ref=f89e341]:
+                    - paragraph [ref=f89e342]: 워뇨띠가 강조한 또 다른 중요한 요소는 바로 캔들의 중심선입니다. 캔들의 중심선이란, 캔들의 몸통을 절반으로 나눈 선을 말합니다. 이 중심선을 통해 다음 캔들의 움직임을 예측하고, 지지선과 저항선을 파악할 수 있는데
+                    - paragraph [ref=f89e343]: 예를 들어, 캔들이 매물대를 돌파할 때, 그 중심선이 다음 캔들의 지지선 역할을 하게 됩니다. 이 중심선을 기준으로 캔들이 지지 받고 다시 상승할 확률이 높아지기 때문에, 워뇨띠는 이를 중요하게 여겼습니다. 또한, 장대 음봉이 중심선을 돌파하면, 그 지점이 강한 저항선으로 작용할 수 있다는 것을 파악하여 매매에 활용했습니다.
+                  - generic [ref=f89e346]:
+                    - link [ref=f89e348] [cursor=pointer]:
+                      - /url: "#"
+                    - paragraph [ref=f89e350]: 워뇨띠 매매법
+                  - generic [ref=f89e354]:
+                    - paragraph [ref=f89e355]
+                    - paragraph [ref=f89e356]: 캔들의 중심선은 단순한 차트 분석을 넘어, 실제 매매에서 매우 중요한 역할을 합니다. 그러나 이 중심선만으로 매매 전략을 세우기에는 한계가 있습니다. 따라서 거래량과 함께 분석하여, 노이즈를 줄이고 신뢰도를 높이는 것이 워뇨띠 성공 비결 중 하나였습니다.
+                  - generic [ref=f89e359]:
+                    - link [ref=f89e361] [cursor=pointer]:
+                      - /url: "#"
+                    - paragraph [ref=f89e363]: 워뇨띠 포지션
+                  - paragraph [ref=f89e368]
+                  - paragraph [ref=f89e373]: 워뇨띠 매매법 Q&A
+                  - blockquote [ref=f89e377]:
+                    - paragraph [ref=f89e379]: 차트분석 시 몇 분봉, 몇 시간 봉 보는지?
+                  - paragraph [ref=f89e384]: 1분봉, 5분봉, 15분봉, 일봉 다른 사람들이 보는 타임 사이클은 다 참고함.
+                  - blockquote [ref=f89e388]:
+                    - paragraph [ref=f89e390]: 캔들, 거래량 말고 차트 외적인 부분도 참고하나요?
+                  - paragraph [ref=f89e395]: 차트분석이 90%, 외적 요소 10%. 주식이 아닌 비트코인은 기술적분석이 더 중요하다고 생각합니다.
+                  - blockquote [ref=f89e399]:
+                    - paragraph [ref=f89e401]: 워뇨띠 매매원칙
+                  - paragraph [ref=f89e406]: 크게 잃더라도 복구할 만한 시드는 남겨두는 것이 중요합니다. 시드가 적게 남았다고 해서 추가 입금은 지양하고 어떻게든 남은 액수로 복구한다고 합니다.
+                  - blockquote [ref=f89e410]:
+                    - paragraph [ref=f89e412]: 저배율, 복리 매매, 높은 승률을 추구하는 이유는?
+                  - paragraph [ref=f89e417]: 저배율은 재미가 없을 수 있지만 복리 매매로 승률을 높여가면 자연스럽게 시드와 실력은 우상 향합니다.
+                  - blockquote [ref=f89e421]:
+                    - paragraph [ref=f89e423]: 손절 기준, 멘탈케어는?
+                  - paragraph [ref=f89e428]: 매매하기 전 시나리오를 떠올리고 내가 생각했던 시나리오가 오지 않는다면 최대한 기다리고 지나치게 멘탈이 흔들리면 손절합니다.
+                  - generic [ref=f89e431]:
+                    - generic [ref=f89e432]:
+                      - link [ref=f89e434] [cursor=pointer]:
+                        - /url: "#"
+                      - link [ref=f89e436] [cursor=pointer]:
+                        - /url: "#"
+                    - paragraph [ref=f89e438]: 워뇨띠
+                  - paragraph [ref=f89e443]: 단순함으로 3000억 달성
+                  - generic [ref=f89e447]:
+                    - paragraph [ref=f89e448]: 워뇨띠 성공은 단순함에서 시작되었습니다. 복잡한 지표에 의존하지 않고, 캔들과 거래량이라는 기본에 충실한 그의 전략은 비트코인 선물 시장에서 엄청난 성과를 이루어냈습니다. 또한, 캔들의 중심선을 활용한 철저한 차트 분석과 거래량을 함께 고려한 매매법이 그를 성공으로 이끌었습니다. 만약 현재 복잡한 지표에 의존하면서 손실만 늘어나고 있다면, 워뇨띠 단순하고도 강력한 매매법을 참고해 보시길 권장합니다. 그의 방법은 단순해 보일지 모르지만, 그것이 바로 수익을 만드는 핵심이었음을 기억하십시오. 지금 바로 워뇨띠 전략을 배워 자신의 것으로 만들어 보세요.
+                    - paragraph [ref=f89e449]
+                  - paragraph [ref=f89e455]: 워뇨띠
+              - generic [ref=f89e456]:
+                - link " 저작자 명시 필수  영리적 사용 불가  내용 변경 불가" [ref=f89e458] [cursor=pointer]:
+                  - /url: http://creativecommons.org/licenses/by-nc-nd/2.0/kr/
+                  - generic [ref=f89e459]:
+                    - text: 
+                    - generic [ref=f89e460]: 저작자 명시 필수
+                  - generic [ref=f89e461]:
+                    - text: 
+                    - generic [ref=f89e462]: 영리적 사용 불가
+                  - generic [ref=f89e463]:
+                    - text: 
+                    - generic [ref=f89e464]: 내용 변경 불가
+                - generic [ref=f89e466]:
+                  - strong [ref=f89e467]: 태그
+                  - link "#워뇨띠" [ref=f89e468] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=ccandlerr&logType=mylog&tagName=%EC%9B%8C%EB%87%A8%EB%9D%A0
+                    - generic [ref=f89e469]: "#워뇨띠"
+                  - link "#워뇨띠매매법" [ref=f89e471] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=ccandlerr&logType=mylog&tagName=%EC%9B%8C%EB%87%A8%EB%9D%A0%EB%A7%A4%EB%A7%A4%EB%B2%95
+                    - generic [ref=f89e472]: "#워뇨띠매매법"
+                  - link "#워뇨띠포지션" [ref=f89e474] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=ccandlerr&logType=mylog&tagName=%EC%9B%8C%EB%87%A8%EB%9D%A0%ED%8F%AC%EC%A7%80%EC%85%98
+                    - generic [ref=f89e475]: "#워뇨띠포지션"
+                  - link "#비트코인" [ref=f89e477] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=ccandlerr&logType=mylog&tagName=%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8
+                    - generic [ref=f89e478]: "#비트코인"
+                  - link "#비트코인선물" [ref=f89e480] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=ccandlerr&logType=mylog&tagName=%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%EC%84%A0%EB%AC%BC
+                    - generic [ref=f89e481]: "#비트코인선물"
+                  - link "#선물매매" [ref=f89e483] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=ccandlerr&logType=mylog&tagName=%EC%84%A0%EB%AC%BC%EB%A7%A4%EB%A7%A4
+                    - generic [ref=f89e484]: "#선물매매"
+                  - link "#코인선물" [ref=f89e486] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=ccandlerr&logType=mylog&tagName=%EC%BD%94%EC%9D%B8%EC%84%A0%EB%AC%BC
+                    - generic [ref=f89e487]: "#코인선물"
+                  - link "#차트분석" [ref=f89e489] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=ccandlerr&logType=mylog&tagName=%EC%B0%A8%ED%8A%B8%EB%B6%84%EC%84%9D
+                    - generic [ref=f89e490]: "#차트분석"
+                  - link "#기술적분석" [ref=f89e492] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=ccandlerr&logType=mylog&tagName=%EA%B8%B0%EC%88%A0%EC%A0%81%EB%B6%84%EC%84%9D
+                    - generic [ref=f89e493]: "#기술적분석"
+                  - link "#crypto" [ref=f89e495] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=ccandlerr&logType=mylog&tagName=crypto
+                    - generic [ref=f89e496]: "#crypto"
+                  - link "#cryptocurrency" [ref=f89e498] [cursor=pointer]:
+                    - /url: /PostListByTagName.naver?blogId=ccandlerr&logType=mylog&tagName=cryptocurrency
+                    - generic [ref=f89e499]: "#cryptocurrency"
+              - generic [ref=f89e501]:
+                - generic [ref=f89e502]:
+                  - generic [ref=f89e503]:
+                    - generic [ref=f89e504]:
+                      - button "" [ref=f89e507] [cursor=pointer]:
+                        - generic [ref=f89e508]: 
+                      - button "공감 1" [ref=f89e509] [cursor=pointer]:
+                        - button "공감 1" [ref=f89e511]: 공감 1
+                    - link " 이 글에 공감한 블로거 열고 닫기" [ref=f89e514] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=f89e516]: 
+                      - generic [ref=f89e517]: 이 글에 공감한 블로거 열고 닫기
+                  - button " 댓글 2  이 글에 댓글 단 블로거 열고 닫기" [ref=f89e520] [cursor=pointer]:
+                    - generic [ref=f89e521]: 
+                    - text: 댓글
+                    - emphasis [ref=f89e522]: "2"
+                    - emphasis
+                    - generic [ref=f89e524]:
+                      - generic [ref=f89e525]: 
+                      - generic [ref=f89e526]: 이 글에 댓글 단 블로거 열고 닫기
+                - generic [ref=f89e528]:
+                  - generic [ref=f89e532]:
+                    - link "Keep 보내기" [ref=f89e533] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=f89e534]: Keep 보내기
+                    - link "메모 보내기" [ref=f89e535] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=f89e536]: 메모 보내기
+                    - link "기타 보내기 펼치기" [ref=f89e537] [cursor=pointer]:
+                      - /url: "#"
+                      - generic [ref=f89e538]: 기타 보내기 펼치기
+                  - link "인쇄" [ref=f89e541] [cursor=pointer]:
+                    - /url: "#"
+              - text:  
+              - table [ref=f89e542]:
+                - rowgroup [ref=f89e543]:
+                  - row [ref=f89e544]:
+                    - cell [ref=f89e545]
+                    - cell [ref=f89e546]
+                    - cell [ref=f89e547]
+            - generic [ref=f89e552]:
+              - generic [ref=f89e553]:
+                - heading "이 블로그 부자되는 방 카테고리 글" [level=4] [ref=f89e554]:
+                  - text: 이 블로그
+                  - link "부자되는 방" [ref=f89e555] [cursor=pointer]:
+                    - /url: /PostList.naver?blogId=ccandlerr&categoryNo=10&from=postList&parentCategoryNo=0
+                    - strong [ref=f89e556]: 부자되는 방
+                  - text: 카테고리 글
+                - link "전체글 보기" [ref=f89e557] [cursor=pointer]:
+                  - /url: /PostList.naver?blogId=ccandlerr&categoryNo=10&from=postList&parentCategoryNo=0
+              - generic [ref=f89e559]:
+                - table "부자되는 방글 목록" [ref=f89e560]:
+                  - caption:
+                    - generic [ref=f89e561]: 부자되는 방글 목록
+                  - rowgroup:
+                    - row "글 제목 작성일":
+                      - columnheader "글 제목":
+                        - generic [ref=f89e565]: 글 제목
+                      - columnheader "작성일":
+                        - generic [ref=f89e566]: 작성일
+                  - rowgroup [ref=f89e567]:
+                    - row "하이킨아시 매매 전략이 필수인 이유(매일 100만원 벌기) 2024. 8. 28." [ref=f89e568]:
+                      - cell "하이킨아시 매매 전략이 필수인 이유(매일 100만원 벌기)" [ref=f89e569]:
+                        - link "하이킨아시 매매 전략이 필수인 이유(매일 100만원 벌기)" [ref=f89e572] [cursor=pointer]:
+                          - /url: /PostView.naver?blogId=ccandlerr&logNo=223564190270&parentCategoryNo=&categoryNo=10&viewDate=&isShowPopularPosts=false&from=postView
+                      - cell "2024. 8. 28." [ref=f89e574]:
+                        - generic [ref=f89e575]: 2024. 8. 28.
+                    - row "RSI 다이버전스로 신뢰도 높이는 법 2024. 8. 24." [ref=f89e577]:
+                      - cell "RSI 다이버전스로 신뢰도 높이는 법" [ref=f89e578]:
+                        - link "RSI 다이버전스로 신뢰도 높이는 법" [ref=f89e581] [cursor=pointer]:
+                          - /url: /PostView.naver?blogId=ccandlerr&logNo=223558664193&parentCategoryNo=&categoryNo=10&viewDate=&isShowPopularPosts=false&from=postView
+                      - cell "2024. 8. 24." [ref=f89e583]:
+                        - generic [ref=f89e584]: 2024. 8. 24.
+                    - row "(1) 트레이딩뷰 지표로 코인 선물 10만 원에서 1억 달성 2024. 8. 22." [ref=f89e586]:
+                      - cell "(1) 트레이딩뷰 지표로 코인 선물 10만 원에서 1억 달성" [ref=f89e587]:
+                        - generic [ref=f89e588]:
+                          - generic [ref=f89e590]: (1)
+                          - link "트레이딩뷰 지표로 코인 선물 10만 원에서 1억 달성" [ref=f89e592] [cursor=pointer]:
+                            - /url: /PostView.naver?blogId=ccandlerr&logNo=223557152822&parentCategoryNo=&categoryNo=10&viewDate=&isShowPopularPosts=false&from=postView
+                      - cell "2024. 8. 22." [ref=f89e594]:
+                        - generic [ref=f89e595]: 2024. 8. 22.
+                    - row "(3) 플라이트 매매법으로 50만 원에서 100억까지 2024. 8. 20." [ref=f89e597]:
+                      - cell "(3) 플라이트 매매법으로 50만 원에서 100억까지" [ref=f89e598]:
+                        - generic [ref=f89e599]:
+                          - generic [ref=f89e601]: (3)
+                          - link "플라이트 매매법으로 50만 원에서 100억까지" [ref=f89e603] [cursor=pointer]:
+                            - /url: /PostView.naver?blogId=ccandlerr&logNo=223554142222&parentCategoryNo=&categoryNo=10&viewDate=&isShowPopularPosts=false&from=postView
+                      - cell "2024. 8. 20." [ref=f89e605]:
+                        - generic [ref=f89e606]: 2024. 8. 20.
+                    - row "(2) 워뇨띠 매매법, 3000억 비트코인 포지션 전략 공개 2024. 8. 19." [ref=f89e608]:
+                      - cell "(2) 워뇨띠 매매법, 3000억 비트코인 포지션 전략 공개" [ref=f89e609]:
+                        - generic [ref=f89e610]:
+                          - generic [ref=f89e612]: (2)
+                          - link "워뇨띠 매매법, 3000억 비트코인 포지션 전략 공개" [ref=f89e614] [cursor=pointer]:
+                            - /url: /PostView.naver?blogId=ccandlerr&logNo=223553501477&parentCategoryNo=&categoryNo=10&viewDate=&isShowPopularPosts=false&from=postView
+                      - cell "2024. 8. 19." [ref=f89e616]:
+                        - generic [ref=f89e617]: 2024. 8. 19.
+                - generic [ref=f89e620]:
+                  - strong [ref=f89e621]: 페이지 이동하기
+                  - link " 이전 페이지로 이동" [ref=f89e622] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=f89e623]: 
+                    - text: 이전
+                    - generic [ref=f89e624]: 페이지로 이동
+                  - generic [ref=f89e625]:
+                    - text: 다음
+                    - generic [ref=f89e626]: 페이지로 이동
+                    - generic [ref=f89e627]: 
+              - button " 화면 최상단으로 이동" [ref=f89e628] [cursor=pointer]:
+                - generic [ref=f89e629]: 
+                - generic [ref=f89e630]: 화면 최상단으로 이동
+          - generic [ref=f89e634]:
+            - generic [ref=f89e639]:
+              - paragraph [ref=f89e640]:
+                - link "프로필 이미지" [ref=f89e641] [cursor=pointer]:
+                  - /url: "#"
+                  - img "프로필 이미지" [ref=f89e642]
+              - generic [ref=f89e645]:
+                - strong [ref=f89e646]: 캔들러
+                - generic [ref=f89e647]: ccandlerr
+              - paragraph [ref=f89e648]:
+                - generic [ref=f89e649]:
+                  - text: 비트코인 시황 및 브리핑
+                  - text: 코인선물매매
+              - paragraph [ref=f89e650]:
+                - link "프로필" [ref=f89e652] [cursor=pointer]:
+                  - /url: https://blog.naver.com/profile/intro.naver?blogId=ccandlerr
+              - link "이웃추가" [ref=f89e654] [cursor=pointer]:
+                - /url: "#"
+                - generic [ref=f89e655]: 이웃추가
+            - generic [ref=f89e659]:
+              - generic [ref=f89e660] [cursor=pointer]:
+                - heading "카테고리" [level=3] [ref=f89e661]
+                - paragraph [ref=f89e662]:
+                  - button "^" [ref=f89e664]
+              - list [ref=f89e667]:
+                - listitem [ref=f89e668]:
+                  - link "전체보기" [ref=f89e669] [cursor=pointer]:
+                    - /url: "/PostList.naver?blogId=ccandlerr&categoryNo=0&from=postList "
+                  - text: (9)
+                - listitem [ref=f89e670]:
+                  - generic [ref=f89e671]:
+                    - link "캔들러 브리핑방" [ref=f89e672] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=ccandlerr&from=postList&categoryNo=9 "
+                    - text: (1)
+                - listitem [ref=f89e673]:
+                  - generic [ref=f89e674]:
+                    - link "부자되는 방" [ref=f89e675] [cursor=pointer]:
+                      - /url: "/PostList.naver?blogId=ccandlerr&from=postList&categoryNo=10 "
+                    - text: (8)
+            - generic [ref=f89e680]:
+              - heading "검색" [level=3] [ref=f89e681]
+              - generic [ref=f89e682]: 글 검색
+              - textbox "글 검색" [ref=f89e683]
+              - button "검색" [ref=f89e684] [cursor=pointer]
+            - generic [ref=f89e686]:
+              - link "RSS 2.0" [ref=f89e687] [cursor=pointer]:
+                - /url: https://rss.blog.naver.com/ccandlerr.xml
+                - generic [ref=f89e688]: RSS 2.0
+              - link "RSS 1.0" [ref=f89e689] [cursor=pointer]:
+                - /url: https://rss.blog.naver.com/ccandlerr.xml?rss=1.0
+                - generic [ref=f89e690]: RSS 1.0
+              - link "ATOM 0.3" [ref=f89e691] [cursor=pointer]:
+                - /url: https://rss.blog.naver.com/ccandlerr.xml?atom=0.3
+                - generic [ref=f89e692]: ATOM 0.3
+    - generic [ref=f89e705]:
+      - generic [ref=f89e707]:
+        - link "확인" [ref=f89e708] [cursor=pointer]:
+          - /url: "#"
+          - img "확인" [ref=f89e709]
+        - link "취소" [ref=f89e710] [cursor=pointer]:
+          - /url: "#"
+          - img "취소" [ref=f89e711]
+      - link "닫기" [ref=f89e712] [cursor=pointer]:
+        - /url: "#"
+        - img "닫기" [ref=f89e713]

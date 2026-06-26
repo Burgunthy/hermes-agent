@@ -1,0 +1,511 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FNVIDIA-Omniverse%2FIsaacSim-dockerfiles
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=NVIDIA-Omniverse%2FIsaacSim-dockerfiles
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]: This repository was archived by the owner on Mar 30, 2026. It is now read-only.
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e67]:
+          - img [ref=e68]
+          - link "NVIDIA-Omniverse" [ref=e71] [cursor=pointer]:
+            - /url: /NVIDIA-Omniverse
+          - generic [ref=e72]: /
+          - strong [ref=e73]:
+            - link "IsaacSim-dockerfiles" [ref=e74] [cursor=pointer]:
+              - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles
+          - generic [ref=e75]: Public archive
+        - generic [ref=e76]:
+          - list:
+            - listitem [ref=e77]:
+              - link "You must be signed in to change notification settings" [ref=e78] [cursor=pointer]:
+                - /url: /login?return_to=%2FNVIDIA-Omniverse%2FIsaacSim-dockerfiles
+                - img [ref=e79]
+                - text: Notifications
+            - listitem [ref=e81]:
+              - link "Fork 15" [ref=e82] [cursor=pointer]:
+                - /url: /login?return_to=%2FNVIDIA-Omniverse%2FIsaacSim-dockerfiles
+                - img [ref=e83]
+                - text: Fork
+                - generic "15" [ref=e85]
+            - listitem [ref=e86]:
+              - link "You must be signed in to star a repository" [ref=e88] [cursor=pointer]:
+                - /url: /login?return_to=%2FNVIDIA-Omniverse%2FIsaacSim-dockerfiles
+                - img [ref=e89]
+                - text: Star
+                - generic "118 users starred this repository" [ref=e91]: "118"
+      - navigation "Repository" [ref=e92]:
+        - list [ref=e93]:
+          - listitem [ref=e94]:
+            - link "Code" [ref=e95] [cursor=pointer]:
+              - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles
+              - img [ref=e96]
+              - generic [ref=e98]: Code
+          - listitem [ref=e99]:
+            - link "Actions" [ref=e100] [cursor=pointer]:
+              - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/actions
+              - img [ref=e101]
+              - generic [ref=e103]: Actions
+          - listitem [ref=e104]:
+            - link "Security and quality" [ref=e105] [cursor=pointer]:
+              - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/security
+              - img [ref=e106]
+              - generic [ref=e108]: Security and quality
+          - listitem [ref=e109]:
+            - link "Insights" [ref=e110] [cursor=pointer]:
+              - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/pulse
+              - img [ref=e111]
+              - generic [ref=e113]: Insights
+    - generic [ref=e126]:
+      - heading "NVIDIA-Omniverse/IsaacSim-dockerfiles" [level=1] [ref=e128]
+      - generic [ref=e129]:
+        - generic [ref=e132]:
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - button "main branch" [ref=e136] [cursor=pointer]:
+                - generic [ref=e137]:
+                  - generic [ref=e139]:
+                    - img [ref=e141]
+                    - generic [ref=e144]: main
+                  - generic:
+                    - img
+              - generic [ref=e145]:
+                - link "1 Branch" [ref=e146] [cursor=pointer]:
+                  - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/branches
+                  - generic [ref=e147]:
+                    - generic:
+                      - img
+                    - generic [ref=e149]:
+                      - strong [ref=e150]: "1"
+                      - text: Branch
+                - link "0 Tags" [ref=e151] [cursor=pointer]:
+                  - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/tags
+                  - generic [ref=e152]:
+                    - generic:
+                      - img
+                    - generic [ref=e154]:
+                      - strong [ref=e155]: "0"
+                      - text: Tags
+            - generic [ref=e156]:
+              - generic [ref=e160]:
+                - img [ref=e162]
+                - combobox "Go to file" [ref=e164]
+              - button "Code" [ref=e165] [cursor=pointer]:
+                - generic [ref=e166]:
+                  - generic:
+                    - img
+                  - generic [ref=e167]: Code
+                  - generic:
+                    - img
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - heading "Folders and files" [level=2] [ref=e170]
+              - table "Folders and files" [ref=e171]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e172]:
+                  - row "Latest commit sheikh-nv commits by sheikh-nv Add deprecation notice Commit be6bad7 · Mar 10, 20262 months ago History 13 Commits" [ref=e173]:
+                    - cell "Latest commit sheikh-nv commits by sheikh-nv Add deprecation notice Commit be6bad7 · Mar 10, 20262 months ago History 13 Commits" [ref=e174]:
+                      - generic [ref=e175]:
+                        - heading "Latest commit" [level=2] [ref=e176]
+                        - generic [ref=e177]:
+                          - generic [ref=e179]:
+                            - link "sheikh-nv" [ref=e180] [cursor=pointer]:
+                              - /url: /sheikh-nv
+                              - img "sheikh-nv" [ref=e181]
+                            - link "commits by sheikh-nv" [ref=e182] [cursor=pointer]:
+                              - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/commits?author=sheikh-nv
+                              - text: sheikh-nv
+                          - link "Add deprecation notice" [ref=e186] [cursor=pointer]:
+                            - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/commit/be6bad7ec924e09a88045d1e94b2084e6f7b57ba
+                        - generic [ref=e187]:
+                          - generic [ref=e189]:
+                            - link "Commit be6bad7" [ref=e190] [cursor=pointer]:
+                              - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/commit/be6bad7ec924e09a88045d1e94b2084e6f7b57ba
+                              - text: be6bad7
+                            - text: ·
+                            - generic "Mar 10, 2026, 2:02 AM GMT+9" [ref=e191]: Mar 10, 20262 months ago
+                          - generic [ref=e192]:
+                            - heading "History" [level=2] [ref=e193]
+                            - link "13 Commits" [ref=e194] [cursor=pointer]:
+                              - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/commits/main/
+                              - generic [ref=e195]:
+                                - generic:
+                                  - img
+                                - generic [ref=e196]: 13 Commits
+                  - row "Dockerfile.2022.1.1-ubuntu20.04, (File) First update Nov 29, 20224 years ago" [ref=e197]:
+                    - cell "Dockerfile.2022.1.1-ubuntu20.04, (File)" [ref=e198]:
+                      - generic [ref=e199]:
+                        - img [ref=e200]
+                        - link "Dockerfile.2022.1.1-ubuntu20.04, (File)" [ref=e205] [cursor=pointer]:
+                          - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/blob/main/Dockerfile.2022.1.1-ubuntu20.04
+                          - text: Dockerfile.2022.1.1-ubuntu20.04
+                    - cell "First update" [ref=e206]:
+                      - link "First update" [ref=e209] [cursor=pointer]:
+                        - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/commit/458aa7c56b032e16186b4325a6641ff7aa68879b
+                    - cell "Nov 29, 20224 years ago" [ref=e210]:
+                      - generic [ref=e211]: Nov 29, 20224 years ago
+                  - row "Dockerfile.2022.2.1-ubuntu20.04, (File) Add 2022.2.1 dockerfile May 9, 20233 years ago" [ref=e212]:
+                    - cell "Dockerfile.2022.2.1-ubuntu20.04, (File)" [ref=e213]:
+                      - generic [ref=e214]:
+                        - img [ref=e215]
+                        - link "Dockerfile.2022.2.1-ubuntu20.04, (File)" [ref=e220] [cursor=pointer]:
+                          - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/blob/main/Dockerfile.2022.2.1-ubuntu20.04
+                          - text: Dockerfile.2022.2.1-ubuntu20.04
+                    - cell "Add 2022.2.1 dockerfile" [ref=e221]:
+                      - link "Add 2022.2.1 dockerfile" [ref=e224] [cursor=pointer]:
+                        - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/commit/052b327c6ca0044b6b3be87ca7d8c8780c63cead
+                    - cell "May 9, 20233 years ago" [ref=e225]:
+                      - generic [ref=e226]: May 9, 20233 years ago
+                  - row "Dockerfile.2023.1.0-ubuntu20.04, (File) Add Dockerfile for 2023.1.0-ubuntu20.04 Oct 23, 20233 years ago" [ref=e227]:
+                    - cell "Dockerfile.2023.1.0-ubuntu20.04, (File)" [ref=e228]:
+                      - generic [ref=e229]:
+                        - img [ref=e230]
+                        - link "Dockerfile.2023.1.0-ubuntu20.04, (File)" [ref=e235] [cursor=pointer]:
+                          - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/blob/main/Dockerfile.2023.1.0-ubuntu20.04
+                          - text: Dockerfile.2023.1.0-ubuntu20.04
+                    - cell "Add Dockerfile for 2023.1.0-ubuntu20.04" [ref=e236]:
+                      - link "Add Dockerfile for 2023.1.0-ubuntu20.04" [ref=e239] [cursor=pointer]:
+                        - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/commit/b59a6e72a62b8602d89ea539d24dec3e555b0be2
+                    - cell "Oct 23, 20233 years ago" [ref=e240]:
+                      - generic [ref=e241]: Oct 23, 20233 years ago
+                  - row "Dockerfile.2023.1.0-ubuntu22.04, (File) Add 2023.1.0 dockerfile Oct 6, 20233 years ago" [ref=e242]:
+                    - cell "Dockerfile.2023.1.0-ubuntu22.04, (File)" [ref=e243]:
+                      - generic [ref=e244]:
+                        - img [ref=e245]
+                        - link "Dockerfile.2023.1.0-ubuntu22.04, (File)" [ref=e250] [cursor=pointer]:
+                          - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/blob/main/Dockerfile.2023.1.0-ubuntu22.04
+                          - text: Dockerfile.2023.1.0-ubuntu22.04
+                    - cell "Add 2023.1.0 dockerfile" [ref=e251]:
+                      - link "Add 2023.1.0 dockerfile" [ref=e254] [cursor=pointer]:
+                        - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/commit/4c908bd8e6b83e1cdeb32a79bddcefeadc45b9ff
+                    - cell "Oct 6, 20233 years ago" [ref=e255]:
+                      - generic [ref=e256]: Oct 6, 20233 years ago
+                  - row "LICENSE, (File) Update LICENSE Mar 31, 20233 years ago" [ref=e257]:
+                    - cell "LICENSE, (File)" [ref=e258]:
+                      - generic [ref=e259]:
+                        - img [ref=e260]
+                        - link "LICENSE, (File)" [ref=e265] [cursor=pointer]:
+                          - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/blob/main/LICENSE
+                          - text: LICENSE
+                    - cell "Update LICENSE" [ref=e266]:
+                      - link "Update LICENSE" [ref=e269] [cursor=pointer]:
+                        - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/commit/064e861716a694dc98ebb897860e296f77fc9f0c
+                    - cell "Mar 31, 20233 years ago" [ref=e270]:
+                      - generic [ref=e271]: Mar 31, 20233 years ago
+                  - row "README.md, (File) Add deprecation notice Mar 10, 20262 months ago" [ref=e272]:
+                    - cell "README.md, (File)" [ref=e273]:
+                      - generic [ref=e274]:
+                        - img [ref=e275]
+                        - link "README.md, (File)" [ref=e280] [cursor=pointer]:
+                          - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/blob/main/README.md
+                          - text: README.md
+                    - cell "Add deprecation notice" [ref=e281]:
+                      - link "Add deprecation notice" [ref=e284] [cursor=pointer]:
+                        - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/commit/be6bad7ec924e09a88045d1e94b2084e6f7b57ba
+                    - cell "Mar 10, 20262 months ago" [ref=e285]:
+                      - generic [ref=e286]: Mar 10, 20262 months ago
+            - generic [ref=e288]:
+              - generic [ref=e289]:
+                - heading "Repository files navigation" [level=2] [ref=e290]
+                - navigation "Repository files" [ref=e291]:
+                  - list [ref=e292]:
+                    - listitem [ref=e293]:
+                      - link "README" [ref=e294] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e296]
+                        - generic [ref=e298]: README
+                    - listitem [ref=e299]:
+                      - link "Apache-2.0 license" [ref=e300] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e302]
+                        - generic [ref=e304]: Apache-2.0 license
+                    - listitem [ref=e305]:
+                      - link "Security" [ref=e306] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e308]
+                        - generic [ref=e310]: Security
+                - button "Outline" [ref=e311] [cursor=pointer]:
+                  - img [ref=e312]
+              - article [ref=e315]:
+                - generic [ref=e316]:
+                  - heading "Isaac Sim Dockerfiles (Deprecated)" [level=1] [ref=e317]
+                  - 'link "Permalink: Isaac Sim Dockerfiles (Deprecated)" [ref=e318] [cursor=pointer]':
+                    - /url: "#isaac-sim-dockerfiles-deprecated"
+                    - img [ref=e319]
+                - blockquote [ref=e321]:
+                  - paragraph [ref=e322]:
+                    - generic [ref=e323]: ⚠️
+                    - text: This repository is deprecated and will be made read-only; it is kept for reference only.
+                    - text: "For current and officially supported Docker workflows for Isaac Sim, please use the Docker tooling in the main Isaac Sim repository:"
+                    - link "https://github.com/isaac-sim/IsaacSim/tree/main/tools/docker" [ref=e324] [cursor=pointer]:
+                      - /url: https://github.com/isaac-sim/IsaacSim/tree/main/tools/docker
+                - generic [ref=e325]:
+                  - heading "Introduction" [level=2] [ref=e326]
+                  - 'link "Permalink: Introduction" [ref=e327] [cursor=pointer]':
+                    - /url: "#introduction"
+                    - img [ref=e328]
+                - paragraph [ref=e330]: This repository contains Dockerfiles for building an Isaac Sim container.
+                - generic [ref=e331]:
+                  - heading "Pre-Requisites" [level=3] [ref=e332]
+                  - 'link "Permalink: Pre-Requisites" [ref=e333] [cursor=pointer]':
+                    - /url: "#pre-requisites"
+                    - img [ref=e334]
+                - paragraph [ref=e336]:
+                  - text: Before getting started, ensure that the system has the latest
+                  - link "NVIDIA Driver" [ref=e337] [cursor=pointer]:
+                    - /url: https://www.nvidia.com/en-us/drivers/unix/
+                  - text: and the
+                  - link "NVIDIA Container Toolkit" [ref=e338] [cursor=pointer]:
+                    - /url: https://github.com/NVIDIA/nvidia-docker
+                  - text: installed.
+                - paragraph [ref=e339]:
+                  - text: Use your
+                  - link "NGC Account" [ref=e340] [cursor=pointer]:
+                    - /url: https://docs.nvidia.com/ngc/ngc-overview/index.html#registering-activating-ngc-account
+                  - text: to get access to the
+                  - link "Isaac Sim Container" [ref=e341] [cursor=pointer]:
+                    - /url: https://catalog.ngc.nvidia.com/orgs/nvidia/containers/isaac-sim
+                  - text: and generate your
+                  - link "NGC API Key" [ref=e342] [cursor=pointer]:
+                    - /url: https://docs.nvidia.com/ngc/ngc-overview/index.html#generating-api-key
+                  - text: .
+                - generic [ref=e343]:
+                  - heading "Build" [level=2] [ref=e344]
+                  - 'link "Permalink: Build" [ref=e345] [cursor=pointer]':
+                    - /url: "#build"
+                    - img [ref=e346]
+                - paragraph [ref=e348]: "Clone this repository and then build the image:"
+                - generic [ref=e349]:
+                  - generic [ref=e350]: docker login nvcr.io docker build --pull -t \ isaac-sim:2023.1.0-ubuntu22.04 \ --build-arg ISAACSIM_VERSION=2023.1.0 \ --file Dockerfile.2023.1.0-ubuntu22.04 .
+                  - button "Copy code to clipboard" [ref=e352] [cursor=pointer]:
+                    - img [ref=e353]
+                - generic [ref=e356]:
+                  - heading "Usage" [level=2] [ref=e357]
+                  - 'link "Permalink: Usage" [ref=e358] [cursor=pointer]':
+                    - /url: "#usage"
+                    - img [ref=e359]
+                - paragraph [ref=e361]: "To run the container and start Isaac Sim as a headless app:"
+                - generic [ref=e362]:
+                  - generic [ref=e363]:
+                    - text: docker run --name isaac-sim --entrypoint bash -it --gpus all -e
+                    - generic [ref=e364]: "\"ACCEPT_EULA=Y\""
+                    - text: "--rm --network=host \\ -e"
+                    - generic [ref=e365]: "\"PRIVACY_CONSENT=Y\""
+                    - text: \ -v ~/docker/isaac-sim/cache/kit:/isaac-sim/kit/cache:rw \ -v ~/docker/isaac-sim/cache/ov:/root/.cache/ov:rw \ -v ~/docker/isaac-sim/cache/pip:/root/.cache/pip:rw \ -v ~/docker/isaac-sim/cache/glcache:/root/.cache/nvidia/GLCache:rw \ -v ~/docker/isaac-sim/cache/computecache:/root/.nv/ComputeCache:rw \ -v ~/docker/isaac-sim/logs:/root/.nvidia-omniverse/logs:rw \ -v ~/docker/isaac-sim/data:/root/.local/share/ov/data:rw \ -v ~/docker/isaac-sim/documents:/root/Documents:rw \ isaac-sim:2023.1.0-ubuntu22.04 \ ./runheadless.native.sh -v
+                  - button "Copy code to clipboard" [ref=e367] [cursor=pointer]:
+                    - img [ref=e368]
+                - paragraph [ref=e371]: "To run the container and start Isaac Sim as a windowed app:"
+                - generic [ref=e372]:
+                  - generic [ref=e373]:
+                    - text: xhost + docker run --name isaac-sim --entrypoint bash -it --gpus all -e
+                    - generic [ref=e374]: "\"ACCEPT_EULA=Y\""
+                    - text: "--rm --network=host \\ -e"
+                    - generic [ref=e375]: "\"PRIVACY_CONSENT=Y\""
+                    - text: \ -v $HOME/.Xauthority:/root/.Xauthority \ -e DISPLAY \ -v ~/docker/isaac-sim/cache/kit:/isaac-sim/kit/cache:rw \ -v ~/docker/isaac-sim/cache/ov:/root/.cache/ov:rw \ -v ~/docker/isaac-sim/cache/pip:/root/.cache/pip:rw \ -v ~/docker/isaac-sim/cache/glcache:/root/.cache/nvidia/GLCache:rw \ -v ~/docker/isaac-sim/cache/computecache:/root/.nv/ComputeCache:rw \ -v ~/docker/isaac-sim/logs:/root/.nvidia-omniverse/logs:rw \ -v ~/docker/isaac-sim/data:/root/.local/share/ov/data:rw \ -v ~/docker/isaac-sim/documents:/root/Documents:rw \ isaac-sim:2023.1.0-ubuntu22.04 \ ./runapp.sh
+                  - button "Copy code to clipboard" [ref=e377] [cursor=pointer]:
+                    - img [ref=e378]
+                - paragraph [ref=e381]:
+                  - text: Connect to Isaac Sim using the
+                  - link "Omniverse Streaming Client" [ref=e382] [cursor=pointer]:
+                    - /url: https://docs.omniverse.nvidia.com/streaming-client/latest/user-manual.html
+                  - text: .
+                - paragraph [ref=e383]:
+                  - text: See
+                  - link "Container Deployment" [ref=e384] [cursor=pointer]:
+                    - /url: https://docs.omniverse.nvidia.com/isaacsim/latest/install_container.html#container-deployment
+                  - text: for information on container deployment.
+                - generic [ref=e385]:
+                  - heading "Licensing" [level=2] [ref=e386]
+                  - 'link "Permalink: Licensing" [ref=e387] [cursor=pointer]':
+                    - /url: "#licensing"
+                    - img [ref=e388]
+                - paragraph [ref=e390]:
+                  - text: The source code in this repository is licensed under
+                  - link "Apache 2.0" [ref=e391] [cursor=pointer]:
+                    - /url: https://www.apache.org/licenses/LICENSE-2.0
+                  - text: .
+                - paragraph [ref=e392]:
+                  - text: The resulting container images are licensed under the
+                  - link "NVIDIA Omniverse License Agreement" [ref=e393] [cursor=pointer]:
+                    - /url: https://developer.nvidia.com/omniverse/license
+                  - text: .
+                - generic [ref=e394]:
+                  - heading "Support" [level=2] [ref=e395]
+                  - 'link "Permalink: Support" [ref=e396] [cursor=pointer]':
+                    - /url: "#support"
+                    - img [ref=e397]
+                - list [ref=e399]:
+                  - listitem [ref=e400]:
+                    - text: Please use
+                    - link "NVIDIA Developer Forums" [ref=e401] [cursor=pointer]:
+                      - /url: https://forums.developer.nvidia.com/c/omniverse/simulation/69
+                    - text: for questions and comments.
+                  - listitem [ref=e402]:
+                    - text: See
+                    - link "Isaac Sim Documentation" [ref=e403] [cursor=pointer]:
+                      - /url: https://docs.omniverse.nvidia.com/isaacsim/latest/index.html
+                    - text: for more information.
+        - generic [ref=e407]:
+          - generic [ref=e410]:
+            - heading "About" [level=2] [ref=e411]
+            - paragraph [ref=e412]: Isaac Sim Dockerfiles
+            - heading "Resources" [level=3] [ref=e413]
+            - link "Readme" [ref=e415] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e416]
+              - text: Readme
+            - heading "License" [level=3] [ref=e418]
+            - link "Apache-2.0 license" [ref=e420] [cursor=pointer]:
+              - /url: "#Apache-2.0-1-ov-file"
+              - img [ref=e421]
+              - text: Apache-2.0 license
+            - heading "Security policy" [level=3] [ref=e423]
+            - link "Security policy" [ref=e425] [cursor=pointer]:
+              - /url: "#security-ov-file"
+              - img [ref=e426]
+              - text: Security policy
+            - link "Activity" [ref=e429] [cursor=pointer]:
+              - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/activity
+              - img [ref=e430]
+              - text: Activity
+            - link "Custom properties" [ref=e433] [cursor=pointer]:
+              - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/custom-properties
+              - img [ref=e434]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e436]
+            - link "118 stars" [ref=e438] [cursor=pointer]:
+              - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/stargazers
+              - img [ref=e439]
+              - strong [ref=e441]: "118"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e442]
+            - link "1 watching" [ref=e444] [cursor=pointer]:
+              - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/watchers
+              - img [ref=e445]
+              - strong [ref=e447]: "1"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e448]
+            - link "15 forks" [ref=e450] [cursor=pointer]:
+              - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/forks
+              - img [ref=e451]
+              - strong [ref=e453]: "15"
+              - text: forks
+            - link "Report repository" [ref=e455] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2FNVIDIA-Omniverse%2FIsaacSim-dockerfiles&report=NVIDIA-Omniverse+%28user%29
+          - generic [ref=e457]:
+            - heading "Releases" [level=2] [ref=e458]:
+              - link "Releases" [ref=e459] [cursor=pointer]:
+                - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/releases
+            - generic [ref=e460]: No releases published
+          - generic [ref=e462]:
+            - heading "Packages" [level=2] [ref=e463]:
+              - link "Packages" [ref=e464] [cursor=pointer]:
+                - /url: /orgs/NVIDIA-Omniverse/packages?repo_name=IsaacSim-dockerfiles
+            - generic [ref=e465]: No packages published
+          - generic [ref=e467]:
+            - heading "Contributors 2" [level=2] [ref=e468]:
+              - link "Contributors 2" [ref=e469] [cursor=pointer]:
+                - /url: /NVIDIA-Omniverse/IsaacSim-dockerfiles/graphs/contributors
+                - text: Contributors
+                - generic "2" [ref=e470]
+            - list [ref=e471]:
+              - listitem [ref=e472]:
+                - link "@sheikh-nv" [ref=e473] [cursor=pointer]:
+                  - /url: https://github.com/sheikh-nv
+                  - img "@sheikh-nv" [ref=e474]
+                - link "sheikh-nv Sheikh Dawood" [ref=e476] [cursor=pointer]:
+                  - /url: https://github.com/sheikh-nv
+                  - strong [ref=e477]: sheikh-nv
+                  - text: Sheikh Dawood
+              - listitem [ref=e478]:
+                - link "@slowturtle99" [ref=e479] [cursor=pointer]:
+                  - /url: https://github.com/slowturtle99
+                  - img "@slowturtle99" [ref=e480]
+                - link "slowturtle99 ChanYoung Kim" [ref=e482] [cursor=pointer]:
+                  - /url: https://github.com/slowturtle99
+                  - strong [ref=e483]: slowturtle99
+                  - text: ChanYoung Kim
+  - contentinfo [ref=e485]:
+    - heading "Footer" [level=2] [ref=e486]
+    - generic [ref=e487]:
+      - generic [ref=e488]:
+        - link "GitHub Homepage" [ref=e489] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e490]
+        - generic [ref=e492]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e493]:
+        - heading "Footer navigation" [level=3] [ref=e494]
+        - list "Footer navigation" [ref=e495]:
+          - listitem [ref=e496]:
+            - link "Terms" [ref=e497] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e498]:
+            - link "Privacy" [ref=e499] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e500]:
+            - link "Security" [ref=e501] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e502]:
+            - link "Status" [ref=e503] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e504]:
+            - link "Community" [ref=e505] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e506]:
+            - link "Docs" [ref=e507] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e508]:
+            - link "Contact" [ref=e509] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e510]:
+            - button "Manage cookies" [ref=e512] [cursor=pointer]
+          - listitem [ref=e513]:
+            - button "Do not share my personal information" [ref=e515] [cursor=pointer]

@@ -1,0 +1,104 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [active] [ref=e9] [cursor=pointer]
+        - generic [ref=e11]:
+          - link:
+            - /url: /
+            - generic:
+              - generic:
+                - img
+      - search [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - combobox [expanded] [ref=e17]: 워뇨띠 코인 트레이딩 타임프레임
+            - button [ref=e19] [cursor=pointer]
+          - button "Search" [ref=e24] [cursor=pointer]
+  - navigation [ref=e31]
+  - main [ref=e33]:
+    - generic [ref=e34]:
+      - generic [ref=e36]:
+        - generic [ref=e39]:
+          - tablist [ref=e41]:
+            - tab "All" [selected] [ref=e45] [cursor=pointer]:
+              - generic [ref=e47]: All
+            - tab "Shorts" [ref=e54] [cursor=pointer]:
+              - generic [ref=e56]: Shorts
+            - tab "Unwatched" [ref=e63] [cursor=pointer]:
+              - generic [ref=e65]: Unwatched
+            - tab "Watched" [ref=e72] [cursor=pointer]:
+              - generic [ref=e74]: Watched
+            - tab "Videos" [ref=e81] [cursor=pointer]:
+              - generic [ref=e83]: Videos
+            - tab "Recently uploaded" [ref=e90] [cursor=pointer]:
+              - generic [ref=e92]: Recently uploaded
+            - tab "Live" [ref=e99] [cursor=pointer]:
+              - generic [ref=e101]: Live
+          - button "Next" [ref=e109] [cursor=pointer]
+        - generic [ref=e116]:
+          - button "Search filters" [ref=e118] [cursor=pointer]:
+            - generic [ref=e119]: Filters
+          - tooltip "tooltip"
+      - generic [ref=e130]:
+        - generic [ref=e135]:
+          - img [ref=e141]
+          - generic [ref=e143] [cursor=pointer]:
+            - generic [ref=e144]:
+              - link "XM 거래 지원금 $100 지급" [ref=e147]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CfiBCEv8UatrvKN3Qr7wP4uLC4Q-418v5hgGYjMb_4xWwkB8QASAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGdsO6hA6kCgLhafqKFsz6oAwTIAwqqBMACT9DcG85GmwNgI_eICYhVqjyatn4_q4LvMn7H1-bqLZcQM_k5kd5X-FpVhO4a-owu_jyjWWFlujELer_3V6qnmDBo6fmWX4bAnmZlP8OC2W775Ok-OXP6yqurfSN5Q1fOVSUadr1wW9x8rHix3RR_aSnRBjeJUiQiVkyFl2BOm04gECA5CwOAEJRdEYEPwxKFlhDkcIBqGm6uKHu4fjaUct0CpSf4c5hslu2RXIWY1nFHVePaxqRxMnmzseQTrrHsEcyhVdH_4NAr38TnquuHzY0pwzQSXsu9nTA7QHZxYYdri9B-iv_914X5HcxwAiM-uqc48JYzcU0aSCaAnx3TeorXcgrxdTZ5k-BIvi0SpbcLKDBheSVOslpNFLYcq6cqG-_o5-2LgiPa5wmlwBteZiBgT2RFMsWo1bV_p1HC_K-IBa6DwrRUkgUHCBN4ha_UbKAGboAHrOu1bJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjgs-qI7tWUA2ABmgkraHR0cHM6Ly93d3cueG0uY29tL2xhbmRpbmcvZGVwb3NpdC1ib251cy9rcrEJWym_A_TNWxrICQDICYoCmAsBugs_CAMQBRgEIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awd2aXRwZXJi0AsSogwzKgoKCJXisQKO37ECYg8KDWNvbS54bS5XZWJBcHBqDwoNY29tLnhtLndlYmFwcHgAiAEA0gwCEAGaDQESqg0CS1LIDQHSDV5odHRwczovL3d3dy54bS5jb20vbGFuZGluZy9kZXBvc2l0LWJvbnVzL2tyP2dpZD0yNjE0ODkmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIyNjU4NzExOTgyuBP___________8BiBQEsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRfOlhRFRVavL7oXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMI2sDqiO7VlAMVXeiLAR1isTD8EAEYASAAEgLey_D_BwE&num=1&cid=CAASqwHkaGQB82o8T2mz8waZeF0GmR2vfsMBhFznzEEH6ld8NIh3mN4gmohGDGHRM4zzhoWyovgGnSiLb_5rEyoOJx6nD2daoVl6JkK7_22C6fQWY3ux1rp46ahT9mvW4htXrj9VNTpbkqvWrlNypkj-LFsRZzkzy6KMEY58CHKPTHKwEz94AaNtCr0oEPT949ZfPfKg_4PIdJowiAptvGIJa8MnE_Q8yLMa7tPywpI&sig=AOD64_0_Vdp5eHPCfCtQU3RgBTYUUtttAA&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - link "규제를 받고 공식 라이선스를 갖춘 XM 거래소에서 빠른 거래 체결을 경험하세요." [ref=e150]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CfiBCEv8UatrvKN3Qr7wP4uLC4Q-418v5hgGYjMb_4xWwkB8QASAAYJuz6YS4KYIBF2NhLXB1Yi02MjE5ODExNzQ3MDQ5MzcxoAGdsO6hA6kCgLhafqKFsz6oAwTIAwqqBMACT9DcG85GmwNgI_eICYhVqjyatn4_q4LvMn7H1-bqLZcQM_k5kd5X-FpVhO4a-owu_jyjWWFlujELer_3V6qnmDBo6fmWX4bAnmZlP8OC2W775Ok-OXP6yqurfSN5Q1fOVSUadr1wW9x8rHix3RR_aSnRBjeJUiQiVkyFl2BOm04gECA5CwOAEJRdEYEPwxKFlhDkcIBqGm6uKHu4fjaUct0CpSf4c5hslu2RXIWY1nFHVePaxqRxMnmzseQTrrHsEcyhVdH_4NAr38TnquuHzY0pwzQSXsu9nTA7QHZxYYdri9B-iv_914X5HcxwAiM-uqc48JYzcU0aSCaAnx3TeorXcgrxdTZ5k-BIvi0SpbcLKDBheSVOslpNFLYcq6cqG-_o5-2LgiPa5wmlwBteZiBgT2RFMsWo1bV_p1HC_K-IBa6DwrRUkgUHCBN4ha_UbKAGboAHrOu1bJAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjgs-qI7tWUA2ABmgkraHR0cHM6Ly93d3cueG0uY29tL2xhbmRpbmcvZGVwb3NpdC1ib251cy9rcrEJWym_A_TNWxrICQDICYoCmAsBugs_CAMQBRgEIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awd2aXRwZXJi0AsSogwzKgoKCJXisQKO37ECYg8KDWNvbS54bS5XZWJBcHBqDwoNY29tLnhtLndlYmFwcHgAiAEA0gwCEAGaDQESqg0CS1LIDQHSDV5odHRwczovL3d3dy54bS5jb20vbGFuZGluZy9kZXBvc2l0LWJvbnVzL2tyP2dpZD0yNjE0ODkmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIyNjU4NzExOTgyuBP___________8BiBQEsBQDwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxYIAxgBIAEoATABOAFAAUgBUAFYAWACoBcBqRfOlhRFRVavL7oXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMI2sDqiO7VlAMVXeiLAR1isTD8EAEYASAAEgLey_D_BwE&num=1&cid=CAASqwHkaGQB82o8T2mz8waZeF0GmR2vfsMBhFznzEEH6ld8NIh3mN4gmohGDGHRM4zzhoWyovgGnSiLb_5rEyoOJx6nD2daoVl6JkK7_22C6fQWY3ux1rp46ahT9mvW4htXrj9VNTpbkqvWrlNypkj-LFsRZzkzy6KMEY58CHKPTHKwEz94AaNtCr0oEPT949ZfPfKg_4PIdJowiAptvGIJa8MnE_Q8yLMa7tPywpI&sig=AOD64_0_Vdp5eHPCfCtQU3RgBTYUUtttAA&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - generic [ref=e151]:
+                - generic [ref=e153]:
+                  - generic [ref=e154]: Sponsored
+                  - text: ·
+                - generic [ref=e156]: XM
+            - button "My Ad Center" [ref=e159]
+        - generic [ref=e166]:
+          - link [ref=e168] [cursor=pointer]:
+            - /url: /@%EC%9C%A0%ED%8A%9C%EB%B8%8C%EC%9B%8C%EB%87%A8%EB%9D%A0
+          - generic [ref=e171]:
+            - link "워뇨띠 @유튜브워뇨띠•59.9K subscribers 실전 투자 대회 1등이 알려주는 \"진짜\" 트레이딩- 모든 관점 공유 및 기타 차트 공부 자료는 거래대상·시점·가액에 대한 추천이나 권유 ..." [ref=e172] [cursor=pointer]:
+              - /url: /@%EC%9C%A0%ED%8A%9C%EB%B8%8C%EC%9B%8C%EB%87%A8%EB%9D%A0
+              - generic [ref=e173]:
+                - generic [ref=e177]: 워뇨띠
+                - generic [ref=e178]: "@유튜브워뇨띠•59.9K subscribers"
+                - generic [ref=e179]: 실전 투자 대회 1등이 알려주는 "진짜" 트레이딩- 모든 관점 공유 및 기타 차트 공부 자료는 거래대상·시점·가액에 대한 추천이나 권유 ...
+            - link "Subscribe" [ref=e184] [cursor=pointer]:
+              - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3D%252Fresults%253Fsearch_query%253D%2525EC%25259B%25258C%2525EB%252587%2525A8%2525EB%25259D%2525A0%252B%2525EC%2525BD%252594%2525EC%25259D%2525B8%252B%2525ED%25258A%2525B8%2525EB%2525A0%252588%2525EC%25259D%2525B4%2525EB%252594%2525A9%252B%2525ED%252583%252580%2525EC%25259E%252584%2525ED%252594%252584%2525EB%2525A0%252588%2525EC%25259E%252584%26continue_action%3DQUFFLUhqa1hvU0J2UEMxak8wU0l0LTEzaWNPQ2JGeER6d3xBQ3Jtc0trZ0Q0Y25XZ29WbmI0SVRzWldTRURUSXZ4VEFPVUlvZFpRTHNmQ1JBRnh6amFnTHRmYkphSnRmXzJSZHc2U1lLbE9XMVRGdGpRT082OWd1RmdUTGpoM203dUc2aElUTEhhUzJjMlZDVUd3QTQ1RXJlMEU1emo3X3ZSaUwxSlJBTEpoTUZ0Y2JQajljRTBjTEpWWGg2cWEyQ0lNeWNuLUhLaDlYUXFMVy1hYkpQX092ZFVQVUxzZExYemFzeU5RNzl4ZFR4U3U&hl=en
+              - generic [ref=e185]: Subscribe
+        - generic [ref=e190]:
+          - link [ref=e192] [cursor=pointer]:
+            - /url: /watch?v=GrYADnTm4Pc&pp=ygUt7JuM64eo652gIOy9lOyduCDtirjroIjsnbTrlKkg7YOA7J6E7ZSE66CI7J6E
+          - generic [ref=e194] [cursor=pointer]:
+            - generic [ref=e195]:
+              - heading "'자칭' 워뇨띠 매매법이라는 영상. 실제 데이터로 '실체' 공개하겠습니다. 6 minutes, 12 seconds" [level=3] [ref=e197]:
+                - link "'자칭' 워뇨띠 매매법이라는 영상. 실제 데이터로 '실체' 공개하겠습니다. 6 minutes, 12 seconds" [ref=e198]:
+                  - /url: /watch?v=GrYADnTm4Pc&pp=ygUt7JuM64eo652gIOy9lOyduCDtirjroIjsnbTrlKkg7YOA7J6E7ZSE66CI7J6E
+                  - text: "'자칭' 워뇨띠 매매법이라는 영상. 실제 데이터로 '실체' 공개하겠습니다."
+              - generic [ref=e201]:
+                - generic [ref=e202]: 12K views
+                - generic [ref=e203]: •2 years ago
+            - generic [ref=e204]:
+              - link "Go to channel 코인 콜로세움" [ref=e205]:
+                - /url: /@coincolosseum
+              - link "코인 콜로세움" [ref=e210]:
+                - /url: /@coincolosseum
+            - generic [ref=e211]:
+              - text: 저희 팀은 금전적인 요구는 절대 하지 않습니다** 1. 저희는 보조지표를 선공개하고 틈틈이 소통도 하는 채팅방이 있습니다. 자유롭게 ...
+              - tooltip "tooltip"
+        - generic [ref=e216]:
+          - img [ref=e222]
+          - generic [ref=e224] [cursor=pointer]:
+            - generic [ref=e225]:
+              - link "광고하고 무료 크레딧 받으세요" [ref=e228]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CzPyVEv8UatrvKN3Qr7wP4uLC4Q_v0MWIhwG817bVzxVkEAIgAGCbs-mEuCmCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABhIyZvAKoAwTIAwqqBMwCT9Avh55mm5FgC_daca5_uQ6NtGQdpaDKIVCc6rTMB4QiJPsjs9B10Fxstfwj740_5jj8bDNDkCI5bb3td5Ci4SY6z9eBfITcs2FqNNrN8iD69_46A3PAybu_ezIhTgjoTxUreJI6UoNhvWq9yBhDPV2ZWSqYQCg3WlmFk1oO6k4-ECY7CAGEDJVDD4ERQSM44GjkKY4rFnWuPmv0eHeax7GK0wL4KpYtmvaRSpXU0DBJFfyQx7RuM2b4sb4BubP2LdWLQdbjr0WNv7Ts6YeyhjtlVUxDV58LyJFuIW4SLZIz_fA8NbtVuurndb9ga1wa2esumIi18NcZdS1MXRoXsEfYRH4YjdD6sqKRpitoeoPGvgdQFhXqYGFHLSbYJ0aqZvgWP2Ag3wtUG9OEfBB8ajje_AR5yz-X97tnXcm8iXj27V2KzorE82yJIKiIBczR14pYkgUICBN4jpa1-AGgBqQBgAfq3YTYAZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjgs-qI7tWUA2ABmgkvaHR0cHM6Ly9nZXRzdGFydGVkLnRpa3Rvay5jb20va3ItYm9vc3QtYnVzaW5lc3OxCUkbSIjEbiamyAkAmAsBugs_CAMQBRgWIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awd2aXRwZXJi0AsSogwtKgoKCJXisQKO37ECahoKGGNvbS5zcy5hbmRyb2lkLnVnYy50cmlsbHgAiAEA0gwCEAGaDQESqg0CS1LIDQHSDdsBaHR0cHM6Ly9nZXRzdGFydGVkLnRpa3Rvay5jb20va3ItYm9vc3QtYnVzaW5lc3M_bGFuZz1rbyZhdHRyX3NvdXJjZT1nb29nbGUmYXR0cl9tZWRpdW09cG1heC1hZCZhdHRyX2NhbXBhaWduX2lkPTIzNjQwMDg4MDc5JmZ1bm5lbD1wcm9zcGVjdGluZyZ0YXJnZXRpbmc9YWxsJmNyZWF0aXZlPUxvd1RpZXIyMDBfTEwmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzNjQ0NzI3NTAwsA74m5X0GLgT____________AbAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAboXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMI2sDqiO7VlAMVXeiLAR1isTD8EAEYAiAAEgLJDfD_BwE&num=2&cid=CAASqwHkaGQB82o8T2mz8waZeF0GmR2vfsMBhFznzEEH6ld8NIh3mN4gmohGDGHRM4zzhoWyovgGnSiLb_5rEyoOJx6nD2daoVl6JkK7_22C6fQWY3ux1rp46ahT9mvW4htXrj9VNTpbkqvWrlNypkj-LFsRZzkzy6KMEY58CHKPTHKwEz94AaNtCr0oEPT949ZfPfKg_4PIdJowiAptvGIJa8MnE_Q8yLMa7tPywpI&sig=AOD64_2k0Jpifg8kv9viDdIR2sIYMpRs2w&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - link "가입하고 사용해서 틱톡 무료 광고 크레딧을 받으세요. 기간 한정입니다." [ref=e231]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CzPyVEv8UatrvKN3Qr7wP4uLC4Q_v0MWIhwG817bVzxVkEAIgAGCbs-mEuCmCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABhIyZvAKoAwTIAwqqBMwCT9Avh55mm5FgC_daca5_uQ6NtGQdpaDKIVCc6rTMB4QiJPsjs9B10Fxstfwj740_5jj8bDNDkCI5bb3td5Ci4SY6z9eBfITcs2FqNNrN8iD69_46A3PAybu_ezIhTgjoTxUreJI6UoNhvWq9yBhDPV2ZWSqYQCg3WlmFk1oO6k4-ECY7CAGEDJVDD4ERQSM44GjkKY4rFnWuPmv0eHeax7GK0wL4KpYtmvaRSpXU0DBJFfyQx7RuM2b4sb4BubP2LdWLQdbjr0WNv7Ts6YeyhjtlVUxDV58LyJFuIW4SLZIz_fA8NbtVuurndb9ga1wa2esumIi18NcZdS1MXRoXsEfYRH4YjdD6sqKRpitoeoPGvgdQFhXqYGFHLSbYJ0aqZvgWP2Ag3wtUG9OEfBB8ajje_AR5yz-X97tnXcm8iXj27V2KzorE82yJIKiIBczR14pYkgUICBN4jpa1-AGgBqQBgAfq3YTYAZAHBKgH8sCxAqgHuMSxAqgH4baxAqgHpc-xAqgH552xAqgH6J2xAqgH77WxAqgH8LWxAqgH-dOxAqgHydqxAqgHqeCxAqgHhAioB6bUsQKoB6jSG6gHtgeoB7HcG6gHsJuxAqgHrrGxAqgH_bKxAqgHyM-xAqgHyc-xAqgHzcexAqgH8dGxAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHndexAqgHndSxAqgHgcYbqAf8r7ECqAe-2bECqAerxRuoB7ehsQKoB9WpsQKoB961sQLSCC4IgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAQSNmg0jVQFFjgs-qI7tWUA2ABmgkvaHR0cHM6Ly9nZXRzdGFydGVkLnRpa3Rvay5jb20va3ItYm9vc3QtYnVzaW5lc3OxCUkbSIjEbiamyAkAmAsBugs_CAMQBRgWIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgKoAQHYAQGAAgGIAgW6Awd2aXRwZXJi0AsSogwtKgoKCJXisQKO37ECahoKGGNvbS5zcy5hbmRyb2lkLnVnYy50cmlsbHgAiAEA0gwCEAGaDQESqg0CS1LIDQHSDdsBaHR0cHM6Ly9nZXRzdGFydGVkLnRpa3Rvay5jb20va3ItYm9vc3QtYnVzaW5lc3M_bGFuZz1rbyZhdHRyX3NvdXJjZT1nb29nbGUmYXR0cl9tZWRpdW09cG1heC1hZCZhdHRyX2NhbXBhaWduX2lkPTIzNjQwMDg4MDc5JmZ1bm5lbD1wcm9zcGVjdGluZyZ0YXJnZXRpbmc9YWxsJmNyZWF0aXZlPUxvd1RpZXIyMDBfTEwmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTIzNjQ0NzI3NTAwsA74m5X0GLgT____________AbAUA8AVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcWCAMYASABKAEwATgBQAFIAVABWAFgAqAXAboXBigAMAA4AdAYAfAYAcIZAggB&gclid=EAIaIQobChMI2sDqiO7VlAMVXeiLAR1isTD8EAEYAiAAEgLJDfD_BwE&num=2&cid=CAASqwHkaGQB82o8T2mz8waZeF0GmR2vfsMBhFznzEEH6ld8NIh3mN4gmohGDGHRM4zzhoWyovgGnSiLb_5rEyoOJx6nD2daoVl6JkK7_22C6fQWY3ux1rp46ahT9mvW4htXrj9VNTpbkqvWrlNypkj-LFsRZzkzy6KMEY58CHKPTHKwEz94AaNtCr0oEPT949ZfPfKg_4PIdJowiAptvGIJa8MnE_Q8yLMa7tPywpI&sig=AOD64_2k0Jpifg8kv9viDdIR2sIYMpRs2w&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - generic [ref=e232]:
+                - generic [ref=e234]:
+                  - generic [ref=e235]: Sponsored
+                  - text: ·
+                - generic [ref=e237]: TikTok
+            - button "My Ad Center" [ref=e240]

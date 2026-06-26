@@ -1,0 +1,859 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "Skip to content" [ref=e4] [cursor=pointer]:
+        - /url: "#start-of-content"
+      - banner [ref=e6]:
+        - heading "Navigation Menu" [level=2] [ref=e7]
+        - generic [ref=e8]:
+          - link "Homepage" [ref=e10] [cursor=pointer]:
+            - /url: /
+            - img [ref=e11]
+          - generic [ref=e13]:
+            - navigation "Global" [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Platform" [ref=e20] [cursor=pointer]:
+                    - text: Platform
+                    - img [ref=e21]
+                - listitem [ref=e23]:
+                  - button "Solutions" [ref=e25] [cursor=pointer]:
+                    - text: Solutions
+                    - img [ref=e26]
+                - listitem [ref=e28]:
+                  - button "Resources" [ref=e30] [cursor=pointer]:
+                    - text: Resources
+                    - img [ref=e31]
+                - listitem [ref=e33]:
+                  - button "Open Source" [ref=e35] [cursor=pointer]:
+                    - text: Open Source
+                    - img [ref=e36]
+                - listitem [ref=e38]:
+                  - button "Enterprise" [ref=e40] [cursor=pointer]:
+                    - text: Enterprise
+                    - img [ref=e41]
+                - listitem [ref=e43]:
+                  - link "Pricing" [ref=e44] [cursor=pointer]:
+                    - /url: https://github.com/pricing
+                    - generic [ref=e45]: Pricing
+            - generic [ref=e46]:
+              - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+                - img [ref=e51]
+              - link "Sign in" [ref=e54] [cursor=pointer]:
+                - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Ffreqtrade%2Ffreqtrade-strategies%2Ftree%2Fmain%2Fuser_data%2Fstrategies%2Fberlinguyinca
+              - link "Sign up" [ref=e55] [cursor=pointer]:
+                - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Ffiles%2Fdisambiguate&source=header-repo&source_repo=freqtrade%2Ffreqtrade-strategies
+              - button "Appearance settings" [ref=e58] [cursor=pointer]:
+                - img
+    - main [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - link "freqtrade" [ref=e70] [cursor=pointer]:
+              - /url: /freqtrade
+            - generic [ref=e71]: /
+            - strong [ref=e72]:
+              - link "freqtrade-strategies" [ref=e73] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies
+            - generic [ref=e74]: Public
+          - generic [ref=e75]:
+            - list:
+              - listitem [ref=e76]:
+                - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                  - /url: /login?return_to=%2Ffreqtrade%2Ffreqtrade-strategies
+                  - img [ref=e78]
+                  - text: Notifications
+              - listitem [ref=e80]:
+                - link "Fork 1.4k" [ref=e81] [cursor=pointer]:
+                  - /url: /login?return_to=%2Ffreqtrade%2Ffreqtrade-strategies
+                  - img [ref=e82]
+                  - text: Fork
+                  - generic "1,403" [ref=e84]: 1.4k
+              - listitem [ref=e85]:
+                - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                  - /url: /login?return_to=%2Ffreqtrade%2Ffreqtrade-strategies
+                  - img [ref=e88]
+                  - text: Star
+                  - generic "5153 users starred this repository" [ref=e90]: 5.2k
+        - navigation "Repository" [ref=e91]:
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Code" [ref=e94] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies
+                - img [ref=e95]
+                - generic [ref=e97]: Code
+            - listitem [ref=e98]:
+              - link "Issues 11" [ref=e99] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies/issues
+                - img [ref=e100]
+                - generic [ref=e103]: Issues
+                - generic "11" [ref=e104]
+            - listitem [ref=e105]:
+              - link "Pull requests" [ref=e106] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies/pulls
+                - img [ref=e107]
+                - generic [ref=e109]: Pull requests
+            - listitem [ref=e110]:
+              - link "Actions" [ref=e111] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies/actions
+                - img [ref=e112]
+                - generic [ref=e114]: Actions
+            - listitem [ref=e115]:
+              - link "Projects" [ref=e116] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies/projects
+                - img [ref=e117]
+                - generic [ref=e119]: Projects
+            - listitem [ref=e120]:
+              - link "Wiki" [ref=e121] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies/wiki
+                - img [ref=e122]
+                - generic [ref=e124]: Wiki
+            - listitem [ref=e125]:
+              - link "Security and quality" [ref=e126] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies/security
+                - img [ref=e127]
+                - generic [ref=e129]: Security and quality
+            - listitem [ref=e130]:
+              - link "Insights" [ref=e131] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies/pulse
+                - img [ref=e132]
+                - generic [ref=e134]: Insights
+      - generic [ref=e142]:
+        - generic [ref=e144]:
+          - generic [ref=e147]:
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - heading "Collapse file tree" [level=2] [ref=e150]:
+                  - button "Collapse file tree" [expanded] [ref=e151] [cursor=pointer]:
+                    - img [ref=e152]
+                - heading "Files" [level=2] [ref=e155]
+              - generic [ref=e156]:
+                - button "main branch" [ref=e158] [cursor=pointer]:
+                  - generic [ref=e159]:
+                    - generic [ref=e161]:
+                      - img [ref=e163]
+                      - generic [ref=e166]: main
+                    - generic:
+                      - img
+                - button "Search this repository (forward slash)" [ref=e168] [cursor=pointer]:
+                  - img [ref=e169]
+            - generic [ref=e172]:
+              - img [ref=e174]
+              - combobox "Go to file" [ref=e176]
+            - navigation "File Tree Navigation" [ref=e182]:
+              - tree "Files" [ref=e184]:
+                - treeitem ".github" [level=1] [ref=e185]:
+                  - generic [ref=e186] [cursor=pointer]:
+                    - img [ref=e188]
+                    - generic [ref=e190]:
+                      - img [ref=e194]
+                      - generic [ref=e196]: .github
+                - treeitem "user_data" [expanded] [level=1] [ref=e197]:
+                  - generic [ref=e198] [cursor=pointer]:
+                    - img [ref=e200]
+                    - generic [ref=e202]:
+                      - img [ref=e206]
+                      - generic [ref=e208]: user_data
+                  - group "user_data" [ref=e209]:
+                    - treeitem "hyperopts" [level=2] [ref=e210]:
+                      - generic [ref=e211] [cursor=pointer]:
+                        - img [ref=e216]
+                        - generic [ref=e218]:
+                          - img [ref=e222]
+                          - generic [ref=e224]: hyperopts
+                    - treeitem "strategies" [expanded] [level=2] [ref=e225]:
+                      - generic [ref=e226] [cursor=pointer]:
+                        - img [ref=e231]
+                        - generic [ref=e233]:
+                          - img [ref=e237]
+                          - generic [ref=e239]: strategies
+                      - group "strategies" [ref=e240]:
+                        - treeitem "berlinguyinca" [expanded] [level=3] [ref=e241]:
+                          - generic [ref=e242] [cursor=pointer]:
+                            - img [ref=e248]
+                            - generic [ref=e250]:
+                              - img [ref=e254]
+                              - generic [ref=e256]: berlinguyinca
+                          - group "berlinguyinca" [ref=e257]:
+                            - treeitem "ADXMomentum.py" [level=4] [ref=e258]:
+                              - generic [ref=e265] [cursor=pointer]:
+                                - img [ref=e268]
+                                - generic [ref=e270]: ADXMomentum.py
+                            - treeitem "ASDTSRockwellTrading.py" [level=4] [ref=e271]:
+                              - generic [ref=e278] [cursor=pointer]:
+                                - img [ref=e281]
+                                - generic [ref=e283]: ASDTSRockwellTrading.py
+                            - treeitem "AdxSmas.py" [level=4] [ref=e284]:
+                              - generic [ref=e291] [cursor=pointer]:
+                                - img [ref=e294]
+                                - generic [ref=e296]: AdxSmas.py
+                            - treeitem "AverageStrategy.py" [level=4] [ref=e297]:
+                              - generic [ref=e304] [cursor=pointer]:
+                                - img [ref=e307]
+                                - generic [ref=e309]: AverageStrategy.py
+                            - treeitem "AwesomeMacd.py" [level=4] [ref=e310]:
+                              - generic [ref=e317] [cursor=pointer]:
+                                - img [ref=e320]
+                                - generic [ref=e322]: AwesomeMacd.py
+                            - treeitem "BbandRsi.py" [level=4] [ref=e323]:
+                              - generic [ref=e330] [cursor=pointer]:
+                                - img [ref=e333]
+                                - generic [ref=e335]: BbandRsi.py
+                            - treeitem "BinHV27.py" [level=4] [ref=e336]:
+                              - generic [ref=e343] [cursor=pointer]:
+                                - img [ref=e346]
+                                - generic [ref=e348]: BinHV27.py
+                            - treeitem "BinHV45.py" [level=4] [ref=e349]:
+                              - generic [ref=e356] [cursor=pointer]:
+                                - img [ref=e359]
+                                - generic [ref=e361]: BinHV45.py
+                            - treeitem "CCIStrategy.py" [level=4] [ref=e362]:
+                              - generic [ref=e369] [cursor=pointer]:
+                                - img [ref=e372]
+                                - generic [ref=e374]: CCIStrategy.py
+                            - treeitem "CMCWinner.py" [level=4] [ref=e375]:
+                              - generic [ref=e382] [cursor=pointer]:
+                                - img [ref=e385]
+                                - generic [ref=e387]: CMCWinner.py
+                            - treeitem "ClucMay72018.py" [level=4] [ref=e388]:
+                              - generic [ref=e395] [cursor=pointer]:
+                                - img [ref=e398]
+                                - generic [ref=e400]: ClucMay72018.py
+                            - treeitem "CofiBitStrategy.py" [level=4] [ref=e401]:
+                              - generic [ref=e408] [cursor=pointer]:
+                                - img [ref=e411]
+                                - generic [ref=e413]: CofiBitStrategy.py
+                            - treeitem "CombinedBinHAndCluc.py" [level=4] [ref=e414]:
+                              - generic [ref=e421] [cursor=pointer]:
+                                - img [ref=e424]
+                                - generic [ref=e426]: CombinedBinHAndCluc.py
+                            - treeitem "DoesNothingStrategy.py" [level=4] [ref=e427]:
+                              - generic [ref=e434] [cursor=pointer]:
+                                - img [ref=e437]
+                                - generic [ref=e439]: DoesNothingStrategy.py
+                            - treeitem "EMASkipPump.py" [level=4] [ref=e440]:
+                              - generic [ref=e447] [cursor=pointer]:
+                                - img [ref=e450]
+                                - generic [ref=e452]: EMASkipPump.py
+                            - treeitem "Freqtrade_backtest_validation_freqtrade1.py" [level=4] [ref=e453]:
+                              - generic [ref=e460] [cursor=pointer]:
+                                - img [ref=e463]
+                                - generic [ref=e465]: Freqtrade_backtest_validation_freqtrade1.py
+                            - treeitem "Low_BB.py" [level=4] [ref=e466]:
+                              - generic [ref=e473] [cursor=pointer]:
+                                - img [ref=e476]
+                                - generic [ref=e478]: Low_BB.py
+                            - treeitem "MACDStrategy.py" [level=4] [ref=e479]:
+                              - generic [ref=e486] [cursor=pointer]:
+                                - img [ref=e489]
+                                - generic [ref=e491]: MACDStrategy.py
+                            - treeitem "MACDStrategy_crossed.py" [level=4] [ref=e492]:
+                              - generic [ref=e499] [cursor=pointer]:
+                                - img [ref=e502]
+                                - generic [ref=e504]: MACDStrategy_crossed.py
+                            - treeitem "MultiRSI.py" [level=4] [ref=e505]:
+                              - generic [ref=e512] [cursor=pointer]:
+                                - img [ref=e515]
+                                - generic [ref=e517]: MultiRSI.py
+                            - treeitem "Quickie.py" [level=4] [ref=e518]:
+                              - generic [ref=e525] [cursor=pointer]:
+                                - img [ref=e528]
+                                - generic [ref=e530]: Quickie.py
+                            - treeitem "ReinforcedAverageStrategy.py" [level=4] [ref=e531]:
+                              - generic [ref=e538] [cursor=pointer]:
+                                - img [ref=e541]
+                                - generic [ref=e543]: ReinforcedAverageStrategy.py
+                            - treeitem "ReinforcedQuickie.py" [level=4] [ref=e544]:
+                              - generic [ref=e551] [cursor=pointer]:
+                                - img [ref=e554]
+                                - generic [ref=e556]: ReinforcedQuickie.py
+                            - treeitem "ReinforcedSmoothScalp.py" [level=4] [ref=e557]:
+                              - generic [ref=e564] [cursor=pointer]:
+                                - img [ref=e567]
+                                - generic [ref=e569]: ReinforcedSmoothScalp.py
+                            - treeitem "Scalp.py" [level=4] [ref=e570]:
+                              - generic [ref=e577] [cursor=pointer]:
+                                - img [ref=e580]
+                                - generic [ref=e582]: Scalp.py
+                            - treeitem "Simple.py" [level=4] [ref=e583]:
+                              - generic [ref=e590] [cursor=pointer]:
+                                - img [ref=e593]
+                                - generic [ref=e595]: Simple.py
+                            - treeitem "SmoothOperator.py" [level=4] [ref=e596]:
+                              - generic [ref=e603] [cursor=pointer]:
+                                - img [ref=e606]
+                                - generic [ref=e608]: SmoothOperator.py
+                            - treeitem "SmoothScalp.py" [level=4] [ref=e609]:
+                              - generic [ref=e616] [cursor=pointer]:
+                                - img [ref=e619]
+                                - generic [ref=e621]: SmoothScalp.py
+                            - treeitem "TDSequentialStrategy.py" [level=4] [ref=e622]:
+                              - generic [ref=e629] [cursor=pointer]:
+                                - img [ref=e632]
+                                - generic [ref=e634]: TDSequentialStrategy.py
+                            - treeitem "TechnicalExampleStrategy.py" [level=4] [ref=e635]:
+                              - generic [ref=e642] [cursor=pointer]:
+                                - img [ref=e645]
+                                - generic [ref=e647]: TechnicalExampleStrategy.py
+                        - treeitem "futures" [level=3] [ref=e648]:
+                          - generic [ref=e649] [cursor=pointer]:
+                            - img [ref=e655]
+                            - generic [ref=e657]:
+                              - img [ref=e661]
+                              - generic [ref=e663]: futures
+                        - treeitem "lookahead_bias" [level=3] [ref=e664]:
+                          - generic [ref=e665] [cursor=pointer]:
+                            - img [ref=e671]
+                            - generic [ref=e673]:
+                              - img [ref=e677]
+                              - generic [ref=e679]: lookahead_bias
+                        - treeitem "Bandtastic.py" [level=3] [ref=e680]:
+                          - generic [ref=e686] [cursor=pointer]:
+                            - img [ref=e689]
+                            - generic [ref=e691]: Bandtastic.py
+                        - treeitem "BreakEven.py" [level=3] [ref=e692]:
+                          - generic [ref=e698] [cursor=pointer]:
+                            - img [ref=e701]
+                            - generic [ref=e703]: BreakEven.py
+                        - treeitem "CustomStoplossWithPSAR.py" [level=3] [ref=e704]:
+                          - generic [ref=e710] [cursor=pointer]:
+                            - img [ref=e713]
+                            - generic [ref=e715]: CustomStoplossWithPSAR.py
+                        - treeitem "Diamond.py" [level=3] [ref=e716]:
+                          - generic [ref=e722] [cursor=pointer]:
+                            - img [ref=e725]
+                            - generic [ref=e727]: Diamond.py
+                        - treeitem "FixedRiskRewardLoss.py" [level=3] [ref=e728]:
+                          - generic [ref=e734] [cursor=pointer]:
+                            - img [ref=e737]
+                            - generic [ref=e739]: FixedRiskRewardLoss.py
+                        - treeitem "GodStra.py" [level=3] [ref=e740]:
+                          - generic [ref=e746] [cursor=pointer]:
+                            - img [ref=e749]
+                            - generic [ref=e751]: GodStra.py
+                        - treeitem "Heracles.py" [level=3] [ref=e752]:
+                          - generic [ref=e758] [cursor=pointer]:
+                            - img [ref=e761]
+                            - generic [ref=e763]: Heracles.py
+                        - treeitem "HourBasedStrategy.py" [level=3] [ref=e764]:
+                          - generic [ref=e770] [cursor=pointer]:
+                            - img [ref=e773]
+                            - generic [ref=e775]: HourBasedStrategy.py
+                        - treeitem "InformativeSample.py" [level=3] [ref=e776]:
+                          - generic [ref=e782] [cursor=pointer]:
+                            - img [ref=e785]
+                            - generic [ref=e787]: InformativeSample.py
+                        - treeitem "MultiMa.py" [level=3] [ref=e788]:
+                          - generic [ref=e794] [cursor=pointer]:
+                            - img [ref=e797]
+                            - generic [ref=e799]: MultiMa.py
+                        - treeitem "PatternRecognition.py" [level=3] [ref=e800]:
+                          - generic [ref=e806] [cursor=pointer]:
+                            - img [ref=e809]
+                            - generic [ref=e811]: PatternRecognition.py
+                        - treeitem "PowerTower.py" [level=3] [ref=e812]:
+                          - generic [ref=e818] [cursor=pointer]:
+                            - img [ref=e821]
+                            - generic [ref=e823]: PowerTower.py
+                        - treeitem "Strategy001.py" [level=3] [ref=e824]:
+                          - generic [ref=e830] [cursor=pointer]:
+                            - img [ref=e833]
+                            - generic [ref=e835]: Strategy001.py
+                        - treeitem "Strategy001_custom_exit.py" [level=3] [ref=e836]:
+                          - generic [ref=e842] [cursor=pointer]:
+                            - img [ref=e845]
+                            - generic [ref=e847]: Strategy001_custom_exit.py
+                        - treeitem "Strategy002.py" [level=3] [ref=e848]:
+                          - generic [ref=e854] [cursor=pointer]:
+                            - img [ref=e857]
+                            - generic [ref=e859]: Strategy002.py
+                        - treeitem "Strategy003.py" [level=3] [ref=e860]:
+                          - generic [ref=e866] [cursor=pointer]:
+                            - img [ref=e869]
+                            - generic [ref=e871]: Strategy003.py
+                        - treeitem "Strategy004.py" [level=3] [ref=e872]:
+                          - generic [ref=e878] [cursor=pointer]:
+                            - img [ref=e881]
+                            - generic [ref=e883]: Strategy004.py
+                        - treeitem "Strategy005.py" [level=3] [ref=e884]:
+                          - generic [ref=e890] [cursor=pointer]:
+                            - img [ref=e893]
+                            - generic [ref=e895]: Strategy005.py
+                        - treeitem "Supertrend.py" [level=3] [ref=e896]:
+                          - generic [ref=e902] [cursor=pointer]:
+                            - img [ref=e905]
+                            - generic [ref=e907]: Supertrend.py
+                        - treeitem "SwingHighToSky.py" [level=3] [ref=e908]:
+                          - generic [ref=e914] [cursor=pointer]:
+                            - img [ref=e917]
+                            - generic [ref=e919]: SwingHighToSky.py
+                        - treeitem "TrendRiderStrategy.py" [level=3] [ref=e920]:
+                          - generic [ref=e926] [cursor=pointer]:
+                            - img [ref=e929]
+                            - generic [ref=e931]: TrendRiderStrategy.py
+                        - treeitem "UniversalMACD.py" [level=3] [ref=e932]:
+                          - generic [ref=e938] [cursor=pointer]:
+                            - img [ref=e941]
+                            - generic [ref=e943]: UniversalMACD.py
+                        - treeitem "hlhb.py" [level=3] [ref=e944]:
+                          - generic [ref=e950] [cursor=pointer]:
+                            - img [ref=e953]
+                            - generic [ref=e955]: hlhb.py
+                        - treeitem "mabStra.py" [level=3] [ref=e956]:
+                          - generic [ref=e962] [cursor=pointer]:
+                            - img [ref=e965]
+                            - generic [ref=e967]: mabStra.py
+                        - treeitem "multi_tf.py" [level=3] [ref=e968]:
+                          - generic [ref=e974] [cursor=pointer]:
+                            - img [ref=e977]
+                            - generic [ref=e979]: multi_tf.py
+                - treeitem ".gitignore" [level=1] [ref=e980]:
+                  - generic [ref=e982] [cursor=pointer]:
+                    - img [ref=e985]
+                    - generic [ref=e987]: .gitignore
+                - treeitem "LICENSE" [level=1] [ref=e988]:
+                  - generic [ref=e990] [cursor=pointer]:
+                    - img [ref=e993]
+                    - generic [ref=e995]: LICENSE
+                - treeitem "README.md" [level=1] [ref=e996]:
+                  - generic [ref=e998] [cursor=pointer]:
+                    - img [ref=e1001]
+                    - generic [ref=e1003]: README.md
+          - slider "Draggable pane splitter" [ref=e1005]
+        - generic [ref=e1008]:
+          - generic [ref=e1012]:
+            - generic [ref=e1014]:
+              - navigation "Breadcrumbs" [ref=e1015]:
+                - heading "Breadcrumbs" [level=2] [ref=e1016]
+                - list [ref=e1017]:
+                  - listitem [ref=e1018]:
+                    - link "freqtrade-strategies" [ref=e1019] [cursor=pointer]:
+                      - /url: /freqtrade/freqtrade-strategies/tree/main
+                  - listitem [ref=e1020]:
+                    - text: /
+                    - link "user_data" [ref=e1021] [cursor=pointer]:
+                      - /url: /freqtrade/freqtrade-strategies/tree/main/user_data
+                  - listitem [ref=e1022]:
+                    - text: /
+                    - link "strategies" [ref=e1023] [cursor=pointer]:
+                      - /url: /freqtrade/freqtrade-strategies/tree/main/user_data/strategies
+              - generic [ref=e1024]:
+                - text: /
+                - heading "berlinguyinca" [level=1] [ref=e1025]
+                - text: /
+              - button "Copy path" [ref=e1026] [cursor=pointer]:
+                - img [ref=e1027]
+            - generic [ref=e1032]:
+              - heading "Directory actions" [level=2] [ref=e1033]
+              - heading "More options" [level=2] [ref=e1034]
+              - button "More options" [ref=e1035] [cursor=pointer]:
+                - img [ref=e1036]
+          - generic [ref=e1038]:
+            - generic [ref=e1040]:
+              - heading "Latest commit" [level=2] [ref=e1041]
+              - generic [ref=e1042]:
+                - generic [ref=e1044]:
+                  - link "xmatthias" [ref=e1045] [cursor=pointer]:
+                    - /url: /xmatthias
+                    - img "xmatthias" [ref=e1046]
+                  - link "commits by xmatthias" [ref=e1047] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade-strategies/commits?author=xmatthias
+                    - text: xmatthias
+                - 'link "chore: update DoesNothingstrategy to mostly skip roi/stoploss" [ref=e1051] [cursor=pointer]':
+                  - /url: /freqtrade/freqtrade-strategies/commit/debc6d9c22fd7b4dfe939441bf2bd39ede4f86c4
+              - generic [ref=e1052]:
+                - generic [ref=e1054]:
+                  - link "Commit debc6d9" [ref=e1055] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade-strategies/commit/debc6d9c22fd7b4dfe939441bf2bd39ede4f86c4
+                    - text: debc6d9
+                  - text: ·
+                  - generic "Feb 27, 2026, 4:29 AM GMT+9" [ref=e1056]: Feb 27, 20263 months ago
+                - generic [ref=e1057]:
+                  - heading "History" [level=2] [ref=e1058]
+                  - link "History" [ref=e1059] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade-strategies/commits/main/user_data/strategies/berlinguyinca
+                    - generic [ref=e1060]:
+                      - generic:
+                        - img
+                      - generic [ref=e1061]: History
+            - generic [ref=e1063]:
+              - heading "Folders and files" [level=2] [ref=e1064]
+              - table "Folders and files" [ref=e1065]:
+                - rowgroup [ref=e1066]:
+                  - row "Name Last commit message Last commit date" [ref=e1067]:
+                    - columnheader "Name" [ref=e1068]
+                    - columnheader "Last commit message" [ref=e1069]:
+                      - generic "Last commit message" [ref=e1070]
+                    - columnheader "Last commit date" [ref=e1071]:
+                      - generic "Last commit date" [ref=e1072]
+                - rowgroup [ref=e1073]:
+                  - row "parent directory Parent directory" [ref=e1074]:
+                    - cell "parent directory Parent directory" [ref=e1075]:
+                      - heading "parent directory" [level=3] [ref=e1076]
+                      - link "Parent directory" [ref=e1077] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/tree/main/user_data/strategies
+                        - generic [ref=e1078]:
+                          - img [ref=e1079]
+                          - text: ..
+                  - row "ADXMomentum.py, (File) Update interface version on remaining strategies Jul 10, 20224 years ago" [ref=e1081]:
+                    - cell "ADXMomentum.py, (File)" [ref=e1082]:
+                      - generic [ref=e1083]:
+                        - img [ref=e1084]
+                        - link "ADXMomentum.py, (File)" [ref=e1089] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/ADXMomentum.py
+                          - text: ADXMomentum.py
+                    - cell "Update interface version on remaining strategies" [ref=e1090]:
+                      - link "Update interface version on remaining strategies" [ref=e1093] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/bcca7d7aef0df373c29b80532c8c02663f25ae3f
+                    - cell "Jul 10, 20224 years ago" [ref=e1094]:
+                      - generic [ref=e1095]: Jul 10, 20224 years ago
+                  - row "ASDTSRockwellTrading.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1096]:
+                    - cell "ASDTSRockwellTrading.py, (File)" [ref=e1097]:
+                      - generic [ref=e1098]:
+                        - img [ref=e1099]
+                        - link "ASDTSRockwellTrading.py, (File)" [ref=e1104] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/ASDTSRockwellTrading.py
+                          - text: ASDTSRockwellTrading.py
+                    - cell "Add INterface_version to all strategies" [ref=e1105]:
+                      - link "Add INterface_version to all strategies" [ref=e1108] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1109]:
+                      - generic [ref=e1110]: Jul 10, 20224 years ago
+                  - row "AdxSmas.py, (File) Update interface version on remaining strategies Jul 10, 20224 years ago" [ref=e1111]:
+                    - cell "AdxSmas.py, (File)" [ref=e1112]:
+                      - generic [ref=e1113]:
+                        - img [ref=e1114]
+                        - link "AdxSmas.py, (File)" [ref=e1119] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/AdxSmas.py
+                          - text: AdxSmas.py
+                    - cell "Update interface version on remaining strategies" [ref=e1120]:
+                      - link "Update interface version on remaining strategies" [ref=e1123] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/bcca7d7aef0df373c29b80532c8c02663f25ae3f
+                    - cell "Jul 10, 20224 years ago" [ref=e1124]:
+                      - generic [ref=e1125]: Jul 10, 20224 years ago
+                  - row "AverageStrategy.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1126]:
+                    - cell "AverageStrategy.py, (File)" [ref=e1127]:
+                      - generic [ref=e1128]:
+                        - img [ref=e1129]
+                        - link "AverageStrategy.py, (File)" [ref=e1134] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/AverageStrategy.py
+                          - text: AverageStrategy.py
+                    - cell "Add INterface_version to all strategies" [ref=e1135]:
+                      - link "Add INterface_version to all strategies" [ref=e1138] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1139]:
+                      - generic [ref=e1140]: Jul 10, 20224 years ago
+                  - row "AwesomeMacd.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1141]:
+                    - cell "AwesomeMacd.py, (File)" [ref=e1142]:
+                      - generic [ref=e1143]:
+                        - img [ref=e1144]
+                        - link "AwesomeMacd.py, (File)" [ref=e1149] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/AwesomeMacd.py
+                          - text: AwesomeMacd.py
+                    - cell "Add INterface_version to all strategies" [ref=e1150]:
+                      - link "Add INterface_version to all strategies" [ref=e1153] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1154]:
+                      - generic [ref=e1155]: Jul 10, 20224 years ago
+                  - row "BbandRsi.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1156]:
+                    - cell "BbandRsi.py, (File)" [ref=e1157]:
+                      - generic [ref=e1158]:
+                        - img [ref=e1159]
+                        - link "BbandRsi.py, (File)" [ref=e1164] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/BbandRsi.py
+                          - text: BbandRsi.py
+                    - cell "Add INterface_version to all strategies" [ref=e1165]:
+                      - link "Add INterface_version to all strategies" [ref=e1168] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1169]:
+                      - generic [ref=e1170]: Jul 10, 20224 years ago
+                  - row "BinHV27.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1171]:
+                    - cell "BinHV27.py, (File)" [ref=e1172]:
+                      - generic [ref=e1173]:
+                        - img [ref=e1174]
+                        - link "BinHV27.py, (File)" [ref=e1179] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/BinHV27.py
+                          - text: BinHV27.py
+                    - cell "Add INterface_version to all strategies" [ref=e1180]:
+                      - link "Add INterface_version to all strategies" [ref=e1183] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1184]:
+                      - generic [ref=e1185]: Jul 10, 20224 years ago
+                  - row "BinHV45.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1186]:
+                    - cell "BinHV45.py, (File)" [ref=e1187]:
+                      - generic [ref=e1188]:
+                        - img [ref=e1189]
+                        - link "BinHV45.py, (File)" [ref=e1194] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/BinHV45.py
+                          - text: BinHV45.py
+                    - cell "Add INterface_version to all strategies" [ref=e1195]:
+                      - link "Add INterface_version to all strategies" [ref=e1198] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1199]:
+                      - generic [ref=e1200]: Jul 10, 20224 years ago
+                  - row "CCIStrategy.py, (File) Update interface version on remaining strategies Jul 10, 20224 years ago" [ref=e1201]:
+                    - cell "CCIStrategy.py, (File)" [ref=e1202]:
+                      - generic [ref=e1203]:
+                        - img [ref=e1204]
+                        - link "CCIStrategy.py, (File)" [ref=e1209] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/CCIStrategy.py
+                          - text: CCIStrategy.py
+                    - cell "Update interface version on remaining strategies" [ref=e1210]:
+                      - link "Update interface version on remaining strategies" [ref=e1213] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/bcca7d7aef0df373c29b80532c8c02663f25ae3f
+                    - cell "Jul 10, 20224 years ago" [ref=e1214]:
+                      - generic [ref=e1215]: Jul 10, 20224 years ago
+                  - row "CMCWinner.py, (File) Update strategies to new Strategy interface Jul 10, 20224 years ago" [ref=e1216]:
+                    - cell "CMCWinner.py, (File)" [ref=e1217]:
+                      - generic [ref=e1218]:
+                        - img [ref=e1219]
+                        - link "CMCWinner.py, (File)" [ref=e1224] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/CMCWinner.py
+                          - text: CMCWinner.py
+                    - cell "Update strategies to new Strategy interface" [ref=e1225]:
+                      - link "Update strategies to new Strategy interface" [ref=e1228] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/e705e712e7772718abbd14bd863001accc3a5af1
+                    - cell "Jul 10, 20224 years ago" [ref=e1229]:
+                      - generic [ref=e1230]: Jul 10, 20224 years ago
+                  - row "ClucMay72018.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1231]:
+                    - cell "ClucMay72018.py, (File)" [ref=e1232]:
+                      - generic [ref=e1233]:
+                        - img [ref=e1234]
+                        - link "ClucMay72018.py, (File)" [ref=e1239] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/ClucMay72018.py
+                          - text: ClucMay72018.py
+                    - cell "Add INterface_version to all strategies" [ref=e1240]:
+                      - link "Add INterface_version to all strategies" [ref=e1243] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1244]:
+                      - generic [ref=e1245]: Jul 10, 20224 years ago
+                  - row "CofiBitStrategy.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1246]:
+                    - cell "CofiBitStrategy.py, (File)" [ref=e1247]:
+                      - generic [ref=e1248]:
+                        - img [ref=e1249]
+                        - link "CofiBitStrategy.py, (File)" [ref=e1254] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/CofiBitStrategy.py
+                          - text: CofiBitStrategy.py
+                    - cell "Add INterface_version to all strategies" [ref=e1255]:
+                      - link "Add INterface_version to all strategies" [ref=e1258] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1259]:
+                      - generic [ref=e1260]: Jul 10, 20224 years ago
+                  - row "CombinedBinHAndCluc.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1261]:
+                    - cell "CombinedBinHAndCluc.py, (File)" [ref=e1262]:
+                      - generic [ref=e1263]:
+                        - img [ref=e1264]
+                        - link "CombinedBinHAndCluc.py, (File)" [ref=e1269] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/CombinedBinHAndCluc.py
+                          - text: CombinedBinHAndCluc.py
+                    - cell "Add INterface_version to all strategies" [ref=e1270]:
+                      - link "Add INterface_version to all strategies" [ref=e1273] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1274]:
+                      - generic [ref=e1275]: Jul 10, 20224 years ago
+                  - 'row "DoesNothingStrategy.py, (File) chore: update DoesNothingstrategy to mostly skip roi/stoploss Feb 27, 20263 months ago" [ref=e1276]':
+                    - cell "DoesNothingStrategy.py, (File)" [ref=e1277]:
+                      - generic [ref=e1278]:
+                        - img [ref=e1279]
+                        - link "DoesNothingStrategy.py, (File)" [ref=e1284] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/DoesNothingStrategy.py
+                          - text: DoesNothingStrategy.py
+                    - 'cell "chore: update DoesNothingstrategy to mostly skip roi/stoploss" [ref=e1285]':
+                      - 'link "chore: update DoesNothingstrategy to mostly skip roi/stoploss" [ref=e1288] [cursor=pointer]':
+                        - /url: /freqtrade/freqtrade-strategies/commit/debc6d9c22fd7b4dfe939441bf2bd39ede4f86c4
+                    - cell "Feb 27, 20263 months ago" [ref=e1289]:
+                      - generic [ref=e1290]: Feb 27, 20263 months ago
+                  - row "EMASkipPump.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1291]:
+                    - cell "EMASkipPump.py, (File)" [ref=e1292]:
+                      - generic [ref=e1293]:
+                        - img [ref=e1294]
+                        - link "EMASkipPump.py, (File)" [ref=e1299] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/EMASkipPump.py
+                          - text: EMASkipPump.py
+                    - cell "Add INterface_version to all strategies" [ref=e1300]:
+                      - link "Add INterface_version to all strategies" [ref=e1303] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1304]:
+                      - generic [ref=e1305]: Jul 10, 20224 years ago
+                  - row "Freqtrade_backtest_validation_freqtrade1.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1306]:
+                    - cell "Freqtrade_backtest_validation_freqtrade1.py, (File)" [ref=e1307]:
+                      - generic [ref=e1308]:
+                        - img [ref=e1309]
+                        - link "Freqtrade_backtest_validation_freqtrade1.py, (File)" [ref=e1314] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/Freqtrade_backtest_validation_freqtrade1.py
+                          - text: Freqtrade_backtest_validation_freqtrade1.py
+                    - cell "Add INterface_version to all strategies" [ref=e1315]:
+                      - link "Add INterface_version to all strategies" [ref=e1318] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1319]:
+                      - generic [ref=e1320]: Jul 10, 20224 years ago
+                  - 'row "Low_BB.py, (File) chore: fix further np.NaN occurances Dec 2, 20255 months ago" [ref=e1321]':
+                    - cell "Low_BB.py, (File)" [ref=e1322]:
+                      - generic [ref=e1323]:
+                        - img [ref=e1324]
+                        - link "Low_BB.py, (File)" [ref=e1329] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/Low_BB.py
+                          - text: Low_BB.py
+                    - 'cell "chore: fix further np.NaN occurances" [ref=e1330]':
+                      - 'link "chore: fix further np.NaN occurances" [ref=e1333] [cursor=pointer]':
+                        - /url: /freqtrade/freqtrade-strategies/commit/b8a90bebebfc13a78416635166ebafdece596d3f
+                    - cell "Dec 2, 20255 months ago" [ref=e1334]:
+                      - generic [ref=e1335]: Dec 2, 20255 months ago
+                  - row "MACDStrategy.py, (File) Update interface version on remaining strategies Jul 10, 20224 years ago" [ref=e1336]:
+                    - cell "MACDStrategy.py, (File)" [ref=e1337]:
+                      - generic [ref=e1338]:
+                        - img [ref=e1339]
+                        - link "MACDStrategy.py, (File)" [ref=e1344] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/MACDStrategy.py
+                          - text: MACDStrategy.py
+                    - cell "Update interface version on remaining strategies" [ref=e1345]:
+                      - link "Update interface version on remaining strategies" [ref=e1348] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/bcca7d7aef0df373c29b80532c8c02663f25ae3f
+                    - cell "Jul 10, 20224 years ago" [ref=e1349]:
+                      - generic [ref=e1350]: Jul 10, 20224 years ago
+                  - row "MACDStrategy_crossed.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1351]:
+                    - cell "MACDStrategy_crossed.py, (File)" [ref=e1352]:
+                      - generic [ref=e1353]:
+                        - img [ref=e1354]
+                        - link "MACDStrategy_crossed.py, (File)" [ref=e1359] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/MACDStrategy_crossed.py
+                          - text: MACDStrategy_crossed.py
+                    - cell "Add INterface_version to all strategies" [ref=e1360]:
+                      - link "Add INterface_version to all strategies" [ref=e1363] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1364]:
+                      - generic [ref=e1365]: Jul 10, 20224 years ago
+                  - row "MultiRSI.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1366]:
+                    - cell "MultiRSI.py, (File)" [ref=e1367]:
+                      - generic [ref=e1368]:
+                        - img [ref=e1369]
+                        - link "MultiRSI.py, (File)" [ref=e1374] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/MultiRSI.py
+                          - text: MultiRSI.py
+                    - cell "Add INterface_version to all strategies" [ref=e1375]:
+                      - link "Add INterface_version to all strategies" [ref=e1378] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1379]:
+                      - generic [ref=e1380]: Jul 10, 20224 years ago
+                  - row "Quickie.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1381]:
+                    - cell "Quickie.py, (File)" [ref=e1382]:
+                      - generic [ref=e1383]:
+                        - img [ref=e1384]
+                        - link "Quickie.py, (File)" [ref=e1389] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/Quickie.py
+                          - text: Quickie.py
+                    - cell "Add INterface_version to all strategies" [ref=e1390]:
+                      - link "Add INterface_version to all strategies" [ref=e1393] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1394]:
+                      - generic [ref=e1395]: Jul 10, 20224 years ago
+                  - row "ReinforcedAverageStrategy.py, (File) Update example strategies to use process_only_new_candles=True Jul 16, 20233 years ago" [ref=e1396]:
+                    - cell "ReinforcedAverageStrategy.py, (File)" [ref=e1397]:
+                      - generic [ref=e1398]:
+                        - img [ref=e1399]
+                        - link "ReinforcedAverageStrategy.py, (File)" [ref=e1404] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/ReinforcedAverageStrategy.py
+                          - text: ReinforcedAverageStrategy.py
+                    - cell "Update example strategies to use process_only_new_candles=True" [ref=e1405]:
+                      - link "Update example strategies to use process_only_new_candles=True" [ref=e1408] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/6fce5f382bebb5d9ca7e0c2e9b8c676f6f4eb461
+                    - cell "Jul 16, 20233 years ago" [ref=e1409]:
+                      - generic [ref=e1410]: Jul 16, 20233 years ago
+                  - row "ReinforcedQuickie.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1411]:
+                    - cell "ReinforcedQuickie.py, (File)" [ref=e1412]:
+                      - generic [ref=e1413]:
+                        - img [ref=e1414]
+                        - link "ReinforcedQuickie.py, (File)" [ref=e1419] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/ReinforcedQuickie.py
+                          - text: ReinforcedQuickie.py
+                    - cell "Add INterface_version to all strategies" [ref=e1420]:
+                      - link "Add INterface_version to all strategies" [ref=e1423] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1424]:
+                      - generic [ref=e1425]: Jul 10, 20224 years ago
+                  - row "ReinforcedSmoothScalp.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1426]:
+                    - cell "ReinforcedSmoothScalp.py, (File)" [ref=e1427]:
+                      - generic [ref=e1428]:
+                        - img [ref=e1429]
+                        - link "ReinforcedSmoothScalp.py, (File)" [ref=e1434] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/ReinforcedSmoothScalp.py
+                          - text: ReinforcedSmoothScalp.py
+                    - cell "Add INterface_version to all strategies" [ref=e1435]:
+                      - link "Add INterface_version to all strategies" [ref=e1438] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1439]:
+                      - generic [ref=e1440]: Jul 10, 20224 years ago
+                  - row "Scalp.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1441]:
+                    - cell "Scalp.py, (File)" [ref=e1442]:
+                      - generic [ref=e1443]:
+                        - img [ref=e1444]
+                        - link "Scalp.py, (File)" [ref=e1449] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/Scalp.py
+                          - text: Scalp.py
+                    - cell "Add INterface_version to all strategies" [ref=e1450]:
+                      - link "Add INterface_version to all strategies" [ref=e1453] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1454]:
+                      - generic [ref=e1455]: Jul 10, 20224 years ago
+                  - row "Simple.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1456]:
+                    - cell "Simple.py, (File)" [ref=e1457]:
+                      - generic [ref=e1458]:
+                        - img [ref=e1459]
+                        - link "Simple.py, (File)" [ref=e1464] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/Simple.py
+                          - text: Simple.py
+                    - cell "Add INterface_version to all strategies" [ref=e1465]:
+                      - link "Add INterface_version to all strategies" [ref=e1468] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1469]:
+                      - generic [ref=e1470]: Jul 10, 20224 years ago
+                  - row "SmoothOperator.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1471]:
+                    - cell "SmoothOperator.py, (File)" [ref=e1472]:
+                      - generic [ref=e1473]:
+                        - img [ref=e1474]
+                        - link "SmoothOperator.py, (File)" [ref=e1479] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/SmoothOperator.py
+                          - text: SmoothOperator.py
+                    - cell "Add INterface_version to all strategies" [ref=e1480]:
+                      - link "Add INterface_version to all strategies" [ref=e1483] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1484]:
+                      - generic [ref=e1485]: Jul 10, 20224 years ago
+                  - row "SmoothScalp.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1486]:
+                    - cell "SmoothScalp.py, (File)" [ref=e1487]:
+                      - generic [ref=e1488]:
+                        - img [ref=e1489]
+                        - link "SmoothScalp.py, (File)" [ref=e1494] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/SmoothScalp.py
+                          - text: SmoothScalp.py
+                    - cell "Add INterface_version to all strategies" [ref=e1495]:
+                      - link "Add INterface_version to all strategies" [ref=e1498] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1499]:
+                      - generic [ref=e1500]: Jul 10, 20224 years ago
+                  - 'row "TDSequentialStrategy.py, (File) chore: fix further np.NaN occurances Dec 2, 20255 months ago" [ref=e1501]':
+                    - cell "TDSequentialStrategy.py, (File)" [ref=e1502]:
+                      - generic [ref=e1503]:
+                        - img [ref=e1504]
+                        - link "TDSequentialStrategy.py, (File)" [ref=e1509] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/TDSequentialStrategy.py
+                          - text: TDSequentialStrategy.py
+                    - 'cell "chore: fix further np.NaN occurances" [ref=e1510]':
+                      - 'link "chore: fix further np.NaN occurances" [ref=e1513] [cursor=pointer]':
+                        - /url: /freqtrade/freqtrade-strategies/commit/b8a90bebebfc13a78416635166ebafdece596d3f
+                    - cell "Dec 2, 20255 months ago" [ref=e1514]:
+                      - generic [ref=e1515]: Dec 2, 20255 months ago
+                  - row "TechnicalExampleStrategy.py, (File) Add INterface_version to all strategies Jul 10, 20224 years ago" [ref=e1516]:
+                    - cell "TechnicalExampleStrategy.py, (File)" [ref=e1517]:
+                      - generic [ref=e1518]:
+                        - img [ref=e1519]
+                        - link "TechnicalExampleStrategy.py, (File)" [ref=e1524] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/user_data/strategies/berlinguyinca/TechnicalExampleStrategy.py
+                          - text: TechnicalExampleStrategy.py
+                    - cell "Add INterface_version to all strategies" [ref=e1525]:
+                      - link "Add INterface_version to all strategies" [ref=e1528] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/7f91ff52bb664423ae673092a6a18d76c50c2c29
+                    - cell "Jul 10, 20224 years ago" [ref=e1529]:
+                      - generic [ref=e1530]: Jul 10, 20224 years ago
+  - alert [ref=e1534]

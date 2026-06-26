@@ -1,0 +1,451 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Ffreqtrade%2Ffreqtrade%2Fissues%3Fq%3Dmultiple%2Bstrategies%2Bsimultaneously
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fissues%2Findex&source=header-repo&source_repo=freqtrade%2Ffreqtrade
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "freqtrade" [ref=e70] [cursor=pointer]:
+            - /url: /freqtrade
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "freqtrade" [ref=e73] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "Sponsor @xmatthias" [ref=e77] [cursor=pointer]:
+                - /url: /sponsors/xmatthias
+                - generic [ref=e79]:
+                  - img [ref=e80]
+                  - text: Sponsor
+            - listitem [ref=e82]:
+              - link "You must be signed in to change notification settings" [ref=e83] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffreqtrade%2Ffreqtrade
+                - img [ref=e84]
+                - text: Notifications
+            - listitem [ref=e86]:
+              - link "Fork 10.5k" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffreqtrade%2Ffreqtrade
+                - img [ref=e88]
+                - text: Fork
+                - generic "10,531" [ref=e90]: 10.5k
+            - listitem [ref=e91]:
+              - link "You must be signed in to star a repository" [ref=e93] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffreqtrade%2Ffreqtrade
+                - img [ref=e94]
+                - text: Star
+                - generic "50510 users starred this repository" [ref=e96]: 50.5k
+      - navigation "Repository" [ref=e97]:
+        - list [ref=e98]:
+          - listitem [ref=e99]:
+            - link "Code" [ref=e100] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade
+              - img [ref=e101]
+              - generic [ref=e103]: Code
+          - listitem [ref=e104]:
+            - link "Issues 24" [ref=e105] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/issues
+              - img [ref=e106]
+              - generic [ref=e109]: Issues
+              - generic "24" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Pull requests 8" [ref=e112] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/pulls
+              - img [ref=e113]
+              - generic [ref=e115]: Pull requests
+              - generic "8" [ref=e116]
+          - listitem [ref=e117]:
+            - link "Actions" [ref=e118] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/actions
+              - img [ref=e119]
+              - generic [ref=e121]: Actions
+          - listitem [ref=e122]:
+            - link "Wiki" [ref=e123] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/wiki
+              - img [ref=e124]
+              - generic [ref=e126]: Wiki
+          - listitem [ref=e127]:
+            - link "Security and quality" [ref=e128] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/security
+              - img [ref=e129]
+              - generic [ref=e131]: Security and quality
+          - listitem [ref=e132]:
+            - link "Insights" [ref=e133] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/pulse
+              - img [ref=e134]
+              - generic [ref=e136]: Insights
+    - generic [ref=e149]:
+      - heading "Issues" [level=1] [ref=e150]
+      - generic [ref=e151]:
+        - generic [ref=e153]:
+          - form "Search Issues" [ref=e155]:
+            - generic [ref=e156]: Search Issues
+            - generic [ref=e158]:
+              - generic [ref=e160]:
+                - generic [ref=e161]:
+                  - generic [ref=e162]: multiple
+                  - generic [ref=e164]: strategies
+                  - generic [ref=e166]: simultaneously
+                - combobox "Search Issues" [ref=e168]: multiple strategies simultaneously
+              - button "Search" [ref=e169] [cursor=pointer]:
+                - img [ref=e170]
+          - generic [ref=e172]:
+            - link "Labels" [ref=e173] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/labels
+              - generic [ref=e174]:
+                - generic:
+                  - img
+                - generic [ref=e175]: Labels
+            - link "Milestones" [ref=e176] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade/milestones
+              - generic [ref=e177]:
+                - generic:
+                  - img
+                - generic [ref=e178]: Milestones
+            - link "New issue" [ref=e179] [cursor=pointer]:
+              - /url: /login?return_to=https://github.com/freqtrade/freqtrade/issues?q=multiple+strategies+simultaneously
+              - generic [ref=e181]: New issue
+        - generic [ref=e185]:
+          - heading "Search results" [level=2] [ref=e186]
+          - generic [ref=e187]:
+            - generic [ref=e188]:
+              - link "Open" [ref=e189] [cursor=pointer]:
+                - /url: ""
+                - generic [ref=e190]: Open
+              - link "Closed" [ref=e192] [cursor=pointer]:
+                - /url: ""
+                - generic [ref=e193]: Closed
+            - toolbar "Actions" [ref=e195]:
+              - generic [ref=e196]:
+                - button "Filter by author" [ref=e198] [cursor=pointer]:
+                  - generic [ref=e199]:
+                    - generic [ref=e200]: Author
+                    - generic:
+                      - img
+                - button "Filter by label" [ref=e202] [cursor=pointer]:
+                  - generic [ref=e203]:
+                    - generic [ref=e204]: Labels
+                    - generic:
+                      - img
+                - button "Filter by project" [ref=e206] [cursor=pointer]:
+                  - generic [ref=e207]:
+                    - generic [ref=e208]: Projects
+                    - generic:
+                      - img
+                - button "Filter by milestone" [ref=e210] [cursor=pointer]:
+                  - generic [ref=e211]:
+                    - generic [ref=e212]: Milestones
+                    - generic:
+                      - img
+                - button "Filter by assignees" [ref=e214] [cursor=pointer]:
+                  - generic [ref=e215]:
+                    - generic [ref=e216]: Assignees
+                    - generic:
+                      - img
+                - button "Filter by issue type" [ref=e218] [cursor=pointer]:
+                  - generic [ref=e219]:
+                    - generic [ref=e220]: Types
+                    - generic:
+                      - img
+                - button "Sort by Newest , descending" [ref=e222] [cursor=pointer]:
+                  - generic [ref=e223]:
+                    - generic:
+                      - img
+                    - generic [ref=e224]:
+                      - generic [ref=e225]: Sort by
+                      - text: Newest
+                      - generic [ref=e226]: ", descending"
+                  - generic:
+                    - img
+          - list "Search results" [ref=e227]:
+            - listitem "More information available below." [ref=e230]:
+              - generic [ref=e231]:
+                - heading "Bot enters heartbeat-only mode - no candle processing occurs despite successful initialization" [level=3] [ref=e232]:
+                  - link "Bot enters heartbeat-only mode - no candle processing occurs despite successful initialization" [ref=e233] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues/11957
+                    - generic [ref=e234]: Bot enters heartbeat-only mode - no candle processing occurs despite successful initialization
+                - link "Question Questions - will be closed after some period of inactivity." [ref=e238] [cursor=pointer]:
+                  - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20label%3AQuestion
+                  - generic [ref=e240]: Question
+                  - generic [ref=e241]: Questions - will be closed after some period of inactivity.
+              - generic [ref=e245]:
+                - img [ref=e247]
+                - generic [ref=e250]: "Status: Closed (completed)."
+              - generic [ref=e254]:
+                - generic [ref=e255]:
+                  - generic [ref=e256]: "#11957"
+                  - generic [ref=e257]: In freqtrade/freqtrade;
+                - generic [ref=e258]:
+                  - text: · by
+                  - link "thedelph" [ref=e259] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20author%3Athedelph
+                  - text: was closed
+                  - generic "Jul 9, 2025, 3:42 AM GMT+9" [ref=e260]: on Jul 8, 2025on Jul 9, 2025
+            - listitem "More information available below." [ref=e264]:
+              - generic [ref=e265]:
+                - heading "Add Extended Trading Statistics and DCA Improvements" [level=3] [ref=e266]:
+                  - link "Add Extended Trading Statistics and DCA Improvements" [ref=e267] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues/11285
+                    - generic [ref=e268]: Add Extended Trading Statistics and DCA Improvements
+                - link "Question Questions - will be closed after some period of inactivity." [ref=e272] [cursor=pointer]:
+                  - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20label%3AQuestion
+                  - generic [ref=e274]: Question
+                  - generic [ref=e275]: Questions - will be closed after some period of inactivity.
+              - generic [ref=e279]:
+                - img [ref=e281]
+                - generic [ref=e283]: "Status: Not planned (skipped)."
+              - generic [ref=e287]:
+                - generic [ref=e288]:
+                  - generic [ref=e289]: "#11285"
+                  - generic [ref=e290]: In freqtrade/freqtrade;
+                - generic [ref=e291]:
+                  - text: · by
+                  - link "mroodschild" [ref=e292] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20author%3Amroodschild
+                  - text: was closed
+                  - generic "Jan 26, 2025, 4:31 PM GMT+9" [ref=e293]: on Jan 26, 2025on Jan 26, 2025
+            - listitem "More information available below." [ref=e297]:
+              - generic [ref=e298]:
+                - heading "Can we run multiple bots for different strategies simultaneously? We have a scenario where we need to implement it. Any suggestion is welcome." [level=3] [ref=e299]:
+                  - link "Can we run multiple bots for different strategies simultaneously? We have a scenario where we need to implement it. Any suggestion is welcome." [ref=e300] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues/10634
+                    - generic [ref=e301]: Can we run multiple bots for different strategies simultaneously? We have a scenario where we need to implement it. Any suggestion is welcome.
+                - link "Question Questions - will be closed after some period of inactivity." [ref=e305] [cursor=pointer]:
+                  - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20label%3AQuestion
+                  - generic [ref=e307]: Question
+                  - generic [ref=e308]: Questions - will be closed after some period of inactivity.
+              - generic [ref=e312]:
+                - img [ref=e314]
+                - generic [ref=e317]: "Status: Closed (completed)."
+              - generic [ref=e321]:
+                - generic [ref=e322]:
+                  - generic [ref=e323]: "#10634"
+                  - generic [ref=e324]: In freqtrade/freqtrade;
+                - generic [ref=e325]:
+                  - text: · by
+                  - link "shubhamraut41" [ref=e326] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20author%3Ashubhamraut41
+                  - text: was closed
+                  - generic "Sep 9, 2024, 6:28 PM GMT+9" [ref=e327]: on Sep 9, 2024on Sep 9, 2024
+            - listitem "More information available below." [ref=e331]:
+              - heading "New release 2023.5" [level=3] [ref=e333]:
+                - link "New release 2023.5" [ref=e334] [cursor=pointer]:
+                  - /url: /freqtrade/freqtrade/pull/8697
+                  - generic [ref=e335]: New release 2023.5
+              - generic [ref=e340]:
+                - img [ref=e342]
+                - generic [ref=e344]: "Status: Merged (completed)."
+              - generic [ref=e348]:
+                - generic [ref=e349]:
+                  - text: freqtrade/freqtrade
+                  - generic [ref=e350]: number 8697
+                - generic [ref=e351]:
+                  - generic [ref=e352]: "#8697"
+                  - generic [ref=e353]: In freqtrade/freqtrade;
+                - generic [ref=e354]:
+                  - text: · by
+                  - link "xmatthias" [ref=e355] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20author%3Axmatthias
+                  - text: was closed
+                  - generic "May 29, 2023, 2:59 AM GMT+9" [ref=e356]: on May 28, 2023on May 29, 2023
+            - listitem "More information available below." [ref=e364]:
+              - generic [ref=e365]:
+                - heading "(WIP) - FreqAI Backtesting - fix call to populate_any_indicators" [level=3] [ref=e366]:
+                  - link "(WIP) - FreqAI Backtesting - fix call to populate_any_indicators" [ref=e367] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/pull/7925
+                    - generic [ref=e368]: (WIP) - FreqAI Backtesting - fix call to populate_any_indicators
+                - generic [ref=e370]:
+                  - link "Backtest Issues related backtesting." [ref=e372] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20label%3ABacktest
+                    - generic [ref=e374]: Backtest
+                    - generic [ref=e375]: Issues related backtesting.
+                  - link "freqAI Issues and PR's related to freqAI" [ref=e377] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20label%3AfreqAI
+                    - generic [ref=e379]: freqAI
+                    - generic [ref=e380]: Issues and PR's related to freqAI
+                  - link "WIP Work in progress, do not merge for now" [ref=e382] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20label%3AWIP
+                    - generic [ref=e384]: WIP
+                    - generic [ref=e385]: Work in progress, do not merge for now
+              - generic [ref=e389]:
+                - img [ref=e391]
+                - generic [ref=e393]: "Status: Closed (abandoned)."
+              - generic [ref=e397]:
+                - generic [ref=e398]:
+                  - text: freqtrade/freqtrade
+                  - generic [ref=e399]: number 7925
+                - generic [ref=e400]:
+                  - generic [ref=e401]: "#7925"
+                  - generic [ref=e402]: In freqtrade/freqtrade;
+                - generic [ref=e403]:
+                  - text: · by
+                  - link "wagnercosta" [ref=e404] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20author%3Awagnercosta
+                  - text: was closed
+                  - generic "Jan 4, 2023, 8:00 PM GMT+9" [ref=e405]: on Jan 4, 2023on Jan 4, 2023
+            - listitem "More information available below." [ref=e413]:
+              - generic [ref=e414]:
+                - heading "Swarm of dry-run strategies / proper way to run / possible?" [level=3] [ref=e415]:
+                  - link "Swarm of dry-run strategies / proper way to run / possible?" [ref=e416] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues/4246
+                    - generic [ref=e418]:
+                      - code [ref=e419]: Swarm
+                      - text: of dry-run strategies / proper way to run / possible?
+                - link "Question Questions - will be closed after some period of inactivity." [ref=e423] [cursor=pointer]:
+                  - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20label%3AQuestion
+                  - generic [ref=e425]: Question
+                  - generic [ref=e426]: Questions - will be closed after some period of inactivity.
+              - generic [ref=e430]:
+                - img [ref=e432]
+                - generic [ref=e435]: "Status: Closed (completed)."
+              - generic [ref=e439]:
+                - generic [ref=e440]:
+                  - generic [ref=e441]: "#4246"
+                  - generic [ref=e442]: In freqtrade/freqtrade;
+                - generic [ref=e443]:
+                  - text: · by
+                  - link "sobeit2020" [ref=e444] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20author%3Asobeit2020
+                  - text: was closed
+                  - generic "Feb 5, 2021, 3:49 AM GMT+9" [ref=e445]: on Feb 4, 2021on Feb 5, 2021
+            - listitem "More information available below." [ref=e449]:
+              - generic [ref=e450]:
+                - heading "Multiple use" [level=3] [ref=e451]:
+                  - link "Multiple use" [ref=e452] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues/3265
+                    - generic [ref=e453]: Multiple use
+                - generic [ref=e455]:
+                  - link "Duplicate Duplicate issues - references to the original report are usually in the comments." [ref=e457] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20label%3ADuplicate
+                    - generic [ref=e459]: Duplicate
+                    - generic [ref=e460]: Duplicate issues - references to the original report are usually in the comments.
+                  - link "Question Questions - will be closed after some period of inactivity." [ref=e462] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20label%3AQuestion
+                    - generic [ref=e464]: Question
+                    - generic [ref=e465]: Questions - will be closed after some period of inactivity.
+                  - link "Wont fix / Not a bug" [ref=e467] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20label%3A%22Wont%20fix%20%2F%20Not%20a%20bug%22
+                    - generic [ref=e469]: Wont fix / Not a bug
+              - generic [ref=e474]:
+                - img [ref=e476]
+                - generic [ref=e479]: "Status: Closed (completed)."
+              - generic [ref=e483]:
+                - generic [ref=e484]:
+                  - generic [ref=e485]: "#3265"
+                  - generic [ref=e486]: In freqtrade/freqtrade;
+                - generic [ref=e487]:
+                  - text: · by
+                  - link "akbardwi" [ref=e488] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20author%3Aakbardwi
+                  - text: was closed
+                  - generic "May 8, 2020, 4:04 PM GMT+9" [ref=e489]: on May 8, 2020on May 8, 2020
+            - listitem "More information available below." [ref=e493]:
+              - generic [ref=e494]:
+                - heading "Can't autorun both the trading and telegram bots after server restart" [level=3] [ref=e495]:
+                  - link "Can't autorun both the trading and telegram bots after server restart" [ref=e496] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues/3213
+                    - generic [ref=e497]: Can't autorun both the trading and telegram bots after server restart
+                - generic [ref=e499]:
+                  - link "Install Problems with installation" [ref=e501] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20label%3AInstall
+                    - generic [ref=e503]: Install
+                    - generic [ref=e504]: Problems with installation
+                  - link "Question Questions - will be closed after some period of inactivity." [ref=e506] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20label%3AQuestion
+                    - generic [ref=e508]: Question
+                    - generic [ref=e509]: Questions - will be closed after some period of inactivity.
+              - generic [ref=e513]:
+                - img [ref=e515]
+                - generic [ref=e518]: "Status: Closed (completed)."
+              - generic [ref=e522]:
+                - generic [ref=e523]:
+                  - generic [ref=e524]: "#3213"
+                  - generic [ref=e525]: In freqtrade/freqtrade;
+                - generic [ref=e526]:
+                  - text: · by
+                  - link "advisely" [ref=e527] [cursor=pointer]:
+                    - /url: /freqtrade/freqtrade/issues?q=multiple%20strategies%20simultaneously%20author%3Aadvisely
+                  - text: was closed
+                  - generic "Apr 27, 2020, 3:47 AM GMT+9" [ref=e528]: on Apr 26, 2020on Apr 27, 2020
+  - contentinfo [ref=e530]:
+    - heading "Footer" [level=2] [ref=e531]
+    - generic [ref=e532]:
+      - generic [ref=e533]:
+        - link "GitHub Homepage" [ref=e534] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e535]
+        - generic [ref=e537]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e538]:
+        - heading "Footer navigation" [level=3] [ref=e539]
+        - list "Footer navigation" [ref=e540]:
+          - listitem [ref=e541]:
+            - link "Terms" [ref=e542] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e543]:
+            - link "Privacy" [ref=e544] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e545]:
+            - link "Security" [ref=e546] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e547]:
+            - link "Status" [ref=e548] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e549]:
+            - link "Community" [ref=e550] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e551]:
+            - link "Docs" [ref=e552] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e553]:
+            - link "Contact" [ref=e554] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e555]:
+            - button "Manage cookies" [ref=e557] [cursor=pointer]
+          - listitem [ref=e558]:
+            - button "Do not share my personal information" [ref=e560] [cursor=pointer]

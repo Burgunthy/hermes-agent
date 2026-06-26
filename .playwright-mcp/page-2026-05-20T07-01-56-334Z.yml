@@ -1,0 +1,395 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "BitMEX home - main navigation" [ref=e8] [cursor=pointer]:
+          - /url: /
+          - img "bitmex-logo-white" [ref=e10]
+        - navigation [ref=e11]:
+          - link "Buy Crypto" [ref=e13] [cursor=pointer]:
+            - /url: /buy-crypto
+            - generic [ref=e15]: Buy Crypto
+          - link "Markets" [ref=e17] [cursor=pointer]:
+            - /url: /app/markets
+            - generic [ref=e19]: Markets
+          - link "Trade" [ref=e21] [cursor=pointer]:
+            - /url: /app/trade/XBTUSD
+            - generic [ref=e23]: Trade
+          - link "Tools" [ref=e25] [cursor=pointer]:
+            - /url: /app/leaderboard
+            - generic [ref=e27]: Tools
+          - link "Learn" [ref=e29] [cursor=pointer]:
+            - /url: /blog
+            - generic [ref=e31]: Learn
+          - link "Rewards Hub" [ref=e33] [cursor=pointer]:
+            - /url: /current-promotions
+            - generic [ref=e35]: Rewards Hub
+          - link "More" [ref=e37] [cursor=pointer]:
+            - /url: /affiliates
+            - generic [ref=e39]: More
+        - generic [ref=e40]:
+          - link "Login" [ref=e41] [cursor=pointer]:
+            - /url: /login
+          - link "Sign Up" [ref=e42] [cursor=pointer]:
+            - /url: /app/register
+          - button "Switch to light theme" [ref=e43] [cursor=pointer]:
+            - img [ref=e44]
+          - generic [ref=e48] [cursor=pointer]:
+            - text: English
+            - img [ref=e49]
+    - generic [ref=e53]:
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - link "Blog" [ref=e56] [cursor=pointer]:
+            - /url: /blog
+          - generic [ref=e57]: /
+          - link "Resources" [ref=e58] [cursor=pointer]:
+            - /url: /blog?tab=resources
+          - generic [ref=e59]: /
+          - link "Whale Trader Talks" [ref=e60] [cursor=pointer]:
+            - /url: /blog?tab=resources&subcategory=whale-trader-talks
+          - generic [ref=e61]: /
+          - generic [ref=e62]: Whale... Trader
+        - 'heading "Whale Trader Talks: Meet AOA, a Legendary Korean Trader" [level=1] [ref=e63]'
+        - generic [ref=e64]: 11 June 2025
+        - generic [ref=e65]:
+          - img "Whale-Trader-Talks.png" [ref=e67]
+          - paragraph [ref=e68]: Ever wondered what it’s like to be a whale trader? Welcome to BitMEX Whale Trader Talks – where we cut through the noise to bring you insights from the best in the game.
+          - paragraph [ref=e69]: In this inaugural series, we sit down with the top traders on BitMEX known for making big moves and navigating volatile markets. Learn about their trading journeys, strategies, and the mindset required to win big in crypto.
+          - paragraph [ref=e70]: We're kicking things off with a true legend:AOA. Known for his humble beginnings, the session deep dives into the journey of a trader who started with under 5,000 USDT and, by 2024, reportedly amassed around 300 million USDT in profits.
+          - paragraph [ref=e71]: AOA, a legendary figure in the Korean crypto community, earned his reputation on exchanges like BitMEX. His story is a testament to the raw potential of the crypto markets and what's possible when a trader backs their conviction with skill. Often called a "genius trader" and a "legend," AOA's impact on the industry is undeniable.
+          - paragraph [ref=e72]: Introducing AOA.
+          - paragraph [ref=e73]: Please do a brief intro of yourself!
+          - blockquote [ref=e74]:
+            - paragraph [ref=e75]: Hello everyone, I’m AOA, you can find me on DCinside and Trollbox.
+          - paragraph [ref=e76]: Do people recognise you (AOA) in real life, or is your identity still anonymous to most people around you?
+          - blockquote [ref=e77]:
+            - paragraph [ref=e78]: I don’t really tell people in real life, so only very close people are aware.
+          - paragraph [ref=e79]: Who’s your favourite K-Pop group or member?
+          - blockquote [ref=e80]:
+            - paragraph [ref=e81]: Jang Won-Young and Rei from IVE, and Sullyoon from NMIXX.
+          - paragraph [ref=e82]: Up until your recent comeback, you have been quiet. What have you been up to the past few years?
+          - blockquote [ref=e83]:
+            - paragraph [ref=e84]: Until 2021, my life revolved around online activities. From then, I began touching grass and making the most of real life as well.
+          - paragraph [ref=e85]: What are your interests these days?
+          - blockquote [ref=e86]:
+            - paragraph [ref=e87]: I’m focused on enjoying life – like working on dating or self development.
+          - heading "Personal Journey and Background" [level=4] [ref=e88]
+          - paragraph [ref=e89]: How did you first get into cryptocurrency trading, and what drew you to BitMEX?
+          - blockquote [ref=e90]:
+            - paragraph [ref=e91]: I got into crypto during the first bull market in December 2017 when everyone around me was getting into crypto. When the bear market took over in March 2018, I was looking for ways to profit, which led me to the one and only futures exchange back then – BitMEX.
+          - paragraph [ref=e92]: Starting out with 6 million KRW and reaching where you are now is incredible. What mindset helped you achieve this milestone?
+          - blockquote [ref=e93]:
+            - paragraph [ref=e94]: The key was to keep having doubts about the market. Crypto is already volatile – BTC and ETH are capable of dropping tenfold or twentyfold. If I pulled a blind diamond hand without having any doubts, I wouldn’t be where I am now. I was constantly questioning being in crypto.
+            - paragraph [ref=e95]: My number one rule of thumb is to not fall in love with a specific position.Never go all in.I always manage my risk so that the max loss I see is never more than 30% of my capital.
+          - paragraph [ref=e96]: How do you celebrate after a successful trade or after hitting a major milestone?
+          - blockquote [ref=e97]:
+            - paragraph [ref=e98]: When I’m profiting, I’m occupied with the market so I don’t have time to celebrate. I focus on trading first, and then when the market settles, I eat food that I like, and maybe host small parties.
+          - paragraph [ref=e99]: What was the most expensive purchase you’ve made? And what are some purchases that you regret?
+          - blockquote [ref=e100]:
+            - paragraph [ref=e101]: Bitcoin.
+            - paragraph [ref=e102]: When it comes to services or products, I end up regretting buying top-of-the-line services or products. Price to performance for such things diminish significantly, so I try to stay away from the far high-end products.
+          - paragraph [ref=e103]: What changed the most after your success in trading?
+          - blockquote [ref=e104]:
+            - paragraph [ref=e105]: I got to have some breathing room financially, which was big. I often say that having big bags doesn’t necessarily increase the upper limit of happiness. Rather, it provides a floor for happiness.
+            - paragraph [ref=e106]: I appreciate that I no longer have to worry about financial struggles while trading. There were definitely times as such – I can’t pinpoint exactly when because I was maintaining a 10-20% monthly return for quite a while, and towards the end of the 2018, it became difficult due to the substantial drop in BTC’s price (down to the 3,000 USD range). I only self a sense of relief after I survived through that period and managed to be profitable. I felt confident I could keep doing what I was doing.
+          - paragraph [ref=e107]: What was your biggest mistake in trading, and what did you learn from it?
+          - blockquote [ref=e108]:
+            - paragraph [ref=e109]: I actually have a pretty low hit rate when it comes to coins other than BTC and ETH. It’s a shame that while I’m aware of this, I had times where I got greedy and saw major losses. I felt like repeating the same mistake over and over again.
+          - paragraph [ref=e110]: How do your friends and family feel about your success as a whale trader? Do they understand what you do?
+          - blockquote [ref=e111]:
+            - paragraph [ref=e112]: I think what people think of me depends on my attitude. I try hard not to brag. Bragging or showing off just gives people more reason to think less of me so I try my best to be careful with my words or stay away from such behaviours. Rather than telling people myself that getting to where I am today wasn’t easy, I aim to earn respect through consistent action and demonstration. Being human, I obviously do have my desires to show off from time to time, which made me resort to online communities.
+          - paragraph [ref=e113]: What’s the most ridiculous rumour you've heard about yourself in the crypto community?
+          - blockquote [ref=e114]:
+            - paragraph [ref=e115]: Countless. To start off, I don’t post anything anywhere aside from DCinside and Trollbox. And no, I don’t work for any exchanges. Posts that I had nothing to do with were assumed to be true and spread like wildfire – especially ones with attention grabbing headlines like my current net worth or my purchase of Samsung stock. This made me realise that many news articles in the crypto space are not always factual.
+          - heading "Trading Strategies and BitMEX" [level=4] [ref=e116]
+          - paragraph [ref=e117]: Can you walk us through your typical process for a trade?
+          - blockquote [ref=e118]:
+            - paragraph [ref=e119]: I start off with low leverage chart-based trading. From 2021 though, crypto markets’ correlation with the equity market has gone up due to mainstream adoption, which has affected my accuracy. So I try to follow international headlines as well.
+          - paragraph [ref=e120]: You’ve mentioned relying heavily on technical analysis (9:1 ratio). Why do you prioritise this?
+          - blockquote [ref=e121]:
+            - paragraph [ref=e122]: The reason I prefer technical indicators over reading the news, is based on the thought that significant information or alpha is difficult for a retail trader to have access to, or to notice in a timely manner.
+            - paragraph [ref=e123]: Moreover, when the market is shaky, neutral or positive news doesn’t stop the downtrend. Likewise, with enough buying pressure in the market, bad news is often neglected. That is why I focus on technical analysis.
+          - paragraph [ref=e124]: How do you handle the pressure of managing such a large portfolio?
+          - blockquote [ref=e125]:
+            - paragraph [ref=e126]: I don’t think about my portfolio in terms of its actual monetary value – I try to think of it in terms of proportion relative to my AUM (Assets Under Management).
+            - paragraph [ref=e127]: I would feel more anxious with a position worth $10,000 when my portfolio is $30,000, than when I have a position worth $10 million with a $100 million+ portfolio.
+          - paragraph [ref=e128]: What is your favourite exchange, and why is it BitMEX?
+          - blockquote [ref=e129]:
+            - paragraph [ref=e130]: For real though, BitMEX IS my favorite exchange because it fits my trading style.
+          - paragraph [ref=e131]: BitMEX offers up to 250x leverage. How do you decide when to use high leverage versus low leverage?
+          - blockquote [ref=e132]:
+            - paragraph [ref=e133]: Looking at it from the perspective of my whole portfolio, I use a maximum of 1.5 to 2x leverage.
+          - paragraph [ref=e134]: With regulatory challenges faced by BitMEX in the past, do you think it remains a safe platform for traders?
+          - blockquote [ref=e135]:
+            - paragraph [ref=e136]: When there is a problem with an exchange, it’s difficult for a retail trader to know what’s going on behind the walls. This was the case with FTX.
+            - paragraph [ref=e137]: Rather than placing blind trust on exchanges, I always anticipate potential challenges with exchanges. So I try to disperse my assets as much as possible and avoid putting all my eggs in one basket.
+          - heading "Market Insights" [level=4] [ref=e138]
+          - paragraph [ref=e139]: What’s your outlook on Bitcoin and the broader cryptocurrency market in 2025?
+          - blockquote [ref=e140]:
+            - paragraph [ref=e141]: I focus on analysing shorter time frames so cannot confidently provide an answer. I’m unsure.
+          - paragraph [ref=e142]: Do you believe institutional adoption has fundamentally changed crypto trading dynamics?
+          - blockquote [ref=e143]:
+            - paragraph [ref=e144]: Definitely. I feel like the crypto market is following mainstream market issues more so. It feels more like a US stock market rather than an isolated crypto market nowadays.
+          - paragraph [ref=e145]: Any altcoin you recommend this time around?
+          - blockquote [ref=e146]:
+            - paragraph [ref=e147]: KRW (Korean Won)
+          - paragraph [ref=e148]: Do you follow global macroeconomic events? Which ones?
+          - blockquote [ref=e149]:
+            - paragraph [ref=e150]: U.S. news mostly, such as interest rate decisions.
+          - heading "Community and Education" [level=4] [ref=e151]
+          - paragraph [ref=e152]: Many aspiring traders look up to you. What advice would you give to beginners entering crypto trading today?
+          - blockquote [ref=e153]:
+            - paragraph [ref=e154]: When it comes to trading, there are 8 losers for every 2 winners. Keep this in mind. Trading is not for most people. So refrain from investing amounts that you cannot afford to lose.
+          - paragraph [ref=e155]: Do you think trading success is more about skill or luck?
+          - blockquote [ref=e156]:
+            - paragraph [ref=e157]: Luck certainly plays a role, but trading is a lot to do with skill. People without a built-in trading system can get lucky, but oftentimes lose their money easier. I saw numerous cases of this in the BitMEX Trollbox. Risk management is the skill you want to acquire, not getting the entry point right.
+          - paragraph [ref=e158]: Do you have any trading principles?
+          - blockquote [ref=e159]:
+            - paragraph [ref=e160]: Principles are key. To get the right entry point, you need to take varying approaches depending on the market condition – whereas risk management strategies remain unchanged.
+          - heading "Lifestyle and Philosophy" [level=4] [ref=e161]
+          - paragraph [ref=e162]: Do you have a mantra or a motto?
+          - blockquote [ref=e163]:
+            - paragraph [ref=e164]: Not particularly. But while trading, I always try to not get influenced by FOMO. I’m more scared of FOMO than a fearful market.
+          - paragraph [ref=e165]: What motivates you to keep trading despite having already achieved financial success?
+          - blockquote [ref=e166]:
+            - paragraph [ref=e167]: I see it as climbing up the leaderboard. It also helps with self-realisation.
+          - paragraph [ref=e168]: If not crypto trading, what other career path might have interested you?
+          - blockquote [ref=e169]:
+            - paragraph [ref=e170]: It’s hard to imagine.
+          - paragraph [ref=e171]: Do you have any long-term goals or visions beyond trading?
+          - blockquote [ref=e172]:
+            - paragraph [ref=e173]: Building a happy family is a long-term goal for me.
+          - paragraph [ref=e174]: How do you want people to remember you?
+          - blockquote [ref=e175]:
+            - paragraph [ref=e176]: I want to be remembered as a wise person that was able to fend off temptations.
+          - paragraph [ref=e177]: When you open up a yogurt, do you lick the lid?
+          - blockquote [ref=e178]:
+            - paragraph [ref=e179]: Yup.
+          - paragraph [ref=e180]:
+            - text: The Korean version of this article can be found
+            - link "here" [ref=e181] [cursor=pointer]:
+              - /url: https://blog.secure.prod.bitmex/kr-whale-trader-talks-aoa/
+            - text: .
+          - paragraph [ref=e182]:
+            - generic [ref=e183]: "Disclaimer:"
+            - text: This message has been translated using AI and/or Google Translate. We apologize for any inaccuracies or misunderstandings that may result from the translation.
+            - generic [ref=e184]: "면책사항:"
+            - text: 본 메시지는 인공지능(AI) 또는 Google 번역을 통해 번역되었습니다. 번역 과정에서 발생할 수 있는 부정확하거나 오해의 소지가 있는 내용에 대해 양해 부탁드립니다.
+      - generic [ref=e185]:
+        - link "BitMEX BitMEX 2,411 articles Team BitMEX is a leading crypto derivatives exchange. Since 2014, BitMEX has been at the forefront of crypto innovation—most notably as the original pioneers of the Perpetual Swap." [ref=e186] [cursor=pointer]:
+          - /url: /blog/author/bitmex-team
+          - generic [ref=e187]:
+            - img "BitMEX" [ref=e189]
+            - generic [ref=e191]:
+              - generic [ref=e192]:
+                - heading "BitMEX" [level=2] [ref=e193]
+                - paragraph [ref=e194]: 2,411 articles
+              - paragraph [ref=e195]:
+                - text: Team
+                - text: BitMEX is a leading crypto derivatives exchange. Since 2014, BitMEX has been at the forefront of crypto innovation—most notably as the original pioneers of the Perpetual Swap.
+        - generic [ref=e196]:
+          - generic [ref=e197]:
+            - heading "SHARE POST" [level=2] [ref=e198]
+            - generic [ref=e199]:
+              - link "X (Twitter)" [ref=e200] [cursor=pointer]:
+                - /url: https://twitter.com/intent/tweet?text=Whale%20Trader%20Talks%3A%20Meet%20AOA%2C%20a%20Legendary%20Korean%20Trader&url=https%3A%2F%2Fwww.bitmex.com%2Fblog%2Fwhale-trader-talks-aoa
+                - img "X (Twitter)" [ref=e201]
+              - link "LinkedIn" [ref=e202] [cursor=pointer]:
+                - /url: https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.bitmex.com%2Fblog%2Fwhale-trader-talks-aoa
+                - img "LinkedIn" [ref=e203]
+              - button "Discord" [ref=e204] [cursor=pointer]:
+                - img "Discord" [ref=e205]
+              - link "Reddit" [ref=e206] [cursor=pointer]:
+                - /url: https://reddit.com/submit?url=https%3A%2F%2Fwww.bitmex.com%2Fblog%2Fwhale-trader-talks-aoa&title=Whale%20Trader%20Talks%3A%20Meet%20AOA%2C%20a%20Legendary%20Korean%20Trader
+                - img "Reddit" [ref=e207]
+              - link "Telegram" [ref=e208] [cursor=pointer]:
+                - /url: https://t.me/share/url?url=https%3A%2F%2Fwww.bitmex.com%2Fblog%2Fwhale-trader-talks-aoa&text=Whale%20Trader%20Talks%3A%20Meet%20AOA%2C%20a%20Legendary%20Korean%20Trader
+                - img "Telegram" [ref=e209]
+          - generic [ref=e211]:
+            - heading "WRITTEN BY" [level=2] [ref=e212]
+            - link "BitMEX" [ref=e213] [cursor=pointer]:
+              - /url: /blog/author/bitmex-team
+          - generic [ref=e214]:
+            - heading "TAGS" [level=2] [ref=e215]
+            - generic [ref=e216]:
+              - generic [ref=e217]: trading
+              - generic [ref=e218]: bitmex
+              - generic [ref=e219]: altcoins
+              - generic [ref=e220]: market
+              - generic [ref=e221]: margin
+          - textbox "Search our blog" [ref=e225]
+    - generic [ref=e228]:
+      - generic [ref=e231]:
+        - generic [ref=e232]:
+          - paragraph [ref=e233]: Trade
+          - list [ref=e234]:
+            - listitem [ref=e235]:
+              - link "Derivatives" [ref=e236] [cursor=pointer]:
+                - /url: /app/trade/XBTUSD
+            - listitem [ref=e237]:
+              - link "Spot" [ref=e238] [cursor=pointer]:
+                - /url: /app/trade/XBT_USDT
+            - listitem [ref=e239]:
+              - link "Buy Crypto" [ref=e240] [cursor=pointer]:
+                - /url: /app/buyCrypto
+            - listitem [ref=e241]:
+              - link "Convert" [ref=e242] [cursor=pointer]:
+                - /url: /app/cryptoConverter
+            - listitem [ref=e243]:
+              - link "Mobile" [ref=e244] [cursor=pointer]:
+                - /url: /mobile
+            - listitem [ref=e245]:
+              - link "XBTUSD" [ref=e246] [cursor=pointer]:
+                - /url: /app/trade/XBTUSD
+            - listitem [ref=e247]:
+              - link "ETHUSD" [ref=e248] [cursor=pointer]:
+                - /url: /app/trade/ETHUSD
+            - listitem [ref=e249]:
+              - link "BNBUSD" [ref=e250] [cursor=pointer]:
+                - /url: /app/trade/BNBUSD
+            - listitem [ref=e251]:
+              - link "BMEXUSDT" [ref=e252] [cursor=pointer]:
+                - /url: /app/trade/BMEXUSDT
+        - generic [ref=e253]:
+          - paragraph [ref=e254]: About
+          - list [ref=e255]:
+            - listitem [ref=e256]:
+              - link "Why BitMEX" [ref=e257] [cursor=pointer]:
+                - /url: /why-bitmex
+            - listitem [ref=e258]:
+              - link "Security and Custody" [ref=e259] [cursor=pointer]:
+                - /url: /security-and-custody
+            - listitem [ref=e260]:
+              - link "Compliance" [ref=e261] [cursor=pointer]:
+                - /url: /compliance
+            - listitem [ref=e262]:
+              - link "BMEX Token" [ref=e263] [cursor=pointer]:
+                - /url: /BMEX
+            - listitem [ref=e264]:
+              - link "Careers" [ref=e265] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=e266]:
+              - link "Blog" [ref=e267] [cursor=pointer]:
+                - /url: https://blog.bitmex.com/
+            - listitem [ref=e268]:
+              - link "Legal" [ref=e269] [cursor=pointer]:
+                - /url: /legal
+        - generic [ref=e270]:
+          - paragraph [ref=e271]: Boost
+          - list [ref=e272]:
+            - listitem [ref=e273]:
+              - link "Promotions" [ref=e274] [cursor=pointer]:
+                - /url: /current-promotions
+            - listitem [ref=e275]:
+              - link "Partner" [ref=e276] [cursor=pointer]:
+                - /url: /partners
+            - listitem [ref=e277]:
+              - link "Affiliates" [ref=e278] [cursor=pointer]:
+                - /url: /affiliates
+            - listitem [ref=e279]:
+              - link "Bug Bounty" [ref=e280] [cursor=pointer]:
+                - /url: https://hackerone.com/bitmex
+            - listitem [ref=e281]:
+              - link "TradingView" [ref=e282] [cursor=pointer]:
+                - /url: /tradingview
+        - generic [ref=e283]:
+          - paragraph [ref=e284]: References
+          - list [ref=e285]:
+            - listitem [ref=e286]:
+              - link "API" [ref=e287] [cursor=pointer]:
+                - /url: /our-api
+            - listitem [ref=e288]:
+              - link "Fees" [ref=e289] [cursor=pointer]:
+                - /url: /app/fees
+            - listitem [ref=e290]:
+              - link "Futures Guide" [ref=e291] [cursor=pointer]:
+                - /url: /app/futuresGuide
+            - listitem [ref=e292]:
+              - link "Perpetuals Guide" [ref=e293] [cursor=pointer]:
+                - /url: /app/perpetualContractsGuide
+            - listitem [ref=e294]:
+              - link "Trading on BitMEX" [ref=e295] [cursor=pointer]:
+                - /url: /trading-on-bitmex
+        - generic [ref=e296]:
+          - paragraph [ref=e297]: Support
+          - list [ref=e298]:
+            - listitem [ref=e299]:
+              - link "Contact Support" [ref=e300] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e301]:
+              - link "FAQ" [ref=e302] [cursor=pointer]:
+                - /url: /faq
+            - listitem [ref=e303]:
+              - link "Knowledge Base" [ref=e304] [cursor=pointer]:
+                - /url: https://support.bitmex.com/hc/en-gb
+            - listitem [ref=e305]:
+              - link "PGP Communication" [ref=e306] [cursor=pointer]:
+                - /url: /technical-contact
+            - listitem [ref=e307]:
+              - link "Platform Status" [ref=e308] [cursor=pointer]:
+                - /url: https://status.bitmex.com/
+            - listitem [ref=e309]:
+              - link "Announcements" [ref=e310] [cursor=pointer]:
+                - /url: https://blog.bitmex.com/site_announcement/
+        - generic [ref=e311]:
+          - paragraph [ref=e312]: FOLLOW US
+          - list [ref=e313]:
+            - listitem [ref=e314]:
+              - link "Twitter" [ref=e315] [cursor=pointer]:
+                - /url: https://twitter.com/bitmex
+                - img "twitter" [ref=e317]
+            - listitem [ref=e318]:
+              - link "linkedin" [ref=e319] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/bitmex
+                - img "linkedin" [ref=e321]
+            - listitem [ref=e322]:
+              - link "twitch" [ref=e323] [cursor=pointer]:
+                - /url: https://www.twitch.tv/bitmex_official
+                - img "twitch" [ref=e325]
+            - listitem [ref=e326]:
+              - link "Discord-Logo-White.svg" [ref=e327] [cursor=pointer]:
+                - /url: "https://discord.com/invite/X2jcEX4Csf "
+                - img "Discord-Logo-White.svg" [ref=e329]
+            - listitem [ref=e330]:
+              - link "instagram" [ref=e331] [cursor=pointer]:
+                - /url: https://www.instagram.com/bitmex_dotcom/
+                - img "instagram" [ref=e333]
+            - listitem [ref=e334]:
+              - link "reddit" [ref=e335] [cursor=pointer]:
+                - /url: https://www.reddit.com/r/BitMEX/
+                - img "reddit" [ref=e337]
+            - listitem [ref=e338]:
+              - link "youtube" [ref=e339] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCQ9eXM9P9-f93eeRImPcpUA
+                - img "youtube" [ref=e341]
+            - listitem [ref=e342]:
+              - link "telegram" [ref=e343] [cursor=pointer]:
+                - /url: https://t.me/BitMEX_Announcements
+                - img "telegram" [ref=e345]
+            - listitem [ref=e346]:
+              - link "bitmex" [ref=e347] [cursor=pointer]:
+                - /url: https://www.bitmex.com/communities
+                - img "bitmex" [ref=e349]
+            - listitem [ref=e350]:
+              - link "Frame 61954" [ref=e351] [cursor=pointer]:
+                - /url: https://www.tradingview.com/broker/BitMEX/
+                - img "Frame 61954" [ref=e353]
+      - generic [ref=e354]:
+        - link "BitMEX home - footer" [ref=e356] [cursor=pointer]:
+          - /url: /
+          - img "bitmex-logo-white" [ref=e358]
+        - list [ref=e359]:
+          - listitem [ref=e360]:
+            - link "Terms of Service" [ref=e361] [cursor=pointer]:
+              - /url: /terms
+          - listitem [ref=e362]:
+            - link "Privacy Policy" [ref=e363] [cursor=pointer]:
+              - /url: /privacy-notice
+          - listitem [ref=e364]:
+            - link "Risk Disclosure" [ref=e365] [cursor=pointer]:
+              - /url: /risk-disclosure
+          - listitem [ref=e366]:
+            - link "US Person Definition" [ref=e367] [cursor=pointer]:
+              - /url: /us-person-definition
+  - alert [ref=e368]

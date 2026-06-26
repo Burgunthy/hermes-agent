@@ -1,0 +1,105 @@
+- generic [ref=e2]:
+  - complementary [ref=e3]:
+    - generic [ref=e4]:
+      - img [ref=e6]
+      - generic [ref=e8]: CatchDM
+    - navigation [ref=e9]:
+      - link "Dashboard" [ref=e10] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e11]
+        - text: Dashboard
+      - link "Accounts" [ref=e16] [cursor=pointer]:
+        - /url: /dashboard/accounts
+        - img [ref=e17]
+        - text: Accounts
+      - link "Analytics" [ref=e20] [cursor=pointer]:
+        - /url: /dashboard/analytics
+        - img [ref=e21]
+        - text: Analytics
+      - link "DM Logs" [ref=e23] [cursor=pointer]:
+        - /url: /dashboard/logs
+        - img [ref=e24]
+        - text: DM Logs
+      - link "Settings" [ref=e27] [cursor=pointer]:
+        - /url: /dashboard/settings
+        - img [ref=e28]
+        - text: Settings
+    - paragraph [ref=e32]: CatchDM v1.0
+  - generic [ref=e33]:
+    - banner [ref=e34]:
+      - button "U User" [ref=e35] [cursor=pointer]:
+        - generic [ref=e37]: U
+        - generic [ref=e38]: User
+        - img [ref=e39]
+    - main [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - heading "Dashboard" [level=1] [ref=e45]
+            - paragraph [ref=e46]: Overview of your CatchDM activity
+          - link "Connect Account" [ref=e48] [cursor=pointer]:
+            - /url: /dashboard/accounts
+            - button "Connect Account" [ref=e49]:
+              - img [ref=e50]
+              - text: Connect Account
+        - generic [ref=e51]:
+          - link "Total Accounts" [ref=e52] [cursor=pointer]:
+            - /url: /dashboard/accounts
+            - generic [ref=e54]:
+              - heading "Total Accounts" [level=3] [ref=e55]
+              - img [ref=e57]
+          - link "DMs Sent" [ref=e62] [cursor=pointer]:
+            - /url: /dashboard/analytics
+            - generic [ref=e64]:
+              - heading "DMs Sent" [level=3] [ref=e65]
+              - img [ref=e67]
+          - link "Active Posts" [ref=e71] [cursor=pointer]:
+            - /url: /dashboard/accounts
+            - generic [ref=e73]:
+              - heading "Active Posts" [level=3] [ref=e74]
+              - img [ref=e76]
+          - link "Current Plan" [ref=e81] [cursor=pointer]:
+            - /url: /dashboard/settings
+            - generic [ref=e83]:
+              - heading "Current Plan" [level=3] [ref=e84]
+              - img [ref=e86]
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - heading "This Month's Performance" [level=3] [ref=e93]
+            - paragraph [ref=e94]: DM trend over the last 7 days
+          - link "View full analytics →" [ref=e95] [cursor=pointer]:
+            - /url: /dashboard/analytics
+        - generic [ref=e98]:
+          - link "Manage Accounts Connect or manage your Instagram accounts" [ref=e99] [cursor=pointer]:
+            - /url: /dashboard/accounts
+            - generic [ref=e100]:
+              - img [ref=e102]
+              - generic [ref=e105]:
+                - paragraph [ref=e106]: Manage Accounts
+                - paragraph [ref=e107]: Connect or manage your Instagram accounts
+              - img [ref=e108]
+          - link "View Analytics Track DM performance and engagement" [ref=e110] [cursor=pointer]:
+            - /url: /dashboard/analytics
+            - generic [ref=e111]:
+              - img [ref=e113]
+              - generic [ref=e115]:
+                - paragraph [ref=e116]: View Analytics
+                - paragraph [ref=e117]: Track DM performance and engagement
+              - img [ref=e118]
+          - link "DM Logs Review sent messages and delivery status" [ref=e120] [cursor=pointer]:
+            - /url: /dashboard/logs
+            - generic [ref=e121]:
+              - img [ref=e123]
+              - generic [ref=e126]:
+                - paragraph [ref=e127]: DM Logs
+                - paragraph [ref=e128]: Review sent messages and delivery status
+              - img [ref=e129]
+          - link "Manage Subscription Upgrade or manage your billing" [ref=e131] [cursor=pointer]:
+            - /url: /dashboard/settings
+            - generic [ref=e132]:
+              - img [ref=e134]
+              - generic [ref=e136]:
+                - paragraph [ref=e137]: Manage Subscription
+                - paragraph [ref=e138]: Upgrade or manage your billing
+              - img [ref=e139]
+        - heading "Recent Activity" [level=2] [ref=e143]

@@ -1,0 +1,166 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ollama" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Ollama" [ref=e5]
+      - generic [ref=e6]:
+        - link "Models" [ref=e7] [cursor=pointer]:
+          - /url: /search
+        - link "Docs" [ref=e8] [cursor=pointer]:
+          - /url: /docs
+        - link "Pricing" [ref=e9] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=e13]:
+        - img [ref=e15]
+        - textbox "Search models" [ref=e17]
+      - generic [ref=e18]:
+        - link "Sign in" [ref=e19] [cursor=pointer]:
+          - /url: /signin
+        - link "Download" [ref=e20] [cursor=pointer]:
+          - /url: /download
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - link "lfm2" [ref=e27] [cursor=pointer]:
+        - /url: /library/lfm2
+      - generic [ref=e28]:
+        - paragraph [ref=e30]:
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - generic [ref=e34]: 1.1M
+            - generic [ref=e35]: Downloads
+          - generic "Feb 24, 2026 1:17 AM UTC" [ref=e36]:
+            - img [ref=e37]
+            - generic [ref=e39]: Updated
+            - generic [ref=e40]: 3 months ago
+        - heading "LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient." [level=2] [ref=e42]
+        - generic [ref=e43]:
+          - generic [ref=e44]: tools
+          - generic [ref=e45]: 24b
+    - generic [ref=e46]:
+      - generic [ref=e48]:
+        - generic [ref=e50]:
+          - button "CLI" [ref=e51] [cursor=pointer]
+          - button "cURL" [ref=e52] [cursor=pointer]
+          - button "Python" [ref=e53] [cursor=pointer]
+          - button "JavaScript" [ref=e54] [cursor=pointer]
+        - generic [ref=e55]:
+          - button "Copy" [ref=e57] [cursor=pointer]:
+            - img [ref=e58]
+          - generic [ref=e61]: ollama run lfm2
+      - generic [ref=e62]:
+        - heading "Applications" [level=2] [ref=e63]
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - img "Claude Code" [ref=e68]
+              - generic [ref=e69]:
+                - generic [ref=e70]: Claude Code
+                - code [ref=e71]: ollama launch claude --model lfm2
+            - button "Copy" [ref=e72] [cursor=pointer]:
+              - img [ref=e73]
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - img "Codex App" [ref=e77]
+              - generic [ref=e78]:
+                - generic [ref=e79]: Codex App
+                - code [ref=e80]: ollama launch codex-app --model lfm2
+            - button "Copy" [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+          - generic [ref=e84]:
+            - generic [ref=e85]:
+              - img "OpenClaw" [ref=e86]
+              - generic [ref=e87]:
+                - generic [ref=e88]: OpenClaw
+                - code [ref=e89]: ollama launch openclaw --model lfm2
+            - button "Copy" [ref=e90] [cursor=pointer]:
+              - img [ref=e91]
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - img "Hermes Agent" [ref=e95]
+              - generic [ref=e96]:
+                - generic [ref=e97]: Hermes Agent
+                - code [ref=e98]: ollama launch hermes --model lfm2
+            - button "Copy" [ref=e99] [cursor=pointer]:
+              - img [ref=e100]
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - img "Codex" [ref=e104]
+              - generic [ref=e105]:
+                - generic [ref=e106]: Codex
+                - code [ref=e107]: ollama launch codex --model lfm2
+            - button "Copy" [ref=e108] [cursor=pointer]:
+              - img [ref=e109]
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - img "OpenCode" [ref=e113]
+              - generic [ref=e114]:
+                - generic [ref=e115]: OpenCode
+                - code [ref=e116]: ollama launch opencode --model lfm2
+            - button "Copy" [ref=e117] [cursor=pointer]:
+              - img [ref=e118]
+      - generic [ref=e120]:
+        - generic [ref=e121]:
+          - heading "Models" [level=2] [ref=e122]
+          - link "View all →" [ref=e123] [cursor=pointer]:
+            - /url: /library/lfm2/tags
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - paragraph [ref=e127]: Name
+            - paragraph [ref=e128]: Size / Usage
+            - paragraph [ref=e129]: Context
+            - paragraph [ref=e130]: Input
+          - generic [ref=e131]:
+            - link "lfm2:latest" [ref=e133] [cursor=pointer]:
+              - /url: /library/lfm2:latest
+            - paragraph [ref=e134]: 14GB
+            - paragraph [ref=e135]: 32K
+            - paragraph [ref=e136]: Text
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - link "lfm2:24b" [ref=e139] [cursor=pointer]:
+                - /url: /library/lfm2:24b
+              - generic [ref=e140]: latest
+            - paragraph [ref=e141]: 14GB
+            - paragraph [ref=e142]: 32K
+            - paragraph [ref=e143]: Text
+    - generic [ref=e144]:
+      - heading "Readme" [level=2] [ref=e146]
+      - generic [ref=e148]:
+        - paragraph [ref=e149]:
+          - img "image.png" [ref=e150]
+        - paragraph [ref=e151]: LFM2 is a family of hybrid models designed for on-device deployment. LFM2-24B-A2B is the largest model in the family, scaling the architecture to 24 billion parameters while keeping inference efficient.
+        - list [ref=e152]:
+          - listitem [ref=e153]:
+            - strong [ref=e154]: Best-in-class efficiency
+            - text: ": A 24B MoE model with only 2B active parameters per token, fitting in 32 GB of RAM for deployment on consumer laptops and desktops."
+          - listitem [ref=e155]:
+            - strong [ref=e156]: Fast edge inference
+            - text: ": 112 tok/s decode on AMD CPU, 293 tok/s on H100. Fits in 32B GB of RAM."
+          - listitem [ref=e157]:
+            - strong [ref=e158]: Predictable scaling
+            - text: ": Quality improves log-linearly from 350M to 24B total parameters, confirming the LFM2 hybrid architecture scales reliably across nearly two orders of magnitude."
+        - paragraph [ref=e159]:
+          - img "image.png" [ref=e160]
+  - contentinfo [ref=e161]:
+    - generic [ref=e163]:
+      - generic [ref=e164]: © 2026 Ollama
+      - generic [ref=e165]:
+        - link "Download" [ref=e166] [cursor=pointer]:
+          - /url: /download
+        - link "Blog" [ref=e167] [cursor=pointer]:
+          - /url: /blog
+        - link "Docs" [ref=e168] [cursor=pointer]:
+          - /url: https://docs.ollama.com
+        - link "GitHub" [ref=e169] [cursor=pointer]:
+          - /url: https://github.com/ollama/ollama
+        - link "Discord" [ref=e170] [cursor=pointer]:
+          - /url: https://discord.com/invite/ollama
+        - link "X (Twitter)" [ref=e171] [cursor=pointer]:
+          - /url: https://twitter.com/ollama
+        - link "Contact" [ref=e172] [cursor=pointer]:
+          - /url: mailto:hello@ollama.com
+        - link "Privacy" [ref=e173] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e174] [cursor=pointer]:
+          - /url: /terms

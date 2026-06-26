@@ -1,0 +1,289 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsearch%3Fq%3Drepo%253ANousResearch%252Fhermes-agent%2Brepo%253ANousResearch%252Fhermes-agent%2Bmemory_enabled%2Bhindsight%26type%3Dissues
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Fsearch&source=header
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e61]:
+    - generic [ref=e64]:
+      - heading "issues Search Results · repo:NousResearch/hermes-agent repo:NousResearch/hermes-agent memory_enabled hindsight" [level=1] [ref=e65]
+      - generic [ref=e68]:
+        - generic [ref=e69]:
+          - region "Filter by" [ref=e70]:
+            - heading "Filter by" [level=2] [ref=e71]
+            - list "Filter by" [ref=e76]:
+              - listitem [ref=e77]:
+                - list [ref=e78]:
+                  - listitem [ref=e79]:
+                    - link "Code (...) results" [ref=e80] [cursor=pointer]:
+                      - /url: https://github.com/search?q=repo%3ANousResearch%2Fhermes-agent+repo%3ANousResearch%2Fhermes-agent+memory_enabled+hindsight&type=code
+                      - generic:
+                        - img
+                      - generic [ref=e81]:
+                        - generic [ref=e82]: Code
+                        - generic:
+                          - generic: ...
+                          - generic: (...)
+                          - generic: results
+                  - listitem [ref=e83]:
+                    - link "Repositories results" [ref=e84] [cursor=pointer]:
+                      - /url: https://github.com/search?q=repo%3ANousResearch%2Fhermes-agent+repo%3ANousResearch%2Fhermes-agent+memory_enabled+hindsight&type=repositories
+                      - generic:
+                        - img
+                      - generic [ref=e85]:
+                        - generic [ref=e86]: Repositories
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e87]:
+                    - link "Issues results" [ref=e88] [cursor=pointer]:
+                      - /url: https://github.com/search?q=repo%3ANousResearch%2Fhermes-agent+repo%3ANousResearch%2Fhermes-agent+memory_enabled+hindsight&type=issues
+                      - generic:
+                        - img
+                      - generic [ref=e89]:
+                        - generic [ref=e90]: Issues
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e91]:
+                    - link "Pull requests results" [ref=e92] [cursor=pointer]:
+                      - /url: https://github.com/search?q=repo%3ANousResearch%2Fhermes-agent+repo%3ANousResearch%2Fhermes-agent+memory_enabled+hindsight&type=pullrequests
+                      - generic:
+                        - img
+                      - generic [ref=e93]:
+                        - generic [ref=e94]: Pull requests
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e95]:
+                    - link "Discussions results" [ref=e96] [cursor=pointer]:
+                      - /url: https://github.com/search?q=repo%3ANousResearch%2Fhermes-agent+repo%3ANousResearch%2Fhermes-agent+memory_enabled+hindsight&type=discussions
+                      - generic:
+                        - img
+                      - generic [ref=e97]:
+                        - generic [ref=e98]: Discussions
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e99]:
+                    - link "Users results" [ref=e100] [cursor=pointer]:
+                      - /url: https://github.com/search?q=repo%3ANousResearch%2Fhermes-agent+repo%3ANousResearch%2Fhermes-agent+memory_enabled+hindsight&type=users
+                      - generic:
+                        - img
+                      - generic [ref=e101]:
+                        - generic [ref=e102]: Users
+                        - generic:
+                          - generic: results
+                  - listitem [ref=e103]:
+                    - button "More" [ref=e104] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic [ref=e106]: More
+              - listitem [ref=e107]
+              - listitem [ref=e108]:
+                - heading "State" [level=3] [ref=e110]
+                - list "State" [ref=e111]:
+                  - listitem [ref=e112]:
+                    - link "Open" [ref=e113] [cursor=pointer]:
+                      - /url: https://github.com/search?q=repo%3ANousResearch%2Fhermes-agent+repo%3ANousResearch%2Fhermes-agent+memory_enabled+hindsight&type=issues&state=open
+                      - generic:
+                        - img
+                      - generic "Open" [ref=e117]
+                  - listitem [ref=e118]:
+                    - link "Closed" [ref=e119] [cursor=pointer]:
+                      - /url: https://github.com/search?q=repo%3ANousResearch%2Fhermes-agent+repo%3ANousResearch%2Fhermes-agent+memory_enabled+hindsight&type=issues&state=closed
+                      - generic:
+                        - img
+                      - generic "Closed" [ref=e123]
+                  - listitem [ref=e124]
+              - listitem [ref=e125]:
+                - heading "Advanced" [level=3] [ref=e127]
+                - list "Advanced" [ref=e128]:
+                  - listitem [ref=e129]:
+                    - button "Owner" [ref=e130] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Owner" [ref=e134]
+                  - listitem [ref=e135]:
+                    - button "State" [ref=e136] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "State" [ref=e140]
+                  - listitem [ref=e141]:
+                    - button "Close reason" [ref=e142] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Close reason" [ref=e146]
+                  - listitem [ref=e147]:
+                    - link "Has linked pull request" [ref=e148] [cursor=pointer]:
+                      - /url: https://github.com/search?q=repo%3ANousResearch%2Fhermes-agent+repo%3ANousResearch%2Fhermes-agent+memory_enabled+hindsight+linked%3Apr&type=issues
+                      - generic:
+                        - img
+                      - generic "Has linked pull request" [ref=e152]
+                  - listitem [ref=e153]:
+                    - button "Author" [ref=e154] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Author" [ref=e158]
+                  - listitem [ref=e159]:
+                    - button "Assignee" [ref=e160] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Assignee" [ref=e164]
+                  - listitem [ref=e165]:
+                    - button "Mentioned user" [ref=e166] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Mentioned user" [ref=e170]
+                  - listitem [ref=e171]:
+                    - button "Mentioned team" [ref=e172] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Mentioned team" [ref=e176]
+                  - listitem [ref=e177]:
+                    - button "Commenter" [ref=e178] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Commenter" [ref=e182]
+                  - listitem [ref=e183]:
+                    - button "Involved user" [ref=e184] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Involved user" [ref=e188]
+                  - listitem [ref=e189]:
+                    - button "Label" [ref=e190] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Label" [ref=e194]
+                  - listitem [ref=e195]:
+                    - button "Milestone" [ref=e196] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Milestone" [ref=e200]
+                  - listitem [ref=e201]:
+                    - button "Number of comments" [ref=e202] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of comments" [ref=e206]
+                  - listitem [ref=e207]:
+                    - button "Number of interactions" [ref=e208] [cursor=pointer]:
+                      - generic:
+                        - img
+                      - generic "Number of interactions" [ref=e212]
+              - listitem [ref=e213]
+              - listitem [ref=e214]:
+                - link "Advanced search" [ref=e215] [cursor=pointer]:
+                  - /url: /search/advanced
+                  - generic:
+                    - img
+                  - generic [ref=e217]: Advanced search
+          - slider "Draggable pane splitter" [ref=e219]
+        - generic [ref=e222]:
+          - generic [ref=e223]:
+            - generic [ref=e225]:
+              - generic [ref=e226]:
+                - generic [ref=e227]:
+                  - generic [ref=e228]: 2 results
+                  - generic [ref=e229]: (95 ms)
+                - heading "2 results" [active] [level=2] [ref=e230]
+              - generic [ref=e231]:
+                - 'button "Sort by: Best match" [ref=e233] [cursor=pointer]':
+                  - generic [ref=e235]: "Sort by: Best match"
+                  - generic:
+                    - img
+                - button "Open column options" [ref=e237] [cursor=pointer]:
+                  - img [ref=e238]
+            - generic [ref=e242]:
+              - generic [ref=e243]:
+                - 'heading "NousResearch/hermes-agent [i18n] Thai Translation: Features Part 2b - MCP, Memory, Personality" [level=3] [ref=e244]':
+                  - link "NousResearch/hermes-agent" [ref=e246] [cursor=pointer]:
+                    - /url: /NousResearch/hermes-agent
+                  - generic [ref=e247]:
+                    - img [ref=e249]
+                    - 'link "[i18n] Thai Translation: Features Part 2b - MCP, Memory, Personality" [ref=e252] [cursor=pointer]':
+                      - /url: /NousResearch/hermes-agent/issues/15003
+                - generic [ref=e253]:
+                  - generic [ref=e256]: P3
+                  - generic [ref=e259]: type/docs
+                - list [ref=e260]:
+                  - listitem [ref=e261]: nanobro
+                  - generic [ref=e262]: ·
+                  - listitem [ref=e263]:
+                    - text: Opened
+                    - generic "Apr 24, 2026, 5:52 PM GMT+9" [ref=e264]: 24 days ago
+                  - generic [ref=e265]: ·
+                  - listitem [ref=e266]:
+                    - link "#15003" [ref=e267] [cursor=pointer]:
+                      - /url: /NousResearch/hermes-agent/issues/15003
+              - generic [ref=e268]:
+                - 'heading "NousResearch/hermes-agent Feature: multi-tier memory fan-out (Markdown + provider dual-write, cold-cache wiki layer)" [level=3] [ref=e269]':
+                  - link "NousResearch/hermes-agent" [ref=e271] [cursor=pointer]:
+                    - /url: /NousResearch/hermes-agent
+                  - generic [ref=e272]:
+                    - img [ref=e274]
+                    - 'link "Feature: multi-tier memory fan-out (Markdown + provider dual-write, cold-cache wiki layer)" [ref=e276] [cursor=pointer]':
+                      - /url: /NousResearch/hermes-agent/issues/11144
+                - list [ref=e277]:
+                  - listitem [ref=e278]: dbydd
+                  - generic [ref=e279]: ·
+                  - listitem [ref=e280]:
+                    - img [ref=e282]
+                    - text: "1"
+                  - generic [ref=e284]: ·
+                  - listitem [ref=e285]:
+                    - text: Opened
+                    - generic "Apr 17, 2026, 2:08 AM GMT+9" [ref=e286]: on Apr 17
+                  - generic [ref=e287]: ·
+                  - listitem [ref=e288]:
+                    - link "#11144" [ref=e289] [cursor=pointer]:
+                      - /url: /NousResearch/hermes-agent/issues/11144
+          - generic [ref=e292]:
+            - generic [ref=e293]:
+              - img "Issue origami icon" [ref=e295]
+              - heading "Learn how you can use GitHub Issues to plan and track your work." [level=2] [ref=e296]
+              - generic [ref=e297]: Save views for sprints, backlogs, teams, or releases. Rank, sort, and filter issues to suit the occasion. The possibilities are endless.
+              - link "Learn more about GitHub Issues" [ref=e298] [cursor=pointer]:
+                - /url: https://docs.github.com/issues
+                - text: Learn more about GitHub Issues
+                - img [ref=e299]
+            - generic [ref=e301]:
+              - generic [ref=e302]:
+                - img [ref=e303]
+                - text: ProTip!
+              - text: Restrict your search to the title by using the in:title qualifier.

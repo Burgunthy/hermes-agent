@@ -1,0 +1,348 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Introducing the Polar Startup Program" [ref=e4] [cursor=pointer]:
+      - /url: /startup-program
+      - generic [ref=e5]:
+        - paragraph [ref=e6]: Introducing the Polar Startup Program
+        - img [ref=e7]
+    - generic [ref=e10]:
+      - link [ref=e11] [cursor=pointer]:
+        - /url: /
+        - button [ref=e13]:
+          - img [ref=e15]
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - button "Features" [ref=e26] [cursor=pointer]
+        - listitem [ref=e27]:
+          - button "Docs" [ref=e28] [cursor=pointer]
+        - listitem [ref=e29]:
+          - link "Blog" [ref=e30] [cursor=pointer]:
+            - /url: /blog
+        - listitem [ref=e31]:
+          - link "Company" [ref=e32] [cursor=pointer]:
+            - /url: /company
+      - generic [ref=e33]:
+        - button "Sign in" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: Sign in
+        - button "Get Started" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]:
+            - generic [ref=e38]: Get Started
+            - img
+  - generic [ref=e40]:
+    - generic [ref=e42]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "Turn Usage Into Revenue" [level=1] [ref=e46]
+          - paragraph [ref=e47]: A billing platform for the intelligence era
+          - generic [ref=e48]:
+            - button "Get Started" [ref=e49] [cursor=pointer]:
+              - generic [ref=e50]:
+                - generic [ref=e51]: Get Started
+                - img
+            - link "Why Polar" [ref=e52] [cursor=pointer]:
+              - /url: /resources/why
+              - button "Why Polar" [ref=e53]:
+                - generic [ref=e54]: Why Polar
+        - generic [ref=e56]:
+          - link [ref=e57] [cursor=pointer]:
+            - /url: https://tailwindcss.com
+            - img [ref=e58]
+          - link "Speakeasy Logo" [ref=e61] [cursor=pointer]:
+            - /url: https://speakeasy.com
+            - generic [ref=e62]:
+              - img [ref=e64]
+              - paragraph [ref=e70]: Speakeasy Logo
+              - img [ref=e71]
+          - link [ref=e80] [cursor=pointer]:
+            - /url: https://stilla.ai
+            - img [ref=e81]
+          - link [ref=e83] [cursor=pointer]:
+            - /url: https://midday.ai
+            - img [ref=e84]
+        - generic [ref=e92]:
+          - generic [ref=e98]:
+            - generic [ref=e99]: 01 — Ingest
+            - generic [ref=e101]: Ingest usage & inference on behalf of your users.
+          - generic [ref=e107]:
+            - generic [ref=e108]: 02 — Aggregate
+            - generic [ref=e110]: Transform raw signals into aggregated units.
+          - generic [ref=e116]:
+            - generic [ref=e117]: 03 — Charge
+            - generic [ref=e119]: Generate charges & collect payments automatically.
+      - generic [ref=e120]:
+        - heading "Any pricing model. Ships in an afternoon." [level=1] [ref=e121]:
+          - text: Any pricing model.
+          - text: Ships in an afternoon.
+        - generic [ref=e122]:
+          - link "Usage Billing Meter tokens, API calls, compute, storage. Bill with precision down to the event." [ref=e123] [cursor=pointer]:
+            - /url: /features/usage-billing
+            - generic [ref=e124]:
+              - generic [ref=e125]: Usage Billing
+              - generic [ref=e127]: Meter tokens, API calls, compute, storage. Bill with precision down to the event.
+          - link "Subscriptions Recurring plans with trials, upgrades, proration, and dunning built in." [ref=e131] [cursor=pointer]:
+            - /url: /features/subscriptions
+            - generic [ref=e132]:
+              - generic [ref=e133]: Subscriptions
+              - generic [ref=e135]: Recurring plans with trials, upgrades, proration, and dunning built in.
+          - link "Seats Pricing that scales with your customer's teams. Add, remove, prorate automatically." [ref=e139] [cursor=pointer]:
+            - /url: /features/seats
+            - generic [ref=e140]:
+              - generic [ref=e141]: Seats
+              - generic [ref=e143]: Pricing that scales with your customer's teams. Add, remove, prorate automatically.
+          - link "Credits Prepay and draw down over time, like a wallet for your API." [ref=e147] [cursor=pointer]:
+            - /url: /features/credits
+            - generic [ref=e148]:
+              - generic [ref=e149]: Credits
+              - generic [ref=e151]: Prepay and draw down over time, like a wallet for your API.
+          - link "Trials Free or paid trials with automatic conversion, reminders, and grace periods." [ref=e155] [cursor=pointer]:
+            - /url: /features/trials
+            - generic [ref=e156]:
+              - generic [ref=e157]: Trials
+              - generic [ref=e159]: Free or paid trials with automatic conversion, reminders, and grace periods.
+          - link "Discounts Coupons, promo codes, and volume tiers. Applied automatically at checkout." [ref=e163] [cursor=pointer]:
+            - /url: /features/discounts
+            - generic [ref=e164]:
+              - generic [ref=e165]: Discounts
+              - generic [ref=e167]: Coupons, promo codes, and volume tiers. Applied automatically at checkout.
+      - generic [ref=e177]:
+        - paragraph [ref=e178]:
+          - generic [ref=e179]: Event-based
+          - generic [ref=e180]: usage
+          - generic [ref=e181]: billing.
+          - generic [ref=e182]: Checkouts
+          - generic [ref=e183]: that
+          - generic [ref=e184]: convert.
+          - generic [ref=e185]: Realtime
+          - generic [ref=e186]: metrics.
+          - generic [ref=e187]: Worldwide
+          - generic [ref=e188]: tax
+          - generic [ref=e189]: handled.
+        - paragraph [ref=e190]:
+          - generic [ref=e191]: Polar
+          - generic [ref=e192]: is
+          - generic [ref=e193]: the
+          - generic [ref=e194]: financial
+          - generic [ref=e195]: layer
+          - generic [ref=e196]: for
+          - generic [ref=e197]: a
+          - generic [ref=e198]: new
+          - generic [ref=e199]: generation
+          - generic [ref=e200]: of
+          - generic [ref=e201]: intelligent
+          - generic [ref=e202]: software.
+      - generic [ref=e205]:
+        - generic [ref=e206]:
+          - heading "Built for the people building what's next" [level=2] [ref=e207]
+          - paragraph [ref=e208]: A dashboard that gets out of your way. Track revenue, customers, and checkouts in real time, so you can focus on shipping.
+        - img "Polar dashboard" [ref=e210]
+      - generic [ref=e211]:
+        - generic [ref=e212]:
+          - heading "Built for the shape of AI." [level=1] [ref=e213]
+          - paragraph [ref=e215]: From token-metered APIs to autonomous agents and GPU workloads. Polar fits how modern AI products actually charge.
+        - generic [ref=e216]:
+          - generic [ref=e217]:
+            - button "completions.ts" [ref=e218]
+            - button "agents.ts" [ref=e219]
+            - button "gpu.ts" [ref=e220]
+          - generic [ref=e221]:
+            - generic [ref=e222]:
+              - generic [ref=e223]: AI completions
+              - generic [ref=e225]: Wrap any model from the Vercel AI SDK with the Polar LLMStrategy. Token usage is metered and billed automatically on every call.
+              - link "Read the docs" [ref=e227] [cursor=pointer]:
+                - /url: /docs/features/usage-based-billing/ingestion-strategies/llm-strategy
+                - button "Read the docs" [ref=e228]:
+                  - generic [ref=e229]: Read the docs
+            - generic [ref=e231]: "import { Ingestion } from '@polar-sh/ingestion' import { LLMStrategy } from '@polar-sh/ingestion/strategies/LLM' import { generateText } from 'ai' import { openai } from '@ai-sdk/openai' const llm = Ingestion({ accessToken: process.env.POLAR_ACCESS_TOKEN }) .strategy(new LLMStrategy(openai('gpt-4o'))) .ingest('openai-usage') const { text } = await generateText({ model: llm.client({ customerId: user.id }), prompt, })"
+      - generic [ref=e234]:
+        - link "Guillermo Rauch The speed at which Polar is executing on the financial infrastructure primitives the new world needs is very impressive. Guillermo Rauch Vercel" [ref=e235] [cursor=pointer]:
+          - /url: https://x.com/rauchg/status/1909810055622672851
+          - img "Guillermo Rauch" [ref=e238]
+          - paragraph [ref=e240]: The speed at which Polar is executing on the financial infrastructure primitives the new world needs is very impressive.
+          - generic [ref=e242]:
+            - generic [ref=e243]: Guillermo Rauch
+            - generic [ref=e244]: Vercel
+        - link "Mitchell Hashimoto I've joined Polar as an advisor! I think it benefits everyone for devs to have more options to get paid to work on their passions, to support upstreams, and for users to have more confidence/transparency in the software they're supporting/purchasing. Mitchell Hashimoto Ghostty" [ref=e245] [cursor=pointer]:
+          - /url: https://x.com/mitchellh/status/1775925951668552005
+          - img "Mitchell Hashimoto" [ref=e248]
+          - generic [ref=e249]:
+            - paragraph [ref=e250]: I've joined Polar as an advisor!
+            - paragraph [ref=e251]: I think it benefits everyone for devs to have more options to get paid to work on their passions, to support upstreams, and for users to have more confidence/transparency in the software they're supporting/purchasing.
+          - generic [ref=e253]:
+            - generic [ref=e254]: Mitchell Hashimoto
+            - generic [ref=e255]: Ghostty
+        - link "Lee Black I switched to Polar a few weeks back. Best decision ever. Lee Black 1042 Studio" [ref=e256] [cursor=pointer]:
+          - /url: https://x.com/mrblackstudio/status/1987257923291259224
+          - img "Lee Black" [ref=e259]
+          - paragraph [ref=e261]: I switched to Polar a few weeks back. Best decision ever.
+          - generic [ref=e263]:
+            - generic [ref=e264]: Lee Black
+            - generic [ref=e265]: 1042 Studio
+      - generic [ref=e267]:
+        - generic [ref=e271]:
+          - generic [ref=e272]:
+            - heading "Built to scale with you" [level=2] [ref=e273]
+            - paragraph [ref=e275]: Start free. Upgrade as you grow. Enterprise needs? Let's talk.
+            - generic [ref=e276]:
+              - button "Get Started" [ref=e277] [cursor=pointer]:
+                - generic [ref=e278]:
+                  - generic [ref=e279]: Get Started
+                  - img
+              - link "Contact Sales" [ref=e280] [cursor=pointer]:
+                - /url: mailto:support@polar.sh
+                - button "Contact Sales" [ref=e281]:
+                  - generic [ref=e282]: Contact Sales
+          - generic [ref=e283]:
+            - generic [ref=e285]:
+              - generic [ref=e286]:
+                - generic [ref=e287]:
+                  - heading "Starter" [level=3] [ref=e288]
+                  - paragraph [ref=e290]: Free to start and validate ideas.
+                - generic [ref=e292]: Free
+              - generic [ref=e293]:
+                - paragraph [ref=e294]: Fees
+                - list [ref=e295]:
+                  - listitem [ref=e296]:
+                    - paragraph [ref=e297]: 5.00% + 50¢ per transaction
+              - generic [ref=e298]:
+                - paragraph [ref=e299]: Features
+                - list [ref=e300]:
+                  - listitem [ref=e301]:
+                    - paragraph [ref=e302]: All features to sell
+                  - listitem [ref=e303]:
+                    - paragraph [ref=e304]: Standard Support
+            - generic [ref=e306]:
+              - generic [ref=e307]:
+                - generic [ref=e308]:
+                  - heading "Pro" [level=3] [ref=e309]
+                  - paragraph [ref=e311]: For entrepreneurs & early teams.
+                - generic [ref=e312]:
+                  - generic [ref=e313]: $20
+                  - generic [ref=e314]: /month
+              - generic [ref=e315]:
+                - paragraph [ref=e316]: Fees
+                - list [ref=e317]:
+                  - listitem [ref=e318]:
+                    - paragraph [ref=e319]: 3.80% + 40¢ per transaction
+              - generic [ref=e320]:
+                - paragraph [ref=e321]: Features
+                - list [ref=e322]:
+                  - listitem [ref=e323]:
+                    - paragraph [ref=e324]: All features on Starter
+                  - listitem [ref=e325]:
+                    - paragraph [ref=e326]: Prioritized Support
+            - generic [ref=e328]:
+              - generic [ref=e329]:
+                - generic [ref=e330]:
+                  - heading "Growth" [level=3] [ref=e331]
+                  - paragraph [ref=e333]: For scaling startups.
+                - generic [ref=e334]:
+                  - generic [ref=e335]: $100
+                  - generic [ref=e336]: /month
+              - generic [ref=e337]:
+                - paragraph [ref=e338]: Fees
+                - list [ref=e339]:
+                  - listitem [ref=e340]:
+                    - paragraph [ref=e341]: 3.60% + 35¢ per transaction
+              - generic [ref=e342]:
+                - paragraph [ref=e343]: Features
+                - list [ref=e344]:
+                  - listitem [ref=e345]:
+                    - paragraph [ref=e346]: All features on Pro
+                  - listitem [ref=e347]:
+                    - paragraph [ref=e348]: Prioritized Support
+            - generic [ref=e350]:
+              - generic [ref=e351]:
+                - generic [ref=e352]:
+                  - heading "Scale" [level=3] [ref=e353]
+                  - paragraph [ref=e355]: For fast growing businesses.
+                - generic [ref=e356]:
+                  - generic [ref=e357]: $400
+                  - generic [ref=e358]: /month
+              - generic [ref=e359]:
+                - paragraph [ref=e360]: Fees
+                - list [ref=e361]:
+                  - listitem [ref=e362]:
+                    - paragraph [ref=e363]: 3.40% + 30¢ per transaction
+              - generic [ref=e364]:
+                - paragraph [ref=e365]: Features
+                - list [ref=e366]:
+                  - listitem [ref=e367]:
+                    - paragraph [ref=e368]: All features on Growth
+                  - listitem [ref=e369]:
+                    - paragraph [ref=e370]: Slack Channel
+                  - listitem [ref=e371]:
+                    - paragraph [ref=e372]: P1 Support
+        - link "NEW Startup Program Learn More" [ref=e373] [cursor=pointer]:
+          - /url: /startup-program
+          - generic [ref=e374]:
+            - generic [ref=e375]:
+              - paragraph [ref=e377]: NEW
+              - paragraph [ref=e378]: Startup Program
+            - generic [ref=e379]:
+              - paragraph [ref=e380]: Learn More
+              - img [ref=e381]
+    - generic [ref=e386]:
+      - generic [ref=e387]:
+        - button [ref=e390]:
+          - img [ref=e392]
+        - generic [ref=e401]:
+          - link "Join Polar today" [ref=e402] [cursor=pointer]:
+            - /url: /signup
+            - generic [ref=e403]: Join Polar today
+            - img [ref=e404]
+          - generic [ref=e406]: © Polar Software, Inc. 2026
+      - generic [ref=e407]:
+        - heading "Features" [level=3] [ref=e408]
+        - generic [ref=e409]:
+          - link "Usage Billing" [ref=e410] [cursor=pointer]:
+            - /url: /features/usage-billing
+          - link "Subscriptions" [ref=e411] [cursor=pointer]:
+            - /url: /features/subscriptions
+          - link "Seats" [ref=e412] [cursor=pointer]:
+            - /url: /features/seats
+          - link "Credits" [ref=e413] [cursor=pointer]:
+            - /url: /features/credits
+          - link "Trials" [ref=e414] [cursor=pointer]:
+            - /url: /features/trials
+          - link "Discounts" [ref=e415] [cursor=pointer]:
+            - /url: /features/discounts
+          - link "Cost Insights" [ref=e416] [cursor=pointer]:
+            - /url: /features/cost-insights
+          - link "Finance" [ref=e417] [cursor=pointer]:
+            - /url: /features/finance
+          - link "Merchant of Record" [ref=e418] [cursor=pointer]:
+            - /url: /features/merchant-of-record
+      - generic [ref=e419]:
+        - heading "Resources" [level=3] [ref=e420]
+        - generic [ref=e421]:
+          - link "Why Polar" [ref=e422] [cursor=pointer]:
+            - /url: /resources/why
+          - link "Merchant of Record" [ref=e423] [cursor=pointer]:
+            - /url: /resources/merchant-of-record
+          - link "Pricing" [ref=e424] [cursor=pointer]:
+            - /url: /resources/pricing
+          - link "Downloads" [ref=e425] [cursor=pointer]:
+            - /url: /downloads
+      - generic [ref=e426]:
+        - heading "Company" [level=3] [ref=e427]
+        - generic [ref=e428]:
+          - link "About Polar" [ref=e429] [cursor=pointer]:
+            - /url: /company
+          - link "GitHub" [ref=e430] [cursor=pointer]:
+            - /url: https://github.com/polarsource
+          - link "X / Twitter" [ref=e431] [cursor=pointer]:
+            - /url: https://x.com/polar_sh
+          - link "Brand Assets" [ref=e432] [cursor=pointer]:
+            - /url: https://polar.sh/assets/brand/polar_brand.zip
+          - link "Legal" [ref=e433] [cursor=pointer]:
+            - /url: https://polar.sh/legal
+          - button "Cookie Preferences" [ref=e434]
+      - generic [ref=e435]:
+        - heading "Support" [level=3] [ref=e436]
+        - generic [ref=e437]:
+          - link "Docs" [ref=e438] [cursor=pointer]:
+            - /url: https://polar.sh/docs
+          - link "Contact" [ref=e439] [cursor=pointer]:
+            - /url: mailto:support@polar.sh
+          - link "Service Status" [ref=e440] [cursor=pointer]:
+            - /url: https://status.polar.sh

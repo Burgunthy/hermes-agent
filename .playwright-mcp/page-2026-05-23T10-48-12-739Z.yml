@@ -1,0 +1,281 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to main content" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - link "Cornell University" [ref=e7] [cursor=pointer]:
+        - /url: https://www.cornell.edu/
+        - img "Cornell University" [ref=e8]
+      - link "Learn about arXiv becoming an independent nonprofit." [ref=e10] [cursor=pointer]:
+        - /url: https://tech.cornell.edu/arxiv/
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - text: We gratefully acknowledge support from the Simons Foundation,
+          - link "member institutions" [ref=e13] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/ourmembers.html
+          - text: ", and all contributors."
+        - link "Donate" [ref=e14] [cursor=pointer]:
+          - /url: https://info.arxiv.org/about/donate.html
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - link "arxiv logo" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img "arxiv logo" [ref=e18]
+        - generic [ref=e19]: ">"
+        - link "cs" [ref=e20] [cursor=pointer]:
+          - /url: /list/cs/recent
+        - generic [ref=e21]: ">"
+        - text: arXiv:2604.11138
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - textbox "Search term or terms" [ref=e26]:
+            - /placeholder: Search...
+          - paragraph [ref=e27]:
+            - link "Help" [ref=e28] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+            - text: "|"
+            - link "Advanced Search" [ref=e29] [cursor=pointer]:
+              - /url: https://arxiv.org/search/advanced
+        - combobox "Field to search" [ref=e31]:
+          - option "All fields" [selected]
+          - option "Title"
+          - option "Author"
+          - option "Abstract"
+          - option "Comments"
+          - option "Journal reference"
+          - option "ACM classification"
+          - option "MSC classification"
+          - option "Report number"
+          - option "arXiv identifier"
+          - option "DOI"
+          - option "ORCID"
+          - option "arXiv author ID"
+          - option "Help pages"
+          - option "Full text"
+        - button "Search" [ref=e32] [cursor=pointer]
+  - main [ref=e33]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - heading "Computer Science > Robotics" [level=1] [ref=e38]
+        - generic [ref=e40]:
+          - generic [ref=e41]: "[Submitted on 13 Apr 2026]"
+          - 'heading "ViserDex: Visual Sim-to-Real for Robust Dexterous In-hand Reorientation" [level=1] [ref=e42]'
+          - generic [ref=e43]:
+            - link "Arjun Bhardwaj" [ref=e44] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Bhardwaj,+A
+            - text: ","
+            - link "Maximum Wilder-Smith" [ref=e45] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Wilder-Smith,+M
+            - text: ","
+            - link "Mayank Mittal" [ref=e46] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Mittal,+M
+            - text: ","
+            - link "Vaishakh Patil" [ref=e47] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Patil,+V
+            - text: ","
+            - link "Marco Hutter" [ref=e48] [cursor=pointer]:
+              - /url: https://arxiv.org/search/cs?searchtype=author&query=Hutter,+M
+          - blockquote [ref=e49]:
+            - text: "In-hand object reorientation requires precise estimation of the object pose to handle complex task dynamics. While RGB sensing offers rich semantic cues for pose tracking, existing solutions rely on multi-camera setups or costly ray tracing. We present a sim-to-real framework for monocular RGB in-hand reorientation that integrates 3D Gaussian Splatting (3DGS) to bridge the visual sim-to-real gap. Our key insight is performing domain randomization in the Gaussian representation space: by applying physically consistent, pre-rendering augmentations to 3D Gaussians, we generate photorealistic, randomized visual data for object pose estimation. The manipulation policy is trained using curriculum-based reinforcement learning with teacher-student distillation, enabling efficient learning of complex behaviors. Importantly, both perception and control models can be trained independently on consumer-grade hardware, eliminating the need for large compute clusters. Experiments show that the pose estimator trained with 3DGS data outperforms those trained using conventional rendering data in challenging visual environments. We validate the system on a physical multi-fingered hand equipped with an RGB camera, demonstrating robust reorientation of five diverse objects even under challenging lighting conditions. Our results highlight Gaussian splatting as a practical path for RGB-only dexterous manipulation. For videos of the hardware deployments and additional supplementary materials, please refer to the project website:"
+            - link "this https URL" [ref=e50] [cursor=pointer]:
+              - /url: https://rffr.leggedrobotics.com/works/viserdex/
+          - table "Additional metadata" [ref=e52]:
+            - rowgroup [ref=e53]:
+              - 'row "Subjects: Robotics (cs.RO); Computer Vision and Pattern Recognition (cs.CV)" [ref=e54]':
+                - cell "Subjects:" [ref=e55]
+                - cell "Robotics (cs.RO); Computer Vision and Pattern Recognition (cs.CV)" [ref=e56]
+              - 'row "Cite as: arXiv:2604.11138 [cs.RO]" [ref=e57]':
+                - cell "Cite as:" [ref=e58]
+                - cell "arXiv:2604.11138 [cs.RO]" [ref=e59]:
+                  - generic [ref=e60]:
+                    - link "arXiv:2604.11138" [ref=e61] [cursor=pointer]:
+                      - /url: https://arxiv.org/abs/2604.11138
+                    - text: "[cs.RO]"
+              - row "(or arXiv:2604.11138v1 [cs.RO] for this version)" [ref=e62]:
+                - cell [ref=e63]
+                - cell "(or arXiv:2604.11138v1 [cs.RO] for this version)" [ref=e64]:
+                  - text: (or
+                  - generic [ref=e65]:
+                    - link "arXiv:2604.11138v1" [ref=e66] [cursor=pointer]:
+                      - /url: https://arxiv.org/abs/2604.11138v1
+                    - text: "[cs.RO]"
+                  - text: for this version)
+              - row "https://doi.org/10.48550/arXiv.2604.11138 Focus to learn more" [ref=e67]:
+                - cell [ref=e68]
+                - cell "https://doi.org/10.48550/arXiv.2604.11138 Focus to learn more" [ref=e69]:
+                  - link "https://doi.org/10.48550/arXiv.2604.11138" [ref=e70] [cursor=pointer]:
+                    - /url: https://doi.org/10.48550/arXiv.2604.11138
+                  - button "Focus to learn more" [ref=e72]:
+                    - generic [ref=e74]: Focus to learn more
+        - generic [ref=e75]:
+          - heading "Submission history" [level=2] [ref=e76]
+          - text: "From: Arjun Bhardwaj ["
+          - link "view email" [ref=e77] [cursor=pointer]:
+            - /url: /show-email/99423e7b/2604.11138
+          - text: "]"
+          - strong [ref=e78]: "[v1]"
+          - text: Mon, 13 Apr 2026 07:50:41 UTC (3,863 KB)
+      - generic [ref=e79]:
+        - generic [ref=e80]:
+          - heading "Access Paper:" [level=2] [ref=e81]
+          - list [ref=e82]:
+            - listitem [ref=e83]:
+              - link "View PDF" [ref=e84] [cursor=pointer]:
+                - /url: /pdf/2604.11138
+            - listitem [ref=e85]:
+              - link "HTML (experimental)" [ref=e86] [cursor=pointer]:
+                - /url: https://arxiv.org/html/2604.11138v1
+            - listitem [ref=e87]:
+              - link "TeX Source" [ref=e88] [cursor=pointer]:
+                - /url: /src/2604.11138
+          - link "view license" [ref=e90] [cursor=pointer]:
+            - /url: http://creativecommons.org/licenses/by-nc-nd/4.0/
+            - generic [ref=e91]: view license
+        - generic [ref=e92]:
+          - text: "Current browse context:"
+          - generic [ref=e93]: cs.RO
+          - generic [ref=e94]:
+            - link "< prev" [ref=e96] [cursor=pointer]:
+              - /url: /prevnext?id=2604.11138&function=prev&context=cs.RO
+            - text: "|"
+            - link "next >" [ref=e98] [cursor=pointer]:
+              - /url: /prevnext?id=2604.11138&function=next&context=cs.RO
+          - generic [ref=e99]:
+            - link "new" [ref=e100] [cursor=pointer]:
+              - /url: /list/cs.RO/new
+            - text: "|"
+            - link "recent" [ref=e101] [cursor=pointer]:
+              - /url: /list/cs.RO/recent
+            - text: "|"
+            - link "2026-04" [ref=e102] [cursor=pointer]:
+              - /url: /list/cs.RO/2026-04
+          - generic [ref=e103]:
+            - text: "Change to browse by:"
+            - generic [ref=e104]:
+              - link "cs" [ref=e105] [cursor=pointer]:
+                - /url: /abs/2604.11138?context=cs
+              - link "cs.CV" [ref=e106] [cursor=pointer]:
+                - /url: /abs/2604.11138?context=cs.CV
+        - generic [ref=e107]:
+          - heading "References & Citations" [level=3] [ref=e108]
+          - list [ref=e109]:
+            - listitem [ref=e110]:
+              - link "NASA ADS" [ref=e111] [cursor=pointer]:
+                - /url: https://ui.adsabs.harvard.edu/abs/arXiv:2604.11138
+            - listitem [ref=e112]:
+              - link "Google Scholar" [ref=e113] [cursor=pointer]:
+                - /url: https://scholar.google.com/scholar_lookup?arxiv_id=2604.11138
+            - listitem [ref=e114]:
+              - link "Semantic Scholar" [ref=e115] [cursor=pointer]:
+                - /url: https://api.semanticscholar.org/arXiv:2604.11138
+        - generic [ref=e116]: export BibTeX citation
+        - generic [ref=e117]:
+          - heading "Bookmark" [level=3] [ref=e119]
+          - link "BibSonomy logo" [ref=e120] [cursor=pointer]:
+            - /url: "http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2604.11138&description=ViserDex: Visual Sim-to-Real for Robust Dexterous In-hand Reorientation"
+            - img "BibSonomy logo" [ref=e121]
+          - link "Reddit logo" [ref=e122] [cursor=pointer]:
+            - /url: "https://reddit.com/submit?url=https://arxiv.org/abs/2604.11138&title=ViserDex: Visual Sim-to-Real for Robust Dexterous In-hand Reorientation"
+            - img "Reddit logo" [ref=e123]
+      - generic [ref=e125]:
+        - radio "Bibliographic Tools" [checked] [ref=e126]
+        - generic [ref=e127] [cursor=pointer]: Bibliographic Tools
+        - generic [ref=e128]:
+          - heading "Bibliographic and Citation Tools" [level=1] [ref=e129]
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - generic [ref=e133]:
+                - checkbox "Bibliographic Explorer Toggle"
+                - generic [ref=e135]: Bibliographic Explorer Toggle
+              - generic [ref=e136]:
+                - text: Bibliographic Explorer
+                - emphasis [ref=e137]:
+                  - text: (
+                  - link "What is the Explorer?" [ref=e138] [cursor=pointer]:
+                    - /url: https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer
+                  - text: )
+            - generic [ref=e139]:
+              - generic [ref=e141]:
+                - checkbox "Connected Papers"
+                - generic [ref=e143]: Connected Papers Toggle
+              - generic [ref=e144]:
+                - text: Connected Papers
+                - emphasis [ref=e145]:
+                  - text: (
+                  - link "What is Connected Papers?" [ref=e146] [cursor=pointer]:
+                    - /url: https://www.connectedpapers.com/about
+                  - text: )
+            - generic [ref=e147]:
+              - generic [ref=e149]:
+                - checkbox "Litmaps"
+                - generic [ref=e151]: Litmaps Toggle
+              - generic [ref=e152]:
+                - text: Litmaps
+                - emphasis [ref=e153]:
+                  - text: (
+                  - link "What is Litmaps?" [ref=e154] [cursor=pointer]:
+                    - /url: https://www.litmaps.co/
+                  - text: )
+            - generic [ref=e155]:
+              - generic [ref=e157]:
+                - checkbox "scite Smart Citations"
+                - generic [ref=e159]: scite.ai Toggle
+              - generic [ref=e160]:
+                - text: scite Smart Citations
+                - emphasis [ref=e161]:
+                  - text: (
+                  - link "What are Smart Citations?" [ref=e162] [cursor=pointer]:
+                    - /url: https://www.scite.ai/
+                  - text: )
+        - radio "Code, Data, Media" [ref=e166]
+        - generic [ref=e167] [cursor=pointer]: Code, Data, Media
+        - radio "Demos" [ref=e168]
+        - generic [ref=e169] [cursor=pointer]: Demos
+        - radio "Related Papers" [ref=e170]
+        - generic [ref=e171] [cursor=pointer]: Related Papers
+        - radio "About arXivLabs" [ref=e172]
+        - generic [ref=e173] [cursor=pointer]: About arXivLabs
+      - generic [ref=e174]:
+        - link "Which authors of this paper are endorsers?" [ref=e175] [cursor=pointer]:
+          - /url: /auth/show-endorsers/2604.11138
+        - text: "|"
+        - link "Disable MathJax" [ref=e176] [cursor=pointer]:
+          - /url: javascript:setMathjaxCookie()
+        - text: (
+        - link "What is MathJax?" [ref=e177] [cursor=pointer]:
+          - /url: https://info.arxiv.org/help/mathjax.html
+        - text: )
+  - contentinfo [ref=e178]:
+    - navigation "Secondary" [ref=e179]:
+      - generic [ref=e181]:
+        - list [ref=e183]:
+          - listitem [ref=e184]:
+            - link "About" [ref=e185] [cursor=pointer]:
+              - /url: https://info.arxiv.org/about
+          - listitem [ref=e186]:
+            - link "Help" [ref=e187] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+        - list [ref=e189]:
+          - listitem [ref=e190]:
+            - link "Contact" [ref=e192] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/contact.html
+          - listitem [ref=e193]:
+            - link "Subscribe" [ref=e195] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/subscribe
+      - generic [ref=e197]:
+        - list [ref=e199]:
+          - listitem [ref=e200]:
+            - link "Copyright" [ref=e201] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/license/index.html
+          - listitem [ref=e202]:
+            - link "Privacy Policy" [ref=e203] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/policies/privacy_policy.html
+        - list [ref=e205]:
+          - listitem [ref=e206]:
+            - link "Web Accessibility Assistance" [ref=e207] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/web_accessibility.html
+          - listitem [ref=e208]:
+            - paragraph [ref=e209]:
+              - link "arXiv Operational Status" [ref=e210] [cursor=pointer]:
+                - /url: https://status.arxiv.org
+                - text: arXiv Operational Status

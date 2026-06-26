@@ -1,0 +1,29 @@
+- main [ref=e2]:
+  - img [ref=e3]:
+    - generic [ref=e28]: sciences
+    - generic [ref=e58]: sciences
+  - heading "Oh noes!" [level=1] [ref=e59]
+  - generic [ref=e60]:
+    - img "Sad Anubis" [ref=e61]
+    - paragraph [ref=e62]: "Access Denied: error code 4d1dbaddfcc0f385."
+    - paragraph [ref=e63]:
+      - link "Go home" [ref=e64] [cursor=pointer]:
+        - /url: /
+  - generic [ref=e66]:
+    - paragraph [ref=e67]:
+      - text: Protected by
+      - link "Anubis" [ref=e68] [cursor=pointer]:
+        - /url: https://github.com/TecharoHQ/anubis
+      - text: From
+      - link "Techaro" [ref=e69] [cursor=pointer]:
+        - /url: https://techaro.lol
+      - text: .
+    - paragraph [ref=e70]:
+      - text: Mascot design by
+      - link "CELPHASE" [ref=e71] [cursor=pointer]:
+        - /url: https://bsky.app/profile/celphase.bsky.social
+      - text: .
+    - paragraph [ref=e72]:
+      - text: This website is running Anubis version
+      - code [ref=e73]: devel
+      - text: .

@@ -1,0 +1,614 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "E Earth Rover Challenge" [ref=e4] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e5]: E
+        - generic [ref=e6]: Earth Rover Challenge
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "The challenge" [ref=e9] [cursor=pointer]:
+            - /url: "#challenge"
+        - listitem [ref=e10]:
+          - link "Tracks" [ref=e11] [cursor=pointer]:
+            - /url: "#tracks"
+        - listitem [ref=e12]:
+          - link "Resources" [ref=e13] [cursor=pointer]:
+            - /url: "#resources"
+        - listitem [ref=e14]:
+          - link "Hardware" [ref=e15] [cursor=pointer]:
+            - /url: "#hardware"
+        - listitem [ref=e16]:
+          - link "Schedule" [ref=e17] [cursor=pointer]:
+            - /url: "#schedule"
+        - listitem [ref=e18]:
+          - link "Organizers" [ref=e19] [cursor=pointer]:
+            - /url: "#team"
+        - listitem [ref=e20]:
+          - link "Register" [ref=e21] [cursor=pointer]:
+            - /url: https://forms.gle/YdKAS1Ri7sZgHC3T9
+            - button "Register" [ref=e22]
+  - generic [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]: IROS 2026 · Pittsburgh · Sept 27 — Oct 1
+      - heading "Real-world AI vs Human navigation, in the wild." [level=1] [ref=e27]:
+        - text: Real-world
+        - emphasis [ref=e28]: AI vs Human
+        - text: navigation, in the wild.
+      - paragraph [ref=e29]: A globally distributed competition pitting autonomous policies against expert human teleoperators. Same rovers, same missions, across 10+ cities.
+      - generic [ref=e30]:
+        - link "Register your team →" [ref=e31] [cursor=pointer]:
+          - /url: https://forms.gle/YdKAS1Ri7sZgHC3T9
+        - link "See the brief" [ref=e32] [cursor=pointer]:
+          - /url: "#challenge"
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: Platform
+          - generic [ref=e36]: Earth Rover Mini+
+        - generic [ref=e37]:
+          - generic [ref=e38]: Tracks
+          - generic [ref=e39]: 4 · cross-domain
+        - generic [ref=e40]:
+          - generic [ref=e41]: Edition
+          - generic [ref=e42]: Round 03
+        - generic [ref=e43]:
+          - generic [ref=e44]: Cost
+          - generic [ref=e45]: Free to enter
+    - generic [ref=e47]: IROS 2024 · Abu Dhabi
+  - generic [ref=e50]:
+    - generic [ref=e51]: Same fleet
+    - generic [ref=e53]: Same missions
+    - generic [ref=e55]: 10+ cities
+    - generic [ref=e57]: Open datasets · 2K + 7K hours
+    - generic [ref=e59]: Open-source SDK
+  - generic [ref=e61]:
+    - generic [ref=e62]: The challenge
+    - heading "A globally distributed AI vs human navigation competition. Same fleet, same missions, 14 sites worldwide." [level=2] [ref=e63]
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e67]: Global fleet · 14 sites
+        - generic [ref=e69]:
+          - generic:
+            - generic:
+              - button "2" [ref=e70] [cursor=pointer]:
+                - generic [ref=e71]: "2"
+              - button "4" [ref=e72] [cursor=pointer]:
+                - generic [ref=e73]: "4"
+              - button "2" [ref=e74] [cursor=pointer]:
+                - generic [ref=e75]: "2"
+              - button "4" [ref=e76] [cursor=pointer]:
+                - generic [ref=e77]: "4"
+              - button "4" [ref=e78] [cursor=pointer]:
+                - generic [ref=e79]: "4"
+              - button "2" [ref=e80] [cursor=pointer]:
+                - generic [ref=e81]: "2"
+              - button "2" [ref=e82] [cursor=pointer]:
+                - generic [ref=e83]: "2"
+              - button "1" [ref=e84] [cursor=pointer]:
+                - generic [ref=e85]: "1"
+              - button "2" [ref=e86] [cursor=pointer]:
+                - generic [ref=e87]: "2"
+              - button "2" [ref=e88] [cursor=pointer]:
+                - generic [ref=e89]: "2"
+              - button "2" [ref=e90] [cursor=pointer]:
+                - generic [ref=e91]: "2"
+              - button "2" [ref=e92] [cursor=pointer]:
+                - generic [ref=e93]: "2"
+              - button "1" [ref=e94] [cursor=pointer]:
+                - generic [ref=e95]: "1"
+              - button "4 M" [ref=e96] [cursor=pointer]:
+                - generic [ref=e97]: 4 M
+              - button "4 M" [ref=e98] [cursor=pointer]:
+                - generic [ref=e99]: 4 M
+              - button "VENUE PIT" [ref=e100] [cursor=pointer]:
+                - generic [ref=e101]:
+                  - generic [ref=e102]: VENUE
+                  - generic [ref=e103]: PIT
+          - generic:
+            - generic [ref=e104]:
+              - button "Zoom in" [ref=e105] [cursor=pointer]: +
+              - button "Zoom out" [disabled] [ref=e106]: −
+            - generic [ref=e107]:
+              - link "Leaflet" [ref=e108] [cursor=pointer]:
+                - /url: https://leafletjs.com
+                - img [ref=e109]
+                - text: Leaflet
+              - text: "| © OpenStreetMap, © CARTO"
+        - generic [ref=e113]:
+          - generic [ref=e114]:
+            - generic [ref=e115]: Sites
+            - emphasis [ref=e117]: "14"
+          - generic [ref=e118]:
+            - generic [ref=e119]: Outdoor rovers
+            - generic [ref=e120]: "35"
+          - generic [ref=e121]:
+            - generic [ref=e122]: Indoor / off-road
+            - generic [ref=e123]: "5"
+          - generic [ref=e124]:
+            - generic [ref=e125]:
+              - text: Marathon
+              - emphasis [ref=e126]: (New)
+            - generic [ref=e127]: "03"
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - generic [ref=e130]: "01"
+          - generic [ref=e131]:
+            - heading "The gap is real-world." [level=4] [ref=e132]:
+              - text: The gap is
+              - emphasis [ref=e133]: real-world.
+            - paragraph [ref=e134]: State-of-the-art navigation lives in sim and curated datasets. We test it where it actually matters.
+        - generic [ref=e135]:
+          - generic [ref=e136]: "02"
+          - generic [ref=e137]:
+            - heading "One fleet, many cities." [level=4] [ref=e138]:
+              - text: One fleet,
+              - emphasis [ref=e139]: many cities.
+            - paragraph [ref=e140]:
+              - text: A shared, calibrated rover fleet across
+              - strong [ref=e141]: 14 sites worldwide
+              - text: . Same hardware, same missions, same network.
+        - generic [ref=e142]:
+          - generic [ref=e143]: "03"
+          - generic [ref=e144]:
+            - heading "AI vs human ceiling." [level=4] [ref=e145]:
+              - text: AI
+              - emphasis [ref=e146]: vs
+              - text: human ceiling.
+            - paragraph [ref=e147]: "IROS 2024: top AI 15.4 vs human 42.0. ICRA 2025: 23.78 vs 30.0. The gap is closing fast."
+        - generic [ref=e148]:
+          - generic [ref=e149]: "04"
+          - generic [ref=e150]:
+            - heading "Pittsburgh, on the day." [level=4] [ref=e151]:
+              - text: Pittsburgh,
+              - emphasis [ref=e152]: on the day.
+            - paragraph [ref=e153]: Final round at IROS 2026 — local missions on the venue floor, results scored against the global field.
+  - generic [ref=e155]:
+    - generic [ref=e156]: Tracks
+    - heading "Four tracks. One model to rule them all." [level=2] [ref=e157]:
+      - text: Four tracks.
+      - emphasis [ref=e158]: One model to rule them all.
+    - paragraph [ref=e159]:
+      - text: Mission scoring =
+      - emphasis [ref=e160]: difficulty × time.
+      - text: Highest aggregate wins.
+    - generic [ref=e161]:
+      - article [ref=e162]:
+        - generic [ref=e164]: "01"
+        - generic [ref=e166]:
+          - generic [ref=e167]: Urban · GPS
+          - heading "Urban navigation" [level=3] [ref=e168]
+          - paragraph [ref=e169]: Sidewalks, crossings, pedestrians. GPS waypoints across multiple cities.
+          - button "More details →" [ref=e170] [cursor=pointer]
+      - article [ref=e171]:
+        - generic [ref=e173]: "02"
+        - generic [ref=e175]:
+          - generic [ref=e176]: Indoor · Image
+          - heading "Indoor navigation" [level=3] [ref=e177]
+          - paragraph [ref=e178]: Hallways, atriums, labs. Image-goal driven — no GPS.
+          - button "More details →" [ref=e179] [cursor=pointer]
+      - article [ref=e180]:
+        - generic [ref=e182]: "03"
+        - generic [ref=e184]:
+          - generic [ref=e185]: Off-road · Image
+          - heading "Off-road terrain" [level=3] [ref=e186]
+          - paragraph [ref=e187]: Trails, slopes, gravel. Unstructured natural terrain.
+          - button "More details →" [ref=e188] [cursor=pointer]
+      - article [ref=e189]:
+        - generic [ref=e191]: "04"
+        - generic [ref=e193]:
+          - generic [ref=e194]: New · Endurance
+          - heading "The marathon" [level=3] [ref=e195]
+          - paragraph [ref=e196]: Cross-domain endurance — urban → indoor → off-road, single policy.
+          - button "More details →" [ref=e197] [cursor=pointer]
+    - generic [ref=e198]:
+      - generic [ref=e199]:
+        - generic [ref=e200]: 01 · Mission
+        - heading "Reach the checkpoint" [level=4] [ref=e201]
+        - paragraph [ref=e202]:
+          - text: Within
+          - strong [ref=e203]: 15 m
+          - text: GPS tolerance. Each mission scores its difficulty rating (1–10).
+      - generic [ref=e204]:
+        - generic [ref=e205]: 02 · Score
+        - heading "Aggregate points" [level=4] [ref=e206]
+        - paragraph [ref=e207]:
+          - text: Sum of difficulty ratings across all completed missions.
+          - strong [ref=e208]: Highest aggregate wins.
+      - generic [ref=e209]:
+        - generic [ref=e210]: 03 · Tiebreaker
+        - heading "Time on shared missions" [level=4] [ref=e211]
+        - paragraph [ref=e212]:
+          - text: Lowest
+          - strong [ref=e213]: cumulative completion time
+          - text: across shared missions wins ties.
+  - generic [ref=e215]:
+    - generic [ref=e216]: Resources
+    - heading "Dataset, SDK and real-world evaluation — free for all participating teams, released ahead of the venue." [level=2] [ref=e217]
+    - generic [ref=e218]:
+      - article [ref=e219]:
+        - generic [ref=e222]:
+          - generic [ref=e223]: 01 · Datasets
+          - heading "FrodoBots‑2K + Berkeley‑FrodoBots‑7K" [level=3] [ref=e224]
+          - paragraph [ref=e225]:
+            - text: Two open datasets of in-the-wild human-teleoperated drives across 10+ cities.
+            - strong [ref=e226]: FrodoBots-2K
+            - text: (~2,000 hours) is the curated subset used in the MBRA paper.
+            - strong [ref=e227]: Berkeley-FrodoBots-7K
+            - text: (~7,000 hours) is the full set, reannotated with MBRA for higher-fidelity action labels.
+          - generic [ref=e228]:
+            - link "FrodoBots-2K →" [ref=e229] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/frodobots/FrodoBots-2K
+            - link "Berkeley-FrodoBots-7K →" [ref=e230] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/frodobots/Berkeley-FrodoBots-7K
+      - article [ref=e231]:
+        - generic [ref=e234]:
+          - generic [ref=e235]: 02 · SDK
+          - heading "Remote Access SDK" [level=3] [ref=e236]
+          - paragraph [ref=e237]: Host your model on your own compute. Stream front camera in, control commands out. GPS + map exposed.
+          - link "View on GitHub →" [ref=e238] [cursor=pointer]:
+            - /url: https://github.com/frodobots-org/earth-rovers-sdk
+      - article [ref=e239]:
+        - generic [ref=e242]:
+          - generic [ref=e243]: 03 · Real-world eval
+          - heading "Real-world eval at remote sites" [level=3] [ref=e244]
+          - paragraph [ref=e245]:
+            - text: Up to
+            - strong [ref=e246]: 20 hours/week
+            - text: of pre-event testing across multiple cities. Bot-walker support, identical to venue conditions.
+          - generic [ref=e247]: Allocations open with registration →
+  - generic [ref=e249]:
+    - generic [ref=e250]: Hardware
+    - heading "Earth Rover Mini+ — a standardized 4WD teleop chassis with cameras, GPS, IMU and 4G. All compute is off-board." [level=2] [ref=e251]
+    - generic [ref=e252]:
+      - generic [ref=e255]:
+        - heading "Earth Rover Mini+" [level=3] [ref=e256]
+        - generic [ref=e257]: Standardized competition rover
+      - generic [ref=e258]:
+        - heading "Spec sheet" [level=4] [ref=e259]
+        - generic [ref=e260]:
+          - generic [ref=e261]: Drive
+          - generic [ref=e262]: 4WD · turn-in-place
+        - generic [ref=e263]:
+          - generic [ref=e264]: Cameras
+          - generic [ref=e265]: Front + Rear
+        - generic [ref=e266]:
+          - generic [ref=e267]: Localization
+          - generic [ref=e268]: GPS · IMU
+        - generic [ref=e269]:
+          - generic [ref=e270]: Comms
+          - generic [ref=e271]: 4G LTE
+        - generic [ref=e272]:
+          - generic [ref=e273]: Compute
+          - generic [ref=e274]: Off-board · no limit
+        - generic [ref=e275]:
+          - generic [ref=e276]: Stream rate
+          - generic [ref=e277]: ~20 Hz · ~500 ms latency
+        - generic [ref=e278]:
+          - generic [ref=e279]: Action space
+          - generic [ref=e280]: Fwd · Bwd · L · R
+        - generic [ref=e281]:
+          - generic [ref=e282]: Fleet
+          - generic [ref=e283]: 10+ cities
+  - generic [ref=e285]:
+    - generic [ref=e286]: Schedule
+    - heading "Two days of competition in Pittsburgh, Sept 30 — Oct 1, 2026, at the David L. Lawrence Convention Center." [level=2] [ref=e287]
+    - generic [ref=e288]:
+      - generic [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]: Day 01 · Sept 30
+          - heading "Practice + Rounds 1–4" [level=4] [ref=e292]
+          - generic [ref=e293]: Remote urban · off-road · indoor
+        - list [ref=e294]:
+          - listitem [ref=e295]:
+            - generic [ref=e296]: 09:00
+            - generic [ref=e297]: Connectivity & model testing
+          - listitem [ref=e298]:
+            - generic [ref=e299]: 10:00
+            - generic [ref=e300]:
+              - strong [ref=e301]: Round 01
+              - text: — Remote Urban
+          - listitem [ref=e302]:
+            - generic [ref=e303]: 11:00
+            - generic [ref=e304]:
+              - strong [ref=e305]: Round 02
+              - text: — Remote Urban
+          - listitem [ref=e306]:
+            - generic [ref=e307]: 12:00
+            - generic [ref=e308]: Lunch
+          - listitem [ref=e309]:
+            - generic [ref=e310]: 14:00
+            - generic [ref=e311]:
+              - strong [ref=e312]: Round 03
+              - text: — Off-Road
+          - listitem [ref=e313]:
+            - generic [ref=e314]: 15:00
+            - generic [ref=e315]:
+              - strong [ref=e316]: Round 04
+              - text: — Indoor
+      - generic [ref=e317]:
+        - generic [ref=e318]:
+          - generic [ref=e319]: Day 02 · Oct 1
+          - heading "Final rounds + awards" [level=4] [ref=e320]
+          - generic [ref=e321]: Local missions · trophy
+        - list [ref=e322]:
+          - listitem [ref=e323]:
+            - generic [ref=e324]: 09:00
+            - generic [ref=e325]: Connectivity recheck
+          - listitem [ref=e326]:
+            - generic [ref=e327]: 10:00
+            - generic [ref=e328]:
+              - strong [ref=e329]: Round 05
+              - text: — Remote Urban
+          - listitem [ref=e330]:
+            - generic [ref=e331]: 11:00
+            - generic [ref=e332]:
+              - strong [ref=e333]: Round 06
+              - text: — Remote Urban
+          - listitem [ref=e334]:
+            - generic [ref=e335]: 12:00
+            - generic [ref=e336]: Lunch
+          - listitem [ref=e337]:
+            - generic [ref=e338]: 14:00
+            - generic [ref=e339]:
+              - strong [ref=e340]: Final round
+              - text: — Local missions, IROS venue
+          - listitem [ref=e341]:
+            - generic [ref=e342]: 16:00
+            - generic [ref=e343]:
+              - strong [ref=e344]: Awards
+              - text: "& wrap-up"
+  - generic [ref=e346]:
+    - generic [ref=e347]: Benchmark
+    - heading "AI is closing the gap against humans." [level=2] [ref=e348]:
+      - text: AI is closing the gap
+      - emphasis [ref=e349]: against humans.
+    - paragraph [ref=e350]: Top AI score per edition, as a fraction of the all-time top human run. The bar fills toward the human ceiling.
+    - generic [ref=e351]:
+      - generic [ref=e352]:
+        - iframe [ref=e353]:
+          - generic [active] [ref=f1e1]:
+            - generic "YouTube Video Player" [ref=f1e3]
+            - generic [ref=f1e6]:
+              - generic:
+                - generic:
+                  - button "Hide player controls" [ref=f1e7] [cursor=pointer]
+                  - generic [ref=f1e9]:
+                    - generic:
+                      - generic [ref=f1e12]:
+                        - generic [ref=f1e14]:
+                          - generic [ref=f1e15]:
+                            - link "EarthRover Challenge 2024 in Abu Dhabi!" [ref=f1e16] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=B9J9Ld77s5o
+                            - link "FrodoBots" [ref=f1e17] [cursor=pointer]:
+                              - /url: /channel/UCYTWaYN7a2sCPwG0WSNl3Yg
+                              - generic [ref=f1e18]: FrodoBots
+                          - generic [ref=f1e19]:
+                            - button [ref=f1e20] [cursor=pointer]
+                            - generic [ref=f1e22]:
+                              - generic: FrodoBots
+                              - generic: 2.09K subscribers
+                        - generic [ref=f1e23]:
+                          - button "Unmute" [ref=f1e25] [cursor=pointer]:
+                            - img "Unmute" [ref=f1e26]
+                          - button "Subtitles/CC turned off" [ref=f1e29] [cursor=pointer]:
+                            - generic [ref=f1e32]:
+                              - img
+                          - button "Playback Settings" [ref=f1e34] [cursor=pointer]:
+                            - generic [ref=f1e37]:
+                              - img
+                      - generic [ref=f1e39]:
+                        - button "Previous video" [ref=f1e41] [cursor=pointer]
+                        - button "Rewind 10 seconds" [ref=f1e44] [cursor=pointer]
+                        - button "Pause video" [ref=f1e46] [cursor=pointer]:
+                          - generic [ref=f1e49]:
+                            - img
+                        - button "Fast forward 10 seconds" [ref=f1e50] [cursor=pointer]
+                        - button "Next video" [disabled] [ref=f1e52] [cursor=pointer]
+                    - generic:
+                      - generic:
+                        - generic [ref=f1e58]:
+                          - generic [ref=f1e59]:
+                            - text: 0:00
+                            - generic [ref=f1e60]: Time elapsed
+                          - text: /
+                          - generic [ref=f1e61]:
+                            - text: 1:43
+                            - generic [ref=f1e62]: Time duration 1 minute, 43 seconds
+                        - button "Enter full screen" [ref=f1e66] [cursor=pointer]
+                    - slider "Seek slider" [ref=f1e70] [cursor=pointer]
+                    - generic:
+                      - generic [ref=f1e78]:
+                        - button "Share" [ref=f1e82] [cursor=pointer]:
+                          - generic [ref=f1e86]:
+                            - img
+                        - generic [ref=f1e90]:
+                          - button "More videos" [ref=f1e93] [cursor=pointer]:
+                            - generic [ref=f1e94]: More videos
+                          - link "Watch on YouTube" [ref=f1e101] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=B9J9Ld77s5o
+                            - img [ref=f1e105]:
+                              - generic [ref=f1e107]:
+                                - img
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - link:
+                                    - /url: https://www.youtube.com/watch?v=1rNCOCuhEfg&feature=endscreen
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic: 0:43
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link "EarthRover Mini+ Info 9 months ago":
+                                          - /url: https://www.youtube.com/watch?v=1rNCOCuhEfg&feature=endscreen
+                                          - heading "EarthRover Mini+ Info" [level=3]
+                                          - generic:
+                                            - generic:
+                                              - generic: 9 months ago
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - link:
+                                    - /url: https://www.youtube.com/watch?v=Dbw1yQ7o8ro&feature=endscreen
+                                    - generic:
+                                      - generic:
+                                        - generic:
+                                          - generic: 0:34
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - link "Earth Rovers - Driving Season 1 (100,000 FBPs to give out by 31 July, 2024) 2 years ago":
+                                          - /url: https://www.youtube.com/watch?v=Dbw1yQ7o8ro&feature=endscreen
+                                          - heading "Earth Rovers - Driving Season 1 (100,000 FBPs to give out by 31 July, 2024)" [level=3]
+                                          - generic:
+                                            - generic:
+                                              - generic: 2 years ago
+        - generic [ref=e354]: Previous edition · highlights
+      - generic [ref=e355]:
+        - generic [ref=e356]:
+          - generic [ref=e357]: All-time human ceiling
+          - generic [ref=e358]: 100%
+        - generic [ref=e359]:
+          - generic [ref=e360]:
+            - heading "IROS 2026 · Pittsburgh" [level=4] [ref=e361]
+            - generic [ref=e362]: Open · Oct 2026
+          - generic [ref=e366]: TBD
+          - generic [ref=e367]: Your model goes here.
+        - generic [ref=e368]:
+          - generic [ref=e369]:
+            - heading "ICRA 2025 · Atlanta" [level=4] [ref=e370]
+            - generic [ref=e371]: May 2025
+          - generic [ref=e375]: 57%
+          - generic [ref=e376]:
+            - text: "Top AI:"
+            - strong [ref=e377]: National University of Singapore
+            - text: — closing in on the human ceiling.
+        - generic [ref=e378]:
+          - generic [ref=e379]:
+            - heading "IROS 2024 · Abu Dhabi" [level=4] [ref=e380]
+            - generic [ref=e381]: Oct 2024
+          - generic [ref=e385]: 37%
+          - generic [ref=e386]:
+            - text: "Top AI:"
+            - strong [ref=e387]: Seoul National University
+            - text: . Top human (
+            - strong [ref=e388]: masterchi_
+            - text: ) set the ceiling this edition.
+  - generic [ref=e390]:
+    - generic [ref=e391]: Co-organizers
+    - generic [ref=e392]:
+      - generic [ref=e393]:
+        - img "Chen Feng" [ref=e395]
+        - generic [ref=e396]:
+          - heading "Chen Feng" [level=5] [ref=e397]
+          - generic [ref=e398]: New York University
+      - generic [ref=e399]:
+        - img "Xuesu Xiao" [ref=e401]
+        - generic [ref=e402]:
+          - heading "Xuesu Xiao" [level=5] [ref=e403]
+          - generic [ref=e404]: George Mason University
+      - generic [ref=e405]:
+        - img "Michael Cho" [ref=e407]
+        - generic [ref=e408]:
+          - heading "Michael Cho" [level=5] [ref=e409]
+          - generic [ref=e410]: FrodoBots
+      - generic [ref=e411]:
+        - img "David Hsu" [ref=e413]
+        - generic [ref=e414]:
+          - heading "David Hsu" [level=5] [ref=e415]
+          - generic [ref=e416]: National University of Singapore
+      - generic [ref=e417]:
+        - img "Dhruv Shah" [ref=e419]
+        - generic [ref=e420]:
+          - heading "Dhruv Shah" [level=5] [ref=e421]
+          - generic [ref=e422]: Princeton University
+      - generic [ref=e423]:
+        - img "Joanne Truong" [ref=e425]
+        - generic [ref=e426]:
+          - heading "Joanne Truong" [level=5] [ref=e427]
+          - generic [ref=e428]: Meta AI
+      - generic [ref=e429]:
+        - img "Ted Xiao" [ref=e431]
+        - generic [ref=e432]:
+          - heading "Ted Xiao" [level=5] [ref=e433]
+          - generic [ref=e434]: Project Prometheus
+      - generic [ref=e435]:
+        - img "Naoki Yokoyama" [ref=e437]
+        - generic [ref=e438]:
+          - heading "Naoki Yokoyama" [level=5] [ref=e439]
+          - generic [ref=e440]: Georgia Tech
+      - generic [ref=e441]:
+        - img "Wenhao Yu" [ref=e443]
+        - generic [ref=e444]:
+          - heading "Wenhao Yu" [level=5] [ref=e445]
+          - generic [ref=e446]: Google DeepMind
+      - generic [ref=e447]:
+        - img "Tingnan Zhang" [ref=e449]
+        - generic [ref=e450]:
+          - heading "Tingnan Zhang" [level=5] [ref=e451]
+          - generic [ref=e452]: Google DeepMind
+      - generic [ref=e453]:
+        - img "Dinesh Manocha" [ref=e455]
+        - generic [ref=e456]:
+          - heading "Dinesh Manocha" [level=5] [ref=e457]
+          - generic [ref=e458]: University of Maryland
+      - generic [ref=e459]:
+        - img "Santiago Pravisani" [ref=e461]
+        - generic [ref=e462]:
+          - heading "Santiago Pravisani" [level=5] [ref=e463]
+          - generic [ref=e464]: FrodoBots
+  - generic [ref=e466]:
+    - generic [ref=e467]: Made possible by
+    - link "BitRobot" [ref=e469] [cursor=pointer]:
+      - /url: https://bitrobot.ai
+      - img "BitRobot" [ref=e471]
+  - contentinfo [ref=e472]:
+    - generic [ref=e473]:
+      - generic [ref=e474]:
+        - generic [ref=e475]:
+          - generic [ref=e476]: E
+          - generic [ref=e477]: Earth Rover Challenge
+        - heading "IROS 2026 · Pittsburgh" [level=4] [ref=e478]
+        - paragraph [ref=e479]: A globally distributed in-the-wild navigation competition.
+      - generic [ref=e480]:
+        - heading "The challenge" [level=5] [ref=e481]
+        - list [ref=e482]:
+          - listitem [ref=e483]:
+            - link "Overview" [ref=e484] [cursor=pointer]:
+              - /url: "#challenge"
+          - listitem [ref=e485]:
+            - link "Tracks" [ref=e486] [cursor=pointer]:
+              - /url: "#tracks"
+          - listitem [ref=e487]:
+            - link "Hardware" [ref=e488] [cursor=pointer]:
+              - /url: "#hardware"
+          - listitem [ref=e489]:
+            - link "Schedule" [ref=e490] [cursor=pointer]:
+              - /url: "#schedule"
+      - generic [ref=e491]:
+        - heading "Resources" [level=5] [ref=e492]
+        - list [ref=e493]:
+          - listitem [ref=e494]:
+            - link "FrodoBots-2K ↗" [ref=e495] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/frodobots/FrodoBots-2K
+          - listitem [ref=e496]:
+            - link "Berkeley-FrodoBots-7K ↗" [ref=e497] [cursor=pointer]:
+              - /url: https://huggingface.co/datasets/frodobots/Berkeley-FrodoBots-7K
+          - listitem [ref=e498]:
+            - link "Remote Access SDK ↗" [ref=e499] [cursor=pointer]:
+              - /url: https://github.com/frodobots-org/earth-rovers-sdk
+          - listitem [ref=e500]:
+            - link "Register" [ref=e501] [cursor=pointer]:
+              - /url: https://forms.gle/YdKAS1Ri7sZgHC3T9
+          - listitem [ref=e502]:
+            - link "Contact" [ref=e503] [cursor=pointer]:
+              - /url: mailto:michael.cho@frodobots.com
+    - generic [ref=e504]:
+      - generic [ref=e505]: © 2026 Earth Rover Challenge · IROS 2026
+      - generic [ref=e506]: Pittsburgh · Sept 27 — Oct 1, 2026

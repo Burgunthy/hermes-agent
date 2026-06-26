@@ -1,0 +1,203 @@
+- generic [ref=e4]:
+  - navigation [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - generic [ref=e12] [cursor=pointer]:
+          - generic [ref=e13]: Play
+          - generic [ref=e14]: 
+        - generic [ref=e15] [cursor=pointer]:
+          - generic [ref=e16]: Buy
+          - generic [ref=e17]: 
+        - link "Datasets" [ref=e18] [cursor=pointer]:
+          - /url: https://huggingface.co/datasets/frodobots/FrodoBots-2K
+          - generic [ref=e19]: Datasets
+        - link "AI Competition" [ref=e20] [cursor=pointer]:
+          - /url: https://sites.google.com/view/the-earth-rover-challenge/home
+          - generic [ref=e21]: AI Competition
+        - text: 
+      - link "Buy Now" [ref=e22] [cursor=pointer]:
+        - /url: https://shop.frodobots.com
+        - generic [ref=e23]: Buy Now
+    - generic [ref=e24] [cursor=pointer]:
+      - generic [ref=e26]: apps
+      - generic [ref=e27]: 
+    - generic [ref=e29]: FrodoBots AI
+  - generic [ref=e32]:
+    - generic [ref=e35]:
+      - text: Crowdsourcing real-world datasets with robotic
+      - generic [ref=e36]:
+        - complementary
+        - text: gaming.
+    - generic [ref=e37]: Creating fun gaming experiences with real-life robots.
+  - generic [ref=e45]: Embodied AI will be solved by gamers.
+  - generic [ref=e46]:
+    - generic [ref=e48]:
+      - generic [ref=e49]: Gaming For Real
+      - generic [ref=e50]: "\"Robotic Gaming\" can be its own thing."
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e53]: Levelling up IRL
+          - generic [ref=e54]: We believe with the right game design, any challenges involving tele-operated robots can be turned into a fun experience for gamers.
+        - generic [ref=e55]:
+          - generic [ref=e56]: Gamers from Anywhere
+          - generic [ref=e57]: With a low-latency network system & browser-based controls, gamers everywhere can take part in our robotic gaming titles.
+      - link "Try Earth Rovers" [ref=e58] [cursor=pointer]:
+        - /url: /earth-rovers
+        - generic [ref=e59]: Try Earth Rovers
+    - generic [ref=e67]:
+      - generic [ref=e68]: Robots For Everyone
+      - generic [ref=e69]: Lowering the bar so everyone can contribute.
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - generic [ref=e72]: Incentivising with Tokens
+          - generic [ref=e73]: Well-designed tokenomics can facilitate the buildout of a globally distributed network of robots, while sharing the rewards arising from the network with each participant.
+        - generic [ref=e74]:
+          - generic [ref=e75]: Low-cost Robots
+          - generic [ref=e76]: By rethinking robots as toys, we can drastically lower the production cost of each robot unit, hence allowing a much bigger community of robot owners to form around the world.
+      - link "Buy an Earth Rover" [ref=e77] [cursor=pointer]:
+        - /url: https://shop.frodobots.com
+        - generic [ref=e78]: Buy an Earth Rover
+    - generic [ref=e80]:
+      - generic [ref=e81]: Solving Embodied AGI
+      - generic [ref=e82]: Training Embodied AI with gamers' action labels.
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - generic [ref=e85]: Gaming as tele-operations
+          - generic [ref=e86]: Much like how Tesla builds its Autopilot feature by learning from drivers' actions, we too will leverage on gamers' actions as training data for embodied foundational models.
+        - generic [ref=e87]:
+          - generic [ref=e88]: Engaging the research community
+          - generic [ref=e89]: We want to open-source much of our work (eg. datasets, hardware designs, robot control SDK, etc) and work closely with the research community in our common pursuit of Embodied AGI.
+      - link "About our Datasets" [ref=e90] [cursor=pointer]:
+        - /url: https://huggingface.co/datasets/frodobots/FrodoBots-2K
+        - generic [ref=e91]: About our Datasets
+  - generic [ref=e95]:
+    - generic [ref=e96]: Gaming Titles
+    - generic [ref=e98]: Robots + Gaming = FUN!
+    - generic [ref=e99]: We currently have 2 gaming titles under different stages of development.
+  - generic [ref=e100]:
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e103]: Solving Robotic Navigation
+        - generic [ref=e105]:
+          - text: Earth Rovers
+          - generic [ref=e106]: (Public Beta)
+        - generic [ref=e107]:
+          - generic [ref=e108]:
+            - generic [ref=e109]: It's like Mario Kart, but IRL
+            - generic [ref=e110]: Gamers remotely control their own sidewalk robots in a worldwide scavenger hunt game.
+          - generic [ref=e111]:
+            - generic [ref=e112]: Sidewalk Robots
+            - generic [ref=e113]: Earth Rovers act as both a real-world robotic dataset collection initiative as well as a global testing platform for AI researchers to deploy & test their latest AI navigation models.
+        - link "Play Now!" [ref=e114] [cursor=pointer]:
+          - /url: /earth-rovers
+          - generic [ref=e115]: Play Now!
+      - iframe [ref=e118]:
+        - generic [active] [ref=f3e1]:
+          - generic "YouTube Video Player" [ref=f3e3]
+          - generic [ref=f3e5]:
+            - generic:
+              - generic:
+                - button "Play video" [ref=f3e10] [cursor=pointer]
+                - button "Hide player controls" [ref=f3e12] [cursor=pointer]
+                - generic [ref=f3e14]:
+                  - generic [ref=f3e19]:
+                    - generic [ref=f3e20]:
+                      - link "Earth Rovers - Drive to Earn Game with Sidewalk Robots" [ref=f3e21] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=yZVflvg4kBw
+                      - link "FrodoBots" [ref=f3e22] [cursor=pointer]:
+                        - /url: /channel/UCYTWaYN7a2sCPwG0WSNl3Yg
+                        - generic [ref=f3e23]: FrodoBots
+                    - generic [ref=f3e24]:
+                      - button [ref=f3e25] [cursor=pointer]
+                      - generic [ref=f3e27]:
+                        - generic: FrodoBots
+                        - generic: 2.09K subscribers
+                  - generic [ref=f3e28]:
+                    - button "Share" [ref=f3e31] [cursor=pointer]:
+                      - generic [ref=f3e35]:
+                        - img
+                    - link "Watch on YouTube" [ref=f3e42] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=yZVflvg4kBw
+                      - generic [ref=f3e45]:
+                        - text: Watch on
+                        - img [ref=f3e47]:
+                          - generic [ref=f3e49]:
+                            - img
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - generic [ref=e121]: Solving Robotic Manipulation
+        - generic [ref=e123]:
+          - text: Octo Arms
+          - generic [ref=e124]: (Invite Only)
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - generic [ref=e127]: 3D Puzzle Games
+            - generic [ref=e128]: Gamers remotely control various types of robotic arms using low-cost tele-operation controllers and complete various 3D puzzles & competitions.
+          - generic [ref=e129]:
+            - generic [ref=e130]: Robotic Arms
+            - generic [ref=e131]: Octo Arms act as both a real-world robotic dataset collection initiative as well as a global testing platform for AI researchers to deploy & test their latest AI manipulation models.
+        - link "Join Waitlist" [ref=e132] [cursor=pointer]:
+          - /url: https://forms.gle/5S8Q96Wx3RzFewM28
+          - generic [ref=e133]: Join Waitlist
+      - iframe [ref=e136]:
+        - generic [active] [ref=f4e1]:
+          - generic "YouTube Video Player" [ref=f4e3]
+          - generic [ref=f4e5]:
+            - generic:
+              - generic:
+                - button "Play video" [ref=f4e10] [cursor=pointer]
+                - button "Hide player controls" [ref=f4e12] [cursor=pointer]
+                - generic [ref=f4e14]:
+                  - generic [ref=f4e19]:
+                    - generic [ref=f4e20]:
+                      - link "Octo Arms V0.1 Demo (x1 speed)" [ref=f4e21] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=tMJMYKaox7w
+                      - link "FrodoBots" [ref=f4e22] [cursor=pointer]:
+                        - /url: /channel/UCYTWaYN7a2sCPwG0WSNl3Yg
+                        - generic [ref=f4e23]: FrodoBots
+                    - generic [ref=f4e24]:
+                      - button [ref=f4e25] [cursor=pointer]
+                      - generic [ref=f4e27]:
+                        - generic: FrodoBots
+                        - generic: 2.09K subscribers
+                  - generic [ref=f4e28]:
+                    - button "Share" [ref=f4e31] [cursor=pointer]:
+                      - generic [ref=f4e35]:
+                        - img
+                    - link "Watch on YouTube" [ref=f4e42] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=tMJMYKaox7w
+                      - generic [ref=f4e45]:
+                        - text: Watch on
+                        - img [ref=f4e47]:
+                          - generic [ref=f4e49]:
+                            - img
+  - generic [ref=e137]:
+    - generic [ref=e139]: A message from the cofounder
+    - blockquote [ref=e142]:
+      - paragraph [ref=e143]:
+        - text: FAQ about FrodoBots
+        - link "https://t.co/lZ8ZnGH4JB" [ref=e144] [cursor=pointer]:
+          - /url: https://t.co/lZ8ZnGH4JB
+      - text: — Michael Cho (@micoolcho)
+      - link "May 6, 2024" [ref=e145] [cursor=pointer]:
+        - /url: https://twitter.com/micoolcho/status/1787396940495527990?ref_src=twsrc%5Etfw
+  - generic [ref=e146]:
+    - generic [ref=e147]: Join the party
+    - generic [ref=e148]: Are you a gamer, AI researcher, or robot enthusiast?
+    - link "Try Earth Rovers" [ref=e149] [cursor=pointer]:
+      - /url: /earth-rovers
+      - generic [ref=e150]: Try Earth Rovers
+  - generic [ref=e151]:
+    - generic [ref=e153]: ©2024 FrodoBots AI
+    - generic [ref=e154]:
+      - link "Datasets" [ref=e155] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e156]: Datasets
+      - link "AI Competition" [ref=e157] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e158]: AI Competition
+      - link "Discord" [ref=e159] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e160]: Discord
+    - link "Back to top" [ref=e162] [cursor=pointer]:
+      - /url: "#top_of_page"

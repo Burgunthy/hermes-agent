@@ -1,0 +1,408 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "QuantPedia" [ref=e4] [cursor=pointer]:
+        - /url: https://quantpedia.com/
+        - img "QuantPedia" [ref=e5]
+      - text:  
+      - navigation [ref=e6]:
+        - generic [ref=e7]:
+          - link "Pricing" [ref=e8] [cursor=pointer]:
+            - /url: /pricing/
+          - link "Product" [ref=e9] [cursor=pointer]:
+            - /url: /screener/
+          - link "How it works" [ref=e10] [cursor=pointer]:
+            - /url: /how-it-works/
+          - link "About" [ref=e11] [cursor=pointer]:
+            - /url: /quantpedia-mission/
+          - link "Blog" [ref=e12] [cursor=pointer]:
+            - /url: /blog/
+          - link "Resources" [ref=e13] [cursor=pointer]:
+            - /url: /resources/
+          - link "Consulting" [ref=e14] [cursor=pointer]:
+            - /url: /quant-consulting-services/
+          - link "Awards" [ref=e15] [cursor=pointer]:
+            - /url: /quantpedia-awards-2026/
+      - generic [ref=e16]:
+        - link "Sign Up" [ref=e17] [cursor=pointer]:
+          - /url: https://quantpedia.com/pricing/
+        - button "Log In" [ref=e18] [cursor=pointer]
+  - generic [ref=e22]:
+    - heading "Quantpedia - The Encyclopedia of Algorithmic and Quantitative Trading Strategies" [level=1] [ref=e23]
+    - generic [ref=e24]: Turn Academic Research Into Your Trading Advantage
+  - generic [ref=e27]:
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - heading "Save your time" [level=5] [ref=e30]
+        - paragraph [ref=e32]:
+          - text: We’ve already read
+          - strong [ref=e33]:
+            - link "hundreds of thousands of financial research papers" [ref=e34] [cursor=pointer]:
+              - /url: https://quantpedia.com/how-it-works/
+      - generic [ref=e35]:
+        - heading "Get trading ideas" [level=5] [ref=e36]
+        - paragraph [ref=e38]:
+          - text: We've identified
+          - strong [ref=e39]:
+            - link "more than 1000 attractive trading systems" [ref=e40] [cursor=pointer]:
+              - /url: https://quantpedia.com/screener/
+          - text: together with hundreds of related academic papers
+      - generic [ref=e41]:
+        - heading "Choose your strategy" [level=5] [ref=e42]
+        - list [ref=e44]:
+          - listitem [ref=e45]:
+            - text: •
+            - strong [ref=e46]:
+              - link "Market timing" [ref=e47] [cursor=pointer]:
+                - /url: https://quantpedia.com/screener/?FilterKeywords=market+timing
+            - text: and
+            - strong [ref=e48]:
+              - link "trend following" [ref=e49] [cursor=pointer]:
+                - /url: https://quantpedia.com/screener/?FilterKeywords=trend-following
+          - listitem [ref=e50]:
+            - text: •
+            - strong [ref=e51]:
+              - link "Asset allocation" [ref=e52] [cursor=pointer]:
+                - /url: https://quantpedia.com/screener/?FilterKeywords=asset+class+picking
+            - text: and
+            - strong [ref=e53]:
+              - link "stock picking" [ref=e54] [cursor=pointer]:
+                - /url: https://quantpedia.com/screener/?FilterKeywords=stock+picking
+          - listitem [ref=e55]:
+            - text: •
+            - strong [ref=e56]:
+              - link "Equities" [ref=e57] [cursor=pointer]:
+                - /url: https://quantpedia.com/screener/?FilterMarkets=equities
+            - text: ","
+            - strong [ref=e58]:
+              - link "bonds" [ref=e59] [cursor=pointer]:
+                - /url: https://quantpedia.com/screener/?FilterMarkets=bonds
+            - text: ","
+            - strong [ref=e60]:
+              - link "commodities" [ref=e61] [cursor=pointer]:
+                - /url: https://quantpedia.com/screener/?FilterMarkets=commodities
+            - text: or
+            - strong [ref=e62]:
+              - link "FX" [ref=e63] [cursor=pointer]:
+                - /url: https://quantpedia.com/screener/?FilterMarkets=currencies
+    - generic [ref=e65]:
+      - generic [ref=e67]:
+        - img [ref=e69]
+        - img [ref=e71]
+        - img [ref=e73]
+      - generic [ref=e74]:
+        - button [ref=e75] [cursor=pointer]
+        - button [ref=e76] [cursor=pointer]
+        - button [ref=e77] [cursor=pointer]
+  - generic [ref=e80]:
+    - generic [ref=e82]: How do we create strategies
+    - img [ref=e84]
+    - generic [ref=e349]:
+      - generic [ref=e350]:
+        - generic [ref=e351]:
+          - generic [ref=e352]: "1"
+          - img [ref=e353]
+        - paragraph [ref=e355]:
+          - text: We are
+          - strong [ref=e356]:
+            - link "continually building a database" [ref=e357] [cursor=pointer]:
+              - /url: /screener/
+          - text: of ideas for quantitative trading strategies derived out of the academic research papers.
+      - generic [ref=e358]:
+        - generic [ref=e359]:
+          - generic [ref=e360]: "2"
+          - img [ref=e361]
+        - paragraph [ref=e363]:
+          - text: We read a lot of papers, select the best and
+          - strong [ref=e364]:
+            - link "extract trading rules" [ref=e365] [cursor=pointer]:
+              - /url: /screener/
+          - text: in plain language, performance and risk characteristics and various other descriptive attributes.
+      - generic [ref=e366]:
+        - generic [ref=e367]:
+          - generic [ref=e368]: "3"
+          - img [ref=e369]
+        - paragraph [ref=e371]:
+          - strong [ref=e372]:
+            - link "Selected strategies" [ref=e373] [cursor=pointer]:
+              - /url: /screener/
+          - text: are then added into the existing Quantpedia structure. Users can screen categorized strategies, examine related strategies or review visualized comparisons.
+    - img "quantpedia identify data" [ref=e375]
+  - generic [ref=e377]:
+    - generic [ref=e380]: Testimonials
+    - generic [ref=e381]:
+      - generic [ref=e382]:
+        - paragraph [ref=e383]: Quantpedia has curated an impressive collection of strategies based on academic research, covering styles, industries and asset classes from around the world. It is a valuable resource to any financial institution seeking to improve their understanding.
+        - paragraph [ref=e384]:
+          - link "Jared Broad QuantConnect CEO & Founder" [ref=e385] [cursor=pointer]:
+            - /url: https://www.quantconnect.com/
+            - text: Jared Broad
+            - text: QuantConnect
+            - text: CEO & Founder
+      - generic [ref=e386]:
+        - paragraph [ref=e387]: Quantpedia provides plenty of inspiration. I'm continually impressed with how the site is kept up to date with fresh strategies and features. The team do not sugarcoat anything. They present all the important facts so you can quickly understand a strategy and get to work.
+        - paragraph [ref=e388]:
+          - link "J. B. Marwood independent trader, investor & writer" [ref=e389] [cursor=pointer]:
+            - /url: https://decodingmarkets.com
+            - text: J. B. Marwood
+            - text: independent trader,
+            - text: investor & writer
+      - generic [ref=e390]:
+        - paragraph [ref=e391]: A very useful tool for quantitative portfolio managers to get new ideas for tactical asset allocation strategies.
+        - paragraph [ref=e392]:
+          - link "Igor Vilcek VUB Generali Chief Investment Officer" [ref=e393] [cursor=pointer]:
+            - /url: https://www.vubgenerali.sk/dochodkove-fondy/nase-dochodkove-fondy/klasik/
+            - text: Igor Vilcek
+            - text: VUB Generali
+            - text: Chief Investment Officer
+    - generic [ref=e395]:
+      - paragraph [ref=e396]:
+        - text: Top finance institutions in Wall Street are using Quantpedia.
+        - link "See our customers" [ref=e397] [cursor=pointer]:
+          - /url: https://quantpedia.com/references/
+      - heading "\"A Guide Through the Investing Maze\" as featured in" [level=4] [ref=e398]:
+        - link "\"A Guide Through the Investing Maze\" as featured in" [ref=e399] [cursor=pointer]:
+          - /url: https://www.barrons.com/articles/SB50001424053111904797004577277442318130020
+          - text: "\"A Guide Through the Investing Maze\" as featured in"
+          - img [ref=e400]
+  - generic [ref=e403]:
+    - generic [ref=e404]:
+      - generic [ref=e405]: See examples!
+      - generic [ref=e406]: Browse our free strategies
+    - table [ref=e409]:
+      - rowgroup [ref=e410]:
+        - row "Title of Strategy Period of Rebalancing Markets Traded Indicative Performance Volatility Keywords" [ref=e411]:
+          - columnheader "Title of Strategy" [ref=e412]
+          - columnheader "Period of Rebalancing" [ref=e413]
+          - columnheader "Markets Traded" [ref=e414]
+          - columnheader "Indicative Performance" [ref=e415]
+          - columnheader "Volatility" [ref=e416]
+          - columnheader "Keywords" [ref=e417]
+      - rowgroup [ref=e418]:
+        - row "Asset Class Trend-Following Monthly bonds, commodities, equities, REITs 11.27% 6.87% asset class picking, momentum, trend-following" [ref=e419]:
+          - cell "Asset Class Trend-Following" [ref=e420]:
+            - link "Asset Class Trend-Following" [ref=e421] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/asset-class-trend-following/
+          - cell "Monthly" [ref=e422]:
+            - link "Monthly" [ref=e423] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/asset-class-trend-following/
+          - cell "bonds, commodities, equities, REITs" [ref=e424]:
+            - link "bonds, commodities, equities, REITs" [ref=e425] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/asset-class-trend-following/
+          - cell "11.27%" [ref=e426]:
+            - link "11.27%" [ref=e427] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/asset-class-trend-following/
+          - cell "6.87%" [ref=e428]:
+            - link "6.87%" [ref=e429] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/asset-class-trend-following/
+          - cell "asset class picking, momentum, trend-following" [ref=e430]:
+            - link "asset class picking, momentum, trend-following" [ref=e431] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/asset-class-trend-following/
+        - row "Time Series Momentum Effect Monthly bonds, commodities, currencies, equities 20.7% 15.74% factor investing, momentum, smart beta" [ref=e432]:
+          - cell "Time Series Momentum Effect" [ref=e433]:
+            - link "Time Series Momentum Effect" [ref=e434] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/time-series-momentum-effect/
+          - cell "Monthly" [ref=e435]:
+            - link "Monthly" [ref=e436] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/time-series-momentum-effect/
+          - cell "bonds, commodities, currencies, equities" [ref=e437]:
+            - link "bonds, commodities, currencies, equities" [ref=e438] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/time-series-momentum-effect/
+          - cell "20.7%" [ref=e439]:
+            - link "20.7%" [ref=e440] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/time-series-momentum-effect/
+          - cell "15.74%" [ref=e441]:
+            - link "15.74%" [ref=e442] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/time-series-momentum-effect/
+          - cell "factor investing, momentum, smart beta" [ref=e443]:
+            - link "factor investing, momentum, smart beta" [ref=e444] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/time-series-momentum-effect/
+        - row "Payday Anomaly Daily equities 2.57% 4.31% market timing, seasonality" [ref=e445]:
+          - cell "Payday Anomaly" [ref=e446]:
+            - link "Payday Anomaly" [ref=e447] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/payday-anomaly/
+          - cell "Daily" [ref=e448]:
+            - link "Daily" [ref=e449] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/payday-anomaly/
+          - cell "equities" [ref=e450]:
+            - link "equities" [ref=e451] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/payday-anomaly/
+          - cell "2.57%" [ref=e452]:
+            - link "2.57%" [ref=e453] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/payday-anomaly/
+          - cell "4.31%" [ref=e454]:
+            - link "4.31%" [ref=e455] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/payday-anomaly/
+          - cell "market timing, seasonality" [ref=e456]:
+            - link "market timing, seasonality" [ref=e457] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/payday-anomaly/
+        - row "Skewness Effect in Commodities Monthly commodities 8.01% 10.2% factor investing, smart beta, volatility effect" [ref=e458]:
+          - cell "Skewness Effect in Commodities" [ref=e459]:
+            - link "Skewness Effect in Commodities" [ref=e460] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/skewness-effect-in-commodities/
+          - cell "Monthly" [ref=e461]:
+            - link "Monthly" [ref=e462] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/skewness-effect-in-commodities/
+          - cell "commodities" [ref=e463]:
+            - link "commodities" [ref=e464] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/skewness-effect-in-commodities/
+          - cell "8.01%" [ref=e465]:
+            - link "8.01%" [ref=e466] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/skewness-effect-in-commodities/
+          - cell "10.2%" [ref=e467]:
+            - link "10.2%" [ref=e468] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/skewness-effect-in-commodities/
+          - cell "factor investing, smart beta, volatility effect" [ref=e469]:
+            - link "factor investing, smart beta, volatility effect" [ref=e470] [cursor=pointer]:
+              - /url: https://quantpedia.com/strategies/skewness-effect-in-commodities/
+    - link "Browse Strategies " [ref=e472] [cursor=pointer]:
+      - /url: https://quantpedia.com/screener/
+      - text: Browse Strategies
+      - generic [ref=e473]: 
+  - generic [ref=e476]:
+    - generic [ref=e478]: Quantpedia Prime
+    - paragraph [ref=e480]:
+      - text: Designed specifically for aspiring quants and individual investors,
+      - link "Quantpedia Prime" [ref=e481] [cursor=pointer]:
+        - /url: /pricing/
+      - text: offers access to ideas for
+      - link "100+ essential systematic trading and investing strategies" [ref=e482] [cursor=pointer]:
+        - /url: /screener/?screener_tab=screener-classic&FilterSubscription=Only+Prime
+      - text: . It’s oriented mainly towards tactical asset allocation, market timing, and seasonality strategies that are easy to understand and replicate. Additionally, it grants access to a few necessary simple and user-friendly modeling tools that help with portfolio construction.
+    - img "quantpedia prime" [ref=e485]
+  - generic [ref=e488]:
+    - generic [ref=e490]: Quantpedia Premium
+    - paragraph [ref=e492]:
+      - text: Quantpedia database has
+      - link "~70 free strategies" [ref=e493] [cursor=pointer]:
+        - /url: /screener/?screener_tab=screener-classic&FilterSubscription=Only+Free
+      - text: ", and Quantpedia Premium is a product for more adept quants, who will get unrestricted access to our Screener and, therefore,"
+      - link "access to all ideas for less-known/unique Quantpedia Premium strategies (900+)" [ref=e494] [cursor=pointer]:
+        - /url: /screener/?screener_tab=screener-classic&FilterSubscription=Only+Premium
+      - text: ", together with the extracted description, trading rules, risk and return characteristics, links to source academic papers, and out-of-sample implementation in python code. Additionally, users will have access to the same essential portfolio modeling tools as in the case of Quantpedia Prime."
+    - img "quantpedia premium" [ref=e497]
+  - generic [ref=e500]:
+    - generic [ref=e502]: Quantpedia Pro
+    - paragraph [ref=e505]:
+      - link "Quantpedia Pro" [ref=e506] [cursor=pointer]:
+        - /url: /how-it-works/quantpedia-pro/
+      - text: is the ultimate tool for quantitive analysis of multi-asset, multi-strategy portfolios. Quantpedia Pro users have access to all of the content available in Quantpedia Premium (all 900+ strategies) plus all additional advanced features, such as unrestricted portfolio builder with custom benchmarks and all 30+ Quantpedia Pro reports that allow users to
+      - link "analyze model portfolios" [ref=e507] [cursor=pointer]:
+        - /url: /how-it-works/quantpedia-pro-reports/
+      - text: and their performance, relationships, assembling, factor exposures, correlations, clustering, and market risks.
+    - img "quantpedia pro" [ref=e510]
+  - generic [ref=e513]:
+    - generic [ref=e515]: Quantpedia API
+    - generic [ref=e516]:
+      - generic [ref=e517]: new feature
+      - paragraph [ref=e518]:
+        - link "Quantpedia API" [ref=e519] [cursor=pointer]:
+          - /url: /pricing/
+        - text: provides programmatic access to our extensive database of 1200+ quantified trading strategies, offering a unique alternative dataset for professional investors and researchers. The API delivers structured data on strategy performance, risk characteristics, factor exposures, source academic research papers, and inter-strategy relationships, enabling seamless integration into quantitative models, portfolio construction workflows, and research pipelines. Designed for institutional use, it allows clients to systematically incorporate diversified alpha sources and benchmark strategies directly into their investment process.
+        - link "For more info please contact us." [ref=e520] [cursor=pointer]:
+          - /url: /contact/
+    - img "quantpedia api" [ref=e523]
+  - group "Subscription Form" [ref=e526]:
+    - generic: Subscription Form
+    - generic [ref=e527]:
+      - heading "Subscribe for Newsletter" [level=3] [ref=e528]:
+        - strong [ref=e529]: Subscribe for Newsletter
+      - heading " Be first to know, when we publish new content" [level=6] [ref=e530]:
+        - generic [ref=e531]: 
+        - text: Be first to know, when we publish new content
+    - generic [ref=e532]:
+      - textbox "Your Email Address" [ref=e536]
+      - combobox [ref=e540]:
+        - option "Select Your Profession" [selected]
+        - option "Retail Trader / Individual Investor"
+        - option "Wealth Manager / Advisor"
+        - option "Student / Academics"
+        - option "Quant / Trader / Portfolio Manager"
+    - 'generic "Terms and Conditions: I agree that Quantpedia may process my personal information in accordance with Quantpedia Privacy Policy Contains 1 link. Use tab navigation to review." [ref=e543] [cursor=pointer]':
+      - 'checkbox "Terms and Conditions: I agree that Quantpedia may process my personal information in accordance with Quantpedia Privacy Policy Contains 1 link. Use tab navigation to review." [ref=e545]'
+      - paragraph [ref=e547]:
+        - text: I agree that Quantpedia may process my personal information in accordance with Quantpedia
+        - link "Privacy Policy" [ref=e548]:
+          - /url: https://quantpedia.com/privacy-policy/
+    - button "Subscribe" [ref=e550] [cursor=pointer]
+  - contentinfo [ref=e551]:
+    - generic [ref=e552]:
+      - generic [ref=e553]:
+        - generic [ref=e554]:
+          - img "footerLogo" [ref=e555]
+          - paragraph [ref=e556]: The Encyclopedia of Quantitative Trading Strategies
+        - generic [ref=e558]:
+          - generic [ref=e559]: Product
+          - list [ref=e560]:
+            - listitem [ref=e561]:
+              - link "Pricing" [ref=e562] [cursor=pointer]:
+                - /url: /pricing/
+            - listitem [ref=e563]:
+              - link "Screener" [ref=e564] [cursor=pointer]:
+                - /url: /screener/
+            - listitem [ref=e565]:
+              - link "Charts" [ref=e566] [cursor=pointer]:
+                - /url: /charts/
+            - listitem [ref=e567]:
+              - link "Consulting" [ref=e568] [cursor=pointer]:
+                - /url: /quant-consulting-services/
+            - listitem [ref=e569]:
+              - link "Quantpedia Awards" [ref=e570] [cursor=pointer]:
+                - /url: /quantpedia-awards-2024/
+        - generic [ref=e571]:
+          - generic [ref=e572]: About us
+          - list [ref=e573]:
+            - listitem [ref=e574]:
+              - link "About us" [ref=e575] [cursor=pointer]:
+                - /url: /quantpedia-mission/
+            - listitem [ref=e576]:
+              - link "How it works" [ref=e577] [cursor=pointer]:
+                - /url: /how-it-works/
+            - listitem [ref=e578]:
+              - link "Clients & References" [ref=e579] [cursor=pointer]:
+                - /url: /references/
+            - listitem [ref=e580]:
+              - link "FAQ" [ref=e581] [cursor=pointer]:
+                - /url: /how-it-works/faq/
+            - listitem [ref=e582]:
+              - link "Blog" [ref=e583] [cursor=pointer]:
+                - /url: /blog/
+        - generic [ref=e584]:
+          - generic [ref=e585]: Support
+          - list [ref=e586]:
+            - listitem [ref=e587]:
+              - link "Contact" [ref=e588] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e589]:
+              - link "Privacy Policy" [ref=e590] [cursor=pointer]:
+                - /url: /privacy-policy/
+            - listitem [ref=e591]:
+              - link "Terms of Service" [ref=e592] [cursor=pointer]:
+                - /url: /terms-of-service/
+            - listitem [ref=e593]:
+              - link "Affiliate" [ref=e594] [cursor=pointer]:
+                - /url: /affiliate/
+            - listitem [ref=e595]:
+              - link "Links & Tools" [ref=e596] [cursor=pointer]:
+                - /url: /links-tools/
+        - generic [ref=e597]:
+          - generic [ref=e598]: Follow us
+          - link "" [ref=e599] [cursor=pointer]:
+            - /url: //www.facebook.com/quantpedia
+            - generic [ref=e600]: 
+          - link "" [ref=e601] [cursor=pointer]:
+            - /url: //twitter.com/quantpedia
+            - generic [ref=e602]: 
+          - link "" [ref=e603] [cursor=pointer]:
+            - /url: //www.linkedin.com/company/quantpedia
+            - generic [ref=e604]: 
+      - generic [ref=e605]:
+        - generic [ref=e606]: "Risk Disclosure: Futures and forex trading contains substantial risk and is not for every investor. An investor could potentially lose all or more than the initial investment. Risk capital is money that can be lost without jeopardizing ones’ financial security or life style. Only risk capital should be used for trading and only those with sufficient risk capital should consider trading. Past performance is not necessarily indicative of future results."
+        - generic [ref=e607]: "Hypothetical Performance Disclosure: Hypothetical performance results have many inherent limitations, some of which are described below. No representation is being made that any account will or is likely to achieve profits or losses similar to those shown; in fact, there are frequently sharp differences between hypothetical performance results and the actual results subsequently achieved by any particular trading program. One of the limitations of hypothetical performance results is that they are generally prepared with the benefit of hindsight. In addition, hypothetical trading does not involve financial risk, and no hypothetical trading record can completely account for the impact of financial risk of actual trading. for example, the ability to withstand losses or to adhere to a particular trading program in spite of trading losses are material points which can also adversely affect actual trading results. There are numerous other factors related to the markets in general or to the implementation of any specific trading program which cannot be fully accounted for in the preparation of hypothetical performance results and all which can adversely affect trading results."
+        - generic [ref=e608]: "Testimonial Disclosure: Testimonials appearing on this website may not be representative of other clients or customers and is not a guarantee of future performance or success."
+        - generic [ref=e609]: © 2026 Quantpedia.com. All rights reserved.
+  - generic:  
+  - iframe [ref=e612]:
+    - generic [ref=f95e6]:
+      - text: protected by
+      - strong [ref=f95e7]: reCAPTCHA

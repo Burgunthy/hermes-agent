@@ -1,0 +1,754 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - link "메뉴 영역으로 바로가기" [ref=e2] [cursor=pointer]:
+      - /url: "#lnb"
+      - generic [ref=e3]: 메뉴 영역으로 바로가기
+    - link "본문 영역으로 바로가기" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+      - generic [ref=e5]: 본문 영역으로 바로가기
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - generic [ref=e11]:
+        - heading "NAVER" [level=1] [ref=e12]:
+          - link "NAVER" [ref=e13] [cursor=pointer]:
+            - /url: https://www.naver.com
+            - generic [ref=e14]: NAVER
+        - search [ref=e15]:
+          - group "검색" [ref=e16]:
+            - combobox "검색어를 입력해 주세요." [ref=e18]:
+              - text: "\"워뇨띠\" 트레이딩"
+              - button "자동완성 레이어" [ref=e19] [cursor=pointer]:
+                - generic [ref=e20]: 자동완성 레이어
+            - button "검색" [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]: 검색
+            - button "한글 입력기" [ref=e24] [cursor=pointer]:
+              - generic [ref=e25]: 한글 입력기
+      - generic [ref=e26]:
+        - generic [ref=e28]:
+          - generic [ref=e30]:
+            - tablist [ref=e31]:
+              - tab "블로그" [ref=e32] [cursor=pointer]
+              - tab "카페" [ref=e33] [cursor=pointer]
+              - tab "이미지" [ref=e34] [cursor=pointer]
+              - tab "클립" [ref=e35] [cursor=pointer]
+              - tab "지식iN" [ref=e36] [cursor=pointer]
+              - tab "인플루언서" [ref=e37] [cursor=pointer]
+              - tab "동영상" [ref=e38] [cursor=pointer]
+              - tab "쇼핑" [ref=e39] [cursor=pointer]
+              - tab "뉴스" [ref=e40] [cursor=pointer]
+              - tab "숏텐츠" [ref=e41] [cursor=pointer]
+              - tab "어학사전" [ref=e42] [cursor=pointer]
+              - tab "지도" [ref=e43] [cursor=pointer]
+              - tab "도서" [ref=e44] [cursor=pointer]
+              - tab "지식백과" [ref=e45] [cursor=pointer]
+              - tab "학술정보" [ref=e46] [cursor=pointer]
+            - button "다음" [ref=e47] [cursor=pointer]:
+              - generic [ref=e49]: 다음
+          - button "더보기" [ref=e51] [cursor=pointer]:
+            - generic [ref=e52]: 더보기
+        - list [ref=e54]:
+          - listitem [ref=e55]:
+            - button "공유" [ref=e56] [cursor=pointer]
+    - main [ref=e57]:
+      - generic [ref=e58]:
+        - heading "\"워뇨띠\" 트레이딩 검색 결과" [level=1] [ref=e59]
+        - generic [ref=e60]:
+          - generic [ref=e64]:
+            - strong [ref=e65]: "'\"워뇨띠\" 트레이딩'"
+            - text: 에 대한 상세검색 결과를 보시겠습니까?
+            - link "상세 검색결과 보기" [ref=e66] [cursor=pointer]:
+              - /url: "?ssc=tab.nx.all&where=nexearch&query=%22%EC%9B%8C%EB%87%A8%EB%9D%A0%22+%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9&sm=tab_dgs&qdt=1"
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - generic [ref=e80]:
+                - generic [ref=e81]:
+                  - img [ref=e83]
+                  - heading "AI 브리핑" [level=2] [ref=e86]
+                - generic [ref=e87]: 실험 단계로 정확하지 않을 수 있어요.
+              - button [ref=e88] [cursor=pointer]:
+                - img [ref=e89]
+            - button "Feedback 박스 열기" [ref=e95] [cursor=pointer]:
+              - img [ref=e96]
+          - generic [ref=e135]:
+            - generic [ref=e140]:
+              - generic [ref=e141]:
+                - generic [ref=e142]:
+                  - link "네이버TV tv.naver.com›aoainsight" [ref=e143] [cursor=pointer]:
+                    - /url: https://tv.naver.com/aoainsight
+                    - generic [ref=e145]:
+                      - generic [ref=e150]: 네이버TV
+                      - generic [ref=e154]: tv.naver.com›aoainsight
+                  - button "옵션 메뉴 열기" [ref=e156] [cursor=pointer]:
+                    - img [ref=e157]
+                - generic [ref=e161]:
+                  - link "<mark>워뇨띠</mark>의 이미지" [ref=e162] [cursor=pointer]:
+                    - /url: https://tv.naver.com/aoainsight
+                    - img "<mark>워뇨띠</mark>의 이미지" [ref=e164]
+                  - link "워뇨띠" [ref=e167] [cursor=pointer]:
+                    - /url: https://tv.naver.com/aoainsight
+                    - mark [ref=e169]: 워뇨띠
+                  - link "약 10 명의 팔로워를 보유한 워뇨띠의 네이버TV. 약 10 개의 동영상이 있습니다. 실전 투자 대회 1등이 알려주는 \"진짜\" 트레이딩- 모든 관점 공유 및 기타 차트 공부 자료는 거래대상·시점·가액에 대한 추천이나 권유 가 아닌 말 그대로 “공부”가 목적이며, “참고”만 해주시길 바랍니다. - 본 방의 교육은 수익을 보장하지 않으며, “유사수신 행위는 하지 않습니다.”..." [ref=e171] [cursor=pointer]:
+                    - /url: https://tv.naver.com/aoainsight
+                    - generic [ref=e172]:
+                      - text: 약 10 명의 팔로워를 보유한
+                      - mark [ref=e173]: 워뇨띠
+                      - text: 의 네이버TV. 약 10 개의 동영상이 있습니다. 실전 투자 대회 1등이 알려주는 "진짜"
+                      - mark [ref=e174]: 트레이딩
+                      - text: "- 모든 관점 공유 및 기타 차트 공부 자료는 거래대상·시점·가액에 대한 추천이나 권유 가 아닌 말 그대로 “공부”가 목적이며, “참고”만 해주시길 바랍니다. - 본 방의 교육은 수익을 보장하지 않으며, “유사수신 행위는 하지 않습니다.”..."
+              - generic [ref=e175]:
+                - link "유튜브" [ref=e176] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCMpNjdOIitpVS0QI_VoWMlA
+                  - generic [ref=e179]: 유튜브
+                - link "틱톡" [ref=e180] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@aoa_insight
+                  - generic [ref=e183]: 틱톡
+            - generic [ref=e189]:
+              - generic [ref=e190]:
+                - link "www.daytrading.com" [ref=e191] [cursor=pointer]:
+                  - /url: https://www.daytrading.com/
+                  - generic [ref=e199]: www.daytrading.com
+                - button "옵션 메뉴 열기" [ref=e201] [cursor=pointer]:
+                  - img [ref=e202]
+              - generic [ref=e206]:
+                - 'link "Day Trading 2026: How to Day Trade (Tutorials & Expert Tips)" [ref=e208] [cursor=pointer]':
+                  - /url: https://www.daytrading.com/
+                  - generic [ref=e209]:
+                    - text: Day
+                    - mark [ref=e210]: Trading
+                    - text: "2026: How to Day Trade (Tutorials & Expert Tips)"
+                - generic [ref=e211]:
+                  - link "Day Trading in China" [ref=e212] [cursor=pointer]:
+                    - /url: https://www.daytrading.com/cn/
+                    - generic [ref=e213]: Day Trading in China
+                  - link "Day Trading in Ghana" [ref=e214] [cursor=pointer]:
+                    - /url: https://www.daytrading.com/gh/
+                    - generic [ref=e215]: Day Trading in Ghana
+                  - link "Day Trading in India" [ref=e216] [cursor=pointer]:
+                    - /url: https://www.daytrading.com/in/
+                    - generic [ref=e217]: Day Trading in India
+                  - link "Day Trading in Italy" [ref=e218] [cursor=pointer]:
+                    - /url: https://www.daytrading.com/it/
+                    - generic [ref=e219]: Day Trading in Italy
+                  - link "Day Trading in Japan" [ref=e220] [cursor=pointer]:
+                    - /url: https://www.daytrading.com/jp/
+                    - generic [ref=e221]: Day Trading in Japan
+                  - link "Day Trading in Kenya" [ref=e222] [cursor=pointer]:
+                    - /url: https://www.daytrading.com/ke/
+                    - generic [ref=e223]: Day Trading in Kenya
+                - link "Learn how to Day Trade with expert tips and tutorials for beginners. We list all the best brokers with comparison tools and detailed reviews." [ref=e225] [cursor=pointer]:
+                  - /url: https://www.daytrading.com/
+                  - generic [ref=e226]: Learn how to Day Trade with expert tips and tutorials for beginners. We list all the best brokers with comparison tools and detailed reviews.
+            - generic [ref=e232]:
+              - generic [ref=e233]:
+                - generic [ref=e234]:
+                  - link [ref=e236] [cursor=pointer]:
+                    - /url: https://blog.naver.com/drzero4ever
+                  - link "닥터제로 투자연구소" [ref=e241] [cursor=pointer]:
+                    - /url: https://blog.naver.com/drzero4ever
+                    - generic [ref=e242]: 닥터제로 투자연구소
+                  - generic [ref=e245]: 2026.03.19.
+                - button "옵션 메뉴 열기" [ref=e247] [cursor=pointer]:
+                  - img [ref=e248]
+              - generic [ref=e253]:
+                - generic [ref=e254]:
+                  - link "『Rules of Day Trading – 원칙으로 수익 내는 단타의 기술』 서평" [ref=e255] [cursor=pointer]:
+                    - /url: https://blog.naver.com/drzero4ever/224217528388
+                    - generic [ref=e256]:
+                      - text: 『Rules of Day
+                      - mark [ref=e257]: Trading
+                      - text: – 원칙으로 수익 내는 단타의 기술』 서평
+                  - link "• 단타 시스템의 기본 구조 설명 • 개인 투자자의 심리 문제 분석 • 규율 중심 트레이딩 강조 결국 이 책은 단타 기술서라기보다 트레이딩 원칙서에 가깝습니다. 한 줄 결론 『Rules of Day Trading』은 단타 투자에서 승패를 가르는 요소가 시장 예측 능력이 아니라, 철저한 손절 규칙과 자금 관리, 그리고 감정을 배제한 시스템적 매매 원칙이라는 사실을 강조하는 실전..." [ref=e259] [cursor=pointer]:
+                    - /url: https://blog.naver.com/drzero4ever/224217528388
+                    - generic [ref=e260]:
+                      - text: • 단타 시스템의 기본 구조 설명 • 개인 투자자의 심리 문제 분석 • 규율 중심
+                      - mark [ref=e261]: 트레이딩
+                      - text: 강조 결국 이 책은 단타 기술서라기보다
+                      - mark [ref=e262]: 트레이딩
+                      - text: 원칙서에 가깝습니다. 한 줄 결론 『Rules of Day
+                      - mark [ref=e263]: Trading
+                      - text: 』은 단타 투자에서 승패를 가르는 요소가 시장 예측 능력이 아니라, 철저한 손절 규칙과 자금 관리, 그리고 감정을 배제한 시스템적 매매 원칙이라는 사실을 강조하는 실전...
+                - link [ref=e264] [cursor=pointer]:
+                  - /url: https://blog.naver.com/drzero4ever/224217528388
+                  - img [ref=e267]
+            - generic [ref=e274]:
+              - generic [ref=e275]:
+                - link "www.tradingview.com" [ref=e276] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/
+                  - generic [ref=e284]: www.tradingview.com
+                - button "옵션 메뉴 열기" [ref=e286] [cursor=pointer]:
+                  - img [ref=e287]
+              - generic [ref=e291]:
+                - generic [ref=e292]:
+                  - link "TradingView — Track All Markets" [ref=e293] [cursor=pointer]:
+                    - /url: https://www.tradingview.com/
+                    - generic [ref=e294]: TradingView — Track All Markets
+                  - img [ref=e296]
+                - generic [ref=e302]:
+                  - link "Products" [ref=e303] [cursor=pointer]:
+                    - /url: https://www.tradingview.com/chart/
+                    - generic [ref=e304]: Products
+                  - link "Community" [ref=e305] [cursor=pointer]:
+                    - /url: https://www.tradingview.com/ideas/
+                    - generic [ref=e306]: Community
+                  - link "Markets" [ref=e307] [cursor=pointer]:
+                    - /url: https://www.tradingview.com/markets/
+                    - generic [ref=e308]: Markets
+                  - link "Brokers" [ref=e309] [cursor=pointer]:
+                    - /url: https://www.tradingview.com/brokers/
+                    - generic [ref=e310]: Brokers
+                - link "Where the world charts, chats, and trades markets. We're a supercharged super-charting platform and social network for traders and investors. Free to sign up." [ref=e312] [cursor=pointer]:
+                  - /url: https://www.tradingview.com/
+                  - generic [ref=e313]: Where the world charts, chats, and trades markets. We're a supercharged super-charting platform and social network for traders and investors. Free to sign up.
+            - generic [ref=e318]:
+              - generic [ref=e319]:
+                - generic [ref=e320]:
+                  - link "나무위키 namu.wiki›워뇨띠" [ref=e321] [cursor=pointer]:
+                    - /url: https://namu.wiki/w/%EC%9B%8C%EB%87%A8%EB%9D%A0
+                    - generic [ref=e323]:
+                      - generic [ref=e328]: 나무위키
+                      - generic [ref=e332]: namu.wiki›워뇨띠
+                  - button "옵션 메뉴 열기" [ref=e334] [cursor=pointer]:
+                    - img [ref=e335]
+                - generic [ref=e339]:
+                  - link "워뇨띠 - 나무위키" [ref=e341] [cursor=pointer]:
+                    - /url: https://namu.wiki/w/%EC%9B%8C%EB%87%A8%EB%9D%A0
+                    - generic [ref=e342]:
+                      - mark [ref=e343]: 워뇨띠
+                      - text: "- 나무위키"
+                  - generic [ref=e344]:
+                    - link "평범한 커뮤니티 이용자가 트레이딩 재능을 발견해 천문학적인 수익을 기록했다는 점에서 일본의 전설적인 개인 투자자 BNF와 자주 비교된다. 거래소에서 만든 가상 인물이라는 설이 돌기도 한다. 명성이 커지며 사칭, 허위 친분 주장, 불법 리딩방 홍보 사례가 다수 발생했고, 워뇨띠는 디시인사이드와 트롤박스 외의 공식적인 소통 창구는 없다고..." [ref=e345] [cursor=pointer]:
+                      - /url: https://namu.wiki/w/%EC%9B%8C%EB%87%A8%EB%9D%A0
+                      - generic [ref=e346]:
+                        - text: 평범한 커뮤니티 이용자가
+                        - mark [ref=e347]: 트레이딩
+                        - text: 재능을 발견해 천문학적인 수익을 기록했다는 점에서 일본의 전설적인 개인 투자자 BNF와 자주 비교된다. 거래소에서 만든 가상 인물이라는 설이 돌기도 한다. 명성이 커지며 사칭, 허위 친분 주장, 불법 리딩방 홍보 사례가 다수 발생했고,
+                        - mark [ref=e348]: 워뇨띠
+                        - text: 는 디시인사이드와 트롤박스 외의 공식적인 소통 창구는 없다고...
+                    - link "출생 1998년 ~ 1999년 (추정)" [ref=e349] [cursor=pointer]:
+                      - /url: https://namu.wiki/w/%EC%9B%8C%EB%87%A8%EB%9D%A0
+                      - generic [ref=e351]:
+                        - generic [ref=e352]: 출생
+                        - generic [ref=e354]: 1998년 ~ 1999년 (추정)
+              - generic [ref=e355]:
+                - link "개요" [ref=e356] [cursor=pointer]:
+                  - /url: https://namu.wiki/w/%EC%9B%8C%EB%87%A8%EB%9D%A0#s-1
+                  - generic [ref=e357]: 개요
+                - link "행적" [ref=e358] [cursor=pointer]:
+                  - /url: https://namu.wiki/w/%EC%9B%8C%EB%87%A8%EB%9D%A0#s-2
+                  - generic [ref=e359]: 행적
+                - link "여담" [ref=e360] [cursor=pointer]:
+                  - /url: https://namu.wiki/w/%EC%9B%8C%EB%87%A8%EB%9D%A0#s-3
+                  - generic [ref=e361]: 여담
+                - link "2017-2021년" [ref=e362] [cursor=pointer]:
+                  - /url: https://namu.wiki/w/%EC%9B%8C%EB%87%A8%EB%9D%A0#s-2.1
+                  - generic [ref=e363]: 2017-2021년
+                - link "2025년" [ref=e364] [cursor=pointer]:
+                  - /url: https://namu.wiki/w/%EC%9B%8C%EB%87%A8%EB%9D%A0#s-2.2
+                  - generic [ref=e365]: 2025년
+          - generic [ref=e366]:
+            - generic [ref=e372]:
+              - generic [ref=e373]:
+                - generic [ref=e374]:
+                  - link [ref=e376] [cursor=pointer]:
+                    - /url: https://blog.naver.com/solejy
+                  - link "낯설게 하기" [ref=e381] [cursor=pointer]:
+                    - /url: https://blog.naver.com/solejy
+                    - generic [ref=e382]: 낯설게 하기
+                  - generic [ref=e385]: 2025.12.03.
+                - button "옵션 메뉴 열기" [ref=e387] [cursor=pointer]:
+                  - img [ref=e388]
+              - generic [ref=e393]:
+                - generic [ref=e394]:
+                  - link "영국에서 주식하기(Trading 212) + GBX, Dist, Acc 뜻 알고 시작하기" [ref=e395] [cursor=pointer]:
+                    - /url: https://blog.naver.com/solejy/224096311074
+                    - generic [ref=e396]:
+                      - text: 영국에서 주식하기(
+                      - mark [ref=e397]: Trading
+                      - text: 212) + GBX, Dist, Acc 뜻 알고 시작하기
+                  - link "하지만 조금씩이라도 시작해야겠다 싶어서 Trading 212 어플을 다운받고 이리저리 한 달이나 미루다가 시작한다. ETF 중심으로 투자할 수 있는 InvestEngine랑 비교 고민하다가 사람들이 많이 쓰는 것 같은 Trading 212로 결정 내가 생각한 Trading 212 어플의 장점 앱이 깔끔하고 직관적이다 / 웹도 가능 (그래도 개인적으로 토스증권 UI 승!) 포트폴리오를 세팅하면..." [ref=e399] [cursor=pointer]:
+                    - /url: https://blog.naver.com/solejy/224096311074
+                    - generic [ref=e400]:
+                      - text: 하지만 조금씩이라도 시작해야겠다 싶어서
+                      - mark [ref=e401]: Trading
+                      - text: 212 어플을 다운받고 이리저리 한 달이나 미루다가 시작한다. ETF 중심으로 투자할 수 있는 InvestEngine랑 비교 고민하다가 사람들이 많이 쓰는 것 같은
+                      - mark [ref=e402]: Trading
+                      - text: 212로 결정 내가 생각한
+                      - mark [ref=e403]: Trading
+                      - text: 212 어플의 장점 앱이 깔끔하고 직관적이다 / 웹도 가능 (그래도 개인적으로 토스증권 UI 승!) 포트폴리오를 세팅하면...
+                - generic [ref=e404]:
+                  - link [ref=e405] [cursor=pointer]:
+                    - /url: https://blog.naver.com/solejy/224096311074
+                    - img [ref=e407]
+                  - link [ref=e409] [cursor=pointer]:
+                    - /url: https://blog.naver.com/solejy/224096311074
+                    - img [ref=e411]
+                  - link [ref=e413] [cursor=pointer]:
+                    - /url: https://blog.naver.com/solejy/224096311074
+                    - img [ref=e415]
+                  - link [ref=e417] [cursor=pointer]:
+                    - /url: https://blog.naver.com/solejy/224096311074
+                    - img [ref=e419]
+                  - link [ref=e421] [cursor=pointer]:
+                    - /url: https://blog.naver.com/solejy/224096311074
+                    - img [ref=e423]
+                  - generic [ref=e425]: "8"
+            - generic [ref=e431]:
+              - generic [ref=e432]:
+                - generic [ref=e433]:
+                  - link [ref=e435] [cursor=pointer]:
+                    - /url: https://blog.naver.com/mynameml
+                  - link "행운이 함께하는 ❁ -" [ref=e440] [cursor=pointer]:
+                    - /url: https://blog.naver.com/mynameml
+                    - generic [ref=e441]: 행운이 함께하는 ❁ -
+                  - generic [ref=e444]: 2026.04.12.
+                - button "옵션 메뉴 열기" [ref=e446] [cursor=pointer]:
+                  - img [ref=e447]
+              - generic [ref=e452]:
+                - generic [ref=e453]:
+                  - link "KS TRADING 케이에스트레이딩 주식 교육으로 국내 주식 기준 잡는 방법" [ref=e454] [cursor=pointer]:
+                    - /url: https://blog.naver.com/mynameml/224249801161
+                    - generic [ref=e455]:
+                      - text: KS
+                      - mark [ref=e456]: TRADING
+                      - text: 케이에스
+                      - mark [ref=e457]: 트레이딩
+                      - text: 주식 교육으로 국내 주식 기준 잡는 방법
+                  - link "이러한 흐름 속에서 주목받고 있는 곳이 바로 KS TRADING이다. KS TRADING은 특정 종목을 단순히 알려주는 방식이 아닌, 수강생이 스스로 매매를 판단할 수 있도록 기준과 시스템을... KS TRADING 교육의 핵심은 알고 끝나는 교육이 아니라는 점이다. 실전 피드백과 반복 훈련이 지속적으로 진행된다. 개인별 매매 피드백을 통해 잘못된 습관을 교정하는 과정이다. 반복 훈련을 통해..." [ref=e459] [cursor=pointer]:
+                    - /url: https://blog.naver.com/mynameml/224249801161
+                    - generic [ref=e460]:
+                      - text: 이러한 흐름 속에서 주목받고 있는 곳이 바로 KS
+                      - mark [ref=e461]: TRADING
+                      - text: 이다. KS
+                      - mark [ref=e462]: TRADING
+                      - text: 은 특정 종목을 단순히 알려주는 방식이 아닌, 수강생이 스스로 매매를 판단할 수 있도록 기준과 시스템을... KS
+                      - mark [ref=e463]: TRADING
+                      - text: 교육의 핵심은 알고 끝나는 교육이 아니라는 점이다. 실전 피드백과 반복 훈련이 지속적으로 진행된다. 개인별 매매 피드백을 통해 잘못된 습관을 교정하는 과정이다. 반복 훈련을 통해...
+                - link "11" [ref=e464] [cursor=pointer]:
+                  - /url: https://blog.naver.com/mynameml/224249801161
+                  - generic [ref=e466]:
+                    - img [ref=e467]
+                    - generic [ref=e471]: "11"
+            - generic [ref=e477]:
+              - generic [ref=e478]:
+                - generic [ref=e479]:
+                  - link [ref=e481] [cursor=pointer]:
+                    - /url: https://blog.naver.com/immung_
+                  - 'link "작전명 : Spike HEdge" [ref=e486] [cursor=pointer]':
+                    - /url: https://blog.naver.com/immung_
+                    - generic [ref=e487]: "작전명 : Spike HEdge"
+                  - generic [ref=e490]: 4주 전
+                - button "옵션 메뉴 열기" [ref=e492] [cursor=pointer]:
+                  - img [ref=e493]
+              - generic [ref=e498]:
+                - generic [ref=e499]:
+                  - link "트레이딩뷰(Trading View) 사이트를 이용한 차트 매매 연습 꿀팁" [ref=e500] [cursor=pointer]:
+                    - /url: https://blog.naver.com/immung_/224260676975
+                    - generic [ref=e501]:
+                      - mark [ref=e502]: 트레이딩
+                      - text: 뷰(
+                      - mark [ref=e503]: Trading
+                      - text: View) 사이트를 이용한 차트 매매 연습 꿀팁
+                  - link "지금부터 트레이딩뷰를 이용한 차트 연습 꿀팁을 알려드리겠습니다. 우선 트레이딩뷰 사이트 또는 앱에 접속합니다. 다만, 단순히 차트만 보는 것이 아니기 때문에 모바일 환경은... 하단의 리플레이 트레이딩을 클릭합니다. 이렇게 각 거래의 손익률 및 손익금, 누적 손익까지 확인 가능합니다. 그리고 플레이가 끝나면 이렇게 결과 요약이 나옵니다. 전체 보고서 열기를..." [ref=e505] [cursor=pointer]:
+                    - /url: https://blog.naver.com/immung_/224260676975
+                    - generic [ref=e506]:
+                      - text: 지금부터
+                      - mark [ref=e507]: 트레이딩
+                      - text: 뷰를 이용한 차트 연습 꿀팁을 알려드리겠습니다. 우선
+                      - mark [ref=e508]: 트레이딩
+                      - text: 뷰 사이트 또는 앱에 접속합니다. 다만, 단순히 차트만 보는 것이 아니기 때문에 모바일 환경은... 하단의 리플레이
+                      - mark [ref=e509]: 트레이딩
+                      - text: 을 클릭합니다. 이렇게 각 거래의 손익률 및 손익금, 누적 손익까지 확인 가능합니다. 그리고 플레이가 끝나면 이렇게 결과 요약이 나옵니다. 전체 보고서 열기를...
+                - link "21" [ref=e510] [cursor=pointer]:
+                  - /url: https://blog.naver.com/immung_/224260676975
+                  - generic [ref=e512]:
+                    - img [ref=e513]
+                    - generic [ref=e517]: "21"
+            - generic [ref=e523]:
+              - generic [ref=e524]:
+                - generic [ref=e525]:
+                  - link [ref=e527] [cursor=pointer]:
+                    - /url: https://cafe.naver.com/malltail
+                  - generic [ref=e530]:
+                    - link "● 몰테일 스토리 - 쉽고 빠른 해외직구 ●" [ref=e532] [cursor=pointer]:
+                      - /url: https://cafe.naver.com/malltail
+                      - generic [ref=e533]: ● 몰테일 스토리 - 쉽고 빠른 해외직구 ●
+                    - img [ref=e534]
+                  - generic [ref=e539]: 3주 전
+                - button "옵션 메뉴 열기" [ref=e541] [cursor=pointer]:
+                  - img [ref=e542]
+              - generic [ref=e547]:
+                - generic [ref=e548]:
+                  - link "TRADING3000.com 투자 플랫폼 사칭의 위험성 및 피해 대응 전략" [ref=e549] [cursor=pointer]:
+                    - /url: https://cafe.naver.com/malltail/7465119?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Im1hbGx0YWlsIiwiYXJ0aWNsZUlkIjo3NDY1MTE5LCJpc3N1ZWRBdCI6MTc3OTI2MDQ1NzQyM30.yMyT2EJZAkj7CtMANLYzMeWV1YmfFrRfwQz8eCgVidQ
+                    - generic [ref=e550]:
+                      - mark [ref=e551]: TRADING
+                      - text: 3000.com 투자 플랫폼 사칭의 위험성 및 피해 대응 전략
+                  - link "TRADING3000.com 투자 플랫폼 사칭의 위험성 및 피해 대응 전략 TRADING3000.com 투자 플랫폼 사칭의 위험성 및 피해 대응 전략 최근 TRADING3000.com 투자 플랫폼을 통한 사기가 끊이지 않고 발생하고 있습니다. 이 플랫폼은 처음에는 소액의 수익을 보장하는 듯 보이고, 사용자에게 맞춤형 리딩을 제공하는 형식을 취하고 있습니다. 그러나 실제로는 사기 구조로 설계되어..." [ref=e553] [cursor=pointer]:
+                    - /url: https://cafe.naver.com/malltail/7465119?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Im1hbGx0YWlsIiwiYXJ0aWNsZUlkIjo3NDY1MTE5LCJpc3N1ZWRBdCI6MTc3OTI2MDQ1NzQyM30.yMyT2EJZAkj7CtMANLYzMeWV1YmfFrRfwQz8eCgVidQ
+                    - generic [ref=e554]:
+                      - mark [ref=e555]: TRADING
+                      - text: 3000.com 투자 플랫폼 사칭의 위험성 및 피해 대응 전략
+                      - mark [ref=e556]: TRADING
+                      - text: 3000.com 투자 플랫폼 사칭의 위험성 및 피해 대응 전략 최근
+                      - mark [ref=e557]: TRADING
+                      - text: 3000.com 투자 플랫폼을 통한 사기가 끊이지 않고 발생하고 있습니다. 이 플랫폼은 처음에는 소액의 수익을 보장하는 듯 보이고, 사용자에게 맞춤형 리딩을 제공하는 형식을 취하고 있습니다. 그러나 실제로는 사기 구조로 설계되어...
+                - link "9" [ref=e558] [cursor=pointer]:
+                  - /url: https://cafe.naver.com/malltail/7465119?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Im1hbGx0YWlsIiwiYXJ0aWNsZUlkIjo3NDY1MTE5LCJpc3N1ZWRBdCI6MTc3OTI2MDQ1NzQyM30.yMyT2EJZAkj7CtMANLYzMeWV1YmfFrRfwQz8eCgVidQ
+                  - generic [ref=e560]:
+                    - img [ref=e561]
+                    - generic [ref=e565]: "9"
+              - generic [ref=e566]:
+                - generic [ref=e567]:
+                  - generic [ref=e569]:
+                    - link "RE TRADING3000.com 사기는 정말 위험한 것 같아요. 초기 신뢰 형성이 이렇게 교묘하게 이뤄지니 피해를 입기 쉬운 것 같아요. 다들 조심해야 할" [ref=e570] [cursor=pointer]:
+                      - /url: https://cafe.naver.com/malltail/7465119?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Im1hbGx0YWlsIiwiYXJ0aWNsZUlkIjo3NDY1MTE5LCJpc3N1ZWRBdCI6MTc3OTI2MDQ1NzQyM30.yMyT2EJZAkj7CtMANLYzMeWV1YmfFrRfwQz8eCgVidQ
+                      - generic [ref=e573]:
+                        - generic [ref=e574]: RE
+                        - generic [ref=e575]:
+                          - mark [ref=e576]: TRADING
+                          - text: 3000.com 사기는 정말 위험한 것 같아요. 초기 신뢰 형성이 이렇게 교묘하게 이뤄지니 피해를 입기 쉬운 것 같아요. 다들 조심해야 할
+                    - link "RE TRADING3000.com 사칭 사기의 위험성 정말 심각하네요. 투자자들이 처음에는 소액으로 수익을 보며 신뢰하게 만들고, 결국 큰 손실을 보게 만든" [ref=e577] [cursor=pointer]:
+                      - /url: https://cafe.naver.com/malltail/7465119?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Im1hbGx0YWlsIiwiYXJ0aWNsZUlkIjo3NDY1MTE5LCJpc3N1ZWRBdCI6MTc3OTI2MDQ1NzQyM30.yMyT2EJZAkj7CtMANLYzMeWV1YmfFrRfwQz8eCgVidQ
+                      - generic [ref=e580]:
+                        - generic [ref=e581]: RE
+                        - generic [ref=e582]:
+                          - mark [ref=e583]: TRADING
+                          - text: 3000.com 사칭 사기의 위험성 정말 심각하네요. 투자자들이 처음에는 소액으로 수익을 보며 신뢰하게 만들고, 결국 큰 손실을 보게 만든
+                    - link "RE TRADING3000.com에서 사기 피해를 당한 분들의 이야기를 들으니 정말 안타깝네요. 사칭 플랫폼의 위험성에 빠지지 않도록 항상 주의해야 할" [ref=e584] [cursor=pointer]:
+                      - /url: https://cafe.naver.com/malltail/7465119?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Im1hbGx0YWlsIiwiYXJ0aWNsZUlkIjo3NDY1MTE5LCJpc3N1ZWRBdCI6MTc3OTI2MDQ1NzQyM30.yMyT2EJZAkj7CtMANLYzMeWV1YmfFrRfwQz8eCgVidQ
+                      - generic [ref=e587]:
+                        - generic [ref=e588]: RE
+                        - generic [ref=e589]:
+                          - mark [ref=e590]: TRADING
+                          - text: 3000.com에서 사기 피해를 당한 분들의 이야기를 들으니 정말 안타깝네요. 사칭 플랫폼의 위험성에 빠지지 않도록 항상 주의해야 할
+                    - link "RE TRADING3000.com 사칭의 위험성이 정말 심각하네요. 사기를 당하는 단계가 이렇게까지 교묘할 줄은 몰랐어요. 조심해야겠어요. 저도 혹시라도" [ref=e591] [cursor=pointer]:
+                      - /url: https://cafe.naver.com/malltail/7465119?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Im1hbGx0YWlsIiwiYXJ0aWNsZUlkIjo3NDY1MTE5LCJpc3N1ZWRBdCI6MTc3OTI2MDQ1NzQyM30.yMyT2EJZAkj7CtMANLYzMeWV1YmfFrRfwQz8eCgVidQ
+                      - generic [ref=e594]:
+                        - generic [ref=e595]: RE
+                        - generic [ref=e596]:
+                          - mark [ref=e597]: TRADING
+                          - text: 3000.com 사칭의 위험성이 정말 심각하네요. 사기를 당하는 단계가 이렇게까지 교묘할 줄은 몰랐어요. 조심해야겠어요. 저도 혹시라도
+                    - link "RE 이런 사기를 당하면 정말 힘들 것 같아요. TRADING3000.com 같은 플랫폼은 처음에 신뢰를 형성하는 방식으로 다가오니까 한 번 더 속기 쉬운" [ref=e598] [cursor=pointer]:
+                      - /url: https://cafe.naver.com/malltail/7465119?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Im1hbGx0YWlsIiwiYXJ0aWNsZUlkIjo3NDY1MTE5LCJpc3N1ZWRBdCI6MTc3OTI2MDQ1NzQyM30.yMyT2EJZAkj7CtMANLYzMeWV1YmfFrRfwQz8eCgVidQ
+                      - generic [ref=e601]:
+                        - generic [ref=e602]: RE
+                        - generic [ref=e603]:
+                          - text: 이런 사기를 당하면 정말 힘들 것 같아요.
+                          - mark [ref=e604]: TRADING
+                          - text: 3000.com 같은 플랫폼은 처음에 신뢰를 형성하는 방식으로 다가오니까 한 번 더 속기 쉬운
+                  - button "다음 버튼" [ref=e605] [cursor=pointer]:
+                    - img [ref=e607]
+                - link "TRADING3000 크립토젬 코인 리딩방 사칭 피해를 줄이는 효율적 대응 전략" [ref=e612] [cursor=pointer]:
+                  - /url: https://cafe.naver.com/malltail/7466178?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6Im1hbGx0YWlsIiwiYXJ0aWNsZUlkIjo3NDY2MTc4LCJpc3N1ZWRBdCI6MTc3OTI2MDQ1NzQyM30.mve5JaL_Wpy1RwuuvBfLWvNpJud1mB1wJtmY5SvMOvU
+                  - generic [ref=e613]:
+                    - mark [ref=e614]: TRADING
+                    - text: 3000 크립토젬 코인 리딩방 사칭 피해를 줄이는 효율적 대응 전략
+            - generic [ref=e620]:
+              - generic [ref=e621]:
+                - generic [ref=e622]:
+                  - link [ref=e624] [cursor=pointer]:
+                    - /url: https://cafe.naver.com/bricknara
+                  - generic [ref=e627]:
+                    - link "브릭나라[BrickNara] 레고 Lego" [ref=e629] [cursor=pointer]:
+                      - /url: https://cafe.naver.com/bricknara
+                      - generic [ref=e630]: 브릭나라[BrickNara] 레고 Lego
+                    - img [ref=e631]
+                  - generic [ref=e636]: 4주 전
+                - button "옵션 메뉴 열기" [ref=e638] [cursor=pointer]:
+                  - img [ref=e639]
+              - generic [ref=e644]:
+                - generic [ref=e645]:
+                  - link "(범선) 무역선 “La Daphne” Caribbean Trading Brig ‘La Daphne’" [ref=e646] [cursor=pointer]:
+                    - /url: https://cafe.naver.com/bricknara/1493972?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImJyaWNrbmFyYSIsImFydGljbGVJZCI6MTQ5Mzk3MiwiaXNzdWVkQXQiOjE3NzkyNjA0NTc0MjN9.9I5zw5X4WfEQWEKDgKz2CH-EfNQ2wCppfoV-Mtu0Ecw
+                    - generic [ref=e647]:
+                      - text: (범선) 무역선 “La Daphne” Caribbean
+                      - mark [ref=e648]: Trading
+                      - text: Brig ‘La Daphne’
+                  - link "♠창작품 네임태그♠ 1.작 품 명 La Daphne 2.제작 기간 6개월 3.소요부품수 4천개 내외 4.작품 크기 (가로x세로x높이) 5.코멘트 및 완성률(%) ♠창작품 네임태그♠ 1.작 품 명 2.제작 기간 3.소요부품수 4.작품 크기 (가로x세로x높이) 5.코멘트 및 완성률(%) 안녕하세요? 습작으로 만든 범선입니다. 실물 브릭은 없는 Studio버전입니다 18세기초 서인도제도에서..." [ref=e650] [cursor=pointer]:
+                    - /url: https://cafe.naver.com/bricknara/1493972?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImJyaWNrbmFyYSIsImFydGljbGVJZCI6MTQ5Mzk3MiwiaXNzdWVkQXQiOjE3NzkyNjA0NTc0MjN9.9I5zw5X4WfEQWEKDgKz2CH-EfNQ2wCppfoV-Mtu0Ecw
+                - link "6" [ref=e651] [cursor=pointer]:
+                  - /url: https://cafe.naver.com/bricknara/1493972?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImJyaWNrbmFyYSIsImFydGljbGVJZCI6MTQ5Mzk3MiwiaXNzdWVkQXQiOjE3NzkyNjA0NTc0MjN9.9I5zw5X4WfEQWEKDgKz2CH-EfNQ2wCppfoV-Mtu0Ecw
+                  - generic [ref=e653]:
+                    - img [ref=e654]
+                    - generic [ref=e658]: "6"
+              - generic [ref=e659]:
+                - generic [ref=e661]:
+                  - link "RE 우와 전시 효과가 엄청 좋을 것 같아요! 멋집니다" [ref=e662] [cursor=pointer]:
+                    - /url: https://cafe.naver.com/bricknara/1493972?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImJyaWNrbmFyYSIsImFydGljbGVJZCI6MTQ5Mzk3MiwiaXNzdWVkQXQiOjE3NzkyNjA0NTc0MjN9.9I5zw5X4WfEQWEKDgKz2CH-EfNQ2wCppfoV-Mtu0Ecw
+                    - generic [ref=e665]:
+                      - generic [ref=e666]: RE
+                      - text: 우와 전시 효과가 엄청 좋을 것 같아요! 멋집니다
+                  - link "RE 너무 멋진 작품입니다! 마스트 & 리깅 부분도 디테일해서 놀랍습니다 추천!!" [ref=e667] [cursor=pointer]:
+                    - /url: https://cafe.naver.com/bricknara/1493972?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImJyaWNrbmFyYSIsImFydGljbGVJZCI6MTQ5Mzk3MiwiaXNzdWVkQXQiOjE3NzkyNjA0NTc0MjN9.9I5zw5X4WfEQWEKDgKz2CH-EfNQ2wCppfoV-Mtu0Ecw
+                    - generic [ref=e670]:
+                      - generic [ref=e671]: RE
+                      - text: 너무 멋진 작품입니다! 마스트 & 리깅 부분도 디테일해서 놀랍습니다 추천!!
+                  - link "RE 볼 때마다 느끼지만 돛대랑 활대에 아딧줄 연결하신 방식이 정말 깔끔하고 예쁩니다. 지금도 창작 범선 계속 개조하는 중인데 나중에 줄" [ref=e672] [cursor=pointer]:
+                    - /url: https://cafe.naver.com/bricknara/1493972?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImJyaWNrbmFyYSIsImFydGljbGVJZCI6MTQ5Mzk3MiwiaXNzdWVkQXQiOjE3NzkyNjA0NTc0MjN9.9I5zw5X4WfEQWEKDgKz2CH-EfNQ2wCppfoV-Mtu0Ecw
+                    - generic [ref=e675]:
+                      - generic [ref=e676]: RE
+                      - text: 볼 때마다 느끼지만 돛대랑 활대에 아딧줄 연결하신 방식이 정말 깔끔하고 예쁩니다. 지금도 창작 범선 계속 개조하는 중인데 나중에 줄
+                  - link "RE 와우 너무 멋지네요 밸런스나 색감도 너무 제취향이고 올드 좋아하는 저로써는 대포랑 사다리까지 있으니 너무 탐나는 배입니다...ㅋㅋ" [ref=e677] [cursor=pointer]:
+                    - /url: https://cafe.naver.com/bricknara/1493972?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6ImJyaWNrbmFyYSIsImFydGljbGVJZCI6MTQ5Mzk3MiwiaXNzdWVkQXQiOjE3NzkyNjA0NTc0MjN9.9I5zw5X4WfEQWEKDgKz2CH-EfNQ2wCppfoV-Mtu0Ecw
+                    - generic [ref=e680]:
+                      - generic [ref=e681]: RE
+                      - text: 와우 너무 멋지네요 밸런스나 색감도 너무 제취향이고 올드 좋아하는 저로써는 대포랑 사다리까지 있으니 너무 탐나는 배입니다...ㅋㅋ
+                - button "다음 버튼" [ref=e682] [cursor=pointer]:
+                  - img [ref=e684]
+            - generic [ref=e691]:
+              - generic [ref=e692]:
+                - generic [ref=e693]:
+                  - link "토미트레이딩TV" [ref=e695] [cursor=pointer]:
+                    - /url: https://www.tiktok.com/@tommytradingtv
+                    - img "토미트레이딩TV" [ref=e698]
+                  - link "토미트레이딩TV" [ref=e701] [cursor=pointer]:
+                    - /url: https://www.tiktok.com/@tommytradingtv
+                    - generic [ref=e702]: 토미트레이딩TV
+                  - generic [ref=e703]:
+                    - link "TikTok" [ref=e706] [cursor=pointer]:
+                      - /url: https://www.tiktok.com
+                      - generic [ref=e707]: TikTok
+                    - generic [ref=e710]: 2025.06.18.
+                - button "옵션 메뉴 열기" [ref=e712] [cursor=pointer]:
+                  - img [ref=e713]
+              - generic [ref=e717]:
+                - link "워뇨띠도 요플레 뚜껑 핥을까 1. 트레이딩에서 많은 사람들이 ‘타점’에만 집착하지만, 진짜 중...." [ref=e719] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@tommytradingtv/video/7517203158691581192
+                  - generic [ref=e720]:
+                    - mark [ref=e721]: 워뇨띠
+                    - text: 도 요플레 뚜껑 핥을까 1.
+                    - mark [ref=e722]: 트레이딩
+                    - text: 에서 많은 사람들이 ‘타점’에만 집착하지만, 진짜 중....
+                - link "워뇨띠도 요플레 뚜껑 핥을까 1. 트레이딩에서 많은 사람들이 ‘타점’에만 집착하지만, 진짜 중.... 00:39" [ref=e724] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@tommytradingtv/video/7517203158691581192
+                  - img "워뇨띠도 요플레 뚜껑 핥을까 1. 트레이딩에서 많은 사람들이 ‘타점’에만 집착하지만, 진짜 중...." [ref=e725]
+                  - generic [ref=e726]:
+                    - img [ref=e728]
+                    - generic [ref=e731]: 00:39
+            - generic [ref=e737]:
+              - generic [ref=e738]:
+                - generic [ref=e739]:
+                  - link "토미의 트레이딩TV" [ref=e741] [cursor=pointer]:
+                    - /url: https://www.youtube.com/channel/UC6nkHbnWIrpaDBHXQ_1aiIA
+                    - img "토미의 트레이딩TV" [ref=e744]
+                  - generic [ref=e745]:
+                    - link "토미의 트레이딩TV" [ref=e747] [cursor=pointer]:
+                      - /url: https://www.youtube.com/channel/UC6nkHbnWIrpaDBHXQ_1aiIA
+                      - generic [ref=e748]: 토미의 트레이딩TV
+                    - img [ref=e749]
+                  - generic [ref=e751]:
+                    - link "YouTube" [ref=e754] [cursor=pointer]:
+                      - /url: https://www.youtube.com
+                      - generic [ref=e755]: YouTube
+                    - generic [ref=e758]: 2025.06.18.
+                - button "옵션 메뉴 열기" [ref=e760] [cursor=pointer]:
+                  - img [ref=e761]
+              - generic [ref=e765]:
+                - generic [ref=e766]:
+                  - link "워뇨띠도 요플레 뚜껑 핥을까" [ref=e767] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=SpUI1EsdRro
+                    - generic [ref=e768]:
+                      - mark [ref=e769]: 워뇨띠
+                      - text: 도 요플레 뚜껑 핥을까
+                  - 'link "#비트코인 #워뇨띠 #트레이딩하는범 #켈리법칙 #시드분할 #워뇨띠요플레뚜껑 #트레이딩뷰 #나스닥 #투자강의 #워뇨띠인터뷰" [ref=e770] [cursor=pointer]':
+                    - /url: https://www.youtube.com/watch?v=SpUI1EsdRro
+                    - generic [ref=e771]:
+                      - text: "#비트코인 #"
+                      - mark [ref=e772]: 워뇨띠
+                      - text: "#"
+                      - mark [ref=e773]: 트레이딩
+                      - text: "하는범 #켈리법칙 #시드분할 #"
+                      - mark [ref=e774]: 워뇨띠
+                      - text: "요플레뚜껑 #"
+                      - mark [ref=e775]: 트레이딩
+                      - text: "뷰 #나스닥 #투자강의 #"
+                      - mark [ref=e776]: 워뇨띠
+                      - text: 인터뷰
+                - link "워뇨띠도 요플레 뚜껑 핥을까 00:40" [ref=e778] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=SpUI1EsdRro
+                  - img "워뇨띠도 요플레 뚜껑 핥을까" [ref=e779]
+                  - generic [ref=e780]:
+                    - img [ref=e782]
+                    - generic [ref=e785]: 00:40
+            - generic [ref=e791]:
+              - generic [ref=e792]:
+                - link "미래에셋증권 securities.miraeasset.com›newir" [ref=e793] [cursor=pointer]:
+                  - /url: https://securities.miraeasset.com/newir/view/mobile/kr/business/trading.jsp
+                  - generic [ref=e795]:
+                    - img [ref=e799]
+                    - generic [ref=e814]: 미래에셋증권
+                    - generic [ref=e818]: securities.miraeasset.com›newir
+                - button "옵션 메뉴 열기" [ref=e820] [cursor=pointer]:
+                  - img [ref=e821]
+              - generic [ref=e825]:
+                - link "<mark>Trading</mark> - 미래에셋증권의 이미지" [ref=e826] [cursor=pointer]:
+                  - /url: https://securities.miraeasset.com/newir/view/mobile/kr/business/trading.jsp
+                  - img "<mark>Trading</mark> - 미래에셋증권의 이미지" [ref=e828]
+                - link "Trading - 미래에셋증권" [ref=e831] [cursor=pointer]:
+                  - /url: https://securities.miraeasset.com/newir/view/mobile/kr/business/trading.jsp
+                  - generic [ref=e832]:
+                    - mark [ref=e833]: Trading
+                    - text: "- 미래에셋증권"
+                - link "상품개발 및 운용 ; 풍부한 운용경험을 바탕으로 주식, 채권, 장내외 파생상품, 외환, 신용, 탄소배출권 등 다양한 투자 상품을 고객에게 제공합니다. 우량자산을 기초자산으로 한 파생결합증권 발행, 델타원 트레이딩 전담조직 구축 등 글로벌 선진 금융기관 수준의 차별화된 솔루션을 확대 운영하고 있습니다. 철저한 리스크 관리와 운용 프로세스의 개선을 통해 운용자산과 수...." [ref=e835] [cursor=pointer]:
+                  - /url: https://securities.miraeasset.com/newir/view/mobile/kr/business/trading.jsp
+                  - generic [ref=e836]:
+                    - text: 상품개발 및 운용 ; 풍부한 운용경험을 바탕으로 주식, 채권, 장내외 파생상품, 외환, 신용, 탄소배출권 등 다양한 투자 상품을 고객에게 제공합니다. 우량자산을 기초자산으로 한 파생결합증권 발행, 델타원
+                    - mark [ref=e837]: 트레이딩
+                    - text: 전담조직 구축 등 글로벌 선진 금융기관 수준의 차별화된 솔루션을 확대 운영하고 있습니다. 철저한 리스크 관리와 운용 프로세스의 개선을 통해 운용자산과 수....
+            - generic [ref=e843]:
+              - generic [ref=e844]:
+                - link "TradingView kr.tradingview.com" [ref=e845] [cursor=pointer]:
+                  - /url: https://kr.tradingview.com/
+                  - generic [ref=e847]:
+                    - generic [ref=e852]: TradingView
+                    - generic [ref=e856]: kr.tradingview.com
+                - button "옵션 메뉴 열기" [ref=e858] [cursor=pointer]:
+                  - img [ref=e859]
+              - generic [ref=e863]:
+                - link "트레이딩뷰 - 모든 시장을 추적하세요 — TradingView" [ref=e865] [cursor=pointer]:
+                  - /url: https://kr.tradingview.com/
+                  - generic [ref=e866]:
+                    - mark [ref=e867]: 트레이딩
+                    - text: 뷰 - 모든 시장을 추적하세요 — TradingView
+                - generic [ref=e868]:
+                  - link "프로덕트" [ref=e869] [cursor=pointer]:
+                    - /url: https://kr.tradingview.com/chart/
+                    - generic [ref=e870]: 프로덕트
+                  - link "마켓" [ref=e871] [cursor=pointer]:
+                    - /url: https://kr.tradingview.com/markets/
+                    - generic [ref=e872]: 마켓
+                  - link "커뮤니티" [ref=e873] [cursor=pointer]:
+                    - /url: https://kr.tradingview.com/ideas/
+                    - generic [ref=e874]: 커뮤니티
+                  - link "브로커" [ref=e875] [cursor=pointer]:
+                    - /url: https://kr.tradingview.com/brokers/
+                    - generic [ref=e876]: 브로커
+                - link "전 세계가 차트를 그리고, 대화를 나누며, 트레이딩을 하는 곳. 우리는 트레이더와 투자자를 위한 강력한 슈퍼 차팅 플랫폼이자 소셜 네트워크입니다. 가입은 무료입니다." [ref=e878] [cursor=pointer]:
+                  - /url: https://kr.tradingview.com/
+                  - generic [ref=e879]:
+                    - text: 전 세계가 차트를 그리고, 대화를 나누며,
+                    - mark [ref=e880]: 트레이딩
+                    - text: 을 하는 곳. 우리는 트레이더와 투자자를 위한 강력한 슈퍼 차팅 플랫폼이자 소셜 네트워크입니다. 가입은 무료입니다.
+            - generic [ref=e886]:
+              - generic [ref=e887]:
+                - generic [ref=e888]:
+                  - link [ref=e890] [cursor=pointer]:
+                    - /url: https://cafe.naver.com/1djr58
+                  - generic [ref=e893]:
+                    - link "비트코인 커뮤니티 [가투법] No.1 카페 - 정보/차트/공부/분석" [ref=e895] [cursor=pointer]:
+                      - /url: https://cafe.naver.com/1djr58
+                      - generic [ref=e896]: 비트코인 커뮤니티 [가투법] No.1 카페 - 정보/차트/공부/분석
+                    - img [ref=e897]
+                  - generic [ref=e902]: 2025.09.18.
+                - button "옵션 메뉴 열기" [ref=e904] [cursor=pointer]:
+                  - img [ref=e905]
+              - generic [ref=e910]:
+                - generic [ref=e911]:
+                  - link "워뇨띠 트레이딩 팁 뿌린다" [ref=e912] [cursor=pointer]:
+                    - /url: https://cafe.naver.com/1djr58/1129197?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6IjFkanI1OCIsImFydGljbGVJZCI6MTEyOTE5NywiaXNzdWVkQXQiOjE3NzkyNjA0NTc0MjN9.t492NuPM4cvyLvmNVPYiilg34SXCzw0sRIlXJKKVH2w
+                    - generic [ref=e913]:
+                      - mark [ref=e914]: 워뇨띠 트레이딩
+                      - text: 팁 뿌린다
+                  - link "워뇨띠 비트맥스 AMA 요약본 뿌린다 ㅋㅋㅋ 정보 만족했으면 구독 박아라 그럼 이런거 많이 가져올거다 해줘 시팔" [ref=e916] [cursor=pointer]:
+                    - /url: https://cafe.naver.com/1djr58/1129197?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6IjFkanI1OCIsImFydGljbGVJZCI6MTEyOTE5NywiaXNzdWVkQXQiOjE3NzkyNjA0NTc0MjN9.t492NuPM4cvyLvmNVPYiilg34SXCzw0sRIlXJKKVH2w
+                    - generic [ref=e917]:
+                      - mark [ref=e918]: 워뇨띠
+                      - text: 비트맥스 AMA 요약본 뿌린다 ㅋㅋㅋ 정보 만족했으면 구독 박아라 그럼 이런거 많이 가져올거다 해줘 시팔
+                - link "5" [ref=e919] [cursor=pointer]:
+                  - /url: https://cafe.naver.com/1djr58/1129197?art=ZXh0ZXJuYWwtc2VydmljZS1uYXZlci1zZWFyY2gtY2FmZS1wcg.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjYWZlVHlwZSI6IkNBRkVfVVJMIiwiY2FmZVVybCI6IjFkanI1OCIsImFydGljbGVJZCI6MTEyOTE5NywiaXNzdWVkQXQiOjE3NzkyNjA0NTc0MjN9.t492NuPM4cvyLvmNVPYiilg34SXCzw0sRIlXJKKVH2w
+                  - generic [ref=e921]:
+                    - img [ref=e922]
+                    - generic [ref=e926]: "5"
+            - link "검색결과 더보기" [ref=e928] [cursor=pointer]:
+              - /url: "?nso=&page=2&query=%22%EC%9B%8C%EB%87%A8%EB%9D%A0%22+%ED%8A%B8%EB%A0%88%EC%9D%B4%EB%94%A9&sm=tab_pge&ssc=tab.ur.all&start=1"
+              - generic [ref=e929]: 검색결과
+              - generic [ref=e930]: 더보기
+          - generic [ref=e935]:
+            - generic [ref=e937]:
+              - heading "이미지" [level=2] [ref=e939]
+              - button "이미지 신고하기" [ref=e942] [cursor=pointer]:
+                - generic [ref=e943]: 이미지 신고하기
+            - generic [ref=e945]:
+              - generic:
+                - button "트레이딩뷰 사용법 완벽정리 !":
+                  - img "트레이딩뷰 사용법 완벽정리 !"
+              - generic:
+                - button "리버코인(RIVER) 관점과 전망 정리":
+                  - img "리버코인(RIVER) 관점과 전망 정리"
+              - generic:
+                - button "벤틱스 바이오사이언시스(VTYX)주가, +70.98% 급등, 애프터장 -3.04% 하락 (2025.10.23)":
+                  - img "벤틱스 바이오사이언시스(VTYX)주가, +70.98% 급등, 애프터장 -3.04% 하락 (2025.10.23)"
+              - generic:
+                - button "재테크 , 부업으로 통장잔고 늘리기 성공을 위한 암호화페 시장!!":
+                  - img "재테크 , 부업으로 통장잔고 늘리기 성공을 위한 암호화페 시장!!"
+              - generic:
+                - button "오늘이 바로 그날 ; 역추세 매매를 하더라도":
+                  - img "오늘이 바로 그날 ; 역추세 매매를 하더라도"
+              - generic:
+                - button "24.10.18 금 주식스크리닝, 시황분석":
+                  - img "24.10.18 금 주식스크리닝, 시황분석"
+              - generic:
+                - button "인피녹스 MT5, 나도 이제 제대로 된 트레이딩 시작한다 + 수수료 무료 까지 받아가자":
+                  - img "인피녹스 MT5, 나도 이제 제대로 된 트레이딩 시작한다 + 수수료 무료 까지 받아가자"
+              - generic:
+                - button "비트코인 트레이딩 하는 방법, 5분만 투자하면 끗?":
+                  - img "비트코인 트레이딩 하는 방법, 5분만 투자하면 끗?"
+              - generic:
+                - button "2022.07.23 비트코인 선물 매매 타점 공개":
+                  - img "2022.07.23 비트코인 선물 매매 타점 공개"
+              - generic:
+                - button "코인 트레이딩 일기 (2021. 03. 12~)":
+                  - img "코인 트레이딩 일기 (2021. 03. 12~)"
+          - generic [ref=e947]:
+            - button "이전" [disabled] [ref=e948]:
+              - generic [ref=e949]: 이전
+            - generic [ref=e950]:
+              - button "1" [pressed] [ref=e951] [cursor=pointer]
+              - button "2" [ref=e952] [cursor=pointer]
+              - button "3" [ref=e953] [cursor=pointer]
+              - button "4" [ref=e954] [cursor=pointer]
+              - button "5" [ref=e955] [cursor=pointer]
+              - button "6" [ref=e956] [cursor=pointer]
+              - button "7" [ref=e957] [cursor=pointer]
+              - button "8" [ref=e958] [cursor=pointer]
+              - button "9" [ref=e959] [cursor=pointer]
+              - button "10" [ref=e960] [cursor=pointer]
+            - button "다음" [ref=e961] [cursor=pointer]:
+              - generic [ref=e962]: 다음
+        - generic [ref=e966]:
+          - link "좋아하는 건 누구나 남기고 싶으니까 클립 올리면 매주 쌓이는 Npay 포인트" [ref=e967] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2603-naverclip-001&target=https%3A%2F%2Fclipcreators.naver.com%2Fpromotion%2Ftoday%3Fdtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2603-naverclip-001
+            - generic [ref=e969]:
+              - strong [ref=e970]: 좋아하는 건 누구나 남기고 싶으니까
+              - paragraph [ref=e971]: 클립 올리면 매주 쌓이는 Npay 포인트
+          - link "모두가 찜하고 싶은 스토어의 발견" [ref=e972] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2512-shopping-024&material=J&target=https%3A%2F%2Fmkt.naver.com%2Fstore_discovery%3Fdtm_detail%3DJ%26dtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2512-shopping-024
+            - generic [ref=e974]:
+              - strong [ref=e975]: 모두가 찜하고 싶은
+              - paragraph [ref=e976]: 스토어의 발견
+          - link "컬리N마트 5O% 첫 구매 혜택 반값 쿠폰 받고 최대 2만원 적립까지" [ref=e977] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2604-shopping-033&target=https%3A%2F%2Fshopping.naver.com%2Ffesta%2Fonsale%2Ffood%2F69e0ad173cda702a9b5553dc%3Fdtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2604-shopping-033
+            - generic [ref=e979]:
+              - strong [ref=e980]: 컬리N마트 5O% 첫 구매 혜택
+              - paragraph [ref=e981]: 반값 쿠폰 받고 최대 2만원 적립까지
+          - link "네이버가 더 편해지는 순간 웨일 브라우저 알아보기" [ref=e982] [cursor=pointer]:
+            - /url: https://naver.me/FWTmTscE
+            - generic [ref=e984]:
+              - strong [ref=e985]: 네이버가 더 편해지는 순간
+              - paragraph [ref=e986]: 웨일 브라우저 알아보기
+    - generic [ref=e987]:
+      - link "맨위로" [ref=e989] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e990]: 맨위로
+      - generic [ref=e992]:
+        - link "전체서비스" [ref=e994] [cursor=pointer]:
+          - /url: https://www.naver.com/more.html
+        - link "이용약관" [ref=e996] [cursor=pointer]:
+          - /url: https://policy.naver.com/policy/service.html
+        - link "개인정보처리방침" [ref=e998] [cursor=pointer]:
+          - /url: https://policy.naver.com/policy/privacy.html
+          - strong [ref=e999]: 개인정보처리방침
+        - link "검색 고객센터" [ref=e1001] [cursor=pointer]:
+          - /url: https://help.naver.com/alias/search/integration/main.naver
+        - link "© NAVER Corp." [ref=e1003] [cursor=pointer]:
+          - /url: https://www.navercorp.com/

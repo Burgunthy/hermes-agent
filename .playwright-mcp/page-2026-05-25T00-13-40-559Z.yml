@@ -1,0 +1,174 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [ref=e9] [cursor=pointer]
+        - generic [ref=e11]:
+          - link "YouTube Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e16]: KR
+        - button "Skip navigation" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: Skip navigation
+      - generic [ref=e25]:
+        - search [ref=e26]:
+          - generic [ref=e27]:
+            - combobox "Search" [expanded] [ref=e30]
+            - button "Search" [ref=e31] [cursor=pointer]
+        - generic [ref=e34]:
+          - button "Search with your voice" [ref=e36] [cursor=pointer]
+          - tooltip "tooltip"
+  - navigation [ref=e47]
+  - main [ref=e49]:
+    - generic [ref=e56]:
+      - generic [ref=e72]:
+        - heading "MJ의 라스트댄스" [level=1] [ref=e74]
+        - generic [ref=e75]:
+          - group [ref=e76]:
+            - generic [ref=e77]: "@MJ-lastdance"
+          - generic [ref=e78]: •
+          - group [ref=e79]:
+            - generic "40 thousand subscribers" [ref=e80]: 40K subscribers
+            - generic [ref=e81]: •
+            - generic [ref=e82]: 800 videos
+        - generic [ref=e84] [cursor=pointer]:
+          - generic [ref=e85]: 이 채널의 영상들을 보고도 깨닫지 못할 수준의 지능이라면, 트레이딩으로 돈을 벌 수 없다
+          - button "Description. 이 채널의 영상들을 보고도 깨닫지 못할 수준...tap for more." [ref=e86]:
+            - generic [ref=e87]: ...more
+        - link "t.me/lastdance12" [ref=e92] [cursor=pointer]:
+          - /url: https://www.youtube.com/redirect?event=channel_header&redir_token=QUFFLUhqazBHd1dBX2E0c1NfWWc3dDBXTmpNY0MxWTkzZ3xBQ3Jtc0tuQzh5SmlKNUNWUUs5LWdpTXZMeHRhM2J6eEh5MEdLbEI1eTFsckNLYi13WWltME91LXZ5dzAydWtoaGQ0Qk9kZkZTSUhkY2pFTWJNNGtpc01fb2NkLUtpY3lvR1JzNHJOR0xZMDYzM2tyZUNFVmIzTQ&q=t.me%2Flastdance12
+          - img [ref=e94]
+          - text: t.me/lastdance12
+        - generic [ref=e95]:
+          - button "Subscribe" [ref=e98] [cursor=pointer]:
+            - generic [ref=e99]: Subscribe
+          - button "Join this channel" [ref=e105] [cursor=pointer]:
+            - generic [ref=e108]: Join
+      - tablist [ref=e115]:
+        - tablist [ref=e119]:
+          - tab "Home" [selected] [ref=e120] [cursor=pointer]:
+            - generic [ref=e121]: Home
+          - tab "Videos" [ref=e122] [cursor=pointer]:
+            - generic [ref=e123]: Videos
+          - tab "Shorts" [ref=e124] [cursor=pointer]:
+            - generic [ref=e125]: Shorts
+          - tab "Live" [ref=e126] [cursor=pointer]:
+            - generic [ref=e127]: Live
+          - tab "Playlists" [ref=e128] [cursor=pointer]:
+            - generic [ref=e129]: Playlists
+          - tab "Posts" [ref=e130] [cursor=pointer]:
+            - generic [ref=e131]: Posts
+          - button "Search" [ref=e135] [cursor=pointer]
+    - generic [ref=e142]:
+      - generic [ref=e149]:
+        - generic [ref=e150]:
+          - heading "코인 몰빵했다가 인생 망했습니다.. (ft.비트코인) | 부모님도 몰랐던 ssul. 통합본 31 minutes" [level=3] [ref=e151]:
+            - link "코인 몰빵했다가 인생 망했습니다.. (ft.비트코인) | 부모님도 몰랐던 ssul. 통합본" [ref=e152] [cursor=pointer]:
+              - /url: /watch?v=FzDffnYG1tc&pp=0gcJCSwbAYcqIYzv
+          - generic [ref=e155]:
+            - generic [ref=e156]: 879,010 views
+            - generic [ref=e157]: •2 years ago
+        - generic [ref=e158]:
+          - generic [ref=e160]:
+            - text: ◆ 텔레그램 채널 안내 [1] 관점 공유방 →
+            - link "https://t.me/lastdance12" [ref=e161] [cursor=pointer]:
+              - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbGNjb1lRa3JZMU0tdjk0Z1dMbDJldzVIajRPUXxBQ3Jtc0tsa3AwVU9vcDZrbEFQZjVzTWJqd0ZNaEh1d3ZHMmYxRUV5S1RqNm1zZE5mckZQOUF1VEFnWno0UW1ZY1lyZ2pDY2VwN0x4TExBNmlIaFFqczZicnZtQnhvMDd1UXhBQ3ViTjJXazJfSG9ublZkQTJiYw&q=https%3A%2F%2Ft.me%2Flastdance12
+            - text: "[2] MJ 트레이딩 마스터 클래스 (강의 및 타점 공유) 무료 입장 방법 : 링크 접속 후 ‘마스터’ 입력 →"
+            - link "https://t.me/MJCoin10" [ref=e162] [cursor=pointer]:
+              - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbVZpcWxCRzZuZUFaMldHeXMzaVRyQXVXdU9Td3xBQ3Jtc0tsWEdjOEU3NDcyZDRLUkh0UkZfZG91TGlrWTVHcXFOcEZRNEt0V01SSnFiY1ctSGtQSTNHQkJfb3ZCYkY1YzN1b20tUm5UYXk2RHUxNjViYVlBNGxPaDlpZlJqT0kwbGZoeXpsSVE3ZjZ5d2h3ZHFyVQ&q=https%3A%2F%2Ft.me%2FMJCoin10
+            - text: "[3] 마스터 클래스 1강 →"
+            - link "https://youtu.be/aOk87cp6YXY" [ref=e163] [cursor=pointer]:
+              - /url: /watch?v=aOk87cp6YXY
+            - text: "[4] 매매를 잘해도 굳이 유튜브를 하는 이유 →"
+            - link "https://youtu.be/rAW80pQ12ho" [ref=e164] [cursor=pointer]:
+              - /url: /watch?v=rAW80pQ12ho
+            - text: ◆ 매매 원칙 영상 ① 금붕어도 성공하는 선물 매매 기법 ② 100억 트레이더의 실전 비트코인 전략 ③ 레버리지 100배 쓰는 이유 유튜브 내 검색으로 시청 가능 감사합니다. – MJ – ※본 영상은 투자 권유를 목적으로 하지 않습니다. ※본 채널은 어떠한 거래소, 토큰, 상품에 대해서도 가입·매수·투자를 유도하지 않습니다. ※본 채널에서 제공되는 모든 내용은 개인적인 의견이며, 투자 판단과 책임은 시청자 본인에게 있습니다.
+          - button "Read more" [ref=e165] [cursor=pointer]:
+            - link "Read more" [ref=e167]:
+              - /url: /watch?v=FzDffnYG1tc&pp=0gcJCSwbAYcqIYzv
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - generic [ref=e173]: Our members
+          - text: Thank you, channel members!
+        - button "Join this channel" [ref=e178] [cursor=pointer]:
+          - generic [ref=e179]: Join
+      - generic [ref=e186]:
+        - heading "Popular videos" [level=2] [ref=e189]:
+          - link "Popular videos" [ref=e192] [cursor=pointer]:
+            - /url: /@MJ-lastdance/videos?view=0&sort=p&shelf_id=3
+            - generic [ref=e193]: Popular videos
+        - generic [ref=e198]:
+          - generic [ref=e200] [cursor=pointer]:
+            - link [ref=e201]:
+              - /url: /watch?v=FzDffnYG1tc
+              - generic [ref=e208]: 31:08
+            - generic [ref=e210]:
+              - generic [ref=e211]:
+                - heading "코인 몰빵했다가 인생 망했습니다.. (ft.비트코인) | 부모님도 몰랐던 ssul. 통합본 31 minutes" [level=3] [ref=e212]:
+                  - link "코인 몰빵했다가 인생 망했습니다.. (ft.비트코인) | 부모님도 몰랐던 ssul. 통합본 31 minutes" [ref=e213]:
+                    - /url: /watch?v=FzDffnYG1tc
+                    - text: 코인 몰빵했다가 인생 망했습니다.. (ft.비트코인) | 부모님도 몰랐던 ssul. 통합본
+                - group [ref=e216]:
+                  - generic [ref=e217]: 879K views
+                  - generic [ref=e218]: •
+                  - generic [ref=e219]: 2 years ago
+              - button "More actions" [ref=e222]
+          - generic [ref=e229] [cursor=pointer]:
+            - link [ref=e230]:
+              - /url: /watch?v=JowdkgjgTxY
+              - generic [ref=e237]: 7:39
+            - generic [ref=e239]:
+              - generic [ref=e240]:
+                - heading "코인 선물 레버리지 몇 배 써야 하는지 수학으로 계산한 팩트로 알려드립니다. 7 minutes, 39 seconds" [level=3] [ref=e241]:
+                  - link "코인 선물 레버리지 몇 배 써야 하는지 수학으로 계산한 팩트로 알려드립니다. 7 minutes, 39 seconds" [ref=e242]:
+                    - /url: /watch?v=JowdkgjgTxY
+                    - text: 코인 선물 레버리지 몇 배 써야 하는지 수학으로 계산한 팩트로 알려드립니다.
+                - group [ref=e245]:
+                  - generic [ref=e246]: 163K views
+                  - generic [ref=e247]: •
+                  - generic [ref=e248]: 2 years ago
+              - button "More actions" [ref=e251]
+          - generic [ref=e258] [cursor=pointer]:
+            - link [ref=e259]:
+              - /url: /watch?v=dpPy11u4E1g
+              - generic [ref=e266]: 1:12:20
+            - generic [ref=e268]:
+              - generic [ref=e269]:
+                - heading "코인으로 전 재산 탕진한 사람들 인생썰 모음집 1 hour, 12 minutes" [level=3] [ref=e270]:
+                  - link "코인으로 전 재산 탕진한 사람들 인생썰 모음집 1 hour, 12 minutes" [ref=e271]:
+                    - /url: /watch?v=dpPy11u4E1g
+                    - text: 코인으로 전 재산 탕진한 사람들 인생썰 모음집
+                - group [ref=e274]:
+                  - generic [ref=e275]: 81K views
+                  - generic [ref=e276]: •
+                  - generic [ref=e277]: 1 year ago
+              - button "More actions" [ref=e280]
+          - generic [ref=e287] [cursor=pointer]:
+            - link [ref=e288]:
+              - /url: /watch?v=mQcH7ww2Bck
+              - generic [ref=e295]: 15:01
+            - generic [ref=e297]:
+              - generic [ref=e298]:
+                - heading "코인으로 전 재산 잃고 숙식 노가다 간 썰 15 minutes" [level=3] [ref=e299]:
+                  - link "코인으로 전 재산 잃고 숙식 노가다 간 썰 15 minutes" [ref=e300]:
+                    - /url: /watch?v=mQcH7ww2Bck
+                    - text: 코인으로 전 재산 잃고 숙식 노가다 간 썰
+                - group [ref=e303]:
+                  - generic [ref=e304]: 52K views
+                  - generic [ref=e305]: •
+                  - generic [ref=e306]: 1 year ago
+              - button "More actions" [ref=e309]
+          - generic [ref=e316] [cursor=pointer]:
+            - link [ref=e317]:
+              - /url: /watch?v=1gROgEId4Bo
+              - generic [ref=e324]: 13:17
+            - generic [ref=e326]:
+              - generic [ref=e327]:
+                - heading "진짜 '100억 트레이더'가 알려주는 비트코인 매매기법 | 이렇게만 해보세요 plz.. 13 minutes, 17 seconds" [level=3] [ref=e328]:
+                  - link "진짜 '100억 트레이더'가 알려주는 비트코인 매매기법 | 이렇게만 해보세요 plz.. 13 minutes, 17 seconds" [ref=e329]:
+                    - /url: /watch?v=1gROgEId4Bo
+                    - text: 진짜 '100억 트레이더'가 알려주는 비트코인 매매기법 | 이렇게만 해보세요 plz..
+                - group [ref=e332]:
+                  - generic [ref=e333]: 49K views
+                  - generic [ref=e334]: •
+                  - generic [ref=e335]: 2 years ago
+              - button "More actions" [ref=e338]

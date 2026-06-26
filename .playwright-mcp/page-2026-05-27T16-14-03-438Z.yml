@@ -1,0 +1,374 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [ref=e9] [cursor=pointer]
+        - generic [ref=e11]:
+          - link "YouTube Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e16]: KR
+        - button "Skip navigation" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: Skip navigation
+      - generic [ref=e25]:
+        - search [ref=e26]:
+          - generic [ref=e27]:
+            - combobox "Search" [expanded] [ref=e30]
+            - button "Search" [ref=e31] [cursor=pointer]
+        - generic [ref=e34]:
+          - button "Search with your voice" [ref=e36] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e43]:
+        - button "Settings" [ref=e48] [cursor=pointer]
+        - link "Sign in" [ref=e52] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F%2540rlwrld.dexterity&hl=en&ec=65620
+          - generic [ref=e55]: Sign in
+  - navigation [ref=e59]
+  - main [ref=e61]:
+    - generic [ref=e68]:
+      - generic [ref=e81]:
+        - heading "RLWRLD - Dexterity Physical AI" [level=1] [ref=e83]
+        - generic [ref=e84]:
+          - group [ref=e85]:
+            - generic [ref=e86]: "@rlwrld.dexterity"
+          - generic [ref=e87]: •
+          - group [ref=e88]:
+            - generic "1.33 thousand subscribers" [ref=e89]: 1.33K subscribers
+            - generic [ref=e90]: •
+            - generic [ref=e91]: 29 videos
+        - generic [ref=e93] [cursor=pointer]:
+          - generic [ref=e95]: More about this channel
+          - button "Description. More about this channel...tap for more." [ref=e96]:
+            - generic [ref=e97]: ...more
+        - button "Subscribe" [ref=e101] [cursor=pointer]:
+          - generic [ref=e102]: Subscribe
+      - tablist [ref=e109]:
+        - tablist [ref=e113]:
+          - tab "Videos" [selected] [ref=e114] [cursor=pointer]:
+            - generic [ref=e115]: Videos
+          - tab "Shorts" [ref=e116] [cursor=pointer]:
+            - generic [ref=e117]: Shorts
+          - button "Search" [ref=e121] [cursor=pointer]
+    - generic [ref=e127]:
+      - tablist [ref=e130]:
+        - tab "Latest" [selected] [ref=e134] [cursor=pointer]:
+          - generic [ref=e136]: Latest
+        - tab "Popular" [ref=e143] [cursor=pointer]:
+          - generic [ref=e145]: Popular
+        - tab "Oldest" [ref=e152] [cursor=pointer]:
+          - generic [ref=e154]: Oldest
+      - generic [ref=e158]:
+        - generic [ref=e162] [cursor=pointer]:
+          - link [ref=e163]:
+            - /url: /watch?v=YPTq4ytum0k
+            - generic [ref=e170]: 1:28
+          - generic [ref=e172]:
+            - generic [ref=e173]:
+              - heading "Launching RLDX-1 with the first live demo | RLWRLD 1 minute, 28 seconds" [level=3] [ref=e174]:
+                - link "Launching RLDX-1 with the first live demo | RLWRLD 1 minute, 28 seconds" [ref=e175]:
+                  - /url: /watch?v=YPTq4ytum0k
+                  - text: Launching RLDX-1 with the first live demo | RLWRLD
+              - group [ref=e178]:
+                - generic [ref=e179]: 682 views
+                - generic [ref=e180]: •
+                - generic "8 days ago" [ref=e181]
+            - button "More actions" [ref=e184]
+        - generic [ref=e193] [cursor=pointer]:
+          - link [ref=e194]:
+            - /url: /watch?v=H90bt8S8l2Y
+            - generic [ref=e201]: 3:31
+          - generic [ref=e203]:
+            - generic [ref=e204]:
+              - heading "RLDX-1 Powers Two Robots to Pack and Sort | RLWRLD 3 minutes, 31 seconds" [level=3] [ref=e205]:
+                - link "RLDX-1 Powers Two Robots to Pack and Sort | RLWRLD 3 minutes, 31 seconds" [ref=e206]:
+                  - /url: /watch?v=H90bt8S8l2Y
+                  - text: RLDX-1 Powers Two Robots to Pack and Sort | RLWRLD
+              - group [ref=e209]:
+                - generic [ref=e210]: 2.1K views
+                - generic [ref=e211]: •
+                - generic "13 days ago" [ref=e212]
+            - button "More actions" [ref=e215]
+        - generic [ref=e224] [cursor=pointer]:
+          - link [ref=e225]:
+            - /url: /watch?v=KRD9yMqPKJw
+            - generic [ref=e232]: 11:42
+          - generic [ref=e234]:
+            - generic [ref=e235]:
+              - heading "RLDX-1 | Dexterity is Intelligence 11 minutes, 42 seconds" [level=3] [ref=e236]:
+                - link "RLDX-1 | Dexterity is Intelligence 11 minutes, 42 seconds" [ref=e237]:
+                  - /url: /watch?v=KRD9yMqPKJw
+                  - text: RLDX-1 | Dexterity is Intelligence
+              - group [ref=e240]:
+                - generic [ref=e241]: 3.6K views
+                - generic [ref=e242]: •
+                - generic "2 weeks ago" [ref=e243]
+            - button "More actions" [ref=e246]
+        - generic [ref=e255] [cursor=pointer]:
+          - link [ref=e256]:
+            - /url: /watch?v=SfAeTxB5kMg
+            - generic [ref=e263]: 4:46
+          - generic [ref=e265]:
+            - generic [ref=e266]:
+              - heading "RLDX-1 Remembers Its Task Context 4 minutes, 46 seconds" [level=3] [ref=e267]:
+                - link "RLDX-1 Remembers Its Task Context 4 minutes, 46 seconds" [ref=e268]:
+                  - /url: /watch?v=SfAeTxB5kMg
+                  - text: RLDX-1 Remembers Its Task Context
+              - group [ref=e271]:
+                - generic [ref=e272]: 1.6K views
+                - generic [ref=e273]: •
+                - generic "2 weeks ago" [ref=e274]
+            - button "More actions" [ref=e277]
+        - generic [ref=e286] [cursor=pointer]:
+          - link [ref=e287]:
+            - /url: /watch?v=xh8UaGT4J5s
+            - generic [ref=e294]: 3:20
+          - generic [ref=e296]:
+            - generic [ref=e297]:
+              - heading "RLDX-1 Sees Physics and Motion 3 minutes, 20 seconds" [level=3] [ref=e298]:
+                - link "RLDX-1 Sees Physics and Motion 3 minutes, 20 seconds" [ref=e299]:
+                  - /url: /watch?v=xh8UaGT4J5s
+                  - text: RLDX-1 Sees Physics and Motion
+              - group [ref=e302]:
+                - generic [ref=e303]: 3K views
+                - generic [ref=e304]: •
+                - generic "2 weeks ago" [ref=e305]
+            - button "More actions" [ref=e308]
+        - generic [ref=e317] [cursor=pointer]:
+          - link [ref=e318]:
+            - /url: /watch?v=2cGuT3Ru2F8
+            - generic [ref=e325]: 4:18
+          - generic [ref=e327]:
+            - generic [ref=e328]:
+              - heading "RLDX-1 Feels Weight and ContactㅣRLWRLD 4 minutes, 18 seconds" [level=3] [ref=e329]:
+                - link "RLDX-1 Feels Weight and ContactㅣRLWRLD 4 minutes, 18 seconds" [ref=e330]:
+                  - /url: /watch?v=2cGuT3Ru2F8
+                  - text: RLDX-1 Feels Weight and ContactㅣRLWRLD
+              - group [ref=e333]:
+                - generic [ref=e334]: 1.3K views
+                - generic [ref=e335]: •
+                - generic "2 weeks ago" [ref=e336]
+            - button "More actions" [ref=e339]
+        - generic [ref=e348] [cursor=pointer]:
+          - link [ref=e349]:
+            - /url: /watch?v=dkKR46Nx0gY
+            - generic [ref=e356]: 1:00
+          - generic [ref=e358]:
+            - generic [ref=e359]:
+              - heading "RLDX-1 | The Dexterity-First Foundation Model for Robot Hands 1 minute" [level=3] [ref=e360]:
+                - link "RLDX-1 | The Dexterity-First Foundation Model for Robot Hands 1 minute" [ref=e361]:
+                  - /url: /watch?v=dkKR46Nx0gY
+                  - text: RLDX-1 | The Dexterity-First Foundation Model for Robot Hands
+              - group [ref=e364]:
+                - generic [ref=e365]: 4.5K views
+                - generic [ref=e366]: •
+                - generic "2 weeks ago" [ref=e367]
+            - button "More actions" [ref=e370]
+        - generic [ref=e379] [cursor=pointer]:
+          - link [ref=e380]:
+            - /url: /watch?v=p7MXJz_lrN0
+            - generic [ref=e387]: 0:23
+          - generic [ref=e389]:
+            - generic [ref=e390]:
+              - heading "RLDX-1 is Coming 23 seconds" [level=3] [ref=e391]:
+                - link "RLDX-1 is Coming 23 seconds" [ref=e392]:
+                  - /url: /watch?v=p7MXJz_lrN0
+                  - text: RLDX-1 is Coming
+              - group [ref=e395]:
+                - generic [ref=e396]: 1.2K views
+                - generic [ref=e397]: •
+                - generic "1 month ago" [ref=e398]
+            - button "More actions" [ref=e401]
+        - generic [ref=e410] [cursor=pointer]:
+          - link [ref=e411]:
+            - /url: /watch?v=d3hpBkrrjlw
+            - generic [ref=e418]: 1:52
+          - generic [ref=e420]:
+            - generic [ref=e421]:
+              - heading "Dexterity is all you need 1 minute, 52 seconds" [level=3] [ref=e422]:
+                - link "Dexterity is all you need 1 minute, 52 seconds" [ref=e423]:
+                  - /url: /watch?v=d3hpBkrrjlw
+                  - text: Dexterity is all you need
+              - group [ref=e426]:
+                - generic [ref=e427]: 2.4K views
+                - generic [ref=e428]: •
+                - generic "3 months ago" [ref=e429]
+            - button "More actions" [ref=e432]
+        - generic [ref=e441] [cursor=pointer]:
+          - link [ref=e442]:
+            - /url: /watch?v=WdlFiviruYI
+            - generic [ref=e449]: 5:20
+          - generic [ref=e451]:
+            - generic [ref=e452]:
+              - heading "RLWRLD Awarded at the Nebius Robotics & Physical AI Awards 5 minutes, 20 seconds" [level=3] [ref=e453]:
+                - link "RLWRLD Awarded at the Nebius Robotics & Physical AI Awards 5 minutes, 20 seconds" [ref=e454]:
+                  - /url: /watch?v=WdlFiviruYI
+                  - text: RLWRLD Awarded at the Nebius Robotics & Physical AI Awards
+              - group [ref=e457]:
+                - generic [ref=e458]: 944 views
+                - generic [ref=e459]: •
+                - generic "4 months ago" [ref=e460]
+            - button "More actions" [ref=e463]
+        - generic [ref=e472] [cursor=pointer]:
+          - link [ref=e473]:
+            - /url: /watch?v=q9ZuCoshgQo
+            - generic [ref=e480]: 2:53
+          - generic [ref=e482]:
+            - generic [ref=e483]:
+              - heading "RLWRLD at AWS re:Invent 2025 2 minutes, 53 seconds" [level=3] [ref=e484]:
+                - link "RLWRLD at AWS re:Invent 2025 2 minutes, 53 seconds" [ref=e485]:
+                  - /url: /watch?v=q9ZuCoshgQo
+                  - text: RLWRLD at AWS re:Invent 2025
+              - group [ref=e488]:
+                - generic [ref=e489]: 586 views
+                - generic [ref=e490]: •
+                - generic "4 months ago" [ref=e491]
+            - button "More actions" [ref=e494]
+        - generic [ref=e503] [cursor=pointer]:
+          - link [ref=e504]:
+            - /url: /watch?v=OU1mWX6FLkk&pp=0gcJCQoLAYcqIYzv
+            - generic [ref=e511]: 1:55
+          - generic [ref=e513]:
+            - generic [ref=e514]:
+              - heading "Demo at SK AI SUMMIT 1 minute, 55 seconds" [level=3] [ref=e515]:
+                - link "Demo at SK AI SUMMIT 1 minute, 55 seconds" [ref=e516]:
+                  - /url: /watch?v=OU1mWX6FLkk&pp=0gcJCQoLAYcqIYzv
+                  - text: Demo at SK AI SUMMIT
+              - group [ref=e519]:
+                - generic [ref=e520]: 1.6K views
+                - generic [ref=e521]: •
+                - generic "6 months ago" [ref=e522]
+            - button "More actions" [ref=e525]
+        - generic [ref=e534] [cursor=pointer]:
+          - link [ref=e535]:
+            - /url: /watch?v=zpNOHzPnRgM
+            - generic [ref=e542]: 2:43
+          - generic [ref=e544]:
+            - generic [ref=e545]:
+              - heading "Demo at KDDI SUMMIT 2 minutes, 43 seconds" [level=3] [ref=e546]:
+                - link "Demo at KDDI SUMMIT 2 minutes, 43 seconds" [ref=e547]:
+                  - /url: /watch?v=zpNOHzPnRgM
+                  - text: Demo at KDDI SUMMIT
+              - group [ref=e550]:
+                - generic [ref=e551]: 1.3K views
+                - generic [ref=e552]: •
+                - generic "6 months ago" [ref=e553]
+            - button "More actions" [ref=e556]
+        - generic [ref=e565] [cursor=pointer]:
+          - link [ref=e566]:
+            - /url: /watch?v=uAGiVYrPLDE
+            - generic [ref=e573]: 2:57
+          - generic [ref=e575]:
+            - generic [ref=e576]:
+              - heading "Demo at OpenAI Korea Launching 2 minutes, 57 seconds" [level=3] [ref=e577]:
+                - link "Demo at OpenAI Korea Launching 2 minutes, 57 seconds" [ref=e578]:
+                  - /url: /watch?v=uAGiVYrPLDE
+                  - text: Demo at OpenAI Korea Launching
+              - group [ref=e581]:
+                - generic [ref=e582]: 2K views
+                - generic [ref=e583]: •
+                - generic "6 months ago" [ref=e584]
+            - button "More actions" [ref=e587]
+        - generic [ref=e596] [cursor=pointer]:
+          - link [ref=e597]:
+            - /url: /watch?v=9VBZn-7Rhpc
+            - generic [ref=e604]: 2:45
+          - generic [ref=e606]:
+            - generic [ref=e607]:
+              - heading "Writing down and Slow motion 2 minutes, 45 seconds" [level=3] [ref=e608]:
+                - link "Writing down and Slow motion 2 minutes, 45 seconds" [ref=e609]:
+                  - /url: /watch?v=9VBZn-7Rhpc
+                  - text: Writing down and Slow motion
+              - group [ref=e612]:
+                - generic [ref=e613]: 1.5K views
+                - generic [ref=e614]: •
+                - generic "6 months ago" [ref=e615]
+            - button "More actions" [ref=e618]
+        - generic [ref=e627] [cursor=pointer]:
+          - link [ref=e628]:
+            - /url: /watch?v=N08DGlsDmUU
+            - generic [ref=e635]: 1:36
+          - generic [ref=e637]:
+            - generic [ref=e638]:
+              - heading "Writing down | Humanoid Hand AI 1 minute, 36 seconds" [level=3] [ref=e639]:
+                - link "Writing down | Humanoid Hand AI 1 minute, 36 seconds" [ref=e640]:
+                  - /url: /watch?v=N08DGlsDmUU
+                  - text: Writing down | Humanoid Hand AI
+              - group [ref=e643]:
+                - generic [ref=e644]: 2.1K views
+                - generic [ref=e645]: •
+                - generic "7 months ago" [ref=e646]
+            - button "More actions" [ref=e649]
+        - generic [ref=e658] [cursor=pointer]:
+          - link [ref=e659]:
+            - /url: /watch?v=vVgtqQ8H_8M
+            - generic [ref=e666]: 1:57
+          - generic [ref=e668]:
+            - generic [ref=e669]:
+              - heading "Pick and Place But SLOW MOTION | Humanoid Hand AI 1 minute, 57 seconds" [level=3] [ref=e670]:
+                - link "Pick and Place But SLOW MOTION | Humanoid Hand AI 1 minute, 57 seconds" [ref=e671]:
+                  - /url: /watch?v=vVgtqQ8H_8M
+                  - text: Pick and Place But SLOW MOTION | Humanoid Hand AI
+              - group [ref=e674]:
+                - generic [ref=e675]: 1.4K views
+                - generic [ref=e676]: •
+                - generic "7 months ago" [ref=e677]
+            - button "More actions" [ref=e680]
+        - generic [ref=e689] [cursor=pointer]:
+          - link [ref=e690]:
+            - /url: /watch?v=WpMitYdh9T8
+            - generic [ref=e697]: 1:47
+          - generic [ref=e699]:
+            - generic [ref=e700]:
+              - heading "Pick and PlaceㅣHumanoid Hand AI 1 minute, 47 seconds" [level=3] [ref=e701]:
+                - link "Pick and PlaceㅣHumanoid Hand AI 1 minute, 47 seconds" [ref=e702]:
+                  - /url: /watch?v=WpMitYdh9T8
+                  - text: Pick and PlaceㅣHumanoid Hand AI
+              - group [ref=e705]:
+                - generic [ref=e706]: 3.7K views
+                - generic [ref=e707]: •
+                - generic "7 months ago" [ref=e708]
+            - button "More actions" [ref=e711]
+        - generic [ref=e720] [cursor=pointer]:
+          - link [ref=e721]:
+            - /url: /watch?v=BdsIQt8Ft4I
+            - generic [ref=e728]: 1:32
+          - generic [ref=e730]:
+            - generic [ref=e731]:
+              - heading "Pouring Milk But SLOW MOTION!ㅣHumanoid Hand AI 1 minute, 32 seconds" [level=3] [ref=e732]:
+                - link "Pouring Milk But SLOW MOTION!ㅣHumanoid Hand AI 1 minute, 32 seconds" [ref=e733]:
+                  - /url: /watch?v=BdsIQt8Ft4I
+                  - text: Pouring Milk But SLOW MOTION!ㅣHumanoid Hand AI
+              - group [ref=e736]:
+                - generic [ref=e737]: 2.4K views
+                - generic [ref=e738]: •
+                - generic "7 months ago" [ref=e739]
+            - button "More actions" [ref=e742]
+        - generic [ref=e751] [cursor=pointer]:
+          - link [ref=e752]:
+            - /url: /watch?v=AY7shah5xiw
+            - generic [ref=e759]: 1:16
+          - generic [ref=e761]:
+            - generic [ref=e762]:
+              - heading "Pouring MilkㅣHumanoid Hand AI 1 minute, 16 seconds" [level=3] [ref=e763]:
+                - link "Pouring MilkㅣHumanoid Hand AI 1 minute, 16 seconds" [ref=e764]:
+                  - /url: /watch?v=AY7shah5xiw
+                  - text: Pouring MilkㅣHumanoid Hand AI
+              - group [ref=e767]:
+                - generic [ref=e768]: 8.4K views
+                - generic [ref=e769]: •
+                - generic "7 months ago" [ref=e770]
+            - button "More actions" [ref=e773]
+        - generic [ref=e782] [cursor=pointer]:
+          - link [ref=e783]:
+            - /url: /watch?v=I3kklRD6qYY
+            - generic [ref=e790]: 2:34
+          - generic [ref=e792]:
+            - generic [ref=e793]:
+              - 'heading "RLWRLD: Defining the Future of Physical AI 2 minutes, 34 seconds" [level=3] [ref=e794]':
+                - 'link "RLWRLD: Defining the Future of Physical AI 2 minutes, 34 seconds" [ref=e795]':
+                  - /url: /watch?v=I3kklRD6qYY
+                  - text: "RLWRLD: Defining the Future of Physical AI"
+              - group [ref=e798]:
+                - generic [ref=e799]: 9.1K views
+                - generic [ref=e800]: •
+                - generic "7 months ago" [ref=e801]
+            - button "More actions" [ref=e804]

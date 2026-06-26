@@ -1,0 +1,271 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to main content" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+    - generic [ref=e5]:
+      - link "Cornell University" [ref=e7] [cursor=pointer]:
+        - /url: https://www.cornell.edu/
+        - img "Cornell University" [ref=e8]
+      - link "Learn about arXiv becoming an independent nonprofit." [ref=e10] [cursor=pointer]:
+        - /url: https://tech.cornell.edu/arxiv/
+      - generic [ref=e11]:
+        - generic [ref=e12]:
+          - text: We gratefully acknowledge support from the Simons Foundation,
+          - link "member institutions" [ref=e13] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/ourmembers.html
+          - text: ", and all contributors."
+        - link "Donate" [ref=e14] [cursor=pointer]:
+          - /url: https://info.arxiv.org/about/donate.html
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - link "arxiv logo" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img "arxiv logo" [ref=e18]
+        - generic [ref=e19]: ">"
+        - link "gr-qc" [ref=e20] [cursor=pointer]:
+          - /url: /list/gr-qc/recent
+        - generic [ref=e21]: ">"
+        - text: arXiv:2209.11961
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - textbox "Search term or terms" [ref=e26]:
+            - /placeholder: Search...
+          - paragraph [ref=e27]:
+            - link "Help" [ref=e28] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+            - text: "|"
+            - link "Advanced Search" [ref=e29] [cursor=pointer]:
+              - /url: https://arxiv.org/search/advanced
+        - combobox "Field to search" [ref=e31]:
+          - option "All fields" [selected]
+          - option "Title"
+          - option "Author"
+          - option "Abstract"
+          - option "Comments"
+          - option "Journal reference"
+          - option "ACM classification"
+          - option "MSC classification"
+          - option "Report number"
+          - option "arXiv identifier"
+          - option "DOI"
+          - option "ORCID"
+          - option "arXiv author ID"
+          - option "Help pages"
+          - option "Full text"
+        - button "Search" [ref=e32] [cursor=pointer]
+  - main [ref=e33]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - heading "General Relativity and Quantum Cosmology" [level=1] [ref=e38]
+        - generic [ref=e40]:
+          - generic [ref=e41]: "[Submitted on 24 Sep 2022]"
+          - heading "Integration of the geodesic equations via Noether Symmetries" [level=1] [ref=e42]
+          - link "Ugur Camci" [ref=e44] [cursor=pointer]:
+            - /url: https://arxiv.org/search/gr-qc?searchtype=author&query=Camci,+U
+          - blockquote [ref=e45]: Through this article, I will overview the use of Noether symmetry approach in discussing the integration of geodesic equations for the geodesic Lagrangians of spacetimes. I will also give some examples to reveal the efficiency of Noether symmetry approach by finding the first integrals related for the geodesic Lagrangians of the Gödel-type, Schwarzschild, Reissner-Nordström and Kerr spacetimes. After obtaining the approximate Noether symmetries of the Schwarzschild, Reissner-Nordström and Kerr spacetimes, the first integrals associated with each of approximate Noether symmetries have been integrated to find a general solution of geodesic equations in terms of the arc length s .
+          - table "Additional metadata" [ref=e47]:
+            - rowgroup [ref=e48]:
+              - 'row "Comments: 13 pages, no figures" [ref=e49]':
+                - cell "Comments:" [ref=e50]
+                - cell "13 pages, no figures" [ref=e51]
+              - 'row "Subjects: General Relativity and Quantum Cosmology (gr-qc)" [ref=e52]':
+                - cell "Subjects:" [ref=e53]
+                - cell "General Relativity and Quantum Cosmology (gr-qc)" [ref=e54]
+              - 'row "Cite as: arXiv:2209.11961 [gr-qc]" [ref=e55]':
+                - cell "Cite as:" [ref=e56]
+                - cell "arXiv:2209.11961 [gr-qc]" [ref=e57]:
+                  - generic [ref=e58]:
+                    - link "arXiv:2209.11961" [ref=e59] [cursor=pointer]:
+                      - /url: https://arxiv.org/abs/2209.11961
+                    - text: "[gr-qc]"
+              - row "(or arXiv:2209.11961v1 [gr-qc] for this version)" [ref=e60]:
+                - cell [ref=e61]
+                - cell "(or arXiv:2209.11961v1 [gr-qc] for this version)" [ref=e62]:
+                  - text: (or
+                  - generic [ref=e63]:
+                    - link "arXiv:2209.11961v1" [ref=e64] [cursor=pointer]:
+                      - /url: https://arxiv.org/abs/2209.11961v1
+                    - text: "[gr-qc]"
+                  - text: for this version)
+              - row "https://doi.org/10.48550/arXiv.2209.11961 Focus to learn more" [ref=e65]:
+                - cell [ref=e66]
+                - cell "https://doi.org/10.48550/arXiv.2209.11961 Focus to learn more" [ref=e67]:
+                  - link "https://doi.org/10.48550/arXiv.2209.11961" [ref=e68] [cursor=pointer]:
+                    - /url: https://doi.org/10.48550/arXiv.2209.11961
+                  - button "Focus to learn more" [ref=e70]:
+                    - generic [ref=e72]: Focus to learn more
+              - 'row "Journal reference: International Journal of Modern Physics, vol.31, No. 11, 2240011 (2022)" [ref=e73]':
+                - cell "Journal reference:" [ref=e74]
+                - cell "International Journal of Modern Physics, vol.31, No. 11, 2240011 (2022)" [ref=e75]
+              - 'row "Related DOI: https://doi.org/10.1142/S0218271822400119 Focus to learn more" [ref=e76]':
+                - cell "Related DOI:" [ref=e77]
+                - cell "https://doi.org/10.1142/S0218271822400119 Focus to learn more" [ref=e78]:
+                  - link "https://doi.org/10.1142/S0218271822400119" [ref=e79] [cursor=pointer]:
+                    - /url: https://doi.org/10.1142/S0218271822400119
+                  - button "Focus to learn more" [ref=e81]:
+                    - generic [ref=e83]: Focus to learn more
+        - generic [ref=e84]:
+          - heading "Submission history" [level=2] [ref=e85]
+          - text: "From: Ugur Camci ["
+          - link "view email" [ref=e86] [cursor=pointer]:
+            - /url: /show-email/a7bd1a3a/2209.11961
+          - text: "]"
+          - strong [ref=e87]: "[v1]"
+          - text: Sat, 24 Sep 2022 08:48:39 UTC (41 KB)
+      - generic [ref=e88]:
+        - generic [ref=e89]:
+          - heading "Access Paper:" [level=2] [ref=e90]
+          - list [ref=e91]:
+            - listitem [ref=e92]:
+              - link "View PDF" [ref=e93] [cursor=pointer]:
+                - /url: /pdf/2209.11961
+            - listitem [ref=e94]:
+              - link "TeX Source" [ref=e95] [cursor=pointer]:
+                - /url: /src/2209.11961
+          - link "view license" [ref=e97] [cursor=pointer]:
+            - /url: http://creativecommons.org/licenses/by/4.0/
+            - generic [ref=e98]: view license
+        - generic [ref=e99]:
+          - heading "Current browse context:" [level=3] [ref=e100]
+          - generic [ref=e101]: gr-qc
+          - generic [ref=e102]:
+            - link "< prev" [ref=e104] [cursor=pointer]:
+              - /url: /prevnext?id=2209.11961&function=prev&context=gr-qc
+            - text: "|"
+            - link "next >" [ref=e106] [cursor=pointer]:
+              - /url: /prevnext?id=2209.11961&function=next&context=gr-qc
+          - generic [ref=e107]:
+            - link "new" [ref=e108] [cursor=pointer]:
+              - /url: /list/gr-qc/new
+            - text: "|"
+            - link "recent" [ref=e109] [cursor=pointer]:
+              - /url: /list/gr-qc/recent
+            - text: "|"
+            - link "2022-09" [ref=e110] [cursor=pointer]:
+              - /url: /list/gr-qc/2022-09
+        - generic [ref=e111]:
+          - heading "References & Citations" [level=3] [ref=e112]
+          - list [ref=e113]:
+            - listitem [ref=e114]:
+              - link "INSPIRE HEP" [ref=e115] [cursor=pointer]:
+                - /url: https://inspirehep.net/arxiv/2209.11961
+            - listitem [ref=e116]:
+              - link "NASA ADS" [ref=e117] [cursor=pointer]:
+                - /url: https://ui.adsabs.harvard.edu/abs/arXiv:2209.11961
+            - listitem [ref=e118]:
+              - link "Google Scholar" [ref=e119] [cursor=pointer]:
+                - /url: https://scholar.google.com/scholar_lookup?arxiv_id=2209.11961
+            - listitem [ref=e120]:
+              - link "Semantic Scholar" [ref=e121] [cursor=pointer]:
+                - /url: https://api.semanticscholar.org/arXiv:2209.11961
+        - button "export BibTeX citation" [ref=e123]
+        - generic [ref=e124]:
+          - heading "Bookmark" [level=3] [ref=e126]
+          - link "BibSonomy" [ref=e127] [cursor=pointer]:
+            - /url: http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2209.11961&description=Integration of the geodesic equations via Noether Symmetries
+            - img "BibSonomy" [ref=e128]
+          - link "Reddit" [ref=e129] [cursor=pointer]:
+            - /url: https://reddit.com/submit?url=https://arxiv.org/abs/2209.11961&title=Integration of the geodesic equations via Noether Symmetries
+            - img "Reddit" [ref=e130]
+      - tablist "arXivLabs tools" [ref=e132]:
+        - radio "Bibliographic Tools" [checked] [ref=e133]
+        - tab "Bibliographic Tools" [selected] [ref=e134] [cursor=pointer]
+        - tabpanel "Bibliographic Tools" [ref=e135]:
+          - heading "Bibliographic and Citation Tools" [level=1] [ref=e136]
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - generic [ref=e140]:
+                - checkbox "Bibliographic Explorer Toggle"
+                - generic [ref=e142]: Bibliographic Explorer Toggle
+              - generic [ref=e143]:
+                - text: Bibliographic Explorer
+                - emphasis [ref=e144]:
+                  - text: (
+                  - link "What is the Explorer?" [ref=e145] [cursor=pointer]:
+                    - /url: https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer
+                  - text: )
+            - generic [ref=e146]:
+              - generic [ref=e148]:
+                - checkbox "Connected Papers"
+                - generic [ref=e150]: Connected Papers Toggle
+              - generic [ref=e151]:
+                - text: Connected Papers
+                - emphasis [ref=e152]:
+                  - text: (
+                  - link "What is Connected Papers?" [ref=e153] [cursor=pointer]:
+                    - /url: https://www.connectedpapers.com/about
+                  - text: )
+            - generic [ref=e154]:
+              - generic [ref=e156]:
+                - checkbox "Litmaps"
+                - generic [ref=e158]: Litmaps Toggle
+              - generic [ref=e159]:
+                - text: Litmaps
+                - emphasis [ref=e160]:
+                  - text: (
+                  - link "What is Litmaps?" [ref=e161] [cursor=pointer]:
+                    - /url: https://www.litmaps.co/
+                  - text: )
+            - generic [ref=e162]:
+              - generic [ref=e164]:
+                - checkbox "scite Smart Citations"
+                - generic [ref=e166]: scite.ai Toggle
+              - generic [ref=e167]:
+                - text: scite Smart Citations
+                - emphasis [ref=e168]:
+                  - text: (
+                  - link "What are Smart Citations?" [ref=e169] [cursor=pointer]:
+                    - /url: https://www.scite.ai/
+                  - text: )
+        - radio "Code, Data, Media" [ref=e173]
+        - tab "Code, Data, Media" [ref=e174] [cursor=pointer]
+        - radio "Demos" [ref=e175]
+        - tab "Demos" [ref=e176] [cursor=pointer]
+        - radio "Related Papers" [ref=e177]
+        - tab "Related Papers" [ref=e178] [cursor=pointer]
+        - radio "About arXivLabs" [ref=e179]
+        - tab "About arXivLabs" [ref=e180] [cursor=pointer]
+      - generic [ref=e181]:
+        - link "Which authors of this paper are endorsers?" [ref=e182] [cursor=pointer]:
+          - /url: /auth/show-endorsers/2209.11961
+        - text: "|"
+        - link "Disable MathJax" [ref=e183] [cursor=pointer]:
+          - /url: javascript:setMathjaxCookie()
+        - text: (
+        - link "What is MathJax?" [ref=e184] [cursor=pointer]:
+          - /url: https://info.arxiv.org/help/mathjax.html
+        - text: )
+  - contentinfo [ref=e185]:
+    - navigation "Secondary" [ref=e186]:
+      - generic [ref=e188]:
+        - list [ref=e190]:
+          - listitem [ref=e191]:
+            - link "About" [ref=e192] [cursor=pointer]:
+              - /url: https://info.arxiv.org/about
+          - listitem [ref=e193]:
+            - link "Help" [ref=e194] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help
+        - list [ref=e196]:
+          - listitem [ref=e197]:
+            - link "Contact" [ref=e199] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/contact.html
+          - listitem [ref=e200]:
+            - link "Subscribe" [ref=e202] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/subscribe
+      - generic [ref=e204]:
+        - list [ref=e206]:
+          - listitem [ref=e207]:
+            - link "Copyright" [ref=e208] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/license/index.html
+          - listitem [ref=e209]:
+            - link "Privacy Policy" [ref=e210] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/policies/privacy_policy.html
+        - list [ref=e212]:
+          - listitem [ref=e213]:
+            - link "Web Accessibility Assistance" [ref=e214] [cursor=pointer]:
+              - /url: https://info.arxiv.org/help/web_accessibility.html
+          - listitem [ref=e215]:
+            - paragraph [ref=e216]:
+              - link "arXiv Operational Status" [ref=e217] [cursor=pointer]:
+                - /url: https://status.arxiv.org
+                - text: arXiv Operational Status

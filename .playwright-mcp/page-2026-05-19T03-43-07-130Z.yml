@@ -1,0 +1,707 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Ffreqtrade%2Ffreqtrade-strategies
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=freqtrade%2Ffreqtrade-strategies
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "freqtrade" [ref=e70] [cursor=pointer]:
+            - /url: /freqtrade
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "freqtrade-strategies" [ref=e73] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade-strategies
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffreqtrade%2Ffreqtrade-strategies
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 1.4k" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffreqtrade%2Ffreqtrade-strategies
+                - img [ref=e82]
+                - text: Fork
+                - generic "1,403" [ref=e84]: 1.4k
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Ffreqtrade%2Ffreqtrade-strategies
+                - img [ref=e88]
+                - text: Star
+                - generic "5153 users starred this repository" [ref=e90]: 5.2k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade-strategies
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 11" [ref=e99] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade-strategies/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "11" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests" [ref=e106] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade-strategies/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+          - listitem [ref=e110]:
+            - link "Actions" [ref=e111] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade-strategies/actions
+              - img [ref=e112]
+              - generic [ref=e114]: Actions
+          - listitem [ref=e115]:
+            - link "Projects" [ref=e116] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade-strategies/projects
+              - img [ref=e117]
+              - generic [ref=e119]: Projects
+          - listitem [ref=e120]:
+            - link "Wiki" [ref=e121] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade-strategies/wiki
+              - img [ref=e122]
+              - generic [ref=e124]: Wiki
+          - listitem [ref=e125]:
+            - link "Security and quality" [ref=e126] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade-strategies/security
+              - img [ref=e127]
+              - generic [ref=e129]: Security and quality
+          - listitem [ref=e130]:
+            - link "Insights" [ref=e131] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade-strategies/pulse
+              - img [ref=e132]
+              - generic [ref=e134]: Insights
+    - generic [ref=e147]:
+      - heading "freqtrade/freqtrade-strategies" [level=1] [ref=e149]
+      - generic [ref=e150]:
+        - generic [ref=e153]:
+          - generic [ref=e154]:
+            - generic [ref=e155]:
+              - button "main branch" [ref=e157] [cursor=pointer]:
+                - generic [ref=e158]:
+                  - generic [ref=e160]:
+                    - img [ref=e162]
+                    - generic [ref=e165]: main
+                  - generic:
+                    - img
+              - generic [ref=e166]:
+                - link "3 Branches" [ref=e167] [cursor=pointer]:
+                  - /url: /freqtrade/freqtrade-strategies/branches
+                  - generic [ref=e168]:
+                    - generic:
+                      - img
+                    - generic [ref=e170]:
+                      - strong [ref=e171]: "3"
+                      - text: Branches
+                - link "0 Tags" [ref=e172] [cursor=pointer]:
+                  - /url: /freqtrade/freqtrade-strategies/tags
+                  - generic [ref=e173]:
+                    - generic:
+                      - img
+                    - generic [ref=e175]:
+                      - strong [ref=e176]: "0"
+                      - text: Tags
+            - generic [ref=e177]:
+              - generic [ref=e181]:
+                - img [ref=e183]
+                - combobox "Go to file" [ref=e185]
+              - button "Code" [ref=e186] [cursor=pointer]:
+                - generic [ref=e187]:
+                  - generic:
+                    - img
+                  - generic [ref=e188]: Code
+                  - generic:
+                    - img
+          - generic [ref=e189]:
+            - generic [ref=e190]:
+              - heading "Folders and files" [level=2] [ref=e191]
+              - table "Folders and files" [ref=e192]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e193]:
+                  - 'row "Latest commit xmatthias commits by xmatthias Merge pull request #334 from darkvolg/add-trendrider-v4-strategy Open commit details Commit dbd5b0b · May 5, 20262 weeks ago History 370 Commits" [ref=e194]':
+                    - 'cell "Latest commit xmatthias commits by xmatthias Merge pull request #334 from darkvolg/add-trendrider-v4-strategy Open commit details Commit dbd5b0b · May 5, 20262 weeks ago History 370 Commits" [ref=e195]':
+                      - generic [ref=e196]:
+                        - heading "Latest commit" [level=2] [ref=e197]
+                        - generic [ref=e198]:
+                          - generic [ref=e200]:
+                            - link "xmatthias" [ref=e201] [cursor=pointer]:
+                              - /url: /xmatthias
+                              - img "xmatthias" [ref=e202]
+                            - link "commits by xmatthias" [ref=e203] [cursor=pointer]:
+                              - /url: /freqtrade/freqtrade-strategies/commits?author=xmatthias
+                              - text: xmatthias
+                          - generic [ref=e204]:
+                            - generic [ref=e206]:
+                              - link "Merge pull request" [ref=e207] [cursor=pointer]:
+                                - /url: /freqtrade/freqtrade-strategies/commit/dbd5b0b21cfbf5ee80588d37458ace2467b7f8a4
+                              - link "#334" [ref=e208] [cursor=pointer]:
+                                - /url: https://github.com/freqtrade/freqtrade-strategies/pull/334
+                              - link "from darkvolg/add-trendrider-v4-strategy" [ref=e209] [cursor=pointer]:
+                                - /url: /freqtrade/freqtrade-strategies/commit/dbd5b0b21cfbf5ee80588d37458ace2467b7f8a4
+                            - button "Open commit details" [ref=e210] [cursor=pointer]:
+                              - img [ref=e211]
+                        - generic [ref=e213]:
+                          - generic [ref=e215]:
+                            - link "Commit dbd5b0b" [ref=e216] [cursor=pointer]:
+                              - /url: /freqtrade/freqtrade-strategies/commit/dbd5b0b21cfbf5ee80588d37458ace2467b7f8a4
+                              - text: dbd5b0b
+                            - text: ·
+                            - generic "May 5, 2026, 2:06 PM GMT+9" [ref=e217]: May 5, 20262 weeks ago
+                          - generic [ref=e218]:
+                            - heading "History" [level=2] [ref=e219]
+                            - link "370 Commits" [ref=e220] [cursor=pointer]:
+                              - /url: /freqtrade/freqtrade-strategies/commits/main/
+                              - generic [ref=e221]:
+                                - generic:
+                                  - img
+                                - generic [ref=e222]: 370 Commits
+                  - row ".github, (Directory) Change PR template to not link to issues if not filled out Sep 5, 20215 years ago" [ref=e223]:
+                    - cell ".github, (Directory)" [ref=e224]:
+                      - generic [ref=e225]:
+                        - img [ref=e226]
+                        - link ".github, (Directory)" [ref=e231] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/tree/main/.github
+                          - text: .github
+                    - cell "Change PR template to not link to issues if not filled out" [ref=e232]:
+                      - link "Change PR template to not link to issues if not filled out" [ref=e235] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/b01325133c93c036fec0a1f4ee033d7cc752a7b5
+                    - cell "Sep 5, 20215 years ago" [ref=e236]:
+                      - generic [ref=e237]: Sep 5, 20215 years ago
+                  - 'row "user_data, (Directory) fix: remove internal V4 version references from strategy code Apr 21, 2026last month" [ref=e238]':
+                    - cell "user_data, (Directory)" [ref=e239]:
+                      - generic [ref=e240]:
+                        - img [ref=e241]
+                        - link "user_data, (Directory)" [ref=e246] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/tree/main/user_data
+                          - text: user_data
+                    - 'cell "fix: remove internal V4 version references from strategy code" [ref=e247]':
+                      - 'link "fix: remove internal V4 version references from strategy code" [ref=e250] [cursor=pointer]':
+                        - /url: /freqtrade/freqtrade-strategies/commit/a892f504b556abed4c22053a09a8a4f0035d4e39
+                    - cell "Apr 21, 2026last month" [ref=e251]:
+                      - generic [ref=e252]: Apr 21, 2026last month
+                  - row ".gitignore, (File) Add first free strategies Jan 21, 20189 years ago" [ref=e253]:
+                    - cell ".gitignore, (File)" [ref=e254]:
+                      - generic [ref=e255]:
+                        - img [ref=e256]
+                        - link ".gitignore, (File)" [ref=e261] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell "Add first free strategies" [ref=e262]:
+                      - link "Add first free strategies" [ref=e265] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/1ee6c3debe1907be85027ebc6db0430ba65823c3
+                    - cell "Jan 21, 20189 years ago" [ref=e266]:
+                      - generic [ref=e267]: Jan 21, 20189 years ago
+                  - row "LICENSE, (File) Create LICENSE Jan 22, 20189 years ago" [ref=e268]:
+                    - cell "LICENSE, (File)" [ref=e269]:
+                      - generic [ref=e270]:
+                        - img [ref=e271]
+                        - link "LICENSE, (File)" [ref=e276] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/LICENSE
+                          - text: LICENSE
+                    - cell "Create LICENSE" [ref=e277]:
+                      - link "Create LICENSE" [ref=e280] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/8e41050af90c4e97f5bc3801803d96598b8b9058
+                    - cell "Jan 22, 20189 years ago" [ref=e281]:
+                      - generic [ref=e282]: Jan 22, 20189 years ago
+                  - row "README.md, (File) Update README.md Jan 21, 2025last year" [ref=e283]:
+                    - cell "README.md, (File)" [ref=e284]:
+                      - generic [ref=e285]:
+                        - img [ref=e286]
+                        - link "README.md, (File)" [ref=e291] [cursor=pointer]:
+                          - /url: /freqtrade/freqtrade-strategies/blob/main/README.md
+                          - text: README.md
+                    - cell "Update README.md" [ref=e292]:
+                      - link "Update README.md" [ref=e295] [cursor=pointer]:
+                        - /url: /freqtrade/freqtrade-strategies/commit/1bb298d78f71629cddfa78453faeb57bbf4e6de2
+                    - cell "Jan 21, 2025last year" [ref=e296]:
+                      - generic [ref=e297]: Jan 21, 2025last year
+            - generic [ref=e299]:
+              - generic [ref=e300]:
+                - heading "Repository files navigation" [level=2] [ref=e301]
+                - navigation "Repository files" [ref=e302]:
+                  - list [ref=e303]:
+                    - listitem [ref=e304]:
+                      - link "README" [ref=e305] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e307]
+                        - generic [ref=e309]: README
+                    - listitem [ref=e310]:
+                      - link "GPL-3.0 license" [ref=e311] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e313]
+                        - generic [ref=e315]: GPL-3.0 license
+                - button "Outline" [ref=e316] [cursor=pointer]:
+                  - img [ref=e317]
+              - article [ref=e320]:
+                - generic [ref=e321]:
+                  - heading "Freqtrade strategies" [level=1] [ref=e322]
+                  - 'link "Permalink: Freqtrade strategies" [ref=e323] [cursor=pointer]':
+                    - /url: "#freqtrade-strategies"
+                    - img [ref=e324]
+                - paragraph [ref=e326]:
+                  - text: This Git repo contains free buy/sell strategies for
+                  - link "Freqtrade" [ref=e327] [cursor=pointer]:
+                    - /url: https://github.com/freqtrade/freqtrade
+                  - text: .
+                - paragraph [ref=e328]: All strategies should work with a freqtrade version of 2022.4 or newer.
+                - generic [ref=e329]:
+                  - heading "Disclaimer" [level=2] [ref=e330]
+                  - 'link "Permalink: Disclaimer" [ref=e331] [cursor=pointer]':
+                    - /url: "#disclaimer"
+                    - img [ref=e332]
+                - paragraph [ref=e334]: These strategies are for educational purposes only. Do not risk money which you are afraid to lose. USE THE SOFTWARE AT YOUR OWN RISK. THE AUTHORS AND ALL AFFILIATES ASSUME NO RESPONSIBILITY FOR YOUR TRADING RESULTS.
+                - paragraph [ref=e335]: Always start by testing strategies with a backtesting then run the trading bot in Dry-run. Do not engage money before you understand how it works and what profit/loss you should expect.
+                - paragraph [ref=e336]: We strongly recommend you to have coding and Python knowledge. Do not hesitate to read the source code and understand the mechanism of this bot.
+                - generic [ref=e337]:
+                  - heading "Table of Content" [level=2] [ref=e338]
+                  - 'link "Permalink: Table of Content" [ref=e339] [cursor=pointer]':
+                    - /url: "#table-of-content"
+                    - img [ref=e340]
+                - list [ref=e342]:
+                  - listitem [ref=e343]:
+                    - link "Free trading strategies" [ref=e344] [cursor=pointer]:
+                      - /url: "#free-trading-strategies"
+                  - listitem [ref=e345]:
+                    - link "Contribute" [ref=e346] [cursor=pointer]:
+                      - /url: "#share-your-own-strategies-and-contribute-to-this-repo"
+                  - listitem [ref=e347]:
+                    - link "FAQ" [ref=e348] [cursor=pointer]:
+                      - /url: "#faq"
+                    - list [ref=e349]:
+                      - listitem [ref=e350]:
+                        - link "What is Freqtrade?" [ref=e351] [cursor=pointer]:
+                          - /url: "#what-is-freqtrade"
+                      - listitem [ref=e352]:
+                        - link "What includes these strategies?" [ref=e353] [cursor=pointer]:
+                          - /url: "#what-includes-these-strategies"
+                      - listitem [ref=e354]:
+                        - link "How to install a strategy?" [ref=e355] [cursor=pointer]:
+                          - /url: "#how-to-install-a-strategy"
+                      - listitem [ref=e356]:
+                        - link "How to test a strategy?" [ref=e357] [cursor=pointer]:
+                          - /url: "#how-to-test-a-strategy"
+                      - listitem [ref=e358]:
+                        - link "How to create/optimize a strategy?" [ref=e359] [cursor=pointer]:
+                          - /url: https://www.freqtrade.io/en/latest/strategy-customization/
+                - generic [ref=e360]:
+                  - heading "Free trading strategies" [level=2] [ref=e361]
+                  - 'link "Permalink: Free trading strategies" [ref=e362] [cursor=pointer]':
+                    - /url: "#free-trading-strategies"
+                    - img [ref=e363]
+                - paragraph [ref=e365]:
+                  - text: Value below are result from backtesting from 2018-01-10 to 2018-01-30 and
+                  - code [ref=e366]: exit_profit_only
+                  - text: enabled. More detail on each strategy page.
+                - table [ref=e368]:
+                  - rowgroup [ref=e369]:
+                    - row "Strategy Buy count AVG profit % Total profit AVG duration Backtest period" [ref=e370]:
+                      - columnheader "Strategy" [ref=e371]
+                      - columnheader "Buy count" [ref=e372]
+                      - columnheader "AVG profit %" [ref=e373]
+                      - columnheader "Total profit" [ref=e374]
+                      - columnheader "AVG duration" [ref=e375]
+                      - columnheader "Backtest period" [ref=e376]
+                  - rowgroup [ref=e377]:
+                    - row "Strategy 001 55 0.05 0.00012102 476.1 2018-01-10 to 2018-01-30" [ref=e378]:
+                      - cell "Strategy 001" [ref=e379]:
+                        - link "Strategy 001" [ref=e380] [cursor=pointer]:
+                          - /url: https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/Strategy001.py
+                      - cell "55" [ref=e381]
+                      - cell "0.05" [ref=e382]
+                      - cell "0.00012102" [ref=e383]
+                      - cell "476.1" [ref=e384]
+                      - cell "2018-01-10 to 2018-01-30" [ref=e385]
+                    - row "Strategy 002 9 3.21 0.00114807 189.4 2018-01-10 to 2018-01-30" [ref=e386]:
+                      - cell "Strategy 002" [ref=e387]:
+                        - link "Strategy 002" [ref=e388] [cursor=pointer]:
+                          - /url: https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/Strategy002.py
+                      - cell "9" [ref=e389]
+                      - cell "3.21" [ref=e390]
+                      - cell "0.00114807" [ref=e391]
+                      - cell "189.4" [ref=e392]
+                      - cell "2018-01-10 to 2018-01-30" [ref=e393]
+                    - row "Strategy 003 14 1.47 0.00081740 227.5 2018-01-10 to 2018-01-30" [ref=e394]:
+                      - cell "Strategy 003" [ref=e395]:
+                        - link "Strategy 003" [ref=e396] [cursor=pointer]:
+                          - /url: https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/Strategy003.py
+                      - cell "14" [ref=e397]
+                      - cell "1.47" [ref=e398]
+                      - cell "0.00081740" [ref=e399]
+                      - cell "227.5" [ref=e400]
+                      - cell "2018-01-10 to 2018-01-30" [ref=e401]
+                    - row "Strategy 004 37 0.69 0.00102128 367.3 2018-01-10 to 2018-01-30" [ref=e402]:
+                      - cell "Strategy 004" [ref=e403]:
+                        - link "Strategy 004" [ref=e404] [cursor=pointer]:
+                          - /url: https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/Strategy004.py
+                      - cell "37" [ref=e405]
+                      - cell "0.69" [ref=e406]
+                      - cell "0.00102128" [ref=e407]
+                      - cell "367.3" [ref=e408]
+                      - cell "2018-01-10 to 2018-01-30" [ref=e409]
+                    - row "Strategy 005 180 1.16 0.00827589 156.2 2018-01-10 to 2018-01-30" [ref=e410]:
+                      - cell "Strategy 005" [ref=e411]:
+                        - link "Strategy 005" [ref=e412] [cursor=pointer]:
+                          - /url: https://github.com/freqtrade/freqtrade-strategies/blob/main/user_data/strategies/Strategy005.py
+                      - cell "180" [ref=e413]
+                      - cell "1.16" [ref=e414]
+                      - cell "0.00827589" [ref=e415]
+                      - cell "156.2" [ref=e416]
+                      - cell "2018-01-10 to 2018-01-30" [ref=e417]
+                - paragraph [ref=e418]: Strategies from this repo are free to use. Feel free to update them to your likings. Most of them were designed from Hyperopt calculations.
+                - paragraph [ref=e419]: Some only work in specific market conditions, while others are more "general purpose" strategies. It's noteworthy that depending on the exchange and Pairs used, further optimization can bring better results.
+                - paragraph [ref=e420]: Please keep in mind, results will heavily depend on the pairs, timeframe and timerange used to backtest - so please run your own backtests that mirror your usecase, to evaluate each strategy for yourself.
+                - paragraph [ref=e421]: The results above should serve as a general outline to demonstrate the number of trades to expect. Actual performance will be different based on various factors.
+                - generic [ref=e422]:
+                  - heading "Share your own strategies and contribute to this repo" [level=2] [ref=e423]
+                  - 'link "Permalink: Share your own strategies and contribute to this repo" [ref=e424] [cursor=pointer]':
+                    - /url: "#share-your-own-strategies-and-contribute-to-this-repo"
+                    - img [ref=e425]
+                - paragraph [ref=e427]:
+                  - text: Feel free to send your strategies, comments, optimizations and pull requests via an
+                  - link "Issue ticket" [ref=e428] [cursor=pointer]:
+                    - /url: https://github.com/freqtrade/freqtrade-strategies/issues/new
+                  - text: or as a
+                  - link "Pull request" [ref=e429] [cursor=pointer]:
+                    - /url: https://github.com/freqtrade/freqtrade-strategies/pulls
+                  - text: enhancing this repository.
+                - generic [ref=e430]:
+                  - heading "FAQ" [level=2] [ref=e431]
+                  - 'link "Permalink: FAQ" [ref=e432] [cursor=pointer]':
+                    - /url: "#faq"
+                    - img [ref=e433]
+                - generic [ref=e435]:
+                  - heading "What is Freqtrade?" [level=3] [ref=e436]
+                  - 'link "Permalink: What is Freqtrade?" [ref=e437] [cursor=pointer]':
+                    - /url: "#what-is-freqtrade"
+                    - img [ref=e438]
+                - paragraph [ref=e440]:
+                  - link "Freqtrade" [ref=e441] [cursor=pointer]:
+                    - /url: https://github.com/freqtrade/freqtrade
+                  - text: Freqtrade is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.
+                - generic [ref=e442]:
+                  - heading "What includes these strategies?" [level=3] [ref=e443]
+                  - 'link "Permalink: What includes these strategies?" [ref=e444] [cursor=pointer]':
+                    - /url: "#what-includes-these-strategies"
+                    - img [ref=e445]
+                - paragraph [ref=e447]: "Each Strategies includes:"
+                - list [ref=e448]:
+                  - listitem [ref=e449]:
+                    - checkbox "Completed task" [checked] [disabled] [ref=e450]
+                    - strong [ref=e451]: Minimal ROI
+                    - text: ": Minimal ROI optimized for the strategy."
+                  - listitem [ref=e452]:
+                    - checkbox "Completed task" [checked] [disabled] [ref=e453]
+                    - strong [ref=e454]: Stoploss
+                    - text: ": Optimal stoploss."
+                  - listitem [ref=e455]:
+                    - checkbox "Completed task" [checked] [disabled] [ref=e456]
+                    - strong [ref=e457]: Buy signals
+                    - text: ": Result from Hyperopt or based on exisiting trading strategies."
+                  - listitem [ref=e458]:
+                    - checkbox "Completed task" [checked] [disabled] [ref=e459]
+                    - strong [ref=e460]: Sell signals
+                    - text: ": Result from Hyperopt or based on exisiting trading strategies."
+                  - listitem [ref=e461]:
+                    - checkbox "Completed task" [checked] [disabled] [ref=e462]
+                    - strong [ref=e463]: Indicators
+                    - text: ": Includes the indicators required to run the strategy."
+                - paragraph [ref=e464]: Best backtest multiple strategies with the exchange and pairs you're interrested in, and finetune the strategy to the markets you're trading.
+                - generic [ref=e465]:
+                  - heading "How to install a strategy?" [level=3] [ref=e466]
+                  - 'link "Permalink: How to install a strategy?" [ref=e467] [cursor=pointer]':
+                    - /url: "#how-to-install-a-strategy"
+                    - img [ref=e468]
+                - paragraph [ref=e470]:
+                  - text: First you need a
+                  - link "working Freqtrade" [ref=e471] [cursor=pointer]:
+                    - /url: https://freqtrade.io
+                  - text: .
+                - paragraph [ref=e472]: "Once you have the bot on the right version, follow this steps:"
+                - list [ref=e473]:
+                  - listitem [ref=e474]:
+                    - text: Select the strategy you want. All strategies of the repo are into
+                    - link "user_data/strategies" [ref=e475] [cursor=pointer]:
+                      - /url: https://github.com/freqtrade/freqtrade-strategies/tree/main/user_data/strategies
+                  - listitem [ref=e476]: Copy the strategy file
+                  - listitem [ref=e477]:
+                    - text: Paste it into your
+                    - code [ref=e478]: user_data/strategies
+                    - text: folder
+                  - listitem [ref=e479]:
+                    - text: Run the bot with the parameter
+                    - code [ref=e480]: "--strategy <STRATEGY CLASS NAME>"
+                    - text: "(ex:"
+                    - code [ref=e481]: freqtrade trade --strategy Strategy001
+                    - text: )
+                - paragraph [ref=e482]:
+                  - text: More information
+                  - link "about backtesting" [ref=e483] [cursor=pointer]:
+                    - /url: https://www.freqtrade.io/en/latest/backtesting/
+                  - text: and
+                  - link "strategy customization" [ref=e484] [cursor=pointer]:
+                    - /url: https://www.freqtrade.io/en/latest/strategy-customization/
+                  - text: .
+                - generic [ref=e485]:
+                  - heading "How to test a strategy?" [level=3] [ref=e486]
+                  - 'link "Permalink: How to test a strategy?" [ref=e487] [cursor=pointer]':
+                    - /url: "#how-to-test-a-strategy"
+                    - img [ref=e488]
+                - paragraph [ref=e490]:
+                  - text: Let assume you have selected the strategy
+                  - code [ref=e491]: strategy001.py
+                  - text: ":"
+                - generic [ref=e492]:
+                  - heading "Simple backtesting" [level=4] [ref=e493]
+                  - 'link "Permalink: Simple backtesting" [ref=e494] [cursor=pointer]':
+                    - /url: "#simple-backtesting"
+                    - img [ref=e495]
+                - generic [ref=e497]:
+                  - generic [ref=e498]: freqtrade backtesting --strategy Strategy001
+                  - button "Copy code to clipboard" [ref=e500] [cursor=pointer]:
+                    - img [ref=e501]
+                - generic [ref=e504]:
+                  - heading "Refresh your test data" [level=4] [ref=e505]
+                  - 'link "Permalink: Refresh your test data" [ref=e506] [cursor=pointer]':
+                    - /url: "#refresh-your-test-data"
+                    - img [ref=e507]
+                - generic [ref=e509]:
+                  - generic [ref=e510]: freqtrade download-data --days 100
+                  - button "Copy code to clipboard" [ref=e512] [cursor=pointer]:
+                    - img [ref=e513]
+                - paragraph [ref=e516]:
+                  - emphasis [ref=e517]: "Note:"
+                  - text: Generally, it's recommended to use static backtest data (from a defined period of time) for comparable results.
+                - paragraph [ref=e518]:
+                  - text: Please check out the
+                  - link "official backtesting documentation" [ref=e519] [cursor=pointer]:
+                    - /url: https://www.freqtrade.io/en/latest/backtesting/
+                  - text: for more information.
+        - generic [ref=e523]:
+          - generic [ref=e526]:
+            - heading "About" [level=2] [ref=e527]
+            - paragraph [ref=e528]: Free trading strategies for Freqtrade bot
+            - heading "Topics" [level=3] [ref=e529]
+            - generic [ref=e531]:
+              - link "bitcoin" [ref=e532] [cursor=pointer]:
+                - /url: /topics/bitcoin
+              - link "trading" [ref=e533] [cursor=pointer]:
+                - /url: /topics/trading
+              - link "trading-bot" [ref=e534] [cursor=pointer]:
+                - /url: /topics/trading-bot
+              - link "cryptocurrency" [ref=e535] [cursor=pointer]:
+                - /url: /topics/cryptocurrency
+              - link "trading-strategies" [ref=e536] [cursor=pointer]:
+                - /url: /topics/trading-strategies
+              - link "freqtrade-strategies" [ref=e537] [cursor=pointer]:
+                - /url: /topics/freqtrade-strategies
+            - heading "Resources" [level=3] [ref=e538]
+            - link "Readme" [ref=e540] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e541]
+              - text: Readme
+            - heading "License" [level=3] [ref=e543]
+            - link "GPL-3.0 license" [ref=e545] [cursor=pointer]:
+              - /url: "#GPL-3.0-1-ov-file"
+              - img [ref=e546]
+              - text: GPL-3.0 license
+            - link "Activity" [ref=e549] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade-strategies/activity
+              - img [ref=e550]
+              - text: Activity
+            - link "Custom properties" [ref=e553] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade-strategies/custom-properties
+              - img [ref=e554]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e556]
+            - link "5.2k stars" [ref=e558] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade-strategies/stargazers
+              - img [ref=e559]
+              - strong [ref=e561]: 5.2k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e562]
+            - link "172 watching" [ref=e564] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade-strategies/watchers
+              - img [ref=e565]
+              - strong [ref=e567]: "172"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e568]
+            - link "1.4k forks" [ref=e570] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade-strategies/forks
+              - img [ref=e571]
+              - strong [ref=e573]: 1.4k
+              - text: forks
+            - link "Report repository" [ref=e575] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Ffreqtrade%2Ffreqtrade-strategies&report=freqtrade+%28user%29
+          - generic [ref=e577]:
+            - heading "Releases" [level=2] [ref=e578]:
+              - link "Releases" [ref=e579] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies/releases
+            - generic [ref=e580]: No releases published
+          - generic [ref=e582]:
+            - heading "Packages" [level=2] [ref=e583]:
+              - link "Packages" [ref=e584] [cursor=pointer]:
+                - /url: /orgs/freqtrade/packages?repo_name=freqtrade-strategies
+            - generic [ref=e585]: No packages published
+          - generic [ref=e587]:
+            - heading "Contributors 43" [level=2] [ref=e588]:
+              - link "Contributors 43" [ref=e589] [cursor=pointer]:
+                - /url: /freqtrade/freqtrade-strategies/graphs/contributors
+                - text: Contributors
+                - generic "43" [ref=e590]
+            - list [ref=e591]:
+              - listitem [ref=e592]:
+                - link "@xmatthias" [ref=e593] [cursor=pointer]:
+                  - /url: https://github.com/xmatthias
+                  - img "@xmatthias" [ref=e594]
+              - listitem [ref=e595]:
+                - link "@mablue" [ref=e596] [cursor=pointer]:
+                  - /url: https://github.com/mablue
+                  - img "@mablue" [ref=e597]
+              - listitem [ref=e598]:
+                - link "@TheJoeSchr" [ref=e599] [cursor=pointer]:
+                  - /url: https://github.com/TheJoeSchr
+                  - img "@TheJoeSchr" [ref=e600]
+              - listitem [ref=e601]:
+                - link "@glonlas" [ref=e602] [cursor=pointer]:
+                  - /url: https://github.com/glonlas
+                  - img "@glonlas" [ref=e603]
+              - listitem [ref=e604]:
+                - link "@hroff-1902" [ref=e605] [cursor=pointer]:
+                  - /url: https://github.com/hroff-1902
+                  - img "@hroff-1902" [ref=e606]
+              - listitem [ref=e607]:
+                - link "@OtenMoten" [ref=e608] [cursor=pointer]:
+                  - /url: https://github.com/OtenMoten
+                  - img "@OtenMoten" [ref=e609]
+              - listitem [ref=e610]:
+                - link "@berlinguyinca" [ref=e611] [cursor=pointer]:
+                  - /url: https://github.com/berlinguyinca
+                  - img "@berlinguyinca" [ref=e612]
+              - listitem [ref=e613]:
+                - link "@stash86" [ref=e614] [cursor=pointer]:
+                  - /url: https://github.com/stash86
+                  - img "@stash86" [ref=e615]
+              - listitem [ref=e616]:
+                - link "@mishaker" [ref=e617] [cursor=pointer]:
+                  - /url: https://github.com/mishaker
+                  - img "@mishaker" [ref=e618]
+              - listitem [ref=e619]:
+                - link "@juankysoriano" [ref=e620] [cursor=pointer]:
+                  - /url: https://github.com/juankysoriano
+                  - img "@juankysoriano" [ref=e621]
+              - listitem [ref=e622]:
+                - link "@shusso" [ref=e623] [cursor=pointer]:
+                  - /url: https://github.com/shusso
+                  - img "@shusso" [ref=e624]
+              - listitem [ref=e625]:
+                - link "@froggleston" [ref=e626] [cursor=pointer]:
+                  - /url: https://github.com/froggleston
+                  - img "@froggleston" [ref=e627]
+              - listitem [ref=e628]:
+                - link "@PedroPovoleri" [ref=e629] [cursor=pointer]:
+                  - /url: https://github.com/PedroPovoleri
+                  - img "@PedroPovoleri" [ref=e630]
+              - listitem [ref=e631]:
+                - link "@claude" [ref=e632] [cursor=pointer]:
+                  - /url: https://github.com/claude
+                  - img "@claude" [ref=e633]
+            - link "+ 29 contributors" [ref=e635] [cursor=pointer]:
+              - /url: /freqtrade/freqtrade-strategies/graphs/contributors
+          - generic [ref=e637]:
+            - heading "Languages" [level=2] [ref=e638]
+            - list [ref=e642]:
+              - listitem [ref=e643]:
+                - link "Python 100.0%" [ref=e644] [cursor=pointer]:
+                  - /url: /freqtrade/freqtrade-strategies/search?l=python
+                  - img [ref=e645]
+                  - generic [ref=e647]: Python
+                  - generic [ref=e648]: 100.0%
+  - contentinfo [ref=e650]:
+    - heading "Footer" [level=2] [ref=e651]
+    - generic [ref=e652]:
+      - generic [ref=e653]:
+        - link "GitHub Homepage" [ref=e654] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e655]
+        - generic [ref=e657]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e658]:
+        - heading "Footer navigation" [level=3] [ref=e659]
+        - list "Footer navigation" [ref=e660]:
+          - listitem [ref=e661]:
+            - link "Terms" [ref=e662] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e663]:
+            - link "Privacy" [ref=e664] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e665]:
+            - link "Security" [ref=e666] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e667]:
+            - link "Status" [ref=e668] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e669]:
+            - link "Community" [ref=e670] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e671]:
+            - link "Docs" [ref=e672] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e673]:
+            - link "Contact" [ref=e674] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e675]:
+            - button "Manage cookies" [ref=e677] [cursor=pointer]
+          - listitem [ref=e678]:
+            - button "Do not share my personal information" [ref=e680] [cursor=pointer]

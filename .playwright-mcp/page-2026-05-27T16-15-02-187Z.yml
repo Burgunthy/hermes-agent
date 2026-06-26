@@ -1,0 +1,1400 @@
+- generic [ref=e2]:
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - link "RLWRLD Inc." [ref=e8] [cursor=pointer]:
+        - /url: /en
+        - img "RLWRLD Inc." [ref=e9]
+      - navigation "기본 탐색" [ref=e10]:
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "COMPANY" [ref=e13] [cursor=pointer]:
+              - /url: /en/company
+              - generic "COMPANY" [ref=e14]:
+                - generic [ref=e15]:
+                  - generic [ref=e16]:
+                    - generic [ref=e17]: C
+                    - generic [ref=e18]: C
+                  - generic [ref=e19]:
+                    - generic [ref=e20]: O
+                    - generic [ref=e21]: O
+                  - generic [ref=e22]:
+                    - generic [ref=e23]: M
+                    - generic [ref=e24]: M
+                  - generic [ref=e25]:
+                    - generic [ref=e26]: P
+                    - generic [ref=e27]: P
+                  - generic [ref=e28]:
+                    - generic [ref=e29]: A
+                    - generic [ref=e30]: A
+                  - generic [ref=e31]:
+                    - generic [ref=e32]: "N"
+                    - generic [ref=e33]: "N"
+                  - generic [ref=e34]:
+                    - generic [ref=e35]: "Y"
+                    - generic [ref=e36]: "Y"
+          - listitem [ref=e37]:
+            - link "RLDX" [ref=e38] [cursor=pointer]:
+              - /url: /en/rldx-1
+              - generic "RLDX" [ref=e39]:
+                - generic [ref=e40]:
+                  - generic [ref=e41]:
+                    - generic [ref=e42]: R
+                    - generic [ref=e43]: R
+                  - generic [ref=e44]:
+                    - generic [ref=e45]: L
+                    - generic [ref=e46]: L
+                  - generic [ref=e47]:
+                    - generic [ref=e48]: D
+                    - generic [ref=e49]: D
+                  - generic [ref=e50]:
+                    - generic [ref=e51]: X
+                    - generic [ref=e52]: X
+          - listitem [ref=e53]:
+            - link "BUSINESS" [ref=e54] [cursor=pointer]:
+              - /url: /en/business
+              - generic "BUSINESS" [ref=e55]:
+                - generic [ref=e56]:
+                  - generic [ref=e57]:
+                    - generic [ref=e58]: B
+                    - generic [ref=e59]: B
+                  - generic [ref=e60]:
+                    - generic [ref=e61]: U
+                    - generic [ref=e62]: U
+                  - generic [ref=e63]:
+                    - generic [ref=e64]: S
+                    - generic [ref=e65]: S
+                  - generic [ref=e66]:
+                    - generic [ref=e67]: I
+                    - generic [ref=e68]: I
+                  - generic [ref=e69]:
+                    - generic [ref=e70]: "N"
+                    - generic [ref=e71]: "N"
+                  - generic [ref=e72]:
+                    - generic [ref=e73]: E
+                    - generic [ref=e74]: E
+                  - generic [ref=e75]:
+                    - generic [ref=e76]: S
+                    - generic [ref=e77]: S
+                  - generic [ref=e78]:
+                    - generic [ref=e79]: S
+                    - generic [ref=e80]: S
+          - listitem [ref=e81]:
+            - link "INSIGHT" [ref=e82] [cursor=pointer]:
+              - /url: /en/insight/blog
+              - generic "INSIGHT" [ref=e83]:
+                - generic [ref=e84]:
+                  - generic [ref=e85]:
+                    - generic [ref=e86]: I
+                    - generic [ref=e87]: I
+                  - generic [ref=e88]:
+                    - generic [ref=e89]: "N"
+                    - generic [ref=e90]: "N"
+                  - generic [ref=e91]:
+                    - generic [ref=e92]: S
+                    - generic [ref=e93]: S
+                  - generic [ref=e94]:
+                    - generic [ref=e95]: I
+                    - generic [ref=e96]: I
+                  - generic [ref=e97]:
+                    - generic [ref=e98]: G
+                    - generic [ref=e99]: G
+                  - generic [ref=e100]:
+                    - generic [ref=e101]: H
+                    - generic [ref=e102]: H
+                  - generic [ref=e103]:
+                    - generic [ref=e104]: T
+                    - generic [ref=e105]: T
+          - listitem [ref=e106]:
+            - link "NEWS" [ref=e107] [cursor=pointer]:
+              - /url: /en/news
+              - generic "NEWS" [ref=e108]:
+                - generic [ref=e109]:
+                  - generic [ref=e110]:
+                    - generic [ref=e111]: "N"
+                    - generic [ref=e112]: "N"
+                  - generic [ref=e113]:
+                    - generic [ref=e114]: E
+                    - generic [ref=e115]: E
+                  - generic [ref=e116]:
+                    - generic [ref=e117]: W
+                    - generic [ref=e118]: W
+                  - generic [ref=e119]:
+                    - generic [ref=e120]: S
+                    - generic [ref=e121]: S
+          - listitem [ref=e122]:
+            - link "CAREERS" [ref=e123] [cursor=pointer]:
+              - /url: /en/careers
+              - generic "CAREERS" [ref=e124]:
+                - generic [ref=e125]:
+                  - generic [ref=e126]:
+                    - generic [ref=e127]: C
+                    - generic [ref=e128]: C
+                  - generic [ref=e129]:
+                    - generic [ref=e130]: A
+                    - generic [ref=e131]: A
+                  - generic [ref=e132]:
+                    - generic [ref=e133]: R
+                    - generic [ref=e134]: R
+                  - generic [ref=e135]:
+                    - generic [ref=e136]: E
+                    - generic [ref=e137]: E
+                  - generic [ref=e138]:
+                    - generic [ref=e139]: E
+                    - generic [ref=e140]: E
+                  - generic [ref=e141]:
+                    - generic [ref=e142]: R
+                    - generic [ref=e143]: R
+                  - generic [ref=e144]:
+                    - generic [ref=e145]: S
+                    - generic [ref=e146]: S
+      - generic [ref=e147]:
+        - link "CONTACT" [ref=e148] [cursor=pointer]:
+          - /url: /en/contact
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - generic [ref=e151]: C
+              - generic [ref=e152]: C
+            - generic [ref=e153]:
+              - generic [ref=e154]: O
+              - generic [ref=e155]: O
+            - generic [ref=e156]:
+              - generic [ref=e157]: "N"
+              - generic [ref=e158]: "N"
+            - generic [ref=e159]:
+              - generic [ref=e160]: T
+              - generic [ref=e161]: T
+            - generic [ref=e162]:
+              - generic [ref=e163]: A
+              - generic [ref=e164]: A
+            - generic [ref=e165]:
+              - generic [ref=e166]: C
+              - generic [ref=e167]: C
+            - generic [ref=e168]:
+              - generic [ref=e169]: T
+              - generic [ref=e170]: T
+        - generic "언어 선택" [ref=e171]:
+          - link "EN" [ref=e172] [cursor=pointer]:
+            - /url: /en/rldx-1
+          - link "KR" [ref=e173] [cursor=pointer]:
+            - /url: /ko/rldx-1
+          - link "JP" [ref=e174] [cursor=pointer]:
+            - /url: /jp/rldx-1
+        - button "Switch to dark mode" [ref=e175] [cursor=pointer]
+        - text: 
+  - complementary:
+    - button "맨 위로" [ref=e177] [cursor=pointer]:
+      - generic [ref=e178]: 
+  - main [ref=e179]:
+    - navigation "Article sections":
+      - button "1. Introduction":
+        - generic: 1. Introduction
+      - button "2. Dexterity":
+        - generic: 2. Dexterity
+      - button "3. RLDX-1":
+        - generic: 3. RLDX-1
+      - button "4. Data":
+        - generic: 4. Data
+      - button "5. Training":
+        - generic: 5. Training
+      - button "6. Results":
+        - generic: 6. Results
+      - button "7. Closing":
+        - generic: 7. Closing
+    - generic [ref=e181]:
+      - generic [ref=e182]:
+        - generic [ref=e183]:
+          - generic [ref=e184]: Tech Blog
+          - time [ref=e185]: May 7, 2026
+        - 'heading "RLDX-1: A Dexterity-First Foundation Model for Robot Hands" [level=1] [ref=e186]'
+        - paragraph [ref=e187]: RLWRLD Team
+        - navigation "Paper resources" [ref=e188]:
+          - link "Tech Report arxiv.org/abs/2605.03269" [ref=e189] [cursor=pointer]:
+            - /url: https://arxiv.org/abs/2605.03269
+            - generic [ref=e190]: 
+            - generic [ref=e191]: Tech Report
+            - generic [ref=e192]: arxiv.org/abs/2605.03269
+          - link "Code github.com/RLWRLD/RLDX-1" [ref=e193] [cursor=pointer]:
+            - /url: https://github.com/RLWRLD/RLDX-1
+            - generic [ref=e194]: 
+            - generic [ref=e195]: Code
+            - generic [ref=e196]: github.com/RLWRLD/RLDX-1
+          - link "Checkpoints huggingface.co/collections/RLWRLD/rldx-1" [ref=e197] [cursor=pointer]:
+            - /url: https://huggingface.co/collections/RLWRLD/rldx-1
+            - generic [ref=e198]: 
+            - generic [ref=e199]: Checkpoints
+            - generic [ref=e200]: huggingface.co/collections/RLWRLD/rldx-1
+      - complementary "Paper summary" [ref=e201]:
+        - paragraph [ref=e202]:
+          - strong [ref=e203]: Summary.
+          - text: We present RLDX-1, a new dexterity-first foundation model built to tackle complex tasks in real-world industry using high-DoF robotic hands. Existing models often lack essential capabilities, such as context memorization or force sensing, required for seamless real-world deployment. To address this, RLDX-1 encompasses the complete robotics lifecycle, integrating a scalable data collection pipeline, a versatile architecture design, robust training methodologies, and optimized deployment strategies. As a result, RLDX-1 achieves state-of-the-art performance, showcasing exceptional precision and generalization across both simulated environments and physical industrial applications.
+      - 'figure "Figure 1: RLDX-1 at a Glance." [ref=e205]':
+        - img "RLDX-1 at a Glance" [ref=e208]
+        - generic [ref=e209]: "Figure 1: RLDX-1 at a Glance."
+      - generic [ref=e210]:
+        - heading "1. Introduction" [level=2] [ref=e211]
+        - paragraph [ref=e213]: RLWRLD Team · May 7, 2026
+        - generic [ref=e214]:
+          - iframe [ref=e216]:
+            - generic [active] [ref=f5e1]:
+              - generic "YouTube Video Player" [ref=f5e3]
+              - generic [ref=f5e5]:
+                - generic:
+                  - generic:
+                    - button "Play video" [ref=f5e10] [cursor=pointer]
+                    - button "Hide player controls" [ref=f5e12] [cursor=pointer]
+                    - generic [ref=f5e14]:
+                      - generic [ref=f5e19]:
+                        - generic [ref=f5e20]:
+                          - link "RLDX-1 | The Dexterity-First Foundation Model for Robot Hands" [ref=f5e21] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=dkKR46Nx0gY
+                          - link "RLWRLD - Dexterity Physical AI" [ref=f5e22] [cursor=pointer]:
+                            - /url: /channel/UC8WVKTUjrX6E1C2_YuERQ-A
+                            - generic [ref=f5e23]: RLWRLD - Dexterity Physical AI
+                        - generic [ref=f5e24]:
+                          - button [ref=f5e25] [cursor=pointer]
+                          - generic [ref=f5e27]:
+                            - generic: RLWRLD - Dexterity Physical AI
+                            - generic: 1.33K subscribers
+                      - generic [ref=f5e28]:
+                        - button "Copy link" [ref=f5e31] [cursor=pointer]:
+                          - generic [ref=f5e35]:
+                            - img
+                        - link "Watch on YouTube" [ref=f5e42] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=dkKR46Nx0gY
+                          - generic [ref=f5e45]:
+                            - text: Watch on
+                            - img [ref=f5e47]:
+                              - generic [ref=f5e49]:
+                                - img
+          - paragraph [ref=e217]: "VIDEO 1: RLWRLD introduces RLDX-1."
+        - generic [ref=e218]:
+          - paragraph [ref=e219]:
+            - text: "The past five years of large language models trained one deep intuition into the field: make the model bigger, feed it more data, and new capabilities emerge. That intuition has carried directly into robotics. The prevailing bet is that if you train generalist robot policies on enough data, dexterous manipulation will emerge the way unexpected capabilities emerged in LLMs at scale"
+            - generic [ref=e220]:
+              - text: "["
+              - link "1" [ref=e221] [cursor=pointer]:
+                - /url: "#ref-1"
+              - text: ","
+              - link "2" [ref=e222] [cursor=pointer]:
+                - /url: "#ref-2"
+              - text: ","
+              - link "3" [ref=e223] [cursor=pointer]:
+                - /url: "#ref-3"
+              - text: ","
+              - link "4" [ref=e224] [cursor=pointer]:
+                - /url: "#ref-4"
+              - text: ","
+              - link "5" [ref=e225] [cursor=pointer]:
+                - /url: "#ref-5"
+              - text: "]"
+            - text: .
+          - paragraph [ref=e226]: "That bet is promising, and scale will remain a powerful lever. But when we deployed the best available VLAs (Vision-Language-Action models) on the tasks our customers actually need (pouring, in-hand rotation, reactive grasping), they failed consistently, not because they lacked intelligence, but because the task lived in modalities the model was never given: high-DoF hand-object geometry, contact forces, temporal dynamics. Scale cannot recover a modality the model was never given in the first place."
+          - paragraph [ref=e227]:
+            - text: Recent works have explored leveraging video generation (or world) models trained on large-scale human data for policy learning, demonstrating strong generalization to unseen environments and tasks
+            - generic [ref=e228]:
+              - text: "["
+              - link "6" [ref=e229] [cursor=pointer]:
+                - /url: "#ref-6"
+              - text: ","
+              - link "7" [ref=e230] [cursor=pointer]:
+                - /url: "#ref-7"
+              - text: ","
+              - link "8" [ref=e231] [cursor=pointer]:
+                - /url: "#ref-8"
+              - text: ","
+              - link "9" [ref=e232] [cursor=pointer]:
+                - /url: "#ref-9"
+              - text: "]"
+            - text: . While such approaches capture diverse behaviors from web-scale data, generalization alone is insufficient for precise physical interaction. Real-world interaction requires recognizing what to do, maintaining relevant state over time, and grounding decisions in physically meaningful signals.
+          - paragraph [ref=e233]:
+            - strong [ref=e234]: RLDX-1 is a foundation model designed from the ground up for dexterous robot hands.
+            - text: Every component exists because a specific failure mode on a real task required them. The result is a single model that can
+            - strong [ref=e235]: see, feel, remember, and adapt
+            - text: ", deployable across single-arm, dual-arm, and humanoid embodiments with high-DoF hands."
+        - 'figure "Figure 2: Pouring Coffee, A Canonical Dexterity Task. A humanoid dual-arm robot stabilizes a cup with one five-finger hand while pouring from a coffee pot with the other. The pot''s weight changes as liquid transfers. The signal lives in torque, not vision." [ref=e237]':
+          - img "Pouring Coffee, A Canonical Dexterity Task" [ref=e240]
+          - generic [ref=e241]: "Figure 2: Pouring Coffee, A Canonical Dexterity Task. A humanoid dual-arm robot stabilizes a cup with one five-finger hand while pouring from a coffee pot with the other. The pot's weight changes as liquid transfers. The signal lives in torque, not vision."
+      - generic [ref=e242]:
+        - heading "2. The Five Regimes of Dexterity" [level=2] [ref=e243]
+        - generic [ref=e244]:
+          - paragraph [ref=e245]:
+            - text: The last mile of industrial automation is dexterity, and today's robots still cannot reliably pour coffee as the pot grows lighter, pick a moving object off a conveyor, rotate a hex nut with fingertips. We distilled these recurring customer needs into
+            - link "DexBench" [ref=e246] [cursor=pointer]:
+              - /url: https://dexbench.org/en/
+            - text: ", a benchmark that organizes them along"
+            - strong [ref=e247]: five regimes of dexterity
+            - text: ", where each regime is a specific failure mode of today's robots and each one shapes a specific piece of RLDX-1. These tasks live in a world built for human hands. A robot that operates in that world has to meet it on its own terms."
+          - paragraph [ref=e248]: "A five-finger hand is the natural form factor, but form factor is not dexterity. Dexterity begins when that hand is driven by a model that can reason about space, time, and contact in real time. The five regimes of dexterity, and the piece of RLDX-1 each one shapes:"
+        - 'figure "Figure 3: Five Regimes of Dexterity." [ref=e250]':
+          - generic:
+            - generic:
+              - img "Five Regimes of Dexterity"
+          - generic [ref=e251]: "Figure 3: Five Regimes of Dexterity."
+        - generic [ref=e252]:
+          - paragraph [ref=e253]:
+            - strong [ref=e254]: "Grasp Diversity:"
+            - text: "the hardware premise. Five-finger hands are the prerequisite every regime below assumes; we have run 10+ of them in-house (our separate post will unpack this). Two data pipelines diversify grasping: Synthetic Robot Data (§4-1) augments a ~5× dataset from a small teleoperation set, while Human Data (§4-2) covers the high-DoF in-hand dexterity teleoperation cannot reach."
+          - paragraph [ref=e255]:
+            - strong [ref=e256]: "Spatial Precision:"
+            - text: geometric reasoning about the pre-contact approach. The policy must capture sufficient scene structure to place contact correctly before contact is made. RLDX-1 strengthens this capability with a robot-specialized VLM (Vision Language Model) fine-tuned on robot VQA (Visual Question and Answering), where the questions explicitly target the geometric relationship between the robot end-effector and the target object (§3-2). This training encourages the VLM to better ground object locations and spatial relations that are critical for precise contact placement.
+          - paragraph [ref=e257]:
+            - strong [ref=e258]: "Temporal Precision:"
+            - text: acting at the right moment in a world that does not wait. A single-frame policy commits to where objects
+            - emphasis [ref=e259]: were
+            - text: ; by the time the hand arrives, the conveyor object has moved. To address this, the
+            - strong [ref=e260]: Motion Module
+            - text: (§3-3) extracts motion features from space-time visual correspondences and amortizes multi-frame context into a compact representation. It lets the policy see where and how fast objects are
+            - emphasis [ref=e261]: going
+            - text: .
+          - paragraph [ref=e262]:
+            - strong [ref=e263]: "Contact Precision:"
+            - text: reasoning about contact using torque and tactile signals. A coffee pot growing lighter is visually invariant; the signal is in wrist torque. The
+            - strong [ref=e264]: Physics Module
+            - text: (§3-4) gives tactile and torque their own streams and predicts future contact states alongside actions, so the policy anticipates contact transitions before they happen.
+        - generic [ref=e265]:
+          - paragraph [ref=e266]:
+            - strong [ref=e267]: Context Awareness
+            - text: ": task-level reasoning that wraps around the three precisions. Without it, even a perfectly executed motion is stranded at the single step it was planned for. The policy needs three capabilities:"
+          - list [ref=e268]:
+            - listitem [ref=e269]:
+              - strong [ref=e270]: Memory.
+              - text: A sliding cache of past cognition features (§3-5) tracks what already happened.
+            - listitem [ref=e271]:
+              - strong [ref=e272]: Recovery.
+              - text: DAgger (§5-3) turns out-of-distribution drift into new training data, narrowing the failure distribution each iteration.
+            - listitem [ref=e273]:
+              - strong [ref=e274]: Progress-Awareness.
+              - text: A progress-estimator VLM (§5-3) gives RL a dense visual reward, so the policy knows which moves actually bring the task closer to done.
+          - paragraph [ref=e275]:
+            - text: "Each regime enters the model as a fundamentally different modality: torque is a high-rate continuous stream, video is sparse high-dimensional frames, memory is stateful. In a single conventional transformer, whichever modality dominates the gradient absorbs all the capacity while the rest become decorative. The architectural answer is"
+            - strong [ref=e276]: MSAT (Multi-Stream Action Transformer, §3-1)
+            - text: ": each modality gets its own processing stream, and"
+            - strong [ref=e277]: cognition tokens (§3-5)
+            - text: "compress the VLM output into a fixed-size interface. What follows unpacks each layer: the architecture that holds these modalities together (§3), the data engine that trains it (§4), and the post-training that makes it deployable (§5)."
+      - generic [ref=e278]:
+        - heading "3. RLDX-1" [level=2] [ref=e279]
+        - generic [ref=e280]:
+          - iframe [ref=e282]
+          - paragraph [ref=e283]: "VIDEO 2: Architecture."
+        - paragraph [ref=e285]:
+          - text: RLDX is built on
+          - strong [ref=e286]: MSAT (Multi-Stream Action Transformer)
+          - text: ", an architecture where each modality gets its own processing stream and joint self-attention lets them interact."
+        - 'figure "Figure 4: RLDX Full Architecture. Every modality RLDX needs (vision-language, proprioception, action, memory, tactile, and torque) enters MSAT through its own dedicated stream. Joint self-attention lets them talk without forcing them into a shared representation first. Video context (Motion Module) and long-horizon memory (Memory Module) feed in through the 64 cognition tokens." [ref=e288]':
+          - generic:
+            - generic:
+              - img "RLDX Full Architecture"
+          - generic [ref=e289]: "Figure 4: RLDX Full Architecture. Every modality RLDX needs (vision-language, proprioception, action, memory, tactile, and torque) enters MSAT through its own dedicated stream. Joint self-attention lets them talk without forcing them into a shared representation first. Video context (Motion Module) and long-horizon memory (Memory Module) feed in through the 64 cognition tokens."
+        - 'heading "3-1. MSAT: Integrating Heterogeneous Signals" [level=3] [ref=e291]'
+        - paragraph [ref=e293]:
+          - text: Existing VLAs
+          - generic [ref=e294]:
+            - text: "["
+            - link "3" [ref=e295] [cursor=pointer]:
+              - /url: "#ref-3"
+            - text: ","
+            - link "4" [ref=e296] [cursor=pointer]:
+              - /url: "#ref-4"
+            - text: ","
+            - link "5" [ref=e297] [cursor=pointer]:
+              - /url: "#ref-5"
+            - text: "]"
+          - text: fuse modalities inside a single transformer stream, where whichever modality dominates the gradient absorbs all the capacity. MSAT gives each modality its own dedicated processing stream
+          - generic [ref=e298]:
+            - text: "["
+            - link "10" [ref=e299] [cursor=pointer]:
+              - /url: "#ref-10"
+            - text: ","
+            - link "11" [ref=e300] [cursor=pointer]:
+              - /url: "#ref-11"
+            - text: "]"
+          - text: ", then lets the streams communicate through joint self-attention without being forced into a shared representation prematurely. Early blocks keep modalities in parallel streams; later blocks fuse them for action decoding."
+        - heading "3-2. Robot-Specialized VLM" [level=3] [ref=e302]
+        - paragraph [ref=e304]:
+          - text: General-purpose VLMs are strong at visual reasoning, but they do not automatically understand what matters for robot control. To close this gap, RLDX-1 fine-tunes
+          - strong [ref=e305]: Qwen3-VL 8B
+          - generic [ref=e306]:
+            - text: "["
+            - link "12" [ref=e307] [cursor=pointer]:
+              - /url: "#ref-12"
+            - text: "]"
+          - text: "on a robot-trajectory VQA dataset targeting three action-relevant abilities. First, spatial reasoning about the geometric relationship between the end-effector and target objects. Second, task understanding that identifies the intermediate subtask implied by the current observation. Third, action grounding that reasons about the low-level action associated with the current frame. The fine-tuned model, RLDX-1-VLM, serves as the visual reasoning backbone for action generation:"
+          - strong [ref=e308]: +3.42%p
+          - text: over the vanilla VLM on RoboCasa
+          - generic [ref=e309]:
+            - text: "["
+            - link "13" [ref=e310] [cursor=pointer]:
+              - /url: "#ref-13"
+            - text: "]"
+          - text: .
+        - 'figure "Figure 5: Attention Visualization. RLDX-1 performs more specialized vision processing for robot tasks than Qwen3-VL." [ref=e312]':
+          - generic:
+            - generic:
+              - img "RLDX-1 vs Qwen3-VL Attention Visualization"
+          - generic [ref=e313]: "Figure 5: Attention Visualization. RLDX-1 performs more specialized vision processing for robot tasks than Qwen3-VL."
+        - generic [ref=e314]:
+          - paragraph [ref=e315]: "Table 1: VLM Fine-tuning Ablation (RoboCasa)"
+          - table [ref=e318]:
+            - rowgroup [ref=e319]:
+              - row "Model RoboCasa Score Δ" [ref=e320]:
+                - columnheader "Model" [ref=e321]
+                - columnheader "RoboCasa Score" [ref=e322]
+                - columnheader "Δ" [ref=e323]
+            - rowgroup [ref=e324]:
+              - row "Qwen3-VL 8B 57.50 —" [ref=e325]:
+                - cell "Qwen3-VL 8B" [ref=e326]
+                - cell "57.50" [ref=e327]
+                - cell "—" [ref=e328]
+              - row "RLDX-1-VLM 8B 60.92 +3.42" [ref=e329]:
+                - cell "RLDX-1-VLM 8B" [ref=e330]
+                - cell "60.92" [ref=e331]
+                - cell "+3.42" [ref=e332]
+        - heading "3-3. Seeing Physics" [level=3] [ref=e334]
+        - generic [ref=e335]:
+          - iframe [ref=e337]
+          - paragraph [ref=e338]: "VIDEO 3: Motion Module."
+        - paragraph [ref=e340]:
+          - text: A single-frame policy is always one step behind the scene. By the time the hand arrives, the conveyor object has moved. The
+          - strong [ref=e341]: Motion Module
+          - text: has two complementary pieces. A video token compression layer feeds multi-frame observations through the VLM, compressing past frames into
+          - strong [ref=e342]: motion tokens
+          - text: via average pooling
+          - generic [ref=e343]:
+            - text: "["
+            - link "14" [ref=e344] [cursor=pointer]:
+              - /url: "#ref-14"
+            - text: "]"
+          - text: ", so the model efficiently sees where things are going. A motion learning layer in the vision encoder models"
+          - strong [ref=e345]: spatio-temporal self-similarities (STSS)
+          - generic [ref=e346]:
+            - text: "["
+            - link "15" [ref=e347] [cursor=pointer]:
+              - /url: "#ref-15"
+            - text: "]"
+          - text: ", capturing rotation, velocity, and interaction dynamics directly from visual features. Together:"
+          - strong [ref=e348]: +37.5%p
+          - text: over GR00T N1.6 and π₀.₅ on performing pick-and-place task on conveyor belt.
+        - heading "3-4. Feeling Physics" [level=3] [ref=e350]
+        - generic [ref=e351]:
+          - iframe [ref=e353]
+          - paragraph [ref=e354]: "VIDEO 4: Physics Module."
+        - generic [ref=e355]:
+          - paragraph [ref=e356]:
+            - text: The
+            - strong [ref=e357]: Physics Module
+            - generic [ref=e358]:
+              - text: "["
+              - link "16" [ref=e359] [cursor=pointer]:
+                - /url: "#ref-16"
+              - text: "]"
+            - text: "integrates tactile and torque feedback into RLDX as native modalities. These physical signals are crucial for tasks that require contact-rich object manipulation, primarily serving two key functionalities: weight estimation and contact detection. For weight estimation, when a robot pours coffee, the module captures weight shifts across both hands to inform RLDX precisely when to stop. For contact detection, a robot needs to identify the exact moment of contact to transition from approaching to picking (as shown in Figure 6). While joint angles provide ambiguous information regarding contact timing, torque signals offer distinct, sharp changes at the point of contact."
+          - paragraph [ref=e360]:
+            - text: To fully leverage this, RLDX employs a dedicated stream that not only processes these signals but also predicts future torque states, allowing the policy to possess informative physical embeddings. Furthermore, when such sensors are unavailable, the sensory stream automatically deactivates for
+            - strong [ref=e361]: graceful degradation
+            - text: to vision-only, allowing a single model to support various hardware setups.
+        - 'figure "Figure 6: Joint Torque Reveals Contact Phase Transitions. Torque trace (blue) across the four phases of a card-slide pick: Approach, Contact, Pick, Hand-Over. Contact events are visually ambiguous but show up as sharp torque signatures, which the Physics Module consumes directly as its own modality." [ref=e363]':
+          - generic:
+            - generic:
+              - img "Joint Torque Contact Phase Transitions"
+          - generic [ref=e364]: "Figure 6: Joint Torque Reveals Contact Phase Transitions. Torque trace (blue) across the four phases of a card-slide pick: Approach, Contact, Pick, Hand-Over. Contact events are visually ambiguous but show up as sharp torque signatures, which the Physics Module consumes directly as its own modality."
+        - heading "3-5. Cognition Interface & Memory Module" [level=3] [ref=e366]
+        - generic [ref=e367]:
+          - iframe [ref=e369]
+          - paragraph [ref=e370]: "VIDEO 5: Memory Module."
+        - generic [ref=e371]:
+          - paragraph [ref=e372]:
+            - text: The VLM produces a rich scene understanding, but passing all of its tokens to the action model is slow and wasteful. The
+            - strong [ref=e373]: Cognition Interface
+            - text: appends
+            - strong [ref=e374]: 64 learnable cognition tokens
+            - text: "to the VLM's input; through attention they compress the full sequence into a fixed-size representation that carries exactly the information the action model needs. The speed win:"
+            - strong [ref=e375]: +35%p inference speedup
+            - text: (16.3→22.1 Hz).
+          - paragraph [ref=e376]:
+            - text: But these tokens do double duty. The same 64-token representation becomes the
+            - strong [ref=e377]: unit of long-horizon memory
+            - text: . A FIFO sliding cache stores past cognition features across the rollout, and the
+            - strong [ref=e378]: Memory Module
+            - generic [ref=e379]:
+              - text: "["
+              - link "17" [ref=e380] [cursor=pointer]:
+                - /url: "#ref-17"
+              - text: "]"
+            - text: "attends over this cache to track task progress. Pack a box, assemble a product, count ten apples into an opaque bag: each step depends on knowing what already happened. Compression and memory are the same mechanism, reused."
+        - 'figure "Figure 7: Cognition Interface as Memory Substrate. The VLM consumes video observations, language instruction, and learnable cognition tokens. Cognition tokens compress the full vision-language context into a fixed-size feature; past cognition features flow through the Memory Module for long-horizon state." [ref=e382]':
+          - generic:
+            - generic:
+              - img "Cognition Interface as Memory Substrate"
+          - generic [ref=e383]: "Figure 7: Cognition Interface as Memory Substrate. The VLM consumes video observations, language instruction, and learnable cognition tokens. Cognition tokens compress the full vision-language context into a fixed-size feature; past cognition features flow through the Memory Module for long-horizon state."
+      - generic [ref=e384]:
+        - heading "4. Data" [level=2] [ref=e385]
+        - generic [ref=e386]:
+          - iframe [ref=e388]
+          - paragraph [ref=e389]: "VIDEO 6: Data."
+        - 'heading "4-1. Synthetic Robot Data: Generating What You Can''t Collect" [level=3] [ref=e391]'
+        - paragraph [ref=e393]:
+          - text: Real teleoperation alone cannot populate the space a five-finger hand must cover. Our synthetic data pipeline amplifies a small seed set of real demonstrations using video generation models (e.g., Cosmos-Predict2
+          - generic [ref=e394]:
+            - text: "["
+            - link "9" [ref=e395] [cursor=pointer]:
+              - /url: "#ref-9"
+            - text: "]"
+          - text: ). A fine-tuned video model synthesizes new trajectories at scale by varying scene factors (e.g., lighting, surfaces, positions, and backgrounds). An inverse dynamics model then annotates the generated videos with action labels, followed by a video quality and motion-consistency filter
+          - generic [ref=e396]:
+            - text: "["
+            - link "18" [ref=e397] [cursor=pointer]:
+              - /url: "#ref-18"
+            - text: "]"
+          - text: that retains only instruction-following and physically plausible synthetic data. Ultimately, this yields video-action consistent synthetic data that is beneficial for VLA training, rather than merely plausible-looking outputs, with a
+          - strong [ref=e398]: ~5× increase
+          - text: in data scale, leading to a 9.2% gain in average success rate on the GR-1 Tabletop benchmark.
+        - 'figure "Figure 8-1: Synthetic Data Framework." [ref=e400]':
+          - generic:
+            - generic:
+              - img "Synthetic Data Framework"
+          - generic [ref=e401]: "Figure 8-1: Synthetic Data Framework."
+        - 'figure "Figure 8-2: Synthetic Data Ablation (GR-1 Tabletop)." [ref=e403]':
+          - generic:
+            - generic:
+              - img "Synthetic Data Ablation (GR-1 Tabletop)"
+          - generic [ref=e404]: "Figure 8-2: Synthetic Data Ablation (GR-1 Tabletop)."
+        - 'heading "4-2. Human Data: Learning from Human Hands" [level=3] [ref=e406]'
+        - generic [ref=e407]:
+          - paragraph [ref=e408]:
+            - text: There is no better teacher for a dexterous robot hand than a human hand. Teleoperation is often too slow and imprecise for five-finger manipulation, as conventional controllers fail to capture the high-speed reflexes required for dynamic tasks like catching or rapid regrasping. The most adopted alternative, UMI
+            - generic [ref=e409]:
+              - text: "["
+              - link "19" [ref=e410] [cursor=pointer]:
+                - /url: "#ref-19"
+              - text: "]"
+            - text: ", fits the robot's end-effector onto a human, but only for grippers; DexUMI"
+            - generic [ref=e411]:
+              - text: "["
+              - link "20" [ref=e412] [cursor=pointer]:
+                - /url: "#ref-20"
+              - text: "]"
+            - text: "ported the recipe to five-finger hands and has not held up in practice: poor ergonomics, constrained hand motion, and a device that must be redesigned for every new robot hand. RLDX takes the opposite route: record from the bare human hand and close the kinematic and morphological gap in software, with a retargeting framework built for five-finger dexterity."
+          - paragraph [ref=e413]:
+            - text: "The pipeline has four stages: (1) track the human hand and object, (2) reconstruct the workspace with"
+            - strong [ref=e414]: 3D Gaussian Splatting
+            - generic [ref=e415]:
+              - text: "["
+              - link "22" [ref=e416] [cursor=pointer]:
+                - /url: "#ref-22"
+              - text: "]"
+            - text: ", (3) retarget onto the robot hand, (4) roll out in simulation to produce VLA training data. This yields"
+            - strong [ref=e417]: 200+ demonstrations per hour
+            - text: and scales further with automated augmentations.
+        - paragraph [ref=e421]: "VIDEO 7: Human Data Capture Pipeline"
+      - generic [ref=e422]:
+        - heading "5. Training Pipeline" [level=2] [ref=e423]
+        - paragraph [ref=e425]: RLDX is trained through a three-stage pipeline, each stage building on the previous checkpoint.
+        - 'figure "Figure 9: Training Data Mix, Pre-Training, Mid-Training Franka, Mid-Training ALLEX." [ref=e427]':
+          - generic:
+            - generic:
+              - 'img "Training Data Mix: Pre-Training, Mid-Training Franka, Mid-Training ALLEX"'
+          - generic [ref=e428]: "Figure 9: Training Data Mix, Pre-Training, Mid-Training Franka, Mid-Training ALLEX."
+        - heading "5-1. Pre-Training for General Manipulation" [level=3] [ref=e430]
+        - paragraph [ref=e432]: The model learns general manipulation knowledge across single-arm, dual-arm, and humanoid embodiments (many equipped with dexterous five-finger hands) through a shared MSAT core with per-embodiment encoders/decoders. The pre-training mix contains trajectories from diverse real world datasets and our synthetic robot data. We randomly drop embodiment tags so that the model learns both an embodiment-conditioned policy and an embodiment-agnostic one in a single backbone.
+        - heading "5-2. Mid-Training for Target Embodiments" [level=3] [ref=e434]
+        - 'figure "Figure 10: Mid-Training Target Embodiments. The two platforms used for mid-training. ALLEX humanoid (48-DoF total): 7-DoF Bi-manual arms, 15-DoF five-finger hands, 2-DoF head/waist, stereo egoview camera, joint-torque sensors. Franka Research 3 (7-DoF arm): 1-DoF gripper, AnySkin tactile, wrist + third-view cameras, joint torque." [ref=e436]':
+          - generic:
+            - generic:
+              - 'img "Mid-Training Target Embodiments: ALLEX humanoid and Franka Research 3"'
+          - generic [ref=e437]:
+            - text: "Figure 10: Mid-Training Target Embodiments. The two platforms used for mid-training."
+            - strong [ref=e438]: ALLEX humanoid
+            - text: "(48-DoF total): 7-DoF Bi-manual arms, 15-DoF five-finger hands, 2-DoF head/waist, stereo egoview camera, joint-torque sensors."
+            - strong [ref=e439]: Franka Research 3
+            - text: "(7-DoF arm): 1-DoF gripper, AnySkin tactile, wrist + third-view cameras, joint torque."
+        - paragraph [ref=e441]:
+          - text: Starting from the pre-trained checkpoint, the
+          - strong [ref=e442]: Memory Module
+          - text: and
+          - strong [ref=e443]: Physics Module
+          - text: are added, initialized from scratch, existing weights preserved. Embodiment-specific dexterity data builds temporal and sensory capabilities. Pre-training data is partially reused to prevent catastrophic forgetting; Synthetic robot data fill in for data-scarce embodiments.
+        - heading "5-3. Post-Training for Deployment" [level=3] [ref=e445]
+        - generic [ref=e446]:
+          - iframe [ref=e448]
+          - paragraph [ref=e449]: "VIDEO 8: Deployment."
+        - generic [ref=e450]:
+          - paragraph [ref=e451]:
+            - text: Imitation learning alone leaves room for improvement for better success rate and optimal motions. Two mechanisms close the gap, corresponding to the two remaining faces of
+            - strong [ref=e452]: Context Awareness
+            - text: ":"
+          - paragraph [ref=e453]:
+            - strong [ref=e454]: DAgger (Recovery)
+            - generic [ref=e455]:
+              - text: "["
+              - link "23" [ref=e456] [cursor=pointer]:
+                - /url: "#ref-23"
+              - text: "]"
+            - text: focuses training data on the failures the model actually makes. The model is deployed and corrected when it goes out-of-distribution, and those corrections become new training data. Each iteration narrows the failure distribution until the mistake pattern disappears.
+          - paragraph [ref=e457]:
+            - strong [ref=e458]: Progress-Aware RL (Progress-Awareness).
+            - strong [ref=e459]: A separate VLM is post-trained as a learned progress estimator
+            - text: ": given a trajectory, it predicts how close the policy is to completing the task. This provides RL (Reinforcement Learning) with a dense, visually-grounded reward signal that drives the policy toward task progress"
+            - generic [ref=e460]:
+              - text: "["
+              - link "24" [ref=e461] [cursor=pointer]:
+                - /url: "#ref-24"
+              - text: ","
+              - link "25" [ref=e462] [cursor=pointer]:
+                - /url: "#ref-25"
+              - text: "]"
+            - text: without hand-engineered, task-specific goals. By reusing batch on-policy data
+            - generic [ref=e463]:
+              - text: "["
+              - link "26" [ref=e464] [cursor=pointer]:
+                - /url: "#ref-26"
+              - text: ","
+              - link "27" [ref=e465] [cursor=pointer]:
+                - /url: "#ref-27"
+              - text: "]"
+            - text: ", every rollout is fully exploited across multiple updates, making real-robot RL more tractable and affordable. The result:"
+            - strong [ref=e466]: the final policy completes tasks ~3× faster
+            - text: than imitation learning alone.
+        - 'figure "Figure 11: VLM-Critic Progress Estimation Visualized. Estimated progress by VLM-critic; Trained VLM Value captures the critical moments of failure as well as task progress (cube pick and place to the tote box)." [ref=e468]':
+          - generic:
+            - generic:
+              - img "VLM-Critic Progress Estimation Visualized"
+          - generic [ref=e469]: "Figure 11: VLM-Critic Progress Estimation Visualized. Estimated progress by VLM-critic; Trained VLM Value captures the critical moments of failure as well as task progress (cube pick and place to the tote box)."
+      - generic [ref=e470]:
+        - heading "6. Deployment & Benchmarks" [level=2] [ref=e471]
+        - paragraph [ref=e473]:
+          - text: "RLDX ships as three checkpoints:"
+          - link "RLDX-1-PT" [ref=e474] [cursor=pointer]:
+            - /url: https://huggingface.co/RLWRLD/RLDX-1-PT
+            - strong [ref=e475]: RLDX-1-PT
+          - text: (pre-trained checkpoint),
+          - link "RLDX-1-MT-ALLEX" [ref=e476] [cursor=pointer]:
+            - /url: https://huggingface.co/RLWRLD/RLDX-1-MT-ALLEX
+            - strong [ref=e477]: RLDX-1-MT-ALLEX
+          - text: and
+          - link "RLDX-1-MT-DROID" [ref=e478] [cursor=pointer]:
+            - /url: https://huggingface.co/RLWRLD/RLDX-1-MT-DROID
+            - strong [ref=e479]: RLDX-1-MT-DROID
+          - text: (8.1B each, mid-trained for their target platforms). Serving an 8.1B policy in a real-robot control loop in real time is a graph and memory problem more than a FLOPs one (§6-1). We benchmark
+          - strong [ref=e480]: RLDX-1-PT
+          - text: in simulation against
+          - strong [ref=e481]: GR00T N1.5/N1.6
+          - generic [ref=e482]:
+            - text: "["
+            - link "5" [ref=e483] [cursor=pointer]:
+              - /url: "#ref-5"
+            - text: "]"
+          - text: and
+          - strong [ref=e484]:
+            - text: π₀
+            - generic [ref=e485]:
+              - text: "["
+              - link "4" [ref=e486] [cursor=pointer]:
+                - /url: "#ref-4"
+              - text: "]"
+            - text: / π₀.₅
+            - generic [ref=e487]:
+              - text: "["
+              - link "28" [ref=e488] [cursor=pointer]:
+                - /url: "#ref-28"
+              - text: "]"
+            - text: / π₀-FAST
+            - generic [ref=e489]:
+              - text: "["
+              - link "29" [ref=e490] [cursor=pointer]:
+                - /url: "#ref-29"
+              - text: "]"
+          - text: (§6-2), and also evaluate it on the
+          - strong [ref=e491]: OpenArm
+          - text: real-world benchmark without any platform-specific mid-training (§6-3). The mid-trained checkpoints (
+          - strong [ref=e492]: RLDX-1-MT-ALLEX
+          - text: ","
+          - strong [ref=e493]: RLDX-1-MT-DROID
+          - text: ) are then evaluated on their target platforms (§6-3).
+        - heading "6-1. Inference Optimization" [level=3] [ref=e495]
+        - generic [ref=e496]:
+          - paragraph [ref=e497]:
+            - text: Real-time control is a serving problem, not a FLOPs problem. Under a typical VLA input setup (a short instruction of ~30–40 words and 4 image frames, totaling ~300 tokens per step), MSAT inference is bottlenecked by
+            - strong [ref=e498]: CPU-side kernel dispatch
+            - text: and
+            - strong [ref=e499]: HBM (High Bandwidth Memory) round-trips between operators
+            - text: ", not by GPU compute. We attack both."
+          - paragraph [ref=e500]:
+            - strong [ref=e501]: Static Graph.
+            - text: Eager mode dispatches hundreds of kernels from CPU every forward call, and shape-dependent control flow (RoPE layouts, token masks) breaks
+            - code [ref=e502]: torch.compile
+            - text: "'s trace. We pre-compute RoPE frequencies, token layouts, and other shape-derived buffers ahead of time, collapsing the full MSAT forward pass into one uninterrupted trace that compiles end-to-end and captures under CUDA graphs."
+        - 'figure "Figure 12: Dynamic vs Static Graph. Dynamic graphs hit graph breaks and repay launch overhead every subgraph. A static graph launches once and runs the whole kernel sequence back-to-back." [ref=e504]':
+          - generic:
+            - generic:
+              - img "Dynamic vs Static Graph"
+          - generic [ref=e505]: "Figure 12: Dynamic vs Static Graph. Dynamic graphs hit graph breaks and repay launch overhead every subgraph. A static graph launches once and runs the whole kernel sequence back-to-back."
+        - paragraph [ref=e507]:
+          - strong [ref=e508]: Operator Fusion.
+          - text: Although inductor performs automatic fusion, its predefined patterns do not always cover model-specific fusion opportunities across operators. We profile its Triton kernels, find groups where algebra, memory I/O, and parallelization can be jointly rewritten, and replace them with hand-fused kernels, e.g.,
+          - strong [ref=e509]: RMSNorm + RoPE + attention → one kernel
+          - text: ", cutting HBM access from six passes to two (one load, one store)."
+        - 'figure "Figure 13: Operator Fusion. Without fusion each operator stores and reloads intermediates through HBM. Fusion keeps Q/K/V on-chip and writes only the final output." [ref=e511]':
+          - generic:
+            - generic:
+              - img "Operator Fusion"
+          - generic [ref=e512]: "Figure 13: Operator Fusion. Without fusion each operator stores and reloads intermediates through HBM. Fusion keeps Q/K/V on-chip and writes only the final output."
+        - paragraph [ref=e514]:
+          - text: "End-to-end: up to"
+          - strong [ref=e515]: 1.63× over PyTorch Eager
+          - text: on an RTX 5090 + Intel Core Ultra 7 265K desktop (ALLEX, dual-view 192×256, 4 frames, 40 action chunks, 4 denoising steps). Torch Compile alone provides only modest gains because it optimizes the model in fragments rather than as a whole. To capture the full forward pass, we pair static graph conversion with CUDA Graph, eliminating launch overhead end-to-end. On top of that, kernel optimization removes the remaining memory traffic.
+        - generic [ref=e516]:
+          - paragraph [ref=e517]: "Table 3: Inference Latency, p50 ms (speed-up vs. PyTorch Eager)"
+          - table [ref=e520]:
+            - rowgroup [ref=e521]:
+              - row "Model PyTorch Eager Torch Compile Static Graph Conversion + CUDA Graph Static Graph Conversion + CUDA Graph + Kernel Opt." [ref=e522]:
+                - columnheader "Model" [ref=e523]
+                - columnheader "PyTorch Eager" [ref=e524]
+                - columnheader "Torch Compile" [ref=e525]
+                - columnheader "Static Graph Conversion + CUDA Graph" [ref=e526]
+                - columnheader "Static Graph Conversion + CUDA Graph + Kernel Opt." [ref=e527]
+            - rowgroup [ref=e528]:
+              - row "RLDX-1 (w/o physics & memory modules) 67.02 56.87 (1.18×) 46.16 (1.45×) 41.59 (1.61×)" [ref=e529]:
+                - cell "RLDX-1 (w/o physics & memory modules)" [ref=e530]
+                - cell "67.02" [ref=e531]
+                - cell "56.87 (1.18×)" [ref=e532]
+                - cell "46.16 (1.45×)" [ref=e533]
+                - cell "41.59 (1.61×)" [ref=e534]:
+                  - text: 41.59 (
+                  - strong [ref=e535]: 1.61×
+                  - text: )
+              - row "RLDX-1 (all-modality) 71.22 59.64 (1.19×) 48.91 (1.46×) 43.70 (1.63×)" [ref=e536]:
+                - cell "RLDX-1 (all-modality)" [ref=e537]
+                - cell "71.22" [ref=e538]
+                - cell "59.64 (1.19×)" [ref=e539]
+                - cell "48.91 (1.46×)" [ref=e540]
+                - cell "43.70 (1.63×)" [ref=e541]:
+                  - text: 43.70 (
+                  - strong [ref=e542]: 1.63×
+                  - text: )
+        - heading "6-2. Simulation Benchmarks" [level=3] [ref=e544]
+        - paragraph [ref=e546]:
+          - text: We evaluate the pre-trained checkpoint
+          - strong [ref=e547]: RLDX-1-PT
+          - text: on 8 simulation benchmarks that collectively span single-arm gripper, dual-arm bimanual, and humanoid embodiments, against recent frontier VLAs (π₀, π₀.₅, π₀-FAST, GR00T N1.5/N1.6).
+        - 'figure "Figure 14: Per-Benchmark Breakdown (RLDX-1 vs Baselines). RLDX-1 holds SOTA on LIBERO (97.8), SIMPLER, RoboCasa Kitchen (70.6), and RoboCasa GR-1 Tabletop (58.7)." [ref=e549]':
+          - generic:
+            - generic:
+              - 'img "Per-Benchmark Breakdown: RLDX-1 vs Baselines"'
+          - generic [ref=e550]: "Figure 14: Per-Benchmark Breakdown (RLDX-1 vs Baselines). RLDX-1 holds SOTA on LIBERO (97.8), SIMPLER, RoboCasa Kitchen (70.6), and RoboCasa GR-1 Tabletop (58.7)."
+        - generic [ref=e551]:
+          - paragraph [ref=e552]:
+            - strong [ref=e553]: Classical suites are saturated.
+            - text: Recent frontier VLAs have crowded LIBERO and SIMPLER near their ceilings, and we treat them as a sanity check. RLDX-1 still holds SOTA on all four splits (LIBERO 97.8, SIMPLER Google-VM 81.5, Google-VA 77.4, WidowX 71.9), but the margin to the next-best is small and the headline numbers no longer separate methods.
+          - paragraph [ref=e554]:
+            - text: The signal lives in the
+            - strong [ref=e555]: RoboCasa family
+            - text: ": long-horizon, contact-rich, kitchen-scale tasks that current VLAs are visibly not yet good at, and where every component of RLDX-1 was designed to pay rent."
+          - paragraph [ref=e556]:
+            - strong [ref=e557]: RoboCasa Kitchen.
+            - text: Every published VLA baseline sits between 62.1 (π₀.₅) and 66.2 (GR00T N1.6).
+            - strong [ref=e558]: RLDX-1 reaches 70.6
+            - text: ", the first and only VLA to break the 70% mark on this suite, a +4.4%p jump over the next best."
+          - paragraph [ref=e559]:
+            - strong [ref=e560]: RoboCasa GR-1 Tabletop.
+            - text: "A humanoid-specific suite where every baseline plateaus below 50 (GR00T N1.5: 48.0, N1.6: 47.6). RLDX-1 hits"
+            - strong [ref=e561]: 58.7 (+10.7%p)
+            - text: ", the regime our humanoid-first design (high-DoF hand encoders, embodiment-conditioned MSAT streams) was built for."
+          - paragraph [ref=e562]:
+            - strong [ref=e563]: RoboCasa 365.
+            - text: "The hardest of the six suites: 365 long-horizon, multi-stage tasks engineered to break policies that only memorize short clips. Among baselines, GR00T N1.6 tops out at 26.9;"
+            - strong [ref=e564]: RLDX-1 reaches 32.1 (+5.2%p, ~19% relative)
+            - text: . The margin widens on the
+            - strong [ref=e565]: composite tasks
+            - text: ", which chain several skills under a single instruction: RLDX-1 is roughly"
+            - strong [ref=e566]: 2× the prior SOTA on seen composites and 3× on unseen composites
+            - text: .
+          - paragraph [ref=e567]:
+            - text: "These margins are especially notable given the data asymmetry:"
+            - strong [ref=e568]: GR00T N1.6 includes RoboCasa simulation data in its pre-training mix, while RLDX-1 is trained on real data only
+            - text: . The RoboCasa gap is not a sim-pretraining advantage; it is an architectural and data-engine one.
+          - paragraph [ref=e569]:
+            - text: Beyond nominal success rate, we also evaluate
+            - strong [ref=e570]: robustness
+            - text: to camera, robot, language, lighting, background, noise, and layout perturbations (LIBERO-Plus
+            - generic [ref=e571]:
+              - text: "["
+              - link "21" [ref=e572] [cursor=pointer]:
+                - /url: "#ref-21"
+              - text: "]"
+            - text: ). RLDX-1 reaches
+            - strong [ref=e573]: 86.7% total robustness
+            - text: vs GR00T N1.6 72.6% and π₀-FAST 64.2%.
+          - paragraph [ref=e574]:
+            - strong [ref=e575]: And we got here on a fraction of the compute.
+            - text: Tracing the iteration trajectory (Internal RLDX 0.2 → 0.25 → 0.3 → 1), RLDX-1 crosses every baseline well before its final checkpoint and reaches SOTA at roughly
+            - strong [ref=e576]: 20% of the training compute used by GR00T N1.5
+            - text: . The gains above are not a scale story; they come from architecture and data engine design for dexterous manipulation.
+        - 'figure "Figure 15: RLDX Iteration Trajectory vs Baselines. RLDX iterations (0.2 → 0.25 → 0.3 → 1) on four benchmarks. Horizontal dashed lines mark baseline methods. RLDX-1 matches or exceeds every baseline with ~20% of the compute used by GR00T N1.5." [ref=e578]':
+          - generic:
+            - generic:
+              - img "RLDX Iteration Trajectory vs Baselines"
+          - generic [ref=e579]:
+            - text: "Figure 15: RLDX Iteration Trajectory vs Baselines. RLDX iterations (0.2 → 0.25 → 0.3 → 1) on four benchmarks. Horizontal dashed lines mark baseline methods. RLDX-1 matches or exceeds every baseline with"
+            - strong [ref=e580]: ~20% of the compute
+            - text: used by GR00T N1.5.
+        - heading "6-3. Real-World Benchmark Tasks" [level=3] [ref=e582]
+        - paragraph [ref=e584]: Each benchmark task is designed to isolate a specific axis of dexterity. We compare RLDX-1 against strong baseline VLA models, including π₀.₅ and GR00T N1.6.
+        - generic [ref=e585]:
+          - 'heading "OpenArm: Cross-Embodiment Generalization" [level=4] [ref=e586]'
+          - paragraph [ref=e587]:
+            - text: On the OpenArm + Inspire 6-DoF hand platform, we evaluate
+            - link "RLDX-1-PT" [ref=e588] [cursor=pointer]:
+              - /url: https://huggingface.co/RLWRLD/RLDX-1-PT
+              - strong [ref=e589]: RLDX-1-PT
+            - text: ", without OpenArm-specific mid-training, to probe how well the embodiment-agnostic pre-trained policy generalizes to a platform it was not specialized for. The benchmark targets versatile intelligence, including object grounding, instruction understanding, and generalization to unseen environments."
+        - 'figure "Figure 16: RLDX-1 Real-World Benchmark, OpenArm." [ref=e591]':
+          - generic:
+            - generic:
+              - 'img "RLDX-1 Real-World Benchmark: OpenArm"'
+          - generic [ref=e592]: "Figure 16: RLDX-1 Real-World Benchmark, OpenArm."
+        - paragraph [ref=e594]: RLDX-1 consistently outperforms the baselines on the OpenArm benchmark for versatile intelligence. In particular, π₀.₅ performs better than GR00T N1.6 on in-domain tasks, but its performance drops below GR00T N1.6 on out-of-domain tasks, indicating limited generalization to unseen settings. GR00T N1.6 shows a different limitation. It completely fails on the object identification task, suggesting that it struggles with fine-grained instance-level object grounding. In contrast, RLDX-1 maintains balanced performance across different task types without collapsing on any specific capability. These results indicate that RLDX-1 is not only stronger in average success rate, but also more reliable across the diverse capabilities required for real-world humanoid manipulation.
+        - generic [ref=e595]:
+          - 'heading "ALLEX: Specialized Functional Capabilities (RLDX-1-MT-ALLEX)" [level=4] [ref=e596]':
+            - text: "ALLEX: Specialized Functional Capabilities ("
+            - link "RLDX-1-MT-ALLEX" [ref=e597] [cursor=pointer]:
+              - /url: https://huggingface.co/RLWRLD/RLDX-1-MT-ALLEX
+            - text: )
+          - paragraph [ref=e598]:
+            - text: Using the ALLEX humanoid, we construct tasks focused on motion awareness, history awareness, and physical signal awareness, evaluated with
+            - strong [ref=e599]: RLDX-1-MT-ALLEX
+            - text: specialized for the platform.
+        - generic [ref=e600]:
+          - paragraph [ref=e601]: "Table 4: RLDX-1 Real-World Benchmark, ALLEX"
+          - table [ref=e604]:
+            - rowgroup [ref=e605]:
+              - row "Method Conveyor Pick-and-Place Object-in-Box Selection Pot-to-Cup Pouring" [ref=e606]:
+                - columnheader "Method" [ref=e607]
+                - columnheader "Conveyor Pick-and-Place" [ref=e608]
+                - columnheader "Object-in-Box Selection" [ref=e609]
+                - columnheader "Pot-to-Cup Pouring" [ref=e610]
+            - rowgroup [ref=e611]:
+              - row "π₀.₅ 29.2 33.3 38.7" [ref=e612]:
+                - cell "π₀.₅" [ref=e613]
+                - cell "29.2" [ref=e614]
+                - cell "33.3" [ref=e615]
+                - cell "38.7" [ref=e616]
+              - row "GR00T N1.6 50.0 29.1 37.5" [ref=e617]:
+                - cell "GR00T N1.6" [ref=e618]
+                - cell "50.0" [ref=e619]
+                - cell "29.1" [ref=e620]
+                - cell "37.5" [ref=e621]
+              - row "RLDX-1 (Ours) 87.5 91.7 70.8" [ref=e622]:
+                - cell "RLDX-1 (Ours)" [ref=e623]:
+                  - strong [ref=e624]: RLDX-1 (Ours)
+                - cell "87.5" [ref=e625]
+                - cell "91.7" [ref=e626]
+                - cell "70.8" [ref=e627]
+        - paragraph [ref=e629]: The results show a large performance gap between RLDX-1 and existing VLAs. On tasks that require specialized functional capabilities, the major baselines achieve success rates below 30%, while RLDX-1 reaches nearly 90%. This suggests that existing VLA models still struggle when a task requires more than generic visual-language understanding, such as tracking motion, using history, or interpreting physical signals. In contrast, RLDX-1 can handle these capability-specific challenges much more reliably.
+        - generic [ref=e630]:
+          - 'heading "DROID (Franka Research 3): Memory and Sensory Tasks (RLDX-1-MT-DROID)" [level=4] [ref=e631]':
+            - text: "DROID (Franka Research 3): Memory and Sensory Tasks ("
+            - link "RLDX-1-MT-DROID" [ref=e632] [cursor=pointer]:
+              - /url: https://huggingface.co/RLWRLD/RLDX-1-MT-DROID
+            - text: )
+          - paragraph [ref=e633]:
+            - strong [ref=e634]: RLDX-1-MT-DROID
+            - text: specializes the pre-trained checkpoint to a single-arm Franka Research 3 platform with AnySkin tactile and joint torque sensing. We evaluate two memory-dependent tasks (Swap Cup, Shell Game) and two sensory-dependent tasks (Plug Insertion, Egg Pick & Place) that exercise the Memory Module and Physics Module on a non-humanoid embodiment.
+        - generic [ref=e635]:
+          - paragraph [ref=e636]: "Table 5: RLDX Real-World Benchmark, DROID"
+          - table [ref=e639]:
+            - rowgroup [ref=e640]:
+              - 'row "Model Memory: Swap Cup Memory: Shell Game Sensory: Plug Insertion Sensory: Egg Pick & Place" [ref=e641]':
+                - columnheader "Model" [ref=e642]
+                - 'columnheader "Memory: Swap Cup" [ref=e643]'
+                - 'columnheader "Memory: Shell Game" [ref=e644]'
+                - 'columnheader "Sensory: Plug Insertion" [ref=e645]'
+                - 'columnheader "Sensory: Egg Pick & Place" [ref=e646]'
+            - rowgroup [ref=e647]:
+              - row "π₀.₅ 25.0 45.8 20.8 45.8" [ref=e648]:
+                - cell "π₀.₅" [ref=e649]
+                - cell "25.0" [ref=e650]
+                - cell "45.8" [ref=e651]
+                - cell "20.8" [ref=e652]
+                - cell "45.8" [ref=e653]
+              - row "GR00T N1.6 12.5 54.2 16.7 37.8" [ref=e654]:
+                - cell "GR00T N1.6" [ref=e655]
+                - cell "12.5" [ref=e656]
+                - cell "54.2" [ref=e657]
+                - cell "16.7" [ref=e658]
+                - cell "37.8" [ref=e659]
+              - row "Ours (Pre-Trained) 29.2 58.3 20.8 45.8" [ref=e660]:
+                - cell "Ours (Pre-Trained)" [ref=e661]
+                - cell "29.2" [ref=e662]
+                - cell "58.3" [ref=e663]
+                - cell "20.8" [ref=e664]
+                - cell "45.8" [ref=e665]
+              - row "Ours (Mid-Trained) 45.8 91.7 33.3 61.1" [ref=e666]:
+                - cell "Ours (Mid-Trained)" [ref=e667]:
+                  - strong [ref=e668]: Ours (Mid-Trained)
+                - cell "45.8" [ref=e669]
+                - cell "91.7" [ref=e670]
+                - cell "33.3" [ref=e671]
+                - cell "61.1" [ref=e672]
+        - heading "6-4. Future Direction" [level=3] [ref=e674]
+        - list [ref=e676]:
+          - listitem [ref=e677]:
+            - strong [ref=e678]: Per-task data requirements vary.
+            - text: Some tasks converge quickly with few demonstrations; others need relatively extensive post-training.
+          - listitem [ref=e679]:
+            - strong [ref=e680]: Long-horizon planning ability.
+            - text: Our current experiments demonstrate memory-dependent decision-making over short-to-medium interaction horizons. Extending this capability to substantially longer temporal contexts, such as hour-long interactions, remains an important direction for future work.
+          - listitem [ref=e681]:
+            - strong [ref=e682]: Zero-shot ability.
+            - text: RLDX-1 achieves strong instruction understanding under our current training and adaptation setting compared to other frontier VLAs, but its zero-shot generalization as a pre-trained policy remains an open direction.
+          - listitem [ref=e683]:
+            - strong [ref=e684]: Extending RLDX-1 to the video/world model.
+            - text: RLDX-1 can be naturally extended toward video/world modeling, where the model learns to predict future visual observations conditioned on language instructions and actions. Such an extension could provide a stronger basis for long-horizon planning and action-conditioned imagination in embodied environments, and represents a promising direction for future work.
+      - generic [ref=e685]:
+        - heading "7. Closing" [level=2] [ref=e686]
+        - generic [ref=e687]:
+          - paragraph [ref=e688]:
+            - text: The prevailing assumption in the field is "intelligence first, dexterity follows." Our experience points the other way.
+            - strong [ref=e689]: Dexterity is not what comes after intelligence; it is the path intelligence takes when it has to act in the physical world.
+            - text: The deciding signal can live in torque, tactile, depth, or modalities with no human analogue, and scaling vision pre-training does not conjure what was never in the pixels. What scales for embodied intelligence is the number of modalities a model can absorb and let complement each other, not the size of any single one.
+          - paragraph [ref=e690]: RLDX-1 is the first checkpoint along this direction, not the last. If this is the kind of problem you want to work on, we'd love to hear from you.
+        - generic [ref=e691]:
+          - iframe [ref=e693]
+          - paragraph [ref=e694]: "VIDEO 9: Launching RLDX-1."
+      - generic [ref=e695]:
+        - heading "Resources" [level=2] [ref=e696]
+        - list [ref=e697]:
+          - listitem [ref=e698]:
+            - generic [ref=e699]: 
+            - generic [ref=e700]:
+              - generic [ref=e701]: Tech Report
+              - link "arxiv.org/abs/2605.03269" [ref=e702] [cursor=pointer]:
+                - /url: https://arxiv.org/abs/2605.03269
+          - listitem [ref=e703]:
+            - generic [ref=e704]: 
+            - generic [ref=e705]:
+              - generic [ref=e706]: Code
+              - link "github.com/RLWRLD/RLDX-1" [ref=e707] [cursor=pointer]:
+                - /url: https://github.com/RLWRLD/RLDX-1
+          - listitem [ref=e708]:
+            - generic [ref=e709]: 
+            - generic [ref=e710]:
+              - generic [ref=e711]: Checkpoints
+              - link "huggingface.co/collections/RLWRLD/rldx-1" [ref=e712] [cursor=pointer]:
+                - /url: https://huggingface.co/collections/RLWRLD/rldx-1
+              - list [ref=e713]:
+                - listitem [ref=e714]:
+                  - link "RLDX-1-PT" [ref=e715] [cursor=pointer]:
+                    - /url: https://huggingface.co/RLWRLD/RLDX-1-PT
+                  - text: ": Pre-trained checkpoint"
+                - listitem [ref=e716]:
+                  - link "RLDX-1-MT-ALLEX" [ref=e717] [cursor=pointer]:
+                    - /url: https://huggingface.co/RLWRLD/RLDX-1-MT-ALLEX
+                  - text: ": ALLEX humanoid mid-trained checkpoint"
+                - listitem [ref=e718]:
+                  - link "RLDX-1-MT-DROID" [ref=e719] [cursor=pointer]:
+                    - /url: https://huggingface.co/RLWRLD/RLDX-1-MT-DROID
+                  - text: ": DROID single-arm mid-trained checkpoint"
+                - listitem [ref=e720]: and many more fine-tuned models for benchmark results
+          - listitem [ref=e721]:
+            - generic [ref=e722]: 
+            - generic [ref=e723]:
+              - generic [ref=e724]: Deployment & partnerships
+              - link "partnership@rlwrld.ai" [ref=e725] [cursor=pointer]:
+                - /url: mailto:partnership@rlwrld.ai
+      - generic [ref=e726]:
+        - heading "References" [level=2] [ref=e727]
+        - list [ref=e728]:
+          - listitem [ref=e729]:
+            - generic [ref=e730]: "[1]"
+            - generic [ref=e731]:
+              - text: Generalist AI. (2025).
+              - strong [ref=e732]: GEN-0
+              - text: . Nov 2025.
+          - listitem [ref=e733]:
+            - generic [ref=e734]: "[2]"
+            - generic [ref=e735]:
+              - text: Generalist AI. (2026).
+              - strong [ref=e736]: GEN-1
+              - text: . Apr 2026.
+          - listitem [ref=e737]:
+            - generic [ref=e738]: "[3]"
+            - generic [ref=e739]:
+              - text: Kim, M. J., Pertsch, K., Karamcheti, S., et al. (2024).
+              - strong [ref=e740]: "OpenVLA: An Open-Source Vision-Language-Action Model"
+              - text: . arXiv:2406.09246.
+          - listitem [ref=e741]:
+            - generic [ref=e742]: "[4]"
+            - generic [ref=e743]:
+              - text: Black, K., Brown, N., Driess, D., et al. (2024).
+              - strong [ref=e744]: "π₀: A Vision-Language-Action Flow Model for General Robot Control"
+              - text: . arXiv:2410.24164.
+          - listitem [ref=e745]:
+            - generic [ref=e746]: "[5]"
+            - generic [ref=e747]:
+              - text: NVIDIA, Bjorck, J., et al. (2025).
+              - strong [ref=e748]: "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots"
+              - text: . arXiv:2503.14734.
+          - listitem [ref=e749]:
+            - generic [ref=e750]: "[6]"
+            - generic [ref=e751]:
+              - text: Pai, J., Achenbach, L., Montesinos, V., Forrai, B., Mees, O., & Nava, E. (2025).
+              - strong [ref=e752]: "mimic-video: Video-Action Models for Generalizable Robot Control Beyond VLAs"
+              - text: . arXiv:2512.15692.
+          - listitem [ref=e753]:
+            - generic [ref=e754]: "[7]"
+            - generic [ref=e755]:
+              - text: Ye, S., Ge, Y., Zheng, K., et al. (2026).
+              - strong [ref=e756]: "DreamZero: World Action Models are Zero-shot Policies"
+              - text: . arXiv:2602.15922.
+          - listitem [ref=e757]:
+            - generic [ref=e758]: "[8]"
+            - generic [ref=e759]:
+              - text: Jang, J., Ye, S., Lin, Z., et al. (2025).
+              - strong [ref=e760]: "DreamGen: Unlocking Generalization in Robot Learning through Video World Models"
+              - text: . arXiv:2505.12705.
+          - listitem [ref=e761]:
+            - generic [ref=e762]: "[9]"
+            - generic [ref=e763]:
+              - text: NVIDIA, et al. (2025).
+              - strong [ref=e764]: "Cosmos: World Simulation with Video Foundation Models for Physical AI"
+              - text: . arXiv:2511.00062.
+          - listitem [ref=e765]:
+            - generic [ref=e766]: "[10]"
+            - generic [ref=e767]:
+              - text: Esser, P., Kulal, S., Blattmann, A., et al. (2024).
+              - strong [ref=e768]: Scaling Rectified Flow Transformers for High-Resolution Image Synthesis
+              - text: . ICML. arXiv:2403.03206.
+          - listitem [ref=e769]:
+            - generic [ref=e770]: "[11]"
+            - generic [ref=e771]:
+              - text: Black Forest Labs. (2024).
+              - strong [ref=e772]: FLUX
+              - text: .
+              - link "https://github.com/black-forest-labs/flux" [ref=e773] [cursor=pointer]:
+                - /url: https://github.com/black-forest-labs/flux
+              - text: .
+          - listitem [ref=e774]:
+            - generic [ref=e775]: "[12]"
+            - generic [ref=e776]:
+              - text: Qwen Team, Alibaba. (2025).
+              - strong [ref=e777]: Qwen3-VL Technical Report
+              - text: . arXiv:2511.21631.
+          - listitem [ref=e778]:
+            - generic [ref=e779]: "[13]"
+            - generic [ref=e780]:
+              - text: Nasiriany, S., Maddukuri, A., Zhang, L., et al. (2024).
+              - strong [ref=e781]: "RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots"
+              - text: . RSS. arXiv:2406.02523.
+          - listitem [ref=e782]:
+            - generic [ref=e783]: "[14]"
+            - generic [ref=e784]:
+              - text: Jang, H., Yu, S., Kwon, H., Jeon, H., Seo, Y., & Shin, J. (2025).
+              - strong [ref=e785]: "ContextVLA: Vision-Language-Action Model with Amortized Multi-Frame Context"
+              - text: . arXiv:2510.04246.
+          - listitem [ref=e786]:
+            - generic [ref=e787]: "[15]"
+            - generic [ref=e788]:
+              - text: Kim, M., Kwon, H., Alahari, K., & Cho, M. (2026).
+              - strong [ref=e789]: Exploring High-Order Self-Similarity for Video Understanding
+              - text: . arXiv:2604.20760.
+          - listitem [ref=e790]:
+            - generic [ref=e791]: "[16]"
+            - generic [ref=e792]:
+              - text: Lee, J., Jang, H., Koo, M., Park, J., & Shin, J. (2026).
+              - strong [ref=e793]: "MoSS: Modular Sensory Stream for Integrating Physical Feedback in Vision-Language-Action Models"
+              - text: . arXiv:2604.23272.
+          - listitem [ref=e794]:
+            - generic [ref=e795]: "[17]"
+            - generic [ref=e796]:
+              - text: Koo, M., Choi, D., Kim, T., Lee, K., Kim, C., Seo, Y., & Shin, J. (2025).
+              - strong [ref=e797]: "HAMLET: Switch your VLA Model into a History-Aware Policy"
+              - text: . arXiv:2510.00695.
+          - listitem [ref=e798]:
+            - generic [ref=e799]: "[18]"
+            - generic [ref=e800]:
+              - text: Kim, S., Jang, S., Yoon, B., Kim, D., Won, J., & Shin, J. (2026).
+              - strong [ref=e801]: "RoboCurate: Harnessing Diversity with Action-Verified Neural Trajectory for Robot Learning"
+              - text: . arXiv:2602.18742.
+          - listitem [ref=e802]:
+            - generic [ref=e803]: "[19]"
+            - generic [ref=e804]:
+              - text: Chi, C., et al. (2024).
+              - strong [ref=e805]: Universal Manipulation Interface
+              - text: . arXiv:2402.10329.
+          - listitem [ref=e806]:
+            - generic [ref=e807]: "[20]"
+            - generic [ref=e808]:
+              - text: Xu, M., et al. (2025).
+              - strong [ref=e809]: "DexUMI: Using Human Hand as the Universal Manipulation Interface for Dexterous Manipulation"
+              - text: . arXiv:2505.21864.
+          - listitem [ref=e810]:
+            - generic [ref=e811]: "[21]"
+            - generic [ref=e812]:
+              - text: Fei, S., Wang, S., Shi, J., et al. (2025).
+              - strong [ref=e813]: "LIBERO-Plus: In-Depth Robustness Analysis of Vision-Language-Action Models"
+              - text: . arXiv:2510.13626.
+          - listitem [ref=e814]:
+            - generic [ref=e815]: "[22]"
+            - generic [ref=e816]:
+              - text: Kerbl, B., et al. (2023).
+              - strong [ref=e817]: 3D Gaussian Splatting
+              - text: . SIGGRAPH.
+          - listitem [ref=e818]:
+            - generic [ref=e819]: "[23]"
+            - generic [ref=e820]:
+              - text: Ross, S., Gordon, G., & Bagnell, D. (2011).
+              - strong [ref=e821]: DAgger
+              - text: . AISTATS.
+          - listitem [ref=e822]:
+            - generic [ref=e823]: "[24]"
+            - generic [ref=e824]:
+              - text: Ma, Y., et al. (2025).
+              - strong [ref=e825]: Vision Language Models are In-Context Value Learners
+              - text: . ICLR. arXiv:2411.04549.
+          - listitem [ref=e826]:
+            - generic [ref=e827]: "[25]"
+            - generic [ref=e828]:
+              - text: Ma, Y., et al. (2023).
+              - strong [ref=e829]: "VIP: Towards Universal Visual Reward and Representation via Value-Implicit Pre-Training"
+              - text: . ICLR. arXiv:2210.00030.
+          - listitem [ref=e830]:
+            - generic [ref=e831]: "[26]"
+            - generic [ref=e832]:
+              - text: Physical Intelligence, et al. (2025).
+              - strong [ref=e833]: "π₀.₆: A VLA That Learns From Experience"
+              - text: . arXiv:2511.14759.
+          - listitem [ref=e834]:
+            - generic [ref=e835]: "[27]"
+            - generic [ref=e836]:
+              - text: Ye, C., et al. (2024).
+              - strong [ref=e837]: Online Iterative Reinforcement Learning from Human Feedback with General Preference Model
+              - text: . NeurIPS.
+          - listitem [ref=e838]:
+            - generic [ref=e839]: "[28]"
+            - generic [ref=e840]:
+              - text: Physical Intelligence, et al. (2025).
+              - strong [ref=e841]: "π₀.₅: a Vision-Language-Action Model with Open-World Generalization"
+              - text: . arXiv:2504.16054.
+          - listitem [ref=e842]:
+            - generic [ref=e843]: "[29]"
+            - generic [ref=e844]:
+              - text: Pertsch, K., Stachowicz, K., Ichter, B., et al. (2025).
+              - strong [ref=e845]: "FAST: Efficient Action Tokenization for Vision-Language-Action Models"
+              - text: . arXiv:2501.09747.
+      - generic [ref=e846]:
+        - heading "Citation" [level=2] [ref=e847]
+        - generic [ref=e848]:
+          - generic [ref=e849]: "@article{rldx2026, title = {RLDX-1 Technical Report}, author = {Dongyoung Kim and Huiwon Jang and Myungkyu Koo and Suhyeok Jang and Taeyoung Kim and others}, year = {2026}, journal = {arXiv preprint arXiv:2605.03269}, eprint = {2605.03269}, archivePrefix = {arXiv} }"
+          - button "Copy citation" [ref=e850] [cursor=pointer]: Copy
+  - contentinfo [ref=e851]:
+    - generic [ref=e853]:
+      - generic [ref=e854]:
+        - generic [ref=e855]:
+          - link "RLWRLD 홈으로" [ref=e857] [cursor=pointer]:
+            - /url: /en
+            - img "RLWRLD 로고" [ref=e859]
+          - generic [ref=e867]:
+            - generic [ref=e868]:
+              - generic [ref=e869]: USA
+              - paragraph [ref=e870]: 300 Grant Ave. San Francisco, CA 94108
+            - generic [ref=e871]:
+              - generic [ref=e872]: KOREA
+              - paragraph [ref=e873]: 415 Teheran-ro, 7F, Gangnam-gu, Seoul, Republic of Korea
+            - generic [ref=e874]:
+              - generic [ref=e875]: JAPAN
+              - paragraph [ref=e876]: EGG Office, 9F, E09, Shin-Marunouchi Building, 1-5-1 Marunouchi, Chiyoda-ku, Tokyo 100-6510, Japan
+          - list [ref=e878]:
+            - listitem [ref=e879]:
+              - link "X (Twitter)" [ref=e880] [cursor=pointer]:
+                - /url: https://x.com/RLWRLD_ai
+                - img [ref=e881]
+            - listitem [ref=e883]:
+              - link "YouTube" [ref=e884] [cursor=pointer]:
+                - /url: https://www.youtube.com/@rlwrld.dexterity
+                - img [ref=e885]
+            - listitem [ref=e887]:
+              - link "LinkedIn" [ref=e888] [cursor=pointer]:
+                - /url: https://kr.linkedin.com/company/rlwrld
+                - img [ref=e889]
+        - navigation "Footer menu" [ref=e893]:
+          - list [ref=e894]:
+            - listitem [ref=e895]:
+              - link "COMPANY" [ref=e896] [cursor=pointer]:
+                - /url: /en/company
+                - generic "COMPANY" [ref=e897]:
+                  - generic [ref=e898]:
+                    - generic [ref=e899]:
+                      - generic [ref=e900]: C
+                      - generic [ref=e901]: C
+                    - generic [ref=e902]:
+                      - generic [ref=e903]: O
+                      - generic [ref=e904]: O
+                    - generic [ref=e905]:
+                      - generic [ref=e906]: M
+                      - generic [ref=e907]: M
+                    - generic [ref=e908]:
+                      - generic [ref=e909]: P
+                      - generic [ref=e910]: P
+                    - generic [ref=e911]:
+                      - generic [ref=e912]: A
+                      - generic [ref=e913]: A
+                    - generic [ref=e914]:
+                      - generic [ref=e915]: "N"
+                      - generic [ref=e916]: "N"
+                    - generic [ref=e917]:
+                      - generic [ref=e918]: "Y"
+                      - generic [ref=e919]: "Y"
+            - listitem [ref=e920]:
+              - link "RLDX" [ref=e921] [cursor=pointer]:
+                - /url: /en/rldx-1
+                - generic "RLDX" [ref=e922]:
+                  - generic [ref=e923]:
+                    - generic [ref=e924]:
+                      - generic [ref=e925]: R
+                      - generic [ref=e926]: R
+                    - generic [ref=e927]:
+                      - generic [ref=e928]: L
+                      - generic [ref=e929]: L
+                    - generic [ref=e930]:
+                      - generic [ref=e931]: D
+                      - generic [ref=e932]: D
+                    - generic [ref=e933]:
+                      - generic [ref=e934]: X
+                      - generic [ref=e935]: X
+            - listitem [ref=e936]:
+              - link "BUSINESS" [ref=e937] [cursor=pointer]:
+                - /url: /en/business
+                - generic "BUSINESS" [ref=e938]:
+                  - generic [ref=e939]:
+                    - generic [ref=e940]:
+                      - generic [ref=e941]: B
+                      - generic [ref=e942]: B
+                    - generic [ref=e943]:
+                      - generic [ref=e944]: U
+                      - generic [ref=e945]: U
+                    - generic [ref=e946]:
+                      - generic [ref=e947]: S
+                      - generic [ref=e948]: S
+                    - generic [ref=e949]:
+                      - generic [ref=e950]: I
+                      - generic [ref=e951]: I
+                    - generic [ref=e952]:
+                      - generic [ref=e953]: "N"
+                      - generic [ref=e954]: "N"
+                    - generic [ref=e955]:
+                      - generic [ref=e956]: E
+                      - generic [ref=e957]: E
+                    - generic [ref=e958]:
+                      - generic [ref=e959]: S
+                      - generic [ref=e960]: S
+                    - generic [ref=e961]:
+                      - generic [ref=e962]: S
+                      - generic [ref=e963]: S
+            - listitem [ref=e964]:
+              - link "INSIGHT" [ref=e965] [cursor=pointer]:
+                - /url: /en/insight/blog
+                - generic "INSIGHT" [ref=e966]:
+                  - generic [ref=e967]:
+                    - generic [ref=e968]:
+                      - generic [ref=e969]: I
+                      - generic [ref=e970]: I
+                    - generic [ref=e971]:
+                      - generic [ref=e972]: "N"
+                      - generic [ref=e973]: "N"
+                    - generic [ref=e974]:
+                      - generic [ref=e975]: S
+                      - generic [ref=e976]: S
+                    - generic [ref=e977]:
+                      - generic [ref=e978]: I
+                      - generic [ref=e979]: I
+                    - generic [ref=e980]:
+                      - generic [ref=e981]: G
+                      - generic [ref=e982]: G
+                    - generic [ref=e983]:
+                      - generic [ref=e984]: H
+                      - generic [ref=e985]: H
+                    - generic [ref=e986]:
+                      - generic [ref=e987]: T
+                      - generic [ref=e988]: T
+              - list [ref=e989]:
+                - listitem [ref=e990]:
+                  - link "DEXBENCH" [ref=e991] [cursor=pointer]:
+                    - /url: https://dexbench.org/en/
+                - listitem [ref=e992]:
+                  - link "BLOG" [ref=e993] [cursor=pointer]:
+                    - /url: /en/insight/blog
+                - listitem [ref=e994]:
+                  - link "RESEARCH" [ref=e995] [cursor=pointer]:
+                    - /url: /en/insight/research
+            - listitem [ref=e996]:
+              - link "NEWS" [ref=e997] [cursor=pointer]:
+                - /url: /en/news
+                - generic "NEWS" [ref=e998]:
+                  - generic [ref=e999]:
+                    - generic [ref=e1000]:
+                      - generic [ref=e1001]: "N"
+                      - generic [ref=e1002]: "N"
+                    - generic [ref=e1003]:
+                      - generic [ref=e1004]: E
+                      - generic [ref=e1005]: E
+                    - generic [ref=e1006]:
+                      - generic [ref=e1007]: W
+                      - generic [ref=e1008]: W
+                    - generic [ref=e1009]:
+                      - generic [ref=e1010]: S
+                      - generic [ref=e1011]: S
+            - listitem [ref=e1012]:
+              - link "CAREERS" [ref=e1013] [cursor=pointer]:
+                - /url: /en/careers
+                - generic "CAREERS" [ref=e1014]:
+                  - generic [ref=e1015]:
+                    - generic [ref=e1016]:
+                      - generic [ref=e1017]: C
+                      - generic [ref=e1018]: C
+                    - generic [ref=e1019]:
+                      - generic [ref=e1020]: A
+                      - generic [ref=e1021]: A
+                    - generic [ref=e1022]:
+                      - generic [ref=e1023]: R
+                      - generic [ref=e1024]: R
+                    - generic [ref=e1025]:
+                      - generic [ref=e1026]: E
+                      - generic [ref=e1027]: E
+                    - generic [ref=e1028]:
+                      - generic [ref=e1029]: E
+                      - generic [ref=e1030]: E
+                    - generic [ref=e1031]:
+                      - generic [ref=e1032]: R
+                      - generic [ref=e1033]: R
+                    - generic [ref=e1034]:
+                      - generic [ref=e1035]: S
+                      - generic [ref=e1036]: S
+            - listitem [ref=e1037]:
+              - link "CONTACT" [ref=e1038] [cursor=pointer]:
+                - /url: /en/contact
+                - generic "CONTACT" [ref=e1039]:
+                  - generic [ref=e1040]:
+                    - generic [ref=e1041]:
+                      - generic [ref=e1042]: C
+                      - generic [ref=e1043]: C
+                    - generic [ref=e1044]:
+                      - generic [ref=e1045]: O
+                      - generic [ref=e1046]: O
+                    - generic [ref=e1047]:
+                      - generic [ref=e1048]: "N"
+                      - generic [ref=e1049]: "N"
+                    - generic [ref=e1050]:
+                      - generic [ref=e1051]: T
+                      - generic [ref=e1052]: T
+                    - generic [ref=e1053]:
+                      - generic [ref=e1054]: A
+                      - generic [ref=e1055]: A
+                    - generic [ref=e1056]:
+                      - generic [ref=e1057]: C
+                      - generic [ref=e1058]: C
+                    - generic [ref=e1059]:
+                      - generic [ref=e1060]: T
+                      - generic [ref=e1061]: T
+      - generic [ref=e1063]: © 2026 RLWRLD Inc. All rights reserved.

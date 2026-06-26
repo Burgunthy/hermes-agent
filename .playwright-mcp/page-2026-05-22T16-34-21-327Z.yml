@@ -1,0 +1,655 @@
+- generic [ref=e87]:
+  - banner [ref=e66]:
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - button "Guide" [ref=e71] [cursor=pointer]:
+          - generic [ref=e89]:
+            - img
+        - generic [ref=e73]:
+          - link "YouTube Home" [ref=e90] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e95]:
+              - img
+          - generic [ref=e96]: KR
+        - button "Skip navigation" [ref=e100] [cursor=pointer]:
+          - generic [ref=e101]: Skip navigation
+      - generic [ref=e74]:
+        - search [ref=e75]:
+          - generic [ref=e76]:
+            - combobox "Search" [expanded] [ref=e105]
+            - button "Search" [ref=e80] [cursor=pointer]:
+              - generic [ref=e107]:
+                - img
+        - generic [ref=e109]:
+          - button "Search with your voice" [ref=e111] [cursor=pointer]:
+            - generic [ref=e115]:
+              - img
+          - tooltip "tooltip"
+      - generic [ref=e119]:
+        - button "Settings" [ref=e124] [cursor=pointer]:
+          - generic [ref=e127]:
+            - img
+        - link "Sign in" [ref=e130] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253D3Fwnla9RfgI&hl=en&ec=65620
+          - generic [ref=e134]:
+            - img
+          - generic [ref=e135]: Sign in
+  - main [ref=e140]:
+    - generic [ref=e141]:
+      - generic [ref=e143]:
+        - complementary [ref=e150]:
+          - generic "YouTube Video Player" [active] [ref=e5]:
+            - button "Channel watermark" [ref=e12] [cursor=pointer]:
+              - img "Channel watermark" [ref=e13]
+            - generic [ref=e14]:
+              - generic [ref=e15] [cursor=pointer]:
+                - slider "Seek slider" [ref=e16]
+                - generic:
+                  - generic:
+                    - generic:
+                      - slider "Click or scroll the panel for the precise seeking."
+              - generic [ref=e25]:
+                - generic [ref=e26]:
+                  - button "Pause (k)" [ref=e27] [cursor=pointer]:
+                    - img
+                  - generic [ref=e28]:
+                    - button "Mute (m)" [ref=e30] [cursor=pointer]:
+                      - img
+                    - slider "Volume"
+                  - button "0 Minutes 2 Seconds of 13 Minutes 7 Seconds" [ref=e210] [cursor=pointer]: 0:02 / 13:07
+                  - button "Preview" [ref=e212] [cursor=pointer]:
+                    - generic "Preview" [ref=e213]
+                    - generic [ref=e214]:
+                      - img
+                - generic [ref=e35]:
+                  - generic [ref=e36]:
+                    - button "Autoplay is on" [ref=e215] [cursor=pointer]
+                    - button "Subtitles/closed captions unavailable" [ref=e37] [cursor=pointer]:
+                      - generic [ref=e38]:
+                        - img
+                    - button "Settings" [ref=e39] [cursor=pointer]:
+                      - img
+                  - generic [ref=e40]:
+                    - button "Theater mode (t)" [ref=e41] [cursor=pointer]:
+                      - img
+                    - button "Full screen (f)" [ref=e42] [cursor=pointer]:
+                      - img
+        - generic [ref=e218]:
+          - generic [ref=e219]:
+            - generic [ref=e221]:
+              - heading "데이터베이스 및 스토리지의 개념과 최고의 가성비로 사용하는 방법" [level=1] [ref=e223]
+              - generic [ref=e224]:
+                - generic [ref=e225]:
+                  - generic [ref=e226]:
+                    - link [ref=e227] [cursor=pointer]:
+                      - /url: /@jocoding
+                    - generic [ref=e229]:
+                      - generic [ref=e230]:
+                        - generic "조코딩 JoCoding" [ref=e233]:
+                          - link "조코딩 JoCoding" [ref=e234] [cursor=pointer]:
+                            - /url: /@jocoding
+                        - img "Verified" [ref=e239]:
+                          - generic [ref=e242]:
+                            - img
+                      - generic "737 thousand subscribers" [ref=e243]: 737K subscribers
+                    - button "Join this channel" [ref=e250] [cursor=pointer]:
+                      - generic [ref=e251]: Join
+                  - generic [ref=e258]:
+                    - button "Subscribe to 조코딩 JoCoding." [ref=e260] [cursor=pointer]:
+                      - generic [ref=e261]: Subscribe
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                      - generic:
+                        - img
+                - generic [ref=e268]:
+                  - generic [ref=e269]:
+                    - generic [ref=e273]:
+                      - button "like this video along with 110 other people" [ref=e277] [cursor=pointer]:
+                        - generic [ref=e281]:
+                          - img
+                        - generic [ref=e282]: "110"
+                      - button "Dislike this video" [ref=e289] [cursor=pointer]:
+                        - generic [ref=e293]:
+                          - img
+                    - button "Share" [ref=e299] [cursor=pointer]:
+                      - generic [ref=e303]:
+                        - img
+                      - generic [ref=e304]: Share
+                  - button "Save to playlist" [ref=e311] [cursor=pointer]:
+                    - generic [ref=e315]:
+                      - img
+                    - generic [ref=e316]: Save
+                  - button "More actions" [ref=e321] [cursor=pointer]:
+                    - generic [ref=e325]:
+                      - img
+              - generic [ref=e331] [cursor=pointer]:
+                - generic [ref=e332]:
+                  - generic [ref=e334]:
+                    - text: 5.4K views 3 months ago
+                    - link "[편집본] 바이브 코딩 1인 창업 부트캠프 (AI Product Builder)" [ref=e335]:
+                      - /url: /playlist?list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD
+                  - tooltip "tooltip"
+                - generic [ref=e336]:
+                  - generic [ref=e337]:
+                    - generic [ref=e340]:
+                      - text: "바이브 코딩으로 글로벌 수익형 IT 프로덕트를 만드는 1인 창업가 부트캠프를 시작합니다. ✅조코딩 1인 창업 부트캠프:"
+                      - link "https://jocoding.net/productbuilder" [ref=e342]:
+                        - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbVAySWVQT1pxMHN6bTJPcXRxRHVsc095ZzNpUXxBQ3Jtc0ttVkd0VXJ1bzlqRlhETkVLRU5RdFVFWUJvUFlwS2Q0V3k5V0l6NUJDSHFiY2lDY0JYSS1rQ1ZqUWlfa2NJSm5VUGVGM1pMMTNpdmRSYnVRZFpmVENpSjJGc0g2YlcxSUo2dzg3RkhnSmVMeU5neVVHVQ&q=https%3A%2F%2Fjocoding.net%2Fproductbuilder&v=3Fwnla9RfgI
+                      - text: "💻조코딩 X OpenAI X Primer AI 해커톤:"
+                      - link "https://hack.primer.kr/" [ref=e344]:
+                        - /url: https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbmw2Mm15RXBXOGx1dWdqdFh3b1BwcG5JX0JZZ3xBQ3Jtc0trbHVsRnA0UDIxZEZUOWItaVVKc0xmYUh4MFcyalhpYVZ6WkMwMjdWd1NyZXlwM25lSkxPcUhweHlzVVI5ZzJrY2N4YjJxbXpsTHg4cnNDMUU3QXJpb3dzRDhaTjFjemR3S3R1QkZSOTRFRzZfaEVJVQ&q=https%3A%2F%2Fhack.primer.kr%2F&v=3Fwnla9RfgI
+                    - generic: …
+                  - button "...more" [ref=e345]
+            - text: •
+            - generic [ref=e347]:
+              - generic [ref=e348]:
+                - heading "Shop the 조코딩 JoCoding store" [ref=e349]
+                - button "Actions menu" [ref=e353] [cursor=pointer]:
+                  - generic [ref=e356]:
+                    - img
+              - generic [ref=e357]:
+                - generic [ref=e359]:
+                  - generic "조코딩 JoCoding 굿즈샵 길단 HTML CSS 로고 티셔츠, ₩18,000 , from marpple.shop" [ref=e361] [cursor=pointer]:
+                    - generic [ref=e366]:
+                      - generic [ref=e367]: 조코딩 JoCoding 굿즈샵 길단 HTML CSS 로고 티셔츠
+                      - generic [ref=e369]: ₩18,000
+                      - generic [ref=e370]:
+                        - generic [ref=e371]: marpple.shop
+                        - generic [ref=e374]:
+                          - img
+                  - generic "조코딩 JoCoding 굿즈샵 404 에러 티셔츠 검정, ₩18,000 , from marpple.shop" [ref=e376] [cursor=pointer]:
+                    - generic [ref=e381]:
+                      - generic [ref=e382]: 조코딩 JoCoding 굿즈샵 404 에러 티셔츠 검정
+                      - generic [ref=e384]: ₩18,000
+                      - generic [ref=e385]:
+                        - generic [ref=e386]: marpple.shop
+                        - generic [ref=e389]:
+                          - img
+                  - generic "조코딩 JoCoding 굿즈샵 css is awesome 머그컵, ₩15,000 , from marpple.shop" [ref=e391] [cursor=pointer]:
+                    - generic [ref=e396]:
+                      - generic [ref=e397]: 조코딩 JoCoding 굿즈샵 css is awesome 머그컵
+                      - generic [ref=e399]: ₩15,000
+                      - generic [ref=e400]:
+                        - generic [ref=e401]: marpple.shop
+                        - generic [ref=e404]:
+                          - img
+                  - generic "조코딩 JoCoding 굿즈샵 HTML CSS는 친구예요, ₩10,000 , from marpple.shop" [ref=e406] [cursor=pointer]:
+                    - generic [ref=e411]:
+                      - generic [ref=e412]: 조코딩 JoCoding 굿즈샵 HTML CSS는 친구예요
+                      - generic [ref=e414]: ₩10,000
+                      - generic [ref=e415]:
+                        - generic [ref=e416]: marpple.shop
+                        - generic [ref=e419]:
+                          - img
+                  - generic "조코딩 JoCoding 굿즈샵 저는 HTML로 프로그래밍해요, ₩10,000 , from marpple.shop" [ref=e421] [cursor=pointer]:
+                    - generic [ref=e426]:
+                      - generic [ref=e427]: 조코딩 JoCoding 굿즈샵 저는 HTML로 프로그래밍해요
+                      - generic [ref=e429]: ₩10,000
+                      - generic [ref=e430]:
+                        - generic [ref=e431]: marpple.shop
+                        - generic [ref=e434]:
+                          - img
+                  - generic "조코딩 JoCoding 굿즈샵 스마트톡 자바스크립트는 자바가 아닙니다, ₩10,000 , from marpple.shop" [ref=e436] [cursor=pointer]:
+                    - generic [ref=e441]:
+                      - generic [ref=e442]: 조코딩 JoCoding 굿즈샵 스마트톡 자바스크립트는 자바가 아닙니다
+                      - generic [ref=e444]: ₩10,000
+                      - generic [ref=e445]:
+                        - generic [ref=e446]: marpple.shop
+                        - generic [ref=e449]:
+                          - img
+                - generic [ref=e454] [cursor=pointer]:
+                  - img
+          - heading "Comments" [level=2] [ref=e461]:
+            - generic [ref=e462]: Comments
+      - generic [ref=e540]:
+        - generic [ref=e542] [cursor=pointer]:
+          - link [ref=e543]:
+            - /url: /watch?v=77ZT6H1Kpa8&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=e550]: 24:17
+          - generic [ref=e552]:
+            - generic [ref=e553]:
+              - heading "코딩이 이렇게 쉬웠나? 바이브 코딩 왕기초로 평생 무제한 무료 웹 서비스 개발하기 24 minutes" [level=3] [ref=e554]:
+                - link "코딩이 이렇게 쉬웠나? 바이브 코딩 왕기초로 평생 무제한 무료 웹 서비스 개발하기 24 minutes" [ref=e555]:
+                  - /url: /watch?v=77ZT6H1Kpa8&pp=ugUEEgJrbw%3D%3D
+                  - text: 코딩이 이렇게 쉬웠나? 바이브 코딩 왕기초로 평생 무제한 무료 웹 서비스 개발하기
+              - generic [ref=e557]:
+                - group [ref=e558]:
+                  - generic [ref=e559]:
+                    - text: 조코딩 JoCoding
+                    - img [ref=e562]:
+                      - generic [ref=e564]:
+                        - img
+                - group [ref=e565]:
+                  - generic [ref=e566]: 116K views
+                  - generic [ref=e567]: •
+                  - generic [ref=e568]: 3 months ago
+            - button "More actions" [ref=e571]:
+              - generic [ref=e575]:
+                - img
+        - generic [ref=e580] [cursor=pointer]:
+          - link [ref=e581]:
+            - /url: /watch?v=qYx_55ZPVlI&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=e588]: 24:40
+          - generic [ref=e590]:
+            - generic [ref=e591]:
+              - heading "바이브 코딩으로 글로벌 유니콘 기업 만드는 간단한 방법 24 minutes" [level=3] [ref=e592]:
+                - link "바이브 코딩으로 글로벌 유니콘 기업 만드는 간단한 방법 24 minutes" [ref=e593]:
+                  - /url: /watch?v=qYx_55ZPVlI&pp=ugUEEgJrbw%3D%3D
+                  - text: 바이브 코딩으로 글로벌 유니콘 기업 만드는 간단한 방법
+              - generic [ref=e595]:
+                - group [ref=e596]:
+                  - generic [ref=e597]:
+                    - text: 조코딩 JoCoding
+                    - img [ref=e600]:
+                      - generic [ref=e602]:
+                        - img
+                - group [ref=e603]:
+                  - generic [ref=e604]: 30K views
+                  - generic [ref=e605]: •
+                  - generic [ref=e606]: 3 months ago
+            - button "More actions" [ref=e609]:
+              - generic [ref=e613]:
+                - img
+        - generic [ref=e618] [cursor=pointer]:
+          - link [ref=e619]:
+            - /url: /watch?v=P3jFI-VpyLg&t=27s
+            - generic [ref=e628]: 3:14:01
+          - generic [ref=e630]:
+            - generic [ref=e631]:
+              - heading "이 영상이 당신 인생을 바꿉니다. 바이브 코딩 1인 창업 3시간 통합본 3 hours, 14 minutes" [level=3] [ref=e632]:
+                - link "이 영상이 당신 인생을 바꿉니다. 바이브 코딩 1인 창업 3시간 통합본 3 hours, 14 minutes" [ref=e633]:
+                  - /url: /watch?v=P3jFI-VpyLg&t=27s
+                  - text: 이 영상이 당신 인생을 바꿉니다. 바이브 코딩 1인 창업 3시간 통합본
+              - generic [ref=e635]:
+                - group [ref=e636]:
+                  - generic [ref=e637]:
+                    - text: 조코딩 JoCoding
+                    - img [ref=e640]:
+                      - generic [ref=e642]:
+                        - img
+                - group [ref=e643]:
+                  - generic [ref=e644]: 315K views
+                  - generic [ref=e645]: •
+                  - generic [ref=e646]: 3 months ago
+            - button "More actions" [ref=e649]:
+              - generic [ref=e653]:
+                - img
+        - generic [ref=e658] [cursor=pointer]:
+          - link [ref=e659]:
+            - /url: /watch?v=amPH_30P4Go&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=e666]: 11:51
+          - generic [ref=e668]:
+            - generic [ref=e669]:
+              - heading "조 단위 돈을 버는 현실적이고 구체적인 방법과 사례 11 minutes, 51 seconds" [level=3] [ref=e670]:
+                - link "조 단위 돈을 버는 현실적이고 구체적인 방법과 사례 11 minutes, 51 seconds" [ref=e671]:
+                  - /url: /watch?v=amPH_30P4Go&pp=ugUEEgJrbw%3D%3D
+                  - text: 조 단위 돈을 버는 현실적이고 구체적인 방법과 사례
+              - generic [ref=e673]:
+                - group [ref=e674]:
+                  - generic [ref=e675]:
+                    - text: 조코딩 JoCoding
+                    - img [ref=e678]:
+                      - generic [ref=e680]:
+                        - img
+                - group [ref=e681]:
+                  - generic [ref=e682]: 16K views
+                  - generic [ref=e683]: •
+                  - generic [ref=e684]: 3 months ago
+            - button "More actions" [ref=e687]:
+              - generic [ref=e691]:
+                - img
+        - generic [ref=e696] [cursor=pointer]:
+          - link [ref=e697]:
+            - /url: /watch?v=s05l-8jgo1M&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=e704]: 9:30
+          - generic [ref=e706]:
+            - generic [ref=e707]:
+              - heading "AI 자동화 바이브코딩으로 업무자동화 생산성 200% 높이기 | 안티그래비티 비개발자 기초부터 실전까지 이 영상으로 끝내기 9 minutes, 30 seconds" [level=3] [ref=e708]:
+                - link "AI 자동화 바이브코딩으로 업무자동화 생산성 200% 높이기 | 안티그래비티 비개발자 기초부터 실전까지 이 영상으로 끝내기 9 minutes, 30 seconds" [ref=e709]:
+                  - /url: /watch?v=s05l-8jgo1M&pp=ugUEEgJrbw%3D%3D
+                  - text: AI 자동화 바이브코딩으로 업무자동화 생산성 200% 높이기 | 안티그래비티 비개발자 기초부터 실전까지 이 영상으로 끝내기
+              - generic [ref=e711]:
+                - group [ref=e712]:
+                  - generic [ref=e713]: 제로원 바이브코딩
+                - group [ref=e714]:
+                  - generic [ref=e715]: 461 views
+                  - generic [ref=e716]: •
+                  - generic [ref=e717]: 2 weeks ago
+            - button "More actions" [ref=e720]:
+              - generic [ref=e724]:
+                - img
+        - generic [ref=e729] [cursor=pointer]:
+          - link [ref=e730]:
+            - /url: /watch?v=OQ_y05yH5z4
+            - generic [ref=e737]: 23:40
+          - generic [ref=e739]:
+            - generic [ref=e740]:
+              - heading "3억 잃고 나서야 알았습니다. 캔들 하나면 충분했다는 걸 23 minutes" [level=3] [ref=e741]:
+                - link "3억 잃고 나서야 알았습니다. 캔들 하나면 충분했다는 걸 23 minutes" [ref=e742]:
+                  - /url: /watch?v=OQ_y05yH5z4
+                  - text: 3억 잃고 나서야 알았습니다. 캔들 하나면 충분했다는 걸
+              - generic [ref=e744]:
+                - group [ref=e745]:
+                  - generic [ref=e746]: 김직선 - 나스닥 트레이더
+                - group [ref=e747]:
+                  - generic [ref=e748]: 316K views
+                  - generic [ref=e749]: •
+                  - generic [ref=e750]: 3 months ago
+            - button "More actions" [ref=e753]:
+              - generic [ref=e757]:
+                - img
+        - generic [ref=e762] [cursor=pointer]:
+          - link [ref=e763]:
+            - /url: /watch?v=46HxP7kO9oY&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=e770]: 25:25
+          - generic [ref=e772]:
+            - generic [ref=e773]:
+              - heading "AI 시대의 필수 지식 MCP 이 영상 하나로 끝내세요! 25 minutes" [level=3] [ref=e774]:
+                - link "AI 시대의 필수 지식 MCP 이 영상 하나로 끝내세요! 25 minutes" [ref=e775]:
+                  - /url: /watch?v=46HxP7kO9oY&pp=ugUEEgJrbw%3D%3D
+                  - text: AI 시대의 필수 지식 MCP 이 영상 하나로 끝내세요!
+              - generic [ref=e777]:
+                - group [ref=e778]:
+                  - generic [ref=e779]:
+                    - text: 조코딩 JoCoding
+                    - img [ref=e782]:
+                      - generic [ref=e784]:
+                        - img
+                - group [ref=e785]:
+                  - generic [ref=e786]: 360K views
+                  - generic [ref=e787]: •
+                  - generic [ref=e788]: 8 months ago
+            - button "More actions" [ref=e791]:
+              - generic [ref=e795]:
+                - img
+        - generic [ref=e800] [cursor=pointer]:
+          - link [ref=e801]:
+            - /url: /watch?v=gIuhSRoCYPk&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=e808]: 10:52
+          - generic [ref=e810]:
+            - generic [ref=e811]:
+              - heading "방구석 딸깍으로 미국 법인 설립하고 글로벌 사업 시작하는 방법 총 정리 (ft. Stripe Atlas) 10 minutes, 52 seconds" [level=3] [ref=e812]:
+                - link "방구석 딸깍으로 미국 법인 설립하고 글로벌 사업 시작하는 방법 총 정리 (ft. Stripe Atlas) 10 minutes, 52 seconds" [ref=e813]:
+                  - /url: /watch?v=gIuhSRoCYPk&pp=ugUEEgJrbw%3D%3D
+                  - text: 방구석 딸깍으로 미국 법인 설립하고 글로벌 사업 시작하는 방법 총 정리 (ft. Stripe Atlas)
+              - generic [ref=e815]:
+                - group [ref=e816]:
+                  - generic [ref=e817]:
+                    - text: 조코딩 JoCoding
+                    - img [ref=e820]:
+                      - generic [ref=e822]:
+                        - img
+                - group [ref=e823]:
+                  - generic [ref=e824]: 16K views
+                  - generic [ref=e825]: •
+                  - generic [ref=e826]: 3 months ago
+            - button "More actions" [ref=e829]:
+              - generic [ref=e833]:
+                - img
+        - generic [ref=e838] [cursor=pointer]:
+          - link [ref=e839]:
+            - /url: /watch?v=wUFtsYHQOpI&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=e846]: 38:14
+          - generic [ref=e848]:
+            - generic [ref=e849]:
+              - heading "바이브 코딩 기초, 수익형 웹 사이트 만들고 돈 벌기 38 minutes" [level=3] [ref=e850]:
+                - link "바이브 코딩 기초, 수익형 웹 사이트 만들고 돈 벌기 38 minutes" [ref=e851]:
+                  - /url: /watch?v=wUFtsYHQOpI&pp=ugUEEgJrbw%3D%3D
+                  - text: 바이브 코딩 기초, 수익형 웹 사이트 만들고 돈 벌기
+              - generic [ref=e853]:
+                - group [ref=e854]:
+                  - generic [ref=e855]:
+                    - text: 조코딩 JoCoding
+                    - img [ref=e858]:
+                      - generic [ref=e860]:
+                        - img
+                - group [ref=e861]:
+                  - generic [ref=e862]: 112K views
+                  - generic [ref=e863]: •
+                  - generic [ref=e864]: 3 months ago
+            - button "More actions" [ref=e867]:
+              - generic [ref=e871]:
+                - img
+        - generic [ref=e876] [cursor=pointer]:
+          - link [ref=e877]:
+            - /url: /watch?v=bvAOzteo3Uk
+            - generic [ref=e884]: 18:37
+          - generic [ref=e886]:
+            - generic [ref=e887]:
+              - heading "[비트코인] 모르면 평생 후회하는 비트코인 쌩기초 개념 총정리 (홍진경,짱쉬움) 18 minutes" [level=3] [ref=e888]:
+                - link "[비트코인] 모르면 평생 후회하는 비트코인 쌩기초 개념 총정리 (홍진경,짱쉬움) 18 minutes" [ref=e889]:
+                  - /url: /watch?v=bvAOzteo3Uk
+                  - text: "[비트코인] 모르면 평생 후회하는 비트코인 쌩기초 개념 총정리 (홍진경,짱쉬움)"
+              - generic [ref=e891]:
+                - group [ref=e892]:
+                  - generic [ref=e893]: 공부왕찐천재 홍진경
+                - group [ref=e894]:
+                  - generic [ref=e895]: 4.5M views
+                  - generic [ref=e896]: •
+                  - generic [ref=e897]: 2 years ago
+            - button "More actions" [ref=e900]:
+              - generic [ref=e904]:
+                - img
+        - generic [ref=e909] [cursor=pointer]:
+          - link [ref=e910]:
+            - /url: /watch?v=P3jFI-VpyLg&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&pp=0gcJCdAEOCosWNin
+            - generic [ref=e920]:
+              - generic [ref=e923]:
+                - img
+              - generic [ref=e924]: 21 lessons
+          - generic [ref=e927]:
+            - heading "[편집본] 바이브 코딩 1인 창업 부트캠프 (AI Product Builder)" [level=3] [ref=e928]:
+              - link "[편집본] 바이브 코딩 1인 창업 부트캠프 (AI Product Builder)" [ref=e929]:
+                - /url: /watch?v=P3jFI-VpyLg&list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD&pp=0gcJCdAEOCosWNin
+            - generic [ref=e931]:
+              - group [ref=e932]:
+                - link "조코딩 JoCoding" [ref=e935]:
+                  - /url: /@jocoding
+                  - text: 조코딩 JoCoding
+                  - img [ref=e938]:
+                    - generic [ref=e940]:
+                      - img
+                - generic [ref=e941]: •
+                - link "Course" [ref=e944]:
+                  - /url: /@jocoding
+              - group [ref=e945]:
+                - link "View full course" [ref=e948]:
+                  - /url: /playlist?list=PLU9-uwewPMe27GtNWsIorePtRO_3vwidD
+        - generic [ref=e950] [cursor=pointer]:
+          - link [ref=e951]:
+            - /url: /watch?v=yFuxjOHKips&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=e958]: 28:30
+          - generic [ref=e960]:
+            - generic [ref=e961]:
+              - heading "여기까지 알면 비개발자 바이브코더도 풀스택 개발자 만큼 아는거에요 (DB와 스토리지) 28 minutes" [level=3] [ref=e962]:
+                - link "여기까지 알면 비개발자 바이브코더도 풀스택 개발자 만큼 아는거에요 (DB와 스토리지) 28 minutes" [ref=e963]:
+                  - /url: /watch?v=yFuxjOHKips&pp=ugUEEgJrbw%3D%3D
+                  - text: 여기까지 알면 비개발자 바이브코더도 풀스택 개발자 만큼 아는거에요 (DB와 스토리지)
+              - generic [ref=e965]:
+                - group [ref=e966]:
+                  - generic [ref=e967]: 양실장의 바이브코딩대학
+                - group [ref=e968]:
+                  - generic [ref=e969]: 28K views
+                  - generic [ref=e970]: •
+                  - generic [ref=e971]: 3 weeks ago
+            - button "More actions" [ref=e974]:
+              - generic [ref=e978]:
+                - img
+        - generic [ref=e983] [cursor=pointer]:
+          - link [ref=e984]:
+            - /url: /watch?v=CYVDfZgQKCQ&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=e991]: 30:36
+          - generic [ref=e993]:
+            - generic [ref=e994]:
+              - heading "코딩 1도 없이 AI로 개발하는 법 싹다 알려드림 | 로그인, 회원가입, DB연결, 배포까지 30 minutes" [level=3] [ref=e995]:
+                - link "코딩 1도 없이 AI로 개발하는 법 싹다 알려드림 | 로그인, 회원가입, DB연결, 배포까지 30 minutes" [ref=e996]:
+                  - /url: /watch?v=CYVDfZgQKCQ&pp=ugUEEgJrbw%3D%3D
+                  - text: 코딩 1도 없이 AI로 개발하는 법 싹다 알려드림 | 로그인, 회원가입, DB연결, 배포까지
+              - generic [ref=e998]:
+                - group [ref=e999]:
+                  - generic [ref=e1000]: 코딩알려주는누나
+                - group [ref=e1001]:
+                  - generic [ref=e1002]: 64K views
+                  - generic [ref=e1003]: •
+                  - generic [ref=e1004]: 1 year ago
+            - button "More actions" [ref=e1007]:
+              - generic [ref=e1011]:
+                - img
+        - generic [ref=e1016] [cursor=pointer]:
+          - link [ref=e1017]:
+            - /url: /watch?v=xiayCHV0CQQ
+            - generic [ref=e1023]:
+              - generic [ref=e1026]:
+                - img
+              - generic [ref=e1027]: LIVE
+          - generic [ref=e1029]:
+            - generic [ref=e1030]:
+              - heading "[생방송] 케빈 워시, 연준 의장 공식 취임 ｜ AMD, 향후 5년간 CPU 시장 연 35% 성장 ｜ 미시간대 기대인플레이션 ｜ - 오선의 미국 증시 라이브" [level=3] [ref=e1031]:
+                - link "[생방송] 케빈 워시, 연준 의장 공식 취임 ｜ AMD, 향후 5년간 CPU 시장 연 35% 성장 ｜ 미시간대 기대인플레이션 ｜ - 오선의 미국 증시 라이브" [ref=e1032]:
+                  - /url: /watch?v=xiayCHV0CQQ
+              - generic [ref=e1034]:
+                - group [ref=e1035]:
+                  - generic [ref=e1036]:
+                    - text: 오선의 미국 증시 라이브
+                    - img [ref=e1039]:
+                      - generic [ref=e1041]:
+                        - img
+                - group [ref=e1042]:
+                  - generic [ref=e1043]: 34K watching
+            - button "More actions" [ref=e1046]:
+              - generic [ref=e1050]:
+                - img
+        - generic [ref=e1055] [cursor=pointer]:
+          - link [ref=e1056]:
+            - /url: /watch?v=8piX0z_HI9I&pp=ugUHEgVlbi1VUw%3D%3D
+            - generic [ref=e1063]: 16:26
+          - generic [ref=e1065]:
+            - generic [ref=e1066]:
+              - heading "I Tried 100+ Claude Skills. These 7 Actually Run My Business 16 minutes" [level=3] [ref=e1067]:
+                - link "I Tried 100+ Claude Skills. These 7 Actually Run My Business 16 minutes" [ref=e1068]:
+                  - /url: /watch?v=8piX0z_HI9I&pp=ugUHEgVlbi1VUw%3D%3D
+                  - text: I Tried 100+ Claude Skills. These 7 Actually Run My Business
+              - generic [ref=e1070]:
+                - group [ref=e1071]:
+                  - generic [ref=e1072]: Rick Mulready
+                - group [ref=e1073]:
+                  - generic [ref=e1074]: 42K views
+                  - generic [ref=e1075]: •
+                  - generic [ref=e1076]: 8 days ago
+            - button "More actions" [ref=e1079]:
+              - generic [ref=e1083]:
+                - img
+        - generic [ref=e1088] [cursor=pointer]:
+          - link [ref=e1089]:
+            - /url: /watch?v=SW8xfdszoSU&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=e1096]: 8:35
+          - generic [ref=e1098]:
+            - generic [ref=e1099]:
+              - heading "데이터분석, PM/PO도 끝났다. AI를 활용한 GA 데이터 분석 및 퍼널 개선 실전 활용 방법 8 minutes, 35 seconds" [level=3] [ref=e1100]:
+                - link "데이터분석, PM/PO도 끝났다. AI를 활용한 GA 데이터 분석 및 퍼널 개선 실전 활용 방법 8 minutes, 35 seconds" [ref=e1101]:
+                  - /url: /watch?v=SW8xfdszoSU&pp=ugUEEgJrbw%3D%3D
+                  - text: 데이터분석, PM/PO도 끝났다. AI를 활용한 GA 데이터 분석 및 퍼널 개선 실전 활용 방법
+              - generic [ref=e1103]:
+                - group [ref=e1104]:
+                  - generic [ref=e1105]:
+                    - text: 조코딩 JoCoding
+                    - img [ref=e1108]:
+                      - generic [ref=e1110]:
+                        - img
+                - group [ref=e1111]:
+                  - generic [ref=e1112]: 6K views
+                  - generic [ref=e1113]: •
+                  - generic [ref=e1114]: 3 months ago
+            - button "More actions" [ref=e1117]:
+              - generic [ref=e1121]:
+                - img
+        - generic [ref=e1126] [cursor=pointer]:
+          - link [ref=e1127]:
+            - /url: /watch?v=ZVuHZ2Fjkl4&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=e1134]: 6:58
+          - generic [ref=e1136]:
+            - generic [ref=e1137]:
+              - heading "개발시 데이터베이스 선택 가이드 (총정리) 6 minutes, 58 seconds" [level=3] [ref=e1138]:
+                - link "개발시 데이터베이스 선택 가이드 (총정리) 6 minutes, 58 seconds" [ref=e1139]:
+                  - /url: /watch?v=ZVuHZ2Fjkl4&pp=ugUEEgJrbw%3D%3D
+                  - text: 개발시 데이터베이스 선택 가이드 (총정리)
+              - generic [ref=e1141]:
+                - group [ref=e1142]:
+                  - generic [ref=e1143]: 코딩애플
+                - group [ref=e1144]:
+                  - generic [ref=e1145]: 238K views
+                  - generic [ref=e1146]: •
+                  - generic [ref=e1147]: 3 years ago
+            - button "More actions" [ref=e1150]:
+              - generic [ref=e1154]:
+                - img
+        - generic [ref=e1159] [cursor=pointer]:
+          - link [ref=e1160]:
+            - /url: /watch?v=aSX497hIJjI&pp=ugUEEgJrb9IHCQkGCwGHKiGM7w%3D%3D
+            - generic [ref=e1167]: 32:00
+          - generic [ref=e1169]:
+            - generic [ref=e1170]:
+              - heading "AI시대 생태계 파괴자가 되는 OpenAI API를 활용하여 수익형 서비스 만드는 방법 32 minutes" [level=3] [ref=e1171]:
+                - link "AI시대 생태계 파괴자가 되는 OpenAI API를 활용하여 수익형 서비스 만드는 방법 32 minutes" [ref=e1172]:
+                  - /url: /watch?v=aSX497hIJjI&pp=ugUEEgJrb9IHCQkGCwGHKiGM7w%3D%3D
+                  - text: AI시대 생태계 파괴자가 되는 OpenAI API를 활용하여 수익형 서비스 만드는 방법
+              - generic [ref=e1174]:
+                - group [ref=e1175]:
+                  - generic [ref=e1176]:
+                    - text: 조코딩 JoCoding
+                    - img [ref=e1179]:
+                      - generic [ref=e1181]:
+                        - img
+                - group [ref=e1182]:
+                  - generic [ref=e1183]: 15K views
+                  - generic [ref=e1184]: •
+                  - generic [ref=e1185]: 3 months ago
+            - button "More actions" [ref=e1188]:
+              - generic [ref=e1192]:
+                - img
+        - generic [ref=e1197] [cursor=pointer]:
+          - link [ref=e1198]:
+            - /url: /watch?v=nIENWgTGnhk
+            - generic [ref=e1204]:
+              - generic [ref=e1207]:
+                - img
+              - generic [ref=e1208]: LIVE
+          - generic [ref=e1210]:
+            - generic [ref=e1211]:
+              - heading "The Nook | ☕ Christian Lofi Beats For Bible Study, Prayer & Chill • 24/7 Live" [level=3] [ref=e1212]:
+                - link "The Nook | ☕ Christian Lofi Beats For Bible Study, Prayer & Chill • 24/7 Live" [ref=e1213]:
+                  - /url: /watch?v=nIENWgTGnhk
+              - generic [ref=e1215]:
+                - group [ref=e1216]:
+                  - generic [ref=e1217]: Psalms Soul Lofi
+                - group [ref=e1218]:
+                  - generic [ref=e1219]: 237 watching
+            - button "More actions" [ref=e1222]:
+              - generic [ref=e1226]:
+                - img
+        - generic [ref=e1231] [cursor=pointer]:
+          - link [ref=e1232]:
+            - /url: /watch?v=SwlnpG1u4mY&pp=ugUEEgJrbw%3D%3D
+            - generic [ref=e1239]: 20:05
+          - generic [ref=e1241]:
+            - generic [ref=e1242]:
+              - heading "앱 개발 이렇게 쉬웠나? 바이브 코딩으로 풀스택 AI 앱 개발 20분만에 끝내기 20 minutes" [level=3] [ref=e1243]:
+                - link "앱 개발 이렇게 쉬웠나? 바이브 코딩으로 풀스택 AI 앱 개발 20분만에 끝내기 20 minutes" [ref=e1244]:
+                  - /url: /watch?v=SwlnpG1u4mY&pp=ugUEEgJrbw%3D%3D
+                  - text: 앱 개발 이렇게 쉬웠나? 바이브 코딩으로 풀스택 AI 앱 개발 20분만에 끝내기
+              - generic [ref=e1246]:
+                - group [ref=e1247]:
+                  - generic [ref=e1248]:
+                    - text: 조코딩 JoCoding
+                    - img [ref=e1251]:
+                      - generic [ref=e1253]:
+                        - img
+                - group [ref=e1254]:
+                  - generic [ref=e1255]: 32K views
+                  - generic [ref=e1256]: •
+                  - generic [ref=e1257]: 3 months ago
+            - button "More actions" [ref=e1260]:
+              - generic [ref=e1264]:
+                - img

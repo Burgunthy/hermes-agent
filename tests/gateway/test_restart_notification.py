@@ -32,6 +32,19 @@ def test_restart_notification_pending_true_with_marker(tmp_path, monkeypatch):
     assert gateway_run._restart_notification_pending() is True
 
 
+def test_planned_restart_notification_pending_roundtrip(tmp_path, monkeypatch):
+    monkeypatch.setattr(gateway_run, "_hermes_home", tmp_path)
+    marker = tmp_path / ".restart_pending.json"
+
+    assert gateway_run._planned_restart_notification_pending() is False
+    marker.write_text("{}")
+    assert gateway_run._planned_restart_notification_pending() is True
+
+    gateway_run._clear_planned_restart_notification()
+
+    assert gateway_run._planned_restart_notification_pending() is False
+
+
 # ── _handle_restart_command writes .restart_notify.json ──────────────────
 
 
@@ -60,6 +73,7 @@ async def test_restart_command_writes_notify_file(tmp_path, monkeypatch):
     assert data["platform"] == "telegram"
     assert data["chat_id"] == "42"
     assert data["chat_type"] == "dm"
+    assert data["message_id"] == "m1"
     assert "thread_id" not in data  # no thread → omitted
 
 
@@ -127,6 +141,7 @@ async def test_restart_command_preserves_thread_id(tmp_path, monkeypatch):
     data = json.loads((tmp_path / ".restart_notify.json").read_text())
     assert data["chat_type"] == "dm"
     assert data["thread_id"] == "777"
+    assert data["message_id"] == "m2"
 
 
 @pytest.mark.asyncio
@@ -138,6 +153,10 @@ async def test_restart_command_uses_atomic_json_writes_for_marker_files(tmp_path
     def _fake_atomic_json_write(path, payload, **kwargs):
         calls.append((Path(path).name, payload, kwargs))
 
+    # _handle_restart_command lives in gateway/slash_commands.py (extracted from
+    # run.py); it uses that module's top-level atomic_json_write import.
+    import gateway.slash_commands as gateway_slash
+    monkeypatch.setattr(gateway_slash, "atomic_json_write", _fake_atomic_json_write)
     monkeypatch.setattr(gateway_run, "atomic_json_write", _fake_atomic_json_write)
 
     runner, _adapter = make_restart_runner()
@@ -390,6 +409,7 @@ async def test_send_restart_notification_with_thread(tmp_path, monkeypatch):
         "chat_id": "99",
         "chat_type": "dm",
         "thread_id": "777",
+        "message_id": "m2",
     }))
 
     runner, adapter = make_restart_runner()
@@ -403,6 +423,7 @@ async def test_send_restart_notification_with_thread(tmp_path, monkeypatch):
         "thread_id": "777",
         "telegram_dm_topic_reply_fallback": True,
         "direct_messages_topic_id": "777",
+        "telegram_reply_to_message_id": "m2",
     }
     assert not notify_path.exists()
 
@@ -642,3 +663,28 @@ async def test_shutdown_notifications_use_cached_live_thread_source_when_origin_
         "⚠️ Gateway shutting down — Your current task will be interrupted.",
         metadata={"thread_id": "topic-7"},
     )
+
+
+@pytest.mark.asyncio
+async def test_restart_shutdown_notification_anchors_telegram_dm_topic():
+    runner, adapter = make_restart_runner()
+    runner._restart_requested = True
+    source = make_restart_source(chat_id="123456", thread_id="20197")
+    source.message_id = "462"
+    session_key = build_session_key(source)
+
+    runner._running_agents[session_key] = object()
+    runner.session_store._entries[session_key] = MagicMock(origin=source)
+    adapter.send = AsyncMock(return_value=SendResult(success=True, message_id="shutdown"))
+
+    await runner._notify_active_sessions_of_shutdown()
+
+    call = adapter.send.await_args
+    assert call.args[0] == "123456"
+    assert "Gateway restarting" in call.args[1]
+    assert call.kwargs["metadata"] == {
+        "thread_id": "20197",
+        "telegram_dm_topic_reply_fallback": True,
+        "direct_messages_topic_id": "20197",
+        "telegram_reply_to_message_id": "462",
+    }

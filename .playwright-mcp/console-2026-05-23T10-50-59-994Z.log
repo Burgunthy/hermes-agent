@@ -1,0 +1,2 @@
+[     565ms] [ERROR] Access to manifest at 'https://static.arxiv.org/static/base/1.0.0a5/images/icons/site.webmanifest' from origin 'https://arxiv.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ https://arxiv.org/search/?query=%22vision+based%22+%22dexterous%22+%22manipulation%22+%22sim+to+real%22&searchtype=all&start=0:0
+[     565ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://static.arxiv.org/static/base/1.0.0a5/images/icons/site.webmanifest:0

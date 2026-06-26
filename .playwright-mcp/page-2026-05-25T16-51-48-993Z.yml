@@ -1,0 +1,636 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link "Ollama" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Ollama" [ref=e5]
+      - generic [ref=e6]:
+        - link "Models" [ref=e7] [cursor=pointer]:
+          - /url: /search
+        - link "Docs" [ref=e8] [cursor=pointer]:
+          - /url: /docs
+        - link "Pricing" [ref=e9] [cursor=pointer]:
+          - /url: /pricing
+      - generic [ref=e13]:
+        - img [ref=e15]
+        - textbox "Search models" [ref=e17]
+      - generic [ref=e18]:
+        - link "Sign in" [ref=e19] [cursor=pointer]:
+          - /url: /signin
+        - link "Download" [ref=e20] [cursor=pointer]:
+          - /url: /download
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - link "gemma3" [ref=e27] [cursor=pointer]:
+        - /url: /library/gemma3
+      - generic [ref=e28]:
+        - paragraph [ref=e30]:
+          - generic [ref=e31]:
+            - img [ref=e32]
+            - generic [ref=e34]: 37M
+            - generic [ref=e35]: Downloads
+          - generic "Dec 5, 2025 9:46 PM UTC" [ref=e36]:
+            - img [ref=e37]
+            - generic [ref=e39]: Updated
+            - generic [ref=e40]: 5 months ago
+        - heading "The current, most capable model that runs on a single GPU." [level=2] [ref=e42]
+        - generic [ref=e43]:
+          - generic [ref=e44]: vision
+          - generic [ref=e45]: cloud
+          - generic [ref=e46]: 270m
+          - generic [ref=e47]: 1b
+          - generic [ref=e48]: 4b
+          - generic [ref=e49]: 12b
+          - generic [ref=e50]: 27b
+    - generic [ref=e51]:
+      - generic [ref=e53]:
+        - generic [ref=e55]:
+          - button "CLI" [ref=e56] [cursor=pointer]
+          - button "cURL" [ref=e57] [cursor=pointer]
+          - button "Python" [ref=e58] [cursor=pointer]
+          - button "JavaScript" [ref=e59] [cursor=pointer]
+        - generic [ref=e60]:
+          - button "Copy" [ref=e62] [cursor=pointer]:
+            - img [ref=e63]
+          - generic [ref=e66]: ollama run gemma3
+      - generic [ref=e67]:
+        - generic [ref=e68]:
+          - heading "Models" [level=2] [ref=e69]
+          - link "View all →" [ref=e70] [cursor=pointer]:
+            - /url: /library/gemma3/tags
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - paragraph [ref=e74]: Name
+            - paragraph [ref=e75]: Size / Usage
+            - paragraph [ref=e76]: Context
+            - paragraph [ref=e77]: Input
+          - generic [ref=e78]:
+            - link "gemma3:latest" [ref=e80] [cursor=pointer]:
+              - /url: /library/gemma3:latest
+            - paragraph [ref=e81]: 3.3GB
+            - paragraph [ref=e82]: 128K
+            - paragraph [ref=e83]: Text, Image
+          - generic [ref=e84]:
+            - link "gemma3:270m" [ref=e86] [cursor=pointer]:
+              - /url: /library/gemma3:270m
+            - paragraph [ref=e87]: 292MB
+            - paragraph [ref=e88]: 32K
+            - paragraph [ref=e89]: Text
+          - generic [ref=e90]:
+            - link "gemma3:1b" [ref=e92] [cursor=pointer]:
+              - /url: /library/gemma3:1b
+            - paragraph [ref=e93]: 815MB
+            - paragraph [ref=e94]: 32K
+            - paragraph [ref=e95]: Text
+          - generic [ref=e96]:
+            - generic [ref=e97]:
+              - link "gemma3:4b" [ref=e98] [cursor=pointer]:
+                - /url: /library/gemma3:4b
+              - generic [ref=e99]: latest
+            - paragraph [ref=e100]: 3.3GB
+            - paragraph [ref=e101]: 128K
+            - paragraph [ref=e102]: Text, Image
+          - generic [ref=e103]:
+            - link "gemma3:12b" [ref=e105] [cursor=pointer]:
+              - /url: /library/gemma3:12b
+            - paragraph [ref=e106]: 8.1GB
+            - paragraph [ref=e107]: 128K
+            - paragraph [ref=e108]: Text, Image
+          - generic [ref=e109]:
+            - link "gemma3:27b" [ref=e111] [cursor=pointer]:
+              - /url: /library/gemma3:27b
+            - paragraph [ref=e112]: 17GB
+            - paragraph [ref=e113]: 128K
+            - paragraph [ref=e114]: Text, Image
+          - generic [ref=e115]:
+            - link "gemma3:4b-cloud" [ref=e117] [cursor=pointer]:
+              - /url: /library/gemma3:4b-cloud
+            - paragraph [ref=e118]
+            - paragraph [ref=e123]: 32K
+            - paragraph [ref=e124]: Text, Image
+          - generic [ref=e125]:
+            - link "gemma3:12b-cloud" [ref=e127] [cursor=pointer]:
+              - /url: /library/gemma3:12b-cloud
+            - paragraph [ref=e128]
+            - paragraph [ref=e133]: 32K
+            - paragraph [ref=e134]: Text, Image
+          - generic [ref=e135]:
+            - link "gemma3:27b-cloud" [ref=e137] [cursor=pointer]:
+              - /url: /library/gemma3:27b-cloud
+            - paragraph [ref=e138]
+            - paragraph [ref=e143]: 128K
+            - paragraph [ref=e144]: Text, Image
+    - generic [ref=e145]:
+      - heading "Readme" [level=2] [ref=e147]
+      - generic [ref=e149]:
+        - paragraph [ref=e150]:
+          - img "Google Gemma 3 logo" [ref=e151]
+        - blockquote [ref=e152]:
+          - paragraph [ref=e153]:
+            - text: This model requires Ollama 0.6 or later.
+            - link "Download Ollama" [ref=e154] [cursor=pointer]:
+              - /url: https://ollama.com/download
+        - paragraph [ref=e155]: Gemma is a lightweight, family of models from Google built on Gemini technology. The Gemma 3 models are multimodal—processing text and images—and feature a 128K context window with support for over 140 languages. Available in 270M, 1B, 4B, 12B, and 27B parameter sizes, they excel in tasks like question answering, summarization, and reasoning, while their compact design allows deployment on resource-limited devices.
+        - heading "Models" [level=2] [ref=e156]
+        - heading "Text" [level=3] [ref=e157]
+        - paragraph [ref=e158]:
+          - strong [ref=e159]: 270M parameter model
+          - text: (32k context window)
+        - code [ref=e161]: ollama run gemma3:270m
+        - paragraph [ref=e162]:
+          - strong [ref=e163]: 1B parameter model
+          - text: (32k context window)
+        - code [ref=e165]: ollama run gemma3:1b
+        - heading "Multimodal (Vision)" [level=3] [ref=e166]
+        - paragraph [ref=e167]:
+          - strong [ref=e168]: 4B parameter model
+          - text: (128k context window)
+        - code [ref=e170]: ollama run gemma3:4b
+        - paragraph [ref=e171]:
+          - strong [ref=e172]: 12B parameter model
+          - text: (128k context window)
+        - code [ref=e174]: ollama run gemma3:12b
+        - paragraph [ref=e175]:
+          - strong [ref=e176]: 27B parameter model
+          - text: (128k context window)
+        - code [ref=e178]: ollama run gemma3:27b
+        - heading "Quantization aware trained models (QAT)" [level=3] [ref=e179]
+        - paragraph [ref=e180]: The quantization aware trained Gemma 3 models preserves similar quality as half precision models (BF16) while maintaining a lower memory footprint (3x less compared to non-quantized models).
+        - paragraph [ref=e181]:
+          - strong [ref=e182]: 1B parameter model
+        - code [ref=e184]: ollama run gemma3:1b-it-qat
+        - paragraph [ref=e185]:
+          - strong [ref=e186]: 4B parameter model
+        - code [ref=e188]: ollama run gemma3:4b-it-qat
+        - paragraph [ref=e189]:
+          - strong [ref=e190]: 12B parameter model
+        - code [ref=e192]: ollama run gemma3:12b-it-qat
+        - paragraph [ref=e193]:
+          - strong [ref=e194]: 27B parameter model
+        - code [ref=e196]: ollama run gemma3:27b-it-qat
+        - heading "Evaluation" [level=2] [ref=e197]
+        - paragraph [ref=e198]:
+          - img "Chatbot Arena ELO Score" [ref=e199]
+        - heading "Benchmark Results" [level=3] [ref=e200]
+        - paragraph [ref=e201]:
+          - strong [ref=e202]: Gemma 3 270M
+        - table [ref=e203]:
+          - rowgroup [ref=e204]:
+            - row "Benchmark n-shot Gemma 3 270m instruction tuned" [ref=e205]:
+              - columnheader "Benchmark" [ref=e206]:
+                - strong [ref=e207]: Benchmark
+              - columnheader "n-shot" [ref=e208]:
+                - strong [ref=e209]: n-shot
+              - columnheader "Gemma 3 270m instruction tuned" [ref=e210]:
+                - strong [ref=e211]: Gemma 3 270m instruction tuned
+          - rowgroup [ref=e212]:
+            - row "HellaSwag 0-shot 37.7" [ref=e213]:
+              - cell "HellaSwag" [ref=e214]:
+                - link "HellaSwag" [ref=e215] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/1905.07830
+              - cell "0-shot" [ref=e216]
+              - cell "37.7" [ref=e217]
+            - row "PIQA 0-shot 66.2" [ref=e218]:
+              - cell "PIQA" [ref=e219]:
+                - link "PIQA" [ref=e220] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/1911.11641
+              - cell "0-shot" [ref=e221]
+              - cell "66.2" [ref=e222]
+            - row "ARC-c 0-shot 28.2" [ref=e223]:
+              - cell "ARC-c" [ref=e224]:
+                - link "ARC-c" [ref=e225] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/1911.01547
+              - cell "0-shot" [ref=e226]
+              - cell "28.2" [ref=e227]
+            - row "WinoGrande 0-shot 52.3" [ref=e228]:
+              - cell "WinoGrande" [ref=e229]:
+                - link "WinoGrande" [ref=e230] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/1907.10641
+              - cell "0-shot" [ref=e231]
+              - cell "52.3" [ref=e232]
+            - row "BIG-Bench Hard few-shot 26.7" [ref=e233]:
+              - cell "BIG-Bench Hard" [ref=e234]:
+                - link "BIG-Bench Hard" [ref=e235] [cursor=pointer]:
+                  - /url: https://paperswithcode.com/dataset/bbh
+              - cell "few-shot" [ref=e236]
+              - cell "26.7" [ref=e237]
+            - row "IF Eval 0-shot 51.2" [ref=e238]:
+              - cell "IF Eval" [ref=e239]:
+                - link "IF Eval" [ref=e240] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2311.07911
+              - cell "0-shot" [ref=e241]
+              - cell "51.2" [ref=e242]
+        - paragraph [ref=e243]: "These models were evaluated against a large collection of different datasets and metrics to cover different aspects of text generation:"
+        - heading "Reasoning, logic and code capabilities" [level=4] [ref=e244]
+        - table [ref=e245]:
+          - rowgroup [ref=e246]:
+            - row "Benchmark Metric Gemma 3 PT 1B Gemma 3 PT 4B Gemma 3 PT 12B Gemma 3 PT 27B" [ref=e247]:
+              - columnheader "Benchmark" [ref=e248]
+              - columnheader "Metric" [ref=e249]
+              - columnheader "Gemma 3 PT 1B" [ref=e250]
+              - columnheader "Gemma 3 PT 4B" [ref=e251]
+              - columnheader "Gemma 3 PT 12B" [ref=e252]
+              - columnheader "Gemma 3 PT 27B" [ref=e253]
+          - rowgroup [ref=e254]:
+            - row "HellaSwag 10-shot 62.3 77.2 84.2 85.6" [ref=e255]:
+              - cell "HellaSwag" [ref=e256]:
+                - link "HellaSwag" [ref=e257] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/1905.07830
+              - cell "10-shot" [ref=e258]
+              - cell "62.3" [ref=e259]
+              - cell "77.2" [ref=e260]
+              - cell "84.2" [ref=e261]
+              - cell "85.6" [ref=e262]
+            - row "BoolQ 0-shot 63.2 72.3 78.8 82.4" [ref=e263]:
+              - cell "BoolQ" [ref=e264]:
+                - link "BoolQ" [ref=e265] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/1905.10044
+              - cell "0-shot" [ref=e266]
+              - cell "63.2" [ref=e267]
+              - cell "72.3" [ref=e268]
+              - cell "78.8" [ref=e269]
+              - cell "82.4" [ref=e270]
+            - row "PIQA 0-shot 73.8 79.6 81.8 83.3" [ref=e271]:
+              - cell "PIQA" [ref=e272]:
+                - link "PIQA" [ref=e273] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/1911.11641
+              - cell "0-shot" [ref=e274]
+              - cell "73.8" [ref=e275]
+              - cell "79.6" [ref=e276]
+              - cell "81.8" [ref=e277]
+              - cell "83.3" [ref=e278]
+            - row "SocialIQA 0-shot 48.9 51.9 53.4 54.9" [ref=e279]:
+              - cell "SocialIQA" [ref=e280]:
+                - link "SocialIQA" [ref=e281] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/1904.09728
+              - cell "0-shot" [ref=e282]
+              - cell "48.9" [ref=e283]
+              - cell "51.9" [ref=e284]
+              - cell "53.4" [ref=e285]
+              - cell "54.9" [ref=e286]
+            - row "TriviaQA 5-shot 39.8 65.8 78.2 85.5" [ref=e287]:
+              - cell "TriviaQA" [ref=e288]:
+                - link "TriviaQA" [ref=e289] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/1705.03551
+              - cell "5-shot" [ref=e290]
+              - cell "39.8" [ref=e291]
+              - cell "65.8" [ref=e292]
+              - cell "78.2" [ref=e293]
+              - cell "85.5" [ref=e294]
+            - row "Natural Questions 5-shot 9.48 20.0 31.4 36.1" [ref=e295]:
+              - cell "Natural Questions" [ref=e296]:
+                - link "Natural Questions" [ref=e297] [cursor=pointer]:
+                  - /url: https://github.com/google-research-datasets/natural-questions
+              - cell "5-shot" [ref=e298]
+              - cell "9.48" [ref=e299]
+              - cell "20.0" [ref=e300]
+              - cell "31.4" [ref=e301]
+              - cell "36.1" [ref=e302]
+            - row "ARC-c 25-shot 38.4 56.2 68.9 70.6" [ref=e303]:
+              - cell "ARC-c" [ref=e304]:
+                - link "ARC-c" [ref=e305] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/1911.01547
+              - cell "25-shot" [ref=e306]
+              - cell "38.4" [ref=e307]
+              - cell "56.2" [ref=e308]
+              - cell "68.9" [ref=e309]
+              - cell "70.6" [ref=e310]
+            - row "ARC-e 0-shot 73.0 82.4 88.3 89.0" [ref=e311]:
+              - cell "ARC-e" [ref=e312]:
+                - link "ARC-e" [ref=e313] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/1911.01547
+              - cell "0-shot" [ref=e314]
+              - cell "73.0" [ref=e315]
+              - cell "82.4" [ref=e316]
+              - cell "88.3" [ref=e317]
+              - cell "89.0" [ref=e318]
+            - row "WinoGrande 5-shot 58.2 64.7 74.3 78.8" [ref=e319]:
+              - cell "WinoGrande" [ref=e320]:
+                - link "WinoGrande" [ref=e321] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/1907.10641
+              - cell "5-shot" [ref=e322]
+              - cell "58.2" [ref=e323]
+              - cell "64.7" [ref=e324]
+              - cell "74.3" [ref=e325]
+              - cell "78.8" [ref=e326]
+            - row "BIG-Bench Hard 28.4 50.9 72.6 77.7" [ref=e327]:
+              - cell "BIG-Bench Hard" [ref=e328]:
+                - link "BIG-Bench Hard" [ref=e329] [cursor=pointer]:
+                  - /url: https://paperswithcode.com/dataset/bbh
+              - cell [ref=e330]
+              - cell "28.4" [ref=e331]
+              - cell "50.9" [ref=e332]
+              - cell "72.6" [ref=e333]
+              - cell "77.7" [ref=e334]
+            - row "DROP 3-shot, F1 42.4 60.1 72.2 77.2" [ref=e335]:
+              - cell "DROP" [ref=e336]:
+                - link "DROP" [ref=e337] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/1903.00161
+              - cell "3-shot, F1" [ref=e338]
+              - cell "42.4" [ref=e339]
+              - cell "60.1" [ref=e340]
+              - cell "72.2" [ref=e341]
+              - cell "77.2" [ref=e342]
+            - row "AGIEval 3-5-shot 22.2 42.1 57.4 66.2" [ref=e343]:
+              - cell "AGIEval" [ref=e344]:
+                - link "AGIEval" [ref=e345] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2304.06364
+              - cell "3-5-shot" [ref=e346]
+              - cell "22.2" [ref=e347]
+              - cell "42.1" [ref=e348]
+              - cell "57.4" [ref=e349]
+              - cell "66.2" [ref=e350]
+            - row "MMLU 5-shot, top-1 26.5 59.6 74.5 78.6" [ref=e351]:
+              - cell "MMLU" [ref=e352]:
+                - link "MMLU" [ref=e353] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2009.03300
+              - cell "5-shot, top-1" [ref=e354]
+              - cell "26.5" [ref=e355]
+              - cell "59.6" [ref=e356]
+              - cell "74.5" [ref=e357]
+              - cell "78.6" [ref=e358]
+            - row "MATH 4-shot – 24.2 43.3 50.0" [ref=e359]:
+              - cell "MATH" [ref=e360]:
+                - link "MATH" [ref=e361] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2103.03874
+              - cell "4-shot" [ref=e362]
+              - cell "–" [ref=e363]
+              - cell "24.2" [ref=e364]
+              - cell "43.3" [ref=e365]
+              - cell "50.0" [ref=e366]
+            - row "GSM8K 5-shot, maj@1 1.36 38.4 71.0 82.6" [ref=e367]:
+              - cell "GSM8K" [ref=e368]:
+                - link "GSM8K" [ref=e369] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2110.14168
+              - cell "5-shot, maj@1" [ref=e370]
+              - cell "1.36" [ref=e371]
+              - cell "38.4" [ref=e372]
+              - cell "71.0" [ref=e373]
+              - cell "82.6" [ref=e374]
+            - row "GPQA 9.38 15.0 25.4 24.3" [ref=e375]:
+              - cell "GPQA" [ref=e376]:
+                - link "GPQA" [ref=e377] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2311.12022
+              - cell [ref=e378]
+              - cell "9.38" [ref=e379]
+              - cell "15.0" [ref=e380]
+              - cell "25.4" [ref=e381]
+              - cell "24.3" [ref=e382]
+            - row "MMLU (Pro) 5-shot 11.2 23.7 40.8 43.9" [ref=e383]:
+              - cell "MMLU (Pro)" [ref=e384]:
+                - link "MMLU" [ref=e385] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2009.03300
+                - text: (Pro)
+              - cell "5-shot" [ref=e386]
+              - cell "11.2" [ref=e387]
+              - cell "23.7" [ref=e388]
+              - cell "40.8" [ref=e389]
+              - cell "43.9" [ref=e390]
+            - row "MBPP 3-shot 9.80 46.0 60.4 65.6" [ref=e391]:
+              - cell "MBPP" [ref=e392]:
+                - link "MBPP" [ref=e393] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2108.07732
+              - cell "3-shot" [ref=e394]
+              - cell "9.80" [ref=e395]
+              - cell "46.0" [ref=e396]
+              - cell "60.4" [ref=e397]
+              - cell "65.6" [ref=e398]
+            - row "HumanEval pass@1 6.10 36.0 45.7 48.8" [ref=e399]:
+              - cell "HumanEval" [ref=e400]:
+                - link "HumanEval" [ref=e401] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2107.03374
+              - cell "pass@1" [ref=e402]
+              - cell "6.10" [ref=e403]
+              - cell "36.0" [ref=e404]
+              - cell "45.7" [ref=e405]
+              - cell "48.8" [ref=e406]
+            - row "MMLU (Pro COT) 5-shot 9.7 NaN NaN NaN" [ref=e407]:
+              - cell "MMLU (Pro COT)" [ref=e408]:
+                - link "MMLU" [ref=e409] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2009.03300
+                - text: (Pro COT)
+              - cell "5-shot" [ref=e410]
+              - cell "9.7" [ref=e411]
+              - cell "NaN" [ref=e412]
+              - cell "NaN" [ref=e413]
+              - cell "NaN" [ref=e414]
+        - heading "Multilingual capabilities" [level=4] [ref=e415]
+        - table [ref=e416]:
+          - rowgroup [ref=e417]:
+            - row "Benchmark Gemma 3 PT 1B Gemma 3 PT 4B Gemma 3 PT 12B Gemma 3 PT 27B" [ref=e418]:
+              - columnheader "Benchmark" [ref=e419]
+              - columnheader "Gemma 3 PT 1B" [ref=e420]
+              - columnheader "Gemma 3 PT 4B" [ref=e421]
+              - columnheader "Gemma 3 PT 12B" [ref=e422]
+              - columnheader "Gemma 3 PT 27B" [ref=e423]
+          - rowgroup [ref=e424]:
+            - row "MGSM 2.04 34.7 64.3 74.3" [ref=e425]:
+              - cell "MGSM" [ref=e426]:
+                - link "MGSM" [ref=e427] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2210.03057
+              - cell "2.04" [ref=e428]
+              - cell "34.7" [ref=e429]
+              - cell "64.3" [ref=e430]
+              - cell "74.3" [ref=e431]
+            - row "Global-MMLU-Lite 24.9 57.0 69.4 75.7" [ref=e432]:
+              - cell "Global-MMLU-Lite" [ref=e433]:
+                - link "Global-MMLU-Lite" [ref=e434] [cursor=pointer]:
+                  - /url: https://huggingface.co/datasets/CohereForAI/Global-MMLU-Lite
+              - cell "24.9" [ref=e435]
+              - cell "57.0" [ref=e436]
+              - cell "69.4" [ref=e437]
+              - cell "75.7" [ref=e438]
+            - row "Belebele 26.6 59.4 78.0 –" [ref=e439]:
+              - cell "Belebele" [ref=e440]:
+                - link "Belebele" [ref=e441] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2308.16884
+              - cell "26.6" [ref=e442]
+              - cell "59.4" [ref=e443]
+              - cell "78.0" [ref=e444]
+              - cell "–" [ref=e445]
+            - row "WMT24++ (ChrF) 36.7 48.4 53.9 55.7" [ref=e446]:
+              - cell "WMT24++ (ChrF)" [ref=e447]:
+                - link "WMT24++" [ref=e448] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2502.12404v1
+                - text: (ChrF)
+              - cell "36.7" [ref=e449]
+              - cell "48.4" [ref=e450]
+              - cell "53.9" [ref=e451]
+              - cell "55.7" [ref=e452]
+            - row "FloRes 29.5 39.2 46.0 48.8" [ref=e453]:
+              - cell "FloRes" [ref=e454]:
+                - link "FloRes" [ref=e455] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2106.03193
+              - cell "29.5" [ref=e456]
+              - cell "39.2" [ref=e457]
+              - cell "46.0" [ref=e458]
+              - cell "48.8" [ref=e459]
+            - row "XL-Sum 4.82 8.55 12.2 14.9" [ref=e460]:
+              - cell "XL-Sum" [ref=e461]:
+                - link "XL-Sum" [ref=e462] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2106.13822
+              - cell "4.82" [ref=e463]
+              - cell "8.55" [ref=e464]
+              - cell "12.2" [ref=e465]
+              - cell "14.9" [ref=e466]
+            - row "XQuAD (all) 43.9 68.0 74.5 76.8" [ref=e467]:
+              - cell "XQuAD (all)" [ref=e468]:
+                - link "XQuAD" [ref=e469] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/1910.11856v3
+                - text: (all)
+              - cell "43.9" [ref=e470]
+              - cell "68.0" [ref=e471]
+              - cell "74.5" [ref=e472]
+              - cell "76.8" [ref=e473]
+        - heading "Multimodal capabilities" [level=4] [ref=e474]
+        - table [ref=e475]:
+          - rowgroup [ref=e476]:
+            - row "Benchmark Gemma 3 PT 4B Gemma 3 PT 12B Gemma 3 PT 27B" [ref=e477]:
+              - columnheader "Benchmark" [ref=e478]
+              - columnheader "Gemma 3 PT 4B" [ref=e479]
+              - columnheader "Gemma 3 PT 12B" [ref=e480]
+              - columnheader "Gemma 3 PT 27B" [ref=e481]
+          - rowgroup [ref=e482]:
+            - row "COCOcap 102 111 116" [ref=e483]:
+              - cell "COCOcap" [ref=e484]:
+                - link "COCOcap" [ref=e485] [cursor=pointer]:
+                  - /url: https://cocodataset.org/#home
+              - cell "102" [ref=e486]
+              - cell "111" [ref=e487]
+              - cell "116" [ref=e488]
+            - row "DocVQA (val) 72.8 82.3 85.6" [ref=e489]:
+              - cell "DocVQA (val)" [ref=e490]:
+                - link "DocVQA" [ref=e491] [cursor=pointer]:
+                  - /url: https://www.docvqa.org/
+                - text: (val)
+              - cell "72.8" [ref=e492]
+              - cell "82.3" [ref=e493]
+              - cell "85.6" [ref=e494]
+            - row "InfoVQA (val) 44.1 54.8 59.4" [ref=e495]:
+              - cell "InfoVQA (val)" [ref=e496]:
+                - link "InfoVQA" [ref=e497] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2104.12756
+                - text: (val)
+              - cell "44.1" [ref=e498]
+              - cell "54.8" [ref=e499]
+              - cell "59.4" [ref=e500]
+            - row "MMMU (pt) 39.2 50.3 56.1" [ref=e501]:
+              - cell "MMMU (pt)" [ref=e502]:
+                - link "MMMU" [ref=e503] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2311.16502
+                - text: (pt)
+              - cell "39.2" [ref=e504]
+              - cell "50.3" [ref=e505]
+              - cell "56.1" [ref=e506]
+            - row "TextVQA (val) 58.9 66.5 68.6" [ref=e507]:
+              - cell "TextVQA (val)" [ref=e508]:
+                - link "TextVQA" [ref=e509] [cursor=pointer]:
+                  - /url: https://textvqa.org/
+                - text: (val)
+              - cell "58.9" [ref=e510]
+              - cell "66.5" [ref=e511]
+              - cell "68.6" [ref=e512]
+            - row "RealWorldQA 45.5 52.2 53.9" [ref=e513]:
+              - cell "RealWorldQA" [ref=e514]:
+                - link "RealWorldQA" [ref=e515] [cursor=pointer]:
+                  - /url: https://paperswithcode.com/dataset/realworldqa
+              - cell "45.5" [ref=e516]
+              - cell "52.2" [ref=e517]
+              - cell "53.9" [ref=e518]
+            - row "ReMI 27.3 38.5 44.8" [ref=e519]:
+              - cell "ReMI" [ref=e520]:
+                - link "ReMI" [ref=e521] [cursor=pointer]:
+                  - /url: https://arxiv.org/html/2406.09175v1
+              - cell "27.3" [ref=e522]
+              - cell "38.5" [ref=e523]
+              - cell "44.8" [ref=e524]
+            - row "AI2D 63.2 75.2 79.0" [ref=e525]:
+              - cell "AI2D" [ref=e526]:
+                - link "AI2D" [ref=e527] [cursor=pointer]:
+                  - /url: https://allenai.org/data/diagrams
+              - cell "63.2" [ref=e528]
+              - cell "75.2" [ref=e529]
+              - cell "79.0" [ref=e530]
+            - row "ChartQA 45.4 60.9 63.8" [ref=e531]:
+              - cell "ChartQA" [ref=e532]:
+                - link "ChartQA" [ref=e533] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2203.10244
+              - cell "45.4" [ref=e534]
+              - cell "60.9" [ref=e535]
+              - cell "63.8" [ref=e536]
+            - row "ChartQA (augmented) 81.8 88.5 88.7" [ref=e537]:
+              - cell "ChartQA (augmented)" [ref=e538]:
+                - link "ChartQA" [ref=e539] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2203.10244
+                - text: (augmented)
+              - cell "81.8" [ref=e540]
+              - cell "88.5" [ref=e541]
+              - cell "88.7" [ref=e542]
+            - row "VQAv2 – – –" [ref=e543]:
+              - cell "VQAv2" [ref=e544]:
+                - link "VQAv2" [ref=e545] [cursor=pointer]:
+                  - /url: https://visualqa.org/index.html
+              - cell "–" [ref=e546]
+              - cell "–" [ref=e547]
+              - cell "–" [ref=e548]
+            - row "BLINK 38.0 35.9 39.6" [ref=e549]:
+              - cell "BLINK" [ref=e550]:
+                - link "BLINK" [ref=e551] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/2404.12390
+              - cell "38.0" [ref=e552]
+              - cell "35.9" [ref=e553]
+              - cell "39.6" [ref=e554]
+            - row "OKVQA 51.0 58.7 60.2" [ref=e555]:
+              - cell "OKVQA" [ref=e556]:
+                - link "OKVQA" [ref=e557] [cursor=pointer]:
+                  - /url: https://okvqa.allenai.org/
+              - cell "51.0" [ref=e558]
+              - cell "58.7" [ref=e559]
+              - cell "60.2" [ref=e560]
+            - row "TallyQA 42.5 51.8 54.3" [ref=e561]:
+              - cell "TallyQA" [ref=e562]:
+                - link "TallyQA" [ref=e563] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/1810.12440
+              - cell "42.5" [ref=e564]
+              - cell "51.8" [ref=e565]
+              - cell "54.3" [ref=e566]
+            - row "SpatialSense VQA 50.9 60.0 59.4" [ref=e567]:
+              - cell "SpatialSense VQA" [ref=e568]:
+                - link "SpatialSense VQA" [ref=e569] [cursor=pointer]:
+                  - /url: https://arxiv.org/abs/1908.02660
+              - cell "50.9" [ref=e570]
+              - cell "60.0" [ref=e571]
+              - cell "59.4" [ref=e572]
+            - row "CountBenchQA 26.1 17.8 68.0" [ref=e573]:
+              - cell "CountBenchQA" [ref=e574]:
+                - link "CountBenchQA" [ref=e575] [cursor=pointer]:
+                  - /url: https://github.com/google-research/big_vision/blob/main/big_vision/datasets/countbenchqa/
+              - cell "26.1" [ref=e576]
+              - cell "17.8" [ref=e577]
+              - cell "68.0" [ref=e578]
+        - heading "Reference" [level=2] [ref=e579]
+        - paragraph [ref=e580]:
+          - link "Gemma Terms of Use" [ref=e581] [cursor=pointer]:
+            - /url: https://ai.google.dev/gemma/terms
+  - contentinfo [ref=e582]:
+    - generic [ref=e584]:
+      - generic [ref=e585]: © 2026 Ollama
+      - generic [ref=e586]:
+        - link "Download" [ref=e587] [cursor=pointer]:
+          - /url: /download
+        - link "Blog" [ref=e588] [cursor=pointer]:
+          - /url: /blog
+        - link "Docs" [ref=e589] [cursor=pointer]:
+          - /url: https://docs.ollama.com
+        - link "GitHub" [ref=e590] [cursor=pointer]:
+          - /url: https://github.com/ollama/ollama
+        - link "Discord" [ref=e591] [cursor=pointer]:
+          - /url: https://discord.com/invite/ollama
+        - link "X (Twitter)" [ref=e592] [cursor=pointer]:
+          - /url: https://twitter.com/ollama
+        - link "Contact" [ref=e593] [cursor=pointer]:
+          - /url: mailto:hello@ollama.com
+        - link "Privacy" [ref=e594] [cursor=pointer]:
+          - /url: /privacy
+        - link "Terms" [ref=e595] [cursor=pointer]:
+          - /url: /terms

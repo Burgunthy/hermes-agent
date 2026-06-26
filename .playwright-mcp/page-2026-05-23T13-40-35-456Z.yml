@@ -1,0 +1,221 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Introducing the Polar Startup Program" [ref=e4] [cursor=pointer]:
+      - /url: /startup-program
+      - generic [ref=e5]:
+        - paragraph [ref=e6]: Introducing the Polar Startup Program
+        - img [ref=e7]
+    - generic [ref=e10]:
+      - link [ref=e11] [cursor=pointer]:
+        - /url: /
+        - button [ref=e13]:
+          - img [ref=e15]
+      - list [ref=e24]:
+        - listitem [ref=e25]:
+          - button "Features" [ref=e26] [cursor=pointer]
+        - listitem [ref=e27]:
+          - button "Docs" [ref=e28] [cursor=pointer]
+        - listitem [ref=e29]:
+          - link "Blog" [ref=e30] [cursor=pointer]:
+            - /url: /blog
+        - listitem [ref=e31]:
+          - link "Company" [ref=e32] [cursor=pointer]:
+            - /url: /company
+      - generic [ref=e33]:
+        - button "Sign in" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: Sign in
+        - button "Get Started" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]:
+            - generic [ref=e38]: Get Started
+            - img
+  - generic [ref=e40]:
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - heading "Small team, big ambitions." [level=1] [ref=e44]
+        - paragraph [ref=e45]: We're building the billing layer for the next generation of AI products. Come build it with us.
+        - link "Join Us" [ref=e46] [cursor=pointer]:
+          - /url: "#open-roles"
+      - generic [ref=e48]:
+        - heading "billing = fn(events)" [level=2] [ref=e49]
+        - generic [ref=e50]:
+          - paragraph [ref=e51]: Modern software is priced around usage. Yet billing systems remain static.
+          - paragraph [ref=e52]: We believe analytics & billing belong in the same platform — real-time event ingestion powering instant unit economics and analytics, leading to deterministic and versioned billing as code.
+          - paragraph [ref=e53]: We're building Polar to become the standard Events → Analytics → Billing stack for the next generation of software.
+          - paragraph [ref=e54]: We're a small team with big ambitions, working with high ownership and autonomy. Polar is open source and built in the open with our community.
+      - generic [ref=e56]:
+        - heading "Open Roles" [level=2] [ref=e57]
+        - generic [ref=e59]:
+          - heading "Product & Engineering" [level=3] [ref=e60]
+          - generic [ref=e61]:
+            - link "Senior Platform Engineer 5-8+ Years · Remote, Europe" [ref=e62] [cursor=pointer]:
+              - /url: https://jobs.ashbyhq.com/polar/8a82633e-e7b9-42f4-92e1-33032a56097a
+              - generic [ref=e63]:
+                - generic [ref=e64]: Senior Platform Engineer
+                - generic [ref=e65]:
+                  - generic [ref=e66]: 5-8+ Years
+                  - generic [ref=e67]: ·
+                  - generic [ref=e68]: Remote, Europe
+              - img [ref=e70]
+            - link "Senior Product Engineer 7+ Years · Remote, Europe" [ref=e72] [cursor=pointer]:
+              - /url: https://jobs.ashbyhq.com/polar/955c6935-6d03-46e5-b649-a8b958a52962
+              - generic [ref=e73]:
+                - generic [ref=e74]: Senior Product Engineer
+                - generic [ref=e75]:
+                  - generic [ref=e76]: 7+ Years
+                  - generic [ref=e77]: ·
+                  - generic [ref=e78]: Remote, Europe
+              - img [ref=e80]
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - heading "Investors, Angels & Advisors" [level=2] [ref=e85]
+          - paragraph [ref=e86]: The incredible people and early stage firms who have had our back through thick and thin — supporting us from Day 1.
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - generic [ref=e89]: Accel
+            - generic [ref=e90]: Venture Capital Firm
+          - generic [ref=e91]:
+            - generic [ref=e92]: Abstract
+            - generic [ref=e93]: Venture Capital Firm
+          - generic [ref=e94]:
+            - generic [ref=e95]: Mischief
+            - generic [ref=e96]: Venture Capital Firm
+          - generic [ref=e97]:
+            - generic [ref=e98]: Guillermo Rauch
+            - generic [ref=e99]: Vercel
+          - generic [ref=e100]:
+            - generic [ref=e101]: Paul Copplestone
+            - generic [ref=e102]: Supabase
+          - generic [ref=e103]:
+            - generic [ref=e104]: Tobi Lütke
+            - generic [ref=e105]: Shopify
+          - generic [ref=e106]:
+            - generic [ref=e107]: Anton Osika
+            - generic [ref=e108]: Lovable
+          - generic [ref=e109]:
+            - generic [ref=e110]: Michael Grinich
+            - generic [ref=e111]: WorkOS
+          - generic [ref=e112]:
+            - generic [ref=e113]: Thomas Paul Mann
+            - generic [ref=e114]: Raycast
+          - generic [ref=e115]:
+            - generic [ref=e116]: Jorn van Dijk & Koen Bok
+            - generic [ref=e117]: Framer
+          - generic [ref=e118]:
+            - generic [ref=e119]: Harley Finkelstein
+            - generic [ref=e120]: Shopify
+          - generic [ref=e121]:
+            - generic [ref=e122]: Jared Palmer
+            - generic [ref=e123]: GitHub & Microsoft
+          - generic [ref=e124]:
+            - generic [ref=e125]: Zeno Rocha
+            - generic [ref=e126]: Resend
+          - generic [ref=e127]:
+            - generic [ref=e128]: Steven Tey
+            - generic [ref=e129]: Dub
+          - generic [ref=e130]:
+            - generic [ref=e131]: Sébastien & Alexandre Chopin
+            - generic [ref=e132]: Nuxt
+          - generic [ref=e133]:
+            - generic [ref=e134]: Gustaf Alstromer
+            - generic [ref=e135]: Y Combinator
+          - generic [ref=e136]:
+            - generic [ref=e137]: Mitchell Hashimoto
+            - generic [ref=e138]: Ghostty
+          - generic [ref=e139]:
+            - generic [ref=e140]: David Cramer
+            - generic [ref=e141]: Sentry
+          - generic [ref=e142]:
+            - generic [ref=e143]: Carl Rivera
+            - generic [ref=e144]: Shopify
+          - generic [ref=e145]:
+            - generic [ref=e146]: Kaj Drobin
+            - generic [ref=e147]: Stilla
+          - generic [ref=e148]:
+            - generic [ref=e149]: Siavash Ghorbani
+            - generic [ref=e150]: Stilla
+          - generic [ref=e151]:
+            - generic [ref=e152]: Fredrik Björk
+            - generic [ref=e153]: Grafbase
+          - generic [ref=e154]:
+            - generic [ref=e155]: Joel Hellermark
+            - generic [ref=e156]: Sana
+          - generic [ref=e157]:
+            - generic [ref=e158]: Andrea Wang
+            - generic [ref=e159]: SV Angel
+          - generic [ref=e160]:
+            - generic [ref=e161]: Kieran Flanagan
+            - generic [ref=e162]: HubSpot
+          - generic [ref=e163]:
+            - generic [ref=e164]: Sri Batchu
+            - generic [ref=e165]: The RealReal
+          - generic [ref=e166]:
+            - generic [ref=e167]: Tristan Handy
+            - generic [ref=e168]: dbt Labs
+          - generic [ref=e169]:
+            - generic [ref=e170]: Mattias Miksche
+            - generic [ref=e171]: —
+    - generic [ref=e175]:
+      - generic [ref=e176]:
+        - button [ref=e179]:
+          - img [ref=e181]
+        - generic [ref=e190]:
+          - link "Join Polar today" [ref=e191] [cursor=pointer]:
+            - /url: /signup
+            - generic [ref=e192]: Join Polar today
+            - img [ref=e193]
+          - generic [ref=e195]: © Polar Software, Inc. 2026
+      - generic [ref=e196]:
+        - heading "Features" [level=3] [ref=e197]
+        - generic [ref=e198]:
+          - link "Usage Billing" [ref=e199] [cursor=pointer]:
+            - /url: /features/usage-billing
+          - link "Subscriptions" [ref=e200] [cursor=pointer]:
+            - /url: /features/subscriptions
+          - link "Seats" [ref=e201] [cursor=pointer]:
+            - /url: /features/seats
+          - link "Credits" [ref=e202] [cursor=pointer]:
+            - /url: /features/credits
+          - link "Trials" [ref=e203] [cursor=pointer]:
+            - /url: /features/trials
+          - link "Discounts" [ref=e204] [cursor=pointer]:
+            - /url: /features/discounts
+          - link "Cost Insights" [ref=e205] [cursor=pointer]:
+            - /url: /features/cost-insights
+          - link "Finance" [ref=e206] [cursor=pointer]:
+            - /url: /features/finance
+          - link "Merchant of Record" [ref=e207] [cursor=pointer]:
+            - /url: /features/merchant-of-record
+      - generic [ref=e208]:
+        - heading "Resources" [level=3] [ref=e209]
+        - generic [ref=e210]:
+          - link "Why Polar" [ref=e211] [cursor=pointer]:
+            - /url: /resources/why
+          - link "Merchant of Record" [ref=e212] [cursor=pointer]:
+            - /url: /resources/merchant-of-record
+          - link "Pricing" [ref=e213] [cursor=pointer]:
+            - /url: /resources/pricing
+          - link "Downloads" [ref=e214] [cursor=pointer]:
+            - /url: /downloads
+      - generic [ref=e215]:
+        - heading "Company" [level=3] [ref=e216]
+        - generic [ref=e217]:
+          - link "About Polar" [ref=e218] [cursor=pointer]:
+            - /url: /company
+          - link "GitHub" [ref=e219] [cursor=pointer]:
+            - /url: https://github.com/polarsource
+          - link "X / Twitter" [ref=e220] [cursor=pointer]:
+            - /url: https://x.com/polar_sh
+          - link "Brand Assets" [ref=e221] [cursor=pointer]:
+            - /url: https://polar.sh/assets/brand/polar_brand.zip
+          - link "Legal" [ref=e222] [cursor=pointer]:
+            - /url: https://polar.sh/legal
+          - button "Cookie Preferences" [ref=e223]
+      - generic [ref=e224]:
+        - heading "Support" [level=3] [ref=e225]
+        - generic [ref=e226]:
+          - link "Docs" [ref=e227] [cursor=pointer]:
+            - /url: https://polar.sh/docs
+          - link "Contact" [ref=e228] [cursor=pointer]:
+            - /url: mailto:support@polar.sh
+          - link "Service Status" [ref=e229] [cursor=pointer]:
+            - /url: https://status.polar.sh

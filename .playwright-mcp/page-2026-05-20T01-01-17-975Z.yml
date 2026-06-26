@@ -1,0 +1,778 @@
+- generic [ref=e1]:
+  - dialog "Cookie Consent Banner" [ref=e2]:
+    - button "Close this dialog" [active] [ref=e3] [cursor=pointer]:
+      - img "Close this dialog" [ref=e4]
+    - generic [ref=e5]:
+      - generic [ref=e6]: This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising. You may change your settings at any time or accept the default settings. You may close this banner to continue with only essential cookies.
+      - link "Privacy Policy" [ref=e7] [cursor=pointer]:
+        - /url: https://allenai.org/privacy-policy/2025-02-19
+      - paragraph [ref=e8]:
+        - link "Storage Preferences" [ref=e9] [cursor=pointer]:
+          - /url: "#02f19150-d041-407a-984a-e2c0f91baa0a"
+      - group "Storage Preferences" [ref=e10]:
+        - list "Storage Preferences" [ref=e11]:
+          - listitem [ref=e12]:
+            - generic [ref=e13]:
+              - switch "Targeted Advertising" [ref=e14]
+              - generic [ref=e16]: Targeted Advertising
+          - listitem [ref=e17]:
+            - generic [ref=e18]:
+              - switch "Personalization" [ref=e19]
+              - generic [ref=e21]: Personalization
+          - listitem [ref=e22]:
+            - generic [ref=e23]:
+              - switch "Analytics" [ref=e24]
+              - generic [ref=e26]: Analytics
+    - generic [ref=e27]:
+      - button "Save" [ref=e28] [cursor=pointer]
+      - button "Accept All" [ref=e29] [cursor=pointer]
+      - button "Reject Non-Essential" [ref=e30] [cursor=pointer]
+  - generic [ref=e32]:
+    - generic [ref=e34]:
+      - link "Skip to search form" [ref=e35] [cursor=pointer]:
+        - /url: "#search-form"
+      - link "Skip to main content" [ref=e36] [cursor=pointer]:
+        - /url: "#main-content"
+      - link "Skip to account menu" [ref=e37] [cursor=pointer]:
+        - /url: "#account-menu"
+      - banner [ref=e38]:
+        - link "Homepage" [ref=e39] [cursor=pointer]:
+          - /url: /
+          - img "Semantic Scholar Semantic Scholar's Logo" [ref=e40]
+        - search [ref=e62]:
+          - generic [ref=e64]:
+            - searchbox "Search text" [ref=e65]: win rate risk reward ratio expectancy trading strategy comparison long term
+            - button "Submit" [disabled] [ref=e66]:
+              - generic [ref=e67]:
+                - generic [ref=e68]: Search
+                - img [ref=e69]
+        - navigation [ref=e72]:
+          - generic [ref=e73]:
+            - button "Sign In" [ref=e74] [cursor=pointer]:
+              - generic [ref=e75]: Sign In
+            - button "Create Free Account" [ref=e76] [cursor=pointer]:
+              - generic [ref=e77]: Create Free Account
+    - generic [ref=e79]:
+      - generic [ref=e80]:
+        - heading "151 results for “win rate risk reward ratio expectancy trading strategy comparison long term”" [level=1] [ref=e81]:
+          - generic [ref=e82]: 151 results for “win rate risk reward ratio expectancy trading strategy comparison long term”
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - button "Fields of Study" [ref=e88] [cursor=pointer]:
+              - generic [ref=e89]: Fields of Study
+              - img [ref=e91]
+            - button "Date Range" [ref=e95] [cursor=pointer]:
+              - generic [ref=e96]: Date Range
+              - img [ref=e98]
+            - button "Has PDF" [ref=e101] [cursor=pointer]
+            - button "Author" [ref=e104] [cursor=pointer]:
+              - generic [ref=e105]: Author
+              - img [ref=e107]
+            - button "Journals & Conferences" [ref=e111] [cursor=pointer]:
+              - generic [ref=e112]: Journals & Conferences
+              - img [ref=e114]
+          - generic [ref=e117]:
+            - generic [ref=e118]:
+              - combobox [ref=e119] [cursor=pointer]:
+                - option "Sort by Relevance" [selected]
+                - option "Sort by Citation Count"
+                - option "Sort by Most Influential Papers"
+                - option "Sort by Recency"
+              - img
+            - generic [ref=e120]:
+              - button "standard search results view" [disabled] [ref=e121] [cursor=pointer]:
+                - img [ref=e123]
+              - button "compact search results view" [ref=e125] [cursor=pointer]:
+                - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - 'link "Safety and effectiveness of left atrial appendage occlusion in patients with atrial fibrillation and high bleeding risk: a cardinality-matched comparison with direct oral anticoagulation on long-term…" [ref=e133] [cursor=pointer]':
+                - /url: /paper/Safety-and-effectiveness-of-left-atrial-appendage-a-Gilhofer-Schweiger/699df11f087a3f0ca902d34334f36362e31c573b
+                - 'heading "Safety and effectiveness of left atrial appendage occlusion in patients with atrial fibrillation and high bleeding risk: a cardinality-matched comparison with direct oral anticoagulation on long-term…" [level=2] [ref=e134]':
+                  - generic [ref=e135]:
+                    - text: Safety and effectiveness of left atrial appendage occlusion in patients with atrial fibrillation and high bleeding
+                    - emphasis [ref=e136]: risk
+                    - text: ": a cardinality-matched"
+                    - emphasis [ref=e137]: comparison
+                    - text: with direct oral anticoagulation on
+                    - emphasis [ref=e138]: long
+                    - text: "-"
+                    - emphasis [ref=e139]: term
+                    - text: …
+              - list [ref=e140]:
+                - generic [ref=e141]:
+                  - link "T. Gilhofer" [ref=e143] [cursor=pointer]:
+                    - /url: /author/T.-Gilhofer/2266300599
+                    - generic [ref=e144]: T. Gilhofer
+                  - link "V. Schweiger" [ref=e146] [cursor=pointer]:
+                    - /url: /author/V.-Schweiger/2130855103
+                    - generic [ref=e147]: V. Schweiger
+                  - generic [ref=e148]:
+                    - button "Show 28 more authors" [ref=e150] [cursor=pointer]: +28 authors
+                    - link "A. Kasel" [ref=e151] [cursor=pointer]:
+                      - /url: /author/A.-Kasel/9860084
+                      - generic [ref=e152]: A. Kasel
+                - generic [ref=e153]:
+                  - generic [ref=e154]: Medicine
+                  - text: •
+                - generic [ref=e155]:
+                  - link "Swiss medical weekly" [ref=e156] [cursor=pointer]:
+                    - /url: /venue?name=Swiss%20medical%20weekly
+                    - generic [ref=e157]: Swiss medical weekly
+                  - text: •
+                - listitem [ref=e158]:
+                  - generic [ref=e160]: 15 October 2025
+              - generic [ref=e161]:
+                - button "TLDR" [ref=e164] [cursor=pointer]:
+                  - generic [ref=e165]: TLDR
+                - generic [ref=e166]:
+                  - text: In this high bleeding
+                  - emphasis [ref=e167]: risk
+                  - text: population, LAAO was associated with similar effectiveness in preventing atrial fibrillation-related stroke and cardiovascular death and significantly lower
+                  - emphasis [ref=e168]: rate
+                  - text: s of major bleeding compared to DOAC therapy.
+                - button "Expand truncated text" [ref=e169] [cursor=pointer]:
+                  - generic [ref=e170]: Expand
+              - generic [ref=e173]:
+                - link "PubMed (opens in a new tab)" [ref=e175] [cursor=pointer]:
+                  - /url: https://www.ncbi.nlm.nih.gov/pubmed/41100816
+                  - img [ref=e176]
+                  - text: PubMed
+                  - generic [ref=e178]: (opens in a new tab)
+                - button "Save to Library" [ref=e180] [cursor=pointer]:
+                  - img [ref=e182]
+                  - generic [ref=e184]: Save
+                - button "Cite this paper" [ref=e186] [cursor=pointer]:
+                  - img [ref=e188]
+                  - generic [ref=e190]: Cite
+            - generic [ref=e191]:
+              - 'link "A comparison over 2 decades of disability-free life expectancy at age 65 years for those with long-term conditions in England: Analysis of the 2 longitudinal Cognitive Function and Ageing Studies" [ref=e192] [cursor=pointer]':
+                - /url: /paper/A-comparison-over-2-decades-of-disability-free-life-Bennett-Kingston/aca39ea050481c2184268efa525832e6c97ceaa8
+                - 'heading "A comparison over 2 decades of disability-free life expectancy at age 65 years for those with long-term conditions in England: Analysis of the 2 longitudinal Cognitive Function and Ageing Studies" [level=2] [ref=e193]':
+                  - generic [ref=e194]:
+                    - text: A
+                    - emphasis [ref=e195]: comparison
+                    - text: over 2 decades of disability-free life
+                    - emphasis [ref=e196]: expectancy
+                    - text: at age 65 years for those with
+                    - emphasis [ref=e197]: long
+                    - text: "-"
+                    - emphasis [ref=e198]: term
+                    - text: "conditions in England: Analysis of the 2 longitudinal Cognitive Function and Ageing Studies"
+              - list [ref=e199]:
+                - generic [ref=e200]:
+                  - link "Holly Q. Bennett" [ref=e202] [cursor=pointer]:
+                    - /url: /author/Holly-Q.-Bennett/145061325
+                    - generic [ref=e203]: Holly Q. Bennett
+                  - link "A. Kingston" [ref=e205] [cursor=pointer]:
+                    - /url: /author/A.-Kingston/50697167
+                    - generic [ref=e206]: A. Kingston
+                  - generic [ref=e207]:
+                    - button "Show 5 more authors" [ref=e209] [cursor=pointer]: +5 authors
+                    - link "C. Jagger" [ref=e210] [cursor=pointer]:
+                      - /url: /author/C.-Jagger/144781823
+                      - generic [ref=e211]: C. Jagger
+                - generic [ref=e212]:
+                  - generic [ref=e213]: Medicine
+                  - text: •
+                - generic [ref=e214]:
+                  - link "PLoS Medicine" [ref=e215] [cursor=pointer]:
+                    - /url: /venue?name=PLoS%20Medicine
+                    - generic [ref=e216]: PLoS Medicine
+                  - text: •
+                - listitem [ref=e217]:
+                  - generic [ref=e219]: 1 March 2022
+              - generic [ref=e220]:
+                - button "TLDR" [ref=e223] [cursor=pointer]:
+                  - generic [ref=e224]: TLDR
+                - generic [ref=e225]: Improvements to DFLE between 1991 and 2011 are observed despite the presence of most health conditions the authors considered, and attention needs to be paid to support and care for people with cognitive impairment who had different outcomes to those with physical health conditions.
+                - button "Expand truncated text" [ref=e226] [cursor=pointer]:
+                  - generic [ref=e227]: Expand
+              - generic [ref=e228]:
+                - list [ref=e230]:
+                  - listitem [ref=e231]:
+                    - link "7 citations" [ref=e233] [cursor=pointer]:
+                      - /url: /paper/A-comparison-over-2-decades-of-disability-free-life-Bennett-Kingston/aca39ea050481c2184268efa525832e6c97ceaa8#citing-papers
+                      - generic "7 citations" [ref=e234]:
+                        - img [ref=e235]
+                        - generic [ref=e237]: "7"
+                  - listitem [ref=e238]:
+                    - link "Semantic Reader, an AI-powered PDF reader" [ref=e239] [cursor=pointer]:
+                      - /url: /reader/aca39ea050481c2184268efa525832e6c97ceaa8
+                      - generic [ref=e241]:
+                        - img
+                        - generic [ref=e242]: "[PDF]"
+                - generic [ref=e244]:
+                  - link "PDF (opens in a new tab)" [ref=e246] [cursor=pointer]:
+                    - /url: https://pdfs.semanticscholar.org/aca3/9ea050481c2184268efa525832e6c97ceaa8.pdf
+                    - img [ref=e247]
+                    - text: PDF
+                    - generic [ref=e249]: (opens in a new tab)
+                  - button "Save to Library" [ref=e251] [cursor=pointer]:
+                    - img [ref=e253]
+                    - generic [ref=e255]: Save
+                  - button "Cite this paper" [ref=e257] [cursor=pointer]:
+                    - img [ref=e259]
+                    - generic [ref=e261]: Cite
+            - generic [ref=e262]:
+              - link "Long-Term Outcomes of Tetralogy of Fallot Repair with Pulmonary Valve Preservation and with Transannular Patch" [ref=e263] [cursor=pointer]:
+                - /url: /paper/Long-Term-Outcomes-of-Tetralogy-of-Fallot-Repair-Borodinova-Mykhailovska/19ddcfb2ce8d93ae0d7838acac63e787c75abd47
+                - heading "Long-Term Outcomes of Tetralogy of Fallot Repair with Pulmonary Valve Preservation and with Transannular Patch" [level=2] [ref=e264]:
+                  - generic [ref=e265]:
+                    - emphasis [ref=e266]: Long
+                    - text: "-"
+                    - emphasis [ref=e267]: Term
+                    - text: Outcomes of Tetralogy of Fallot Repair with Pulmonary Valve Preservation and with Transannular Patch
+              - list [ref=e268]:
+                - generic [ref=e269]:
+                  - link "Olha S. Borodinova" [ref=e271] [cursor=pointer]:
+                    - /url: /author/Olha-S.-Borodinova/2354898745
+                    - generic [ref=e272]: Olha S. Borodinova
+                  - link "A. Mykhailovska" [ref=e274] [cursor=pointer]:
+                    - /url: /author/A.-Mykhailovska/2277355572
+                    - generic [ref=e275]: A. Mykhailovska
+                - generic [ref=e276]:
+                  - generic [ref=e277]: Medicine
+                  - text: •
+                - generic [ref=e278]:
+                  - link "Ukrainian journal of cardiovascular surgery" [ref=e279] [cursor=pointer]:
+                    - /url: /venue?name=Ukrainian%20journal%20of%20cardiovascular%20surgery
+                    - generic [ref=e280]: Ukrainian journal of cardiovascular surgery
+                  - text: •
+                - listitem [ref=e281]:
+                  - generic [ref=e283]: 25 September 2025
+              - generic [ref=e284]:
+                - button "TLDR" [ref=e287] [cursor=pointer]:
+                  - generic [ref=e288]: TLDR
+                - generic [ref=e289]:
+                  - text: Assessing RVOT and PV z-scores during surgery may help reduce reinterventions, support valve-sparing approaches, and lower the
+                  - emphasis [ref=e290]: risk
+                  - text: of late surgeries for PV insufficiency.
+                - button "Expand truncated text" [ref=e291] [cursor=pointer]:
+                  - generic [ref=e292]: Expand
+              - generic [ref=e295]:
+                - link "Publisher (opens in a new tab)" [ref=e297] [cursor=pointer]:
+                  - /url: https://doi.org/10.63181/ujcvs.2025.33%283%29.49-56
+                  - img [ref=e298]
+                  - text: Publisher
+                  - generic [ref=e300]: (opens in a new tab)
+                - button "Save to Library" [ref=e302] [cursor=pointer]:
+                  - img [ref=e304]
+                  - generic [ref=e306]: Save
+                - button "Cite this paper" [ref=e308] [cursor=pointer]:
+                  - img [ref=e310]
+                  - generic [ref=e312]: Cite
+            - generic [ref=e313]:
+              - 'link "From Data to Decisions: A Trading Bot for Ethereum" [ref=e314] [cursor=pointer]':
+                - /url: /paper/From-Data-to-Decisions%3A-A-Trading-Bot-for-Ethereum-Vr%C3%AEnceanu-%C8%98erban/7cccba952d8c5905ab4cc231927ec10fc52a3872
+                - 'heading "From Data to Decisions: A Trading Bot for Ethereum" [level=2] [ref=e315]':
+                  - generic [ref=e316]:
+                    - text: "From Data to Decisions: A"
+                    - emphasis [ref=e317]: Trading
+                    - text: Bot for Ethereum
+              - list [ref=e318]:
+                - generic [ref=e319]:
+                  - link "Bogdan-Petru Vrînceanu" [ref=e321] [cursor=pointer]:
+                    - /url: /author/Bogdan-Petru-Vr%C3%AEnceanu/2258171104
+                    - generic [ref=e322]: Bogdan-Petru Vrînceanu
+                  - link "Florentin Șerban" [ref=e324] [cursor=pointer]:
+                    - /url: /author/Florentin-%C8%98erban/52230679
+                    - generic [ref=e325]: Florentin Șerban
+                - generic [ref=e326]:
+                  - generic [ref=e327]: Computer Science, Business
+                  - text: •
+                - generic [ref=e328]:
+                  - link "International journal of research and scientific…" [ref=e330] [cursor=pointer]:
+                    - /url: /venue?name=International%20journal%20of%20research%20and%20scientific%20innovation
+                    - generic [ref=e331]: International journal of research and scientific…
+                  - text: •
+                - listitem [ref=e332]:
+                  - generic [ref=e334]: "2025"
+              - generic [ref=e335]:
+                - button "TLDR" [ref=e338] [cursor=pointer]:
+                  - generic [ref=e339]: TLDR
+                - generic [ref=e340]:
+                  - text: The research demonst
+                  - emphasis [ref=e341]: rate
+                  - text: s the effectiveness of integrating multiple technical indicators with logistic regression in automated
+                  - emphasis [ref=e342]: trading
+                  - text: systems, offering valuable insights into the potential of algorithmic
+                  - emphasis [ref=e343]: trading
+                  - text: in highly volatile environments like the cryptocurrency market.
+                - button "Expand truncated text" [ref=e344] [cursor=pointer]:
+                  - generic [ref=e345]: Expand
+              - generic [ref=e348]:
+                - link "Publisher (opens in a new tab)" [ref=e350] [cursor=pointer]:
+                  - /url: https://doi.org/10.51244/ijrsi.2025.12020010
+                  - img [ref=e351]
+                  - text: Publisher
+                  - generic [ref=e353]: (opens in a new tab)
+                - button "Save to Library" [ref=e355] [cursor=pointer]:
+                  - img [ref=e357]
+                  - generic [ref=e359]: Save
+                - button "Cite this paper" [ref=e361] [cursor=pointer]:
+                  - img [ref=e363]
+                  - generic [ref=e365]: Cite
+            - generic [ref=e366]:
+              - 'link "Impact of Cytogenetic Response on Long-Term Survival in Acute Myeloid Leukemia: A Retrospective Cohort Study" [ref=e367] [cursor=pointer]':
+                - /url: /paper/Impact-of-Cytogenetic-Response-on-Long-Term-in-A-Hanna-Nurse/7c1819f3623e69f03ac07c9d1ba94b5bb364e9e9
+                - 'heading "Impact of Cytogenetic Response on Long-Term Survival in Acute Myeloid Leukemia: A Retrospective Cohort Study" [level=2] [ref=e368]':
+                  - generic [ref=e369]:
+                    - text: Impact of Cytogenetic Response on
+                    - emphasis [ref=e370]: Long
+                    - text: "-"
+                    - emphasis [ref=e371]: Term
+                    - text: "Survival in Acute Myeloid Leukemia: A Retrospective Cohort Study"
+              - list [ref=e372]:
+                - generic [ref=e373]:
+                  - link "John Hanna" [ref=e375] [cursor=pointer]:
+                    - /url: /author/John-Hanna/2334074806
+                    - generic [ref=e376]: John Hanna
+                  - link "Daniel Nurse" [ref=e378] [cursor=pointer]:
+                    - /url: /author/Daniel-Nurse/2269250654
+                    - generic [ref=e379]: Daniel Nurse
+                  - generic [ref=e380]:
+                    - button "Show 19 more authors" [ref=e382] [cursor=pointer]: +19 authors
+                    - link "M. M. Mustafa Ali" [ref=e383] [cursor=pointer]:
+                      - /url: /author/M.-M.-Mustafa-Ali/145678785
+                      - generic [ref=e384]: M. M. Mustafa Ali
+                - generic [ref=e385]:
+                  - generic [ref=e386]: Medicine
+                  - text: •
+                - generic [ref=e387]:
+                  - link "Blood" [ref=e388] [cursor=pointer]:
+                    - /url: /venue?name=Blood
+                    - generic [ref=e389]: Blood
+                  - text: •
+                - listitem [ref=e390]:
+                  - generic [ref=e392]: 5 November 2024
+              - generic [ref=e393]:
+                - button "TLDR" [ref=e396] [cursor=pointer]:
+                  - generic [ref=e397]: TLDR
+                - generic [ref=e398]:
+                  - text: A single-center retrospective cohort study on AML patients treated at Cleveland Clinic to investigate the impact of cytogenetic response on overall survival (OS), event-free survival (EFS), and clinical response
+                  - emphasis [ref=e399]: rate
+                  - text: s finds the role of cytogenetic response in predicting treatment outcomes and survival in AML patients is elucidated.
+                - button "Expand truncated text" [ref=e400] [cursor=pointer]:
+                  - generic [ref=e401]: Expand
+              - generic [ref=e404]:
+                - link "Publisher (opens in a new tab)" [ref=e406] [cursor=pointer]:
+                  - /url: https://doi.org/10.1182/blood-2024-202134
+                  - img [ref=e407]
+                  - text: Publisher
+                  - generic [ref=e409]: (opens in a new tab)
+                - button "Save to Library" [ref=e411] [cursor=pointer]:
+                  - img [ref=e413]
+                  - generic [ref=e415]: Save
+                - button "Cite this paper" [ref=e417] [cursor=pointer]:
+                  - img [ref=e419]
+                  - generic [ref=e421]: Cite
+            - generic [ref=e422]:
+              - link "Tax-Rate Arbitrage Realization of Long-Term Gains to Enable Short-Term Loss Harvesting" [ref=e423] [cursor=pointer]:
+                - /url: /paper/Tax-Rate-Arbitrage-Realization-of-Long-Term-Gains-Goldberg/4b31129bc95fcc40142484e0e44f529433f5b869
+                - heading "Tax-Rate Arbitrage Realization of Long-Term Gains to Enable Short-Term Loss Harvesting" [level=2] [ref=e424]:
+                  - generic [ref=e425]:
+                    - text: Tax-
+                    - emphasis [ref=e426]: Rate
+                    - text: Arbitrage Realization of
+                    - emphasis [ref=e427]: Long
+                    - text: "-"
+                    - emphasis [ref=e428]: Term
+                    - text: Gains to Enable Short-
+                    - emphasis [ref=e429]: Term
+                    - text: Loss Harvesting
+              - list [ref=e430]:
+                - link "Lisa R. Goldberg" [ref=e433] [cursor=pointer]:
+                  - /url: /author/Lisa-R.-Goldberg/2262580729
+                  - generic [ref=e434]: Lisa R. Goldberg
+                - generic [ref=e435]:
+                  - generic [ref=e436]: Economics, Law
+                  - text: •
+                - listitem [ref=e437]:
+                  - generic [ref=e439]: "2021"
+              - generic [ref=e441]:
+                - text: We look at an enhanced loss-harvesting
+                - emphasis [ref=e442]: strategy
+                - text: ", tax-"
+                - emphasis [ref=e443]: rate
+                - text: arbitrage, which exploits the differential between shortand
+                - emphasis [ref=e444]: long
+                - text: "-"
+                - emphasis [ref=e445]: term
+                - text: tax
+                - emphasis [ref=e446]: rates
+                - text: . In our study, we examine tax-managed
+                - emphasis [ref=e447]: strategies
+                - text: over…
+                - button "Expand truncated text" [ref=e448] [cursor=pointer]:
+                  - generic [ref=e449]: Expand
+              - generic [ref=e450]:
+                - list [ref=e452]:
+                  - listitem [ref=e453]:
+                    - link "1 citation" [ref=e455] [cursor=pointer]:
+                      - /url: /paper/Tax-Rate-Arbitrage-Realization-of-Long-Term-Gains-Goldberg/4b31129bc95fcc40142484e0e44f529433f5b869#citing-papers
+                      - generic "1 citation" [ref=e456]:
+                        - img [ref=e457]
+                        - generic [ref=e459]: "1"
+                  - listitem [ref=e460]:
+                    - link "This paper has an available PDF. (opens in a new tab)" [ref=e462] [cursor=pointer]:
+                      - /url: https://cdar.berkeley.edu/sites/default/files/tax_arb.cdar.pdf
+                      - generic "This paper has an available PDF." [ref=e463]:
+                        - generic [ref=e464]: PDF
+                      - generic [ref=e465]: (opens in a new tab)
+                - generic [ref=e467]:
+                  - button "Save to Library" [ref=e469] [cursor=pointer]:
+                    - img [ref=e471]
+                    - generic [ref=e473]: Save
+                  - button "Cite this paper" [ref=e475] [cursor=pointer]:
+                    - img [ref=e477]
+                    - generic [ref=e479]: Cite
+            - generic [ref=e480]:
+              - link "Long-term mortality rate for cardiovascular disease in 656 chronic myeloid leukaemia patients treated with second- and third-generation tyrosine kinase inhibitors." [ref=e481] [cursor=pointer]:
+                - /url: /paper/Long-term-mortality-rate-for-cardiovascular-disease-Caocci-Mulas/59058548c104667544e7f51c5e0779af2095f6a5
+                - heading "Long-term mortality rate for cardiovascular disease in 656 chronic myeloid leukaemia patients treated with second- and third-generation tyrosine kinase inhibitors." [level=2] [ref=e482]:
+                  - generic [ref=e483]:
+                    - emphasis [ref=e484]: Long
+                    - text: "-"
+                    - emphasis [ref=e485]: term
+                    - text: mortality
+                    - emphasis [ref=e486]: rate
+                    - text: for cardiovascular disease in 656 chronic myeloid leukaemia patients treated with second- and third-generation tyrosine kinase inhibitors.
+              - list [ref=e487]:
+                - generic [ref=e488]:
+                  - link "G. Caocci" [ref=e490] [cursor=pointer]:
+                    - /url: /author/G.-Caocci/3311066
+                    - generic [ref=e491]: G. Caocci
+                  - link "O. Mulas" [ref=e493] [cursor=pointer]:
+                    - /url: /author/O.-Mulas/14010374
+                    - generic [ref=e494]: O. Mulas
+                  - generic [ref=e495]:
+                    - button "Show 31 more authors" [ref=e497] [cursor=pointer]: +31 authors
+                    - link "M. Breccia" [ref=e498] [cursor=pointer]:
+                      - /url: /author/M.-Breccia/6449685
+                      - generic [ref=e499]: M. Breccia
+                - generic [ref=e500]:
+                  - generic [ref=e501]: Medicine
+                  - text: •
+                - generic [ref=e502]:
+                  - link "International Journal of Cardiology" [ref=e503] [cursor=pointer]:
+                    - /url: /venue?name=International%20Journal%20of%20Cardiology
+                    - generic [ref=e504]: International Journal of Cardiology
+                  - text: •
+                - listitem [ref=e505]:
+                  - generic [ref=e507]: 24 October 2019
+              - generic [ref=e508]:
+                - button "TLDR" [ref=e511] [cursor=pointer]:
+                  - generic [ref=e512]: TLDR
+                - generic [ref=e513]:
+                  - text: Prevention st
+                  - emphasis [ref=e514]: rate
+                  - text: gies based on CV
+                  - emphasis [ref=e515]: risk
+                  - text: factors, in particular in those patients with a previous history of CV disease, should be considered.
+                - button "Expand truncated text" [ref=e516] [cursor=pointer]:
+                  - generic [ref=e517]: Expand
+              - generic [ref=e518]:
+                - list [ref=e520]:
+                  - listitem [ref=e521]:
+                    - link "20 citations" [ref=e523] [cursor=pointer]:
+                      - /url: /paper/Long-term-mortality-rate-for-cardiovascular-disease-Caocci-Mulas/59058548c104667544e7f51c5e0779af2095f6a5#citing-papers
+                      - generic "20 citations" [ref=e524]:
+                        - img [ref=e525]
+                        - generic [ref=e527]: "20"
+                  - listitem [ref=e528]:
+                    - link "This paper has an available PDF. (opens in a new tab)" [ref=e530] [cursor=pointer]:
+                      - /url: https://iris.unica.it/bitstream/11584/280341/5/IJCmerged.pdf
+                      - generic "This paper has an available PDF." [ref=e531]:
+                        - generic [ref=e532]: PDF
+                      - generic [ref=e533]: (opens in a new tab)
+                - generic [ref=e535]:
+                  - link "PubMed (opens in a new tab)" [ref=e537] [cursor=pointer]:
+                    - /url: https://www.ncbi.nlm.nih.gov/pubmed/31711851
+                    - img [ref=e538]
+                    - text: PubMed
+                    - generic [ref=e540]: (opens in a new tab)
+                  - button "Save to Library" [ref=e542] [cursor=pointer]:
+                    - img [ref=e544]
+                    - generic [ref=e546]: Save
+                  - button "Cite this paper" [ref=e548] [cursor=pointer]:
+                    - img [ref=e550]
+                    - generic [ref=e552]: Cite
+            - generic [ref=e553]:
+              - 'link "P074: Long-Term Cause-Specific Mortality in Hodgkin Lymphoma Patients – A Nationwide Danish Cohort Study" [ref=e554] [cursor=pointer]':
+                - /url: /paper/P074%3A-Long-Term-Cause-Specific-Mortality-in-Hodgkin-Rossetti-Juul/07b69246e2bfcaa83dc7f59570905cbd49ae0ee1
+                - 'heading "P074: Long-Term Cause-Specific Mortality in Hodgkin Lymphoma Patients – A Nationwide Danish Cohort Study" [level=2] [ref=e555]':
+                  - generic [ref=e556]:
+                    - text: "P074:"
+                    - emphasis [ref=e557]: Long
+                    - text: "-"
+                    - emphasis [ref=e558]: Term
+                    - text: Cause-Specific Mortality in Hodgkin Lymphoma Patients – A Nationwide Danish Cohort Study
+              - list [ref=e559]:
+                - generic [ref=e560]:
+                  - link "S. Rossetti" [ref=e562] [cursor=pointer]:
+                    - /url: /author/S.-Rossetti/2066966446
+                    - generic [ref=e563]: S. Rossetti
+                  - link "S. J. Juul" [ref=e565] [cursor=pointer]:
+                    - /url: /author/S.-J.-Juul/2187531363
+                    - generic [ref=e566]: S. J. Juul
+                  - generic [ref=e567]:
+                    - button "Show 9 more authors" [ref=e569] [cursor=pointer]: +9 authors
+                    - link "M. Hutchings" [ref=e570] [cursor=pointer]:
+                      - /url: /author/M.-Hutchings/145858173
+                      - generic [ref=e571]: M. Hutchings
+                - generic [ref=e572]:
+                  - generic [ref=e573]: Medicine, Environmental Science
+                  - text: •
+                - generic [ref=e574]:
+                  - link "HemaSphere" [ref=e575] [cursor=pointer]:
+                    - /url: /venue?name=HemaSphere
+                    - generic [ref=e576]: HemaSphere
+                  - text: •
+                - listitem [ref=e577]:
+                  - generic [ref=e579]: 1 October 2022
+              - generic [ref=e580]:
+                - button "TLDR" [ref=e583] [cursor=pointer]:
+                  - generic [ref=e584]: TLDR
+                - generic [ref=e585]:
+                  - text: This is the first study to demonst
+                  - emphasis [ref=e586]: rate
+                  - text: a dose-response relationship between radiation and CRC
+                  - emphasis [ref=e587]: risk
+                  - text: ", and modifi-cation of this effect by procarbazine, and results enable individualized CRC"
+                  - emphasis [ref=e588]: risk
+                  - text: estimations, identification of high-
+                  - emphasis [ref=e589]: risk
+                  - text: survivors and optimization of treatment st
+                  - emphasis [ref=e590]: rate
+                  - text: gies for future patients.
+                - button "Expand truncated text" [ref=e591] [cursor=pointer]:
+                  - generic [ref=e592]: Expand
+              - generic [ref=e595]:
+                - link "Publisher (opens in a new tab)" [ref=e597] [cursor=pointer]:
+                  - /url: https://doi.org/10.1097/01.hs9.0000890864.61587.96
+                  - img [ref=e598]
+                  - text: Publisher
+                  - generic [ref=e600]: (opens in a new tab)
+                - button "Save to Library" [ref=e602] [cursor=pointer]:
+                  - img [ref=e604]
+                  - generic [ref=e606]: Save
+                - button "Cite this paper" [ref=e608] [cursor=pointer]:
+                  - img [ref=e610]
+                  - generic [ref=e612]: Cite
+            - generic [ref=e613]:
+              - 'link "A Regime-Filtered Intraday Trading Framework for Gold: Integrating VWAP Microstructure and EMA-Based Dynamic Exit Mechanisms" [ref=e614] [cursor=pointer]':
+                - /url: /paper/A-Regime-Filtered-Intraday-Trading-Framework-for-Bhatti/7d727b79060fd071a7875ff5cdfc2b7aff44f6c1
+                - 'heading "A Regime-Filtered Intraday Trading Framework for Gold: Integrating VWAP Microstructure and EMA-Based Dynamic Exit Mechanisms" [level=2] [ref=e615]':
+                  - generic [ref=e616]:
+                    - text: A Regime-Filtered Intraday
+                    - emphasis [ref=e617]: Trading
+                    - text: "Framework for Gold: Integrating VWAP Microstructure and EMA-Based Dynamic Exit Mechanisms"
+              - list [ref=e618]:
+                - link "Amaanullah Bhatti" [ref=e621] [cursor=pointer]:
+                  - /url: /author/Amaanullah-Bhatti/2347061877
+                  - generic [ref=e622]: Amaanullah Bhatti
+                - generic [ref=e623]:
+                  - generic [ref=e624]: Economics, Business
+                  - text: •
+                - generic [ref=e625]:
+                  - link "Social Science Research Network" [ref=e626] [cursor=pointer]:
+                    - /url: /venue?name=Social%20Science%20Research%20Network
+                    - generic [ref=e627]: Social Science Research Network
+                  - text: •
+                - listitem [ref=e628]:
+                  - generic [ref=e630]: "2026"
+              - generic [ref=e632]:
+                - text: This paper presents, formalises, and empirically validates a fully rule-based intraday
+                - emphasis [ref=e633]: trading
+                - emphasis [ref=e634]: strategy
+                - text: for gold spot (XAU/USD) that integrates Volume-Weighted Average Price (VWAP) as a primary…
+                - button "Expand truncated text" [ref=e635] [cursor=pointer]:
+                  - generic [ref=e636]: Expand
+              - generic [ref=e639]:
+                - link "Publisher (opens in a new tab)" [ref=e641] [cursor=pointer]:
+                  - /url: https://doi.org/10.2139/ssrn.6650958
+                  - img [ref=e642]
+                  - text: Publisher
+                  - generic [ref=e644]: (opens in a new tab)
+                - button "Save to Library" [ref=e646] [cursor=pointer]:
+                  - img [ref=e648]
+                  - generic [ref=e650]: Save
+                - button "Cite this paper" [ref=e652] [cursor=pointer]:
+                  - img [ref=e654]
+                  - generic [ref=e656]: Cite
+            - generic [ref=e657]:
+              - 'link "Pacing strategies for atrioventricular block: a comparison of leadless, his bundle, and right ventricular stimulation" [ref=e658] [cursor=pointer]':
+                - /url: /paper/Pacing-strategies-for-atrioventricular-block%3A-a-of-Bagatin-Biffi/ac161a330ef0e07112f18469b8991ca99dbb47a2
+                - 'heading "Pacing strategies for atrioventricular block: a comparison of leadless, his bundle, and right ventricular stimulation" [level=2] [ref=e659]':
+                  - generic [ref=e660]:
+                    - text: Pacing
+                    - emphasis [ref=e661]: strategies
+                    - text: "for atrioventricular block: a"
+                    - emphasis [ref=e662]: comparison
+                    - text: of leadless, his bundle, and right ventricular stimulation
+              - list [ref=e663]:
+                - generic [ref=e664]:
+                  - link "A. Bagatin" [ref=e666] [cursor=pointer]:
+                    - /url: /author/A.-Bagatin/2343896656
+                    - generic [ref=e667]: A. Bagatin
+                  - link "M. Biffi" [ref=e669] [cursor=pointer]:
+                    - /url: /author/M.-Biffi/2069594768
+                    - generic [ref=e670]: M. Biffi
+                  - generic [ref=e671]:
+                    - button "Show 9 more authors" [ref=e673] [cursor=pointer]: +9 authors
+                    - link "M. Ziacchi" [ref=e674] [cursor=pointer]:
+                      - /url: /author/M.-Ziacchi/2266349470
+                      - generic [ref=e675]: M. Ziacchi
+                - generic [ref=e676]:
+                  - generic [ref=e677]: Medicine
+                  - text: •
+                - generic [ref=e678]:
+                  - link "European Heart Journal" [ref=e679] [cursor=pointer]:
+                    - /url: /venue?name=European%20Heart%20Journal
+                    - generic [ref=e680]: European Heart Journal
+                  - text: •
+                - listitem [ref=e681]:
+                  - generic [ref=e683]: 1 November 2025
+              - generic [ref=e684]:
+                - button "TLDR" [ref=e687] [cursor=pointer]:
+                  - generic [ref=e688]: TLDR
+                - generic [ref=e689]:
+                  - text: VDD LL pacing may be a viable alternative for specific patient groups, such as those requiring pacing less than 20% of the time or frail individuals at high
+                  - emphasis [ref=e690]: risk
+                  - text: of complications from transvenous implantation, as the suboptimal AV synchrony is traded off with lesser ventricular dyssynchrony.
+                - button "Expand truncated text" [ref=e691] [cursor=pointer]:
+                  - generic [ref=e692]: Expand
+              - generic [ref=e695]:
+                - link "Publisher (opens in a new tab)" [ref=e697] [cursor=pointer]:
+                  - /url: https://doi.org/10.1093/eurheartj%2Fehaf784.659
+                  - img [ref=e698]
+                  - text: Publisher
+                  - generic [ref=e700]: (opens in a new tab)
+                - button "Save to Library" [ref=e702] [cursor=pointer]:
+                  - img [ref=e704]
+                  - generic [ref=e706]: Save
+                - button "Cite this paper" [ref=e708] [cursor=pointer]:
+                  - img [ref=e710]
+                  - generic [ref=e712]: Cite
+          - generic [ref=e713]:
+            - button "previous page" [disabled]:
+              - generic:
+                - img
+            - generic: ...
+            - button "currently on page 1" [ref=e714] [cursor=pointer]:
+              - generic [ref=e715]: "1"
+            - button "navigate to page 2" [ref=e716] [cursor=pointer]:
+              - generic [ref=e717]: "2"
+            - button "navigate to page 3" [ref=e718] [cursor=pointer]:
+              - generic [ref=e719]: "3"
+            - button "navigate to page 4" [ref=e720] [cursor=pointer]:
+              - generic [ref=e721]: "4"
+            - generic:
+              - generic: ...
+            - button "next page" [ref=e722] [cursor=pointer]:
+              - img [ref=e724]
+    - contentinfo [ref=e728]:
+      - generic "Newsletter Subscribe" [ref=e730]:
+        - generic [ref=e731]: Stay Connected With Semantic Scholar
+        - generic [ref=e732]:
+          - textbox "Your E-mail Address" [ref=e733]
+          - button "Sign Up" [ref=e734] [cursor=pointer]:
+            - generic [ref=e735]: Sign Up
+      - generic [ref=e737]:
+        - generic [ref=e738]:
+          - heading "What Is Semantic Scholar?" [level=2] [ref=e739]
+          - paragraph [ref=e740]: Semantic Scholar is a free, AI-powered research tool for scientific literature, based at Ai2.
+          - link "Learn More" [ref=e741] [cursor=pointer]:
+            - /url: /about
+        - generic [ref=e742]:
+          - generic [ref=e743]:
+            - heading "About" [level=3] [ref=e744]
+            - link "About Us" [ref=e745] [cursor=pointer]:
+              - /url: /about
+            - link "Publishers" [ref=e746] [cursor=pointer]:
+              - /url: /about/publishers
+            - link "Blog" [ref=e747] [cursor=pointer]:
+              - /url: https://allenai.org/blog
+              - text: Blog
+              - generic [ref=e748]: (opens in a new tab)
+            - link "Ai2 Careers" [ref=e749] [cursor=pointer]:
+              - /url: https://allenai.org/careers?team=semantic+scholar#current-openings
+              - text: Ai2 Careers
+              - generic [ref=e750]: (opens in a new tab)
+          - generic [ref=e751]:
+            - heading "Product" [level=3] [ref=e752]
+            - link "Product Overview" [ref=e753] [cursor=pointer]:
+              - /url: /product
+            - link "Semantic Reader" [ref=e754] [cursor=pointer]:
+              - /url: /product/semantic-reader
+            - link "Scholar's Hub" [ref=e755] [cursor=pointer]:
+              - /url: /product/scholars-hub
+            - link "Beta Program" [ref=e756] [cursor=pointer]:
+              - /url: /product/beta-program
+            - link "Release Notes" [ref=e757] [cursor=pointer]:
+              - /url: /product/release-notes
+          - generic [ref=e758]:
+            - heading "API" [level=3] [ref=e759]
+            - link "API Overview" [ref=e760] [cursor=pointer]:
+              - /url: /product/api
+            - link "API Tutorials" [ref=e761] [cursor=pointer]:
+              - /url: /product/api%2Ftutorial
+            - link "API Documentation" [ref=e762] [cursor=pointer]:
+              - /url: https://api.semanticscholar.org/api-docs/
+              - text: API Documentation
+              - generic [ref=e763]: (opens in a new tab)
+            - link "API Gallery" [ref=e764] [cursor=pointer]:
+              - /url: /product/api%2Fgallery
+          - generic [ref=e765]:
+            - heading "Research" [level=3] [ref=e766]
+            - link "Publications" [ref=e767] [cursor=pointer]:
+              - /url: https://allenai.org/papers?tag=Semantic%20Scholar
+              - text: Publications
+              - generic [ref=e768]: (opens in a new tab)
+            - link "Research Careers" [ref=e769] [cursor=pointer]:
+              - /url: https://allenai.org/careers
+              - text: Research Careers
+              - generic [ref=e770]: (opens in a new tab)
+            - link "Resources" [ref=e771] [cursor=pointer]:
+              - /url: https://allenai.org/ai-for-science
+              - text: Resources
+              - generic [ref=e772]: (opens in a new tab)
+          - generic [ref=e773]:
+            - heading "Help" [level=3] [ref=e774]
+            - link "FAQ" [ref=e775] [cursor=pointer]:
+              - /url: /faq
+            - link "Librarians" [ref=e776] [cursor=pointer]:
+              - /url: /about/librarians
+            - link "Tutorials" [ref=e777] [cursor=pointer]:
+              - /url: /product/tutorials
+            - button "Contact" [ref=e778] [cursor=pointer]
+      - generic [ref=e780]:
+        - generic [ref=e781]:
+          - generic [ref=e782]:
+            - text: Proudly built by
+            - link "Ai2 (opens in a new tab)" [ref=e783] [cursor=pointer]:
+              - /url: http://allenai.org
+              - text: Ai2
+              - generic [ref=e784]: (opens in a new tab)
+          - generic [ref=e785]:
+            - button "Collaborators & Attributions" [ref=e787] [cursor=pointer]
+            - text: •
+            - link "Terms of Service" [ref=e788] [cursor=pointer]:
+              - /url: https://allenai.org/terms
+              - text: Terms of Service
+              - generic [ref=e789]: (opens in a new tab)
+            - text: •
+            - link "Privacy Policy" [ref=e790] [cursor=pointer]:
+              - /url: https://allenai.org/privacy-policy.html
+              - text: Privacy Policy
+              - generic [ref=e791]: (opens in a new tab)
+            - text: •
+            - link "API License Agreement" [ref=e792] [cursor=pointer]:
+              - /url: /product/api/license
+        - link "The Allen Institute for AI" [ref=e793] [cursor=pointer]:
+          - /url: http://allenai.org
+          - text: The Allen Institute for AI
+          - generic [ref=e794]: (opens in a new tab)

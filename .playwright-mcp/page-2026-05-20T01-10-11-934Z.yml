@@ -1,0 +1,1308 @@
+- generic [active] [ref=e1]:
+  - link "Jump to content" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "Site" [ref=e6]:
+        - generic "Main menu" [ref=e7]:
+          - button "Main menu" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: Main menu
+      - link "Wikipedia The Free Encyclopedia" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - generic [ref=e13]:
+          - img "Wikipedia" [ref=e14]
+          - img "The Free Encyclopedia" [ref=e15]
+    - generic [ref=e16]:
+      - search [ref=e17]:
+        - generic [ref=e20]:
+          - searchbox "Search Wikipedia" [ref=e23]
+          - button "Search" [ref=e25]
+      - navigation "Personal tools" [ref=e26]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Donate" [ref=e32] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+          - listitem [ref=e33]:
+            - link "Create account" [ref=e34] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:CreateAccount&returnto=Candlestick+pattern
+          - listitem [ref=e35]:
+            - link "Log in" [ref=e36] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:UserLogin&returnto=Candlestick+pattern
+  - generic [ref=e38]:
+    - navigation "Contents" [ref=e42]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "Contents" [level=2] [ref=e46]
+          - button "hide" [ref=e47] [cursor=pointer]
+        - list [ref=e48]:
+          - listitem [ref=e49]:
+            - link "(Top)" [ref=e50] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e51]: (Top)
+          - listitem [ref=e52]:
+            - link "History" [ref=e53] [cursor=pointer]:
+              - /url: "#History"
+              - generic [ref=e54]: History
+            - list
+          - listitem [ref=e55]:
+            - link "Formation of candlestick" [ref=e56] [cursor=pointer]:
+              - /url: "#Formation_of_candlestick"
+              - generic [ref=e57]: Formation of candlestick
+            - list
+          - listitem [ref=e58]:
+            - link "Simple patterns" [ref=e59] [cursor=pointer]:
+              - /url: "#Simple_patterns"
+              - generic [ref=e60]: Simple patterns
+            - list
+          - listitem [ref=e61]:
+            - link "Complex patterns" [ref=e62] [cursor=pointer]:
+              - /url: "#Complex_patterns"
+              - generic [ref=e63]: Complex patterns
+            - list
+          - listitem [ref=e64]:
+            - link "References" [ref=e65] [cursor=pointer]:
+              - /url: "#References"
+              - generic [ref=e66]: References
+            - list
+    - main [ref=e68]:
+      - generic [ref=e69]:
+        - heading "Candlestick pattern" [level=1] [ref=e70]:
+          - generic [ref=e71]: Candlestick pattern
+        - generic [ref=e72]:
+          - button "Go to an article in another language. Available in 2 languages" [ref=e73] [cursor=pointer]
+          - generic [ref=e76]: 2 languages
+      - generic [ref=e78]:
+        - navigation "Namespaces" [ref=e80]:
+          - generic [ref=e81]:
+            - generic:
+              - list:
+                - listitem [ref=e82]:
+                  - link "Article" [ref=e83] [cursor=pointer]:
+                    - /url: /wiki/Candlestick_pattern
+                    - generic [ref=e84]: Article
+                - listitem [ref=e85]:
+                  - link "Talk" [ref=e86] [cursor=pointer]:
+                    - /url: /wiki/Talk:Candlestick_pattern
+                    - generic [ref=e87]: Talk
+        - generic [ref=e88]:
+          - navigation "Views" [ref=e89]:
+            - generic [ref=e90]:
+              - generic:
+                - list:
+                  - listitem [ref=e91]:
+                    - link "Read" [ref=e92] [cursor=pointer]:
+                      - /url: /wiki/Candlestick_pattern
+                      - generic [ref=e93]: Read
+                  - listitem [ref=e94]:
+                    - link "Edit" [ref=e95] [cursor=pointer]:
+                      - /url: /w/index.php?title=Candlestick_pattern&action=edit
+                      - generic [ref=e96]: Edit
+                  - listitem [ref=e97]:
+                    - link "View history" [ref=e98] [cursor=pointer]:
+                      - /url: /w/index.php?title=Candlestick_pattern&action=history
+                      - generic [ref=e99]: View history
+          - navigation "Page tools" [ref=e100]:
+            - generic [ref=e101]:
+              - button "Tools" [ref=e102] [cursor=pointer]
+              - generic [ref=e104] [cursor=pointer]: Tools
+      - navigation "Appearance" [ref=e107]:
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - generic [ref=e111]: Appearance
+            - button "hide" [ref=e112] [cursor=pointer]
+          - generic [ref=e113]:
+            - generic [ref=e114]: Text
+            - list [ref=e116]:
+              - listitem [ref=e117]:
+                - generic [ref=e119]:
+                  - generic [ref=e120]:
+                    - radio "Small" [ref=e121]
+                    - generic [ref=e124]: Small
+                  - generic [ref=e125]:
+                    - radio "Standard" [checked] [ref=e126]
+                    - generic [ref=e129]: Standard
+                  - generic [ref=e130]:
+                    - radio "Large" [ref=e131]
+                    - generic [ref=e134]: Large
+          - generic [ref=e135]:
+            - generic [ref=e136]: Width
+            - list [ref=e138]:
+              - listitem [ref=e139]:
+                - generic [ref=e141]:
+                  - generic [ref=e142]:
+                    - radio "Standard" [checked] [ref=e143]
+                    - generic [ref=e146]: Standard
+                  - generic [ref=e147]:
+                    - radio "Wide" [ref=e148]
+                    - generic [ref=e151]: Wide
+          - generic [ref=e152]:
+            - generic [ref=e153]: Color
+            - list [ref=e155]:
+              - listitem [ref=e156]:
+                - generic [ref=e158]:
+                  - generic [ref=e159]:
+                    - radio "Automatic" [ref=e160]
+                    - generic [ref=e163]: Automatic
+                  - generic [ref=e164]:
+                    - radio "Light" [checked] [ref=e165]
+                    - generic [ref=e168]: Light
+                  - generic [ref=e169]:
+                    - radio "Dark" [ref=e170]
+                    - generic [ref=e173]: Dark
+      - generic "Candlestick pattern" [ref=e174]:
+        - generic [ref=e176]: From Wikipedia, the free encyclopedia
+        - generic [ref=e178]:
+          - paragraph [ref=e179]:
+            - text: In
+            - link "financial" [ref=e180] [cursor=pointer]:
+              - /url: /wiki/Finance
+            - link "technical analysis" [ref=e181] [cursor=pointer]:
+              - /url: /wiki/Technical_analysis
+            - text: ", a candlestick pattern is a movement in prices shown graphically on a"
+            - link "candlestick chart" [ref=e182] [cursor=pointer]:
+              - /url: /wiki/Candlestick_chart
+            - text: that some believe can help to identify repeating patterns of a particular market movement.
+            - superscript [ref=e183]:
+              - link "[1]" [ref=e184] [cursor=pointer]:
+                - /url: "#cite_note-1"
+            - text: The recognition of the pattern is subjective and programs that are used for charting have to rely on predefined rules to match the pattern.
+            - superscript [ref=e185]:
+              - link "[2]" [ref=e186] [cursor=pointer]:
+                - /url: "#cite_note-2"
+            - text: There are 42 recognized patterns that can be split into simple and complex patterns.
+            - superscript [ref=e187]:
+              - link "[3]" [ref=e188] [cursor=pointer]:
+                - /url: "#cite_note-3"
+          - generic [ref=e189]:
+            - heading "History" [level=2] [ref=e190]
+            - generic [ref=e191]:
+              - text: "["
+              - link "edit" [ref=e192] [cursor=pointer]:
+                - /url: /w/index.php?title=Candlestick_pattern&action=edit&section=1
+              - text: "]"
+          - paragraph [ref=e193]:
+            - text: Some of the earliest technical trading analysis was used to track prices of rice in the 18th century. Much of the credit for candlestick charting goes to
+            - link "Munehisa Homma" [ref=e194] [cursor=pointer]:
+              - /url: /wiki/Munehisa_Homma
+            - text: (1724–1803), a rice merchant from
+            - link "Sakata" [ref=e195] [cursor=pointer]:
+              - /url: /wiki/Sakata,_Yamagata
+            - text: ","
+            - link "Japan" [ref=e196] [cursor=pointer]:
+              - /url: /wiki/Japan
+            - text: who traded in the Dojima Rice market in
+            - link "Osaka" [ref=e197] [cursor=pointer]:
+              - /url: /wiki/Osaka
+            - text: during the
+            - link "Tokugawa Shogunate" [ref=e198] [cursor=pointer]:
+              - /url: /wiki/Tokugawa_Shogunate
+            - text: . While tracking price action, he saw patterns developing. He published his work in The Fountain of Gold — The Three Monkey Record of Money in 1755. In today’s dollars, he made about $10 billion.
+            - superscript [ref=e199]:
+              - link "[4]" [ref=e200] [cursor=pointer]:
+                - /url: "#cite_note-4"
+          - paragraph [ref=e201]:
+            - text: According to Steve Nison, however, candlestick charting came later, probably beginning after 1850.
+            - superscript [ref=e202]:
+              - link "[5]" [ref=e203] [cursor=pointer]:
+                - /url: "#cite_note-5"
+          - generic [ref=e204]:
+            - heading "Formation of candlestick" [level=2] [ref=e205]
+            - generic [ref=e206]:
+              - text: "["
+              - link "edit" [ref=e207] [cursor=pointer]:
+                - /url: /w/index.php?title=Candlestick_pattern&action=edit&section=2
+              - text: "]"
+          - note [ref=e208]:
+            - text: "Further information:"
+            - link "Candlestick chart" [ref=e209] [cursor=pointer]:
+              - /url: /wiki/Candlestick_chart
+          - figure "The aspects of a candlestick pattern" [ref=e210]:
+            - link [ref=e211] [cursor=pointer]:
+              - /url: /wiki/File:Candlestick_chart_scheme_03-en.svg
+              - img [ref=e212]
+            - generic [ref=e213]: The aspects of a candlestick pattern
+          - paragraph [ref=e214]:
+            - text: A candlestick chart (also called Japanese candlestick chart or K-line
+            - superscript [ref=e215]:
+              - link "[6]" [ref=e216] [cursor=pointer]:
+                - /url: "#cite_note-6"
+            - text: ) is a style of financial chart used to describe price movements of a
+            - link "security" [ref=e217] [cursor=pointer]:
+              - /url: /wiki/Security_(finance)
+            - text: ","
+            - link "derivative" [ref=e218] [cursor=pointer]:
+              - /url: /wiki/Derivative_(finance)
+            - text: ", or"
+            - link "currency" [ref=e219] [cursor=pointer]:
+              - /url: /wiki/Currency
+            - text: . Stock price prediction based on K-line patterns is the essence of candlestick technical analysis. However, there are some disputes on whether the K-line patterns have predictive power in academia.
+          - paragraph [ref=e220]: Candlesticks are graphical representations of price movements for a given period of time.
+          - paragraph [ref=e221]: They are commonly formed by the opening, high, low, and closing prices of a financial instrument.
+          - paragraph [ref=e222]: If the opening price is above the closing price then a filled (normally red or black) candlestick is drawn.
+          - paragraph [ref=e223]: If the closing price is above the opening price, then normally a green or hollow candlestick (white with black outline) is shown.
+          - paragraph [ref=e224]: The filled or hollow portion of the candle is known as the body or real body, and can be long, normal, or short depending on its proportion to the lines above or below it.
+          - paragraph [ref=e225]: The lines above and below, known as shadows, tails, or wicks, represent the high and low price ranges within a specified time period.
+          - paragraph [ref=e226]: However, not all candlesticks have shadows.
+          - generic [ref=e227]:
+            - heading "Simple patterns" [level=2] [ref=e228]
+            - generic [ref=e229]:
+              - text: "["
+              - link "edit" [ref=e230] [cursor=pointer]:
+                - /url: /w/index.php?title=Candlestick_pattern&action=edit&section=3
+              - text: "]"
+          - table [ref=e231]:
+            - rowgroup [ref=e232]:
+              - row [ref=e233]:
+                - cell [ref=e234]
+                - cell [ref=e235]
+                - cell [ref=e236]
+                - cell [ref=e237]
+              - row "Big Black Candle Has an unusually long black body with a wide range between high and low. Prices open near the high and close near the low. Considered a bearish pattern. Big White Candle Has an unusually long white body with a wide range between high and low of the day. Prices open near the low and close near the high. Considered a pattern with \"bullish\" market sentiment." [ref=e238]:
+                - cell [ref=e239]:
+                  - figure [ref=e240]:
+                    - link [ref=e241] [cursor=pointer]:
+                      - /url: /wiki/File:Big-black-candle.svg
+                      - img [ref=e242]
+                - cell "Big Black Candle Has an unusually long black body with a wide range between high and low. Prices open near the high and close near the low. Considered a bearish pattern." [ref=e243]:
+                  - text: Big Black Candle Has an unusually long black body with a wide range between high and low. Prices open near the high and close near the low. Considered a
+                  - link "bearish" [ref=e244] [cursor=pointer]:
+                    - /url: /wiki/Bearish
+                  - text: pattern.
+                - cell [ref=e245]:
+                  - figure [ref=e246]:
+                    - link [ref=e247] [cursor=pointer]:
+                      - /url: /wiki/File:Big-white-candle.svg
+                      - img [ref=e248]
+                - cell "Big White Candle Has an unusually long white body with a wide range between high and low of the day. Prices open near the low and close near the high. Considered a pattern with \"bullish\" market sentiment." [ref=e249]:
+                  - text: Big White Candle Has an unusually long white body with a wide range between high and low of the day. Prices open near the low and close near the high. Considered a pattern with "bullish"
+                  - link "market sentiment" [ref=e250] [cursor=pointer]:
+                    - /url: /wiki/Market_sentiment
+                  - text: .
+              - row [ref=e251]:
+                - cell [ref=e252]
+                - cell [ref=e253]
+                - cell [ref=e254]
+                - cell [ref=e255]
+              - row "Black Body Formed when the opening price is higher than the closing price. Considered to be a bearish signal. White Body Formed when the closing price is higher than the opening price and considered a bullish signal." [ref=e256]:
+                - cell [ref=e257]:
+                  - figure [ref=e258]:
+                    - link [ref=e259] [cursor=pointer]:
+                      - /url: /wiki/File:Black-body.svg
+                      - img [ref=e260]
+                - cell "Black Body Formed when the opening price is higher than the closing price. Considered to be a bearish signal." [ref=e261]
+                - cell [ref=e262]:
+                  - figure [ref=e263]:
+                    - link [ref=e264] [cursor=pointer]:
+                      - /url: /wiki/File:White-body.svg
+                      - img [ref=e265]
+                - cell "White Body Formed when the closing price is higher than the opening price and considered a bullish signal." [ref=e266]
+              - row [ref=e267]:
+                - cell [ref=e268]
+                - cell [ref=e269]
+                - cell [ref=e270]
+                - cell [ref=e271]
+              - row "Doji Formed when opening and closing prices are virtually the same. The lengths of shadows can vary. If previous are bearish, after a Doji, may be ready to bullish. Long-Legged Doji Consists of a Doji with very long upper and lower shadows. Indicates strong forces balanced in opposition. If previous are bullish, after long legged doji, may be ready to bearish." [ref=e272]:
+                - cell [ref=e273]:
+                  - figure [ref=e274]:
+                    - link [ref=e275] [cursor=pointer]:
+                      - /url: /wiki/File:Doji.svg
+                      - img [ref=e276]
+                - cell "Doji Formed when opening and closing prices are virtually the same. The lengths of shadows can vary. If previous are bearish, after a Doji, may be ready to bullish." [ref=e277]:
+                  - link "Doji" [ref=e279] [cursor=pointer]:
+                    - /url: /wiki/Doji
+                  - text: Formed when opening and closing prices are virtually the same. The lengths of shadows can vary. If previous are bearish, after a Doji, may be ready to bullish.
+                - cell [ref=e280]:
+                  - figure [ref=e281]:
+                    - link [ref=e282] [cursor=pointer]:
+                      - /url: /wiki/File:Long-legged-doji.svg
+                      - img [ref=e283]
+                - cell "Long-Legged Doji Consists of a Doji with very long upper and lower shadows. Indicates strong forces balanced in opposition. If previous are bullish, after long legged doji, may be ready to bearish." [ref=e284]
+              - row [ref=e285]:
+                - cell [ref=e286]
+                - cell [ref=e287]
+                - cell [ref=e288]
+                - cell [ref=e289]
+              - row "Dragonfly Doji Formed when the opening and the closing prices are at the highest of the day. If it has a longer lower shadow it signals an upwards trend in price. When appearing at market bottoms it is considered to be a reversal signal. Gravestone Doji Formed when the opening and closing prices are at the lowest of the day. If it has a longer upper shadow it signals a bearish trend. When it appears at market top it is considered a reversal signal." [ref=e290]:
+                - cell [ref=e291]:
+                  - figure [ref=e292]:
+                    - link [ref=e293] [cursor=pointer]:
+                      - /url: /wiki/File:Dragonfly-doji.svg
+                      - img [ref=e294]
+                - cell "Dragonfly Doji Formed when the opening and the closing prices are at the highest of the day. If it has a longer lower shadow it signals an upwards trend in price. When appearing at market bottoms it is considered to be a reversal signal." [ref=e295]
+                - cell [ref=e296]:
+                  - figure [ref=e297]:
+                    - link [ref=e298] [cursor=pointer]:
+                      - /url: /wiki/File:Gravestone-doji.svg
+                      - img [ref=e299]
+                - cell "Gravestone Doji Formed when the opening and closing prices are at the lowest of the day. If it has a longer upper shadow it signals a bearish trend. When it appears at market top it is considered a reversal signal." [ref=e300]:
+                  - text: Gravestone Doji Formed when the opening and closing prices are at the lowest of the day. If it has a longer upper shadow it signals a
+                  - link "bearish" [ref=e301] [cursor=pointer]:
+                    - /url: /wiki/Bearish
+                  - text: trend. When it appears at market top it is considered a reversal signal.
+              - row [ref=e302]:
+                - cell [ref=e303]
+                - cell [ref=e304]
+                - cell [ref=e305]
+                - cell [ref=e306]
+              - row "Hammer A black or white candlestick that consists of a small body near the high with little or no upper shadow and a long lower tail. Considered a bullish pattern during a downtrend. A hammer shows that although there were selling pressures during the day, ultimately a strong buying pressure drove the price back up. The colour of the body can vary, but green hammers indicate a stronger bull market than red hammers. Hanging Man A black or white candlestick that consists of a small body near the high with little or no upper shadow and a long lower tail. The lower tail should be two or three times the height of the body. Considered a bearish pattern during an uptrend." [ref=e307]:
+                - cell [ref=e308]:
+                  - figure [ref=e309]:
+                    - link [ref=e310] [cursor=pointer]:
+                      - /url: /wiki/File:Hammer-candlestick.svg
+                      - img [ref=e311]
+                - cell "Hammer A black or white candlestick that consists of a small body near the high with little or no upper shadow and a long lower tail. Considered a bullish pattern during a downtrend. A hammer shows that although there were selling pressures during the day, ultimately a strong buying pressure drove the price back up. The colour of the body can vary, but green hammers indicate a stronger bull market than red hammers." [ref=e312]:
+                  - text: Hammer A black or white candlestick that consists of a small body near the high with little or no upper shadow and a long lower tail. Considered a bullish pattern during a downtrend.
+                  - paragraph [ref=e313]: A hammer shows that although there were selling pressures during the day, ultimately a strong buying pressure drove the price back up. The colour of the body can vary, but green hammers indicate a stronger bull market than red hammers.
+                - cell [ref=e314]:
+                  - figure [ref=e315]:
+                    - link [ref=e316] [cursor=pointer]:
+                      - /url: /wiki/File:Hanging-man.svg
+                      - img [ref=e317]
+                - cell "Hanging Man A black or white candlestick that consists of a small body near the high with little or no upper shadow and a long lower tail. The lower tail should be two or three times the height of the body. Considered a bearish pattern during an uptrend." [ref=e318]
+              - row [ref=e319]:
+                - cell [ref=e320]
+                - cell [ref=e321]
+                - cell [ref=e322]
+                - cell [ref=e323]
+              - row "Inverted Hammer A black or white candlestick in an upside-down hammer position. Considered a bearish pattern in an uptrend. In a downtrend, it indicates a buying pressure, followed by a selling pressure that was not strong enough to drive the market price down. The inverse hammer suggests that buyers will soon have control of the market. Shooting Star A black or white candlestick that has a small body, a long upper shadow and little or no lower tail. Considered a bearish pattern in an uptrend." [ref=e324]:
+                - cell [ref=e325]:
+                  - figure [ref=e326]:
+                    - link [ref=e327] [cursor=pointer]:
+                      - /url: /wiki/File:Inverted-hammer.svg
+                      - img [ref=e328]
+                - cell "Inverted Hammer A black or white candlestick in an upside-down hammer position. Considered a bearish pattern in an uptrend. In a downtrend, it indicates a buying pressure, followed by a selling pressure that was not strong enough to drive the market price down. The inverse hammer suggests that buyers will soon have control of the market." [ref=e329]:
+                  - text: Inverted Hammer A black or white candlestick in an upside-down hammer position. Considered a bearish pattern in an uptrend.
+                  - paragraph [ref=e330]: In a downtrend, it indicates a buying pressure, followed by a selling pressure that was not strong enough to drive the market price down. The inverse hammer suggests that buyers will soon have control of the market.
+                - cell [ref=e331]:
+                  - figure [ref=e332]:
+                    - link [ref=e333] [cursor=pointer]:
+                      - /url: /wiki/File:Shooting-star.svg
+                      - img [ref=e334]
+                - cell "Shooting Star A black or white candlestick that has a small body, a long upper shadow and little or no lower tail. Considered a bearish pattern in an uptrend." [ref=e335]
+              - row [ref=e336]:
+                - cell [ref=e337]
+                - cell [ref=e338]
+                - cell [ref=e339]
+                - cell [ref=e340]
+              - row "Long Upper Shadow A black or white candlestick with an upper shadow that has a length of 2/3 or more of the total range of the candlestick. Normally considered a bearish signal when it appears around price resistance levels. Long Lower Shadow A black or white candlestick is formed with a lower tail that has a length of 2/3 or more of the total range of the candlestick. Normally considered a bullish signal when it appears around price support levels." [ref=e341]:
+                - cell [ref=e342]:
+                  - figure [ref=e343]:
+                    - link [ref=e344] [cursor=pointer]:
+                      - /url: /wiki/File:Long-upper-shadow.svg
+                      - img [ref=e345]
+                - cell "Long Upper Shadow A black or white candlestick with an upper shadow that has a length of 2/3 or more of the total range of the candlestick. Normally considered a bearish signal when it appears around price resistance levels." [ref=e346]
+                - cell [ref=e347]:
+                  - figure [ref=e348]:
+                    - link [ref=e349] [cursor=pointer]:
+                      - /url: /wiki/File:Long-lower-shadow.svg
+                      - img [ref=e350]
+                - cell "Long Lower Shadow A black or white candlestick is formed with a lower tail that has a length of 2/3 or more of the total range of the candlestick. Normally considered a bullish signal when it appears around price support levels." [ref=e351]
+              - row [ref=e352]:
+                - cell [ref=e353]
+                - cell [ref=e354]
+                - cell [ref=e355]
+                - cell [ref=e356]
+              - 'row "Marubozu (jp: まるぼうず, 丸坊主, close-cropped head, bald hill) A long or normal candlestick (black or white) with no shadow or tail. The high and the low represent the opening and the closing prices. Considered a continuation pattern. Spinning Top A black or white candlestick with a small body. The size of shadows can vary. Interpreted as a neutral pattern but gains importance when it is part of other formations." [ref=e357]':
+                - cell [ref=e358]:
+                  - figure [ref=e359]:
+                    - link [ref=e360] [cursor=pointer]:
+                      - /url: /wiki/File:Marubozu.svg
+                      - img [ref=e361]
+                - 'cell "Marubozu (jp: まるぼうず, 丸坊主, close-cropped head, bald hill) A long or normal candlestick (black or white) with no shadow or tail. The high and the low represent the opening and the closing prices. Considered a continuation pattern." [ref=e362]'
+                - cell [ref=e363]:
+                  - figure [ref=e364]:
+                    - link [ref=e365] [cursor=pointer]:
+                      - /url: /wiki/File:Spinning-top.svg
+                      - img [ref=e366]
+                - cell "Spinning Top A black or white candlestick with a small body. The size of shadows can vary. Interpreted as a neutral pattern but gains importance when it is part of other formations." [ref=e367]
+              - row [ref=e368]:
+                - cell [ref=e369]
+                - cell [ref=e370]
+                - cell [ref=e371]
+                - cell [ref=e372]
+              - row "Shaven Head A black or white candlestick with no upper shadow. [Compared with hammer.] Shaven Bottom A black or white candlestick with no lower tail. [Compare with Inverted Hammer.]" [ref=e373]:
+                - cell [ref=e374]:
+                  - figure [ref=e375]:
+                    - link [ref=e376] [cursor=pointer]:
+                      - /url: /wiki/File:Shaven-head.svg
+                      - img [ref=e377]
+                - cell "Shaven Head A black or white candlestick with no upper shadow. [Compared with hammer.]" [ref=e378]
+                - cell [ref=e379]:
+                  - figure [ref=e380]:
+                    - link [ref=e381] [cursor=pointer]:
+                      - /url: /wiki/File:Shaven-bottom.svg
+                      - img [ref=e382]
+                - cell "Shaven Bottom A black or white candlestick with no lower tail. [Compare with Inverted Hammer.]" [ref=e383]
+          - generic [ref=e384]:
+            - heading "Complex patterns" [level=2] [ref=e385]
+            - generic [ref=e386]:
+              - text: "["
+              - link "edit" [ref=e387] [cursor=pointer]:
+                - /url: /w/index.php?title=Candlestick_pattern&action=edit&section=4
+              - text: "]"
+          - table [ref=e388]:
+            - rowgroup [ref=e389]:
+              - row [ref=e390]:
+                - cell [ref=e391]
+                - cell [ref=e392]
+                - cell [ref=e393]
+                - cell [ref=e394]
+              - row "Bearish Harami Consists of an unusually large white body followed by a small black body (contained within a large white body). It is considered a bearish pattern when preceded by an uptrend. Bullish Harami Consists of an unusually large black body followed by a small white body (contained within large black body). It is considered a bullish pattern when preceded by a downtrend." [ref=e395]:
+                - cell [ref=e396]:
+                  - figure [ref=e397]:
+                    - link [ref=e398] [cursor=pointer]:
+                      - /url: /wiki/File:Bearish-harami.svg
+                      - img [ref=e399]
+                - cell "Bearish Harami Consists of an unusually large white body followed by a small black body (contained within a large white body). It is considered a bearish pattern when preceded by an uptrend." [ref=e400]:
+                  - generic [ref=e401]:
+                    - text: Bearish
+                    - link "Harami" [ref=e402] [cursor=pointer]:
+                      - /url: /wiki/Harami_(candlestick_pattern)
+                  - text: Consists of an unusually large white body followed by a small black body (contained within a large white body). It is considered a bearish pattern when preceded by an uptrend.
+                - cell [ref=e403]:
+                  - figure [ref=e404]:
+                    - link [ref=e405] [cursor=pointer]:
+                      - /url: /wiki/File:Bullish-harami.svg
+                      - img [ref=e406]
+                - cell "Bullish Harami Consists of an unusually large black body followed by a small white body (contained within large black body). It is considered a bullish pattern when preceded by a downtrend." [ref=e407]
+              - row [ref=e408]:
+                - cell [ref=e409]
+                - cell [ref=e410]
+                - cell [ref=e411]
+                - cell [ref=e412]
+              - row "Bearish Harami Cross A large white body followed by a Doji. Considered a reversal signal when it appears at the top. Bullish Harami Cross A large black body followed by a Doji. It is considered a reversal signal when preceded by a downtrend." [ref=e413]:
+                - cell [ref=e414]:
+                  - figure [ref=e415]:
+                    - link [ref=e416] [cursor=pointer]:
+                      - /url: /wiki/File:Bearish-harami-cross.svg
+                      - img [ref=e417]
+                - cell "Bearish Harami Cross A large white body followed by a Doji. Considered a reversal signal when it appears at the top." [ref=e418]:
+                  - text: Bearish Harami Cross A large white body followed by a
+                  - link "Doji" [ref=e419] [cursor=pointer]:
+                    - /url: /wiki/Doji
+                  - text: . Considered a reversal signal when it appears at the top.
+                - cell [ref=e420]:
+                  - figure [ref=e421]:
+                    - link [ref=e422] [cursor=pointer]:
+                      - /url: /wiki/File:Bullish-harami-cross.svg
+                      - img [ref=e423]
+                - cell "Bullish Harami Cross A large black body followed by a Doji. It is considered a reversal signal when preceded by a downtrend." [ref=e424]:
+                  - text: Bullish Harami Cross A large black body followed by a
+                  - link "Doji" [ref=e425] [cursor=pointer]:
+                    - /url: /wiki/Doji
+                  - text: . It is considered a reversal signal when preceded by a downtrend.
+              - row [ref=e426]:
+                - cell [ref=e427]
+                - cell [ref=e428]
+                - cell [ref=e429]
+                - cell [ref=e430]
+              - row "Engulfing Bearish Line Consists of a small white body that is contained within the following large black candlestick. When it appears at the top it is considered a major reversal signal. Engulfing Bullish Consists of a small black body that is contained within the following large white candlestick. When it appears at the bottom it is interpreted as a major reversal signal." [ref=e431]:
+                - cell [ref=e432]:
+                  - figure [ref=e433]:
+                    - link [ref=e434] [cursor=pointer]:
+                      - /url: /wiki/File:Engulfing-bearish-line.svg
+                      - img [ref=e435]
+                - cell "Engulfing Bearish Line Consists of a small white body that is contained within the following large black candlestick. When it appears at the top it is considered a major reversal signal." [ref=e436]
+                - cell [ref=e437]:
+                  - figure [ref=e438]:
+                    - link [ref=e439] [cursor=pointer]:
+                      - /url: /wiki/File:Engulfing-bullish-line.svg
+                      - img [ref=e440]
+                - cell "Engulfing Bullish Consists of a small black body that is contained within the following large white candlestick. When it appears at the bottom it is interpreted as a major reversal signal." [ref=e441]
+              - row [ref=e442]:
+                - cell [ref=e443]
+                - cell [ref=e444]
+                - cell [ref=e445]
+                - cell [ref=e446]
+              - row "Bearish 3-Method Formation (Also known as \"Falling Three\") A long black body followed by three small bodies (normally white) and a long black body. The three white bodies are contained within this jedi range of the first black body. This is considered a bearish continuation pattern. Bullish 3-Method Formation (Also known as \"Rising Three\") Consists of a long white body followed by three small bodies (normally black) and a long white body. The three black bodies are contained within the range of first white body. This is considered a bullish continuation pattern." [ref=e447]:
+                - cell [ref=e448]:
+                  - figure [ref=e449]:
+                    - link [ref=e450] [cursor=pointer]:
+                      - /url: /wiki/File:Bearish-3-method-formation.svg
+                      - img [ref=e451]
+                - cell "Bearish 3-Method Formation (Also known as \"Falling Three\") A long black body followed by three small bodies (normally white) and a long black body. The three white bodies are contained within this jedi range of the first black body. This is considered a bearish continuation pattern." [ref=e452]:
+                  - text: Bearish 3-Method Formation (Also known as "Falling Three") A long black body followed by three small bodies (normally white) and a long black body. The three white bodies are contained within this jedi range of the first black body. This is considered a
+                  - link "bearish" [ref=e453] [cursor=pointer]:
+                    - /url: /wiki/Bearish
+                  - text: continuation pattern.
+                - cell [ref=e454]:
+                  - figure [ref=e455]:
+                    - link [ref=e456] [cursor=pointer]:
+                      - /url: /wiki/File:Bullish-3-method-formation.svg
+                      - img [ref=e457]
+                - cell "Bullish 3-Method Formation (Also known as \"Rising Three\") Consists of a long white body followed by three small bodies (normally black) and a long white body. The three black bodies are contained within the range of first white body. This is considered a bullish continuation pattern." [ref=e458]
+              - row [ref=e459]:
+                - cell [ref=e460]
+                - cell [ref=e461]
+                - cell [ref=e462]
+                - cell [ref=e463]
+              - row "Evening Star Consists of a large white body candlestick followed by a small body candlestick (black or white) that gaps above the previous. The third is a black body candlestick that closes well within the large white body. It is considered a reversal signal when it appears at the top level. Evening Doji Star Consists of three candlesticks. First is a large white body candlestick followed by a Doji that gaps above the white body. The third candlestick is a black body that closes well into the white body. When it appears at the top it is considered a reversal signal. It signals a more bearish trend than the evening star pattern because of the Doji that has appeared between the two bodies." [ref=e464]:
+                - cell [ref=e465]:
+                  - figure [ref=e466]:
+                    - link [ref=e467] [cursor=pointer]:
+                      - /url: /wiki/File:Evening-star.svg
+                      - img [ref=e468]
+                - cell "Evening Star Consists of a large white body candlestick followed by a small body candlestick (black or white) that gaps above the previous. The third is a black body candlestick that closes well within the large white body. It is considered a reversal signal when it appears at the top level." [ref=e469]
+                - cell [ref=e470]:
+                  - figure [ref=e471]:
+                    - link [ref=e472] [cursor=pointer]:
+                      - /url: /wiki/File:Evening-doji-star.svg
+                      - img [ref=e473]
+                - cell "Evening Doji Star Consists of three candlesticks. First is a large white body candlestick followed by a Doji that gaps above the white body. The third candlestick is a black body that closes well into the white body. When it appears at the top it is considered a reversal signal. It signals a more bearish trend than the evening star pattern because of the Doji that has appeared between the two bodies." [ref=e474]:
+                  - text: Evening Doji Star Consists of three candlesticks. First is a large white body candlestick followed by a Doji that
+                  - link "gaps" [ref=e475] [cursor=pointer]:
+                    - /url: /wiki/Gap_(chart_pattern)
+                  - text: above the white body. The third candlestick is a black body that closes well into the white body. When it appears at the top it is considered a reversal signal. It signals a more bearish trend than the evening star pattern because of the Doji that has appeared between the two bodies.
+              - row [ref=e476]:
+                - cell [ref=e477]
+                - cell [ref=e478]
+                - cell [ref=e479]
+                - cell [ref=e480]
+              - row "Morning Star Consists of a large black body candlestick followed by a small body (black or white) that occurs below the large black body candlestick. On the following day, a third white body candlestick is formed that closes well into the black body candlestick. It is considered a major reversal signal when it appears at the bottom. Morning Doji Star Consists of a large black body candlestick followed by a Doji that occurred below the preceding candlestick. On the following day, a third white body candlestick is formed that closes well into the black body candlestick which appeared before the Doji. It is considered a major reversal signal that is more bullish than the regular morning star pattern because of the existence of the Doji." [ref=e481]:
+                - cell [ref=e482]:
+                  - figure [ref=e483]:
+                    - link [ref=e484] [cursor=pointer]:
+                      - /url: /wiki/File:Morning-star.svg
+                      - img [ref=e485]
+                - cell "Morning Star Consists of a large black body candlestick followed by a small body (black or white) that occurs below the large black body candlestick. On the following day, a third white body candlestick is formed that closes well into the black body candlestick. It is considered a major reversal signal when it appears at the bottom." [ref=e486]:
+                  - link "Morning Star" [ref=e488] [cursor=pointer]:
+                    - /url: /wiki/Morning_star_(candlestick_pattern)
+                  - text: Consists of a large black body candlestick followed by a small body (black or white) that occurs below the large black body candlestick. On the following day, a third white body candlestick is formed that closes well into the black body candlestick. It is considered a major reversal signal when it appears at the bottom.
+                - cell [ref=e489]:
+                  - figure [ref=e490]:
+                    - link [ref=e491] [cursor=pointer]:
+                      - /url: /wiki/File:Morning-doji-star.svg
+                      - img [ref=e492]
+                - cell "Morning Doji Star Consists of a large black body candlestick followed by a Doji that occurred below the preceding candlestick. On the following day, a third white body candlestick is formed that closes well into the black body candlestick which appeared before the Doji. It is considered a major reversal signal that is more bullish than the regular morning star pattern because of the existence of the Doji." [ref=e493]:
+                  - text: Morning Doji Star Consists of a large black body candlestick followed by a
+                  - link "Doji" [ref=e494] [cursor=pointer]:
+                    - /url: /wiki/Doji
+                  - text: that occurred below the preceding candlestick. On the following day, a third white body candlestick is formed that closes well into the black body candlestick which appeared before the Doji. It is considered a major reversal signal that is more bullish than the regular morning star pattern because of the existence of the Doji.
+              - row [ref=e495]:
+                - cell [ref=e496]
+                - cell [ref=e497]
+                - cell [ref=e498]
+                - cell [ref=e499]
+              - row "Falling Window A window (gap) is created when the high of the second candlestick is below the low of the preceding candlestick. It is considered that the window should be filled with a probable resistance. Rising Window A window (gap) is created when the low of the second candlestick is above the high of the preceding candlestick. It is considered that the window should provide support to the selling pressure." [ref=e500]:
+                - cell [ref=e501]:
+                  - figure [ref=e502]:
+                    - link [ref=e503] [cursor=pointer]:
+                      - /url: /wiki/File:Falling-window.svg
+                      - img [ref=e504]
+                - cell "Falling Window A window (gap) is created when the high of the second candlestick is below the low of the preceding candlestick. It is considered that the window should be filled with a probable resistance." [ref=e505]:
+                  - text: Falling Window A window (
+                  - link "gap" [ref=e506] [cursor=pointer]:
+                    - /url: /wiki/Gap_(chart_pattern)
+                  - text: ) is created when the high of the second candlestick is below the low of the preceding candlestick. It is considered that the window should be filled with a probable resistance.
+                - cell [ref=e507]:
+                  - figure [ref=e508]:
+                    - link [ref=e509] [cursor=pointer]:
+                      - /url: /wiki/File:Rising-window.svg
+                      - img [ref=e510]
+                - cell "Rising Window A window (gap) is created when the low of the second candlestick is above the high of the preceding candlestick. It is considered that the window should provide support to the selling pressure." [ref=e511]:
+                  - text: Rising Window A window (
+                  - link "gap" [ref=e512] [cursor=pointer]:
+                    - /url: /wiki/Gap_(chart_pattern)
+                  - text: ) is created when the low of the second candlestick is above the high of the preceding candlestick. It is considered that the window should provide support to the selling pressure.
+              - row [ref=e513]:
+                - cell [ref=e514]
+                - cell [ref=e515]
+                - cell [ref=e516]
+                - cell [ref=e517]
+              - row "Three black crows Consists of three long black candlesticks with consecutively lower closes. The closing prices are near to or at their lows. When it appears at the top it is considered a top reversal signal. Three White Soldiers Consists of three long white candlesticks with consecutively higher closes. The closing prices are near to or at their highs. When it appears at the bottom it is interpreted as a bottom reversal signal." [ref=e518]:
+                - cell [ref=e519]:
+                  - figure [ref=e520]:
+                    - link [ref=e521] [cursor=pointer]:
+                      - /url: /wiki/File:Three-black-crows.svg
+                      - img [ref=e522]
+                - cell "Three black crows Consists of three long black candlesticks with consecutively lower closes. The closing prices are near to or at their lows. When it appears at the top it is considered a top reversal signal." [ref=e523]:
+                  - link "Three black crows" [ref=e525] [cursor=pointer]:
+                    - /url: /wiki/Three_black_crows
+                  - text: Consists of three long black candlesticks with consecutively lower closes. The closing prices are near to or at their lows. When it appears at the top it is considered a top reversal signal.
+                - cell [ref=e526]:
+                  - figure [ref=e527]:
+                    - link [ref=e528] [cursor=pointer]:
+                      - /url: /wiki/File:Three-white-soldiers.svg
+                      - img [ref=e529]
+                - cell "Three White Soldiers Consists of three long white candlesticks with consecutively higher closes. The closing prices are near to or at their highs. When it appears at the bottom it is interpreted as a bottom reversal signal." [ref=e530]:
+                  - link "Three White Soldiers" [ref=e532] [cursor=pointer]:
+                    - /url: /wiki/Three_white_soldiers
+                  - text: Consists of three long white candlesticks with consecutively higher closes. The closing prices are near to or at their highs. When it appears at the bottom it is interpreted as a bottom reversal signal.
+              - row [ref=e533]:
+                - cell [ref=e534]
+                - cell [ref=e535]
+                - cell [ref=e536]
+                - cell [ref=e537]
+              - row "On Neckline In a downtrend, consists of a black candlestick followed by a small body white candlestick with its close is near the low of the preceding black candlestick. It is considered a bearish pattern when the low of the white candlestick is penetrated. Doji Star Consists of a black or white candlestick followed by a Doji that gaps above or below these. It is considered a reversal signal with confirmation during the next trading day." [ref=e538]:
+                - cell [ref=e539]:
+                  - figure [ref=e540]:
+                    - link [ref=e541] [cursor=pointer]:
+                      - /url: /wiki/File:On-neckline.svg
+                      - img [ref=e542]
+                - cell "On Neckline In a downtrend, consists of a black candlestick followed by a small body white candlestick with its close is near the low of the preceding black candlestick. It is considered a bearish pattern when the low of the white candlestick is penetrated." [ref=e543]
+                - cell [ref=e544]:
+                  - figure [ref=e545]:
+                    - link [ref=e546] [cursor=pointer]:
+                      - /url: /wiki/File:Doji-star.svg
+                      - img [ref=e547]
+                - cell "Doji Star Consists of a black or white candlestick followed by a Doji that gaps above or below these. It is considered a reversal signal with confirmation during the next trading day." [ref=e548]:
+                  - text: Doji Star Consists of a black or white candlestick followed by a Doji that
+                  - link "gaps" [ref=e549] [cursor=pointer]:
+                    - /url: /wiki/Gap_(chart_pattern)
+                  - text: above or below these. It is considered a reversal signal with confirmation during the next trading day.
+              - row [ref=e550]:
+                - cell [ref=e551]
+                - cell [ref=e552]
+                - cell [ref=e553]
+                - cell [ref=e554]
+              - row "Tweezer Tops Consists of two or more candlesticks with matching tops. The candlesticks may or may not be consecutive and their sizes or colours can vary. It is considered a minor reversal signal that becomes more important when the candlesticks form another pattern. Tweezer Bottoms Consists of two or more candlesticks with matching bottoms. The candlesticks may or may not be consecutive and their sizes or colours can vary. It is considered a minor reversal signal that becomes more important when the candlesticks form another pattern." [ref=e555]:
+                - cell [ref=e556]:
+                  - figure [ref=e557]:
+                    - link [ref=e558] [cursor=pointer]:
+                      - /url: /wiki/File:Tweezer-tops.svg
+                      - img [ref=e559]
+                - cell "Tweezer Tops Consists of two or more candlesticks with matching tops. The candlesticks may or may not be consecutive and their sizes or colours can vary. It is considered a minor reversal signal that becomes more important when the candlesticks form another pattern." [ref=e560]
+                - cell [ref=e561]:
+                  - figure [ref=e562]:
+                    - link [ref=e563] [cursor=pointer]:
+                      - /url: /wiki/File:Tweezer-bottoms.svg
+                      - img [ref=e564]
+                - cell "Tweezer Bottoms Consists of two or more candlesticks with matching bottoms. The candlesticks may or may not be consecutive and their sizes or colours can vary. It is considered a minor reversal signal that becomes more important when the candlesticks form another pattern." [ref=e565]
+              - row [ref=e566]:
+                - cell [ref=e567]
+                - cell [ref=e568]
+                - cell [ref=e569]
+                - cell [ref=e570]
+              - row "Dark Cloud Cover Consists of a long white candlestick followed by a black candlestick that opens above the high of the white candlestick and closes well into the body of the white candlestick. It is considered a bearish reversal signal during an uptrend. Piercing Line Consists of a black candlestick followed by a white candlestick that opens lower than the low of the preceding but closes more than halfway into the black body candlestick. It is considered a reversal signal when it appears at the bottom." [ref=e571]:
+                - cell [ref=e572]:
+                  - figure [ref=e573]:
+                    - link [ref=e574] [cursor=pointer]:
+                      - /url: /wiki/File:Dark-cloud-cover.svg
+                      - img [ref=e575]
+                - cell "Dark Cloud Cover Consists of a long white candlestick followed by a black candlestick that opens above the high of the white candlestick and closes well into the body of the white candlestick. It is considered a bearish reversal signal during an uptrend." [ref=e576]
+                - cell [ref=e577]:
+                  - figure [ref=e578]:
+                    - link [ref=e579] [cursor=pointer]:
+                      - /url: /wiki/File:Piercing-line.svg
+                      - img [ref=e580]
+                - cell "Piercing Line Consists of a black candlestick followed by a white candlestick that opens lower than the low of the preceding but closes more than halfway into the black body candlestick. It is considered a reversal signal when it appears at the bottom." [ref=e581]
+              - row [ref=e582]:
+                - cell [ref=e583]
+                - cell [ref=e584]
+                - cell [ref=e585]
+                - cell [ref=e586]
+              - row "Darth Maul The correct term for this candle is a \"high wave spinning top\", a small candle body with unusually large upper and lower shadows, suggesting that the prior trend has run into a period of indecision. The term \"Darth Maul\" comes from Star Wars, as the candle looks somewhat like a lightsaber. Judas Candle Consists of a large black candle followed by a smaller white candle with a lower tail which is equal to the black candle in length. This is indicative of price capitulation." [ref=e587]:
+                - cell [ref=e588]:
+                  - figure [ref=e589]:
+                    - link [ref=e590] [cursor=pointer]:
+                      - /url: /wiki/File:DarthMaulCandle.png
+                      - img [ref=e591]
+                - cell "Darth Maul The correct term for this candle is a \"high wave spinning top\", a small candle body with unusually large upper and lower shadows, suggesting that the prior trend has run into a period of indecision. The term \"Darth Maul\" comes from Star Wars, as the candle looks somewhat like a lightsaber." [ref=e592]:
+                  - text: Darth Maul The correct term for this candle is a "high wave spinning top", a small candle body with unusually large upper and lower shadows, suggesting that the prior trend has run into a period of indecision. The term "Darth Maul" comes from
+                  - link "Star Wars" [ref=e594] [cursor=pointer]:
+                    - /url: /wiki/Star_Wars
+                  - text: ", as the candle looks somewhat like a lightsaber."
+                - cell [ref=e595]:
+                  - figure [ref=e596]:
+                    - link [ref=e597] [cursor=pointer]:
+                      - /url: /wiki/File:JudasCandle.png
+                      - img [ref=e598]
+                - cell "Judas Candle Consists of a large black candle followed by a smaller white candle with a lower tail which is equal to the black candle in length. This is indicative of price capitulation." [ref=e599]
+              - row [ref=e600]:
+                - cell [ref=e601]
+                - cell [ref=e602]
+                - cell [ref=e603]
+                - cell [ref=e604]
+              - row "Island reversal In both stock trading and financial technical analysis, an island reversal is a candlestick pattern with compact trading activity within a range of prices, separated from the move preceding it. A \"candlestick pattern\" is a movement in prices shown graphically on a candlestick chart. This separation shown on the chart, is said to be caused by an exhaustion gap and the subsequent move in the opposite direction occurs as a result of a breakaway gap." [ref=e605]:
+                - cell [ref=e606]:
+                  - figure [ref=e607]:
+                    - link [ref=e608] [cursor=pointer]:
+                      - /url: /wiki/File:The_island_reversal_new.jpg
+                      - img [ref=e609]
+                - cell "Island reversal In both stock trading and financial technical analysis, an island reversal is a candlestick pattern with compact trading activity within a range of prices, separated from the move preceding it. A \"candlestick pattern\" is a movement in prices shown graphically on a candlestick chart. This separation shown on the chart, is said to be caused by an exhaustion gap and the subsequent move in the opposite direction occurs as a result of a breakaway gap." [ref=e610]:
+                  - link "Island reversal" [ref=e612] [cursor=pointer]:
+                    - /url: /wiki/Island_reversal
+                  - text: In both
+                  - link "stock trading" [ref=e613] [cursor=pointer]:
+                    - /url: /wiki/Stock_trading
+                  - text: and
+                  - link "financial" [ref=e614] [cursor=pointer]:
+                    - /url: /wiki/Finance
+                  - link "technical analysis" [ref=e615] [cursor=pointer]:
+                    - /url: /wiki/Technical_analysis
+                  - text: ", an island reversal is a candlestick pattern with compact trading activity within a range of prices, separated from the move preceding it. A \"candlestick pattern\" is a movement in prices shown graphically on a"
+                  - link "candlestick chart" [ref=e616] [cursor=pointer]:
+                    - /url: /wiki/Candlestick_chart
+                  - text: . This separation shown on the chart, is said to be caused by an
+                  - link "exhaustion gap" [ref=e617] [cursor=pointer]:
+                    - /url: /wiki/Gaps_(Technical_analysis)
+                  - text: and the subsequent move in the opposite direction occurs as a result of a
+                  - link "breakaway gap" [ref=e618] [cursor=pointer]:
+                    - /url: /wiki/Gaps_(Technical_analysis)
+                  - text: .
+          - generic [ref=e619]:
+            - heading "References" [level=2] [ref=e620]
+            - generic [ref=e621]:
+              - text: "["
+              - link "edit" [ref=e622] [cursor=pointer]:
+                - /url: /w/index.php?title=Candlestick_pattern&action=edit&section=5
+              - text: "]"
+          - list [ref=e625]:
+            - listitem [ref=e626]:
+              - link "Jump up" [ref=e629] [cursor=pointer]:
+                - /url: "#cite_ref-1"
+                - text: ^
+              - generic [ref=e630]:
+                - generic [ref=e631]:
+                  - 'link "\"Introduction of Bearsh chart patterns: How to become profitable in trading with the help of them - Trading Counselor\"" [ref=e632] [cursor=pointer]':
+                    - /url: https://tradingcounselor.com/brief-interpretation-of-bearish-chart-pattern/
+                  - text: . 2023-12-29
+                  - generic [ref=e633]: . Retrieved 2024-05-12
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=unknown&rft.btitle=Introduction+of+Bearsh+chart+patterns%3A+How+to+become+profitable+in+trading+with+the+help+of+them+-+Trading+Counselor&rft.date=2023-12-29&rft_id=https%3A%2F%2Ftradingcounselor.com%2Fbrief-interpretation-of-bearish-chart-pattern%2F&rfr_id=info%3Asid%2Fen.wikipedia.org%3ACandlestick+pattern"
+            - listitem [ref=e634]:
+              - link "Jump up" [ref=e637] [cursor=pointer]:
+                - /url: "#cite_ref-2"
+                - text: ^
+              - generic [ref=e638]:
+                - generic [ref=e639]:
+                  - text: Lebeau, Charles (1991).
+                  - link "Technical Traders Guide to Computer Analysis of the Futures Markets" [ref=e640] [cursor=pointer]:
+                    - /url: https://www.amazon.com/Technical-Traders-Computer-Analysis-Futures/dp/1556234686/ref=sr_1_1?s=books&ie=UTF8&qid=1326806415&sr=1-1
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=Technical+Traders+Guide+to+Computer+Analysis+of+the+Futures+Markets&rft.date=1991&rft.aulast=Lebeau&rft.aufirst=Charles&rft_id=https%3A%2F%2Fwww.amazon.com%2FTechnical-Traders-Computer-Analysis-Futures%2Fdp%2F1556234686%2Fref%3Dsr_1_1%3Fs%3Dbooks%26ie%3DUTF8%26qid%3D1326806415%26sr%3D1-1&rfr_id=info%3Asid%2Fen.wikipedia.org%3ACandlestick+pattern"
+            - listitem [ref=e641]:
+              - link "Jump up" [ref=e644] [cursor=pointer]:
+                - /url: "#cite_ref-3"
+                - text: ^
+              - generic [ref=e645]:
+                - generic [ref=e646]:
+                  - 'link "\"Candlestick Patterns: A Complete Tutorial\"" [ref=e647] [cursor=pointer]':
+                    - /url: https://web.archive.org/web/20250226094454/https://thelazytrader.com/candlestick-patterns
+                  - text: . The Lazy Trader. Archived from
+                  - link "the original" [ref=e648] [cursor=pointer]:
+                    - /url: https://thelazytrader.com/candlestick-patterns
+                  - text: on 2025-02-26
+                  - generic [ref=e649]: . Retrieved 2024-02-17
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=The+Lazy+Trader&rft.atitle=Candlestick+Patterns%3A+A+Complete+Tutorial&rft_id=https%3A%2F%2Fthelazytrader.com%2Fcandlestick-patterns&rfr_id=info%3Asid%2Fen.wikipedia.org%3ACandlestick+pattern"
+            - listitem [ref=e650]:
+              - link "Jump up" [ref=e653] [cursor=pointer]:
+                - /url: "#cite_ref-4"
+                - text: ^
+              - generic [ref=e654]:
+                - generic [ref=e655]:
+                  - link "Honma, The Fountain of Gold" [ref=e656] [cursor=pointer]:
+                    - /url: https://books.apple.com/us/book/honma-the-fountain-of-gold/id1476946582
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&rft.genre=book&rft.btitle=Honma%2C+The+Fountain+of+Gold&rft_id=https%3A%2F%2Fbooks.apple.com%2Fus%2Fbook%2Fhonma-the-fountain-of-gold%2Fid1476946582&rfr_id=info%3Asid%2Fen.wikipedia.org%3ACandlestick+pattern"
+            - listitem [ref=e657]:
+              - link "Jump up" [ref=e660] [cursor=pointer]:
+                - /url: "#cite_ref-5"
+                - text: ^
+              - generic [ref=e661]:
+                - generic [ref=e662]:
+                  - link "\"Introduction to Candlesticks\"" [ref=e663] [cursor=pointer]:
+                    - /url: http://stockcharts.com/school/doku.php?id=chart_school:chart_analysis:introduction_to_candlesticks
+                  - text: . StockCharts. Stockcharts.com
+                  - generic [ref=e664]: . Retrieved 29 June 2016
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=unknown&rft.jtitle=StockCharts&rft.atitle=Introduction+to+Candlesticks&rft_id=http%3A%2F%2Fstockcharts.com%2Fschool%2Fdoku.php%3Fid%3Dchart_school%3Achart_analysis%3Aintroduction_to_candlesticks&rfr_id=info%3Asid%2Fen.wikipedia.org%3ACandlestick+pattern"
+            - listitem [ref=e665]:
+              - link "Jump up" [ref=e668] [cursor=pointer]:
+                - /url: "#cite_ref-6"
+                - text: ^
+              - generic [ref=e669]:
+                - generic [ref=e670]:
+                  - text: Tao, Lv; Hao, Yongtao; Yijie, Hao; Chunfeng, Shen (2017).
+                  - link "\"K-Line Patterns' Predictive Power Analysis Using the Methods of Similarity Match and Clustering\"" [ref=e671] [cursor=pointer]:
+                    - /url: https://doi.org/10.1155%2F2017%2F3096917
+                  - text: ". Mathematical Problems in Engineering. 2017: 1–11."
+                  - link "doi" [ref=e672] [cursor=pointer]:
+                    - /url: /wiki/Doi_(identifier)
+                  - text: ":"
+                  - generic "Freely accessible" [ref=e673]:
+                    - link "10.1155/2017/3096917" [ref=e674] [cursor=pointer]:
+                      - /url: https://doi.org/10.1155%2F2017%2F3096917
+                  - text: .
+                - generic "ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&rft.genre=article&rft.jtitle=Mathematical+Problems+in+Engineering&rft.atitle=K-Line+Patterns%E2%80%99+Predictive+Power+Analysis+Using+the+Methods+of+Similarity+Match+and+Clustering&rft.volume=2017&rft.pages=1-11&rft.date=2017&rft_id=info%3Adoi%2F10.1155%2F2017%2F3096917&rft.aulast=Tao&rft.aufirst=Lv&rft.au=Hao%2C+Yongtao&rft.au=Yijie%2C+Hao&rft.au=Chunfeng%2C+Shen&rft_id=https%3A%2F%2Fdoi.org%2F10.1155%252F2017%252F3096917&rfr_id=info%3Asid%2Fen.wikipedia.org%3ACandlestick+pattern"
+          - navigation "Technical analysis" [ref=e675]:
+            - table [ref=e676]:
+              - rowgroup [ref=e677]:
+                - row "[hide] v · t · e Technical analysis" [ref=e678]:
+                  - columnheader "[hide] v · t · e Technical analysis" [ref=e679]:
+                    - button "[hide]" [expanded] [ref=e680] [cursor=pointer]
+                    - list [ref=e682]:
+                      - listitem [ref=e683]:
+                        - link "v" [ref=e684] [cursor=pointer]:
+                          - /url: /wiki/Template:Technical_analysis
+                        - text: ·
+                      - listitem [ref=e685]:
+                        - link "t" [ref=e686] [cursor=pointer]:
+                          - /url: /wiki/Template_talk:Technical_analysis
+                        - text: ·
+                      - listitem [ref=e687]:
+                        - link "e" [ref=e688] [cursor=pointer]:
+                          - /url: /wiki/Special:EditPage/Template:Technical_analysis
+                    - link "Technical analysis" [ref=e690] [cursor=pointer]:
+                      - /url: /wiki/Technical_analysis
+                - row "Concepts Breakout · Dead cat bounce · Dow theory · Elliott wave principle · Market trend" [ref=e691]:
+                  - rowheader "Concepts" [ref=e692]
+                  - cell "Breakout · Dead cat bounce · Dow theory · Elliott wave principle · Market trend" [ref=e693]:
+                    - list [ref=e695]:
+                      - listitem [ref=e696]:
+                        - link "Breakout" [ref=e697] [cursor=pointer]:
+                          - /url: /wiki/Breakout_(technical_analysis)
+                        - text: ·
+                      - listitem [ref=e698]:
+                        - link "Dead cat bounce" [ref=e699] [cursor=pointer]:
+                          - /url: /wiki/Dead_cat_bounce
+                        - text: ·
+                      - listitem [ref=e700]:
+                        - link "Dow theory" [ref=e701] [cursor=pointer]:
+                          - /url: /wiki/Dow_theory
+                        - text: ·
+                      - listitem [ref=e702]:
+                        - link "Elliott wave principle" [ref=e703] [cursor=pointer]:
+                          - /url: /wiki/Elliott_wave_principle
+                        - text: ·
+                      - listitem [ref=e704]:
+                        - link "Market trend" [ref=e705] [cursor=pointer]:
+                          - /url: /wiki/Market_trend
+                - row "Charts Candlestick · Renko · Kagi · Line · Open-high-low-close · Point and figure · Line break" [ref=e706]:
+                  - rowheader "Charts" [ref=e707]
+                  - cell "Candlestick · Renko · Kagi · Line · Open-high-low-close · Point and figure · Line break" [ref=e708]:
+                    - list [ref=e710]:
+                      - listitem [ref=e711]:
+                        - link "Candlestick" [ref=e712] [cursor=pointer]:
+                          - /url: /wiki/Candlestick_chart
+                        - text: ·
+                      - listitem [ref=e713]:
+                        - link "Renko" [ref=e714] [cursor=pointer]:
+                          - /url: /wiki/Renko_chart
+                        - text: ·
+                      - listitem [ref=e715]:
+                        - link "Kagi" [ref=e716] [cursor=pointer]:
+                          - /url: /wiki/Kagi_chart
+                        - text: ·
+                      - listitem [ref=e717]:
+                        - link "Line" [ref=e718] [cursor=pointer]:
+                          - /url: /wiki/Line_chart
+                        - text: ·
+                      - listitem [ref=e719]:
+                        - link "Open-high-low-close" [ref=e720] [cursor=pointer]:
+                          - /url: /wiki/Open-high-low-close_chart
+                        - text: ·
+                      - listitem [ref=e721]:
+                        - link "Point and figure" [ref=e722] [cursor=pointer]:
+                          - /url: /wiki/Point_and_figure_chart
+                        - text: ·
+                      - listitem [ref=e723]:
+                        - link "Line break" [ref=e724] [cursor=pointer]:
+                          - /url: /wiki/Line_break_chart
+                - row "Patterns Chart Broadening top · Cup and handle · Double top and double bottom · Flag and pennant · Gap · Head and shoulders · Island reversal · Price channels · Triangle · Triple top and triple bottom · Wedge pattern Candlestick Simple Doji Complex Hikkake pattern · Morning star · Three black crows · Three white soldiers Point and figure Bull trap · Bear trap" [ref=e725]:
+                  - rowheader "Patterns" [ref=e726]
+                  - cell "Chart Broadening top · Cup and handle · Double top and double bottom · Flag and pennant · Gap · Head and shoulders · Island reversal · Price channels · Triangle · Triple top and triple bottom · Wedge pattern Candlestick Simple Doji Complex Hikkake pattern · Morning star · Three black crows · Three white soldiers Point and figure Bull trap · Bear trap" [ref=e727]:
+                    - table [ref=e728]:
+                      - rowgroup [ref=e729]:
+                        - row "Chart Broadening top · Cup and handle · Double top and double bottom · Flag and pennant · Gap · Head and shoulders · Island reversal · Price channels · Triangle · Triple top and triple bottom · Wedge pattern" [ref=e730]:
+                          - rowheader "Chart" [ref=e731]:
+                            - link "Chart" [ref=e732] [cursor=pointer]:
+                              - /url: /wiki/Chart_pattern
+                          - cell "Broadening top · Cup and handle · Double top and double bottom · Flag and pennant · Gap · Head and shoulders · Island reversal · Price channels · Triangle · Triple top and triple bottom · Wedge pattern" [ref=e733]:
+                            - list [ref=e735]:
+                              - listitem [ref=e736]:
+                                - link "Broadening top" [ref=e737] [cursor=pointer]:
+                                  - /url: /wiki/Broadening_top
+                                - text: ·
+                              - listitem [ref=e738]:
+                                - link "Cup and handle" [ref=e739] [cursor=pointer]:
+                                  - /url: /wiki/Cup_and_handle
+                                - text: ·
+                              - listitem [ref=e740]:
+                                - link "Double top and double bottom" [ref=e741] [cursor=pointer]:
+                                  - /url: /wiki/Double_top_and_double_bottom
+                                - text: ·
+                              - listitem [ref=e742]:
+                                - link "Flag and pennant" [ref=e743] [cursor=pointer]:
+                                  - /url: /wiki/Flag_and_pennant_patterns
+                                - text: ·
+                              - listitem [ref=e744]:
+                                - link "Gap" [ref=e745] [cursor=pointer]:
+                                  - /url: /wiki/Gap_(chart_pattern)
+                                - text: ·
+                              - listitem [ref=e746]:
+                                - link "Head and shoulders" [ref=e747] [cursor=pointer]:
+                                  - /url: /wiki/Head_and_shoulders_(chart_pattern)
+                                - text: ·
+                              - listitem [ref=e748]:
+                                - link "Island reversal" [ref=e749] [cursor=pointer]:
+                                  - /url: /wiki/Island_reversal
+                                - text: ·
+                              - listitem [ref=e750]:
+                                - link "Price channels" [ref=e751] [cursor=pointer]:
+                                  - /url: /wiki/Price_channels
+                                - text: ·
+                              - listitem [ref=e752]:
+                                - link "Triangle" [ref=e753] [cursor=pointer]:
+                                  - /url: /wiki/Triangle_(chart_pattern)
+                                - text: ·
+                              - listitem [ref=e754]:
+                                - link "Triple top and triple bottom" [ref=e755] [cursor=pointer]:
+                                  - /url: /wiki/Triple_top_and_triple_bottom
+                                - text: ·
+                              - listitem [ref=e756]:
+                                - link "Wedge pattern" [ref=e757] [cursor=pointer]:
+                                  - /url: /wiki/Wedge_pattern
+                        - row "Candlestick Simple Doji Complex Hikkake pattern · Morning star · Three black crows · Three white soldiers" [ref=e758]:
+                          - rowheader "Candlestick" [ref=e759]
+                          - cell "Simple Doji Complex Hikkake pattern · Morning star · Three black crows · Three white soldiers" [ref=e760]:
+                            - table [ref=e761]:
+                              - rowgroup [ref=e762]:
+                                - row "Simple Doji" [ref=e763]:
+                                  - rowheader "Simple" [ref=e764]:
+                                    - link "Simple" [ref=e765] [cursor=pointer]:
+                                      - /url: "#Simple_patterns"
+                                  - cell "Doji" [ref=e766]:
+                                    - list [ref=e768]:
+                                      - listitem [ref=e769]:
+                                        - link "Doji" [ref=e770] [cursor=pointer]:
+                                          - /url: /wiki/Doji
+                                - row "Complex Hikkake pattern · Morning star · Three black crows · Three white soldiers" [ref=e771]:
+                                  - rowheader "Complex" [ref=e772]:
+                                    - link "Complex" [ref=e773] [cursor=pointer]:
+                                      - /url: "#Complex_patterns"
+                                  - cell "Hikkake pattern · Morning star · Three black crows · Three white soldiers" [ref=e774]:
+                                    - list [ref=e776]:
+                                      - listitem [ref=e777]:
+                                        - link "Hikkake pattern" [ref=e778] [cursor=pointer]:
+                                          - /url: /wiki/Hikkake_pattern
+                                        - text: ·
+                                      - listitem [ref=e779]:
+                                        - link "Morning star" [ref=e780] [cursor=pointer]:
+                                          - /url: /wiki/Morning_star_(candlestick_pattern)
+                                        - text: ·
+                                      - listitem [ref=e781]:
+                                        - link "Three black crows" [ref=e782] [cursor=pointer]:
+                                          - /url: /wiki/Three_black_crows
+                                        - text: ·
+                                      - listitem [ref=e783]:
+                                        - link "Three white soldiers" [ref=e784] [cursor=pointer]:
+                                          - /url: /wiki/Three_white_soldiers
+                        - row "Point and figure Bull trap · Bear trap" [ref=e785]:
+                          - rowheader "Point and figure" [ref=e786]:
+                            - link "Point and figure" [ref=e787] [cursor=pointer]:
+                              - /url: /wiki/Point_and_figure_chart
+                          - cell "Bull trap · Bear trap" [ref=e788]:
+                            - list [ref=e790]:
+                              - listitem [ref=e791]:
+                                - link "Bull trap" [ref=e792] [cursor=pointer]:
+                                  - /url: /wiki/Bull_trap
+                                - text: ·
+                              - listitem [ref=e793]:
+                                - link "Bear trap" [ref=e794] [cursor=pointer]:
+                                  - /url: /wiki/Bear_market
+                - row [ref=e795]:
+                  - rowheader "Indicators" [ref=e796]:
+                    - link "Indicators" [ref=e797] [cursor=pointer]:
+                      - /url: /wiki/Technical_indicator
+                  - cell [ref=e798]:
+                    - table [ref=e799]:
+                      - rowgroup [ref=e800]:
+                        - row "Support & resistance Fibonacci retracement · Pivot point (PP)" [ref=e801]:
+                          - rowheader "Support & resistance" [ref=e802]:
+                            - link "Support & resistance" [ref=e803] [cursor=pointer]:
+                              - /url: /wiki/Support_and_resistance
+                              - text: Support &
+                              - text: resistance
+                          - cell "Fibonacci retracement · Pivot point (PP)" [ref=e804]:
+                            - list [ref=e806]:
+                              - listitem [ref=e807]:
+                                - link "Fibonacci retracement" [ref=e808] [cursor=pointer]:
+                                  - /url: /wiki/Fibonacci_retracement
+                                - text: ·
+                              - listitem [ref=e809]:
+                                - link "Pivot point" [ref=e810] [cursor=pointer]:
+                                  - /url: /wiki/Pivot_point_(technical_analysis)
+                                - text: (PP)
+                        - row "Trend Average directional index (A.D.X.) · Commodity channel index (CCI) · Detrended price oscillator (DPO) · Know sure thing oscillator (KST) · Ichimoku Kinkō Hyō · Moving average convergence/divergence (MACD) · Mass index · Moving average (MA) · Parabolic SAR (SAR) · Smart money index (SMI) · Trend line · Trix · Vortex indicator (VI)" [ref=e811]:
+                          - rowheader "Trend" [ref=e812]:
+                            - link "Trend" [ref=e813] [cursor=pointer]:
+                              - /url: /wiki/Market_trend
+                          - cell "Average directional index (A.D.X.) · Commodity channel index (CCI) · Detrended price oscillator (DPO) · Know sure thing oscillator (KST) · Ichimoku Kinkō Hyō · Moving average convergence/divergence (MACD) · Mass index · Moving average (MA) · Parabolic SAR (SAR) · Smart money index (SMI) · Trend line · Trix · Vortex indicator (VI)" [ref=e814]:
+                            - list [ref=e816]:
+                              - listitem [ref=e817]:
+                                - link "Average directional index" [ref=e818] [cursor=pointer]:
+                                  - /url: /wiki/Average_directional_movement_index
+                                - text: (A.D.X.) ·
+                              - listitem [ref=e819]:
+                                - link "Commodity channel index" [ref=e820] [cursor=pointer]:
+                                  - /url: /wiki/Commodity_channel_index
+                                - text: (CCI) ·
+                              - listitem [ref=e821]:
+                                - link "Detrended price oscillator" [ref=e822] [cursor=pointer]:
+                                  - /url: /wiki/Detrended_price_oscillator
+                                - text: (DPO) ·
+                              - listitem [ref=e823]:
+                                - link "Know sure thing oscillator" [ref=e824] [cursor=pointer]:
+                                  - /url: /wiki/KST_oscillator
+                                - text: (KST) ·
+                              - listitem [ref=e825]:
+                                - link "Ichimoku Kinkō Hyō" [ref=e826] [cursor=pointer]:
+                                  - /url: /wiki/Ichimoku_Kink%C5%8D_Hy%C5%8D
+                                - text: ·
+                              - listitem [ref=e827]:
+                                - link "Moving average convergence/divergence" [ref=e828] [cursor=pointer]:
+                                  - /url: /wiki/MACD
+                                - text: (MACD) ·
+                              - listitem [ref=e829]:
+                                - link "Mass index" [ref=e830] [cursor=pointer]:
+                                  - /url: /wiki/Mass_index
+                                - text: ·
+                              - listitem [ref=e831]:
+                                - link "Moving average" [ref=e832] [cursor=pointer]:
+                                  - /url: /wiki/Moving_average
+                                - text: (MA) ·
+                              - listitem [ref=e833]:
+                                - link "Parabolic SAR" [ref=e834] [cursor=pointer]:
+                                  - /url: /wiki/Parabolic_SAR
+                                - text: (SAR) ·
+                              - listitem [ref=e835]:
+                                - link "Smart money index" [ref=e836] [cursor=pointer]:
+                                  - /url: /wiki/Smart_money_index
+                                - text: (SMI) ·
+                              - listitem [ref=e837]:
+                                - link "Trend line" [ref=e838] [cursor=pointer]:
+                                  - /url: /wiki/Trend_line_(technical_analysis)
+                                - text: ·
+                              - listitem [ref=e839]:
+                                - link "Trix" [ref=e840] [cursor=pointer]:
+                                  - /url: /wiki/Trix_(technical_analysis)
+                                - text: ·
+                              - listitem [ref=e841]:
+                                - link "Vortex indicator" [ref=e842] [cursor=pointer]:
+                                  - /url: /wiki/Vortex_indicator
+                                - text: (VI)
+                        - row "Momentum Money flow index (MFI) · Relative strength index (RSI) · Stochastic oscillator · True strength index (TSI) · Ultimate oscillator · Williams %R (%R)" [ref=e843]:
+                          - rowheader "Momentum" [ref=e844]:
+                            - link "Momentum" [ref=e845] [cursor=pointer]:
+                              - /url: /wiki/Momentum_(finance)
+                          - cell "Money flow index (MFI) · Relative strength index (RSI) · Stochastic oscillator · True strength index (TSI) · Ultimate oscillator · Williams %R (%R)" [ref=e846]:
+                            - list [ref=e848]:
+                              - listitem [ref=e849]:
+                                - link "Money flow index" [ref=e850] [cursor=pointer]:
+                                  - /url: /wiki/Money_flow_index
+                                - text: (MFI) ·
+                              - listitem [ref=e851]:
+                                - link "Relative strength index" [ref=e852] [cursor=pointer]:
+                                  - /url: /wiki/Relative_strength_index
+                                - text: (RSI) ·
+                              - listitem [ref=e853]:
+                                - link "Stochastic oscillator" [ref=e854] [cursor=pointer]:
+                                  - /url: /wiki/Stochastic_oscillator
+                                - text: ·
+                              - listitem [ref=e855]:
+                                - link "True strength index" [ref=e856] [cursor=pointer]:
+                                  - /url: /wiki/True_strength_index
+                                - text: (TSI) ·
+                              - listitem [ref=e857]:
+                                - link "Ultimate oscillator" [ref=e858] [cursor=pointer]:
+                                  - /url: /wiki/Ultimate_oscillator
+                                - text: ·
+                              - listitem [ref=e859]:
+                                - link "Williams %R" [ref=e860] [cursor=pointer]:
+                                  - /url: /wiki/Williams_%25R
+                                - text: (%R)
+                        - row "Volume Accumulation/distribution line · Ease of movement (EMV) · Force index (FI) · Negative volume index (NVI) · On-balance volume (OBV) · Put/call ratio (PCR) · Volume–price trend (VPT)" [ref=e861]:
+                          - rowheader "Volume" [ref=e862]:
+                            - link "Volume" [ref=e863] [cursor=pointer]:
+                              - /url: /wiki/Volume_(finance)
+                          - cell "Accumulation/distribution line · Ease of movement (EMV) · Force index (FI) · Negative volume index (NVI) · On-balance volume (OBV) · Put/call ratio (PCR) · Volume–price trend (VPT)" [ref=e864]:
+                            - list [ref=e866]:
+                              - listitem [ref=e867]:
+                                - link "Accumulation/distribution line" [ref=e868] [cursor=pointer]:
+                                  - /url: /wiki/Accumulation/distribution_index
+                                - text: ·
+                              - listitem [ref=e869]:
+                                - link "Ease of movement" [ref=e870] [cursor=pointer]:
+                                  - /url: /wiki/Ease_of_movement
+                                - text: (EMV) ·
+                              - listitem [ref=e871]:
+                                - link "Force index" [ref=e872] [cursor=pointer]:
+                                  - /url: /wiki/Force_index
+                                - text: (FI) ·
+                              - listitem [ref=e873]:
+                                - link "Negative volume index" [ref=e874] [cursor=pointer]:
+                                  - /url: /wiki/Negative_volume_index
+                                - text: (NVI) ·
+                              - listitem [ref=e875]:
+                                - link "On-balance volume" [ref=e876] [cursor=pointer]:
+                                  - /url: /wiki/On-balance_volume
+                                - text: (OBV) ·
+                              - listitem [ref=e877]:
+                                - link "Put/call ratio" [ref=e878] [cursor=pointer]:
+                                  - /url: /wiki/Put/call_ratio
+                                - text: (PCR) ·
+                              - listitem [ref=e879]:
+                                - link "Volume–price trend" [ref=e880] [cursor=pointer]:
+                                  - /url: /wiki/Volume%E2%80%93price_trend
+                                - text: (VPT)
+                        - row "Volatility Average true range (ATR) · Bollinger Bands (BB) · Donchian channel · Keltner channel · CBOE Market Volatility Index (VIX) · Standard deviation (σ)" [ref=e881]:
+                          - rowheader "Volatility" [ref=e882]:
+                            - link "Volatility" [ref=e883] [cursor=pointer]:
+                              - /url: /wiki/Volatility_(finance)
+                          - cell "Average true range (ATR) · Bollinger Bands (BB) · Donchian channel · Keltner channel · CBOE Market Volatility Index (VIX) · Standard deviation (σ)" [ref=e884]:
+                            - list [ref=e886]:
+                              - listitem [ref=e887]:
+                                - link "Average true range" [ref=e888] [cursor=pointer]:
+                                  - /url: /wiki/Average_true_range
+                                - text: (ATR) ·
+                              - listitem [ref=e889]:
+                                - link "Bollinger Bands" [ref=e890] [cursor=pointer]:
+                                  - /url: /wiki/Bollinger_Bands
+                                - text: (BB) ·
+                              - listitem [ref=e891]:
+                                - link "Donchian channel" [ref=e892] [cursor=pointer]:
+                                  - /url: /wiki/Donchian_channel
+                                - text: ·
+                              - listitem [ref=e893]:
+                                - link "Keltner channel" [ref=e894] [cursor=pointer]:
+                                  - /url: /wiki/Keltner_channel
+                                - text: ·
+                              - listitem [ref=e895]:
+                                - link "CBOE Market Volatility Index" [ref=e896] [cursor=pointer]:
+                                  - /url: /wiki/VIX
+                                - text: (VIX) ·
+                              - listitem [ref=e897]:
+                                - link "Standard deviation" [ref=e898] [cursor=pointer]:
+                                  - /url: /wiki/Standard_deviation
+                                - text: (σ)
+                        - row "Breadth Advance–decline line (ADL) · Arms index (TRIN) · McClellan oscillator" [ref=e899]:
+                          - rowheader "Breadth" [ref=e900]:
+                            - link "Breadth" [ref=e901] [cursor=pointer]:
+                              - /url: /wiki/Breadth_of_market
+                          - cell "Advance–decline line (ADL) · Arms index (TRIN) · McClellan oscillator" [ref=e902]:
+                            - list [ref=e904]:
+                              - listitem [ref=e905]:
+                                - link "Advance–decline line" [ref=e906] [cursor=pointer]:
+                                  - /url: /wiki/Advance%E2%80%93decline_line
+                                - text: (ADL) ·
+                              - listitem [ref=e907]:
+                                - link "Arms index" [ref=e908] [cursor=pointer]:
+                                  - /url: /wiki/TRIN_(finance)
+                                - text: (TRIN) ·
+                              - listitem [ref=e909]:
+                                - link "McClellan oscillator" [ref=e910] [cursor=pointer]:
+                                  - /url: /wiki/McClellan_oscillator
+                        - row "Other Coppock curve · Ulcer index" [ref=e911]:
+                          - rowheader "Other" [ref=e912]
+                          - cell "Coppock curve · Ulcer index" [ref=e913]:
+                            - list [ref=e915]:
+                              - listitem [ref=e916]:
+                                - link "Coppock curve" [ref=e917] [cursor=pointer]:
+                                  - /url: /wiki/Coppock_curve
+                                - text: ·
+                              - listitem [ref=e918]:
+                                - link "Ulcer index" [ref=e919] [cursor=pointer]:
+                                  - /url: /wiki/Ulcer_index
+                - row "Analysts John Bollinger · Ned Davis · Charles Dow · Ralph Nelson Elliott · Bob Farrell · John Murphy · Mark Hulbert" [ref=e920]:
+                  - rowheader "Analysts" [ref=e921]
+                  - cell "John Bollinger · Ned Davis · Charles Dow · Ralph Nelson Elliott · Bob Farrell · John Murphy · Mark Hulbert" [ref=e922]:
+                    - list [ref=e924]:
+                      - listitem [ref=e925]:
+                        - link "John Bollinger" [ref=e926] [cursor=pointer]:
+                          - /url: /wiki/John_Bollinger
+                        - text: ·
+                      - listitem [ref=e927]:
+                        - link "Ned Davis" [ref=e928] [cursor=pointer]:
+                          - /url: /wiki/Ned_Davis_(analyst)
+                        - text: ·
+                      - listitem [ref=e929]:
+                        - link "Charles Dow" [ref=e930] [cursor=pointer]:
+                          - /url: /wiki/Charles_Dow
+                        - text: ·
+                      - listitem [ref=e931]:
+                        - link "Ralph Nelson Elliott" [ref=e932] [cursor=pointer]:
+                          - /url: /wiki/Ralph_Nelson_Elliott
+                        - text: ·
+                      - listitem [ref=e933]:
+                        - link "Bob Farrell" [ref=e934] [cursor=pointer]:
+                          - /url: /wiki/Robert_Farrell_(technical_analyst)
+                        - text: ·
+                      - listitem [ref=e935]:
+                        - link "John Murphy" [ref=e936] [cursor=pointer]:
+                          - /url: /wiki/John_Murphy_(technical_analyst)
+                        - text: ·
+                      - listitem [ref=e937]:
+                        - link "Mark Hulbert" [ref=e938] [cursor=pointer]:
+                          - /url: /wiki/Mark_Hulbert
+        - generic [ref=e940]:
+          - link "Categories" [ref=e941] [cursor=pointer]:
+            - /url: /wiki/Help:Category
+          - text: ":"
+          - list [ref=e942]:
+            - listitem [ref=e943]:
+              - link "Candlestick patterns" [ref=e944] [cursor=pointer]:
+                - /url: /wiki/Category:Candlestick_patterns
+            - listitem [ref=e945]:
+              - link "Technical analysis" [ref=e946] [cursor=pointer]:
+                - /url: /wiki/Category:Technical_analysis
+    - contentinfo [ref=e948]:
+      - list [ref=e949]:
+        - listitem [ref=e950]: This page was last edited on 15 March 2026, at 21:05 (UTC).
+        - listitem [ref=e951]:
+          - text: Text is available under the
+          - link "Creative Commons Attribution-ShareAlike 4.0 License" [ref=e952] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+          - text: ; additional terms may apply. By using this site, you agree to the
+          - link "Terms of Use" [ref=e953] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+          - text: and
+          - link "Privacy Policy" [ref=e954] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+          - text: . Wikipedia® is a registered trademark of the
+          - link "Wikimedia Foundation, Inc." [ref=e955] [cursor=pointer]:
+            - /url: https://wikimediafoundation.org/
+          - text: ", a non-profit organization."
+      - list:
+        - listitem [ref=e956]:
+          - link "Privacy policy" [ref=e957] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e958]:
+          - link "About Wikipedia" [ref=e959] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:About
+        - listitem [ref=e960]:
+          - link "Disclaimers" [ref=e961] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:General_disclaimer
+        - listitem [ref=e962]:
+          - link "Contact Wikipedia" [ref=e963] [cursor=pointer]:
+            - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+        - listitem [ref=e964]:
+          - link "Legal & safety contacts" [ref=e965] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+        - listitem [ref=e966]:
+          - link "Code of Conduct" [ref=e967] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e968]:
+          - link "Developers" [ref=e969] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e970]:
+          - link "Statistics" [ref=e971] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/en.wikipedia.org
+        - listitem [ref=e972]:
+          - link "Cookie statement" [ref=e973] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e974]:
+          - link "Mobile view" [ref=e975] [cursor=pointer]:
+            - /url: //en.wikipedia.org/w/index.php?title=Candlestick_pattern&mobileaction=toggle_view_mobile
+      - list [ref=e976]:
+        - listitem [ref=e977]:
+          - link "Wikimedia Foundation" [ref=e978] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e980]
+        - listitem [ref=e981]:
+          - link "Powered by MediaWiki" [ref=e982] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e984]
+  - generic [ref=e985]:
+    - list
